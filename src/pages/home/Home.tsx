@@ -1,22 +1,20 @@
-import MathJax from 'react-mathjax';
+import { useState } from 'react';
+import Textarea2MathJax from 'src/component/Textarea2MathJax';
 
 const Home = () => {
-  const tex =
-    '\\begin{array} {|r|r|}\\hline 0_0 & 0_1 & 0_2 \\\\ \\hline 1_0 & 1_1 & 1_2 \\\\ \\hline  \\end{array}';
+  const [value, setValue] = useState<string>();
+  const [countdown, setCountdown] = useState<NodeJS.Timeout>();
+
+  const handleEvent = (ev: { target: HTMLTextAreaElement }) => {
+    if (countdown) clearTimeout(countdown);
+    const newCountdown = setTimeout(() => setValue(ev.target.value), 600);
+    setCountdown(newCountdown);
+  };
 
   return (
     <div>
-      <div>gigggi</div>
-      <button className="uk-button">123</button>
-      <div>
-        <MathJax.Provider>
-          <div>
-            已知某方程式This is an inline math formula: <MathJax.Node inline={true} formula={tex} />
-            . And a block one:
-            <MathJax.Node formula={tex} />
-          </div>
-        </MathJax.Provider>
-      </div>
+      <textarea className="uk-textarea" rows={4} placeholder="Textarea" onChange={handleEvent} />
+      {value && <Textarea2MathJax text={value} />}
     </div>
   );
 };
