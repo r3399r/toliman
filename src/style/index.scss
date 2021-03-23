@@ -1,0 +1,10 @@
+@import 'uikit';
+
+:root {
+  // color: #fff;
+  // background-color: #1b172f;
+
+  // define custom property to avoid warning
+  // https://getuikit.com/docs/animation#svg-strokes
+  --uk-animation-stroke: 46;
+}
