@@ -1,3 +1,5 @@
+import { Dropbox } from 'dropbox';
+import _fetch from 'isomorphic-fetch';
 import { useEffect, useState } from 'react';
 import { CopyToClipboard } from 'react-copy-to-clipboard';
 import Textarea2MathJax from 'src/component/Textarea2MathJax';
@@ -11,6 +13,8 @@ const Home = () => {
 
   const [answer, setAnswer] = useState<string>();
   const [isAnsAreaDisable, setIsAnsAreaDisable] = useState<boolean>(false);
+
+  const [imgSrc, setImgSrc] = useState<string>();
 
   useEffect(() => {
     setId((Date.now() * 1000 + Math.floor(Math.random() * 1000)).toString(16));
@@ -34,6 +38,25 @@ const Home = () => {
       setIsQueAreaDisable(false);
     }, 600);
     setCountdown(newCountdown);
+  };
+
+  const uploadImage = (ev: any) => {
+    setImgSrc(URL.createObjectURL(ev.target.files[0]));
+
+    const reader = new FileReader();
+    reader.onload = () => {
+      const dropbox = new Dropbox({
+        accessToken: 'oDm3_-3br4cAAAAAAAG4jAOBl0tgqzsLfNyQNjisoLRuwEpX5Fc40fPNKIAtFEYy',
+        fetch: _fetch,
+      });
+      if (reader.result === null) return;
+      dropbox.filesUpload({
+        contents: reader.result,
+        path: `/toliman/${ev.target.files[0].name}`,
+        mode: { '.tag': 'overwrite' },
+      });
+    };
+    reader.readAsArrayBuffer(ev.target.files[0]);
   };
 
   const result: string = JSON.stringify({ id, question, answer });
@@ -63,6 +86,10 @@ const Home = () => {
       <CopyToClipboard text={result}>
         <button>Copy to clipboard with button</button>
       </CopyToClipboard>
+      <div>
+        <input type="file" onChange={uploadImage} />
+      </div>
+      <img src={imgSrc} alt="" role="presentation" />
     </div>
   );
 };
