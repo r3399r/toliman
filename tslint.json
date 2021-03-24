@@ -20,6 +20,7 @@
     "import-name": false,
     "import-spacing": true,
     "indent": [true, "spaces"],
+    "insecure-random": false,
     "linebreak-style": [true, "LF"],
     "max-line-length": [true, 140],
     "newline-before-return": true,
