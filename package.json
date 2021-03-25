@@ -5,13 +5,19 @@
   "scripts": {
     "start": "cross-env BROWSER=none react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test",
+    "test": "react-scripts test --coverage --watchAll",
+    "test:nowatch": "npm run test -- --watchAll=false",
     "eject": "react-scripts eject",
-    "format": "prettier --list-different \"{src,public}/**/*.{tsx,ts,html,scss,json}\"",
-    "format:fix": "npm run format -- --write",
-    "lint": "tslint --project .",
-    "lint:fix": "npm run lint -- --fix",
-    "fix": "run-s format:fix lint:fix"
+    "lint:ts": "tslint --project .",
+    "fix:ts": "npm run lint:ts -- --fix",
+    "lint:format": "prettier --list-different \"{src,public}/**/*.{tsx,ts,html,scss,json}\"",
+    "fix:format": "npm run lint:format -- --write",
+    "lint": "run-s lint:*",
+    "fix": "run-s fix:*",
+    "clean": "del-cli dist -f",
+    "pre:dev": "run-s clean fix build test:nowatch",
+    "pre:commit": "run-s lint test:nowatch",
+    "pre:deploy": "run-s clean build"
   },
   "dependencies": {
     "@loadable/component": "^5.14.1",
@@ -40,6 +46,8 @@
     "@types/react-mathjax": "^1.0.0",
     "@types/react-router-dom": "^5.1.7",
     "cross-env": "^7.0.3",
+    "del-cli": "^3.0.1",
+    "husky": "^4.3.0",
     "node-sass": "^5.0.0",
     "npm-run-all": "^4.1.5",
     "prettier": "^2.2.1",
@@ -48,6 +56,20 @@
     "tslint-microsoft-contrib": "^6.2.0",
     "tslint-react": "^5.0.0",
     "typescript": "^4.1.2"
+  },
+  "jest": {
+    "coveragePathIgnorePatterns": [
+      "<rootDir>/src/index.tsx",
+      "<rootDir>/src/reportWebVitals.ts"
+    ],
+    "coverageThreshold": {
+      "global": {
+        "statements": 3,
+        "branches": 0,
+        "functions": 6,
+        "lines": 3
+      }
+    }
   },
   "browserslist": {
     "production": [
@@ -60,5 +82,10 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm run pre:commit"
+    }
   }
 }
