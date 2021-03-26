@@ -5,7 +5,7 @@
   "scripts": {
     "start": "cross-env BROWSER=none react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test --coverage --watchAll",
+    "test": "react-scripts test --coverage",
     "test:nowatch": "npm run test -- --watchAll=false",
     "eject": "react-scripts eject",
     "lint:ts": "tslint --project .",
@@ -45,6 +45,7 @@
     "@types/react-dom": "^17.0.0",
     "@types/react-mathjax": "^1.0.0",
     "@types/react-router-dom": "^5.1.7",
+    "@types/uikit": "^3.3.1",
     "cross-env": "^7.0.3",
     "del-cli": "^3.0.1",
     "husky": "^4.3.0",
@@ -64,9 +65,9 @@
     ],
     "coverageThreshold": {
       "global": {
-        "statements": 3,
+        "statements": 2,
         "branches": 0,
-        "functions": 6,
+        "functions": 4,
         "lines": 3
       }
     }

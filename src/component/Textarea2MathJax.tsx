@@ -3,11 +3,12 @@ import MathJax from 'react-mathjax';
 type Props = {
   text: string;
   allowBlock?: boolean;
+  className?: string;
 };
 
-const Textarea2MathJax = ({ text, allowBlock = true }: Props) => {
+const Textarea2MathJax = ({ className, text, allowBlock = true }: Props) => {
   return (
-    <div>
+    <div className={className}>
       <MathJax.Provider>
         {text.split('\n').map((line: string, index: number) => {
           const splited: string[] = line.split('$$');
