@@ -7,7 +7,7 @@
 /.vscode
 
 # production
-/build
+/dist
 /public/locales
 
 # misc

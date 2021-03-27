@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "start": "cross-env BROWSER=none react-scripts start",
-    "build": "react-scripts build",
+    "build": "cross-env BUILD_PATH='./dist' react-scripts build",
     "test": "react-scripts test --coverage",
     "test:nowatch": "npm run test -- --watchAll=false",
     "eject": "react-scripts eject",
@@ -21,6 +21,7 @@
   },
   "dependencies": {
     "@loadable/component": "^5.14.1",
+    "classnames": "^2.2.6",
     "dropbox": "^9.2.0",
     "isomorphic-fetch": "^3.0.0",
     "react": "^17.0.1",
@@ -37,6 +38,7 @@
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^12.1.10",
+    "@types/classnames": "^2.2.11",
     "@types/isomorphic-fetch": "0.0.35",
     "@types/jest": "^26.0.15",
     "@types/node": "^12.0.0",
@@ -65,10 +67,10 @@
     ],
     "coverageThreshold": {
       "global": {
-        "statements": 2,
+        "statements": 0,
         "branches": 0,
-        "functions": 4,
-        "lines": 3
+        "functions": 0,
+        "lines": 0
       }
     }
   },

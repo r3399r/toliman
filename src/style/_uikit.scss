@@ -2,6 +2,8 @@
 
 // font family
 $global-font-family: 'Lato', 'Noto Sans TC', sans-serif;
+$grid-gutter-horizontal: 0;
+$grid-gutter-horizontal-l: 0;
 
 // 2. Import default variables and available mixins.
 @import 'node_modules/uikit/src/scss/variables-theme.scss';
