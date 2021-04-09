@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack://src/pages/home/Home.module.scss"],"names":[],"mappings":"AAAA,qBACE,YAAa,CACd,iBAEC,gBAAiB,CAClB,iBAEC,aAAc","file":"4.58e68ae2.chunk.css","sourcesContent":[".content {\n  padding: 20px;\n}\n.img {\n  max-height: 150px;\n}\n.ans {\n  color: #a0a0a0;\n}\n"]}
