@@ -10,10 +10,10 @@ const route = {
 const AppRoutes = () => {
   return (
     <Switch>
-      <Route exact={true} path="/child" component={route.Child} />
-      <Route exact={true} path="/hw" component={route.Hw} />
-      <Route exact={true} path="/" component={route.Home} />
-      <Redirect to="/" />
+      <Route exact={true} path="/toliman/child" component={route.Child} />
+      <Route exact={true} path="/toliman/hw" component={route.Hw} />
+      <Route exact={true} path="/toliman" component={route.Home} />
+      <Redirect to="/toliman" />
     </Switch>
   );
 };
