@@ -91,5 +91,6 @@
     "hooks": {
       "pre-commit": "npm run pre:commit"
     }
-  }
+  },
+  "homepage": "https://r3399r.github.io/toliman/"
 }
