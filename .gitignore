@@ -9,6 +9,7 @@
 # production
 /dist
 /public/locales
+/build
 
 # misc
 npm-debug.log*

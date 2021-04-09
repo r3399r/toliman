@@ -1,19 +1,21 @@
+import { GoogleSpreadsheet } from 'google-spreadsheet';
 import { useEffect, useState } from 'react';
 import { CopyToClipboard } from 'react-copy-to-clipboard';
 import Textarea2MathJax from 'src/component/Textarea2MathJax';
 import { uploadFile } from 'src/services/dropboxService';
+import { aaa } from 'src/services/googleService';
 import style from './Home.module.scss';
 
 const Home = () => {
   const [countdown, setCountdown] = useState<NodeJS.Timeout>();
   const [id, setId] = useState<string>();
 
-  const [chapter, setChapter] = useState<string>();
+  const [chapter, setChapter] = useState<string>('');
 
-  const [question, setQuestion] = useState<string>();
+  const [question, setQuestion] = useState<string>('');
   const [isQueAreaDisable, setIsQueAreaDisable] = useState<boolean>(false);
 
-  const [answer, setAnswer] = useState<string>();
+  const [answer, setAnswer] = useState<string>('');
   const [isAnsAreaDisable, setIsAnsAreaDisable] = useState<boolean>(false);
 
   const [hasImage, setHasImage] = useState<boolean>(false);
@@ -22,6 +24,15 @@ const Home = () => {
   useEffect(() => {
     setId((Date.now() * 1000 + Math.floor(Math.random() * 1000)).toString(16));
   }, []);
+
+  const handleEdit = (ev: { target: HTMLInputElement }) => {
+    const obj = JSON.parse(ev.target.value);
+
+    setId(obj.id);
+    setChapter(obj.chapter);
+    setQuestion(obj.question);
+    setAnswer(obj.answer);
+  };
 
   const handleChapterInput = (ev: { target: HTMLInputElement }) => {
     setChapter(ev.target.value);
@@ -65,10 +76,16 @@ const Home = () => {
     reader.readAsArrayBuffer(image);
   };
 
+  const handleTest = () => {
+    aaa();
+  };
+
   const result: string = JSON.stringify({ id, chapter, question, answer, hasImage });
 
   return (
     <div className={style.content}>
+      <div>編輯</div>
+      <input className="uk-input" type="text" placeholder="貼入字串" onChange={handleEdit} />
       <div>ID: {id}</div>
       <div>章節</div>
       <input
@@ -76,6 +93,7 @@ const Home = () => {
         type="text"
         placeholder="輸入章節"
         onChange={handleChapterInput}
+        value={chapter}
       />
       <div>題目</div>
       <textarea
@@ -137,6 +155,11 @@ const Home = () => {
           </a>
         </div>
       )}
+      <div>
+        <button className="uk-button uk-button-secondary" onClick={handleTest}>
+          測試
+        </button>
+      </div>
     </div>
   );
 };
