@@ -1,6 +1,7 @@
 import { GoogleSpreadsheet } from 'google-spreadsheet';
 import { useEffect, useState } from 'react';
 import { CopyToClipboard } from 'react-copy-to-clipboard';
+import { useHistory } from 'react-router-dom';
 import Textarea2MathJax from 'src/component/Textarea2MathJax';
 import { uploadFile } from 'src/services/dropboxService';
 import { aaa } from 'src/services/googleService';
@@ -82,6 +83,11 @@ const Home = () => {
 
   const result: string = JSON.stringify({ id, chapter, question, answer, hasImage });
 
+  const history = useHistory();
+  const testRouter = () => {
+    history.push('/toliman/hw');
+  };
+
   return (
     <div className={style.content}>
       <div>編輯</div>
@@ -158,6 +164,11 @@ const Home = () => {
       <div>
         <button className="uk-button uk-button-secondary" onClick={handleTest}>
           測試
+        </button>
+      </div>
+      <div>
+        <button className="uk-button uk-button-secondary" onClick={testRouter}>
+          跳轉
         </button>
       </div>
     </div>
