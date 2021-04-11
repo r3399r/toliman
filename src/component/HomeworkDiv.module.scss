@@ -1,11 +1,20 @@
 .grid {
   display: flex;
   flex-wrap: wrap;
+  line-height: 25px;
+}
+.left {
+  padding-left: 23px;
   > div {
     padding: 5px;
+    border-top: 1px solid #000000;
+    border-right: 1px solid #000000;
   }
-  > div > div {
+}
+.right {
+  padding-right: 23px;
+  > div {
     padding: 5px;
-    border: 1px solid #000000;
+    border-top: 1px solid #000000;
   }
 }
