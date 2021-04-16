@@ -12,7 +12,7 @@ const HomeworkDiv = ({ children }: Props) => {
       {children.map((child: ReactNode, i: number) => (
         <div
           key={i}
-          className={classNames('uk-width-1-2', {
+          className={classNames(style.card, {
             [style.left]: i % 2 === 0,
             [style.right]: i % 2 === 1,
           })}

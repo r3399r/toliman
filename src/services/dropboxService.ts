@@ -15,12 +15,20 @@ type CommitedFile = {
   path: string;
 };
 
-export const uploadFile = (commitedFile: CommitedFile) => {
+export const uploadFile = async (commitedFile: CommitedFile) => {
   if (dropbox === undefined) initDropbox();
 
-  dropbox.filesUpload({
+  return await dropbox.filesUpload({
     contents: commitedFile.contents,
     path: commitedFile.path,
     mode: { '.tag': 'overwrite' },
+  });
+};
+
+export const loadFile = async (id: string) => {
+  if (dropbox === undefined) initDropbox();
+
+  return await dropbox.filesDownload({
+    path: `/toliman/${id}.jpg`,
   });
 };

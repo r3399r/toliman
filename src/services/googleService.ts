@@ -1,17 +1,27 @@
-import { GoogleSpreadsheet } from 'google-spreadsheet';
+import { GoogleSpreadsheet, GoogleSpreadsheetRow } from 'google-spreadsheet';
 
-export const aaa = async () => {
-  const doc = new GoogleSpreadsheet('1k16_pqSRfqfW-vjtebml8WdQBshF7ova4t7YDhzZT7M');
+let doc: GoogleSpreadsheet;
 
+const initGoogleSpreadsheet = async () => {
+  doc = new GoogleSpreadsheet('1tr5Kbe-q99fNAZSBwvMpA6ZUaHvkPZiu66mpwJaYKf0');
   await doc.useServiceAccountAuth({
-    client_email: 'line-bot@symbolic-math-265616.iam.gserviceaccount.com',
+    client_email: 'tolimanbuilder@toliman-310514.iam.gserviceaccount.com',
     private_key:
-      '-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQC9B8C7qTJUqPUO\n6XXaBgjpsydkNHhSuyEDuvnvABK0tlH3vMwVBcc2eAJzOQD3CxrWd9ydmgdcBvUj\nbwSAEaXPboZiGhamNtnXkPc4q2eZnunu4qwrDaJptyGYvUKROUwbKb69koR/qVec\nKk9ePN5bnK4czYe9uMiX0NIsWDdPmPMGS060l+ez3MPOCRnItWbQgsyI7Bb7ELEq\nDYDl3efuQsENEd4QhRd+35ZWhNkCJXscy1AVapT+k3NyJXrbczXN1A289HV9sydI\njEJq/AZ4GBYXfZ29VbdFQYyZ3sEyLOuxEfgGUjPquhAvAtlu4lQXLEdHgymZM+eC\nk8IwP3y7AgMBAAECggEAFwKdlyUb0lXALEYw/rmOANy6Znvt9awqcv4iCdI0H2QI\n4E5OzXRRnAjJy5Ax1OC42J3om2qyNfqcK+m0s4jyan4QGlsF93UP2X91CKSczNod\nAeOn2j8jo8NoxziqpMDudGla0FAd6ZMJ7iGcXbgCcpvE+g6Zf80W5fFuftASPjxa\n7iYR/rPH53Me0b2YOq/WKsdSFb1eNjSaR5O/sPFAzmLfCM+sRqnJxc3LGf4LQB1q\nMkkvA+u+SRZSnxqMh2Z2c6FB6WR2ZV0MGqyjIHubjRqcxktzcz5AAiHwGGBjeJGC\nzkxOR3jsJ+E+sHndAszyBuUk8KnT3+KsTwEvIX2FoQKBgQD/eoglhbg5Hxz1w6w7\ngp/6NYZ43pN5L+OHCeIH58bGDpRtUu6rObJdQEUh8KoPmdozzJWEDdIHZMcfBTj1\niLzwJ6hybieumqlqlaFyxBXpZW0xP5omjqQCx4wwy4G4Kpd67jly0yYIoHGNvk5v\nldemwqKl4hDRgT6aOb9UHo1ycQKBgQC9aoG/Owg+wIz82lqqbepaoE68vEfIFzlX\n0MIEhGtM+I+M44rd1XD1PQCI4L4MTyALPZNGZQQ1AcJ0nnm3T0Hd01yfRtngUW7x\nfsTuL8p2QlYz5MVHBpeATRVwLwBwuSATrOSWv9NNt8rJIcHgHpIO0BO3m8KoZBQa\nBsCSpqff6wKBgQCA5ifPFrquR15rOYCqvetNaLgiP9qUaG8Z8QiUCIMn5q9IwXEd\n/wxZNFYtG6oSGQQY4n4FlJuFk3lL02y7pXP+j2PT6HQpCmu0FS7SItETY1NGZ9q0\n3X8uz9ORwvv+Ga84HP3rS1GDRMBGTeBxOF8ICmfZ3keyDM2zLrO0E342YQKBgE0s\nrfyKQsu+jDMhjDtQWWHfWvVPCTgfLj/3UHWitk1AIMzYkOXdZw6kcilS2FwPiRDL\nX8wYsGQgeWgmgZUMd9u3mE9VAMSCqV8/tWEOm8EfOhweo7pSlzuxLIDuxZEn/EfH\n88LwGVna/oaAeIumKQBcCwyOK/uL+xy3j5Kw0ElNAoGBALagmZF/04oHfDnEg2bT\nGVfgTBQLoKk0mhN7QQjabfYj9Q7M3856/jHSuxW4l7FkQTma2CtNz7HMohdojniC\nCoVJ1VV84/SdLC+lefpnjZYLNnAXWTEa3IEEaL7RJpGgIzewQAwOHTyH8iVXbA0l\nSNY4JM1ib43Waswh49yoACTY\n-----END PRIVATE KEY-----\n',
+      '-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQCzZ2sZNOuzTP05\nGX4fDAjicsppzqvLrib/NEWueo2kXuhfpt7QL6+ma4ovX3Dsd79wicybYJowg+3g\nOkWz004AtG2+X21k0eyDuWLUrcbrZ4NqAFpP2OTJKkdIKffegpfNzKjzbjIYbv88\nOcbvU8EOsJ4Qz1zU/YrX8D+qkSy34pdNykx2e9Am9jI3W98jUYFcY936e0z5M7cL\n75T56b5xjhSBYF0K3vmI4v8qzbyxdRdP6dVr6mUE66P9XBjO0Xuw+VV32CFtPmFa\nbmMtJXVzuQm8ksjd0wskvn7Qya/WIklhhT86eFuNj0rouUOdCRByMPS2kTtf7JLY\nPg4NsFODAgMBAAECggEAAw8g4uGloT2PVdFq9qGQZzgY3nwBLuxtys074PFDCAn8\nQWFJjFg70QUlapBgjw+tqoAXBpE7n9coD7o+pQXV3yo0ctoStfTkaQyYtFKwQSRX\nN9AAujrTD+ESLRdWHCuy5fX27Yuz+/msjXzYuQz/Dj6Ru2ylwxX9r5fvpftqvUnv\nBos6jL1z1inrilGQqK5yqLP6x8Bw1nQf0jku4w32ufzuAzMz8gXAp+UI2Cp+VBaq\naefntiStusyFr/UnY8DssDSZBGqqJ/YhqUQ7JA19ncbdJR28200Sob+rigpwgwl+\npa5vb0qNu0WmJHHziE3TPya/xq54S6/YKB7CKNbWKQKBgQDWZytooVbfK9fG0X+g\nVBmTNPl8yL5NsTkOoC6QSLSfD5D+GhxRHkXzU9NKHo+aXz2jpva6u1WNk1Xt+pIY\n+nzMevFXoQYHt6MD9x0QFFTff5q4A14nH7iZW0HVl2JN7vVu6DqN7i7PxSoiKnVQ\nOn8ETveMJ5y/+VE7SwPajtylOwKBgQDWNfCJWiBXlVjnRuj2736jjY4Bf84LGmZ+\nMKZODw0VUG2RKXqI86dqZbKlFKQxFAWgMz4aGyFMZUVrrZtNKoIrsBEalfLXtGVF\n7iqhfidekZ4NANIh59ACCRpRjUDFGepgj7kVeEYaxTciFAkU4xZZWAde1pn/46dn\nmHjKjZqGWQKBgQC3IK3yE4Ro4EDQf9Z78flaQ/ApBimNoKb0eBrtgDxOc/RLJbA0\nFSB4QowBDfNoTpsOcijhu+rKHyNRPimVjjYUTZpgV5gX9WEWnPZE6qjHsW1MaQv9\nbNm2mzyzHDeKC2W1EkQZQGzZaDWhsxQ6r4wX+P71xkvbqS8Z7uvevRF3SwKBgQC3\nyyoqP4k2fK7+KYpjrZPj8uXgBW+deTZtmYJnwWRBYHPSNFutvBluIfoIyFAkyAAX\ntz/WmGaWrOHGhPuWVx2/LF9Qh04IpACs4q/zRlGzQ4/vqj+h1ctUo8jQJjlnpFfE\nKCzu7faAq6wlcjlkkX+wguY4CjuyIfuV2G3zpVHraQKBgFfWPVCvgItCTCJVSlmC\nWgnbpeJi/sXiVlBhqsI8Mug93rE7unjQMREznsocoj1xazU5k06yPhxrAW4nPUnH\nVz477ABzWPV1FA6onnBrgTVxjirK2jnpMUmJhvcTorCbyQIYLFIMSAxzzxvgOZy1\nJ8nLltHU+PDOv0QL5e/cGURS\n-----END PRIVATE KEY-----\n',
   });
 
   await doc.loadInfo();
-  const sheet = doc.sheetsById['1496271896'];
+};
 
-  await sheet.setHeaderRow(['Name', 'Value']);
-  await sheet.addRow({ Name: 'new name', Value: 'new value' });
+export const addRow = async (sheetId: string, json: { [key: string]: string | boolean }) => {
+  await initGoogleSpreadsheet();
+  const sheet = doc.sheetsById[sheetId];
+  await sheet.addRow(json);
+};
+
+export const getRows = async (sheetId: string) => {
+  await initGoogleSpreadsheet();
+  const sheet = doc.sheetsById[sheetId];
+
+  return await sheet.getRows();
 };

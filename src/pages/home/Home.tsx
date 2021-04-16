@@ -1,3 +1,4 @@
+import { Button } from 'antd';
 import { useHistory } from 'react-router-dom';
 import style from './Home.module.scss';
 
@@ -11,19 +12,13 @@ const Home = () => {
   return (
     <div className={style.content}>
       <div className={style.button}>
-        <button className="uk-button uk-button-default" onClick={onClick('add')}>
-          增修題目
-        </button>
+        <Button onClick={onClick('edit')}>增修題目</Button>
       </div>
       <div className={style.button}>
-        <button className="uk-button uk-button-default" onClick={onClick('child')}>
-          講義
-        </button>
+        <Button onClick={onClick('child')}>講義</Button>
       </div>
       <div className={style.button}>
-        <button className="uk-button uk-button-default" onClick={onClick('hw')}>
-          作業
-        </button>
+        <Button onClick={onClick('hw')}>作業</Button>
       </div>
     </div>
   );

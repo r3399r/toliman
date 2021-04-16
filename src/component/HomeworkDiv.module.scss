@@ -1,7 +1,6 @@
 .grid {
   display: flex;
   flex-wrap: wrap;
-  line-height: 25px;
 }
 .left {
   padding-left: 23px;
@@ -17,4 +16,7 @@
     padding: 5px;
     border-top: 1px solid #000000;
   }
+}
+.card {
+  width: 50%;
 }

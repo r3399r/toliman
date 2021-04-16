@@ -1,14 +1,19 @@
 import MathJax from 'react-mathjax';
+import style from './Textarea2MathJax.module.scss';
 
 type Props = {
   text: string;
   allowBlock?: boolean;
   className?: string;
+  image?: File;
 };
 
-const Textarea2MathJax = ({ className, text, allowBlock = true }: Props) => {
+const Textarea2MathJax = ({ className, text, allowBlock = true, image }: Props) => {
   return (
     <div className={className}>
+      {image && (
+        <img className={style.image} src={URL.createObjectURL(image)} alt="" role="presentation" />
+      )}
       <MathJax.Provider>
         {text.split('\n').map((line: string, index: number) => {
           const splited: string[] = line.split('$$');
