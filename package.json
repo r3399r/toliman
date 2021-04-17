@@ -14,9 +14,10 @@
     "fix:format": "npm run lint:format -- --write",
     "lint": "run-s lint:*",
     "fix": "run-s fix:*",
-    "clean": "del-cli docs -f",
+    "clean": "del-cli build -f",
     "pre:dev": "run-s clean fix build test:nowatch",
     "pre:commit": "run-s lint test:nowatch",
+    "pre:deploy": "run-s clean build",
     "deploy": "gh-pages -d build"
   },
   "dependencies": {
