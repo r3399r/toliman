@@ -1,4 +1,3 @@
-import classNames from 'classnames';
 import HomeworkDiv from 'src/component/HomeworkDiv';
 import Textarea2MathJax from 'src/component/Textarea2MathJax';
 import style from './Hw.module.scss';

@@ -1,7 +1,7 @@
-import { Button, DatePicker, Input, Select, Upload } from 'antd';
+import { Button, Input, Select, Upload } from 'antd';
 import Checkbox from 'antd/lib/checkbox/Checkbox';
 import { GoogleSpreadsheetRow } from 'google-spreadsheet';
-import React, { useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 import Textarea2MathJax from 'src/component/Textarea2MathJax';
 import { loadFile } from 'src/services/dropboxService';
 import { getRows } from 'src/services/googleService';
@@ -86,7 +86,8 @@ const Home = () => {
   };
 
   const handleUpload = () => {
-    if (chapterId === '') alert('請選擇章節');
+    if (author === '') alert('請選擇作者');
+    else if (chapterId === '') alert('請選擇章節');
     else if (question === '') alert('請輸入題目');
     else if (answer === '') alert('請輸入答案');
     else if (hasImage && !image) alert('請上傳圖片');
@@ -150,7 +151,15 @@ const Home = () => {
       <hr />
       <div className={style.preview}>
         {isRendering === true && <div>產生中...</div>}
-        {isRendering === false && question && <Textarea2MathJax text={question} image={image} />}
+        {image && (
+          <img
+            className={style.image}
+            src={URL.createObjectURL(image)}
+            alt=""
+            role="presentation"
+          />
+        )}
+        {isRendering === false && question && <Textarea2MathJax text={question} />}
         {isRendering === false && answer && (
           <Textarea2MathJax className={style.ans} text={'Ans: ' + answer} allowBlock={false} />
         )}

@@ -1,18 +1,8 @@
-import { GoogleSpreadsheetRow } from 'google-spreadsheet';
-import { useEffect, useState } from 'react';
 import HomeworkDiv from 'src/component/HomeworkDiv';
 import Textarea2MathJax from 'src/component/Textarea2MathJax';
-import { getAllQuestions } from 'src/services/questionService';
 import style from './Hw.module.scss';
 
 const Hw = () => {
-  const [questions, setQuestions] = useState<GoogleSpreadsheetRow[]>([]);
-
-  useEffect(() => {
-    getAllQuestions().then((res: GoogleSpreadsheetRow[]) => {
-      setQuestions(res);
-    });
-  });
   const qs = [
     {
       id: '1',
@@ -91,16 +81,12 @@ const Hw = () => {
   return (
     <div className={style.content}>
       <HomeworkDiv>
-        {questions.map((qq: GoogleSpreadsheetRow) => {
-          const q = JSON.parse(qq.json);
-
-          return (
-            <div key={q.id}>
-              <Textarea2MathJax text={q.question} />
-              <Textarea2MathJax text={`Ans: ${q.answer}`} className={style.ans} />
-            </div>
-          );
-        })}
+        {qs.map((q: { [key: string]: string }) => (
+          <div key={q.id}>
+            <Textarea2MathJax text={q.question} />
+            <Textarea2MathJax text={`Ans: ${q.ans}`} className={style.ans} />
+          </div>
+        ))}
       </HomeworkDiv>
     </div>
   );

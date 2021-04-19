@@ -5,7 +5,7 @@ const route = {
   Home: loadable(() => import('./pages/home/Home')),
   Edit: loadable(() => import('./pages/edit/Edit')),
   Child: loadable(() => import('./pages/child/Child')),
-  Hw: loadable(() => import('./pages/hw/Hw')),
+  Hw: loadable(() => import('./pages/hw/Hw2')),
 };
 
 const AppRoutes = () => {
