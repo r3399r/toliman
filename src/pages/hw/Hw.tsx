@@ -1,6 +1,6 @@
 import { GoogleSpreadsheetRow } from 'google-spreadsheet';
 import { useEffect, useState } from 'react';
-import HomeworkDiv from 'src/component/HomeworkDiv';
+import Homework from 'src/component/Homework';
 import Textarea2MathJax from 'src/component/Textarea2MathJax';
 import { getAllQuestions } from 'src/services/questionService';
 import style from './Hw.module.scss';
@@ -90,7 +90,7 @@ const Hw = () => {
 
   return (
     <div className={style.content}>
-      <HomeworkDiv>
+      <Homework>
         {questions.map((qq: GoogleSpreadsheetRow) => {
           const q = JSON.parse(qq.json);
 
@@ -101,7 +101,7 @@ const Hw = () => {
             </div>
           );
         })}
-      </HomeworkDiv>
+      </Homework>
     </div>
   );
 };

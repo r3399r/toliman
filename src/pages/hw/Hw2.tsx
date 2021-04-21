@@ -1,6 +1,13 @@
-import HomeworkDiv from 'src/component/HomeworkDiv';
+import Homework from 'src/component/Homework';
 import Textarea2MathJax from 'src/component/Textarea2MathJax';
 import style from './Hw.module.scss';
+
+type Q = {
+  id: string;
+  question: string;
+  ans: string;
+  image?: string;
+};
 
 const Hw = () => {
   const qs = [
@@ -35,9 +42,8 @@ const Hw = () => {
     },
     {
       id: '6',
-      question:
-        '6. 由甲地至乙地是棋盤式的街道，某人以走捷徑的方式由甲地至乙地，求必須經過 $$P$$ 點或 $$Q$$ 點的方法有多少種？',
-      ans: '$$154$$',
+      question: '6. 將 $$abscissa$$ 八個字排成一列，任意排，則排法有多少種？',
+      ans: '$$3360$$',
     },
     {
       id: '7',
@@ -47,8 +53,8 @@ const Hw = () => {
     {
       id: '8',
       question:
-        '8. 將 $$5$$ 張不同面額的禮券分給甲、乙、丙三人，禮券必須全部分完，則甲恰得一張的方法有幾種？',
-      ans: '$$80$$',
+        '8. 從 $$1$$、$$2$$、$$3$$、$$4$$、$$5$$、$$6$$ 這 $$6$$ 個數字中，任意挑選 $$3$$ 個相異的數字排成三位數，若將所有排成的三位數由小到大依序排列，則 $$345$$ 為第幾個三位數？',
+      ans: '$$51$$',
     },
     {
       id: '9',
@@ -65,27 +71,31 @@ const Hw = () => {
     {
       id: '11',
       question:
-        '11. 將 $$abscissa$$ 八個字排成一列，若 $$b$$、$$c$$、$$i$$ 順序不變，則排法有多少種？',
-      ans: '$$560$$',
+        '11. 由甲地至乙地是棋盤式的街道，某人以走捷徑的方式由甲地至乙地，求必須經過 $$P$$ 點或 $$Q$$ 點的方法有多少種？',
+      ans: '$$154$$',
+      image: 'images/ex.jpg',
     },
     {
       id: '12',
       question:
-        '12. 設有渡輪 $$3$$ 艘(分別標號為 $$A$$，$$B$$，$$C$$)，每船最多可載 $$5$$ 人，今有 $$7$$ 人渡船，但甲需乘 $$A$$ 船，且乙不乘 $$B$$ 船，有幾種安全過渡的方法？',
-      ans: '$$473$$',
+        '12. 將 $$1$$、$$2$$、$$3$$、$$4$$、$$5$$、$$6$$ 六個數字全取排成六位數，下列敘述何者正確？\n(A)六位數共有 $$720$$ 個\n(B)偶數有 $$360$$ 個\n(C) $$3$$ 的倍數有 $$240$$ 個\n(D) $$4$$ 的倍數有 $$192$$ 個\n(E) $$5$$ 的倍數有 $$190$$ 個',
+      ans: '(A)(B)(D)(E)',
     },
   ];
 
   return (
     <div className={style.content}>
-      <HomeworkDiv>
-        {qs.map((q: { [key: string]: string }) => (
+      <Homework>
+        {qs.map((q: Q) => (
           <div key={q.id}>
-            <Textarea2MathJax text={q.question} className={style.question} />
+            {q.image !== undefined && (
+              <img className={style.img} src={q.image} alt="" role="presentation" />
+            )}
+            <Textarea2MathJax text={q.question} />
             <Textarea2MathJax text={`Ans: ${q.ans}`} className={style.ans} />
           </div>
         ))}
-      </HomeworkDiv>
+      </Homework>
     </div>
   );
 };

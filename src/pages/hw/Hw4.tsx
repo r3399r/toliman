@@ -1,4 +1,4 @@
-import HomeworkDiv from 'src/component/HomeworkDiv';
+import Homework from 'src/component/Homework';
 import Textarea2MathJax from 'src/component/Textarea2MathJax';
 import style from './Hw.module.scss';
 
@@ -80,14 +80,14 @@ const Hw = () => {
 
   return (
     <div className={style.content}>
-      <HomeworkDiv>
+      <Homework>
         {qs.map((q: { [key: string]: string }) => (
           <div key={q.id}>
             <Textarea2MathJax text={q.question} />
             <Textarea2MathJax text={`Ans: ${q.ans}`} className={style.ans} />
           </div>
         ))}
-      </HomeworkDiv>
+      </Homework>
     </div>
   );
 };

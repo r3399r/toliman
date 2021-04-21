@@ -1,12 +1,12 @@
 import classNames from 'classnames';
 import { ReactNode, ReactNodeArray } from 'react';
-import style from './HomeworkDiv.module.scss';
+import style from './Homework.module.scss';
 
 type Props = {
   children: ReactNodeArray;
 };
 
-const HomeworkDiv = ({ children }: Props) => {
+const Homework = ({ children }: Props) => {
   return (
     <div className={style.grid}>
       {children.map((child: ReactNode, i: number) => (
@@ -14,7 +14,6 @@ const HomeworkDiv = ({ children }: Props) => {
           key={i}
           className={classNames(style.card, {
             [style.left]: i % 2 === 0,
-            [style.right]: i % 2 === 1,
           })}
         >
           {child}
@@ -24,4 +23,4 @@ const HomeworkDiv = ({ children }: Props) => {
   );
 };
 
-export default HomeworkDiv;
+export default Homework;

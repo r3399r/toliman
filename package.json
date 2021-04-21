@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "start": "cross-env BROWSER=none react-scripts start",
+    "start": "cross-env BROWSER=none PORT=3006 react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --coverage",
     "test:nowatch": "npm run test -- --watchAll=false",
