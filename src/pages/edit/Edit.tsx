@@ -1,11 +1,10 @@
-import { Button, Input, Select, Upload } from 'antd';
-import Checkbox from 'antd/lib/checkbox/Checkbox';
-import { GoogleSpreadsheetRow } from 'google-spreadsheet';
+import { Button, Checkbox, Input, Upload } from 'antd';
+import { CheckboxValueType } from 'antd/lib/checkbox/Group';
 import { useEffect, useState } from 'react';
+import { CopyToClipboard } from 'react-copy-to-clipboard';
 import Textarea2MathJax from 'src/component/Textarea2MathJax';
-import { loadFile } from 'src/services/dropboxService';
-import { getRows } from 'src/services/googleService';
-import { Question, uploadQuestion } from 'src/services/questionService';
+import { chapterList, Question } from 'src/model/bank';
+import { getQuestion } from 'src/services/questionService';
 import style from './Edit.module.scss';
 
 const Home = () => {
@@ -14,11 +13,7 @@ const Home = () => {
 
   const [id, setId] = useState<string>('');
 
-  const [authorList, setAuthorList] = useState<GoogleSpreadsheetRow[]>([]);
-  const [author, setAuthor] = useState<string>('');
-
-  const [chapterList, setChapterList] = useState<GoogleSpreadsheetRow[]>([]);
-  const [chapterId, setChapterId] = useState<string>('');
+  const [chapter, setChapter] = useState<string[]>([]);
 
   const [question, setQuestion] = useState<string>('');
   const [answer, setAnswer] = useState<string>('');
@@ -28,12 +23,6 @@ const Home = () => {
 
   useEffect(() => {
     setId(Date.now().toString(16));
-    getRows('372130198').then((rows: GoogleSpreadsheetRow[]) => {
-      setChapterList(rows);
-    });
-    getRows('10449496').then((rows: GoogleSpreadsheetRow[]) => {
-      setAuthorList(rows);
-    });
   }, []);
 
   useEffect(() => {
@@ -46,24 +35,17 @@ const Home = () => {
   }, [question, answer]);
 
   const handleEdit = (ev: { target: HTMLInputElement }) => {
-    const obj: Question = JSON.parse(ev.target.value);
+    const inputId: string = ev.target.value;
+    const res: Question = getQuestion(id);
 
-    setId(obj.id);
-    setQuestion(obj.question);
-    setAnswer(obj.answer);
-
-    if (obj.hasImage)
-      loadFile(obj.id).then((res: any) => {
-        setImage(res.result.fileBlob);
-      });
+    setId(inputId);
+    setChapter(res.chapter);
+    setQuestion(res.question);
+    setAnswer(res.answer);
   };
 
-  const handleSelectAuthor = (value: string) => {
-    setAuthor(value);
-  };
-
-  const handleSelectChapter = (value: string) => {
-    setChapterId(value);
+  const handleCheckbox = (val: CheckboxValueType[]) => {
+    setChapter(val.map((v: CheckboxValueType) => String(v)));
   };
 
   const handleQuestionEvent = (ev: { target: HTMLTextAreaElement }) => {
@@ -85,50 +67,14 @@ const Home = () => {
     return false;
   };
 
-  const handleUpload = () => {
-    if (author === '') alert('請選擇作者');
-    else if (chapterId === '') alert('請選擇章節');
-    else if (question === '') alert('請輸入題目');
-    else if (answer === '') alert('請輸入答案');
-    else if (hasImage && !image) alert('請上傳圖片');
-    else
-      uploadQuestion(result, author, image).then(() => {
-        setId(Date.now().toString(16));
-      });
-  };
-
-  const result: Question = { id, chapterId, question, answer, hasImage };
+  const result: Question = { id, chapter, question, answer, hasImage };
 
   return (
     <div className={style.content}>
       <div>修改</div>
       <Input placeholder="貼上JSON" onChange={handleEdit} />
-      <div>作者</div>
-      <Select onChange={handleSelectAuthor} defaultValue="default">
-        <Select.Option value="default" disabled={true} hidden={true}>
-          選擇作者
-        </Select.Option>
-        {authorList.map((val: GoogleSpreadsheetRow, i: number) => {
-          return (
-            <Select.Option key={i} value={val.name}>
-              {val.name}
-            </Select.Option>
-          );
-        })}
-      </Select>
       <div>章節</div>
-      <Select onChange={handleSelectChapter} defaultValue="default">
-        <Select.Option value="default" disabled={true} hidden={true}>
-          選擇章節
-        </Select.Option>
-        {chapterList.map((val: GoogleSpreadsheetRow, i: number) => {
-          return (
-            <Select.Option key={i} value={val.id}>
-              {val.chapter}
-            </Select.Option>
-          );
-        })}
-      </Select>
+      <Checkbox.Group options={chapterList} onChange={handleCheckbox} />
       <div>題目</div>
       <Input.TextArea
         rows={4}
@@ -166,7 +112,11 @@ const Home = () => {
       </div>
       <hr />
       <div>{JSON.stringify(result)}</div>
-      <Button onClick={handleUpload}>上傳</Button>
+      <div>
+        <CopyToClipboard text={JSON.stringify(result)}>
+          <Button>複製文字</Button>
+        </CopyToClipboard>
+      </div>
     </div>
   );
 };

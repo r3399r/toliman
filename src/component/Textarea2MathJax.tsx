@@ -9,7 +9,7 @@ type Props = {
 const Textarea2MathJax = ({ className, text, allowBlock = true }: Props) => (
   <div className={className}>
     <MathJax.Provider>
-      {text.split('\n').map((line: string, index: number) => {
+      {text.split('\\n').map((line: string, index: number) => {
         const splited: string[] = line.split('$$');
 
         if (allowBlock === true && splited.length === 3 && splited[0] === '' && splited[2] === '')

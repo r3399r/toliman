@@ -1,4 +1,3 @@
-import { GoogleSpreadsheetRow } from 'google-spreadsheet';
 import { useEffect, useState } from 'react';
 import Homework from 'src/component/Homework';
 import Textarea2MathJax from 'src/component/Textarea2MathJax';
@@ -6,12 +5,10 @@ import { getAllQuestions } from 'src/services/questionService';
 import style from './Hw.module.scss';
 
 const Hw = () => {
-  const [questions, setQuestions] = useState<GoogleSpreadsheetRow[]>([]);
+  const [questions, setQuestions] = useState<any>();
 
   useEffect(() => {
-    getAllQuestions().then((res: GoogleSpreadsheetRow[]) => {
-      setQuestions(res);
-    });
+    setQuestions(getAllQuestions());
   });
   const qs = [
     {
@@ -91,7 +88,7 @@ const Hw = () => {
   return (
     <div className={style.content}>
       <Homework>
-        {questions.map((qq: GoogleSpreadsheetRow) => {
+        {questions.map((qq: any) => {
           const q = JSON.parse(qq.json);
 
           return (
