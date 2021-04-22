@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
-import Homework from 'src/component/Homework';
 import Textarea2MathJax from 'src/component/Textarea2MathJax';
 import { getAllQuestions } from 'src/services/questionService';
+import Homework from './component/Homework';
 import style from './Hw.module.scss';
 
 const Hw = () => {

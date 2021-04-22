@@ -1,7 +1,7 @@
-import Concept from 'src/component/Concept';
-import Example from 'src/component/Example';
-import Exercise from 'src/component/Exercise';
 import Textarea2MathJax from 'src/component/Textarea2MathJax';
+import Concept from './component/Concept';
+import Example from './component/Example';
+import Exercise from './component/Exercise';
 import style from './Lecture.module.scss';
 
 const Lecture = () => {
