@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack://src/style/index.scss"],"names":[],"mappings":"AAEA,OACE,cAAe","file":"main.dbd3c368.chunk.css","sourcesContent":["@import '~antd/dist/antd.css';\n\nhtml * {\n  font-size: 15px;\n}\n"]}
