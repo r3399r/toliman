@@ -15,6 +15,9 @@ const Home = () => {
         <Button onClick={onClick('edit')}>增修題目</Button>
       </div>
       <div className={style.button}>
+        <Button onClick={onClick('bank')}>題庫</Button>
+      </div>
+      <div className={style.button}>
         <Button onClick={onClick('lecture')}>講義</Button>
       </div>
       <div className={style.button}>

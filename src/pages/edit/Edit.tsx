@@ -19,11 +19,11 @@ const Home = () => {
   const [answer, setAnswer] = useState<string>('');
 
   const [hasImage, setHasImage] = useState<boolean>(false);
-  const [image, setImage] = useState<File>();
+  const [image, setImage] = useState<string>('');
 
   useEffect(() => {
     setId(Date.now().toString(16));
-  }, []);
+  }, [question, answer]);
 
   useEffect(() => {
     setIsRendering(true);
@@ -36,12 +36,17 @@ const Home = () => {
 
   const handleEdit = (ev: { target: HTMLInputElement }) => {
     const inputId: string = ev.target.value;
-    const res: Question = getQuestion(id);
+    const res: Question | undefined = getQuestion(inputId);
 
-    setId(inputId);
-    setChapter(res.chapter);
-    setQuestion(res.question);
-    setAnswer(res.answer);
+    if (res === undefined) alert(`id: ${inputId} 不存在`);
+    else {
+      setId(inputId);
+      setChapter(res.chapter);
+      setQuestion(res.question);
+      setAnswer(res.answer);
+      setHasImage(res.hasImage);
+      if (res.hasImage) setImage(`images/${inputId}.jpg`);
+    }
   };
 
   const handleCheckbox = (val: CheckboxValueType[]) => {
@@ -57,12 +62,12 @@ const Home = () => {
   };
 
   const onCheckboxClick = () => {
-    if (!hasImage === false) setImage(undefined);
+    if (!hasImage === false) setImage('');
     setHasImage(!hasImage);
   };
 
   const displayImage = (file: File) => {
-    setImage(file);
+    setImage(URL.createObjectURL(file));
 
     return false;
   };
@@ -97,14 +102,7 @@ const Home = () => {
       <hr />
       <div className={style.preview}>
         {isRendering === true && <div>產生中...</div>}
-        {image && (
-          <img
-            className={style.image}
-            src={URL.createObjectURL(image)}
-            alt=""
-            role="presentation"
-          />
-        )}
+        {image !== '' && <img className={style.image} src={image} alt="" role="presentation" />}
         {isRendering === false && question && <Textarea2MathJax text={question} />}
         {isRendering === false && answer && (
           <Textarea2MathJax className={style.ans} text={'Ans: ' + answer} allowBlock={false} />

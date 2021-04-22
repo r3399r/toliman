@@ -1,5 +1,5 @@
+import GridWith2Col from 'src/component/GridWith2Col';
 import Textarea2MathJax from 'src/component/Textarea2MathJax';
-import Homework from './component/Homework';
 import style from './Hw.module.scss';
 
 type Q = {
@@ -73,7 +73,7 @@ const Hw = () => {
       question:
         '11. 由甲地至乙地是棋盤式的街道，某人以走捷徑的方式由甲地至乙地，求必須經過 $$P$$ 點或 $$Q$$ 點的方法有多少種？',
       ans: '$$154$$',
-      image: 'images/ex.jpg',
+      image: 'images/178f730c34d.jpg',
     },
     {
       id: '12',
@@ -85,7 +85,7 @@ const Hw = () => {
 
   return (
     <div className={style.content}>
-      <Homework>
+      <GridWith2Col>
         {qs.map((q: Q) => (
           <div key={q.id}>
             {q.image !== undefined && (
@@ -95,7 +95,7 @@ const Hw = () => {
             <Textarea2MathJax text={`Ans: ${q.ans}`} className={style.ans} />
           </div>
         ))}
-      </Homework>
+      </GridWith2Col>
     </div>
   );
 };

@@ -1,5 +1,5 @@
+import GridWith2Col from 'src/component/GridWith2Col';
 import Textarea2MathJax from 'src/component/Textarea2MathJax';
-import Homework from './component/Homework';
 import style from './Hw.module.scss';
 
 const Hw = () => {
@@ -80,14 +80,14 @@ const Hw = () => {
 
   return (
     <div className={style.content}>
-      <Homework>
+      <GridWith2Col>
         {qs.map((q: { [key: string]: string }) => (
           <div key={q.id}>
             <Textarea2MathJax text={q.question} />
             <Textarea2MathJax text={`Ans: ${q.ans}`} className={style.ans} />
           </div>
         ))}
-      </Homework>
+      </GridWith2Col>
     </div>
   );
 };

@@ -1,6 +1,6 @@
 import classNames from 'classnames';
 import { ReactNode, ReactNodeArray } from 'react';
-import style from './Homework.module.scss';
+import style from './GridWith2Col.module.scss';
 
 type Props = {
   children: ReactNodeArray;
