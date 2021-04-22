@@ -12,14 +12,14 @@
   border-top-right-radius: 10px;
 }
 .grid {
-  border-top: 1px solid #000000;
   display: flex;
   flex-wrap: wrap;
 }
 .card {
+  border-top: 1px solid #000000;
   padding: 5px;
   width: 50%;
 }
 .left {
-  border-right: 1px solid #000000;
+  border-right: 1px dashed #000000;
 }

@@ -5,21 +5,14 @@ import Exercise from './component/Exercise';
 import style from './Lecture.module.scss';
 
 const Lecture = () => {
-  const a: string[] = ['有一天\n$$a+b=2$$\n。拉拉', '有一天 $$a+b=2$$'];
-
   return (
     <div className={style.content}>
       <Concept>
-        <Textarea2MathJax text={a[0]} />
+        <Textarea2MathJax text={'text'} />
       </Concept>
-      <Exercise>
-        {a.map((text: string, i: number) => (
-          <Textarea2MathJax key={i} text={text} />
-        ))}
-      </Exercise>
-      <Example num={1}>
-        {[<Textarea2MathJax key={0} text={a[0]} />, <Textarea2MathJax key={1} text={a[1]} />]}
-      </Example>
+      <Exercise ids={['178f77a66b0', '178f77a9938', '178f77a66b0']} />
+      <Example num={1} ids={['178f77a66b0', '178f77a9938']} />
+      <Example num={2} ids={['178f77a66b0', '178f77a9938']} />
     </div>
   );
 };
