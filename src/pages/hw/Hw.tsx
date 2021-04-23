@@ -5,7 +5,20 @@ import { getQuestions } from 'src/services/questionService';
 import style from './Hw.module.scss';
 
 const Hw = () => {
-  const ids: string[] = ['178f3d73349', 'sda', '178f730c34d', '178f3e607ce'];
+  const ids: string[] = [
+    '178f9e3fc7b',
+    '178f9e85218',
+    '178fa58b177',
+    '178fa706cd1',
+    '178fa7e4b84',
+    '178fa9cba82',
+    '178fabee5c1',
+    '178fa3eee69',
+    '178fa340b81',
+    '178fac14a06',
+    '178fac331f4',
+    '178fac4d07c',
+  ];
 
   return (
     <div className={style.content}>

@@ -1,4 +1,6 @@
+import classNames from 'classnames';
 import MathJax from 'react-mathjax';
+import style from './Textarea2MathJax.module.scss';
 
 type Props = {
   text: string;
@@ -15,7 +17,7 @@ const Textarea2MathJax = ({ className, text, allowBlock = true }: Props) => (
         return <MathJax.Node formula={splited[1]} key={index} />;
 
       return (
-        <div key={index} className={className}>
+        <div key={index} className={classNames(className, style.font)}>
           {splited.map((val: string, cnt: number) => {
             if (cnt % 2 === 0) return val;
 
