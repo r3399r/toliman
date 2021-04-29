@@ -1,6 +1,6 @@
 {
-  "name": "react-pwa-template",
-  "version": "0.1.0",
+  "name": "toliman",
+  "version": "1.0.0",
   "private": true,
   "scripts": {
     "start": "cross-env BROWSER=none PORT=3006 react-scripts start",
@@ -22,7 +22,7 @@
   },
   "dependencies": {
     "@loadable/component": "^5.14.1",
-    "antd": "^4.15.1",
+    "antd": "^4.15.3",
     "classnames": "^2.3.1",
     "lodash": "^4.17.21",
     "react": "^17.0.2",
@@ -34,14 +34,14 @@
     "web-vitals": "^1.1.1"
   },
   "devDependencies": {
-    "@testing-library/jest-dom": "^5.11.10",
+    "@testing-library/jest-dom": "^5.12.0",
     "@testing-library/react": "^11.2.6",
     "@testing-library/user-event": "^12.8.3",
-    "@types/classnames": "^2.2.11",
-    "@types/jest": "^26.0.22",
+    "@types/classnames": "^2.3.1",
+    "@types/jest": "^26.0.23",
     "@types/lodash": "^4.14.168",
-    "@types/node": "^12.20.7",
-    "@types/react": "^17.0.3",
+    "@types/node": "^12.20.11",
+    "@types/react": "^17.0.4",
     "@types/react-copy-to-clipboard": "^5.0.0",
     "@types/react-dom": "^17.0.3",
     "@types/react-mathjax": "^1.0.0",
