@@ -1244,7 +1244,7 @@ export const bank: Question[] = [
     id: '1794b330d76',
     chapter: ['條件機率'],
     question:
-      '$$A$$ 袋中有三紅球及三白球、$$B$$ 袋中有三白球及兩紅球，今先由 $$A$$ 袋任取兩球放入 $$B$$ 袋，再由 $$B$$ 袋任取兩球放回 $$A$$ 袋，則 $$A$$ 袋白球數增加的機率為？',
+      '$$A$$ 袋中有兩紅球及三白球、$$B$$ 袋中有三白球及兩紅球，今先由 $$A$$ 袋任取兩球放入 $$B$$ 袋，再由 $$B$$ 袋任取兩球放回 $$A$$ 袋，則 $$A$$ 袋白球數增加的機率為？',
     answer: '$$\\frac{27}{70}$$',
     hasImage: false,
   },
@@ -1358,6 +1358,95 @@ export const bank: Question[] = [
     question:
       '行列式 $$\\left|\\begin{matrix}2 & 4 & -2 \\\\ 1 & 3 & 1 \\\\ 1 & 1 & 3 \\end{matrix}\\right|=$$？',
     answer: '$$12$$',
+    hasImage: false,
+  },
+  {
+    id: '17966d95335',
+    chapter: ['數與式'],
+    question: '化簡 $$(3a-2b)^3$$',
+    answer: '$$27a^3-18a^2b+12ab^2-8b^3$$',
+    hasImage: false,
+  },
+  {
+    id: '17966da3a45',
+    chapter: ['數與式'],
+    question: '化簡 $$(2x+3)(4x^2-6x+9)$$',
+    answer: '$$8x^3+27$$',
+    hasImage: false,
+  },
+  {
+    id: '17966db0d85',
+    chapter: ['數與式'],
+    question: '化簡 $$(a-b+3)(a-b-3)$$',
+    answer: '$$a^2-2ab+b^2-9$$',
+    hasImage: false,
+  },
+  {
+    id: '17966e46808',
+    chapter: ['數與式'],
+    question: '因式分解 $$x^3+6x^2+12xy^2+8y^3$$',
+    answer: '$$(x+2y)^3$$',
+    hasImage: false,
+  },
+  {
+    id: '17966e50e90',
+    chapter: ['數與式'],
+    question: '因式分解 $$x^4-y^4$$',
+    answer: '$$(x^2+y^2)(x+y)(x-y)$$',
+    hasImage: false,
+  },
+  {
+    id: '17966e6cae0',
+    chapter: ['數與式'],
+    question: '化簡 $$(a-3)(a+3)(a^2-3a+9)(a^2+3a+9)$$',
+    answer: '$$a^6-729$$',
+    hasImage: false,
+  },
+  {
+    id: '179670b1cf0',
+    chapter: ['數與式'],
+    question:
+      '化簡下列各式：\n(1) $$\\frac{1}{x-3}-\\frac{2}{x^2-4x+3}$$ (2) $$\\frac{2}{x+5}-\\frac{x+25}{x^2-25}$$',
+    answer: '(1) $$\\frac{1}{x-1}$$ (2) $$\\frac{3}{x-5}$$',
+    hasImage: false,
+  },
+  {
+    id: '1796711996f',
+    chapter: ['數與式'],
+    question:
+      '化簡下列各式：\n(1) $$\\frac{1}{x+2}-\\frac{2x+5}{x^2+3x+2}$$ (2) $$\\frac{x^2+3x}{x^2+5x+6}\\div\\frac{x}{x-2}$$',
+    answer: '(1) $$\\frac{3}{x+1}$$ (2) $$\\frac{x-2}{x+2}$$',
+    hasImage: false,
+  },
+  {
+    id: '1796721257b',
+    chapter: ['數與式'],
+    question:
+      '設 $$a+b=5$$，$$a^2+b^2=33$$，則：\n(1) $$a^3+b^3$$ (2) $$\\frac{a}{b}+\\frac{b}{a}$$ (3) $$a^2-b^2$$',
+    answer: '(1) $$185$$ (2) $$-\\frac{33}{4}$$ (3) $$\\pm\\sqrt{41}$$',
+    hasImage: false,
+  },
+  {
+    id: '1796722b7b6',
+    chapter: ['數與式'],
+    question: '設 $$a+b=3$$，$$ab=1$$，則：\n(1) $$a^2+b^2$$ (2) $$a^2-b^2$$ (3) $$a^3+b^3$$',
+    answer: '(1) $$7$$ (2) $$\\pm3\\sqrt{5}$$ (3) $$18$$',
+    hasImage: false,
+  },
+  {
+    id: '17967250e4f',
+    chapter: ['數與式'],
+    question:
+      '已知 $$x+\\frac{1}{x}=5$$，試求下列各式之值：\n(1) $$x^2+\\frac{1}{x^2}$$ (2) $$x^3+\\frac{1}{x^3}$$',
+    answer: '(1) $$23$$ (2) $$110$$',
+    hasImage: false,
+  },
+  {
+    id: '1796725f6d0',
+    chapter: ['數與式'],
+    question:
+      '已知 $$x-\\frac{1}{x}=3$$，試求下列各式之值：\n(1) $$x^2+\\frac{1}{x^2}$$ (2) $$x^3-\\frac{1}{x^3}$$',
+    answer: '(1) $$11$$ (2) $$36$$',
     hasImage: false,
   },
 ];
