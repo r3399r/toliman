@@ -14,7 +14,11 @@ const Textarea2MathJax = ({ className, text, allowBlock = true }: Props) => (
       const splited: string[] = line.split('$$');
 
       if (allowBlock === true && splited.length === 3 && splited[0] === '' && splited[2] === '')
-        return <MathJax.Node formula={splited[1]} key={index} />;
+        return (
+          <div key={index} className={style.font}>
+            <MathJax.Node formula={splited[1]} />
+          </div>
+        );
 
       return (
         <div key={index} className={classNames(className, style.font)}>

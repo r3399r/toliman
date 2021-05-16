@@ -6,7 +6,7 @@ const Home = () => {
   const history = useHistory();
 
   const onClick = (url: string) => () => {
-    history.push(`toliman/${url}`);
+    history.push(`/toliman/${url}`);
   };
 
   return (

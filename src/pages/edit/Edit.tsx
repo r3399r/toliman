@@ -1,4 +1,4 @@
-import { Button, Checkbox, Input, Upload } from 'antd';
+import { Button, Checkbox, Input, Radio, RadioChangeEvent, Upload } from 'antd';
 import { CheckboxValueType } from 'antd/lib/checkbox/Group';
 import { useEffect, useState } from 'react';
 import { CopyToClipboard } from 'react-copy-to-clipboard';
@@ -13,7 +13,7 @@ const Home = () => {
 
   const [id, setId] = useState<string>('');
 
-  const [chapter, setChapter] = useState<string[]>([]);
+  const [chapter, setChapter] = useState<string>('');
 
   const [question, setQuestion] = useState<string>('');
   const [answer, setAnswer] = useState<string>('');
@@ -49,8 +49,8 @@ const Home = () => {
     }
   };
 
-  const handleCheckbox = (val: CheckboxValueType[]) => {
-    setChapter(val.map((v: CheckboxValueType) => String(v)));
+  const handleCheckbox = (val: RadioChangeEvent) => {
+    setChapter(val.target.value);
   };
 
   const handleQuestionEvent = (ev: { target: HTMLTextAreaElement }) => {
@@ -79,7 +79,7 @@ const Home = () => {
       <div>修改</div>
       <Input placeholder="貼上JSON" onChange={handleEdit} />
       <div>章節</div>
-      <Checkbox.Group options={chapterList} onChange={handleCheckbox} />
+      <Radio.Group options={chapterList} onChange={handleCheckbox} />
       <div>題目</div>
       <Input.TextArea
         rows={4}

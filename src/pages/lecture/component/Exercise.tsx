@@ -13,7 +13,7 @@ const Exercise = ({ ids }: Props) => {
 
   return (
     <div className={style.content}>
-      <div className={style.title}>觀念演練</div>
+      <div className={style.title}>主題演練</div>
       <div className={style.grid}>
         {questions.map((question: Question, i: number) => (
           <div

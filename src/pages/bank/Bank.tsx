@@ -10,7 +10,7 @@ const Bank = () => {
         {bank.map((q: Question) => (
           <div key={q.id}>
             <div className={style.id}>
-              id: {q.id}, 章節: {q.chapter.join()}
+              id: {q.id}, 章節: {q.chapter}
             </div>
             {q.hasImage === true && (
               <img className={style.img} src={`images/${q.id}.jpg`} alt="" role="presentation" />
