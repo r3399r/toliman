@@ -124,6 +124,30 @@ const Numbers = () => {
       <Exercise ids={['1797456a8ad', '17974577c58', '179747194d1', '1797473e1e3']} />
       <Example num={4} ids={['1797476bcdb', '1797479e4e0']} />
       <Example num={5} ids={['179747bfde7', '1797480949e']} />
+      <Concept title="絕對值">
+        <div className={style.conceptHead}>絕對值的幾何意義</div>
+        <div>
+          <Textarea2MathJax
+            text={
+              '(1) $$|a-b|$$ 代表數線上 $$a$$、$$b$$ 兩點間的距離\n(2) $$|a|=|a-0|$$ 代表數線上 $$a$$ 與原點的距離'
+            }
+          />
+        </div>
+        <div className={style.conceptHead}>絕對值的性質</div>
+        <div>
+          <Textarea2MathJax
+            text={
+              '(1) $$|a|\\ge0$$\n(2) $$|a|=|-a|$$\n(3) $$|ab|=|a||b|$$；$$\\left|\\frac{a}{b}\\right|=\\frac{|a|}{|b|}$$'
+            }
+          />
+        </div>
+      </Concept>
+      <Exercise ids={['179757a606e', '179757bb299']} />
+      <Example num={6} ids={['179757f30b3', '17975876dfa']} />
+      <Example num={7} ids={['1797fcf4177', '1797fd09764']} />
+      <Example num={8} ids={['1797fd30bb4', '1797fd9a454']} />
+      <Example num={9} ids={['1797fd59820', '1797fd78e76']} />
+      <Example num={10} ids={['1797fdd1fa4', '1797fdeaccf']} />
     </div>
   );
 };
