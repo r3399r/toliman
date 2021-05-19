@@ -1,13 +1,23 @@
+import { Radio, RadioChangeEvent } from 'antd';
+import lodash from 'lodash';
+import { useState } from 'react';
 import GridWith2Col from 'src/component/GridWith2Col';
 import Textarea2MathJax from 'src/component/Textarea2MathJax';
-import { bank, Question } from 'src/model/bank';
+import { bank, chapterList, Question } from 'src/model/bank';
 import style from './Bank.module.scss';
 
 const Bank = () => {
+  const [filteredBank, setFilteredBank] = useState(bank);
+
+  const handleCheckbox = (val: RadioChangeEvent) => {
+    setFilteredBank(lodash.filter(bank, { chapter: val.target.value }));
+  };
+
   return (
     <div className={style.content}>
+      <Radio.Group options={chapterList} onChange={handleCheckbox} />
       <GridWith2Col>
-        {bank.map((q: Question) => (
+        {filteredBank.map((q: Question) => (
           <div key={q.id}>
             <div className={style.id}>
               id: {q.id}, 章節: {q.chapter}

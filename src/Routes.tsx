@@ -6,6 +6,7 @@ const route = {
   Edit: loadable(() => import('./pages/edit/Edit')),
   Hw: loadable(() => import('./pages/hw/Hw')),
   Bank: loadable(() => import('./pages/bank/Bank')),
+  RemoteClasss: loadable(() => import('./pages/remoteClass/RemoteClass')),
 
   Lecture: loadable(() => import('./pages/lecture/Lecture')),
   Numbers: loadable(() => import('./pages/lecture/book1/Numbers')),
@@ -17,6 +18,7 @@ const AppRoutes = () => {
     <Switch>
       <Route exact={true} path="/toliman/edit" component={route.Edit} />
       <Route exact={true} path="/toliman/bank" component={route.Bank} />
+      <Route exact={true} path="/toliman/remote" component={route.RemoteClasss} />
       <Route exact={true} path="/toliman/lecture" component={route.Lecture} />
       <Route exact={true} path="/toliman/lecture/numbers" component={route.Numbers} />
       <Route exact={true} path="/toliman/lecture/equations" component={route.Equations} />
