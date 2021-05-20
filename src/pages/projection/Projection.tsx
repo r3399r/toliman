@@ -2,11 +2,11 @@ import classNames from 'classnames';
 import Textarea2MathJax from 'src/component/Textarea2MathJax';
 import { Question } from 'src/model/bank';
 import { getQuestion } from 'src/services/questionService';
-import style from './RemoteClass.module.scss';
+import style from './Projection.module.scss';
 
-const RemoteClass = () => {
+const Projection = () => {
   const num: string = 'p.31 例題2';
-  const id: string = '178f77b3896';
+  const id: string = '178f777ce0b';
   const q: Question | undefined = getQuestion(id);
 
   if (q === undefined) return <div className={style.content}>Question Not Found</div>;
@@ -22,4 +22,4 @@ const RemoteClass = () => {
   );
 };
 
-export default RemoteClass;
+export default Projection;

@@ -86,6 +86,22 @@ const Equations = () => {
       <Example num={4} ids={['179734d440d', '179734ed12b']} />
       <Example num={5} ids={['179714ae086', '179714bed16']} />
       <Example num={6} ids={['179714e1972', '17971508a12']} />
+      <Concept title="算幾不等式">
+        <div className={style.conceptHead}>算術平均數與幾何平均數</div>
+        <div>
+          <Textarea2MathJax text={'$$a$$、$$b$$ 的算術平均數：\n$$a$$、$$b$$ 的幾何平均數：'} />
+        </div>
+        <div className={style.conceptHead}>算幾不等式</div>
+        <div className={style.note}>
+          <Textarea2MathJax
+            text={
+              '當 $$a,b\\ge0$$，則 $$\\frac{a+b}{2}\\ge\\sqrt{ab}$$ 恆成立。「等號」成立時，$$a=b$$。'
+            }
+          />
+        </div>
+      </Concept>
+      <Example num={7} ids={['1798b109339', '1798b1374e2']} />
+      <Example num={8} ids={['1798b16b101', '1798b184ce6']} />
     </div>
   );
 };

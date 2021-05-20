@@ -58,6 +58,14 @@ const Numbers = () => {
             text={'不循環的無限小數稱為無理數，如：$$\\sqrt{5}$$、$$\\sqrt[3]{3}$$、$$\\pi$$'}
           />
         </div>
+        <div className={style.conceptHead}>有理數與根號作圖</div>
+        <div>
+          <Textarea2MathJax
+            text={
+              '有理數作圖：\n根號作圖：\n註：奇次根號 $$\\sqrt[3]{2}$$、$$\\sqrt[5]{3}$$ 與 $$\\pi$$ 不可以尺規作圖'
+            }
+          />
+        </div>
       </Concept>
       <Exercise ids={['17974036c15', '17974071318', '1797416af7c']} />
       <Example num={1} ids={['179742106b6', '17974229355']} />
@@ -148,6 +156,7 @@ const Numbers = () => {
       <Example num={8} ids={['1797fd30bb4', '1797fd9a454']} />
       <Example num={9} ids={['1797fd59820', '1797fd78e76']} />
       <Example num={10} ids={['1797fdd1fa4', '1797fdeaccf']} />
+      <Example num={11} ids={['1798b050aba', '1798b07214b']} />
     </div>
   );
 };
