@@ -1846,4 +1846,156 @@ export const bank: Question[] = [
     answer: '$$200$$ 平方公尺',
     hasImage: false,
   },
+  {
+    id: '1798cf58181',
+    chapter: '平面向量',
+    question:
+      '設 $$\\left|\\vec{a}\\right|=2$$，$$\\left|\\vec{b}\\right|=3$$，$$\\left|\\vec{a}+\\vec{b}\\right|=2$$，試求向量 $$\\vec{a}$$，$$\\vec{b}$$ 所展的平行四邊形面積。',
+    answer: '$$\\frac{3\\sqrt{7}}{2}$$',
+    hasImage: false,
+  },
+  {
+    id: '1798cf7faea',
+    chapter: '平面向量',
+    question:
+      '設 $$A$$，$$B$$，$$C$$ 為相異三點，若 $$\\overrightarrow{GA}+\\overrightarrow{GB}+\\overrightarrow{GC}=\\vec{0}$$，則$$\\overrightarrow{GA}=2$$，$$\\overrightarrow{GB}=6$$，$$\\overrightarrow{GC}=2\\sqrt{7}$$，求 $$\\overline{AB}$$ 和 $$\\triangle ABC$$ 面積之值。',
+    answer: '$$2\\sqrt{13}$$；$$9\\sqrt{3}$$',
+    hasImage: false,
+  },
+  {
+    id: '1798cf9fd23',
+    chapter: '平面向量',
+    question:
+      '若有 $$\\theta$$ 使下述方程組不只有一組解，求 $$\\sin\\theta\\cos\\theta$$ 的值。\n$$\\begin{cases}(1+\\cos\\theta)x-y=0\\\\-x+(1+\\sin\\theta)y=0\\end{cases}$$',
+    answer: '$$1-\\sqrt{2}$$',
+    hasImage: false,
+  },
+  {
+    id: '1798d160dda',
+    chapter: '平面向量',
+    question:
+      '若 $$\\begin{vmatrix}a&b\\\\c&d\\end{vmatrix}=2$$，試求 $$\\begin{vmatrix}3a+2c&3b+2d\\\\2a-3c&2b-3d\\end{vmatrix}$$ 之值。',
+    answer: '$$-26$$',
+    hasImage: false,
+  },
+  {
+    id: '1798d181ea7',
+    chapter: '平面向量',
+    question:
+      '坐標平面上有一個平行四邊形 $$ABCD$$，其中點 $$A$$ 的坐標為 $$(2,1)$$，點 $$B$$ 的坐標為 $$(8,2)$$，點 $$C$$ 在第一象限且知其 $$x$$ 坐標為 $$12$$。若平行四邊形 $$ABCD$$ 的面積等於 $$38$$ 平方單位，則點 $$D$$ 的坐標為？',
+    answer: '$$(6,8)$$',
+    hasImage: false,
+  },
+  {
+    id: '1798d197fca',
+    chapter: '平面向量',
+    question:
+      '坐標平面上有一面積為 $$40$$ 的凸四邊形，其四個頂點的坐標按逆時針方向依序為 $$(0,0)$$、$$(4,2)$$、$$(x,2x)$$ 及 $$(2,6)$$，則 $$x=$$？',
+    answer: '$$10$$',
+    hasImage: false,
+  },
+  {
+    id: '1798d26f518',
+    chapter: '平面向量',
+    question:
+      '利用克拉瑪公式，解二元一次聯立方程式：\n(1) $$\\begin{cases}2x+5y=4\\\\x-y=9\\end{cases}$$\n(2) $$\\begin{cases}99x+100y=101\\\\101x+102y=103\\end{cases}$$',
+    answer: '(1) $$(7,-2)$$ (2) $$(-1,2)$$',
+    hasImage: false,
+  },
+  {
+    id: '1798d296bf7',
+    chapter: '平面向量',
+    question:
+      '(1) 試將 $$\\vec{c}=\\begin{bmatrix}5\\\\8\\end{bmatrix}$$ 分解成 $$\\vec{a}=\\begin{bmatrix}4\\\\1\\end{bmatrix}$$，$$\\vec{b}=\\begin{bmatrix}-1\\\\2\\end{bmatrix}$$ 的線性組合。\n(2) 利用第(1)題的結果，解聯立方程式 $$\\begin{cases}4x-y=5\\\\x+2y=8\\end{cases}$$',
+    answer: '(1) $$\\vec{c}=2\\vec{a}+3\\vec{b}$$ (2) $$(x,y)=(2,3)$$',
+    hasImage: false,
+  },
+  {
+    id: '1798d2fb555',
+    chapter: '平面向量',
+    question:
+      '設 $$L_1:2x-y+1=0$$，試求過點 $$(2,3)$$ 且與 $$L_1$$ 的一夾角為 $$\\frac{\\pi}{4}$$ 的直線 $$L_2$$ 方程式。',
+    answer: '$$3x+y-9=0$$ 或 $$x-3y+7=0$$',
+    hasImage: false,
+  },
+  {
+    id: '1798d30c13e',
+    chapter: '平面向量',
+    question:
+      '設兩直線 $$L_1:2x+y=0$$，$$L_2:x+2y=0$$，試求 $$L_1$$，$$L_2$$ 的交角中鈍角平分線方程式。',
+    answer: '$$x-y=0$$',
+    hasImage: false,
+  },
+  {
+    id: '1798d3385c0',
+    chapter: '平面向量',
+    question:
+      '$$G$$ 為 $$\\triangle ABC$$ 重心，若 $$\\left|\\overrightarrow{GA}\\right|=3$$，$$\\left|\\overrightarrow{GB}\\right|=5$$，$$\\left|\\overrightarrow{GC}\\right|=7$$，則求：\n(1) $$\\overrightarrow{GA}\\cdot\\overrightarrow{GB}$$\n(2) $$\\triangle ABC$$ 的面積',
+    answer: '(1) $$\\frac{15}{2}$$ (2) $$\\frac{45\\sqrt{3}}{4}$$',
+    hasImage: false,
+  },
+  {
+    id: '1798d3def42',
+    chapter: '平面向量',
+    question:
+      '設 $$x$$，$$y$$ 為正數，且 $$3x+2y=21$$，求 $$\\frac{3}{x}+\\frac{8}{y}$$ 的最小值，及此時的數對 $$(x,y)$$。',
+    answer: '$$\\frac{3}{7}$$；$$(3,6)$$',
+    hasImage: false,
+  },
+  {
+    id: '1798d8949d9',
+    chapter: '空間向量',
+    question:
+      '將長方形 $$ABCD$$ 沿著對角線 $$\\overline{AC}$$ 摺起，使平面 $$ABC$$ 與平面 $$ACD$$ 互相垂直，已知 $$\\overline{AB}=a$$，$$\\overline{BC}=b$$，則以 $$a$$，$$b$$ 表示 $$\\overline{BD}=$$？',
+    answer: '$$\\sqrt{\\frac{a^4+b^4}{a^2+b^2}}$$',
+    hasImage: false,
+  },
+  {
+    id: '1798d8f19fb',
+    chapter: '空間向量',
+    question:
+      '在空間坐標系中，點 $$P$$ 在第一卦限，且點 $$P$$ 到 $$x$$ 軸、$$y$$ 軸、$$z$$ 軸的距離分別為 $$2\\sqrt{5}$$、$$5$$、$$\\sqrt{13}$$，試求點 $$P$$ 的坐標。',
+    answer: '$$(3,2,4)$$',
+    hasImage: false,
+  },
+  {
+    id: '1798da4d1c8',
+    chapter: '空間向量',
+    question:
+      '在坐標空間中，一正立方體的八個頂點分別為 $$(0,0,0)$$、$$(1,0,0)$$、$$(1,1,0)$$、$$(0,1,0)$$、$$(0,0,1)$$、$$(1,0,1)$$、$$(1,1,1)$$ 與 $$(0,1,1)$$。若 $$A$$、$$B$$ 分別為此正立方體兩稜邊的中點，則向量 $$\\overrightarrow{AB}$$ 可能為下列哪些選項？(多選)\n(A) $$(1,0,0)\\quad$$ (B) $$\\left(\\frac{1}{2},0,0\\right)$$\n(C) $$\\left(\\frac{1}{2},0,1\\right)\\quad$$ (D) $$\\left(0,-\\frac{1}{2},-\\frac{1}{2}\\right)$$',
+    answer: '(A)(D)',
+    hasImage: false,
+  },
+  {
+    id: '1798da60c51',
+    chapter: '空間向量',
+    question:
+      '$$\\triangle ABC$$ 的三頂點坐標為 $$A(2,-3,5)$$、$$B(3,0,10)$$、$$C(x,y,0)$$，則使 $$\\triangle ABC$$ 的周長為最小之點 $$C$$ 坐標為？',
+    answer: '$$\\left(\\frac{7}{3},-2,0\\right)$$',
+    hasImage: false,
+  },
+  {
+    id: '1798db7f40f',
+    chapter: '空間向量',
+    question:
+      '右圖中，$$ABCD-EFGH$$ 為一正立方體，$$Q$$ 為 $$\\overline{GH}$$ 的中點，$$P$$ 為 $$\\overline{AD}$$ 的中點，$$O$$ 為正立方體的中心，試求 $$\\cos(\\angle POQ)$$ 的值。',
+    answer: '$$-\\frac{1}{2}$$',
+    hasImage: true,
+  },
+  {
+    id: '1798dbaa732',
+    chapter: '空間向量',
+    question:
+      '在空間坐標系中，$$A$$、$$B$$、$$C$$ 分別為 $$x$$、$$y$$、$$z$$ 軸上的點，$$O$$ 為原點，若 $$\\triangle AOB$$、$$\\triangle BOC$$、$$\\triangle COA$$ 的面積分別為 $$3$$、$$4$$、$$5$$，試求 $$\\triangle ABC$$ 的面積。',
+    answer: '$$5\\sqrt{2}$$',
+    hasImage: false,
+  },
+  {
+    id: '1798dbb684c',
+    chapter: '空間向量',
+    question:
+      '右圖中，$$A-BCD$$ 為正四面體，試求 $$\\overrightarrow{AC}\\cdot\\overrightarrow{BD}$$ 的值。',
+    answer: '$$0$$',
+    hasImage: true,
+  },
 ];

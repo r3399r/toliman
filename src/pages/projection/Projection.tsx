@@ -6,7 +6,7 @@ import style from './Projection.module.scss';
 
 const Projection = () => {
   const num: string = 'p.31 例題2';
-  const id: string = '178f777ce0b';
+  const id: string = '1798dbb684c';
   const q: Question | undefined = getQuestion(id);
 
   if (q === undefined) return <div className={style.content}>Question Not Found</div>;

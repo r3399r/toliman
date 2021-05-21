@@ -1,5 +1,4 @@
 import { Button, Checkbox, Input, Radio, RadioChangeEvent, Upload } from 'antd';
-import { CheckboxValueType } from 'antd/lib/checkbox/Group';
 import { useEffect, useState } from 'react';
 import { CopyToClipboard } from 'react-copy-to-clipboard';
 import Textarea2MathJax from 'src/component/Textarea2MathJax';
@@ -12,6 +11,7 @@ const Home = () => {
   const [isRendering, setIsRendering] = useState<boolean>(false);
 
   const [id, setId] = useState<string>('');
+  const [randomId, setRandomId] = useState<string>('');
 
   const [chapter, setChapter] = useState<string>('');
 
@@ -22,7 +22,7 @@ const Home = () => {
   const [image, setImage] = useState<string>('');
 
   useEffect(() => {
-    setId(Date.now().toString(16));
+    setRandomId(Date.now().toString(16));
   }, [question, answer]);
 
   useEffect(() => {
@@ -38,7 +38,8 @@ const Home = () => {
     const inputId: string = ev.target.value;
     const res: Question | undefined = getQuestion(inputId);
 
-    if (res === undefined) alert(`id: ${inputId} 不存在`);
+    if (inputId === '') setId('');
+    else if (res === undefined) alert(`id: ${inputId} 不存在`);
     else {
       setId(inputId);
       setChapter(res.chapter);
@@ -72,7 +73,7 @@ const Home = () => {
     return false;
   };
 
-  const result: Question = { id, chapter, question, answer, hasImage };
+  const result: Question = { id: id === '' ? randomId : id, chapter, question, answer, hasImage };
 
   return (
     <div className={style.content}>
