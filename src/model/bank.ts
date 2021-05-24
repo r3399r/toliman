@@ -1998,4 +1998,583 @@ export const bank: Question[] = [
     answer: '$$0$$',
     hasImage: true,
   },
+  {
+    id: '1798f1a9043',
+    chapter: '排列組合與機率',
+    question:
+      "設 $$U=\\{x|1\\le x\\le300,x\\in\\mathbb{Z}\\}$$ 為宇集，且 $$A$$、$$B$$ 兩集合均為 $$U$$ 的子集，今若 $$A$$ 表示 $$5$$ 的倍數所成的集合，$$B$$ 表示 $$8$$ 的倍數所成的集合，試求下列各集合的元素個數。\n(1) $$n(A)\\quad$$ (2) $$n(B')\\quad$$ (3) $$n(A\\cap B)$$\n(4) $$n(A\\cup B)\\quad$$ (5) $$n(A\\cap B')\\quad$$ (6) $$n((A\\cup B)')$$",
+    answer: '(1) $$60$$ (2) $$263$$ (3) $$7$$ (4) $$90$$ (5) $$53$$ (6) $$210$$',
+    hasImage: false,
+  },
+  {
+    id: '1798f69e9c1',
+    chapter: '排列組合與機率',
+    question:
+      '$$1$$ 到 $$1000$$ 的所有自然數中，$$2$$ 的倍數或 $$3$$ 的倍數或 $$5$$ 的倍數有幾個？',
+    answer: '$$734$$',
+    hasImage: false,
+  },
+  {
+    id: '1798f6e706b',
+    chapter: '排列組合與機率',
+    question:
+      '上數學課時，老師出兩個題目給全班同學做，已知全班有 $$50$$ 人，解出第一題的同學有 $$32$$ 人，解出第二題的同學有 $$24$$ 人，兩題均解出的同學有 $$15$$ 人，則兩題都解不出的同學有幾人？',
+    answer: '$$9$$',
+    hasImage: false,
+  },
+  {
+    id: '1798f782757',
+    chapter: '排列組合與機率',
+    question:
+      '子見因工作需要星期一到星期五必需到 $$A$$、$$B$$、$$C$$、$$D$$、$$E$$、$$F$$ 等 $$6$$ 間他負責的店家訪查，若他每天只能訪查一間店家，且相鄰兩天不訪查同一店家，而星期一及星期五這兩天一定要到 $$A$$ 店家訪查，請問在一週五天當中，子見的訪查行程有幾種安排？(單選)\n(A) $$100$$ 種 (B) $$105$$ 種 (C) $$110$$ 種 (D) $$120$$ 種 (E) $$126$$ 種',
+    answer: '(B)',
+    hasImage: false,
+  },
+  {
+    id: '1798f7be697',
+    chapter: '排列組合與機率',
+    question:
+      '某公司 $$6$$ 位員工排成一列照相，\n(1) 任意排列，則排法有幾種？\n(2) 若董事長一定要排在第一個位置比讚，則排法有幾種？',
+    answer: '(1) $$720$$ (2) $$120$$',
+    hasImage: false,
+  },
+  {
+    id: '1798f7d9034',
+    chapter: '排列組合與機率',
+    question: '(1) $$P^5_3=$$？\n(2) 若 $$P^n_3:P^{n+2}_3=5:12$$，則 $$n=$$？',
+    answer: '(1) $$20$$ (2) $$7$$',
+    hasImage: false,
+  },
+  {
+    id: '1798f813ff8',
+    chapter: '排列組合與機率',
+    question:
+      '以 $$1$$、$$2$$、$$3$$、$$4$$、$$5$$ 共 $$5$$ 個數字作三位數，數字不可重複使用，則：\n(1) 此三位數共有幾個？\n(2) 這些三位數中，共有幾個奇數？幾個偶數？\n(3) 這些三位數，由小而大排列，第 $$30$$ 個數字為？$$342$$ 是第幾個數？',
+    answer: '(1) $$60$$ (2) $$36$$；$$24$$ (3) $$325$$；$$32$$',
+    hasImage: false,
+  },
+  {
+    id: '1798f837c86',
+    chapter: '排列組合與機率',
+    question:
+      '棒球比賽中，每隊要排出 $$9$$ 名球員輪流上場打擊，依序稱為第一棒到第九棒，現在某隊選出的 $$9$$ 名球員中，甲一定排在第一棒，乙、丙、丁三人則排在三、四、五棒，這三人的棒次可以調換，問該隊的打擊順序有幾種排列方式？',
+    answer: '$$720$$',
+    hasImage: false,
+  },
+  {
+    id: '1798f86e6cf',
+    chapter: '排列組合與機率',
+    question:
+      '甲、乙、丙、丁、戊、己、庚共七人排成一列，依下列條件分別求其排法有多少種？\n(1) 七人任意排列\n(2) 甲、乙、丙三人須完全相鄰不可分開\n(3) 甲、乙、丙三人須完全分開',
+    answer: '(1) $$5040$$ (2) $$720$$ (3) $$1440$$',
+    hasImage: false,
+  },
+  {
+    id: '1798f8d2bfb',
+    chapter: '排列組合與機率',
+    question:
+      '甲、乙、丙、丁四個好朋友共乘香蕉船玩樂，試求：\n(1) 甲不坐在最前面的排法有幾種？\n(2) 甲不坐在最前面，且丁不坐在最後面的方法有幾種？',
+    answer: '(1) $$18$$ (2) $$14$$',
+    hasImage: false,
+  },
+  {
+    id: '1798f8fed2e',
+    chapter: '排列組合與機率',
+    question:
+      '(1) 將 $$4$$ 顆白球 $$2$$ 顆黑球排成一列的排法有幾種？\n(2) 將「阿雄棒棒阿雄帥帥」八個字排成一列的排法有幾種？',
+    answer: '(1) $$15$$ (2) $$2520$$ (3) $$420$$',
+    hasImage: false,
+  },
+  {
+    id: '1798f91a336',
+    chapter: '排列組合與機率',
+    question:
+      '如右圖，某處擺放著 $$A$$、$$B$$、$$C$$ 三排罐子，有神射手用槍彈一個個把罐子擊落，不分 $$A$$、$$B$$、$$C$$ 的順序，任意射擊，但每次只能擊落一瓶罐子，即每排依序由上而下射擊，請問 $$9$$ 瓶罐子全部打下來，共有幾種方法？',
+    answer: '$$1260$$',
+    hasImage: true,
+  },
+  {
+    id: '1798fa42cb3',
+    chapter: '排列組合與機率',
+    question:
+      '一樓有 $$10$$ 階，上樓時可一步跨 $$1$$ 階或 $$2$$ 階，今某頑童欲登此樓，則：\n(1) 有多少種不同的上樓方式？\n(2) 若規定須跨上第五階，則多少種不同的上樓方式？(單選)\n(A) $$9$$ (B) $$16$$ (C) $$64$$ (D) $$89$$',
+    answer: '(1) $$89$$ (2) (C)',
+    hasImage: false,
+  },
+  {
+    id: '17990a8b9e3',
+    chapter: '排列組合與機率',
+    question:
+      '設集合 $$A=\\{a,b\\}$$，$$B=\\{a,b,c,d,e\\}$$，則滿足 $$A\\subset C\\subset B$$ 的集合 $$C$$ 有幾個？',
+    answer: '$$8$$',
+    hasImage: false,
+  },
+  {
+    id: '17990aa1fd6',
+    chapter: '排列組合與機率',
+    question:
+      '已知集合 $$A=\\{2,4,a^2-a+3\\}$$，$$B=\\{3,a,a+2,a+5\\}$$ 滿足 $$A-B=\\{5\\}$$，則實數 $$a=$$？',
+    answer: '$$2$$',
+    hasImage: false,
+  },
+  {
+    id: '17990ab0495',
+    chapter: '排列組合與機率',
+    question: '小新、小白兩人各擲一顆骰子，點數差的絕對值大於 $$3$$ 的情形有幾種？',
+    answer: '$$6$$',
+    hasImage: false,
+  },
+  {
+    id: '17990abfa09',
+    chapter: '排列組合與機率',
+    question:
+      '甲、乙、丙三人各選好一個「$$-2$$」以外的整數，發現這三個數的平方和為 $$9$$，則此三人的選擇共有幾種情形？',
+    answer: '$$12$$',
+    hasImage: false,
+  },
+  {
+    id: '17990adbce5',
+    chapter: '排列組合與機率',
+    question:
+      '某餐飲部供應的菜色為肉類 $$4$$ 種，魚類 $$3$$ 種，蔬菜 $$5$$ 種，甜點 $$2$$ 種，有位客人要點肉類、魚類、蔬菜各一種，不點甜點，則這位客人有幾種點法？',
+    answer: '$$60$$',
+    hasImage: false,
+  },
+  {
+    id: '17990aea8de',
+    chapter: '排列組合與機率',
+    question:
+      '某餐廳的主菜有牛、豬、雞與羊 $$4$$ 種；湯有玉米湯、海鮮湯與蔬菜湯 $$3$$ 種；飲料有咖啡、紅茶與奶茶 $$3$$ 種。每位客人須點全餐(主菜、湯及飲料各任選一種)或超值餐(主菜、飲料各任選一種)。請問共有幾種餐點組合？',
+    answer: '$$48$$',
+    hasImage: false,
+  },
+  {
+    id: '17990b0fd75',
+    chapter: '排列組合與機率',
+    question:
+      '甲、乙兩地間有 $$12$$ 條路，其中 $$3$$ 條是由甲地到乙地的單行道，$$4$$ 條是由乙地到甲地的單行道，另 $$5$$ 條是雙向道，今由甲地到乙地再回到甲地，若往返不走同一條路，走法共有幾種？',
+    answer: '$$40$$',
+    hasImage: false,
+  },
+  {
+    id: '17990b2b6ba',
+    chapter: '排列組合與機率',
+    question:
+      '對全班 $$45$$ 人作喝飲料習慣的調查，發現習慣半糖的有 $$30$$ 人，習慣去冰的有 $$25$$ 人。試問：該班喝飲料的習慣是半糖且去冰者有 $$a$$ 人，最少有 $$b$$ 人，則 $$a+b=$$？',
+    answer: '$$35$$',
+    hasImage: false,
+  },
+  {
+    id: '17990e367f4',
+    chapter: '空間向量',
+    question:
+      '右圖為一正立方體，被一平面截出一個四邊形 $$ABCD$$，其中 $$B$$、$$D$$ 分別為稜的中點，且 $$\\overline{EA}:\\overline{AF}=3:7$$，則 $$\\cos\\angle DAB=$$？',
+    answer: '$$\\frac{1}{26}$$',
+    hasImage: false,
+  },
+  {
+    id: '17990e3909e',
+    chapter: '空間向量',
+    question:
+      '證明下列各式：\n(1) $$\\begin{vmatrix}1&a&a^2\\\\1&b&b^2\\\\1&c&c^2\\end{vmatrix}=(a-b)(b-c)(c-a)$$\n(2) $$\\begin{vmatrix}1&a&a^3\\\\1&b&b^3\\\\1&c&c^3\\end{vmatrix}=(a-b)(b-c)(c-a)(a+b+c)$$\n(3) $$\\begin{vmatrix}b+c&a&a\\\\b&c+a&b\\\\c&c&a+b\\end{vmatrix}=4abc$$\n(4) $$\\begin{vmatrix}1+a^2&ab&ac\\\\ab&1+b^2&bc\\\\ac&bc&1+c^2\\end{vmatrix}=a^2+b^2+c^2+1$$',
+    answer: '略',
+    hasImage: false,
+  },
+  {
+    id: '17990e56c0b',
+    chapter: '空間向量',
+    question:
+      '設 $$A(0,0,0)$$、$$B(1,2,3)$$、$$C(-2,1,-1)$$、$$D(3,1,2)$$，試求：\n(1) 四面體 $$ABCD$$ 的體積\n(2) $$\\triangle ABC$$ 的面積\n(3) 四面體 $$ABCD$$ 過 $$D$$ 的高長度為何？',
+    answer: '(1) $$\\frac{5}{3}$$ (2) $$\\frac{5\\sqrt{3}}{2}$$ (3) $$\\frac{2\\sqrt{3}}{3}$$',
+    hasImage: false,
+  },
+  {
+    id: '17990e6a7ea',
+    chapter: '空間向量',
+    question:
+      '設平面上三相異直線 $$L_1:2x-3y+1=0$$，$$L_2:ax+y+5=0$$，$$L_3:x+2ay+8=0$$ 共點，求 $$a$$ 之值。',
+    answer: '$$0$$ 或 $$-2$$',
+    hasImage: false,
+  },
+  {
+    id: '17991b7e1d2',
+    chapter: '排列組合與機率',
+    question:
+      '$$1$$ 到 $$1000$$ 的正整數中，試求是 $$6$$ 或是 $$10$$ 的倍數，但不是 $$8$$ 的倍數一共有幾個？',
+    answer: '',
+    hasImage: false,
+  },
+  {
+    id: '17991fa8dd5',
+    chapter: '排列組合與機率',
+    question:
+      '以 $$0$$、$$1$$、$$2$$、$$3$$、$$4$$、$$5$$ 等六個數字作成四位數，數字不可重複使用，則：\n(1) 此四位數共有幾個？\n(2) 這些四位數中，有幾個偶數？\n(3) 這些四位數，由小而大排列，第 $$100$$ 個數字為？$$3420$$ 是第幾個數？',
+    answer: '(1) $$300$$ (2) $$156$$ (3) $$2410$$；$$163$$',
+    hasImage: false,
+  },
+  {
+    id: '17992b9b195',
+    chapter: '平面向量',
+    question:
+      '設 $$\\triangle ABC$$ 之 $$\\angle A=60^{\\circ}$$，$$\\overline{AC}=b$$，$$\\overline{AB}=c$$，今在 $$\\overline{BC}$$ 上取一點 $$D$$，使得 $$\\overline{BD}=\\frac{1}{3}\\overline{BC}$$，$$s=\\overline{AD}$$，則 $$s^2=$$？',
+    answer: '$$\\frac{1}{9}(b^2+4c^2+2bc)$$',
+    hasImage: false,
+  },
+  {
+    id: '179933a1b86',
+    chapter: '矩陣B',
+    question:
+      '利用高斯消去法解方程組 $$\\begin{cases}2x+3y-z=6\\\\x-y+z=2\\\\3x-2y-9z=-5\\end{cases}$$',
+    answer: '$$x=2$$、$$y=1$$、$$z=1$$',
+    hasImage: false,
+  },
+  {
+    id: '179933bfba0',
+    chapter: '矩陣B',
+    question:
+      '利用矩陣的列運算解線性方程組 $$\\begin{cases}x+2y-2z=-3\\\\3x-y+4z=14\\\\2x+3y-z=2\\end{cases}$$',
+    answer: '$$x=1$$、$$y=1$$、$$z=3$$',
+    hasImage: false,
+  },
+  {
+    id: '179933d62f8',
+    chapter: '矩陣B',
+    question:
+      '利用矩陣的列運算求方程組 $$\\begin{cases}2x+y-z=5\\\\x+2y+z=7\\\\7x+8y+z=31\\end{cases}$$',
+    answer: '$$\\begin{cases}x=1+t\\\\y=3-t\\\\z=t\\end{cases},t\\in\\mathbb{R}$$',
+    hasImage: false,
+  },
+  {
+    id: '179933e6cf1',
+    chapter: '矩陣B',
+    question:
+      '利用矩陣的列運算求方程組 $$\\begin{cases}3x+y-z=2\\\\x+2y+z=8\\\\x-3y-3z=1\\end{cases}$$',
+    answer: '無解',
+    hasImage: false,
+  },
+  {
+    id: '17993401086',
+    chapter: '矩陣B',
+    question:
+      '試就 $$a$$ 值討論方程組 $$\\begin{cases}x-2y-3z=1\\\\x+z=3\\\\3x-2y-z=a\\end{cases}$$',
+    answer:
+      '當 $$a\\neq7$$ 時，無解；當 $$a=7$$ 時，無限解，其解為 $$\\begin{cases}x=3-t\\\\y=1-2t\\\\z=t\\end{cases},t\\in\\mathbb{R}$$',
+    hasImage: false,
+  },
+  {
+    id: '179934e51e4',
+    chapter: '矩陣B',
+    question: '利用牛頓插值法求通過三點 $$(1,5)$$、$$(2,7)$$、$$(-2,23)$$ 的二次多項式 $$f(x)=$$？',
+    answer: '$$2x^2-4x+7$$',
+    hasImage: false,
+  },
+  {
+    id: '1799350a87d',
+    chapter: '矩陣B',
+    question:
+      '給定坐標空間中的四個向量 $$\\vec{a}=(2,1,4)$$，$$\\vec{b}=(1,-3,1)$$，$$\\vec{c}=(2,-2,3)$$ 與 $$\\vec{d}=(1,-4,1)$$，試將 $$\\vec{d}$$ 表示成 $$\\vec{a}$$、$$\\vec{b}$$、$$\\vec{c}$$ 的線性組合 $$x\\vec{a}+y\\vec{b}+z\\vec{c}$$，則序組 $$(x,y,z)=$$？',
+    answer: '$$(1,3,-2)$$',
+    hasImage: false,
+  },
+  {
+    id: '179935955d4',
+    chapter: '矩陣B',
+    question:
+      '下列演算式為一個關於 $$x$$，$$y$$，$$z$$ 方程組的高斯消去法：\n$$\\begin{bmatrix}2&3&-2&5\\\\3&-2&1&10\\\\1&2&-1&2\\end{bmatrix}\\rightarrow\\begin{bmatrix}1&2&a&2\\\\3&-2&1&10\\\\2&3&-2&5\\end{bmatrix}\\rightarrow\\begin{bmatrix}1&2&a&2\\\\0&b&4&4\\\\0&-1&0&1\\end{bmatrix}$$\n$$\\rightarrow\\begin{bmatrix}1&2&a&2\\\\0&-1&0&1\\\\0&b&4&4\\end{bmatrix}\\rightarrow\\begin{bmatrix}1&2&a&2\\\\0&-1&0&1\\\\0&0&4&c\\end{bmatrix}\\rightarrow\\cdots$$\n若繼續進行矩陣的列運算，即可求得 $$x$$，$$y$$，$$z$$ 之解，則序組 $$(a,b,c)=$$？',
+    answer: '$$(-1,-8,-4)$$',
+    hasImage: false,
+  },
+  {
+    id: '179935cd335',
+    chapter: '矩陣B',
+    question:
+      '小臻利用矩陣的列運算在紙上解一個三元一次方程組，過程如下：\n$$\\cdots\\rightarrow\\begin{bmatrix}1&-1&a&8\\\\0&5&-3&b\\\\0&1&c&-15\\end{bmatrix}\\rightarrow\\cdots\\rightarrow\\begin{bmatrix}1&0&0&4\\\\0&1&0&-3\\\\0&0&1&1\\end{bmatrix}$$，求數字 $$a$$，$$b$$，$$c$$。',
+    answer: '$$a=1$$，$$b=-18$$，$$c=-12$$',
+    hasImage: false,
+  },
+  {
+    id: '179935fbc50',
+    chapter: '矩陣B',
+    question:
+      '某公司有甲、乙、丙三條生產線，現欲生產三萬個產品，若甲、乙、丙三條生產線同時開動，則需 $$10$$ 小時；若只開動乙、丙兩條生產線，則需 $$15$$ 小時；若只開動甲生產線 $$15$$ 小時，則需再開動丙生產線 $$30$$ 小時，才能完成所有產品。試問甲、乙、丙條生產線單獨完成所有產品分別各需多少小時？',
+    answer: '甲、乙、丙分別各需 $$30$$、$$20$$、$$60$$ 小時',
+    hasImage: false,
+  },
+  {
+    id: '1799364fdfe',
+    chapter: '矩陣B',
+    question:
+      '已知矩陣 $$\\begin{bmatrix}1&-3&-2&-4\\\\2&1&3&6\\\\3&-2&5&6\\end{bmatrix}$$ 經過列運算後，得 $$\\begin{bmatrix}1&-3&-2&-4\\\\0&1&1&a\\\\0&0&1&b\\end{bmatrix}$$，則數對 $$(a,b)=$$？',
+    answer: '$$(2,1)$$',
+    hasImage: false,
+  },
+  {
+    id: '1799367145e',
+    chapter: '矩陣B',
+    question:
+      '$$\\begin{cases}3x+4y+z=8\\\\2x+3y+z=7\\\\x+y+z=4\\end{cases}$$ 的解為序組 $$(x,y,z)=$$？',
+    answer: '$$(-1,2,3)$$',
+    hasImage: false,
+  },
+  {
+    id: '1799369132f',
+    chapter: '矩陣B',
+    question:
+      '已知上等稻禾 $$2$$ 捆、中等稻禾 $$3$$ 捆、下等稻禾 $$3$$ 捆，共可打出稻米 $$28$$ 斗；上等稻禾 $$1$$ 捆、中等稻禾 $$5$$ 捆、下等稻禾 $$4$$ 捆，共可打出稻米 $$33$$ 斗；上等稻禾 $$3$$ 捆、中等稻禾 $$1$$ 捆、下等稻禾 $$1$$ 捆，共可打出稻米 $$21$$ 斗，則上等稻禾、中等稻禾、下等稻禾各 $$1$$ 捆，共可打出稻米幾斗？',
+    answer: '$$11$$',
+    hasImage: false,
+  },
+  {
+    id: '179936be142',
+    chapter: '矩陣B',
+    question:
+      '某高中有兩個生態池，其中 $$A$$、$$B$$ 兩個注水管及一個 $$C$$ 排水管，若只開 $$A$$、$$B$$ 兩管需 $$6$$ 小時即可注滿水，若開 $$A$$ 注水管及 $$C$$ 排水管，則需 $$12$$ 小時方可注滿水，若開 $$B$$ 注水管及 $$C$$ 排水管，則需 $$20$$ 小時才可注滿水，則清掃完畢後排空的生態池在只開 $$A$$ 注水管的情況下，需幾小時才可注滿水？',
+    answer: '$$10$$',
+    hasImage: false,
+  },
+  {
+    id: '179936d719f',
+    chapter: '矩陣B',
+    question:
+      '若方程組 $$\\begin{cases}ax+y+z=7\\\\x+by+z=8\\\\x+y+cz=9\\end{cases}$$ 矩陣經過列運算之後，可以化成 $$\\begin{bmatrix}1&0&0&1\\\\0&1&0&2\\\\0&0&1&3\\end{bmatrix}$$，則序組 $$(a,b,c)=$$？',
+    answer: '$$(2,2,2)$$',
+    hasImage: false,
+  },
+  {
+    id: '179936f7f2f',
+    chapter: '矩陣B',
+    question:
+      '小楠利用矩陣的列運算在紙上解一個三元一次方程組，過程如下：\n$$\\cdots\\rightarrow\\begin{bmatrix}1&-2&a&5\\\\2&b&-3&-3\\\\3&-1&2&c\\end{bmatrix}\\rightarrow\\cdots$$ \n$$\\rightarrow\\begin{bmatrix}1&0&0&1\\\\0&1&0&1\\\\0&0&1&2\\end{bmatrix}$$，求序組 $$(a,b,c)=$$？',
+    answer: '$$(3,1,6)$$',
+    hasImage: false,
+  },
+  {
+    id: '17993729e8b',
+    chapter: '矩陣B',
+    question:
+      '若方程組 $$\\begin{cases}x-y+z=3\\\\x+3y-2z=-8\\\\5x-y+2z=a\\end{cases}$$ 無解，則 $$a$$ 不可以為何？',
+    answer: '$$4$$',
+    hasImage: false,
+  },
+  {
+    id: '179937355f2',
+    chapter: '矩陣B',
+    question:
+      '若方程組 $$\\begin{cases}x-2y-3z=1\\\\x-z=-1\\\\3x+2y-z=a\\end{cases}$$ 有解，則 $$a=$$？',
+    answer: '$$-5$$',
+    hasImage: false,
+  },
+  {
+    id: '1799374e08b',
+    chapter: '矩陣B',
+    question:
+      '設向量 $$\\vec{a}=(1,2,1)$$，$$\\vec{b}=(1,3,-1)$$，$$\\vec{c}=(1,-1,2)$$，$$\\vec{d}=(4,-2,9)$$，若 $$\\vec{d}=x\\vec{a}+y\\vec{b}+z\\vec{c}$$，則序組 $$(x,y,z)=$$？',
+    answer: '$$(2,-1,3)$$',
+    hasImage: false,
+  },
+  {
+    id: '1799376c060',
+    chapter: '矩陣B',
+    question:
+      '有一工程，甲、乙、丙合作 $$10$$ 天可完成；乙獨做 $$15$$ 天，剩餘的由丙獨做 $$30$$ 天可完成；甲獨做 $$10$$ 天，剩餘的由丙獨做 $$30$$ 天可完成。若甲、乙、丙獨做各 $$x$$、$$y$$、$$z$$ 天可完成，則序組 $$(x,y,z)=$$？',
+    answer: '$$(20,30,60)$$',
+    hasImage: false,
+  },
+  {
+    id: '1799377e304',
+    chapter: '矩陣B',
+    question:
+      '已知 $$(x,y,z)$$ 為聯立方程組 $$\\begin{cases}x+2y-z=1\\\\x-y+2z=4\\\\4x-y+5z=13\\end{cases}$$ 的一解，則 $$x^2+y^2+z^2$$ 的最小值為？',
+    answer: '$$\\frac{14}{3}$$',
+    hasImage: false,
+  },
+  {
+    id: '1799392a68f',
+    chapter: '矩陣B',
+    question: '二次多項式 $$f(x)$$，已知 $$f(11)=5$$，$$f(12)=-3$$，$$f(13)=6$$，則 $$f(14)=$$？',
+    answer: '$$32$$',
+    hasImage: false,
+  },
+  {
+    id: '179964bbaa7',
+    chapter: '三角比',
+    question: '試求：$$\\frac{\\sin30^\\circ+\\cos45^\\circ}{\\sin30^\\circ-\\cos45^\\circ}$$',
+    answer: '$$-3-2\\sqrt{2}$$',
+    hasImage: false,
+  },
+  {
+    id: '179964e143a',
+    chapter: '三角比',
+    question:
+      '設 $$\\triangle ABC$$ 是直角三角形，$$\\angle C=90^\\circ$$，$$\\overline{AC}=3$$，$$\\overline{BC}=4$$，求 $$\\sin A$$、$$\\cos A$$、$$\\tan A$$。',
+    answer: '$$\\frac{4}{5}$$；$$\\frac{3}{5}$$；$$\\frac{4}{3}$$',
+    hasImage: false,
+  },
+  {
+    id: '17996591520',
+    chapter: '三角比',
+    question:
+      '如右圖，在 $$\\triangle ABC$$ 中，$$\\overline{BD}$$ 垂直 $$\\overline{AC}$$，$$\\overline{AB}=25$$，$$\\sin A=\\frac{24}{25}$$，且 $$\\tan C=\\frac{12}{5}$$，則：\n(1) $$\\overline{BD}$$ (2) $$\\overline{AC}$$',
+    answer: '(1) $$24$$ (2) $$17$$',
+    hasImage: true,
+  },
+  {
+    id: '179965c10c8',
+    chapter: '三角比',
+    question:
+      '我們可以依如下的方法作出 $$15^\\circ$$ 角。先作一個 $$30^\\circ-60^\\circ-90^\\circ$$ 的直角 $$\\triangle ABC$$，延長 $$\\overrightarrow{CA}$$ 並在 $$\\overrightarrow{CA}$$ 上取 $$\\overline{AD}=\\overline{AB}$$，連接 $$\\overline{BD}$$，則 $$\\angle D=15^\\circ$$，如右圖所示，求：\n(1) $$\\sin15^\\circ$$ (2) $$\\cos15^\\circ$$ (3) $$\\tan 15^\\circ$$',
+    answer:
+      '(1) $$\\frac{\\sqrt{6}-\\sqrt{2}}{4}$$ (2) $$\\frac{\\sqrt{6}+\\sqrt{2}}{4}$$ (3) $$2-\\sqrt{3}$$',
+    hasImage: true,
+  },
+  {
+    id: '179965dfeed',
+    chapter: '三角比',
+    question:
+      '如右圖，$$\\theta$$ 為銳角，圓 $$O$$ 為半徑 $$1$$ 的單位圓，且 $$\\overline{AB}$$ 與 $$\\overline{CD}$$ 為圓 $$O$$ 的切線段，則下列敘述哪些正確？\n(A) $$\\overline{AB}=\\tan\\theta\\quad$$ (B) $$\\overline{OE}=\\sin\\theta$$\n(C) $$\\overline{CD}=\\tan\\theta\\quad$$ (D) $$\\overline{EF}=\\sin\\theta$$\n(E) $$\\overline{OD}=\\sin\\theta',
+    answer: '(A)(D)',
+    hasImage: true,
+  },
+  {
+    id: '179965f4505',
+    chapter: '三角比',
+    question:
+      '已知 $$\\theta$$ 為銳角，且 $$\\cos\\theta=\\frac{15}{17}$$，求：\n(1) $$\\sin\\theta$$ (2) $$\\tan\\theta$$',
+    answer: '(1) $$\\frac{8}{17}$$ (2) $$\\frac{8}{15}$$',
+    hasImage: true,
+  },
+  {
+    id: '1799660a068',
+    chapter: '三角比',
+    question:
+      '設 $$\\theta$$ 為銳角，且 $$\\sin\\theta=2\\cos\\theta$$，試求 $$\\sin\\theta+\\cos\\theta=$$？',
+    answer: '$$\\frac{3\\sqrt{5}}{5}$$',
+    hasImage: false,
+  },
+  {
+    id: '17996638499',
+    chapter: '三角比',
+    question:
+      '計算下列各式：\n(1) 設 $$\\theta$$ 為銳角，若 $$\\cos40^\\circ=\\sin\\theta$$，求 $$\\theta$$。\n(2) $$\\cos^240^\\circ+\\cos^250^\\circ+\\cos^260^\\circ=$$？\n(3) $$\\sin^210^\\circ+\\sin^220^\\circ+\\sin^230^\\circ+\\sin^240^\\circ+\\sin^250^\\circ+\\sin^260^\\circ+\\sin^270^\\circ+\\sin^280^\\circ=$$？',
+    answer: '(1) $$50$$ (2) $$\\frac{5}{4}$$ (3) $$4$$',
+    hasImage: false,
+  },
+  {
+    id: '17996672891',
+    chapter: '三角比',
+    question:
+      '設 $$\\theta$$ 為銳角，若 $$\\sin\\theta+\\cos\\theta=\\frac{5}{4}$$，求：\n(1) $$\\sin\\theta\\cos\\theta\\quad$$ (2) $$\\sin\\theta-\\cos\\theta\\quad$$ (3) $$\\sin^3\\theta+\\cos^3\\theta$$',
+    answer: '(1) $$\\frac{9}{32}$$ (2) $$\\pm\\frac{\\sqrt{7}}{4}$$ (3) $$\\frac{115}{128}$$',
+    hasImage: false,
+  },
+  {
+    id: '17996695a20',
+    chapter: '三角比',
+    question:
+      '設 $$\\theta$$ 為銳角，試證明下列各式：\n(1) $$(\\sin\\theta+\\cos\\theta)^2=1+2\\sin\\theta\\cos\\theta$$\n(2) $$\\frac{1+\\sin\\theta}{\\cos\\theta}+\\frac{\\cos\\theta}{1+\\sin\\theta}=\\frac{2}{\\cos\\theta}\n(3) $$\\tan\\theta+\\frac{1}{\\tan\\theta}=\\frac{1}{\\sin\\theta\\cos\\theta}$$',
+    answer: '略',
+    hasImage: false,
+  },
+  {
+    id: '179966cda60',
+    chapter: '三角比',
+    question:
+      '試比較下列之大小關係：\n(1) $$\\sin65^\\circ$$、$$\\sin55^\\circ$$ (2) $$\\cos65^\\circ$$、$$\\cos55^\\circ$$ (3) $$\\sin46^\\circ$$、$$\\cos46^\\circ$$\n(4) $$\\sin35^\\circ$$、$$\\frac{1}{2}$$ (5) $$\\cos35^\\circ$$、$$\\frac{\\sqrt{3}}{2}$$ (6) $$\\tan46^\\circ$$、$$1$$',
+    answer:
+      '(1) $$\\sin65^\\circ>\\sin55^\\circ$$ (2) $$\\cos65^\\circ<\\cos55^\\circ$$ (3) $$\\sin46^\\circ>\\cos46^\\circ$$ (4) $$\\sin35^\\circ>\\frac{1}{2}$$ (5) $$\\cos35^\\circ<\\frac{\\sqrt{3}}{2}$$ (6) $$\\tan46^\\circ>1$$',
+    hasImage: false,
+  },
+  {
+    id: '1799677886e',
+    chapter: '三角比',
+    question:
+      '$$\\triangle ABC$$ 中，若 $$\\angle C=90^\\circ$$，且 $$\\sin A=\\frac{1}{3}$$，則 $$\\tan B=$$？',
+    answer: '$$2\\sqrt{2}$$',
+    hasImage: false,
+  },
+  {
+    id: '1799678c5da',
+    chapter: '三角比',
+    question:
+      '如圖，$$\\triangle ABC$$ 中，$$\\overline{AD}\\perp\\overline{BC}$$，已知 $$\\overline{AB}=20$$，$$\\sin B=\\frac{3}{5}$$，$$\\sin C=\\frac{12}{13}$$，則 $$\\overline{BC}=$$？',
+    answer: '$$21$$',
+    hasImage: true,
+  },
+  {
+    id: '179967a4e21',
+    chapter: '三角比',
+    question:
+      '如圖，$$\\overline{BC}\\perp\\overline{AC}$$，$$\\overline{AD}=\\overline{BD}$$，若 $$\\cos\\angle BDC=\\frac{2}{3}$$，則 $$\\tan A$$ 的值為？',
+    answer: '$$\\frac{\\sqrt{5}}{5}$$',
+    hasImage: true,
+  },
+  {
+    id: '179967b9e90',
+    chapter: '三角比',
+    question:
+      '(1) $$\\tan^230^\\circ\\times\\cos60^\\circ=$$？\n(2) $$(1+\\sin30^\\circ+\\sin45^\\circ)(1-\\cos45^\\circ+\\cos60^\\circ)=$$？',
+    answer: '(1) $$\\frac{1}{6}$$ (2) $$\\frac{7}{4}$$',
+    hasImage: false,
+  },
+  {
+    id: '179967c79a3',
+    chapter: '三角比',
+    question: '化簡 $$(\\sin87^\\circ+\\cos87^\\circ)^2+(\\sin87^\\circ-\\cos87^\\circ)^2$$',
+    answer: '$$2$$',
+    hasImage: false,
+  },
+  {
+    id: '179967d65a9',
+    chapter: '三角比',
+    question:
+      '若 $$\\theta$$ 是一個銳角且 $$\\tan\\theta=2$$，則 $$\\frac{2\\sin\\theta-\\cos\\theta}{2\\sin\\theta+\\cos\\theta}=$$？',
+    answer: '$$\\frac{3}{5}$$',
+    hasImage: false,
+  },
+  {
+    id: '179967ee279',
+    chapter: '三角比',
+    question:
+      '$$\\sin^25^\\circ+\\sin^225^\\circ+\\sin^245^\\circ+\\sin^265^\\circ$$ \n$$+\\sin^285^\\circ=$$？',
+    answer: '$$\\frac{9}{2}$$',
+    hasImage: false,
+  },
+  {
+    id: '179968447b6',
+    chapter: '三角比',
+    question:
+      '已知 $$0^\\circ<\\theta<90^\\circ$$，若 $$\\sin\\theta+\\cos\\theta=\\frac{6}{5}$$，則：\n(1) $$\\sin\\theta\\cos\\theta=$$？\n(2) $$\\sin\\theta-\\cos\\theta=$$？(兩解)',
+    answer: '(1) $$\\frac{11}{50}$$ (2) $$\\pm\\frac{\\sqrt{14}}{5}$$',
+    hasImage: false,
+  },
+  {
+    id: '179968541c0',
+    chapter: '三角比',
+    question:
+      '如圖，等腰直角 $$\\triangle ABC$$ 中，$$\\overline{BM}$$ 為 $$\\overline{AC}$$ 之中線，若 $$\\angle CBM=\\theta$$，則 $$\\tan\\theta=$$？',
+    answer: '$$\\frac{1}{3}$$',
+    hasImage: true,
+  },
+  {
+    id: '1799685e5d3',
+    chapter: '三角比',
+    question: '$$\\sqrt{3}(\\cos30^\\circ+\\sin60^\\circ)+\\sqrt{2}\\cos45^\\circ=$$？',
+    answer: '$$4$$',
+    hasImage: false,
+  },
+  {
+    id: '1799686d5ac',
+    chapter: '三角比',
+    question: '比較 $$a=\\sin61^\\circ$$、$$b=\\cos11^\\circ$$、$$c=\\tan29^\\circ$$ 之大小關係。',
+    answer: '$$b>a>c$$',
+    hasImage: false,
+  },
+  {
+    id: '179968926c1',
+    chapter: '三角比',
+    question:
+      '已知直角 $$\\triangle ABC$$ 中，$$\\angle C=90^\\circ$$，若 $$3\\cos A+5\\cos B=5$$，則 $$\\sin A=$$？',
+    answer: '$$\\frac{8}{17}$$',
+    hasImage: false,
+  },
 ];
