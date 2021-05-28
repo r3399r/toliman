@@ -6,18 +6,18 @@ import style from './Hw.module.scss';
 
 const Hw = () => {
   const ids: string[] = [
-    '1799677886e',
-    '1799678c5da',
-    '179967a4e21',
-    '179967b9e90',
-    '179967c79a3',
-    '179967d65a9',
-    '179967ee279',
-    '179968447b6',
-    '179968541c0',
-    '1799685e5d3',
-    '1799686d5ac',
-    '179968926c1',
+    '178f77a66b0',
+    '178f77b3896',
+    '178f9e85218',
+    '178fa340b81',
+    '178fa3eee69',
+    '178fa4ccd10',
+    '178fa58b177',
+    '178fa706cd1',
+    '178fa7e4b84',
+    '178fa7b2ef0',
+    '178f9e3fc7b',
+    '178f77b0f54',
   ];
 
   return (
@@ -29,7 +29,7 @@ const Hw = () => {
           return (
             <div key={q.id}>
               {q.hasImage === true && (
-                <img className={style.img} src={`images/${q.id}.jpg`} alt="" role="presentation" />
+                <img className={style.img} src={`images/${q.id}.PNG`} alt="" role="presentation" />
               )}
               <Textarea2MathJax text={`${i + 1}. ${q.question}`} />
               <Textarea2MathJax text={`Ans: ${q.answer}`} className={style.ans} />

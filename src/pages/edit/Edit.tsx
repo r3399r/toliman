@@ -46,7 +46,7 @@ const Home = () => {
       setQuestion(res.question);
       setAnswer(res.answer);
       setHasImage(res.hasImage);
-      if (res.hasImage) setImage(`images/${inputId}.jpg`);
+      if (res.hasImage) setImage(`images/${inputId}.PNG`);
     }
   };
 

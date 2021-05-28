@@ -23,7 +23,7 @@ const Bank = () => {
               id: {q.id}, 章節: {q.chapter}
             </div>
             {q.hasImage === true && (
-              <img className={style.img} src={`images/${q.id}.jpg`} alt="" role="presentation" />
+              <img className={style.img} src={`images/${q.id}.PNG`} alt="" role="presentation" />
             )}
             <Textarea2MathJax text={q.question} />
             <Textarea2MathJax text={`Ans: ${q.answer}`} className={style.ans} />

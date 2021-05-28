@@ -15,7 +15,7 @@ const Projection = () => {
     <div className={style.content}>
       <div className={classNames(style.num, style.font)}>{num}</div>
       {q.hasImage === true && (
-        <img className={style.img} src={`images/${q.id}.jpg`} alt="" role="presentation" />
+        <img className={style.img} src={`images/${q.id}.PNG`} alt="" role="presentation" />
       )}
       <Textarea2MathJax className={style.font} text={`${q.question}`} />
     </div>

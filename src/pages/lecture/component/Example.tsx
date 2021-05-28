@@ -26,7 +26,7 @@ const Example = ({ num, ids }: Props) => {
             {questions[0].hasImage === true && (
               <img
                 className={style.img}
-                src={`images/${questions[0].id}.jpg`}
+                src={`images/${questions[0].id}.PNG`}
                 alt=""
                 role="presentation"
               />
@@ -41,7 +41,7 @@ const Example = ({ num, ids }: Props) => {
             {questions[1].hasImage === true && (
               <img
                 className={style.img}
-                src={`images/${questions[1].id}.jpg`}
+                src={`images/${questions[1].id}.PNG`}
                 alt=""
                 role="presentation"
               />
