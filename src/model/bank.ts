@@ -2222,7 +2222,7 @@ export const bank: Question[] = [
   },
   {
     id: '179933a1b86',
-    chapter: '矩陣B',
+    chapter: '矩陣A',
     question:
       '利用高斯消去法解方程組 $$\\begin{cases}2x+3y-z=6\\\\x-y+z=2\\\\3x-2y-9z=-5\\end{cases}$$',
     answer: '$$x=2$$、$$y=1$$、$$z=1$$',
@@ -2230,7 +2230,7 @@ export const bank: Question[] = [
   },
   {
     id: '179933bfba0',
-    chapter: '矩陣B',
+    chapter: '矩陣A',
     question:
       '利用矩陣的列運算解線性方程組 $$\\begin{cases}x+2y-2z=-3\\\\3x-y+4z=14\\\\2x+3y-z=2\\end{cases}$$',
     answer: '$$x=1$$、$$y=1$$、$$z=3$$',
@@ -2238,7 +2238,7 @@ export const bank: Question[] = [
   },
   {
     id: '179933d62f8',
-    chapter: '矩陣B',
+    chapter: '矩陣A',
     question:
       '利用矩陣的列運算求方程組 $$\\begin{cases}2x+y-z=5\\\\x+2y+z=7\\\\7x+8y+z=31\\end{cases}$$',
     answer: '$$\\begin{cases}x=1+t\\\\y=3-t\\\\z=t\\end{cases},t\\in\\mathbb{R}$$',
@@ -2246,7 +2246,7 @@ export const bank: Question[] = [
   },
   {
     id: '179933e6cf1',
-    chapter: '矩陣B',
+    chapter: '矩陣A',
     question:
       '利用矩陣的列運算求方程組 $$\\begin{cases}3x+y-z=2\\\\x+2y+z=8\\\\x-3y-3z=1\\end{cases}$$',
     answer: '無解',
@@ -2254,7 +2254,7 @@ export const bank: Question[] = [
   },
   {
     id: '17993401086',
-    chapter: '矩陣B',
+    chapter: '矩陣A',
     question:
       '試就 $$a$$ 值討論方程組 $$\\begin{cases}x-2y-3z=1\\\\x+z=3\\\\3x-2y-z=a\\end{cases}$$',
     answer:
@@ -2263,14 +2263,14 @@ export const bank: Question[] = [
   },
   {
     id: '179934e51e4',
-    chapter: '矩陣B',
+    chapter: '矩陣A',
     question: '利用牛頓插值法求通過三點 $$(1,5)$$、$$(2,7)$$、$$(-2,23)$$ 的二次多項式 $$f(x)=$$？',
     answer: '$$2x^2-4x+7$$',
     hasImage: false,
   },
   {
     id: '1799350a87d',
-    chapter: '矩陣B',
+    chapter: '矩陣A',
     question:
       '給定坐標空間中的四個向量 $$\\vec{a}=(2,1,4)$$，$$\\vec{b}=(1,-3,1)$$，$$\\vec{c}=(2,-2,3)$$ 與 $$\\vec{d}=(1,-4,1)$$，試將 $$\\vec{d}$$ 表示成 $$\\vec{a}$$、$$\\vec{b}$$、$$\\vec{c}$$ 的線性組合 $$x\\vec{a}+y\\vec{b}+z\\vec{c}$$，則序組 $$(x,y,z)=$$？',
     answer: '$$(1,3,-2)$$',
@@ -2278,7 +2278,7 @@ export const bank: Question[] = [
   },
   {
     id: '179935955d4',
-    chapter: '矩陣B',
+    chapter: '矩陣A',
     question:
       '下列演算式為一個關於 $$x$$，$$y$$，$$z$$ 方程組的高斯消去法：\n$$\\begin{bmatrix}2&3&-2&5\\\\3&-2&1&10\\\\1&2&-1&2\\end{bmatrix}\\rightarrow\\begin{bmatrix}1&2&a&2\\\\3&-2&1&10\\\\2&3&-2&5\\end{bmatrix}\\rightarrow\\begin{bmatrix}1&2&a&2\\\\0&b&4&4\\\\0&-1&0&1\\end{bmatrix}$$\n$$\\rightarrow\\begin{bmatrix}1&2&a&2\\\\0&-1&0&1\\\\0&b&4&4\\end{bmatrix}\\rightarrow\\begin{bmatrix}1&2&a&2\\\\0&-1&0&1\\\\0&0&4&c\\end{bmatrix}\\rightarrow\\cdots$$\n若繼續進行矩陣的列運算，即可求得 $$x$$，$$y$$，$$z$$ 之解，則序組 $$(a,b,c)=$$？',
     answer: '$$(-1,-8,-4)$$',
@@ -2286,7 +2286,7 @@ export const bank: Question[] = [
   },
   {
     id: '179935cd335',
-    chapter: '矩陣B',
+    chapter: '矩陣A',
     question:
       '小臻利用矩陣的列運算在紙上解一個三元一次方程組，過程如下：\n$$\\cdots\\rightarrow\\begin{bmatrix}1&-1&a&8\\\\0&5&-3&b\\\\0&1&c&-15\\end{bmatrix}\\rightarrow\\cdots\\rightarrow\\begin{bmatrix}1&0&0&4\\\\0&1&0&-3\\\\0&0&1&1\\end{bmatrix}$$，求數字 $$a$$，$$b$$，$$c$$。',
     answer: '$$a=1$$，$$b=-18$$，$$c=-12$$',
@@ -2294,7 +2294,7 @@ export const bank: Question[] = [
   },
   {
     id: '179935fbc50',
-    chapter: '矩陣B',
+    chapter: '矩陣A',
     question:
       '某公司有甲、乙、丙三條生產線，現欲生產三萬個產品，若甲、乙、丙三條生產線同時開動，則需 $$10$$ 小時；若只開動乙、丙兩條生產線，則需 $$15$$ 小時；若只開動甲生產線 $$15$$ 小時，則需再開動丙生產線 $$30$$ 小時，才能完成所有產品。試問甲、乙、丙條生產線單獨完成所有產品分別各需多少小時？',
     answer: '甲、乙、丙分別各需 $$30$$、$$20$$、$$60$$ 小時',
@@ -2302,7 +2302,7 @@ export const bank: Question[] = [
   },
   {
     id: '1799364fdfe',
-    chapter: '矩陣B',
+    chapter: '矩陣A',
     question:
       '已知矩陣 $$\\begin{bmatrix}1&-3&-2&-4\\\\2&1&3&6\\\\3&-2&5&6\\end{bmatrix}$$ 經過列運算後，得 $$\\begin{bmatrix}1&-3&-2&-4\\\\0&1&1&a\\\\0&0&1&b\\end{bmatrix}$$，則數對 $$(a,b)=$$？',
     answer: '$$(2,1)$$',
@@ -2310,7 +2310,7 @@ export const bank: Question[] = [
   },
   {
     id: '1799367145e',
-    chapter: '矩陣B',
+    chapter: '矩陣A',
     question:
       '$$\\begin{cases}3x+4y+z=8\\\\2x+3y+z=7\\\\x+y+z=4\\end{cases}$$ 的解為序組 $$(x,y,z)=$$？',
     answer: '$$(-1,2,3)$$',
@@ -2318,7 +2318,7 @@ export const bank: Question[] = [
   },
   {
     id: '1799369132f',
-    chapter: '矩陣B',
+    chapter: '矩陣A',
     question:
       '已知上等稻禾 $$2$$ 捆、中等稻禾 $$3$$ 捆、下等稻禾 $$3$$ 捆，共可打出稻米 $$28$$ 斗；上等稻禾 $$1$$ 捆、中等稻禾 $$5$$ 捆、下等稻禾 $$4$$ 捆，共可打出稻米 $$33$$ 斗；上等稻禾 $$3$$ 捆、中等稻禾 $$1$$ 捆、下等稻禾 $$1$$ 捆，共可打出稻米 $$21$$ 斗，則上等稻禾、中等稻禾、下等稻禾各 $$1$$ 捆，共可打出稻米幾斗？',
     answer: '$$11$$',
@@ -2326,7 +2326,7 @@ export const bank: Question[] = [
   },
   {
     id: '179936be142',
-    chapter: '矩陣B',
+    chapter: '矩陣A',
     question:
       '某高中有兩個生態池，其中 $$A$$、$$B$$ 兩個注水管及一個 $$C$$ 排水管，若只開 $$A$$、$$B$$ 兩管需 $$6$$ 小時即可注滿水，若開 $$A$$ 注水管及 $$C$$ 排水管，則需 $$12$$ 小時方可注滿水，若開 $$B$$ 注水管及 $$C$$ 排水管，則需 $$20$$ 小時才可注滿水，則清掃完畢後排空的生態池在只開 $$A$$ 注水管的情況下，需幾小時才可注滿水？',
     answer: '$$10$$',
@@ -2334,7 +2334,7 @@ export const bank: Question[] = [
   },
   {
     id: '179936d719f',
-    chapter: '矩陣B',
+    chapter: '矩陣A',
     question:
       '若方程組 $$\\begin{cases}ax+y+z=7\\\\x+by+z=8\\\\x+y+cz=9\\end{cases}$$ 矩陣經過列運算之後，可以化成 $$\\begin{bmatrix}1&0&0&1\\\\0&1&0&2\\\\0&0&1&3\\end{bmatrix}$$，則序組 $$(a,b,c)=$$？',
     answer: '$$(2,2,2)$$',
@@ -2342,7 +2342,7 @@ export const bank: Question[] = [
   },
   {
     id: '179936f7f2f',
-    chapter: '矩陣B',
+    chapter: '矩陣A',
     question:
       '小楠利用矩陣的列運算在紙上解一個三元一次方程組，過程如下：\n$$\\cdots\\rightarrow\\begin{bmatrix}1&-2&a&5\\\\2&b&-3&-3\\\\3&-1&2&c\\end{bmatrix}\\rightarrow\\cdots$$ \n$$\\rightarrow\\begin{bmatrix}1&0&0&1\\\\0&1&0&1\\\\0&0&1&2\\end{bmatrix}$$，求序組 $$(a,b,c)=$$？',
     answer: '$$(3,1,6)$$',
@@ -2350,7 +2350,7 @@ export const bank: Question[] = [
   },
   {
     id: '17993729e8b',
-    chapter: '矩陣B',
+    chapter: '矩陣A',
     question:
       '若方程組 $$\\begin{cases}x-y+z=3\\\\x+3y-2z=-8\\\\5x-y+2z=a\\end{cases}$$ 無解，則 $$a$$ 不可以為何？',
     answer: '$$4$$',
@@ -2358,7 +2358,7 @@ export const bank: Question[] = [
   },
   {
     id: '179937355f2',
-    chapter: '矩陣B',
+    chapter: '矩陣A',
     question:
       '若方程組 $$\\begin{cases}x-2y-3z=1\\\\x-z=-1\\\\3x+2y-z=a\\end{cases}$$ 有解，則 $$a=$$？',
     answer: '$$-5$$',
@@ -2366,7 +2366,7 @@ export const bank: Question[] = [
   },
   {
     id: '1799374e08b',
-    chapter: '矩陣B',
+    chapter: '矩陣A',
     question:
       '設向量 $$\\vec{a}=(1,2,1)$$，$$\\vec{b}=(1,3,-1)$$，$$\\vec{c}=(1,-1,2)$$，$$\\vec{d}=(4,-2,9)$$，若 $$\\vec{d}=x\\vec{a}+y\\vec{b}+z\\vec{c}$$，則序組 $$(x,y,z)=$$？',
     answer: '$$(2,-1,3)$$',
@@ -2374,7 +2374,7 @@ export const bank: Question[] = [
   },
   {
     id: '1799376c060',
-    chapter: '矩陣B',
+    chapter: '矩陣A',
     question:
       '有一工程，甲、乙、丙合作 $$10$$ 天可完成；乙獨做 $$15$$ 天，剩餘的由丙獨做 $$30$$ 天可完成；甲獨做 $$10$$ 天，剩餘的由丙獨做 $$30$$ 天可完成。若甲、乙、丙獨做各 $$x$$、$$y$$、$$z$$ 天可完成，則序組 $$(x,y,z)=$$？',
     answer: '$$(20,30,60)$$',
@@ -2382,7 +2382,7 @@ export const bank: Question[] = [
   },
   {
     id: '1799377e304',
-    chapter: '矩陣B',
+    chapter: '矩陣A',
     question:
       '已知 $$(x,y,z)$$ 為聯立方程組 $$\\begin{cases}x+2y-z=1\\\\x-y+2z=4\\\\4x-y+5z=13\\end{cases}$$ 的一解，則 $$x^2+y^2+z^2$$ 的最小值為？',
     answer: '$$\\frac{14}{3}$$',
@@ -2390,7 +2390,7 @@ export const bank: Question[] = [
   },
   {
     id: '1799392a68f',
-    chapter: '矩陣B',
+    chapter: '矩陣A',
     question: '二次多項式 $$f(x)$$，已知 $$f(11)=5$$，$$f(12)=-3$$，$$f(13)=6$$，則 $$f(14)=$$？',
     answer: '$$32$$',
     hasImage: false,
@@ -2575,6 +2575,118 @@ export const bank: Question[] = [
     question:
       '已知直角 $$\\triangle ABC$$ 中，$$\\angle C=90^\\circ$$，若 $$3\\cos A+5\\cos B=5$$，則 $$\\sin A=$$？',
     answer: '$$\\frac{8}{17}$$',
+    hasImage: false,
+  },
+  {
+    id: '179a32ab7fd',
+    chapter: '矩陣A',
+    question:
+      '下列有關轉移方陣的敘述，哪些是正確的？\n(A) $$\\begin{bmatrix}0.2&0.8\\\\0.6&0.4\\end{bmatrix}$$ 是轉移方陣\n(B) $$\\begin{bmatrix}0.2&2\\\\0.8&-1\\end{bmatrix}$$ 是轉移方陣\n(C) $$\\begin{bmatrix}0.2&1&0.6\\\\0.4&0&0.1\\\\0.4&0&0.3\\end{bmatrix}$$ 是轉移方陣\n(D) 若 $$A$$、$$B$$ 都是轉移方陣，則 $$AB$$ 也是轉移方陣\n(E) 若 $$A$$、$$B$$ 都是轉移方陣，則 $$\\frac{1}{2}(A+B)$$ 也是轉移方陣',
+    answer: '',
+    hasImage: false,
+  },
+  {
+    id: '179a32ca487',
+    chapter: '矩陣A',
+    question:
+      '若 $$A=\\begin{bmatrix}0.3&y\\\\x&0.5\\end{bmatrix}$$ 是轉移方陣，求數對 $$(x,y)$$、$$A^2$$、$$A^{-1}$$。',
+    answer: '',
+    hasImage: false,
+  },
+  {
+    id: '179a32f7d6b',
+    chapter: '矩陣A',
+    question:
+      '行矩陣 $$\\begin{bmatrix}a_1\\\\b_1\\end{bmatrix}$$、$$\\begin{bmatrix}a_2\\\\b_2\\end{bmatrix}$$、$$\\begin{bmatrix}a_3\\\\b_3\\end{bmatrix}$$、$$\\cdots$$ 滿足 $$\\begin{cases}a_{n+1}=\\frac{2}{3}a_n+\\frac{1}{4}b_n\\\\b_{n+1}=\\frac{1}{3}a_n+\\frac{3}{4}b_n\\end{cases},n\\in\\mathbb{N}$$，則可看成二階轉移方陣 $$A$$ 乘上第 $$n$$ 項得到第 $$(n+1)$$ 項，請寫出二階轉移方陣 $$A=$$？',
+    answer: '',
+    hasImage: false,
+  },
+  {
+    id: '179a33289c5',
+    chapter: '矩陣A',
+    question:
+      '某城市有數百萬戶，觀察有訂閱報紙與未訂閱報紙的戶數發現，每年有 $$70\\%$$ 的訂戶在下一年會繼續訂閱報紙，有 $$30\\%$$ 的訂戶則不再續訂；而每年有 $$10\\%$$ 原本未訂閱報紙的住戶會轉而訂閱報紙，有 $$90\\%$$ 的住戶仍舊未訂。若以 $$\\begin{bmatrix}訂報\\\\未訂\\end{bmatrix}$$ 表示該城市的訂報狀態，則以年為時間單位的轉移方陣為？',
+    answer: '',
+    hasImage: false,
+  },
+  {
+    id: '179a334ea0f',
+    chapter: '矩陣A',
+    question:
+      '某人上班有甲、乙、丙三條路線可供選擇，若某天走甲路線，則隔天走甲、乙、丙的機率依序為 $$0.5$$、$$0.2$$、$$0.3$$；若某天走乙，則隔天走甲、乙、丙的機率依序為 $$0.4$$、$$0.6$$、$$0$$；若某天走丙，則隔天走甲、乙、丙的機率依序為 $$0.2$$、$$0.1$$、$$0.7$$。若以行矩陣由上而下寫出走甲、乙、丙路線的機率，請寫出轉移方陣為？',
+    answer: '',
+    hasImage: false,
+  },
+  {
+    id: '179a35714f2',
+    chapter: '矩陣A',
+    question:
+      '多次數學考試下來，數學老師發現，全體同學若上次數學考及格，則這次也會及格的比率為 $$80\\%$$，若上次數學不及格，則這次數學仍不及格的比率為 $$60\\%$$。若這次數學考完共有七成的同學及格，則：\n(1) 下次及格的比率為？\n(2) 下下次及格的比率為？\n(3) 多次考試後及格的比率會趨近於？',
+    answer: '',
+    hasImage: false,
+  },
+  {
+    id: '179a35857f3',
+    chapter: '矩陣A',
+    question:
+      '設 $$A$$ 箱內有 $$2$$ 白球，$$B$$ 箱內有 $$1$$ 黑球，兩手伸進 $$A$$ 與 $$B$$ 內各取一球互換，則多次交換後黑球在 $$A$$ 箱內的機率為？',
+    answer: '',
+    hasImage: false,
+  },
+  {
+    id: '179a35be52b',
+    chapter: '矩陣A',
+    question:
+      '方陣 $$A=\\begin{bmatrix}2&1\\\\3&4\\end{bmatrix}$$，\n(1) $$A$$ 作用在 $$P(-1,5)$$ 所得的像為 $$Q$$，求 $$Q$$ 坐標為？\n(2) 若點 $$(k+1,2k-3)$$ 經 $$A$$ 變換之後所得的像為 $$(7,m)$$，求 $$k=$$？$$m=$$？\n(3) 正方形四個頂點為 $$(0,0)$$、$$(1,0)$$、$$(1,1)$$、$$(0,1)$$，經過 $$A$$ 變換後的圖形為 $$\\Gamma$$，試在方格紙作出 $$\\Gamma$$ 的圖形',
+    answer: '',
+    hasImage: false,
+  },
+  {
+    id: '179a35cf63d',
+    chapter: '矩陣A',
+    question:
+      '方陣 $$A=\\begin{bmatrix}1&2\\\\4&3\\end{bmatrix}$$，$$A$$ 作用在點 $$P$$ 的像為 $$(15,55)$$，求 $$P$$ 坐標為？',
+    answer: '',
+    hasImage: false,
+  },
+  {
+    id: '179a35ea337',
+    chapter: '矩陣A',
+    question:
+      "平面上兩點 $$P(1,4)$$ 與 $$Q(5,7)$$ 可表為 $$\\begin{bmatrix}1&5\\\\4&7\\end{bmatrix}$$，經平面變換 $$A=\\begin{bmatrix}2&3\\\\-6&1\\end{bmatrix}$$ 作用後，得到 $$P'$$ 與 $$Q'$$，則 $$\\overline{P'Q'}$$ 的長度為？",
+    answer: '',
+    hasImage: false,
+  },
+  {
+    id: '179a3622df1',
+    chapter: '矩陣A',
+    question:
+      '某平面變換把平面上的點 $$(x,y)$$ 變換到 $$(2x+3y,4x-7y)$$，則此平面變換表成二階方陣為？',
+    answer: '',
+    hasImage: false,
+  },
+  {
+    id: '179a36366a6',
+    chapter: '矩陣A',
+    question:
+      '若二階方陣 $$A$$ 把點 $$(2,5)$$ 變換成 $$(4,3)$$，把點 $$(1,3)$$ 變換成 $$(-5,12)$$，求 $$A=$$？\n$$A$$ 把點 $$(1,2)$$ 變換到另一點，其坐標為？',
+    answer: '',
+    hasImage: false,
+  },
+  {
+    id: '179a364124d',
+    chapter: '矩陣A',
+    question:
+      '若正六邊形的邊長為 $$2$$，經 $$\\begin{bmatrix}3&-1\\\\1&2\\end{bmatrix}$$ 變換後所得的圖形面積為？',
+    answer: '',
+    hasImage: false,
+  },
+  {
+    id: '179a3678925',
+    chapter: '矩陣A',
+    question:
+      "平面上有 $$\\triangle PQR$$，已知 $$P(1,2)$$、$$Q(3,8)$$、$$R(6,-5)$$，則 $$\\triangle PQR$$ 經 $$\\begin{bmatrix}9&3\\\\2&-1\\end{bmatrix}$$ 線性變換後得 $$\\triangle P'Q'R'$$，求 $$\\triangle P'Q'R'$$ 的面積。",
+    answer: '',
     hasImage: false,
   },
 ];
