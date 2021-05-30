@@ -16,7 +16,7 @@ export const chapterList: string[] = [
   '數據分析',
   '排列組合與機率',
   '三角函數A',
-  '三角函數B',
+  '三角比',
   '指數與對數函數',
   '平面向量',
   '空間概念',
@@ -2153,14 +2153,14 @@ export const bank: Question[] = [
     chapter: '排列組合與機率',
     question:
       '甲、乙兩地間有 $$12$$ 條路，其中 $$3$$ 條是由甲地到乙地的單行道，$$4$$ 條是由乙地到甲地的單行道，另 $$5$$ 條是雙向道，今由甲地到乙地再回到甲地，若往返不走同一條路，走法共有幾種？',
-    answer: '$$40$$',
+    answer: '$$67$$',
     hasImage: false,
   },
   {
     id: '17990b2b6ba',
     chapter: '排列組合與機率',
     question:
-      '對全班 $$45$$ 人作喝飲料習慣的調查，發現習慣半糖的有 $$30$$ 人，習慣去冰的有 $$25$$ 人。試問：該班喝飲料的習慣是半糖且去冰者有 $$a$$ 人，最少有 $$b$$ 人，則 $$a+b=$$？',
+      '對全班 $$45$$ 人作喝飲料習慣的調查，發現習慣半糖的有 $$30$$ 人，習慣去冰的有 $$25$$ 人。試問：該班喝飲料的習慣是半糖且去冰者最多有 $$a$$ 人，最少有 $$b$$ 人，則 $$a+b=$$？',
     answer: '$$35$$',
     hasImage: false,
   },
@@ -2733,7 +2733,7 @@ export const bank: Question[] = [
     id: '179b397f713',
     chapter: '排列組合與機率',
     question:
-      '渡船三艘，每艘可載 $$5$$ 人，求下列各安全過渡的方法有幾種？\n(1) $$5$$ 人同時過渡\n(2) $$6$$ 人同時過渡\n(3) $$7$$ 人同時過渡',
+      '渡船三艘，每艘可載 $$5$$ 人，求下列各安全過渡的方法有幾種？\n(1) $$5$$ 人同時過渡 (2) $$6$$ 人同時過渡 (3) $$7$$ 人同時過渡',
     answer: '(1) $$243$$ (2) $$726$$ (3) $$2142$$',
     hasImage: false,
   },
@@ -2757,7 +2757,7 @@ export const bank: Question[] = [
     id: '179b39f973b',
     chapter: '排列組合與機率',
     question:
-      '(1) 平面上有 $$8$$ 條鄉一直線，最多會有幾個交點？\n(2) 平面上有 $$12$$ 條直線，其中有 $$3$$ 條平行且另有 $$4$$ 條共點，除此之外，無任 $$2$$ 線平行且無任 $$3$$ 線共點的情形，則共有幾個交點？',
+      '(1) 平面上有 $$8$$ 條相異直線，最多會有幾個交點？\n(2) 平面上有 $$12$$ 條直線，其中有 $$3$$ 條平行且另有 $$4$$ 條共點，除此之外，無任 $$2$$ 線平行且無任 $$3$$ 線共點的情形，則共有幾個交點？',
     answer: '(1) $$28$$ (2) $$58$$',
     hasImage: false,
   },
@@ -2789,6 +2789,549 @@ export const bank: Question[] = [
     question:
       '將 $$6$$ 件相異物依下列的分法，求其方法數：\n(1) 平分給甲、乙、丙三人 (2) 平分成三堆\n(3) 甲得 $$4$$ 件，乙得 $$1$$ 件，丙得 $$1$$ 件 (4) 依 $$4$$，$$1$$，$$1$$ 分成三堆\n(5) 甲得 $$3$$ 件，乙得 $$2$$ 件，丙得 $$1$$ 件 (6) 依 $$3$$，$$2$$，$$1$$ 分成三堆',
     answer: '(1) $$90$$ (2) $$15$$ (3) $$30$$ (4) $$15$$ (5) $$60$$ (6) $$60$$',
+    hasImage: false,
+  },
+  {
+    id: '179b45ec1d4',
+    chapter: '矩陣B',
+    question:
+      '矩陣 $$A$$ 之第 $$(i,j)$$ 元定義為 $$a_{ij}=2i-j^2+2$$，其中 $$i=1,2$$，$$j=1,2,3$$，試求矩陣 $$A$$。',
+    answer: '$$\\begin{bmatrix}3&0&-5\\\\5&2&-3\\end{bmatrix}$$',
+    hasImage: false,
+  },
+  {
+    id: '179b460e47e',
+    chapter: '矩陣B',
+    question:
+      '設 $$\\begin{bmatrix}x+y&5&3x\\\\a&2&x-2y\\end{bmatrix}=\\begin{bmatrix}4&5&b\\\\x-y&2&2x+1\\end{bmatrix}$$，試求序組 $$(x,y,a,b)$$。',
+    answer: '$$(9,-5,14,27)$$',
+    hasImage: false,
+  },
+  {
+    id: '179b464e08b',
+    chapter: '矩陣B',
+    question:
+      '設 $$A=\\begin{bmatrix}3&1&-2\\\\1&0&4\\end{bmatrix}$$，$$B=\\begin{bmatrix}2&-1&3\\\\3&2&1\\end{bmatrix}$$，$$C=\\begin{bmatrix}-2&1&0\\\\0&3&2\\end{bmatrix}$$，試求：\n(1) $$-B$$ (2) $$A-B$$ (3) $$2A+3B$$ (4) $$(A+B)+C$$，$$A+(B+C)$$',
+    answer:
+      '(1) $$\\begin{bmatrix}-2&1&-3\\\\-3&-2&-1\\end{bmatrix}$$ (2) $$\\begin{bmatrix}1&2&-5\\\\-2&-2&3\\end{bmatrix}$$ (3) $$\\begin{bmatrix}12&-1&5\\\\11&6&11\\end{bmatrix}$$ (4) $$\\begin{bmatrix}3&1&1\\\\4&5&7\\end{bmatrix}$$',
+    hasImage: false,
+  },
+  {
+    id: '179b466a1f7',
+    chapter: '矩陣B',
+    question:
+      '設 $$A=\\begin{bmatrix}1&0&3\\\\2&-1&0\\end{bmatrix}$$，$$B=\\begin{bmatrix}1&0&0\\\\0&0&1\\end{bmatrix}$$，$$C=\\begin{bmatrix}3&4&-7\\\\5&2&1\\end{bmatrix}$$，試求滿足 $$3X-2A+3B=2X-5C$$ 的矩陣 $$X$$。',
+    answer: '$$\\begin{bmatrix}-16&-20&41\\\\-21&-12&-8\\end{bmatrix}$$',
+    hasImage: false,
+  },
+  {
+    id: '179b46ae9d1',
+    chapter: '矩陣B',
+    question:
+      '試計算下列矩陣的乘積：\n(1) $$\\begin{bmatrix}1&-1\\\\3&2\\end{bmatrix}\\begin{bmatrix}4&6\\\\7&-5\\end{bmatrix}$$ (2) $$\\begin{bmatrix}1&2&3\\\\4&5&6\\end{bmatrix}\\begin{bmatrix}4&3\\\\1&9\\end{bmatrix}$$\n(3) $$\\begin{bmatrix}3&2&4\\end{bmatrix}\\begin{bmatrix}-1\\\\6\\\\3\\end{bmatrix}$$ (4) $$\\begin{bmatrix}2&-1&3\\\\0&2&-1\\end{bmatrix}\\begin{bmatrix}1&3&4\\\\2&1&2\\\\0&5&3\\end{bmatrix}$$',
+    answer:
+      '(1) $$\\begin{bmatrix}-3&11\\\\26&8\\end{bmatrix}$$ (2) 無意義 (3) $$\\begin{bmatrix}21\\end{bmatrix}$$ (4) $$\\begin{bmatrix}0&20&15\\\\4&-3&1\\end{bmatrix}$$',
+    hasImage: false,
+  },
+  {
+    id: '179b46cfca1',
+    chapter: '矩陣B',
+    question:
+      '設 $$A=\\begin{bmatrix}1&3\\end{bmatrix}$$，$$B=\\begin{bmatrix}2&-3\\end{bmatrix}$$，$$C=\\begin{bmatrix}5&-4\\\\6&3\\end{bmatrix}$$，試驗證 $$(A+B)C=AC+BC$$。',
+    answer: '略',
+    hasImage: false,
+  },
+  {
+    id: '179b46db45a',
+    chapter: '矩陣B',
+    question:
+      '設 $$A=\\begin{bmatrix}1&2\\end{bmatrix}$$，$$B=\\begin{bmatrix}1&1\\\\-1&0\\end{bmatrix}$$，$$C=\\begin{bmatrix}-2&1\\\\0&3\\end{bmatrix}$$，試驗證 $$(AB)C=A(BC)$$。',
+    answer: '略',
+    hasImage: false,
+  },
+  {
+    id: '179b46f9055',
+    chapter: '矩陣B',
+    question:
+      '(1) 若 $$A=\\begin{bmatrix}3&2\\\\1&1\\end{bmatrix}$$，$$B=\\begin{bmatrix}1&2\\\\3&1\\end{bmatrix}$$，試求 $$A^2-B^2$$、$$(A+B)(A-B)$$。\n(2) 設 $$A=\\begin{bmatrix}1&2\\\\4&8\\end{bmatrix}$$，$$B=\\begin{bmatrix}4&-2\\\\-2&1\\end{bmatrix}$$，$$C=\\begin{bmatrix}-10&4\\\\5&-2\\end{bmatrix}$$，試求 $$AB$$、$$AC$$。',
+    answer: '略',
+    hasImage: false,
+  },
+  {
+    id: '179b47209f6',
+    chapter: '矩陣B',
+    question:
+      '已知 $$M$$ 為 $$3\\times2$$ 階矩陣，且 $$M\\begin{bmatrix}1&0\\\\0&0\\end{bmatrix}=\\begin{bmatrix}3&0\\\\2&0\\\\1&0\\end{bmatrix}$$，$$M\\begin{bmatrix}0&0\\\\0&1\\end{bmatrix}=\\begin{bmatrix}0&1\\\\0&2\\\\0&3\\end{bmatrix}$$，試求 $$M\\begin{bmatrix}0&1\\\\1&0\\end{bmatrix}$$。',
+    answer: '$$\\begin{bmatrix}1&3\\\\2&2\\\\3&1\\end{bmatrix}$$',
+    hasImage: false,
+  },
+  {
+    id: '179b477953e',
+    chapter: '矩陣B',
+    question:
+      '請問下列哪一個選項中的矩陣乘積等於 $$\\begin{bmatrix}2a&3b\\\\2c&3d\\end{bmatrix}$$`?\n(A) $$\\begin{bmatrix}a&b\\\\c&d\\end{bmatrix}\\begin{bmatrix}2\\\\3\\end{bmatrix}$$ (B) $$\\begin{bmatrix}2&3\\end{bmatrix}\\begin{bmatrix}a&b\\\\c&d\\end{bmatrix}$$\n(C) $$\\begin{bmatrix}2&3\\\\2&3\\end{bmatrix}\\begin{bmatrix}a&b\\\\c&d\\end{bmatrix}$$ (D) $$\\begin{bmatrix}2&0\\\\0&3\\end{bmatrix}\\begin{bmatrix}a&b\\\\c&d\\end{bmatrix}$$\n(E) $$\\begin{bmatrix}a&b\\\\c&d\\end{bmatrix}\\begin{bmatrix}2&0\\\\0&3\\end{bmatrix}$$',
+    answer: '(E)',
+    hasImage: false,
+  },
+  {
+    id: '179b678da6e',
+    chapter: '空間中的平面與直線',
+    question:
+      '一平面 $$E$$ 過點 $$A(1,-2,1)$$，且與兩平面 $$E_1:x+2y-z+2=0$$，$$E_2:x-y+2z-3=0$$ 均垂直，試求此平面 $$E$$ 的方程式。',
+    answer: '$$x-y-z-2=0$$',
+    hasImage: false,
+  },
+  {
+    id: '179b67a2641',
+    chapter: '空間中的平面與直線',
+    question:
+      '設平面 $$E$$ 通過 $$(-1,0,0)$$、$$(0,0,1)$$ 且與 $$yz$$ 平面的夾角為 $$60^{\\circ}$$，試求平面 $$E$$ 的方程式。',
+    answer: '$$x-\\sqrt{2}y-z+1=0$$ 或 $$x+\\sqrt{2}y-z+1=0$$',
+    hasImage: false,
+  },
+  {
+    id: '179b67bd4c0',
+    chapter: '空間中的平面與直線',
+    question:
+      '設 $$A(4,3,2)$$，$$B(2,1,4)$$，點 $$P$$ 在平面 $$E:x-2y-2z=2$$ 上移動，試求 $$\\overline{PA}^2+\\overline{PB}^2$$ 的最小值。',
+    answer: '$$24$$',
+    hasImage: false,
+  },
+  {
+    id: '179b67de736',
+    chapter: '空間中的平面與直線',
+    question:
+      '求滿足下列各條件的直線方程式：\n(1) 過 $$A(1,0,1)$$，$$B(3,1,2)$$\n(2) 過 $$A(1,0,1)$$，且垂直於平面 $$x-2y+3z=2$$\n(3) 過 $$A(1,0,1)$$，且垂直 $$L_1:\\frac{x}{2}=\\frac{y}{1}=\\frac{z+3}{3}$$，$$L_2:\\frac{x-1}{2}=\\frac{y}{-1}=\\frac{z-1}{1}$$',
+    answer:
+      '(1) $$\\frac{x-1}{2}=\\frac{y}{1}=\\frac{z-1}{1}$$ (2) $$\\frac{x-1}{1}=\\frac{y}{-2}=\\frac{z-1}{3}$$ (3) $$\\frac{x-1}{1}=\\frac{y}{1}=\\frac{z-1}{1}$$',
+    hasImage: false,
+  },
+  {
+    id: '179b67f74a6',
+    chapter: '空間中的平面與直線',
+    question:
+      '設 $$A(1,2,3)$$，$$B(2,1,-1)$$，$$C(0,-3,1)$$，求過 $$\\triangle ABC$$ 重心且垂直 $$\\triangle ABC$$ 所在平面的直線方程式為何？',
+    answer: '$$\\frac{x-1}{3}=\\frac{y}{-1}=\\frac{z-1}{1}$$',
+    hasImage: false,
+  },
+  {
+    id: '179b680fa03',
+    chapter: '空間中的平面與直線',
+    question:
+      '設點 $$P(4,-3,2)$$ 與 $$E_1:x+y+z=1$$，$$E_2:2x+3y+5z=7$$，求：\n(1) $$E_1$$、$$E_2$$ 交線 $$L$$ 的參數式 (2) $$P$$ 到 $$L$$ 的距離',
+    answer:
+      '(1) $$L:\\begin{cases}x=-4+2t\\\\y=5-3t\\\\z=t\\end{cases},t\\in\\mathbb{R}$$ (2) $$\\sqrt{6}$$',
+    hasImage: false,
+  },
+  {
+    id: '179b6874f73',
+    chapter: '矩陣A',
+    question:
+      '設二次函數 $$f(x)$$ 的圖形通過 $$(1,3)$$，$$(2,5)$$，$$(3,9)$$ 三點，試求 $$f(x)$$。',
+    answer: '$$f(x)=x^2-x+3$$',
+    hasImage: false,
+  },
+  {
+    id: '179b68bbf94',
+    chapter: '矩陣A',
+    question:
+      '一容量為 $$100$$ 立方公尺的水池，由 $$A$$、$$B$$ 二水管注水，而由第三水管 $$C$$ 放水，若三水管全開，則由滿池至水乾需時 $$3$$ 小時；若只開 $$A$$、$$C$$ 兩水管，則 $$1$$ 小時水乾；若只開 $$B$$、$$C$$ 兩水管，則只需 $$45$$ 分鐘水乾，求 $$A$$ 水管每小時的注水量為多少立方公尺？$$C$$ 水管每小時的放水量為多少立方公尺？',
+    answer: '$$100$$；$$200$$',
+    hasImage: false,
+  },
+  {
+    id: '179b68c7821',
+    chapter: '矩陣A',
+    question:
+      '利用消去法解 $$\\begin{cases}2x-y+z=0\\\\x-3y+2z=2\\\\x+2y-z=-2\\end{cases}$$ 並解釋其幾何意義。',
+    answer: '略',
+    hasImage: false,
+  },
+  {
+    id: '179b694fded',
+    chapter: '矩陣A',
+    question:
+      '小倩使用高斯消去法解$$x$$，$$y$$，$$z$$ 的方程組 $$\\begin{cases}a_1x+b_1y+c_1z=d_1\\\\a_2x+b_2y+c_2z=d_2\\\\a_3x+b_3y+c_3z=d_3\\end{cases}$$ 如下：\n$$\\begin{bmatrix}a_1&b_1&c_1&d_1\\\\a_2&b_2&c_2&d_2\\\\a_3&b_3&c_3&d_3\\end{bmatrix}\\rightarrow\\begin{bmatrix}1&2&-1&p\\\\0&q&-5&25\\\\0&12&r&0\\end{bmatrix}\\rightarrow\\cdots\\rightarrow\\begin{bmatrix}1&0&0&2\\\\0&1&0&5\\\\0&0&1&-6\\end{bmatrix}$$，求 $$(p,q,r)$$。',
+    answer: '$$(18,-1,10)$$',
+    hasImage: false,
+  },
+  {
+    id: '179b697d167',
+    chapter: '矩陣A',
+    question:
+      '下列有關 $$x$$，$$y$$，$$z$$ 的一次方程組的增廣矩陣，哪一個所表示的方程組有無限多組解？\n(A) $$\\begin{bmatrix}1&3&-2&6\\\\0&-1&0&2\\end{bmatrix}$$ (B) $$\\begin{bmatrix}-2&1&0&-5\\\\0&2&3&1\\\\0&4&6&4\\end{bmatrix}$$\n(C) $$\\begin{bmatrix}1&0&2&4\\\\0&-3&1&2\\\\0&1&0&3\\end{bmatrix}$$ (D) $$\\begin{bmatrix}1&1&0&5\\\\0&2&2&-6\\\\3&0&3&-6\\end{bmatrix}$$\n(E) $$\\begin{bmatrix}1&1&2&3\\\\0&-3&1&0\\\\0&0&0&0\\end{bmatrix}$$',
+    answer: '(A)(E)',
+    hasImage: false,
+  },
+  {
+    id: '179b69ae21e',
+    chapter: '矩陣A',
+    question:
+      '(1) 設實數 $$a$$，$$b$$，$$c$$ 滿足 $$\\begin{cases}a+b+3c=6\\\\2a+3b-2c=3\\end{cases}$$，將上述方程組的增廣矩陣 $$\\begin{bmatrix}1&1&3&6\\\\2&3&-2&3\\end{bmatrix}$$ 作若干次列運算後得矩陣 $$\\begin{bmatrix}1&0&m&n\\\\0&1&p&q\\end{bmatrix}$$，求 $$(m,n,p,q)$$。\n(2) 承(1)，在 $$a\\ge0$$，$$b\\ge0$$ 的條件下，求 $$a+2b-c$$ 的最小值。',
+    answer: '(1) $$(11,15,-8,-9)$$ (2) $$\\frac{3}{2}$$',
+    hasImage: false,
+  },
+  {
+    id: '179b77e25d5',
+    chapter: '矩陣B',
+    question:
+      '若 $$A=\\begin{bmatrix}k+2&3\\\\4&k+3\\end{bmatrix}$$ 有乘法反方陣，試求 $$k$$ 值的範圍。',
+    answer: '$$k\\neq6$$ 且 $$k\\neq1$$',
+    hasImage: false,
+  },
+  {
+    id: '179b78770ab',
+    chapter: '矩陣B',
+    question: '試利用基本列運算求 $$A=\\begin{bmatrix}1&4\\\\3&11\\end{bmatrix}$$ 的乘法反方陣。',
+    answer: '$$\\begin{bmatrix}-11&4\\\\3&-1\\end{bmatrix}$$',
+    hasImage: false,
+  },
+  {
+    id: '179b7891978',
+    chapter: '矩陣B',
+    question:
+      '已知二階方陣 $$A=\\begin{bmatrix}3&8\\\\2&5\\end{bmatrix}$$，則：\n(1) $$A$$ 是否有乘法反方陣(即 $$A^{-1}$$ 是否存在)？\n(2) 若 $$A^{-1}$$ 存在，試求 $$A^{-1}$$。',
+    answer: '(1) 是 (2) $$\\begin{bmatrix}-5&8\\\\2&-3\\end{bmatrix}$$',
+    hasImage: false,
+  },
+  {
+    id: '179b78b1b3f',
+    chapter: '矩陣B',
+    question:
+      '將 $$\\begin{cases}7x+6y=10\\\\5x-3y=29\\end{cases}$$ 寫成 $$AX=B$$ 的形式，求矩陣 $$X$$。',
+    answer: '$$\\begin{bmatrix}4\\\\-3\\end{bmatrix}$$',
+    hasImage: false,
+  },
+  {
+    id: '179b78d03b6',
+    chapter: '矩陣B',
+    question:
+      '設實係數二階方陣 $$A$$ 滿足 $$A\\begin{bmatrix}4\\\\3\\end{bmatrix}=\\begin{bmatrix}-1\\\\-2\\end{bmatrix}$$，$$A\\begin{bmatrix}-5\\\\-4\\end{bmatrix}=\\begin{bmatrix}3\\\\1\\end{bmatrix}$$，試求 $$A=$$？',
+    answer: '$$\\begin{bmatrix}5&-7\\\\-5&6\\end{bmatrix}$$',
+    hasImage: false,
+  },
+  {
+    id: '179b78fb741',
+    chapter: '矩陣B',
+    question:
+      '若二階方陣 $$A$$ 滿足 $$A^3=\\begin{bmatrix}3&-10\\\\2&-7\\end{bmatrix}$$，$$A^5=\\begin{bmatrix}7&-25\\\\5&-18\\end{bmatrix}$$，試求下列各方陣：\n(1) $$A^2$$ (2) $$A$$',
+    answer:
+      '(1) $$\\begin{bmatrix}-1&5\\\\-1&4\\end{bmatrix}$$ (2) $$\\begin{bmatrix}2&-5\\\\1&-3\\end{bmatrix}$$',
+    hasImage: false,
+  },
+  {
+    id: '179b7a29ea3',
+    chapter: '矩陣B',
+    question:
+      '設 $$A$$ 與 $$B$$ 階為二階方陣，$$I$$ 是二階單位方陣，則下列個敘述那些恆為真？\n(A) $$A^2-B^2=(A+B)(A-B)$$ (B) $$(A+I)^2=A^2+2A+I$$\n(C) $$\\det(2A)=4\\det A$$ (D) 若 $$A^2=I$$，則 $$A=I$$ 或 $$A=-I$$\n(E) $$(AB)^2=A^2B^2$$',
+    answer: '(B)(C)',
+    hasImage: false,
+  },
+  {
+    id: '179b7d9c8b9',
+    chapter: '矩陣B',
+    question:
+      '設 $$X$$，$$Y$$ 為矩陣，且滿足 $$5X+3Y=\\begin{bmatrix}1&-2\\\\0&3\\end{bmatrix}$$，$$2X+Y=\\begin{bmatrix}2&1\\\\-1&4\\end{bmatrix}$$，試求 $$X$$、$$Y$$。',
+    answer: '',
+    hasImage: false,
+  },
+  {
+    id: '179b7f22975',
+    chapter: '矩陣B',
+    question:
+      '設 $$A=\\begin{bmatrix}a_{ij}\\end{bmatrix}_{4\\times5}$$，$$B=\\begin{bmatrix}b_{ij}\\end{bmatrix}_{5\\times3}$$，其中 $$a_{ij}=2i-j$$，$$b_{ij}=i+j^2$$，又 $$AB=C=\\begin{bmatrix}c_{ij}\\end{bmatrix}_{4\\times3}$$，試求 $$c_{32}$$。',
+    answer: '',
+    hasImage: false,
+  },
+  {
+    id: '179ba8708bf',
+    chapter: '三角比',
+    question:
+      '試求下列廣義角的同界角 $$\\theta$$，使 $$0^{\\circ}<\\theta<360^{\\circ}$$。\n(1) $$980^{\\circ}$$ (2) $$-700^{\\circ}$$',
+    answer: '(1) $$260^{\\circ}$$ (2) $$20^{\\circ}$$',
+    hasImage: false,
+  },
+  {
+    id: '179ba8dda7e',
+    chapter: '三角比',
+    question:
+      '下列何者是 $$45^{\\circ}$$ 的同界角？。\n(A) $$2115^{\\circ}$$ (B) $$-2115^{\\circ}$$ (C) $$1215^{\\circ}$$ (D) $$-1215^{\\circ}$$ (E) $$405^{\\circ}$$',
+    answer: '(B)(E)',
+    hasImage: false,
+  },
+  {
+    id: '179ba90315d',
+    chapter: '三角比',
+    question:
+      '設 $$\\theta$$ 為一標準位置角，$$P(-12,5)$$ 是 $$\\theta$$ 終邊上一點，求 $$\\sin\\theta$$、$$\\cos\\theta$$、$$\\tan\\theta$$。',
+    answer: '$$\\frac{5}{13}$$；$$-\\frac{12}{13}$$；$$-\\frac{5}{12}$$',
+    hasImage: false,
+  },
+  {
+    id: '179ba918ba2',
+    chapter: '三角比',
+    question: '試求 $$\\sin210^{\\circ}$$、$$\\cos210^{\\circ}$$、$$\\tan210^{\\circ}$$。',
+    answer: '$$-\\frac{1}{2}$$；$$-\\frac{\\sqrt{3}}{2}$$；$$\\frac{\\sqrt{3}}{3}$$',
+    hasImage: false,
+  },
+  {
+    id: '179ba926e2b',
+    chapter: '三角比',
+    question:
+      '若已知一點 $$P(\\sin\\theta,\\cos\\theta)$$ 在第四象限，則 $$Q(\\cos\\theta,\\tan\\theta)$$ 在第幾象限？',
+    answer: '三',
+    hasImage: false,
+  },
+  {
+    id: '179ba94727d',
+    chapter: '三角比',
+    question:
+      '試求下列各式之值：\n(1) $$\\tan225^{\\circ}-\\cos150^{\\circ}+\\sin330^{\\circ}$$\n(2) $$\\sin0^{\\circ}+\\cos270^{\\circ}+\\cos180^{\\circ}-\\tan180^{\\circ}\\sin270^{\\circ}$$',
+    answer: '(1) $$\\frac{1}{2}+\\frac{\\sqrt{3}}{2} (2) $$-1$$',
+    hasImage: false,
+  },
+  {
+    id: '179ba96c098',
+    chapter: '三角比',
+    question:
+      '已知 $$\\cos\\theta=\\frac{3}{5}$$ 且 $$270^{\\circ}<\\theta<360^{\\circ}$$，試求 $$\\sin\\theta$$、$$\\tan\\theta$$。',
+    answer: '$$-\\frac{4}{5}$$；$$-\\frac{4}{3}$$',
+    hasImage: false,
+  },
+  {
+    id: '179ba984cb2',
+    chapter: '三角比',
+    question:
+      '由廣義角三角比的性質，試求下列各值：\n(1) $$\\sin150^{\\circ}$$ (2) $$\\cos225^{\\circ}$$ (3) $$\\tan(-240^{\\circ})$$',
+    answer: '(1) $$\\frac{1}{2}$$ (2) $$-\\frac{\\sqrt{2}}{2}$$ (3) $$-\\sqrt{3}$$',
+    hasImage: false,
+  },
+  {
+    id: '179ba99c63e',
+    chapter: '三角比',
+    question:
+      '計算下列各式之值：\n(1) $$\\sin(-150^{\\circ})\\times\\tan225^{\\circ}\\times\\cos(-300^{\\circ})-\\sin135^{\\circ}\\times\\cos315^{\\circ}$$\n(2) $$\\sin90^{\\circ}+\\tan180^{\\circ}-\\cos270^{\\circ}+\\cos(-720^{\\circ})$$',
+    answer: '(1) $$\\frac{1}{2}$$ (2) $$-\\frac{\\sqrt{2}}{2}$$ (3) $$-\\sqrt{3}$$',
+    hasImage: false,
+  },
+  {
+    id: '179ba9c9ba6',
+    chapter: '三角比',
+    question:
+      '已知 $$\\theta$$ 為銳角，若 $$\\sin\\theta=\\frac{1}{3}$$，試求：\n(1) $$\\sin(180^{\\circ}-\\theta)$$ (2) $$\\cos(180^{\\circ}+\\theta)$$\n(3) $$\\tan(180^{\\circ}+\\theta)$$ (4) $$\\cos(\\theta-270^{\\circ})$$',
+    answer:
+      '(1) $$\\frac{1}{3}$$ (2) $$-\\frac{2\\sqrt{2}}{3}$$ (3) $$\\frac{\\sqrt{2}}{4}$$ (4) $$-\\frac{1}{3}$$',
+    hasImage: false,
+  },
+  {
+    id: '179ba9e608a',
+    chapter: '三角比',
+    question:
+      '已知 $$\\theta$$ 為第二象限角，且 $$\\tan\\theta=-\\frac{2}{3}$$，試求：\n$$3\\sin(180^{\\circ}+\\theta)\\cos(90^{\\circ}+\\theta)-2\\sin(90^{\\circ}-\\theta)\\cos(180^{\\circ}-\\theta)$$ ',
+    answer: '$$\\frac{30}{13}$$',
+    hasImage: false,
+  },
+  {
+    id: '179baa133db',
+    chapter: '三角比',
+    question:
+      '若 $$\\cos130^{\\circ}=k$$，試以 $$k$$ 表示下列各值：\n(1) $$\\sin(-220^{\\circ})$$ (2) $$\\tan230^{\\circ}$$',
+    answer: '(1) $$-k$$ (2) $$-\\frac{\\sqrt{1-k^2}}{k}$$',
+    hasImage: false,
+  },
+  {
+    id: '179baa2e921',
+    chapter: '三角比',
+    question:
+      '已知 $$\\sin\\theta+\\cos\\theta=\\frac{17}{25}$$ 且 $$90^{\\circ}<\\theta<180^{\\circ}$$，試求：\n(1) $$\\sin\\theta\\cos\\theta$$ (2) $$\\sin\\theta-\\cos\\theta$$',
+    answer: '(1) $$-\\frac{168}{625}$$ (2) $$-\\frac{31}{25}$$',
+    hasImage: false,
+  },
+  {
+    id: '179bc15bed1',
+    chapter: '矩陣B',
+    question:
+      '已知矩陣 $$A=\\begin{bmatrix}a_{11}&a_{12}&a_{13}\\\\a_{21}&a_{22}&a_{23}\\\\a_{31}&a_{32}&a_{33}\\end{bmatrix}$$，其中 $$a_{ij}=i+j$$，則矩陣 $$A$$ 中 $$a_{11}+a_{21}+a_{31}=$$？',
+    answer: '$$9$$',
+    hasImage: false,
+  },
+  {
+    id: '179bc173e66',
+    chapter: '矩陣B',
+    question:
+      '設 $$A=\\begin{bmatrix}1&-1&-3&4\\\\2&0&1&5\\end{bmatrix}$$，$$B=\\begin{bmatrix}2&0&-3&7\\\\1&2&-2&6\\end{bmatrix}$$，若 $$A+2X=3B$$，則矩陣 $$X$$ 中，各元的總和為？',
+    answer: '$$15$$',
+    hasImage: false,
+  },
+  {
+    id: '179bc18676f',
+    chapter: '矩陣B',
+    question:
+      '設 $$A=\\begin{bmatrix}1&2\\\\3&4\\end{bmatrix}$$，$$B=\\begin{bmatrix}k&2\\\\3&9\\end{bmatrix}$$，若 $$AB=BA$$，則 $$k=$$？',
+    answer: '$$6$$',
+    hasImage: false,
+  },
+  {
+    id: '179bc197175',
+    chapter: '矩陣B',
+    question:
+      '已知實數 $$a$$，若矩陣 $$A=\\begin{bmatrix}6&14\\\\a&a+4\\end{bmatrix}$$ 的反矩陣不存在，則 $$a=$$？',
+    answer: '$$3$$',
+    hasImage: false,
+  },
+  {
+    id: '179bc1a15ee',
+    chapter: '矩陣B',
+    question:
+      '設矩陣 $$A=\\begin{bmatrix}a&1\\\\-8&-a\\end{bmatrix}$$，$$a>0$$，若 $$A^{-1}=A$$，則實數 $$a=$$？',
+    answer: '$$3$$',
+    hasImage: false,
+  },
+  {
+    id: '179bc1c030a',
+    chapter: '矩陣B',
+    question:
+      '已知矩陣 $$A$$ 與矩陣 $$AB$$ 的反方陣分別為 $$A^{-1}=\\begin{bmatrix}2&4\\\\3&1\\end{bmatrix}$$，$$(AB)^{-1}=\\begin{bmatrix}12&14\\\\1&-3\\end{bmatrix}$$，則矩陣 $$B$$ 的反方陣為？',
+    answer: '$$\\begin{bmatrix}3&2\\\\-1&1\\end{bmatrix}$$',
+    hasImage: false,
+  },
+  {
+    id: '179bc1d63a9',
+    chapter: '矩陣B',
+    question:
+      '已知矩陣 $$A=\\begin{bmatrix}1&2\\\\3&4\\end{bmatrix}$$，$$B=\\begin{bmatrix}2&-1\\\\1&-1\\end{bmatrix}$$，$$C=\\begin{bmatrix}2&1\\\\1&3\\end{bmatrix}$$，且滿足 $$AX+3B=C$$ 的矩陣 $$X=$$？',
+    answer: '$$\\begin{bmatrix}6&-2\\\\-5&3\\end{bmatrix}$$',
+    hasImage: false,
+  },
+  {
+    id: '179bc1f7a0d',
+    chapter: '矩陣B',
+    question:
+      '已知 $$A=\\begin{bmatrix}9&-1&-2\\\\-4&8&1\\end{bmatrix}$$，$$B=\\begin{bmatrix}-8&-3&4\\\\-7&4&3\\end{bmatrix}$$，且矩陣 $$X$$、$$Y$$ 滿足 $$2X+Y=A$$ 和 $$X-2Y=B$$，則矩陣 $$Y=$$？',
+    answer: '$$\\begin{bmatrix}5&1&-2\\\\2&0&-1\\end{bmatrix}$$',
+    hasImage: false,
+  },
+  {
+    id: '179bc225957',
+    chapter: '矩陣B',
+    question:
+      '設 $$A=\\begin{bmatrix}a_{ij}\\end{bmatrix}_{5\\times3}$$，$$B=\\begin{bmatrix}b_{jk}\\end{bmatrix}_{3\\times4}$$，且 $$a_{ij}=j-i+2$$，$$b_{jk}=2j+k$$，令 $$C=\\begin{bmatrix}c_{ik}\\end{bmatrix}_{5\\times4}$$，則 $$c_{23}=$$？',
+    answer: '$$46$$',
+    hasImage: false,
+  },
+  {
+    id: '179bc23d7cf',
+    chapter: '矩陣B',
+    question:
+      '已知兩個二階方陣 $$X$$ 及 $$Y$$ 滿足 $$X+Y=\\begin{bmatrix}2&2\\\\2&5\\end{bmatrix}$$，$$X-Y=\\begin{bmatrix}0&2\\\\4&3\\end{bmatrix}$$，則 $$X^2-Y^2=$$？',
+    answer: '$$\\begin{bmatrix}6&10\\\\17&21\\end{bmatrix}$$',
+    hasImage: false,
+  },
+  {
+    id: '179bc2547e3',
+    chapter: '矩陣B',
+    question: '設 $$A=\\begin{bmatrix}1&1\\\\-1&0\\end{bmatrix}$$，求 $$A^2$$、$$A^{2019}$$。',
+    answer:
+      '$$\\begin{bmatrix}0&1\\\\-1&-1\\end{bmatrix}$$；$$\\begin{bmatrix}-1&0\\\\0&-1\\end{bmatrix}$$',
+    hasImage: false,
+  },
+  {
+    id: '179bc2672ca',
+    chapter: '矩陣B',
+    question:
+      '設 $$A^3=\\begin{bmatrix}-7&-2\\\\10&3\\end{bmatrix}$$，$$A^5=\\begin{bmatrix}-18&-5\\\\25&7\\end{bmatrix}$$，則 $$A^2=$$？',
+    answer: '$$\\begin{bmatrix}4&1\\\\-5&-1\\end{bmatrix}$$',
+    hasImage: false,
+  },
+  {
+    id: '179bc280c82',
+    chapter: '三角比',
+    question:
+      '設 $$0^{\\circ}<\\theta<90^{\\circ}$$，$$\\tan\\theta=100$$，則 $$\\frac{100\\cos\\theta+\\sin\\theta}{200\\cos\\theta}$$=？',
+    answer: '$$1$$',
+    hasImage: false,
+  },
+  {
+    id: '179bc29b548',
+    chapter: '三角比',
+    question:
+      '已知 $$\\theta$$ 角的終邊經過點 $$(x,-6)$$ 且 $$\\cos\\theta=\\frac{4}{5}$$，則 $$x=$$？',
+    answer: '$$8$$',
+    hasImage: false,
+  },
+  {
+    id: '179bc2a940f',
+    chapter: '三角比',
+    question: '如圖，已知 $$\\sin\\theta=\\frac{3}{5}$$，則 $$\\cos\\angle CEA=$$？',
+    answer: '$$-\\frac{4}{5}$$',
+    hasImage: true,
+  },
+  {
+    id: '179bc2baac6',
+    chapter: '三角比',
+    question:
+      '設 $$\\theta$$ 為第二象限角，若 $$\\sin\\theta=\\frac{4}{5}$$，求 $$\\sin(90^\\circ+\\theta)+\\sin(180^\\circ+\\theta)+\\sin(270^\\circ+\\theta)$$。',
+    answer: '$$-\\frac{4}{5}$$',
+    hasImage: false,
+  },
+  {
+    id: '179bc2d5ae7',
+    chapter: '三角比',
+    question:
+      '若 $$270^\\circ\\le\\theta\\le360^\\circ$$ 且 $$\\sin2020^\\circ=\\sin\\theta$$，則 $$\\theta=$$？',
+    answer: '$$320^\\circ$$',
+    hasImage: false,
+  },
+  {
+    id: '179bc2e059e',
+    chapter: '三角比',
+    question: '標準位置角 $$2020^\\circ$$ 在哪一個象限？',
+    answer: '三',
+    hasImage: false,
+  },
+  {
+    id: '179bc2ecb34',
+    chapter: '三角比',
+    question:
+      '若 $$P(\\cos\\theta,\\tan\\theta)$$ 為第三象限的點，則 $$Q(\\sin\\theta,\\cos\\theta)$$ 為第幾象限的點？',
+    answer: '四',
+    hasImage: false,
+  },
+  {
+    id: '179bc2f9816',
+    chapter: '三角比',
+    question: '已知 $$\\sin\\theta=-\\frac{1}{5}$$，則 $$\\cos(\\theta-1170^\\circ)=$$？',
+    answer: '$$-\\frac{1}{5}$$',
+    hasImage: false,
+  },
+  {
+    id: '179bc30c6bf',
+    chapter: '三角比',
+    question:
+      '求 $$\\sin(-300^\\circ)\\tan1830^\\circ$$\n$$+\\tan210^\\circ\\cos510^\\circ+2\\sin270^\\circ$$。',
+    answer: '$$-2$$',
+    hasImage: false,
+  },
+  {
+    id: '179bc322655',
+    chapter: '三角比',
+    question: '已知 $$\\tan350^\\circ=k$$，則 $$\\sin1970^\\circ=$$？(以 $$k$$ 表示)',
+    answer: '$$\\frac{-k}{\\sqrt{1+k^2}}$$',
+    hasImage: false,
+  },
+  {
+    id: '179bc33b270',
+    chapter: '三角比',
+    question:
+      '求 $$\\sin^21^\\circ+\\sin^22^\\circ+\\sin^23^\\circ+\\cdots$$\n$$+\\sin^2180^\\circ$$。',
+    answer: '$$90$$',
+    hasImage: false,
+  },
+  {
+    id: '179bc364ccb',
+    chapter: '三角比',
+    question: '求 $$\\sin300^\\circ\\tan150^\\circ+\\sin150^\\circ\\cos120^\\circ$$。',
+    answer: '$$\\frac{1}{4}$$',
     hasImage: false,
   },
 ];
