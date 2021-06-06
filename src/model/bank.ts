@@ -16,7 +16,7 @@ export const chapterList: string[] = [
   '數據分析',
   '排列組合與機率',
   '三角函數A',
-  '三角比',
+  '三角函數B',
   '指數與對數函數',
   '平面向量',
   '空間概念',
@@ -3023,7 +3023,7 @@ export const bank: Question[] = [
     id: '179b7a29ea3',
     chapter: '矩陣B',
     question:
-      '設 $$A$$ 與 $$B$$ 階為二階方陣，$$I$$ 是二階單位方陣，則下列個敘述那些恆為真？\n(A) $$A^2-B^2=(A+B)(A-B)$$ (B) $$(A+I)^2=A^2+2A+I$$\n(C) $$\\det(2A)=4\\det A$$ (D) 若 $$A^2=I$$，則 $$A=I$$ 或 $$A=-I$$\n(E) $$(AB)^2=A^2B^2$$',
+      '設 $$A$$ 與 $$B$$ 階為二階方陣，$$I$$ 是二階單位方陣，則下列各敘述哪些恆為真？\n(A) $$A^2-B^2=(A+B)(A-B)$$ (B) $$(A+I)^2=A^2+2A+I$$\n(C) $$\\det(2A)=4\\det A$$ (D) 若 $$A^2=I$$，則 $$A=I$$ 或 $$A=-I$$\n(E) $$(AB)^2=A^2B^2$$',
     answer: '(B)(C)',
     hasImage: false,
   },
@@ -3215,7 +3215,7 @@ export const bank: Question[] = [
     id: '179bc225957',
     chapter: '矩陣B',
     question:
-      '設 $$A=\\begin{bmatrix}a_{ij}\\end{bmatrix}_{5\\times3}$$，$$B=\\begin{bmatrix}b_{jk}\\end{bmatrix}_{3\\times4}$$，且 $$a_{ij}=j-i+2$$，$$b_{jk}=2j+k$$，令 $$C=\\begin{bmatrix}c_{ik}\\end{bmatrix}_{5\\times4}$$，則 $$c_{23}=$$？',
+      '設 $$A=\\begin{bmatrix}a_{ij}\\end{bmatrix}_{5\\times3}$$，$$B=\\begin{bmatrix}b_{jk}\\end{bmatrix}_{3\\times4}$$，且 $$a_{ij}=j-i+2$$，$$b_{jk}=2j+k$$，令 $$C=AB=\\begin{bmatrix}c_{ik}\\end{bmatrix}_{5\\times4}$$，則 $$c_{23}=$$？',
     answer: '$$46$$',
     hasImage: false,
   },
@@ -3332,6 +3332,739 @@ export const bank: Question[] = [
     chapter: '三角比',
     question: '求 $$\\sin300^\\circ\\tan150^\\circ+\\sin150^\\circ\\cos120^\\circ$$。',
     answer: '$$\\frac{1}{4}$$',
+    hasImage: false,
+  },
+  {
+    id: '179c1c6a005',
+    chapter: '矩陣A',
+    question: '若直線 $$3x+2y=7$$ 經過二階方陣 $$A$$ 變換後的像為一點 $$(14,21)$$，求 $$A$$。',
+    answer: '',
+    hasImage: false,
+  },
+  {
+    id: '179c1c7a57c',
+    chapter: '矩陣A',
+    question:
+      "若 $$\\begin{bmatrix}a&2\\\\-1&b\\end{bmatrix}$$ 所定義的平面變換把直線 $$L:2x+y=5$$ 變換到 $$L':7x+3y=10$$，求數對 $$(a,b)$$。",
+    answer: '',
+    hasImage: false,
+  },
+  {
+    id: '179c1c86170',
+    chapter: '矩陣A',
+    question:
+      '$$A=\\begin{bmatrix}2&1\\\\0&3\\end{bmatrix}$$，求圓 $$x^2+y^2=1$$ 經 $$A$$ 變換後的圖形方程式。',
+    answer: '',
+    hasImage: false,
+  },
+  {
+    id: '179c1c91c4c',
+    chapter: '矩陣A',
+    question:
+      "$$A=\\begin{bmatrix}2&0\\\\-1&3\\end{bmatrix}$$，曲線 $$\\Gamma$$ 經 $$A$$ 變換後的圖形為 $$\\Gamma':y=x^2+3x+1$$，求 $$\\Gamma$$ 的方程式。",
+    answer: '',
+    hasImage: false,
+  },
+  {
+    id: '179c1ca4a43',
+    chapter: '矩陣A',
+    question:
+      '平面上 $$O$$ 為原點，$$P$$ 為 $$(2,6)$$，$$\\overline{OP}$$ 是正六邊形的一個邊，也是正八邊形的一個邊，如圖，求正六邊形的頂點 $$Q$$ 之坐標、正八邊形的頂點 $$R$$坐標。',
+    answer: '',
+    hasImage: true,
+  },
+  {
+    id: '179c1cdd587',
+    chapter: '矩陣A',
+    question: '平面上直線 $$3x+5y=10$$ 繞原點逆時針旋轉 $$45^\\circ$$ 後的方程式為？',
+    answer: '',
+    hasImage: false,
+  },
+  {
+    id: '179c1ceec7d',
+    chapter: '矩陣A',
+    question:
+      '平面上圓 $$x^2+y^2+4x-8y-1=0$$ 經 $$\\begin{bmatrix}\\cos30^\\circ&-\\sin30^\\circ\\\\\\sin30^\\circ&\\cos30^\\circ\\end{bmatrix}$$ 變換後所得圖形方程式為？',
+    answer: '',
+    hasImage: false,
+  },
+  {
+    id: '179c1d03e26',
+    chapter: '矩陣A',
+    question:
+      '化簡 $$\\begin{bmatrix}\\cos80^\\circ&-\\sin80^\\circ\\\\\\sin80^\\circ&\\cos80^\\circ\\end{bmatrix}\\begin{bmatrix}\\cos50^\\circ&-\\sin50^\\circ\\\\\\sin50^\\circ&\\cos50^\\circ\\end{bmatrix}\\begin{bmatrix}\\cos10^\\circ&\\sin10^\\circ\\\\-\\sin10^\\circ&\\cos10^\\circ\\end{bmatrix}$$。',
+    answer: '',
+    hasImage: false,
+  },
+  {
+    id: '179c1d18f78',
+    chapter: '矩陣A',
+    question:
+      '求 $$\\begin{bmatrix}\\frac{1}{2}&-\\frac{\\sqrt{3}}{2}\\\\\\frac{\\sqrt{3}}{2}&\\frac{1}{2}\\end{bmatrix}^{100}$$。',
+    answer: '',
+    hasImage: false,
+  },
+  {
+    id: '179c1d20cfc',
+    chapter: '矩陣A',
+    question: '求 $$\\begin{bmatrix}1&1\\\\-1&1\\end{bmatrix}^{20}$$。',
+    answer: '',
+    hasImage: false,
+  },
+  {
+    id: '179c1d3299c',
+    chapter: '矩陣A',
+    question:
+      '點 $$(x,y)$$ 對 $$x$$ 軸鏡射，其平面變換為 $$(x,y)\\rightarrow(x,-y)$$，寫成二階方陣為？直線 $$3x+2y=7$$ 經過此平面變換所成新圖形的方程式為？',
+    answer: '',
+    hasImage: false,
+  },
+  {
+    id: '179c1d3a8a0',
+    chapter: '矩陣A',
+    question:
+      '點 $$(x,y)$$ 對直線 $$x-y$$ 鏡射，其平面變換為 $$(x,y)\\rightarrow(y,x)$$，寫成二階方陣為？直線 $$5x-7y=1$$ 經過此平面變換所成新圖形的方程式為？',
+    answer: '',
+    hasImage: false,
+  },
+  {
+    id: '179c1d42085',
+    chapter: '矩陣A',
+    question: '平面變換 $$A$$ 相當於把點 $$(x,y)$$ 對直線 $$3x-2y=0$$ 做對稱點，求 $$A$$。',
+    answer: '',
+    hasImage: false,
+  },
+  {
+    id: '179c1d7ad2c',
+    chapter: '矩陣A',
+    question:
+      '已知鏡射矩陣 $$A=\\begin{bmatrix}-\\frac{1}{2}&-\\frac{\\sqrt{3}}{2}\\\\-\\frac{\\sqrt{3}}{2}&\\frac{1}{2}\\end{bmatrix}$$ 與旋轉矩陣 $$B=\\begin{bmatrix}\\frac{1}{2}&-\\frac{\\sqrt{3}}{2}\\\\\\frac{\\sqrt{3}}{2}&\\frac{1}{2}\\end{bmatrix}$$，試問：\n(1) 點 $$(x,y)$$ 經矩陣 $$A$$ 作用，相當於對哪一條直線鏡射？\n(2) 點 $$(x,y)$$ 先經 $$A$$ 再經 $$B$$ 作用，會得到鏡射矩陣，相當於對哪一條直線鏡射？\n(A) $$y=\\sqrt{3}x$$ (B) $$y=\\frac{x}{\\sqrt{3}}$$ (C) $$y=-\\sqrt{3}x$$ (D) $$y=-\\frac{x}{\\sqrt{3}}$$',
+    answer: '',
+    hasImage: false,
+  },
+  {
+    id: '179c1d8ab0c',
+    chapter: '矩陣A',
+    question:
+      '若 $$y=5x^2$$ 在 $$(x,y)\\rightarrow(3x,2y)$$ 的伸縮變換下變成另一圖形，求此新圖形的方程式。',
+    answer: '',
+    hasImage: false,
+  },
+  {
+    id: '179c1d9afa3',
+    chapter: '矩陣A',
+    question:
+      '平面上有一個圓 $$C:(x+3)^2+(y-2)^2=25$$，經過伸縮矩陣 $$\\begin{bmatrix}4&0\\\\0&3\\end{bmatrix}$$ 變換後的圖形為 $$\\Gamma$$，其方程式為？圖形 $$\\Gamma$$ 的面積為？',
+    answer: '',
+    hasImage: false,
+  },
+  {
+    id: '179c1da661b',
+    chapter: '矩陣A',
+    question:
+      "若直線 $$L:3x-4y=5$$ 在 $$(x,y)\\rightarrow(x+2y,y)$$ 的推移下變換成另一直線 $$L'$$，求 $$L'$$ 的方程式。",
+    answer: '',
+    hasImage: false,
+  },
+  {
+    id: '179c1db30cc',
+    chapter: '矩陣A',
+    question:
+      "坐標平面上直線 $$L:x=3$$，經推移變換 $$\\begin{bmatrix}1&k\\\\0&1\\end{bmatrix}$$ 作用後變成 $$L'$$，且 $$L'$$ 經過點 $$(15,2)$$，求 $$k$$。",
+    answer: '',
+    hasImage: false,
+  },
+  {
+    id: '179c5a8681e',
+    chapter: '指數對數',
+    question:
+      '求 $$\\frac{(2^2\\times3^2)\\times(2^5\\times3^2\\times5^3)}{(2^4\\times3^3)\\times(3\\times5^2)}。',
+    answer: '$$40$$',
+    hasImage: false,
+  },
+  {
+    id: '179c5bb1a92',
+    chapter: '指數對數',
+    question:
+      '求 $$\\left(\\frac{5}{2}\\right)^3\\times\\left(\\frac{6}{5}\\right)^4\\times\\left(\\frac{4}{3}\\right)^2$$。',
+    answer: '$$\\frac{288}{5}$$',
+    hasImage: false,
+  },
+  {
+    id: '179c5bad9e9',
+    chapter: '指數對數',
+    question: '求 $$\\left(\\frac{1}{4}\\right)^{-2}\\times2^{-3}$$。',
+    answer: '$$2$$',
+    hasImage: false,
+  },
+  {
+    id: '179c5be5558',
+    chapter: '指數對數',
+    question: '求 $$(\\sqrt{3}+1)^{-4}\\times(\\sqrt{3}-1)^{-3}$$。',
+    answer: '$$\\frac{\\sqrt{3}-1}{16}$$',
+    hasImage: false,
+  },
+  {
+    id: '179c5c443f0',
+    chapter: '指數對數',
+    question:
+      '已知在某項新實驗中，細菌數 $$1$$ 日後增加 $$k$$ 倍，且 $$3$$ 日後細菌數為 $$200$$，$$5$$ 日後細菌數為 $$1800$$，試問：\n(1) $$k=$$？\n(2) 若 $$n$$ 日後的細菌數為 $$48600$$，求 $$n$$。',
+    answer: '(1) $$3$$ (2) $$8$$',
+    hasImage: false,
+  },
+  {
+    id: '179c5c685a9',
+    chapter: '指數對數',
+    question:
+      '一張 A4 的影印紙厚度大約 $$0.01$$ 公分，若對摺一次變成 $$0.01\\times2$$ 公分，再對摺一次變成 $$0.01\\times2^2$$ 公分，以此類推。若將這張 A4 的紙對摺 $$15$$ 次，試計算出它的厚度大約為幾公分。(四捨五入至整數位)',
+    answer: '$$328$$',
+    hasImage: false,
+  },
+  {
+    id: '179d801ee76',
+    chapter: '排列組合與機率',
+    question:
+      '將 $$12$$ 件不同的玩具，依下列分法求其方法數：\n(1) 平分給甲、乙、丙三人 (2) 平分成三堆\n(3) 給甲 $$6$$ 件，乙 $$3$$ 件，丙 $$3$$ 件 (4) 依 $$6$$ 件，$$3$$ 件，$$3$$ 件分成三堆\n(5) 給甲 $$5$$ 件，乙 $$4$$ 件，丙 $$3$$ 件 (6) 依 $$5$$ 件，$$4$$ 件，$$3$$ 件分成三堆\n(7) 依 $$5$$ 件，$$4$$ 件，$$3$$ 件隨意給甲、乙、丙三人',
+    answer:
+      '(1) $$34650$$ (2) $$5775$$ (3) $$18480$$ (4) $$9240$$ (5) $$27720$$ (6) $$27720$$ (7) $$166320$$',
+    hasImage: false,
+  },
+  {
+    id: '179d8058508',
+    chapter: '排列組合與機率',
+    question:
+      '籃球 $$3$$ 人鬥牛賽，共有甲、乙...等 $$9$$ 人參加，組成 $$3$$ 隊，且甲、乙兩人不在同一隊的組隊方式有幾種？',
+    answer: '$$210$$',
+    hasImage: false,
+  },
+  {
+    id: '179d80e3f65',
+    chapter: '排列組合與機率',
+    question:
+      '自一副撲克牌中任取 $$3$$ 張，試求下列取法數\n(1) 三條 (2) 一對 (3) 同花 (4) 順(最小順為 $$A23$$，最大順為 $$QKA$$) (5) $$3$$ 張均不同點數',
+    answer: '(1) $$52$$ (2) $$3744$$ (3) $$1144$$ (4) $$768$$ (5) $$18304$$',
+    hasImage: false,
+  },
+  {
+    id: '179d80fe7d6',
+    chapter: '排列組合與機率',
+    question:
+      '(1) $$(2a-3b)^4$$ 的展開式。$$(1+x)^4$$ 的展開式。\n(2) $$(3x^2-2y)^7$$ 之展開式中，$$x^4y^5$$ 項之係數。',
+    answer: '(1) 略 (2) $$-6048$$',
+    hasImage: false,
+  },
+  {
+    id: '179d81122d9',
+    chapter: '排列組合與機率',
+    question:
+      '在 $$\\left(\\frac{2}{x}-x^2\\right)^{10}$$ 之展開式中 (1) $$x^{14}$$ 項之係數 (2) $$x^7$$ 項之係數',
+    answer: '(1) $$180$$ (2) $$0$$',
+    hasImage: false,
+  },
+  {
+    id: '179d814cb57',
+    chapter: '排列組合與機率',
+    question:
+      '(1) 試求 $$C^3_3+C^4_3+C^5_3+C^6_3+\\cdots+C^9_3$$。\n(2) 若 $$C^3_0+C^4_1+C^5_2+\\cdots+C^{89}_{86}=C^n_r$$，求數對 $$(n,r)$$。',
+    answer: '(1) $$210$$ (2) $$(90,86)$$ 或 $$(90,4)$$',
+    hasImage: false,
+  },
+  {
+    id: '179d8178477',
+    chapter: '排列組合與機率',
+    question:
+      '同時投擲一個硬幣及一個四面分別寫上 $$1$$、$$2$$、$$3$$、$$4$$ 的四面體骰子，依序觀察硬幣出現的正面或反面及骰子出現的點數，則：\n(1) 試寫出此試驗的樣本空間\n(2) 試求此試驗的樣本點個數',
+    answer: '(1) $$\\{(+,1),(+,2),(+,3),(+,4),(-,1),(-,2),(-,3),(-,4)\\}$$ (2) $$8$$',
+    hasImage: false,
+  },
+  {
+    id: '179d8208af1',
+    chapter: '排列組合與機率',
+    question:
+      '設 $$S$$ 表投擲一顆骰子的樣本空間，$$A$$ 表出現奇數點之事件，$$B$$ 表不超過 $$5$$ 點之事件，$$C$$ 表出現偶數點之事件，試求：\n(1) $$A$$ 和 $$B$$ 的和事件 (2) $$A$$ 和 $$B$$ 的積事件\n(3) $$A$$ 的餘事件 (4) $$A$$、$$B$$ 是否為互斥事件\n(5) $$A$$、$$C$$ 是否為互斥事件',
+    answer: '(1) $$\\{(+,1),(+,2),(+,3),(+,4),(-,1),(-,2),(-,3),(-,4)\\}$$ (2) $$8$$',
+    hasImage: false,
+  },
+  {
+    id: '179d8253dcf',
+    chapter: '排列組合與機率',
+    question:
+      '一袋子裡有同形同質的卡片 $$52$$ 張，每張卡片上各有一個 $$1$$ 至 $$52$$ 的不同號碼。今自袋中同時任意抽出兩張卡片，則卡片上 $$2$$ 個號碼的和恰為 $$36$$ 的機率為？',
+    answer: '$$\\frac{1}{78}$$',
+    hasImage: false,
+  },
+  {
+    id: '179d829f5d2',
+    chapter: '排列組合與機率',
+    question:
+      '袋中有七個相同的球，分別標有 $$1$$ 號，$$2$$ 號，...，$$7$$ 號，若自袋中隨機取出四個球，則取出之球上的標號和為奇數的機率為？',
+    answer: '$$\\frac{16}{35}$$',
+    hasImage: false,
+  },
+  {
+    id: '179d82cda15',
+    chapter: '排列組合與機率',
+    question:
+      '投擲一枚均勻的硬幣三次，則：\n(1) 出現一正面、兩反面的機率為？ (2) 三次都出現同一面的機率為？',
+    answer: '(1) $$\\frac{3}{8}$$ (2) $$\\frac{1}{4}$$',
+    hasImage: false,
+  },
+  {
+    id: '179d82eb06c',
+    chapter: '排列組合與機率',
+    question:
+      '設 $$P_1$$ 表示丟 $$2$$ 枚均勻硬幣時，恰好出現 $$1$$ 個正面的機率，$$P_2$$ 表示擲 $$2$$ 個公正骰子，恰好出現 $$1$$ 個偶數點的機率，$$P_3$$ 表示丟 $$4$$ 枚均勻硬幣時，恰好出現 $$2$$ 個正面的機率，試比較 $$P_1$$、$$P_2$$、$$P_3$$ 之大小關係。',
+    answer: '$$P_1=P_2>P_3$$',
+    hasImage: false,
+  },
+  {
+    id: '179dab11a04',
+    chapter: '矩陣A',
+    question:
+      '設有 $$A$$，$$B$$ 兩支大瓶子，開始時，$$A$$ 瓶裝有 $$a$$ 公升的純酒精，$$B$$ 瓶裝有 $$b$$ 公升的礦泉水。每一輪操作都是先將 $$A$$ 瓶的溶液倒出一半到 $$B$$ 瓶，然後再將 $$B$$ 瓶的溶液倒出一半回 $$A$$ 瓶。設 $$n$$ 輪操作後，$$A$$ 瓶有 $$a_n$$ 公升的溶液，$$B$$ 瓶有 $$b_n$$ 公升的溶液。已知二階方陣 $$\\begin{bmatrix}a_{11}&a_{12}\\\\a_{21}&a_{22}\\end{bmatrix}$$ 滿足 $$\\begin{bmatrix}a_n\\\\b_n\\end{bmatrix}=\\begin{bmatrix}a_{11}&a_{12}\\\\a_{21}&a_{22}\\end{bmatrix}^n\\begin{bmatrix}a\\\\b\\end{bmatrix}$$。\n(1) 求二階方陣 $$\\begin{bmatrix}a_{11}&a_{12}\\\\a_{21}&a_{22}\\end{bmatrix}$$。\n(2) 當 $$a=\\frac{2}{3}$$，$$b=\\frac{1}{3}$$ 時，求 $$a_{100}$$ 及 $$b_{100}$$。\n(3) 當 $$a=\\frac{2}{3}$$，$$b=\\frac{1}{3}$$ 時，在第二輪操作後，$$A$$ 瓶的溶液中有百分之多少的酒精？',
+    answer:
+      '(1) $$\\begin{bmatrix}\\frac{3}{4}&\\frac{1}{2}\\\\\\frac{1}{4}&\\frac{1}{2}\\end{bmatrix}$$ (2) $$\\frac{2}{3}$$；$$\\frac{1}{3}$$ (3) $$68.75\\%$$',
+    hasImage: false,
+  },
+  {
+    id: '179dab3ef4e',
+    chapter: '矩陣A',
+    question:
+      '依照過去的經驗，某高中高三生在某一天準時到校的學生有 $$90\\%$$ 在隔天仍會準時到校，而遲到或缺席的學生有 $$60\\%$$ 在隔天仍舊會遲到或缺席，如果某高中高三有 $$1000$$ 位學生，已知週一有 $$900$$ 位學生準時到校，若週二、週三皆未逢假日的情況下：\n(1) 寫出對應的轉移矩陣 $$A$$\n(2) 週三有幾位學生會遲到或缺席？\n(3) 長期而言，準時到校的學生比率為何？',
+    answer: '(1) $$\\begin{bmatrix}0.9&0.4\\\\0.1&0.6\\end{bmatrix}$$ (2) $$175$$ 人 (3) $$80\\%$$',
+    hasImage: false,
+  },
+  {
+    id: '179dab5caf3',
+    chapter: '矩陣A',
+    question:
+      '考慮某一個二皆矩陣的集合 $$M=\\left\\{\\begin{bmatrix}a&c\\\\b&d\\end{bmatrix}|a,b,c,d\\in\\{0,1,2,4\\}\\right\\}$$，從 $$M$$ 中任取一個二階矩陣，其為可逆矩陣的機率為何？',
+    answer: '$$\\frac{47}{64}$$',
+    hasImage: false,
+  },
+  {
+    id: '179dab8149c',
+    chapter: '矩陣A',
+    question:
+      "(1) 某一可逆二階方陣 $$A$$ 所定義的平面變換是將 $$(1,-1)$$ 與點 $$(-2,1)$$ 分別變換成 $$(5,7)$$ 與 $$(-3,6)$$，求此二階方陣 $$A$$。\n(2) 承(1)，求 $$L:2x+3y=-1$$ 在此變換下所變換成的直線 $$L'$$ 的方程式。",
+    answer: '(1) $$\\begin{bmatrix}-2&-7\\\\-13&-20\\end{bmatrix}$$ (2) $$x-8y=-51$$',
+    hasImage: false,
+  },
+  {
+    id: '179dab8f67a',
+    chapter: '矩陣A',
+    question: '求點 $$(20,-15)$$ 關於直線 $$y=3x$$ 鏡射後的像點坐標。',
+    answer: '$$(-25,0)$$',
+    hasImage: false,
+  },
+  {
+    id: '179dabc9c23',
+    chapter: '矩陣A',
+    question:
+      "若 $$\\triangle PQR$$ 之面積為 $$8$$，$$P$$、$$Q$$、$$R$$ 經線性變換後之像點一次分別為 $$P'$$、$$Q'$$、$$R'$$，對於下列二階方陣的敘述哪些正確？\n$$A=\\begin{bmatrix}1&2\\\\3&4\\end{bmatrix}$$，$$B=\\begin{bmatrix}0&-1\\\\1&0\\end{bmatrix}$$，$$C=\\begin{bmatrix}\\frac{1}{2}&-\\frac{\\sqrt{3}}{2}\\\\\\frac{\\sqrt{3}}{2}&\\frac{1}{2}\\end{bmatrix}$$，$$D=\\begin{bmatrix}1&2\\\\0&1\\end{bmatrix}$$\n(1) 經過 $$A$$ 的變換後，$$\\triangle P'Q'R'$$ 之面積為 $$16$$\n(2) 經過 $$B$$、$$C$$、$$D$$ 的變換後，$$\\triangle P'Q'R'$$ 之面積依然為 $$8$$\n(3) 經過 $$B$$、$$C$$、$$D$$ 的變換後，$$\\triangle P'Q'R'$$ 之形狀依然不變\n(4) 考慮 $$P$$ 點到原點的距離，經過 $$B$$、$$C$$ 的變換後，距離不變\n(5) $$B^6$$ 與 $$C^6$$ 都是 $$I_2$$ 單位方陣",
+    answer: '(1)(2)(4)',
+    hasImage: false,
+  },
+  {
+    id: '179db65adbb',
+    chapter: '矩陣A',
+    question:
+      '假設台北市在民國 $$99$$ 年時人口有 $$400$$ 萬，而新北市的人口有 $$600$$ 萬，若民國 $$99$$ 年的一年內，住在台北市的有 $$10\\%$$ 搬到台北市，其餘 $$90\\%$$ 不移動；而住在新北市的有 $$5\\%$$ 搬到台北市，其餘 $$95\\%$$ 不移動，試求：\n(1) 人口遷移的轉移矩陣 $$A$$。\n(2) 民國 $$100$$ 年台北市、新北市的人口數。\n(3) 若此兩市人口遷移的狀態不變，則民國 $$101$$ 年台北市、新北市的人口數分別為？',
+    answer:
+      '(1) $$\\begin{bmatrix}0.9&0.05\\\\0.1&0.95\\end{bmatrix}$$ (2) $$390$$ 萬；$$610$$ 萬 (3) $$381.5$$ 萬；$$618.5$$ 萬',
+    hasImage: false,
+  },
+  {
+    id: '179db67466a',
+    chapter: '矩陣A',
+    question:
+      '某人上班有甲、乙兩條路線可供選擇，早上定時從家裡出發，走甲路線有 $$\\frac{1}{10}$$ 的機率會遲到，走乙路線有 $$\\frac{1}{5}$$ 的機率會遲到。無論走哪一條路線，只要不遲到，下次就走同一路線，否則就換另一條路線。假設他第一天走甲路線，則第三天也走甲路線的機率為？',
+    answer: '$$\\frac{83}{100}$$',
+    hasImage: false,
+  },
+  {
+    id: '179db695e12',
+    chapter: '矩陣A',
+    question:
+      '小明參加班際籃球賽，當他投進一球後，下一球投進的機率是 $$0.7$$，當他投不進時，下一球投進的機率是 $$0.5$$。若第 $$n$$ 球投進的機率為 $$x_n$$，投不進的機率為 $$y_n$$，且滿足 $$\\begin{bmatrix}x_{n+2}\\\\y_{n+2}\\end{bmatrix}=\\begin{bmatrix}a&b\\\\c&d\\end{bmatrix}\\begin{bmatrix}x_n\\\\y_n\\end{bmatrix}$$，則 $$\\begin{bmatrix}a&b\\\\c&d\\end{bmatrix}=$$？',
+    answer: '$$\\begin{bmatrix}0.64&0.6\\\\0.36&0.4\\end{bmatrix}$$',
+    hasImage: false,
+  },
+  {
+    id: '179db6a4e7f',
+    chapter: '矩陣A',
+    question:
+      '$$\\begin{bmatrix}0.4&b\\\\a&c\\end{bmatrix}$$ 為一轉移矩陣且不存在乘法反方陣，則序組 $$(a,b,c)=$$？',
+    answer: '$$(0.6,0.4,0.6)$$',
+    hasImage: false,
+  },
+  {
+    id: '179db75aa5f',
+    chapter: '矩陣A',
+    question:
+      "設線性變換矩陣 $$A=\\begin{bmatrix}1&2\\\\3&4\\end{bmatrix}$$，則：\n(1) 點 $$P(5,6)$$ 經過 $$A$$ 的變換後的新坐標為？\n(2) 點 $$Q(a,b)$$ 經過 $$A$$ 的變換後的新坐標為 $$Q'(4,10)$$，則 $$(a,b)=$$？",
+    answer: '$$(0.6,0.4,0.6)$$',
+    hasImage: false,
+  },
+  {
+    id: '179db77f653',
+    chapter: '矩陣A',
+    question:
+      '設線性變換矩陣 $$A$$ 將點 $$\\begin{bmatrix}1\\\\0\\end{bmatrix}$$ 變換到點 $$\\begin{bmatrix}-4\\\\5\\end{bmatrix}$$，將點 $$\\begin{bmatrix}0\\\\1\\end{bmatrix}$$ 變換到點 $$\\begin{bmatrix}3\\\\2\\end{bmatrix}$$，試求：\n(1) 矩陣 $$A$$。\n(2) 承(1)，矩陣 $$A$$ 將點 $$\\begin{bmatrix}-2\\\\7\\end{bmatrix}$$ 變換到？',
+    answer:
+      '(1) $$\\begin{bmatrix}-4&3\\\\5&2\\end{bmatrix}$$ (2) $$\\begin{bmatrix}29\\\\4\\end{bmatrix}$$',
+    hasImage: false,
+  },
+  {
+    id: '179db7973b6',
+    chapter: '矩陣A',
+    question:
+      '若有一個線性變換矩陣將 $$P_1(1,2)$$、$$P_2(2,-1)$$ 兩點分別變換到 $$Q_1(7,3)$$、$$Q_2(4,1)$$ 兩點，試求此變換所對應的二階方陣為？',
+    answer: '$$\\begin{bmatrix}3&2\\\\1&1\\end{bmatrix}$$',
+    hasImage: false,
+  },
+  {
+    id: '179db7bcfcc',
+    chapter: '矩陣A',
+    question:
+      "設 $$O$$、$$P$$、$$Q$$ 三點坐標為 $$O(0,0)$$、$$P(4,1)$$、$$Q(2,3)$$。若 $$O$$、$$P$$、$$Q$$ 三點經過矩陣 $$A=\\begin{bmatrix}1&3\\\\0&2\\end{bmatrix}$$ 線性變換後，得到新的三點 $$O'$$、$$P'$$、$$Q'$$，試求 $$\\overrightarrow{O'P'}$$ 與 $$\\overrightarrow{O'Q'}$$ 所張出的平行四邊形面積為？",
+    answer: '$$20$$',
+    hasImage: false,
+  },
+  {
+    id: '179de60103a',
+    chapter: '三角比',
+    question:
+      '利用計算機求出下列各值，並四捨五入至小數點後第一位：\n(1) 試求直線 $$3x-2y+2=0$$ 的斜角 $$\\theta$$。\n(2) 已知直線 $$L_1:3x-y+2=0$$，$$L_2:2x-3y+6=0$$，試求 $$L_1$$ 與 $$L_2$$ 的銳夾角。',
+    answer: '(1) $$71.6^\\circ$$ (2) $$37.9^\\circ$$',
+    hasImage: false,
+  },
+  {
+    id: '179de647e52',
+    chapter: '三角比',
+    question:
+      '試將下列直角坐標轉換成極坐標，利用計算機取角度介於 $$0^\\circ$$ 到 $$360^\\circ$$ 之間，並四捨五入至整數位：\n(1) $$A(-5,0)$$ (2) $$B(-3-3)$$ (3) $$C(2,5)$$',
+    answer: '(1) $$[5,180^\\circ]$$ (2) $$[3\\sqrt{2},225^\\circ]$$ (3) $$[\\sqrt{29},68^\\circ]$$',
+    hasImage: false,
+  },
+  {
+    id: '179de65c7d8',
+    chapter: '三角比',
+    question:
+      '如圖，$$\\triangle ABC$$ 中，$$\\overline{AB}=4\\sqrt{2}$$，$$\\angle B=45^\\circ$$，$$\\angle C=30^\\circ$$，求 $$\\overline{BC}$$。',
+    answer: '$$4+4\\sqrt{3}$$',
+    hasImage: true,
+  },
+  {
+    id: '179de66ef94',
+    chapter: '三角比',
+    question:
+      '$$\\triangle ABC$$ 中，若 $$\\overline{AC}=12$$，$$\\overline{BC}=10$$，$$\\angle C=120^\\circ$$，求 $$\\triangle ABC$$ 面積。',
+    answer: '$$30\\sqrt{3}$$',
+    hasImage: false,
+  },
+  {
+    id: '179de685429',
+    chapter: '三角比',
+    question:
+      '$$\\triangle ABC$$ 中，已知 $$\\angle A=60^\\circ$$，$$\\overline{AB}=12$$，$$\\overline{AC}=6$$，若 $$\\angle A$$ 的內角平分線交 $$\\overline{BC}$$ 於 $$D$$ 點，求 $$\\overline{AD}$$。',
+    answer: '$$4\\sqrt{3}$$',
+    hasImage: false,
+  },
+  {
+    id: '179de69af3d',
+    chapter: '三角比',
+    question:
+      '$$\\triangle ABC$$ 中，若 $$\\angle A=45^\\circ$$，$$\\angle B=30^\\circ$$，且 $$\\overline{BC}=6$$，求：\n(1) $$\\overline{AC}$$ (2) $$\\triangle ABC$$ 之外接圓半徑',
+    answer: '(1) $$3\\sqrt{2}$$ (2) $$3\\sqrt{2}$$',
+    hasImage: false,
+  },
+  {
+    id: '179de6b2afc',
+    chapter: '三角比',
+    question:
+      '在 $$\\triangle ABC$$ 中，若 $$\\overline{BC}=2$$，$$\\overline{AC}=\\sqrt{3}+1$$，$$\\angle A=45^\\circ$$，試求 $$\\angle C$$。',
+    answer: '$$60^\\circ$$ 或 $$30^\\circ$$',
+    hasImage: false,
+  },
+  {
+    id: '179de6ca1c2',
+    chapter: '三角比',
+    question:
+      '在 $$\\triangle ABC$$ 中，若 $$\\angle A:\\angle B:\\angle C=3:4:5$$，求 $$\\overline{BC}:\\overline{AC}:\\overline{AB}$$。',
+    answer: '$$2\\sqrt{2}:2\\sqrt{3}:(\\sqrt{6}+\\sqrt{2})$$',
+    hasImage: false,
+  },
+  {
+    id: '179de6e9e9b',
+    chapter: '三角比',
+    question:
+      '如圖，$$ABCD$$ 為圓內接四邊形，若 $$\\angle DBC=30^\\circ$$，$$\\angle ABD=45^\\circ$$，$$\\overline{CD}=6$$，求：\n(1) $$\\overline{AD}$$。\n(2) $$\\triangle ABD$$ 之外接圓半徑。',
+    answer: '(1) $$6\\sqrt{2}$$ (2) $$6$$',
+    hasImage: true,
+  },
+  {
+    id: '179de701744',
+    chapter: '三角比',
+    question:
+      '從岸上兩個瞭望臺 $$A$$，$$B$$ 觀測海上一船 $$C$$，測得 $$\\angle ABC=102^\\circ$$，$$\\angle BAC=48^\\circ$$，若 $$A$$，$$B$$ 相距 $$100$$ 公尺，則船 $$C$$ 與瞭望臺 $$A$$ 之距離為？(四捨五入至小數點後第一位)',
+    answer: '$$195.6$$ 公尺',
+    hasImage: false,
+  },
+  {
+    id: '179de720da0',
+    chapter: '三角比',
+    question:
+      '(1) 在 $$\\triangle ABC$$ 中，若 $$\\overline{AB}=3$$，$$\\overline{AC}=5$$，$$\\angle A=120^\\circ$$，求 $$\\overline{BC}$$。\n(2) 在 $$\\triangle ABC$$ 中，若 $$\\overline{AC}=13$$，$$\\overline{BC}=8$$，$$\\overline{AB}=7$$，求 $$\\angle B$$。',
+    answer: '(1) $$7$$ (2) $$120^\\circ$$',
+    hasImage: false,
+  },
+  {
+    id: '179de7f01a8',
+    chapter: '三角比',
+    question:
+      '如圖，$$\\triangle ABC$$ 中，$$D$$ 為 $$\\overline{BC}$$ 上一點，若 $$\\overline{AB}=\\overline{AC}=10$$，$$\\overline{AD}=8$$，$$\\overline{BD}=9$$，求 $$\\overline{CD}$$。',
+    answer: '$$4$$',
+    hasImage: true,
+  },
+  {
+    id: '179de8089de',
+    chapter: '三角比',
+    question:
+      '設 $$\\triangle ABC$$ 中，$$\\angle A$$、$$\\angle B$$、$$\\angle C$$ 的對邊邊長分別是 $$a$$、$$b$$、$$c$$，且滿足 $$a^2+b^2-c^2=\\sqrt{2}ab$$，求 $$\\angle C$$。',
+    answer: '$$45^\\circ$$',
+    hasImage: false,
+  },
+  {
+    id: '179de81f990',
+    chapter: '三角比',
+    question:
+      '圓內接四邊形 $$ABCD$$ 中，已知 $$\\overline{AB}=5$$，$$\\overline{BC}=3$$，$$\\overline{CD}=2$$，$$\\angle B=60^\\circ$$，求：\n(1) $$\\overline{AC}$$ (2) $$\\overline{AD}$$',
+    answer: '(1) $$\\sqrt{19}$$ (2) $$3$$',
+    hasImage: false,
+  },
+  {
+    id: '179de84aeae',
+    chapter: '三角比',
+    question:
+      '一漁船在湖上等速直線前進，已知上午 $$9$$ 時 $$50$$ 分，漁船在觀測點 $$O$$ 的北 $$70^\\circ$$ 西位置，離 $$O$$ 點 $$2$$ 浬處。上午 $$10$$ 時 $$10$$ 分，則在觀測點 $$O$$ 的北 $$50^\\circ$$ 東位置，離 $$O$$ 點 $$1$$ 浬處，求：\n(1) 此漁船的時速為多少浬/小時。\n(2) 此段時間內，漁船離觀測點 $$O$$ 的最近距離為多少浬。',
+    answer: '(1) $$3\\sqrt{7}$$ (2) $$\\frac{\\sqrt{21}}{7}$$',
+    hasImage: false,
+  },
+  {
+    id: '179de862935',
+    chapter: '三角比',
+    question:
+      '某大樓高 $$100$$ 公尺，在大樓的正東方 $$A$$ 點測得大樓樓頂 $$C$$ 之仰角為 $$45^\\circ$$，在大樓的正南方 $$B$$ 點測得大樓樓頂 $$C$$ 之仰角為 $$30^\\circ$$，求 $$A$$ 與 $$B$$ 相距幾公尺？',
+    answer: '$$200$$',
+    hasImage: false,
+  },
+  {
+    id: '179de86f46f',
+    chapter: '三角比',
+    question:
+      '已知 $$\\triangle ABC$$ 的三邊長分別為 $$5$$，$$6$$，$$7$$，求：\n(1) $$\\triangle ABC$$ 面積 (2) 外接圓半徑 $$R$$ (3) 內切圓半徑 $$r$$',
+    answer: '$$200$$',
+    hasImage: false,
+  },
+  {
+    id: '179e0468727',
+    chapter: '矩陣B',
+    question:
+      '若兩矩陣 $$A=\\begin{bmatrix}5&1\\\\1&5\\end{bmatrix}$$，$$B=\\begin{bmatrix}4&2\\\\x&4\\end{bmatrix}$$ 滿足 $$(A+B)^2=A^2+2AB+B^2$$，求 $$x$$。',
+    answer: '$$2$$',
+    hasImage: false,
+  },
+  {
+    id: '179e04855f6',
+    chapter: '矩陣B',
+    question:
+      '設 $$P$$、$$Q$$、$$R$$ 為二階方陣，已知 $$PQ=\\begin{bmatrix}2&0\\\\12&0\\end{bmatrix}$$，$$PR=\\begin{bmatrix}1&3\\\\4&12\\end{bmatrix}$$，且 $$Q+R=\\begin{bmatrix}1&0\\\\3&3\\end{bmatrix}$$，求 $$P$$。',
+    answer: '$$\\begin{bmatrix}0&1\\\\4&4\\end{bmatrix}$$',
+    hasImage: false,
+  },
+  {
+    id: '179e04906e8',
+    chapter: '矩陣B',
+    question: '$$A=\\begin{bmatrix}3&5\\\\-1&-2\\end{bmatrix}$$，$$2AX=3X+A$$，求矩陣 $$X$$。',
+    answer: '$$\\begin{bmatrix}11&15\\\\-3&-4\\end{bmatrix}$$',
+    hasImage: false,
+  },
+  {
+    id: '179e04a75d8',
+    chapter: '矩陣B',
+    question:
+      '$$A=\\begin{bmatrix}2&1\\\\1&2\\end{bmatrix}$$，$$P=\\begin{bmatrix}1&-1\\\\1&1\\end{bmatrix}$$，若 $$A=PBP^{-1}$$，求：\n(1) $$B$$\n(2) $$B^5$$',
+    answer:
+      '(1) $$\\begin{bmatrix}3&0\\\\0&1\\end{bmatrix}$$ (2) $$\\begin{bmatrix}243&0\\\\0&1\\end{bmatrix}$$',
+    hasImage: false,
+  },
+  {
+    id: '179e04c6557',
+    chapter: '矩陣A',
+    question:
+      '某位同學，每天必由數獨、數織兩款遊戲中挑選一款來玩，若他當天選擇了某款遊戲，則隔天玩同款遊戲的機率為 $$80\\%$$，玩另一款遊戲的機率為 $$20\\%$$，已知他某個星期一選擇玩數獨，則他星期三玩數織的機率為？',
+    answer: '$$32\\%$$',
+    hasImage: false,
+  },
+  {
+    id: '179e04fb4b0',
+    chapter: '矩陣A',
+    question:
+      '某射擊選手，當他射中標靶，則下次中靶的機率為 $$0.7$$；當他沒有射中標靶，則下次中靶的機率為 $$0.5$$。請問他射擊無數次後，中靶機率為何？',
+    answer: '$$\\frac{5}{8}$$',
+    hasImage: false,
+  },
+  {
+    id: '179e05237b1',
+    chapter: '矩陣A',
+    question:
+      '設平面上有一個平面變換，將 $$P_1(1,2)$$，$$P_2(2,-1)$$ 兩點分別變換到 $$Q_1(7,3)$$、$$Q_2(4,1)$$ 兩點，則此變換所對應的二階方陣為 $$\\begin{bmatrix}a&b\\\\c&d\\end{bmatrix}$$，求 $$a+b+c+d$$。',
+    answer: '$$7$$',
+    hasImage: false,
+  },
+  {
+    id: '179e0535022',
+    chapter: '矩陣A',
+    question:
+      '設直線 $$L:5x-y=18$$ 經 $$\\begin{bmatrix}1&1\\\\-2&4\\end{bmatrix}$$ 變換後得直線 $$M$$，試求直線 $$M$$ 的方程式。',
+    answer: '$$3x-y=18$$',
+    hasImage: false,
+  },
+  {
+    id: '179e0550323',
+    chapter: '矩陣A',
+    question:
+      '設甲袋有 $$4$$ 顆紅球，乙袋有 $$1$$ 顆紅球和 $$1$$ 顆白球，先自甲袋取一球放入乙袋，再自乙袋取一球放回甲袋，如此稱為一局，則兩局後，白球在甲袋的機率為？',
+    answer: '$$\\frac{1}{2}$$',
+    hasImage: false,
+  },
+  {
+    id: '179e05820dd',
+    chapter: '矩陣A',
+    question:
+      "設 $$P(1,2)$$，$$Q(2,3)$$，$$R(3,-2)$$ 為平面上三點，$$A=\\begin{bmatrix}1&0\\\\2&3\\end{bmatrix}$$，$$B=\\begin{bmatrix}\\frac{4}{5}&-\\frac{3}{5}\\\\\\frac{3}{5}&\\frac{4}{5}\\end{bmatrix}$$ 為二階方陣，$$M=BA$$，則 $$\\triangle PQR$$ 經過二階方陣 $$M$$ 線性變換後成 $$\\triangle P'Q'R'$$，求 $$\\triangle P'Q'R'$$ 的面積。",
+    answer: '$$9$$',
+    hasImage: false,
+  },
+  {
+    id: '179e05acb36',
+    chapter: '矩陣B',
+    question:
+      '已知 $$A$$、$$B$$、$$C$$ 為 $$n$$ 階方陣且 $$O$$ 為 $$n$$ 階零方陣，則下列何者正確？(多選)\n(1) $$(A+B)^2=A^2+2AB+B^2$$\n(2) 若 $$AB=O$$，則 $$A=O$$ 或 $$B=O$$\n(3) 若 $$AB=AC$$ 且 $$A\\neq O$$，則 $$B=C$$\n(4) 若 $$A=BC$$，則 $$A^2=B^2C^2$$\n(5) $$(AB)C=A(BC)$$',
+    answer: '(5)',
+    hasImage: false,
+  },
+  {
+    id: '179e05d2e8b',
+    chapter: '矩陣B',
+    question:
+      '設矩陣 $$A=\\begin{bmatrix}a_{ij}\\end{bmatrix}_{3\\times3}$$，$$A\\begin{bmatrix}0\\\\1\\\\0\\end{bmatrix}=\\begin{bmatrix}5\\\\3\\\\-8\\end{bmatrix}$$，$$A\\begin{bmatrix}0\\\\0\\\\1\\end{bmatrix}=\\begin{bmatrix}1\\\\-6\\\\2\\end{bmatrix}$$，$$A\\begin{bmatrix}1\\\\0\\\\0\\end{bmatrix}=\\begin{bmatrix}-9\\\\4\\\\7\\end{bmatrix}$$，求 $$a_{13}+a_{32}+a_{21}$$。',
+    answer: '$$-3$$',
+    hasImage: false,
+  },
+  {
+    id: '179e0684ccc',
+    chapter: '三角比',
+    question:
+      '設 $$\\sin\\theta+\\cos\\theta=\\frac{1}{2}$$，且 $$180^\\circ\\le\\theta\\le360^\\circ$$，求：\n(1) $$\\sin\\theta\\cos\\theta$$\n(2) $$\\sin\\theta-\\cos\\theta$$',
+    answer: '(1) $$-\\frac{3}{8}$$ (2) $$-\\frac{\\sqrt{7}}{2}$$',
+    hasImage: false,
+  },
+  {
+    id: '179e0697edf',
+    chapter: '三角比',
+    question:
+      '極坐標平面上有兩點 $$A[2,120^\\circ]$$，$$B[4,210^\\circ]$$，求 $$\\overline{AB}$$。',
+    answer: '$$2\\sqrt{5}$$',
+    hasImage: false,
+  },
+  {
+    id: '179e06b1112',
+    chapter: '三角比',
+    question:
+      '設直角三角形 $$ABC$$ 之三邊長為 $$\\overline{AB}=5$$，$$\\overline{BC}=13$$，$$\\overline{CA}=12$$，以斜邊 $$\\overline{BC}$$ 為一邊向外作出正方形 $$BCDE$$，如圖所示。令 $$\\angle ACD=\\theta$$，求 $$\\sin\\theta+\\cos\\theta$$。',
+    answer: '$$\\frac{7}{13}$$',
+    hasImage: true,
+  },
+  {
+    id: '179e06c7fa3',
+    chapter: '三角比',
+    question:
+      '已知兩直線 $$L_1:y=\\frac{1}{2}x$$ 與 $$L_2:3x+y=5$$ 的銳夾角為 $$\\theta$$，求 $$\\theta$$。(利用計算機，四捨五入至整數位)',
+    answer: '$$82^\\circ$$',
+    hasImage: false,
+  },
+  {
+    id: '179e06ddeda',
+    chapter: '三角比',
+    question:
+      '已知 $$A$$、$$B$$ 兩點的極坐標分別為 $$A[1,60^\\circ]$$，$$B[\\sqrt{3},150^\\circ]$$，$$\\overline{AB}$$ 中點為 $$C$$，求 $$C$$ 點的極坐標。',
+    answer: '$$[1,120^\\circ]$$',
+    hasImage: false,
+  },
+  {
+    id: '179e06f7815',
+    chapter: '三角比',
+    question:
+      '$$\\triangle ABC$$ 中，$$\\overline{AB}=1$$，$$\\overline{AC}=2$$，$$\\sin A=\\frac{5}{13}$$，求 $$\\triangle ABC$$ 的面積。',
+    answer: '$$\\frac{5}{13}$$',
+    hasImage: false,
+  },
+  {
+    id: '179e070c819',
+    chapter: '三角比',
+    question:
+      '$$\\triangle ABC$$ 中，$$\\overline{AB}=2$$，$$\\overline{AC}=6$$，且 $$\\angle A=120^\\circ$$。若 $$D$$ 為 $$\\overline{BC}$$ 上一點，且滿足 $$3\\overline{BD}=\\overline{CD}$$，求 $$\\triangle ACD$$ 的面積。',
+    answer: '$$\\frac{9\\sqrt{3}}{4}$$',
+    hasImage: false,
+  },
+  {
+    id: '179e071ffc3',
+    chapter: '三角比',
+    question:
+      '$$\\triangle ABC$$ 中，$$\\angle B=15^\\circ$$，$$\\angle C=30^\\circ$$，$$\\overline{BC}=4$$，求 $$\\triangle ABC$$ 的外接圓面積。',
+    answer: '$$8\\pi$$',
+    hasImage: false,
+  },
+  {
+    id: '179e073e656',
+    chapter: '三角比',
+    question:
+      '四邊形 $$ABCD$$ 為圓內接四邊形，若 $$\\angle ADB=60^\\circ$$，$$\\angle CBD=30^\\circ$$，$$\\overline{CD}=5$$，求：\n(1) $$\\overline{AB}$$\n(2) 外接圓半徑',
+    answer: '(1) $$5\\sqrt{3}$$ (2) $$5$$',
+    hasImage: true,
+  },
+  {
+    id: '179e075c581',
+    chapter: '三角比',
+    question:
+      '如圖 $$\\triangle ABP$$ 中，若 $$\\angle PAB=30^\\circ$$，$$\\angle PBA=45^\\circ$$，今於 $$\\overline{AB}$$ 上任取一點 $$Q$$，若 $$\\triangle APQ$$ 與 $$\\triangle BPQ$$ 的外接圓半徑分別為 $$R_1$$ 和 $$R_2$$，求 $$\\frac{R_1}{R_2}$$。',
+    answer: '$$\\sqrt{2}$$',
+    hasImage: true,
+  },
+  {
+    id: '179e078a37b',
+    chapter: '三角比',
+    question:
+      '$$\\triangle ABC$$ 中，$$a$$、$$b$$、$$c$$ 分別為 $$\\angle A$$、$$\\angle B$$、$$\\angle C$$ 的對邊長。若 $$\\begin{cases}2a+2b-3c=0\\\\a-2b+c=0\\end{cases}$$，求 $$\\sin A:\\sin B:\\sin C$$。',
+    answer: '$$4:5:6$$',
+    hasImage: false,
+  },
+  {
+    id: '179e07a7752',
+    chapter: '三角比',
+    question:
+      '$$\\triangle ABC$$ 中，$$\\overline{AD}$$ 平分 $$\\angle BAC$$ 並交 $$\\overline{BC}$$ 於 $$D$$。已知 $$\\overline{BD}=5$$、$$\\overline{DC}=7$$，且 $$\\angle ABC=60^\\circ$$，求 $$\\sin\\angle ACD$$。',
+    answer: '$$\\frac{5\\sqrt{3}}{14}$$',
+    hasImage: true,
+  },
+  {
+    id: '179e09170f3',
+    chapter: '排列組合與機率',
+    question:
+      '從 $$1$$，$$2$$，$$3$$，$$4$$，$$5$$，$$6$$，$$7$$，$$8$$，$$9$$ 中任取兩相異數，求其積為完全立方數的機率。',
+    answer: '$$\\frac{1}{12}$$',
     hasImage: false,
   },
 ];

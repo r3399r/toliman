@@ -44,11 +44,18 @@ const Numbers = () => {
             }
           />
         </div>
-        <div className={style.conceptHead}>循環小數化分數的規則</div>
+        <div className={style.conceptHead}>循環小數化分數</div>
         <div>
           <Textarea2MathJax
             text={
-              '$$0.\\overline{a}=\\frac{a}{9}\\quad0.\\overline{ab}=\\frac{ab}{99}\\quad0.a\\overline{bc}=\\frac{abc-a}{990}$$'
+              '$$0.\\overline{a_1a_2\\cdots a_n}=\\frac{a_1a_2\\cdots a_n}{\\underbrace{99\\cdots9}_{n個}}\\quad0.a_1a_2\\cdots a_n\\overline{b_1b_2\\cdots b_m}=\\frac{a_1a_2\\cdots a_nb_1b_2\\cdots b_m-a_1a_2\\cdots a_n}{\\underbrace{99\\cdots9}_{m個}\\underbrace{00\\cdots0}_{n個}}$$'
+            }
+          />
+        </div>
+        <div>
+          <Textarea2MathJax
+            text={
+              '$$0.\\overline{5}=\\frac{5}{9}\\quad0.\\overline{23}=\\frac{23}{99}\\quad0.5\\overline{71}=\\frac{571-71}{990}$$'
             }
           />
         </div>

@@ -18,6 +18,9 @@ const Lecture = () => {
       <div className={style.button}>
         <Button onClick={onClick('equations')}>1-2 式的運算</Button>
       </div>
+      <div className={style.button}>
+        <Button onClick={onClick('exponent')}>2-1 指數</Button>
+      </div>
     </div>
   );
 };
