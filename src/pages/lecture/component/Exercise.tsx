@@ -25,6 +25,7 @@ const Exercise = ({ ids }: Props) => {
             <Textarea2MathJax text={question.question} />
           </div>
         ))}
+        {questions.length % 2 === 1 && <div className={style.card} />}
       </div>
     </div>
   );

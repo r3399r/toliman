@@ -1,11 +1,14 @@
 .content {
   padding-bottom: 30px;
+  width: 17.6cm;
+  margin: 0 auto;
 
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 }
 .block {
-  width: 50%;
+  width: 8.8cm;
 }
 .title {
   width: fit-content;
