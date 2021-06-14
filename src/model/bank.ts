@@ -25,6 +25,7 @@ export const chapterList: string[] = [
   '條件機率',
   '矩陣A',
   '矩陣B',
+  '選修數乙',
 ];
 
 export const bank: Question[] = [
@@ -4186,6 +4187,367 @@ export const bank: Question[] = [
     question:
       '選擇題為避免猜答而採倒扣計分，其扣分的標準是以猜答得分的期望值為 $$0$$ 來計算。今有一備有 $$5$$ 個選項的選擇題，試就下列各題型計算答錯應倒扣原題分的若干才適當。\n(1) 五選一的單選題答錯需倒扣原題分的？\n(2) 至少有一個答案的複選題答錯需倒扣原題分的？(全部選項皆對才算對)',
     answer: '(1) $$\\frac{1}{4}$$ (2) $$\\frac{1}{30}$$',
+    hasImage: false,
+  },
+  {
+    id: '179fd936ce8',
+    chapter: '選修數乙',
+    question:
+      '丟一個公正銅板 $$5$$ 次，令 $$X$$ 表 $$5$$ 次中出現正面的次數，求 $$X$$ 的期望值、標準差與至少擲出 $$3$$ 次正面的機率。',
+    answer: '$$\\frac{5}{2}$$；$$\\frac{\\sqrt{5}}{2}$$；$$\\frac{1}{2}$$',
+    hasImage: false,
+  },
+  {
+    id: '179fd9ab8db',
+    chapter: '選修數乙',
+    question:
+      '設班上學生的座號為 $$1$$ 號到 $$50$$ 號，他們每人這次考試的分數剛好是他們每人各自做號的兩倍，利用下列亂數表由第 $$4$$ 行第 $$1$$ 列開始，往下找到 $$5$$ 位同學的座號，則這 $$5$$ 人的平均成機為？',
+    answer: '$$26.8$$',
+    hasImage: false,
+  },
+  {
+    id: '179fd9c0fdf',
+    chapter: '選修數乙',
+    question:
+      '某班有 $$50$$ 位同學，其中男生有 $$30$$ 位，女生 $$20$$ 位。某次導師要抽 $$5$$ 位同學留下打掃環境，依性別人數比例做分層抽樣，則班上的男同學小明被抽中的機率是？',
+    answer: '$$\\frac{1}{10}$$',
+    hasImage: false,
+  },
+  {
+    id: '179fd9d6ba3',
+    chapter: '選修數乙',
+    question:
+      '某校學生的數學段考成績平均分數是 $$65.24$$ 分，標準差是 $$5.24$$ 分，而且已知成績呈現常態分布。若此校約有 $$320$$ 名學生數學成績低於 $$60$$ 分，則全校約有學生幾人？',
+    answer: '$$2000$$',
+    hasImage: false,
+  },
+  {
+    id: '179fda0bcac',
+    chapter: '選修數乙',
+    question:
+      '關於信賴區間與信心水準的解讀，下列敘述何者錯誤？(多選)\n(1) 信賴區間的中點是母體比率 $$p$$\n(2) 信賴區間的長度等於抽樣誤差的大小\n(3) 信心水準愈高，對應的信賴區間長度愈短\n(4) 調查 $$900$$ 人所得 $$95\\%$$ 信賴區間長度大約是調查 $$100$$ 人所得 $$95\\%$$ 信賴區間長度的 $$\\frac{1}{3}$$ 倍\n(5) 經抽樣後所得的樣本信賴區間包含 $$p$$ 的機率為 $$95\\%$$',
+    answer: '(1)(2)(3)(4)(5)',
+    hasImage: false,
+  },
+  {
+    id: '179fda42b6b',
+    chapter: '選修數乙',
+    question:
+      '想知道手機品牌的市占率，抽樣 $$1000$$ 人，調查持有市面上所有的四種品牌甲、乙、丙、丁的哪一種後，整理統計結果如下：\n$$\\begin{array} {|c|c|}\\hline 品牌 & 甲 & 乙 & 丙 & 丁 \\\\ \\hline 使用人數 & 250 & 150 & 200 & 400 \\\\ \\hline \\end{array}$$\n則根據本次調查：是否可說明在 $$95\\%$$ 信心水準下，品牌甲的市占率不到 $$30\\%$$？',
+    answer: '可以',
+    hasImage: false,
+  },
+  {
+    id: '179fda51ffe',
+    chapter: '選修數乙',
+    question:
+      '某人想了解某地區上網人數的比率 $$p$$，他要在 $$95\\%$$ 信心水準下，而抽樣誤差在 $$0.03$$ 之內，請問他約需調查幾人？',
+    answer: '$$1112$$',
+    hasImage: false,
+  },
+  {
+    id: '179fe943220',
+    chapter: '矩陣A',
+    question:
+      '如圖，直角三角形 $$OAB$$ 經過矩陣 $$\\begin{bmatrix}-2&0\\\\0&3\\end{bmatrix}$$ 的變換後會變成什麼形狀？',
+    answer: '直角三角形',
+    hasImage: true,
+  },
+  {
+    id: '179fea92e0a',
+    chapter: '矩陣A',
+    question:
+      "已知 $$A=\\begin{bmatrix}2&0\\\\0&3\\end{bmatrix}$$ 且 $$O(0,0)$$，$$P(1,0)$$，$$Q(1,1)$$，$$R(0,1)$$，將 $$O$$，$$P$$，$$Q$$，$$R$$ 四點經由矩陣 $$A$$ 線性變換至 $$O'$$，$$P'$$，$$Q'$$，$$R'$$ 四點，則：\n(1) $$O'$$，$$P'$$，$$Q'$$，$$R'$$ 的坐標分別為？\n(2) 平行四邊形 $$O'P'Q'R'$$ 的面積為？\n(3) 平行四邊形 $$O'P'Q'R'$$ 的面積是平行四邊形 $$OPQR$$ 面積的幾倍？",
+    answer: "(1) $$O'(0,0)$$，$$P'(2,0)$$，$$Q'(2,3)$$，$$R'(0,3)$$ (2) $$6$$ (3) $$6$$",
+    hasImage: false,
+  },
+  {
+    id: '179feacffd4',
+    chapter: '矩陣A',
+    question:
+      '下列有關於鏡射變換的敘述哪些正確？(多選)\n(A) $$\\begin{bmatrix}1&0\\\\0&-1\\end{bmatrix}$$ 為對 $$y$$ 軸作鏡射變換的矩陣\n(B) $$\\begin{bmatrix}-1&0\\\\0&1\\end{bmatrix}$$ 為對 $$x$$ 軸作鏡射變換的矩陣\n(C) $$\\begin{bmatrix}0&1\\\\1&0\\end{bmatrix}$$ 為對 $$x-y=0$$ 作鏡射變換的矩陣\n(D) $$\\begin{bmatrix}0&-1\\\\-1&0\\end{bmatrix}$$ 為對 $$x+y=0$$ 作鏡射變換的矩陣\n(E) 鏡射矩陣的作用並不會改變原始的圖形',
+    answer: '(C)(D)(E)',
+    hasImage: false,
+  },
+  {
+    id: '179feb0412b',
+    chapter: '矩陣A',
+    question:
+      "設直線 $$L$$ 為 $$y=-\\frac{1}{\\sqrt{3}}x$$，則點 $$P(6,2)$$ 對直線 $$L$$ 作鏡射所得的點為 $$P'$$，試求點 $$P'$$ 的坐標。",
+    answer: '$$(3-\\sqrt{3},-1-3\\sqrt{3})$$',
+    hasImage: false,
+  },
+  {
+    id: '179feb160a8',
+    chapter: '矩陣A',
+    question:
+      '已知直線 $$L:y=-3x$$，二階方陣 $$A$$ 所對應的線性變換為「對直線 $$L$$ 作鏡射」，試求二階方陣 $$A$$。',
+    answer:
+      '$$\\begin{bmatrix}\\frac{-4}{5}&\\frac{-3}{5}\\\\\\frac{-3}{5}&\\frac{4}{5}\\end{bmatrix}$$',
+    hasImage: false,
+  },
+  {
+    id: '179feb39e98',
+    chapter: '矩陣A',
+    question:
+      '已知正三角形 $$OAB$$ 中，$$O$$ 為原點，$$A$$ 點坐標為 $$(2,2)$$，則 $$B$$ 點坐標為？',
+    answer: '$$(1-\\sqrt{3},\\sqrt{3}+1)$$ 或 $$(1+\\sqrt{3},-\\sqrt{3}+1)$$',
+    hasImage: false,
+  },
+  {
+    id: '179feb5dd8a',
+    chapter: '矩陣A',
+    question:
+      '如圖，一正六邊形 $$ABCDEF$$ 其中心為原點 $$O$$，而 $$A$$ 點之坐標為 $$(4,2)$$，試求：\n(1) $$C$$ (2) $$F$$',
+    answer: '(1) $$(-2-\\sqrt{3},-1+2\\sqrt{3})$$ (2) $$(2+\\sqrt{3},1-2\\sqrt{3})$$',
+    hasImage: true,
+  },
+  {
+    id: '179feb7c9c0',
+    chapter: '矩陣A',
+    question:
+      '試描繪圖形 $$G=\\{(x,y)|0\\le x\\le1,0\\le y\\le1\\}$$ 經矩陣 $$\\begin{bmatrix}1&3\\\\0&1\\end{bmatrix}$$ 推移變換後的新圖形，並求出變換後所得新圖形之面積。',
+    answer: '面積為 $$1$$',
+    hasImage: true,
+  },
+  {
+    id: '179feb92d18',
+    chapter: '矩陣A',
+    question:
+      "已知 $$A=\\begin{bmatrix}1&0\\\\3&1\\end{bmatrix}$$ 且 $$O(0,0)$$，$$P(1,0)$$，$$Q(1,1)$$，$$R(0,1)$$，將 $$O$$，$$P$$，$$Q$$，$$R$$ 四點經由矩陣 $$A$$ 線性變換至 $$O'$$，$$P'$$，$$Q'$$，$$R'$$ 四點，則：\n(1) $$O'$$，$$P'$$，$$Q'$$，$$R'$$ 的坐標分別為？\n(2) 平行四邊形 $$O'P'Q'R'$$ 的面積是平行四邊形 $$OPQR$$ 面積的幾倍？",
+    answer: "(1) $$O'(0,0)$$，$$P'(1,3)$$，$$Q'(1,4)$$，$$R'(0,1)$$ (2) $$1$$",
+    hasImage: false,
+  },
+  {
+    id: '179febc3df9',
+    chapter: '矩陣A',
+    question:
+      '在坐標平面上，將點 $$P(-4,2)$$ 作下列各變換，試分別求變換後之點坐標：\n(1) 以原點為中心，逆時針旋轉 $$30^\\circ$$\n(2) 對 $$x$$ 軸作鏡射\n(3) 以原點為中心，往 $$x$$、$$y$$ 方向分別伸縮 $$3$$ 倍\n(4) 往 $$x$$ 方向伸縮 $$2$$ 倍，$$y$$ 方向伸縮 $$\\frac{1}{2}$$ 倍\n(5) 往 $$x$$ 方向推移 $$y$$ 坐標的 $$-2$$ 倍',
+    answer:
+      '(1) $$(-2\\sqrt{3}-1,-2+\\sqrt{3})$$ (2) $$(-4,-2)$$ (3) $$(-12,6)$$ (4) $$(-8,1)$$ (5) $$(-8,2)$$',
+    hasImage: false,
+  },
+  {
+    id: '179febfe0c0',
+    chapter: '矩陣A',
+    question:
+      '在坐標平面上 $$O(0,0)$$、$$A(3,1)$$，已知 $$\\triangle OAB$$ 為一等腰直角三角形，其中 $$\\angle A$$ 是直角，且 $$B$$ 點在第一象限，則 $$B$$ 點坐標為？',
+    answer: '$$(2,4)$$',
+    hasImage: false,
+  },
+  {
+    id: '17a06695075',
+    chapter: '矩陣A',
+    question: '已知直線 $$L:x-\\sqrt{3}y=0$$，則點 $$P(2,-4)$$ 對於直線 $$L$$ 的對稱點坐標為？',
+    answer: '$$(1-2\\sqrt{3},\\sqrt{3}+2)$$',
+    hasImage: false,
+  },
+  {
+    id: '17a066acfd6',
+    chapter: '矩陣A',
+    question:
+      '平面上有一點 $$P(3,-5)$$ 沿著 $$y$$ 軸推移 $$x$$ 坐標的 $$2$$ 倍，再沿著 $$x$$ 軸推移 $$y$$ 坐標的 $$2$$ 倍後得到 $$Q$$ 點，則 $$Q$$ 點坐標為？',
+    answer: '$$(5,1)$$',
+    hasImage: false,
+  },
+  {
+    id: '17a066ced2b',
+    chapter: '矩陣A',
+    question:
+      '下列共有幾個矩陣可為轉移矩陣？\n$$\\begin{bmatrix}0.2&0.8\\\\0.7&0.3\\end{bmatrix}$$、$$\\begin{bmatrix}2&-2\\\\-1&3\\end{bmatrix}$$、$$\\begin{bmatrix}\\frac{1}{3}&\\frac{2}{5}\\\\\\frac{2}{3}&\\frac{3}{5}\\end{bmatrix}$$、$$\\begin{bmatrix}\\log2&\\log5\\\\\\log5&\\log2\\end{bmatrix}$$、$$\\begin{bmatrix}0&1\\\\1&0\\end{bmatrix}$$',
+    answer: '$$3$$ 個',
+    hasImage: false,
+  },
+  {
+    id: '17a066f053a',
+    chapter: '矩陣A',
+    question:
+      '午餐店有中式與西式兩種選擇，經統計小陳選餐的規則是：若他今天選用中式，則明天改選西式的機率是 $$0.8$$；若他今天選用西式，則明天改選中式的機率是 $$0.5$$。已知他第一天選用中式，假設他第三天選用西式的機率是 $$p$$，求 $$p$$。',
+    answer: '$$0.56$$',
+    hasImage: false,
+  },
+  {
+    id: '17a067049d5',
+    chapter: '矩陣A',
+    question:
+      '國民分成高收入與低收入。高收入人口中，每年有 $$4$$ 成會轉變成低收入。低收入人口中，每年有 $$a$$ 成會轉為高收入，每年高收入人口一直是低收入人口的 $$\\frac{3}{2}$$ 倍，求 $$a$$。',
+    answer: '$$6$$',
+    hasImage: false,
+  },
+  {
+    id: '17a0672366b',
+    chapter: '矩陣A',
+    question:
+      '已知二階方陣 $$T=\\begin{bmatrix}a&3\\\\1&b\\end{bmatrix}$$ 把直線 $$L_1:2x-y=3$$ 變換成直線 $$L_2:3x+7y=15$$，也就是說 $$L_1$$ 上任意一點經 $$T$$ 變換後的新點會在 $$L_2$$ 上，求數對 $$(a,b)$$。',
+    answer: '$$(1,-2)$$',
+    hasImage: false,
+  },
+  {
+    id: '17a06734454',
+    chapter: '矩陣A',
+    question:
+      '如圖，正三角形 $$ABC$$ 的中心為原點 $$O$$，頂點 $$A(2,-2)$$，且 $$B$$ 點在第三象限，則 $$B$$ 點坐標為？',
+    answer: '$$(-1-\\sqrt{3},-\\sqrt{3}+1)$$',
+    hasImage: true,
+  },
+  {
+    id: '17a0674dd31',
+    chapter: '矩陣A',
+    question:
+      '$$A=\\begin{bmatrix}\\frac{1}{2}&-\\frac{\\sqrt{3}}{2}\\\\\\frac{\\sqrt{3}}{2}&\\frac{1}{2}\\end{bmatrix}$$，求 $$A^{108}+A^{2019}$$。',
+    answer: '$$\\begin{bmatrix}0&0\\\\0&0\\end{bmatrix}$$',
+    hasImage: false,
+  },
+  {
+    id: '17a067782a1',
+    chapter: '矩陣A',
+    question:
+      '$$A=\\begin{bmatrix}\\cos18^\\circ&-\\sin18^\\circ\\\\\\sin18^\\circ&\\cos18^\\circ\\end{bmatrix}$$，$$B=\\begin{bmatrix}\\cos87^\\circ&-\\sin87^\\circ\\\\\\sin87^\\circ&\\cos87^\\circ\\end{bmatrix}$$，$$C=\\begin{bmatrix}\\cos45^\\circ&\\sin45^\\circ\\\\-\\sin45^\\circ&\\cos45^\\circ\\end{bmatrix}$$，將 $$ABC$$ 化簡後得到矩陣 $$\\begin{bmatrix}a&b\\\\c&d\\end{bmatrix}$$，求 $$\\frac{b}{a}$$。',
+    answer: '$$-\\sqrt{3}$$',
+    hasImage: false,
+  },
+  {
+    id: '17a06796a43',
+    chapter: '矩陣A',
+    question:
+      '設 $$L$$ 為平面上過原點的一直線，若點 $$A(5,10)$$ 對 $$L$$ 作鏡射後得到點 $$B(-10,5)$$，則此鏡射變換所對應的二階方陣為？',
+    answer:
+      '$$\\begin{bmatrix}-\\frac{4}{5}&-\\frac{3}{5}\\\\-\\frac{3}{5}&\\frac{4}{5}\\end{bmatrix}$$',
+    hasImage: false,
+  },
+  {
+    id: '17a067a7364',
+    chapter: '矩陣A',
+    question:
+      '直線 $$2x+3y=0$$ 經逆時針旋轉 $$90^\\circ$$ 後，再對 $$y=2x$$ 鏡射所得之直線方程式為？',
+    answer: '$$17x=6y$$',
+    hasImage: false,
+  },
+  {
+    id: '17a067c20fe',
+    chapter: '矩陣A',
+    question:
+      "設矩形 $$OABC$$ 的四個頂點坐標為 $$O(0,0)$$、$$A(2,0)$$、$$B(2,1)$$、$$C(0,1)$$。將此四個頂點分別沿 $$x$$ 軸推移 $$y$$ 坐標的 $$3$$ 倍，得 $$O'$$、$$A'$$、$$B'$$、$$C'$$ 四點，則四邊形 $$O'A'B'C$$ 的周長為？",
+    answer: '$$4+2\\sqrt{10}$$',
+    hasImage: false,
+  },
+  {
+    id: '17a0842355e',
+    chapter: '排列組合與機率',
+    question:
+      '將樣本空間 $$S=\\{1,2,3,4,5,6\\}$$ 分成兩個非空事件，使這兩個事件為互斥事件，且聯集為 $$S$$，則總共可以有多少種分法？',
+    answer: '$$31$$',
+    hasImage: false,
+  },
+  {
+    id: '17a084428de',
+    chapter: '排列組合與機率',
+    question:
+      '袋中有 $$10$$ 個大小相同的球，分別編號 $$1\\sim10$$。今從袋中一次取兩球，觀察其數字，若 $$A$$ 代表兩數乘積大於或等於 $$50$$ 的事件，$$B$$ 表示兩數互質的事件，求 $$A$$ 和 $$B$$ 都發生的事件其元素個數 $$n(A\\cap B)$$。',
+    answer: '$$5$$',
+    hasImage: false,
+  },
+  {
+    id: '17a08460ece',
+    chapter: '排列組合與機率',
+    question:
+      '從 $$1\\sim9$$ 這九個數字中任取四個相異數字排成一列，形成一個四位數 $$abcd$$，則此四位數滿足 $$a<b<c<d$$ 的機率為？',
+    answer: '$$\\frac{1}{24} $$',
+    hasImage: false,
+  },
+  {
+    id: '17a09173345',
+    chapter: '三角比',
+    question:
+      '已知 $$ABCD$$ 為圓內接四邊形，且 $$\\overline{AB}=3$$，$$\\overline{BC}=3$$，$$\\overline{CD}=5$$，$$\\overline{DA}=8$$，求對角線 $$\\overline{BD}$$。',
+    answer: '$$7$$',
+    hasImage: false,
+  },
+  {
+    id: '17a091aa2ec',
+    chapter: '三角比',
+    question:
+      '$$\\triangle ABC$$ 中，$$\\overline{AB}=5$$，$$\\overline{BC}=8$$，$$\\overline{CA}=7$$，令 $$M$$ 為 $$\\overline{BC}$$ 邊上的中點，求中線 $$\\overline{AM}$$。',
+    answer: '$$\\sqrt{21}$$',
+    hasImage: true,
+  },
+  {
+    id: '17a091da529',
+    chapter: '三角比',
+    question:
+      '如圖所示，$$\\triangle ABC$$ 為一直角三角形，四邊形 $$BDEC$$ 是以 $$\\overline{BC}$$ 為一邊向外作出的正方形。已知 $$\\overline{AB}=5$$，$$\\overline{AC}=12$$，$$\\overline{BC}=13$$，求 $$\\triangle ABD$$ 的面積。',
+    answer: '$$\\frac{25}{2}$$',
+    hasImage: true,
+  },
+  {
+    id: '17a0923d06f',
+    chapter: '三角比',
+    question:
+      '如圖，兩圓交於 $$P$$、$$Q$$ 兩點，$$A$$、$$B$$ 分別在兩圓上，且 $$A$$、$$Q$$、$$B$$ 三點共線，若 $$\\overline{PA}=3$$，$$\\overline{PB}=2$$，求大圓面積：小圓面積。',
+    answer: '$$9:4$$',
+    hasImage: true,
+  },
+  {
+    id: '17a0926212c',
+    chapter: '三角比',
+    question:
+      '在 $$\\triangle ABC$$ 中，若 $$\\overline{AB}=6$$，$$\\overline{AC}=4$$，$$\\angle A=60^\\circ$$，求 $$\\triangle ABC$$ 之外接圓半徑 $$R$$。',
+    answer: '$$\\frac{2\\sqrt{21}}{3}$$',
+    hasImage: false,
+  },
+  {
+    id: '17a0926ec6f',
+    chapter: '三角比',
+    question:
+      '在銳角三角形中，有兩邊長分別為 $$5$$、$$7$$，若三角形面積為 $$6\\sqrt{6}$$，求第三邊的邊長。',
+    answer: '$$6$$',
+    hasImage: false,
+  },
+  {
+    id: '17a093d3cd1',
+    chapter: '三角比',
+    question:
+      '$$\\triangle ABC$$ 中，$$\\overline{AB}=8$$，$$\\overline{BC}=6$$，$$\\overline{CA}=4$$，延長 $$\\overleftrightarrow{BC}$$ 至 $$D$$ 點，使得 $$\\overline{CD}=3$$，求 $$\\overline{AD}$$。',
+    answer: '$$\\sqrt{19}$$',
+    hasImage: true,
+  },
+  {
+    id: '17a093f754e',
+    chapter: '三角比',
+    question:
+      '圓內接四邊形 $$ABCD$$ 中，若 $$\\overline{AB}=\\overline{AD}=2$$，$$\\angle C=60^\\circ$$，$$\\angle D=105^\\circ$$，求 $$\\overline{CD}$$。',
+    answer: '$$2\\sqrt{2}$$',
+    hasImage: false,
+  },
+  {
+    id: '17a0941ddcf',
+    chapter: '三角比',
+    question: '已知三角形的三邊長分別為 $$2$$、$$\\sqrt{3}$$、$$\\sqrt{5}$$，求此三角形的面積。',
+    answer: '$$\\frac{\\sqrt{11}}{2}$$',
+    hasImage: false,
+  },
+  {
+    id: '17a0943a297',
+    chapter: '三角比',
+    question:
+      '$$\\triangle ABC$$ 中，$$\\overline{AB}=c$$，$$\\overline{BC}=a$$，$$\\overline{CA}=b$$，若 $$\\overline{AB}$$ 邊上的高 $$h_c=3$$，$$\\overline{BC}$$ 邊上的高 $$h_a=4$$，$$\\overline{CA}$$ 邊上的高 $$h_b=6$$，試求：\n(1) $$\\sin A:\\sin B:\\sin C$$\n(2) $$\\triangle ABC$$ 的面積',
+    answer: '(1) $$3:2:4$$ (2) $$\\frac{16\\sqrt{15}}{5}',
+    hasImage: false,
+  },
+  {
+    id: '17a09459c56',
+    chapter: '三角比',
+    question:
+      '$$A$$、$$B$$、$$C$$ 依序為地面一直線上的三點，$$\\overline{AB}=300$$ 公尺，$$\\overline{BC}=200$$ 公尺，今自 $$A$$、$$B$$、$$C$$ 三點測一旁的高山，其仰角分別為 $$30^\\circ$$、$$45^\\circ$$、$$60^\\circ$$，求山高。',
+    answer: '$$100\\sqrt{15}$$ 公尺',
+    hasImage: false,
+  },
+  {
+    id: '17a0948e0bc',
+    chapter: '三角比',
+    question:
+      '$$A$$、$$B$$、$$C$$ 三人想測量升旗桿最頂端的高度，於是三人分別於地面上三點仰視桿頂，發現仰角都是 $$60^\\circ$$，此時 $$B$$、$$C$$ 兩人相距 $$25$$ 公尺，$$\\angle BAC=60^\\circ$$，則他們所測得的旗桿頂高度為？',
+    answer: '$$25$$ 公尺',
     hasImage: false,
   },
 ];

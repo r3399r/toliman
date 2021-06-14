@@ -7,7 +7,7 @@ import { bank, chapterList, Question } from 'src/model/bank';
 import style from './Bank.module.scss';
 
 const Bank = () => {
-  const [filteredBank, setFilteredBank] = useState(bank);
+  const [filteredBank, setFilteredBank] = useState<Question[]>();
 
   const handleCheckbox = (val: RadioChangeEvent) => {
     setFilteredBank(lodash.filter(bank, { chapter: val.target.value }));
@@ -16,20 +16,22 @@ const Bank = () => {
   return (
     <div className={style.content}>
       <Radio.Group options={chapterList} onChange={handleCheckbox} />
-      <GridWith2Col>
-        {filteredBank.map((q: Question) => (
-          <div key={q.id}>
-            <div className={style.id}>
-              id: {q.id}, 章節: {q.chapter}
+      {filteredBank && (
+        <GridWith2Col>
+          {filteredBank.map((q: Question) => (
+            <div key={q.id}>
+              <div className={style.id}>
+                id: {q.id}, 章節: {q.chapter}
+              </div>
+              {q.hasImage === true && (
+                <img className={style.img} src={`images/${q.id}.PNG`} alt="" role="presentation" />
+              )}
+              <Textarea2MathJax text={q.question} />
+              <Textarea2MathJax text={`Ans: ${q.answer}`} className={style.ans} />
             </div>
-            {q.hasImage === true && (
-              <img className={style.img} src={`images/${q.id}.PNG`} alt="" role="presentation" />
-            )}
-            <Textarea2MathJax text={q.question} />
-            <Textarea2MathJax text={`Ans: ${q.answer}`} className={style.ans} />
-          </div>
-        ))}
-      </GridWith2Col>
+          ))}
+        </GridWith2Col>
+      )}
     </div>
   );
 };
