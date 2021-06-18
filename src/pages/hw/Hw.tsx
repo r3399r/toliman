@@ -6,7 +6,7 @@ import style from './Hw.module.scss';
 
 const Hw = () => {
   const ids: string[] = [
-    '17a09173345',
+    '1798f91a336',
     '17a091aa2ec',
     '17a091da529',
     '17a0923d06f',
@@ -29,7 +29,12 @@ const Hw = () => {
           return (
             <div key={q.id}>
               {q.hasImage === true && (
-                <img className={style.img} src={`images/${q.id}.PNG`} alt="" role="presentation" />
+                <img
+                  className={style.img}
+                  src={`/toliman/images/${q.id}.PNG`}
+                  alt=""
+                  role="presentation"
+                />
               )}
               <Textarea2MathJax text={`${i + 1}. ${q.question}`} />
               <Textarea2MathJax text={`Ans: ${q.answer}`} className={style.ans} />

@@ -1,6 +1,6 @@
 .content {
   padding-bottom: 30px;
-  width: 17.6cm;
+  width: 17cm;
   margin: 0 auto;
 
   display: flex;
@@ -8,7 +8,7 @@
   justify-content: center;
 }
 .block {
-  width: 8.8cm;
+  width: 50%;
 }
 .title {
   width: fit-content;
@@ -33,4 +33,8 @@
   font-size: 13px;
   color: #5b81ff;
   float: right;
+}
+.img {
+  max-height: 140px;
+  max-width: 140px;
 }

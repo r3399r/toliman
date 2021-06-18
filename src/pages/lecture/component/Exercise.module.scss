@@ -1,6 +1,6 @@
 .content {
   padding-bottom: 30px;
-  width: 17.6cm;
+  width: 17cm;
   margin: 0 auto;
 }
 .title {
@@ -22,8 +22,12 @@
 .card {
   border-top: 1px solid #000000;
   padding: 5px;
-  width: 8.8cm;
+  width: 50%;
 }
 .left {
   border-right: 1px dashed #000000;
+}
+.odd {
+  width: 100%;
+  border-right: none;
 }

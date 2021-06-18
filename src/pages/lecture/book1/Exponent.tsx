@@ -6,7 +6,7 @@ import Exercise from 'src/pages/lecture/component/Exercise';
 
 const Exponent = () => {
   return (
-    <div className={style.content}>
+    <div>
       <div className={style.head}>指數</div>
       <Concept title="整數指數與指數律">
         <div className={style.conceptHead}>正整數指數</div>

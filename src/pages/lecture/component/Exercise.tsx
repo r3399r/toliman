@@ -13,19 +13,20 @@ const Exercise = ({ ids }: Props) => {
 
   return (
     <div className={style.content}>
-      <div className={style.title}>主題演練</div>
+      <div className={style.title}>觀念演練</div>
       <div className={style.grid}>
         {questions.map((question: Question, i: number) => (
           <div
             key={i}
             className={classNames(style.card, {
               [style.left]: i % 2 === 0,
+              [style.odd]: questions.length === 1,
             })}
           >
             <Textarea2MathJax text={question.question} />
           </div>
         ))}
-        {questions.length % 2 === 1 && <div className={style.card} />}
+        {questions.length > 1 && questions.length % 2 === 1 && <div className={style.card} />}
       </div>
     </div>
   );

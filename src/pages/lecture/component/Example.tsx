@@ -26,12 +26,20 @@ const Example = ({ num, ids }: Props) => {
             {questions[0].hasImage === true && (
               <img
                 className={style.img}
-                src={`images/${questions[0].id}.PNG`}
+                src={`/toliman/images/${questions[0].id}.PNG`}
                 alt=""
                 role="presentation"
               />
             )}
             <Textarea2MathJax text={questions[0].question} />
+            {questions[0].hasImage === true && (
+              <img
+                className={style.img}
+                src={`/toliman/images/${questions[0].id}.PNG`}
+                alt=""
+                role="presentation"
+              />
+            )}
           </div>
         </div>
       </div>
@@ -41,7 +49,7 @@ const Example = ({ num, ids }: Props) => {
             {questions[1].hasImage === true && (
               <img
                 className={style.img}
-                src={`images/${questions[1].id}.PNG`}
+                src={`/toliman/images/${questions[1].id}.PNG`}
                 alt=""
                 role="presentation"
               />

@@ -4550,4 +4550,520 @@ export const bank: Question[] = [
     answer: '$$25$$ 公尺',
     hasImage: false,
   },
+  {
+    id: '17a0dc85372',
+    chapter: '數與式',
+    question:
+      '下列哪些分數可化成有限小數？\n(1) $$\\frac{7}{8}$$ (2) $$\\frac{8}{7}$$ (3) $$\\frac{21}{75}$$ (4) $$\\frac{3}{2^{10}}$$',
+    answer: '(1)(3)(4)',
+    hasImage: false,
+  },
+  {
+    id: '17a0dca2b5e',
+    chapter: '數與式',
+    question:
+      '將 $$\\frac{1234}{9999}$$ 化成小數形式為 $$0.\\overline{1234}$$，設小數點後第 $$n$$ 位的數字為 $$f(n)$$，求 $$f(1)+f(2)+\\cdots+f(99)$$。',
+    answer: '$$246$$',
+    hasImage: false,
+  },
+  {
+    id: '17a0dd2a34c',
+    chapter: '數與式',
+    question: '求 $$0.2\\overline{7}\\times9.\\overline{54}$$。',
+    answer: '$$\\frac{175}{66}$$',
+    hasImage: false,
+  },
+  {
+    id: '17a0dd42c25',
+    chapter: '數與式',
+    question:
+      '設 $$a$$、$$b$$ 為循環小數，$$a=0.\\overline{12}$$，$$b=0.\\overline{01}$$，求 $$a-b$$。',
+    answer: '$$\\frac{1}{9}$$',
+    hasImage: false,
+  },
+  {
+    id: '17a0ddf5269',
+    chapter: '數與式',
+    question:
+      '設 $$a$$、$$b$$、$$c$$ 為有理數，$$x$$、$$y$$ 為無理數，下列推論哪些為真？\n(1) $$ab+c$$ 必為有理數 (2) $$x+y$$ 必為無理數\n(3) $$a+x$$ 必為無理數 (4) $$ax$$ 必為無理數',
+    answer: '(1)(3)',
+    hasImage: false,
+  },
+  {
+    id: '17a0de2821c',
+    chapter: '數與式',
+    question: '問 $$\\sqrt{7+\\sqrt{47}}$$，在哪兩個連續整數之間？',
+    answer: '$$3$$ 與 $$4$$',
+    hasImage: false,
+  },
+  {
+    id: '17a0df3d2da',
+    chapter: '數與式',
+    question:
+      '點 $$P(x)$$ 在 $$A(5)$$、$$B(11)$$ 之間，且 $$\\overline{AP}:\\overline{PB}=\\sqrt{3}:\\sqrt{2}$$，則 $$x=a+b\\sqrt{6}$$，其中 $$a,b\\in\\mathbb{Z}$$，求 $$a$$、$$b$$。\n。',
+    answer: '$$a=23$$；$$b=-6$$',
+    hasImage: false,
+  },
+  {
+    id: '17a0df8d0dc',
+    chapter: '數與式',
+    question: '化簡 $$\\sqrt{5+2\\sqrt{6}}+\\sqrt{6+2\\sqrt{5}}$$。',
+    answer: '$$1+\\sqrt{2}+\\sqrt{3}+\\sqrt{5}$$',
+    hasImage: false,
+  },
+  {
+    id: '17a0df9ff9f',
+    chapter: '數與式',
+    question: '無理數 $$\\sqrt{14+\\sqrt{180}}$$ 的整數部分為？小數部分為？',
+    answer: '$$5$$；$$\\sqrt{5}-2$$',
+    hasImage: false,
+  },
+  {
+    id: '17a0e014770',
+    chapter: '數與式',
+    question:
+      '已知 $$x>0$$，$$y>0$$，且 $$xy=225$$，求 $$4x+9y$$ 的最小值，以及此時的 $$x$$、$$y$$。',
+    answer: '最小值 $$180$$；$$x=\\frac{45}{2}$$；$$y=10$$',
+    hasImage: false,
+  },
+  {
+    id: '17a0e043512',
+    chapter: '數與式',
+    question:
+      '設 $$x>0$$，求 $$f(x)=x+\\frac{16}{x+1}$$ 在 $$x$$ 為何時，$$f(x)$$ 有最小的函數值為？',
+    answer: '$$x=3$$，最小值 $$7$$',
+    hasImage: false,
+  },
+  {
+    id: '17a0e0fafec',
+    chapter: '數與式',
+    question: '化簡 $$(4+\\sqrt{10})^3+(4-\\sqrt{10})^3$$。',
+    answer: '$$368$$',
+    hasImage: false,
+  },
+  {
+    id: '17a0e1064a1',
+    chapter: '數與式',
+    question: '若 $$x+\\frac{1}{x}=5$$，求 $$x^3+\\frac{1}{x^3}$$。',
+    answer: '$$110$$',
+    hasImage: false,
+  },
+  {
+    id: '17a0e14abac',
+    chapter: '數與式',
+    question: '求方程式 $$|2x+1|=9$$ 的解。',
+    answer: '$$4$$ 或 $$-5$$',
+    hasImage: false,
+  },
+  {
+    id: '17a0e15a742',
+    chapter: '數與式',
+    question: '求不等式 $$|-2x+7|\\le10$$ 的解。',
+    answer: '$$\\frac{-3}{2}\\le x\\le\\frac{17}{2}$$',
+    hasImage: false,
+  },
+  {
+    id: '17a0e1de5e1',
+    chapter: '數與式',
+    question:
+      '下列哪一個選項是正確的？\n(1) $$(-2)^{-3}=8$$ (2) $$3^{-1}=\\frac{1}{3}$$\n(3) $$16^{-\\frac{3}{4}}=-8$$ (4) $$\\left(-\\frac{1}{8}\\right)^\\frac{1}{3}=-\\frac{1}{2}$$',
+    answer: '(2)',
+    hasImage: false,
+  },
+  {
+    id: '17a0e1f7aea',
+    chapter: '數與式',
+    question: '求 $$\\left(\\frac{8}{27}\\right)^{-\\frac{2}{3}}\\times(0.25)^{-2.5}$$',
+    answer: '$$72$$',
+    hasImage: false,
+  },
+  {
+    id: '17a0e447974',
+    chapter: '數與式',
+    question: '求 $$(3+\\sqrt{7})^{10}(3-\\sqrt{7})^{10}$$',
+    answer: '$$1024$$',
+    hasImage: false,
+  },
+  {
+    id: '17a0e46db1a',
+    chapter: '數與式',
+    question: '$$\\frac{(2^{-5})^{-\\frac{7}{3}}}{8^\\frac{4}{9}}=16^x$$，求 $$x$$。',
+    answer: '$$-\\frac{13}{4}$$',
+    hasImage: false,
+  },
+  {
+    id: '17a0e4d25e0',
+    chapter: '數與式',
+    question: '已知 $$\\log3\\approx0.4771$$，試問 $$3^{100}$$ 乘開後為幾位數？',
+    answer: '$$48$$',
+    hasImage: false,
+  },
+  {
+    id: '17a0ef24961',
+    chapter: '數與式',
+    question:
+      '請問下列哪些選項正確？\n(1) $$9\\sqrt{5}<20$$\n(2) $$\\sqrt{7}+\\sqrt{2}>4$$\n(3) $$\\sqrt{13}-\\sqrt{10}<\\sqrt{11}-2\\sqrt{2}$$\n(4) 若 $$-1\\le x\\le3$$，則 $$1\\le x^2\\le9$$\n(5) 若 $$-2\\le x\\le5$$ 且 $$2\\le y\\le3$$，則 $$-6\\le x-2y\\le-1$$',
+    answer: '(2)(3)',
+    hasImage: false,
+  },
+  {
+    id: '17a0ef528bf',
+    chapter: '數與式',
+    question:
+      '$$x,y\\in\\mathbb{R}$$，若 $$|2x-1|\\le7$$，$$|y-4|\\le2$$，則下列選項哪些正確？\n(1) $$-5\\le x-y\\le2$$ 必成立\n(2) $$9\\le x^2\\le16$$ 必成立\n(3) $$-27\\le x^3\\le64$$ 必成立\n(4) $$-6\\le xy\\le24$$ 必成立\n(5) $$\\frac{1}{6}\\le\\frac{1}{y}\\le\\frac{1}{2}$$ 必成立',
+    answer: '(1)(2)(5)',
+    hasImage: false,
+  },
+  {
+    id: '17a0efa578f',
+    chapter: '數與式',
+    question:
+      '數線上 $$P(3)$$、$$Q(6)$$、$$R(x)$$ 三點都在 $$A$$、$$B$$ 兩點之間，已知 $$\\overline{PA}:\\overline{PB}=2:3$$，$$\\overline{QA}:\\overline{QB}=4:9$$，$$\\overline{RA}:\\overline{RB}=6:5$$，求 $$x$$。',
+    answer: '$$-\\frac{19}{11}$$',
+    hasImage: false,
+  },
+  {
+    id: '17a0efc748e',
+    chapter: '數與式',
+    question:
+      '數線上由 $$A(-4)$$ 出發朝右步行到達 $$P(x)$$，再騎上單車朝右駛抵達 $$B(88)$$，已知步行的速度是每秒 $$3$$ 單位，騎單車的速度是每秒 $$10$$ 單位，且 $$A$$ 到 $$P$$ 的時間是 $$P$$ 到 $$B$$ 的一半，求 $$\\overline{PA}:\\overline{PB}$$ 及 $$x$$。',
+    answer: '$$3:20$$；$$8$$',
+    hasImage: false,
+  },
+  {
+    id: '17a0f5dd109',
+    chapter: '數與式',
+    question:
+      '設 $$\\sqrt{7+4\\sqrt{3}}$$ 的整數部分為 $$a$$，純小數部分為 $$b$$，求 $$a+\\frac{b^2}{1-b}$$ 之值。',
+    answer: '$$5$$',
+    hasImage: false,
+  },
+  {
+    id: '17a0f616066',
+    chapter: '數與式',
+    question:
+      '介於 $$\\frac{4}{2+\\sqrt{3}}$$ 與 $$\\frac{11}{\\sqrt{13-4\\sqrt{3}}}$$ 之間的整數共有幾個？$$(\\sqrt{3}\\approx1.732)$$',
+    answer: '$$3$$ 個',
+    hasImage: false,
+  },
+  {
+    id: '17a0f6382ae',
+    chapter: '數與式',
+    question: '當 $$(x,y)$$ 在直線 $$2x+y=3$$ 上變動時，求 $$9^x+3^y$$ 的最小值。',
+    answer: '$$6\\sqrt{3}$$',
+    hasImage: false,
+  },
+  {
+    id: '17a0f66cd40',
+    chapter: '數與式',
+    question: '若實數 $$x$$、$$y$$ 滿足 $$9x^4+25y^4=270$$，求 $$xy$$ 的最大值。',
+    answer: '$$3$$',
+    hasImage: false,
+  },
+  {
+    id: '17a0f68d778',
+    chapter: '數與式',
+    question: '求 $$2^{15}+1$$ 的最大質因數。',
+    answer: '$$331$$',
+    hasImage: false,
+  },
+  {
+    id: '17a0f6a214a',
+    chapter: '數與式',
+    question: '已知實係數多項式方程式 $$x^3+ax^2+bx+8=0$$ 有三根相同，求 $$b$$。',
+    answer: '$$12$$',
+    hasImage: false,
+  },
+  {
+    id: '17a0f6e35e5',
+    chapter: '數與式',
+    question:
+      '下列各方程式中，請選出有實數解的選項。\n(1) $$|x|+|x-5|=1$$ (2) $$|x|+|x-5|=6$$\n(3) $$|x|-|x-5|=1$$ (4) $$|x|-|x-5|=6$$\n(5) $$|x|-|x-5|=-1$$',
+    answer: '(2)(3)(5)',
+    hasImage: false,
+  },
+  {
+    id: '17a0f700535',
+    chapter: '數與式',
+    question:
+      '試問數線上有多少個整數點與點 $$\\sqrt{101}$$ 的距離小於 $$5$$，但與點 $$\\sqrt{38}$$ 的距離大於 $$3$$？',
+    answer: '$$8$$ 個',
+    hasImage: false,
+  },
+  {
+    id: '17a0f72f269',
+    chapter: '數與式',
+    question:
+      '設 $$a=\\left(\\frac{1}{2}\\right)^{\\frac{1}{2}}$$，$$b=\\left(\\frac{1}{3}\\right)^{\\frac{1}{3}}$$，$$c=\\left(\\frac{1}{4}\\right)^{\\frac{1}{4}}$$，試比較三者的大小關係。',
+    answer: '$$a=c>b$$',
+    hasImage: false,
+  },
+  {
+    id: '17a0f78f52f',
+    chapter: '數與式',
+    question:
+      '某個手機程式，每次點擊螢幕上的數 $$a$$ 後，螢幕上的數會變成 $$a^2$$。當一開始時螢幕上的數 $$b$$ 為正且連續點擊螢幕三次後，螢幕上的數接近 $$81^3$$。試問實數 $$b$$ 最接近下列哪一個選項？$$(\\sqrt{3}\\approx1.732)$$\n(1) $$1.7$$ (2) $$3$$ (3) $$5.2$$ (4) $$9$$ (5) $$81$$',
+    answer: '(3)',
+    hasImage: false,
+  },
+  {
+    id: '17a0f7cb255',
+    chapter: '數與式',
+    question:
+      '已知 $$\\log278\\approx2.44404$$，$$\\log2.5351\\approx0.40400$$，請利用這兩個對數值，求 $$278^{100}$$ 乘開後的科學記號表法，取三位有效數字。',
+    answer: '$$2.54\\times10^{244}$$',
+    hasImage: false,
+  },
+  {
+    id: '17a0f7ed607',
+    chapter: '數與式',
+    question:
+      '觀察 $$2$$ 的次方所形成的等比數列：$$2,2^2,2^3,\\cdots$$，設其中出現的第一個 $$13$$ 位數為 $$2^n$$，求 $$n$$。$$(\\log2\\approx0.3010)$$',
+    answer: '$$40$$',
+    hasImage: false,
+  },
+  {
+    id: '17a17f2a43b',
+    chapter: '多項式函數',
+    question:
+      '設 $$f(x)=ax^6-bx^4+3x-\\sqrt{2}$$，其中 $$a$$、$$b$$ 為非零實數，求 $$f(5)-f(-5)$$。',
+    answer: '$$30$$',
+    hasImage: false,
+  },
+  {
+    id: '17a17f48c08',
+    chapter: '多項式函數',
+    question:
+      '已知 $$a\\in\\mathbb{R}$$，多項式 $$f(x)=(2x^7+ax^4-a)^5$$ 的次數為？將 $$f(x)$$ 乘開後各項係數之和為？',
+    answer: '$$35$$；$$32$$',
+    hasImage: false,
+  },
+  {
+    id: '17a17faa323',
+    chapter: '多項式函數',
+    question: '若多項式 $$x^2+x+2$$ 能整除 $$x^5+x^4+x^3+px^2+2x+q$$，求 $$p$$、$$q$$。',
+    answer: '$$3$$；$$8$$',
+    hasImage: false,
+  },
+  {
+    id: '17a17fb7134',
+    chapter: '多項式函數',
+    question: '利用綜合除法求 $$2x^3+x^2-7$$ 除以 $$x+3$$ 的商與餘。',
+    answer: '$$2x^2-5x+15$$；$$-52$$',
+    hasImage: false,
+  },
+  {
+    id: '17a17fea46a',
+    chapter: '多項式函數',
+    question:
+      '多項式 $$x^3+4x^2+5x-3$$ 除以 $$f(x)$$ 的商式為 $$x+2$$，餘式 $$2x-1$$，求 $$f(x)$$。',
+    answer: '$$x^2+2x-1$$',
+    hasImage: false,
+  },
+  {
+    id: '17a17ffc39c',
+    chapter: '多項式函數',
+    question:
+      '$$f(x)=(x^2+1)(x^3-2)\\cdot g(x)+x^2+x+3$$，$$g(x)$$ 為某一多項式，求：\n(1) $$f(x)$$ 除以 $$x^3-2$$ 的餘式\n(2) $$f(x)$$ 除以 $$x^2+1$$ 的餘式',
+    answer: '(1) $$x^2+x+3$$ (2) $$x+2$$',
+    hasImage: false,
+  },
+  {
+    id: '17a180799da',
+    chapter: '多項式函數',
+    question:
+      '將 $$f(x)=5x^3+x^2-2x+4$$ 化為 $$x-1$$ 的多項式，並求 $$f(x)$$ 在 $$x=1$$ 的一次近似。',
+    answer: '$$=15x-7$$',
+    hasImage: false,
+  },
+  {
+    id: '17a180d10c7',
+    chapter: '多項式函數',
+    question: '求 $$x^{10}+3$$ 除以 $$x-2$$ 的餘式。',
+    answer: '$$1027$$',
+    hasImage: false,
+  },
+  {
+    id: '17a180dadba',
+    chapter: '多項式函數',
+    question: '$$f(x)=x^5+6x^4-4x^3+25x^2+30x+20$$，求 $$f(-7)$$。',
+    answer: '$$6$$',
+    hasImage: false,
+  },
+  {
+    id: '17a181a61da',
+    chapter: '多項式函數',
+    question: '若 $$x+2$$ 為 $$f(x)=x^7+ax^3$$ 的因式，求 $$a$$。',
+    answer: '$$-16$$',
+    hasImage: false,
+  },
+  {
+    id: '17a181b5061',
+    chapter: '多項式函數',
+    question:
+      '設 $$a$$ 為整數，下列哪一個選項的一次式，有可能是 $$f(x)=2x^3+ax^2-2ax+a$$ 的因式？\n(1) $$x+1$$ (2) $$x-1$$ (3) $$x+2$$ (4) $$x-2$$',
+    answer: '(4)',
+    hasImage: false,
+  },
+  {
+    id: '17a18286398',
+    chapter: '多項式函數',
+    question:
+      '設 $$f(x)$$ 為三次多項式，若 $$f(-2)=f(1)=0$$，$$f(0)=6$$ 且 $$f(3)=30$$，求 $$f(-1)$$。',
+    answer: '$$10$$',
+    hasImage: false,
+  },
+  {
+    id: '17a182b5deb',
+    chapter: '多項式函數',
+    question:
+      '設 $$f(x)$$ 是二次多項式，若 $$f(121)=1$$，$$f(122)=4$$，$$f(123)=11$$，求 $$f(125)$$。',
+    answer: '$$37$$',
+    hasImage: false,
+  },
+  {
+    id: '17a183408c1',
+    chapter: '多項式函數',
+    question: '求方程式 $$x^2+4x-6=0$$ 的解。',
+    answer: '$$-2\\pm\\sqrt{10}$$',
+    hasImage: false,
+  },
+  {
+    id: '17a18354981',
+    chapter: '多項式函數',
+    question:
+      '設 $$k$$ 為實數使得方程式 $$3x^2+15x+k=0$$ 有兩個實根 $$\\alpha$$、$$\\beta$$，則：\n(1) $$\\alpha+\\beta=$$？ (2) 若 $$\\alpha\\beta=2$$，求 $$k$$。',
+    answer: '(1) $$-5$$ (2) $$6$$',
+    hasImage: false,
+  },
+  {
+    id: '17a18414108',
+    chapter: '多項式函數',
+    question: '$$f(x)$$ 為一次函數，若 $$f(1.27)=8.723$$，$$f(1.28)=8.783$$，求 $$f(x)$$。',
+    answer: '$$f(x)=6x+1.103$$',
+    hasImage: false,
+  },
+  {
+    id: '17a19a05422',
+    chapter: '多項式函數',
+    question:
+      '設某沙漠地區某一段時間的溫度函數為 $$f(t)=-t^2+10t+11$$，其中 $$1\\le t\\le10$$，則這段時間內該地區的最大溫差為？',
+    answer: '$$25$$',
+    hasImage: false,
+  },
+  {
+    id: '17a19a1410c',
+    chapter: '多項式函數',
+    question: '設 $$f(x)=x^2-2x+k$$，對所有實數 $$x$$ 恆使 $$f(x)>0$$，求 $$k$$ 的範圍。',
+    answer: '$$k>1$$',
+    hasImage: false,
+  },
+  {
+    id: '17a19a9301f',
+    chapter: '多項式函數',
+    question: '$$f(x)=x^3+12x^2+8x+7$$$$=(x+h)^3+p(x+h)+q$$，求 $$h$$、$$p$$、$$q$$、對稱中心。',
+    answer: '$$4$$；$$-40$$；$$103$$；$$(-4,103)$$',
+    hasImage: false,
+  },
+  {
+    id: '17a19abbcc7',
+    chapter: '多項式函數',
+    question:
+      '$$a\\neq0$$，若 $$f(x)=a(x-9)^3+b(x-9)+7$$ 的圖形與圓 $$(x-9)^2+(y-7)^2=r^2$$ 恰有兩個交點，其中一個交點的坐標是 $$(20,15)$$，求另一個交點的坐標。',
+    answer: '$$(-2,-1)$$',
+    hasImage: false,
+  },
+  {
+    id: '17a19bb02e6',
+    chapter: '多項式函數',
+    question: '求 $$(x+1)(x^2+x-1)<0$$ 之解。',
+    answer: '$$x<\\frac{-1-\\sqrt{5}}{2}$$ 或 $$-1<x<\\frac{-1+\\sqrt{5}}{2}$$',
+    hasImage: false,
+  },
+  {
+    id: '17a19bbf61e',
+    chapter: '多項式函數',
+    question: '求 $$(x-1)(x-2)^3(x-3)^2>0$$ 之解。',
+    answer: '$$x<1$$ 或 $$x>2$$，但 $$x\\neq3$$',
+    hasImage: false,
+  },
+  {
+    id: '17a19c2b55e',
+    chapter: '多項式函數',
+    question:
+      '多項式 $$f(x)$$ 除以 $$x^2-2x-3$$ 的餘式為 $$x+5$$，則下列關於 $$f(x)$$ 的除法，哪些正確？\n(1) 除以 $$x+1$$ 的餘式必為 $$4$$\n(2) 除以 $$x+3$$ 的餘式必為 $$8$$\n(3) 除以 $$x^2+3x+2$$ 的餘式可能為 $$3x+7$$\n(4) 除以 $$x^2-x-6$$ 的餘式可能為 $$2x+3$$\n(5) 除以 $$(x+1)(x-3)(x+2)$$ 的餘式可能為 $$2x^2-3x-1$$',
+    answer: '(1)(3)(5)',
+    hasImage: false,
+  },
+  {
+    id: '17a1ad46bf7',
+    chapter: '多項式函數',
+    question:
+      '學生練習三次多項式 $$f(x)$$ 除以一次多項式 $$g(x)$$ 的餘式。已知 $$f(x)$$ 的三次項係數為 $$3$$，一次項係數為 $$2$$。甲生把 $$f(x)$$ 的三次項係數錯看成 $$2$$，乙生把 $$f(x)$$ 的一次項係數錯看成 $$-2$$。而甲生和乙生算出來的餘式剛好一樣。試問 $$g(x)$$ 可能等於以下列哪些一次式？\n(1) $$x$$ (2) $$x-1$$ (3) $$x-2$$ (4) $$x+1$$ (5) $$x+2$$',
+    answer: '(1)(3)(5)',
+    hasImage: false,
+  },
+  {
+    id: '17a1adcc0ed',
+    chapter: '多項式函數',
+    question:
+      '設多項式 $$f(x)$$ 除以 $$x^2-5x+4$$，餘式為 $$x+2$$；除以 $$x^2-5x+6$$，餘式為 $$3x+4$$，求多項式 $$f(x)$$ 除以 $$x^2-4x+3$$ 之餘式。',
+    answer: '$$5x-2$$',
+    hasImage: false,
+  },
+  {
+    id: '17a1ade3264',
+    chapter: '多項式函數',
+    question:
+      '設 $$f(x)$$ 為三次多項式，若 $$f(x)$$ 除以 $$(x+2)(x-3)$$ 的餘式為 $$4x-1$$，除以 $$x^2+1$$ 的餘式為 $$-9x+8$$，求 $$f(x)$$。',
+    answer: '$$2x^3-3x^2-7x+5$$',
+    hasImage: false,
+  },
+  {
+    id: '17a1aff775f',
+    chapter: '多項式函數',
+    question:
+      '若多項式 $$f(x)$$、$$g(x)$$ 滿足 $$f(x)-g(x)=x^3-5x^2+x+4$$，且 $$g(x)$$ 除以 $$x-1$$ 的餘式為 $$8$$，求 $$f(x)$$ 除以 $$x-1$$ 的餘式。',
+    answer: '$$9$$',
+    hasImage: false,
+  },
+  {
+    id: '17a1b0214d9',
+    chapter: '多項式函數',
+    question: '若 $$f(x)=x^3-2x^2-x+5$$，求多項式 $$g(x)=f(f(x))$$ 除以 $$x-2$$ 的餘式。',
+    answer: '$$11$$',
+    hasImage: false,
+  },
+  {
+    id: '17a1b0543b3',
+    chapter: '多項式函數',
+    question:
+      '設 $$f(x)=6x^4+5x^3-16x^2-6x+17$$，已知有四個相異實數 $$p$$、$$q$$、$$r$$、$$s$$ 滿足 $$f(p)=f(q)=f(r)=f(s)=12$$，求 $$(p+1)(q+1)(r+1)(s+1)$$。',
+    answer: '$$-\\frac{2}{3}$$',
+    hasImage: false,
+  },
+  {
+    id: '17a1b0ada5c',
+    chapter: '多項式函數',
+    question:
+      '設 $$p,q\\in\\mathbb{R}$$，若多項式 $$f(x)=x^{20}-4x^{18}+x^5+px+q$$ 能被 $$x^2+x-2$$ 整除，請問下列選項哪些正確？\n(1) $$p,q\\in\\mathbb{Z}$$ (2) $$p>q$$ (3) $$p+q>0$$ (4) $$pq>0$$ (5) $$p^q>q^p$$',
+    answer: '(1)(3)(5)',
+    hasImage: false,
+  },
+  {
+    id: '17a1b0d869e',
+    chapter: '多項式函數',
+    question:
+      '設二次實係數多項式函數 $$f(x)=ax^2+2ax+b$$ 在區間 $$-1\\le x\\le1$$ 上的最大值為 $$7$$、最小值為 $$3$$，求數對 $$(a,b)$$。',
+    answer: '$$(1,4)$$ 或 $$(-1,6)$$',
+    hasImage: false,
+  },
+  {
+    id: '17a1b10ab40',
+    chapter: '多項式函數',
+    question:
+      '設 $$a,b\\in\\mathbb{R}$$ 且 $$a\\neq0$$，若 $$f(x)=ax^2+bx+\\frac{1}{a}$$ 在 $$x=2$$ 時有最大值為 $$-3$$，則點 $$P(a,b)$$ 在第幾象限？',
+    answer: '二',
+    hasImage: false,
+  },
 ];

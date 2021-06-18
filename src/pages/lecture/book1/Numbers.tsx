@@ -6,7 +6,7 @@ import Exercise from 'src/pages/lecture/component/Exercise';
 
 const Numbers = () => {
   return (
-    <div className={style.content}>
+    <div>
       <div className={style.head}>數與數線</div>
       <Concept title="整數">
         <div className={style.conceptHead}>整數</div>

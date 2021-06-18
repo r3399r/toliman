@@ -1,4 +1,5 @@
 import classNames from 'classnames';
+import { CSSProperties } from 'react';
 import MathJax from 'react-mathjax';
 import style from './Textarea2MathJax.module.scss';
 

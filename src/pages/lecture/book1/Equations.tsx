@@ -6,7 +6,7 @@ import Exercise from 'src/pages/lecture/component/Exercise';
 
 const Equations = () => {
   return (
-    <div className={style.content}>
+    <div>
       <div className={style.head}>式的運算</div>
       <Concept title="乘法公式">
         <div className={style.conceptHead}>乘法公式</div>
