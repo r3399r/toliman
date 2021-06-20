@@ -5066,4 +5066,324 @@ export const bank: Question[] = [
     answer: '二',
     hasImage: false,
   },
+  {
+    id: '17a2019b16e',
+    chapter: '排列組合與機率',
+    question:
+      '(單選) 設 $$(1-\\sqrt{3})^6=a+b\\sqrt{3}$$，其中 $$a,b\\in\\mathbb{Z}$$，請問 $$b$$ 等於下列哪一個選項？\n(1) $$C^6_0+3^2C^6_2+3^4C^6_4+3^6C^6_6$$\n(2) $$C^6_0-3C^6_2+3^2C^6_4-3^3C^6_6$$\n(3) $$C^6_1-3C^6_3+3^2C^6_5$$\n(4) $$-C^6_1-3C^6_3-3^2C^6_5$$\n(5) $$-C^6_0+3C^6_2-3^2C^6_4+3^3C^6_6$$',
+    answer: '(4)',
+    hasImage: false,
+  },
+  {
+    id: '17a201bf43f',
+    chapter: '排列組合與機率',
+    question:
+      '(單選) 一袋中有 $$6$$ 個白球與 $$n$$ 個黑球，假設每球被選取的機會均等，今從袋中一次取出兩球，已知兩球均為白球的機率是 $$\\frac{5}{12}$$，求 $$n$$。\n(1) $$3$$ (2) $$5$$ (3) $$7$$ (4) $$9$$ (5) $$11$$',
+    answer: '(1)',
+    hasImage: false,
+  },
+  {
+    id: '17a201ea705',
+    chapter: '排列組合與機率',
+    question:
+      '(多選) 將 $$(x+y^2)^{10}$$ 展開集項後，請選出正確的選項。\n(1) $$x^{10}$$ 的係數小於 $$x^3y^{14}$$ 的係數\n(2) $$x^8y^4$$ 的係數小於 $$x^3y^{14}$$ 的係數\n(3) $$x^2y^{16}$$ 的係數大於 $$x^6y^8$$ 的係數\n(4) $$x^7y^6$$ 的係數小於 $$x^5y^{10}$$ 的係數\n(5) $$x^6y^8$$ 的係數大於 $$x^4y^{12}$$ 的係數',
+    answer: '(1)(2)(4)',
+    hasImage: false,
+  },
+  {
+    id: '17a2022525e',
+    chapter: '排列組合與機率',
+    question:
+      '(多選) 將 $$10$$ 本不同的書分裝入數個相同的袋子，選出正確的選項。\n(1) 若依本數 $$4$$，$$3$$，$$2$$，$$1$$ 分裝入四袋，則有 $$C^{10}_4C^6_3C^3_2C^1_1$$ 種分法\n(2) 若依本數 $$2$$，$$2$$，$$2$$，$$2$$，$$2$$ 分裝入五袋，則有 $$\\frac{C^{10}_2C^8_2C^6_2C^4_2C^2_2}{5!}$$ 種分法\n(3) 若依本數 $$4$$，$$2$$，$$2$$，$$2$$ 分裝入四袋，則有 $$\\frac{C^{10}_2C^6_2C^4_2C^2_2}{3!}$$ 種分法\n(4) 若依本數 $$3$$，$$3$$，$$2$$，$$2$$ 分裝入四袋，則有 $$\\frac{C^{10}_3C^7_3C^4_2C^2_2}{2!2!}$$ 種分法\n(5) 若依本數 $$3$$，$$3$$，$$2$$，$$2$$ 分裝給四個人，則有 $$\\frac{C^{10}_3C^7_3C^4_2C^2_2}{2!2!}$$ 種分法',
+    answer: '(1)(2)(3)(4)',
+    hasImage: false,
+  },
+  {
+    id: '17a2023d430',
+    chapter: '排列組合與機率',
+    question:
+      '(多選) 某一班共有 $$40$$ 人，問卷調查有手機與平板電腦的人數。從統計資料顯示此班有 $$35$$ 人有手機，而有 $$14$$ 人有平板電腦，兩者都有的人共有 $$x$$ 人，試問 $$x$$ 可能為下列哪些值？\n(1) $$8$$ (2) $$9$$ (3) $$10$$ (4) $$14$$ (5) $$15$$',
+    answer: '(2)(3)(4)',
+    hasImage: false,
+  },
+  {
+    id: '17a2025f446',
+    chapter: '排列組合與機率',
+    question:
+      '若數列 $$a_1$$，$$a_2$$，$$a_3$$，$$a_4$$，$$a_5$$ 中每一項皆為 $$1$$ 或 $$-1$$，則乘積 $$a_1a_2a_3a_4a_5$$ 之值有幾種可能性？',
+    answer: '$$2$$',
+    hasImage: false,
+  },
+  {
+    id: '17a2027820c',
+    chapter: '排列組合與機率',
+    question:
+      '設 $$U$$ 是若干個正整數所成的集合，若 $$U$$ 中 $$2$$ 的倍數有 $$42$$ 個，$$6$$ 的倍數有 $$15$$ 個，$$2$$ 或 $$3$$ 的倍數有 $$50$$ 個，試問 $$U$$ 中是 $$3$$ 的倍數，但不是 $$2$$ 的倍數有幾個？',
+    answer: '$$8$$',
+    hasImage: false,
+  },
+  {
+    id: '17a20290841',
+    chapter: '排列組合與機率',
+    question:
+      '一家五口，父母兄弟妹，每人都會做飯，也會洗碗，但每餐飯，做飯者不洗碗。某假日午晚兩餐，做飯者非同一人，洗碗者也非同一人，則午晚兩餐做飯、洗碗共有幾種情形？',
+    answer: '$$260$$',
+    hasImage: false,
+  },
+  {
+    id: '17a202b0a26',
+    chapter: '排列組合與機率',
+    question:
+      '有一個走捷徑的遊戲，挑戰者必須由 $$A$$ 點走到 $$B$$ 點，已知經過 $$C$$ 點會扣生命值 $$7$$ 點，經過 $$D$$ 點會扣生命值 $$8$$ 點，走到 $$B$$ 點必須維持生命值 $$90$$ 點以上才算成功。若挑戰者目前生命值為 $$100$$ 點，則所有成功過關的走法有？',
+    answer: '$$258$$',
+    hasImage: true,
+  },
+  {
+    id: '17a202cce60',
+    chapter: '排列組合與機率',
+    question: '四人猜拳(剪刀、石頭、布)一次，則淘汰人數的期望值為？',
+    answer: '$$\\frac{28}{27}$$ 人',
+    hasImage: false,
+  },
+  {
+    id: '17a202e5b03',
+    chapter: '排列組合與機率',
+    question:
+      '老師將 $$6$$ 個不同的物品分成三堆，每堆分別為 $$3$$ 個，$$2$$ 個，$$1$$ 個，若再將此三堆以每人一堆的方式分給甲，乙，丙 $$3$$ 人，則共有幾種分法？',
+    answer: '$$360$$',
+    hasImage: false,
+  },
+  {
+    id: '17a2030c7d5',
+    chapter: '排列組合與機率',
+    question:
+      '某次考試中有一題多重選擇題，共有 $$A$$、$$B$$、$$C$$、$$D$$、$$E$$ 五個選項，而五個選項中至少有一個選項是正確的。計分方式為：「完全正確得 $$8$$ 分，只錯一個選項可得 $$5$$ 分，只錯兩個選項可得 $$2$$ 分，答錯三個或三個以上選項不給分」。若小明只確定 $$A$$ 選項一定是正確的，另外 $$B$$、$$C$$、$$D$$、$$E$$ 四個選項他不經考慮隨意猜答，則小明此題得分之期望值為？',
+    answer: '$$2.5$$ 分',
+    hasImage: false,
+  },
+  {
+    id: '17a20445a4b',
+    chapter: '數與式',
+    question: '求 $$10^{\\log7}+\\log10^7$$',
+    answer: '$$14$$',
+    hasImage: false,
+  },
+  {
+    id: '17a20463ef2',
+    chapter: '數與式',
+    question:
+      '若 $$a,b\\in\\mathbb{Q}$$ 且 $$(1+2\\sqrt{2})a+(3+4\\sqrt{2})b=5+6\\sqrt{2}$$，求 $$7a+8b$$。',
+    answer: '$$9$$',
+    hasImage: false,
+  },
+  {
+    id: '17a2049be60',
+    chapter: '數與式',
+    question:
+      '設 $$a$$、$$b$$ 為正數，且 $$3a+4b=26$$，求當數對 $$(a,b)$$ 為何時，$$ab$$ 有最大值。',
+    answer: '$$\\left(\\frac{13}{3},\\frac{13}{4}\\right)$$',
+    hasImage: false,
+  },
+  {
+    id: '17a204ba275',
+    chapter: '數與式',
+    question:
+      '數線上給定兩點 $$A(1)$$、$$B(5)$$，已知兩相異點 $$P_1$$，$$P_2$$ 滿足 $$\\overline{AP_1}:\\overline{BP_1}=\\overline{AP_2}:\\overline{BP_2}=1:3$$，求 $$\\overline{P_1P_2}$$。',
+    answer: '$$3$$',
+    hasImage: false,
+  },
+  {
+    id: '17a204ca2ab',
+    chapter: '數與式',
+    question: '若 $$5^x+4\\cdot5^{x+1}=525$$，求 $$x$$。',
+    answer: '$$2$$',
+    hasImage: false,
+  },
+  {
+    id: '17a204db218',
+    chapter: '數與式',
+    question:
+      '設 $$a,b\\in\\mathbb{R}$$，若 $$|ax+2|\\le b$$ 之解為 $$-3\\le x\\le5$$，求 $$a+b$$。',
+    answer: '$$6$$',
+    hasImage: false,
+  },
+  {
+    id: '17a204fcdcb',
+    chapter: '多項式函數',
+    question:
+      '設 $$f(x)=x^3-4x^2+7x-1$$$$=a(x-2)^3+b(x-2)^2+c(x-2)+d$$，試求：\n(1) $$a+b+c+d$$\n(2) $$f(1.98)$$ 的近似值 (四捨五入取到小數點後第二位)',
+    answer: '(1) $$11$$ (2) $$4.94$$',
+    hasImage: false,
+  },
+  {
+    id: '17a2051a7ed',
+    chapter: '多項式函數',
+    question: '設 $$f(x)=x^7-9x^6+11x^5-22x^4$$$$-18x^3+20x^2-99$$，試求 $$f(8)$$。',
+    answer: '$$157$$',
+    hasImage: false,
+  },
+  {
+    id: '17a2053e759',
+    chapter: '多項式函數',
+    question:
+      '多項式 $$f(x)$$ 除以 $$x-3$$ 得餘式 $$12$$，除以 $$x+2$$ 得餘式 $$2$$，試求 $$f(x)$$ 除以 $$(x-3)(x+2)$$ 所得之餘式。',
+    answer: '$$2x+6$$',
+    hasImage: false,
+  },
+  {
+    id: '17a2055075c',
+    chapter: '多項式函數',
+    question:
+      '設 $$f(x)=x^2-4x+k$$，若不論 $$x$$ 為任何實數，對應的 $$f(x)$$ 值恆為正數，求實數 $$k$$ 的範圍。',
+    answer: '$$k>4$$',
+    hasImage: false,
+  },
+  {
+    id: '17a205692cf',
+    chapter: '多項式函數',
+    question: '求不等式 $$(x^2+x+2)(x-5)(2x-25)\\le0$$ 之解。',
+    answer: '$$5\\le x\\le\\frac{25}{2}$$',
+    hasImage: false,
+  },
+  {
+    id: '17a20581f3b',
+    chapter: '多項式函數',
+    question: '當 $$2\\le x\\le4$$ 時，$$y=-2x^2+4x+5$$ 有最大值 $$M$$，求 $$M$$。',
+    answer: '$$5$$',
+    hasImage: false,
+  },
+  {
+    id: '17a2224ba40',
+    chapter: '矩陣B',
+    question:
+      '若 $$\\begin{bmatrix}0&2\\\\2a+b&c\\\\a&b\\end{bmatrix}=\\begin{bmatrix}0&c-a\\\\-c&3\\\\a&a-6\\end{bmatrix}$$，求序組 $$(a,b,c)$$。',
+    answer: '$$(1,-5,3)$$',
+    hasImage: false,
+  },
+  {
+    id: '17a2225cdb3',
+    chapter: '矩陣B',
+    question:
+      '設 $$A=\\begin{bmatrix}1&2\\\\1&3\\end{bmatrix}$$，$$B=\\begin{bmatrix}k&2\\\\1&5\\end{bmatrix}$$，若 $$(A+B)(A-B)=A^2-B^2$$，求實數 $$k$$。',
+    answer: '$$3$$',
+    hasImage: false,
+  },
+  {
+    id: '17a222730af',
+    chapter: '矩陣B',
+    question:
+      '設 $$A$$，$$B$$，$$C$$ 為二階方陣，$$AB=\\begin{bmatrix}-2&3\\\\4&1\\end{bmatrix}$$，$$AC=\\begin{bmatrix}6&1\\\\-2&3\\end{bmatrix}$$，且 $$B+C=\\begin{bmatrix}5&4\\\\3&2\\end{bmatrix}$$，求 $$A$$。',
+    answer: '$$\\begin{bmatrix}2&-2\\\\4&-6\\end{bmatrix}$$',
+    hasImage: false,
+  },
+  {
+    id: '17a222923d8',
+    chapter: '矩陣B',
+    question:
+      '(多選) 設 $$A=\\begin{bmatrix}a_{ij}\\end{bmatrix}_{3\\times3}$$ 滿足 $$a_{ij}=\\begin{cases}i^2,i>j\\\\j-i,i\\le j\\end{cases}$$，下列何者為真？\n(1) $$a_{32}=9$$ (2) $$a_{22}=1$$ (3) $$a_{13}=2$$ (4) 所有元素和為 $$30$$ (5) 所有元素平方和為 $$100$$ ',
+    answer: '(1)(3)',
+    hasImage: false,
+  },
+  {
+    id: '17a222a3742',
+    chapter: '矩陣B',
+    question:
+      '設聯立方程式 $$\\begin{bmatrix}k-1&2\\\\5&k+2\\end{bmatrix}\\begin{bmatrix}x\\\\y\\end{bmatrix}=\\begin{bmatrix}2\\\\5\\end{bmatrix}$$ 無解，求 $$k$$。',
+    answer: '$$-4$$',
+    hasImage: false,
+  },
+  {
+    id: '17a222cf18f',
+    chapter: '矩陣B',
+    question:
+      '(多選) $$A=\\begin{bmatrix}0&2\\\\-2&0\\end{bmatrix}$$，$$I=\\begin{bmatrix}1&0\\\\0&1\\end{bmatrix}$$，則以下敘述，何者正確？\n(1) $$A^2=-4I$$ (2) $$A^3=-4A$$\n(3) $$A^4=16I$$ (4) $$A^{100}=(-4)^{50}I$$\n(5) $$(A-I)^3=-A+11I$$',
+    answer: '(1)(2)(3)(4)(5)',
+    hasImage: false,
+  },
+  {
+    id: '17a222ea5b7',
+    chapter: '矩陣B',
+    question:
+      '若兩矩陣 $$A$$ 與 $$B$$ 滿足 $$A+3B=\\begin{bmatrix}1&6&3\\\\2&13&18\\end{bmatrix}$$ 且 $$A-2B=\\begin{bmatrix}1&-4&-2\\\\-3&-7&-7\\end{bmatrix}$$，求矩陣 $$B$$ 的第 $$(2,1)$$ 元。',
+    answer: '$$1$$',
+    hasImage: false,
+  },
+  {
+    id: '17a22302368',
+    chapter: '矩陣B',
+    question:
+      '設 $$A=\\begin{bmatrix}3&2\\\\2&1\\end{bmatrix}$$，若 $$A\\begin{bmatrix}a\\\\b\\end{bmatrix}=\\begin{bmatrix}1\\\\0\\end{bmatrix}$$，$$A\\begin{bmatrix}c\\\\d\\end{bmatrix}=\\begin{bmatrix}0\\\\1\\end{bmatrix}$$，求 $$a^3+b^3+c^3+d^3$$。',
+    answer: '$$-12$$',
+    hasImage: false,
+  },
+  {
+    id: '17a2231a63b',
+    chapter: '矩陣B',
+    question:
+      '已知矩陣 $$A=\\begin{bmatrix}1&2\\\\3&4\\end{bmatrix}$$，$$B=\\begin{bmatrix}2&-1\\\\1&-1\\end{bmatrix}$$，$$C=\\begin{bmatrix}2&1\\\\1&3\\end{bmatrix}$$，若矩陣 $$X$$ 滿足 $$AX+3B=C$$，求 $$X$$。',
+    answer: '$$\\begin{bmatrix}6&-2\\\\-5&3\\end{bmatrix}$$',
+    hasImage: false,
+  },
+  {
+    id: '17a24e0ae41',
+    chapter: '三角比',
+    question:
+      '(多選) 從下列選項中，選出大於 $$\\sin10^\\circ$$ 的選項。\n(1) $$\\sin5^\\circ$$ (2) $$\\frac{1}{2}$$ (3) $$\\sin180^\\circ$$ (4) $$\\cos340^\\circ$$ (5) $$\\tan135^\\circ$$',
+    answer: '(2)(4)',
+    hasImage: false,
+  },
+  {
+    id: '17a24e2bd7c',
+    chapter: '三角比',
+    question:
+      '(多選) 如圖，下列選項何者正確？$$\\left(\\sin75^\\circ=\\frac{\\sqrt{6}+\\sqrt{2}}{4}\\right)$$\n(1) $$\\overline{AB}=4\\sqrt{2}$$\n(2) $$\\overline{BC}=4(\\sqrt{3}+1)$$\n(3) $$\\triangle ABC$$ 為鈍角三角形\n(4) $$\\triangle ABC$$ 之外接圓半徑為 $$4\\sqrt{2}$$\n(5) $$\\triangle ABC$$ 之外接圓面積為 $$32\\pi$$',
+    answer: '(1)(2)(3)(4)(5)',
+    hasImage: true,
+  },
+  {
+    id: '17a24e3eecd',
+    chapter: '三角比',
+    question: '求 $$\\sin870^\\circ+\\sin^2(-105^\\circ)+\\cos^2105^\\circ-\\tan540^\\circ$$',
+    answer: '$$\\frac{3}{2}$$',
+    hasImage: false,
+  },
+  {
+    id: '17a24e58da9',
+    chapter: '三角比',
+    question:
+      '$$\\triangle ABC$$ 中，$$\\overline{AB}=1$$，$$\\overline{BC}=\\sqrt{3}$$，$$\\overline{AC}=\\sqrt{7}$$，求 $$\\triangle ABC$$ 最大的內角度數。',
+    answer: '$$150^\\circ$$',
+    hasImage: false,
+  },
+  {
+    id: '17a24e6d768',
+    chapter: '三角比',
+    question: '如圖，$$ABCD$$ 為一等腰梯形，試求 $$\\cos\\angle BAD$$。',
+    answer: '$$-\\frac{2}{5}$$',
+    hasImage: true,
+  },
+  {
+    id: '17a24e7a289',
+    chapter: '三角比',
+    question:
+      '在極坐標中，$$A$$、$$B$$ 兩點的坐標分別為 $$A[2,34^\\circ]$$，$$B[5,154^\\circ]$$，求 $$\\overline{AB}$$。',
+    answer: '$$\\sqrt{39}$$',
+    hasImage: false,
+  },
+  {
+    id: '17a24e8a188',
+    chapter: '三角比',
+    question:
+      '已知 $$270^\\circ<\\theta<360^\\circ$$，且 $$\\sin\\theta=-\\frac{1}{3}$$，求 $$\\cos\\theta+\\sin(270^\\circ-\\theta)+\\tan(180^\\circ+\\theta)$$。',
+    answer: '$$-\\frac{\\sqrt{2}}{4}$$',
+    hasImage: false,
+  },
+  {
+    id: '17a24eb0dfb',
+    chapter: '三角比',
+    question:
+      '四邊形 $$ABCD$$ 中，已知 $$\\overline{AB}=2$$，$$\\overline{BC}=7$$，$$\\overline{CD}=5$$，$$\\overline{BD}=6$$，$$\\angle ABD=30^\\circ$$，求此四邊形面積。',
+    answer: '$$3+6\\sqrt{6}$$',
+    hasImage: false,
+  },
 ];

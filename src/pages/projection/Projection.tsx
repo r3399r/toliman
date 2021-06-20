@@ -5,8 +5,8 @@ import { getQuestion } from 'src/services/questionService';
 import style from './Projection.module.scss';
 
 const Projection = () => {
-  const num: string = 'p.52 範例15';
-  const id: string = '179de86f46f';
+  const num: string = 'hw1';
+  const id: string = '17a09173345';
   const q: Question | undefined = getQuestion(id);
 
   if (q === undefined) return <div className={style.content}>Question Not Found</div>;

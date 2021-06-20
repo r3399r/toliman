@@ -34,7 +34,7 @@ const Numbers = () => {
         <div className={style.conceptHead}>雙重根式化簡</div>
         <Textarea2MathJax
           text={
-            '若 $$a\\ge b\\le0$$，\n(1) $$\\sqrt{(a+b)+2\\sqrt{ab}}=$$\n(2) $$\\sqrt{(a+b)-2\\sqrt{ab}}=$$'
+            '若 $$a\\ge b\\ge0$$，\n(1) $$\\sqrt{(a+b)+2\\sqrt{ab}}=$$\n(2) $$\\sqrt{(a+b)-2\\sqrt{ab}}=$$'
           }
         />
       </Concept>
