@@ -4600,7 +4600,7 @@ export const bank: Question[] = [
     id: '17a0df3d2da',
     chapter: '數與式',
     question:
-      '點 $$P(x)$$ 在 $$A(5)$$、$$B(11)$$ 之間，且 $$\\overline{AP}:\\overline{PB}=\\sqrt{3}:\\sqrt{2}$$，則 $$x=a+b\\sqrt{6}$$，其中 $$a,b\\in\\mathbb{Z}$$，求 $$a$$、$$b$$。\n。',
+      '點 $$P(x)$$ 在 $$A(5)$$、$$B(11)$$ 之間，且 $$\\overline{AP}:\\overline{PB}=\\sqrt{3}:\\sqrt{2}$$，則 $$x=a+b\\sqrt{6}$$，其中 $$a,b\\in\\mathbb{Z}$$，求 $$a$$、$$b$$。',
     answer: '$$a=23$$；$$b=-6$$',
     hasImage: false,
   },
@@ -4901,7 +4901,7 @@ export const bank: Question[] = [
     id: '17a181b5061',
     chapter: '多項式函數',
     question:
-      '設 $$a$$ 為整數，下列哪一個選項的一次式，有可能是 $$f(x)=2x^3+ax^2-2ax+a$$ 的因式？\n(1) $$x+1$$ (2) $$x-1$$ (3) $$x+2$$ (4) $$x-2$$',
+      '設 $$a\\in\\mathbb{Z}$$，下列哪一個選項的一次式，有可能是 $$f(x)=2x^3+ax^2-2ax+a$$ 的因式？\n(1) $$x+1$$ (2) $$x-1$$ (3) $$x+2$$ (4) $$x-2$$',
     answer: '(4)',
     hasImage: false,
   },
@@ -4969,7 +4969,7 @@ export const bank: Question[] = [
     id: '17a19abbcc7',
     chapter: '多項式函數',
     question:
-      '$$a\\neq0$$，若 $$f(x)=a(x-9)^3+b(x-9)+7$$ 的圖形與圓 $$(x-9)^2+(y-7)^2=r^2$$ 恰有兩個交點，其中一個交點的坐標是 $$(20,15)$$，求另一個交點的坐標。',
+      '$$a\\neq0$$，$$f(x)=a(x-9)^3+b(x-9)+7$$ 的圖形與圓 $$(x-9)^2+(y-7)^2=r^2$$ 恰有兩個交點，其中一個交點的坐標是 $$(20,15)$$，求另一個交點的坐標。',
     answer: '$$(-2,-1)$$',
     hasImage: false,
   },
@@ -4991,7 +4991,7 @@ export const bank: Question[] = [
     id: '17a19c2b55e',
     chapter: '多項式函數',
     question:
-      '多項式 $$f(x)$$ 除以 $$x^2-2x-3$$ 的餘式為 $$x+5$$，則下列關於 $$f(x)$$ 的除法，哪些正確？\n(1) 除以 $$x+1$$ 的餘式必為 $$4$$\n(2) 除以 $$x+3$$ 的餘式必為 $$8$$\n(3) 除以 $$x^2+3x+2$$ 的餘式可能為 $$3x+7$$\n(4) 除以 $$x^2-x-6$$ 的餘式可能為 $$2x+3$$\n(5) 除以 $$(x+1)(x-3)(x+2)$$ 的餘式可能為 $$2x^2-3x-1$$',
+      '多項式 $$f(x)$$ 除以 $$x^2-2x-3$$ 的餘式為 $$x+5$$，則關於 $$f(x)$$ 的除法，哪些正確？\n(1) 除以 $$x+1$$ 的餘式必為 $$4$$\n(2) 除以 $$x+3$$ 的餘式必為 $$8$$\n(3) 除以 $$x^2+3x+2$$ 的餘式可能為 $$3x+7$$\n(4) 除以 $$x^2-x-6$$ 的餘式可能為 $$2x+3$$\n(5) 除以 $$(x+1)(x-3)(x+2)$$ 的餘式可能為 $$2x^2-3x-1$$',
     answer: '(1)(3)(5)',
     hasImage: false,
   },
@@ -5054,7 +5054,7 @@ export const bank: Question[] = [
     id: '17a1b0d869e',
     chapter: '多項式函數',
     question:
-      '設二次實係數多項式函數 $$f(x)=ax^2+2ax+b$$ 在區間 $$-1\\le x\\le1$$ 上的最大值為 $$7$$、最小值為 $$3$$，求數對 $$(a,b)$$。',
+      '設二次實係數多項式函數 $$f(x)=ax^2+2ax+b$$ 在區間 $$-1\\le x\\le1$$ 的最大值為 $$7$$、最小值為 $$3$$，求數對 $$(a,b)$$。',
     answer: '$$(1,4)$$ 或 $$(-1,6)$$',
     hasImage: false,
   },
@@ -5384,6 +5384,369 @@ export const bank: Question[] = [
     question:
       '四邊形 $$ABCD$$ 中，已知 $$\\overline{AB}=2$$，$$\\overline{BC}=7$$，$$\\overline{CD}=5$$，$$\\overline{BD}=6$$，$$\\angle ABD=30^\\circ$$，求此四邊形面積。',
     answer: '$$3+6\\sqrt{6}$$',
+    hasImage: false,
+  },
+  {
+    id: '17a2d6163e4',
+    chapter: '多項式函數',
+    question:
+      '設 $$a,b,c\\in\\mathbb{R}$$，若二次函數 $$f(x)=ax^2+bx+c$$ 的圖形通過 $$(0,-1)$$ 且與 $$x$$ 軸相切，則下列哪些正確？\n(1) $$a<0$$ (2) $$b>0$$ (3) $$c=-1$$\n(4) $$b^2+4ac=0$$ (5) $$a+b+c\\le0$$',
+    answer: '(1)(3)(5)',
+    hasImage: false,
+  },
+  {
+    id: '17a2d6ebedf',
+    chapter: '多項式函數',
+    question: '函數 $$y=ax+b$$ 與 $$y=ax^2+bx+c$$ 在同一坐標系的圖形可能為下列哪些？',
+    answer: '(2)(4)',
+    hasImage: true,
+  },
+  {
+    id: '17a2d790e42',
+    chapter: '多項式函數',
+    question:
+      '設 $$a,b\\in\\mathbb{R}$$，已知坐標平面上拋物線 $$y=x^2+ax+b$$ 與 $$x$$ 軸交於 $$P$$，$$Q$$ 兩點，且 $$\\overline{PQ}=7$$，若拋物線 $$y=x^2+ax+(b+2)$$ 與 $$x$$ 軸的兩交點為 $$R$$，$$S$$，求 $$\\overline{RS}$$。',
+    answer: '$$\\sqrt{41}$$',
+    hasImage: false,
+  },
+  {
+    id: '17a2da48070',
+    chapter: '多項式函數',
+    question:
+      '設 $$a,b\\in\\mathbb{R}$$，若 $$y=x^2+ax+b$$ 的圖形被 $$x$$ 軸所截的弦長為 $$6$$，則此圖形沿 $$y$$ 軸正向平移 $$k$$ 後恰與 $$x$$ 軸相切，求 $$k$$。',
+    answer: '$$9$$',
+    hasImage: false,
+  },
+  {
+    id: '17a2da5fdc6',
+    chapter: '多項式函數',
+    question:
+      '設 $$m\\in\\mathbb{R}$$，二次函數 $$y=mx^2+x+(m+1)$$ 的圖形恆在直線 $$3x+2y=1$$ 的上方，求 $$m$$ 的範圍。',
+    answer: '$$m>\\frac{-1+\\sqrt{26}}{4}$$',
+    hasImage: false,
+  },
+  {
+    id: '17a2db03ab8',
+    chapter: '多項式函數',
+    question:
+      '二次函數 $$f(x)=ax^2+bx+c$$，已知 $$f(2)=4$$，$$f(5)=1$$，且 $$y=f(x)$$ 的函數值恆為正數，求二次項係數 $$a$$ 的範圍。',
+    answer: '$$\\frac{1}{9}<a<1$$',
+    hasImage: false,
+  },
+  {
+    id: '17a2db390e3',
+    chapter: '多項式函數',
+    question:
+      '設 $$a,b\\in\\mathbb{R}$$ 且 $$\\begin{cases}x^2-5x+a<0\\\\x^2+3x+b<0\\end{cases}$$ 的解為 $$1<x<2$$，求數對 $$(a,b)$$。',
+    answer: '$$(4,-10)$$',
+    hasImage: false,
+  },
+  {
+    id: '17a2db5f497',
+    chapter: '多項式函數',
+    question:
+      '$$f(x)$$ 為三次多項式，若 $$f(x)>0$$ 的解為 $$2<x<5$$ 或 $$x>6$$，$$f(x)>12$$ 的解為 $$x>8$$，求 $$f(0)$$。\n',
+    answer: '$$-20$$',
+    hasImage: false,
+  },
+  {
+    id: '17a2db8d3e7',
+    chapter: '多項式函數',
+    question:
+      '不等式 $$x^2(x+5)(x+1)(x-4)(x-7)<$$$$(2x-3)(x+5)(x+1)(x-4)(x-7)$$，下列哪些選項是它的一個解？\n(1) $$-2\\pi$$ (2) $$-\\pi$$ (3) $$\\pi$$ (4) $$2\\pi$$',
+    answer: '(2)(4)',
+    hasImage: false,
+  },
+  {
+    id: '17a2dbb5a10',
+    chapter: '多項式函數',
+    question: '求 $$(x^2-4x+2)(2x-5)(2x-37)\\le0$$ 的整數解個數。',
+    answer: '$$17$$',
+    hasImage: false,
+  },
+  {
+    id: '17a2dd2d0b1',
+    chapter: '直線與圓',
+    question:
+      '坐標平面上有正五邊形 $$ABCDE$$，如圖。五個邊長中何者的斜率最大？何者的斜率最小？\n(1) $$\\overline{AB}$$ (2) $$\\overline{BC}$$ (3) $$\\overline{CD}$$ (4) $$\\overline{DE}$$ (5) $$\\overline{EA}$$',
+    answer: '(3)；(1)',
+    hasImage: true,
+  },
+  {
+    id: '17a2dd465e2',
+    chapter: '直線與圓',
+    question: '已知 $$\\overline{AB}$$ 斜率為 $$2$$，若 $$A(3,7)$$、$$B(-1,x)$$，求 $$x$$。',
+    answer: '$$-1$$',
+    hasImage: false,
+  },
+  {
+    id: '17a2dd59cf5',
+    chapter: '直線與圓',
+    question:
+      '由 $$A$$ 向右移 $$5$$，再向上移 $$y$$ 到達 $$B$$ 點，若 $$\\overline{AB}$$ 的斜率為 $$2$$，求 $$y$$。',
+    answer: '$$10$$',
+    hasImage: false,
+  },
+  {
+    id: '17a2dd669cd',
+    chapter: '直線與圓',
+    question: '設直線方程式 $$kx+(k-6)y=1$$ 的斜率為 $$2$$，求 $$k$$。',
+    answer: '$$4$$',
+    hasImage: false,
+  },
+  {
+    id: '17a348a3b3e',
+    chapter: '直線與圓',
+    question:
+      '三點 $$P(1,a)$$，$$Q(2,a+3)$$，$$R(-1,5)$$，若：\n(1) 在同一直線上，求 $$a$$。 (2) $$\\angle PQR=90^\\circ$$，求 $$a$$。',
+    answer: '(1) $$11$$ (2) $$1$$',
+    hasImage: false,
+  },
+  {
+    id: '17a34943d7f',
+    chapter: '直線與圓',
+    question: '已知 $$A(3,4)$$，$$B(-5,2)$$，求 $$\\overleftrightarrow{AB}$$ 方程式。',
+    answer: '$$x-4y=-13$$',
+    hasImage: false,
+  },
+  {
+    id: '17a3495873a',
+    chapter: '直線與圓',
+    question:
+      '坐標平面上直線 $$L$$ 與 $$x$$ 軸交於 $$(-k,0)$$，與 $$y$$ 軸交於 $$(0,2k)$$，且點 $$(9,8)$$ 在 $$L$$ 上，求 $$k$$。',
+    answer: '$$-5$$',
+    hasImage: false,
+  },
+  {
+    id: '17a349b3a65',
+    chapter: '直線與圓',
+    question:
+      '平面上直線 $$L:2x+6y=4$$，請問下列哪一個選項的直線與 $$L$$ 相平行？哪一個選項的直線與 $$L$$ 相垂直？\n(1) $$3x-9y=1$$ (2) $$3x-y=1$$ (3) $$x+3y=1$$ (4) $$3x+9y=6$$',
+    answer: '(3)；(2)',
+    hasImage: false,
+  },
+  {
+    id: '17a34a1e673',
+    chapter: '直線與圓',
+    question: '點 $$(2,k)$$ 到直線 $$3x-4y=1$$ 的距離為 $$3$$，求 $$k$$。',
+    answer: '$$5$$ 或 $$-\\frac{5}{2}$$',
+    hasImage: false,
+  },
+  {
+    id: '17a34a4c710',
+    chapter: '直線與圓',
+    question: '求坐標平面上兩平行線 $$L_1:5x+12y=3$$ 與 $$L_2:10x+24y=17$$ 的距離。',
+    answer: '$$\\frac{11}{26}$$',
+    hasImage: false,
+  },
+  {
+    id: '17a34abb772',
+    chapter: '直線與圓',
+    question:
+      '不等式 $$ax+by\\ge c$$ 的圖形為下列哪一個選項，可使實數 $$a$$、$$b$$、$$c$$ 均小於 $$0$$？',
+    answer: '(2)',
+    hasImage: true,
+  },
+  {
+    id: '17a36690e96',
+    chapter: '直線與圓',
+    question: '求圓心 $$(1,-3)$$ 且半徑為 $$4$$ 的圓方程式。',
+    answer: '$$(x-1)^2(+y+3)^2=16$$',
+    hasImage: false,
+  },
+  {
+    id: '17a366ab9d9',
+    chapter: '直線與圓',
+    question: '$$x^2+pxy+qy^2+4x-6y-5=0$$ 為圓，求 $$p$$、$$q$$、圓心、半徑。',
+    answer: '$$0$$；$$1$$；$$(-2,3)$$；$$3\\sqrt{2}$$',
+    hasImage: false,
+  },
+  {
+    id: '17a3671805f',
+    chapter: '直線與圓',
+    question: '直線 $$L:3x+5y=1$$ 向右平移 $$4$$ 單位再向上平移 $$7$$ 單位，求所成圖形的方程式。',
+    answer: '$$3x+5y=-22$$',
+    hasImage: false,
+  },
+  {
+    id: '17a36731378',
+    chapter: '直線與圓',
+    question:
+      '圓 $$x^2+y^2-6x+4y+1=0$$ 向左移 $$h$$ 單位再向上移 $$k$$ 單位，所成圖形的方程式為 $$x^2+y^2+2x-10y+p=0$$，求序組 $$(h,k,p)$$。',
+    answer: '$$(4,7,14)$$',
+    hasImage: false,
+  },
+  {
+    id: '17a3677e6c4',
+    chapter: '直線與圓',
+    question: '若點 $$(a,-a)$$ 在圓 $$x^2+y^2+3x=0$$ 的內部，求 $$a$$ 的範圍。',
+    answer: '$$-\\frac{3}{2}<a<0$$',
+    hasImage: false,
+  },
+  {
+    id: '17a3678cae7',
+    chapter: '直線與圓',
+    question: '滿足 $$4\\le x^2+y^2\\le10$$ 的點 $$(x,y)$$ 所成區域面積為？',
+    answer: '$$6\\pi$$',
+    hasImage: false,
+  },
+  {
+    id: '17a367d7b20',
+    chapter: '直線與圓',
+    question: '若圓 $$x^2+y^2+kx-3ky+k+4=0$$ 與直線 $$x-y=0$$ 不相交，求 $$k$$ 的範圍。',
+    answer: '$$-2<k<4$$',
+    hasImage: false,
+  },
+  {
+    id: '17a367e6585',
+    chapter: '直線與圓',
+    question: '若圓 $$x^2+y^2=9$$ 與直線 $$3x+4y=k$$ 相切，求 $$k$$。',
+    answer: '$$\\pm15$$',
+    hasImage: false,
+  },
+  {
+    id: '17a36834824',
+    chapter: '直線與圓',
+    question: '點 $$A(7,-2)$$ 對圓 $$(x-3)^2+(y+4)^2=5$$ 所作的切線段長度為？',
+    answer: '$$\\sqrt{15}$$',
+    hasImage: false,
+  },
+  {
+    id: '17a36848471',
+    chapter: '直線與圓',
+    question: '點 $$A(3,1)$$ 對圓 $$(x+2)^2+(y-5)^2=41$$ 上，求過 $$A$$ 點且與圓相切的切線方程式',
+    answer: '$$5x-4y=11$$',
+    hasImage: false,
+  },
+  {
+    id: '17a3872be1f',
+    chapter: '數列級數',
+    question:
+      '等差數列 $$\\langle a_n\\rangle$$，若 $$a_3=100$$，$$a_{10}=79$$，求首項、前 $$20$$ 項之和。',
+    answer: '$$106$$；$$1550$$',
+    hasImage: false,
+  },
+  {
+    id: '17a3878a91c',
+    chapter: '數列級數',
+    question:
+      '某巨蛋球場 $$E$$ 區共有 $$25$$ 排座位，此區每一排都比其前一排多 $$2$$ 個座位。小明坐在正中間那一排(即第 $$13$$ 排)，發現此排共有 $$64$$ 個座位，求此球場 $$E$$ 區的總座位數？',
+    answer: '$$1600$$',
+    hasImage: false,
+  },
+  {
+    id: '17a38ef2658',
+    chapter: '數列級數',
+    question:
+      '等比數列 $$\\langle a_n\\rangle=1,6,36,216,\\cdots$$，從第幾項開始會超過 $$10^{10}$$？($$\\log_2\\approx0.3010$$，$$\\log_3\\approx0.4771$$)',
+    answer: '$$14$$',
+    hasImage: false,
+  },
+  {
+    id: '17a38f133a4',
+    chapter: '數列級數',
+    question: '等比級數 $$\\frac{1}{16}+\\frac{1}{8}+\\frac{1}{4}+\\cdots+512$$ 共有幾項？其和為？',
+    answer: '$$14$$、$$1023\\frac{15}{16}$$',
+    hasImage: false,
+  },
+  {
+    id: '17a38f954aa',
+    chapter: '數列級數',
+    question: '某人存入銀行 $$10000$$ 元，年利率 $$4\\%$$，半年計息，以單利計息，求滿一年本利和。',
+    answer: '$$10400$$ 元',
+    hasImage: false,
+  },
+  {
+    id: '17a38fa110e',
+    chapter: '數列級數',
+    question: '某人存入銀行 $$10000$$ 元，年利率 $$4\\%$$，半年計息，以複利計息，求滿一年本利和。',
+    answer: '$$10404$$ 元',
+    hasImage: false,
+  },
+  {
+    id: '17a38ffc8f0',
+    chapter: '數列級數',
+    question:
+      '(1) 求 $$1+2+3+\\cdots+24=$$\n(2) 求 $$1^2+2^2+3^2+\\cdots+24^2=$$\n(3) 求 $$1^3+2^3+3^3+\\cdots+24^3=$$',
+    answer: '(1) $$300$$ (2) $$4900$$ (3) $$90000$$',
+    hasImage: false,
+  },
+  {
+    id: '17a39013d19',
+    chapter: '數列級數',
+    question: '求 $$11^3+12^3+13^3+\\cdots+20^3=$$',
+    answer: '$$41075$$',
+    hasImage: false,
+  },
+  {
+    id: '17a39109975',
+    chapter: '數列級數',
+    question:
+      '下列各選項的遞迴關係式，哪一個所得的 $$\\langle a_n\\rangle$$ 為等差？哪一個所得的 $$\\langle a_n\\rangle$$ 為等比？\n(1) $$a_{n+1}=a_n+n$$ (2) $$a_{n+1}=3a_n$$\n(3) $$a_{n+1}=a_n+5$$ (4) $$a_{n+1}=\\frac{a_n}{n}$$\n(5) $$a_{n+1}=2a_n+3$$',
+    answer: '(3)；(2)',
+    hasImage: false,
+  },
+  {
+    id: '17a3912f008',
+    chapter: '數列級數',
+    question:
+      '數列 $$\\langle a_n\\rangle$$ 滿足 $$a_1=\\frac{1}{7}$$，若 $$n\\ge1$$，則 $$a_{n+1}=\\frac{7}{2}a_n(1-a_n)$$，求 $$a_{100}$$。',
+    answer: '$$\\frac{3}{7}$$',
+    hasImage: false,
+  },
+  {
+    id: '17a393dba9d',
+    chapter: '數據分析',
+    question:
+      '正數 $$a$$ 與 $$b$$ 的算術平均數為 $$37$$，幾何平均數為 $$24$$；正數 $$c$$、$$d$$、$$e$$、$$f$$ 的算術平均數為 $$13$$，幾何平均數為 $$3$$，求 $$a$$、$$b$$、$$c$$、$$d$$、$$e$$、$$f$$ 的算術平均數及幾何平均數。',
+    answer: '$$21$$；$$6$$',
+    hasImage: false,
+  },
+  {
+    id: '17a393f79d8',
+    chapter: '數據分析',
+    question:
+      '有 $$5$$ 個數值：$$21$$、$$30$$、$$31$$、$$40$$、$$52$$，其權數依序為 $$1$$、$$1$$、$$2$$、$$3$$、$$3$$，求加權平均數。',
+    answer: '$$38.9$$',
+    hasImage: false,
+  },
+  {
+    id: '17a3a063f85',
+    chapter: '數據分析',
+    question:
+      '由小而大的 $$16$$ 個數值 $$1$$，$$2$$，$$4$$，$$5$$，$$7$$，$$8$$，$$10$$，$$11$$，$$13$$，$$14$$，$$16$$，$$17$$，$$19$$，$$20$$，$$22$$，$$23$$，試求：(1) 第 $$40$$ 百分位數 (2) 第 $$3$$ 四分位數',
+    answer: '(1) $$10$$ (2) $$18$$',
+    hasImage: false,
+  },
+  {
+    id: '17a3a0f0062',
+    chapter: '數據分析',
+    question: '試求五個數值 $$2$$，$$4$$，$$6$$，$$8$$，$$10$$ 的標準差。',
+    answer: '$$2\\sqrt{2}$$',
+    hasImage: false,
+  },
+  {
+    id: '17a3a11a2cb',
+    chapter: '數據分析',
+    question:
+      '下列五組資料，哪一組的標準差最大？哪一組的標準差最小？\n$$A:1$$，$$1$$，$$1$$，$$1$$，$$1$$，$$10$$，$$10$$，$$10$$，$$10$$，$$10$$\n$$B:1$$，$$1$$，$$1$$，$$1$$，$$1$$，$$5$$，$$5$$，$$5$$，$$5$$，$$5$$\n$$C:4$$，$$4$$，$$4$$，$$5$$，$$5$$，$$5$$，$$5$$，$$6$$，$$6$$，$$6$$\n$$D:1$$，$$1$$，$$2$$，$$2$$，$$3$$，$$3$$，$$4$$，$$4$$，$$5$$，$$5$$\n$$E:1$$，$$2$$，$$3$$，$$4$$，$$5$$，$$6$$，$$7$$，$$8$$，$$9$$，$$10$$',
+    answer: '$$A$$；$$C$$',
+    hasImage: false,
+  },
+  {
+    id: '17a3a18212b',
+    chapter: '數據分析',
+    question:
+      '$$a$$、$$b$$、$$c$$、$$d$$ 的算術平均數為 $$5$$，標準差為 $$8$$，求 $$1-4a$$、$$1-4b$$、$$1-4c$$、$$1-4d$$ 的算術平均數及標準差。',
+    answer: '$$-19$$；$$32$$',
+    hasImage: false,
+  },
+  {
+    id: '17a3a1a6f8e',
+    chapter: '數據分析',
+    question:
+      '某班數學老師算出學生學期成績後，鑑於學生平時都很用功，決定每人各加 $$5$$ 分(加分後沒人超過滿分)，則加分前與加分後，成績統計數值絕對不會改變的有：\n(1) 算術平均數 (2) 中位數\n(3) 標準差 (4) 全距 (5) 四分位距',
+    answer: '(3)(4)(5)',
     hasImage: false,
   },
 ];

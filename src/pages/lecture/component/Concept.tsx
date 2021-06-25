@@ -5,15 +5,18 @@ type Props = {
   title: string;
   children: ReactNode;
   num?: number;
+  height?: string;
 };
 
-const Concept = ({ title, children, num }: Props) => {
+const Concept = ({ title, children, num, height }: Props) => {
   return (
     <div className={style.content}>
       <div className={style.title}>
         觀念 {num} {title}
       </div>
-      <div className={style.card}>{children}</div>
+      <div className={style.card} style={{ height }}>
+        {children}
+      </div>
     </div>
   );
 };

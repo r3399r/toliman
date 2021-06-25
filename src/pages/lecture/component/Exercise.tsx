@@ -6,9 +6,10 @@ import style from './Exercise.module.scss';
 
 type Props = {
   ids: string[];
+  height?: string;
 };
 
-const Exercise = ({ ids }: Props) => {
+const Exercise = ({ ids, height = '6cm' }: Props) => {
   const questions: Question[] = getQuestions(ids);
 
   return (
@@ -22,8 +23,17 @@ const Exercise = ({ ids }: Props) => {
               [style.left]: i % 2 === 0,
               [style.odd]: questions.length === 1,
             })}
+            style={{ height }}
           >
             <Textarea2MathJax text={question.question} />
+            {question.hasImage && (
+              <img
+                className={style.img}
+                alt=""
+                src={`/toliman/images/${question.id}.PNG`}
+                role="presentation"
+              />
+            )}
           </div>
         ))}
         {questions.length > 1 && questions.length % 2 === 1 && <div className={style.card} />}

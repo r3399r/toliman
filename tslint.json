@@ -27,10 +27,10 @@
     "newline-before-return": true,
     "no-console": [true, "log"],
     "no-relative-imports": [true, "allow-siblings"],
+    "no-suspicious-comment": false,
     "no-var-requires": false,
     "object-literal-key-quotes": [true, "as-needed"],
     "ordered-imports": true,
-    // "quotemark": [true, "single", "jsx-double"],
     "react-a11y-input-elements": false,
     "semicolon": [true, "always"],
     "typedef": [

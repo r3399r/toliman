@@ -31,6 +31,21 @@ const Lecture = () => {
       <div className={style.button}>
         <Button onClick={onClick('B1C2')}>Ch2 多項式</Button>
       </div>
+      <div className={style.button}>
+        <Button onClick={onClick('B1C3')}>Ch3 直線與圓</Button>
+      </div>
+      <div className={style.button}>
+        <Button onClick={onClick('B1C4')}>Ch4 數列級數</Button>
+      </div>
+      <div className={style.button}>
+        <Button onClick={onClick('B1C5')}>Ch5 數據分析</Button>
+      </div>
+      <div className={style.button}>
+        <Button onClick={onClick('B1C6')}>Ch6 排列組合與機率</Button>
+      </div>
+      <div className={style.button}>
+        <Button onClick={onClick('B1C7')}>Ch7 三角比</Button>
+      </div>
     </div>
   );
 };

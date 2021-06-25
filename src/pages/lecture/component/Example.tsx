@@ -23,15 +23,8 @@ const Example = ({ num, ids }: Props) => {
       <div className={style.block}>
         <div className={style.card}>
           <div key={questions[0].id}>
-            {questions[0].hasImage === true && (
-              <img
-                className={style.img}
-                src={`/toliman/images/${questions[0].id}.PNG`}
-                alt=""
-                role="presentation"
-              />
-            )}
             <Textarea2MathJax text={questions[0].question} />
+            <Textarea2MathJax text={`Ans: ${questions[0].answer}`} className={style.ans} />
             {questions[0].hasImage === true && (
               <img
                 className={style.img}
@@ -46,6 +39,8 @@ const Example = ({ num, ids }: Props) => {
       <div className={classNames(style.block, style.right)}>
         <div className={style.card}>
           <div key={questions[1].id}>
+            <Textarea2MathJax text={questions[1].question} />
+            <Textarea2MathJax text={`Ans: ${questions[1].answer}`} className={style.ans} />
             {questions[1].hasImage === true && (
               <img
                 className={style.img}
@@ -54,8 +49,6 @@ const Example = ({ num, ids }: Props) => {
                 role="presentation"
               />
             )}
-            <Textarea2MathJax text={questions[1].question} />
-            <Textarea2MathJax text={`Ans: ${questions[1].answer}`} className={style.ans} />
           </div>
         </div>
       </div>

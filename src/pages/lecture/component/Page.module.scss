@@ -1,0 +1,23 @@
+.page {
+  height: 27.1cm;
+  padding: 1.2cm 0;
+  page-break-after: always;
+  position: relative;
+  // border: 1px solid black; //
+
+  .pageNum {
+    position: absolute;
+    bottom: 1.2cm;
+    border: 1px solid black;
+    border-radius: 8px;
+    padding: 3px;
+    min-width: 0.8cm;
+    text-align: center;
+  }
+  .right {
+    right: 1.2cm;
+  }
+  .left {
+    left: 1.2cm;
+  }
+}
