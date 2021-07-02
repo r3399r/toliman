@@ -6,14 +6,14 @@ import style from './Projection.module.scss';
 
 const Projection = () => {
   const num: string = 'hw1';
-  const id: string = '17a09173345';
+  const id: string = '179de81f990';
   const q: Question | undefined = getQuestion(id);
 
   if (q === undefined) return <div className={style.content}>Question Not Found</div>;
 
   return (
     <div className={style.content}>
-      <div className={classNames(style.num, style.font)}>{num}</div>
+      {/* <div className={classNames(style.num, style.font)}>{num}</div> */}
       {q.hasImage === true && (
         <img className={style.img} src={`/toliman/images/${q.id}.PNG`} alt="" role="presentation" />
       )}

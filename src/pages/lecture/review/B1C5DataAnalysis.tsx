@@ -74,8 +74,44 @@ const B1C5DataAnalysis = () => {
         />
       </Concept>
       <Exercise ids={['17a3a18212b', '17a3a1a6f8e']} />
-      <Example num={1} ids={['17a19c2b55e', '17a1ad46bf7']} />
-      <Example num={2} ids={['17a1adcc0ed', '17a1ade3264']} />
+      <Concept num={5} title="資料的標準化">
+        <Textarea2MathJax
+          text={
+            '一維數據 $$x_1$$，$$x_2$$，$$\\cdots$$，$$x_n$$ 的算術平均為 $$\\mu$$，標準差為 $$\\sigma$$，若 $$\\sigma\\neq0$$，則先同減 $$\\mu$$ 再同除以 $$\\sigma$$ 得 $$\\frac{x_1-\\mu}{\\sigma}$$，$$\\frac{x_2-\\mu}{\\sigma}$$，$$\\cdots$$，$$\\frac{x_n-\\mu}{\\sigma}$$，即為標準化數據。可用來客觀比較不同種類的數據排名。標準化後的算術平均數必為 $$0$$，標準差必為 $$1$$。'
+          }
+        />
+      </Concept>
+      <Exercise ids={['17a58e8ba61', '17a58ea29ec']} />
+      <Concept num={6} title="相關係數">
+        <Textarea2MathJax
+          text={
+            '$$n$$ 筆數對資料 $$(x_1,y_1)$$、$$(x_2,y_2)$$、$$\\cdots$$、$$(x_n,y_n)$$，記為 $$(X,Y)$$\n$$x_1$$、$$x_2$$、$$\\cdots$$、$$x_n$$ 的算術平均為 $$\\mu_x$$，標準差為 $$\\sigma_x$$，離均平方和為 $$S_{xx}$$\n$$y_1$$、$$y_2$$、$$\\cdots$$、$$y_n$$ 的算術平均為 $$\\mu_y$$，標準差為 $$\\sigma_y$$，離均平方和為 $$S_{yy}$$\n$$X$$ 與 $$Y$$ 的離差乘積和為\n$$S_{xy}=(x_1-\\mu_x)(y_1-\\mu_y)+(x_2-\\mu_x)(y_2-\\mu_y)+\\cdots+(x_n-\\mu_x)(y_n-\\mu_y)$$\n$$=x_1y_1+x_2y_2+\\cdots+x_ny_n-n\\mu_x\\mu_y$$'
+          }
+        />
+        <Textarea2MathJax text="(1) $$X$$ 與 $$Y$$ 的相關係數為 $$r=\frac{S_{xy}}{\sqrt{S_{xx}}\sqrt{S_{yy}}}=\frac{S_{xy}}{n\sigma_x\sigma_y}" />
+        <Textarea2MathJax text={'(2) 相關係數 $$r$$ 的範圍為 $$-1\\le r\\le1$$'} />
+      </Concept>
+      <Exercise ids={['17a58f86582']} />
+      <Concept num={7} title="迴歸直線">
+        <Textarea2MathJax text="數對資料 $$(x_1,y_1)$$、$$(x_2,y_2)$$、$$\cdots$$、$$(x_n,y_n)$$，用最小平方法可求得 $$Y$$ 對 $$X$$ 的迴歸直線，又稱為最適直線，為 $$y=mx+k$$，其中 $$m=\frac{S_{xy}}{S_{xx}}=r\frac{\sigma_y}{\sigma_x}$$ 為其斜率，$$k$$ 可由代入 $$(\mu_x,\mu_y)$$ 得到。迴歸直線可用來進行預測分析。" />
+      </Concept>
+      <Exercise ids={['17a5901f440', '17a5903a862']} />
+      <Concept num={8} title="資料的加減乘除">
+        <Textarea2MathJax text="(1) 若全體 $$x_i$$ 同加 $$p$$，全體 $$y_i$$ 同加 $$q$$，則相關係數 $$r$$ 不變" />
+        <Textarea2MathJax text="(2) 若全體 $$x_i$$ 同乘 $$p$$，全體 $$y_i$$ 同乘 $$q$$，則相關係數 $$r$$ 不變或變號，即 $$r\times\frac{pq}{|pq|}" />
+      </Concept>
+      <Exercise ids={['17a5d030723', '17a5d04eb8b']} />
+      <Concept num={9} title="散布圖">
+        <Textarea2MathJax text="將 $$(x_1,y_1)$$、$$(x_2,y_2)$$、$$\cdots$$、$$(x_n,y_n)$$ 畫在 $$xy$$ 平面上，觀察分布狀況，可判定相關程度：" />
+        <Textarea2MathJax text="(1) 正相關：大致上 $$y$$ 隨著 $$x$$ 增加而增加" />
+        <Textarea2MathJax text="(2) 負相關：大致上 $$y$$ 隨著 $$x$$ 增加而減少" />
+        <Textarea2MathJax text="(3) 零相關：看不出 $$y$$ 隨著 $$x$$ 遞增或遞減，如圖形呈左右或上下對稱" />
+      </Concept>
+      <Exercise ids={['17a5d0c5ca2', '17a5d0e67c4']} />
+      <Example num={1} ids={['17a580aaf30', '17a580c7137']} />
+      <Example num={2} ids={['17a5811f5c8', '17a58136eaf']} />
+      <Example num={3} ids={['17a5fc9a59d', '17a5fbfa888']} />
+      <Example num={4} ids={['17a5fd1067d', '17a5fd46a57']} />
     </div>
   );
 };

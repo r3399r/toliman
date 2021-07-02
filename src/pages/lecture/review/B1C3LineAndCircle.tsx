@@ -1,13 +1,14 @@
 import Textarea2MathJax from 'src/component/Textarea2MathJax';
 import style from 'src/pages/lecture/Common.module.scss';
 import Concept from 'src/pages/lecture/component/Concept';
+import Example from 'src/pages/lecture/component/Example';
 import Exercise from 'src/pages/lecture/component/Exercise';
 import Page from 'src/pages/lecture/component/Page';
 
 const B1C3LineAndCircle = () => {
   return (
     <div>
-      <Page pageNum={14}>
+      <Page pageNum={22}>
         <div className={style.head}>Ch3 直線與圓</div>
         <Concept num={1} title="斜率" height="7.5cm">
           <Textarea2MathJax
@@ -36,7 +37,7 @@ const B1C3LineAndCircle = () => {
           height="6.5cm"
         />
       </Page>
-      <Page pageNum={15}>
+      <Page pageNum={23}>
         <Concept num={2} title="斜率的應用">
           <Textarea2MathJax
             text={
@@ -60,7 +61,7 @@ const B1C3LineAndCircle = () => {
         </Concept>
         <Exercise ids={['17a34943d7f', '17a3495873a']} height="7cm" />
       </Page>
-      <Page pageNum={16}>
+      <Page pageNum={24}>
         <Concept num={4} title="兩直線的關係">
           <Textarea2MathJax
             text={'平面上直線 $$L_1:a_1x+b_1y=c_1$$ 與 $$L_2:a_2x+b_2=c_2$$，則：'}
@@ -98,7 +99,7 @@ const B1C3LineAndCircle = () => {
           />
         </Concept>
       </Page>
-      <Page pageNum={17}>
+      <Page pageNum={25}>
         <Exercise ids={['17a34a1e673', '17a34a4c710']} />
         <Concept num={6} title="二元一次不等式">
           <Textarea2MathJax
@@ -109,7 +110,7 @@ const B1C3LineAndCircle = () => {
         </Concept>
         <Exercise ids={['17a34abb772']} />
       </Page>
-      <Page pageNum={18}>
+      <Page pageNum={26}>
         <Concept num={7} title="圓方程式">
           <Textarea2MathJax
             text={
@@ -118,7 +119,7 @@ const B1C3LineAndCircle = () => {
           />
           <Textarea2MathJax
             text={
-              '(2) 圓一般式：二元二次方程式 $$ax^2+bxy+cy^2+dx+ey+f=0$$ 的圖形若為平面上的圓，則必為 $$a=c$$ 且 $$b=0$$ 配方整理後可得標準式。其圖形可能退化成一點或無圖形。'
+              '(2) 圓一般式：二元二次方程式 $$ax^2+bxy+cy^2+dx+ey+f=0$$ 的圖形若為平面上的圓，則必為 $$a=c$$ 且 $$b=0$$ 配方整理後可得標準式，其圖形可能退化成一點或無圖形。'
             }
           />
         </Concept>
@@ -132,23 +133,22 @@ const B1C3LineAndCircle = () => {
         </Concept>
         <Exercise ids={['17a3671805f', '17a36731378']} height="7cm" />
       </Page>
-      <Page pageNum={19}>
+      <Page pageNum={27}>
         <Concept num={9} title="圓內與圓外">
           <Textarea2MathJax text={'已知圓方程式 $$(x-p)^2+(y-q)^2=r^2$$，則：'} />
           <Textarea2MathJax
             text={
-              '(1) 點 $$(a,b)$$ 在圓內 $$\\Leftrightarrow$$ 點 $$(a,b)$$ 與圓心 $$(p,q)$$ 的距離小於 $$r$$'
+              '(1) 點 $$(a,b)$$ 在圓內 $$\\Leftrightarrow$$ 點 $$(a,b)$$ 與圓心 $$(p,q)$$ 的距離　　$$r$$'
             }
           />
           <Textarea2MathJax
             text={
-              '(2) 點 $$(a,b)$$ 在圓外 $$\\Leftrightarrow$$ 點 $$(a,b)$$ 與圓心 $$(p,q)$$ 的距離大於 $$r$$'
+              '(2) 點 $$(a,b)$$ 在圓外 $$\\Leftrightarrow$$ 點 $$(a,b)$$ 與圓心 $$(p,q)$$ 的距離　　$$r$$'
             }
           />
         </Concept>
         <Exercise ids={['17a3677e6c4', '17a3678cae7']} height="6.5cm" />
         <Concept num={10} title="圓與直線的關係">
-          {/* TODO: 附圖 */}
           <Textarea2MathJax text={'設圓的半徑為 $$r$$，圓心到直線的距離為 $$d$$，則：'} />
           <Textarea2MathJax text={'(1) $$d<r \\Leftrightarrow$$ 直線與圓相交於兩點'} />
           <Textarea2MathJax text={'(2) $$d=r \\Leftrightarrow$$ 直線與圓相切於一點'} />
@@ -156,13 +156,33 @@ const B1C3LineAndCircle = () => {
         </Concept>
         <Exercise ids={['17a367d7b20', '17a367e6585']} height="6.5cm" />
       </Page>
-      <Page pageNum={20}>
+      <Page pageNum={28}>
         <Concept num={11} title="圓的切線段長與切線">
           <Textarea2MathJax
             text={'依題意作圖，由畢氏定理可得切線段長度、假設斜率 $$m$$ 可求得切線方程式。'}
           />
         </Concept>
         <Exercise ids={['17a36834824', '17a36848471']} />
+        <Example num={1} ids={['17a50c06452', '17a50c4a7d8']} height="13.2cm" />
+      </Page>
+      <Page pageNum={29}>
+        <Example num={2} ids={['17a50c8d3de', '17a50ca5eea']} />
+        <Example num={3} ids={['17a50d16805', '17a50d68e5a']} />
+      </Page>
+      <Page pageNum={30}>
+        <Example num={4} ids={['17a50d82b17', '17a50da2521']} />
+        <Example num={5} ids={['17a50dd5388', '17a50def853']} />
+      </Page>
+      <Page pageNum={31}>
+        <Example num={6} ids={['17a50e0e6da', '17a50e283b8']} />
+        <Example num={7} ids={['17a50e42825', '17a50e5b817']} />
+      </Page>
+      <Page pageNum={32}>
+        <Example num={8} ids={['17a50e7342d', '17a50e87ca3']} height="10cm" />
+        <Example num={9} ids={['17a50ebac7c', '17a50ee3140']} height="12cm" />
+      </Page>
+      <Page pageNum={33}>
+        <Example num={10} ids={['17a50f2d913', '17a50f44f2b']} height="23cm" />
       </Page>
     </div>
   );

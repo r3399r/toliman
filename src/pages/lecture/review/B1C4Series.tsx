@@ -1,6 +1,7 @@
 import Textarea2MathJax from 'src/component/Textarea2MathJax';
 import style from 'src/pages/lecture/Common.module.scss';
 import Concept from 'src/pages/lecture/component/Concept';
+import Example from 'src/pages/lecture/component/Example';
 import Exercise from 'src/pages/lecture/component/Exercise';
 
 const B1C4Series = () => {
@@ -56,6 +57,14 @@ const B1C4Series = () => {
           }
         />
       </Concept>
+      <Example num={1} ids={['17a55c297af', '17a55c5894d']} />
+      <Example num={2} ids={['17a55c7d6e2', '17a55ca2296']} />
+      <Example num={3} ids={['17a5605dcf4', '17a5606fee2']} />
+      <Example num={4} ids={['17a560a8bbc', '17a560b9cb2']} />
+      <Example num={5} ids={['17a560ec3d0', '17a5610d83d']} />
+      <Example num={6} ids={['17a57ce4c98', '17a57d3f244']} />
+      <Example num={7} ids={['17a57d7aeac', '17a57da7235']} />
+      <Example num={8} ids={['17a57e93260', '17a57ee10a7']} />
     </div>
   );
 };

@@ -6,23 +6,20 @@ import style from './Hw.module.scss';
 
 const Hw = () => {
   const ids: string[] = [
-    '17a20445a4b',
-    '17a20463ef2',
-    '17a2049be60',
-    '17a204ba275',
-    '17a204ca2ab',
-    '17a204db218',
-    '17a204fcdcb',
-    '17a2051a7ed',
-    '17a2053e759',
-    '17a2055075c',
-    '17a205692cf',
-    '17a20581f3b',
+    '17a0ef24961',
+    '17a0ef528bf',
+    '17a0efa578f',
+    '17a0efc748e',
+    '17a0f5dd109',
+    '17a0f616066',
+    '17a0f6382ae',
+    '17a0f66cd40',
+    '17a0f68d778',
+    '17a0f6a214a',
   ];
 
   return (
     <div className={style.content}>
-      <div className={style.title}>高一複習1. 數與式、指數對數、多項式</div>
       <GridWith2Col>
         {getQuestions(ids).map((q: Question, i: number) => {
           if (q === undefined) return <div key={`error${i}`}>ERROR! id at {i} does not exists</div>;

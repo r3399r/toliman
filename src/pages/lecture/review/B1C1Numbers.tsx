@@ -49,7 +49,7 @@ const B1C1Numbers = () => {
         <Concept num={5} title="雙重根號的化簡">
           <Textarea2MathJax
             text={
-              '設 $$a\\ge b\\ge0$$，\n$$\\sqrt{(a+b)+\\sqrt{ab}}=$$ \n$$\\sqrt{(a+b)-\\sqrt{ab}}=$$ '
+              '設 $$a\\ge b\\ge0$$，\n$$\\sqrt{(a+b)+2\\sqrt{ab}}=$$ \n$$\\sqrt{(a+b)-2\\sqrt{ab}}=$$ '
             }
           />
         </Concept>
@@ -79,7 +79,7 @@ const B1C1Numbers = () => {
         <Concept num={9} title="指數符號的定義">
           <Textarea2MathJax
             text={
-              '若 $$a\\ne0$$，則 $$a^0=1$$，$$a^{-n}=\\frac{1}{n}$$\n若 $$a>0$$ 可取分數次方，$$a^{\\frac{n}{m}}=\\sqrt[m]{n}$$，無理數次方可用逼近法估計'
+              '(1) 若 $$a\\ne0$$，則 $$a^0=$$　　　　　　　　$$a^{-n}=$$\n(2) 若 $$a>0$$ 可取分數次方，$$a^{\\frac{n}{m}}=\\sqrt[m]{n}$$，無理數次方可用逼近法估計'
             }
           />
         </Concept>
@@ -93,20 +93,26 @@ const B1C1Numbers = () => {
         <Concept num={11} title="常用對數" height="3.5cm">
           <Textarea2MathJax
             text={
-              '設 $$a$$ 為正實數，$$k$$ 為實數，滿足 $$10^k=a$$，則 $$k$$ 可記為 $$\\log a$$\n由符號互換可得：(1) $$10^{\\log a}=a$$ (2) $$\\log(10^k)=k$$\n操作計算機可知 $$\\log2\\approx0.3010$$，$$\\log3\\approx0.4771$$，即 $$10^{0.3010}\\approx2$$，$$10^{0.4771}\\approx3$$'
+              '設 $$a$$ 為正實數，$$k$$ 為實數，滿足 $$10^k=a$$，則 $$k$$ 可記為 $$\\log_{10}a=\\log a$$\n由符號互換可得：(1) $$10^{\\log a}=$$　　　　　　 (2) $$\\log(10^k)=$$\n操作計算機可知 $$\\log2\\approx0.3010$$，$$\\log3\\approx0.4771$$，即 $$10^{0.3010}\\approx2$$，$$10^{0.4771}\\approx3$$'
             }
           />
         </Concept>
         <Exercise ids={['17a0e4d25e0']} height="5cm" />
+        <Example num={1} ids={['17a0ef24961', '17a0ef528bf']} height="11.2cm" />
       </Page>
-      {/* <Example num={1} ids={['17a0ef24961', '17a0ef528bf']} />
-      <Example num={2} ids={['17a0efa578f', '17a0efc748e']} />
-      <Example num={3} ids={['17a0f5dd109', '17a0f616066']} />
-      <Example num={4} ids={['17a0f6382ae', '17a0f66cd40']} />
-      <Example num={5} ids={['17a0f68d778', '17a0f6a214a']} />
-      <Example num={6} ids={['17a0f6e35e5', '17a0f700535']} />
-      <Example num={7} ids={['17a0f72f269', '17a0f78f52f']} />
-      <Example num={8} ids={['17a0f7cb255', '17a0f7ed607']} /> */}
+      <Page pageNum={7}>
+        <Example num={2} ids={['17a0efa578f', '17a0efc748e']} height="11cm" />
+        <Example num={3} ids={['17a0f5dd109', '17a0f616066']} height="11cm" />
+      </Page>
+      <Page pageNum={8}>
+        <Example num={4} ids={['17a0f6382ae', '17a0f66cd40']} height="6.5cm" />
+        <Example num={5} ids={['17a0f68d778', '17a0f6a214a']} height="6.5cm" />
+        <Example num={6} ids={['17a0f6e35e5', '17a0f700535']} height="7.2cm" />
+      </Page>
+      <Page pageNum={9}>
+        <Example num={7} ids={['17a0f72f269', '17a0f78f52f']} height="11cm" />
+        <Example num={8} ids={['17a0f7cb255', '17a0f7ed607']} height="11cm" />
+      </Page>
     </div>
   );
 };

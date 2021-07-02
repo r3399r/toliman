@@ -7,20 +7,16 @@ import style from './Example.module.scss';
 type Props = {
   num: number;
   ids: [string, string];
+  height?: string;
 };
 
-const Example = ({ num, ids }: Props) => {
+const Example = ({ num, ids, height = '11cm' }: Props) => {
   const questions: Question[] = getQuestions(ids);
 
   return (
     <div className={style.content}>
       <div className={style.block}>
-        <div className={style.title}>{`範例 ${num}`}</div>
-      </div>
-      <div className={style.block}>
-        <div className={style.title}>{`類題 ${num}`}</div>
-      </div>
-      <div className={style.block}>
+        <div className={style.title}>{`例題 ${num}`}</div>
         <div className={style.card}>
           <div key={questions[0].id}>
             <Textarea2MathJax text={questions[0].question} />
@@ -36,8 +32,9 @@ const Example = ({ num, ids }: Props) => {
           </div>
         </div>
       </div>
-      <div className={classNames(style.block, style.right)}>
-        <div className={style.card}>
+      <div className={style.block}>
+        <div className={style.title}>{`類題 ${num}`}</div>
+        <div className={classNames(style.card, style.right)} style={{ height }}>
           <div key={questions[1].id}>
             <Textarea2MathJax text={questions[1].question} />
             <Textarea2MathJax text={`Ans: ${questions[1].answer}`} className={style.ans} />
