@@ -4711,7 +4711,7 @@ export const bank: Question[] = [
     chapter: '數與式',
     question:
       '$$x,y\\in\\mathbb{R}$$，若 $$|2x-1|\\le7$$，$$|y-4|\\le2$$，則下列選項哪些正確？\n(1) $$-5\\le x-y\\le2$$ 必成立\n(2) $$9\\le x^2\\le16$$ 必成立\n(3) $$-27\\le x^3\\le64$$ 必成立\n(4) $$-6\\le xy\\le24$$ 必成立\n(5) $$\\frac{1}{6}\\le\\frac{1}{y}\\le\\frac{1}{2}$$ 必成立',
-    answer: '(1)(2)(5)',
+    answer: '(3)(5)',
     hasImage: false,
   },
   {
@@ -4787,7 +4787,7 @@ export const bank: Question[] = [
     chapter: '數與式',
     question:
       '試問數線上有多少個整數點與點 $$\\sqrt{101}$$ 的距離小於 $$5$$，但與點 $$\\sqrt{38}$$ 的距離大於 $$3$$？',
-    answer: '$$8$$',
+    answer: '$$6$$',
     hasImage: false,
   },
   {
@@ -6168,6 +6168,82 @@ export const bank: Question[] = [
     question:
       "某校高三學生數學第一次、二次段考成績分別以 $$X$$、$$Y$$ 表示。若兩次段考的相關係數為 $$0.016$$，下列哪些正確？\n(1) $$X$$ 與 $$Y$$ 的相關情形可以用散布圖表示\n(2) 這兩次段考的數學成績適合用直線 $$X=a+bY$$ 表示 $$X$$ 與 $$Y$$ 的相關情形\n(3) $$X+5$$ 與 $$Y+5$$ 的相關係數仍為 $$0.016$$\n(4) $$10X$$ 與 $$10Y$$ 的相關係數仍為 $$0.016$$\n(5) 若 $$X'=\\frac{X-\\mu_x}{\\sigma_x}$$、$$Y'=\\frac{Y-\\mu_y}{\\sigma_y}$$，則 $$X'$$ 與 $$Y'$$ 的相關係數仍為 $$0.016$$",
     answer: '(1)(3)(4)(5)',
+    hasImage: false,
+  },
+  {
+    id: '17aa0e24f17',
+    chapter: '多項式函數',
+    question: '若多項式 $$f(x)=2x^3+ax^2+9x-2$$ 除以 $$x^2+2x+3$$，餘式為 $$x+b$$，求 $$a-b$$。',
+    answer: '$$10$$',
+    hasImage: false,
+  },
+  {
+    id: '17aa0e47333',
+    chapter: '多項式函數',
+    question:
+      '已知 $$f(x)+g(x)=5x^3+7x^2-4x+3$$，若 $$g(x)$$ 除以 $$x^2-x-2$$ 的餘式為 $$3x+1$$，求 $$f(x)$$ 除以 $$x-2$$ 的餘式。',
+    answer: '$$56$$',
+    hasImage: false,
+  },
+  {
+    id: '17aa0e59c40',
+    chapter: '多項式函數',
+    question: '$$f(x)=x^5-4x^4-72x^3-56x^2+15x+7$$，求 $$f(11)$$。',
+    answer: '$$51$$',
+    hasImage: false,
+  },
+  {
+    id: '17aa0e72c9d',
+    chapter: '多項式函數',
+    question:
+      '若多項式 $$f(x)$$ 除以 $$(x-2)(x-3)$$ 的餘式為 $$12x-16$$，且多項式 $$f(x)$$ 有 $$x-1$$ 的因式，求 $$f(x)$$ 除以 $$(x-1)(x-2)$$ 的餘式。',
+    answer: '$$8x-8$$',
+    hasImage: false,
+  },
+  {
+    id: '17aa0e89885',
+    chapter: '多項式函數',
+    question: '若多項式 $$x^{20}+ax^{19}+7x+b$$ 能被 $$x^2-1$$ 整除，求 $$a^2+b^2$$。',
+    answer: '$$50$$',
+    hasImage: false,
+  },
+  {
+    id: '17aa0ea109c',
+    chapter: '多項式函數',
+    question:
+      '設 $$f(x)=x^3-4x^2+7x+1$$\n$$=a(x-2)^3+b(x-2)^2+c(x-2)+d$$，求：\n(1) $$a-b+c-d$$\n(2) $$f(1.99)$$ 的近似值 (四捨五入至小數點後第二位)',
+    answer: '(1) $$-5$$ (2) $$6.97$$',
+    hasImage: false,
+  },
+  {
+    id: '17aa0eb9850',
+    chapter: '多項式函數',
+    question:
+      '已知二次函數 $$y=f(x)$$ 的圖形通過點 $$(1,6)$$、$$(0,5)$$、$$(-1,2)$$，且與 $$x$$ 軸交於 $$A$$、$$B$$ 兩點，求 $$\\overline{AB}$$。',
+    answer: '$$2\\sqrt{6}$$',
+    hasImage: false,
+  },
+  {
+    id: '17aa0ecdfd4',
+    chapter: '多項式函數',
+    question:
+      '設 $$f(x)=ax^2+4ax-b$$，其中 $$a>0$$，$$-3\\le x\\le1$$，且最大值為 $$11$$，最小值為 $$-7$$，求數對 $$(a,b)$$。',
+    answer: '$$(2,-1)$$',
+    hasImage: false,
+  },
+  {
+    id: '17aa0ee0aac',
+    chapter: '多項式函數',
+    question: '$$f(x)=kx^2+(k+1)x+k-1$$ 恆為負，求 $$k$$ 的範圍。',
+    answer: '$$k<\\frac{3-2\\sqrt{3}}{3}$$',
+    hasImage: false,
+  },
+  {
+    id: '17aa0ef5f01',
+    chapter: '多項式函數',
+    question:
+      '若 $$n\\in\\mathbb{N}$$，且 $$(x-4)(x-\\sqrt{n})<0$$ 恰有一個整數解，則 $$n$$ 共有幾種可能的值？',
+    answer: '$$16$$',
     hasImage: false,
   },
 ];
