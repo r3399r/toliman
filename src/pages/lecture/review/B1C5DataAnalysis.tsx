@@ -30,7 +30,7 @@ const B1C5DataAnalysis = () => {
       </Concept>
       <Exercise ids={['17a393dba9d', '17a393f79d8']} />
       <Concept num={2} title="百分位數">
-        <Textarea2MathJax text={'$$n$$ 個數值由小到大排序，第 $$k$$ 百分位數：'} />
+        <Textarea2MathJax text={'$$n$$ 個數值由小到大排序，第 $$k$$ 百分位數的求法：'} />
         <Textarea2MathJax
           text={
             '(1) 若 $$n\\times\\frac{k}{100}$$ 不是整數，則取進位後的 $$r$$，第 $$k$$ 百分位數為 $$x_r$$'
@@ -43,7 +43,7 @@ const B1C5DataAnalysis = () => {
         />
         <Textarea2MathJax
           text={
-            '第 $$1$$ 四分位數即為第 $$25$$ 百分位數，第 $$3$$ 四分位數即為第 $$75$$ 百分位數，中位數即為第 $$2$$ 四分位數即為第 $$50$$ 百分位數'
+            '第 $$1$$ 四分位數即為第 $$25$$ 百分位數，第 $$3$$ 四分位數即為第 $$75$$ 百分位數，\n中位數即為第 $$2$$ 四分位數，也是第 $$50$$ 百分位數'
           }
         />
       </Concept>
