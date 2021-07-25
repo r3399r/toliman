@@ -6327,7 +6327,7 @@ export const bank: Question[] = [
   {
     id: '17abfaec432',
     chapter: '排列組合與機率',
-    question: '如圖所示，由 $$A$$ 到 $$B$$ 走捷徑，走幾種走法？',
+    question: '如圖，由 $$A$$ 到 $$B$$ 走捷徑，有幾種走法？',
     answer: '$$31$$',
     hasImage: true,
   },
@@ -6345,7 +6345,7 @@ export const bank: Question[] = [
     question:
       '$$A$$ 城到 $$B$$ 城之間有甲、乙、丙、丁、戊五城，其間連結的道路如圖所示。今從 $$A$$ 城出發走向 $$B$$ 城，要求每條道路都要經過並且只經過一次，則總共有幾種走法？',
     answer: '$$6$$',
-    hasImage: false,
+    hasImage: true,
   },
   {
     id: '17abfb7c4c1',
@@ -6710,6 +6710,339 @@ export const bank: Question[] = [
     question:
       '某公司考慮在甲、乙兩地選一地投資設廠。經評估，在甲地設廠，如獲利，預計可獲利 $$10000$$ (萬元)；如不獲利，預計將虧損 $$7000$$ (萬元)。在乙地設廠，如獲利，預計可獲利 $$6000$$ (萬元)；如不獲利，預計將虧損 $$5000$$ (萬元)。又該公司評估新廠在甲、乙兩地獲利的機率分別為 $$0.6$$、$$0.7$$。如以獲利期望值為決策準則，該公司應選擇甲地或乙地投資？',
     answer: '甲地',
+    hasImage: false,
+  },
+  {
+    id: '17aca900411',
+    chapter: '三角比',
+    question:
+      '$$\\theta$$ 為銳角，若 $$\\sin\\theta=\\frac{3}{5}$$，求 $$\\cos\\theta$$、$$\\tan\\theta$$。',
+    answer: '$$\\frac{4}{5}$$；$$\\frac{3}{4}$$',
+    hasImage: false,
+  },
+  {
+    id: '17aca9268fc',
+    chapter: '三角比',
+    question:
+      '有一等腰三角形底邊為 $$10$$，頂角 $$72^\\circ$$，下列何者可以表示腰長？\n(1) $$5\\sin36^\\circ$$ (2) $$5\\tan36^\\circ$$ (3) $$\\frac{5}{\\tan36^\\circ}$$\n(4) $$\\frac{5}{\\cos36^\\circ}$$ (5) $$\\frac{5}{\\sin36^\\circ}$$',
+    answer: '(5)',
+    hasImage: false,
+  },
+  {
+    id: '17aca95e33b',
+    chapter: '三角比',
+    question: '$$950^\\circ$$ 是第幾象限角？其最小正同界角為？',
+    answer: '三；$$230^\\circ$$',
+    hasImage: false,
+  },
+  {
+    id: '17aca9748af',
+    chapter: '三角比',
+    question:
+      '若有向角 $$\\theta$$ 如圖所示，則 $$\\theta$$ 最接近：\n(1) $$40^\\circ$$ (2) $$400^\\circ$$ (3) $$-320^\\circ$$ (4) $$-680^\\circ$$',
+    answer: '(4)',
+    hasImage: true,
+  },
+  {
+    id: '17aca9badeb',
+    chapter: '三角比',
+    question: '求平面上兩點 $$P[3,70^\\circ]$$ 與 $$Q[4,160^\\circ]$$ 的距離。',
+    answer: '$$5$$',
+    hasImage: false,
+  },
+  {
+    id: '17aca9d9f29',
+    chapter: '三角比',
+    question: '將直角坐標化為極坐標：\n(1) $$(0,4)$$ (2) $$(-\\pi,0)$$ (3) $$(1,-1)$$',
+    answer: '(1) $$[4,90^\\circ]$$ (2) $$[\\pi,180^\\circ]$$ (3) $$[\\sqrt{2},315^\\circ]$$',
+    hasImage: false,
+  },
+  {
+    id: '17acaa46a2f',
+    chapter: '三角比',
+    question:
+      '請問 $$\\sin73^\\circ$$、$$\\sin146^\\circ$$、$$\\sin219^\\circ$$、$$\\sin292^\\circ$$、$$\\sin365^\\circ$$ 這五個數值的中位數是哪一個？',
+    answer: '$$\\sin365^\\circ$$',
+    hasImage: false,
+  },
+  {
+    id: '17acaa9ade9',
+    chapter: '三角比',
+    question:
+      '$$\\begin{array} {|c|c|}\\hline \\theta & \\sin\\theta & \\cos\\theta & \\tan\\theta \\\\\\hline 0^\\circ \\\\\\hline 90^\\circ \\\\\\hline 180^\\circ \\\\\\hline 270^\\circ \\\\\\hline 120^\\circ \\\\\\hline 135^\\circ \\\\\\hline 150^\\circ \\\\\\hline 240^\\circ \\\\\\hline \\end{array}$$',
+    answer: '略',
+    hasImage: false,
+  },
+  {
+    id: '17ad14cb94a',
+    chapter: '三角比',
+    question: '取餘角，$$\\sin(90^\\circ-\\theta)$$、$$\\cos(90^\\circ-\\theta)$$。',
+    answer: '$$\\cos\\theta$$；$$\\sin\\theta$$',
+    hasImage: false,
+  },
+  {
+    id: '17ad14d8dde',
+    chapter: '三角比',
+    question: '取補角，$$\\sin(180^\\circ-\\theta)$$、$$\\cos(180^\\circ-\\theta)$$。',
+    answer: '$$\\sin\\theta$$；$$-\\cos\\theta$$',
+    hasImage: false,
+  },
+  {
+    id: '17ad14e2208',
+    chapter: '三角比',
+    question: '角變號，$$\\sin(-\\theta)$$、$$\\cos(-\\theta)$$。',
+    answer: '$$-\\sin\\theta$$；$$\\cos\\theta$$',
+    hasImage: false,
+  },
+  {
+    id: '17ad14f2801',
+    chapter: '三角比',
+    question: '任意的角度變換，$$\\sin(\\theta+180^\\circ)$$、$$\\cos(270^\\circ-\\theta)$$。',
+    answer: '$$\\sin\\theta$$；$$-\\sin\\theta$$',
+    hasImage: false,
+  },
+  {
+    id: '17ad15f1203',
+    chapter: '三角比',
+    question: '若 $$\\sin x-\\cos x=\\frac{1}{2}$$，求 $$\\sin x\\cos x。',
+    answer: '$$\\frac{3}{8}$$',
+    hasImage: false,
+  },
+  {
+    id: '17ad16129f7',
+    chapter: '三角比',
+    question:
+      '設 $$180^\\circ<\\theta<270^\\circ$$，若 $$\\cos\\theta-\\sin\\theta=\\frac{\\sqrt{2}}{2}$$，求 $$\\cos\\theta+\\sin\\theta$$。',
+    answer: '$$-\\frac{\\sqrt{6}}{2}$$',
+    hasImage: false,
+  },
+  {
+    id: '17ad166ba0a',
+    chapter: '三角比',
+    question:
+      '$$\\triangle ABC$$ 中，已知 $$\\sin A=\\frac{1}{4}$$，$$\\sin B=\\frac{1}{3}$$，$$\\overline{BC}=6$$，求：(1) $$\\overline{AC}$$ (2) 外接圓半徑 $$R$$',
+    answer: '(1) $$8$$ (2) $$12$$',
+    hasImage: false,
+  },
+  {
+    id: '17ad1685100',
+    chapter: '三角比',
+    question:
+      '如圖所示，$$ABCD$$ 為圓內接四邊形，若 $$\\angle DBC=30^\\circ$$，$$\\angle ABD=45^\\circ$$，$$\\overline{CD}=6$$，求 $$\\overline{AD}$$。',
+    answer: '$$6\\sqrt{2}$$',
+    hasImage: true,
+  },
+  {
+    id: '17ad16ade0d',
+    chapter: '三角比',
+    question:
+      '$$\\triangle ABC$$ 中，已知 $$\\overline{AB}=4$$，$$\\overline{BC}=6$$，$$\\overline{CA}=7$$，求 $$\\cos A$$。',
+    answer: '$$\\frac{29}{56}$$',
+    hasImage: false,
+  },
+  {
+    id: '17ad16cc0f5',
+    chapter: '三角比',
+    question:
+      '在 $$\\triangle ABC$$ 中，若 $$D$$ 點在 $$\\overline{BC}$$ 邊上，且 $$\\overline{AB}=7$$，$$\\overline{AC}=13$$，$$\\overline{BD}=7$$，$$\\overline{CD}=8$$，求 $$\\overline{AD}$$。',
+    answer: '$$7$$',
+    hasImage: false,
+  },
+  {
+    id: '17ad175a609',
+    chapter: '三角比',
+    question:
+      '$$\\triangle ABC$$，$$\\overline{AB}=5$$，$$\\overline{AC}=4$$，$$\\angle A=60^\\circ$$，求 $$\\triangle ABC$$ 面積。',
+    answer: '$$5\\sqrt{3}$$',
+    hasImage: false,
+  },
+  {
+    id: '17ad1771119',
+    chapter: '三角比',
+    question: '$$\\triangle ABC$$ 的邊長為 $$8$$、$$5$$、$$7$$，求面積、內切圓半徑、外切圓半徑。',
+    answer: '$$10\\sqrt{3}$$；$$\\sqrt{3}$$；$$\\frac{7\\sqrt{3}}{3}',
+    hasImage: false,
+  },
+  {
+    id: '17ad17cb39c',
+    chapter: '三角比',
+    question:
+      '化簡 (1) $$\\sin^{-1}\\frac{\\sqrt{3}}{2}\\quad$$ (2) $$\\cos^{-1}\\frac{-1}{2}\\quad$$ (3) $$\\tan^{-1}1$$',
+    answer: '(1) $$60^\\circ$$ (2) $$120^\\circ$$ (3) $$45^\\circ$$',
+    hasImage: false,
+  },
+  {
+    id: '17ad18548de',
+    chapter: '三角比',
+    question:
+      '有一艘船向南航行，在東 $$30^\\circ$$ 南的方位發現一燈塔後，繼續向前進 $$20$$ 浬，此時燈塔的方向在北 $$30^\\circ$$ 東，求此船航線與燈塔的最短距離。',
+    answer: '$$5\\sqrt{3}$$ 浬',
+    hasImage: false,
+  },
+  {
+    id: '17ad187f99e',
+    chapter: '三角比',
+    question:
+      '某人隔河測一山高，在 $$A$$ 點觀測山時，山的方位為東偏北 $$60^\\circ$$，山頂的仰角為 $$45^\\circ$$，某人自 $$A$$ 點向東行 $$600$$ 公尺到達 $$B$$ 點，山的方位變成在西偏北 $$60^\\circ$$，求山高。',
+    answer: '$$600$$ 公尺',
+    hasImage: false,
+  },
+  {
+    id: '17ad192e53e',
+    chapter: '三角比',
+    question:
+      '在 $$\\triangle ABC$$ 中，$$M$$ 為 $$\\overline{BC}$$ 邊之中點，若 $$\\overline{AB}=3$$，$$\\overline{AC}=5$$，且 $$\\angle BAC=120^\\circ$$，求 $$\\angle BAM$$。',
+    answer: '$$5\\sqrt{3}$$',
+    hasImage: false,
+  },
+  {
+    id: '17ad195a9f7',
+    chapter: '三角比',
+    question:
+      '有向角 $$\\theta$$ 以 $$x$$ 軸正向為始邊，終邊與直線 $$2x+y+3=0$$ 相交於 $$P$$，已知 $$\\tan\\theta=\\frac{3}{4}$$，求 $$\\sin\\theta$$、$$\\cos\\theta$$、$$P$$ 點坐標。',
+    answer: '$$-\\frac{3}{5}$$；$$-\\frac{4}{5}$$；$$\\left(-\\frac{12}{11},-\\frac{9}{11}\\right)',
+    hasImage: false,
+  },
+  {
+    id: '17ad1986e1e',
+    chapter: '三角比',
+    question:
+      '設 $$\\theta$$ 為三角形 $$\\Gamma$$ 的一個內角，且 $$\\sin\\theta$$、$$\\cos\\theta$$ 是 $$3x^2-2x+k=0$$ 的兩根，請問下列哪些選項的敘述為真？\n(1) $$k<-0.7$$ (2) $$k>-0.8$$\n(3) $$\\Gamma$$ 為鈍角三角形 (4) $$\\cos\\theta>0$$\n(5) $$k$$、$$\\sin\\theta$$、$$\\cos\\theta$$ 之值均為有理數',
+    answer: '(1)(3)',
+    hasImage: false,
+  },
+  {
+    id: '17ad199eac9',
+    chapter: '三角比',
+    question: '方程式 $$4x^2-5x+m=0$$ 的兩根是直角三角形的兩銳角的正弦，求 $$m$$。',
+    answer: '$$\\frac{9}{8}$$',
+    hasImage: false,
+  },
+  {
+    id: '17ad19d0a01',
+    chapter: '三角比',
+    question:
+      '設 $$\\theta_1$$、$$\\theta_2$$、$$\\theta_3$$、$$\\theta_4$$ 分別為第一、第二、第三、第四象限角，且都介於 $$0^\\circ$$ 與 $$360^\\circ$$ 之間。已知 $$|\\cos\\theta_1|=|\\cos\\theta_2|=|\\cos\\theta_3|$$$$=|\\cos\\theta_4|=\\frac{1}{3}$$，下列哪些選項是正確的？\n(1) $$\\theta_1<45^\\circ$$ (2) $$\\theta_1+\\theta_2=180^\\circ$$\n(3) $$\\cos\\theta_3=-\\frac{1}{3}$$ (4) $$\\sin\\theta_4=\\frac{2\\sqrt{2}}{3}$$\n(5) $$\\theta_4=\\theta_3+90^\\circ$$',
+    answer: '(2)(3)',
+    hasImage: false,
+  },
+  {
+    id: '17ad19fe25d',
+    chapter: '三角比',
+    question:
+      '如圖，$$\\angle BAC=\\theta$$，$$\\angle ABD=\\angle ACD=90^\\circ$$，$$\\overline{AB}=a$$，$$\\overline{BD}=b$$，下列選項何者可以表示 $$\\overline{CD}$$？\n(1) $$a\\sin\\theta+b\\cos\\theta$$ (2) $$a\\sin\\theta-b\\cos\\theta$$\n(3) $$a\\cos\\theta-b\\sin\\theta$$ (4) $$a\\cos\\theta+b\\sin\\theta$$\n(5) $$a\\sin\\theta+b\\tan\\theta$$',
+    answer: '(2)',
+    hasImage: true,
+  },
+  {
+    id: '17ad1a1d228',
+    chapter: '三角比',
+    question:
+      '如圖，正三角形 $$ABC$$ 的邊長為 $$1$$，並且 $$\\angle1=\\angle2=\\angle3=15^\\circ$$。已知 $$\\sin15^\\circ=\\frac{\\sqrt{6}-\\sqrt{2}}{4}$$，求正三角形 $$DEF$$ 的邊長。',
+    answer: '$$\\frac{\\sqrt{6}-\\sqrt{2}}{2}$$',
+    hasImage: true,
+  },
+  {
+    id: '17ad1a5d24f',
+    chapter: '三角比',
+    question:
+      '在 $$\\triangle ABC$$ 中，已知 $$\\overline{BC}=1$$，$$\\sin A<\\sin B$$，$$\\sin A$$ 與 $$\\sin B$$ 為 $$8x^2-4\\sqrt{3}x+1=0$$ 的兩根，求 $$\\triangle ABC$$ 的外接圓半徑。',
+    answer: '$$1+\\sqrt{3}$$',
+    hasImage: false,
+  },
+  {
+    id: '17ad1a75088',
+    chapter: '三角比',
+    question:
+      '在邊長為 $$13$$ 的正三角形 $$ABC$$ 上各邊分別取一點 $$P$$、$$Q$$、$$R$$，使得 $$APQR$$ 形成一平行四邊形，如圖所示。若平行四邊形 $$APQR$$ 的面積為 $$20\\sqrt{3}$$，求 $$\\overline{PR}$$。',
+    answer: '$$7$$',
+    hasImage: true,
+  },
+  {
+    id: '17ad1aa917e',
+    chapter: '三角比',
+    question:
+      '如圖，在 $$\\triangle ABC$$ 中，$$\\overline{AD}$$ 交 $$\\overline{BC}$$ 於 $$D$$ 點， $$\\overline{BE}$$ 交 $$\\overline{AD}$$ 於 $$E$$ 點，且 $$\\angle ACB=30^\\circ$$，$$\\angle EDB=60^\\circ$$，$$\\angle AEB=120^\\circ$$。若 $$\\overline{CD}=15$$，$$\\overline{ED}=7$$，求 $$\\overline{AB}$$。',
+    answer: '$$13$$',
+    hasImage: true,
+  },
+  {
+    id: '17ad1ac869f',
+    chapter: '三角比',
+    question:
+      '四邊形 $$ABCD$$ 中，$$\\overline{AB}=1$$，$$\\overline{BC}=5$$，$$\\overline{CD}=5$$，$$\\overline{DA}=7$$，且 $$\\angle DAB=\\angle BCD=90^\\circ$$，求對角線 $$\\overline{AC}$$。',
+    answer: '$$4\\sqrt{2}$$',
+    hasImage: false,
+  },
+  {
+    id: '17ad1af7240',
+    chapter: '三角比',
+    question:
+      '圓內接四邊形 $$ABCD$$，已知 $$\\overline{AB}=5$$，$$\\overline{BC}=3$$，$$\\overline{CD}=2$$，$$\\overline{DA}=3$$，試求：\n(1) $$\\overline{AC}$$ (2) 此四邊形面積 (3) 此圓面積',
+    answer: '(1) $$\\sqrt{19}$$ (2) $$\\frac{2\\sqrt{13}}{4}$$ (3) $$\\frac{19}{3}\\pi$$',
+    hasImage: false,
+  },
+  {
+    id: '17ad1b111d9',
+    chapter: '三角比',
+    question:
+      '如圖，圓 $$O$$ 內切於 $$\\triangle ABC$$ 中，切點分別為 $$D$$、$$E$$、$$F$$，且 $$\\overline{AD}=3$$，$$\\overline{BD}=2$$，內切圓半徑為 $$\\frac{2\\sqrt{6}}{3}$$，求 $$\\overline{AC}$$。',
+    answer: '$$7$$',
+    hasImage: true,
+  },
+  {
+    id: '17ad1b2ca8a',
+    chapter: '三角比',
+    question:
+      '平面上有一箏形 $$ABCD$$，其中 $$\\overline{AB}=\\overline{BC}=\\sqrt{2}$$，$$\\overline{AC}=\\overline{CD}=2$$，$$\\angle BAD=135^\\circ$$，求 $$\\overline{AC}$$。',
+    answer: '$$\\frac{2\\sqrt{10}}{5}$$',
+    hasImage: false,
+  },
+  {
+    id: '17ad1b3be5c',
+    chapter: '三角比',
+    question:
+      '$$\\triangle ABC$$ 中，$$\\angle ABC=60^\\circ$$，$$\\angle ABC$$ 的角平分線交 $$\\overline{AC}$$ 於 $$D$$。已知 $$\\overline{AB}=6$$，$$\\overline{BD}=2\\sqrt{3}$$，求 $$\\overline{AC}$$。',
+    answer: '$$\\frac{2\\sqrt{10}}{5}$$',
+    hasImage: false,
+  },
+  {
+    id: '17ad1b58388',
+    chapter: '三角比',
+    question: '如圖所示，求 $$x$$。',
+    answer: '$$\\frac{\\sqrt{210}}{7}$$',
+    hasImage: true,
+  },
+  {
+    id: '17ad1ba3335',
+    chapter: '三角比',
+    question:
+      '海面上有漁船發出求救訊號，此漁船在燈塔的南 $$\\theta$$ 東方向，距離燈塔 $$15$$ 浬處，救難艦則位在燈塔的東 $$2\\theta$$ 北的方向，距離燈塔 $$11$$ 浬處，若救難艦收到求救信號後立刻以每小時 $$10$$ 浬的速度趕赴漁船所在位置，已知 $$\\theta=\\sin^{-1}\\frac{1}{3}$$，則該漁船必須等待幾分鐘才能得到救援？請選出最接近的選項。\n(1) $$100$$ 分鐘 (2) $$110$$ 分鐘 (3) $$120$$ 分鐘\n(4) $$130$$ 分鐘 (5) $$140$$ 分鐘',
+    answer: '(4)',
+    hasImage: false,
+  },
+  {
+    id: '17ad1c0f6ba',
+    chapter: '三角比',
+    question:
+      '莎韻觀測遠方等速率垂直上升的熱氣球。在上午 $$10:00$$ 熱氣球的仰角為 $$30^\\circ$$，到上午 $$10:10$$ 仰角變成 $$34^\\circ$$。請利用下表判斷到上午 $$10:30$$ 時，熱氣球的仰角的正切值？\n($$\\tan30^\\circ\\approx0.577$$、$$\\tan34^\\circ\\approx0.675$$)',
+    answer: '$$0.871$$',
+    hasImage: false,
+  },
+  {
+    id: '17ad1c5ea2f',
+    chapter: '三角比',
+    question:
+      '自地面一點觀測甲、乙兩棟大樓，甲大樓在西北方向距離 $$60$$ 公尺處，乙大樓在東北方向距離 $$80$$ 公尺處，且先測得甲大樓樓頂的仰角為 $$45^\\circ$$，再登上甲大樓的樓頂並從樓頂測得乙大樓的樓頂仰角為 $$60^\\circ$$，求乙大樓的高度。($$\\sqrt{3}\\approx1.732$$，整數以下四捨五入)',
+    answer: '$$233$$ 公尺',
+    hasImage: false,
+  },
+  {
+    id: '17ad1c89c26',
+    chapter: '三角比',
+    question:
+      '小明從旗桿底 $$O$$ 點的正西方 $$A$$ 點測得桿頂 $$T$$ 點的仰角為 $$30^\\circ$$。他向旗桿前進 $$30$$ 公尺至 $$B$$ 點，再測得旗桿頂的仰角為 $$60^\\circ$$，求旗桿高。',
+    answer: '$$15\\sqrt{3}$$ 公尺',
     hasImage: false,
   },
 ];
