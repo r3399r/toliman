@@ -7045,4 +7045,191 @@ export const bank: Question[] = [
     answer: '$$15\\sqrt{3}$$ 公尺',
     hasImage: false,
   },
+  {
+    id: '17add025b6b',
+    chapter: '指數與對數函數',
+    question:
+      '設指數函數 $$f(x)=\\left(\\frac{16}{81}\\right)^x$$，求：\n(1) $$f(-1)$$ (2) $$f\\left(\\frac{1}{4}\\right)$$ (3) $$f\\left(f\\left(-\\frac{1}{4}\\right)\\right)$$',
+    answer: '(1) $$\\frac{81}{16}$$ (2) $$\\frac{2}{3}$$ (3) $$\\frac{64}{729}$$',
+    hasImage: false,
+  },
+  {
+    id: '17add067cad',
+    chapter: '指數與對數函數',
+    question:
+      '設 $$f(x)=4^x$$，$$g(x)=9^x$$，求：\n(1) $$g\\left(f\\left(\\frac{1}{2}\\right)\\right)$$ (2) $$f\\left(g\\left(\\frac{1}{2}\\right)\\right)$$ ',
+    answer: '(1) $$81$$ (2) $$64$$',
+    hasImage: false,
+  },
+  {
+    id: '17add1475e9',
+    chapter: '指數與對數函數',
+    question:
+      '若 $$A(p,7)$$ 與 $$B(q,28)$$ 都在 $$f(x)=2^x$$ 的圖形上，即 $$f(p)=7$$ 且 $$f(q)=28$$，求 $$\\overline{AB}$$。',
+    answer: '$$\\sqrt{445}$$',
+    hasImage: false,
+  },
+  {
+    id: '17add167ddc',
+    chapter: '指數與對數函數',
+    question:
+      '若 $$A(a,5)$$ 與 $$B(b,45)$$ 都在 $$y=3^x$$ 的圖形上，則 $$\\overline{AB}$$ 的斜率。',
+    answer: '$$20$$',
+    hasImage: false,
+  },
+  {
+    id: '17add19ee19',
+    chapter: '指數與對數函數',
+    question:
+      '設 $$0\\le x\\le3$$，則 $$f(x)=2^{x+2}-4^x+15$$ 的最大值及此時的 $$x$$、最小值及此時的 $$x$$。',
+    answer: '$$19$$，$$1$$；$$-17$$，$$3$$',
+    hasImage: false,
+  },
+  {
+    id: '17add1d9067',
+    chapter: '指數與對數函數',
+    question: '設 $$-1\\le x\\le0$$，則 $$y=2^{x+2}-3\\cdot4^x$$ 的最大值及最小值。',
+    answer: '$$\\frac{4}{3}$$；$$1$$',
+    hasImage: false,
+  },
+  {
+    id: '17add1f09ec',
+    chapter: '指數與對數函數',
+    question: '求 $$f(x)=(9^x+9^{-x})-2(3^x+3^{-x})+7$$ 的最小值及此時的 $$x$$。',
+    answer: '$$5$$；$$0$$',
+    hasImage: false,
+  },
+  {
+    id: '17add1fd219',
+    chapter: '指數與對數函數',
+    question: '$$f(x)=3(4^x+4^{-x})-10(2^x+2^{-x})+5$$ 的最小值及此時的 $$x$$。',
+    answer: '$$0$$；$$-9$$',
+    hasImage: false,
+  },
+  {
+    id: '17adeaaa7ef',
+    chapter: '指數與對數函數',
+    question:
+      '設 $$a,b,c,d>0$$，若指數函數 $$y=a^x$$、$$y=b^x$$、$$y=c^x$$、$$y=d^x$$ 的圖形如附圖，請比較 $$a$$、$$b$$、$$c$$、$$d$$、$$1$$ 的大小。',
+    answer: '$$c>d>1>a>b$$',
+    hasImage: true,
+  },
+  {
+    id: '17adeae3659',
+    chapter: '指數與對數函數',
+    question:
+      '已知 $$y=a^x$$、$$y=b^x$$、$$y=c^x$$ 的圖形如附圖，則下列哪些選項為真？\n(1) $$a>b$$ (2) $$b>c$$ (3) $$c>1$$\n(4) $$P$$ 點的 $$x$$ 坐標為 $$1$$ (5) $$P$$ 點的 $$y$$ 坐標為 $$1$$',
+    answer: '(1)(5)',
+    hasImage: true,
+  },
+  {
+    id: '17adeb24157',
+    chapter: '指數與對數函數',
+    question:
+      '求 $$y=2^x$$ 的圖形沿 $$x$$ 軸的方向平移 $$-3$$，再沿 $$y$$ 軸的方向平移 $$+2$$，再以 $$x$$ 軸為中心上下顛倒，所得函數為？',
+    answer: '$$y=-2^{x+3}-2',
+    hasImage: false,
+  },
+  {
+    id: '17adeb469db',
+    chapter: '指數與對數函數',
+    question:
+      '求 $$y=5^x$$ 的圖形向右平移 $$4$$，再向下平移 $$3$$，再以 $$x$$ 軸為中心上下顛倒，所得函數為？',
+    answer: '$$y=-5^{x-4}+3',
+    hasImage: false,
+  },
+  {
+    id: '17adeb7859b',
+    chapter: '指數與對數函數',
+    question: '方程式 $$2^x=x+6$$ 共有幾個相異實根？這些相異實根各介於哪些連續整數之間？',
+    answer: '$$2$$；$$-6\\sim-5$$、$$3\\sim4$$',
+    hasImage: false,
+  },
+  {
+    id: '17adeb9bb40',
+    chapter: '指數與對數函數',
+    question: '試問方程式 $$2^x+x=0$$ 有幾個實根？介於哪兩個連續整數之間？',
+    answer: '$$1$$；$$-1\\sim0$$',
+    hasImage: false,
+  },
+  {
+    id: '17adeba6aa0',
+    chapter: '指數與對數函數',
+    question: '方程式 $$2^x-x^2=0$$ 共有幾個實根？',
+    answer: '$$3$$',
+    hasImage: false,
+  },
+  {
+    id: '17adebb1ce6',
+    chapter: '指數與對數函數',
+    question: '方程式 $$2^{|x|}=x^2$$ 共有幾個實根？',
+    answer: '$$4$$',
+    hasImage: false,
+  },
+  {
+    id: '17ae0ca8ec4',
+    chapter: '指數與對數函數',
+    question: '若 $$8^{x-3}\\cdot\\sqrt{2}=32\\cdot\\sqrt[3]{4^x}$$，求 $$x$$。',
+    answer: '$$\\frac{81}{14}$$',
+    hasImage: false,
+  },
+  {
+    id: '17ae0cb5a82',
+    chapter: '指數與對數函數',
+    question: '若 $$9^{x+1}\\cdot\\sqrt[4]{27}=81\\cdot\\sqrt{3^x}$$，求 $$x$$。',
+    answer: '$$\\frac{5}{6}$$',
+    hasImage: false,
+  },
+  {
+    id: '17ae0cc95b8',
+    chapter: '指數與對數函數',
+    question: '若 $$4^{-x}-3\\cdot2^{2-x}+32=0$$，求 $$x$$。',
+    answer: '$$-2$$ 或 $$-3$$',
+    hasImage: false,
+  },
+  {
+    id: '17ae0cf60fe',
+    chapter: '指數與對數函數',
+    question: '若 $$\\frac{4^x}{32}<8\\sqrt{2}<\\frac{1}{128^{-x}}$$，求 $$x$$ 的範圍。',
+    answer: '$$\\frac{1}{2}<x<\\frac{17}{4}$$',
+    hasImage: false,
+  },
+  {
+    id: '17ae0d2130e',
+    chapter: '指數與對數函數',
+    question:
+      '(1) 若 $$\\frac{1}{16}<\\left(\\frac{1}{2}\\right)^{2x+3}<8$$，求 $$x$$ 的範圍。\n(2) 若 $$0.01^{2x-1}>0.001^x$$，求 $$x$$ 的範圍。',
+    answer: '(1) $$\\frac{1}{2}>x>-3$$ (2) $$x<2$$',
+    hasImage: false,
+  },
+  {
+    id: '17ae0d2dc38',
+    chapter: '指數與對數函數',
+    question: '若 $$3^{2x}+1<3^{x+2}+3^{x-2}$$，求 $$x$$ 的範圍。',
+    answer: '$$-2<x<2$$',
+    hasImage: false,
+  },
+  {
+    id: '17ae0d3ce5f',
+    chapter: '指數與對數函數',
+    question: '若 $$4^x-9\\cdot2^x+8\\le0$$，求 $$x$$ 的範圍。',
+    answer: '$$0\\le x\\le3$$',
+    hasImage: false,
+  },
+  {
+    id: '17ae0d78968',
+    chapter: '指數與對數函數',
+    question:
+      '設某病毒入侵宿主後，病毒的數量每經過 $$1$$ 日會增加 $$a$$ 倍，已知 $$3$$ 日後病毒數為 $$200000$$，$$4\\frac{1}{2}$$ 日後病毒數為 $$1600000$$，求：\n(1) $$a$$ (2) $$\\frac{3}{2}$$ 日後的病毒數',
+    answer: '(1) $$3$$ (2) $$25000$$',
+    hasImage: false,
+  },
+  {
+    id: '17ae0dc978e',
+    chapter: '指數與對數函數',
+    question:
+      '某實驗的細菌原有數目為 $$N$$ 個，經過 $$x$$ 天後細菌數成長為 $$N\\cdot a^x$$ 個。已知 $$2$$ 天後細菌數為 $$5\\cdot10^5$$ 個，$$5$$ 天後細菌數為 $$4\\cdot10^6$$ 個，下列敘述哪些正確？\n(1) $$N$$ 的值為 $$12500$$\n(2) $$a$$ 的值為 $$2$$\n(3) $$8$$ 天後的細菌數為 $$3.2\\cdot10^7$$\n(4) $$8$$ 天後的細菌數為 $$4$$ 天後細菌數的 $$8$$ 倍\n(5) 細菌數由原來的 $$N$$ 變成 $$1.28\\cdot10^8$$ 需要 $$12$$ 天',
+    answer: '(2)(3)',
+    hasImage: false,
+  },
 ];

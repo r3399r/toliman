@@ -24,6 +24,10 @@ const Lecture = () => {
       <div className={style.button}>
         <Button onClick={onClick('exponent')}>2-1 指數</Button>
       </div>
+      第三冊 Ch1 指數與對數函數
+      <div className={style.button}>
+        <Button onClick={onClick('exponentFunction')}>1 指數函數及其圖形</Button>
+      </div>
       學測複習 B1
       <div className={style.button}>
         <Button onClick={onClick('B1C1')}>Ch1 數與式</Button>
