@@ -7232,4 +7232,263 @@ export const bank: Question[] = [
     answer: '(2)(3)',
     hasImage: false,
   },
+  {
+    id: '17ae5f1c093',
+    chapter: '指數與對數函數',
+    question:
+      '(1) $$10^{\\log7}=$$\n　\n(2) $$100^{\\log3}=$$\n　\n(3) $$0.0001^{\\log\\sqrt{2}}=$$\n　',
+    answer: '(1) $$7$$ (2) $$9$$ (3) $$\\frac{1}{4}$$',
+    hasImage: false,
+  },
+  {
+    id: '17ae5f45610',
+    chapter: '指數與對數函數',
+    question:
+      '(1) $$10^{\\log2+\\log3}=$$\n　\n(2) $$10^{3\\log2}$$=\n　\n(3) $$1000^{\\log5}=$$\n　\n(4) $$\\left(\\frac{1}{1000}\\right)^{\\log7}=$$',
+    answer: '(1) $$6$$ (2) $$8$$ (3) $$125$$ (4) $$\\frac{1}{343}$$',
+    hasImage: false,
+  },
+  {
+    id: '17ae5f8d033',
+    chapter: '指數與對數函數',
+    question:
+      '(1) $$\\log10^\\sqrt{2}=$$\n　\n(2) $$\\log1000^{-\\frac{5}{2}}=$$\n　\n(3) $$\\log\\sqrt[7]{0.0001}=\n　$$',
+    answer: '(1) $$\\sqrt{2}$$ (2) $$-\\frac{15}{2}$$ (3) $$-\\frac{4}{7}$$',
+    hasImage: false,
+  },
+  {
+    id: '17ae5fad1a6',
+    chapter: '指數與對數函數',
+    question:
+      '(1) $$\\log100000=$$\n　\n(2) $$\\log1000^{-\\frac{1}{2}}=$$\n　\n(3) $$\\log100\\sqrt[3]{100}=$$\n　\n(4) $$\\log\\sqrt[5]{0.0001}=\n　',
+    answer: '(1) $$5$$ (2) $$-\\frac{3}{2}$$ (3) $$\\frac{8}{3}$$ (4) $$-\\frac{4}{5}$$',
+    hasImage: false,
+  },
+  {
+    id: '17ae5fed86d',
+    chapter: '指數與對數函數',
+    question:
+      '若 $$\\log a=2.3$$，$$\\log b=1.4$$，$$\\log c=-0.7$$，求：(1) $$abc$$ (2) $$\\log100a^2$$',
+    answer: '(1) $$1000$$ (2) $$6.6$$',
+    hasImage: false,
+  },
+  {
+    id: '17ae60099ab',
+    chapter: '指數與對數函數',
+    question:
+      '若 $$\\log a=-4.38$$，$$\\log b=3.74$$，$$\\log c=5.12$$，求：(1) $$\\log1000a^5$$ (2) $$\\frac{b}{ac}$$',
+    answer: '(1) $$-18.9$$ (2) $$1000$$',
+    hasImage: false,
+  },
+  {
+    id: '17ae604b198',
+    chapter: '指數與對數函數',
+    question:
+      '(1) $$\\log_31=$$　　　　(2) $$\\log_77=$$\n　\n(3) $$\\log_264=$$　　 　(4) $$\\log_{125}5=$$\n　\n(5) $$\\log_{27}81=$$　　　(6) $$\\log_4\\frac{1}{2}=$$\n　',
+    answer:
+      '(1) $$0$$ (2) $$1$$ (3) $$6$$ (4) $$\\frac{1}{3}$$ (5) $$\\frac{4}{3}$$ (6) $$-\\frac{1}{2}$$',
+    hasImage: false,
+  },
+  {
+    id: '17ae606d134',
+    chapter: '指數與對數函數',
+    question:
+      '(1) $$\\log_{10}1000=$$　　 (2) $$\\log_3243=$$\n　\n(3) $$\\log_2\\frac{1}{16}=$$　 　 　 (4) $$\\log_{27}9=$$\n　\n(5) $$\\log_8\\frac{1}{4}=$$　　　　(6) $$\\log_\\frac{9}{4}\\frac{8}{27}=$$\n　',
+    answer:
+      '(1) $$3$$ (2) $$5$$ (3) $$-4$$ (4) $$\\frac{2}{3}$$ (5) $$-\\frac{2}{3}$$ (6) $$-\\frac{3}{2}$$',
+    hasImage: false,
+  },
+  {
+    id: '17ae61ed92d',
+    chapter: '指數與對數函數',
+    question:
+      '設 $$x,y>0$$ 滿足 $$\\log_9x=-\\frac{1}{2}$$，$$\\log_8y=\\frac{2}{3}$$，試化簡 $$\\log_\\sqrt{7}(27x+10y)$$。',
+    answer: '$$4$$',
+    hasImage: false,
+  },
+  {
+    id: '17ae620a4f1',
+    chapter: '指數與對數函數',
+    question: '設 $$x,y>0$$ 滿足 $$\\log_8x=5$$，$$\\log_8y=7$$，求 $$\\log_2(64x+3y)$$。',
+    answer: '$$23$$',
+    hasImage: false,
+  },
+  {
+    id: '17ae6225c92',
+    chapter: '指數與對數函數',
+    question:
+      '判別下列各對數符號，哪些無意義？\n(1) $$\\log_21$$\n(2) $$\\log_12$$\n(3) $$\\log_2(-4)$$\n(4) $$\\log_{-2}4$$\n(5) $$\\log_30$$',
+    answer: '(2)(3)(4)(5)',
+    hasImage: false,
+  },
+  {
+    id: '17ae6234b20',
+    chapter: '指數與對數函數',
+    question: '若 $$\\log_{(x+1)}(-2x+5)$$ 有意義，求 $$x$$ 的範圍。',
+    answer: '$$-1<x<\\frac{5}{2}$$',
+    hasImage: false,
+  },
+  {
+    id: '17ae624a1e8',
+    chapter: '指數與對數函數',
+    question: '若 $$\\log_{(2x-1)}(-x^2+2x+3)$$ 有意義，求 $$x$$ 的範圍。',
+    answer: '$$\\frac{1}{2}<x<3$$ 且 $$x\\neq1$$',
+    hasImage: false,
+  },
+  {
+    id: '17ae62b51b8',
+    chapter: '指數與對數函數',
+    question: '若 $$\\log_x(2x^2+5x-3)$$ 有意義，求 $$x$$ 的範圍。',
+    answer: '$$x>\\frac{1}{2}$$ 且 $$x\\neq1$$',
+    hasImage: false,
+  },
+  {
+    id: '17ae6a3c867',
+    chapter: '指數與對數函數',
+    question:
+      '求 $$\\log_\\sqrt{10}\\frac{7}{36}+\\log_\\sqrt{10}32-\\log_\\sqrt{10}\\frac{14}{25}$$$$+\\log_\\sqrt{10}9。',
+    answer: '$$4$$',
+    hasImage: false,
+  },
+  {
+    id: '17ae6a53e50',
+    chapter: '指數與對數函數',
+    question: '求 $$\\log\\frac{50}{9}-\\log\\frac{3}{70}+\\log\\frac{27}{35}。',
+    answer: '$$2$$',
+    hasImage: false,
+  },
+  {
+    id: '17ae6a666b5',
+    chapter: '指數與對數函數',
+    question:
+      '若 $$\\log_4\\sqrt{3}+\\log_881+\\log_\\frac{1}{16}27$$$$+\\log_\\sqrt{2}\\sqrt[5]{9}=k\\log_23$$，求 $$k$$。',
+    answer: '$$\\frac{49}{30}$$',
+    hasImage: false,
+  },
+  {
+    id: '17ae6a775db',
+    chapter: '指數與對數函數',
+    question: '若 $$\\log_{25}27+\\log_\\sqrt{5}9+\\log_{125}81$$$$=k\\log_53$$，求 $$k$$。',
+    answer: '$$\\frac{41}{6}$$',
+    hasImage: false,
+  },
+  {
+    id: '17ae6a8e308',
+    chapter: '指數與對數函數',
+    question:
+      '$$3\\log_2\\frac{3}{7}+2\\log_2\\frac{14}{5}-\\log_\\sqrt{2}\\frac{3}{5}+\\log_4\\frac{196}{9}$$。',
+    answer: '$$3$$',
+    hasImage: false,
+  },
+  {
+    id: '17ae6aa7a42',
+    chapter: '指數與對數函數',
+    question: '求 $$2\\log_3\\frac{6}{5}+4\\log_3\\frac{15}{2}-\\log_3\\frac{25}{4}$$。',
+    answer: '$$6$$',
+    hasImage: false,
+  },
+  {
+    id: '17ae6ac1ade',
+    chapter: '指數與對數函數',
+    question: '求 $$(\\log_29)(\\log_\\sqrt{3}49)(\\log_\\frac{1}{7}8)$$。',
+    answer: '$$-24$$',
+    hasImage: false,
+  },
+  {
+    id: '17ae6adeca9',
+    chapter: '指數與對數函數',
+    question:
+      '求 $$(\\log_52+\\log_{125}8)\\cdot(\\log_43+\\log_\\sqrt{2}27)\\cdot$$$$(\\log_30.2+\\log_95)$$。',
+    answer: '$$-\\frac{13}{2}$$',
+    hasImage: false,
+  },
+  {
+    id: '17ae6b46b56',
+    chapter: '指數與對數函數',
+    question: '求 $$(\\log_23+\\log_49)(\\log_34+\\log_92)$$。',
+    answer: '$$5$$',
+    hasImage: false,
+  },
+  {
+    id: '17ae6b5218c',
+    chapter: '指數與對數函數',
+    question: '求 $$\\log_23\\cdot\\log_35\\cdot\\log_57\\cdot\\log_716$$。',
+    answer: '$$4$$',
+    hasImage: false,
+  },
+  {
+    id: '17ae6b70865',
+    chapter: '指數與對數函數',
+    question: '求 $$9^\\frac{1}{\\log_23}+2^{-\\log_29}-5^\\frac{\\log2}{\\log5}$$。',
+    answer: '$$\\frac{7}{3}$$',
+    hasImage: false,
+  },
+  {
+    id: '17ae6b80861',
+    chapter: '指數與對數函數',
+    question: '求 $$2^\\frac{\\log7}{\\log2}+3^\\frac{\\log64}{\\log9}$$。',
+    answer: '$$15$$',
+    hasImage: false,
+  },
+  {
+    id: '17ae6b9d6f2',
+    chapter: '指數與對數函數',
+    question: '若 $$\\log_26=a$$，試以 $$a$$ 表示 $$\\log_{18}24$$。',
+    answer: '$$\\frac{a+2}{2a-1}$$',
+    hasImage: false,
+  },
+  {
+    id: '17ae6bac331',
+    chapter: '指數與對數函數',
+    question: '若 $$\\log_23=a$$，$$\\log_311=b$$，試以 $$a,b$$ 表示 $$\\log_{44}66$$。',
+    answer: '$$\\frac{1+a+ab}{2+ab}$$',
+    hasImage: false,
+  },
+  {
+    id: '17ae6bbd35e',
+    chapter: '指數與對數函數',
+    question: '若 $$\\log_25=a$$，試以 $$a$$ 表示 $$\\log_{10}2$$、$$\\log_820$$。',
+    answer: '$$\\frac{1}{a+1}$$；$$\\frac{a+2}{3}$$',
+    hasImage: false,
+  },
+  {
+    id: '17ae6bd65a5',
+    chapter: '指數與對數函數',
+    question:
+      '若 $$\\log_23=a$$，$$\\log_37=b$$，$$\\log_711=c$$，試以 $$a,b,c$$ 表示 $$\\log_{42}56$$、$$\\log_{126}66$$。',
+    answer: '$$\\frac{3+ab}{1+a+ab}$$；$$\\frac{1+a+abc}{1+ab+2a}$$',
+    hasImage: false,
+  },
+  {
+    id: '17ae6bec748',
+    chapter: '指數與對數函數',
+    question:
+      '請利用 $$\\log2\\approx0.3$$，比較 $$a=\\log_{0.4}0.5$$、$$b=\\log_{0.5}0.4$$、$$c=\\log_54$$、$$d=\\log_45$$ 的大小。',
+    answer: '$$b>d>c>a$$',
+    hasImage: false,
+  },
+  {
+    id: '17ae6c10a1b',
+    chapter: '指數與對數函數',
+    question:
+      '$$\\log2\\approx0.3010$$、$$\\log3\\approx0.4771$$，試比較 $$a=\\log_{0.2}0.3$$、$$b=\\log_23$$、$$c=\\log_{20}30$$ 的大小。',
+    answer: '$$b>c>a$$',
+    hasImage: false,
+  },
+  {
+    id: '17ae6c1ef4f',
+    chapter: '指數與對數函數',
+    question:
+      '$$\\log2\\approx0.3010$$、$$\\log3\\approx0.4771$$，比較 $$a=2^{52}$$、$$b=3^{33}$$、$$c=6^{20}$$ 的大小。',
+    answer: '$$b>a>c$$',
+    hasImage: false,
+  },
+  {
+    id: '17ae6c2a995',
+    chapter: '指數與對數函數',
+    question:
+      '$$\\log2\\approx0.3010$$、$$\\log3\\approx0.4771$$，比較 $$a=2^{31}$$、$$b=5^{14}$$、$$c=6^{12}$$ 之大小。',
+    answer: '$$b>c>a$$',
+    hasImage: false,
+  },
 ];

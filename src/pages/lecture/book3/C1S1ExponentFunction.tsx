@@ -2,10 +2,9 @@ import Textarea2MathJax from 'src/component/Textarea2MathJax';
 import style from 'src/pages/lecture/Common.module.scss';
 import Concept from 'src/pages/lecture/component/Concept';
 import Example from 'src/pages/lecture/component/Example';
-import Exercise from 'src/pages/lecture/component/Exercise';
 import Page from 'src/pages/lecture/component/Page';
 
-const ExponentFunction = () => {
+const C1S1ExponentFunction = () => {
   return (
     <div>
       <Page pageNum={1}>
@@ -126,4 +125,4 @@ const ExponentFunction = () => {
   );
 };
 
-export default ExponentFunction;
+export default C1S1ExponentFunction;

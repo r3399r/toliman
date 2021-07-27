@@ -28,6 +28,9 @@ const Lecture = () => {
       <div className={style.button}>
         <Button onClick={onClick('exponentFunction')}>1 指數函數及其圖形</Button>
       </div>
+      <div className={style.button}>
+        <Button onClick={onClick('logarithm')}>2 對數符號與對數律</Button>
+      </div>
       學測複習 B1
       <div className={style.button}>
         <Button onClick={onClick('B1C1')}>Ch1 數與式</Button>

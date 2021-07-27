@@ -17,7 +17,7 @@ const Example = ({ num, ids, height = '11cm' }: Props) => {
     <div className={style.content}>
       <div className={style.block}>
         <div className={style.title}>{`例題 ${num}`}</div>
-        <div className={style.card}>
+        <div className={style.card} style={{ height }}>
           <div key={questions[0].id}>
             <Textarea2MathJax text={questions[0].question} />
             <Textarea2MathJax text={`Ans: ${questions[0].answer}`} className={style.ans} />
