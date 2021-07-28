@@ -31,6 +31,9 @@ const Lecture = () => {
       <div className={style.button}>
         <Button onClick={onClick('logarithm')}>2 對數符號與對數律</Button>
       </div>
+      <div className={style.button}>
+        <Button onClick={onClick('logarithmFunction')}>3 對數函數及其應用</Button>
+      </div>
       學測複習 B1
       <div className={style.button}>
         <Button onClick={onClick('B1C1')}>Ch1 數與式</Button>

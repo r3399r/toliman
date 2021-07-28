@@ -15,6 +15,7 @@ const route = {
   Exponent: loadable(() => import('./pages/lecture/book1/Exponent')),
   C1S1ExpFunction: loadable(() => import('./pages/lecture/book3/C1S1ExponentFunction')),
   C1S2Logarithm: loadable(() => import('./pages/lecture/book3/C1S2Logarithm')),
+  C1S3LogFunction: loadable(() => import('./pages/lecture/book3/C1S3LogarithmFunction')),
   B1C1: loadable(() => import('./pages/lecture/review/B1C1Numbers')),
   B1C2: loadable(() => import('./pages/lecture/review/B1C2Polynomial')),
   B1C3: loadable(() => import('./pages/lecture/review/B1C3LineAndCircle')),
@@ -42,6 +43,11 @@ const AppRoutes = () => {
         component={route.C1S1ExpFunction}
       />
       <Route exact={true} path="/toliman/lecture/logarithm" component={route.C1S2Logarithm} />
+      <Route
+        exact={true}
+        path="/toliman/lecture/logarithmFunction"
+        component={route.C1S3LogFunction}
+      />
       <Route exact={true} path="/toliman/lecture/B1C1" component={route.B1C1} />
       <Route exact={true} path="/toliman/lecture/B1C2" component={route.B1C2} />
       <Route exact={true} path="/toliman/lecture/B1C3" component={route.B1C3} />
