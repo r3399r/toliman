@@ -39,7 +39,7 @@ const Home = () => {
     const res: Question | undefined = getQuestion(inputId);
 
     if (inputId === '') setId('');
-    else if (res === undefined) alert(`ID: ${inputId} 不存在`);
+    else if (res === undefined) alert(`id: ${inputId} 不存在`);
     else {
       setId(inputId);
       setChapter(res.chapter);
