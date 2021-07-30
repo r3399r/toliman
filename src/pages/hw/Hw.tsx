@@ -22,7 +22,7 @@ const Hw = () => {
     <div className={style.content}>
       <GridWith2Col>
         {getQuestions(ids).map((q: Question, i: number) => {
-          if (q === undefined) return <div key={`error${i}`}>ERROR! id at {i} does not exists</div>;
+          if (q === undefined) return <div key={`error${i}`}>ERROR! ID at {i} does not exists</div>;
 
           return (
             <div key={q.id} className={style.qqq}>
