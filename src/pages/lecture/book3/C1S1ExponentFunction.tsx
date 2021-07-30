@@ -112,7 +112,7 @@ const C1S1ExponentFunction = () => {
           />
         </Concept>
         <Example num={9} ids={['17ae0ca8ec4', '17ae0cb5a82']} height="8.3cm" />
-        <Example num={10} ids={['17ae0cc95b8', '17ae0cb5a82']} height="8.3cm" />
+        <Example num={10} ids={['17ae0cc95b8', '17ae0cc95b9']} height="8.3cm" />
       </Page>
       <Page pageNum={7}>
         <Example num={11} ids={['17ae0cf60fe', '17ae0d2130e']} />
