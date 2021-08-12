@@ -68,7 +68,7 @@ const C1S1ExponentFunction = () => {
             text={'1. 上下平移：如 $$y=2^x$$ 的圖形向上移 $$5$$ 單位為 $$y=2^x+5$$'}
           />
           <Textarea2MathJax
-            text={'2. 上下伸縮：如 $$y=2^x$$ 的圖形向上下身長 $$3$$ 倍為 $$y=3\\times2^x$$'}
+            text={'2. 上下伸縮：如 $$y=2^x$$ 的圖形向上下伸長 $$3$$ 倍為 $$y=3\\times2^x$$'}
           />
           <Textarea2MathJax
             text={'3. 左右平移：如 $$y=2^x$$ 的圖形向左移 $$1$$ 單位為 $$y=2^{x+1}$$ (右減左加)'}
