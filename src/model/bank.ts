@@ -7188,6 +7188,13 @@ export const bank: Question[] = [
     hasImage: false,
   },
   {
+    id: '17ae0cc95b9',
+    chapter: '指數與對數函數',
+    question: '若 $$9^x+3=4\\cdot3^x$$，求 $$x$$。',
+    answer: '$$0$$ 或 $$1$$',
+    hasImage: false,
+  },
+  {
     id: '17ae0cf60fe',
     chapter: '指數與對數函數',
     question: '若 $$\\frac{4^x}{32}<8\\sqrt{2}<\\frac{1}{128^{-x}}$$，求 $$x$$ 的範圍。',
