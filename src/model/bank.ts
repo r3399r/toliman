@@ -7674,4 +7674,92 @@ export const bank: Question[] = [
     answer: '$$10.2$$',
     hasImage: false,
   },
+  {
+    id: '17b476c2e8f',
+    chapter: '指數與對數函數',
+    question: '若 $$\\log_\\frac{3}{2}x=2$$，求 $$x$$。',
+    answer: '$$\\frac{9}{4}$$',
+    hasImage: false,
+  },
+  {
+    id: '17b476efa37',
+    chapter: '指數與對數函數',
+    question:
+      '試計算下列各式：\n(1) $$\\log_24\\sqrt{2}$$\n(2) $$\\log_9243$$\n(3) $$\\log\\sqrt{100000}$$\n(4) $$\\log_\\frac{3}{2}\\frac{2}{3}$$\n(5) $$\\log_\\frac{1}{2}32$$\n(6) $$\\log_\\frac{1}{4}\\sqrt{2}$$',
+    answer:
+      '(1) $$\\frac{5}{2}$$ (2) $$\\frac{5}{2}$$ (3) $$\\frac{5}{2}$$ (4) $$-1$$ (5) $$-5$$ (6) $$-\\frac{1}{4}$$',
+    hasImage: false,
+  },
+  {
+    id: '17b476fd22f',
+    chapter: '指數與對數函數',
+    question: '化簡 $$\\log_2(\\log_2(\\log_381))。',
+    answer: '$$1$$',
+    hasImage: false,
+  },
+  {
+    id: '17b4770ccb0',
+    chapter: '指數與對數函數',
+    question: '化簡 $$\\log_2\\sqrt{\\frac{7}{48}}+\\log_212-\\frac{1}{2}\\log_242$$。',
+    answer: '$$-\\frac{1}{2}$$',
+    hasImage: false,
+  },
+  {
+    id: '17b4771c7a2',
+    chapter: '指數與對數函數',
+    question:
+      '化簡 $$\\log\\frac{2}{1}+\\log\\frac{3}{2}+\\log\\frac{4}{3}+\\cdots+\\log\\frac{1000}{999}$$。',
+    answer: '$$3$$',
+    hasImage: false,
+  },
+  {
+    id: '17b4773ba58',
+    chapter: '指數與對數函數',
+    question:
+      '化簡 $$\\log_{2\\sqrt{2}}\\sqrt[3]{128}+\\log_{9\\sqrt{3}}\\frac{\\sqrt[4]{3}}{81}$$。',
+    answer: '$$\\frac{1}{18}$$',
+    hasImage: false,
+  },
+  {
+    id: '17b4774c614',
+    chapter: '指數與對數函數',
+    question: '化簡 $$\\log_\\frac{1}{2}(\\sqrt{7+\\sqrt{40}}-\\sqrt{7-\\sqrt{40}})。',
+    answer: '$$-\\frac{3}{2}$$',
+    hasImage: false,
+  },
+  {
+    id: '17b4775f06c',
+    chapter: '指數與對數函數',
+    question: '化簡 $$\\log_3(\\log_{0.3}(\\log_9(3^{0.054})))$$。',
+    answer: '$$1$$',
+    hasImage: false,
+  },
+  {
+    id: '17b477688af',
+    chapter: '指數與對數函數',
+    question: '化簡 $$\\frac{2\\log2+\\log3}{1+\\frac{1}{2}\\log0.36+\\frac{1}{3}\\log8}$$。',
+    answer: '$$1$$',
+    hasImage: false,
+  },
+  {
+    id: '17b47775bca',
+    chapter: '指數與對數函數',
+    question: '化簡 $$\\log_2(\\log_249)+2\\log_4(\\log_74)$$。',
+    answer: '$$2$$',
+    hasImage: false,
+  },
+  {
+    id: '17b477872d6',
+    chapter: '指數與對數函數',
+    question: '化簡 $$\\log_43\\cdot\\log_925\\cdot\\log_58$$。',
+    answer: '$$\\frac{3}{2}$$',
+    hasImage: false,
+  },
+  {
+    id: '17b47798547',
+    chapter: '指數與對數函數',
+    question: '化簡 $$10^{\\log(\\log5)+\\log(1+\\log_520)}$$。',
+    answer: '$$2$$',
+    hasImage: false,
+  },
 ];
