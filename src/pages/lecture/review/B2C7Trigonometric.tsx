@@ -5,7 +5,7 @@ import Example from 'src/pages/lecture/component/Example';
 import Exercise from 'src/pages/lecture/component/Exercise';
 import Page from 'src/pages/lecture/component/Page';
 
-const B1C7Trigonometric = () => {
+const B2C7Trigonometric = () => {
   return (
     <div>
       <Page pageNum={32}>
@@ -151,4 +151,4 @@ const B1C7Trigonometric = () => {
   );
 };
 
-export default B1C7Trigonometric;
+export default B2C7Trigonometric;

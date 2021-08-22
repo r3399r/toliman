@@ -34,7 +34,7 @@ const Lecture = () => {
       <div className={style.button}>
         <Button onClick={onClick('logarithmFunction')}>3 對數函數及其應用</Button>
       </div>
-      學測複習 B1
+      學測複習
       <div className={style.button}>
         <Button onClick={onClick('B1C1')}>Ch1 數與式</Button>
       </div>
@@ -45,16 +45,19 @@ const Lecture = () => {
         <Button onClick={onClick('B1C3')}>Ch3 直線與圓</Button>
       </div>
       <div className={style.button}>
-        <Button onClick={onClick('B1C4')}>Ch4 數列級數</Button>
+        <Button onClick={onClick('B2C4')}>Ch4 數列級數</Button>
       </div>
       <div className={style.button}>
-        <Button onClick={onClick('B1C5')}>Ch5 數據分析</Button>
+        <Button onClick={onClick('B2C5')}>Ch5 數據分析</Button>
       </div>
       <div className={style.button}>
-        <Button onClick={onClick('B1C6')}>Ch6 排列組合與機率</Button>
+        <Button onClick={onClick('B2C6')}>Ch6 排列組合與機率</Button>
       </div>
       <div className={style.button}>
-        <Button onClick={onClick('B1C7')}>Ch7 三角比</Button>
+        <Button onClick={onClick('B2C7')}>Ch7 三角比</Button>
+      </div>
+      <div className={style.button}>
+        <Button onClick={onClick('B3C8')}>Ch8 三角函數</Button>
       </div>
     </div>
   );

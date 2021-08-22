@@ -7762,4 +7762,139 @@ export const bank: Question[] = [
     answer: '$$2$$',
     hasImage: false,
   },
+  {
+    id: '17b64a843b2',
+    chapter: '三角函數A',
+    question:
+      '車輪的半徑為 $$40$$ 公分，若輪軸轉動使軸心前進 $$20$$ 公尺，求車輪繞軸心轉動的角為多少弳？換算成角度為多少度？',
+    answer: '$$50$$；$$\\frac{9000}{\\pi}$$',
+    hasImage: false,
+  },
+  {
+    id: '17b64ab243b',
+    chapter: '三角函數A',
+    question:
+      '已知 $$\\pi\\approx3.14$$，$$\\sqrt{\\pi}\\approx1.77$$，試問：\n(1) 有向角 $$\\pi^2$$ 弳是第幾象限角？\n(2) 有向角 $$\\sqrt{\\pi}$$ 弳是第幾象限角？',
+    answer: '(1) 三 (2) 二',
+    hasImage: false,
+  },
+  {
+    id: '17b64ae2615',
+    chapter: '三角函數A',
+    question: '若扇形的弧長為 $$4$$ 單位，面積為 $$3$$ 平方單位，求此扇形的半徑、中心角。',
+    answer: '$$\\frac{3}{2}$$；$$\\frac{8}{3}$$ 弳',
+    hasImage: false,
+  },
+  {
+    id: '17b64af334b',
+    chapter: '三角函數A',
+    question: '設鐘面的分針長度是時針的 $$2$$ 倍，經過一小時後，分針掃過的扇形面積是時針的幾倍？',
+    answer: '$$48$$',
+    hasImage: false,
+  },
+  {
+    id: '17b64b61b0b',
+    chapter: '三角函數A',
+    question:
+      '已知 $$\\theta$$ 與 $$\\phi$$ 為銳角，若 $$\\sin\\theta=\\frac{3}{5}$$，$$\\cos\\phi=\\frac{5}{13}$$，求 $$\\sin(\\theta+\\phi)$$、$$\\cos(\\theta-\\phi)$$。',
+    answer: '$$\\frac{63}{65}$$；略',
+    hasImage: false,
+  },
+  {
+    id: '17b64b76a9c',
+    chapter: '三角函數A',
+    question: '若 $$\\tan A=5$$，$$\\tan B=-3$$，求 $$\\tan(A+B)$$。',
+    answer: '$$\\frac{1}{8}$$',
+    hasImage: false,
+  },
+  {
+    id: '17b6d04948c',
+    chapter: '指數與對數函數',
+    question: '化簡 $$\\log_23\\cdot\\log_764\\cdot\\log_35\\cdot\\log_{5}49$$。',
+    answer: '$$12$$',
+    hasImage: false,
+  },
+  {
+    id: '17b6d058070',
+    chapter: '指數與對數函數',
+    question: '化簡 $$(\\log_25+\\log_40.2)(\\log_52+\\log_{25}0.5)$$。',
+    answer: '$$\\frac{1}{4}$$',
+    hasImage: false,
+  },
+  {
+    id: '17b6d06bf94',
+    chapter: '指數與對數函數',
+    question:
+      '化簡 $$2\\log\\frac{5}{3}-\\log\\frac{7}{4}+2\\log3+\\frac{1}{2}\\log49+9^{\\log_32}$$。',
+    answer: '$$6$$',
+    hasImage: false,
+  },
+  {
+    id: '17b6d08358d',
+    chapter: '指數與對數函數',
+    question:
+      '請利用 $$\\log2\\approx0.301$$，$$\\log3\\approx0.477$$ 估計 $$\\log_{12}54$$ 之近似值至小數點後第三位。',
+    answer: '$$1.605$$',
+    hasImage: false,
+  },
+  {
+    id: '17b6d09515d',
+    chapter: '指數與對數函數',
+    question:
+      '請利用 $$\\log2\\approx0.301$$，$$\\log7\\approx0.845$$ 估計 $$\\log_{28}350$$ 之近似值至小數點後第二位。',
+    answer: '$$1.76$$',
+    hasImage: false,
+  },
+  {
+    id: '17b6d0af5c2',
+    chapter: '指數與對數函數',
+    question:
+      '下列各數哪些為正數？\n(1) $$\\sqrt{2}-\\sqrt[3]{2}$$\n(2) $$\\log_23-1$$\n(3) $$\\log_32-1$$\n(4) $$\\log_\\frac{1}{2}3$$\n(5) $$\\log_\\frac{1}{3}\\frac{1}{2}$$',
+    answer: '(1)(2)(5)',
+    hasImage: false,
+  },
+  {
+    id: '17b6d0c7079',
+    chapter: '指數與對數函數',
+    question:
+      '設 $$a,b,c\\in\\mathbb{N}$$，若 $$a\\log_{520}2+b\\log_{520}5+c\\log_{520}13=3$$，求 $$a+b+c$$。',
+    answer: '$$15$$',
+    hasImage: false,
+  },
+  {
+    id: '17b6d0d6a5e',
+    chapter: '指數與對數函數',
+    question: '化簡 $$243^{\\frac{\\log2}{\\log3}}$$。',
+    answer: '$$32$$',
+    hasImage: false,
+  },
+  {
+    id: '17b6d0f523f',
+    chapter: '指數與對數函數',
+    question: '化簡 $$9^{\\log_\\sqrt{3}2}+3^{\\frac{2}{\\log_53}}$$。',
+    answer: '$$41$$',
+    hasImage: false,
+  },
+  {
+    id: '17b6d109ae1',
+    chapter: '指數與對數函數',
+    question: '若 $$\\log_32=a$$，以 $$a$$ 表示 $$\\log_23$$、$$\\log_318$$。',
+    answer: '$$\\frac{1}{a}$$；$$2+a$$',
+    hasImage: false,
+  },
+  {
+    id: '17b6d122a39',
+    chapter: '指數與對數函數',
+    question: '若 $$\\log_23=a$$，$$\\log_311=b$$，試以 $$a$$、$$b$$ 表示 $$\\log_{66}99$$。',
+    answer: '$$\\frac{2a+ab}{1+a+ab}$$',
+    hasImage: false,
+  },
+  {
+    id: '17b6d139eb5',
+    chapter: '指數與對數函數',
+    question:
+      '已知 $$\\log2\\approx0.301$$，試比較 $$\\log_{0.2}0.5$$、$$\\log_25$$、$$\\log_{20}50$$ 的大小。',
+    answer: '$$\\log_25>\\log_{20}50>\\log_{0.2}0.5$$',
+    hasImage: false,
+  },
 ];

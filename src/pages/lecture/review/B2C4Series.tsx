@@ -5,7 +5,7 @@ import Example from 'src/pages/lecture/component/Example';
 import Exercise from 'src/pages/lecture/component/Exercise';
 import Page from 'src/pages/lecture/component/Page';
 
-const B1C4Series = () => {
+const B2C4Series = () => {
   return (
     <div>
       <Page pageNum={1}>
@@ -84,4 +84,4 @@ const B1C4Series = () => {
   );
 };
 
-export default B1C4Series;
+export default B2C4Series;

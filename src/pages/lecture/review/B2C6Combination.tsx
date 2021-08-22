@@ -5,7 +5,7 @@ import Example from 'src/pages/lecture/component/Example';
 import Exercise from 'src/pages/lecture/component/Exercise';
 import Page from 'src/pages/lecture/component/Page';
 
-const B1C6Combination = () => {
+const B2C6Combination = () => {
   return (
     <div>
       <Page pageNum={16}>
@@ -200,4 +200,4 @@ const B1C6Combination = () => {
   );
 };
 
-export default B1C6Combination;
+export default B2C6Combination;

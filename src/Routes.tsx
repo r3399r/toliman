@@ -19,10 +19,11 @@ const route = {
   B1C1: loadable(() => import('./pages/lecture/review/B1C1Numbers')),
   B1C2: loadable(() => import('./pages/lecture/review/B1C2Polynomial')),
   B1C3: loadable(() => import('./pages/lecture/review/B1C3LineAndCircle')),
-  B1C4: loadable(() => import('./pages/lecture/review/B1C4Series')),
-  B1C5: loadable(() => import('./pages/lecture/review/B1C5DataAnalysis')),
-  B1C6: loadable(() => import('./pages/lecture/review/B1C6Combination')),
-  B1C7: loadable(() => import('./pages/lecture/review/B1C7Trigonometric')),
+  B2C4: loadable(() => import('./pages/lecture/review/B2C4Series')),
+  B2C5: loadable(() => import('./pages/lecture/review/B2C5DataAnalysis')),
+  B2C6: loadable(() => import('./pages/lecture/review/B2C6Combination')),
+  B2C7: loadable(() => import('./pages/lecture/review/B2C7Trigonometric')),
+  B3C8: loadable(() => import('./pages/lecture/review/B3C8TrigonometricFunction')),
 };
 
 const AppRoutes = () => {
@@ -51,10 +52,11 @@ const AppRoutes = () => {
       <Route exact={true} path="/toliman/lecture/B1C1" component={route.B1C1} />
       <Route exact={true} path="/toliman/lecture/B1C2" component={route.B1C2} />
       <Route exact={true} path="/toliman/lecture/B1C3" component={route.B1C3} />
-      <Route exact={true} path="/toliman/lecture/B1C4" component={route.B1C4} />
-      <Route exact={true} path="/toliman/lecture/B1C5" component={route.B1C5} />
-      <Route exact={true} path="/toliman/lecture/B1C6" component={route.B1C6} />
-      <Route exact={true} path="/toliman/lecture/B1C7" component={route.B1C7} />
+      <Route exact={true} path="/toliman/lecture/B2C4" component={route.B2C4} />
+      <Route exact={true} path="/toliman/lecture/B2C5" component={route.B2C5} />
+      <Route exact={true} path="/toliman/lecture/B2C6" component={route.B2C6} />
+      <Route exact={true} path="/toliman/lecture/B2C7" component={route.B2C7} />
+      <Route exact={true} path="/toliman/lecture/B3C8" component={route.B3C8} />
 
       <Route exact={true} path="/toliman/hw" component={route.Hw} />
       <Route exact={true} path="/toliman" component={route.Home} />

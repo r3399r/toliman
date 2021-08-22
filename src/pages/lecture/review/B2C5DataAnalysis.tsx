@@ -5,7 +5,7 @@ import Example from 'src/pages/lecture/component/Example';
 import Exercise from 'src/pages/lecture/component/Exercise';
 import Page from 'src/pages/lecture/component/Page';
 
-const B1C5DataAnalysis = () => {
+const B2C5DataAnalysis = () => {
   return (
     <div>
       <Page pageNum={8}>
@@ -142,4 +142,4 @@ const B1C5DataAnalysis = () => {
   );
 };
 
-export default B1C5DataAnalysis;
+export default B2C5DataAnalysis;
