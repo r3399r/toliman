@@ -7897,4 +7897,409 @@ export const bank: Question[] = [
     answer: '$$\\log_25>\\log_{20}50>\\log_{0.2}0.5$$',
     hasImage: false,
   },
+  {
+    id: '17b738a20a1',
+    chapter: '三角函數A',
+    question:
+      '若 $$\\sin\\theta=\\frac{3}{5}$$，$$90^\\circ<\\theta<180^\\circ$$，求 $$\\sin2\\theta$$、$$\\cos2\\theta$$、$$\\tan2\\theta$$。',
+    answer: '$$-\\frac{24}{25}$$；$$\\frac{7}{25}$$；$$-\\frac{24}{7}$$',
+    hasImage: false,
+  },
+  {
+    id: '17b738c5a2e',
+    chapter: '三角函數A',
+    question:
+      '圖是由三個直角三角形堆疊而成的圖形，且 $$\\overline{OD}=8$$，求 $$\\overline{AB}$$。',
+    answer: '$$\\sqrt{3}$$',
+    hasImage: true,
+  },
+  {
+    id: '17b7392533f',
+    chapter: '三角函數A',
+    question: '求 $$\\sin22.5^\\circ$$、$$\\cos22.5^\\circ$$。',
+    answer: '$$\\frac{\\sqrt{2-\\sqrt{2}}}{2}$$；$$\\frac{\\sqrt{2+\\sqrt{2}}}{2}$$',
+    hasImage: false,
+  },
+  {
+    id: '17b73936315',
+    chapter: '三角函數A',
+    question: '求 $$\\tan15^\\circ$$。',
+    answer: '$$2-\\sqrt{3}$$',
+    hasImage: false,
+  },
+  {
+    id: '17b7395c7e2',
+    chapter: '三角函數A',
+    question: '若 $$\\sin\\theta=-\\frac{1}{3}$$，求 $$\\sin3\\theta$$。',
+    answer: '$$-\\frac{23}{27}$$',
+    hasImage: false,
+  },
+  {
+    id: '17b7396db1b',
+    chapter: '三角函數A',
+    question:
+      '化簡 $$\\frac{\\sin51^\\circ}{\\sin17^\\circ}-\\frac{\\cos51^\\circ}{\\cos17^\\circ}$$。',
+    answer: '$$2$$',
+    hasImage: false,
+  },
+  {
+    id: '17b739bf1ba',
+    chapter: '三角函數A',
+    question:
+      '下列哪些函數可找到平行 $$y$$ 軸的直線，做為函數圖形的對稱軸？\n(1) $$y=x^2$$ (2) $$y=x^3$$ (3) $$y=\\sin x$$\n(4) $$y=\\cos x$$ (5) $$y=\\tan x$$',
+    answer: '(1)(3)(4)',
+    hasImage: false,
+  },
+  {
+    id: '17b739d3ece',
+    chapter: '三角函數A',
+    question: '函數 $$y=\\cos x$$ 的圖形與直線 $$y=\\frac{x}{2\\pi}$$ 共有幾個交點？',
+    answer: '$$5$$',
+    hasImage: false,
+  },
+  {
+    id: '17b73a6f1c5',
+    chapter: '三角函數A',
+    question:
+      '求 $$y=2\\sin x+3$$ 的圖形與 $$x=\\frac{\\pi}{2}$$、$$x=\\frac{3\\pi}{2}$$、$$x$$ 軸圍成的區域面積。',
+    answer: '$$3\\pi$$',
+    hasImage: false,
+  },
+  {
+    id: '17b73a9657d',
+    chapter: '三角函數A',
+    question:
+      '函數 $$f(x)=3\\cos\\left(5x+\\frac{\\pi}{3}\\right)-1$$ 的週期為？最大函數值為？最小函數值為？$$f(x)$$ 的圖形可由 $$y=3\\cos5x$$ 向左移 $$a$$ 再向下移 $$b$$ 而得，求 $$(a,b)$$。',
+    answer: '$$\\frac{2\\pi}{5}$$；$$2$$；$$-4$$；$$\\left(\\frac{\\pi}{15},1\\right)',
+    hasImage: false,
+  },
+  {
+    id: '17b741d382b',
+    chapter: '三角函數A',
+    question:
+      '$$f(x)=\\sin x-\\sqrt{3}\\cos x=a\\sin(x+k)$$，其中 $$a>0$$ 且 $$0\\le k<2\\pi$$，求 $$a$$、$$k$$。若 $$0\\le x\\le\\pi$$，求 $$f(x)$$ 的最大值與最小值。',
+    answer: '$$2$$；$$\\frac{5\\pi}{3}$$；$$2$$；$$-\\sqrt{3}$$',
+    hasImage: false,
+  },
+  {
+    id: '17b7420b612',
+    chapter: '三角函數A',
+    question:
+      '$$f(x)=-5\\sin x+12\\cos x$$，$$x\\in\\mathbb{R}$$，求：\n(1) $$f(x)$$ 的最大值、及此時的 $$\\sin x$$、$$\\cos x$$\n(2) $$f(x)$$ 的最小值、及此時的 $$\\sin x$$、$$\\cos x$$',
+    answer:
+      '(1) $$13$$；$$\\frac{-5}{13}$$；$$\\frac{12}{13}$$ (2) $$-13$$；$$\\frac{5}{13}$$；$$\\frac{-12}{13}$$',
+    hasImage: false,
+  },
+  {
+    id: '17b742931cf',
+    chapter: '三角函數A',
+    question:
+      "將地球視為一個球體，在航海學中將赤道上與地心夾角為 $$1'$$ 的 $$A$$、$$B$$ 兩地間的距離 (即 $$\\overset{\\frown}{AB}$$ 弧長) 定為「$$1$$ 浬」，若地球半徑為 $$6400$$ 公里，得 $$1$$ 浬為 $$t\\times\\pi$$ 公里，求 $$t$$。",
+    answer: '$$\\frac{16}{27}$$',
+    hasImage: false,
+  },
+  {
+    id: '17b742d3338',
+    chapter: '三角函數A',
+    question:
+      '有一扇形，其半徑為 $$5$$ 公分，中心角為 $$\\theta$$，經過計算，發現該扇形的周長為 $$k$$ 公分，面積為 $$k$$ 平方公分，兩者的數字大小恰好相等，則 $$\\theta$$ 應介於下列哪一個範圍之內？\n(1) $$75^\\circ<\\theta<76^\\circ$$ (2) $$76^\\circ<\\theta<77^\\circ$$\n(3) $$77^\\circ<\\theta<78^\\circ$$ (4) $$78^\\circ<\\theta<79^\\circ$$\n(5) $$79^\\circ<\\theta<80^\\circ$$',
+    answer: '(2)',
+    hasImage: false,
+  },
+  {
+    id: '17b7439275c',
+    chapter: '三角函數A',
+    question:
+      '令 $$a=\\cos\\pi^2$$，試問下列何者正確？\n(1) $$a=-1$$ (2) $$-1<a\\le-\\frac{1}{2}$$\n(3) $$-\\frac{1}{2}<a\\le0$$ (4) $$0<a\\le\\frac{1}{2}$$\n(5) $$\\frac{1}{2}<a\\le1$$',
+    answer: '(2)',
+    hasImage: false,
+  },
+  {
+    id: '17b743be7ea',
+    chapter: '三角函數A',
+    question:
+      '弧度 $$\\theta=1,2,3,4,5,6,7,8,9,10$$ 共有十個有向角，試問其中有幾個可使 $$\\sin\\theta>0$$ 且 $$\\sin2\\theta<0$$？',
+    answer: '$$4$$ 個',
+    hasImage: false,
+  },
+  {
+    id: '17b743f2946',
+    chapter: '三角函數A',
+    question:
+      '已知 $$A$$ 與 $$B$$ 均為有向角，滿足 $$\\sin A=\\frac{4}{5}$$，$$\\sin B=\\frac{12}{13}$$，則下列關於兩角和 $$A+B$$ 的敘述，哪些正確？\n(1) $$A+B$$ 可為第一象限角\n(2) $$A+B$$ 可為第二象限角\n(3) $$A+B$$ 可為第三象限角\n(4) $$A+B$$ 可為第四象限角\n(5) $$A+B$$ 的終邊可落在坐標軸上',
+    answer: '(2)(3)',
+    hasImage: false,
+  },
+  {
+    id: '17b74415bfb',
+    chapter: '三角函數A',
+    question:
+      '在 $$\\triangle ABC$$ 中，已知 $$2\\sin A+3\\cos B=\\sqrt{5}$$ 且 $$3\\sin B+2\\cos A=2\\sqrt{5}$$，求 $$\\angle C$$。',
+    answer: '$$90^\\circ$$',
+    hasImage: false,
+  },
+  {
+    id: '17b7e1d24b8',
+    chapter: '三角函數A',
+    question:
+      '設銳角三角形 $$ABC$$ 的外接圓半徑為 $$8$$。已知外接圓圓心到 $$\\overline{AB}$$ 的距離為 $$2$$，而到 $$\\overline{BC}$$ 的距離為 $$7$$，求 $$\\overline{AC}$$。',
+    answer: '$$4\\sqrt{15}$$',
+    hasImage: false,
+  },
+  {
+    id: '17b7e2314d6',
+    chapter: '三角函數A',
+    question:
+      '在 $$\\triangle ABC$$ 中，$$D$$ 為 $$\\overline{BC}$$ 邊上一點且 $$\\overline{AD}$$ 平分 $$\\angle BAC$$。已知 $$\\overline{BD}=5$$，$$\\overline{DC}=7$$，且 $$\\angle ABC=60^\\circ$$，求：\n(1) $$\\sin\\angle ACB$$ (2) $$\\sin\\angle BAC$$ (3) $$\\overline{AB}$$',
+    answer: '(1) $$\\frac{5\\sqrt{3}}{14}$$ (2) $$\\frac{4\\sqrt{3}}{7}$$ (3) $$\\frac{15}{2}$$',
+    hasImage: false,
+  },
+  {
+    id: '17b7e251b1f',
+    chapter: '三角函數A',
+    question:
+      '已知 $$\\triangle ABC$$ 中，$$\\overline{AB}=2$$，$$\\overline{BC}=3$$，且 $$\\angle A=2\\angle C$$，求 $$\\overline{AC}$$。',
+    answer: '$$\\frac{5}{2}$$',
+    hasImage: false,
+  },
+  {
+    id: '17b7e281805',
+    chapter: '三角函數A',
+    question:
+      '坐標平面上﹑以原點 $$O$$ 為圓心的圓上有三個相異點 $$A(1,0)$$、$$B$$、$$C$$，且 $$\\overline{AB}=\\overline{BC}$$。已知銳角 $$\\triangle OAB$$ 的面積為 $$\\frac{3}{10}$$，求 $$\\triangle OAC$$ 面積。',
+    answer: '$$\\frac{12}{25}$$',
+    hasImage: false,
+  },
+  {
+    id: '17b7e3099e8',
+    chapter: '三角函數A',
+    question:
+      '在一個無風的夜晚，祈福天燈從地面的 $$A$$ 點冉冉升起，$$1$$ 秒鐘後升至 $$B$$ 點，再花 $$1$$ 秒鐘升至 $$C$$ 點，再花 $$1$$ 秒鐘升至 $$D$$ 點。在離 $$A$$ 點 $$9$$ 公尺遠的 $$P$$ 點處觀察，發現 $$\\angle APB=\\angle BPC=\\angle CPD$$，且 $$\\overline{AB}=3$$ 公尺，求升起 $$3$$ 秒後的高度 $$\\overline{AD}$$。',
+    answer: '$$13$$ 公尺',
+    hasImage: true,
+  },
+  {
+    id: '17b7e33f865',
+    chapter: '三角函數A',
+    question:
+      '設 $$\\triangle ABC$$ 為一等腰直角三角形，$$\\angle BAC=90^\\circ$$，若 $$P$$、$$Q$$ 為斜邊 $$\\overline{BC}$$ 的三等分點，求 $$\\tan\\angle PAQ$$。',
+    answer: '$$\\frac{3}{4}$$',
+    hasImage: false,
+  },
+  {
+    id: '17b7e3e015b',
+    chapter: '三角函數A',
+    question:
+      '設 $$f(x)=2\\sin(kx+\\theta)$$，其中 $$x$$ 為任何實數，$$0\\le\\theta\\le\\frac{\\pi}{2}$$，$$k>0$$，若 $$f(x)$$ 的圖形與 $$y$$ 軸交於點 $$(0,1)$$，如圖，求 $$\\theta$$。若 $$P$$ 是圖形最高點，$$M$$、$$N$$ 是圖形與 $$x$$ 軸的交點，$$M$$ 的坐標為 $$\\left(-\\frac{1}{5},0\\right)$$，求 $$\\triangle PMN$$ 面積。',
+    answer: '$$\\frac{\\pi}{6}$$；$$\\frac{6\\pi}{5}$$',
+    hasImage: true,
+  },
+  {
+    id: '17b7e414060',
+    chapter: '三角函數A',
+    question:
+      '函數 $$f(x)=a\\cos(bx+c)+d$$ 的圖形如圖，其中 $$a,b>0$$，點 $$(2,3)$$ 為波峰的頂點，點 $$(20,-1)$$ 為波谷的頂點，求 $$(a,b,d)$$。$$c$$ 值有無限種可能，若 $$c$$ 為最小正數，求 $$c$$。',
+    answer: '$$\\left(2,\\frac{\\pi}{2},1\\right)$$；$$\\pi$$',
+    hasImage: true,
+  },
+  {
+    id: '17b7e45604e',
+    chapter: '三角函數A',
+    question:
+      '試問在 $$0\\le x\\le2\\pi$$ 的範圍中，$$y=3\\sin x$$ 的函數圖形與 $$y=2\\sin2x$$ 的函數圖形有幾個交點？',
+    answer: '$$5$$',
+    hasImage: false,
+  },
+  {
+    id: '17b7e4c391e',
+    chapter: '三角函數A',
+    question:
+      '關於坐標平面上函數 $$y=\\sin x$$ 的圖形和 $$y=\\frac{x}{10\\pi}$$ 的圖形之交點個數，下列哪一個選項是正確的？\n(1) 交點的個數是無窮多\n(2) 交點的個數是奇數且大於 $$20$$\n(3) 交點的個數是奇數且小於 $$20$$\n(4) 交點的個數是偶數且大於或等於 $$20$$\n(5) 交點的個數是偶數且小於 $$20$$',
+    answer: '(3)',
+    hasImage: false,
+  },
+  {
+    id: '17b7e4f1e51',
+    chapter: '三角函數A',
+    question:
+      '函數 $$f(x)=\\sqrt{3}\\sin x+\\cos x$$，$$x$$ 的範圍為 $$\\alpha\\le x\\le\\beta$$，其中 $$0<\\alpha,\\beta<2\\pi$$，已知 $$f(x)$$ 的最小值為 $$-1$$，最大值為 $$\\sqrt{2}$$，求 $$(\\alpha,\\beta)$$。',
+    answer: '$$\\left(\\frac{7\\pi}{12},\\pi\\right)$$',
+    hasImage: false,
+  },
+  {
+    id: '17b7e5131d7',
+    chapter: '三角函數A',
+    question:
+      '$$x\\in\\mathbb{R}$$，求 $$f(x)=(2\\sin x+3\\cos x)^2$$$$+4(2\\sin x+3\\cos x)+1$$ 的最大值與最小值。',
+    answer: '$$14+4\\sqrt{13}$$；$$-3$$',
+    hasImage: false,
+  },
+  {
+    id: '17b82e42744',
+    chapter: '指數與對數函數',
+    question:
+      '坐標平面上，在函數圖形 $$y=2^x$$ 上，標示 $$A$$、$$B$$、$$C$$、$$D$$ 四個點，其 $$x$$ 坐標分別為 $$-1$$、$$0$$、$$1$$、$$2$$。請選出正確的選項。\n(1) 點 $$B$$ 落在直線 $$AC$$ 下方\n(2) 在 $$\\overleftrightarrow{AB}$$、$$\\overleftrightarrow{BC}$$、$$\\overleftrightarrow{CD}$$、$$\\overleftrightarrow{CD}$$ 中，以 $$\\overleftrightarrow{CD}$$ 的斜率最大\n(3) $$A$$、$$B$$、$$C$$、$$D$$ 四點，以 $$B$$ 最靠近 $$x$$ 軸\n(4) $$y=2x$$ 與 $$y=2^x$$ 的圖形有兩個交點\n(5) 點 $$A$$ 與點 $$C$$ 對稱於 $$y$$ 軸',
+    answer: '(1)(2)(4)',
+    hasImage: false,
+  },
+  {
+    id: '17b82e9f8ad',
+    chapter: '指數與對數函數',
+    question:
+      '設 $$a>0$$ 且 $$a\\neq1$$，則 $$y=a^x$$ 的圖形與下列哪些直線必定會有交點？\n(1) $$x$$ 軸 (2) $$y$$ 軸 (3) $$y=0.0001$$\n(4) $$y=10000$$ (5) $$y=-1$$',
+    answer: '(2)(3)(4)',
+    hasImage: false,
+  },
+  {
+    id: '17b838818d6',
+    chapter: '指數與對數函數',
+    question: '$$y=3^x$$ 的圖形向左移 $$2$$ 再向下移 $$4$$，得到 $$y=f(x)$$ 的圖形，求 $$f(1)$$。',
+    answer: '$$23$$',
+    hasImage: false,
+  },
+  {
+    id: '17b838a2449',
+    chapter: '指數與對數函數',
+    question:
+      '$$y=2^x$$ 的圖形與下列哪一個選項的函數圖形不相交？\n(1) $$y=3^x$$ (2) $$y=3^x+1$$ (3) $$y=3^x-1$$\n(4) $$y=3^{x+1}$$ (5) $$y=3^{x-1}$$',
+    answer: '(4)',
+    hasImage: false,
+  },
+  {
+    id: '17b838e6907',
+    chapter: '指數與對數函數',
+    question: '方程式 $$3^{x-2}=\\left(\\frac{1}{9}\\right)^{x-5}$$，求 $$x$$。',
+    answer: '$$4$$',
+    hasImage: false,
+  },
+  {
+    id: '17b838fdeab',
+    chapter: '指數與對數函數',
+    question:
+      '設 $$x\\in\\mathbb{R}$$，若 $$\\frac{1}{8}\\le\\left(\\frac{1}{4}\\right)^{2x-1}\\le16$$ 的解為 $$a\\le x\\le b$$，求數對 $$(a,b)$$。',
+    answer: '$$\\left(-\\frac{1}{2},\\frac{5}{4}\\right)$$',
+    hasImage: false,
+  },
+  {
+    id: '17b8394a0da',
+    chapter: '指數與對數函數',
+    question: '求 (1) $$\\log_216$$ (2) $$\\log_3\\frac{1}{27}$$ (3) $$\\log_{25}5$$',
+    answer: '(1) $$4$$ (2) $$-3$$ (3) $$\\frac{1}{2}$$',
+    hasImage: false,
+  },
+  {
+    id: '17b8396d89b',
+    chapter: '指數與對數函數',
+    question:
+      '若 $$\\sqrt{2}^\\sqrt{3}=a$$，則下列哪些選項正確？\n(1) $$2^\\sqrt{3}=a^2$$ (2) $$\\sqrt{2}^3=a^2$$\n(3) $$\\sqrt{2}=\\log_\\sqrt{3}a$$ (4) $$\\sqrt{3}=\\log_\\sqrt{2}a$$\n(5) $$\\sqrt{3}=\\log_2\\sqrt{a}$$',
+    answer: '(1)(4)',
+    hasImage: false,
+  },
+  {
+    id: '17b839a6f76',
+    chapter: '指數與對數函數',
+    question:
+      '下列何者有意義？\n(1) $$\\log_11$$ (2) $$\\log_51$$ (3) $$\\log_2(-4)$$\n(4) $$\\log_{-2}4$$ (5) $$\\log_{-3}(-27)$$',
+    answer: '(2)',
+    hasImage: false,
+  },
+  {
+    id: '17b839dee39',
+    chapter: '指數與對數函數',
+    question:
+      '下列哪些選項的推論為真？\n(1) 由 $$(-2)^3=-8$$ 知 $$\\log_{-2}(-8)=3$$ 成立\n(2) 由 $$(-2)^4=16$$ 知 $$\\log_{-2}16=4$$ 成立\n(3) 由 $$2^{-4}=\\frac{1}{16}$$ 知 $$\\log_2\\frac{1}{16}=-4$$ 成立\n(4) 滿足 $$\\log_x3=2$$ 的 $$x$$ 會滿足 $$x^2=3$$\n(5) 滿足 $$x^2=3$$ 的 $$x$$ 會滿足 $$\\log_x3=2$$',
+    answer: '(3)(4)',
+    hasImage: false,
+  },
+  {
+    id: '17b83aa9f1b',
+    chapter: '指數與對數函數',
+    question: '求 (1) $$\\log_{10}25+\\log_{10}4$$ (2) $$\\log125-\\log\\frac{1}{8}$$',
+    answer: '(1) $$2$$ (2) $$3$$',
+    hasImage: false,
+  },
+  {
+    id: '17b83ad833a',
+    chapter: '指數與對數函數',
+    question:
+      '若 $$x,y>0$$ 滿足 $$\\log x=2.8$$，$$\\log y=5.6$$，則 $$\\log(x^2+y)$$ 最接近下列哪一個選項的值？($$\\log2\\approx0.3010$$)\n(1) $$2.8$$ (2) $$5.6$$ (3) $$5.9$$ (4) $$8.4$$ (5) $$11.2$$',
+    answer: '(3)',
+    hasImage: false,
+  },
+  {
+    id: '17b83af255b',
+    chapter: '指數與對數函數',
+    question: '求 $$\\log_23\\times\\log_349\\times\\log_716$$。',
+    answer: '$$8$$',
+    hasImage: false,
+  },
+  {
+    id: '17b83b03143',
+    chapter: '指數與對數函數',
+    question: '若 $$a=\\frac{3}{\\log_25}$$，求 $$25^a$$。',
+    answer: '$$64$$',
+    hasImage: false,
+  },
+  {
+    id: '17b83ba9624',
+    chapter: '指數與對數函數',
+    question:
+      '將 $$f(x)=\\log_2x$$、$$g(x)=\\log_5x$$、$$h(x)=\\log_{0.2}x$$、$$k(x)=\\log_{0.5}x$$ 的圖形畫在坐標平面上，請問 $$\\Gamma_3$$ 是哪一個函數的圖形？\n(1) $$f(x)$$ (2) $$g(x)$$ (3) $$h(x)$$ (4) $$k(x)$$',
+    answer: '(3)',
+    hasImage: true,
+  },
+  {
+    id: '17b83bf21ed',
+    chapter: '指數與對數函數',
+    question:
+      '坐標平面上，$$\\Gamma_1$$ 為 $$y=\\log_2x$$ 的圖形，$$\\Gamma_2$$ 為 $$y=\\log_\\frac{1}{2}x$$ 的圖形。下列關於 $$\\Gamma_1$$ 與 $$\\Gamma_2$$ 的敘述，試選出正確的選項。\n(1) $$\\Gamma_1$$ 的圖形凹口向下\n(2) $$\\Gamma_2$$ 的圖形凹口向下\n(3) $$\\Gamma_1$$ 的圖形均在 $$x$$ 軸的上方\n(4) $$\\Gamma_2$$ 的圖形均在 $$y$$ 軸的右方\n(5) $$\\Gamma_1$$ 與 $$\\Gamma_2$$ 恰交於一點',
+    answer: '(1)(4)(5)',
+    hasImage: false,
+  },
+  {
+    id: '17b83c5cb0a',
+    chapter: '指數與對數函數',
+    question:
+      '三角函數 $$y=\\sin x$$ 的圖形與下列哪一個對數函數的圖形有最多個交點？\n(1) $$y=\\log x+2$$ (2) $$y=\\log x+1$$\n(3) $$y=\\log x$$ (4) $$y=\\log x-1$$\n(5) $$y=\\log x-2$$',
+    answer: '(5)',
+    hasImage: false,
+  },
+  {
+    id: '17b83c84655',
+    chapter: '指數與對數函數',
+    question:
+      '$$f(x)=\\log_2x$$ 的圖形經過哪個選項的動作，可以變成：\n(a) $$g(x)=\\log_23x$$ 的圖形？(多選)\n(b) $$h(x)=\\log_2x^3$$ 的圖形？(單選)\n(1) 左右平移 (2) 上下平移\n(3) 左右伸縮 (4) 上下伸縮',
+    answer: '(a) (2)(3) (b) (4)',
+    hasImage: false,
+  },
+  {
+    id: '17b83cb16d1',
+    chapter: '指數與對數函數',
+    question: '方程式 $$\\log_9x^5+7\\log_\\frac{1}{3}x=18$$，求 $$x$$。',
+    answer: '$$\\frac{1}{81}$$',
+    hasImage: false,
+  },
+  {
+    id: '17b83cc07c7',
+    chapter: '指數與對數函數',
+    question: '不等式 $$\\log_2(x+1)<3$$，解為？',
+    answer: '$$-1<x<7$$',
+    hasImage: false,
+  },
+  {
+    id: '17b83d0155c',
+    chapter: '指數與對數函數',
+    question:
+      '設細菌的數量會以指數函數的方式成長，現有細菌 $$125$$ 個，若經過 $$2$$ 個小時候的細菌數為 $$8000$$ 個，求現在起算 $$20$$ 分鐘後的細菌數。',
+    answer: '$$250$$',
+    hasImage: false,
+  },
+  {
+    id: '17b83d31116',
+    chapter: '指數與對數函數',
+    question:
+      '化學家利用水溶液的氫離子濃度 $$[H^+]$$ 來定義酸鹼 $$pH$$ 值，公式為 $$pH=-\\log_{10}[H^+]$$。若甲溶液的氫離子濃度是乙溶液的 $$20$$ 倍，則甲溶液的 $$pH$$ 值比乙溶液的 $$pH$$ 值小，求兩者相減的差。($$\\log2\\approx0.3$$)',
+    answer: '$$1.3$$',
+    hasImage: false,
+  },
 ];

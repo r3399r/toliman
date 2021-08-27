@@ -59,6 +59,9 @@ const Lecture = () => {
       <div className={style.button}>
         <Button onClick={onClick('B3C8')}>Ch8 三角函數</Button>
       </div>
+      <div className={style.button}>
+        <Button onClick={onClick('B3C9')}>Ch9 指數函數與對數函數</Button>
+      </div>
     </div>
   );
 };
