@@ -6,18 +6,16 @@ import style from './Hw.module.scss';
 
 const Hw = () => {
   const ids: string[] = [
-    '17b6d04948c',
-    '17b6d058070',
-    '17b6d06bf94',
-    '17b6d08358d',
-    '17b6d09515d',
-    '17b6d0af5c2',
-    '17b6d0c7079',
-    '17b6d0d6a5e',
-    '17b6d0f523f',
-    '17b6d109ae1',
-    '17b6d122a39',
-    '17b6d139eb5',
+    '17a0f5dd109',
+    '17a1aff775f',
+    '17a2dbb5a10',
+    '17a50ca5eea',
+    '17a50e7342d',
+    '17a5605dcf4',
+    '17a5fc9a59d',
+    '17ac7258a05',
+    '17ac73b6777',
+    '17ad1a1d228',
   ];
 
   return (
@@ -37,7 +35,7 @@ const Hw = () => {
                 />
               )}
               <Textarea2MathJax text={`${i + 1}. ${q.question}`} />
-              <Textarea2MathJax text={`Ans: ${q.answer}`} className={style.ans} />
+              {/* <Textarea2MathJax text={`Ans: ${q.answer}`} className={style.ans} /> */}
             </div>
           );
         })}
