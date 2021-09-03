@@ -34,6 +34,16 @@ const Lecture = () => {
       <div className={style.button}>
         <Button onClick={onClick('logarithmFunction')}>3 對數函數及其應用</Button>
       </div>
+      第三冊 Ch2 三角函數
+      <div className={style.button}>
+        <Button onClick={onClick('radius')}>1 弧度、扇形與三角比</Button>
+      </div>
+      <div className={style.button}>
+        <Button onClick={onClick('trigonometricFormula')}>2 和差角與倍半角公式</Button>
+      </div>
+      <div className={style.button}>
+        <Button onClick={onClick('trigonometricFunction')}>3 三角函數的圖形與正餘弦疊合</Button>
+      </div>
       學測複習
       <div className={style.button}>
         <Button onClick={onClick('B1C1')}>Ch1 數與式</Button>

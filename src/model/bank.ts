@@ -8302,4 +8302,528 @@ export const bank: Question[] = [
     answer: '$$1.3$$',
     hasImage: false,
   },
+  {
+    id: '17ba25059e3',
+    chapter: '三角函數A',
+    question:
+      "將角度換成弧度：(1) $$150^\\circ$$ (2) $$18^\\circ24'$$\n將弧度換成角度：(3) $$\\frac{7\\pi}{6}$$ 弳 (4) $$3$$ 弳",
+    answer:
+      '(1) $$\\frac{5\\pi}{6}$$ (2) $$\\frac{23\\pi}{225}$$ (3) $$210^\\circ$$ (4) $$\\left(\\frac{540}{\\pi}\\right)^\\circ$$',
+    hasImage: false,
+  },
+  {
+    id: '17ba253c681',
+    chapter: '三角函數A',
+    question:
+      '將角度換成弧度：(1) $$24^\\circ$$ (2) $$160^\\circ$$\n將弧度換成角度：(3) $$\\frac{7\\pi}{5}$$ 弳 (4) $$10$$ 弳',
+    answer:
+      '(1) $$\\frac{2\\pi}{15}$$ (2) $$\\frac{8\\pi}{9}$$ (3) $$252^\\circ$$ (4) $$\\left(\\frac{1800}{\\pi}\\right)^\\circ$$',
+    hasImage: false,
+  },
+  {
+    id: '17ba2551cf6',
+    chapter: '三角函數A',
+    question:
+      '半徑 $$5$$ 公尺的輪子在地面上滾動了 $$30$$ 公尺，則這個輪子共繞軸轉動了多少弧度？換算成角度約為 $$m^\\circ$$，求 $$m$$。',
+    answer: '$$6$$；$$344$$',
+    hasImage: false,
+  },
+  {
+    id: '17ba2577fd6',
+    chapter: '三角函數A',
+    question:
+      '設一質點 $$P$$ 在以原點 $$O$$ 為圓心之圓 $$C$$ 上一點 $$A(-3,3\\sqrt{3})$$ 出發，以逆時針且角速度為每秒 $$\\frac{\\pi}{6}$$ 弳繞圓 $$C$$ 運行，試求 $$10$$ 秒後質點 $$P$$ 的坐標。',
+    answer: '$$(3,3\\sqrt{3})$$',
+    hasImage: false,
+  },
+  {
+    id: '17ba25a9419',
+    chapter: '三角函數A',
+    question:
+      '如圖，長方形的長為 $$2$$、寬為 $$1$$，取左下方的頂點為圓心，分別以 $$1$$ 與 $$2$$ 為半徑作圓弧，求所圍陰影部分的周長及面積。',
+    answer: '$$1+\\sqrt{3}+\\frac{5\\pi}{6}$$；$$\\frac{\\sqrt{3}}{2}+\\frac{\\pi}{12}$$',
+    hasImage: true,
+  },
+  {
+    id: '17ba25c5bbe',
+    chapter: '三角函數A',
+    question:
+      '如圖，扇形 $$ABC$$ 的中心角為 $$45^\\circ$$，半徑為 $$10$$，內接一個正方形 $$PQRS$$，求邊長 $$\\overline{PQ}$$ 及陰影面積。',
+    answer: '$$2\\sqrt{5}$$；$$\\frac{25\\pi}{2}-20$$',
+    hasImage: true,
+  },
+  {
+    id: '17ba25eb0d0',
+    chapter: '三角函數A',
+    question:
+      '所有面積為 $$3$$ 平方單位的扇形中，求周長的最小值，並求此時扇形的中心角 (以弳表示) 及半徑。',
+    answer: '$$4\\sqrt{3}$$；$$2$$；$$\\sqrt{3}$$',
+    hasImage: false,
+  },
+  {
+    id: '17ba25fd195',
+    chapter: '三角函數A',
+    question: '所有周長為 $$20$$ 的扇形中，求面積的最大值，並求此時扇形的半徑。',
+    answer: '$$25$$；$$5$$',
+    hasImage: false,
+  },
+  {
+    id: '17ba260ecdd',
+    chapter: '三角函數A',
+    question:
+      '化簡 $$\\sin\\frac{2\\pi}{3}\\times\\cos\\frac{7\\pi}{6}\\times\\tan\\frac{3\\pi}{4}$$。',
+    answer: '$$\\frac{3}{4}$$',
+    hasImage: false,
+  },
+  {
+    id: '17ba261e9d7',
+    chapter: '三角函數A',
+    question: '化簡 $$\\sin\\frac{\\pi}{6}+\\cos\\frac{2\\pi}{3}+\\tan\\frac{3\\pi}{4}$$。',
+    answer: '$$-1$$',
+    hasImage: false,
+  },
+  {
+    id: '17ba263e2f0',
+    chapter: '三角函數A',
+    question:
+      '邊長為 $$3$$、$$4$$、$$5$$ 的直角三角形，設 $$\\theta$$ 為 $$3$$ 的對角，求餘切值 $$\\cot\\theta$$、正割值 $$\\sec\\theta$$、餘割值 $$\\csc\\theta$$。',
+    answer: '$$\\frac{4}{3}$$；$$\\frac{5}{4}$$；$$\\frac{5}{3}$$',
+    hasImage: false,
+  },
+  {
+    id: '17ba266c61e',
+    chapter: '三角函數A',
+    question:
+      '$$\\triangle ABC$$ 中，$$\\overline{AB}=5$$，$$\\overline{AC}=2$$，$$\\angle C=90^\\circ$$，求 $$\\cot A$$、$$\\sec A$$、$$\\csc A$$、$$\\cot B$$、$$\\sec B$$、$$\\csc B$$。',
+    answer:
+      '$$\\frac{2}{\\sqrt{21}}$$；$$\\frac{5}{2}$$；$$\\frac{5}{\\sqrt{21}}$$；$$\\frac{\\sqrt{21}}{2}$$；$$\\frac{5}{\\sqrt{21}}$$；$$\\frac{5}{2}$$',
+    hasImage: false,
+  },
+  {
+    id: '17ba268d707',
+    chapter: '三角函數A',
+    question:
+      '若 $$\\frac{2\\sec\\theta-3\\csc\\theta}{5\\sec\\theta+\\csc\\theta}=\\frac{5}{3}$$，求 $$\\cot\\theta$$。',
+    answer: '$$\\frac{-19}{14}$$',
+    hasImage: false,
+  },
+  {
+    id: '17ba26a80e7',
+    chapter: '三角函數A',
+    question:
+      '已知 $$\\cot\\theta=-\\frac{5}{3}$$，求 $$\\frac{3\\csc\\theta+2\\sec\\theta}{4\\csc\\theta-\\sec\\theta}$$。',
+    answer: '$$\\frac{9}{23}$$',
+    hasImage: false,
+  },
+  {
+    id: '17ba297a6a2',
+    chapter: '三角函數A',
+    question: '求 $$\\sin15^\\circ$$。',
+    answer: '$$\\frac{\\sqrt{6}-\\sqrt{2}}{4}$$',
+    hasImage: false,
+  },
+  {
+    id: '17ba29a6829',
+    chapter: '三角函數A',
+    question: '求 $$\\cos105^\\circ$$、$$\\sin255^\\circ。',
+    answer: '$$\\frac{\\sqrt{6}-\\sqrt{2}}{-4}$$；$$\\frac{\\sqrt{6}+\\sqrt{2}}{-4}$$',
+    hasImage: false,
+  },
+  {
+    id: '17ba29be2e8',
+    chapter: '三角函數A',
+    question:
+      '已知 $$\\sin A=\\frac{3}{5}$$，$$\\sin B=-\\frac{12}{13}$$，且 $$A$$ 在第二象限，$$B$$ 在第四象限，求 $$\\cos(A-B)$$。',
+    answer: '$$\\frac{-56}{65}$$',
+    hasImage: false,
+  },
+  {
+    id: '17ba29e4a1c',
+    chapter: '三角函數A',
+    question:
+      '已知 $$\\sin A=-\\frac{3}{5}$$，$$\\sin B=-\\frac{12}{13}$$，且 $$A$$ 在第三象限，$$B$$ 在第四象限，求：\n(1) $$\\sin(A-B)$$ (2) $$\\cos(A-B)$$',
+    answer: '(1) $$\\frac{-63}{65}$$ (2) $$\\frac{16}{65}$$',
+    hasImage: false,
+  },
+  {
+    id: '17ba29f4deb',
+    chapter: '三角函數A',
+    question: '求 $$\\tan105^\\circ$$。',
+    answer: '$$-2-\\sqrt{3}$$',
+    hasImage: false,
+  },
+  {
+    id: '17ba29fd591',
+    chapter: '三角函數A',
+    question: '求 $$\\tan345^\\circ$$。',
+    answer: '$$-2+\\sqrt{3}$$',
+    hasImage: false,
+  },
+  {
+    id: '17ba2a0d65c',
+    chapter: '三角函數A',
+    question: '方格紙中有 $$O$$、$$A$$、$$B$$ 三個格線交叉點，如圖，試求 $$\\tan\\angle AOB$$。',
+    answer: '$$-\\frac{22}{7}$$',
+    hasImage: true,
+  },
+  {
+    id: '17ba2a24315',
+    chapter: '三角函數A',
+    question:
+      '將九個大小相同的正方形排成 $$3\\times3$$ 的大正方形，如圖，求 $$\\tan\\angle AOB$$。',
+    answer: '$$5$$',
+    hasImage: true,
+  },
+  {
+    id: '17ba2a41517',
+    chapter: '三角函數A',
+    question:
+      '$$\\triangle ABC$$ 中，已知 $$\\cos A=\\frac{4}{5}$$，$$\\cos B=-\\frac{7}{25}$$，令 $$a=\\overline{BC}$$，$$b=\\overline{AC}$$，$$c=\\overline{AB}$$，求邊長比 $$a:b:c$$。',
+    answer: '$$5:8:5$$',
+    hasImage: false,
+  },
+  {
+    id: '17ba2a694dc',
+    chapter: '三角函數A',
+    question:
+      '$$\\triangle ABC$$，已知 $$\\cos A=\\frac{3}{5}$$，$$\\cos B=\\frac{12}{13}$$，令 $$\\overline{AB}=c$$，$$\\overline{BC}=a$$，$$\\overline{AC}=b$$，求 $$\\cos C$$ 及邊長比 $$a:b:c$$。',
+    answer: '$$-\\frac{16}{65}$$；$$52:25:63$$',
+    hasImage: false,
+  },
+  {
+    id: '17ba2a8ddea',
+    chapter: '三角函數A',
+    question:
+      '平面上兩直線 $$L_1:3x-2y=1$$ 與 $$L_2:x+4y=5$$，請問：\n(1) $$L_1$$ 與 $$L_2$$ 的銳夾角正切值為？\n(2) 過點 $$P(1,6)$$ 且與 $$L_1$$ 的夾角為 $$45^\\circ$$ 的直線 $$L$$ 共有兩條，求其方程式。',
+    answer: '$$\\frac{14}{5}$$；$$5x+y=11$$ 或 $$x-5y=-29$$',
+    hasImage: false,
+  },
+  {
+    id: '17ba2aba994',
+    chapter: '三角函數A',
+    question:
+      '平面上兩直線 $$L_1:2x+5y=3$$ 與 $$L_2:4x+3y=7$$ 的夾角為 $$\\theta$$，求 $$\\tan\\theta$$ 及與 $$L_1$$ 夾 $$45^\\circ$$ 且通過點 $$(1,2)$$ 的直線 $$L$$ 方程式。',
+    answer: '$$\\pm\\frac{14}{23}$$；$$3x-7y=-11$$ 或 $$7x+3y=13$$',
+    hasImage: false,
+  },
+  {
+    id: '17ba2adf49e',
+    chapter: '三角函數A',
+    question:
+      '若 $$\\cos\\theta=\\frac{4}{5}$$，$$\\frac{3\\pi}{2}<\\theta<2\\pi$$，求 $$\\sin2\\theta$$、$$\\cos2\\theta$$、$$\\sin\\frac{\\theta}{2}$$、$$\\cos\\frac{\\theta}{2}$$。',
+    answer:
+      '$$\\frac{-24}{25}$$；$$\\frac{7}{25}$$；$$\\frac{\\sqrt{10}}{10}$$；$$\\frac{3\\sqrt{10}}{-10}$$',
+    hasImage: false,
+  },
+  {
+    id: '17ba2b4b4fa',
+    chapter: '三角函數A',
+    question:
+      '已知 $$\\sin\\theta=\\frac{2}{3}$$，$$\\frac{\\pi}{2}<\\theta<\\pi$$，求 $$\\sin2\\theta$$、$$\\cos2\\theta$$、$$\\sin\\frac{\\theta}{2}$$、$$\\cos\\frac{\\theta}{2}$$。',
+    answer:
+      '$$\\frac{4\\sqrt{5}}{-9}$$；$$\\frac{1}{9}$$；$$\\frac{\\sqrt{15}-\\sqrt{3}}{6}$$；$$\\frac{\\sqrt{15}+\\sqrt{3}}{6}$$',
+    hasImage: false,
+  },
+  {
+    id: '17ba2b6dfb6',
+    chapter: '三角函數A',
+    question:
+      '已知有向角 $$\\theta$$ 滿足 $$\\left|\\cos\\theta\\right|=\\frac{1}{3}$$，求 $$\\cos2\\theta$$、$$\\cos4\\theta$$。',
+    answer: '$$-\\frac{7}{9}$$；$$\\frac{17}{81}$$',
+    hasImage: false,
+  },
+  {
+    id: '17ba2b7d49a',
+    chapter: '三角函數A',
+    question:
+      '設有向角 $$\\theta$$ 滿足 $$\\left|\\sin\\theta\\right|=\\frac{2}{3}$$，求 $$\\cos2\\theta$$、$$\\cos4\\theta$$。',
+    answer: '$$\\frac{1}{9}$$；$$-\\frac{79}{81}$$',
+    hasImage: false,
+  },
+  {
+    id: '17ba2b99f07',
+    chapter: '三角函數A',
+    question:
+      '已知 $$\\sin\\theta+\\cos\\theta=\\frac{1}{3}$$，求：\n(1) $$\\sin2\\theta$$ (2) $$\\sin^4\\theta+\\cos^4\\theta$$',
+    answer: '(1) $$-\\frac{8}{9}$$ (2) $$\\frac{49}{81}$$',
+    hasImage: false,
+  },
+  {
+    id: '17ba2bcfe38',
+    chapter: '三角函數A',
+    question:
+      '若 $$\\sin\\theta+\\cos\\theta=\\frac{1}{5}$$，$$90^\\circ<\\theta<180^\\circ$$，求：(1) $$\\sin2\\theta$$ (2) $$\\sin\\theta$$ (3) $$\\sin\\frac{\\theta}{2}$$',
+    answer: '(1) $$-\\frac{24}{25}$$ (2) $$\\frac{4}{5}$$ (3) $$\\frac{2\\sqrt{5}}{5}$$',
+    hasImage: false,
+  },
+  {
+    id: '17ba2c01e3b',
+    chapter: '三角函數A',
+    question:
+      '若有向角 $$\\theta$$ 以 $$x$$ 軸正向為始邊，終邊過點 $$(3,-2)$$，求 (1) $$\\tan2\\theta$$ (2) $$\\tan\\frac{\\theta}{2}$$',
+    answer: '(1) $$-\\frac{12}{5}$$ (2) $$\\frac{3-\\sqrt{13}}{2}$$',
+    hasImage: false,
+  },
+  {
+    id: '17ba2c43223',
+    chapter: '三角函數A',
+    question:
+      '若 $$\\tan\\theta=3$$，求：\n(1) $$\\tan2\\theta$$ (2) $$\\tan4\\theta$$ (3) $$\\tan\\frac{\\theta}{2}$$',
+    answer: '(1) $$-\\frac{3}{4}$$ (2) $$\\frac{24}{-7}$$ (3) $$\\frac{\\sqrt{10}-1}{3}$$',
+    hasImage: false,
+  },
+  {
+    id: '17ba2c65081',
+    chapter: '三角函數A',
+    question:
+      '直角 $$\\triangle ABC$$，如圖，$$D$$ 在 $$\\overline{BC}$$ 上且 $$\\overline{AD}$$ 為 $$\\angle BAC$$ 的角平分線，已知 $$\\overline{AB}=3$$，$$\\overline{BD}=2$$，求 $$\\overline{AC}$$。',
+    answer: '$$\\frac{39}{5}$$',
+    hasImage: true,
+  },
+  {
+    id: '17ba2c789ce',
+    chapter: '三角函數A',
+    question:
+      '圖是由三個直角三角形堆疊而成的圖形，且 $$\\overline{OD}=8$$。求直角三角形 $$OAB$$ 的高。',
+    answer: '$$\\sqrt{3}$$',
+    hasImage: true,
+  },
+  {
+    id: '17ba2c90c78',
+    chapter: '三角函數A',
+    question:
+      '若 $$\\cos\\theta=\\frac{4}{5}$$，$$270^\\circ<\\theta<360^\\circ$$，求：\n(1) $$\\sin3\\theta$$ (2) $$\\cos3\\theta$$',
+    answer: '(1) $$-\\frac{117}{125}$$ (2) $$-\\frac{44}{125}$$',
+    hasImage: false,
+  },
+  {
+    id: '17ba2ca2142',
+    chapter: '三角函數A',
+    question:
+      '若 $$\\sin\\theta=\\frac{3}{5}$$，$$90^\\circ<\\theta<180^\\circ$$，求：\n(1) $$\\sin3\\theta$$ (2) $$\\cos3\\theta$$',
+    answer: '(1) $$\\frac{117}{125}$$ (2) $$\\frac{44}{125}$$',
+    hasImage: false,
+  },
+  {
+    id: '17ba2cb3385',
+    chapter: '三角函數A',
+    question: '若 $$\\sin\\theta-\\cos\\theta=\\frac{1}{2}$$，求 $$\\sin3\\theta+\\cos3\\theta$$。',
+    answer: '$$-\\frac{5}{4}$$',
+    hasImage: false,
+  },
+  {
+    id: '17ba2ccc9d6',
+    chapter: '三角函數A',
+    question:
+      '下列各選項，哪些為方程式 $$8x^3-6x+1=0$$ 的根？\n(1) $$\\cos20^\\circ$$ (2) $$\\cos40^\\circ$$ (3) $$\\cos80^\\circ$$\n(4) $$\\cos140^\\circ$$ (5) $$\\cos160^\\circ$$',
+    answer: '(2)(3)(5)',
+    hasImage: false,
+  },
+  {
+    id: '17ba72f600a',
+    chapter: '三角函數A',
+    question: '作圖 (1) $$y=2\\sin x$$ (2) $$y=\\cos2x$$',
+    answer: '略',
+    hasImage: false,
+  },
+  {
+    id: '17ba731bf10',
+    chapter: '三角函數A',
+    question: '作圖 (1) $$y=\\sin x-1$$ (2) $$y=-2\\cos x$$',
+    answer: '略',
+    hasImage: false,
+  },
+  {
+    id: '17ba733d963',
+    chapter: '三角函數A',
+    question: '試求週期函數的週期：\n(1) $$y=2\\cos(5x+3)-1$$\n(2) $$y=3\\tan2\\pi x$$',
+    answer: '(1) $$\\frac{2\\pi}{5}$$ (2) $$\\frac{1}{2}$$',
+    hasImage: false,
+  },
+  {
+    id: '17ba7378420',
+    chapter: '三角函數A',
+    question:
+      '試求週期函數的週期：\n(1) $$y=-4\\sin(-2x+1)-7$$\n(2) $$y=1-5\\cos(3\\pi x+\\sqrt{2})$$\n(3) $$y=2\\tan(3x-1)$$',
+    answer: '(1) $$\\pi$$ (2) $$\\frac{2}{3}$$ (3) $$\\frac{\\pi}{3}$$',
+    hasImage: false,
+  },
+  {
+    id: '17ba73c6d05',
+    chapter: '三角函數A',
+    question:
+      '圖為 $$y=a\\sin kx$$ 圖形之一部份，$$a,k\\in\\mathbb{R}$$，且 $$k>0$$，求數對 $$(a,k)$$。',
+    answer: '$$(-2,\\frac{3}{2})$$',
+    hasImage: true,
+  },
+  {
+    id: '17ba73e9e08',
+    chapter: '三角函數A',
+    question: '圖為 $$y=r\\sin(kx)+m$$ 的部分圖形，$$r,k>0$$，試求 $$(r,k,m)$$。',
+    answer: '$$(2,2,2)$$',
+    hasImage: true,
+  },
+  {
+    id: '17ba745be0c',
+    chapter: '三角函數A',
+    question:
+      '已知 $$a,b>0$$，$$0<c<\\pi$$，$$f(x)=a\\cos(bx-c)$$ 的部分圖形如圖所示，其中點 $$P(5,4)$$ 為最高點，而 $$x=-4$$、$$x=2$$ 與 $$x=8$$ 為圖中與 $$x$$ 軸相交的位置，求 $$(a,b,c)$$。',
+    answer: '$$(4,\\frac{\\pi}{6},\\frac{5\\pi}{6})$$',
+    hasImage: true,
+  },
+  {
+    id: '17ba7485798',
+    chapter: '三角函數A',
+    question:
+      '週期函數 $$y=f(x)=a\\sin(bx+c)$$ 的部分圖形如圖所示，已知 $$a,b>0$$，$$0\\le c<2\\pi$$，且 $$P(3,2)$$ 為最高點，圖形與 $$x$$ 軸的交點有 $$x=1$$ 與 $$x=5$$，求 $$(a,b,c)$$。',
+    answer: '$$(2,\\frac{\\pi}{4},\\frac{7\\pi}{4})$$',
+    hasImage: true,
+  },
+  {
+    id: '17ba9706a31',
+    chapter: '三角函數A',
+    question: '作圖並求週期：$$y=\\left|\\sin x\\right|$$',
+    answer: '圖略；$$\\pi$$',
+    hasImage: false,
+  },
+  {
+    id: '17ba9718fa4',
+    chapter: '三角函數A',
+    question: '求方程式 $$10\\sin x=x$$ 有幾個實根？',
+    answer: '$$7$$',
+    hasImage: false,
+  },
+  {
+    id: '17ba974214a',
+    chapter: '三角函數A',
+    question:
+      '設 $$f(x)=2\\sin(2x+\\frac{\\pi}{3})$$，$$0\\le x\\le\\pi$$，求解：(1) 方程式 $$f(x)=\\sqrt{2}$$\n(2) 不等式 $$f(x)<-\\sqrt{3}$$',
+    answer:
+      '(1) $$\\frac{5\\pi}{24}$$ 或 $$\\frac{23\\pi}{24}$$ (2) $$\\frac{\\pi}{2}<x<\\frac{2\\pi}{3}$$',
+    hasImage: false,
+  },
+  {
+    id: '17ba9770dbc',
+    chapter: '三角函數A',
+    question:
+      '設 $$f(x)=6\\sin(\\frac{\\pi x}{3}+\\frac{\\pi}{4})$$，$$0\\le x\\le6$$，求解：(1) 方程式 $$f(x)=2$$\n(2) 不等式 $$f(x)>8$$',
+    answer:
+      '(1) $$\\frac{11}{4}$$ 或 $$\\frac{19}{4}$$ (2) $$0\\le x<\\frac{7}{4}$$ 或 $$\\frac{23}{4}<x\\le6$$',
+    hasImage: false,
+  },
+  {
+    id: '17ba9801b03',
+    chapter: '三角函數A',
+    question:
+      '$$x\\in\\mathbb{R}$$，試求 $$y=\\sin x-\\sqrt{3}\\cos x$$ 的最大值、最小值、振幅、週期並畫出圖形。',
+    answer: '$$2$$；$$-2$$；$$2$$；$$2\\pi$$',
+    hasImage: false,
+  },
+  {
+    id: '17ba9835d86',
+    chapter: '三角函數A',
+    question:
+      '$$x\\in\\mathbb{R}$$，試求 $$y=\\sin x-\\cos x$$ 的最大值、最小值、振幅、週期並畫出圖形。。',
+    answer: '$$\\sqrt{2}$$；$$-\\sqrt{2}$$；$$\\sqrt{2}$$；$$2\\pi$$',
+    hasImage: false,
+  },
+  {
+    id: '17ba989ddc3',
+    chapter: '三角函數A',
+    question:
+      '$$x\\in\\mathbb{R}$$，$$f(x)=\\sqrt{3}\\sin(x+\\frac{\\pi}{3})-3\\cos x$$$$=a\\sin(x+k)$$，其中 $$a>0$$ 且 $$0\\le k<2\\pi$$，求 $$(a,k)$$ 並求 $$f(x)$$ 的最大值及最小值。',
+    answer: '$$(\\sqrt{3},\\frac{5\\pi}{3})$$；$$\\sqrt{3}$$；$$-\\sqrt{3}$$',
+    hasImage: false,
+  },
+  {
+    id: '17ba98cd1ca',
+    chapter: '三角函數A',
+    question:
+      '$$x\\in\\mathbb{R}$$，$$f(x)=2\\sin(\\frac{\\pi}{6}-x)-2\\cos x$$$$=a\\sin(x+k)$$，其中 $$a>0$$ 且 $$0\\le k<2\\pi$$，求 $$(a,k)$$ 並求 $$f(x)$$ 的最大值及最小值。',
+    answer: '$$(2,\\frac{5\\pi}{6})$$；$$2$$；$$-2$$',
+    hasImage: false,
+  },
+  {
+    id: '17ba9e276f3',
+    chapter: '三角函數A',
+    question:
+      '(1) $$x\\in\\mathbb{R}$$，求 $$f(x)=4\\sin x+3\\cos x$$ 的最大值及最小值\n(2) $$0\\le x\\le2\\pi$$，求 $$8\\sin x-15\\cos x+3$$ 的最大值及最小值',
+    answer: '(1) $$5$$；$$-5$$ (2) $$20$$；$$-14$$',
+    hasImage: false,
+  },
+  {
+    id: '17ba9e4d42a',
+    chapter: '三角函數A',
+    question:
+      '(1) $$x\\in\\mathbb{R}$$，$$y=\\sqrt{7}\\sin x-\\sqrt{2}\\cos x+5$$，求 $$y$$ 的範圍\n(2) $$0\\le x\\le2\\pi$$，求 $$15\\sin x-8\\cos x+13$$ 的最大值及最小值',
+    answer: '(1) $$2\\le y\\le8$$ (2) $$30$$；$$-4$$',
+    hasImage: false,
+  },
+  {
+    id: '17ba9e804af',
+    chapter: '三角函數A',
+    question:
+      '$$y=5\\sin x-12\\cos x$$，$$0\\le x\\le2\\pi$$，求：\n(1) 若 $$x=\\alpha$$ 時有最大值 $$M$$，求 $$M$$ 及數對 $$(\\sin\\alpha,\\cos\\alpha)$$。\n(2) 若 $$x=\\beta$$ 時有最小值 $$m$$，求 $$m$$ 及數對 $$(\\sin\\beta,\\cos\\beta)$$。',
+    answer:
+      '(1) $$13$$；$$(\\frac{5}{13},\\frac{-12}{13})$$ (2) $$-13$$；$$(\\frac{-5}{13},\\frac{12}{13})$$',
+    hasImage: false,
+  },
+  {
+    id: '17ba9e94d70',
+    chapter: '三角函數A',
+    question:
+      '$$y=3\\sin x+4\\cos x$$，$$0\\le x\\le2\\pi$$，求：\n(1) 若 $$x=\\alpha$$ 時有最大值 $$M$$，求 $$M$$ 及數對 $$(\\sin\\alpha,\\cos\\alpha)$$。\n(2) 若 $$x=\\beta$$ 時有最小值 $$m$$，求 $$m$$ 及數對 $$(\\sin\\beta,\\cos\\beta)$$。',
+    answer:
+      '(1) $$5$$；$$(\\frac{3}{5},\\frac{4}{5})$$ (2) $$-5$$；$$(\\frac{-3}{5},\\frac{-4}{5})$$',
+    hasImage: false,
+  },
+  {
+    id: '17ba9ed75d6',
+    chapter: '三角函數A',
+    question:
+      '已知 $$\\frac{\\pi}{6}\\le\\theta\\le\\frac{2\\pi}{3}$$，求：\n(1) $$\\sin\\theta$$ 的範圍\n(2) $$y=4\\sin(\\theta-\\frac{\\pi}{3})+1$$ 的最大值及最小值\n(3) $$y=\\sqrt{3}\\sin2\\theta+5$$ 的最大值及最小值',
+    answer:
+      '(1) $$\\frac{1}{2}\\le\\sin\\theta\\le1$$ (2)  $$1$$；$$-1$$ (3) $$5+\\sqrt{3}$$；$$\\frac{7}{2}$$',
+    hasImage: false,
+  },
+  {
+    id: '17ba9f3dfa7',
+    chapter: '三角函數A',
+    question:
+      '已知 $$\\frac{\\pi}{4}\\le\\theta\\le\\frac{2\\pi}{3}$$，求：\n(1) $$\\sin\\theta$$ 的最大值及最小值\n(2) $$y=\\cos2\\theta$$ 的最大值及最小值',
+    answer: '(1) $$1$$；$$\\frac{\\sqrt{2}}{2}$$ (2) $$0$$；$$-1$$',
+    hasImage: false,
+  },
+  {
+    id: '17ba9f5f6d0',
+    chapter: '三角函數A',
+    question:
+      '$$y=\\sqrt{3}\\sin x-\\cos x+1$$，$$\\frac{\\pi}{3}\\le x\\le\\frac{5\\pi}{6}$$，求：(1) $$x$$ 為何時，$$y$$ 有最大值為？\n(2) $$x$$ 為何時，$$y$$ 有最小值為？',
+    answer: '(1) $$\\frac{2\\pi}{3}$$；$$3$$ (2) $$\\frac{\\pi}{3}$$；$$2$$',
+    hasImage: false,
+  },
+  {
+    id: '17ba9f8acb8',
+    chapter: '三角函數A',
+    question:
+      '$$y=2\\sin x+2\\sqrt{3}\\cos x$$，$$0\\le x\\le\\pi$$，求：(1) $$x$$ 為何時，$$y$$ 有最大值為？\n(2) $$x$$ 為何時，$$y$$ 有最小值為？',
+    answer: '(1) $$\\frac{\\pi}{6}$$；$$4$$ (2) $$\\pi$$；$$-2\\sqrt{3}$$',
+    hasImage: false,
+  },
+  {
+    id: '17ba9facfa6',
+    chapter: '三角函數A',
+    question:
+      '圓形水塘的半徑為 $$5$$ 公尺，想建造 H 字形的木橋跨越池面，如圖，求木橋的總長度最長可多長？及此時中間的連接橋段 $$\\overline{AB}$$ 長為？',
+    answer: '$$10\\sqrt{5}$$；$$2\\sqrt{5}$$',
+    hasImage: true,
+  },
+  {
+    id: '17ba9fc79fa',
+    chapter: '三角函數A',
+    question:
+      '圓直徑 $$\\overline{AB}=10$$，圓上有動點 $$P$$，求 $$5\\overline{PA}+12\\overline{PB}$$ 的最大值及此時的 $$\\overline{PA}$$、$$\\overline{PB}$$',
+    answer: '$$130$$；$$\\frac{50}{13}$$；$$\\frac{120}{13}$$',
+    hasImage: true,
+  },
 ];
