@@ -44,6 +44,16 @@ const Lecture = () => {
       <div className={style.button}>
         <Button onClick={onClick('trigonometricFunction')}>3 三角函數的圖形與正餘弦疊合</Button>
       </div>
+      第五冊 Ch1 極限
+      <div className={style.button}>
+        <Button onClick={onClick('limitOfSequence')}>1 數列的極限</Button>
+      </div>
+      <div className={style.button}>
+        <Button onClick={onClick('limitOfSeries')}>2 級數的極限</Button>
+      </div>
+      <div className={style.button}>
+        <Button onClick={onClick('limitOfFunction')}>3 函數及其極限</Button>
+      </div>
       學測複習
       <div className={style.button}>
         <Button onClick={onClick('B1C1')}>Ch1 數與式</Button>

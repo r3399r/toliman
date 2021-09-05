@@ -25,6 +25,7 @@ export const chapterList: string[] = [
   '條件機率',
   '矩陣A',
   '矩陣B',
+  '極限',
   '選修數乙',
 ];
 
@@ -8825,5 +8826,476 @@ export const bank: Question[] = [
       '圓直徑 $$\\overline{AB}=10$$，圓上有動點 $$P$$，求 $$5\\overline{PA}+12\\overline{PB}$$ 的最大值及此時的 $$\\overline{PA}$$、$$\\overline{PB}$$',
     answer: '$$130$$；$$\\frac{50}{13}$$；$$\\frac{120}{13}$$',
     hasImage: true,
+  },
+  {
+    id: '17baf2aecc8',
+    chapter: '極限',
+    question:
+      '觀察以下各數列，判斷收斂或發散，並寫出極限值：\n(1) $$\\frac{\\sqrt{5}}{2},(\\frac{\\sqrt{5}}{2})^2,(\\frac{\\sqrt{5}}{2})^3,(\\frac{\\sqrt{5}}{2})^4,...$$\n(2) $$-\\frac{\\pi}{4},(\\frac{\\pi}{4})^2,-(\\frac{\\pi}{4})^3,(\\frac{\\pi}{4})^4,...$$\n(3) $$\\frac{1}{2},-\\frac{2}{3},\\frac{3}{4},-\\frac{4}{5},\\frac{5}{6},-\\frac{6}{7},...$$\n(4) $$3,3,3,3,3,3,3,...$$\n(5) $$\\log\\frac{1}{1},\\log\\frac{1}{2},\\log\\frac{1}{3},\\log\\frac{1}{4},\\log\\frac{1}{5},...$$',
+    answer: '(1) 發散 (2) $$0$$ (3) 發散 (4) $$3$$ (5) 發散',
+    hasImage: false,
+  },
+  {
+    id: '17baf2f3825',
+    chapter: '極限',
+    question:
+      '觀察以下各數列，判斷收斂或發散，並寫出極限值：\n(1) $$1,-1,1,-1,1,-1,-1,...$$\n(2) $$1.01,1.01^2,1.01^3,10.1^4,1.01^5,...$$\n(3) $$1.01^{-1},1.01^{-2},1.01^{-3},1.01^{-4},...$$\n(4) $$999,999^\\frac{1}{2},999^\\frac{1}{3},999^\\frac{1}{4},999^\\frac{1}{5},...$$\n(5) $$\\frac{1}{1},\\frac{1}{2},\\frac{1}{3},\\frac{1}{4},\\frac{1}{5},\\frac{1}{6},\\frac{1}{7},...$$',
+    answer: '(1) 發散 (2) 發散 (3) $$0$$ (4) $$1$$ (5) $$0$$',
+    hasImage: false,
+  },
+  {
+    id: '17baf3244b9',
+    chapter: '極限',
+    question:
+      '試求 (1) $$\\displaystyle\\lim_{n\\to\\infty}\\frac{5n^3-7n^2+n+2}{4n^3+6n^2-5n+1}$$\n(2) $$\\displaystyle\\lim_{n\\to\\infty}\\frac{3n^2+7n}{2n^3+5}$$ (3) $$\\displaystyle\\lim_{n\\to\\infty}\\frac{3n^2+5}{2n+7}$$',
+    answer: '(1) $$\\frac{5}{4}$$ (2) $$0$$ (3) 不存在',
+    hasImage: false,
+  },
+  {
+    id: '17baf33d3e4',
+    chapter: '極限',
+    question:
+      '試求 (1) $$\\displaystyle\\lim_{n\\to\\infty}\\frac{5n^3+6n^2+1}{2n^3+4n+8}$$\n(2) $$\\displaystyle\\lim_{n\\to\\infty}\\frac{4n^2+9n}{2n^3+1}$$ (3) $$\\displaystyle\\lim_{n\\to\\infty}\\frac{4n^3+9}{2n^2+7}$$',
+    answer: '(1) $$\\frac{5}{4}$$ (2) $$0$$ (3) 不存在',
+    hasImage: false,
+  },
+  {
+    id: '17baf3771d5',
+    chapter: '極限',
+    question: '試求 $$\\displaystyle\\lim_{n\\to\\infty}\\frac{5^{n+2}-2^{2n}}{5^{n-1}+3^{n+1}}$$',
+    answer: '$$125$$',
+    hasImage: false,
+  },
+  {
+    id: '17baf398761',
+    chapter: '極限',
+    question:
+      '試求 (1) $$\\displaystyle\\lim_{n\\to\\infty}\\frac{3\\cdot4^n+2\\cdot5^{n+2}}{5^n+7\\cdot(-3)^n}$$\n(2) $$\\displaystyle\\lim_{n\\to\\infty}\\frac{2^{n+20}-5^n}{2^{n+15}+5^{n-2}}$$',
+    answer: '(1) $$50$$ (2) $$-25$$',
+    hasImage: false,
+  },
+  {
+    id: '17baf3b868b',
+    chapter: '極限',
+    question:
+      '若 $$\\displaystyle\\lim_{n\\to\\infty}\\frac{an^4+10n^3+n-5}{bn^3+n^2-n+7}=5$$，求數對 $$(a,b)$$。',
+    answer: '$$(0,2)$$',
+    hasImage: false,
+  },
+  {
+    id: '17baf3c9021',
+    chapter: '極限',
+    question:
+      '若 $$\\displaystyle\\lim_{n\\to\\infty}\\frac{an^2+8n-1}{bn^3+2n^2+2}=3$$，求數對 $$(a,b)$$',
+    answer: '$$(6,0)$$',
+    hasImage: false,
+  },
+  {
+    id: '17baf3e3c13',
+    chapter: '極限',
+    question:
+      '若數列 $$\\langle a_n\\rangle$$ 滿足 $$\\displaystyle\\lim_{n\\to\\infty}\\frac{3a_n+4}{a_n+2}=5$$，求 $$\\displaystyle\\lim_{n\\to\\infty}a_n$$。',
+    answer: '$$-3$$',
+    hasImage: false,
+  },
+  {
+    id: '17baf42ecca',
+    chapter: '極限',
+    question:
+      '若數列 $$\\langle a_n\\rangle$$ 滿足 $$\\displaystyle\\lim_{n\\to\\infty}\\frac{a_n}{3n+5}=24$$，求 $$\\displaystyle\\lim_{n\\to\\infty}\\frac{a_n}{8n+1}$$。',
+    answer: '$$9$$',
+    hasImage: false,
+  },
+  {
+    id: '17baf441656',
+    chapter: '極限',
+    question:
+      '若數列 $$\\langle a_n\\rangle$$ 滿足 $$\\frac{3n-5}{n+1}<a_n<\\frac{3n+7}{n-2}$$，試求 $$\\displaystyle\\lim_{n\\to\\infty}a_n$$。',
+    answer: '$$3$$',
+    hasImage: false,
+  },
+  {
+    id: '17baf453b18',
+    chapter: '極限',
+    question:
+      '若數列 $$\\langle a_n\\rangle$$ 滿足 $$\\frac{7n^2+5}{n^2+2n+1}<a_n<\\frac{7n^2+n+6}{n^2+n-2}$$，試求 $$\\displaystyle\\lim_{n\\to\\infty}a_n$$。',
+    answer: '$$7$$',
+    hasImage: false,
+  },
+  {
+    id: '17baf47f696',
+    chapter: '極限',
+    question:
+      '試選出 $$\\displaystyle\\sum^{99}_{k=1}(2k+1)^2$$ 的展開\n(1) $$1^2+3^2+5^2+7^2+\\cdots+197^2+199^2$$\n(2) $$1^2+3^2+5^2+7^2+\\cdots+199^2+201^2$$\n(3) $$3^2+5^2+7^2+9^2+\\cdots+197^2+199^2$$\n(4) $$3^2+5^2+7^2+9^2+\\cdots+199^2+201^2$$',
+    answer: '(3)',
+    hasImage: false,
+  },
+  {
+    id: '17baf4a1be5',
+    chapter: '極限',
+    question:
+      '試選出 $$\\displaystyle\\sum^{23}_{k=0}(3k+10)^3$$ 的展開\n(1) $$10^3+11^3+12^3+\\cdots+79^2$$\n(2) $$13^3+16^3+19^3+\\cdots+69^2$$\n(3) $$10^3+13^3+16^3+\\cdots+69^2$$\n(4) $$10^3+13^3+16^3+\\cdots+79^2$$',
+    answer: '(4)',
+    hasImage: false,
+  },
+  {
+    id: '17baf4c914f',
+    chapter: '極限',
+    question:
+      '下列哪些選項與 $$(-5)+(-2)+1+4+\\cdots+43$$ 相同？\n(1) $$\\displaystyle\\sum^{43}_{k=-5}k\\quad$$ (2) $$\\displaystyle\\sum^{49}_{k=1}(k-6)$$\n(3) $$\\displaystyle\\sum^{21}_{k=-3}(2k+1)\\quad$$ (4) $$\\displaystyle\\sum^{17}_{k=1}(3k-8)$$\n(5) $$\\displaystyle\\sum^{14}_{k=-2}(3k+1)$$',
+    answer: '(4)(5)',
+    hasImage: false,
+  },
+  {
+    id: '17baf4f5a2d',
+    chapter: '極限',
+    question:
+      '下列哪些選項與 $$7+9+11+13+\\cdots+51$$ 相同？\n(1) $$\\displaystyle\\sum^{51}_{k=7}k\\quad$$ (2) $$\\displaystyle\\sum^{49}_{k=5}(k+2)$$\n(3) $$\\displaystyle\\sum^{25}_{k=3}(2k+1)\\quad$$ (4) $$\\displaystyle\\sum^{26}_{k=4}(2k-1)$$\n(5) $$\\displaystyle\\sum^{23}_{k=1}(2k+5)$$',
+    answer: '(3)(4)(5)',
+    hasImage: false,
+  },
+  {
+    id: '17baf52582a',
+    chapter: '極限',
+    question: '試求 $$\\displaystyle\\sum^{10}_{k=1}(2k-3)(k-1)$$',
+    answer: '$$525$$',
+    hasImage: false,
+  },
+  {
+    id: '17baf535b16',
+    chapter: '極限',
+    question: '試求 $$\\displaystyle\\sum^{20}_{k=1}(k+2)(k-1)$$',
+    answer: '$$3040$$',
+    hasImage: false,
+  },
+  {
+    id: '17baf540b30',
+    chapter: '極限',
+    question: '試求 $$1\\times3+2\\times5+3\\times7+\\cdots+20\\times41$$',
+    answer: '$$5950$$',
+    hasImage: false,
+  },
+  {
+    id: '17baf54e4a7',
+    chapter: '極限',
+    question: '試求 $$1\\times4+2\\times7+3\\times10+\\cdots+30\\times91$$',
+    answer: '$$28830$$',
+    hasImage: false,
+  },
+  {
+    id: '17baf55eea3',
+    chapter: '極限',
+    question:
+      '設等比數列的首項為 $$1$$，公比為 $$-\\frac{1}{2}$$，前 $$n$$ 項和 $$S_n$$ 在 $$n$$ 很大時會趨近 $$S$$，求 $$S$$。',
+    answer: '$$\\frac{2}{3}$$',
+    hasImage: false,
+  },
+  {
+    id: '17baf5838a7',
+    chapter: '極限',
+    question:
+      '$$S_n=\\frac{1}{3}+\\frac{1}{3^2}+\\frac{1}{3^3}+\\cdots+\\frac{1}{3^n}$$，求 $$\\displaystyle\\lim_{n\\to\\infty}S_n$$，若 $$|S-S_n|<\\frac{1}{3000}$$，求最小的自然數 $$n$$。',
+    answer: '$$\\frac{1}{2}$$；$$7$$',
+    hasImage: false,
+  },
+  {
+    id: '17baf5a0a42',
+    chapter: '極限',
+    question: '若無窮數列 $$\\langle x(3x-5)^n\\rangle$$ 收斂，求實數 $$x$$ 的範圍。',
+    answer: '$$x=0$$ 或 $$\\frac{4}{3}<x\\le2$$',
+    hasImage: false,
+  },
+  {
+    id: '17baf5b51c3',
+    chapter: '極限',
+    question: '若數列 $$\\langle (\\frac{3x-5}{2})^n\\rangle$$ 收斂，求實數 $$x$$ 的範圍。',
+    answer: '$$1<x\\le\\frac{7}{3}$$',
+    hasImage: false,
+  },
+  {
+    id: '17baf5ce83c',
+    chapter: '極限',
+    question:
+      '已知首項為 $$a$$、公比為 $$r$$ 的無窮等比級數和為 $$5$$，首項為 $$a$$、公比為 $$3r$$ 的無窮等比級數和為 $$7$$，求首項為 $$a$$、公比為 $$2r$$ 的無窮等比級數和。',
+    answer: '$$\\frac{35}{6}$$',
+    hasImage: false,
+  },
+  {
+    id: '17baf5e0933',
+    chapter: '極限',
+    question: '若 $$a+ar+ar^2+ar^3+\\cdots=5$$ 且 $$a-ar^2+ar^4-ar^6+\\cdots=2$$，求 $$r$$。',
+    answer: '$$\\frac{1}{2}$$',
+    hasImage: false,
+  },
+  {
+    id: '17baf5f606f',
+    chapter: '極限',
+    question: '試求 $$\\displaystyle\\sum^{\\infty}_{n=1}\\frac{2^n+3^n}{5^n}$$',
+    answer: '$$\\frac{13}{6}$$',
+    hasImage: false,
+  },
+  {
+    id: '17baf60acf7',
+    chapter: '極限',
+    question:
+      '試求 (1) $$\\displaystyle\\lim_{n\\to\\infty}\\frac{2^n+3^n+1}{6^n}$$\n(2) $$\\displaystyle\\sum^{\\infty}_{n=1}\\frac{2^n+3^n+1}{6^n}$$',
+    answer: '(1) $$0$$ (2) $$\\frac{17}{10}$$',
+    hasImage: false,
+  },
+  {
+    id: '17baf6530ad',
+    chapter: '極限',
+    question:
+      '甲、乙、丙依序輪流擲銅板，先擲出正面者獲勝，試求：(1) 甲獲勝的機率\n(2) 乙獲勝的機率 (3) 丙獲勝的機率',
+    answer: '(1) $$\\frac{4}{7}$$ (2) $$\\frac{2}{7}$$ (3) $$\\frac{1}{7}$$',
+    hasImage: false,
+  },
+  {
+    id: '17baf66e6f8',
+    chapter: '極限',
+    question:
+      '若皮球自離地面 $$25$$ 公尺的高處落下，每次返跳高度為其落下時高度的 $$\\frac{3}{5}$$，試求此球到靜止時所經過的距離。',
+    answer: '$$100$$ 公尺',
+    hasImage: false,
+  },
+  {
+    id: '17baf6fbdba',
+    chapter: '極限',
+    question:
+      '設 $$f(x)=\\begin{cases}x^2+3,0\\le x<2\\\\9-x,2\\le x<6\\end{cases}$$ 且 $$f(x+6)=f(x)$$，求 $$f(14)+f(f(13))$$。',
+    answer: '$$12$$',
+    hasImage: false,
+  },
+  {
+    id: '17baf718934',
+    chapter: '極限',
+    question:
+      '設 $$f(x)=\\begin{cases}2x+1,0\\le x<1\\\\x^2+2x+2,1\\le x<2\\\\-x+3,2\\le x<3\\end{cases}$$ 且 $$f(x+3)=f(x)$$，求 $$f(f(\\frac{23}{2}))$$。',
+    answer: '$$2$$',
+    hasImage: false,
+  },
+  {
+    id: '17baf7362e5',
+    chapter: '極限',
+    question: '高斯函數 $$f(x)=[x]$$，求 $$f(5)$$、$$f(\\pi)$$、$$f(-3.1)$$，並作其函數圖形。',
+    answer: '$$5$$；$$3$$；$$-4$$；圖略',
+    hasImage: false,
+  },
+  {
+    id: '17baf742d04',
+    chapter: '極限',
+    question: '函數 $$f(x)=x-[x]$$，試作其函數圖形。',
+    answer: '略',
+    hasImage: false,
+  },
+  {
+    id: '17baf771a46',
+    chapter: '極限',
+    question:
+      '已知 $$f(x)$$ 為奇函數，$$g(x)$$ 為偶函數，$$h(x)$$ 不是奇函數也不是偶函數，則下列哪些選項為奇函數？哪些為偶函數？\n(1) $$y=f(x)+3\\quad$$ (2) $$y=g(x)+5$$\n(3) $$y=f(x)+g(x)\\quad$$ (4) $$y=f(x)+2x^3$$\n(5) $$y=f(x)\\cdot g(x)\\quad$$ (6) $$y=f(x)\\cdot\\sin x$$\n(7) $$y=g(f(x))\\quad$$ (8) $$y=\\frac{h(x)-h(-x)}{2}$$',
+    answer: '(4)(5)(8)；(2)(6)(7)',
+    hasImage: false,
+  },
+  {
+    id: '17baf7a9355',
+    chapter: '極限',
+    question:
+      '下列哪些選項為奇函數？哪些為偶函數？\n(1) $$y=1\\quad$$ (2) $$y=x^3+5x$$\n(3) $$y=x^4+x^2-7\\quad$$ (4) $$y=x^3\\cos x$$\n(5) $$y=x^5\\sin x\\quad$$ (6) $$x^3-\\sin x$$',
+    answer: '(2)(4)(6)；(1)(3)(5)',
+    hasImage: false,
+  },
+  {
+    id: '17baf7ce619',
+    chapter: '極限',
+    question:
+      '設 $$f(x)=\\frac{x^2+x-2}{x-1}$$，求：\n(1) $$f(1)\\quad$$ (2) $$\\displaystyle\\lim_{x\\to1}f(x)\\quad$$ (3) $$\\displaystyle\\lim_{x\\to2}f(x)$$\n(4) 作 $$f(x)$$ 的圖形',
+    answer: '(1) 不存在 (2) $$3$$ (3) $$4$$',
+    hasImage: false,
+  },
+  {
+    id: '17baf7e403e',
+    chapter: '極限',
+    question:
+      '設 $$f(x)=\\frac{x^2+2x-3}{(x-1)(x-2)}$$，求：\n(1) $$\\displaystyle\\lim_{x\\to1}f(x)$$ (2) $$\\displaystyle\\lim_{x\\to2}f(x)$$',
+    answer: '(1) 不存在 (2) $$3$$ (3) $$4$$',
+    hasImage: false,
+  },
+  {
+    id: '17baf7ee65e',
+    chapter: '極限',
+    question:
+      '設 $$f(x)=\\frac{x^2+2x-3}{(x-1)(x-2)}$$，求：\n(1) $$\\displaystyle\\lim_{x\\to1}f(x)\\quad$$ (2) $$\\displaystyle\\lim_{x\\to2}f(x)$$',
+    answer: '(1) $$-4$$ (2) 不存在',
+    hasImage: false,
+  },
+  {
+    id: '17baf82560d',
+    chapter: '極限',
+    question:
+      '設 $$y=f(x)$$ 的圖形如圖所示，試求：\n(1) $$f(1)$$，$$f(2)$$，$$f(3)$$\n(2) $$\\displaystyle\\lim_{x\\to1^-}f(x)$$，$$\\displaystyle\\lim_{x\\to1^+}f(x)$$，$$\\displaystyle\\lim_{x\\to1}f(x)$$\n(3) $$\\displaystyle\\lim_{x\\to2^-}f(x)$$，$$\\displaystyle\\lim_{x\\to2^+}f(x)$$，$$\\displaystyle\\lim_{x\\to2}f(x)$$\n(4) $$\\displaystyle\\lim_{x\\to3^-}f(x)$$，$$\\displaystyle\\lim_{x\\to3^+}f(x)$$，$$\\displaystyle\\lim_{x\\to3}f(x)$$',
+    answer:
+      '(1) $$4$$；$$3$$；不存在 (2) $$2$$；$$2$$；$$2$$ (2) $$5$$；$$1$$；不存在 (3) $$4$$；不存在；不存在',
+    hasImage: true,
+  },
+  {
+    id: '17baf888027',
+    chapter: '極限',
+    question:
+      '如圖，求下列各極限值：\n(1) $$\\displaystyle\\lim_{x\\to1^-}f(x)$$，$$\\displaystyle\\lim_{x\\to1^+}f(x)$$，$$\\displaystyle\\lim_{x\\to1}f(x)$$\n(2) $$\\displaystyle\\lim_{x\\to3^-}f(x)$$，$$\\displaystyle\\lim_{x\\to3^+}f(x)$$，$$\\displaystyle\\lim_{x\\to3}f(x)$$\n(3) $$\\displaystyle\\lim_{x\\to5^-}f(x)$$，$$\\displaystyle\\lim_{x\\to5^+}f(x)$$，$$\\displaystyle\\lim_{x\\to5}f(x)$$',
+    answer: '(1) $$2$$；$$2$$；$$2$$ (2) $$4$$；$$4$$；$$4$$ (3) $$3$$；$$2$$；不存在',
+    hasImage: true,
+  },
+  {
+    id: '17baf8a0192',
+    chapter: '極限',
+    question: '試求 $$\\displaystyle\\lim_{x\\to-1}(\\frac{x^2+7x-3}{x^2-x-2}-\\frac{3}{x+1})$$',
+    answer: '$$-\\frac{2}{3}$$',
+    hasImage: false,
+  },
+  {
+    id: '17baf8b63dc',
+    chapter: '極限',
+    question:
+      '試求 (1) $$\\displaystyle\\lim_{x\\to0}\\frac{x+1}{2x^2-x-1}$$\n(2) $$\\displaystyle\\lim_{x\\to2}\\frac{x^3-x^2-x-2}{x^2-x-2}$$',
+    answer: '(1) $$-1$$ (2) $$\\frac{7}{3}$$',
+    hasImage: false,
+  },
+  {
+    id: '17baf8de274',
+    chapter: '極限',
+    question:
+      '分段函數 $$f(x)=\\begin{cases}2x+5a,x>3\\\\4x-a,x<3\\end{cases}$$，在 $$x=3$$ 處的極限值存在，求 $$a$$、$$\\displaystyle\\lim_{x\\to3}f(x)$$。',
+    answer: '$$1$$；$$11$$',
+    hasImage: false,
+  },
+  {
+    id: '17baf8f69ef',
+    chapter: '極限',
+    question:
+      '分段函數 $$f(x)=\\begin{cases}x^2+ax+3,x>1\\\\2x-a,x<1\\end{cases}$$，若 $$\\displaystyle\\lim_{x\\to1}f(x)$$ 存在，求 $$a$$、$$\\displaystyle\\lim_{x\\to1}f(x)$$。',
+    answer: '$$-1$$；$$3$$',
+    hasImage: false,
+  },
+  {
+    id: '17baf919903',
+    chapter: '極限',
+    question:
+      '已知 $$\\displaystyle\\lim_{x\\to a}[5f(x)+3g(x)]=7$$，$$\\displaystyle\\lim_{x\\to a}[2f(x)-g(x)]=5$$，求 $$\\displaystyle\\lim_{x\\to a}f(x)$$、$$\\displaystyle\\lim_{x\\to a}g(x)$$',
+    answer: '$$2$$；$$-1$$',
+    hasImage: false,
+  },
+  {
+    id: '17baf92ba06',
+    chapter: '極限',
+    question:
+      '已知 $$\\displaystyle\\lim_{x\\to a}[3f(x)+2g(x)]=18$$，$$\\displaystyle\\lim_{x\\to a}f(x)=4$$，求 $$\\displaystyle\\lim_{x\\to a}\\frac{1}{g(x)}$$。',
+    answer: '$$\\frac{1}{3}$$',
+    hasImage: false,
+  },
+  {
+    id: '17baf943eca',
+    chapter: '極限',
+    question:
+      '設 $$f(x)=\\begin{cases}ax+5,x<2\\\\b-a,x=2\\\\x^2+2x+3,x>2\\end{cases}$$，若 $$f(x)$$ 在 $$x=2$$ 連續，求數對 $$(a,b)$$。',
+    answer: '$$(3,14)$$',
+    hasImage: false,
+  },
+  {
+    id: '17baf960c64',
+    chapter: '極限',
+    question:
+      '設 $$f(x)=\\begin{cases}x^2-x+5,x\\ge2\\\\x+k,x<2\\end{cases}$$，求實數 $$k$$ 使得 $$f(x)$$ 是一連續函數。',
+    answer: '$$5$$',
+    hasImage: false,
+  },
+  {
+    id: '17bafe1f728',
+    chapter: '極限',
+    question:
+      '(1) $$\\displaystyle\\lim_{n\\to\\infty}\\frac{5n-7}{3n+20}$$\n(2) $$\\displaystyle\\lim_{n\\to\\infty}\\frac{5n^2-101n-2001}{10n^2+20n+1001}$$',
+    answer: '(1) $$\\frac{5}{3}$$ (2) $$\\frac{1}{2}$$',
+    hasImage: false,
+  },
+  {
+    id: '17bafe3e479',
+    chapter: '極限',
+    question: '求 $$\\displaystyle\\lim_{n\\to\\infty}\\frac{1+4+7+\\cdots+(3n-2)}{n^2}$$',
+    answer: '$$\\frac{3}{2}$$',
+    hasImage: false,
+  },
+  {
+    id: '17bafe49d2a',
+    chapter: '極限',
+    question: '求 $$\\displaystyle\\lim_{n\\to\\infty}(\\frac{n^2-1}{n+1}-\\frac{n^2+2}{n+2})$$',
+    answer: '$$1$$',
+    hasImage: false,
+  },
+  {
+    id: '17bafe5c1a7',
+    chapter: '極限',
+    question:
+      '求 $$\\displaystyle\\lim_{n\\to\\infty}\\frac{7\\cdot4^n+6\\cdot2^n}{5\\cdot4^n+2\\cdot3^n}$$',
+    answer: '$$\\frac{7}{5}$$',
+    hasImage: false,
+  },
+  {
+    id: '17bafe7891d',
+    chapter: '極限',
+    question:
+      '$$a=\\frac{\\pi}{3}$$，$$b=\\sqrt{2}$$，$$c=0.99$$，求 $$\\displaystyle\\lim_{n\\to\\infty}(\\frac{2a^n}{3+4a^n}+\\frac{5b^n}{6+7b^n}+\\frac{8c^n}{9+10c^n})$$',
+    answer: '$$\\frac{17}{14}$$',
+    hasImage: false,
+  },
+  {
+    id: '17bafe8ff4d',
+    chapter: '極限',
+    question:
+      '已知 $$\\displaystyle\\lim_{n\\to\\infty}(\\frac{3n^2+2n+5}{2n^2+n-1}+6a_n)=4$$，求 $$\\displaystyle\\lim_{n\\to\\infty}a_n$$',
+    answer: '$$\\frac{5}{12}$$',
+    hasImage: false,
+  },
+  {
+    id: '17bafebb696',
+    chapter: '極限',
+    question:
+      '已知 $$\\displaystyle\\lim_{n\\to\\infty}a_n=3$$、$$\\displaystyle\\lim_{n\\to\\infty}b_n=5$$、$$\\displaystyle\\lim_{n\\to\\infty}c_n=6$$，求 $$\\displaystyle\\lim_{n\\to\\infty}\\frac{4a_n+2b_n}{3c_n+5}$$',
+    answer: '$$\\frac{22}{23}$$',
+    hasImage: false,
+  },
+  {
+    id: '17bafed0271',
+    chapter: '極限',
+    question: '計算 $$\\displaystyle\\sum^5_{k=2}\\frac{2^{k-1}-3k}{(-1)^k}$$',
+    answer: '$$-4$$',
+    hasImage: false,
+  },
+  {
+    id: '17bafee3544',
+    chapter: '極限',
+    question:
+      '已知 $$\\displaystyle\\sum^{10}_{n=1}a_n=15$$，$$\\displaystyle\\sum^{10}_{n=1}b_n=27$$，求 $$\\displaystyle\\sum^{10}_{n=1}(2a_n-3b_n+4)$$',
+    answer: '$$-11$$',
+    hasImage: false,
+  },
+  {
+    id: '17bafef179b',
+    chapter: '極限',
+    question: '求 $$\\displaystyle\\sum^{10}_{k=1}(2^k+k^2)$$',
+    answer: '$$2431$$',
+    hasImage: false,
+  },
+  {
+    id: '17bafefa099',
+    chapter: '極限',
+    question: '求 $$\\displaystyle\\sum^{10}_{n=1}(2n-3)(n+1)$$',
+    answer: '$$685$$',
+    hasImage: false,
+  },
+  {
+    id: '17baff09ebd',
+    chapter: '極限',
+    question: '求 $$1\\times1+2\\times3+3\\times5+4\\times7+\\cdots$$$$+20\\times39$$',
+    answer: '$$5530$$',
+    hasImage: false,
   },
 ];

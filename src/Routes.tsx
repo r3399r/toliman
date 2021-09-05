@@ -19,6 +19,9 @@ const route = {
   C2S1Radius: loadable(() => import('./pages/lecture/book3/C2S1Radius')),
   C2S2TriFormula: loadable(() => import('./pages/lecture/book3/C2S2TrigonometricFormula')),
   C2S3TriFunction: loadable(() => import('./pages/lecture/book3/C2S3TrigonometricFunction')),
+  C1S1LimitOfSequence: loadable(() => import('./pages/lecture/book5/C1S1LimitOfSequence')),
+  C1S2LimitOfSeries: loadable(() => import('./pages/lecture/book5/C1S2LimitOfSeries')),
+  C1S3LimitOfFunction: loadable(() => import('./pages/lecture/book5/C1S3LimitOfFunction')),
   B1C1: loadable(() => import('./pages/lecture/review/B1C1Numbers')),
   B1C2: loadable(() => import('./pages/lecture/review/B1C2Polynomial')),
   B1C3: loadable(() => import('./pages/lecture/review/B1C3LineAndCircle')),
@@ -63,6 +66,21 @@ const AppRoutes = () => {
         exact={true}
         path="/toliman/lecture/trigonometricFunction"
         component={route.C2S3TriFunction}
+      />
+      <Route
+        exact={true}
+        path="/toliman/lecture/limitOfSequence"
+        component={route.C1S1LimitOfSequence}
+      />
+      <Route
+        exact={true}
+        path="/toliman/lecture/limitOfSeries"
+        component={route.C1S2LimitOfSeries}
+      />
+      <Route
+        exact={true}
+        path="/toliman/lecture/limitOfFunction"
+        component={route.C1S3LimitOfFunction}
       />
       <Route exact={true} path="/toliman/lecture/B1C1" component={route.B1C1} />
       <Route exact={true} path="/toliman/lecture/B1C2" component={route.B1C2} />
