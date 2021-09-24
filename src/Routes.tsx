@@ -31,6 +31,7 @@ const route = {
   B2C7: loadable(() => import('./pages/lecture/review/B2C7Trigonometric')),
   B3C8: loadable(() => import('./pages/lecture/review/B3C8TrigonometricFunction')),
   B3C9: loadable(() => import('./pages/lecture/review/B3C9ExpLogFunction')),
+  B3C10: loadable(() => import('./pages/lecture/review/B3C10Vector')),
 };
 
 const AppRoutes = () => {
@@ -91,6 +92,7 @@ const AppRoutes = () => {
       <Route exact={true} path="/toliman/lecture/B2C7" component={route.B2C7} />
       <Route exact={true} path="/toliman/lecture/B3C8" component={route.B3C8} />
       <Route exact={true} path="/toliman/lecture/B3C9" component={route.B3C9} />
+      <Route exact={true} path="/toliman/lecture/B3C10" component={route.B3C10} />
 
       <Route exact={true} path="/toliman/hw" component={route.Hw} />
       <Route exact={true} path="/toliman" component={route.Home} />

@@ -82,6 +82,9 @@ const Lecture = () => {
       <div className={style.button}>
         <Button onClick={onClick('B3C9')}>Ch9 指數函數與對數函數</Button>
       </div>
+      <div className={style.button}>
+        <Button onClick={onClick('B3C10')}>Ch10 平面向量</Button>
+      </div>
     </div>
   );
 };

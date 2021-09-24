@@ -1,3 +1,4 @@
+import { ChangeEvent } from 'react';
 import GridWith2Col from 'src/component/GridWith2Col';
 import Textarea2MathJax from 'src/component/Textarea2MathJax';
 import { Question } from 'src/model/bank';
@@ -6,19 +7,23 @@ import style from './Hw.module.scss';
 
 const Hw = () => {
   const ids: string[] = [
-    '17bafe1f728',
-    '17bafe3e479',
-    '17bafe49d2a',
-    '17bafe5c1a7',
-    '17bafe7891d',
-    '17bafe8ff4d',
-    '17bafebb696',
-    '17bafed0271',
-    '17bafee3544',
-    '17bafef179b',
-    '17bafefa099',
-    '17baff09ebd',
+    '17be21e2d87',
+    '17be2299264',
+    '17be2224b98',
+    '17be240b49d',
+    '17be23101fb',
+    '17be22df448',
+    '17be21bee6a',
+    '17be22560e0',
+    '17be233d0b5',
+    '17be232a1db',
+    '17be23827ca',
+    '17be23b551a',
   ];
+
+  const addDefaultSrc = (ev: ChangeEvent<HTMLImageElement>) => {
+    ev.target.src = '/toliman/images/09.PNG';
+  };
 
   return (
     <div className={style.content}>
@@ -34,6 +39,7 @@ const Hw = () => {
                   src={`/toliman/images/${q.id}.PNG`}
                   alt=""
                   role="presentation"
+                  onError={addDefaultSrc}
                 />
               )}
               <Textarea2MathJax text={`${i + 1}. ${q.question}`} />

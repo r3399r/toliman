@@ -1,4 +1,5 @@
 import classNames from 'classnames';
+import { ChangeEvent } from 'react';
 import Textarea2MathJax from 'src/component/Textarea2MathJax';
 import { Question } from 'src/model/bank';
 import { getQuestions } from 'src/services/questionService';
@@ -11,6 +12,10 @@ type Props = {
 
 const Exercise = ({ ids, height = '6cm' }: Props) => {
   const questions: Question[] = getQuestions(ids);
+
+  const addDefaultSrc = (ev: ChangeEvent<HTMLImageElement>) => {
+    ev.target.src = '/toliman/images/09.PNG';
+  };
 
   return (
     <div className={style.content}>
@@ -32,6 +37,7 @@ const Exercise = ({ ids, height = '6cm' }: Props) => {
                 alt=""
                 src={`/toliman/images/${question.id}.PNG`}
                 role="presentation"
+                onError={addDefaultSrc}
               />
             )}
           </div>
