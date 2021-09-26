@@ -10204,4 +10204,156 @@ export const bank: Question[] = [
     answer: '$$\\frac{7}{2}$$',
     hasImage: false,
   },
+  {
+    id: '17c18c4acc9',
+    chapter: '三角函數A',
+    question:
+      '已知 $$90^\\circ<\\theta<180^\\circ$$，且 $$\\cos\\theta=-\\frac{1}{3}$$，求 $$\\sin2\\theta$$ 及 $$\\sin\\frac{\\theta}{2}$$。',
+    answer: '$$-\\frac{4\\sqrt{2}}{9}$$；$$\\frac{\\sqrt{6}}{3}$$',
+    hasImage: false,
+  },
+  {
+    id: '17c18c64c77',
+    chapter: '三角函數A',
+    question: '已知 $$\\sin\\theta=\\frac{3}{5}$$，求 $$\\sin2\\theta$$ 及 $$\\cos2\\theta$$。',
+    answer: '$$\\pm\\frac{24}{25}$$；$$\\frac{7}{25}$$',
+    hasImage: false,
+  },
+  {
+    id: '17c18c76a1f',
+    chapter: '三角函數A',
+    question:
+      '若 $$\\sin\\theta+\\cos\\theta=\\frac{2}{3}$$，求 $$\\sin2\\theta$$ 及 $$\\cos4\\theta$$。',
+    answer: '$$-\\frac{5}{9}$$；$$\\frac{31}{81}$$',
+    hasImage: false,
+  },
+  {
+    id: '17c18c86f2a',
+    chapter: '三角函數A',
+    question:
+      '若 $$\\sin2\\theta=-\\frac{3}{4}$$，且 $$\\sin\\theta<0$$，求 $$\\sin\\theta-\\cos\\theta$$。',
+    answer: '$$-\\frac{\\sqrt{7}}{2}$$',
+    hasImage: false,
+  },
+  {
+    id: '17c18ca2368',
+    chapter: '三角函數A',
+    question:
+      '$$\\triangle ABC$$，$$\\overline{AB}=6$$，$$\\overline{AC}=8$$，$$\\angle B=2\\angle C$$，求 $$\\cos B$$ 及外接圓半徑。',
+    answer: '$$-\\frac{1}{9}$$；$$\\frac{9\\sqrt{5}}{5}$$',
+    hasImage: false,
+  },
+  {
+    id: '17c18cb4eca',
+    chapter: '三角函數A',
+    question:
+      '設 $$\\theta$$ 為有向角，$$\\sin\\theta=\\frac{3}{5}$$，求 $$\\sin3\\theta$$ 及 $$\\cos3\\theta$$。',
+    answer: '$$\\frac{117}{125}$$；$$\\pm\\frac{44}{125}$$',
+    hasImage: false,
+  },
+  {
+    id: '17c18cc6012',
+    chapter: '三角函數A',
+    question: '若 $$\\sin x-\\cos x=\\frac{1}{3}$$，求 $$\\sin3x+\\cos3x$$。',
+    answer: '$$-\\frac{25}{27}$$',
+    hasImage: false,
+  },
+  {
+    id: '17c18cf26e3',
+    chapter: '三角函數A',
+    question:
+      '求下列各函數之週期：\n(1) $$y=|\\sin x|$$\n(2) $$y=\\cos2x-1$$\n(3) $$y=2\\cos(5x+\\sqrt{2})-1$$\n(4) $$y=\\sin(-\\pi x+\\frac{\\pi}{4})$$',
+    answer: '(1) $$\\pi$$ (2) $$\\pi$$ (3) $$\\frac{2\\pi}{5}$$ (4) $$2$$',
+    hasImage: false,
+  },
+  {
+    id: '17c18d3ad1b',
+    chapter: '三角函數A',
+    question: '求函數 $$y=\\sin\\frac{2x}{15}+\\cos\\frac{x}{5}$$ 的週期。',
+    answer: '$$30\\pi$$',
+    hasImage: false,
+  },
+  {
+    id: '17c18d4b33d',
+    chapter: '三角函數A',
+    question: '$$0\\le x\\le4\\pi$$ 中，$$y=\\sin2x$$ 與 $$y=\\cos x$$ 的圖形有幾個交點？',
+    answer: '$$8$$',
+    hasImage: false,
+  },
+  {
+    id: '17c18d5e564',
+    chapter: '三角函數A',
+    question: '方程式 $$x=\\cos\\pi x$$ 有幾個實根？',
+    answer: '$$3$$',
+    hasImage: false,
+  },
+  {
+    id: '17c18d686ef',
+    chapter: '三角函數A',
+    question: '方程式 $$x-15\\sin x=0$$ 有幾個實根？',
+    answer: '$$11$$',
+    hasImage: false,
+  },
+  {
+    id: '17c213f7e01',
+    chapter: '三角函數B',
+    question:
+      '設扇形的半徑為 $$3$$，中心角所對弧長為 $$\\pi$$，求中心角的大小為多少弳？換算成傳統角為？',
+    answer: '$$\\frac{\\pi}{3}$$；$$60^\\circ$$',
+    hasImage: false,
+  },
+  {
+    id: '17c21416c3e',
+    chapter: '三角函數B',
+    question: '設扇形的半徑為 $$200$$ 公分，中心角為 $$0.8$$ 弳，求所對的弧長為幾公分？',
+    answer: '$$160$$',
+    hasImage: false,
+  },
+  {
+    id: '17c2142cbbc',
+    chapter: '三角函數B',
+    question:
+      '如圖，$$\\overleftrightarrow{PA}$$ 切圓 $$O$$ 於 $$A$$ 點且 $$\\overline{PA}=3\\sqrt{3}$$，$$\\overline{PQ}=3$$，求扇形 $$OAQ$$ 的面積。',
+    answer: '$$\\frac{3\\pi}{2}$$',
+    hasImage: true,
+  },
+  {
+    id: '17c2143e831',
+    chapter: '三角函數B',
+    question: '試求 $$\\sin\\frac{\\pi}{2}+\\cos\\frac{\\pi}{3}-\\tan\\frac{5\\pi}{4}$$ 之值。',
+    answer: '$$1$$',
+    hasImage: false,
+  },
+  {
+    id: '17c2145da31',
+    chapter: '三角函數B',
+    question:
+      '已知 $$\\theta$$ 為第二象限角且 $$\\sin\\theta=\\frac{3}{5}$$，則下列選項哪些正確？\n(1) $$\\sin^2\\theta+\\cos^2\\theta=1$$\n(2) $$\\sin\\theta\\cdot\\cos\\theta=-\\frac{12}{25}$$\n(3) $$\\sin(\\pi+\\theta)=-\\frac{3}{5}$$\n(4) $$\\cos(\\pi-\\theta)=-\\frac{4}{5}$$\n(5) $$\\tan(\\pi+\\theta)=\\frac{4}{3}$$',
+    answer: '(1)(2)(3)',
+    hasImage: false,
+  },
+  {
+    id: '17c2148cf59',
+    chapter: '三角函數B',
+    question:
+      '圖為一圓錐的展開圖，若底圓半徑為 $$6$$ 公分，扇形半徑 $$\\overline{PA}=10$$ 公分，則下列選項哪些正確？\n(1) $$\\overset{\\frown}{AB}$$ 的長度為 $$12\\pi$$ 公分\n(2) $$\\angle APB=\\frac{6}{5}\\pi$$ 弳\n(3) 圓錐側面積為 $$120\\pi$$ 平方公分\n(4) 圓錐表面積為 $$96\\pi$$ 平方公分\n(5) 圓錐的高為 $$8$$ 公分',
+    answer: '(1)(2)(4)(5)',
+    hasImage: true,
+  },
+  {
+    id: '17c214abbc5',
+    chapter: '三角函數B',
+    question:
+      '下列關於正弦函數值的大小比較，哪些正確？\n(1) $$\\sin\\pi^\\circ>\\sin\\pi$$ (2) $$\\sin5>\\sin2$$\n(3) $$\\sin\\frac{\\pi}{5}>\\sin\\frac{\\pi}{6}$$ (4) $$\\sin\\frac{10\\pi}{17}>\\sin\\frac{11\\pi}{17}$$\n(5) $$\\sin\\frac{5\\pi}{3}>\\sin\\frac{14\\pi}{9}$$',
+    answer: '(1)(3)(4)(5)',
+    hasImage: false,
+  },
+  {
+    id: '17c214bdc09',
+    chapter: '三角函數B',
+    question:
+      '已知直徑為 $$20$$ 公分的滑輪，每秒旋轉 $$45^\\circ$$，則滑輪上一點經過 $$5$$ 秒轉過的弧長為 $$k\\pi$$ 公分，求 $$k$$。',
+    answer: '$$\\frac{25}{2}$$',
+    hasImage: false,
+  },
 ];
