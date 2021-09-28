@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack://src/style/index.scss"],"names":[],"mappings":"AAEA,OACE,cAAe","file":"main.596555b6.chunk.css","sourcesContent":["@import '~antd/dist/antd.css';\n\nhtml * {\n  font-size: 16px;\n}\n\nbody {\n  // background-color: #c6d0bc;\n}\n"]}
