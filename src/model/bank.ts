@@ -10356,4 +10356,185 @@ export const bank: Question[] = [
     answer: '$$\\frac{25}{2}$$',
     hasImage: false,
   },
+  {
+    id: '17c2b915c10',
+    chapter: '數與式',
+    question: '試求 $$|x-3|=2x+5$$ 的解。',
+    answer: '$$-\\frac{2}{3}$$',
+    hasImage: false,
+  },
+  {
+    id: '17c2b924fe6',
+    chapter: '數與式',
+    question: '試求 $$|x+1|+|x-5|=x+3$$ 的解。',
+    answer: '$$7$$ 或 $$3$$',
+    hasImage: false,
+  },
+  {
+    id: '17c2b92fc44',
+    chapter: '數與式',
+    question: '試求 $$|x-1|-x-5=0$$ 的解。',
+    answer: '$$-2$$',
+    hasImage: false,
+  },
+  {
+    id: '17c2b93c90b',
+    chapter: '數與式',
+    question: '試求 $$|4x+3|=|2x|+1$$ 的解。',
+    answer: '$$-\\frac{1}{3}$$ 或 $$-2$$',
+    hasImage: false,
+  },
+  {
+    id: '17c2b0f8115',
+    chapter: '數與式',
+    question: '試求 $$2|5x-1|-7\\le3$$ 的解。',
+    answer: '$$-\\frac{4}{5}\\le x\\le-\\frac{6}{5}$$',
+    hasImage: false,
+  },
+  {
+    id: '17c2b519174',
+    chapter: '數與式',
+    question: '試求 $$2\\le|x+4|<5$$ 的解並求其整數解個數。',
+    answer: '$$-2\\le x<1$$ 或 $$-9< x\\le-6$$；$$6$$',
+    hasImage: false,
+  },
+  {
+    id: '17c2b22ab34',
+    chapter: '數與式',
+    question: '試求 $$|3x-1|<8$$ 的解並求其整數解個數。',
+    answer: '$$-\\frac{7}{3}<x<3$$；$$5$$',
+    hasImage: false,
+  },
+  {
+    id: '17c2b245f7f',
+    chapter: '數與式',
+    question: '試求 $$|2x+3|>9$$ 的解。',
+    answer: '$$x<-6$$ 或 $$x>3$$',
+    hasImage: false,
+  },
+  {
+    id: '17c2b2a519f',
+    chapter: '數與式',
+    question: '化簡 $$(\\frac{81}{16})^{-0.25}+(0.25)^{-2.5}$$',
+    answer: '$$32\\frac{2}{3}$$',
+    hasImage: false,
+  },
+  {
+    id: '17c2b34ea1a',
+    chapter: '數與式',
+    question:
+      '化簡 $$(3^\\sqrt{2})^\\sqrt{2}+2^{\\pi+1}\\cdot2^{-\\pi}+\\frac{36^\\sqrt{5}}{6^\\sqrt{20}}+$$$$(\\sqrt{3}+\\sqrt{2})^{\\pi}(\\sqrt{3}-\\sqrt{2})^{\\pi}$$',
+    answer: '$$13$$',
+    hasImage: false,
+  },
+  {
+    id: '17c2b38b1a4',
+    chapter: '數與式',
+    question: '設 $$2^x=5$$，$$3^y=25$$，求 $$5^{\\frac{3}{x}+\\frac{4}{y}}$$。',
+    answer: '$$72$$',
+    hasImage: false,
+  },
+  {
+    id: '17c2b3d2484',
+    chapter: '數與式',
+    question:
+      '設 $$a=8\\times10^{12}$$、$$b=9\\times10^{10}$$、$$c=7.5\\times10^{23}$$，求 $$ab+c$$。(以科學記號表示)',
+    answer: '$$1.47\\times10^{24}$$',
+    hasImage: false,
+  },
+  {
+    id: '17c22cf53ad',
+    chapter: '三角函數A',
+    question:
+      '考慮函數 $$f(x)=2\\sin3x$$，試問下列選項哪些為真？\n(1) $$-2\\leq f(x)\\leq2$$\n(2) $$f(x)$$ 在 $$x=\\frac{\\pi}{6}$$ 時有最大值\n(3) $$f(x)$$ 的週期為 $$\\frac{2\\pi}{3}$$\n(4) $$y=f(x)$$ 的圖形對稱於直線 $$x=\\frac{\\pi}{2}$$\n(5) $$f(2)>0$$',
+    answer: '(1)(2)(3)(4)',
+    hasImage: false,
+  },
+  {
+    id: '17c22c2b0d2',
+    chapter: '三角函數A',
+    question:
+      '試問在 $$0\\leq x\\leq2\\pi$$ 的範圍中，$$y=3\\sin x$$ 的函數圖形與 $$y=2\\sin2x$$ 的函數圖形有幾個交點？',
+    answer: '$$5$$ 個',
+    hasImage: false,
+  },
+  {
+    id: '17c22be7e9a',
+    chapter: '三角函數A',
+    question:
+      '在 $$-4\\pi\\leq x\\leq6\\pi$$ 的範圍中，方程式 $$\\cos x=\\frac{2}{3}$$，所有解之和為？',
+    answer: '$$10\\pi$$',
+    hasImage: false,
+  },
+  {
+    id: '17c22d0d124',
+    chapter: '三角函數A',
+    question:
+      '設 $$\\alpha$$、$$\\beta$$、$$\\gamma$$ 為方程式 $$\\sin x=0.65$$ 的最小三個正根，且 $$\\alpha<\\beta<\\gamma$$，試問下列哪些選項為真？\n(1) $$ \\alpha>\\frac{\\pi}{4}$$ (2) $$ \\beta>\\frac{3\\pi}{4}$$ (3) $$\\gamma>\\frac{5\\pi}{2}$$\n(4) $$\\alpha+\\beta=\\pi$$ (5) $$\\alpha+2\\beta+\\gamma=5\\pi$$',
+    answer: '(2)(4)',
+    hasImage: false,
+  },
+  {
+    id: '17c2a8071e6',
+    chapter: '三角函數A',
+    question:
+      '$$x\\in\\mathbb{R}$$，請將函數 $$y=\\sin x-\\sqrt{3}\\cos x$$ 縮成單項式，並求 $$y$$ 的最大值和最小值。',
+    answer: '$$2\\sin(x-\\frac{\\pi}{3})$$；$$2$$；$$-2$$',
+    hasImage: false,
+  },
+  {
+    id: '17c271426c8',
+    chapter: '三角函數A',
+    question: '$$x\\in\\mathbb{R}$$，求函數 $$y=\\sin x+\\cos x$$ 的週期與振幅。',
+    answer: '$$2\\pi$$；$$\\sqrt{2}$$',
+    hasImage: false,
+  },
+  {
+    id: '17c271ceb25',
+    chapter: '三角函數A',
+    question:
+      '若 $$\\sqrt{3}\\sin888^\\circ-\\cos888^\\circ=2\\cos x^\\circ$$ 且 $$540^\\circ<x^\\circ<720^\\circ$$，求 $$x$$。',
+    answer: '$$672$$',
+    hasImage: false,
+  },
+  {
+    id: '17c2725e7b3',
+    chapter: '三角函數A',
+    question:
+      '$$x\\in\\mathbb{R}$$，請將函數 $$y=\\sqrt{3}\\sin x+\\cos x$$ 縮成單項式，並求 $$y$$ 的最大值與最小值。',
+    answer: '$$2\\sin(x+\\frac{\\pi}{6})$$；$$2$$；$$-2$$',
+    hasImage: false,
+  },
+  {
+    id: '17c2729d202',
+    chapter: '三角函數A',
+    question:
+      '$$x\\in\\mathbb{R}$$，請將函數 $$y=\\sin x-\\cos x$$ 縮成單項式，並求 $$y$$ 的最大值與最小值。',
+    answer: '$$\\sqrt{2}\\sin(x-\\frac{\\pi}{4})$$；$$\\sqrt{2}$$；$$-\\sqrt{2}$$',
+    hasImage: false,
+  },
+  {
+    id: '17c27317742',
+    chapter: '三角函數A',
+    question:
+      '關於函數 $$y=f(x)=\\frac{1}{2}(\\sin x+\\cos x)$$ 的圖形，下列哪些敘述正確？\n(1) $$y=f(x)$$ 的週期為 $$\\pi$$\n(2) $$y=f(x)$$ 的振幅為 $$\\sqrt{2}$$\n(3) $$y=f(x)$$ 的圖形與 $$y$$ 軸的交點為 $$(0,\\frac{1}{2})$$\n(4) $$y=f(x)$$ 的圖形與 $$x$$ 軸有無限多個交點\n(5) $$y=f(x)$$ 的圖形對稱於原點',
+    answer: '(3)(4)',
+    hasImage: false,
+  },
+  {
+    id: '17c273bd7e0',
+    chapter: '三角函數A',
+    question:
+      '下列哪一個數值最接近 $$\\sqrt{2}$$？\n(1) $$\\sqrt{3}\\cos44^\\circ+\\sin44^\\circ$$\n(2) $$\\sqrt{3}\\cos54^\\circ+\\sin54^\\circ$$\n(3) $$\\sqrt{3}\\cos64^\\circ+\\sin64^\\circ$$\n(4) $$\\sqrt{3}\\cos74^\\circ+\\sin74^\\circ$$\n(5) $$\\sqrt{3}\\cos84^\\circ+\\sin84^\\circ$$',
+    answer: '(4)',
+    hasImage: false,
+  },
+  {
+    id: '17c2bc1c775',
+    chapter: '三角函數A',
+    question:
+      '扇形 $$OAB$$ 的半徑為 $$1$$，中心角為 $$60^\\circ$$，$$P$$ 點在弧 $$\\overset{\\frown}{AB}$$ 上，投影到 $$\\overline{OA}$$、$$\\overline{OB}$$ 依序為 $$H$$、$$K$$，如圖所示。試求 $$3\\overline{PH}+2\\overline{PK}$$ 的最大值。',
+    answer: '$$\\sqrt{7}$$',
+    hasImage: true,
+  },
 ];
