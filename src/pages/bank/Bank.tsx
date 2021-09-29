@@ -1,6 +1,6 @@
 import { Radio, RadioChangeEvent } from 'antd';
 import lodash from 'lodash';
-import { useState } from 'react';
+import { ChangeEvent, useState } from 'react';
 import GridWith2Col from 'src/component/GridWith2Col';
 import Textarea2MathJax from 'src/component/Textarea2MathJax';
 import { bank, chapterList, Question } from 'src/model/bank';
@@ -11,6 +11,10 @@ const Bank = () => {
 
   const handleCheckbox = (val: RadioChangeEvent) => {
     setFilteredBank(lodash.filter(bank, { chapter: val.target.value }));
+  };
+
+  const addDefaultSrc = (ev: ChangeEvent<HTMLImageElement>) => {
+    ev.target.src = '/toliman/images/09.PNG';
   };
 
   return (
@@ -29,6 +33,7 @@ const Bank = () => {
                   src={`/toliman/images/${q.id}.PNG`}
                   alt=""
                   role="presentation"
+                  onError={addDefaultSrc}
                 />
               )}
               <Textarea2MathJax text={q.question} />

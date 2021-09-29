@@ -18,7 +18,8 @@
     "pre:dev": "run-s clean fix build test:nowatch",
     "pre:commit": "run-s lint test:nowatch",
     "pre:deploy": "run-s clean build",
-    "deploy": "gh-pages -d build"
+    "gh-pages": "gh-pages -d build",
+    "deploy": "run-s pre:deploy gh-pages"
   },
   "dependencies": {
     "@loadable/component": "^5.14.1",
