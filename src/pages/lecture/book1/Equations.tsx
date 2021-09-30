@@ -13,7 +13,7 @@ const Equations = () => {
         <div className={style.note}>
           <Textarea2MathJax
             text={
-              '推導$$(a+b)^2$$、$$(a-b)^2$$、$$(a+b)(a-b)$$、$$(a+b)^3$$、$$(a-b)^3$$、$$a^3+b^3$$、$$a^3-b^3$$'
+              '推導$(a+b)^2$、$(a-b)^2$、$(a+b)(a-b)$、$(a+b)^3$、$(a-b)^3$、$a^3+b^3$、$a^3-b^3$'
             }
           />
         </div>
@@ -36,7 +36,7 @@ const Equations = () => {
         <div>
           <Textarea2MathJax
             text={
-              '若 $$x^2=a$$，稱 $$x$$ 為 $$a$$ 的平方根，其 $$x=\\pm\\sqrt{a}$$\n若 $$x^3=a$$，稱 $$x$$ 為 $$a$$ 的立方根，其 $$x=\\sqrt[3]{a}$$\n若 $$x^4=a$$，稱 $$x$$ 為 $$a$$ 的四次方根，其 $$x=\\pm\\sqrt[4]{a}$$'
+              '若 $x^2=a$，稱 $x$ 為 $a$ 的平方根，其 $x=\\pm\\sqrt{a}$\n若 $x^3=a$，稱 $x$ 為 $a$ 的立方根，其 $x=\\sqrt[3]{a}$\n若 $x^4=a$，稱 $x$ 為 $a$ 的四次方根，其 $x=\\pm\\sqrt[4]{a}$'
             }
           />
         </div>
@@ -45,12 +45,12 @@ const Equations = () => {
       <Concept title="根式的運算">
         <div className={style.conceptHead}>平方根的性質</div>
         <div>
-          <Textarea2MathJax text={'當 $$a>0$$、$$b>0$$ 時，'} />
+          <Textarea2MathJax text={'當 $a>0$、$b>0$ 時，'} />
         </div>
         <div className={style.note}>
           <Textarea2MathJax
             text={
-              '(1) $$\\sqrt{a^2}=|a|$$，$$\\sqrt{a}^2=a$$\n(2) $$\\sqrt{a}\\cdot\\sqrt{b}=\\sqrt{ab}$$\n(3) $$\\frac{\\sqrt{a}}{\\sqrt{b}}=\\sqrt{\\frac{a}{b}}$$'
+              '(1) $\\sqrt{a^2}=|a|$，$\\sqrt{a}^2=a$\n(2) $\\sqrt{a}\\cdot\\sqrt{b}=\\sqrt{ab}$\n(3) $\\frac{\\sqrt{a}}{\\sqrt{b}}=\\sqrt{\\frac{a}{b}}$'
             }
           />
         </div>
@@ -58,7 +58,7 @@ const Equations = () => {
         <div>
           <Textarea2MathJax
             text={
-              '(1) 同類根號可加減合併，如：$$3\\sqrt{5}+\\sqrt{5}=4\\sqrt{5}$$\n(2) 同次根號可乘除合併，如：$$\\sqrt{5}\\times\\sqrt{3}=\\sqrt{15}$$\n(3) 分母有理化，利用乘法公式使分母沒有根號'
+              '(1) 同類根號可加減合併，如：$3\\sqrt{5}+\\sqrt{5}=4\\sqrt{5}$\n(2) 同次根號可乘除合併，如：$\\sqrt{5}\\times\\sqrt{3}=\\sqrt{15}$\n(3) 分母有理化，利用乘法公式使分母沒有根號'
             }
           />
         </div>
@@ -66,7 +66,7 @@ const Equations = () => {
         <div>
           <Textarea2MathJax
             text={
-              '(1) $$\\sqrt{a+b+2\\sqrt{ab}}=\\sqrt{a}+\\sqrt{b}$$，其中 $$a$$，$$b\\ge0$$\n(2) $$\\sqrt{a+b-2\\sqrt{ab}}=\\sqrt{a}-\\sqrt{b}$$，其中 $$a\\ge b\\ge0$$'
+              '(1) $\\sqrt{a+b+2\\sqrt{ab}}=\\sqrt{a}+\\sqrt{b}$，其中 $a$，$b\\ge0$\n(2) $\\sqrt{a+b-2\\sqrt{ab}}=\\sqrt{a}-\\sqrt{b}$，其中 $a\\ge b\\ge0$'
             }
           />
         </div>
@@ -89,13 +89,13 @@ const Equations = () => {
       <Concept title="算幾不等式">
         <div className={style.conceptHead}>算術平均數與幾何平均數</div>
         <div>
-          <Textarea2MathJax text={'$$a$$、$$b$$ 的算術平均數：\n$$a$$、$$b$$ 的幾何平均數：'} />
+          <Textarea2MathJax text={'$a$、$b$ 的算術平均數：\n$a$、$b$ 的幾何平均數：'} />
         </div>
         <div className={style.conceptHead}>算幾不等式</div>
         <div className={style.note}>
           <Textarea2MathJax
             text={
-              '當 $$a,b\\ge0$$，則 $$\\frac{a+b}{2}\\ge\\sqrt{ab}$$ 恆成立。「等號」成立時，$$a=b$$。'
+              '當 $a,b\\ge0$，則 $\\frac{a+b}{2}\\ge\\sqrt{ab}$ 恆成立。「等號」成立時，$a=b$。'
             }
           />
         </div>

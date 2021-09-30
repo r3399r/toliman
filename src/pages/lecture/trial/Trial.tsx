@@ -12,13 +12,13 @@ const Numbers = () => {
         <div className={style.conceptHead}>絕對值的幾何意義</div>
         <Textarea2MathJax
           text={
-            '(1) $$|a-b|$$ 代表數線上 $$a$$、$$b$$ 兩點間的距離\n(2) $$|a|=|a-0|$$ 代表數線上 $$a$$ 與原點的距離'
+            '(1) $|a-b|$ 代表數線上 $a$、$b$ 兩點間的距離\n(2) $|a|=|a-0|$ 代表數線上 $a$ 與原點的距離'
           }
         />
         <div className={style.conceptHead}>絕對值的性質</div>
         <Textarea2MathJax
           text={
-            '(1) $$|a|\\ge0$$\n(2) $$|a|=|-a|$$\n(3) $$|ab|=|a||b|$$；$$\\left|\\frac{a}{b}\\right|=\\frac{|a|}{|b|}$$'
+            '(1) $|a|\\ge0$\n(2) $|a|=|-a|$\n(3) $|ab|=|a||b|$；$\\left|\\frac{a}{b}\\right|=\\frac{|a|}{|b|}$'
           }
         />
       </Concept>
@@ -30,11 +30,11 @@ const Numbers = () => {
       <Example num={3} ids={['1797fd59820', '1797fd78e76']} />
       <Concept title="雙重根式化簡">
         <div className={style.conceptHead}>乘法公式</div>
-        <Textarea2MathJax text={'(1) $$(a+b)^2=$$\n(2) $$(a-b)^2=$$'} />
+        <Textarea2MathJax text={'(1) $(a+b)^2=$\n(2) $(a-b)^2=$'} />
         <div className={style.conceptHead}>雙重根式化簡</div>
         <Textarea2MathJax
           text={
-            '若 $$a\\ge b\\ge0$$，\n(1) $$\\sqrt{(a+b)+2\\sqrt{ab}}=$$\n(2) $$\\sqrt{(a+b)-2\\sqrt{ab}}=$$'
+            '若 $a\\ge b\\ge0$，\n(1) $\\sqrt{(a+b)+2\\sqrt{ab}}=$\n(2) $\\sqrt{(a+b)-2\\sqrt{ab}}=$'
           }
         />
       </Concept>

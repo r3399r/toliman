@@ -13,39 +13,39 @@ const C1S2Logarithm = () => {
           <div className={style.conceptHead}>常用對數</div>
           <Textarea2MathJax
             text={
-              '將 $$10^x=3$$ 的次數 $$x$$ 記為 $$\\log3$$，稱為「$$3$$ 的對數值」，為無理數，按計算機可知其值約為 $$0.4771$$。滿足下列性質：\n(1) $$10^a=b\\Leftrightarrow a=\\log b\\quad$$ (2) $$10^{\\log k}=k\\quad$$ (3) $$\\log(10^k)=k$$'
+              '將 $10^x=3$ 的次數 $x$ 記為 $\\log3$，稱為「$3$ 的對數值」，為無理數，按計算機可知其值約為 $0.4771$。滿足下列性質：\n(1) $10^a=b\\Leftrightarrow a=\\log b\\quad$ (2) $10^{\\log k}=k\\quad$ (3) $\\log(10^k)=k$'
             }
           />
           <div className={style.conceptHead}>一般底的對數符號</div>
           <Textarea2MathJax
             text={
-              '設 $$a>0$$ 且 $$a\\neq1$$，$$b>0$$，$$a^x=b$$ 的次數 $$x$$ 存在且唯一，$$x$$ 記為 $$\\log_ab$$，其中 $$x$$ 為指數、$$a$$ 為底數、$$b$$ 為真數，如 $$2^3=8$$ 可得 $$\\log_28=3$$。'
+              '設 $a>0$ 且 $a\\neq1$，$b>0$，$a^x=b$ 的次數 $x$ 存在且唯一，$x$ 記為 $\\log_ab$，其中 $x$ 為指數、$a$ 為底數、$b$ 為真數，如 $2^3=8$ 可得 $\\log_28=3$。'
             }
           />
           <Textarea2MathJax
             text={
-              '(1) 指數、真數、底數位置互換：\n　\n(2) 若對數符號 $$\\log_ab$$ 有意義，則 $$\\begin{cases}a>0\\\\a\\neq1\\\\b>0\\end{cases}$$ 必成立，無意義的例子如 $$\\log_11$$、$$\\log_{-2}4$$。'
+              '(1) 指數、真數、底數位置互換：\n　\n(2) 若對數符號 $\\log_ab$ 有意義，則 $\\begin{cases}a>0\\\\a\\neq1\\\\b>0\\end{cases}$ 必成立，無意義的例子如 $\\log_11$、$\\log_{-2}4$。'
             }
           />
           <Textarea2MathJax
             text={
-              '(3) $$a^0=1\\Leftrightarrow\\log_a1=0$$　(4) $$a^1=a\\Leftrightarrow\\log_aa=1$$\n(5) $$\\log_aa^m=m$$　　 　　 (6) $$a^{\\log_am}=m$$'
+              '(3) $a^0=1\\Leftrightarrow\\log_a1=0$　(4) $a^1=a\\Leftrightarrow\\log_aa=1$\n(5) $\\log_aa^m=m$　　 　　 (6) $a^{\\log_am}=m$'
             }
           />
           <div className={style.conceptHead}>相同底數時比較對數值的大小</div>
           <Textarea2MathJax
             text={
-              '(1) 底數 $$a>1$$ 時，$$\\log$$ 會隨著真數增加而遞增，如 $$\\log_22=1$$、$$\\log_24=2$$、$$\\log_28=3$$，故 $$\\log_ax>\\log_ay\\Leftrightarrow x>y$$。'
+              '(1) 底數 $a>1$ 時，$\\log$ 會隨著真數增加而遞增，如 $\\log_22=1$、$\\log_24=2$、$\\log_28=3$，故 $\\log_ax>\\log_ay\\Leftrightarrow x>y$。'
             }
           />
           <Textarea2MathJax
             text={
-              '(2) 底數 $$0<a<1$$ 時，$$\\log$$ 會隨著真數增加而遞減，如 $$\\log_{\\frac{1}{2}}2=-1$$、$$\\log_{\\frac{1}{2}}4=-2$$、$$\\log_{\\frac{1}{2}}8=-3$$，故 $$\\log_ax>\\log_ay\\Leftrightarrow x<y$$。'
+              '(2) 底數 $0<a<1$ 時，$\\log$ 會隨著真數增加而遞減，如 $\\log_{\\frac{1}{2}}2=-1$、$\\log_{\\frac{1}{2}}4=-2$、$\\log_{\\frac{1}{2}}8=-3$，故 $\\log_ax>\\log_ay\\Leftrightarrow x<y$。'
             }
           />
           <Textarea2MathJax
             text={
-              '(3) 對數同底且等值時，則可消去 $$\\log$$，即 $$\\log_ax=\\log_ay\\Leftrightarrow x=y$$'
+              '(3) 對數同底且等值時，則可消去 $\\log$，即 $\\log_ax=\\log_ay\\Leftrightarrow x=y$'
             }
           />
         </Concept>
@@ -65,7 +65,7 @@ const C1S2Logarithm = () => {
         <Concept num={2} title="對數律公式">
           <Textarea2MathJax
             text={
-              '(1) $$\\log_axy=\\log_ax+\\log_ay$$\n(2) $$\\log_a\\frac{x}{y}=\\log_ax-\\log_ay$$\n(3) $$\\log_ax^m=m\\log_ax$$\n(4) $$\\log_{a^n}x=\\frac{1}{n}\\log_ax$$\n(5) $$\\log_{a^n}x^n=\\log_ax$$\n(6) $$\\log_ab=\\frac{\\log_cb}{\\log_ca}$$；$$\\log_ab\\cdot\\log_bc=\\log_ac$$'
+              '(1) $\\log_axy=\\log_ax+\\log_ay$\n(2) $\\log_a\\frac{x}{y}=\\log_ax-\\log_ay$\n(3) $\\log_ax^m=m\\log_ax$\n(4) $\\log_{a^n}x=\\frac{1}{n}\\log_ax$\n(5) $\\log_{a^n}x^n=\\log_ax$\n(6) $\\log_ab=\\frac{\\log_cb}{\\log_ca}$；$\\log_ab\\cdot\\log_bc=\\log_ac$'
             }
           />
         </Concept>

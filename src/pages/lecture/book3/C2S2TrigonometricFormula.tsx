@@ -12,17 +12,17 @@ const C2S2TrigonometricFormula = () => {
         <Concept num={1} title="和角公式與差角公式">
           <Textarea2MathJax
             text={
-              '$$\\sin$$ 和角：$$\\sin(A+B)=\\sin A\\cos B+\\cos A\\sin B$$\n$$\\sin$$ 差角：$$\\sin(A-B)=\\sin A\\cos B-\\cos A\\sin B$$'
+              '$\\sin$ 和角：$\\sin(A+B)=\\sin A\\cos B+\\cos A\\sin B$\n$\\sin$ 差角：$\\sin(A-B)=\\sin A\\cos B-\\cos A\\sin B$'
             }
           />
           <Textarea2MathJax
             text={
-              '$$\\cos$$ 和角：$$\\cos(A+B)=\\cos A\\cos B-\\sin A\\sin B$$\n$$\\cos$$ 差角：$$\\cos(A-B)=\\cos A\\cos B+\\sin A\\sin B$$'
+              '$\\cos$ 和角：$\\cos(A+B)=\\cos A\\cos B-\\sin A\\sin B$\n$\\cos$ 差角：$\\cos(A-B)=\\cos A\\cos B+\\sin A\\sin B$'
             }
           />
           <Textarea2MathJax
             text={
-              '$$\\tan$$ 和角：$$\\tan(A+B)=\\frac{\\tan A+\\tan B}{1-\\tan A\\tan B}$$\n$$\\tan$$ 差角：$$\\tan(A-B)=\\frac{\\tan A-\\tan B}{1+\\tan A\\tan B}$$'
+              '$\\tan$ 和角：$\\tan(A+B)=\\frac{\\tan A+\\tan B}{1-\\tan A\\tan B}$\n$\\tan$ 差角：$\\tan(A-B)=\\frac{\\tan A-\\tan B}{1+\\tan A\\tan B}$'
             }
           />
         </Concept>
@@ -43,35 +43,33 @@ const C2S2TrigonometricFormula = () => {
         <Concept num={2} title="倍角公式與半角公式">
           <div className={style.conceptHead}>二倍角公式</div>
           <Textarea2MathJax
-            text={'(1) $$\\sin$$ 二倍角公式：$$\\sin2\\theta=2\\sin\\theta\\cos\\theta$$'}
+            text={'(1) $\\sin$ 二倍角公式：$\\sin2\\theta=2\\sin\\theta\\cos\\theta$'}
           />
           <Textarea2MathJax
             text={
-              '(2) $$\\cos$$ 二倍角公式：$$\\cos2\\theta=\\cos^2\\theta-\\sin^2\\theta=1-2\\sin^2\\theta=2\\cos^2\\theta-1$$'
+              '(2) $\\cos$ 二倍角公式：$\\cos2\\theta=\\cos^2\\theta-\\sin^2\\theta=1-2\\sin^2\\theta=2\\cos^2\\theta-1$'
             }
           />
           <Textarea2MathJax
-            text={
-              '(3) $$\\tan$$ 二倍角公式：$$\\tan2\\theta=\\frac{2\\tan\\theta}{1-\\tan^2\\theta}$$'
-            }
+            text={'(3) $\\tan$ 二倍角公式：$\\tan2\\theta=\\frac{2\\tan\\theta}{1-\\tan^2\\theta}$'}
           />
           <div className={style.conceptHead}>半角</div>
           <Textarea2MathJax
             text={
-              '(1) $$\\sin$$ 與 $$\\cos$$ 的半角：將 $$\\cos2\\theta=1-2\\sin^2\\theta=2\\cos^2\\theta-1$$ 的公式移項即可，不須另外背公式'
+              '(1) $\\sin$ 與 $\\cos$ 的半角：將 $\\cos2\\theta=1-2\\sin^2\\theta=2\\cos^2\\theta-1$ 的公式移項即可，不須另外背公式'
             }
           />
           <Textarea2MathJax
             text={
-              '(2) $$\\tan$$ 的半角：利用定義 $$\\tan\\theta=\\frac{\\sin\\theta}{\\cos\\theta}$$ 即可'
+              '(2) $\\tan$ 的半角：利用定義 $\\tan\\theta=\\frac{\\sin\\theta}{\\cos\\theta}$ 即可'
             }
           />
           <div className={style.conceptHead}>三倍角公式</div>
           <Textarea2MathJax
-            text={'(1) $$\\sin$$ 的三倍角：$$\\sin3\\theta=3\\sin\\theta-4\\sin^3\\theta$$'}
+            text={'(1) $\\sin$ 的三倍角：$\\sin3\\theta=3\\sin\\theta-4\\sin^3\\theta$'}
           />
           <Textarea2MathJax
-            text={'(2) $$\\cos$$ 的三倍角：$$\\cos3\\theta=4\\cos^3\\theta-3\\cos\\theta$$'}
+            text={'(2) $\\cos$ 的三倍角：$\\cos3\\theta=4\\cos^3\\theta-3\\cos\\theta$'}
           />
         </Concept>
       </Page>

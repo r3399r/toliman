@@ -13,60 +13,56 @@ const B2C6Combination = () => {
         <Concept num={1} title="敘述的否定、且與或">
           <Textarea2MathJax
             text={
-              "(1) 可判定真偽的語句稱為「敘述」，敘述 $$P$$ 的否定為 $$P'$$。兩個敘述 $$P$$、$$Q$$ 可用「且」與「或」連接，當 $$P$$、$$Q$$ 皆真時「$$P$$ 且 $$Q$$」才真；當 $$P$$、$$Q$$ 皆偽時「$$P$$ 或 $$Q$$」才偽。"
+              "(1) 可判定真偽的語句稱為「敘述」，敘述 $P$ 的否定為 $P'$。兩個敘述 $P$、$Q$ 可用「且」與「或」連接，當 $P$、$Q$ 皆真時「$P$ 且 $Q$」才真；當 $P$、$Q$ 皆偽時「$P$ 或 $Q$」才偽。"
             }
           />
-          <Textarea2MathJax text={"(2) 「$$P$$ 且 $$Q$$」的否定為「$$P'$$ 或 $$Q'$$」"} />
-          <Textarea2MathJax text={"(3) 「$$P$$ 或 $$Q$$」的否定為「$$P'$$ 且 $$Q'$$」"} />
+          <Textarea2MathJax text={"(2) 「$P$ 且 $Q$」的否定為「$P'$ 或 $Q'$」"} />
+          <Textarea2MathJax text={"(3) 「$P$ 或 $Q$」的否定為「$P'$ 且 $Q'$」"} />
         </Concept>
         <Exercise ids={['17abc66d799', '17abc680e3a']} />
         <Concept num={2} title="充分條件與必要條件">
           <Textarea2MathJax
             text={
-              '(1) 推論「若 $$P$$ 則 $$Q$$」若成立，可記為 $$P\\Rightarrow Q$$」，稱 $$P$$ 為 $$Q$$ 的充分條件，$$Q$$ 為 $$P$$ 的必要條件。若 $$P$$ 與 $$Q$$ 可互推，記為 $$P\\Leftrightarrow Q$$，稱 $$P$$、$$Q$$ 互為充要條件 (充分且必要)。'
+              '(1) 推論「若 $P$ 則 $Q$」若成立，可記為 $P\\Rightarrow Q$」，稱 $P$ 為 $Q$ 的充分條件，$Q$ 為 $P$ 的必要條件。若 $P$ 與 $Q$ 可互推，記為 $P\\Leftrightarrow Q$，稱 $P$、$Q$ 互為充要條件 (充分且必要)。'
             }
           />
-          <Textarea2MathJax text={'(2) 若要說明「$$P\\Rightarrow Q$$」不成立，只要舉反例即可。'} />
-          <Textarea2MathJax text={"(3) 「若 $$P$$ 則 $$Q$$」與「若 $$Q'$$ 則 $$P'$$」 同義。"} />
+          <Textarea2MathJax text={'(2) 若要說明「$P\\Rightarrow Q$」不成立，只要舉反例即可。'} />
+          <Textarea2MathJax text={"(3) 「若 $P$ 則 $Q$」與「若 $Q'$ 則 $P'$」 同義。"} />
         </Concept>
         <Exercise ids={['17abc6e3561']} />
       </Page>
       <Page pageNum={17}>
         <Concept num={3} title="屬於與包含" height="2.5cm">
-          <Textarea2MathJax text={'(1) 若 $$p$$ 是集合 $$A$$ 的元素，記為 $$p\\in A$$'} />
+          <Textarea2MathJax text={'(1) 若 $p$ 是集合 $A$ 的元素，記為 $p\\in A$'} />
           <Textarea2MathJax
-            text={
-              '(2) 集合 $$A$$ 的每個元素都在集合 $$B$$ 內，則 $$A$$ 為 $$B$$ 的子集，記為 $$A\\subset B'
-            }
+            text={'(2) 集合 $A$ 的每個元素都在集合 $B$ 內，則 $A$ 為 $B$ 的子集，記為 $A\\subset B'}
           />
-          <Textarea2MathJax text={'(3) 空集合 $$\\varnothing$$ 或 $$\\{\\}$$ 為任意集合的字集'} />
+          <Textarea2MathJax text={'(3) 空集合 $\\varnothing$ 或 $\\{\\}$ 為任意集合的字集'} />
           <Textarea2MathJax
-            text={
-              '(4) 數系：$$\\mathbb{N}\\subset\\mathbb{Z}\\subset\\mathbb{Q}\\subset\\mathbb{R}'
-            }
+            text={'(4) 數系：$\\mathbb{N}\\subset\\mathbb{Z}\\subset\\mathbb{Q}\\subset\\mathbb{R}'}
           />
         </Concept>
         <Exercise ids={['17abc786a8b', '17abc7a99fd']} height="4.6cm" />
         <Concept num={4} title="集合的運算" height="5.8cm">
-          <Textarea2MathJax text={'集合 $$A$$、$$B$$ 都在宇集 $$U$$ 內，則其運算與圖示如下：'} />
+          <Textarea2MathJax text={'集合 $A$、$B$ 都在宇集 $U$ 內，則其運算與圖示如下：'} />
           <Textarea2MathJax
             text={
-              '(1) 集合 $$\\{x|x\\in A\\land x\\in B\\}$$ 為 $$A$$ 與 $$B$$ 的「交集 $$A\\cap B$$」，取 $$A$$、$$B$$ 的共同部分'
+              '(1) 集合 $\\{x|x\\in A\\land x\\in B\\}$ 為 $A$ 與 $B$ 的「交集 $A\\cap B$」，取 $A$、$B$ 的共同部分'
             }
           />
           <Textarea2MathJax
             text={
-              '(2) 集合 $$\\{x|x\\in A\\lor x\\in B\\}$$ 為 $$A$$ 與 $$B$$ 的「聯集 $$A\\cup B$$」，取 $$A$$、$$B$$ 的全部'
+              '(2) 集合 $\\{x|x\\in A\\lor x\\in B\\}$ 為 $A$ 與 $B$ 的「聯集 $A\\cup B$」，取 $A$、$B$ 的全部'
             }
           />
           <Textarea2MathJax
             text={
-              '(3) 集合 $$\\{x|x\\in A\\land x\\notin B\\}$$ 為 $$A$$ 與 $$B$$ 的「差集 $$A-B$$」，取 $$A$$ 扣掉 $$B$$'
+              '(3) 集合 $\\{x|x\\in A\\land x\\notin B\\}$ 為 $A$ 與 $B$ 的「差集 $A-B$」，取 $A$ 扣掉 $B$'
             }
           />
           <Textarea2MathJax
             text={
-              "(4) 集合 $$\\{x|x\\in U\\land x\\notin A\\}$$ 為 $$A$$ 與 $$B$$ 的「補集 $$A'$$」，取 $$A$$ 的外面"
+              "(4) 集合 $\\{x|x\\in U\\land x\\notin A\\}$ 為 $A$ 與 $B$ 的「補集 $A'$」，取 $A$ 的外面"
             }
           />
           <div className={style.img}>
@@ -77,11 +73,11 @@ const B2C6Combination = () => {
       </Page>
       <Page pageNum={18}>
         <Concept num={5} title="笛摩根定理" height="2.5cm">
-          <Textarea2MathJax text={"(1) $$A'\\cup B'=$$\n(2) $$A'\\cap B'=$$"} />
+          <Textarea2MathJax text={"(1) $A'\\cup B'=$\n(2) $A'\\cap B'=$"} />
         </Concept>
         <Exercise ids={['17abf7de3ad']} />
         <Concept num={6} title="取捨原理" height="3cm">
-          <Textarea2MathJax text={'(1) $$n(A\\cup B)=$$\n　\n(2) $$n(A\\cup B\\cup C)=$$'} />
+          <Textarea2MathJax text={'(1) $n(A\\cup B)=$\n　\n(2) $n(A\\cup B\\cup C)=$'} />
         </Concept>
         <Exercise ids={['17abf829bb2', '17abfa9a9fa']} height="7cm" />
       </Page>
@@ -97,7 +93,7 @@ const B2C6Combination = () => {
         <Concept num={8} title="相異物的排列">
           <Textarea2MathJax
             text={
-              '$$n$$ 個相異物取出 $$r$$ 個做直線排列，算法為 $$n$$ 往下共 $$r$$ 個整數連乘，是乘法原理的應用。'
+              '$n$ 個相異物取出 $r$ 個做直線排列，算法為 $n$ 往下共 $r$ 個整數連乘，是乘法原理的應用。'
             }
           />
         </Concept>
@@ -107,7 +103,7 @@ const B2C6Combination = () => {
         <Concept num={9} title="組合">
           <Textarea2MathJax
             text={
-              '$$n$$ 個相異物取出 $$r$$ 個成一組的算法為 $$C^n_r=C^n_{n-r}=\\frac{n!}{r!(n-r)!}$$。規定 $$0!=1$$。'
+              '$n$ 個相異物取出 $r$ 個成一組的算法為 $C^n_r=C^n_{n-r}=\\frac{n!}{r!(n-r)!}$。規定 $0!=1$。'
             }
           />
         </Concept>
@@ -115,7 +111,7 @@ const B2C6Combination = () => {
         <Concept num={10} title="有相同物的排列">
           <Textarea2MathJax
             text={
-              '看有幾個相同，就除以幾階乘。如：$$a$$、$$a$$、$$a$$、$$b$$、$$b$$、$$c$$、$$d$$ 的排列數為 $$\\frac{7!}{3!2!}$$。'
+              '看有幾個相同，就除以幾階乘。如：$a$、$a$、$a$、$b$、$b$、$c$、$d$ 的排列數為 $\\frac{7!}{3!2!}$。'
             }
           />
         </Concept>
@@ -123,13 +119,13 @@ const B2C6Combination = () => {
       </Page>
       <Page pageNum={21}>
         <Concept num={11} title="巴斯卡定理" height="1.5cm">
-          <Textarea2MathJax text={'$$C^n_r+C^n_{r+1}=C^{n+1}_{r+1}$$'} />
+          <Textarea2MathJax text={'$C^n_r+C^n_{r+1}=C^{n+1}_{r+1}$'} />
         </Concept>
         <Exercise ids={['17abfc983f9', '17abfd028f8']} height="8cm" />
         <Concept num={12} title="二項式定理" height="1.5cm">
           <Textarea2MathJax
             text={
-              '$$(x+y)^n=C^n_0x^n+C^n_1x^{n-1}y+C^n_2x^{n-2}y^2+\\cdots+C^n_{n-1}xy^{n-1}+C^n_ny^n$$'
+              '$(x+y)^n=C^n_0x^n+C^n_1x^{n-1}y+C^n_2x^{n-2}y^2+\\cdots+C^n_{n-1}xy^{n-1}+C^n_ny^n$'
             }
           />
         </Concept>
@@ -139,7 +135,7 @@ const B2C6Combination = () => {
         <Concept num={13} title="機率的定義">
           <Textarea2MathJax
             text={
-              '若樣本空間 $$S$$ 中，每個樣本發生的機會都相等，規定事件 $$A$$ 發生的機率為 $$P(A)=\\frac{n(A)}{n(S)}$$。範圍為 $$0\\le P(A)\\le1。'
+              '若樣本空間 $S$ 中，每個樣本發生的機會都相等，規定事件 $A$ 發生的機率為 $P(A)=\\frac{n(A)}{n(S)}$。範圍為 $0\\le P(A)\\le1。'
             }
           />
         </Concept>
@@ -147,7 +143,7 @@ const B2C6Combination = () => {
         <Concept num={14} title="機率的性質">
           <Textarea2MathJax
             text={
-              "$$A$$、$$B$$ 為樣本空間 $$S$$ 的事件，則：\n(1) $$P(\\varnothing)=0$$，$$P(S)=1$$\n(2) $$A$$ 不發生的機率為 $$P(A')=1-P(A)$$\n(3) $$P(A\\cup B)=P(A)+P(B)-P(A\\cap B)$$，即取捨原理之推廣"
+              "$A$、$B$ 為樣本空間 $S$ 的事件，則：\n(1) $P(\\varnothing)=0$，$P(S)=1$\n(2) $A$ 不發生的機率為 $P(A')=1-P(A)$\n(3) $P(A\\cup B)=P(A)+P(B)-P(A\\cap B)$，即取捨原理之推廣"
             }
           />
         </Concept>
@@ -157,7 +153,7 @@ const B2C6Combination = () => {
         <Concept num={15} title="期望值">
           <Textarea2MathJax
             text={
-              '隨機試驗的每一種可能的結果對應各自的機率與報酬，將各結果的機率乘上報酬後，加總即為該試驗的期望值，記為 $$E$$。期望值的概念就是重複多次試驗的平均報酬。'
+              '隨機試驗的每一種可能的結果對應各自的機率與報酬，將各結果的機率乘上報酬後，加總即為該試驗的期望值，記為 $E$。期望值的概念就是重複多次試驗的平均報酬。'
             }
           />
         </Concept>

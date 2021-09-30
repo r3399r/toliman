@@ -13,27 +13,27 @@ const B3C8TrigonometricFunction = () => {
         <Concept num={1} title="指數函數的圖形" height="5.5cm">
           <Textarea2MathJax
             text={
-              '(1) 若 $$a>1$$，則 $$f(x)=a^x$$ 的圖形為遞增函數，通過 $$(0,1)$$，以 $$x$$ 軸為漸近線，一對一且凹向上。'
+              '(1) 若 $a>1$，則 $f(x)=a^x$ 的圖形為遞增函數，通過 $(0,1)$，以 $x$ 軸為漸近線，一對一且凹向上。'
             }
           />
           <Textarea2MathJax
             text={
-              '(2) 若 $$0<a<1$$，則 $$f(x)=a^x$$ 的圖形為遞減函數，通過 $$(0,1)$$，以 $$x$$ 軸為漸近線，一對一且凹向上。'
+              '(2) 若 $0<a<1$，則 $f(x)=a^x$ 的圖形為遞減函數，通過 $(0,1)$，以 $x$ 軸為漸近線，一對一且凹向上。'
             }
           />
         </Concept>
         <Exercise ids={['17b82e42744', '17b82e9f8ad']} height="10.1cm" />
         <Concept num={2} title="指數函數圖形的平移伸縮">
-          <Textarea2MathJax text={'(1) $$y=f(x+k)=a^{x+k}$$ 為 $$y=f(x)$$ 的圖形向左移 $$k$$。'} />
-          <Textarea2MathJax text={'(2) $$y=f(x)+k=a^x+k$$ 為 $$y=f(x)$$ 的圖形向上移 $$k$$。'} />
+          <Textarea2MathJax text={'(1) $y=f(x+k)=a^{x+k}$ 為 $y=f(x)$ 的圖形向左移 $k$。'} />
+          <Textarea2MathJax text={'(2) $y=f(x)+k=a^x+k$ 為 $y=f(x)$ 的圖形向上移 $k$。'} />
           <Textarea2MathJax
             text={
-              '(3) $$y=k\\cdot f(x)=k\\cdot a^x$$ 為 $$y=f(x)$$ 的圖形以 $$x$$ 軸為基準，上下伸縮為 $$k$$ 倍。'
+              '(3) $y=k\\cdot f(x)=k\\cdot a^x$ 為 $y=f(x)$ 的圖形以 $x$ 軸為基準，上下伸縮為 $k$ 倍。'
             }
           />
           <Textarea2MathJax
             text={
-              '(4) $$y=f(kx)=a^{kx}$$ 為 $$y=f(x)$$ 的圖形以 $$y$$ 軸為基準，左右伸縮為 $$\\frac{1}{k}$$ 倍。'
+              '(4) $y=f(kx)=a^{kx}$ 為 $y=f(x)$ 的圖形以 $y$ 軸為基準，左右伸縮為 $\\frac{1}{k}$ 倍。'
             }
           />
         </Concept>
@@ -43,7 +43,7 @@ const B3C8TrigonometricFunction = () => {
         <Concept num={3} title="指數方程式與不等式">
           <Textarea2MathJax
             text={
-              '我們常將指數符號化為同底，來解指數的方程式與不等式。解不等式時須注意底數是否大於或小於 $$1$$。'
+              '我們常將指數符號化為同底，來解指數的方程式與不等式。解不等式時須注意底數是否大於或小於 $1$。'
             }
           />
         </Concept>
@@ -51,7 +51,7 @@ const B3C8TrigonometricFunction = () => {
         <Concept num={4} title="指數符號與對數符號互換">
           <Textarea2MathJax
             text={
-              '規定 $$a^c=b\\Leftrightarrow c=\\log_ab$$，此時 $$a>0$$ 且 $$a\\neq1$$ 且 $$b>0$$，稱 $$a$$ 為底數，$$b$$ 為真數，$$c$$ 為指數，利用此符號互換求出基本對數值。'
+              '規定 $a^c=b\\Leftrightarrow c=\\log_ab$，此時 $a>0$ 且 $a\\neq1$ 且 $b>0$，稱 $a$ 為底數，$b$ 為真數，$c$ 為指數，利用此符號互換求出基本對數值。'
             }
           />
         </Concept>
@@ -60,23 +60,23 @@ const B3C8TrigonometricFunction = () => {
         <Exercise ids={['17b8394a0da', '17b8396d89b']} />
         <Concept num={5} title="對數符號有意義">
           <Textarea2MathJax
-            text={'對數 $$\\log_ab$$ 有意義 $$\\Leftrightarrow a>0$$ 且 $$a\\neq1$$ 且 $$b>0$$'}
+            text={'對數 $\\log_ab$ 有意義 $\\Leftrightarrow a>0$ 且 $a\\neq1$ 且 $b>0$'}
           />
         </Concept>
         <Exercise ids={['17b839a6f76', '17b839dee39']} />
         <Concept num={6} title="對數律">
-          <Textarea2MathJax text={'(1) 消底：$$\\log_aa^x=x$$、$$a^{\\log_ax}=x$$'} />
+          <Textarea2MathJax text={'(1) 消底：$\\log_aa^x=x$、$a^{\\log_ax}=x$'} />
           <Textarea2MathJax
             text={
-              '(2) 分合：$$\\log_axy=\\log_ax+\\log_ay$$、$$\\log_a\\frac{x}{y}=\\log_ax-\\log_ay$$'
+              '(2) 分合：$\\log_axy=\\log_ax+\\log_ay$、$\\log_a\\frac{x}{y}=\\log_ax-\\log_ay$'
             }
           />
           <Textarea2MathJax
-            text={'(3) 次方與係數：$$\\log_ax^m=m\\log_ax$$、$$\\log_{a^n}x=\\frac{1}{n}\\log_ax$$'}
+            text={'(3) 次方與係數：$\\log_ax^m=m\\log_ax$、$\\log_{a^n}x=\\frac{1}{n}\\log_ax$'}
           />
           <Textarea2MathJax
             text={
-              '(4) 換底、連鎖律：$$\\log_ab=\\frac{\\log_cb}{\\log_ca}$$、$$\\log_ca\\cdot\\log_ab=\\log_cb$$'
+              '(4) 換底、連鎖律：$\\log_ab=\\frac{\\log_cb}{\\log_ca}$、$\\log_ca\\cdot\\log_ab=\\log_cb$'
             }
           />
         </Concept>
@@ -86,17 +86,17 @@ const B3C8TrigonometricFunction = () => {
         <Concept num={7} title="對數函數的圖形">
           <Textarea2MathJax
             text={
-              '(1) 若 $$a>1$$，則 $$f(x)=\\log_ax$$ 的圖形為遞增函數，通過 $$(1,0)$$，以 $$y$$ 軸為漸近線，一對一且凹向下。'
+              '(1) 若 $a>1$，則 $f(x)=\\log_ax$ 的圖形為遞增函數，通過 $(1,0)$，以 $y$ 軸為漸近線，一對一且凹向下。'
             }
           />
           <Textarea2MathJax
             text={
-              '(2) 若 $$0<a<1$$，則 $$f(x)=\\log_ax$$ 的圖形為遞減函數，通過 $$(1,0)$$，以 $$y$$ 軸為漸近線，一對一且凹向上。'
+              '(2) 若 $0<a<1$，則 $f(x)=\\log_ax$ 的圖形為遞減函數，通過 $(1,0)$，以 $y$ 軸為漸近線，一對一且凹向上。'
             }
           />
           <Textarea2MathJax
             text={
-              '(3) 指數函數 $$y=a^x$$ 與對數函數 $$y=\\log_ax$$ 的圖形對稱於直線 $$x-y=0$$，若點 $$(p,q)$$ 在 $$y=a^x$$ 上，則點 $$(q,p)$$ 在 $$y=\\log_ax$$ 上。'
+              '(3) 指數函數 $y=a^x$ 與對數函數 $y=\\log_ax$ 的圖形對稱於直線 $x-y=0$，若點 $(p,q)$ 在 $y=a^x$ 上，則點 $(q,p)$ 在 $y=\\log_ax$ 上。'
             }
           />
         </Concept>
@@ -104,20 +104,16 @@ const B3C8TrigonometricFunction = () => {
       <Page pageNum={14}>
         <Exercise ids={['17b83ba9624', '17b83bf21ed']} height="8.5cm" />
         <Concept num={8} title="對數函數圖形的平移伸縮">
-          <Textarea2MathJax
-            text={'(1) $$y=f(x+k)=\\log_a{x+k}$$ 為 $$y=f(x)$$ 的圖形向左移 $$k$$。'}
-          />
-          <Textarea2MathJax
-            text={'(2) $$y=f(x)+k=\\log_ax+k$$ 為 $$y=f(x)$$ 的圖形向上移 $$k$$。'}
-          />
+          <Textarea2MathJax text={'(1) $y=f(x+k)=\\log_a{x+k}$ 為 $y=f(x)$ 的圖形向左移 $k$。'} />
+          <Textarea2MathJax text={'(2) $y=f(x)+k=\\log_ax+k$ 為 $y=f(x)$ 的圖形向上移 $k$。'} />
           <Textarea2MathJax
             text={
-              '(3) $$y=k\\cdot f(x)=k\\log_ax$$ 為 $$y=f(x)$$ 的圖形以 $$x$$ 軸為基準，上下伸縮為 $$k$$ 倍。'
+              '(3) $y=k\\cdot f(x)=k\\log_ax$ 為 $y=f(x)$ 的圖形以 $x$ 軸為基準，上下伸縮為 $k$ 倍。'
             }
           />
           <Textarea2MathJax
             text={
-              '(4) $$y=f(kx)=\\log_a{kx}$$ 為 $$y=f(x)$$ 的圖形以 $$y$$ 軸為基準，左右伸縮為 $$\\frac{1}{k}$$ 倍。'
+              '(4) $y=f(kx)=\\log_a{kx}$ 為 $y=f(x)$ 的圖形以 $y$ 軸為基準，左右伸縮為 $\\frac{1}{k}$ 倍。'
             }
           />
         </Concept>
@@ -145,7 +141,7 @@ const B3C8TrigonometricFunction = () => {
         <Concept num={11} title="科學記號與常用對數">
           <Textarea2MathJax
             text={
-              '由對數 $$\\log a$$ 的值可推知 $$a$$ 的科學記號，進一步得知 $$a$$ 是幾位數，及最高位數字。'
+              '由對數 $\\log a$ 的值可推知 $a$ 的科學記號，進一步得知 $a$ 是幾位數，及最高位數字。'
             }
           />
         </Concept>

@@ -99,7 +99,7 @@ const Home = () => {
         {isRendering === true && <div>產生中...</div>}
         {isRendering === false && question && <Textarea2MathJax text={question} />}
         {isRendering === false && answer && (
-          <Textarea2MathJax className={style.ans} text={'Ans: ' + answer} allowBlock={false} />
+          <Textarea2MathJax className={style.ans} text={'Ans: ' + answer} />
         )}
       </div>
       <hr />

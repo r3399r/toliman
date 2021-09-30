@@ -1,32 +1,27 @@
 import classNames from 'classnames';
-import MathJax from 'react-mathjax';
+import MathJax from 'mathjax3-react';
 import style from './Textarea2MathJax.module.scss';
 
 type Props = {
   text: string;
-  allowBlock?: boolean;
   className?: string;
 };
 
-const Textarea2MathJax = ({ className, text, allowBlock = true }: Props) => (
-  <MathJax.Provider>
+const Textarea2MathJax = ({ className, text }: Props) => (
+  <MathJax.Provider
+    url="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"
+    options={{
+      loader: { load: ['[tex]/mathtools'] },
+      tex: {
+        inlineMath: [['$', '$']],
+        packages: { '[+]': ['mathtools'] },
+      },
+    }}
+  >
     {text.split('\n').map((line: string, index: number) => {
-      const splited: string[] = line.split('$$');
-
-      if (allowBlock === true && splited.length === 3 && splited[0] === '' && splited[2] === '')
-        return (
-          <div key={index} className={classNames(className, style.font)}>
-            <MathJax.Node formula={splited[1]} />
-          </div>
-        );
-
       return (
         <div key={index} className={classNames(className, style.font)}>
-          {splited.map((val: string, cnt: number) => {
-            if (cnt % 2 === 0) return val;
-
-            return <MathJax.Node inline={true} formula={val} key={cnt} />;
-          })}
+          <MathJax.Formula formula={line} />
         </div>
       );
     })}

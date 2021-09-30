@@ -13,7 +13,7 @@ const Numbers = () => {
         <div>
           <Textarea2MathJax
             text={
-              '整數包含正整數、零、負整數，以符號 $$\\mathbb{Z}$$ 表示，其中正整數又稱為自然數，以符號 $$\\mathbb{N}$$ 表示'
+              '整數包含正整數、零、負整數，以符號 $\\mathbb{Z}$ 表示，其中正整數又稱為自然數，以符號 $\\mathbb{N}$ 表示'
             }
           />
         </div>
@@ -21,7 +21,7 @@ const Numbers = () => {
         <div>
           <Textarea2MathJax
             text={
-              '(1) $$2$$ 的倍數：\n(2) $$3$$ 的倍數：\n(3) $$4$$ 的倍數：\n(4) $$5$$ 的倍數：\n(5) $$8$$ 的倍數：\n(6) $$9$$ 的倍數：\n(7) $$11$$ 的倍數：'
+              '(1) $2$ 的倍數：\n(2) $3$ 的倍數：\n(3) $4$ 的倍數：\n(4) $5$ 的倍數：\n(5) $8$ 的倍數：\n(6) $9$ 的倍數：\n(7) $11$ 的倍數：'
             }
           />
         </div>
@@ -32,7 +32,7 @@ const Numbers = () => {
         <div>
           <Textarea2MathJax
             text={
-              '(1) 設 $$a$$、$$b$$ 為整數，$$a\\neq0$$，則形如 $$\\frac{b}{a}$$ 的數稱為有理數，以符號 $$\\mathbb{Q}$$ 表示\n(2) 有理數的封閉性：任兩個有理數的加、減、乘、除，結果仍是有理數 (規定不可除以 $$0$$)\n(3) 有理數的稠密性：任兩個不相等的有理數之間必存在第三個有理數'
+              '(1) 設 $a$、$b$ 為整數，$a\\neq0$，則形如 $\\frac{b}{a}$ 的數稱為有理數，以符號 $\\mathbb{Q}$ 表示\n(2) 有理數的封閉性：任兩個有理數的加、減、乘、除，結果仍是有理數 (規定不可除以 $0$)\n(3) 有理數的稠密性：任兩個不相等的有理數之間必存在第三個有理數'
             }
           />
         </div>
@@ -40,7 +40,7 @@ const Numbers = () => {
         <div>
           <Textarea2MathJax
             text={
-              '有理數可表示為有限小數或循環小數，如：$$\\frac{1}{2}=0.5$$、$$\\frac{1}{3}=0.\\bar{3}$$\n有限小數的條件？'
+              '有理數可表示為有限小數或循環小數，如：$\\frac{1}{2}=0.5$、$\\frac{1}{3}=0.\\bar{3}$\n有限小數的條件？'
             }
           />
         </div>
@@ -48,28 +48,28 @@ const Numbers = () => {
         <div>
           <Textarea2MathJax
             text={
-              '$$0.\\overline{a_1a_2\\cdots a_n}=\\frac{a_1a_2\\cdots a_n}{\\underbrace{99\\cdots9}_{n個}}\\quad0.a_1a_2\\cdots a_n\\overline{b_1b_2\\cdots b_m}=\\frac{a_1a_2\\cdots a_nb_1b_2\\cdots b_m-a_1a_2\\cdots a_n}{\\underbrace{99\\cdots9}_{m個}\\underbrace{00\\cdots0}_{n個}}$$'
+              '$0.\\overline{a_1a_2\\cdots a_n}=\\frac{a_1a_2\\cdots a_n}{\\underbrace{99\\cdots9}_{n個}}\\quad0.a_1a_2\\cdots a_n\\overline{b_1b_2\\cdots b_m}=\\frac{a_1a_2\\cdots a_nb_1b_2\\cdots b_m-a_1a_2\\cdots a_n}{\\underbrace{99\\cdots9}_{m個}\\underbrace{00\\cdots0}_{n個}}$'
             }
           />
         </div>
         <div>
           <Textarea2MathJax
             text={
-              '$$0.\\overline{5}=\\frac{5}{9}\\quad0.\\overline{23}=\\frac{23}{99}\\quad0.5\\overline{71}=\\frac{571-71}{990}$$'
+              '$0.\\overline{5}=\\frac{5}{9}\\quad0.\\overline{23}=\\frac{23}{99}\\quad0.5\\overline{71}=\\frac{571-71}{990}$'
             }
           />
         </div>
         <div className={style.conceptHead}>無理數</div>
         <div>
           <Textarea2MathJax
-            text={'不循環的無限小數稱為無理數，如：$$\\sqrt{5}$$、$$\\sqrt[3]{3}$$、$$\\pi$$'}
+            text={'不循環的無限小數稱為無理數，如：$\\sqrt{5}$、$\\sqrt[3]{3}$、$\\pi$'}
           />
         </div>
         <div className={style.conceptHead}>有理數與根號作圖</div>
         <div>
           <Textarea2MathJax
             text={
-              '有理數作圖：\n根號作圖：\n註：奇次根號 $$\\sqrt[3]{2}$$、$$\\sqrt[5]{3}$$ 與 $$\\pi$$ 不可以尺規作圖'
+              '有理數作圖：\n根號作圖：\n註：奇次根號 $\\sqrt[3]{2}$、$\\sqrt[5]{3}$ 與 $\\pi$ 不可以尺規作圖'
             }
           />
         </div>
@@ -81,14 +81,14 @@ const Numbers = () => {
         <div className={style.conceptHead}>實數的定義</div>
         <div>
           <Textarea2MathJax
-            text={'有理數與無理數統稱為實數，以符號 $$\\mathbb{R}$$ 表示\n實數的成員包括：'}
+            text={'有理數與無理數統稱為實數，以符號 $\\mathbb{R}$ 表示\n實數的成員包括：'}
           />
         </div>
         <div className={style.conceptHead}>實數的運算性質</div>
         <div>
           <Textarea2MathJax
             text={
-              '(1) 交換律：$$a+b=b+a$$；$$a\\times b=b\\times a$$\n(2) 結合律：$$a+(b+c)=(a+b)+c$$；$$a\\times(b\\times c)=(a\\times b)\\times c$$\n(3) 分配律：$$a\\times(b+c)=a\\times b+a\\times c$$'
+              '(1) 交換律：$a+b=b+a$；$a\\times b=b\\times a$\n(2) 結合律：$a+(b+c)=(a+b)+c$；$a\\times(b\\times c)=(a\\times b)\\times c$\n(3) 分配律：$a\\times(b+c)=a\\times b+a\\times c$'
             }
           />
         </div>
@@ -96,7 +96,7 @@ const Numbers = () => {
         <div>
           <Textarea2MathJax
             text={
-              '(1) 三一律：$$a<b$$、$$a=b$$、$$a>b$$ 這三種大小關係恰有一個成立\n(2) 遞移律：若 $$a<b$$ 且 $$b<c$$，則 $$a<c$$'
+              '(1) 三一律：$a<b$、$a=b$、$a>b$ 這三種大小關係恰有一個成立\n(2) 遞移律：若 $a<b$ 且 $b<c$，則 $a<c$'
             }
           />
         </div>
@@ -107,7 +107,7 @@ const Numbers = () => {
         <div>
           <Textarea2MathJax
             text={
-              '(1) $$x=2$$ 代表一點\n(2) $$x>2$$ 表示一條由 $$2$$ 向右的射線，空心點表示不含這一點\n(3) $$x\\ge2$$ 表示一條由 $$2$$ 向右的射線，實心點表示包含這一點'
+              '(1) $x=2$ 代表一點\n(2) $x>2$ 表示一條由 $2$ 向右的射線，空心點表示不含這一點\n(3) $x\\ge2$ 表示一條由 $2$ 向右的射線，實心點表示包含這一點'
             }
           />
         </div>
@@ -115,7 +115,7 @@ const Numbers = () => {
         <div>
           <Textarea2MathJax
             text={
-              '在表示數線上的範圍是，也可以使用小括弧、中括弧來表示區間，定義如下：\n(1) $$a\\le x\\le b$$ 記為 $$[a,b]\\quad$$(2) $$a\\le x<b$$ 記為 $$[a,b)$$\n(3) $$a<x\\le b$$ 記為 $$(a,b]\\quad$$(4) $$a<x<b$$ 記為 $$(a,b)$$\n(5) $$x\\ge a$$ 記為 $$[a,\\infty)\\quad$$(6) $$x>a$$ 記為 $$(a,\\infty)$$\n(7) $$x\\le a$$ 記為 $$(-\\infty,a]\\quad$$(8) $$x<a$$ 記為 $$(-\\infty,a)$$'
+              '在表示數線上的範圍是，也可以使用小括弧、中括弧來表示區間，定義如下：\n(1) $a\\le x\\le b$ 記為 $[a,b]\\quad$(2) $a\\le x<b$ 記為 $[a,b)$\n(3) $a<x\\le b$ 記為 $(a,b]\\quad$(4) $a<x<b$ 記為 $(a,b)$\n(5) $x\\ge a$ 記為 $[a,\\infty)\\quad$(6) $x>a$ 記為 $(a,\\infty)$\n(7) $x\\le a$ 記為 $(-\\infty,a]\\quad$(8) $x<a$ 記為 $(-\\infty,a)$'
             }
           />
         </div>
@@ -123,7 +123,7 @@ const Numbers = () => {
         <div>
           <Textarea2MathJax
             text={
-              '設 $$A$$、$$B$$ 兩點坐標分別為 $$a$$、$$b$$，若 $$P$$ 點介於 $$A$$、$$B$$ 兩點之間且 $$\\overline{AP}:\\overline{BP}=m:n$$，則 $$P$$ 點的坐標為 $$\\frac{na+mb}{n+m}$$'
+              '設 $A$、$B$ 兩點坐標分別為 $a$、$b$，若 $P$ 點介於 $A$、$B$ 兩點之間且 $\\overline{AP}:\\overline{BP}=m:n$，則 $P$ 點的坐標為 $\\frac{na+mb}{n+m}$'
             }
           />
         </div>
@@ -131,7 +131,7 @@ const Numbers = () => {
         <div>
           <Textarea2MathJax
             text={
-              '設 $$A$$、$$B$$ 兩點坐標分別為 $$a$$、$$b$$，則 $$A$$、$$B$$ 兩點的中點坐標為 $$\\frac{a+b}{2}$$'
+              '設 $A$、$B$ 兩點坐標分別為 $a$、$b$，則 $A$、$B$ 兩點的中點坐標為 $\\frac{a+b}{2}$'
             }
           />
         </div>
@@ -144,7 +144,7 @@ const Numbers = () => {
         <div>
           <Textarea2MathJax
             text={
-              '(1) $$|a-b|$$ 代表數線上 $$a$$、$$b$$ 兩點間的距離\n(2) $$|a|=|a-0|$$ 代表數線上 $$a$$ 與原點的距離'
+              '(1) $|a-b|$ 代表數線上 $a$、$b$ 兩點間的距離\n(2) $|a|=|a-0|$ 代表數線上 $a$ 與原點的距離'
             }
           />
         </div>
@@ -152,7 +152,7 @@ const Numbers = () => {
         <div>
           <Textarea2MathJax
             text={
-              '(1) $$|a|\\ge0$$\n(2) $$|a|=|-a|$$\n(3) $$|ab|=|a||b|$$；$$\\left|\\frac{a}{b}\\right|=\\frac{|a|}{|b|}$$'
+              '(1) $|a|\\ge0$\n(2) $|a|=|-a|$\n(3) $|ab|=|a||b|$；$\\left|\\frac{a}{b}\\right|=\\frac{|a|}{|b|}$'
             }
           />
         </div>
