@@ -105,7 +105,11 @@ const Home = () => {
       <hr />
       <div>{JSON.stringify(result)}</div>
       <div>
-        <CopyToClipboard text={JSON.stringify(result)} onCopy={onCopy}>
+        <CopyToClipboard
+          text={JSON.stringify(result)}
+          onCopy={onCopy}
+          options={{ format: 'text/plain' }}
+        >
           <Button>複製文字</Button>
         </CopyToClipboard>
       </div>

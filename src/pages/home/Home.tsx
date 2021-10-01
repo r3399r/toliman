@@ -26,7 +26,7 @@ const Home = () => {
       <div className={style.button}>
         <Button onClick={onClick('hw')}>作業</Button>
       </div>
-      <div>Version 3.0</div>
+      <div>Version 3.1</div>
     </div>
   );
 };
