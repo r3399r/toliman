@@ -7955,7 +7955,7 @@ export const bank: Question[] = [
     id: '17b742931cf',
     chapter: '三角函數A',
     question:
-      "將地球視為一個球體，在航海學中將赤道上與地心夾角為 $1'$ 的 $A$、$B$ 兩地間的距離 (即 $\\overset{\\frown}{AB}$ 弧長) 定為「$1$ 浬」，若地球半徑為 $6400$ 公里，得 $1$ 浬為 $t\\times\\pi$ 公里，求 $t$。",
+      "將地球視為一個球體，在航海學中將赤道上與地心夾角為 $1'$ 的 $A$、$B$ 兩地間的距離 (即 $\\overparen{AB}$ 弧長) 定為「$1$ 浬」，若地球半徑為 $6400$ 公里，得 $1$ 浬為 $t\\times\\pi$ 公里，求 $t$。",
     answer: '$\\frac{16}{27}$',
     hasImage: false,
   },
@@ -10296,7 +10296,7 @@ export const bank: Question[] = [
     id: '17c2148cf59',
     chapter: '三角函數B',
     question:
-      '圖為一圓錐的展開圖，若底圓半徑為 $6$ 公分，扇形半徑 $\\overline{PA}=10$ 公分，則下列選項哪些正確？\n(1) $\\overset{\\frown}{AB}$ 的長度為 $12\\pi$ 公分\n(2) $\\angle APB=\\frac{6}{5}\\pi$ 弳\n(3) 圓錐側面積為 $120\\pi$ 平方公分\n(4) 圓錐表面積為 $96\\pi$ 平方公分\n(5) 圓錐的高為 $8$ 公分',
+      '圖為一圓錐的展開圖，若底圓半徑為 $6$ 公分，扇形半徑 $\\overline{PA}=10$ 公分，則下列選項哪些正確？\n(1) $\\overparen{AB}$ 的長度為 $12\\pi$ 公分\n(2) $\\angle APB=\\frac{6}{5}\\pi$ 弳\n(3) 圓錐側面積為 $120\\pi$ 平方公分\n(4) 圓錐表面積為 $96\\pi$ 平方公分\n(5) 圓錐的高為 $8$ 公分',
     answer: '(1)(2)(4)(5)',
     hasImage: true,
   },
@@ -10304,7 +10304,7 @@ export const bank: Question[] = [
     id: '17c214abbc5',
     chapter: '三角函數B',
     question:
-      '下列關於正弦函數值的大小比較，哪些正確？\n(1) $\\sin\\pi^\\circ>\\sin\\pi$ (2) $\\sin5>\\sin2$\n(3) $\\sin\\frac{\\pi}{5}>\\sin\\frac{\\pi}{6}$ (4) $\\sin\\frac{10\\pi}{17}>\\sin\\frac{11\\pi}{17}$\n(5) $\\sin\\frac{5\\pi}{3}>\\sin\\frac{14\\pi}{9}$',
+      '下列大小比較，哪些正確？\n(1) $\\sin\\pi^\\circ>\\sin\\pi$ (2) $\\sin5>\\sin2$\n(3) $\\sin\\frac{\\pi}{5}>\\sin\\frac{\\pi}{6}$ (4) $\\sin\\frac{10\\pi}{17}>\\sin\\frac{11\\pi}{17}$\n(5) $\\sin\\frac{5\\pi}{3}>\\sin\\frac{14\\pi}{9}$',
     answer: '(1)(3)(4)(5)',
     hasImage: false,
   },
@@ -10383,7 +10383,7 @@ export const bank: Question[] = [
     id: '17c2b34ea1a',
     chapter: '數與式',
     question:
-      '化簡 $(3^\\sqrt{2})^\\sqrt{2}+2^{\\pi+1}\\cdot2^{-\\pi}+\\frac{36^\\sqrt{5}}{6^\\sqrt{20}}+$(\\sqrt{3}+\\sqrt{2})^{\\pi}(\\sqrt{3}-\\sqrt{2})^{\\pi}$',
+      '化簡 $(3^\\sqrt{2})^\\sqrt{2}+2^{\\pi+1}\\cdot2^{-\\pi}+\\frac{36^\\sqrt{5}}{6^\\sqrt{20}}+$\n$(\\sqrt{3}+\\sqrt{2})^{\\pi}(\\sqrt{3}-\\sqrt{2})^{\\pi}$。',
     answer: '$13$',
     hasImage: false,
   },
@@ -10398,7 +10398,7 @@ export const bank: Question[] = [
     id: '17c2b3d2484',
     chapter: '數與式',
     question:
-      '設 $a=8\\times10^{12}$、$b=9\\times10^{10}$、$c=7.5\\times10^{23}$，求 $ab+c$。(以科學記號表示)',
+      '設 $a=8\\times10^{12}$、$b=9\\times10^{10}$、$c=7.5\\times10^{23}$，求 $ab+c$。\n(以科學記號表示)',
     answer: '$1.47\\times10^{24}$',
     hasImage: false,
   },
@@ -10493,7 +10493,7 @@ export const bank: Question[] = [
     id: '17c2bc1c775',
     chapter: '三角函數A',
     question:
-      '扇形 $OAB$ 的半徑為 $1$，中心角為 $60^\\circ$，$P$ 點在弧 $\\overset{\\frown}{AB}$ 上，投影到 $\\overline{OA}$、$\\overline{OB}$ 依序為 $H$、$K$，如圖所示。試求 $3\\overline{PH}+2\\overline{PK}$ 的最大值。',
+      '扇形 $OAB$ 的半徑為 $1$，中心角為 $60^\\circ$，$P$ 點在弧 $\\overparen{AB}$ 上，投影到 $\\overline{OA}$、$\\overline{OB}$ 依序為 $H$、$K$，如圖所示。試求 $3\\overline{PH}+2\\overline{PK}$ 的最大值。',
     answer: '$\\sqrt{7}$',
     hasImage: true,
   },
