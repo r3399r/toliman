@@ -3472,7 +3472,7 @@ export const bank: Question[] = [
     id: '179c5a8681e',
     chapter: '指數對數',
     question:
-      '求 $\\frac{(2^2\\times3^2)\\times(2^5\\times3^2\\times5^3)}{(2^4\\times3^3)\\times(3\\times5^2)}。',
+      '求 $\\frac{(2^2\\times3^2)\\times(2^5\\times3^2\\times5^3)}{(2^4\\times3^3)\\times(3\\times5^2)}$。',
     answer: '$40$',
     hasImage: false,
   },
@@ -4942,7 +4942,7 @@ export const bank: Question[] = [
   {
     id: '17a19a9301f',
     chapter: '多項式函數',
-    question: '$f(x)=x^3+12x^2+8x+7$=(x+h)^3+p(x+h)+q$，求 $h$、$p$、$q$、對稱中心。',
+    question: '$f(x)=x^3+12x^2+8x+7$\n$=(x+h)^3+p(x+h)+q$，求 $h$、$p$、$q$、對稱中心。',
     answer: '$4$；$-40$；$103$；$(-4,103)$',
     hasImage: false,
   },
@@ -10383,7 +10383,7 @@ export const bank: Question[] = [
     id: '17c2b34ea1a',
     chapter: '數與式',
     question:
-      '化簡 $(3^\\sqrt{2})^\\sqrt{2}+2^{\\pi+1}\\cdot2^{-\\pi}+\\frac{36^\\sqrt{5}}{6^\\sqrt{20}}+$\n$(\\sqrt{3}+\\sqrt{2})^{\\pi}(\\sqrt{3}-\\sqrt{2})^{\\pi}$。',
+      '化簡 $(3^\\sqrt{2})^\\sqrt{2}+2^{\\pi+1}\\cdot2^{-\\pi}+\\dfrac{36^\\sqrt{5}}{6^\\sqrt{20}}+$\n$(\\sqrt{3}+\\sqrt{2})^{\\pi}(\\sqrt{3}-\\sqrt{2})^{\\pi}$。',
     answer: '$13$',
     hasImage: false,
   },
@@ -10496,5 +10496,125 @@ export const bank: Question[] = [
       '扇形 $OAB$ 的半徑為 $1$，中心角為 $60^\\circ$，$P$ 點在弧 $\\overparen{AB}$ 上，投影到 $\\overline{OA}$、$\\overline{OB}$ 依序為 $H$、$K$，如圖所示。試求 $3\\overline{PH}+2\\overline{PK}$ 的最大值。',
     answer: '$\\sqrt{7}$',
     hasImage: true,
+  },
+  {
+    id: '17c3ff7a1a5',
+    chapter: '平面向量',
+    question:
+      '一個正六邊形的：(不包含零向量)\n(1) $6$ 個邊可決定幾個不同的向量？\n(2) $6$ 個頂點可決定幾個不同的向量？',
+    answer: '(1) $6$ (2) $18$',
+    hasImage: false,
+  },
+  {
+    id: '17c3cfd8db7',
+    chapter: '平面向量',
+    question:
+      '用坐標表示向量：$\\overset{\\xrightharpoonup{}}{a}$，$\\overset{\\xrightharpoonup{}}{b}$，$\\overset{\\xrightharpoonup{}}{c}$，$\\overset{\\xrightharpoonup{}}{d}$。',
+    answer: '$(4,3)$；$(-2,5)$；$(-4,-2)$；$(3,-3)$',
+    hasImage: true,
+  },
+  {
+    id: '17c3cffaea5',
+    chapter: '平面向量',
+    question:
+      '平面上兩點 $P(2,3\\sqrt{3})$、$Q(5,2\\sqrt{3})$，求：(1) $\\overset{\\xrightharpoonup{}}{PQ}$ (2) $\\overset{\\xrightharpoonup{}}{QP}$ (3) $|\\overset{\\xrightharpoonup{}}{PQ}|$。',
+    answer: '(1) $(3,-\\sqrt{3})$ (2) $(-3,\\sqrt{3})$ (3) $2\\sqrt{3}$',
+    hasImage: false,
+  },
+  {
+    id: '17c3d014a2f',
+    chapter: '平面向量',
+    question:
+      '坐標平面上點 $A(x,5)$、$B(3,y)$、$C(-1,8)$、$D(2,4)$，試問：\n(1) 若 $\\overset{\\xrightharpoonup{}}{AB}=(5,-4)$，求 $x$、$y$。\n(2) 若四邊形$ABCD$為平行四邊形，求 $x$、$y$。',
+    answer: '(1) $-2$；$1$ (2) $6$；$9$ ',
+    hasImage: true,
+  },
+  {
+    id: '17c3ff879b5',
+    chapter: '平面向量',
+    question:
+      '(1) 一個三角形的 $3$ 個頂點可決定幾個不同的向量？(不包含零向量)\n(2) 一個平行四邊形的邊可決定幾個不同的向量？(不包含零向量)',
+    answer: '(1) $6$ (2) $4$',
+    hasImage: false,
+  },
+  {
+    id: '17c3d037b9d',
+    chapter: '平面向量',
+    question:
+      '平面上兩點 $P(-3,7)$、$Q(-5,9)$，求：(1) $\\overset{\\xrightharpoonup{}}{PQ}$ (2) $\\overset{\\xrightharpoonup{}}{QP}$ (3) $|\\overset{\\xrightharpoonup{}}{PQ}|$。',
+    answer: '(1) $(-2,2)$ (2) $(2,-2)$ (3) $2\\sqrt{2}$',
+    hasImage: false,
+  },
+  {
+    id: '17c3d22698e',
+    chapter: '平面向量',
+    question:
+      '若 $D(x,y)$ 與 $A(1,2)$、$B(12,7)$、$C(5,-9)$ 連成平行四邊形，求 $D(x,y)$。(有三組解)',
+    answer: '$(8,18)$；$(16,-4)$；$(-6,-14)$',
+    hasImage: false,
+  },
+  {
+    id: '17c3c054fb2',
+    chapter: '平面向量',
+    question:
+      '$A(-2,-1)$、$B(x,1)$、$C(5,6)$、$D(-5,x)$ ，若 $|\\overset{\\xrightharpoonup{}}{AB}|=|\\overset{\\xrightharpoonup{}}{CD}|$，求 $x$。',
+    answer: '$8$',
+    hasImage: false,
+  },
+  {
+    id: '17c3c049c2f',
+    chapter: '平面向量',
+    question:
+      '已知 $\\overset{\\xrightharpoonup{}}{OA}$ 與 $\\overset{\\xrightharpoonup{}}{OB}$ 所張成的平行四邊形面積為 $5$，求由 $\\overset{\\xrightharpoonup{}}{OA}+\\overset{\\xrightharpoonup{}}{OB}$ 與 $\\overset{\\xrightharpoonup{}}{OA}-\\overset{\\xrightharpoonup{}}{OB}$ 所張成的平行四邊形面積。',
+    answer: '$10$',
+    hasImage: true,
+  },
+  {
+    id: '17c3d243d52',
+    chapter: '平面向量',
+    question:
+      '平面上四點 $A(2,5)$、$B(-4,1)$、$C(9,-6)$、$D(0,13)$，請用數對表示：(1) $\\overset{\\xrightharpoonup{}}{AB}+\\overset{\\xrightharpoonup{}}{CD}$ (2) $\\overset{\\xrightharpoonup{}}{AB}+\\overset{\\xrightharpoonup{}}{BC}+\\overset{\\xrightharpoonup{}}{CD}$ \n(3) $\\overset{\\xrightharpoonup{}}{AB}-\\overset{\\xrightharpoonup{}}{CD}$。',
+    answer: '(1) $(-15,15)$ (2) $(-2,8)$ (3) $(3,-23)$',
+    hasImage: false,
+  },
+  {
+    id: '17c3d24d200',
+    chapter: '平面向量',
+    question:
+      '已知 $\\overset{\\xrightharpoonup{}}{AB}=(1,2)$，$\\overset{\\xrightharpoonup{}}{CD}=(-4,3)$，$\\overset{\\xrightharpoonup{}}{AD}=(7,-2)$，求：(1) $\\overset{\\xrightharpoonup{}}{BD}$ (2) $\\overset{\\xrightharpoonup{}}{BC}$。',
+    answer: '(1) $(6,-4)$ (2) $(10,-7)$',
+    hasImage: false,
+  },
+  {
+    id: '17c3ff99e83',
+    chapter: '平面向量',
+    question:
+      '平面上有平行四邊形$ABCD$，下列各選項的等式哪些成立？\n(1) $\\overset{\\xrightharpoonup{}}{AB}=\\overset{\\xrightharpoonup{}}{CD}$ (2) $\\overset{\\xrightharpoonup{}}{AD}=\\overset{\\xrightharpoonup{}}{BC}$\n(3) $\\overset{\\xrightharpoonup{}}{AC}+\\overset{\\xrightharpoonup{}}{BD}=\\overset{\\xrightharpoonup{}}{0}$\n(4) $\\overset{\\xrightharpoonup{}}{AB}+\\overset{\\xrightharpoonup{}}{BC}+\\overset{\\xrightharpoonup{}}{CD}=\\overset{\\xrightharpoonup{}}{AD}$\n(5) $\\overset{\\xrightharpoonup{}}{AB}-\\overset{\\xrightharpoonup{}}{AD}=\\overset{\\xrightharpoonup{}}{BD}$',
+    answer: '(2)(4)',
+    hasImage: false,
+  },
+  {
+    id: '17c3d26a079',
+    chapter: '平面向量',
+    question:
+      '平面上四點 $A(2,6)$、$B(1,-4)$、$C(3,2)$、$D(7,11)$，求：(1) $\\overset{\\xrightharpoonup{}}{AB}+\\overset{\\xrightharpoonup{}}{CD}$\n(2) $\\overset{\\xrightharpoonup{}}{AB}+\\overset{\\xrightharpoonup{}}{BC}+\\overset{\\xrightharpoonup{}}{CD}$\n(3) $\\overset{\\xrightharpoonup{}}{AB}+\\overset{\\xrightharpoonup{}}{BC}+\\overset{\\xrightharpoonup{}}{CD}+\\overset{\\xrightharpoonup{}}{DA}$。',
+    answer: '(1) $(3,-1)$ (2) $(5,5)$ (3) $\\overset{\\xrightharpoonup{}}{0}$',
+    hasImage: false,
+  },
+  {
+    id: '17c458467c4',
+    chapter: '三角函數B',
+    question:
+      '已知函數 $f(x)=2\\sin(\\frac{\\pi}{3}x+\\theta)$ 的圖形經過 $(0,1)$，其中 $0<\\theta<\\frac{\\pi}{2}$，求 $\\theta$。',
+    answer: '$\\frac{\\pi}{6}$',
+    hasImage: false,
+  },
+  {
+    id: '17c4585c46f',
+    chapter: '三角函數B',
+    question:
+      '已知函數 $y=a\\sin x+b$，其中 $a>0$，若函數的最大值為 $\\frac{3}{2}$，最小值為 $-\\frac{1}{2}$，求數對 $(a,b)$。',
+    answer: '$(1,\\frac{1}{2})$',
+    hasImage: false,
   },
 ];
