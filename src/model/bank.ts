@@ -10129,7 +10129,7 @@ export const bank: Question[] = [
     chapter: '平面向量',
     question:
       '如圖，$\\triangle ABC$ 中，$G$ 為重心，$\\overline{GA}=3$，$\\overline{GB}=5$，$\\overline{GC}=7$，求 $\\overrightarrow{GA}\\cdot\\overrightarrow{GB}$ 及 $\\triangle ABC$ 之面積。',
-    answer: '$\\frac{15}{2}$；$\\frac{45\\sqrt{3}}{4}',
+    answer: '$\\frac{15}{2}$；$\\frac{45\\sqrt{3}}{4}$',
     hasImage: true,
   },
   {
@@ -10616,5 +10616,345 @@ export const bank: Question[] = [
       '已知函數 $y=a\\sin x+b$，其中 $a>0$，若函數的最大值為 $\\frac{3}{2}$，最小值為 $-\\frac{1}{2}$，求數對 $(a,b)$。',
     answer: '$(1,\\frac{1}{2})$',
     hasImage: false,
+  },
+  {
+    id: '17c3c395cde',
+    chapter: '平面向量',
+    question:
+      '已知 $\\overset{\\xrightharpoonup{}}{AB}=(2,13)$，$\\overset{\\xrightharpoonup{}}{AD}=(15,8)$，$\\overset{\\xrightharpoonup{}}{DC}=(-6,1)$，求 $\\overset{\\xrightharpoonup{}}{CA}$、$\\overset{\\xrightharpoonup{}}{CB}$。',
+    answer: '$(-9,-9)$；$(7,4)$',
+    hasImage: false,
+  },
+  {
+    id: '17c4563c8b7',
+    chapter: '平面向量',
+    question:
+      '線段 $\\overline{PQ}$ 上有 $5$ 個等分點 $A$、$B$、$C$、$D$、$E$，如圖所示，若 $\\overset{\\xrightharpoonup{}}{AE}=x\\overset{\\xrightharpoonup{}}{PQ}$，$\\overset{\\xrightharpoonup{}}{AQ}=y\\overset{\\xrightharpoonup{}}{DB}$，求數對 $(x,y)$。',
+    answer: '$(\\frac{2}{3},-\\frac{5}{2})$',
+    hasImage: true,
+  },
+  {
+    id: '17c3c614420',
+    chapter: '平面向量',
+    question:
+      '若 $2\\overset{\\xrightharpoonup{}}{a}-3(\\overset{\\xrightharpoonup{}}{b}+2\\overset{\\xrightharpoonup{}}{c})$\n$+2(\\overset{\\xrightharpoonup{}}{a}-\\overset{\\xrightharpoonup{}}{b}+\\overset{\\xrightharpoonup{}}{c})=x\\overset{\\xrightharpoonup{}}{a}+y\\overset{\\xrightharpoonup{}}{b}+z\\overset{\\xrightharpoonup{}}{c}$，求 $(x,y,z)$。',
+    answer: '$(4,-5,-4)$',
+    hasImage: false,
+  },
+  {
+    id: '17c3c7a3797',
+    chapter: '平面向量',
+    question:
+      '坐標平面上，$\\overset{\\xrightharpoonup{}}{a}=(1,-3)$，$\\overset{\\xrightharpoonup{}}{b}=(4,5)$，$\\overset{\\xrightharpoonup{}}{c}=(-2,7)$，求 $2\\overset{\\xrightharpoonup{}}{a}+3\\overset{\\xrightharpoonup{}}{b}-5\\overset{\\xrightharpoonup{}}{c}$？',
+    answer: '$(24,-26)$',
+    hasImage: false,
+  },
+  {
+    id: '17c40cb19e8',
+    chapter: '平面向量',
+    question:
+      '已知 $|\\overset{\\xrightharpoonup{}}{a}|=8$，$|\\overset{\\xrightharpoonup{}}{b}|=3$，$|\\overset{\\xrightharpoonup{}}{c}|=5$，$\\overset{\\xrightharpoonup{}}{a}$ 與 $\\overset{\\xrightharpoonup{}}{b}$ 同向，$\\overset{\\xrightharpoonup{}}{b}$ 與 $\\overset{\\xrightharpoonup{}}{c}$ 反向，$\\overset{\\xrightharpoonup{}}{a}=x\\overset{\\xrightharpoonup{}}{b}=y\\overset{\\xrightharpoonup{}}{c}$，求數對 $(x,y)$。\n',
+    answer: '$(\\frac{8}{3},-\\frac{8}{5})$',
+    hasImage: false,
+  },
+  {
+    id: '17c40d37bdd',
+    chapter: '平面向量',
+    question:
+      '若 $4(\\overset{\\xrightharpoonup{}}{a}-2\\overset{\\xrightharpoonup{}}{b})+3\\overset{\\xrightharpoonup{}}{c}$\n$-2(-\\overset{\\xrightharpoonup{}}{a}+2\\overset{\\xrightharpoonup{}}{b}+3\\overset{\\xrightharpoonup{}}{c})=x\\overset{\\xrightharpoonup{}}{a}+y\\overset{\\xrightharpoonup{}}{b}+z\\overset{\\xrightharpoonup{}}{c}$，求 $(x,y,z)$。\n',
+    answer: '$(6,-12,-3)$',
+    hasImage: false,
+  },
+  {
+    id: '17c40da67d7',
+    chapter: '平面向量',
+    question:
+      '坐標平面上，點 $A(4,7)$、$B(9,-3)$、$C(-6,11)$、$D(2,-1)$，求 $3\\overset{\\xrightharpoonup{}}{AB}+4\\overset{\\xrightharpoonup{}}{CD}$ 與 $2\\overset{\\xrightharpoonup{}}{AC}-5\\overset{\\xrightharpoonup{}}{BD}$。',
+    answer: '$(47,-78)$；$(15,-2)$',
+    hasImage: false,
+  },
+  {
+    id: '17c40dface4',
+    chapter: '平面向量',
+    question:
+      '平面上 $A(3,2)$、$B(1,5)$、$C(-2,-1)$，若 $P$ 點滿足 $3\\overset{\\xrightharpoonup{}}{AP}+2\\overset{\\xrightharpoonup{}}{BP}+\\overset{\\xrightharpoonup{}}{CP}=\\overset{\\xrightharpoonup{}}{0}$，求 $P$ 點坐標。',
+    answer: '$(\\frac{3}{2},\\frac{5}{2})$',
+    hasImage: false,
+  },
+  {
+    id: '17c40e31a97',
+    chapter: '平面向量',
+    question:
+      '平面上 $A(5,p)$、$B(q,-2)$、$C(1,7)$、$D(4,3)$，若 $A$ 點沿著 $\\overset{\\xrightharpoonup{}}{CD}$ 的方向移動 $15$ 單位恰到達 $B$ 點，求數對 $(p,q)$。',
+    answer: '$(10,14)$',
+    hasImage: false,
+  },
+  {
+    id: '17c40edb4d6',
+    chapter: '平面向量',
+    question:
+      '已知平面上 $\\overset{\\xrightharpoonup{}}{a}=(3,-2)$、$\\overset{\\xrightharpoonup{}}{b}=(5,1)$、$\\overset{\\xrightharpoonup{}}{c}=(4,6)$，若：\n(1) $\\overset{\\xrightharpoonup{}}{a}$ 與 $\\overset{\\xrightharpoonup{}}{b}+t\\overset{\\xrightharpoonup{}}{c}$ 平行，求 $t$。\n(2) $k\\overset{\\xrightharpoonup{}}{a}+\\overset{\\xrightharpoonup{}}{b}$ 平分 $\\overset{\\xrightharpoonup{}}{a}$ 與 $\\overset{\\xrightharpoonup{}}{b}$ 的夾角，求 $k$。',
+    answer: '(1) $-\\frac{1}{2}$ (2) $\\sqrt{2}$',
+    hasImage: false,
+  },
+  {
+    id: '17c456250f8',
+    chapter: '平面向量',
+    question:
+      '平面上 $A(1,7)$、$B(2,2)$、$C(-3,1)$，若 $P$ 點滿足 $2\\overset{\\xrightharpoonup{}}{AP}-3\\overset{\\xrightharpoonup{}}{BP}+5\\overset{\\xrightharpoonup{}}{CP}=\\overset{\\xrightharpoonup{}}{0}$，求 $P$ 坐標。',
+    answer: '$(-\\frac{19}{4},\\frac{13}{4})$ ',
+    hasImage: false,
+  },
+  {
+    id: '17c4569c253',
+    chapter: '平面向量',
+    question:
+      '坐標平面上有一點 $A(7,-2)$ 及向量 $\\overset{\\xrightharpoonup{}}{p}=(-3,4)$，若 $A$ 點沿著 $\\overset{\\xrightharpoonup{}}{p}$ 的方向移動 $4$ 個單位長至 $B$ 點，求 $B$ 點坐標。\n',
+    answer: '$(\\frac{23}{5},\\frac{6}{5})$',
+    hasImage: false,
+  },
+  {
+    id: '17c4573201e',
+    chapter: '平面向量',
+    question:
+      '平面上 $\\overset{\\xrightharpoonup{}}{a}=(2,-1)$，$\\overset{\\xrightharpoonup{}}{b}=(4,3)$，令 $\\overset{\\xrightharpoonup{}}{c}=\\overset{\\xrightharpoonup{}}{a}+t\\overset{\\xrightharpoonup{}}{b}$，若 : \n(1) $\\overset{\\xrightharpoonup{}}{c}$ 與 $(2,1)$ 平行，求 $t$。\n(2) $\\overset{\\xrightharpoonup{}}{c}$ 平分 $\\overset{\\xrightharpoonup{}}{a}$、$\\overset{\\xrightharpoonup{}}{b}$ 的夾角，求 $t$。\n',
+    answer: '(1) $2$；(2) $\\dfrac{\\sqrt{5}}{5}$',
+    hasImage: false,
+  },
+  {
+    id: '17c58a894bd',
+    chapter: '三角函數A',
+    question:
+      '下列哪些角為第二象限角？(1) $165^\\circ$ (2) $1529^\\circ$ (3) $120$ (4) $-512^\\circ$ (5) $-\\frac{7}{5}\\pi$',
+    answer: '(1)(5)',
+    hasImage: false,
+  },
+  {
+    id: '17c58ac8113',
+    chapter: '三角函數A',
+    question:
+      '標準位置角 $\\theta$ 在終邊上有一點 $P(-3,6\\sqrt{2})$，則下列選項哪些正確？\n(1) $\\sin\\theta=\\frac{-1}{3}$ (2) $\\cos(90^\\circ-\\theta)=\\frac{2\\sqrt{2}}{3}$ (3) $\\cos2\\theta=-\\frac{8}{9}$ (4) $\\sin2\\theta=-\\frac{4\\sqrt{2}}{9}$ (5) $\\sin\\frac{\\theta}{2}=\\sqrt{\\frac{2}{3}}$',
+    answer: '(2)(4)(5)',
+    hasImage: false,
+  },
+  {
+    id: '17c58aefaa1',
+    chapter: '三角函數A',
+    question:
+      '附圖為某三角函數 $f(x)$ 的部分圖形，下列哪些選項是對的？\n(1) $f(\\frac{4\\pi}{3})$ 之值為 $0$ (2) $f(x)$ 之週期為 $\\pi$\n(3) $y=f(x)$ 之圖形對稱於 $x=\\frac{5\\pi}{6}$ (4) $f(x)=2\\sin(x+\\frac{\\pi}{3})$\n(5) $f(x)=2\\sin(x-\\frac{\\pi}{3})$',
+    answer: '(1)(3)(5)',
+    hasImage: true,
+  },
+  {
+    id: '17c58b1eadd',
+    chapter: '三角函數A',
+    question:
+      '將函數 $f(x)=\\cos x$ 的圖形水平伸縮 $\\frac{1}{2}$ 倍，再向左平移 $\\frac{\\pi}{2}$ 單位，得到函數 $g(x)$，則：\n(1) $g(x)=\\cos(2x+\\frac{\\pi}{2})$ (2) $g(x)=\\cos2(x+\\frac{\\pi}{2})$ (3) $g(x)=\\sin2x$\n(4) $g(x)=-\\cos2x$ (5) 將 $g(x)$ 水平伸縮 $2$ 倍，再向右移 $\\pi$ 可得 $f(x)$',
+    answer: '(2)(4)(5)',
+    hasImage: false,
+  },
+  {
+    id: '17c58b3fade',
+    chapter: '三角函數A',
+    question:
+      '若 $\\pi\\le\\theta\\le2\\pi$，$\\cos\\theta=\\frac{3}{5}$，下列哪些正確？\n(1) $\\sin\\theta=-\\frac{4}{5}$ (2) $\\cos2\\theta=-\\frac{7}{25}$ (3) $\\cos\\frac{\\theta}{2}=\\sqrt{\\frac{4}{5}}$ (4) $\\sin2\\theta=-\\frac{24}{25}$ (5) $\\sin(\\theta+\\pi)=-\\frac{4}{5}$',
+    answer: '(1)(2)(4)',
+    hasImage: false,
+  },
+  {
+    id: '17c58b8a8f2',
+    chapter: '三角函數A',
+    question: '時鐘在 $5$ 點 $40$ 分時，時針與分針所夾的較小的夾角為多少弳？',
+    answer: '$\\frac{7}{18}\\pi$',
+    hasImage: false,
+  },
+  {
+    id: '17c58ba07b3',
+    chapter: '三角函數A',
+    question: '若一角的弧度為 $30$，則其最小的正同界角的弧度為多少弳？',
+    answer: '$30-8\\pi$',
+    hasImage: false,
+  },
+  {
+    id: '17c58bc2c84',
+    chapter: '三角函數A',
+    question:
+      '設 $\\sin\\theta=\\frac{4}{5}$，且 $\\theta$ 為第二象限角，試求 $\\sin(\\frac{\\pi}{2}-\\theta)+\\sin(\\pi-\\theta)$ 之值。',
+    answer: '$\\frac{1}{5}$',
+    hasImage: false,
+  },
+  {
+    id: '17c58bd78c5',
+    chapter: '三角函數A',
+    question: '周長恆為定值 $6$ 的所有扇形中，最大的扇形面積為？',
+    answer: '$\\frac{9}{4}$',
+    hasImage: false,
+  },
+  {
+    id: '17c58bf552c',
+    chapter: '三角函數A',
+    question: '已知 $0\\le x\\le\\pi$，$\\cos2x<\\cos x$，求解 $x$ 的範圍。',
+    answer: '$0<x<\\frac{2}{3}\\pi$',
+    hasImage: false,
+  },
+  {
+    id: '17c58c1a160',
+    chapter: '三角函數A',
+    question: '平面上兩直線 $L_1:x-2y=3$ 與 $L_2:x+2y=1$ 的夾角為 $\\theta$，求 $\\sin\\theta$。',
+    answer: '$\\frac{4}{5}$',
+    hasImage: false,
+  },
+  {
+    id: '17c58c28118',
+    chapter: '三角函數A',
+    question: '如圖，圓心角為 $60^\\circ$、半徑為 $6$ 的扇形，求其內切圓的面積。',
+    answer: '$4\\pi$',
+    hasImage: true,
+  },
+  {
+    id: '17c58c34ebf',
+    chapter: '三角函數A',
+    question:
+      '設 $-2\\pi\\le x\\le2\\pi$，則直線 $x+y=0$ 與函數 $y=\\tan x$ 之圖形，共有幾個交點？',
+    answer: '$5$',
+    hasImage: false,
+  },
+  {
+    id: '17c58c480cc',
+    chapter: '三角函數A',
+    question:
+      '$\\triangle ABC$ 的三內角為 $A$、$B$、$C$，已知 $\\sin A=\\frac{5}{13}$，$\\cos B=-\\frac{4}{5}$，求 $\\cos C$。',
+    answer: '$\\frac{63}{65}$',
+    hasImage: false,
+  },
+  {
+    id: '17c58c56725',
+    chapter: '三角函數A',
+    question:
+      '求 $\\sin(26^\\circ-\\theta)\\cos(34^\\circ+\\theta)+\\cos(26^\\circ-\\theta)\\sin(34^\\circ+\\theta)$。',
+    answer: '$\\frac{\\sqrt{3}}{2}$',
+    hasImage: false,
+  },
+  {
+    id: '17c58c87db7',
+    chapter: '三角函數A',
+    question: '方程式 $5\\sin x-5\\sqrt{3}\\cos x=5$，其解 $x$ 有無限多組，求最小正數 $x$。',
+    answer: '$\\frac{\\pi}{2}$',
+    hasImage: false,
+  },
+  {
+    id: '17c58c9c698',
+    chapter: '三角函數A',
+    question: '若 $f(x)=\\sin^2x+2\\sin x\\cos x+3\\cos^2 x$，求 $f(x)$ 的最大值。',
+    answer: '$2+\\sqrt{2}$',
+    hasImage: false,
+  },
+  {
+    id: '17c58cceeb3',
+    chapter: '三角函數A',
+    question:
+      '如圖，直圓錐底圓的直徑 $\\overline{BC}=4$，且 $\\overline{AB}=12$，有一隻螞蟻在這個直圓錐的表面走動散步，回答下列問題：\n(1) 若由 $C$ 點沿錐面繞一圈回到 $C$ 點，求這隻螞蟻所走的最短路徑長。\n(2) 若由 $C$ 點沿錐面繞一圈來到 $D$ 點，已知 $\\overline{AD}=3$，求這隻螞蟻所走的最短路徑長。',
+    answer: '(1) $12$ (2) $3\\sqrt{13}$',
+    hasImage: true,
+  },
+  {
+    id: '17c58ebfd06',
+    chapter: '三角函數B',
+    question:
+      '下列各選項何者正確？\n(1) $\\sin2<0$ (2) $\\sin\\frac{3\\pi}{4}>0$ (3) $\\tan210^\\circ>0$ (4) $\\cos685^\\circ>0$ (5) $\\cos(-\\pi)<0$',
+    answer: '(2)(3)(5)',
+    hasImage: false,
+  },
+  {
+    id: '17c58ede958',
+    chapter: '三角函數B',
+    question:
+      '下列關於度與弳的互換，請選出正確的選項。\n(1) $\\frac{5\\pi}{6}=150^\\circ$ (2) $\\frac{3\\pi}{4}=270^\\circ$ (3) $\\pi=360^\\circ$ (4) $\\pi=180^\\circ$ (5) $\\frac{1}{3}=\\frac{60^\\circ}{\\pi}$',
+    answer: '(1)(4)(5)',
+    hasImage: false,
+  },
+  {
+    id: '17c58f019ff',
+    chapter: '三角函數B',
+    question: '有一扇形，半徑為 $4$，弧長為 $20$，求此扇形的面積。',
+    answer: '$40$',
+    hasImage: false,
+  },
+  {
+    id: '17c58f1f7d6',
+    chapter: '三角函數B',
+    question:
+      '已知 $\\frac{\\pi}{6}\\le x\\le\\pi$，函數 $f(x)=\\sin(x+\\frac{\\pi}{2})$ 的最大值為 $M$，最小值為 $m$，求數對 $(M,m)$。',
+    answer: '$(\\frac{\\sqrt{3}}{2},-1)$',
+    hasImage: false,
+  },
+  {
+    id: '17c58f2dcdd',
+    chapter: '三角函數B',
+    question: '圖為三角函數 $f(x)=a\\sin(bx)+c$ 的圖形，求數對 $(a,b,c)$。',
+    answer: '$(2,1,1)$',
+    hasImage: true,
+  },
+  {
+    id: '17c58f40c80',
+    chapter: '三角函數B',
+    question:
+      '若 $0<\\phi<\\pi$，且函數 $f(x)=2\\sin(\\frac{\\pi}{3}x+\\phi)$ 的圖形通過 $(0,\\sqrt{3})$，求 $\\phi$。',
+    answer: '$\\frac{\\pi}{3}$',
+    hasImage: false,
+  },
+  {
+    id: '17c58f561f1',
+    chapter: '三角函數B',
+    question:
+      '將函數 $y=\\sin2x$ 的圖形上所有的點向右平移 $\\frac{\\pi}{3}$，得到新的函數圖形方程式為 $y=\\sin(2x-k)$，$0\\le k\\le\\pi$，求 $k$。',
+    answer: '$\\frac{2\\pi}{3}$',
+    hasImage: false,
+  },
+  {
+    id: '17c58f6631b',
+    chapter: '三角函數B',
+    question: '標準位置角 $\\theta$ 在終邊上有一點 $P(-3,6\\sqrt{2})$，求 $\\cos\\theta$。',
+    answer: '$-\\frac{1}{3}$',
+    hasImage: false,
+  },
+  {
+    id: '17c58f86821',
+    chapter: '三角函數B',
+    question:
+      '如圖，$O$ 為圓心，以 $\\overline{AB}$ 為直徑的半圓，且此圓的半徑為 $8$。若 $\\angle BOC=90^\\circ$，以 $B$ 為圓心，$\\overline{BC}$ 為半徑畫弧，交 $\\overline{AB}$ 於 $D$，求陰影部分的面積。',
+    answer: '$8\\pi-8$',
+    hasImage: true,
+  },
+  {
+    id: '17c58f93fcf',
+    chapter: '三角函數B',
+    question: '如圖，直圓錐之底半徑 $r$ 為 $2$，且 $\\overline{AB}=5$，求此直圓錐的側面積。',
+    answer: '$10\\pi$',
+    hasImage: true,
+  },
+  {
+    id: '17c58fce7ab',
+    chapter: '三角函數B',
+    question:
+      '如圖，已知 $PA$ 弧長為 $6$ 且點 $A(3,0)$，$\\angle AOP=\\frac{2\\pi}{3}$，試求 $P$ 點坐標 $(m,n)$。',
+    answer: '$(-\\frac{\\sqrt{3}}{2},\\frac{3\\sqrt{3}}{2})$',
+    hasImage: true,
+  },
+  {
+    id: '17c58fe68ca',
+    chapter: '三角函數B',
+    question:
+      '$0\\le x\\le2\\pi$，請畫出 $y=\\sin2x-1$ 的函數圖形，需標出此圖形 $y=\\sin2x-1$ 與 $x$ 軸的所有交點坐標，及最高點與最低點坐標。',
+    answer: '略',
+    hasImage: false,
+  },
+  {
+    id: '17c59038af4',
+    chapter: '三角函數B',
+    question:
+      '有一電波訊號經轉譯後得到一串坐標 $(0.67,1)$、$(2,2)$、$(3.33,1)$......，將這些坐標點描繪至方格紙中並將這些點連接成如圖 (圖形的格線距離是一單位)。\n猜測這些點近似於正弦函數 $y=a\\sin bx+k$ 圖形上的點，且 $a>0$，$b>0$，$k$ 為常數，試求此正弦函數 $y=a\\sin bx+k$ 的週期、振幅、$b$。',
+    answer: '$8$；$2$；$\\frac{\\pi}{4}$',
+    hasImage: true,
   },
 ];

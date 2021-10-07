@@ -6,7 +6,21 @@ import { getQuestions } from 'src/services/questionService';
 import style from './Hw.module.scss';
 
 const Hw = () => {
-  const ids: string[] = ['17c458467c4', '17c4585c46f'];
+  const ids: string[] = [
+    '17c3c395cde',
+    '17c4563c8b7',
+    '17c3c614420',
+    '17c3c7a3797',
+    '17c40cb19e8',
+    '17c40d37bdd',
+    '17c40da67d7',
+    '17c40dface4',
+    '17c40e31a97',
+    '17c40edb4d6',
+    '17c456250f8',
+    '17c4569c253',
+    '17c4573201e',
+  ];
 
   const addDefaultSrc = (ev: ChangeEvent<HTMLImageElement>) => {
     ev.target.src = '/toliman/images/09.PNG';

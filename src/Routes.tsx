@@ -5,6 +5,7 @@ const route = {
   Home: loadable(() => import('./pages/home/Home')),
   Edit: loadable(() => import('./pages/edit/Edit')),
   Hw: loadable(() => import('./pages/hw/Hw')),
+  Test: loadable(() => import('./pages/test/Test')),
   Bank: loadable(() => import('./pages/bank/Bank')),
   Projection: loadable(() => import('./pages/projection/Projection')),
 
@@ -95,6 +96,7 @@ const AppRoutes = () => {
       <Route exact={true} path="/toliman/lecture/B3C10" component={route.B3C10} />
 
       <Route exact={true} path="/toliman/hw" component={route.Hw} />
+      <Route exact={true} path="/toliman/test" component={route.Test} />
       <Route exact={true} path="/toliman" component={route.Home} />
       <Redirect to="/toliman" />
     </Switch>
