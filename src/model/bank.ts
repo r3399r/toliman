@@ -10957,4 +10957,395 @@ export const bank: Question[] = [
     answer: '$8$；$2$；$\\frac{\\pi}{4}$',
     hasImage: true,
   },
+  {
+    id: '17c607a943e',
+    chapter: '平面向量',
+    question:
+      '已知 $\\overset{\\xrightharpoonup{}}{a}=(2,1)$，$\\overset{\\xrightharpoonup{}}{b}=(3,4)$，求 $|t\\overset{\\xrightharpoonup{}}{a}+\\overset{\\xrightharpoonup{}}{b}|$ 的最小值及此時的 $t$。',
+    answer: '$-2$；$\\sqrt{5}$',
+    hasImage: false,
+  },
+  {
+    id: '17c607db430',
+    chapter: '平面向量',
+    question:
+      '已知 $\\overset{\\xrightharpoonup{}}{a}=(-2,1)$，$\\overset{\\xrightharpoonup{}}{b}=(7,4)$，求 $| t\\overset{\\xrightharpoonup{}}{a}+\\overset{\\xrightharpoonup{}}{b}|$ 的最小值及此時的 $t$。',
+    answer: '$2$；$3\\sqrt{5}$',
+    hasImage: false,
+  },
+  {
+    id: '17c561f61e7',
+    chapter: '平面向量',
+    question:
+      '已知正方形 $ABCD$ 的邊長 $1$，若 $P$ 點滿足 $\\overset{\\xrightharpoonup{}}{AP}=t\\overset{\\xrightharpoonup{}}{AB}+k\\overset{\\xrightharpoonup{}}{AD}$，其中 $0\\le t\\le2$ 且 $-1\\le k\\le3$，則所有 $P$ 點所成的圖形為長方形，求其面積。\n',
+    answer: '$8$',
+    hasImage: false,
+  },
+  {
+    id: '17c5df691cb',
+    chapter: '平面向量',
+    question:
+      '$\\triangle ABC$ 中，$\\overline{AB}=3$，$\\overline{BC}=5$，$\\overline{CA}=6$，若 $P$ 滿足 $\\overset{\\xrightharpoonup{}}{AP}=x\\overset{\\xrightharpoonup{}}{AB}=y\\overset{\\xrightharpoonup{}}{AC}$ 且 $1\\le x\\le3$，$0\\le y\\le4$，求 $P$ 點所成圖形的面積。',
+    answer: '$32\\sqrt{14}$',
+    hasImage: false,
+  },
+  {
+    id: '17c5e01de25',
+    chapter: '平面向量',
+    question:
+      '如圖所示，$OPCQ$ 為平行四邊形，$\\overline{OP}=2$，$\\overline{OQ}=3$，$P$ 在 $\\overline{OA}$ 上，$B$ 在 $\\overline{OQ}$ 上，$\\lvert \\overset{\\xrightharpoonup{}}{OA}\\rvert=5$，$\\lvert \\overset{\\xrightharpoonup{}}{OB}\\rvert=1$，若 $\\overset{\\xrightharpoonup{}}{OC}=x\\overset{\\xrightharpoonup{}}{OA}+y\\overset{\\xrightharpoonup{}}{OB}$，求數對 $(x,y)$。',
+    answer: '$(\\frac{2}{5},3)$',
+    hasImage: true,
+  },
+  {
+    id: '17c5e0ecf8f',
+    chapter: '平面向量',
+    question:
+      '如圖所示，$APQR$ 為平行四邊形，$P$ 在 $\\overline{OA}$ 上且 $\\overline{AP}=2\\overline{PC}$，$A$ 在 $\\overline{BR}$ 上且 $5\\overline{AB}=2\\overline{AR}$，若 $\\overset{\\xrightharpoonup{}}{AQ}=x\\overset{\\xrightharpoonup{}}{AB}+y\\overset{\\xrightharpoonup{}}{AC}$，求數對 $(x,y)$。\n',
+    answer: '$(\\frac{2}{5},-\\frac{2}{3})$',
+    hasImage: true,
+  },
+  {
+    id: '17c5e131245',
+    chapter: '平面向量',
+    question:
+      '設 $\\overset{\\xrightharpoonup{}}{a}$ 與 $\\overset{\\xrightharpoonup{}}{b}$ 為非零向量且不互相平行，若 $(2x+y-7)\\overset{\\xrightharpoonup{}}{a}+(3x-y-3)\\overset{\\xrightharpoonup{}}{b}=\\overset{\\xrightharpoonup{}}{0}$，求數對 $(x,y)$。',
+    answer: '$(2,3)$',
+    hasImage: false,
+  },
+  {
+    id: '17c5e14893b',
+    chapter: '平面向量',
+    question:
+      '已知平面上 $\\overset{\\xrightharpoonup{}}{a}$ 與 $\\overset{\\xrightharpoonup{}}{b}$ 為非零向量且不互相平行，若 $(x-y+7)\\overset{\\xrightharpoonup{}}{a}+(2x+y-1)\\overset{\\xrightharpoonup{}}{b}=\\overset{\\xrightharpoonup{}}{0}$，求數對 $(x,y)$。',
+    answer: '$(-2,5)$',
+    hasImage: false,
+  },
+  {
+    id: '17c5e180ef8',
+    chapter: '平面向量',
+    question:
+      '平面上 $\\triangle ABC$，若 $(x+4y)\\overset{\\xrightharpoonup{}}{AB}+(2x-9)\\overset{\\xrightharpoonup{}}{BC}+(y-5)\\overset{\\xrightharpoonup{}}{CA}=\\overset{\\xrightharpoonup{}}{0}$，求數對 $(x,y)$。',
+    answer: ' $(1,-2)$',
+    hasImage: false,
+  },
+  {
+    id: '17c5e1c0bd8',
+    chapter: '平面向量',
+    question:
+      '若 $3\\overset{\\xrightharpoonup{}}{BC}-2\\overset{\\xrightharpoonup{}}{PC}+\\overset{\\xrightharpoonup{}}{AC}=4\\overset{\\xrightharpoonup{}}{BP}+\\overset{\\xrightharpoonup{}}{AP}$，則 $\\overset{\\xrightharpoonup{}}{AP}=x\\overset{\\xrightharpoonup{}}{AB}+y\\overset{\\xrightharpoonup{}}{AC}$，求數對 $(x,y)$。',
+    answer: '$(\\frac{1}{3},\\frac{2}{3})$',
+    hasImage: false,
+  },
+  {
+    id: '17c5e24a614',
+    chapter: '平面向量',
+    question:
+      '設 $\\overset{\\xrightharpoonup{}}{a}=(3,1)$，$\\overset{\\xrightharpoonup{}}{b}=(-2,4)$，$\\overset{\\xrightharpoonup{}}{c}=(12,-10)$，若 $\\overset{\\xrightharpoonup{}}{c}=x\\overset{\\xrightharpoonup{}}{a}+y\\overset{\\xrightharpoonup{}}{b}$，求數對 $(x,y)$。',
+    answer: '$(2,-3)$',
+    hasImage: false,
+  },
+  {
+    id: '17c5e2d8d18',
+    chapter: '平面向量',
+    question:
+      '如圖，等腰梯形 $ABCD$，$\\overline{AB}=\\overline{CD}=2$，$\\overline{BC}=5$，$\\overline{AD}=3$。已知 $M$ 為 $\\overline{AD}$ 中點，$N$ 為 $\\overline{CD}$ 中點，$\\overset{\\xrightharpoonup{}}{MN}=p\\overset{\\xrightharpoonup{}}{AB}+q\\overset{\\xrightharpoonup{}}{CD}$，求數對 $(p,q)$。',
+    answer: '$(-\\frac{3}{4},-\\frac{5}{4})$',
+    hasImage: true,
+  },
+  {
+    id: '17c5e38a87b',
+    chapter: '平面向量',
+    question:
+      '設 $\\overset{\\xrightharpoonup{}}{a}=(3,1)$，$\\overset{\\xrightharpoonup{}}{b}=(-1,2)$，$\\overset{\\xrightharpoonup{}}{c}=(3,8)$，若 $\\overset{\\xrightharpoonup{}}{c}=x\\overset{\\xrightharpoonup{}}{a}+y\\overset{\\xrightharpoonup{}}{b}$，求數對 $(x,y)$。',
+    answer: '$(2,3)$',
+    hasImage: false,
+  },
+  {
+    id: '17c5ff6ee9c',
+    chapter: '平面向量',
+    question:
+      '已知等腰梯形 $ABCD$，$\\overline{AD}//\\overline{BC}$，$\\overline{AB}=\\overline{CD}$，若 $\\overset{\\xrightharpoonup{}}{AB}=(3,1)$，$\\overset{\\xrightharpoonup{}}{AD}=(-2,2)$，求 $\\overset{\\xrightharpoonup{}}{CD}$。',
+    answer: '$(-1,-3)$',
+    hasImage: false,
+  },
+  {
+    id: '17c5ffde515',
+    chapter: '平面向量',
+    question:
+      '$O$ 為 $\\overleftrightarrow{AB}$ 外一點， $P$ 點在 $\\overline{AB}$ 上，已知 $\\overline{PA}=\\frac{8}{3}$，$\\overline{PB}=\\frac{12}{7}$，若 $\\overset{\\xrightharpoonup{}}{OP}=x\\overset{\\xrightharpoonup{}}{OA}+y\\overset{\\xrightharpoonup{}}{OB}$，求數對 $(x,y)$。',
+    answer: '$(\\frac{9}{23},\\frac{14}{23})$',
+    hasImage: false,
+  },
+  {
+    id: '17c6005807b',
+    chapter: '平面向量',
+    question:
+      '平面上 $A、B、C、D$ 四點，$C$ 在 $\\overline{BD}$  上且 $\\overline{BC}:\\overline{CD}=3:5$，若 $\\overset{\\xrightharpoonup{}}{AD}=x\\overset{\\xrightharpoonup{}}{AB}+y\\overset{\\xrightharpoonup{}}{AC}$，求數對 $(x,y)$。',
+    answer: '$(-\\frac{5}{3},\\frac{8}{3})$',
+    hasImage: false,
+  },
+  {
+    id: '17c6009c44c',
+    chapter: '平面向量',
+    question:
+      '數線上有  $P、A、B$ 三點，已知 $\\overline{PA}:\\overline{PB}=4:7$，設點 $O$ 在數線外，若 $\\overset{\\xrightharpoonup{}}{OP}=x\\overset{\\xrightharpoonup{}}{OA}+y\\overset{\\xrightharpoonup{}}{OB}$，求數對 $(x,y)$。(兩解)',
+    answer: '$(\\frac{7}{11},\\frac{4}{11})$ 或 $(\\frac{7}{3},-\\frac{4}{3})$',
+    hasImage: false,
+  },
+  {
+    id: '17c60109edf',
+    chapter: '平面向量',
+    question:
+      '已知 $O$ 在 $\\overleftrightarrow{AB}$ 外，$P$ 在 $\\overline{AB}$  上，$\\overline{PA}=\\frac{7}{6}$，$\\overline{PB}=1.4$ ，若 $\\overset{\\xrightharpoonup{}}{OP}=x\\overset{\\xrightharpoonup{}}{OA}+y\\overset{\\xrightharpoonup{}}{OB}$，求數對 $(x,y)$。',
+    answer: '$(\\frac{6}{11},\\frac{5}{11})$',
+    hasImage: false,
+  },
+  {
+    id: '17c601738d2',
+    chapter: '平面向量',
+    question:
+      '如圖， $D$ 在 $\\overline{BC}$ 上，且 $\\overline{CD}=2\\overline{BD}$，$G$ 為 $\\overline{AC}$ 中點，則:\n(1) $\\overset{\\xrightharpoonup{}}{GD}=x\\overset{\\xrightharpoonup{}}{CA}+y\\overset{\\xrightharpoonup{}}{CB}$，求數對 $(x,y)$。\n(2) $\\overset{\\xrightharpoonup{}}{GD}=p\\overset{\\xrightharpoonup{}}{AB}+q\\overset{\\xrightharpoonup{}}{AC}$，求數對 $(p,q)$。。',
+    answer: ' $(-\\frac{1}{2},\\frac{2}{3})$；$(\\frac{2}{3},-\\frac{1}{6})$。',
+    hasImage: true,
+  },
+
+  {
+    id: '17c5bbf5802',
+    chapter: '平面向量',
+    question:
+      '$\\triangle ABC$ 中，$D$、$E$ 分別為 $\\overline{AB}$ 和 $\\overline{BC}$ 的三等分點，位置如圖，設 $\\overset{\\xrightharpoonup{}}{DE}=x\\overset{\\xrightharpoonup{}}{AB}+y\\overset{\\xrightharpoonup{}}{AC}$，求數對 $(x,y)$。',
+    answer: '$(\\frac{1}{3},\\frac{1}{3})$',
+    hasImage: true,
+  },
+  {
+    id: '17c5bcac6bb',
+    chapter: '平面向量',
+    question:
+      '$\\triangle ABC$ 中，已知 $A(1,2)$、$B(4,-2)$、$C(1,5)$：\n(1) $\\angle A$ 的內角平分線交 $\\overline{BC}$ 於 $D$，則 $\\overset{\\xrightharpoonup{}}{AD}=x\\overset{\\xrightharpoonup{}}{AB}+y\\overset{\\xrightharpoonup{}}{AC}$，求數對 $(x,y)$ 和 $D$ 坐標。\n(2) $\\angle A$ 的外角平分線交 $\\overleftrightarrow{BC}$ 於 $E$，則 $\\overset{\\xrightharpoonup{}}{AE}=p\\overset{\\xrightharpoonup{}}{AB}+q\\overset{\\xrightharpoonup{}}{AC}$，求數對 $(p,q)$ 和 $E$ 坐標。',
+    answer:
+      '(1) $(\\frac{3}{8},\\frac{5}{8})$；$(\\frac{17}{8},\\frac{19}{8})$ (2) $(-\\frac{3}{2},\\frac{5}{2})$；$(-\\frac{7}{2},\\frac{31}{2})$',
+    hasImage: false,
+  },
+  {
+    id: '17c5bcf51b4',
+    chapter: '平面向量',
+    question:
+      '$\\triangle ABC$ 中，已知 $A(3,-7)$、$B(-5,-1)$、$C(6,-3)$：\n(1) $\\angle A$ 的內角平分線交 $\\overline{BC}$ 於 $D$，則 $\\overset{\\xrightharpoonup{}}{AD}=x\\overset{\\xrightharpoonup{}}{AB}+y\\overset{\\xrightharpoonup{}}{AC}$，求數對 $(x,y)$。\n(2) $\\angle A$ 的外角平分線交 $\\overleftrightarrow{BC}$ 於 $E$，則 $\\overset{\\xrightharpoonup{}}{AE}=u\\overset{\\xrightharpoonup{}}{AB}+v\\overset{\\xrightharpoonup{}}{AC}$，求數對 $(u,v)$。',
+    answer: '(1) $(\\frac{1}{3},\\frac{2}{3})$ (2) $(-1,2)$',
+    hasImage: false,
+  },
+  {
+    id: '17c5bd757e0',
+    chapter: '平面向量',
+    question:
+      '平面上有四點 $P$、$A$、$B$、$C$，下列哪些條件可保證 $A$、$B$、$C$ 三點在同一直線上？\n(1) $\\overset{\\xrightharpoonup{}}{AB}=100\\overset{\\xrightharpoonup{}}{BC}$\n(2) $\\overset{\\xrightharpoonup{}}{PA}=\\overset{\\xrightharpoonup{}}{PB}+\\overset{\\xrightharpoonup{}}{PC}$\n(3) $\\overset{\\xrightharpoonup{}}{PA}=\\frac{2}{3}\\overset{\\xrightharpoonup{}}{PB}+\\frac{1}{3}\\overset{\\xrightharpoonup{}}{PC}$\n(4) $\\overset{\\xrightharpoonup{}}{PA}=100\\overset{\\xrightharpoonup{}}{PB}+99\\overset{\\xrightharpoonup{}}{PC}$\n(5) $\\overset{\\xrightharpoonup{}}{PA}=100\\overset{\\xrightharpoonup{}}{PB}-99\\overset{\\xrightharpoonup{}}{PC}$',
+    answer: '(1)(3)(5)',
+    hasImage: false,
+  },
+  {
+    id: '17c5bdc51bf',
+    chapter: '平面向量',
+    question:
+      '若 $A$、$B$、$C$ 三點共線，$P$ 為線外一點，且 $4\\overset{\\xrightharpoonup{}}{PA}+5\\overset{\\xrightharpoonup{}}{PB}+x\\overset{\\xrightharpoonup{}}{PC}=2\\overset{\\xrightharpoonup{}}{CA}$，求 $x$ 並求長度比值 $\\frac{\\overline{AB}}{\\overline{BC}}$。',
+    answer: '$-9$；$\\frac{7}{2}$',
+    hasImage: false,
+  },
+  {
+    id: '17c5be5dc06',
+    chapter: '平面向量',
+    question:
+      '如圖所示，兩射線 $OA$ 與 $OB$ 交於 $O$ 點，試問下列選項中哪些向量的終點 $P$，會落在陰影區域內？\n(1) $\\overset{\\xrightharpoonup{}}{OP}=\\overset{\\xrightharpoonup{}}{OA}+2\\overset{\\xrightharpoonup{}}{OB}$\n(2) $\\overset{\\xrightharpoonup{}}{OP}=\\frac{3}{4}\\overset{\\xrightharpoonup{}}{OA}+\\frac{1}{3}\\overset{\\xrightharpoonup{}}{OB}$\n(3) $\\overset{\\xrightharpoonup{}}{OP}=\\frac{3}{4}\\overset{\\xrightharpoonup{}}{OA}-\\frac{1}{3}\\overset{\\xrightharpoonup{}}{OB}$\n(4) $\\overset{\\xrightharpoonup{}}{OP}=\\frac{3}{4}\\overset{\\xrightharpoonup{}}{OA}+\\frac{1}{5}\\overset{\\xrightharpoonup{}}{OB}$\n(5) $\\overset{\\xrightharpoonup{}}{OP}=\\frac{3}{4}\\overset{\\xrightharpoonup{}}{OA}-\\frac{1}{5}\\overset{\\xrightharpoonup{}}{OB}$',
+    answer: '(1)(2)',
+    hasImage: true,
+  },
+  {
+    id: '17c5bec7255',
+    chapter: '平面向量',
+    question:
+      '下列哪些選項的向量關係式可保證 $A$ 點會落在 $\\overline{BC}$ 上？\n(1) $\\overset{\\xrightharpoonup{}}{AB}+\\overset{\\xrightharpoonup{}}{CB}=\\overset{\\xrightharpoonup{}}{0}$\n(2) $5\\overset{\\xrightharpoonup{}}{PA}=2\\overset{\\xrightharpoonup{}}{PB}+3\\overset{\\xrightharpoonup{}}{PC}$\n(3) $\\sqrt{5}\\overset{\\xrightharpoonup{}}{PA}=\\sqrt{2}\\overset{\\xrightharpoonup{}}{PB}+\\sqrt{3}\\overset{\\xrightharpoonup{}}{PC}$\n(4) $3\\overset{\\xrightharpoonup{}}{PB}=\\overset{\\xrightharpoonup{}}{PA}+2\\overset{\\xrightharpoonup{}}{PC}$\n(5) $\\overset{\\xrightharpoonup{}}{PB}=4\\overset{\\xrightharpoonup{}}{PC}-3\\overset{\\xrightharpoonup{}}{PA}$',
+    answer: '(2)',
+    hasImage: false,
+  },
+  {
+    id: '17c5bf60b7b',
+    chapter: '平面向量',
+    question:
+      '若 $C$ 在 $\\overset{\\longleftrightarrow{}}{AB}$ 上，$P$ 在 $\\overset{\\longleftrightarrow{}}{AB}$ 外，且 $\\overset{\\xrightharpoonup{}}{PB}=(3t+4)\\overset{\\xrightharpoonup{}}{PA}+(t+9)\\overset{\\xrightharpoonup{}}{PC}$，求 $t$。',
+    answer: '$-3$',
+    hasImage: false,
+  },
+  {
+    id: '17c5ee185ce',
+    chapter: '平面向量',
+    question:
+      '平面上有點 $P$ 與 $\\triangle ABC$，滿足 $\\overset{\\xrightharpoonup{}}{AP}=\\alpha\\overset{\\xrightharpoonup{}}{AB}+\\beta\\overset{\\xrightharpoonup{}}{AC}$，則 $(\\alpha,\\beta)$ 為下列哪一個選項時，$P$ 會在 $\\triangle ABC$ 的內部(不含邊界)？\n(1) $(\\frac{2}{3},\\frac{3}{4})$ (2) $(-\\frac{2}{5},\\frac{6}{7})$ (3) $(-\\frac{6}{7},\\frac{13}{9})$\n(4) $(\\frac{1}{2},\\frac{1}{3})$ (5) $(\\frac{2}{5},\\frac{3}{5})$',
+    answer: '(4)',
+    hasImage: false,
+  },
+  {
+    id: '17c5f05b801',
+    chapter: '平面向量',
+    question:
+      '$\\triangle ABC$ 中，$D$ 為 $\\overline{AB}$ 中點，$E$ 在 $\\overline{AC}$ 上，且 $\\overline{AC}=3\\overline{AE}$，$\\overline{BE}$ 與 $\\overline{CD}$ 交於 $F$，若 $\\overset{\\xrightharpoonup{}}{AF}=x\\overset{\\xrightharpoonup{}}{AB}+y\\overset{\\xrightharpoonup{}}{AC}$，求數對 $(x,y)$。',
+    answer: '$(\\frac{2}{5},\\frac{1}{5})$',
+    hasImage: true,
+  },
+  {
+    id: '17c5f8ceff5',
+    chapter: '平面向量',
+    question:
+      '平行四邊形$ABCD$，$P$ 在 $\\overline{AB}$ 上且 $\\overline{AP}:\\overline{PB}=1:3$，$Q$ 在 $\\overline{CD}$ 上且 $\\overline{CQ}:\\overline{QD}=2:5$，$\\overline{PQ}$ 交 $\\overline{AC}$ 於 $G$。若 $\\overset{\\xrightharpoonup{}}{BG}=x\\overset{\\xrightharpoonup{}}{BA}+y\\overset{\\xrightharpoonup{}}{BC}$，求數對 $(x,y)$。',
+    answer: '$(\\frac{8}{15},\\frac{7}{15})$',
+    hasImage: true,
+  },
+  {
+    id: '17c5f9ca487',
+    chapter: '平面向量',
+    question:
+      '如圖，$D$ 在 $\\overline{AB}$ 上且 $2\\overset{\\xrightharpoonup{}}{AD}=\\overset{\\xrightharpoonup{}}{DB}$，$E$ 在 $\\overline{AC}$ 上且 $\\overset{\\xrightharpoonup{}}{AE}=3\\overset{\\xrightharpoonup{}}{EC}$，$\\overline{BE}$ 與 $\\overline{CD}$ 交於 $F$，$\\overset{\\xrightharpoonup{}}{AF}=x\\overset{\\xrightharpoonup{}}{AB}+y\\overset{\\xrightharpoonup{}}{AC}$，求數對 $(x,y)$。',
+    answer: '$(\\frac{1}{9},\\frac{2}{3})$',
+    hasImage: true,
+  },
+  {
+    id: '17c5faa0582',
+    chapter: '平面向量',
+    question:
+      '平行四邊形 $ABCD$，$E$、$F$ 各在 $\\overline{BC}$、$\\overline{CD}$ 上，且 $\\overline{BE}:\\overline{EC}=4:3$，$\\overline{CF}:\\overline{FD}=2:5$，$\\overline{BF}$ 交 $\\overline{DE}$ 於 $G$。若 $\\overset{\\xrightharpoonup{}}{AG}=x\\overset{\\xrightharpoonup{}}{AB}+y\\overset{\\xrightharpoonup{}}{AD}$，求數對 $(x,y)$。',
+    answer: '$(\\frac{35}{43},\\frac{28}{43})$',
+    hasImage: false,
+  },
+  {
+    id: '17c5fdff0c5',
+    chapter: '平面向量',
+    question:
+      '平面上三點 $A(5,-1)$、$B(7,12)$、$C(15,4)$，若有一點 $P$ 滿足 $\\overset{\\xrightharpoonup{}}{PA}+\\overset{\\xrightharpoonup{}}{PB}+\\overset{\\xrightharpoonup{}}{PC}=\\overset{\\xrightharpoonup{}}{0}$，求 $P$ 坐標。',
+    answer: '$(9,5)$',
+    hasImage: false,
+  },
+  {
+    id: '17c5fea4983',
+    chapter: '平面向量',
+    question:
+      '若在 $\\triangle ABC$ 的三邊 $\\overline{BC}$、$\\overline{CA}$、$\\overline{AB}$ 上分別取 $D$、$E$、$F$ 三點，使 $\\overset{\\xrightharpoonup{}}{DC}=4\\overset{\\xrightharpoonup{}}{BD}$，$\\overset{\\xrightharpoonup{}}{EC}=2\\overset{\\xrightharpoonup{}}{AE}$，$\\overset{\\xrightharpoonup{}}{FB}=3\\overset{\\xrightharpoonup{}}{AF}$，設 $G$ 為 $\\triangle DEF$ 的重心，$\\overset{\\xrightharpoonup{}}{AG}=x\\overset{\\xrightharpoonup{}}{AB}+y\\overset{\\xrightharpoonup{}}{AC}$，求數對 $(x,y)$。',
+    answer: '$(\\frac{7}{20},\\frac{8}{45})$',
+    hasImage: true,
+  },
+  {
+    id: '17c5fef7805',
+    chapter: '平面向量',
+    question:
+      '$\\triangle ABC$ 中，$\\overline{AB}=4$，$\\overline{BC}=2$，$\\overline{CA}=3$，$I$ 為其內心，且 $\\overset{\\xrightharpoonup{}}{AB}=x\\overset{\\xrightharpoonup{}}{AI}+y\\overset{\\xrightharpoonup{}}{IC}$，求數對 $(x,y)$。',
+    answer: '$(\\frac{5}{3},-\\frac{4}{3})$',
+    hasImage: false,
+  },
+  {
+    id: '17c5ff32ef2',
+    chapter: '平面向量',
+    question:
+      '平面上 $\\triangle ABC$，已知 $A(1,5)$、$B(-2,1)$，$\\triangle ABC$ 的重心為 $G(3,4)$，試求 $C$ 坐標。',
+    answer: '$(10,6)$',
+    hasImage: false,
+  },
+  {
+    id: '17c5ff9c118',
+    chapter: '平面向量',
+    question:
+      '如圖，$\\triangle ABC$ 的重心為 $G$，通過 $G$ 作直線 $L$，$L$ 與 $\\overline{AB}$ 交於 $P$，$L$ 與 $\\overline{AC}$ 交於 $Q$，若 $\\overline{AP}:\\overline{PB}=7:2$，試求 $\\overline{AQ}:\\overline{QC}$。',
+    answer: '$7:5$',
+    hasImage: true,
+  },
+  {
+    id: '17c5ffd658c',
+    chapter: '平面向量',
+    question:
+      '$\\triangle ABC$ 中，$\\overline{AB}=4$，$\\overline{BC}=5$，$\\overline{CA}=7$，設 $I$ 為其內心，且 $\\overset{\\xrightharpoonup{}}{AI}=x\\overset{\\xrightharpoonup{}}{AB}+y\\overset{\\xrightharpoonup{}}{AC}$，求數對 $(x,y)$。',
+    answer: '$(\\frac{7}{16},\\frac{1}{4})$',
+    hasImage: false,
+  },
+  {
+    id: '17c681c22b4',
+    chapter: '數與式',
+    question: '設 $\\sqrt[3]{4}\\cdot\\sqrt[4]{8}\\cdot\\sqrt[5]{16}=2^x$，求 $x$。',
+    answer: '$\\frac{133}{60}$',
+    hasImage: false,
+  },
+  {
+    id: '17c681e332d',
+    chapter: '數與式',
+    question:
+      '設 $a>0$ 且 $a\\neq1$，化簡 $\\sqrt[5]{\\sqrt[4]{a^{-3}}\\cdot\\sqrt[8]{\\dfrac{a^4}{\\sqrt{a^5}}}}=a^x$，求 $x$。',
+    answer: '$-\\frac{9}{80}$',
+    hasImage: false,
+  },
+  {
+    id: '17c68242598',
+    chapter: '數與式',
+    question:
+      '求 $(\\frac{25}{9})^{0.5}+\\dfrac{10^{1+\\sqrt{2}}}{0.1^{1-\\sqrt{2}}}+3^{-1}+$\n$(\\sqrt{5}+1)^\\frac{3}{2}(\\sqrt{5}-1)^\\frac{3}{2}$。',
+    answer: '$110$',
+    hasImage: false,
+  },
+  {
+    id: '17c68265fa4',
+    chapter: '數與式',
+    question: '化簡 $(\\sqrt{7}+\\sqrt{3})^\\frac{3}{2}(\\sqrt{7}-\\sqrt{3})^{-\\frac{3}{2}}$。',
+    answer: '$2\\sqrt{7}+3\\sqrt{3}$',
+    hasImage: false,
+  },
+  {
+    id: '17c6827ea0b',
+    chapter: '數與式',
+    question:
+      '設 $a>0$ 且 $a\\neq1$，化簡 $\\sqrt[3]{a^\\frac{9}{2}\\sqrt{a^{-3}}}\\cdot\\sqrt{\\sqrt[3]{a^{-7}}\\sqrt[6]{a^2}}$。',
+    answer: '$1$',
+    hasImage: false,
+  },
+  {
+    id: '17c682ae29c',
+    chapter: '數與式',
+    question: '求 $0.25^{2.5}\\times0.25^{-2.5}$。',
+    answer: '$1$',
+    hasImage: false,
+  },
+  {
+    id: '17c682c4fe7',
+    chapter: '數與式',
+    question:
+      '求 $(2^\\frac{5}{2}+3^\\frac{3}{2})^\\frac{7}{2}\\cdot(2^\\frac{5}{2}-3^\\frac{3}{2})^\\frac{7}{2}$。',
+    answer: '$125\\sqrt{5}$',
+    hasImage: false,
+  },
+  {
+    id: '17c682e7f64',
+    chapter: '數與式',
+    question:
+      '化簡 $(\\frac{81}{16})^{-0.25}\\cdot(\\frac{4}{9})^{-\\frac{1}{2}}\\cdot(0.25)^{-1.5}\\cdot(\\frac{27}{8})^{-\\frac{2}{3}}$。',
+    answer: '$\\frac{32}{9}$',
+    hasImage: false,
+  },
+  {
+    id: '17c68306838',
+    chapter: '數與式',
+    question:
+      '設 $a>0$ 且 $a\\neq1$，化簡 $\\sqrt[3]{\\sqrt[6]{a^5}}\\cdot(\\sqrt{\\sqrt[12]{a^7}})^4=a^x$，求 $x$。',
+    answer: '$\\frac{13}{9}$',
+    hasImage: false,
+  },
+  {
+    id: '17c6831d740',
+    chapter: '數與式',
+    question:
+      '設 $a>0$ 且 $a\\neq1$，化簡 $\\sqrt[7]{\\sqrt[5]{a}\\cdot\\sqrt[4]{\\dfrac{a}{\\sqrt[3]{a^2}}}}=a^x$，求 $x$。',
+    answer: '$\\frac{17}{420}$',
+    hasImage: false,
+  },
+  {
+    id: '17c6833e719',
+    chapter: '數與式',
+    question:
+      '化簡 $16^\\frac{3}{4}-2(8^{-\\frac{2}{3}})^{-1}+2^\\frac{1}{5}(4^{-\\frac{2}{5}})^{-1}$',
+    answer: '$2$',
+    hasImage: false,
+  },
 ];
