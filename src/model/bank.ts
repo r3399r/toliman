@@ -11348,4 +11348,155 @@ export const bank: Question[] = [
     answer: '$2$',
     hasImage: false,
   },
+  {
+    id: '17c6f72cb2e',
+    chapter: '平面向量',
+    question:
+      '已知 $\\overset{\\xrightharpoonup{}}{a}=(3,4)$，$\\overset{\\xrightharpoonup{}}{b}=(1,x)$，若 $\\overset{\\xrightharpoonup{}}{a}$ 與 $\\overset{\\xrightharpoonup{}}{b}$ 的夾角為 $135^\\circ$，求 $x$。',
+    answer: '$-7$',
+    hasImage: false,
+  },
+  {
+    id: '17c6f759d67',
+    chapter: '平面向量',
+    question:
+      '$\\overset{\\xrightharpoonup{}}{a}=(2,11)$，$\\overset{\\xrightharpoonup{}}{b}=(3,6)$，求 $\\overset{\\xrightharpoonup{}}{a}$ 與 $\\overset{\\xrightharpoonup{}}{b}$ 夾角的正弦值。',
+    answer: '$\\frac{7}{25}$',
+    hasImage: false,
+  },
+  {
+    id: '17c6f79722a',
+    chapter: '平面向量',
+    question:
+      '已知 $2\\overset{\\xrightharpoonup{}}{a}-\\overset{\\xrightharpoonup{}}{b}=(-1,\\sqrt{3})$，$\\overset{\\xrightharpoonup{}}{c}=(1,\\sqrt{3})$，$\\overset{\\xrightharpoonup{}}{a}\\cdot\\overset{\\xrightharpoonup{}}{c}=3$，$|\\overset{\\xrightharpoonup{}}{b}|=4$，試求 $\\overset{\\xrightharpoonup{}}{b}$ 與 $\\overset{\\xrightharpoonup{}}{c}$ 的夾角。',
+    answer: '$60^{\\circ}$',
+    hasImage: false,
+  },
+  {
+    id: '17c6f904640',
+    chapter: '平面向量',
+    question:
+      '$|\\overset{\\xrightharpoonup{}}{a}|=1$，$|\\overset{\\xrightharpoonup{}}{b}|=3$，$|\\overset{\\xrightharpoonup{}}{a}-\\overset{\\xrightharpoonup{}}{b}|=\\sqrt{7}$，求：(1) $\\overset{\\xrightharpoonup{}}{a}$ 與 $\\overset{\\xrightharpoonup{}}{b}$ 的夾角\n(2) $|t\\overset{\\xrightharpoonup{}}{a}+\\overset{\\xrightharpoonup{}}{b}|$ 的最小值及此時的 $t$。',
+    answer: '(1) $60^{\\circ}$ (2) $\\frac{3\\sqrt{3}}{2}$；$-\\frac{3}{2}$',
+    hasImage: false,
+  },
+  {
+    id: '17c6f95b5b1',
+    chapter: '平面向量',
+    question:
+      '$2\\overset{\\xrightharpoonup{}}{a}+\\overset{\\xrightharpoonup{}}{b}+3\\overset{\\xrightharpoonup{}}{c}=\\overset{\\xrightharpoonup{}}{0}$，且 $|\\overset{\\xrightharpoonup{}}{a}|=\\sqrt{7}$，$|\\overset{\\xrightharpoonup{}}{b}|=2$，$|\\overset{\\xrightharpoonup{}}{c}|=2$，求：\n(1) $\\overset{\\xrightharpoonup{}}{a}\\cdot\\overset{\\xrightharpoonup{}}{b}$ (2) $|\\overset{\\xrightharpoonup{}}{a}+\\overset{\\xrightharpoonup{}}{b}-6\\overset{\\xrightharpoonup{}}{c}|$',
+    answer: '(1) $1$ (2) $\\sqrt{241}$',
+    hasImage: false,
+  },
+  {
+    id: '17c6f99c610',
+    chapter: '平面向量',
+    question:
+      '$|\\overset{\\xrightharpoonup{}}{a}|=1$，$|\\overset{\\xrightharpoonup{}}{b}|=3$，$\\overset{\\xrightharpoonup{}}{a}$ 與 $\\overset{\\xrightharpoonup{}}{b}$ 的夾角為 $\\cos^{-1}\\frac{1}{3}$，求 $|2\\overset{\\xrightharpoonup{}}{a}+3\\overset{\\xrightharpoonup{}}{b}|$。',
+    answer: '$\\sqrt{97}$',
+    hasImage: false,
+  },
+  {
+    id: '17c6fd7598e',
+    chapter: '平面向量',
+    question:
+      '設 $\\overset{\\xrightharpoonup{}}{a}+\\overset{\\xrightharpoonup{}}{b}+\\overset{\\xrightharpoonup{}}{c}=\\overset{\\xrightharpoonup{}}{0}$，$|\\overset{\\xrightharpoonup{}}{a}|=2$，$|\\overset{\\xrightharpoonup{}}{b}|=1$，$|\\overset{\\xrightharpoonup{}}{c}|=2$，求 $\\overset{\\xrightharpoonup{}}{a}\\cdot\\overset{\\xrightharpoonup{}}{b}+\\overset{\\xrightharpoonup{}}{b}\\cdot\\overset{\\xrightharpoonup{}}{c}+\\overset{\\xrightharpoonup{}}{c}\\cdot\\overset{\\xrightharpoonup{}}{a}$。',
+    answer: '$-\\frac{9}{2}$',
+    hasImage: false,
+  },
+  {
+    id: '17c6fdc3a65',
+    chapter: '平面向量',
+    question:
+      '$\\overset{\\xrightharpoonup{}}{a}=(3,5)$，$\\overset{\\xrightharpoonup{}}{b}=(1,1)$，求：\n(1) $\\overset{\\xrightharpoonup{}}{a}$ 在 $\\overset{\\xrightharpoonup{}}{b}$ 上的正射影\n(2) $\\overset{\\xrightharpoonup{}}{b}$ 在 $\\overset{\\xrightharpoonup{}}{a}$ 上的正射影',
+    answer: '(1) $(4,4)$ (2) $(\\frac{12}{17},\\frac{20}{17})$',
+    hasImage: false,
+  },
+  {
+    id: '17c6fe02cb9',
+    chapter: '平面向量',
+    question:
+      '已知平面上 $A(a,1)$、$B(2,a+1)$、$C(3,1)$、$D(-1,2)$ 四點，若 $\\overset{\\xrightharpoonup{}}{AB}$ 在 $\\overset{\\xrightharpoonup{}}{CD}$ 上的正射影為 $(2,b)$，求數對 $(a,b)$。',
+    answer: '$(-\\frac{1}{10},-\\frac{1}{2})$',
+    hasImage: false,
+  },
+  {
+    id: '17c6fe8418e',
+    chapter: '平面向量',
+    question:
+      '$\\overset{\\xrightharpoonup{}}{a}=(5,2)$，$\\overset{\\xrightharpoonup{}}{b}=(-1,3)$，求 $\\overset{\\xrightharpoonup{}}{a}$ 在 $\\overset{\\xrightharpoonup{}}{b}$ 上的正射影及 $\\overset{\\xrightharpoonup{}}{b}$ 在 $\\overset{\\xrightharpoonup{}}{a}$ 上的正射影。',
+    answer: '$(-\\frac{1}{10},\\frac{3}{10})$；$(\\frac{5}{29},\\frac{2}{29})$',
+    hasImage: false,
+  },
+  {
+    id: '17c6fe40782',
+    chapter: '平面向量',
+    question:
+      '已知平面上三點 $A(1,2)$、$B(4,-2)$、$C(-6,3)$，若 $C$ 點在直線 $AB$ 上的投影為 $H$ 點，求 $\\overset{\\xrightharpoonup{}}{BH}$ 和 $H$ 的坐標。',
+    answer: '$(-6,8)$；$(-2,6)$',
+    hasImage: false,
+  },
+  {
+    id: '17c7014e9de',
+    chapter: '平面向量',
+    question:
+      '$a,b,c,d\\in\\mathbb{R}$ 滿足 $a^2+b^2=12$，$c^2+d^2=3$，求 $ac-bd$ 的最大值及最小值。',
+    answer: '$6$；$-6$',
+    hasImage: false,
+  },
+  {
+    id: '17c6fff8dfc',
+    chapter: '平面向量',
+    question:
+      '$x,y\\in\\mathbb{R}$，已知 $x^2+y^2=52$，求：\n(1) $2x+3y$ 的最大值及此時的 $(x,y)$\n(3) $2x+3y$ 的最小值及此時的 $(x,y)$。',
+    answer: '(1) $26$；$(4,6)$ (2) $-26$；$(-4,-6)$',
+    hasImage: false,
+  },
+  {
+    id: '17c70032477',
+    chapter: '平面向量',
+    question:
+      '設 $x,y\\in\\mathbb{R}$，滿足二次式 $4x^2+3y^2+8x-12y+1=0$，則 $2x+5y$ 的最大可能範圍為 $p\\le2x+5y\\le q$，求數對 $(p,q)$。',
+    answer: '$(8-2\\sqrt35,8+2\\sqrt{35})$',
+    hasImage: false,
+  },
+  {
+    id: '17c7015680d',
+    chapter: '平面向量',
+    question:
+      '$a,b,c,d\\in\\mathbb{R}$ 滿足 $a^2+b^2=9$，$c^2+d^2=16$，求：\n(1) $ac+bd$ 的最大值及最小值\n(2) $ab+cd$ 的最大值及最小值。',
+    answer: '(1) $12$；$-12$ (2) $\\frac{25}{2}$；$-\\frac{25}{2}$',
+    hasImage: false,
+  },
+  {
+    id: '17c700b5a08',
+    chapter: '平面向量',
+    question:
+      '$x,y\\in\\mathbb{R}$，已知 $x^2+y^2=50$，求：\n(1) $x-y$ 的最大值及此時的 $(x,y)$\n(2) $x-y$ 的最小值及此時的 $(x,y)$。',
+    answer: '(1) $10$；$(5,-5)$ (2) $-10$；$(-5,5)$',
+    hasImage: false,
+  },
+  {
+    id: '17c7015bcca',
+    chapter: '平面向量',
+    question: '若 $x^2+y^2+2x-4y-4=0$，試求 $2x+3y$ 的最大值及最小值。',
+    answer: '$4+3\\sqrt{13}$；$4-3\\sqrt{13}$',
+    hasImage: false,
+  },
+  {
+    id: '17c70160fae',
+    chapter: '平面向量',
+    question:
+      '設 $x,y>0$，且 $2x+3y=14$，求 $\\frac{8}{x}+\\frac{3}{y}$ 的最小值及此時數對 $(x,y)$。',
+    answer: '$\\frac{7}{2}$；$(4,2)$',
+    hasImage: false,
+  },
+  {
+    id: '17c701670d0',
+    chapter: '平面向量',
+    question:
+      '設 $x,y>0$，且 $x+2y=8$，求 $\\frac{9}{x}+\\frac{2}{y}$ 的最小值及此時數對 $(x,y)$。',
+    answer: '$\\frac{25}{8}$；$(\\frac{24}{5},\\frac{8}{5})$',
+    hasImage: false,
+  },
 ];
