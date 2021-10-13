@@ -11499,4 +11499,12 @@ export const bank: Question[] = [
     answer: '$\\frac{25}{8}$；$(\\frac{24}{5},\\frac{8}{5})$',
     hasImage: false,
   },
+  {
+    id: '17c72eae50f',
+    chapter: '平面向量',
+    question:
+      '若 $|\\overset{\\xrightharpoonup{}}{a}|=2$，$|\\overset{\\xrightharpoonup{}}{b}|=3$，$\\overset{\\xrightharpoonup{}}{a}\\cdot\\overset{\\xrightharpoonup{}}{b}=-3\\sqrt{2}$，則 $\\overset{\\xrightharpoonup{}}{a}$ 與 $\\overset{\\xrightharpoonup{}}{b}$ 的夾角為多少弳？',
+    answer: '$\\frac{3\\pi}{4}$',
+    hasImage: false,
+  },
 ];
