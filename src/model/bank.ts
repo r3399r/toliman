@@ -1173,7 +1173,7 @@ export const bank: Question[] = [
     id: '17932d2b76c',
     chapter: '空間中的平面與直線',
     question:
-      '下列何者正確？\n(A)若 $L_1:\\frac{x-1}{2}=\\frac{y-2}{3}=\\frac{z}{4}$，平面 $E:x+2y-2z=5$，則 $L_1//E$\n(B)若 $L_2:\\frac{x-1}{2}=\\frac{y-2}{2}=\\frac{z-5}{3}$，平面 $E:x+2y-2z=5$，則 $L_2$ 在平面 $E$ 上\n(C)若 $L_3:\\frac{x+3}{-1}=\\frac{y-4}{-2}=\\frac{z-1}{2}$，平面 $E:x+2y-2z=5$，則 $L_3\\perp E$\n(D)直線 $\\frac{x-3}{2}=\\frac{y-2}{4}=\\frac{z-4}{3}$ 與 $\\frac{x-1}{4}=\\frac{y+2}{8}=\\frac{z-1}{6}$ 代表同一直線\n(E)直線 $\\frac{x-1}{3}=\\frac{y-2}{2}=\\frac{z-1}{4}$ 與 $\\frac{x-2}{2}=\\frac{y-3}{1}=\\frac{z+1}{2}$ 互為歪斜',
+      '下列何者正確？\n(A)若 $L_1:\\frac{x-1}{2}=\\frac{y-2}{3}=\\frac{z}{4}$，平面 $E:x+2y-2z=5$，則 $L_1\\parallel E$\n(B)若 $L_2:\\frac{x-1}{2}=\\frac{y-2}{2}=\\frac{z-5}{3}$，平面 $E:x+2y-2z=5$，則 $L_2$ 在平面 $E$ 上\n(C)若 $L_3:\\frac{x+3}{-1}=\\frac{y-4}{-2}=\\frac{z-1}{2}$，平面 $E:x+2y-2z=5$，則 $L_3\\perp E$\n(D)直線 $\\frac{x-3}{2}=\\frac{y-2}{4}=\\frac{z-4}{3}$ 與 $\\frac{x-1}{4}=\\frac{y+2}{8}=\\frac{z-1}{6}$ 代表同一直線\n(E)直線 $\\frac{x-1}{3}=\\frac{y-2}{2}=\\frac{z-1}{4}$ 與 $\\frac{x-2}{2}=\\frac{y-3}{1}=\\frac{z+1}{2}$ 互為歪斜',
     answer: '(C)(D)(E)',
     hasImage: false,
   },
@@ -2214,7 +2214,7 @@ export const bank: Question[] = [
     id: '17992b9b195',
     chapter: '平面向量',
     question:
-      '設 $\\triangle ABC$ 之 $\\angle A=60^{\\circ}$，$\\overline{AC}=b$，$\\overline{AB}=c$，今在 $\\overline{BC}$ 上取一點 $D$，使得 $\\overline{BD}=\\frac{1}{3}\\overline{BC}$，$s=\\overline{AD}$，則 $s^2=$？',
+      '設 $\\triangle ABC$ 之 $\\angle A=60\\degree$，$\\overline{AC}=b$，$\\overline{AB}=c$，今在 $\\overline{BC}$ 上取一點 $D$，使得 $\\overline{BD}=\\frac{1}{3}\\overline{BC}$，$s=\\overline{AD}$，則 $s^2=$？',
     answer: '$\\frac{1}{9}(b^2+4c^2+2bc)$',
     hasImage: false,
   },
@@ -2395,7 +2395,7 @@ export const bank: Question[] = [
   {
     id: '179964bbaa7',
     chapter: '三角比',
-    question: '試求：$\\frac{\\sin30^\\circ+\\cos45^\\circ}{\\sin30^\\circ-\\cos45^\\circ}$',
+    question: '試求：$\\frac{\\sin30\\degree+\\cos45\\degree}{\\sin30\\degree-\\cos45\\degree}$',
     answer: '$-3-2\\sqrt{2}$',
     hasImage: false,
   },
@@ -2403,7 +2403,7 @@ export const bank: Question[] = [
     id: '179964e143a',
     chapter: '三角比',
     question:
-      '設 $\\triangle ABC$ 是直角三角形，$\\angle C=90^\\circ$，$\\overline{AC}=3$，$\\overline{BC}=4$，求 $\\sin A$、$\\cos A$、$\\tan A$。',
+      '設 $\\triangle ABC$ 是直角三角形，$\\angle C=90\\degree$，$\\overline{AC}=3$，$\\overline{BC}=4$，求 $\\sin A$、$\\cos A$、$\\tan A$。',
     answer: '$\\frac{4}{5}$；$\\frac{3}{5}$；$\\frac{4}{3}$',
     hasImage: false,
   },
@@ -2419,7 +2419,7 @@ export const bank: Question[] = [
     id: '179965c10c8',
     chapter: '三角比',
     question:
-      '我們可以依如下的方法作出 $15^\\circ$ 角。先作一個 $30^\\circ-60^\\circ-90^\\circ$ 的直角 $\\triangle ABC$，延長 $\\overrightarrow{CA}$ 並在 $\\overrightarrow{CA}$ 上取 $\\overline{AD}=\\overline{AB}$，連接 $\\overline{BD}$，則 $\\angle D=15^\\circ$，如右圖所示，求：\n(1) $\\sin15^\\circ$ (2) $\\cos15^\\circ$ (3) $\\tan 15^\\circ$',
+      '我們可以依如下的方法作出 $15\\degree$ 角。先作一個 $30\\degree-60\\degree-90\\degree$ 的直角 $\\triangle ABC$，延長 $\\overrightarrow{CA}$ 並在 $\\overrightarrow{CA}$ 上取 $\\overline{AD}=\\overline{AB}$，連接 $\\overline{BD}$，則 $\\angle D=15\\degree$，如右圖所示，求：\n(1) $\\sin15\\degree$ (2) $\\cos15\\degree$ (3) $\\tan 15\\degree$',
     answer:
       '(1) $\\frac{\\sqrt{6}-\\sqrt{2}}{4}$ (2) $\\frac{\\sqrt{6}+\\sqrt{2}}{4}$ (3) $2-\\sqrt{3}$',
     hasImage: true,
@@ -2452,7 +2452,7 @@ export const bank: Question[] = [
     id: '17996638499',
     chapter: '三角比',
     question:
-      '計算下列各式：\n(1) 設 $\\theta$ 為銳角，若 $\\cos40^\\circ=\\sin\\theta$，求 $\\theta$。\n(2) $\\cos^240^\\circ+\\cos^250^\\circ+\\cos^260^\\circ=$？\n(3) $\\sin^210^\\circ+\\sin^220^\\circ+\\sin^230^\\circ+\\sin^240^\\circ+\\sin^250^\\circ+\\sin^260^\\circ+\\sin^270^\\circ+\\sin^280^\\circ=$？',
+      '計算下列各式：\n(1) 設 $\\theta$ 為銳角，若 $\\cos40\\degree=\\sin\\theta$，求 $\\theta$。\n(2) $\\cos^240\\degree+\\cos^250\\degree+\\cos^260\\degree=$？\n(3) $\\sin^210\\degree+\\sin^220\\degree+\\sin^230\\degree+\\sin^240\\degree+\\sin^250\\degree+\\sin^260\\degree+\\sin^270\\degree+\\sin^280\\degree=$？',
     answer: '(1) $50$ (2) $\\frac{5}{4}$ (3) $4$',
     hasImage: false,
   },
@@ -2476,16 +2476,16 @@ export const bank: Question[] = [
     id: '179966cda60',
     chapter: '三角比',
     question:
-      '試比較下列之大小關係：\n(1) $\\sin65^\\circ$、$\\sin55^\\circ$ (2) $\\cos65^\\circ$、$\\cos55^\\circ$ (3) $\\sin46^\\circ$、$\\cos46^\\circ$\n(4) $\\sin35^\\circ$、$\\frac{1}{2}$ (5) $\\cos35^\\circ$、$\\frac{\\sqrt{3}}{2}$ (6) $\\tan46^\\circ$、$1$',
+      '試比較下列之大小關係：\n(1) $\\sin65\\degree$、$\\sin55\\degree$ (2) $\\cos65\\degree$、$\\cos55\\degree$ (3) $\\sin46\\degree$、$\\cos46\\degree$\n(4) $\\sin35\\degree$、$\\frac{1}{2}$ (5) $\\cos35\\degree$、$\\frac{\\sqrt{3}}{2}$ (6) $\\tan46\\degree$、$1$',
     answer:
-      '(1) $\\sin65^\\circ>\\sin55^\\circ$ (2) $\\cos65^\\circ<\\cos55^\\circ$ (3) $\\sin46^\\circ>\\cos46^\\circ$ (4) $\\sin35^\\circ>\\frac{1}{2}$ (5) $\\cos35^\\circ<\\frac{\\sqrt{3}}{2}$ (6) $\\tan46^\\circ>1$',
+      '(1) $\\sin65\\degree>\\sin55\\degree$ (2) $\\cos65\\degree<\\cos55\\degree$ (3) $\\sin46\\degree>\\cos46\\degree$ (4) $\\sin35\\degree>\\frac{1}{2}$ (5) $\\cos35\\degree<\\frac{\\sqrt{3}}{2}$ (6) $\\tan46\\degree>1$',
     hasImage: false,
   },
   {
     id: '1799677886e',
     chapter: '三角比',
     question:
-      '$\\triangle ABC$ 中，若 $\\angle C=90^\\circ$，且 $\\sin A=\\frac{1}{3}$，則 $\\tan B=$？',
+      '$\\triangle ABC$ 中，若 $\\angle C=90\\degree$，且 $\\sin A=\\frac{1}{3}$，則 $\\tan B=$？',
     answer: '$2\\sqrt{2}$',
     hasImage: false,
   },
@@ -2509,14 +2509,14 @@ export const bank: Question[] = [
     id: '179967b9e90',
     chapter: '三角比',
     question:
-      '(1) $\\tan^230^\\circ\\times\\cos60^\\circ=$？\n(2) $(1+\\sin30^\\circ+\\sin45^\\circ)(1-\\cos45^\\circ+\\cos60^\\circ)=$？',
+      '(1) $\\tan^230\\degree\\times\\cos60\\degree=$？\n(2) $(1+\\sin30\\degree+\\sin45\\degree)(1-\\cos45\\degree+\\cos60\\degree)=$？',
     answer: '(1) $\\frac{1}{6}$ (2) $\\frac{7}{4}$',
     hasImage: false,
   },
   {
     id: '179967c79a3',
     chapter: '三角比',
-    question: '化簡 $(\\sin87^\\circ+\\cos87^\\circ)^2+(\\sin87^\\circ-\\cos87^\\circ)^2$',
+    question: '化簡 $(\\sin87\\degree+\\cos87\\degree)^2+(\\sin87\\degree-\\cos87\\degree)^2$',
     answer: '$2$',
     hasImage: false,
   },
@@ -2532,7 +2532,7 @@ export const bank: Question[] = [
     id: '179967ee279',
     chapter: '三角比',
     question:
-      '$\\sin^25^\\circ+\\sin^225^\\circ+\\sin^245^\\circ+\\sin^265^\\circ$ \n$+\\sin^285^\\circ=$？',
+      '$\\sin^25\\degree+\\sin^225\\degree+\\sin^245\\degree+\\sin^265\\degree$ \n$+\\sin^285\\degree=$？',
     answer: '$\\frac{9}{2}$',
     hasImage: false,
   },
@@ -2540,7 +2540,7 @@ export const bank: Question[] = [
     id: '179968447b6',
     chapter: '三角比',
     question:
-      '已知 $0^\\circ<\\theta<90^\\circ$，若 $\\sin\\theta+\\cos\\theta=\\frac{6}{5}$，則：\n(1) $\\sin\\theta\\cos\\theta=$？\n(2) $\\sin\\theta-\\cos\\theta=$？(兩解)',
+      '已知 $0\\degree<\\theta<90\\degree$，若 $\\sin\\theta+\\cos\\theta=\\frac{6}{5}$，則：\n(1) $\\sin\\theta\\cos\\theta=$？\n(2) $\\sin\\theta-\\cos\\theta=$？(兩解)',
     answer: '(1) $\\frac{11}{50}$ (2) $\\pm\\frac{\\sqrt{14}}{5}$',
     hasImage: false,
   },
@@ -2555,14 +2555,14 @@ export const bank: Question[] = [
   {
     id: '1799685e5d3',
     chapter: '三角比',
-    question: '$\\sqrt{3}(\\cos30^\\circ+\\sin60^\\circ)+\\sqrt{2}\\cos45^\\circ=$？',
+    question: '$\\sqrt{3}(\\cos30\\degree+\\sin60\\degree)+\\sqrt{2}\\cos45\\degree=$？',
     answer: '$4$',
     hasImage: false,
   },
   {
     id: '1799686d5ac',
     chapter: '三角比',
-    question: '比較 $a=\\sin61^\\circ$、$b=\\cos11^\\circ$、$c=\\tan29^\\circ$ 之大小關係。',
+    question: '比較 $a=\\sin61\\degree$、$b=\\cos11\\degree$、$c=\\tan29\\degree$ 之大小關係。',
     answer: '$b>a>c$',
     hasImage: false,
   },
@@ -2570,7 +2570,7 @@ export const bank: Question[] = [
     id: '179968926c1',
     chapter: '三角比',
     question:
-      '已知直角 $\\triangle ABC$ 中，$\\angle C=90^\\circ$，若 $3\\cos A+5\\cos B=5$，則 $\\sin A=$？',
+      '已知直角 $\\triangle ABC$ 中，$\\angle C=90\\degree$，若 $3\\cos A+5\\cos B=5$，則 $\\sin A=$？',
     answer: '$\\frac{8}{17}$',
     hasImage: false,
   },
@@ -2881,7 +2881,7 @@ export const bank: Question[] = [
     id: '179b67a2641',
     chapter: '空間中的平面與直線',
     question:
-      '設平面 $E$ 通過 $(-1,0,0)$、$(0,0,1)$ 且與 $yz$ 平面的夾角為 $60^{\\circ}$，試求平面 $E$ 的方程式。',
+      '設平面 $E$ 通過 $(-1,0,0)$、$(0,0,1)$ 且與 $yz$ 平面的夾角為 $60\\degree$，試求平面 $E$ 的方程式。',
     answer: '$x-\\sqrt{2}y-z+1=0$ 或 $x+\\sqrt{2}y-z+1=0$',
     hasImage: false,
   },
@@ -3042,15 +3042,15 @@ export const bank: Question[] = [
     id: '179ba8708bf',
     chapter: '三角比',
     question:
-      '試求下列廣義角的同界角 $\\theta$，使 $0^{\\circ}<\\theta<360^{\\circ}$。\n(1) $980^{\\circ}$ (2) $-700^{\\circ}$',
-    answer: '(1) $260^{\\circ}$ (2) $20^{\\circ}$',
+      '試求下列廣義角的同界角 $\\theta$，使 $0\\degree<\\theta<360\\degree$。\n(1) $980\\degree$ (2) $-700\\degree$',
+    answer: '(1) $260\\degree$ (2) $20\\degree$',
     hasImage: false,
   },
   {
     id: '179ba8dda7e',
     chapter: '三角比',
     question:
-      '下列何者是 $45^{\\circ}$ 的同界角？。\n(A) $2115^{\\circ}$ (B) $-2115^{\\circ}$ (C) $1215^{\\circ}$ (D) $-1215^{\\circ}$ (E) $405^{\\circ}$',
+      '下列何者是 $45\\degree$ 的同界角？。\n(A) $2115\\degree$ (B) $-2115\\degree$ (C) $1215\\degree$ (D) $-1215\\degree$ (E) $405\\degree$',
     answer: '(B)(E)',
     hasImage: false,
   },
@@ -3065,7 +3065,7 @@ export const bank: Question[] = [
   {
     id: '179ba918ba2',
     chapter: '三角比',
-    question: '試求 $\\sin210^{\\circ}$、$\\cos210^{\\circ}$、$\\tan210^{\\circ}$。',
+    question: '試求 $\\sin210\\degree$、$\\cos210\\degree$、$\\tan210\\degree$。',
     answer: '$-\\frac{1}{2}$；$-\\frac{\\sqrt{3}}{2}$；$\\frac{\\sqrt{3}}{3}$',
     hasImage: false,
   },
@@ -3081,7 +3081,7 @@ export const bank: Question[] = [
     id: '179ba94727d',
     chapter: '三角比',
     question:
-      '試求下列各式之值：\n(1) $\\tan225^{\\circ}-\\cos150^{\\circ}+\\sin330^{\\circ}$\n(2) $\\sin0^{\\circ}+\\cos270^{\\circ}+\\cos180^{\\circ}-\\tan180^{\\circ}\\sin270^{\\circ}$',
+      '試求下列各式之值：\n(1) $\\tan225\\degree-\\cos150\\degree+\\sin330\\degree$\n(2) $\\sin0\\degree+\\cos270\\degree+\\cos180\\degree-\\tan180\\degree\\sin270\\degree$',
     answer: '(1) $\\frac{1}{2}+\\frac{\\sqrt{3}}{2} (2) $-1$',
     hasImage: false,
   },
@@ -3089,7 +3089,7 @@ export const bank: Question[] = [
     id: '179ba96c098',
     chapter: '三角比',
     question:
-      '已知 $\\cos\\theta=\\frac{3}{5}$ 且 $270^{\\circ}<\\theta<360^{\\circ}$，試求 $\\sin\\theta$、$\\tan\\theta$。',
+      '已知 $\\cos\\theta=\\frac{3}{5}$ 且 $270\\degree<\\theta<360\\degree$，試求 $\\sin\\theta$、$\\tan\\theta$。',
     answer: '$-\\frac{4}{5}$；$-\\frac{4}{3}$',
     hasImage: false,
   },
@@ -3097,7 +3097,7 @@ export const bank: Question[] = [
     id: '179ba984cb2',
     chapter: '三角比',
     question:
-      '由廣義角三角比的性質，試求下列各值：\n(1) $\\sin150^{\\circ}$ (2) $\\cos225^{\\circ}$ (3) $\\tan(-240^{\\circ})$',
+      '由廣義角三角比的性質，試求下列各值：\n(1) $\\sin150\\degree$ (2) $\\cos225\\degree$ (3) $\\tan(-240\\degree)$',
     answer: '(1) $\\frac{1}{2}$ (2) $-\\frac{\\sqrt{2}}{2}$ (3) $-\\sqrt{3}$',
     hasImage: false,
   },
@@ -3105,7 +3105,7 @@ export const bank: Question[] = [
     id: '179ba99c63e',
     chapter: '三角比',
     question:
-      '計算下列各式之值：\n(1) $\\sin(-150^{\\circ})\\times\\tan225^{\\circ}\\times\\cos(-300^{\\circ})-\\sin135^{\\circ}\\times\\cos315^{\\circ}$\n(2) $\\sin90^{\\circ}+\\tan180^{\\circ}-\\cos270^{\\circ}+\\cos(-720^{\\circ})$',
+      '計算下列各式之值：\n(1) $\\sin(-150\\degree)\\times\\tan225\\degree\\times\\cos(-300\\degree)-\\sin135\\degree\\times\\cos315\\degree$\n(2) $\\sin90\\degree+\\tan180\\degree-\\cos270\\degree+\\cos(-720\\degree)$',
     answer: '(1) $\\frac{1}{2}$ (2) $-\\frac{\\sqrt{2}}{2}$ (3) $-\\sqrt{3}$',
     hasImage: false,
   },
@@ -3113,7 +3113,7 @@ export const bank: Question[] = [
     id: '179ba9c9ba6',
     chapter: '三角比',
     question:
-      '已知 $\\theta$ 為銳角，若 $\\sin\\theta=\\frac{1}{3}$，試求：\n(1) $\\sin(180^{\\circ}-\\theta)$ (2) $\\cos(180^{\\circ}+\\theta)$\n(3) $\\tan(180^{\\circ}+\\theta)$ (4) $\\cos(\\theta-270^{\\circ})$',
+      '已知 $\\theta$ 為銳角，若 $\\sin\\theta=\\frac{1}{3}$，試求：\n(1) $\\sin(180\\degree-\\theta)$ (2) $\\cos(180\\degree+\\theta)$\n(3) $\\tan(180\\degree+\\theta)$ (4) $\\cos(\\theta-270\\degree)$',
     answer:
       '(1) $\\frac{1}{3}$ (2) $-\\frac{2\\sqrt{2}}{3}$ (3) $\\frac{\\sqrt{2}}{4}$ (4) $-\\frac{1}{3}$',
     hasImage: false,
@@ -3122,7 +3122,7 @@ export const bank: Question[] = [
     id: '179ba9e608a',
     chapter: '三角比',
     question:
-      '已知 $\\theta$ 為第二象限角，且 $\\tan\\theta=-\\frac{2}{3}$，試求：\n$3\\sin(180^{\\circ}+\\theta)\\cos(90^{\\circ}+\\theta)-2\\sin(90^{\\circ}-\\theta)\\cos(180^{\\circ}-\\theta)$ ',
+      '已知 $\\theta$ 為第二象限角，且 $\\tan\\theta=-\\frac{2}{3}$，試求：\n$3\\sin(180\\degree+\\theta)\\cos(90\\degree+\\theta)-2\\sin(90\\degree-\\theta)\\cos(180\\degree-\\theta)$ ',
     answer: '$\\frac{30}{13}$',
     hasImage: false,
   },
@@ -3130,7 +3130,7 @@ export const bank: Question[] = [
     id: '179baa133db',
     chapter: '三角比',
     question:
-      '若 $\\cos130^{\\circ}=k$，試以 $k$ 表示下列各值：\n(1) $\\sin(-220^{\\circ})$ (2) $\\tan230^{\\circ}$',
+      '若 $\\cos130\\degree=k$，試以 $k$ 表示下列各值：\n(1) $\\sin(-220\\degree)$ (2) $\\tan230\\degree$',
     answer: '(1) $-k$ (2) $-\\frac{\\sqrt{1-k^2}}{k}$',
     hasImage: false,
   },
@@ -3138,7 +3138,7 @@ export const bank: Question[] = [
     id: '179baa2e921',
     chapter: '三角比',
     question:
-      '已知 $\\sin\\theta+\\cos\\theta=\\frac{17}{25}$ 且 $90^{\\circ}<\\theta<180^{\\circ}$，試求：\n(1) $\\sin\\theta\\cos\\theta$ (2) $\\sin\\theta-\\cos\\theta$',
+      '已知 $\\sin\\theta+\\cos\\theta=\\frac{17}{25}$ 且 $90\\degree<\\theta<180\\degree$，試求：\n(1) $\\sin\\theta\\cos\\theta$ (2) $\\sin\\theta-\\cos\\theta$',
     answer: '(1) $-\\frac{168}{625}$ (2) $-\\frac{31}{25}$',
     hasImage: false,
   },
@@ -3242,7 +3242,7 @@ export const bank: Question[] = [
     id: '179bc280c82',
     chapter: '三角比',
     question:
-      '設 $0^{\\circ}<\\theta<90^{\\circ}$，$\\tan\\theta=100$，則 $\\frac{100\\cos\\theta+\\sin\\theta}{200\\cos\\theta}$=？',
+      '設 $0\\degree<\\theta<90\\degree$，$\\tan\\theta=100$，則 $\\frac{100\\cos\\theta+\\sin\\theta}{200\\cos\\theta}$=？',
     answer: '$1$',
     hasImage: false,
   },
@@ -3264,7 +3264,7 @@ export const bank: Question[] = [
     id: '179bc2baac6',
     chapter: '三角比',
     question:
-      '設 $\\theta$ 為第二象限角，若 $\\sin\\theta=\\frac{4}{5}$，求 $\\sin(90^\\circ+\\theta)+\\sin(180^\\circ+\\theta)+\\sin(270^\\circ+\\theta)$。',
+      '設 $\\theta$ 為第二象限角，若 $\\sin\\theta=\\frac{4}{5}$，求 $\\sin(90\\degree+\\theta)+\\sin(180\\degree+\\theta)+\\sin(270\\degree+\\theta)$。',
     answer: '$-\\frac{4}{5}$',
     hasImage: false,
   },
@@ -3272,14 +3272,14 @@ export const bank: Question[] = [
     id: '179bc2d5ae7',
     chapter: '三角比',
     question:
-      '若 $270^\\circ\\le\\theta\\le360^\\circ$ 且 $\\sin2020^\\circ=\\sin\\theta$，則 $\\theta=$？',
-    answer: '$320^\\circ$',
+      '若 $270\\degree\\le\\theta\\le360\\degree$ 且 $\\sin2020\\degree=\\sin\\theta$，則 $\\theta=$？',
+    answer: '$320\\degree$',
     hasImage: false,
   },
   {
     id: '179bc2e059e',
     chapter: '三角比',
-    question: '標準位置角 $2020^\\circ$ 在哪一個象限？',
+    question: '標準位置角 $2020\\degree$ 在哪一個象限？',
     answer: '三',
     hasImage: false,
   },
@@ -3294,7 +3294,7 @@ export const bank: Question[] = [
   {
     id: '179bc2f9816',
     chapter: '三角比',
-    question: '已知 $\\sin\\theta=-\\frac{1}{5}$，則 $\\cos(\\theta-1170^\\circ)=$？',
+    question: '已知 $\\sin\\theta=-\\frac{1}{5}$，則 $\\cos(\\theta-1170\\degree)=$？',
     answer: '$-\\frac{1}{5}$',
     hasImage: false,
   },
@@ -3302,14 +3302,14 @@ export const bank: Question[] = [
     id: '179bc30c6bf',
     chapter: '三角比',
     question:
-      '求 $\\sin(-300^\\circ)\\tan1830^\\circ$\n$+\\tan210^\\circ\\cos510^\\circ+2\\sin270^\\circ$。',
+      '求 $\\sin(-300\\degree)\\tan1830\\degree$\n$+\\tan210\\degree\\cos510\\degree+2\\sin270\\degree$。',
     answer: '$-2$',
     hasImage: false,
   },
   {
     id: '179bc322655',
     chapter: '三角比',
-    question: '已知 $\\tan350^\\circ=k$，則 $\\sin1970^\\circ=$？(以 $k$ 表示)',
+    question: '已知 $\\tan350\\degree=k$，則 $\\sin1970\\degree=$？(以 $k$ 表示)',
     answer: '$\\frac{-k}{\\sqrt{1+k^2}}$',
     hasImage: false,
   },
@@ -3317,14 +3317,14 @@ export const bank: Question[] = [
     id: '179bc33b270',
     chapter: '三角比',
     question:
-      '求 $\\sin^21^\\circ+\\sin^22^\\circ+\\sin^23^\\circ+\\cdots$\n$+\\sin^2180^\\circ$。',
+      '求 $\\sin^21\\degree+\\sin^22\\degree+\\sin^23\\degree+\\cdots$\n$+\\sin^2180\\degree$。',
     answer: '$90$',
     hasImage: false,
   },
   {
     id: '179bc364ccb',
     chapter: '三角比',
-    question: '求 $\\sin300^\\circ\\tan150^\\circ+\\sin150^\\circ\\cos120^\\circ$。',
+    question: '求 $\\sin300\\degree\\tan150\\degree+\\sin150\\degree\\cos120\\degree$。',
     answer: '$\\frac{1}{4}$',
     hasImage: false,
   },
@@ -3370,7 +3370,7 @@ export const bank: Question[] = [
   {
     id: '179c1cdd587',
     chapter: '矩陣A',
-    question: '平面上直線 $3x+5y=10$ 繞原點逆時針旋轉 $45^\\circ$ 後的方程式為？',
+    question: '平面上直線 $3x+5y=10$ 繞原點逆時針旋轉 $45\\degree$ 後的方程式為？',
     answer: '',
     hasImage: false,
   },
@@ -3378,7 +3378,7 @@ export const bank: Question[] = [
     id: '179c1ceec7d',
     chapter: '矩陣A',
     question:
-      '平面上圓 $x^2+y^2+4x-8y-1=0$ 經 $\\begin{bmatrix}\\cos30^\\circ&-\\sin30^\\circ\\\\\\sin30^\\circ&\\cos30^\\circ\\end{bmatrix}$ 變換後所得圖形方程式為？',
+      '平面上圓 $x^2+y^2+4x-8y-1=0$ 經 $\\begin{bmatrix}\\cos30\\degree&-\\sin30\\degree\\\\\\sin30\\degree&\\cos30\\degree\\end{bmatrix}$ 變換後所得圖形方程式為？',
     answer: '',
     hasImage: false,
   },
@@ -3386,7 +3386,7 @@ export const bank: Question[] = [
     id: '179c1d03e26',
     chapter: '矩陣A',
     question:
-      '化簡 $\\begin{bmatrix}\\cos80^\\circ&-\\sin80^\\circ\\\\\\sin80^\\circ&\\cos80^\\circ\\end{bmatrix}\\begin{bmatrix}\\cos50^\\circ&-\\sin50^\\circ\\\\\\sin50^\\circ&\\cos50^\\circ\\end{bmatrix}\\begin{bmatrix}\\cos10^\\circ&\\sin10^\\circ\\\\-\\sin10^\\circ&\\cos10^\\circ\\end{bmatrix}$。',
+      '化簡 $\\begin{bmatrix}\\cos80\\degree&-\\sin80\\degree\\\\\\sin80\\degree&\\cos80\\degree\\end{bmatrix}\\begin{bmatrix}\\cos50\\degree&-\\sin50\\degree\\\\\\sin50\\degree&\\cos50\\degree\\end{bmatrix}\\begin{bmatrix}\\cos10\\degree&\\sin10\\degree\\\\-\\sin10\\degree&\\cos10\\degree\\end{bmatrix}$。',
     answer: '',
     hasImage: false,
   },
@@ -3729,22 +3729,22 @@ export const bank: Question[] = [
     chapter: '三角比',
     question:
       '利用計算機求出下列各值，並四捨五入至小數點後第一位：\n(1) 試求直線 $3x-2y+2=0$ 的斜角 $\\theta$。\n(2) 已知直線 $L_1:3x-y+2=0$，$L_2:2x-3y+6=0$，試求 $L_1$ 與 $L_2$ 的銳夾角。',
-    answer: '(1) $71.6^\\circ$ (2) $37.9^\\circ$',
+    answer: '(1) $71.6\\degree$ (2) $37.9\\degree$',
     hasImage: false,
   },
   {
     id: '179de647e52',
     chapter: '三角比',
     question:
-      '試將下列直角坐標轉換成極坐標，利用計算機取角度介於 $0^\\circ$ 到 $360^\\circ$ 之間，並四捨五入至整數位：\n(1) $A(-5,0)$ (2) $B(-3-3)$ (3) $C(2,5)$',
-    answer: '(1) $[5,180^\\circ]$ (2) $[3\\sqrt{2},225^\\circ]$ (3) $[\\sqrt{29},68^\\circ]$',
+      '試將下列直角坐標轉換成極坐標，利用計算機取角度介於 $0\\degree$ 到 $360\\degree$ 之間，並四捨五入至整數位：\n(1) $A(-5,0)$ (2) $B(-3-3)$ (3) $C(2,5)$',
+    answer: '(1) $[5,180\\degree]$ (2) $[3\\sqrt{2},225\\degree]$ (3) $[\\sqrt{29},68\\degree]$',
     hasImage: false,
   },
   {
     id: '179de65c7d8',
     chapter: '三角比',
     question:
-      '如圖，$\\triangle ABC$ 中，$\\overline{AB}=4\\sqrt{2}$，$\\angle B=45^\\circ$，$\\angle C=30^\\circ$，求 $\\overline{BC}$。',
+      '如圖，$\\triangle ABC$ 中，$\\overline{AB}=4\\sqrt{2}$，$\\angle B=45\\degree$，$\\angle C=30\\degree$，求 $\\overline{BC}$。',
     answer: '$4+4\\sqrt{3}$',
     hasImage: true,
   },
@@ -3752,7 +3752,7 @@ export const bank: Question[] = [
     id: '179de66ef94',
     chapter: '三角比',
     question:
-      '$\\triangle ABC$ 中，若 $\\overline{AC}=12$，$\\overline{BC}=10$，$\\angle C=120^\\circ$，求 $\\triangle ABC$ 面積。',
+      '$\\triangle ABC$ 中，若 $\\overline{AC}=12$，$\\overline{BC}=10$，$\\angle C=120\\degree$，求 $\\triangle ABC$ 面積。',
     answer: '$30\\sqrt{3}$',
     hasImage: false,
   },
@@ -3760,7 +3760,7 @@ export const bank: Question[] = [
     id: '179de685429',
     chapter: '三角比',
     question:
-      '$\\triangle ABC$ 中，已知 $\\angle A=60^\\circ$，$\\overline{AB}=12$，$\\overline{AC}=6$，若 $\\angle A$ 的內角平分線交 $\\overline{BC}$ 於 $D$ 點，求 $\\overline{AD}$。',
+      '$\\triangle ABC$ 中，已知 $\\angle A=60\\degree$，$\\overline{AB}=12$，$\\overline{AC}=6$，若 $\\angle A$ 的內角平分線交 $\\overline{BC}$ 於 $D$ 點，求 $\\overline{AD}$。',
     answer: '$4\\sqrt{3}$',
     hasImage: false,
   },
@@ -3768,7 +3768,7 @@ export const bank: Question[] = [
     id: '179de69af3d',
     chapter: '三角比',
     question:
-      '$\\triangle ABC$ 中，若 $\\angle A=45^\\circ$，$\\angle B=30^\\circ$，且 $\\overline{BC}=6$，求：\n(1) $\\overline{AC}$ (2) $\\triangle ABC$ 之外接圓半徑',
+      '$\\triangle ABC$ 中，若 $\\angle A=45\\degree$，$\\angle B=30\\degree$，且 $\\overline{BC}=6$，求：\n(1) $\\overline{AC}$ (2) $\\triangle ABC$ 之外接圓半徑',
     answer: '(1) $3\\sqrt{2}$ (2) $3\\sqrt{2}$',
     hasImage: false,
   },
@@ -3776,8 +3776,8 @@ export const bank: Question[] = [
     id: '179de6b2afc',
     chapter: '三角比',
     question:
-      '在 $\\triangle ABC$ 中，若 $\\overline{BC}=2$，$\\overline{AC}=\\sqrt{3}+1$，$\\angle A=45^\\circ$，試求 $\\angle C$。',
-    answer: '$60^\\circ$ 或 $30^\\circ$',
+      '在 $\\triangle ABC$ 中，若 $\\overline{BC}=2$，$\\overline{AC}=\\sqrt{3}+1$，$\\angle A=45\\degree$，試求 $\\angle C$。',
+    answer: '$60\\degree$ 或 $30\\degree$',
     hasImage: false,
   },
   {
@@ -3792,7 +3792,7 @@ export const bank: Question[] = [
     id: '179de6e9e9b',
     chapter: '三角比',
     question:
-      '如圖，$ABCD$ 為圓內接四邊形，若 $\\angle DBC=30^\\circ$，$\\angle ABD=45^\\circ$，$\\overline{CD}=6$，求：\n(1) $\\overline{AD}$。\n(2) $\\triangle ABD$ 之外接圓半徑。',
+      '如圖，$ABCD$ 為圓內接四邊形，若 $\\angle DBC=30\\degree$，$\\angle ABD=45\\degree$，$\\overline{CD}=6$，求：\n(1) $\\overline{AD}$。\n(2) $\\triangle ABD$ 之外接圓半徑。',
     answer: '(1) $6\\sqrt{2}$ (2) $6$',
     hasImage: true,
   },
@@ -3800,7 +3800,7 @@ export const bank: Question[] = [
     id: '179de701744',
     chapter: '三角比',
     question:
-      '從岸上兩個瞭望臺 $A$，$B$ 觀測海上一船 $C$，測得 $\\angle ABC=102^\\circ$，$\\angle BAC=48^\\circ$，若 $A$，$B$ 相距 $100$ 公尺，則船 $C$ 與瞭望臺 $A$ 之距離為？(四捨五入至小數點後第一位)',
+      '從岸上兩個瞭望臺 $A$，$B$ 觀測海上一船 $C$，測得 $\\angle ABC=102\\degree$，$\\angle BAC=48\\degree$，若 $A$，$B$ 相距 $100$ 公尺，則船 $C$ 與瞭望臺 $A$ 之距離為？(四捨五入至小數點後第一位)',
     answer: '$195.6$ 公尺',
     hasImage: false,
   },
@@ -3808,8 +3808,8 @@ export const bank: Question[] = [
     id: '179de720da0',
     chapter: '三角比',
     question:
-      '(1) 在 $\\triangle ABC$ 中，若 $\\overline{AB}=3$，$\\overline{AC}=5$，$\\angle A=120^\\circ$，求 $\\overline{BC}$。\n(2) 在 $\\triangle ABC$ 中，若 $\\overline{AC}=13$，$\\overline{BC}=8$，$\\overline{AB}=7$，求 $\\angle B$。',
-    answer: '(1) $7$ (2) $120^\\circ$',
+      '(1) 在 $\\triangle ABC$ 中，若 $\\overline{AB}=3$，$\\overline{AC}=5$，$\\angle A=120\\degree$，求 $\\overline{BC}$。\n(2) 在 $\\triangle ABC$ 中，若 $\\overline{AC}=13$，$\\overline{BC}=8$，$\\overline{AB}=7$，求 $\\angle B$。',
+    answer: '(1) $7$ (2) $120\\degree$',
     hasImage: false,
   },
   {
@@ -3825,14 +3825,14 @@ export const bank: Question[] = [
     chapter: '三角比',
     question:
       '設 $\\triangle ABC$ 中，$\\angle A$、$\\angle B$、$\\angle C$ 的對邊邊長分別是 $a$、$b$、$c$，且滿足 $a^2+b^2-c^2=\\sqrt{2}ab$，求 $\\angle C$。',
-    answer: '$45^\\circ$',
+    answer: '$45\\degree$',
     hasImage: false,
   },
   {
     id: '179de81f990',
     chapter: '三角比',
     question:
-      '圓內接四邊形 $ABCD$ 中，已知 $\\overline{AB}=5$，$\\overline{BC}=3$，$\\overline{CD}=2$，$\\angle B=60^\\circ$，求：\n(1) $\\overline{AC}$ (2) $\\overline{AD}$',
+      '圓內接四邊形 $ABCD$ 中，已知 $\\overline{AB}=5$，$\\overline{BC}=3$，$\\overline{CD}=2$，$\\angle B=60\\degree$，求：\n(1) $\\overline{AC}$ (2) $\\overline{AD}$',
     answer: '(1) $\\sqrt{19}$ (2) $3$',
     hasImage: false,
   },
@@ -3840,7 +3840,7 @@ export const bank: Question[] = [
     id: '179de84aeae',
     chapter: '三角比',
     question:
-      '一漁船在湖上等速直線前進，已知上午 $9$ 時 $50$ 分，漁船在觀測點 $O$ 的北 $70^\\circ$ 西位置，離 $O$ 點 $2$ 浬處。上午 $10$ 時 $10$ 分，則在觀測點 $O$ 的北 $50^\\circ$ 東位置，離 $O$ 點 $1$ 浬處，求：\n(1) 此漁船的時速為多少浬/小時。\n(2) 此段時間內，漁船離觀測點 $O$ 的最近距離為多少浬。',
+      '一漁船在湖上等速直線前進，已知上午 $9$ 時 $50$ 分，漁船在觀測點 $O$ 的北 $70\\degree$ 西位置，離 $O$ 點 $2$ 浬處。上午 $10$ 時 $10$ 分，則在觀測點 $O$ 的北 $50\\degree$ 東位置，離 $O$ 點 $1$ 浬處，求：\n(1) 此漁船的時速為多少浬/小時。\n(2) 此段時間內，漁船離觀測點 $O$ 的最近距離為多少浬。',
     answer: '(1) $3\\sqrt{7}$ (2) $\\frac{\\sqrt{21}}{7}$',
     hasImage: false,
   },
@@ -3848,7 +3848,7 @@ export const bank: Question[] = [
     id: '179de862935',
     chapter: '三角比',
     question:
-      '某大樓高 $100$ 公尺，在大樓的正東方 $A$ 點測得大樓樓頂 $C$ 之仰角為 $45^\\circ$，在大樓的正南方 $B$ 點測得大樓樓頂 $C$ 之仰角為 $30^\\circ$，求 $A$ 與 $B$ 相距幾公尺？',
+      '某大樓高 $100$ 公尺，在大樓的正東方 $A$ 點測得大樓樓頂 $C$ 之仰角為 $45\\degree$，在大樓的正南方 $B$ 點測得大樓樓頂 $C$ 之仰角為 $30\\degree$，求 $A$ 與 $B$ 相距幾公尺？',
     answer: '$200$',
     hasImage: false,
   },
@@ -3960,14 +3960,14 @@ export const bank: Question[] = [
     id: '179e0684ccc',
     chapter: '三角比',
     question:
-      '設 $\\sin\\theta+\\cos\\theta=\\frac{1}{2}$，且 $180^\\circ\\le\\theta\\le360^\\circ$，求：\n(1) $\\sin\\theta\\cos\\theta$\n(2) $\\sin\\theta-\\cos\\theta$',
+      '設 $\\sin\\theta+\\cos\\theta=\\frac{1}{2}$，且 $180\\degree\\le\\theta\\le360\\degree$，求：\n(1) $\\sin\\theta\\cos\\theta$\n(2) $\\sin\\theta-\\cos\\theta$',
     answer: '(1) $-\\frac{3}{8}$ (2) $-\\frac{\\sqrt{7}}{2}$',
     hasImage: false,
   },
   {
     id: '179e0697edf',
     chapter: '三角比',
-    question: '極坐標平面上有兩點 $A[2,120^\\circ]$，$B[4,210^\\circ]$，求 $\\overline{AB}$。',
+    question: '極坐標平面上有兩點 $A[2,120\\degree]$，$B[4,210\\degree]$，求 $\\overline{AB}$。',
     answer: '$2\\sqrt{5}$',
     hasImage: false,
   },
@@ -3984,15 +3984,15 @@ export const bank: Question[] = [
     chapter: '三角比',
     question:
       '已知兩直線 $L_1:y=\\frac{1}{2}x$ 與 $L_2:3x+y=5$ 的銳夾角為 $\\theta$，求 $\\theta$。(利用計算機，四捨五入至整數位)',
-    answer: '$82^\\circ$',
+    answer: '$82\\degree$',
     hasImage: false,
   },
   {
     id: '179e06ddeda',
     chapter: '三角比',
     question:
-      '已知 $A$、$B$ 兩點的極坐標分別為 $A[1,60^\\circ]$，$B[\\sqrt{3},150^\\circ]$，$\\overline{AB}$ 中點為 $C$，求 $C$ 點的極坐標。',
-    answer: '$[1,120^\\circ]$',
+      '已知 $A$、$B$ 兩點的極坐標分別為 $A[1,60\\degree]$，$B[\\sqrt{3},150\\degree]$，$\\overline{AB}$ 中點為 $C$，求 $C$ 點的極坐標。',
+    answer: '$[1,120\\degree]$',
     hasImage: false,
   },
   {
@@ -4007,7 +4007,7 @@ export const bank: Question[] = [
     id: '179e070c819',
     chapter: '三角比',
     question:
-      '$\\triangle ABC$ 中，$\\overline{AB}=2$，$\\overline{AC}=6$，且 $\\angle A=120^\\circ$。若 $D$ 為 $\\overline{BC}$ 上一點，且滿足 $3\\overline{BD}=\\overline{CD}$，求 $\\triangle ACD$ 的面積。',
+      '$\\triangle ABC$ 中，$\\overline{AB}=2$，$\\overline{AC}=6$，且 $\\angle A=120\\degree$。若 $D$ 為 $\\overline{BC}$ 上一點，且滿足 $3\\overline{BD}=\\overline{CD}$，求 $\\triangle ACD$ 的面積。',
     answer: '$\\frac{9\\sqrt{3}}{4}$',
     hasImage: false,
   },
@@ -4015,7 +4015,7 @@ export const bank: Question[] = [
     id: '179e071ffc3',
     chapter: '三角比',
     question:
-      '$\\triangle ABC$ 中，$\\angle B=15^\\circ$，$\\angle C=30^\\circ$，$\\overline{BC}=4$，求 $\\triangle ABC$ 的外接圓面積。',
+      '$\\triangle ABC$ 中，$\\angle B=15\\degree$，$\\angle C=30\\degree$，$\\overline{BC}=4$，求 $\\triangle ABC$ 的外接圓面積。',
     answer: '$8\\pi$',
     hasImage: false,
   },
@@ -4023,7 +4023,7 @@ export const bank: Question[] = [
     id: '179e073e656',
     chapter: '三角比',
     question:
-      '四邊形 $ABCD$ 為圓內接四邊形，若 $\\angle ADB=60^\\circ$，$\\angle CBD=30^\\circ$，$\\overline{CD}=5$，求：\n(1) $\\overline{AB}$\n(2) 外接圓半徑',
+      '四邊形 $ABCD$ 為圓內接四邊形，若 $\\angle ADB=60\\degree$，$\\angle CBD=30\\degree$，$\\overline{CD}=5$，求：\n(1) $\\overline{AB}$\n(2) 外接圓半徑',
     answer: '(1) $5\\sqrt{3}$ (2) $5$',
     hasImage: true,
   },
@@ -4031,7 +4031,7 @@ export const bank: Question[] = [
     id: '179e075c581',
     chapter: '三角比',
     question:
-      '如圖 $\\triangle ABP$ 中，若 $\\angle PAB=30^\\circ$，$\\angle PBA=45^\\circ$，今於 $\\overline{AB}$ 上任取一點 $Q$，若 $\\triangle APQ$ 與 $\\triangle BPQ$ 的外接圓半徑分別為 $R_1$ 和 $R_2$，求 $\\frac{R_1}{R_2}$。',
+      '如圖 $\\triangle ABP$ 中，若 $\\angle PAB=30\\degree$，$\\angle PBA=45\\degree$，今於 $\\overline{AB}$ 上任取一點 $Q$，若 $\\triangle APQ$ 與 $\\triangle BPQ$ 的外接圓半徑分別為 $R_1$ 和 $R_2$，求 $\\frac{R_1}{R_2}$。',
     answer: '$\\sqrt{2}$',
     hasImage: true,
   },
@@ -4047,7 +4047,7 @@ export const bank: Question[] = [
     id: '179e07a7752',
     chapter: '三角比',
     question:
-      '$\\triangle ABC$ 中，$\\overline{AD}$ 平分 $\\angle BAC$ 並交 $\\overline{BC}$ 於 $D$。已知 $\\overline{BD}=5$、$\\overline{DC}=7$，且 $\\angle ABC=60^\\circ$，求 $\\sin\\angle ACD$。',
+      '$\\triangle ABC$ 中，$\\overline{AD}$ 平分 $\\angle BAC$ 並交 $\\overline{BC}$ 於 $D$。已知 $\\overline{BD}=5$、$\\overline{DC}=7$，且 $\\angle ABC=60\\degree$，求 $\\sin\\angle ACD$。',
     answer: '$\\frac{5\\sqrt{3}}{14}$',
     hasImage: true,
   },
@@ -4312,7 +4312,7 @@ export const bank: Question[] = [
     id: '179febc3df9',
     chapter: '矩陣A',
     question:
-      '在坐標平面上，將點 $P(-4,2)$ 作下列各變換，試分別求變換後之點坐標：\n(1) 以原點為中心，逆時針旋轉 $30^\\circ$\n(2) 對 $x$ 軸作鏡射\n(3) 以原點為中心，往 $x$、$y$ 方向分別伸縮 $3$ 倍\n(4) 往 $x$ 方向伸縮 $2$ 倍，$y$ 方向伸縮 $\\frac{1}{2}$ 倍\n(5) 往 $x$ 方向推移 $y$ 坐標的 $-2$ 倍',
+      '在坐標平面上，將點 $P(-4,2)$ 作下列各變換，試分別求變換後之點坐標：\n(1) 以原點為中心，逆時針旋轉 $30\\degree$\n(2) 對 $x$ 軸作鏡射\n(3) 以原點為中心，往 $x$、$y$ 方向分別伸縮 $3$ 倍\n(4) 往 $x$ 方向伸縮 $2$ 倍，$y$ 方向伸縮 $\\frac{1}{2}$ 倍\n(5) 往 $x$ 方向推移 $y$ 坐標的 $-2$ 倍',
     answer:
       '(1) $(-2\\sqrt{3}-1,-2+\\sqrt{3})$ (2) $(-4,-2)$ (3) $(-12,6)$ (4) $(-8,1)$ (5) $(-8,2)$',
     hasImage: false,
@@ -4392,7 +4392,7 @@ export const bank: Question[] = [
     id: '17a067782a1',
     chapter: '矩陣A',
     question:
-      '$A=\\begin{bmatrix}\\cos18^\\circ&-\\sin18^\\circ\\\\\\sin18^\\circ&\\cos18^\\circ\\end{bmatrix}$，$B=\\begin{bmatrix}\\cos87^\\circ&-\\sin87^\\circ\\\\\\sin87^\\circ&\\cos87^\\circ\\end{bmatrix}$，$C=\\begin{bmatrix}\\cos45^\\circ&\\sin45^\\circ\\\\-\\sin45^\\circ&\\cos45^\\circ\\end{bmatrix}$，將 $ABC$ 化簡後得到矩陣 $\\begin{bmatrix}a&b\\\\c&d\\end{bmatrix}$，求 $\\frac{b}{a}$。',
+      '$A=\\begin{bmatrix}\\cos18\\degree&-\\sin18\\degree\\\\\\sin18\\degree&\\cos18\\degree\\end{bmatrix}$，$B=\\begin{bmatrix}\\cos87\\degree&-\\sin87\\degree\\\\\\sin87\\degree&\\cos87\\degree\\end{bmatrix}$，$C=\\begin{bmatrix}\\cos45\\degree&\\sin45\\degree\\\\-\\sin45\\degree&\\cos45\\degree\\end{bmatrix}$，將 $ABC$ 化簡後得到矩陣 $\\begin{bmatrix}a&b\\\\c&d\\end{bmatrix}$，求 $\\frac{b}{a}$。',
     answer: '$-\\sqrt{3}$',
     hasImage: false,
   },
@@ -4408,7 +4408,7 @@ export const bank: Question[] = [
   {
     id: '17a067a7364',
     chapter: '矩陣A',
-    question: '直線 $2x+3y=0$ 經逆時針旋轉 $90^\\circ$ 後，再對 $y=2x$ 鏡射所得之直線方程式為？',
+    question: '直線 $2x+3y=0$ 經逆時針旋轉 $90\\degree$ 後，再對 $y=2x$ 鏡射所得之直線方程式為？',
     answer: '$17x=6y$',
     hasImage: false,
   },
@@ -4480,7 +4480,7 @@ export const bank: Question[] = [
     id: '17a0926212c',
     chapter: '三角比',
     question:
-      '在 $\\triangle ABC$ 中，若 $\\overline{AB}=6$，$\\overline{AC}=4$，$\\angle A=60^\\circ$，求 $\\triangle ABC$ 之外接圓半徑 $R$。',
+      '在 $\\triangle ABC$ 中，若 $\\overline{AB}=6$，$\\overline{AC}=4$，$\\angle A=60\\degree$，求 $\\triangle ABC$ 之外接圓半徑 $R$。',
     answer: '$\\frac{2\\sqrt{21}}{3}$',
     hasImage: false,
   },
@@ -4504,7 +4504,7 @@ export const bank: Question[] = [
     id: '17a093f754e',
     chapter: '三角比',
     question:
-      '圓內接四邊形 $ABCD$ 中，若 $\\overline{AB}=\\overline{AD}=2$，$\\angle C=60^\\circ$，$\\angle D=105^\\circ$，求 $\\overline{CD}$。',
+      '圓內接四邊形 $ABCD$ 中，若 $\\overline{AB}=\\overline{AD}=2$，$\\angle C=60\\degree$，$\\angle D=105\\degree$，求 $\\overline{CD}$。',
     answer: '$2\\sqrt{2}$',
     hasImage: false,
   },
@@ -4527,7 +4527,7 @@ export const bank: Question[] = [
     id: '17a09459c56',
     chapter: '三角比',
     question:
-      '$A$、$B$、$C$ 依序為地面一直線上的三點，$\\overline{AB}=300$ 公尺，$\\overline{BC}=200$ 公尺，今自 $A$、$B$、$C$ 三點測一旁的高山，其仰角分別為 $30^\\circ$、$45^\\circ$、$60^\\circ$，求山高。',
+      '$A$、$B$、$C$ 依序為地面一直線上的三點，$\\overline{AB}=300$ 公尺，$\\overline{BC}=200$ 公尺，今自 $A$、$B$、$C$ 三點測一旁的高山，其仰角分別為 $30\\degree$、$45\\degree$、$60\\degree$，求山高。',
     answer: '$100\\sqrt{15}$ 公尺',
     hasImage: false,
   },
@@ -4535,7 +4535,7 @@ export const bank: Question[] = [
     id: '17a0948e0bc',
     chapter: '三角比',
     question:
-      '$A$、$B$、$C$ 三人想測量升旗桿最頂端的高度，於是三人分別於地面上三點仰視桿頂，發現仰角都是 $60^\\circ$，此時 $B$、$C$ 兩人相距 $25$ 公尺，$\\angle BAC=60^\\circ$，則他們所測得的旗桿頂高度為？',
+      '$A$、$B$、$C$ 三人想測量升旗桿最頂端的高度，於是三人分別於地面上三點仰視桿頂，發現仰角都是 $60\\degree$，此時 $B$、$C$ 兩人相距 $25$ 公尺，$\\angle BAC=60\\degree$，則他們所測得的旗桿頂高度為？',
     answer: '$25$ 公尺',
     hasImage: false,
   },
@@ -5307,7 +5307,7 @@ export const bank: Question[] = [
     id: '17a24e0ae41',
     chapter: '三角比',
     question:
-      '(多選) 從下列選項中，選出大於 $\\sin10^\\circ$ 的選項。\n(1) $\\sin5^\\circ$ (2) $\\frac{1}{2}$ (3) $\\sin180^\\circ$ (4) $\\cos340^\\circ$ (5) $\\tan135^\\circ$',
+      '(多選) 從下列選項中，選出大於 $\\sin10\\degree$ 的選項。\n(1) $\\sin5\\degree$ (2) $\\frac{1}{2}$ (3) $\\sin180\\degree$ (4) $\\cos340\\degree$ (5) $\\tan135\\degree$',
     answer: '(2)(4)',
     hasImage: false,
   },
@@ -5315,14 +5315,14 @@ export const bank: Question[] = [
     id: '17a24e2bd7c',
     chapter: '三角比',
     question:
-      '(多選) 如圖，下列選項何者正確？$\\left(\\sin75^\\circ=\\frac{\\sqrt{6}+\\sqrt{2}}{4}\\right)$\n(1) $\\overline{AB}=4\\sqrt{2}$\n(2) $\\overline{BC}=4(\\sqrt{3}+1)$\n(3) $\\triangle ABC$ 為鈍角三角形\n(4) $\\triangle ABC$ 之外接圓半徑為 $4\\sqrt{2}$\n(5) $\\triangle ABC$ 之外接圓面積為 $32\\pi$',
+      '(多選) 如圖，下列選項何者正確？$\\left(\\sin75\\degree=\\frac{\\sqrt{6}+\\sqrt{2}}{4}\\right)$\n(1) $\\overline{AB}=4\\sqrt{2}$\n(2) $\\overline{BC}=4(\\sqrt{3}+1)$\n(3) $\\triangle ABC$ 為鈍角三角形\n(4) $\\triangle ABC$ 之外接圓半徑為 $4\\sqrt{2}$\n(5) $\\triangle ABC$ 之外接圓面積為 $32\\pi$',
     answer: '(1)(2)(3)(4)(5)',
     hasImage: true,
   },
   {
     id: '17a24e3eecd',
     chapter: '三角比',
-    question: '求 $\\sin870^\\circ+\\sin^2(-105^\\circ)+\\cos^2105^\\circ-\\tan540^\\circ$',
+    question: '求 $\\sin870\\degree+\\sin^2(-105\\degree)+\\cos^2105\\degree-\\tan540\\degree$',
     answer: '$\\frac{3}{2}$',
     hasImage: false,
   },
@@ -5331,7 +5331,7 @@ export const bank: Question[] = [
     chapter: '三角比',
     question:
       '$\\triangle ABC$ 中，$\\overline{AB}=1$，$\\overline{BC}=\\sqrt{3}$，$\\overline{AC}=\\sqrt{7}$，求 $\\triangle ABC$ 最大的內角度數。',
-    answer: '$150^\\circ$',
+    answer: '$150\\degree$',
     hasImage: false,
   },
   {
@@ -5345,7 +5345,7 @@ export const bank: Question[] = [
     id: '17a24e7a289',
     chapter: '三角比',
     question:
-      '在極坐標中，$A$、$B$ 兩點的坐標分別為 $A[2,34^\\circ]$，$B[5,154^\\circ]$，求 $\\overline{AB}$。',
+      '在極坐標中，$A$、$B$ 兩點的坐標分別為 $A[2,34\\degree]$，$B[5,154\\degree]$，求 $\\overline{AB}$。',
     answer: '$\\sqrt{39}$',
     hasImage: false,
   },
@@ -5353,7 +5353,7 @@ export const bank: Question[] = [
     id: '17a24e8a188',
     chapter: '三角比',
     question:
-      '已知 $270^\\circ<\\theta<360^\\circ$，且 $\\sin\\theta=-\\frac{1}{3}$，求 $\\cos\\theta+\\sin(270^\\circ-\\theta)+\\tan(180^\\circ+\\theta)$。',
+      '已知 $270\\degree<\\theta<360\\degree$，且 $\\sin\\theta=-\\frac{1}{3}$，求 $\\cos\\theta+\\sin(270\\degree-\\theta)+\\tan(180\\degree+\\theta)$。',
     answer: '$-\\frac{\\sqrt{2}}{4}$',
     hasImage: false,
   },
@@ -5361,7 +5361,7 @@ export const bank: Question[] = [
     id: '17a24eb0dfb',
     chapter: '三角比',
     question:
-      '四邊形 $ABCD$ 中，已知 $\\overline{AB}=2$，$\\overline{BC}=7$，$\\overline{CD}=5$，$\\overline{BD}=6$，$\\angle ABD=30^\\circ$，求此四邊形面積。',
+      '四邊形 $ABCD$ 中，已知 $\\overline{AB}=2$，$\\overline{BC}=7$，$\\overline{CD}=5$，$\\overline{BD}=6$，$\\angle ABD=30\\degree$，求此四邊形面積。',
     answer: '$3+6\\sqrt{6}$',
     hasImage: false,
   },
@@ -5477,7 +5477,7 @@ export const bank: Question[] = [
     id: '17a348a3b3e',
     chapter: '直線與圓',
     question:
-      '三點 $P(1,a)$，$Q(2,a+3)$，$R(-1,5)$，若：\n(1) 在同一直線上，求 $a$。 (2) $\\angle PQR=90^\\circ$，求 $a$。',
+      '三點 $P(1,a)$，$Q(2,a+3)$，$R(-1,5)$，若：\n(1) 在同一直線上，求 $a$。 (2) $\\angle PQR=90\\degree$，求 $a$。',
     answer: '(1) $11$ (2) $1$',
     hasImage: false,
   },
@@ -5755,7 +5755,7 @@ export const bank: Question[] = [
     id: '17a50ca5eea',
     chapter: '直線與圓',
     question:
-      '平面上直線 $L_1$ 過 $A(4,5)$，$L_2$ 過 $B(7,-1)$，$L_1$ 與 $L_2$ 交於 $P$ 點，且 $L_1$ 的斜率比 $L_2$ 的斜率多 $1$，若 $\\angle ABP=90^\\circ$，求 $P$。',
+      '平面上直線 $L_1$ 過 $A(4,5)$，$L_2$ 過 $B(7,-1)$，$L_1$ 與 $L_2$ 交於 $P$ 點，且 $L_1$ 的斜率比 $L_2$ 的斜率多 $1$，若 $\\angle ABP=90\\degree$，求 $P$。',
     answer: '$\\left(-\\frac{7}{2},-\\frac{25}{4}\\right)$',
     hasImage: false,
   },
@@ -6699,29 +6699,29 @@ export const bank: Question[] = [
     id: '17aca9268fc',
     chapter: '三角比',
     question:
-      '有一等腰三角形底邊為 $10$，頂角 $72^\\circ$，下列何者可以表示腰長？\n(1) $5\\sin36^\\circ$ (2) $5\\tan36^\\circ$ (3) $\\frac{5}{\\tan36^\\circ}$\n(4) $\\frac{5}{\\cos36^\\circ}$ (5) $\\frac{5}{\\sin36^\\circ}$',
+      '有一等腰三角形底邊為 $10$，頂角 $72\\degree$，下列何者可以表示腰長？\n(1) $5\\sin36\\degree$ (2) $5\\tan36\\degree$ (3) $\\frac{5}{\\tan36\\degree}$\n(4) $\\frac{5}{\\cos36\\degree}$ (5) $\\frac{5}{\\sin36\\degree}$',
     answer: '(5)',
     hasImage: false,
   },
   {
     id: '17aca95e33b',
     chapter: '三角比',
-    question: '$950^\\circ$ 是第幾象限角？其最小正同界角為？',
-    answer: '三；$230^\\circ$',
+    question: '$950\\degree$ 是第幾象限角？其最小正同界角為？',
+    answer: '三；$230\\degree$',
     hasImage: false,
   },
   {
     id: '17aca9748af',
     chapter: '三角比',
     question:
-      '若有向角 $\\theta$ 如圖所示，則 $\\theta$ 最接近：\n(1) $40^\\circ$ (2) $400^\\circ$ (3) $-320^\\circ$ (4) $-680^\\circ$',
+      '若有向角 $\\theta$ 如圖所示，則 $\\theta$ 最接近：\n(1) $40\\degree$ (2) $400\\degree$ (3) $-320\\degree$ (4) $-680\\degree$',
     answer: '(4)',
     hasImage: true,
   },
   {
     id: '17aca9badeb',
     chapter: '三角比',
-    question: '求平面上兩點 $P[3,70^\\circ]$ 與 $Q[4,160^\\circ]$ 的距離。',
+    question: '求平面上兩點 $P[3,70\\degree]$ 與 $Q[4,160\\degree]$ 的距離。',
     answer: '$5$',
     hasImage: false,
   },
@@ -6729,36 +6729,36 @@ export const bank: Question[] = [
     id: '17aca9d9f29',
     chapter: '三角比',
     question: '將直角坐標化為極坐標：\n(1) $(0,4)$ (2) $(-\\pi,0)$ (3) $(1,-1)$',
-    answer: '(1) $[4,90^\\circ]$ (2) $[\\pi,180^\\circ]$ (3) $[\\sqrt{2},315^\\circ]$',
+    answer: '(1) $[4,90\\degree]$ (2) $[\\pi,180\\degree]$ (3) $[\\sqrt{2},315\\degree]$',
     hasImage: false,
   },
   {
     id: '17acaa46a2f',
     chapter: '三角比',
     question:
-      '請問 $\\sin73^\\circ$、$\\sin146^\\circ$、$\\sin219^\\circ$、$\\sin292^\\circ$、$\\sin365^\\circ$ 這五個數值的中位數是哪一個？',
-    answer: '$\\sin365^\\circ$',
+      '請問 $\\sin73\\degree$、$\\sin146\\degree$、$\\sin219\\degree$、$\\sin292\\degree$、$\\sin365\\degree$ 這五個數值的中位數是哪一個？',
+    answer: '$\\sin365\\degree$',
     hasImage: false,
   },
   {
     id: '17acaa9ade9',
     chapter: '三角比',
     question:
-      '$\\begin{array} {|c|c|}\\hline \\theta & \\sin\\theta & \\cos\\theta & \\tan\\theta \\\\\\hline 0^\\circ \\\\\\hline 90^\\circ \\\\\\hline 180^\\circ \\\\\\hline 270^\\circ \\\\\\hline 120^\\circ \\\\\\hline 135^\\circ \\\\\\hline 150^\\circ \\\\\\hline 240^\\circ \\\\\\hline \\end{array}$',
+      '$\\begin{array} {|c|c|}\\hline \\theta & \\sin\\theta & \\cos\\theta & \\tan\\theta \\\\\\hline 0\\degree \\\\\\hline 90\\degree \\\\\\hline 180\\degree \\\\\\hline 270\\degree \\\\\\hline 120\\degree \\\\\\hline 135\\degree \\\\\\hline 150\\degree \\\\\\hline 240\\degree \\\\\\hline \\end{array}$',
     answer: '略',
     hasImage: false,
   },
   {
     id: '17ad14cb94a',
     chapter: '三角比',
-    question: '取餘角，$\\sin(90^\\circ-\\theta)$、$\\cos(90^\\circ-\\theta)$。',
+    question: '取餘角，$\\sin(90\\degree-\\theta)$、$\\cos(90\\degree-\\theta)$。',
     answer: '$\\cos\\theta$；$\\sin\\theta$',
     hasImage: false,
   },
   {
     id: '17ad14d8dde',
     chapter: '三角比',
-    question: '取補角，$\\sin(180^\\circ-\\theta)$、$\\cos(180^\\circ-\\theta)$。',
+    question: '取補角，$\\sin(180\\degree-\\theta)$、$\\cos(180\\degree-\\theta)$。',
     answer: '$\\sin\\theta$；$-\\cos\\theta$',
     hasImage: false,
   },
@@ -6772,7 +6772,7 @@ export const bank: Question[] = [
   {
     id: '17ad14f2801',
     chapter: '三角比',
-    question: '任意的角度變換，$\\sin(\\theta+180^\\circ)$、$\\cos(270^\\circ-\\theta)$。',
+    question: '任意的角度變換，$\\sin(\\theta+180\\degree)$、$\\cos(270\\degree-\\theta)$。',
     answer: '$\\sin\\theta$；$-\\sin\\theta$',
     hasImage: false,
   },
@@ -6787,7 +6787,7 @@ export const bank: Question[] = [
     id: '17ad16129f7',
     chapter: '三角比',
     question:
-      '設 $180^\\circ<\\theta<270^\\circ$，若 $\\cos\\theta-\\sin\\theta=\\frac{\\sqrt{2}}{2}$，求 $\\cos\\theta+\\sin\\theta$。',
+      '設 $180\\degree<\\theta<270\\degree$，若 $\\cos\\theta-\\sin\\theta=\\frac{\\sqrt{2}}{2}$，求 $\\cos\\theta+\\sin\\theta$。',
     answer: '$-\\frac{\\sqrt{6}}{2}$',
     hasImage: false,
   },
@@ -6803,7 +6803,7 @@ export const bank: Question[] = [
     id: '17ad1685100',
     chapter: '三角比',
     question:
-      '如圖所示，$ABCD$ 為圓內接四邊形，若 $\\angle DBC=30^\\circ$，$\\angle ABD=45^\\circ$，$\\overline{CD}=6$，求 $\\overline{AD}$。',
+      '如圖所示，$ABCD$ 為圓內接四邊形，若 $\\angle DBC=30\\degree$，$\\angle ABD=45\\degree$，$\\overline{CD}=6$，求 $\\overline{AD}$。',
     answer: '$6\\sqrt{2}$',
     hasImage: true,
   },
@@ -6827,7 +6827,7 @@ export const bank: Question[] = [
     id: '17ad175a609',
     chapter: '三角比',
     question:
-      '$\\triangle ABC$，$\\overline{AB}=5$，$\\overline{AC}=4$，$\\angle A=60^\\circ$，求 $\\triangle ABC$ 面積。',
+      '$\\triangle ABC$，$\\overline{AB}=5$，$\\overline{AC}=4$，$\\angle A=60\\degree$，求 $\\triangle ABC$ 面積。',
     answer: '$5\\sqrt{3}$',
     hasImage: false,
   },
@@ -6843,14 +6843,14 @@ export const bank: Question[] = [
     chapter: '三角比',
     question:
       '化簡 (1) $\\sin^{-1}\\frac{\\sqrt{3}}{2}\\quad$ (2) $\\cos^{-1}\\frac{-1}{2}\\quad$ (3) $\\tan^{-1}1$',
-    answer: '(1) $60^\\circ$ (2) $120^\\circ$ (3) $45^\\circ$',
+    answer: '(1) $60\\degree$ (2) $120\\degree$ (3) $45\\degree$',
     hasImage: false,
   },
   {
     id: '17ad18548de',
     chapter: '三角比',
     question:
-      '有一艘船向南航行，在東 $30^\\circ$ 南的方位發現一燈塔後，繼續向前進 $20$ 浬，此時燈塔的方向在北 $30^\\circ$ 東，求此船航線與燈塔的最短距離。',
+      '有一艘船向南航行，在東 $30\\degree$ 南的方位發現一燈塔後，繼續向前進 $20$ 浬，此時燈塔的方向在北 $30\\degree$ 東，求此船航線與燈塔的最短距離。',
     answer: '$5\\sqrt{3}$ 浬',
     hasImage: false,
   },
@@ -6858,7 +6858,7 @@ export const bank: Question[] = [
     id: '17ad187f99e',
     chapter: '三角比',
     question:
-      '某人隔河測一山高，在 $A$ 點觀測山時，山的方位為東偏北 $60^\\circ$，山頂的仰角為 $45^\\circ$，某人自 $A$ 點向東行 $600$ 公尺到達 $B$ 點，山的方位變成在西偏北 $60^\\circ$，求山高。',
+      '某人隔河測一山高，在 $A$ 點觀測山時，山的方位為東偏北 $60\\degree$，山頂的仰角為 $45\\degree$，某人自 $A$ 點向東行 $600$ 公尺到達 $B$ 點，山的方位變成在西偏北 $60\\degree$，求山高。',
     answer: '$600$ 公尺',
     hasImage: false,
   },
@@ -6866,7 +6866,7 @@ export const bank: Question[] = [
     id: '17ad192e53e',
     chapter: '三角比',
     question:
-      '在 $\\triangle ABC$ 中，$M$ 為 $\\overline{BC}$ 邊之中點，若 $\\overline{AB}=3$，$\\overline{AC}=5$，且 $\\angle BAC=120^\\circ$，求 $\\angle BAM$。',
+      '在 $\\triangle ABC$ 中，$M$ 為 $\\overline{BC}$ 邊之中點，若 $\\overline{AB}=3$，$\\overline{AC}=5$，且 $\\angle BAC=120\\degree$，求 $\\angle BAM$。',
     answer: '$5\\sqrt{3}$',
     hasImage: false,
   },
@@ -6897,7 +6897,7 @@ export const bank: Question[] = [
     id: '17ad19d0a01',
     chapter: '三角比',
     question:
-      '設 $\\theta_1$、$\\theta_2$、$\\theta_3$、$\\theta_4$ 分別為第一、第二、第三、第四象限角，且都介於 $0^\\circ$ 與 $360^\\circ$ 之間。已知 $|\\cos\\theta_1|=|\\cos\\theta_2|=|\\cos\\theta_3|$=|\\cos\\theta_4|=\\frac{1}{3}$，下列哪些選項是正確的？\n(1) $\\theta_1<45^\\circ$ (2) $\\theta_1+\\theta_2=180^\\circ$\n(3) $\\cos\\theta_3=-\\frac{1}{3}$ (4) $\\sin\\theta_4=\\frac{2\\sqrt{2}}{3}$\n(5) $\\theta_4=\\theta_3+90^\\circ$',
+      '設 $\\theta_1$、$\\theta_2$、$\\theta_3$、$\\theta_4$ 分別為第一、第二、第三、第四象限角，且都介於 $0\\degree$ 與 $360\\degree$ 之間。已知 $|\\cos\\theta_1|=|\\cos\\theta_2|=|\\cos\\theta_3|$=|\\cos\\theta_4|=\\frac{1}{3}$，下列哪些選項是正確的？\n(1) $\\theta_1<45\\degree$ (2) $\\theta_1+\\theta_2=180\\degree$\n(3) $\\cos\\theta_3=-\\frac{1}{3}$ (4) $\\sin\\theta_4=\\frac{2\\sqrt{2}}{3}$\n(5) $\\theta_4=\\theta_3+90\\degree$',
     answer: '(2)(3)',
     hasImage: false,
   },
@@ -6905,7 +6905,7 @@ export const bank: Question[] = [
     id: '17ad19fe25d',
     chapter: '三角比',
     question:
-      '如圖，$\\angle BAC=\\theta$，$\\angle ABD=\\angle ACD=90^\\circ$，$\\overline{AB}=a$，$\\overline{BD}=b$，下列選項何者可以表示 $\\overline{CD}$？\n(1) $a\\sin\\theta+b\\cos\\theta$ (2) $a\\sin\\theta-b\\cos\\theta$\n(3) $a\\cos\\theta-b\\sin\\theta$ (4) $a\\cos\\theta+b\\sin\\theta$\n(5) $a\\sin\\theta+b\\tan\\theta$',
+      '如圖，$\\angle BAC=\\theta$，$\\angle ABD=\\angle ACD=90\\degree$，$\\overline{AB}=a$，$\\overline{BD}=b$，下列選項何者可以表示 $\\overline{CD}$？\n(1) $a\\sin\\theta+b\\cos\\theta$ (2) $a\\sin\\theta-b\\cos\\theta$\n(3) $a\\cos\\theta-b\\sin\\theta$ (4) $a\\cos\\theta+b\\sin\\theta$\n(5) $a\\sin\\theta+b\\tan\\theta$',
     answer: '(2)',
     hasImage: true,
   },
@@ -6913,7 +6913,7 @@ export const bank: Question[] = [
     id: '17ad1a1d228',
     chapter: '三角比',
     question:
-      '如圖，正三角形 $ABC$ 的邊長為 $1$，並且 $\\angle1=\\angle2=\\angle3=15^\\circ$。已知 $\\sin15^\\circ=\\frac{\\sqrt{6}-\\sqrt{2}}{4}$，求正三角形 $DEF$ 的邊長。',
+      '如圖，正三角形 $ABC$ 的邊長為 $1$，並且 $\\angle1=\\angle2=\\angle3=15\\degree$。已知 $\\sin15\\degree=\\frac{\\sqrt{6}-\\sqrt{2}}{4}$，求正三角形 $DEF$ 的邊長。',
     answer: '$\\frac{\\sqrt{6}-\\sqrt{2}}{2}$',
     hasImage: true,
   },
@@ -6937,7 +6937,7 @@ export const bank: Question[] = [
     id: '17ad1aa917e',
     chapter: '三角比',
     question:
-      '如圖，在 $\\triangle ABC$ 中，$\\overline{AD}$ 交 $\\overline{BC}$ 於 $D$ 點， $\\overline{BE}$ 交 $\\overline{AD}$ 於 $E$ 點，且 $\\angle ACB=30^\\circ$，$\\angle EDB=60^\\circ$，$\\angle AEB=120^\\circ$。若 $\\overline{CD}=15$，$\\overline{ED}=7$，求 $\\overline{AB}$。',
+      '如圖，在 $\\triangle ABC$ 中，$\\overline{AD}$ 交 $\\overline{BC}$ 於 $D$ 點， $\\overline{BE}$ 交 $\\overline{AD}$ 於 $E$ 點，且 $\\angle ACB=30\\degree$，$\\angle EDB=60\\degree$，$\\angle AEB=120\\degree$。若 $\\overline{CD}=15$，$\\overline{ED}=7$，求 $\\overline{AB}$。',
     answer: '$13$',
     hasImage: true,
   },
@@ -6945,7 +6945,7 @@ export const bank: Question[] = [
     id: '17ad1ac869f',
     chapter: '三角比',
     question:
-      '四邊形 $ABCD$ 中，$\\overline{AB}=1$，$\\overline{BC}=5$，$\\overline{CD}=5$，$\\overline{DA}=7$，且 $\\angle DAB=\\angle BCD=90^\\circ$，求對角線 $\\overline{AC}$。',
+      '四邊形 $ABCD$ 中，$\\overline{AB}=1$，$\\overline{BC}=5$，$\\overline{CD}=5$，$\\overline{DA}=7$，且 $\\angle DAB=\\angle BCD=90\\degree$，求對角線 $\\overline{AC}$。',
     answer: '$4\\sqrt{2}$',
     hasImage: false,
   },
@@ -6969,7 +6969,7 @@ export const bank: Question[] = [
     id: '17ad1b2ca8a',
     chapter: '三角比',
     question:
-      '平面上有一箏形 $ABCD$，其中 $\\overline{AB}=\\overline{BC}=\\sqrt{2}$，$\\overline{AC}=\\overline{CD}=2$，$\\angle BAD=135^\\circ$，求 $\\overline{AC}$。',
+      '平面上有一箏形 $ABCD$，其中 $\\overline{AB}=\\overline{BC}=\\sqrt{2}$，$\\overline{AC}=\\overline{CD}=2$，$\\angle BAD=135\\degree$，求 $\\overline{AC}$。',
     answer: '$\\frac{2\\sqrt{10}}{5}$',
     hasImage: false,
   },
@@ -6977,7 +6977,7 @@ export const bank: Question[] = [
     id: '17ad1b3be5c',
     chapter: '三角比',
     question:
-      '$\\triangle ABC$ 中，$\\angle ABC=60^\\circ$，$\\angle ABC$ 的角平分線交 $\\overline{AC}$ 於 $D$。已知 $\\overline{AB}=6$，$\\overline{BD}=2\\sqrt{3}$，求 $\\overline{AC}$。',
+      '$\\triangle ABC$ 中，$\\angle ABC=60\\degree$，$\\angle ABC$ 的角平分線交 $\\overline{AC}$ 於 $D$。已知 $\\overline{AB}=6$，$\\overline{BD}=2\\sqrt{3}$，求 $\\overline{AC}$。',
     answer: '$\\frac{2\\sqrt{10}}{5}$',
     hasImage: false,
   },
@@ -7000,7 +7000,7 @@ export const bank: Question[] = [
     id: '17ad1c0f6ba',
     chapter: '三角比',
     question:
-      '莎韻觀測遠方等速率垂直上升的熱氣球。在上午 $10:00$ 熱氣球的仰角為 $30^\\circ$，到上午 $10:10$ 仰角變成 $34^\\circ$。請利用下表判斷到上午 $10:30$ 時，熱氣球的仰角的正切值？\n($\\tan30^\\circ\\approx0.577$、$\\tan34^\\circ\\approx0.675$)',
+      '莎韻觀測遠方等速率垂直上升的熱氣球。在上午 $10:00$ 熱氣球的仰角為 $30\\degree$，到上午 $10:10$ 仰角變成 $34\\degree$。請利用下表判斷到上午 $10:30$ 時，熱氣球的仰角的正切值？\n($\\tan30\\degree\\approx0.577$、$\\tan34\\degree\\approx0.675$)',
     answer: '$0.871$',
     hasImage: false,
   },
@@ -7008,7 +7008,7 @@ export const bank: Question[] = [
     id: '17ad1c5ea2f',
     chapter: '三角比',
     question:
-      '自地面一點觀測甲、乙兩棟大樓，甲大樓在西北方向距離 $60$ 公尺處，乙大樓在東北方向距離 $80$ 公尺處，且先測得甲大樓樓頂的仰角為 $45^\\circ$，再登上甲大樓的樓頂並從樓頂測得乙大樓的樓頂仰角為 $60^\\circ$，求乙大樓的高度。($\\sqrt{3}\\approx1.732$，整數以下四捨五入)',
+      '自地面一點觀測甲、乙兩棟大樓，甲大樓在西北方向距離 $60$ 公尺處，乙大樓在東北方向距離 $80$ 公尺處，且先測得甲大樓樓頂的仰角為 $45\\degree$，再登上甲大樓的樓頂並從樓頂測得乙大樓的樓頂仰角為 $60\\degree$，求乙大樓的高度。($\\sqrt{3}\\approx1.732$，整數以下四捨五入)',
     answer: '$233$ 公尺',
     hasImage: false,
   },
@@ -7016,7 +7016,7 @@ export const bank: Question[] = [
     id: '17ad1c89c26',
     chapter: '三角比',
     question:
-      '小明從旗桿底 $O$ 點的正西方 $A$ 點測得桿頂 $T$ 點的仰角為 $30^\\circ$。他向旗桿前進 $30$ 公尺至 $B$ 點，再測得旗桿頂的仰角為 $60^\\circ$，求旗桿高。',
+      '小明從旗桿底 $O$ 點的正西方 $A$ 點測得桿頂 $T$ 點的仰角為 $30\\degree$。他向旗桿前進 $30$ 公尺至 $B$ 點，再測得旗桿頂的仰角為 $60\\degree$，求旗桿高。',
     answer: '$15\\sqrt{3}$ 公尺',
     hasImage: false,
   },
@@ -7870,7 +7870,7 @@ export const bank: Question[] = [
     id: '17b738a20a1',
     chapter: '三角函數A',
     question:
-      '若 $\\sin\\theta=\\frac{3}{5}$，$90^\\circ<\\theta<180^\\circ$，求 $\\sin2\\theta$、$\\cos2\\theta$、$\\tan2\\theta$。',
+      '若 $\\sin\\theta=\\frac{3}{5}$，$90\\degree<\\theta<180\\degree$，求 $\\sin2\\theta$、$\\cos2\\theta$、$\\tan2\\theta$。',
     answer: '$-\\frac{24}{25}$；$\\frac{7}{25}$；$-\\frac{24}{7}$',
     hasImage: false,
   },
@@ -7884,14 +7884,14 @@ export const bank: Question[] = [
   {
     id: '17b7392533f',
     chapter: '三角函數A',
-    question: '求 $\\sin22.5^\\circ$、$\\cos22.5^\\circ$。',
+    question: '求 $\\sin22.5\\degree$、$\\cos22.5\\degree$。',
     answer: '$\\frac{\\sqrt{2-\\sqrt{2}}}{2}$；$\\frac{\\sqrt{2+\\sqrt{2}}}{2}$',
     hasImage: false,
   },
   {
     id: '17b73936315',
     chapter: '三角函數A',
-    question: '求 $\\tan15^\\circ$。',
+    question: '求 $\\tan15\\degree$。',
     answer: '$2-\\sqrt{3}$',
     hasImage: false,
   },
@@ -7906,7 +7906,7 @@ export const bank: Question[] = [
     id: '17b7396db1b',
     chapter: '三角函數A',
     question:
-      '化簡 $\\frac{\\sin51^\\circ}{\\sin17^\\circ}-\\frac{\\cos51^\\circ}{\\cos17^\\circ}$。',
+      '化簡 $\\frac{\\sin51\\degree}{\\sin17\\degree}-\\frac{\\cos51\\degree}{\\cos17\\degree}$。',
     answer: '$2$',
     hasImage: false,
   },
@@ -7963,7 +7963,7 @@ export const bank: Question[] = [
     id: '17b742d3338',
     chapter: '三角函數A',
     question:
-      '有一扇形，其半徑為 $5$ 公分，中心角為 $\\theta$，經過計算，發現該扇形的周長為 $k$ 公分，面積為 $k$ 平方公分，兩者的數字大小恰好相等，則 $\\theta$ 應介於下列哪一個範圍之內？\n(1) $75^\\circ<\\theta<76^\\circ$ (2) $76^\\circ<\\theta<77^\\circ$\n(3) $77^\\circ<\\theta<78^\\circ$ (4) $78^\\circ<\\theta<79^\\circ$\n(5) $79^\\circ<\\theta<80^\\circ$',
+      '有一扇形，其半徑為 $5$ 公分，中心角為 $\\theta$，經過計算，發現該扇形的周長為 $k$ 公分，面積為 $k$ 平方公分，兩者的數字大小恰好相等，則 $\\theta$ 應介於下列哪一個範圍之內？\n(1) $75\\degree<\\theta<76\\degree$ (2) $76\\degree<\\theta<77\\degree$\n(3) $77\\degree<\\theta<78\\degree$ (4) $78\\degree<\\theta<79\\degree$\n(5) $79\\degree<\\theta<80\\degree$',
     answer: '(2)',
     hasImage: false,
   },
@@ -7996,7 +7996,7 @@ export const bank: Question[] = [
     chapter: '三角函數A',
     question:
       '在 $\\triangle ABC$ 中，已知 $2\\sin A+3\\cos B=\\sqrt{5}$ 且 $3\\sin B+2\\cos A=2\\sqrt{5}$，求 $\\angle C$。',
-    answer: '$90^\\circ$',
+    answer: '$90\\degree$',
     hasImage: false,
   },
   {
@@ -8011,7 +8011,7 @@ export const bank: Question[] = [
     id: '17b7e2314d6',
     chapter: '三角函數A',
     question:
-      '在 $\\triangle ABC$ 中，$D$ 為 $\\overline{BC}$ 邊上一點且 $\\overline{AD}$ 平分 $\\angle BAC$。已知 $\\overline{BD}=5$，$\\overline{DC}=7$，且 $\\angle ABC=60^\\circ$，求：\n(1) $\\sin\\angle ACB$ (2) $\\sin\\angle BAC$ (3) $\\overline{AB}$',
+      '在 $\\triangle ABC$ 中，$D$ 為 $\\overline{BC}$ 邊上一點且 $\\overline{AD}$ 平分 $\\angle BAC$。已知 $\\overline{BD}=5$，$\\overline{DC}=7$，且 $\\angle ABC=60\\degree$，求：\n(1) $\\sin\\angle ACB$ (2) $\\sin\\angle BAC$ (3) $\\overline{AB}$',
     answer: '(1) $\\frac{5\\sqrt{3}}{14}$ (2) $\\frac{4\\sqrt{3}}{7}$ (3) $\\frac{15}{2}$',
     hasImage: false,
   },
@@ -8043,7 +8043,7 @@ export const bank: Question[] = [
     id: '17b7e33f865',
     chapter: '三角函數A',
     question:
-      '設 $\\triangle ABC$ 為一等腰直角三角形，$\\angle BAC=90^\\circ$，若 $P$、$Q$ 為斜邊 $\\overline{BC}$ 的三等分點，求 $\\tan\\angle PAQ$。',
+      '設 $\\triangle ABC$ 為一等腰直角三角形，$\\angle BAC=90\\degree$，若 $P$、$Q$ 為斜邊 $\\overline{BC}$ 的三等分點，求 $\\tan\\angle PAQ$。',
     answer: '$\\frac{3}{4}$',
     hasImage: false,
   },
@@ -8267,25 +8267,25 @@ export const bank: Question[] = [
     id: '17ba25059e3',
     chapter: '三角函數A',
     question:
-      "將角度換成弧度：(1) $150^\\circ$ (2) $18^\\circ24'$\n將弧度換成角度：(3) $\\frac{7\\pi}{6}$ 弳 (4) $3$ 弳",
+      "將角度換成弧度：(1) $150\\degree$ (2) $18\\degree24'$\n將弧度換成角度：(3) $\\frac{7\\pi}{6}$ 弳 (4) $3$ 弳",
     answer:
-      '(1) $\\frac{5\\pi}{6}$ (2) $\\frac{23\\pi}{225}$ (3) $210^\\circ$ (4) $\\left(\\frac{540}{\\pi}\\right)^\\circ$',
+      '(1) $\\frac{5\\pi}{6}$ (2) $\\frac{23\\pi}{225}$ (3) $210\\degree$ (4) $\\left(\\frac{540}{\\pi}\\right)\\degree$',
     hasImage: false,
   },
   {
     id: '17ba253c681',
     chapter: '三角函數A',
     question:
-      '將角度換成弧度：(1) $24^\\circ$ (2) $160^\\circ$\n將弧度換成角度：(3) $\\frac{7\\pi}{5}$ 弳 (4) $10$ 弳',
+      '將角度換成弧度：(1) $24\\degree$ (2) $160\\degree$\n將弧度換成角度：(3) $\\frac{7\\pi}{5}$ 弳 (4) $10$ 弳',
     answer:
-      '(1) $\\frac{2\\pi}{15}$ (2) $\\frac{8\\pi}{9}$ (3) $252^\\circ$ (4) $\\left(\\frac{1800}{\\pi}\\right)^\\circ$',
+      '(1) $\\frac{2\\pi}{15}$ (2) $\\frac{8\\pi}{9}$ (3) $252\\degree$ (4) $\\left(\\frac{1800}{\\pi}\\right)\\degree$',
     hasImage: false,
   },
   {
     id: '17ba2551cf6',
     chapter: '三角函數A',
     question:
-      '半徑 $5$ 公尺的輪子在地面上滾動了 $30$ 公尺，則這個輪子共繞軸轉動了多少弧度？換算成角度約為 $m^\\circ$，求 $m$。',
+      '半徑 $5$ 公尺的輪子在地面上滾動了 $30$ 公尺，則這個輪子共繞軸轉動了多少弧度？換算成角度約為 $m\\degree$，求 $m$。',
     answer: '$6$；$344$',
     hasImage: false,
   },
@@ -8309,7 +8309,7 @@ export const bank: Question[] = [
     id: '17ba25c5bbe',
     chapter: '三角函數A',
     question:
-      '如圖，扇形 $ABC$ 的中心角為 $45^\\circ$，半徑為 $10$，內接一個正方形 $PQRS$，求邊長 $\\overline{PQ}$ 及陰影面積。',
+      '如圖，扇形 $ABC$ 的中心角為 $45\\degree$，半徑為 $10$，內接一個正方形 $PQRS$，求邊長 $\\overline{PQ}$ 及陰影面積。',
     answer: '$2\\sqrt{5}$；$\\frac{25\\pi}{2}-20$',
     hasImage: true,
   },
@@ -8355,7 +8355,7 @@ export const bank: Question[] = [
     id: '17ba266c61e',
     chapter: '三角函數A',
     question:
-      '$\\triangle ABC$ 中，$\\overline{AB}=5$，$\\overline{AC}=2$，$\\angle C=90^\\circ$，求 $\\cot A$、$\\sec A$、$\\csc A$、$\\cot B$、$\\sec B$、$\\csc B$。',
+      '$\\triangle ABC$ 中，$\\overline{AB}=5$，$\\overline{AC}=2$，$\\angle C=90\\degree$，求 $\\cot A$、$\\sec A$、$\\csc A$、$\\cot B$、$\\sec B$、$\\csc B$。',
     answer:
       '$\\frac{2}{\\sqrt{21}}$；$\\frac{5}{2}$；$\\frac{5}{\\sqrt{21}}$；$\\frac{\\sqrt{21}}{2}$；$\\frac{5}{\\sqrt{21}}$；$\\frac{5}{2}$',
     hasImage: false,
@@ -8379,14 +8379,14 @@ export const bank: Question[] = [
   {
     id: '17ba297a6a2',
     chapter: '三角函數A',
-    question: '求 $\\sin15^\\circ$。',
+    question: '求 $\\sin15\\degree$。',
     answer: '$\\frac{\\sqrt{6}-\\sqrt{2}}{4}$',
     hasImage: false,
   },
   {
     id: '17ba29a6829',
     chapter: '三角函數A',
-    question: '求 $\\cos105^\\circ$、$\\sin255^\\circ。',
+    question: '求 $\\cos105\\degree$、$\\sin255\\degree。',
     answer: '$\\frac{\\sqrt{6}-\\sqrt{2}}{-4}$；$\\frac{\\sqrt{6}+\\sqrt{2}}{-4}$',
     hasImage: false,
   },
@@ -8409,14 +8409,14 @@ export const bank: Question[] = [
   {
     id: '17ba29f4deb',
     chapter: '三角函數A',
-    question: '求 $\\tan105^\\circ$。',
+    question: '求 $\\tan105\\degree$。',
     answer: '$-2-\\sqrt{3}$',
     hasImage: false,
   },
   {
     id: '17ba29fd591',
     chapter: '三角函數A',
-    question: '求 $\\tan345^\\circ$。',
+    question: '求 $\\tan345\\degree$。',
     answer: '$-2+\\sqrt{3}$',
     hasImage: false,
   },
@@ -8454,7 +8454,7 @@ export const bank: Question[] = [
     id: '17ba2a8ddea',
     chapter: '三角函數A',
     question:
-      '平面上兩直線 $L_1:3x-2y=1$ 與 $L_2:x+4y=5$，請問：\n(1) $L_1$ 與 $L_2$ 的銳夾角正切值為？\n(2) 過點 $P(1,6)$ 且與 $L_1$ 的夾角為 $45^\\circ$ 的直線 $L$ 共有兩條，求其方程式。',
+      '平面上兩直線 $L_1:3x-2y=1$ 與 $L_2:x+4y=5$，請問：\n(1) $L_1$ 與 $L_2$ 的銳夾角正切值為？\n(2) 過點 $P(1,6)$ 且與 $L_1$ 的夾角為 $45\\degree$ 的直線 $L$ 共有兩條，求其方程式。',
     answer: '$\\frac{14}{5}$；$5x+y=11$ 或 $x-5y=-29$',
     hasImage: false,
   },
@@ -8462,7 +8462,7 @@ export const bank: Question[] = [
     id: '17ba2aba994',
     chapter: '三角函數A',
     question:
-      '平面上兩直線 $L_1:2x+5y=3$ 與 $L_2:4x+3y=7$ 的夾角為 $\\theta$，求 $\\tan\\theta$ 及與 $L_1$ 夾 $45^\\circ$ 且通過點 $(1,2)$ 的直線 $L$ 方程式。',
+      '平面上兩直線 $L_1:2x+5y=3$ 與 $L_2:4x+3y=7$ 的夾角為 $\\theta$，求 $\\tan\\theta$ 及與 $L_1$ 夾 $45\\degree$ 且通過點 $(1,2)$ 的直線 $L$ 方程式。',
     answer: '$\\pm\\frac{14}{23}$；$3x-7y=-11$ 或 $7x+3y=13$',
     hasImage: false,
   },
@@ -8512,7 +8512,7 @@ export const bank: Question[] = [
     id: '17ba2bcfe38',
     chapter: '三角函數A',
     question:
-      '若 $\\sin\\theta+\\cos\\theta=\\frac{1}{5}$，$90^\\circ<\\theta<180^\\circ$，求：(1) $\\sin2\\theta$ (2) $\\sin\\theta$ (3) $\\sin\\frac{\\theta}{2}$',
+      '若 $\\sin\\theta+\\cos\\theta=\\frac{1}{5}$，$90\\degree<\\theta<180\\degree$，求：(1) $\\sin2\\theta$ (2) $\\sin\\theta$ (3) $\\sin\\frac{\\theta}{2}$',
     answer: '(1) $-\\frac{24}{25}$ (2) $\\frac{4}{5}$ (3) $\\frac{2\\sqrt{5}}{5}$',
     hasImage: false,
   },
@@ -8552,7 +8552,7 @@ export const bank: Question[] = [
     id: '17ba2c90c78',
     chapter: '三角函數A',
     question:
-      '若 $\\cos\\theta=\\frac{4}{5}$，$270^\\circ<\\theta<360^\\circ$，求：\n(1) $\\sin3\\theta$ (2) $\\cos3\\theta$',
+      '若 $\\cos\\theta=\\frac{4}{5}$，$270\\degree<\\theta<360\\degree$，求：\n(1) $\\sin3\\theta$ (2) $\\cos3\\theta$',
     answer: '(1) $-\\frac{117}{125}$ (2) $-\\frac{44}{125}$',
     hasImage: false,
   },
@@ -8560,7 +8560,7 @@ export const bank: Question[] = [
     id: '17ba2ca2142',
     chapter: '三角函數A',
     question:
-      '若 $\\sin\\theta=\\frac{3}{5}$，$90^\\circ<\\theta<180^\\circ$，求：\n(1) $\\sin3\\theta$ (2) $\\cos3\\theta$',
+      '若 $\\sin\\theta=\\frac{3}{5}$，$90\\degree<\\theta<180\\degree$，求：\n(1) $\\sin3\\theta$ (2) $\\cos3\\theta$',
     answer: '(1) $\\frac{117}{125}$ (2) $\\frac{44}{125}$',
     hasImage: false,
   },
@@ -8575,7 +8575,7 @@ export const bank: Question[] = [
     id: '17ba2ccc9d6',
     chapter: '三角函數A',
     question:
-      '下列各選項，哪些為方程式 $8x^3-6x+1=0$ 的根？\n(1) $\\cos20^\\circ$ (2) $\\cos40^\\circ$ (3) $\\cos80^\\circ$\n(4) $\\cos140^\\circ$ (5) $\\cos160^\\circ$',
+      '下列各選項，哪些為方程式 $8x^3-6x+1=0$ 的根？\n(1) $\\cos20\\degree$ (2) $\\cos40\\degree$ (3) $\\cos80\\degree$\n(4) $\\cos140\\degree$ (5) $\\cos160\\degree$',
     answer: '(2)(3)(5)',
     hasImage: false,
   },
@@ -9257,7 +9257,7 @@ export const bank: Question[] = [
   {
     id: '17bb6983b8a',
     chapter: '三角函數A',
-    question: '試將角度換成弧度 (1) $22.5^\\circ$ (2) $-105^\\circ$',
+    question: '試將角度換成弧度 (1) $22.5\\degree$ (2) $-105\\degree$',
     answer: '(1) $\\frac{\\pi}{8}$ (2) $-\\frac{7\\pi}{12}$',
     hasImage: false,
   },
@@ -9316,7 +9316,7 @@ export const bank: Question[] = [
     id: '17bb6b95c94',
     chapter: '三角函數A',
     question:
-      '如圖，點 $A$ 與點 $B$ 為兩圓之圓心，若圓 $A$ 之半徑為 $1$ 公分，$\\angle CAD=120^\\circ$，$\\angle CBD=60^\\circ$，求鋪色區域之面積。',
+      '如圖，點 $A$ 與點 $B$ 為兩圓之圓心，若圓 $A$ 之半徑為 $1$ 公分，$\\angle CAD=120\\degree$，$\\angle CBD=60\\degree$，求鋪色區域之面積。',
     answer: '$\\frac{5\\pi}{6}-\\sqrt{3}$',
     hasImage: true,
   },
@@ -9324,7 +9324,7 @@ export const bank: Question[] = [
     id: '17bb6bf8add',
     chapter: '三角函數A',
     question:
-      '如圖，圓之半徑為 $8$ 公分，弦 $AB$ 之圓心角為 $70.5^\\circ$，試求此弦所對應的弓形（鋪色區）的面積。(四捨五入取到小數點第一位，可按計算機)\n',
+      '如圖，圓之半徑為 $8$ 公分，弦 $AB$ 之圓心角為 $70.5\\degree$，試求此弦所對應的弓形（鋪色區）的面積。(四捨五入取到小數點第一位，可按計算機)\n',
     answer: '$9.2$',
     hasImage: true,
   },
@@ -9339,7 +9339,7 @@ export const bank: Question[] = [
     id: '17bb6c23940',
     chapter: '三角函數A',
     question:
-      "設地球是一個半徑 $6400$ 公里的球體，在地球赤道的大圓上規定圓心角為 $1'$ ($1^\\circ=60'$) 時所對的赤道弧長為 $1$ 浬，則 $1$ 浬約為多少公里？(取至小數以下第三位，可按計算機)",
+      "設地球是一個半徑 $6400$ 公里的球體，在地球赤道的大圓上規定圓心角為 $1'$ ($1\\degree=60'$) 時所對的赤道弧長為 $1$ 浬，則 $1$ 浬約為多少公里？(取至小數以下第三位，可按計算機)",
     answer: '$1.862$',
     hasImage: false,
   },
@@ -9495,14 +9495,14 @@ export const bank: Question[] = [
     id: '17be1e6cd7e',
     chapter: '三角函數A',
     question:
-      '試求下列各值：\n(1) $\\cos29^\\circ\\cos31^\\circ-\\sin29^\\circ\\sin31^\\circ$\n(2) $\\sin72^\\circ\\cos42^\\circ-\\cos72^\\circ\\sin42^\\circ$',
+      '試求下列各值：\n(1) $\\cos29\\degree\\cos31\\degree-\\sin29\\degree\\sin31\\degree$\n(2) $\\sin72\\degree\\cos42\\degree-\\cos72\\degree\\sin42\\degree$',
     answer: '(1) $\\frac{1}{2}$ (2) $\\frac{1}{2}$',
     hasImage: false,
   },
   {
     id: '17be1e830c3',
     chapter: '三角函數A',
-    question: '利用合角公式求 (1) $\\sin105^\\circ$ (2) $\\tan105^\\circ$',
+    question: '利用合角公式求 (1) $\\sin105\\degree$ (2) $\\tan105\\degree$',
     answer: '(1) $\\frac{\\sqrt{6}+\\sqrt{2}}{4}$ (2) $2+\\sqrt{3}$',
     hasImage: false,
   },
@@ -9510,7 +9510,7 @@ export const bank: Question[] = [
     id: '17be1e96972',
     chapter: '三角函數A',
     question:
-      '如圖，$\\angle ABC=90^\\circ$，$\\overline{AB}=\\overline{BC}=3$，$\\overline{CD}=1$，試求 $\\sin\\angle CAD$。',
+      '如圖，$\\angle ABC=90\\degree$，$\\overline{AB}=\\overline{BC}=3$，$\\overline{CD}=1$，試求 $\\sin\\angle CAD$。',
     answer: '$\\frac{\\sqrt{10}}{2}$',
     hasImage: true,
   },
@@ -9525,7 +9525,7 @@ export const bank: Question[] = [
     id: '17be1f27991',
     chapter: '三角函數A',
     question:
-      '設 $180^\\circ<\\theta<270^\\circ$，且 $\\sin\\theta=-\\frac{3}{5}$，試求： (1) $\\cos2\\theta$ (2) $\\cos\\frac{\\theta}{2}$',
+      '設 $180\\degree<\\theta<270\\degree$，且 $\\sin\\theta=-\\frac{3}{5}$，試求： (1) $\\cos2\\theta$ (2) $\\cos\\frac{\\theta}{2}$',
     answer: '(1) $\\frac{7}{25}$ (2) $-\\frac{\\sqrt{10}}{10}$',
     hasImage: false,
   },
@@ -9555,7 +9555,7 @@ export const bank: Question[] = [
     id: '17be1fbe538',
     chapter: '三角函數A',
     question:
-      '求過點 $(\\sqrt{3},2)$ 與直線 $x-\\sqrt{3}y+1=0$ 之夾角為 $30^\\circ$ 的直線方程式。',
+      '求過點 $(\\sqrt{3},2)$ 與直線 $x-\\sqrt{3}y+1=0$ 之夾角為 $30\\degree$ 的直線方程式。',
     answer: '$y=2$ 或 $\\sqrt{3}x-y=1$',
     hasImage: false,
   },
@@ -9884,7 +9884,7 @@ export const bank: Question[] = [
     id: '17c159ef417',
     chapter: '平面向量',
     question: '求兩直線 $y=3x+1$ 與 $y=-2x$ 的夾角。',
-    answer: '$45^\\circ$ 或 $135^\\circ$',
+    answer: '$45\\degree$ 或 $135\\degree$',
     hasImage: false,
   },
   {
@@ -9906,7 +9906,7 @@ export const bank: Question[] = [
     id: '17c15baf95a',
     chapter: '平面向量',
     question:
-      '$\\overline{AB}=6$，$\\angle C=120^\\circ$，$O$ 為 $\\triangle ABC$ 外心，求 $\\overrightarrow{AO}\\cdot\\overrightarrow{AB}$ 及外接圓半徑。',
+      '$\\overline{AB}=6$，$\\angle C=120\\degree$，$O$ 為 $\\triangle ABC$ 外心，求 $\\overrightarrow{AO}\\cdot\\overrightarrow{AB}$ 及外接圓半徑。',
     answer: '$18$；$2\\sqrt{3}$',
     hasImage: false,
   },
@@ -10040,7 +10040,7 @@ export const bank: Question[] = [
     id: '17c16598874',
     chapter: '平面向量',
     question:
-      '在坐標平面上，有一通過原點 $O$ 的直線 $L$，以及一半徑為 $2$、圓心為原點 $O$ 的圓 $C$。$P$、$Q$ 為 $C$ 上相異 $2$ 點，且 $\\overline{OP}$、$\\overline{OQ}$ 分別為 $L$ 所夾的銳角皆為 $30^\\circ$，試選出內積 $\\overrightarrow{OP}\\cdot\\overrightarrow{OQ}$ 之值可能發生的選項。\n(1) $2\\sqrt{3}$ (2) $-2\\sqrt{3}$ (3) $0$ (4) $-2$ (5) $-4$',
+      '在坐標平面上，有一通過原點 $O$ 的直線 $L$，以及一半徑為 $2$、圓心為原點 $O$ 的圓 $C$。$P$、$Q$ 為 $C$ 上相異 $2$ 點，且 $\\overline{OP}$、$\\overline{OQ}$ 分別為 $L$ 所夾的銳角皆為 $30\\degree$，試選出內積 $\\overrightarrow{OP}\\cdot\\overrightarrow{OQ}$ 之值可能發生的選項。\n(1) $2\\sqrt{3}$ (2) $-2\\sqrt{3}$ (3) $0$ (4) $-2$ (5) $-4$',
     answer: '(4)(5)',
     hasImage: false,
   },
@@ -10057,7 +10057,7 @@ export const bank: Question[] = [
     chapter: '平面向量',
     question:
       '$\\triangle ABC$ 內接於圓心為 $O$ 之單位圓。若 $\\overrightarrow{OA}+\\overrightarrow{OB}+\\sqrt{3}\\overrightarrow{OC}=\\vec{0}$，求 $\\angle BAC$。',
-    answer: '$75^\\circ$',
+    answer: '$75\\degree$',
     hasImage: false,
   },
   {
@@ -10081,7 +10081,7 @@ export const bank: Question[] = [
     chapter: '平面向量',
     question:
       '平面向量 $\\vec{a}$ 與 $\\vec{b}$，已知 $\\vec{a}$ 在 $\\vec{b}$ 上的正射影為 $-\\frac{1}{4}\\vec{b}$，且 $\\vec{b}$ 在 $\\vec{a}$ 上的正射影為 $-3\\vec{a}$，求 $\\vec{a}$ 與 $\\vec{b}$ 的夾角及 $|\\vec{a}|:|\\vec{b}|$。',
-    answer: '$150^\\circ$；$1:2\\sqrt{3}$',
+    answer: '$150\\degree$；$1:2\\sqrt{3}$',
     hasImage: false,
   },
   {
@@ -10168,7 +10168,7 @@ export const bank: Question[] = [
     id: '17c18c4acc9',
     chapter: '三角函數A',
     question:
-      '已知 $90^\\circ<\\theta<180^\\circ$，且 $\\cos\\theta=-\\frac{1}{3}$，求 $\\sin2\\theta$ 及 $\\sin\\frac{\\theta}{2}$。',
+      '已知 $90\\degree<\\theta<180\\degree$，且 $\\cos\\theta=-\\frac{1}{3}$，求 $\\sin2\\theta$ 及 $\\sin\\frac{\\theta}{2}$。',
     answer: '$-\\frac{4\\sqrt{2}}{9}$；$\\frac{\\sqrt{6}}{3}$',
     hasImage: false,
   },
@@ -10259,7 +10259,7 @@ export const bank: Question[] = [
     chapter: '三角函數B',
     question:
       '設扇形的半徑為 $3$，中心角所對弧長為 $\\pi$，求中心角的大小為多少弳？換算成傳統角為？',
-    answer: '$\\frac{\\pi}{3}$；$60^\\circ$',
+    answer: '$\\frac{\\pi}{3}$；$60\\degree$',
     hasImage: false,
   },
   {
@@ -10304,7 +10304,7 @@ export const bank: Question[] = [
     id: '17c214abbc5',
     chapter: '三角函數B',
     question:
-      '下列大小比較，哪些正確？\n(1) $\\sin\\pi^\\circ>\\sin\\pi$ (2) $\\sin5>\\sin2$\n(3) $\\sin\\frac{\\pi}{5}>\\sin\\frac{\\pi}{6}$ (4) $\\sin\\frac{10\\pi}{17}>\\sin\\frac{11\\pi}{17}$\n(5) $\\sin\\frac{5\\pi}{3}>\\sin\\frac{14\\pi}{9}$',
+      '下列大小比較，哪些正確？\n(1) $\\sin\\pi\\degree>\\sin\\pi$ (2) $\\sin5>\\sin2$\n(3) $\\sin\\frac{\\pi}{5}>\\sin\\frac{\\pi}{6}$ (4) $\\sin\\frac{10\\pi}{17}>\\sin\\frac{11\\pi}{17}$\n(5) $\\sin\\frac{5\\pi}{3}>\\sin\\frac{14\\pi}{9}$',
     answer: '(1)(3)(4)(5)',
     hasImage: false,
   },
@@ -10312,7 +10312,7 @@ export const bank: Question[] = [
     id: '17c214bdc09',
     chapter: '三角函數B',
     question:
-      '已知直徑為 $20$ 公分的滑輪，每秒旋轉 $45^\\circ$，則滑輪上一點經過 $5$ 秒轉過的弧長為 $k\\pi$ 公分，求 $k$。',
+      '已知直徑為 $20$ 公分的滑輪，每秒旋轉 $45\\degree$，則滑輪上一點經過 $5$ 秒轉過的弧長為 $k\\pi$ 公分，求 $k$。',
     answer: '$\\frac{25}{2}$',
     hasImage: false,
   },
@@ -10453,7 +10453,7 @@ export const bank: Question[] = [
     id: '17c271ceb25',
     chapter: '三角函數A',
     question:
-      '若 $\\sqrt{3}\\sin888^\\circ-\\cos888^\\circ=2\\cos x^\\circ$ 且 $540^\\circ<x^\\circ<720^\\circ$，求 $x$。',
+      '若 $\\sqrt{3}\\sin888\\degree-\\cos888\\degree=2\\cos x\\degree$ 且 $540\\degree<x\\degree<720\\degree$，求 $x$。',
     answer: '$672$',
     hasImage: false,
   },
@@ -10485,7 +10485,7 @@ export const bank: Question[] = [
     id: '17c273bd7e0',
     chapter: '三角函數A',
     question:
-      '下列哪一個數值最接近 $\\sqrt{2}$？\n(1) $\\sqrt{3}\\cos44^\\circ+\\sin44^\\circ$\n(2) $\\sqrt{3}\\cos54^\\circ+\\sin54^\\circ$\n(3) $\\sqrt{3}\\cos64^\\circ+\\sin64^\\circ$\n(4) $\\sqrt{3}\\cos74^\\circ+\\sin74^\\circ$\n(5) $\\sqrt{3}\\cos84^\\circ+\\sin84^\\circ$',
+      '下列哪一個數值最接近 $\\sqrt{2}$？\n(1) $\\sqrt{3}\\cos44\\degree+\\sin44\\degree$\n(2) $\\sqrt{3}\\cos54\\degree+\\sin54\\degree$\n(3) $\\sqrt{3}\\cos64\\degree+\\sin64\\degree$\n(4) $\\sqrt{3}\\cos74\\degree+\\sin74\\degree$\n(5) $\\sqrt{3}\\cos84\\degree+\\sin84\\degree$',
     answer: '(4)',
     hasImage: false,
   },
@@ -10493,7 +10493,7 @@ export const bank: Question[] = [
     id: '17c2bc1c775',
     chapter: '三角函數A',
     question:
-      '扇形 $OAB$ 的半徑為 $1$，中心角為 $60^\\circ$，$P$ 點在弧 $\\arc{AB}$ 上，投影到 $\\overline{OA}$、$\\overline{OB}$ 依序為 $H$、$K$，如圖所示。試求 $3\\overline{PH}+2\\overline{PK}$ 的最大值。',
+      '扇形 $OAB$ 的半徑為 $1$，中心角為 $60\\degree$，$P$ 點在弧 $\\arc{AB}$ 上，投影到 $\\overline{OA}$、$\\overline{OB}$ 依序為 $H$、$K$，如圖所示。試求 $3\\overline{PH}+2\\overline{PK}$ 的最大值。',
     answer: '$\\sqrt{7}$',
     hasImage: true,
   },
@@ -10724,7 +10724,7 @@ export const bank: Question[] = [
     id: '17c58a894bd',
     chapter: '三角函數A',
     question:
-      '下列哪些角為第二象限角？(1) $165^\\circ$ (2) $1529^\\circ$ (3) $120$ (4) $-512^\\circ$ (5) $-\\frac{7}{5}\\pi$',
+      '下列哪些角為第二象限角？(1) $165\\degree$ (2) $1529\\degree$ (3) $120$ (4) $-512\\degree$ (5) $-\\frac{7}{5}\\pi$',
     answer: '(1)(5)',
     hasImage: false,
   },
@@ -10732,7 +10732,7 @@ export const bank: Question[] = [
     id: '17c58ac8113',
     chapter: '三角函數A',
     question:
-      '標準位置角 $\\theta$ 在終邊上有一點 $P(-3,6\\sqrt{2})$，則下列選項哪些正確？\n(1) $\\sin\\theta=\\frac{-1}{3}$ (2) $\\cos(90^\\circ-\\theta)=\\frac{2\\sqrt{2}}{3}$ (3) $\\cos2\\theta=-\\frac{8}{9}$ (4) $\\sin2\\theta=-\\frac{4\\sqrt{2}}{9}$ (5) $\\sin\\frac{\\theta}{2}=\\sqrt{\\frac{2}{3}}$',
+      '標準位置角 $\\theta$ 在終邊上有一點 $P(-3,6\\sqrt{2})$，則下列選項哪些正確？\n(1) $\\sin\\theta=\\frac{-1}{3}$ (2) $\\cos(90\\degree-\\theta)=\\frac{2\\sqrt{2}}{3}$ (3) $\\cos2\\theta=-\\frac{8}{9}$ (4) $\\sin2\\theta=-\\frac{4\\sqrt{2}}{9}$ (5) $\\sin\\frac{\\theta}{2}=\\sqrt{\\frac{2}{3}}$',
     answer: '(2)(4)(5)',
     hasImage: false,
   },
@@ -10806,7 +10806,7 @@ export const bank: Question[] = [
   {
     id: '17c58c28118',
     chapter: '三角函數A',
-    question: '如圖，圓心角為 $60^\\circ$、半徑為 $6$ 的扇形，求其內切圓的面積。',
+    question: '如圖，圓心角為 $60\\degree$、半徑為 $6$ 的扇形，求其內切圓的面積。',
     answer: '$4\\pi$',
     hasImage: true,
   },
@@ -10830,7 +10830,7 @@ export const bank: Question[] = [
     id: '17c58c56725',
     chapter: '三角函數A',
     question:
-      '求 $\\sin(26^\\circ-\\theta)\\cos(34^\\circ+\\theta)+\\cos(26^\\circ-\\theta)\\sin(34^\\circ+\\theta)$。',
+      '求 $\\sin(26\\degree-\\theta)\\cos(34\\degree+\\theta)+\\cos(26\\degree-\\theta)\\sin(34\\degree+\\theta)$。',
     answer: '$\\frac{\\sqrt{3}}{2}$',
     hasImage: false,
   },
@@ -10860,7 +10860,7 @@ export const bank: Question[] = [
     id: '17c58ebfd06',
     chapter: '三角函數B',
     question:
-      '下列各選項何者正確？\n(1) $\\sin2<0$ (2) $\\sin\\frac{3\\pi}{4}>0$ (3) $\\tan210^\\circ>0$ (4) $\\cos685^\\circ>0$ (5) $\\cos(-\\pi)<0$',
+      '下列各選項何者正確？\n(1) $\\sin2<0$ (2) $\\sin\\frac{3\\pi}{4}>0$ (3) $\\tan210\\degree>0$ (4) $\\cos685\\degree>0$ (5) $\\cos(-\\pi)<0$',
     answer: '(2)(3)(5)',
     hasImage: false,
   },
@@ -10868,7 +10868,7 @@ export const bank: Question[] = [
     id: '17c58ede958',
     chapter: '三角函數B',
     question:
-      '下列關於度與弳的互換，請選出正確的選項。\n(1) $\\frac{5\\pi}{6}=150^\\circ$ (2) $\\frac{3\\pi}{4}=270^\\circ$ (3) $\\pi=360^\\circ$ (4) $\\pi=180^\\circ$ (5) $\\frac{1}{3}=\\frac{60^\\circ}{\\pi}$',
+      '下列關於度與弳的互換，請選出正確的選項。\n(1) $\\frac{5\\pi}{6}=150\\degree$ (2) $\\frac{3\\pi}{4}=270\\degree$ (3) $\\pi=360\\degree$ (4) $\\pi=180\\degree$ (5) $\\frac{1}{3}=\\frac{60\\degree}{\\pi}$',
     answer: '(1)(4)(5)',
     hasImage: false,
   },
@@ -10921,7 +10921,7 @@ export const bank: Question[] = [
     id: '17c58f86821',
     chapter: '三角函數B',
     question:
-      '如圖，$O$ 為圓心，以 $\\overline{AB}$ 為直徑的半圓，且此圓的半徑為 $8$。若 $\\angle BOC=90^\\circ$，以 $B$ 為圓心，$\\overline{BC}$ 為半徑畫弧，交 $\\overline{AB}$ 於 $D$，求陰影部分的面積。',
+      '如圖，$O$ 為圓心，以 $\\overline{AB}$ 為直徑的半圓，且此圓的半徑為 $8$。若 $\\angle BOC=90\\degree$，以 $B$ 為圓心，$\\overline{BC}$ 為半徑畫弧，交 $\\overline{AB}$ 於 $D$，求陰影部分的面積。',
     answer: '$8\\pi-8$',
     hasImage: true,
   },
@@ -11064,7 +11064,7 @@ export const bank: Question[] = [
     id: '17c5ff6ee9c',
     chapter: '平面向量',
     question:
-      '已知等腰梯形 $ABCD$，$\\overline{AD}//\\overline{BC}$，$\\overline{AB}=\\overline{CD}$，若 $\\xvector{AB}=(3,1)$，$\\xvector{AD}=(-2,2)$，求 $\\xvector{CD}$。',
+      '已知等腰梯形 $ABCD$，$\\overline{AD}\\parallel\\overline{BC}$，$\\overline{AB}=\\overline{CD}$，若 $\\xvector{AB}=(3,1)$，$\\xvector{AD}=(-2,2)$，求 $\\xvector{CD}$。',
     answer: '$(-1,-3)$',
     hasImage: false,
   },
@@ -11359,7 +11359,7 @@ export const bank: Question[] = [
     id: '17c6f72cb2e',
     chapter: '平面向量',
     question:
-      '已知 $\\vector{a}=(3,4)$，$\\vector{b}=(1,x)$，若 $\\vector{a}$ 與 $\\vector{b}$ 的夾角為 $135^\\circ$，求 $x$。',
+      '已知 $\\vector{a}=(3,4)$，$\\vector{b}=(1,x)$，若 $\\vector{a}$ 與 $\\vector{b}$ 的夾角為 $135\\degree$，求 $x$。',
     answer: '$-7$',
     hasImage: false,
   },
@@ -11376,7 +11376,7 @@ export const bank: Question[] = [
     chapter: '平面向量',
     question:
       '已知 $2\\vector{a}-\\vector{b}=(-1,\\sqrt{3})$，$\\vector{c}=(1,\\sqrt{3})$，$\\vector{a}\\cdot\\vector{c}=3$，$|\\vector{b}|=4$，試求 $\\vector{b}$ 與 $\\vector{c}$ 的夾角。',
-    answer: '$60^{\\circ}$',
+    answer: '$60\\degree$',
     hasImage: false,
   },
   {
@@ -11384,7 +11384,7 @@ export const bank: Question[] = [
     chapter: '平面向量',
     question:
       '$|\\vector{a}|=1$，$|\\vector{b}|=3$，$|\\vector{a}-\\vector{b}|=\\sqrt{7}$，求：(1) $\\vector{a}$ 與 $\\vector{b}$ 的夾角\n(2) $|t\\vector{a}+\\vector{b}|$ 的最小值及此時的 $t$。',
-    answer: '(1) $60^{\\circ}$ (2) $\\frac{3\\sqrt{3}}{2}$；$-\\frac{3}{2}$',
+    answer: '(1) $60\\degree$ (2) $\\frac{3\\sqrt{3}}{2}$；$-\\frac{3}{2}$',
     hasImage: false,
   },
   {
@@ -11758,7 +11758,7 @@ export const bank: Question[] = [
     id: '17c922a5dea',
     chapter: '平面向量',
     question:
-      '平面上三點 $A、B、C$，$\\angle ABC=60^\\circ$，$\\overline{AB}=5$，$\\overline{BC}=14$，求 $\\xvector{AB}\\cdot\\xvector{BC}$。',
+      '平面上三點 $A、B、C$，$\\angle ABC=60\\degree$，$\\overline{AB}=5$，$\\overline{BC}=14$，求 $\\xvector{AB}\\cdot\\xvector{BC}$。',
     answer: '$-35$',
     hasImage: false,
   },
@@ -11782,7 +11782,7 @@ export const bank: Question[] = [
     id: '17c922f5425',
     chapter: '平面向量',
     question:
-      '已知 $|\\vector{a}|=3$，$|\\vector{b}|=4$，$|\\vector{c}|=10$，$\\vector{a}$ 與 $\\vector{b}$ 的夾角為 $30^\\circ$，$\\vector{a}$ 與 $\\vector{c}$ 的夾角為 $120^\\circ$，求 $\\vector{a}\\cdot\\vector{b}$ 與 $\\vector{a}\\cdot\\vector{c}$。',
+      '已知 $|\\vector{a}|=3$，$|\\vector{b}|=4$，$|\\vector{c}|=10$，$\\vector{a}$ 與 $\\vector{b}$ 的夾角為 $30\\degree$，$\\vector{a}$ 與 $\\vector{c}$ 的夾角為 $120\\degree$，求 $\\vector{a}\\cdot\\vector{b}$ 與 $\\vector{a}\\cdot\\vector{c}$。',
     answer: '$6\\sqrt{3}$；$-15$',
     hasImage: false,
   },
@@ -11878,7 +11878,7 @@ export const bank: Question[] = [
     id: '17c92614ed0',
     chapter: '平面向量',
     question:
-      '已知 $\\triangle ABC$ 中，$O$ 為內部一點，$\\overline{OA}=2$，$\\overline{OB}=3$，$\\overline{OC}=\\sqrt{3}$，$\\angle AOB=120^\\circ$，$\\angle AOC=150^\\circ$，求  $\\xvector{AB}\\cdot\\xvector{BC}$\n\n',
+      '已知 $\\triangle ABC$ 中，$O$ 為內部一點，$\\overline{OA}=2$，$\\overline{OB}=3$，$\\overline{OC}=\\sqrt{3}$，$\\angle AOB=120\\degree$，$\\angle AOC=150\\degree$，求  $\\xvector{AB}\\cdot\\xvector{BC}$\n\n',
     answer: '$-9$',
     hasImage: false,
   },
@@ -11895,7 +11895,7 @@ export const bank: Question[] = [
     chapter: '平面向量',
     question:
       '若 $2|\\vector{a}|=|\\vector{b}|\\neq0$，且 $(\\vector{a}+\\vector{b})\\perp(5\\vector{a}-2\\vector{b})$，求 $\\vector{a}$ 與 $\\vector{b}$ 的夾角。',
-    answer: '$60^\\circ$',
+    answer: '$60\\degree$',
     hasImage: false,
   },
   {
@@ -11910,7 +11910,7 @@ export const bank: Question[] = [
     id: '17c92677001',
     chapter: '平面向量',
     question:
-      '直角三角形 $ABC$ 中，$\\angle B=90^\\circ$，若 $A(7,-5)$、$B(9,2)$ 且 $C$ 點在第四象限，$\\overline{BC}=3\\overline{AB}$，求 $C$ 點坐標。',
+      '直角三角形 $ABC$ 中，$\\angle B=90\\degree$，若 $A(7,-5)$、$B(9,2)$ 且 $C$ 點在第四象限，$\\overline{BC}=3\\overline{AB}$，求 $C$ 點坐標。',
     answer: '$(30,-4)$',
     hasImage: false,
   },

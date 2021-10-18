@@ -7,8 +7,8 @@ import style from './Hw.module.scss';
 
 const Hw = () => {
   const ids: string[] = [
-    '17c72eae50f',
-    '17c6f72cb2e',
+    '179ba8708bf',
+    '179bc2d5ae7',
     '17c6f759d67',
     '17c6f79722a',
     '17c6f904640',

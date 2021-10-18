@@ -20,7 +20,7 @@ const Textarea2MathJax = ({ className, text }: Props) => (
           xvector: ['\\overset{\\LARGE\\rightharpoonup}{#1}', 1],
           parallel: ['\\mathrel{/\\mkern-5mu/}', 0],
           arc: ['\\overset{\\huge\\frown}{#1}', 1],
-          degree: ['^\\circ'],
+          degree: ['^\\circ', 0],
         },
       },
     }}
