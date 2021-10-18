@@ -10588,7 +10588,7 @@ export const bank: Question[] = [
     id: '17c3ff99e83',
     chapter: '平面向量',
     question:
-      '平面上有平行四邊形$ABCD$，下列各選項的等式哪些成立？\n(1) $\\xvector{AB}=\\xvector{CD}$ (2) $\\xvector{AD}=\\xvector{BC}$\n(3) $\\xvector{AC}+\\xvector{BD}=\\xvector{0}$\n(4) $\\xvector{AB}+\\xvector{BC}+\\xvector{CD}=\\xvector{AD}$\n(5) $\\xvector{AB}-\\xvector{AD}=\\xvector{BD}$',
+      '平面上有平行四邊形$ABCD$，下列各選項的等式哪些成立？\n(1) $\\xvector{AB}=\\xvector{CD}$ (2) $\\xvector{AD}=\\xvector{BC}$\n(3) $\\xvector{AC}+\\xvector{BD}=\\vector{0}$\n(4) $\\xvector{AB}+\\xvector{BC}+\\xvector{CD}=\\xvector{AD}$\n(5) $\\xvector{AB}-\\xvector{AD}=\\xvector{BD}$',
     answer: '(2)(4)',
     hasImage: false,
   },
@@ -10597,7 +10597,7 @@ export const bank: Question[] = [
     chapter: '平面向量',
     question:
       '平面上四點 $A(2,6)$、$B(1,-4)$、$C(3,2)$、$D(7,11)$，求：(1) $\\xvector{AB}+\\xvector{CD}$\n(2) $\\xvector{AB}+\\xvector{BC}+\\xvector{CD}$\n(3) $\\xvector{AB}+\\xvector{BC}+\\xvector{CD}+\\xvector{DA}$。',
-    answer: '(1) $(3,-1)$ (2) $(5,5)$ (3) $\\xvector{0}$',
+    answer: '(1) $(3,-1)$ (2) $(5,5)$ (3) $\\vector{0}$',
     hasImage: false,
   },
   {
@@ -10676,7 +10676,7 @@ export const bank: Question[] = [
     id: '17c40dface4',
     chapter: '平面向量',
     question:
-      '平面上 $A(3,2)$、$B(1,5)$、$C(-2,-1)$，若 $P$ 點滿足 $3\\xvector{AP}+2\\xvector{BP}+\\xvector{CP}=\\xvector{0}$，求 $P$ 點坐標。',
+      '平面上 $A(3,2)$、$B(1,5)$、$C(-2,-1)$，若 $P$ 點滿足 $3\\xvector{AP}+2\\xvector{BP}+\\xvector{CP}=\\vector{0}$，求 $P$ 點坐標。',
     answer: '$(\\frac{3}{2},\\frac{5}{2})$',
     hasImage: false,
   },
@@ -10700,7 +10700,7 @@ export const bank: Question[] = [
     id: '17c456250f8',
     chapter: '平面向量',
     question:
-      '平面上 $A(1,7)$、$B(2,2)$、$C(-3,1)$，若 $P$ 點滿足 $2\\xvector{AP}-3\\xvector{BP}+5\\xvector{CP}=\\xvector{0}$，求 $P$ 坐標。',
+      '平面上 $A(1,7)$、$B(2,2)$、$C(-3,1)$，若 $P$ 點滿足 $2\\xvector{AP}-3\\xvector{BP}+5\\xvector{CP}=\\vector{0}$，求 $P$ 坐標。',
     answer: '$(-\\frac{19}{4},\\frac{13}{4})$ ',
     hasImage: false,
   },
@@ -11008,7 +11008,7 @@ export const bank: Question[] = [
     id: '17c5e131245',
     chapter: '平面向量',
     question:
-      '設 $\\vector{a}$ 與 $\\vector{b}$ 為非零向量且不互相平行，若 $(2x+y-7)\\vector{a}+(3x-y-3)\\vector{b}=\\xvector{0}$，求數對 $(x,y)$。',
+      '設 $\\vector{a}$ 與 $\\vector{b}$ 為非零向量且不互相平行，若 $(2x+y-7)\\vector{a}+(3x-y-3)\\vector{b}=\\vector{0}$，求數對 $(x,y)$。',
     answer: '$(2,3)$',
     hasImage: false,
   },
@@ -11016,7 +11016,7 @@ export const bank: Question[] = [
     id: '17c5e14893b',
     chapter: '平面向量',
     question:
-      '已知平面上 $\\vector{a}$ 與 $\\vector{b}$ 為非零向量且不互相平行，若 $(x-y+7)\\vector{a}+(2x+y-1)\\vector{b}=\\xvector{0}$，求數對 $(x,y)$。',
+      '已知平面上 $\\vector{a}$ 與 $\\vector{b}$ 為非零向量且不互相平行，若 $(x-y+7)\\vector{a}+(2x+y-1)\\vector{b}=\\vector{0}$，求數對 $(x,y)$。',
     answer: '$(-2,5)$',
     hasImage: false,
   },
@@ -11024,7 +11024,7 @@ export const bank: Question[] = [
     id: '17c5e180ef8',
     chapter: '平面向量',
     question:
-      '平面上 $\\triangle ABC$，若 $(x+4y)\\xvector{AB}+(2x-9)\\xvector{BC}+(y-5)\\xvector{CA}=\\xvector{0}$，求數對 $(x,y)$。',
+      '平面上 $\\triangle ABC$，若 $(x+4y)\\xvector{AB}+(2x-9)\\xvector{BC}+(y-5)\\xvector{CA}=\\vector{0}$，求數對 $(x,y)$。',
     answer: ' $(1,-2)$',
     hasImage: false,
   },
@@ -11162,7 +11162,7 @@ export const bank: Question[] = [
     id: '17c5bec7255',
     chapter: '平面向量',
     question:
-      '下列哪些選項的向量關係式可保證 $A$ 點會落在 $\\overline{BC}$ 上？\n(1) $\\xvector{AB}+\\xvector{CB}=\\xvector{0}$\n(2) $5\\xvector{PA}=2\\xvector{PB}+3\\xvector{PC}$\n(3) $\\sqrt{5}\\xvector{PA}=\\sqrt{2}\\xvector{PB}+\\sqrt{3}\\xvector{PC}$\n(4) $3\\xvector{PB}=\\xvector{PA}+2\\xvector{PC}$\n(5) $\\xvector{PB}=4\\xvector{PC}-3\\xvector{PA}$',
+      '下列哪些選項的向量關係式可保證 $A$ 點會落在 $\\overline{BC}$ 上？\n(1) $\\xvector{AB}+\\xvector{CB}=\\vector{0}$\n(2) $5\\xvector{PA}=2\\xvector{PB}+3\\xvector{PC}$\n(3) $\\sqrt{5}\\xvector{PA}=\\sqrt{2}\\xvector{PB}+\\sqrt{3}\\xvector{PC}$\n(4) $3\\xvector{PB}=\\xvector{PA}+2\\xvector{PC}$\n(5) $\\xvector{PB}=4\\xvector{PC}-3\\xvector{PA}$',
     answer: '(2)',
     hasImage: false,
   },
@@ -11218,7 +11218,7 @@ export const bank: Question[] = [
     id: '17c5fdff0c5',
     chapter: '平面向量',
     question:
-      '平面上三點 $A(5,-1)$、$B(7,12)$、$C(15,4)$，若有一點 $P$ 滿足 $\\xvector{PA}+\\xvector{PB}+\\xvector{PC}=\\xvector{0}$，求 $P$ 坐標。',
+      '平面上三點 $A(5,-1)$、$B(7,12)$、$C(15,4)$，若有一點 $P$ 滿足 $\\xvector{PA}+\\xvector{PB}+\\xvector{PC}=\\vector{0}$，求 $P$ 坐標。',
     answer: '$(9,5)$',
     hasImage: false,
   },
@@ -11391,7 +11391,7 @@ export const bank: Question[] = [
     id: '17c6f95b5b1',
     chapter: '平面向量',
     question:
-      '$2\\vector{a}+\\vector{b}+3\\vector{c}=\\xvector{0}$，且 $|\\vector{a}|=\\sqrt{7}$，$|\\vector{b}|=2$，$|\\vector{c}|=2$，求：\n(1) $\\vector{a}\\cdot\\vector{b}$ (2) $|\\vector{a}+\\vector{b}-6\\vector{c}|$',
+      '$2\\vector{a}+\\vector{b}+3\\vector{c}=\\vector{0}$，且 $|\\vector{a}|=\\sqrt{7}$，$|\\vector{b}|=2$，$|\\vector{c}|=2$，求：\n(1) $\\vector{a}\\cdot\\vector{b}$ (2) $|\\vector{a}+\\vector{b}-6\\vector{c}|$',
     answer: '(1) $1$ (2) $\\sqrt{241}$',
     hasImage: false,
   },
@@ -11407,7 +11407,7 @@ export const bank: Question[] = [
     id: '17c6fd7598e',
     chapter: '平面向量',
     question:
-      '設 $\\vector{a}+\\vector{b}+\\vector{c}=\\xvector{0}$，$|\\vector{a}|=2$，$|\\vector{b}|=1$，$|\\vector{c}|=2$，求 $\\vector{a}\\cdot\\vector{b}+\\vector{b}\\cdot\\vector{c}+\\vector{c}\\cdot\\vector{a}$。',
+      '設 $\\vector{a}+\\vector{b}+\\vector{c}=\\vector{0}$，$|\\vector{a}|=2$，$|\\vector{b}|=1$，$|\\vector{c}|=2$，求 $\\vector{a}\\cdot\\vector{b}+\\vector{b}\\cdot\\vector{c}+\\vector{c}\\cdot\\vector{a}$。',
     answer: '$-\\frac{9}{2}$',
     hasImage: false,
   },
