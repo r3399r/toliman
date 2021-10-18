@@ -47,15 +47,17 @@ const B3C10Vector = () => {
         <Concept num={3} title="向量的係數積">
           <Textarea2MathJax
             text={
-              '(1) 若 $r>0$，則 $r\\vec{a}$ 與 $\\vec{a}$ 同方向且大小為 $\\vec{a}$ 的 $r$ 倍；若 $r<0$，則 $r\\vec{a}$ 與 $\\vec{a}$ 反方向且大小為 $\\vec{a}$ 的 $|r|$ 倍。'
+              '(1) 若 $r>0$，則 $r\\vector{a}$ 與 $\\vector{a}$ 同方向且大小為 $\\vector{a}$ 的 $r$ 倍；若 $r<0$，則 $r\\vector{a}$ 與 $\\vector{a}$ 反方向且大小為 $\\vector{a}$ 的 $|r|$ 倍。'
             }
           />
           <Textarea2MathJax
-            text={'(2) 若 $\\vec{a}=(x,y)$，$r\\in\\mathbb{R}$，則 $r\\vec{a}=r(x,y)=(rx,ry)$'}
+            text={
+              '(2) 若 $\\vector{a}=(x,y)$，$r\\in\\mathbb{R}$，則 $r\\vector{a}=r(x,y)=(rx,ry)$'
+            }
           />
           <Textarea2MathJax
             text={
-              '(3) 若兩向量 $\\vec{a}$、$\\vec{b}$ 同向或反向，則稱 $\\vec{a}$ 與 $\\vec{b}$ 平行，記為 $\\vec{a}\\mathrel{/\\mkern-5mu/}\\vec{b}$，此時存在實數 $r$ 使 $\\vec{a}=r\\vec{b}$。若 $\\vec{a}=(x_1,y_1)$，$\\vec{b}=(x_2,y_2)$，則 $\\vec{a}\\mathrel{/\\mkern-5mu/}\\vec{b}\\Leftrightarrow\\frac{x_1}{x_2}=\\frac{y_1}{y_2}$'
+              '(3) 若兩向量 $\\vector{a}$、$\\vector{b}$ 同向或反向，則稱 $\\vector{a}$ 與 $\\vector{b}$ 平行，記為 $\\vector{a}\\parallel\\vector{b}$，此時存在實數 $r$ 使 $\\vector{a}=r\\vector{b}$。若 $\\vector{a}=(x_1,y_1)$，$\\vector{b}=(x_2,y_2)$，則 $\\vector{a}\\parallel\\vector{b}\\Leftrightarrow\\frac{x_1}{x_2}=\\frac{y_1}{y_2}$'
             }
           />
         </Concept>

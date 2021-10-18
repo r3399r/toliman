@@ -7955,7 +7955,7 @@ export const bank: Question[] = [
     id: '17b742931cf',
     chapter: '三角函數A',
     question:
-      "將地球視為一個球體，在航海學中將赤道上與地心夾角為 $1'$ 的 $A$、$B$ 兩地間的距離 (即 $\\overparen{AB}$ 弧長) 定為「$1$ 浬」，若地球半徑為 $6400$ 公里，得 $1$ 浬為 $t\\times\\pi$ 公里，求 $t$。",
+      "將地球視為一個球體，在航海學中將赤道上與地心夾角為 $1'$ 的 $A$、$B$ 兩地間的距離 (即 $\\arc{AB}$ 弧長) 定為「$1$ 浬」，若地球半徑為 $6400$ 公里，得 $1$ 浬為 $t\\times\\pi$ 公里，求 $t$。",
     answer: '$\\frac{16}{27}$',
     hasImage: false,
   },
@@ -9761,7 +9761,7 @@ export const bank: Question[] = [
     id: '17c1385a0fe',
     chapter: '平面向量',
     question:
-      '平面向量 $\\vec{a}=(x-1,2)$，$\\vec{b}=(x-2,-3)$，若 $\\vec{a}\\mathrel{/\\mkern-5mu/}\\vec{b}$，求 $x$。',
+      '平面向量 $\\vec{a}=(x-1,2)$，$\\vec{b}=(x-2,-3)$，若 $\\vec{a}\\parallel\\vec{b}$，求 $x$。',
     answer: '$\\frac{7}{5}$',
     hasImage: false,
   },
@@ -9984,7 +9984,7 @@ export const bank: Question[] = [
     id: '17c1601e11b',
     chapter: '平面向量',
     question:
-      '設 $\\vec{a}=(3,2t+1)$，$\\vec{b}=(t,t-2)$，$\\vec{c}=(1,2)$，若 $(\\vec{a}+\\vec{b})\\mathrel{/\\mkern-5mu/}\\vec{c}$，求 $t$。',
+      '設 $\\vec{a}=(3,2t+1)$，$\\vec{b}=(t,t-2)$，$\\vec{c}=(1,2)$，若 $(\\vec{a}+\\vec{b})\\parallel\\vec{c}$，求 $t$。',
     answer: '$7$',
     hasImage: false,
   },
@@ -10296,7 +10296,7 @@ export const bank: Question[] = [
     id: '17c2148cf59',
     chapter: '三角函數B',
     question:
-      '圖為一圓錐的展開圖，若底圓半徑為 $6$ 公分，扇形半徑 $\\overline{PA}=10$ 公分，則下列選項哪些正確？\n(1) $\\overparen{AB}$ 的長度為 $12\\pi$ 公分\n(2) $\\angle APB=\\frac{6}{5}\\pi$ 弳\n(3) 圓錐側面積為 $120\\pi$ 平方公分\n(4) 圓錐表面積為 $96\\pi$ 平方公分\n(5) 圓錐的高為 $8$ 公分',
+      '圖為一圓錐的展開圖，若底圓半徑為 $6$ 公分，扇形半徑 $\\overline{PA}=10$ 公分，則下列選項哪些正確？\n(1) $\\arc{AB}$ 的長度為 $12\\pi$ 公分\n(2) $\\angle APB=\\frac{6}{5}\\pi$ 弳\n(3) 圓錐側面積為 $120\\pi$ 平方公分\n(4) 圓錐表面積為 $96\\pi$ 平方公分\n(5) 圓錐的高為 $8$ 公分',
     answer: '(1)(2)(4)(5)',
     hasImage: true,
   },
@@ -10493,7 +10493,7 @@ export const bank: Question[] = [
     id: '17c2bc1c775',
     chapter: '三角函數A',
     question:
-      '扇形 $OAB$ 的半徑為 $1$，中心角為 $60^\\circ$，$P$ 點在弧 $\\overparen{AB}$ 上，投影到 $\\overline{OA}$、$\\overline{OB}$ 依序為 $H$、$K$，如圖所示。試求 $3\\overline{PH}+2\\overline{PK}$ 的最大值。',
+      '扇形 $OAB$ 的半徑為 $1$，中心角為 $60^\\circ$，$P$ 點在弧 $\\arc{AB}$ 上，投影到 $\\overline{OA}$、$\\overline{OB}$ 依序為 $H$、$K$，如圖所示。試求 $3\\overline{PH}+2\\overline{PK}$ 的最大值。',
     answer: '$\\sqrt{7}$',
     hasImage: true,
   },
@@ -10508,8 +10508,7 @@ export const bank: Question[] = [
   {
     id: '17c3cfd8db7',
     chapter: '平面向量',
-    question:
-      '用坐標表示向量：$\\overset{\\xrightharpoonup{}}{a}$，$\\overset{\\xrightharpoonup{}}{b}$，$\\overset{\\xrightharpoonup{}}{c}$，$\\overset{\\xrightharpoonup{}}{d}$。',
+    question: '用坐標表示向量：$\\vector{a}$，$\\vector{b}$，$\\vector{c}$，$\\vector{d}$。',
     answer: '$(4,3)$；$(-2,5)$；$(-4,-2)$；$(3,-3)$',
     hasImage: true,
   },
@@ -10517,7 +10516,7 @@ export const bank: Question[] = [
     id: '17c3cffaea5',
     chapter: '平面向量',
     question:
-      '平面上兩點 $P(2,3\\sqrt{3})$、$Q(5,2\\sqrt{3})$，求：(1) $\\overset{\\xrightharpoonup{}}{PQ}$ (2) $\\overset{\\xrightharpoonup{}}{QP}$ (3) $|\\overset{\\xrightharpoonup{}}{PQ}|$。',
+      '平面上兩點 $P(2,3\\sqrt{3})$、$Q(5,2\\sqrt{3})$，求：(1) $\\xvector{PQ}$ (2) $\\xvector{QP}$ (3) $|\\xvector{PQ}|$。',
     answer: '(1) $(3,-\\sqrt{3})$ (2) $(-3,\\sqrt{3})$ (3) $2\\sqrt{3}$',
     hasImage: false,
   },
@@ -10525,7 +10524,7 @@ export const bank: Question[] = [
     id: '17c3d014a2f',
     chapter: '平面向量',
     question:
-      '坐標平面上點 $A(x,5)$、$B(3,y)$、$C(-1,8)$、$D(2,4)$，試問：\n(1) 若 $\\overset{\\xrightharpoonup{}}{AB}=(5,-4)$，求 $x$、$y$。\n(2) 若四邊形$ABCD$為平行四邊形，求 $x$、$y$。',
+      '坐標平面上點 $A(x,5)$、$B(3,y)$、$C(-1,8)$、$D(2,4)$，試問：\n(1) 若 $\\xvector{AB}=(5,-4)$，求 $x$、$y$。\n(2) 若四邊形$ABCD$為平行四邊形，求 $x$、$y$。',
     answer: '(1) $-2$；$1$ (2) $6$；$9$ ',
     hasImage: true,
   },
@@ -10541,7 +10540,7 @@ export const bank: Question[] = [
     id: '17c3d037b9d',
     chapter: '平面向量',
     question:
-      '平面上兩點 $P(-3,7)$、$Q(-5,9)$，求：(1) $\\overset{\\xrightharpoonup{}}{PQ}$ (2) $\\overset{\\xrightharpoonup{}}{QP}$ (3) $|\\overset{\\xrightharpoonup{}}{PQ}|$。',
+      '平面上兩點 $P(-3,7)$、$Q(-5,9)$，求：(1) $\\xvector{PQ}$ (2) $\\xvector{QP}$ (3) $|\\xvector{PQ}|$。',
     answer: '(1) $(-2,2)$ (2) $(2,-2)$ (3) $2\\sqrt{2}$',
     hasImage: false,
   },
@@ -10557,7 +10556,7 @@ export const bank: Question[] = [
     id: '17c3c054fb2',
     chapter: '平面向量',
     question:
-      '$A(-2,-1)$、$B(x,1)$、$C(5,6)$、$D(-5,x)$ ，若 $|\\overset{\\xrightharpoonup{}}{AB}|=|\\overset{\\xrightharpoonup{}}{CD}|$，求 $x$。',
+      '$A(-2,-1)$、$B(x,1)$、$C(5,6)$、$D(-5,x)$ ，若 $|\\xvector{AB}|=|\\xvector{CD}|$，求 $x$。',
     answer: '$8$',
     hasImage: false,
   },
@@ -10565,7 +10564,7 @@ export const bank: Question[] = [
     id: '17c3c049c2f',
     chapter: '平面向量',
     question:
-      '已知 $\\overset{\\xrightharpoonup{}}{OA}$ 與 $\\overset{\\xrightharpoonup{}}{OB}$ 所張成的平行四邊形面積為 $5$，求由 $\\overset{\\xrightharpoonup{}}{OA}+\\overset{\\xrightharpoonup{}}{OB}$ 與 $\\overset{\\xrightharpoonup{}}{OA}-\\overset{\\xrightharpoonup{}}{OB}$ 所張成的平行四邊形面積。',
+      '已知 $\\xvector{OA}$ 與 $\\xvector{OB}$ 所張成的平行四邊形面積為 $5$，求由 $\\xvector{OA}+\\xvector{OB}$ 與 $\\xvector{OA}-\\xvector{OB}$ 所張成的平行四邊形面積。',
     answer: '$10$',
     hasImage: true,
   },
@@ -10573,7 +10572,7 @@ export const bank: Question[] = [
     id: '17c3d243d52',
     chapter: '平面向量',
     question:
-      '平面上四點 $A(2,5)$、$B(-4,1)$、$C(9,-6)$、$D(0,13)$，請用數對表示：(1) $\\overset{\\xrightharpoonup{}}{AB}+\\overset{\\xrightharpoonup{}}{CD}$ (2) $\\overset{\\xrightharpoonup{}}{AB}+\\overset{\\xrightharpoonup{}}{BC}+\\overset{\\xrightharpoonup{}}{CD}$ \n(3) $\\overset{\\xrightharpoonup{}}{AB}-\\overset{\\xrightharpoonup{}}{CD}$。',
+      '平面上四點 $A(2,5)$、$B(-4,1)$、$C(9,-6)$、$D(0,13)$，請用數對表示：(1) $\\xvector{AB}+\\xvector{CD}$ (2) $\\xvector{AB}+\\xvector{BC}+\\xvector{CD}$ \n(3) $\\xvector{AB}-\\xvector{CD}$。',
     answer: '(1) $(-15,15)$ (2) $(-2,8)$ (3) $(3,-23)$',
     hasImage: false,
   },
@@ -10581,7 +10580,7 @@ export const bank: Question[] = [
     id: '17c3d24d200',
     chapter: '平面向量',
     question:
-      '已知 $\\overset{\\xrightharpoonup{}}{AB}=(1,2)$，$\\overset{\\xrightharpoonup{}}{CD}=(-4,3)$，$\\overset{\\xrightharpoonup{}}{AD}=(7,-2)$，求：(1) $\\overset{\\xrightharpoonup{}}{BD}$ (2) $\\overset{\\xrightharpoonup{}}{BC}$。',
+      '已知 $\\xvector{AB}=(1,2)$，$\\xvector{CD}=(-4,3)$，$\\xvector{AD}=(7,-2)$，求：(1) $\\xvector{BD}$ (2) $\\xvector{BC}$。',
     answer: '(1) $(6,-4)$ (2) $(10,-7)$',
     hasImage: false,
   },
@@ -10589,7 +10588,7 @@ export const bank: Question[] = [
     id: '17c3ff99e83',
     chapter: '平面向量',
     question:
-      '平面上有平行四邊形$ABCD$，下列各選項的等式哪些成立？\n(1) $\\overset{\\xrightharpoonup{}}{AB}=\\overset{\\xrightharpoonup{}}{CD}$ (2) $\\overset{\\xrightharpoonup{}}{AD}=\\overset{\\xrightharpoonup{}}{BC}$\n(3) $\\overset{\\xrightharpoonup{}}{AC}+\\overset{\\xrightharpoonup{}}{BD}=\\overset{\\xrightharpoonup{}}{0}$\n(4) $\\overset{\\xrightharpoonup{}}{AB}+\\overset{\\xrightharpoonup{}}{BC}+\\overset{\\xrightharpoonup{}}{CD}=\\overset{\\xrightharpoonup{}}{AD}$\n(5) $\\overset{\\xrightharpoonup{}}{AB}-\\overset{\\xrightharpoonup{}}{AD}=\\overset{\\xrightharpoonup{}}{BD}$',
+      '平面上有平行四邊形$ABCD$，下列各選項的等式哪些成立？\n(1) $\\xvector{AB}=\\xvector{CD}$ (2) $\\xvector{AD}=\\xvector{BC}$\n(3) $\\xvector{AC}+\\xvector{BD}=\\xvector{0}$\n(4) $\\xvector{AB}+\\xvector{BC}+\\xvector{CD}=\\xvector{AD}$\n(5) $\\xvector{AB}-\\xvector{AD}=\\xvector{BD}$',
     answer: '(2)(4)',
     hasImage: false,
   },
@@ -10597,8 +10596,8 @@ export const bank: Question[] = [
     id: '17c3d26a079',
     chapter: '平面向量',
     question:
-      '平面上四點 $A(2,6)$、$B(1,-4)$、$C(3,2)$、$D(7,11)$，求：(1) $\\overset{\\xrightharpoonup{}}{AB}+\\overset{\\xrightharpoonup{}}{CD}$\n(2) $\\overset{\\xrightharpoonup{}}{AB}+\\overset{\\xrightharpoonup{}}{BC}+\\overset{\\xrightharpoonup{}}{CD}$\n(3) $\\overset{\\xrightharpoonup{}}{AB}+\\overset{\\xrightharpoonup{}}{BC}+\\overset{\\xrightharpoonup{}}{CD}+\\overset{\\xrightharpoonup{}}{DA}$。',
-    answer: '(1) $(3,-1)$ (2) $(5,5)$ (3) $\\overset{\\xrightharpoonup{}}{0}$',
+      '平面上四點 $A(2,6)$、$B(1,-4)$、$C(3,2)$、$D(7,11)$，求：(1) $\\xvector{AB}+\\xvector{CD}$\n(2) $\\xvector{AB}+\\xvector{BC}+\\xvector{CD}$\n(3) $\\xvector{AB}+\\xvector{BC}+\\xvector{CD}+\\xvector{DA}$。',
+    answer: '(1) $(3,-1)$ (2) $(5,5)$ (3) $\\xvector{0}$',
     hasImage: false,
   },
   {
@@ -10621,7 +10620,7 @@ export const bank: Question[] = [
     id: '17c3c395cde',
     chapter: '平面向量',
     question:
-      '已知 $\\overset{\\xrightharpoonup{}}{AB}=(2,13)$，$\\overset{\\xrightharpoonup{}}{AD}=(15,8)$，$\\overset{\\xrightharpoonup{}}{DC}=(-6,1)$，求 $\\overset{\\xrightharpoonup{}}{CA}$、$\\overset{\\xrightharpoonup{}}{CB}$。',
+      '已知 $\\xvector{AB}=(2,13)$，$\\xvector{AD}=(15,8)$，$\\xvector{DC}=(-6,1)$，求 $\\xvector{CA}$、$\\xvector{CB}$。',
     answer: '$(-9,-9)$；$(7,4)$',
     hasImage: false,
   },
@@ -10629,7 +10628,7 @@ export const bank: Question[] = [
     id: '17c4563c8b7',
     chapter: '平面向量',
     question:
-      '線段 $\\overline{PQ}$ 上有 $5$ 個等分點 $A$、$B$、$C$、$D$、$E$，如圖所示，若 $\\overset{\\xrightharpoonup{}}{AE}=x\\overset{\\xrightharpoonup{}}{PQ}$，$\\overset{\\xrightharpoonup{}}{AQ}=y\\overset{\\xrightharpoonup{}}{DB}$，求數對 $(x,y)$。',
+      '線段 $\\overline{PQ}$ 上有 $5$ 個等分點 $A$、$B$、$C$、$D$、$E$，如圖所示，若 $\\xvector{AE}=x\\xvector{PQ}$，$\\xvector{AQ}=y\\xvector{DB}$，求數對 $(x,y)$。',
     answer: '$(\\frac{2}{3},-\\frac{5}{2})$',
     hasImage: true,
   },
@@ -10637,7 +10636,7 @@ export const bank: Question[] = [
     id: '17c3c614420',
     chapter: '平面向量',
     question:
-      '若 $2\\overset{\\xrightharpoonup{}}{a}-3(\\overset{\\xrightharpoonup{}}{b}+2\\overset{\\xrightharpoonup{}}{c})$\n$+2(\\overset{\\xrightharpoonup{}}{a}-\\overset{\\xrightharpoonup{}}{b}+\\overset{\\xrightharpoonup{}}{c})=x\\overset{\\xrightharpoonup{}}{a}+y\\overset{\\xrightharpoonup{}}{b}+z\\overset{\\xrightharpoonup{}}{c}$，求 $(x,y,z)$。',
+      '若 $2\\vector{a}-3(\\vector{b}+2\\vector{c})$\n$+2(\\vector{a}-\\vector{b}+\\vector{c})=x\\vector{a}+y\\vector{b}+z\\vector{c}$，求 $(x,y,z)$。',
     answer: '$(4,-5,-4)$',
     hasImage: false,
   },
@@ -10645,7 +10644,7 @@ export const bank: Question[] = [
     id: '17c3c7a3797',
     chapter: '平面向量',
     question:
-      '坐標平面上，$\\overset{\\xrightharpoonup{}}{a}=(1,-3)$，$\\overset{\\xrightharpoonup{}}{b}=(4,5)$，$\\overset{\\xrightharpoonup{}}{c}=(-2,7)$，求 $2\\overset{\\xrightharpoonup{}}{a}+3\\overset{\\xrightharpoonup{}}{b}-5\\overset{\\xrightharpoonup{}}{c}$？',
+      '坐標平面上，$\\vector{a}=(1,-3)$，$\\vector{b}=(4,5)$，$\\vector{c}=(-2,7)$，求 $2\\vector{a}+3\\vector{b}-5\\vector{c}$？',
     answer: '$(24,-26)$',
     hasImage: false,
   },
@@ -10653,7 +10652,7 @@ export const bank: Question[] = [
     id: '17c40cb19e8',
     chapter: '平面向量',
     question:
-      '已知 $|\\overset{\\xrightharpoonup{}}{a}|=8$，$|\\overset{\\xrightharpoonup{}}{b}|=3$，$|\\overset{\\xrightharpoonup{}}{c}|=5$，$\\overset{\\xrightharpoonup{}}{a}$ 與 $\\overset{\\xrightharpoonup{}}{b}$ 同向，$\\overset{\\xrightharpoonup{}}{b}$ 與 $\\overset{\\xrightharpoonup{}}{c}$ 反向，$\\overset{\\xrightharpoonup{}}{a}=x\\overset{\\xrightharpoonup{}}{b}=y\\overset{\\xrightharpoonup{}}{c}$，求數對 $(x,y)$。\n',
+      '已知 $|\\vector{a}|=8$，$|\\vector{b}|=3$，$|\\vector{c}|=5$，$\\vector{a}$ 與 $\\vector{b}$ 同向，$\\vector{b}$ 與 $\\vector{c}$ 反向，$\\vector{a}=x\\vector{b}=y\\vector{c}$，求數對 $(x,y)$。\n',
     answer: '$(\\frac{8}{3},-\\frac{8}{5})$',
     hasImage: false,
   },
@@ -10661,7 +10660,7 @@ export const bank: Question[] = [
     id: '17c40d37bdd',
     chapter: '平面向量',
     question:
-      '若 $4(\\overset{\\xrightharpoonup{}}{a}-2\\overset{\\xrightharpoonup{}}{b})+3\\overset{\\xrightharpoonup{}}{c}$\n$-2(-\\overset{\\xrightharpoonup{}}{a}+2\\overset{\\xrightharpoonup{}}{b}+3\\overset{\\xrightharpoonup{}}{c})=x\\overset{\\xrightharpoonup{}}{a}+y\\overset{\\xrightharpoonup{}}{b}+z\\overset{\\xrightharpoonup{}}{c}$，求 $(x,y,z)$。\n',
+      '若 $4(\\vector{a}-2\\vector{b})+3\\vector{c}$\n$-2(-\\vector{a}+2\\vector{b}+3\\vector{c})=x\\vector{a}+y\\vector{b}+z\\vector{c}$，求 $(x,y,z)$。\n',
     answer: '$(6,-12,-3)$',
     hasImage: false,
   },
@@ -10669,7 +10668,7 @@ export const bank: Question[] = [
     id: '17c40da67d7',
     chapter: '平面向量',
     question:
-      '坐標平面上，點 $A(4,7)$、$B(9,-3)$、$C(-6,11)$、$D(2,-1)$，求 $3\\overset{\\xrightharpoonup{}}{AB}+4\\overset{\\xrightharpoonup{}}{CD}$ 與 $2\\overset{\\xrightharpoonup{}}{AC}-5\\overset{\\xrightharpoonup{}}{BD}$。',
+      '坐標平面上，點 $A(4,7)$、$B(9,-3)$、$C(-6,11)$、$D(2,-1)$，求 $3\\xvector{AB}+4\\xvector{CD}$ 與 $2\\xvector{AC}-5\\xvector{BD}$。',
     answer: '$(47,-78)$；$(15,-2)$',
     hasImage: false,
   },
@@ -10677,7 +10676,7 @@ export const bank: Question[] = [
     id: '17c40dface4',
     chapter: '平面向量',
     question:
-      '平面上 $A(3,2)$、$B(1,5)$、$C(-2,-1)$，若 $P$ 點滿足 $3\\overset{\\xrightharpoonup{}}{AP}+2\\overset{\\xrightharpoonup{}}{BP}+\\overset{\\xrightharpoonup{}}{CP}=\\overset{\\xrightharpoonup{}}{0}$，求 $P$ 點坐標。',
+      '平面上 $A(3,2)$、$B(1,5)$、$C(-2,-1)$，若 $P$ 點滿足 $3\\xvector{AP}+2\\xvector{BP}+\\xvector{CP}=\\xvector{0}$，求 $P$ 點坐標。',
     answer: '$(\\frac{3}{2},\\frac{5}{2})$',
     hasImage: false,
   },
@@ -10685,7 +10684,7 @@ export const bank: Question[] = [
     id: '17c40e31a97',
     chapter: '平面向量',
     question:
-      '平面上 $A(5,p)$、$B(q,-2)$、$C(1,7)$、$D(4,3)$，若 $A$ 點沿著 $\\overset{\\xrightharpoonup{}}{CD}$ 的方向移動 $15$ 單位恰到達 $B$ 點，求數對 $(p,q)$。',
+      '平面上 $A(5,p)$、$B(q,-2)$、$C(1,7)$、$D(4,3)$，若 $A$ 點沿著 $\\xvector{CD}$ 的方向移動 $15$ 單位恰到達 $B$ 點，求數對 $(p,q)$。',
     answer: '$(10,14)$',
     hasImage: false,
   },
@@ -10693,7 +10692,7 @@ export const bank: Question[] = [
     id: '17c40edb4d6',
     chapter: '平面向量',
     question:
-      '已知平面上 $\\overset{\\xrightharpoonup{}}{a}=(3,-2)$、$\\overset{\\xrightharpoonup{}}{b}=(5,1)$、$\\overset{\\xrightharpoonup{}}{c}=(4,6)$，若：\n(1) $\\overset{\\xrightharpoonup{}}{a}$ 與 $\\overset{\\xrightharpoonup{}}{b}+t\\overset{\\xrightharpoonup{}}{c}$ 平行，求 $t$。\n(2) $k\\overset{\\xrightharpoonup{}}{a}+\\overset{\\xrightharpoonup{}}{b}$ 平分 $\\overset{\\xrightharpoonup{}}{a}$ 與 $\\overset{\\xrightharpoonup{}}{b}$ 的夾角，求 $k$。',
+      '已知平面上 $\\vector{a}=(3,-2)$、$\\vector{b}=(5,1)$、$\\vector{c}=(4,6)$，若：\n(1) $\\vector{a}$ 與 $\\vector{b}+t\\vector{c}$ 平行，求 $t$。\n(2) $k\\vector{a}+\\vector{b}$ 平分 $\\vector{a}$ 與 $\\vector{b}$ 的夾角，求 $k$。',
     answer: '(1) $-\\frac{1}{2}$ (2) $\\sqrt{2}$',
     hasImage: false,
   },
@@ -10701,7 +10700,7 @@ export const bank: Question[] = [
     id: '17c456250f8',
     chapter: '平面向量',
     question:
-      '平面上 $A(1,7)$、$B(2,2)$、$C(-3,1)$，若 $P$ 點滿足 $2\\overset{\\xrightharpoonup{}}{AP}-3\\overset{\\xrightharpoonup{}}{BP}+5\\overset{\\xrightharpoonup{}}{CP}=\\overset{\\xrightharpoonup{}}{0}$，求 $P$ 坐標。',
+      '平面上 $A(1,7)$、$B(2,2)$、$C(-3,1)$，若 $P$ 點滿足 $2\\xvector{AP}-3\\xvector{BP}+5\\xvector{CP}=\\xvector{0}$，求 $P$ 坐標。',
     answer: '$(-\\frac{19}{4},\\frac{13}{4})$ ',
     hasImage: false,
   },
@@ -10709,7 +10708,7 @@ export const bank: Question[] = [
     id: '17c4569c253',
     chapter: '平面向量',
     question:
-      '坐標平面上有一點 $A(7,-2)$ 及向量 $\\overset{\\xrightharpoonup{}}{p}=(-3,4)$，若 $A$ 點沿著 $\\overset{\\xrightharpoonup{}}{p}$ 的方向移動 $4$ 個單位長至 $B$ 點，求 $B$ 點坐標。\n',
+      '坐標平面上有一點 $A(7,-2)$ 及向量 $\\xvector{p}=(-3,4)$，若 $A$ 點沿著 $\\xvector{p}$ 的方向移動 $4$ 個單位長至 $B$ 點，求 $B$ 點坐標。\n',
     answer: '$(\\frac{23}{5},\\frac{6}{5})$',
     hasImage: false,
   },
@@ -10717,7 +10716,7 @@ export const bank: Question[] = [
     id: '17c4573201e',
     chapter: '平面向量',
     question:
-      '平面上 $\\overset{\\xrightharpoonup{}}{a}=(2,-1)$，$\\overset{\\xrightharpoonup{}}{b}=(4,3)$，令 $\\overset{\\xrightharpoonup{}}{c}=\\overset{\\xrightharpoonup{}}{a}+t\\overset{\\xrightharpoonup{}}{b}$，若 : \n(1) $\\overset{\\xrightharpoonup{}}{c}$ 與 $(2,1)$ 平行，求 $t$。\n(2) $\\overset{\\xrightharpoonup{}}{c}$ 平分 $\\overset{\\xrightharpoonup{}}{a}$、$\\overset{\\xrightharpoonup{}}{b}$ 的夾角，求 $t$。\n',
+      '平面上 $\\vector{a}=(2,-1)$，$\\vector{b}=(4,3)$，令 $\\vector{c}=\\vector{a}+t\\vector{b}$，若 : \n(1) $\\vector{c}$ 與 $(2,1)$ 平行，求 $t$。\n(2) $\\vector{c}$ 平分 $\\vector{a}$、$\\vector{b}$ 的夾角，求 $t$。\n',
     answer: '(1) $2$；(2) $\\dfrac{\\sqrt{5}}{5}$',
     hasImage: false,
   },
@@ -10961,7 +10960,7 @@ export const bank: Question[] = [
     id: '17c607a943e',
     chapter: '平面向量',
     question:
-      '已知 $\\overset{\\xrightharpoonup{}}{a}=(2,1)$，$\\overset{\\xrightharpoonup{}}{b}=(3,4)$，求 $|t\\overset{\\xrightharpoonup{}}{a}+\\overset{\\xrightharpoonup{}}{b}|$ 的最小值及此時的 $t$。',
+      '已知 $\\vector{a}=(2,1)$，$\\vector{b}=(3,4)$，求 $|t\\vector{a}+\\vector{b}|$ 的最小值及此時的 $t$。',
     answer: '$-2$；$\\sqrt{5}$',
     hasImage: false,
   },
@@ -10969,7 +10968,7 @@ export const bank: Question[] = [
     id: '17c607db430',
     chapter: '平面向量',
     question:
-      '已知 $\\overset{\\xrightharpoonup{}}{a}=(-2,1)$，$\\overset{\\xrightharpoonup{}}{b}=(7,4)$，求 $| t\\overset{\\xrightharpoonup{}}{a}+\\overset{\\xrightharpoonup{}}{b}|$ 的最小值及此時的 $t$。',
+      '已知 $\\vector{a}=(-2,1)$，$\\vector{b}=(7,4)$，求 $| t\\vector{a}+\\vector{b}|$ 的最小值及此時的 $t$。',
     answer: '$2$；$3\\sqrt{5}$',
     hasImage: false,
   },
@@ -10977,7 +10976,7 @@ export const bank: Question[] = [
     id: '17c561f61e7',
     chapter: '平面向量',
     question:
-      '已知正方形 $ABCD$ 的邊長 $1$，若 $P$ 點滿足 $\\overset{\\xrightharpoonup{}}{AP}=t\\overset{\\xrightharpoonup{}}{AB}+k\\overset{\\xrightharpoonup{}}{AD}$，其中 $0\\le t\\le2$ 且 $-1\\le k\\le3$，則所有 $P$ 點所成的圖形為長方形，求其面積。\n',
+      '已知正方形 $ABCD$ 的邊長 $1$，若 $P$ 點滿足 $\\xvector{AP}=t\\xvector{AB}+k\\xvector{AD}$，其中 $0\\le t\\le2$ 且 $-1\\le k\\le3$，則所有 $P$ 點所成的圖形為長方形，求其面積。\n',
     answer: '$8$',
     hasImage: false,
   },
@@ -10985,7 +10984,7 @@ export const bank: Question[] = [
     id: '17c5df691cb',
     chapter: '平面向量',
     question:
-      '$\\triangle ABC$ 中，$\\overline{AB}=3$，$\\overline{BC}=5$，$\\overline{CA}=6$，若 $P$ 滿足 $\\overset{\\xrightharpoonup{}}{AP}=x\\overset{\\xrightharpoonup{}}{AB}=y\\overset{\\xrightharpoonup{}}{AC}$ 且 $1\\le x\\le3$，$0\\le y\\le4$，求 $P$ 點所成圖形的面積。',
+      '$\\triangle ABC$ 中，$\\overline{AB}=3$，$\\overline{BC}=5$，$\\overline{CA}=6$，若 $P$ 滿足 $\\xvector{AP}=x\\xvector{AB}=y\\xvector{AC}$ 且 $1\\le x\\le3$，$0\\le y\\le4$，求 $P$ 點所成圖形的面積。',
     answer: '$32\\sqrt{14}$',
     hasImage: false,
   },
@@ -10993,7 +10992,7 @@ export const bank: Question[] = [
     id: '17c5e01de25',
     chapter: '平面向量',
     question:
-      '如圖所示，$OPCQ$ 為平行四邊形，$\\overline{OP}=2$，$\\overline{OQ}=3$，$P$ 在 $\\overline{OA}$ 上，$B$ 在 $\\overline{OQ}$ 上，$\\lvert \\overset{\\xrightharpoonup{}}{OA}\\rvert=5$，$\\lvert \\overset{\\xrightharpoonup{}}{OB}\\rvert=1$，若 $\\overset{\\xrightharpoonup{}}{OC}=x\\overset{\\xrightharpoonup{}}{OA}+y\\overset{\\xrightharpoonup{}}{OB}$，求數對 $(x,y)$。',
+      '如圖所示，$OPCQ$ 為平行四邊形，$\\overline{OP}=2$，$\\overline{OQ}=3$，$P$ 在 $\\overline{OA}$ 上，$B$ 在 $\\overline{OQ}$ 上，$\\lvert \\xvector{OA}\\rvert=5$，$\\lvert \\xvector{OB}\\rvert=1$，若 $\\xvector{OC}=x\\xvector{OA}+y\\xvector{OB}$，求數對 $(x,y)$。',
     answer: '$(\\frac{2}{5},3)$',
     hasImage: true,
   },
@@ -11001,7 +11000,7 @@ export const bank: Question[] = [
     id: '17c5e0ecf8f',
     chapter: '平面向量',
     question:
-      '如圖所示，$APQR$ 為平行四邊形，$P$ 在 $\\overline{OA}$ 上且 $\\overline{AP}=2\\overline{PC}$，$A$ 在 $\\overline{BR}$ 上且 $5\\overline{AB}=2\\overline{AR}$，若 $\\overset{\\xrightharpoonup{}}{AQ}=x\\overset{\\xrightharpoonup{}}{AB}+y\\overset{\\xrightharpoonup{}}{AC}$，求數對 $(x,y)$。\n',
+      '如圖所示，$APQR$ 為平行四邊形，$P$ 在 $\\overline{OA}$ 上且 $\\overline{AP}=2\\overline{PC}$，$A$ 在 $\\overline{BR}$ 上且 $5\\overline{AB}=2\\overline{AR}$，若 $\\xvector{AQ}=x\\xvector{AB}+y\\xvector{AC}$，求數對 $(x,y)$。\n',
     answer: '$(\\frac{2}{5},-\\frac{2}{3})$',
     hasImage: true,
   },
@@ -11009,7 +11008,7 @@ export const bank: Question[] = [
     id: '17c5e131245',
     chapter: '平面向量',
     question:
-      '設 $\\overset{\\xrightharpoonup{}}{a}$ 與 $\\overset{\\xrightharpoonup{}}{b}$ 為非零向量且不互相平行，若 $(2x+y-7)\\overset{\\xrightharpoonup{}}{a}+(3x-y-3)\\overset{\\xrightharpoonup{}}{b}=\\overset{\\xrightharpoonup{}}{0}$，求數對 $(x,y)$。',
+      '設 $\\vector{a}$ 與 $\\vector{b}$ 為非零向量且不互相平行，若 $(2x+y-7)\\vector{a}+(3x-y-3)\\vector{b}=\\xvector{0}$，求數對 $(x,y)$。',
     answer: '$(2,3)$',
     hasImage: false,
   },
@@ -11017,7 +11016,7 @@ export const bank: Question[] = [
     id: '17c5e14893b',
     chapter: '平面向量',
     question:
-      '已知平面上 $\\overset{\\xrightharpoonup{}}{a}$ 與 $\\overset{\\xrightharpoonup{}}{b}$ 為非零向量且不互相平行，若 $(x-y+7)\\overset{\\xrightharpoonup{}}{a}+(2x+y-1)\\overset{\\xrightharpoonup{}}{b}=\\overset{\\xrightharpoonup{}}{0}$，求數對 $(x,y)$。',
+      '已知平面上 $\\vector{a}$ 與 $\\vector{b}$ 為非零向量且不互相平行，若 $(x-y+7)\\vector{a}+(2x+y-1)\\vector{b}=\\xvector{0}$，求數對 $(x,y)$。',
     answer: '$(-2,5)$',
     hasImage: false,
   },
@@ -11025,7 +11024,7 @@ export const bank: Question[] = [
     id: '17c5e180ef8',
     chapter: '平面向量',
     question:
-      '平面上 $\\triangle ABC$，若 $(x+4y)\\overset{\\xrightharpoonup{}}{AB}+(2x-9)\\overset{\\xrightharpoonup{}}{BC}+(y-5)\\overset{\\xrightharpoonup{}}{CA}=\\overset{\\xrightharpoonup{}}{0}$，求數對 $(x,y)$。',
+      '平面上 $\\triangle ABC$，若 $(x+4y)\\xvector{AB}+(2x-9)\\xvector{BC}+(y-5)\\xvector{CA}=\\xvector{0}$，求數對 $(x,y)$。',
     answer: ' $(1,-2)$',
     hasImage: false,
   },
@@ -11033,7 +11032,7 @@ export const bank: Question[] = [
     id: '17c5e1c0bd8',
     chapter: '平面向量',
     question:
-      '若 $3\\overset{\\xrightharpoonup{}}{BC}-2\\overset{\\xrightharpoonup{}}{PC}+\\overset{\\xrightharpoonup{}}{AC}=4\\overset{\\xrightharpoonup{}}{BP}+\\overset{\\xrightharpoonup{}}{AP}$，則 $\\overset{\\xrightharpoonup{}}{AP}=x\\overset{\\xrightharpoonup{}}{AB}+y\\overset{\\xrightharpoonup{}}{AC}$，求數對 $(x,y)$。',
+      '若 $3\\xvector{BC}-2\\xvector{PC}+\\xvector{AC}=4\\xvector{BP}+\\xvector{AP}$，則 $\\xvector{AP}=x\\xvector{AB}+y\\xvector{AC}$，求數對 $(x,y)$。',
     answer: '$(\\frac{1}{3},\\frac{2}{3})$',
     hasImage: false,
   },
@@ -11041,7 +11040,7 @@ export const bank: Question[] = [
     id: '17c5e24a614',
     chapter: '平面向量',
     question:
-      '設 $\\overset{\\xrightharpoonup{}}{a}=(3,1)$，$\\overset{\\xrightharpoonup{}}{b}=(-2,4)$，$\\overset{\\xrightharpoonup{}}{c}=(12,-10)$，若 $\\overset{\\xrightharpoonup{}}{c}=x\\overset{\\xrightharpoonup{}}{a}+y\\overset{\\xrightharpoonup{}}{b}$，求數對 $(x,y)$。',
+      '設 $\\vector{a}=(3,1)$，$\\vector{b}=(-2,4)$，$\\vector{c}=(12,-10)$，若 $\\vector{c}=x\\vector{a}+y\\vector{b}$，求數對 $(x,y)$。',
     answer: '$(2,-3)$',
     hasImage: false,
   },
@@ -11049,7 +11048,7 @@ export const bank: Question[] = [
     id: '17c5e2d8d18',
     chapter: '平面向量',
     question:
-      '如圖，等腰梯形 $ABCD$，$\\overline{AB}=\\overline{CD}=2$，$\\overline{BC}=5$，$\\overline{AD}=3$。已知 $M$ 為 $\\overline{AD}$ 中點，$N$ 為 $\\overline{CD}$ 中點，$\\overset{\\xrightharpoonup{}}{MN}=p\\overset{\\xrightharpoonup{}}{AB}+q\\overset{\\xrightharpoonup{}}{CD}$，求數對 $(p,q)$。',
+      '如圖，等腰梯形 $ABCD$，$\\overline{AB}=\\overline{CD}=2$，$\\overline{BC}=5$，$\\overline{AD}=3$。已知 $M$ 為 $\\overline{AD}$ 中點，$N$ 為 $\\overline{CD}$ 中點，$\\xvector{MN}=p\\xvector{AB}+q\\xvector{CD}$，求數對 $(p,q)$。',
     answer: '$(-\\frac{3}{4},-\\frac{5}{4})$',
     hasImage: true,
   },
@@ -11057,7 +11056,7 @@ export const bank: Question[] = [
     id: '17c5e38a87b',
     chapter: '平面向量',
     question:
-      '設 $\\overset{\\xrightharpoonup{}}{a}=(3,1)$，$\\overset{\\xrightharpoonup{}}{b}=(-1,2)$，$\\overset{\\xrightharpoonup{}}{c}=(3,8)$，若 $\\overset{\\xrightharpoonup{}}{c}=x\\overset{\\xrightharpoonup{}}{a}+y\\overset{\\xrightharpoonup{}}{b}$，求數對 $(x,y)$。',
+      '設 $\\vector{a}=(3,1)$，$\\vector{b}=(-1,2)$，$\\vector{c}=(3,8)$，若 $\\vector{c}=x\\vector{a}+y\\vector{b}$，求數對 $(x,y)$。',
     answer: '$(2,3)$',
     hasImage: false,
   },
@@ -11065,7 +11064,7 @@ export const bank: Question[] = [
     id: '17c5ff6ee9c',
     chapter: '平面向量',
     question:
-      '已知等腰梯形 $ABCD$，$\\overline{AD}//\\overline{BC}$，$\\overline{AB}=\\overline{CD}$，若 $\\overset{\\xrightharpoonup{}}{AB}=(3,1)$，$\\overset{\\xrightharpoonup{}}{AD}=(-2,2)$，求 $\\overset{\\xrightharpoonup{}}{CD}$。',
+      '已知等腰梯形 $ABCD$，$\\overline{AD}//\\overline{BC}$，$\\overline{AB}=\\overline{CD}$，若 $\\xvector{AB}=(3,1)$，$\\xvector{AD}=(-2,2)$，求 $\\xvector{CD}$。',
     answer: '$(-1,-3)$',
     hasImage: false,
   },
@@ -11073,7 +11072,7 @@ export const bank: Question[] = [
     id: '17c5ffde515',
     chapter: '平面向量',
     question:
-      '$O$ 為 $\\overleftrightarrow{AB}$ 外一點， $P$ 點在 $\\overline{AB}$ 上，已知 $\\overline{PA}=\\frac{8}{3}$，$\\overline{PB}=\\frac{12}{7}$，若 $\\overset{\\xrightharpoonup{}}{OP}=x\\overset{\\xrightharpoonup{}}{OA}+y\\overset{\\xrightharpoonup{}}{OB}$，求數對 $(x,y)$。',
+      '$O$ 為 $\\overleftrightarrow{AB}$ 外一點， $P$ 點在 $\\overline{AB}$ 上，已知 $\\overline{PA}=\\frac{8}{3}$，$\\overline{PB}=\\frac{12}{7}$，若 $\\xvector{OP}=x\\xvector{OA}+y\\xvector{OB}$，求數對 $(x,y)$。',
     answer: '$(\\frac{9}{23},\\frac{14}{23})$',
     hasImage: false,
   },
@@ -11081,7 +11080,7 @@ export const bank: Question[] = [
     id: '17c6005807b',
     chapter: '平面向量',
     question:
-      '平面上 $A、B、C、D$ 四點，$C$ 在 $\\overline{BD}$  上且 $\\overline{BC}:\\overline{CD}=3:5$，若 $\\overset{\\xrightharpoonup{}}{AD}=x\\overset{\\xrightharpoonup{}}{AB}+y\\overset{\\xrightharpoonup{}}{AC}$，求數對 $(x,y)$。',
+      '平面上 $A、B、C、D$ 四點，$C$ 在 $\\overline{BD}$  上且 $\\overline{BC}:\\overline{CD}=3:5$，若 $\\xvector{AD}=x\\xvector{AB}+y\\xvector{AC}$，求數對 $(x,y)$。',
     answer: '$(-\\frac{5}{3},\\frac{8}{3})$',
     hasImage: false,
   },
@@ -11089,7 +11088,7 @@ export const bank: Question[] = [
     id: '17c6009c44c',
     chapter: '平面向量',
     question:
-      '數線上有  $P、A、B$ 三點，已知 $\\overline{PA}:\\overline{PB}=4:7$，設點 $O$ 在數線外，若 $\\overset{\\xrightharpoonup{}}{OP}=x\\overset{\\xrightharpoonup{}}{OA}+y\\overset{\\xrightharpoonup{}}{OB}$，求數對 $(x,y)$。(兩解)',
+      '數線上有  $P、A、B$ 三點，已知 $\\overline{PA}:\\overline{PB}=4:7$，設點 $O$ 在數線外，若 $\\xvector{OP}=x\\xvector{OA}+y\\xvector{OB}$，求數對 $(x,y)$。(兩解)',
     answer: '$(\\frac{7}{11},\\frac{4}{11})$ 或 $(\\frac{7}{3},-\\frac{4}{3})$',
     hasImage: false,
   },
@@ -11097,7 +11096,7 @@ export const bank: Question[] = [
     id: '17c60109edf',
     chapter: '平面向量',
     question:
-      '已知 $O$ 在 $\\overleftrightarrow{AB}$ 外，$P$ 在 $\\overline{AB}$  上，$\\overline{PA}=\\frac{7}{6}$，$\\overline{PB}=1.4$ ，若 $\\overset{\\xrightharpoonup{}}{OP}=x\\overset{\\xrightharpoonup{}}{OA}+y\\overset{\\xrightharpoonup{}}{OB}$，求數對 $(x,y)$。',
+      '已知 $O$ 在 $\\overleftrightarrow{AB}$ 外，$P$ 在 $\\overline{AB}$  上，$\\overline{PA}=\\frac{7}{6}$，$\\overline{PB}=1.4$ ，若 $\\xvector{OP}=x\\xvector{OA}+y\\xvector{OB}$，求數對 $(x,y)$。',
     answer: '$(\\frac{6}{11},\\frac{5}{11})$',
     hasImage: false,
   },
@@ -11105,7 +11104,7 @@ export const bank: Question[] = [
     id: '17c601738d2',
     chapter: '平面向量',
     question:
-      '如圖， $D$ 在 $\\overline{BC}$ 上，且 $\\overline{CD}=2\\overline{BD}$，$G$ 為 $\\overline{AC}$ 中點，則:\n(1) $\\overset{\\xrightharpoonup{}}{GD}=x\\overset{\\xrightharpoonup{}}{CA}+y\\overset{\\xrightharpoonup{}}{CB}$，求數對 $(x,y)$。\n(2) $\\overset{\\xrightharpoonup{}}{GD}=p\\overset{\\xrightharpoonup{}}{AB}+q\\overset{\\xrightharpoonup{}}{AC}$，求數對 $(p,q)$。。',
+      '如圖， $D$ 在 $\\overline{BC}$ 上，且 $\\overline{CD}=2\\overline{BD}$，$G$ 為 $\\overline{AC}$ 中點，則:\n(1) $\\xvector{GD}=x\\xvector{CA}+y\\xvector{CB}$，求數對 $(x,y)$。\n(2) $\\xvector{GD}=p\\xvector{AB}+q\\xvector{AC}$，求數對 $(p,q)$。。',
     answer: ' $(-\\frac{1}{2},\\frac{2}{3})$；$(\\frac{2}{3},-\\frac{1}{6})$。',
     hasImage: true,
   },
@@ -11114,7 +11113,7 @@ export const bank: Question[] = [
     id: '17c5bbf5802',
     chapter: '平面向量',
     question:
-      '$\\triangle ABC$ 中，$D$、$E$ 分別為 $\\overline{AB}$ 和 $\\overline{BC}$ 的三等分點，位置如圖，設 $\\overset{\\xrightharpoonup{}}{DE}=x\\overset{\\xrightharpoonup{}}{AB}+y\\overset{\\xrightharpoonup{}}{AC}$，求數對 $(x,y)$。',
+      '$\\triangle ABC$ 中，$D$、$E$ 分別為 $\\overline{AB}$ 和 $\\overline{BC}$ 的三等分點，位置如圖，設 $\\xvector{DE}=x\\xvector{AB}+y\\xvector{AC}$，求數對 $(x,y)$。',
     answer: '$(\\frac{1}{3},\\frac{1}{3})$',
     hasImage: true,
   },
@@ -11122,7 +11121,7 @@ export const bank: Question[] = [
     id: '17c5bcac6bb',
     chapter: '平面向量',
     question:
-      '$\\triangle ABC$ 中，已知 $A(1,2)$、$B(4,-2)$、$C(1,5)$：\n(1) $\\angle A$ 的內角平分線交 $\\overline{BC}$ 於 $D$，則 $\\overset{\\xrightharpoonup{}}{AD}=x\\overset{\\xrightharpoonup{}}{AB}+y\\overset{\\xrightharpoonup{}}{AC}$，求數對 $(x,y)$ 和 $D$ 坐標。\n(2) $\\angle A$ 的外角平分線交 $\\overleftrightarrow{BC}$ 於 $E$，則 $\\overset{\\xrightharpoonup{}}{AE}=p\\overset{\\xrightharpoonup{}}{AB}+q\\overset{\\xrightharpoonup{}}{AC}$，求數對 $(p,q)$ 和 $E$ 坐標。',
+      '$\\triangle ABC$ 中，已知 $A(1,2)$、$B(4,-2)$、$C(1,5)$：\n(1) $\\angle A$ 的內角平分線交 $\\overline{BC}$ 於 $D$，則 $\\xvector{AD}=x\\xvector{AB}+y\\xvector{AC}$，求數對 $(x,y)$ 和 $D$ 坐標。\n(2) $\\angle A$ 的外角平分線交 $\\overleftrightarrow{BC}$ 於 $E$，則 $\\xvector{AE}=p\\xvector{AB}+q\\xvector{AC}$，求數對 $(p,q)$ 和 $E$ 坐標。',
     answer:
       '(1) $(\\frac{3}{8},\\frac{5}{8})$；$(\\frac{17}{8},\\frac{19}{8})$ (2) $(-\\frac{3}{2},\\frac{5}{2})$；$(-\\frac{7}{2},\\frac{31}{2})$',
     hasImage: false,
@@ -11131,7 +11130,7 @@ export const bank: Question[] = [
     id: '17c5bcf51b4',
     chapter: '平面向量',
     question:
-      '$\\triangle ABC$ 中，已知 $A(3,-7)$、$B(-5,-1)$、$C(6,-3)$：\n(1) $\\angle A$ 的內角平分線交 $\\overline{BC}$ 於 $D$，則 $\\overset{\\xrightharpoonup{}}{AD}=x\\overset{\\xrightharpoonup{}}{AB}+y\\overset{\\xrightharpoonup{}}{AC}$，求數對 $(x,y)$。\n(2) $\\angle A$ 的外角平分線交 $\\overleftrightarrow{BC}$ 於 $E$，則 $\\overset{\\xrightharpoonup{}}{AE}=u\\overset{\\xrightharpoonup{}}{AB}+v\\overset{\\xrightharpoonup{}}{AC}$，求數對 $(u,v)$。',
+      '$\\triangle ABC$ 中，已知 $A(3,-7)$、$B(-5,-1)$、$C(6,-3)$：\n(1) $\\angle A$ 的內角平分線交 $\\overline{BC}$ 於 $D$，則 $\\xvector{AD}=x\\xvector{AB}+y\\xvector{AC}$，求數對 $(x,y)$。\n(2) $\\angle A$ 的外角平分線交 $\\overleftrightarrow{BC}$ 於 $E$，則 $\\xvector{AE}=u\\xvector{AB}+v\\xvector{AC}$，求數對 $(u,v)$。',
     answer: '(1) $(\\frac{1}{3},\\frac{2}{3})$ (2) $(-1,2)$',
     hasImage: false,
   },
@@ -11139,7 +11138,7 @@ export const bank: Question[] = [
     id: '17c5bd757e0',
     chapter: '平面向量',
     question:
-      '平面上有四點 $P$、$A$、$B$、$C$，下列哪些條件可保證 $A$、$B$、$C$ 三點在同一直線上？\n(1) $\\overset{\\xrightharpoonup{}}{AB}=100\\overset{\\xrightharpoonup{}}{BC}$\n(2) $\\overset{\\xrightharpoonup{}}{PA}=\\overset{\\xrightharpoonup{}}{PB}+\\overset{\\xrightharpoonup{}}{PC}$\n(3) $\\overset{\\xrightharpoonup{}}{PA}=\\frac{2}{3}\\overset{\\xrightharpoonup{}}{PB}+\\frac{1}{3}\\overset{\\xrightharpoonup{}}{PC}$\n(4) $\\overset{\\xrightharpoonup{}}{PA}=100\\overset{\\xrightharpoonup{}}{PB}+99\\overset{\\xrightharpoonup{}}{PC}$\n(5) $\\overset{\\xrightharpoonup{}}{PA}=100\\overset{\\xrightharpoonup{}}{PB}-99\\overset{\\xrightharpoonup{}}{PC}$',
+      '平面上有四點 $P$、$A$、$B$、$C$，下列哪些條件可保證 $A$、$B$、$C$ 三點在同一直線上？\n(1) $\\xvector{AB}=100\\xvector{BC}$\n(2) $\\xvector{PA}=\\xvector{PB}+\\xvector{PC}$\n(3) $\\xvector{PA}=\\frac{2}{3}\\xvector{PB}+\\frac{1}{3}\\xvector{PC}$\n(4) $\\xvector{PA}=100\\xvector{PB}+99\\xvector{PC}$\n(5) $\\xvector{PA}=100\\xvector{PB}-99\\xvector{PC}$',
     answer: '(1)(3)(5)',
     hasImage: false,
   },
@@ -11147,7 +11146,7 @@ export const bank: Question[] = [
     id: '17c5bdc51bf',
     chapter: '平面向量',
     question:
-      '若 $A$、$B$、$C$ 三點共線，$P$ 為線外一點，且 $4\\overset{\\xrightharpoonup{}}{PA}+5\\overset{\\xrightharpoonup{}}{PB}+x\\overset{\\xrightharpoonup{}}{PC}=2\\overset{\\xrightharpoonup{}}{CA}$，求 $x$ 並求長度比值 $\\frac{\\overline{AB}}{\\overline{BC}}$。',
+      '若 $A$、$B$、$C$ 三點共線，$P$ 為線外一點，且 $4\\xvector{PA}+5\\xvector{PB}+x\\xvector{PC}=2\\xvector{CA}$，求 $x$ 並求長度比值 $\\frac{\\overline{AB}}{\\overline{BC}}$。',
     answer: '$-9$；$\\frac{7}{2}$',
     hasImage: false,
   },
@@ -11155,7 +11154,7 @@ export const bank: Question[] = [
     id: '17c5be5dc06',
     chapter: '平面向量',
     question:
-      '如圖所示，兩射線 $OA$ 與 $OB$ 交於 $O$ 點，試問下列選項中哪些向量的終點 $P$，會落在陰影區域內？\n(1) $\\overset{\\xrightharpoonup{}}{OP}=\\overset{\\xrightharpoonup{}}{OA}+2\\overset{\\xrightharpoonup{}}{OB}$\n(2) $\\overset{\\xrightharpoonup{}}{OP}=\\frac{3}{4}\\overset{\\xrightharpoonup{}}{OA}+\\frac{1}{3}\\overset{\\xrightharpoonup{}}{OB}$\n(3) $\\overset{\\xrightharpoonup{}}{OP}=\\frac{3}{4}\\overset{\\xrightharpoonup{}}{OA}-\\frac{1}{3}\\overset{\\xrightharpoonup{}}{OB}$\n(4) $\\overset{\\xrightharpoonup{}}{OP}=\\frac{3}{4}\\overset{\\xrightharpoonup{}}{OA}+\\frac{1}{5}\\overset{\\xrightharpoonup{}}{OB}$\n(5) $\\overset{\\xrightharpoonup{}}{OP}=\\frac{3}{4}\\overset{\\xrightharpoonup{}}{OA}-\\frac{1}{5}\\overset{\\xrightharpoonup{}}{OB}$',
+      '如圖所示，兩射線 $OA$ 與 $OB$ 交於 $O$ 點，試問下列選項中哪些向量的終點 $P$，會落在陰影區域內？\n(1) $\\xvector{OP}=\\xvector{OA}+2\\xvector{OB}$\n(2) $\\xvector{OP}=\\frac{3}{4}\\xvector{OA}+\\frac{1}{3}\\xvector{OB}$\n(3) $\\xvector{OP}=\\frac{3}{4}\\xvector{OA}-\\frac{1}{3}\\xvector{OB}$\n(4) $\\xvector{OP}=\\frac{3}{4}\\xvector{OA}+\\frac{1}{5}\\xvector{OB}$\n(5) $\\xvector{OP}=\\frac{3}{4}\\xvector{OA}-\\frac{1}{5}\\xvector{OB}$',
     answer: '(1)(2)',
     hasImage: true,
   },
@@ -11163,7 +11162,7 @@ export const bank: Question[] = [
     id: '17c5bec7255',
     chapter: '平面向量',
     question:
-      '下列哪些選項的向量關係式可保證 $A$ 點會落在 $\\overline{BC}$ 上？\n(1) $\\overset{\\xrightharpoonup{}}{AB}+\\overset{\\xrightharpoonup{}}{CB}=\\overset{\\xrightharpoonup{}}{0}$\n(2) $5\\overset{\\xrightharpoonup{}}{PA}=2\\overset{\\xrightharpoonup{}}{PB}+3\\overset{\\xrightharpoonup{}}{PC}$\n(3) $\\sqrt{5}\\overset{\\xrightharpoonup{}}{PA}=\\sqrt{2}\\overset{\\xrightharpoonup{}}{PB}+\\sqrt{3}\\overset{\\xrightharpoonup{}}{PC}$\n(4) $3\\overset{\\xrightharpoonup{}}{PB}=\\overset{\\xrightharpoonup{}}{PA}+2\\overset{\\xrightharpoonup{}}{PC}$\n(5) $\\overset{\\xrightharpoonup{}}{PB}=4\\overset{\\xrightharpoonup{}}{PC}-3\\overset{\\xrightharpoonup{}}{PA}$',
+      '下列哪些選項的向量關係式可保證 $A$ 點會落在 $\\overline{BC}$ 上？\n(1) $\\xvector{AB}+\\xvector{CB}=\\xvector{0}$\n(2) $5\\xvector{PA}=2\\xvector{PB}+3\\xvector{PC}$\n(3) $\\sqrt{5}\\xvector{PA}=\\sqrt{2}\\xvector{PB}+\\sqrt{3}\\xvector{PC}$\n(4) $3\\xvector{PB}=\\xvector{PA}+2\\xvector{PC}$\n(5) $\\xvector{PB}=4\\xvector{PC}-3\\xvector{PA}$',
     answer: '(2)',
     hasImage: false,
   },
@@ -11171,7 +11170,7 @@ export const bank: Question[] = [
     id: '17c5bf60b7b',
     chapter: '平面向量',
     question:
-      '若 $C$ 在 $\\overset{\\longleftrightarrow{}}{AB}$ 上，$P$ 在 $\\overset{\\longleftrightarrow{}}{AB}$ 外，且 $\\overset{\\xrightharpoonup{}}{PB}=(3t+4)\\overset{\\xrightharpoonup{}}{PA}+(t+9)\\overset{\\xrightharpoonup{}}{PC}$，求 $t$。',
+      '若 $C$ 在 $\\overset{\\longleftrightarrow{}}{AB}$ 上，$P$ 在 $\\overset{\\longleftrightarrow{}}{AB}$ 外，且 $\\xvector{PB}=(3t+4)\\xvector{PA}+(t+9)\\xvector{PC}$，求 $t$。',
     answer: '$-3$',
     hasImage: false,
   },
@@ -11179,7 +11178,7 @@ export const bank: Question[] = [
     id: '17c5ee185ce',
     chapter: '平面向量',
     question:
-      '平面上有點 $P$ 與 $\\triangle ABC$，滿足 $\\overset{\\xrightharpoonup{}}{AP}=\\alpha\\overset{\\xrightharpoonup{}}{AB}+\\beta\\overset{\\xrightharpoonup{}}{AC}$，則 $(\\alpha,\\beta)$ 為下列哪一個選項時，$P$ 會在 $\\triangle ABC$ 的內部(不含邊界)？\n(1) $(\\frac{2}{3},\\frac{3}{4})$ (2) $(-\\frac{2}{5},\\frac{6}{7})$ (3) $(-\\frac{6}{7},\\frac{13}{9})$\n(4) $(\\frac{1}{2},\\frac{1}{3})$ (5) $(\\frac{2}{5},\\frac{3}{5})$',
+      '平面上有點 $P$ 與 $\\triangle ABC$，滿足 $\\xvector{AP}=\\alpha\\xvector{AB}+\\beta\\xvector{AC}$，則 $(\\alpha,\\beta)$ 為下列哪一個選項時，$P$ 會在 $\\triangle ABC$ 的內部(不含邊界)？\n(1) $(\\frac{2}{3},\\frac{3}{4})$ (2) $(-\\frac{2}{5},\\frac{6}{7})$ (3) $(-\\frac{6}{7},\\frac{13}{9})$\n(4) $(\\frac{1}{2},\\frac{1}{3})$ (5) $(\\frac{2}{5},\\frac{3}{5})$',
     answer: '(4)',
     hasImage: false,
   },
@@ -11187,7 +11186,7 @@ export const bank: Question[] = [
     id: '17c5f05b801',
     chapter: '平面向量',
     question:
-      '$\\triangle ABC$ 中，$D$ 為 $\\overline{AB}$ 中點，$E$ 在 $\\overline{AC}$ 上，且 $\\overline{AC}=3\\overline{AE}$，$\\overline{BE}$ 與 $\\overline{CD}$ 交於 $F$，若 $\\overset{\\xrightharpoonup{}}{AF}=x\\overset{\\xrightharpoonup{}}{AB}+y\\overset{\\xrightharpoonup{}}{AC}$，求數對 $(x,y)$。',
+      '$\\triangle ABC$ 中，$D$ 為 $\\overline{AB}$ 中點，$E$ 在 $\\overline{AC}$ 上，且 $\\overline{AC}=3\\overline{AE}$，$\\overline{BE}$ 與 $\\overline{CD}$ 交於 $F$，若 $\\xvector{AF}=x\\xvector{AB}+y\\xvector{AC}$，求數對 $(x,y)$。',
     answer: '$(\\frac{2}{5},\\frac{1}{5})$',
     hasImage: true,
   },
@@ -11195,7 +11194,7 @@ export const bank: Question[] = [
     id: '17c5f8ceff5',
     chapter: '平面向量',
     question:
-      '平行四邊形$ABCD$，$P$ 在 $\\overline{AB}$ 上且 $\\overline{AP}:\\overline{PB}=1:3$，$Q$ 在 $\\overline{CD}$ 上且 $\\overline{CQ}:\\overline{QD}=2:5$，$\\overline{PQ}$ 交 $\\overline{AC}$ 於 $G$。若 $\\overset{\\xrightharpoonup{}}{BG}=x\\overset{\\xrightharpoonup{}}{BA}+y\\overset{\\xrightharpoonup{}}{BC}$，求數對 $(x,y)$。',
+      '平行四邊形$ABCD$，$P$ 在 $\\overline{AB}$ 上且 $\\overline{AP}:\\overline{PB}=1:3$，$Q$ 在 $\\overline{CD}$ 上且 $\\overline{CQ}:\\overline{QD}=2:5$，$\\overline{PQ}$ 交 $\\overline{AC}$ 於 $G$。若 $\\xvector{BG}=x\\xvector{BA}+y\\xvector{BC}$，求數對 $(x,y)$。',
     answer: '$(\\frac{8}{15},\\frac{7}{15})$',
     hasImage: true,
   },
@@ -11203,7 +11202,7 @@ export const bank: Question[] = [
     id: '17c5f9ca487',
     chapter: '平面向量',
     question:
-      '如圖，$D$ 在 $\\overline{AB}$ 上且 $2\\overset{\\xrightharpoonup{}}{AD}=\\overset{\\xrightharpoonup{}}{DB}$，$E$ 在 $\\overline{AC}$ 上且 $\\overset{\\xrightharpoonup{}}{AE}=3\\overset{\\xrightharpoonup{}}{EC}$，$\\overline{BE}$ 與 $\\overline{CD}$ 交於 $F$，$\\overset{\\xrightharpoonup{}}{AF}=x\\overset{\\xrightharpoonup{}}{AB}+y\\overset{\\xrightharpoonup{}}{AC}$，求數對 $(x,y)$。',
+      '如圖，$D$ 在 $\\overline{AB}$ 上且 $2\\xvector{AD}=\\xvector{DB}$，$E$ 在 $\\overline{AC}$ 上且 $\\xvector{AE}=3\\xvector{EC}$，$\\overline{BE}$ 與 $\\overline{CD}$ 交於 $F$，$\\xvector{AF}=x\\xvector{AB}+y\\xvector{AC}$，求數對 $(x,y)$。',
     answer: '$(\\frac{1}{9},\\frac{2}{3})$',
     hasImage: true,
   },
@@ -11211,7 +11210,7 @@ export const bank: Question[] = [
     id: '17c5faa0582',
     chapter: '平面向量',
     question:
-      '平行四邊形 $ABCD$，$E$、$F$ 各在 $\\overline{BC}$、$\\overline{CD}$ 上，且 $\\overline{BE}:\\overline{EC}=4:3$，$\\overline{CF}:\\overline{FD}=2:5$，$\\overline{BF}$ 交 $\\overline{DE}$ 於 $G$。若 $\\overset{\\xrightharpoonup{}}{AG}=x\\overset{\\xrightharpoonup{}}{AB}+y\\overset{\\xrightharpoonup{}}{AD}$，求數對 $(x,y)$。',
+      '平行四邊形 $ABCD$，$E$、$F$ 各在 $\\overline{BC}$、$\\overline{CD}$ 上，且 $\\overline{BE}:\\overline{EC}=4:3$，$\\overline{CF}:\\overline{FD}=2:5$，$\\overline{BF}$ 交 $\\overline{DE}$ 於 $G$。若 $\\xvector{AG}=x\\xvector{AB}+y\\xvector{AD}$，求數對 $(x,y)$。',
     answer: '$(\\frac{35}{43},\\frac{28}{43})$',
     hasImage: false,
   },
@@ -11219,7 +11218,7 @@ export const bank: Question[] = [
     id: '17c5fdff0c5',
     chapter: '平面向量',
     question:
-      '平面上三點 $A(5,-1)$、$B(7,12)$、$C(15,4)$，若有一點 $P$ 滿足 $\\overset{\\xrightharpoonup{}}{PA}+\\overset{\\xrightharpoonup{}}{PB}+\\overset{\\xrightharpoonup{}}{PC}=\\overset{\\xrightharpoonup{}}{0}$，求 $P$ 坐標。',
+      '平面上三點 $A(5,-1)$、$B(7,12)$、$C(15,4)$，若有一點 $P$ 滿足 $\\xvector{PA}+\\xvector{PB}+\\xvector{PC}=\\xvector{0}$，求 $P$ 坐標。',
     answer: '$(9,5)$',
     hasImage: false,
   },
@@ -11227,7 +11226,7 @@ export const bank: Question[] = [
     id: '17c5fea4983',
     chapter: '平面向量',
     question:
-      '若在 $\\triangle ABC$ 的三邊 $\\overline{BC}$、$\\overline{CA}$、$\\overline{AB}$ 上分別取 $D$、$E$、$F$ 三點，使 $\\overset{\\xrightharpoonup{}}{DC}=4\\overset{\\xrightharpoonup{}}{BD}$，$\\overset{\\xrightharpoonup{}}{EC}=2\\overset{\\xrightharpoonup{}}{AE}$，$\\overset{\\xrightharpoonup{}}{FB}=3\\overset{\\xrightharpoonup{}}{AF}$，設 $G$ 為 $\\triangle DEF$ 的重心，$\\overset{\\xrightharpoonup{}}{AG}=x\\overset{\\xrightharpoonup{}}{AB}+y\\overset{\\xrightharpoonup{}}{AC}$，求數對 $(x,y)$。',
+      '若在 $\\triangle ABC$ 的三邊 $\\overline{BC}$、$\\overline{CA}$、$\\overline{AB}$ 上分別取 $D$、$E$、$F$ 三點，使 $\\xvector{DC}=4\\xvector{BD}$，$\\xvector{EC}=2\\xvector{AE}$，$\\xvector{FB}=3\\xvector{AF}$，設 $G$ 為 $\\triangle DEF$ 的重心，$\\xvector{AG}=x\\xvector{AB}+y\\xvector{AC}$，求數對 $(x,y)$。',
     answer: '$(\\frac{7}{20},\\frac{8}{45})$',
     hasImage: true,
   },
@@ -11235,7 +11234,7 @@ export const bank: Question[] = [
     id: '17c5fef7805',
     chapter: '平面向量',
     question:
-      '$\\triangle ABC$ 中，$\\overline{AB}=4$，$\\overline{BC}=2$，$\\overline{CA}=3$，$I$ 為其內心，且 $\\overset{\\xrightharpoonup{}}{AB}=x\\overset{\\xrightharpoonup{}}{AI}+y\\overset{\\xrightharpoonup{}}{IC}$，求數對 $(x,y)$。',
+      '$\\triangle ABC$ 中，$\\overline{AB}=4$，$\\overline{BC}=2$，$\\overline{CA}=3$，$I$ 為其內心，且 $\\xvector{AB}=x\\xvector{AI}+y\\xvector{IC}$，求數對 $(x,y)$。',
     answer: '$(\\frac{5}{3},-\\frac{4}{3})$',
     hasImage: false,
   },
@@ -11259,7 +11258,7 @@ export const bank: Question[] = [
     id: '17c5ffd658c',
     chapter: '平面向量',
     question:
-      '$\\triangle ABC$ 中，$\\overline{AB}=4$，$\\overline{BC}=5$，$\\overline{CA}=7$，設 $I$ 為其內心，且 $\\overset{\\xrightharpoonup{}}{AI}=x\\overset{\\xrightharpoonup{}}{AB}+y\\overset{\\xrightharpoonup{}}{AC}$，求數對 $(x,y)$。',
+      '$\\triangle ABC$ 中，$\\overline{AB}=4$，$\\overline{BC}=5$，$\\overline{CA}=7$，設 $I$ 為其內心，且 $\\xvector{AI}=x\\xvector{AB}+y\\xvector{AC}$，求數對 $(x,y)$。',
     answer: '$(\\frac{7}{16},\\frac{1}{4})$',
     hasImage: false,
   },
@@ -11352,7 +11351,7 @@ export const bank: Question[] = [
     id: '17c72eae50f',
     chapter: '平面向量',
     question:
-      '若 $|\\overset{\\xrightharpoonup{}}{a}|=2$，$|\\overset{\\xrightharpoonup{}}{b}|=3$，$\\overset{\\xrightharpoonup{}}{a}\\cdot\\overset{\\xrightharpoonup{}}{b}=-3\\sqrt{2}$，則 $\\overset{\\xrightharpoonup{}}{a}$ 與 $\\overset{\\xrightharpoonup{}}{b}$ 的夾角為多少弳？',
+      '若 $|\\vector{a}|=2$，$|\\vector{b}|=3$，$\\vector{a}\\cdot\\vector{b}=-3\\sqrt{2}$，則 $\\vector{a}$ 與 $\\vector{b}$ 的夾角為多少弳？',
     answer: '$\\frac{3\\pi}{4}$',
     hasImage: false,
   },
@@ -11360,7 +11359,7 @@ export const bank: Question[] = [
     id: '17c6f72cb2e',
     chapter: '平面向量',
     question:
-      '已知 $\\overset{\\xrightharpoonup{}}{a}=(3,4)$，$\\overset{\\xrightharpoonup{}}{b}=(1,x)$，若 $\\overset{\\xrightharpoonup{}}{a}$ 與 $\\overset{\\xrightharpoonup{}}{b}$ 的夾角為 $135^\\circ$，求 $x$。',
+      '已知 $\\vector{a}=(3,4)$，$\\vector{b}=(1,x)$，若 $\\vector{a}$ 與 $\\vector{b}$ 的夾角為 $135^\\circ$，求 $x$。',
     answer: '$-7$',
     hasImage: false,
   },
@@ -11368,7 +11367,7 @@ export const bank: Question[] = [
     id: '17c6f759d67',
     chapter: '平面向量',
     question:
-      '$\\overset{\\xrightharpoonup{}}{a}=(2,11)$，$\\overset{\\xrightharpoonup{}}{b}=(3,6)$，求 $\\overset{\\xrightharpoonup{}}{a}$ 與 $\\overset{\\xrightharpoonup{}}{b}$ 夾角的正弦值。',
+      '$\\vector{a}=(2,11)$，$\\vector{b}=(3,6)$，求 $\\vector{a}$ 與 $\\vector{b}$ 夾角的正弦值。',
     answer: '$\\frac{7}{25}$',
     hasImage: false,
   },
@@ -11376,7 +11375,7 @@ export const bank: Question[] = [
     id: '17c6f79722a',
     chapter: '平面向量',
     question:
-      '已知 $2\\overset{\\xrightharpoonup{}}{a}-\\overset{\\xrightharpoonup{}}{b}=(-1,\\sqrt{3})$，$\\overset{\\xrightharpoonup{}}{c}=(1,\\sqrt{3})$，$\\overset{\\xrightharpoonup{}}{a}\\cdot\\overset{\\xrightharpoonup{}}{c}=3$，$|\\overset{\\xrightharpoonup{}}{b}|=4$，試求 $\\overset{\\xrightharpoonup{}}{b}$ 與 $\\overset{\\xrightharpoonup{}}{c}$ 的夾角。',
+      '已知 $2\\vector{a}-\\vector{b}=(-1,\\sqrt{3})$，$\\vector{c}=(1,\\sqrt{3})$，$\\vector{a}\\cdot\\vector{c}=3$，$|\\vector{b}|=4$，試求 $\\vector{b}$ 與 $\\vector{c}$ 的夾角。',
     answer: '$60^{\\circ}$',
     hasImage: false,
   },
@@ -11384,7 +11383,7 @@ export const bank: Question[] = [
     id: '17c6f904640',
     chapter: '平面向量',
     question:
-      '$|\\overset{\\xrightharpoonup{}}{a}|=1$，$|\\overset{\\xrightharpoonup{}}{b}|=3$，$|\\overset{\\xrightharpoonup{}}{a}-\\overset{\\xrightharpoonup{}}{b}|=\\sqrt{7}$，求：(1) $\\overset{\\xrightharpoonup{}}{a}$ 與 $\\overset{\\xrightharpoonup{}}{b}$ 的夾角\n(2) $|t\\overset{\\xrightharpoonup{}}{a}+\\overset{\\xrightharpoonup{}}{b}|$ 的最小值及此時的 $t$。',
+      '$|\\vector{a}|=1$，$|\\vector{b}|=3$，$|\\vector{a}-\\vector{b}|=\\sqrt{7}$，求：(1) $\\vector{a}$ 與 $\\vector{b}$ 的夾角\n(2) $|t\\vector{a}+\\vector{b}|$ 的最小值及此時的 $t$。',
     answer: '(1) $60^{\\circ}$ (2) $\\frac{3\\sqrt{3}}{2}$；$-\\frac{3}{2}$',
     hasImage: false,
   },
@@ -11392,7 +11391,7 @@ export const bank: Question[] = [
     id: '17c6f95b5b1',
     chapter: '平面向量',
     question:
-      '$2\\overset{\\xrightharpoonup{}}{a}+\\overset{\\xrightharpoonup{}}{b}+3\\overset{\\xrightharpoonup{}}{c}=\\overset{\\xrightharpoonup{}}{0}$，且 $|\\overset{\\xrightharpoonup{}}{a}|=\\sqrt{7}$，$|\\overset{\\xrightharpoonup{}}{b}|=2$，$|\\overset{\\xrightharpoonup{}}{c}|=2$，求：\n(1) $\\overset{\\xrightharpoonup{}}{a}\\cdot\\overset{\\xrightharpoonup{}}{b}$ (2) $|\\overset{\\xrightharpoonup{}}{a}+\\overset{\\xrightharpoonup{}}{b}-6\\overset{\\xrightharpoonup{}}{c}|$',
+      '$2\\vector{a}+\\vector{b}+3\\vector{c}=\\xvector{0}$，且 $|\\vector{a}|=\\sqrt{7}$，$|\\vector{b}|=2$，$|\\vector{c}|=2$，求：\n(1) $\\vector{a}\\cdot\\vector{b}$ (2) $|\\vector{a}+\\vector{b}-6\\vector{c}|$',
     answer: '(1) $1$ (2) $\\sqrt{241}$',
     hasImage: false,
   },
@@ -11400,7 +11399,7 @@ export const bank: Question[] = [
     id: '17c6f99c610',
     chapter: '平面向量',
     question:
-      '$|\\overset{\\xrightharpoonup{}}{a}|=1$，$|\\overset{\\xrightharpoonup{}}{b}|=3$，$\\overset{\\xrightharpoonup{}}{a}$ 與 $\\overset{\\xrightharpoonup{}}{b}$ 的夾角為 $\\cos^{-1}\\frac{1}{3}$，求 $|2\\overset{\\xrightharpoonup{}}{a}+3\\overset{\\xrightharpoonup{}}{b}|$。',
+      '$|\\vector{a}|=1$，$|\\vector{b}|=3$，$\\vector{a}$ 與 $\\vector{b}$ 的夾角為 $\\cos^{-1}\\frac{1}{3}$，求 $|2\\vector{a}+3\\vector{b}|$。',
     answer: '$\\sqrt{97}$',
     hasImage: false,
   },
@@ -11408,7 +11407,7 @@ export const bank: Question[] = [
     id: '17c6fd7598e',
     chapter: '平面向量',
     question:
-      '設 $\\overset{\\xrightharpoonup{}}{a}+\\overset{\\xrightharpoonup{}}{b}+\\overset{\\xrightharpoonup{}}{c}=\\overset{\\xrightharpoonup{}}{0}$，$|\\overset{\\xrightharpoonup{}}{a}|=2$，$|\\overset{\\xrightharpoonup{}}{b}|=1$，$|\\overset{\\xrightharpoonup{}}{c}|=2$，求 $\\overset{\\xrightharpoonup{}}{a}\\cdot\\overset{\\xrightharpoonup{}}{b}+\\overset{\\xrightharpoonup{}}{b}\\cdot\\overset{\\xrightharpoonup{}}{c}+\\overset{\\xrightharpoonup{}}{c}\\cdot\\overset{\\xrightharpoonup{}}{a}$。',
+      '設 $\\vector{a}+\\vector{b}+\\vector{c}=\\xvector{0}$，$|\\vector{a}|=2$，$|\\vector{b}|=1$，$|\\vector{c}|=2$，求 $\\vector{a}\\cdot\\vector{b}+\\vector{b}\\cdot\\vector{c}+\\vector{c}\\cdot\\vector{a}$。',
     answer: '$-\\frac{9}{2}$',
     hasImage: false,
   },
@@ -11416,7 +11415,7 @@ export const bank: Question[] = [
     id: '17c6fdc3a65',
     chapter: '平面向量',
     question:
-      '$\\overset{\\xrightharpoonup{}}{a}=(3,5)$，$\\overset{\\xrightharpoonup{}}{b}=(1,1)$，求：\n(1) $\\overset{\\xrightharpoonup{}}{a}$ 在 $\\overset{\\xrightharpoonup{}}{b}$ 上的正射影\n(2) $\\overset{\\xrightharpoonup{}}{b}$ 在 $\\overset{\\xrightharpoonup{}}{a}$ 上的正射影',
+      '$\\vector{a}=(3,5)$，$\\vector{b}=(1,1)$，求：\n(1) $\\vector{a}$ 在 $\\vector{b}$ 上的正射影\n(2) $\\vector{b}$ 在 $\\vector{a}$ 上的正射影',
     answer: '(1) $(4,4)$ (2) $(\\frac{12}{17},\\frac{20}{17})$',
     hasImage: false,
   },
@@ -11424,7 +11423,7 @@ export const bank: Question[] = [
     id: '17c6fe02cb9',
     chapter: '平面向量',
     question:
-      '已知平面上 $A(a,1)$、$B(2,a+1)$、$C(3,1)$、$D(-1,2)$ 四點，若 $\\overset{\\xrightharpoonup{}}{AB}$ 在 $\\overset{\\xrightharpoonup{}}{CD}$ 上的正射影為 $(2,b)$，求數對 $(a,b)$。',
+      '已知平面上 $A(a,1)$、$B(2,a+1)$、$C(3,1)$、$D(-1,2)$ 四點，若 $\\xvector{AB}$ 在 $\\xvector{CD}$ 上的正射影為 $(2,b)$，求數對 $(a,b)$。',
     answer: '$(-\\frac{1}{10},-\\frac{1}{2})$',
     hasImage: false,
   },
@@ -11432,7 +11431,7 @@ export const bank: Question[] = [
     id: '17c6fe8418e',
     chapter: '平面向量',
     question:
-      '$\\overset{\\xrightharpoonup{}}{a}=(5,2)$，$\\overset{\\xrightharpoonup{}}{b}=(-1,3)$，求 $\\overset{\\xrightharpoonup{}}{a}$ 在 $\\overset{\\xrightharpoonup{}}{b}$ 上的正射影及 $\\overset{\\xrightharpoonup{}}{b}$ 在 $\\overset{\\xrightharpoonup{}}{a}$ 上的正射影。',
+      '$\\vector{a}=(5,2)$，$\\vector{b}=(-1,3)$，求 $\\vector{a}$ 在 $\\vector{b}$ 上的正射影及 $\\vector{b}$ 在 $\\vector{a}$ 上的正射影。',
     answer: '$(-\\frac{1}{10},\\frac{3}{10})$；$(\\frac{5}{29},\\frac{2}{29})$',
     hasImage: false,
   },
@@ -11440,7 +11439,7 @@ export const bank: Question[] = [
     id: '17c6fe40782',
     chapter: '平面向量',
     question:
-      '已知平面上三點 $A(1,2)$、$B(4,-2)$、$C(-6,3)$，若 $C$ 點在直線 $AB$ 上的投影為 $H$ 點，求 $\\overset{\\xrightharpoonup{}}{BH}$ 和 $H$ 的坐標。',
+      '已知平面上三點 $A(1,2)$、$B(4,-2)$、$C(-6,3)$，若 $C$ 點在直線 $AB$ 上的投影為 $H$ 點，求 $\\xvector{BH}$ 和 $H$ 的坐標。',
     answer: '$(-6,8)$；$(-2,6)$',
     hasImage: false,
   },
@@ -11511,8 +11510,408 @@ export const bank: Question[] = [
     id: '17c72eae50f',
     chapter: '平面向量',
     question:
-      '若 $|\\overset{\\xrightharpoonup{}}{a}|=2$，$|\\overset{\\xrightharpoonup{}}{b}|=3$，$\\overset{\\xrightharpoonup{}}{a}\\cdot\\overset{\\xrightharpoonup{}}{b}=-3\\sqrt{2}$，則 $\\overset{\\xrightharpoonup{}}{a}$ 與 $\\overset{\\xrightharpoonup{}}{b}$ 的夾角為多少弳？',
+      '若 $|\\vector{a}|=2$，$|\\vector{b}|=3$，$\\vector{a}\\cdot\\vector{b}=-3\\sqrt{2}$，則 $\\vector{a}$ 與 $\\vector{b}$ 的夾角為多少弳？',
     answer: '$\\frac{3\\pi}{4}$',
+    hasImage: false,
+  },
+  {
+    id: '17c91adfe99',
+    chapter: '選修數乙',
+    question:
+      '函數 $f(x)=3x^2+x+7$，求：\n(1) $(3,f(3))$ 和 $(5,f(5))$ 的割線斜率\n(2) 在 $x=2$ 的切線斜率',
+    answer: '',
+    hasImage: false,
+  },
+  {
+    id: '17c91aff47f',
+    chapter: '選修數乙',
+    question: '求拋物線 $f(x)=2x^2-x+3$ 在 $x=1$ 的導數及過點 $(1,4)$ 的切線方程式。',
+    answer: '',
+    hasImage: false,
+  },
+  {
+    id: '17c91b1a092',
+    chapter: '選修數乙',
+    question:
+      '函數 $v(t)=2t^2+t-5$，求：\n(1) $(1,v(1))$ 和 $(4,v(4))$ 的割線斜率\n(2) 在 $t=3$ 的切線斜率',
+    answer: '',
+    hasImage: false,
+  },
+  {
+    id: '17c91b21f64',
+    chapter: '選修數乙',
+    question: '求 $f(x)=3x^2+x+1$ 在 $x=3$ 處的切線方程式。',
+    answer: '',
+    hasImage: false,
+  },
+  {
+    id: '17c91b2b515',
+    chapter: '選修數乙',
+    question: "設 $f(x)=\\frac{(x-1)(x-2)(x-3)(x-5)}{x-4}$，求 $f'(1)$。",
+    answer: '',
+    hasImage: false,
+  },
+  {
+    id: '17c91b52ada',
+    chapter: '選修數乙',
+    question:
+      "若多項式 $f(x)$ 滿足 $f(1)=0$，$f'(1)=-15$，求 $\\displaystyle\\lim_{h\\to0}\\tfrac{f(1+h)}{3h}$。",
+    answer: '',
+    hasImage: false,
+  },
+  {
+    id: '17c91b600fe',
+    chapter: '選修數乙',
+    question: "設 $f(x)=\\dfrac{(x-5)(x+3)^3(x+4)^2}{2(2x-1)^2(13-x)^3}$，求 $f'(5)$ 及 $f'(-4)$。",
+    answer: '',
+    hasImage: false,
+  },
+  {
+    id: '17c91b98995',
+    chapter: '選修數乙',
+    question: "已知 $f(3)=0$，$f'(3)=20$，求 $\\displaystyle\\lim_{h\\to0}\\tfrac{f(3+h)}{4h}$。",
+    answer: '',
+    hasImage: false,
+  },
+  {
+    id: '17c91bb4a4b',
+    chapter: '選修數乙',
+    question: '設 $f(x)=3x^5-2x^4+5x^3-3x^2+x-7$，求 $\\dv xf(x)$。',
+    answer: '',
+    hasImage: false,
+  },
+  {
+    id: '17c91bc76bd',
+    chapter: '選修數乙',
+    question: "$x\\neq0$，$f(x)=\\dfrac1x-\\dfrac3{x^2}+\\dfrac5{x^4}$，求 $f'(x)$ 及 $f'(1)$。",
+    answer: '',
+    hasImage: false,
+  },
+  {
+    id: '17c91bce4f5',
+    chapter: '選修數乙',
+    question: "$x>0$，$f(x)=3\\sqrt{x}-5\\sqrt[3]{x}+\\sqrt[4]{x^3}$，求 $f'(x)$ 及 $f'(1)$。",
+    answer: '',
+    hasImage: false,
+  },
+  {
+    id: '17c91bd468e',
+    chapter: '選修數乙',
+    question: "設 $f(x)=2x^3+7x^2+x-1$，求 $f'(x)$。",
+    answer: '',
+    hasImage: false,
+  },
+  {
+    id: '17c91be0266',
+    chapter: '選修數乙',
+    question: "設 $f(x)=\\dfrac1x-\\dfrac2{x^2}+\\dfrac3{x^3}$，求 $f'(1)$。",
+    answer: '',
+    hasImage: false,
+  },
+  {
+    id: '17c91bebd27',
+    chapter: '選修數乙',
+    question: "設 $x>0$，$f(x)=6\\sqrt{x}-9\\sqrt[3]{x^2}+1$，求 $f'(x)$ 及 $f'(1)$。",
+    answer: '',
+    hasImage: false,
+  },
+  {
+    id: '17c91bf4687',
+    chapter: '選修數乙',
+    question: "設 $f(x)=(x^2+x-3)(3x^4+2x+4)$，求 $f'(-1)$。",
+    answer: '',
+    hasImage: false,
+  },
+  {
+    id: '17c91bfa87f',
+    chapter: '選修數乙',
+    question: "設 $f(x)=\\dfrac{x^3-1}{x^2+x+1}$，求 $f'(2)$。",
+    answer: '',
+    hasImage: false,
+  },
+  {
+    id: '17c91c009a0',
+    chapter: '選修數乙',
+    question: "設 $f(x)=(x^2-x+1)(x^2+x+1)$，求 $f'(1)$。",
+    answer: '',
+    hasImage: false,
+  },
+  {
+    id: '17c91c0817e',
+    chapter: '選修數乙',
+    question: "設 $f(x)=\\frac{x-2}{x+1}$，求 $f'(1)$。",
+    answer: '',
+    hasImage: false,
+  },
+  {
+    id: '17c91c183cc',
+    chapter: '選修數乙',
+    question: '設 $f(x)=(x^2+2x+3)^6$，求 $\\dv xf(x)$。',
+    answer: '',
+    hasImage: false,
+  },
+  {
+    id: '17c91cbbe13',
+    chapter: '選修數乙',
+    question: "設 $f(x)=\\sqrt{x^2+6x+2}$，求 $f'(1)$。",
+    answer: '',
+    hasImage: false,
+  },
+  {
+    id: '17c91cc6891',
+    chapter: '選修數乙',
+    question: "設 $f(x)=(x^2+1)^4$，求 $f'(1)$。",
+    answer: '',
+    hasImage: false,
+  },
+  {
+    id: '17c91cd2311',
+    chapter: '選修數乙',
+    question: "設 $f(x)=\\sqrt{ax^2-1}$ 且 $f'(1)=2$，求 $a$。",
+    answer: '',
+    hasImage: false,
+  },
+  {
+    id: '17c91ce7cd0',
+    chapter: '選修數乙',
+    question:
+      '設 $f(x)=\\begin{cases}x^3+2x+3,x\\le1\\\\x^2+ax+b,x>1\\end{cases}$，若 $f(x)$ 在 $x=1$ 可微分，試求數對 $(a,b)$。',
+    answer: '',
+    hasImage: false,
+  },
+  {
+    id: '17c91cf64d3',
+    chapter: '選修數乙',
+    question:
+      "已知 $f(x)=\\begin{cases}\\sqrt[3]x,x\\le1\\\\ax+b,x>1\\end{cases}$，若 $f'(1)$ 存在，試求數對 $(a,b)$。",
+    answer: '',
+    hasImage: false,
+  },
+  {
+    id: '17c91d001fd',
+    chapter: '選修數乙',
+    question: '試求 $f(x)=x^3+6x^2-15x+7$ 遞增的區間及遞減的區間。',
+    answer: '',
+    hasImage: false,
+  },
+  {
+    id: '17c91d094c1',
+    chapter: '選修數乙',
+    question:
+      '已知 $a\\in\\mathbb{R}$，若 $f(x)=ax^3+3x^2+(a+2)x+6$ 恆為遞減函數，試求 $a$ 的範圍。',
+    answer: '',
+    hasImage: false,
+  },
+  {
+    id: '17c91d11cb7',
+    chapter: '選修數乙',
+    question: '設 $f(x)=x^4-2x^2+1$，試求函數 $f(x)$ 的遞增區間及遞減區間。',
+    answer: '',
+    hasImage: false,
+  },
+  {
+    id: '17c91d2fd27',
+    chapter: '選修數乙',
+    question: '已知 $a\\in\\mathbb{R}$，若 $f(x)=x^3+2x^2+ax+5$ 恆為遞增函數，求 $a$ 的範圍。',
+    answer: '',
+    hasImage: false,
+  },
+  {
+    id: '17c91d40727',
+    chapter: '選修數乙',
+    question: '求 $f(x)=2x^3+3x^2-12x-7$ 的極值及發生極值時的 $x$ 值。',
+    answer: '',
+    hasImage: false,
+  },
+  {
+    id: '17c91d49212',
+    chapter: '選修數乙',
+    question: '求 $f(x)=-x^3-3x^2+9x+5$ 的極值及發生極值時的 $x$ 值。',
+    answer: '',
+    hasImage: false,
+  },
+  {
+    id: '17c91d586ed',
+    chapter: '選修數乙',
+    question:
+      '設 $y=f(x)=2x^3+3x^2-12x+1$，$-3\\le x\\le3$，且令 $y=f(x)$ 之最大值為 $M$，最小值為 $m$，求數對 $(M,m)$。',
+    answer: '',
+    hasImage: false,
+  },
+  {
+    id: '17c91d66969',
+    chapter: '選修數乙',
+    question:
+      '若函數 $f(x)=4x^3+9x^2+6x$ 在區間 $[-2,1]$ 內的最大值為 $M$，最小值為 $m$，求 $M+m$。',
+    answer: '',
+    hasImage: false,
+  },
+  {
+    id: '17c91d74236',
+    chapter: '選修數乙',
+    question:
+      '設 $f(x)=x^3+ax^2+bx+c$，已知 $f(x)$ 在 $x=1$ 有極大值 $3$，在 $x=3$ 有極小值，求序組 $(a,b,c)$。',
+    answer: '',
+    hasImage: false,
+  },
+  {
+    id: '17c922a5dea',
+    chapter: '平面向量',
+    question:
+      '平面上三點 $A、B、C$，$\\angle ABC=60^\\circ$，$\\overline{AB}=5$，$\\overline{BC}=14$，求 $\\xvector{AB}\\cdot\\xvector{BC}$。',
+    answer: '$-35$',
+    hasImage: false,
+  },
+  {
+    id: '17c922bf1a6',
+    chapter: '平面向量',
+    question:
+      '$\\vector{a}＝(3,-5)$，$\\vector{b} =(2,7)$，$\\vector{c} =(k,2k+1)$，則：\n(1) 求 $\\vector{a}\\cdot\\vector{b}$ (2) 若 $\\vector{b}\\cdot\\vector{c}=-25$，求 $k$',
+    answer: '(1) $-29$ (2) $-2$',
+    hasImage: false,
+  },
+  {
+    id: '17c922d58eb',
+    chapter: '平面向量',
+    question:
+      '平面上六邊形 $ABCDEF$，如圖所示，請問 $\\xvector{AB}$ 與下列哪一個向量的內積值最大？哪一個最小？\n(1) $\\xvector{AB}$ (2) $\\xvector{AC}$ (3) $\\xvector{AD}$ (4) $\\xvector{AE}$ (5) $\\xvector{AF}$',
+    answer: '(2)；(4)',
+    hasImage: true,
+  },
+  {
+    id: '17c922f5425',
+    chapter: '平面向量',
+    question:
+      '已知 $|\\vector{a}|=3$，$|\\vector{b}|=4$，$|\\vector{c}|=10$，$\\vector{a}$ 與 $\\vector{b}$ 的夾角為 $30^\\circ$，$\\vector{a}$ 與 $\\vector{c}$ 的夾角為 $120^\\circ$，求 $\\vector{a}\\cdot\\vector{b}$ 與 $\\vector{a}\\cdot\\vector{c}$。',
+    answer: '$6\\sqrt{3}$；$-15$',
+    hasImage: false,
+  },
+  {
+    id: '17c923047dd',
+    chapter: '平面向量',
+    question:
+      '設 $\\vector{a}=(k,k+1)$，$\\vector{b}=(2,-1)$，$\\vector{c}=(3k-1,k+2)$，若 $\\vector{a}\\cdot\\vector{b}=5$，求 $\\vector{b}\\cdot\\vector{c}$。',
+    answer: '$26$',
+    hasImage: false,
+  },
+  {
+    id: '17c92316f9e',
+    chapter: '平面向量',
+    question:
+      '考慮正五邊形 $ABCDE$ 之對角線所形成的向量，下列何者內積值最大？\n(1) $\\xvector{AC}\\cdot\\xvector{EC}$ (2) $\\xvector{BD}\\cdot\\xvector{EC}$ (3) $\\xvector{DA}\\cdot\\xvector{EC}$ (4) $\\xvector{BD}\\cdot\\xvector{EB}$\n',
+    answer: '(1)\n',
+    hasImage: false,
+  },
+  {
+    id: '17c9235066d',
+    chapter: '平面向量',
+    question:
+      '關於內積的性質，下列各選項哪些為真？\n(1) 若 $\\vector{a}=\\vector{b}$，則 $\\vector{a}\\cdot\\vector{c}=\\vector{b}\\cdot\\vector{c}$\n(2) 若 $\\vector{a}\\cdot\\vector{c}=\\vector{b}\\cdot\\vector{c}$ ，則 $\\vector{a}=\\vector{b}$\n(3) 若 $\\vector{a}\\neq\\vector{0}$，則 $\\vector{a}\\cdot\\vector{a}>0$\n(4) ($\\vector{a}+\\vector{b})\\cdot\\vector{c}=\\vector{c}\\cdot\\vector{a}+\\vector{c}\\cdot\\vector{b}$\n(5) 若 $\\vector{a}\\cdot\\vector{b}>0$ 且 $\\vector{b}\\cdot\\vector{c}>0$，則 $\\vector{a}\\cdot\\vector{c}>0$',
+    answer: '(1)(3)(4)\n',
+    hasImage: false,
+  },
+  {
+    id: '17c92363d6f',
+    chapter: '平面向量',
+    question:
+      '已知 $|\\vector{a}|=2$，$|\\vector{b}|=5$，$\\vector{a}\\cdot\\vector{b}=3$，求 $(4\\vector{a}-\\vector{b})\\cdot(2\\vector{a}+3\\vector{b})$。',
+    answer: '$-13$',
+    hasImage: false,
+  },
+  {
+    id: '17c9237763c',
+    chapter: '平面向量',
+    question:
+      '已知 $|\\vector{a}|=3$，$|\\vector{b}|=5$，$\\vector{a}$ 與 $\\vector{b}$ 的夾角為 $\\frac{2\\pi}{3}$，求 $(2\\vector{a}+\\vector{b})\\cdot(4\\vector{a}-3\\vector{b})$。',
+    answer: '$12$',
+    hasImage: false,
+  },
+  {
+    id: '17c923aa4be',
+    chapter: '平面向量',
+    question:
+      '下列關於向量內積的推論，下列哪些為真？\n(1) 若 $|\\vector{b}|>|\\vector{c}|$，則 $\\vector{a}\\cdot\\vector{b}>\\vector{a}\\cdot\\vector{c}$\n(2) 若 $\\vector{a}$、$\\vector{b}$ 夾鈍角，則 $\\vector{a}\\cdot\\vector{b}<0$ \n(3) 若 $\\vector{a}\\cdot\\vector{a}=0$，則 $\\vector{a}=\\vector{0}$\n(4) 若 $\\vector{a}\\cdot\\vector{b}>0$ 且 $\\vector{a}\\cdot\\vector{c}>0$，則 $\\vector{a}\\cdot(\\vector{b}+\\vector{c})>0$\n(5) 若 $\\vector{a}\\cdot\\vector{b}=0$ 且 $\\vector{b}\\cdot\\vector{c}=0$，則 $\\vector{a}\\cdot\\vector{c}=0$',
+    answer: '(2)(3)(4)\n',
+    hasImage: false,
+  },
+  {
+    id: '17c923c0b82',
+    chapter: '平面向量',
+    question:
+      '$\\triangle ABC$ 中，$\\overline{AB}=3$，$\\overline{BC}=7$，$\\overline{CA}=6$，求 $\\xvector{AB}\\cdot\\xvector{AC}$ 及 $\\xvector{AB}\\cdot\\xvector{BC}$。',
+    answer: '$-2$；$-11$\n',
+    hasImage: true,
+  },
+  {
+    id: '17c923c9fee',
+    chapter: '平面向量',
+    question:
+      '等腰梯形 $ABCD$ 的上底長度為 $\\overline{AD}=5$，腰長為 $4$，兩個底角的大小為 $\\angle B=\\angle C=\\frac{\\pi}{3}$，求 $\\xvector{AC}\\cdot\\xvector{BD}$。',
+    answer: '$37$',
+    hasImage: true,
+  },
+  {
+    id: '17c923d1b6b',
+    chapter: '平面向量',
+    question:
+      '平行四邊形 $ABCD$，已知 $\\overline{AB}=4$，$\\overline{BC}=3$，求 $\\xvector{AC}\\cdot\\xvector{BD}$\n',
+    answer: '$-7$',
+    hasImage: false,
+  },
+  {
+    id: '17c92425fed',
+    chapter: '平面向量',
+    question:
+      '$\\triangle ABC$ 中，$\\overline{AB}=4$，$\\overline{BC}=7$，$\\overline{AC}=5$ 求：\n(1) $\\xvector{AC}$ (2) $\\xvector{AB}\\cdot\\xvector{BC}$\n(3) 點 $P$ 在 $\\overline{BC}$ 上且 $\\overline{BP}=3$，點 $Q$ 在 $\\overline{AC}$ 上且 $\\overline{AQ}=2$，求 $\\xvector{AP}\\cdot\\xvector{BQ}$\n\n',
+    answer: '(1) $-4$ (2) $-20$ (3 )$-\\frac{142}{35}$',
+    hasImage: false,
+  },
+  {
+    id: '17c92607d70',
+    chapter: '平面向量',
+    question:
+      '等腰梯形 $ABCD$，$\\overline{AB}=\\overline{CD}=4$，$\\overline{BC}=10$，$\\overline{AD}=8$。已知 $M$ 為 $\\overline{AD}$ 中點，$N$ 為 $\\overline{CD}$ 中點，求 $\\xvector{MN}\\cdot\\xvector{AC}$\n',
+    answer: '48',
+    hasImage: false,
+  },
+  {
+    id: '17c92614ed0',
+    chapter: '平面向量',
+    question:
+      '已知 $\\triangle ABC$ 中，$O$ 為內部一點，$\\overline{OA}=2$，$\\overline{OB}=3$，$\\overline{OC}=\\sqrt{3}$，$\\angle AOB=120^\\circ$，$\\angle AOC=150^\\circ$，求  $\\xvector{AB}\\cdot\\xvector{BC}$\n\n',
+    answer: '$-9$',
+    hasImage: false,
+  },
+  {
+    id: '17c9264b427',
+    chapter: '平面向量',
+    question:
+      '$|\\vector{a}|=3$，$|\\vector{b}|=2$，$\\vector{a}\\cdot\\vector{b}=-2$，若 $(\\vector{a}+\\vector{b})\\perp(\\vector{a}+t\\vector{b})$，求 $t$。',
+    answer: '$-\\frac{7}{2}$',
+    hasImage: false,
+  },
+  {
+    id: '17c9265f99f',
+    chapter: '平面向量',
+    question:
+      '若 $2|\\vector{a}|=|\\vector{b}|\\neq0$，且 $(\\vector{a}+\\vector{b})\\perp(5\\vector{a}-2\\vector{b})$，求 $\\vector{a}$ 與 $\\vector{b}$ 的夾角。',
+    answer: '$60^\\circ$',
+    hasImage: false,
+  },
+  {
+    id: '17c9266f664',
+    chapter: '平面向量',
+    question:
+      '若 $\\vector{a}=(2,5)$，$\\vector{b}=(1,3)$，$\\vector{c}=(-8,2)$，若 $\\vector{a}+t\\vector{b}$ 與 $\\vector{c}$ 垂直，求 $t$。',
+    answer: '$-3$',
+    hasImage: false,
+  },
+  {
+    id: '17c92677001',
+    chapter: '平面向量',
+    question:
+      '直角三角形 $ABC$ 中，$\\angle B=90^\\circ$，若 $A(7,-5)$、$B(9,2)$ 且 $C$ 點在第四象限，$\\overline{BC}=3\\overline{AB}$，求 $C$ 點坐標。',
+    answer: '$(30,-4)$',
     hasImage: false,
   },
 ];
