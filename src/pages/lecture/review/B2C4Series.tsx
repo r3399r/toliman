@@ -35,7 +35,7 @@ const B2C4Series = () => {
         <Concept num={3} title="單利與複利">
           <Textarea2MathJax
             text={
-              '假設本金 $A$，利率 $r$，期數 $n$，\n(1) 單利：本利和$=A+A\\times r\\times n$\n(2) 複利：本利和$=A\\times(1+r)^n'
+              '假設本金 $A$，利率 $r$，期數 $n$，\n(1) 單利：本利和$=A+A\\times r\\times n$\n(2) 複利：本利和$=A\\times(1+r)^n$'
             }
           />
         </Concept>

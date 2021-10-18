@@ -15,6 +15,9 @@ const Textarea2MathJax = ({ className, text }: Props) => (
       tex: {
         inlineMath: [['$', '$']],
         packages: { '[+]': ['mathtools'] },
+        macros: {
+          vector: ['\\overset{\\xrightharpoonup{}}{#1}', 1],
+        },
       },
     }}
   >

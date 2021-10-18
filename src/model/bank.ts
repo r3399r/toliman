@@ -4673,7 +4673,7 @@ export const bank: Question[] = [
   {
     id: '17a0e46db1a',
     chapter: '數與式',
-    question: '$\\frac{(2^{-5})^{-\\frac{7}{3}}}{8^\\frac{4}{9}}=16^x$，求 $x$。',
+    question: '$\\dfrac{(2^{-5})^{-\\frac{7}{3}}}{8^\\frac{4}{9}}=16^x$，求 $x$。',
     answer: '$-\\frac{13}{4}$',
     hasImage: false,
   },
@@ -7101,7 +7101,7 @@ export const bank: Question[] = [
     chapter: '指數與對數函數',
     question:
       '求 $y=2^x$ 的圖形沿 $x$ 軸的方向平移 $-3$，再沿 $y$ 軸的方向平移 $+2$，再以 $x$ 軸為中心上下顛倒，所得函數為？',
-    answer: '$y=-2^{x+3}-2',
+    answer: '$y=-2^{x+3}-2$',
     hasImage: false,
   },
   {
@@ -7109,7 +7109,7 @@ export const bank: Question[] = [
     chapter: '指數與對數函數',
     question:
       '求 $y=5^x$ 的圖形向右平移 $4$，再向下平移 $3$，再以 $x$ 軸為中心上下顛倒，所得函數為？',
-    answer: '$y=-5^{x-4}+3',
+    answer: '$y=-5^{x-4}+3$',
     hasImage: false,
   },
   {
@@ -7232,7 +7232,7 @@ export const bank: Question[] = [
     id: '17ae5f8d033',
     chapter: '指數與對數函數',
     question:
-      '(1) $\\log10^\\sqrt{2}=$\n　\n(2) $\\log1000^{-\\frac{5}{2}}=$\n　\n(3) $\\log\\sqrt[7]{0.0001}=\n　$',
+      '(1) $\\log10^\\sqrt{2}=$\n　\n(2) $\\log1000^{-\\frac{5}{2}}=$\n　\n(3) $\\log\\sqrt[7]{0.0001}=$\n　',
     answer: '(1) $\\sqrt{2}$ (2) $-\\frac{15}{2}$ (3) $-\\frac{4}{7}$',
     hasImage: false,
   },
@@ -7240,7 +7240,7 @@ export const bank: Question[] = [
     id: '17ae5fad1a6',
     chapter: '指數與對數函數',
     question:
-      '(1) $\\log100000=$\n　\n(2) $\\log1000^{-\\frac{1}{2}}=$\n　\n(3) $\\log100\\sqrt[3]{100}=$\n　\n(4) $\\log\\sqrt[5]{0.0001}=\n　',
+      '(1) $\\log100000=$\n　\n(2) $\\log1000^{-\\frac{1}{2}}=$\n　\n(3) $\\log100\\sqrt[3]{100}=$\n　\n(4) $\\log\\sqrt[5]{0.0001}=$\n　',
     answer: '(1) $5$ (2) $-\\frac{3}{2}$ (3) $\\frac{8}{3}$ (4) $-\\frac{4}{5}$',
     hasImage: false,
   },
@@ -11346,6 +11346,14 @@ export const bank: Question[] = [
     question:
       '化簡 $16^\\frac{3}{4}-2(8^{-\\frac{2}{3}})^{-1}+2^\\frac{1}{5}(4^{-\\frac{2}{5}})^{-1}$',
     answer: '$2$',
+    hasImage: false,
+  },
+  {
+    id: '17c72eae50f',
+    chapter: '平面向量',
+    question:
+      '若 $|\\overset{\\xrightharpoonup{}}{a}|=2$，$|\\overset{\\xrightharpoonup{}}{b}|=3$，$\\overset{\\xrightharpoonup{}}{a}\\cdot\\overset{\\xrightharpoonup{}}{b}=-3\\sqrt{2}$，則 $\\overset{\\xrightharpoonup{}}{a}$ 與 $\\overset{\\xrightharpoonup{}}{b}$ 的夾角為多少弳？',
+    answer: '$\\frac{3\\pi}{4}$',
     hasImage: false,
   },
   {
