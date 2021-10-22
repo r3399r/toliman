@@ -23,6 +23,14 @@ const route = {
   C1S1LimitOfSequence: loadable(() => import('./pages/lecture/book5/C1S1LimitOfSequence')),
   C1S2LimitOfSeries: loadable(() => import('./pages/lecture/book5/C1S2LimitOfSeries')),
   C1S3LimitOfFunction: loadable(() => import('./pages/lecture/book5/C1S3LimitOfFunction')),
+  C2S1Derivative: loadable(() => import('./pages/lecture/book5/C2S1Derivative')),
+  C2S2GraphicMeaningOfDerivative: loadable(
+    () => import('./pages/lecture/book5/C2S2GraphicMeaningOfDerivative'),
+  ),
+  C3S1Integral: loadable(() => import('./pages/lecture/book5/C3S1Integral')),
+  C3S2ApplicationOfIntegral: loadable(
+    () => import('./pages/lecture/book5/C3S2ApplicationOfIntegral'),
+  ),
   B1C1: loadable(() => import('./pages/lecture/review/B1C1Numbers')),
   B1C2: loadable(() => import('./pages/lecture/review/B1C2Polynomial')),
   B1C3: loadable(() => import('./pages/lecture/review/B1C3LineAndCircle')),
@@ -83,6 +91,18 @@ const AppRoutes = () => {
         exact={true}
         path="/toliman/lecture/limitOfFunction"
         component={route.C1S3LimitOfFunction}
+      />
+      <Route exact={true} path="/toliman/lecture/derivative" component={route.C2S1Derivative} />
+      <Route
+        exact={true}
+        path="/toliman/lecture/graphicMeaningOfDerivative"
+        component={route.C2S2GraphicMeaningOfDerivative}
+      />
+      <Route exact={true} path="/toliman/lecture/integral" component={route.C3S1Integral} />
+      <Route
+        exact={true}
+        path="/toliman/lecture/applicationOfIntegral"
+        component={route.C3S2ApplicationOfIntegral}
       />
       <Route exact={true} path="/toliman/lecture/B1C1" component={route.B1C1} />
       <Route exact={true} path="/toliman/lecture/B1C2" component={route.B1C2} />

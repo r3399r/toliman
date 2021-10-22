@@ -54,6 +54,20 @@ const Lecture = () => {
       <div className={style.button}>
         <Button onClick={onClick('limitOfFunction')}>3 函數及其極限</Button>
       </div>
+      第五冊 Ch2 多項式函數的微分
+      <div className={style.button}>
+        <Button onClick={onClick('derivative')}>1 導數與導函數</Button>
+      </div>
+      <div className={style.button}>
+        <Button onClick={onClick('graphicMeaningOfDerivative')}>2 函數的增減與凹向</Button>
+      </div>
+      第五冊 Ch3 多項式函數的積分
+      <div className={style.button}>
+        <Button onClick={onClick('integral')}>1 積分的意義</Button>
+      </div>
+      <div className={style.button}>
+        <Button onClick={onClick('applicationOfIntegral')}>2 積分的應用</Button>
+      </div>
       學測複習
       <div className={style.button}>
         <Button onClick={onClick('B1C1')}>Ch1 數與式</Button>

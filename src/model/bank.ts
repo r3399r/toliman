@@ -11520,14 +11520,14 @@ export const bank: Question[] = [
     chapter: '選修數甲',
     question:
       '函數 $f(x)=3x^2+x+7$，求：\n(1) $(3,f(3))$ 和 $(5,f(5))$ 的割線斜率\n(2) 在 $x=2$ 的切線斜率',
-    answer: '',
+    answer: '(1) $25$ (2) $13$',
     hasImage: false,
   },
   {
     id: '17c91aff47f',
     chapter: '選修數甲',
     question: '求拋物線 $f(x)=2x^2-x+3$ 在 $x=1$ 的導數及過點 $(1,4)$ 的切線方程式。',
-    answer: '',
+    answer: '(1) $3$ (2) $3x-y=-1$',
     hasImage: false,
   },
   {
@@ -11535,21 +11535,21 @@ export const bank: Question[] = [
     chapter: '選修數甲',
     question:
       '函數 $v(t)=2t^2+t-5$，求：\n(1) $(1,v(1))$ 和 $(4,v(4))$ 的割線斜率\n(2) 在 $t=3$ 的切線斜率',
-    answer: '',
+    answer: '(1) $11$ (2) $13$',
     hasImage: false,
   },
   {
     id: '17c91b21f64',
     chapter: '選修數甲',
     question: '求 $f(x)=3x^2+x+1$ 在 $x=3$ 處的切線方程式。',
-    answer: '',
+    answer: '$19x-y=26$',
     hasImage: false,
   },
   {
     id: '17c91b2b515',
     chapter: '選修數甲',
     question: "設 $f(x)=\\frac{(x-1)(x-2)(x-3)(x-5)}{x-4}$，求 $f'(1)$。",
-    answer: '',
+    answer: '$\\frac{8}{3}$',
     hasImage: false,
   },
   {
@@ -11557,119 +11557,119 @@ export const bank: Question[] = [
     chapter: '選修數甲',
     question:
       "若多項式 $f(x)$ 滿足 $f(1)=0$，$f'(1)=-15$，求 $\\displaystyle\\lim_{h\\to0}\\tfrac{f(1+h)}{3h}$。",
-    answer: '',
+    answer: '$-5$',
     hasImage: false,
   },
   {
     id: '17c91b600fe',
     chapter: '選修數甲',
     question: "設 $f(x)=\\dfrac{(x-5)(x+3)^3(x+4)^2}{2(2x-1)^2(13-x)^3}$，求 $f'(5)$ 及 $f'(-4)$。",
-    answer: '',
+    answer: '$\\frac12$；$0$',
     hasImage: false,
   },
   {
     id: '17c91b98995',
     chapter: '選修數甲',
     question: "已知 $f(3)=0$，$f'(3)=20$，求 $\\displaystyle\\lim_{h\\to0}\\tfrac{f(3+h)}{4h}$。",
-    answer: '',
+    answer: '$5$',
     hasImage: false,
   },
   {
     id: '17c91bb4a4b',
     chapter: '選修數甲',
     question: '設 $f(x)=3x^5-2x^4+5x^3-3x^2+x-7$，求 $\\dv xf(x)$。',
-    answer: '',
+    answer: '$15x^4-8x^3+15x^2-6x+1$',
     hasImage: false,
   },
   {
     id: '17c91bc76bd',
     chapter: '選修數甲',
-    question: "$x\\neq0$，$f(x)=\\dfrac1x-\\dfrac3{x^2}+\\dfrac5{x^4}$，求 $f'(x)$ 及 $f'(1)$。",
-    answer: '',
+    question: "$x\\neq0$，$f(x)=\\dfrac1x-\\dfrac3{x^2}+\\dfrac5{x^4}$，求 $f'(1)$。",
+    answer: '$-15$',
     hasImage: false,
   },
   {
     id: '17c91bce4f5',
     chapter: '選修數甲',
-    question: "$x>0$，$f(x)=3\\sqrt{x}-5\\sqrt[3]{x}+\\sqrt[4]{x^3}$，求 $f'(x)$ 及 $f'(1)$。",
-    answer: '',
+    question: "$x>0$，$f(x)=3\\sqrt{x}-5\\sqrt[3]{x}+\\sqrt[4]{x^3}$，求 $f'(1)$。",
+    answer: '$\\frac7{12}$',
     hasImage: false,
   },
   {
     id: '17c91bd468e',
     chapter: '選修數甲',
     question: "設 $f(x)=2x^3+7x^2+x-1$，求 $f'(x)$。",
-    answer: '',
+    answer: '$6x^2+14x+1$',
     hasImage: false,
   },
   {
     id: '17c91be0266',
     chapter: '選修數甲',
     question: "設 $f(x)=\\dfrac1x-\\dfrac2{x^2}+\\dfrac3{x^3}$，求 $f'(1)$。",
-    answer: '',
+    answer: '$-6$',
     hasImage: false,
   },
   {
     id: '17c91bebd27',
     chapter: '選修數甲',
-    question: "設 $x>0$，$f(x)=6\\sqrt{x}-9\\sqrt[3]{x^2}+1$，求 $f'(x)$ 及 $f'(1)$。",
-    answer: '',
+    question: "設 $x>0$，$f(x)=6\\sqrt{x}-9\\sqrt[3]{x^2}+1$，求 $f'(1)$。",
+    answer: '$-3$',
     hasImage: false,
   },
   {
     id: '17c91bf4687',
     chapter: '選修數甲',
     question: "設 $f(x)=(x^2+x-3)(3x^4+2x+4)$，求 $f'(-1)$。",
-    answer: '',
+    answer: '$25$',
     hasImage: false,
   },
   {
     id: '17c91bfa87f',
     chapter: '選修數甲',
     question: "設 $f(x)=\\dfrac{x^3-1}{x^2+x+1}$，求 $f'(2)$。",
-    answer: '',
+    answer: '$1$',
     hasImage: false,
   },
   {
     id: '17c91c009a0',
     chapter: '選修數甲',
     question: "設 $f(x)=(x^2-x+1)(x^2+x+1)$，求 $f'(1)$。",
-    answer: '',
+    answer: '$6$',
     hasImage: false,
   },
   {
     id: '17c91c0817e',
     chapter: '選修數甲',
     question: "設 $f(x)=\\frac{x-2}{x+1}$，求 $f'(1)$。",
-    answer: '',
+    answer: '$\\frac34$',
     hasImage: false,
   },
   {
     id: '17c91c183cc',
     chapter: '選修數甲',
-    question: '設 $f(x)=(x^2+2x+3)^6$，求 $\\dv xf(x)$。',
-    answer: '',
+    question: "設 $f(x)=(x^2+2x+3)^6$，求 $f'(-1)$。",
+    answer: '$64$',
     hasImage: false,
   },
   {
     id: '17c91cbbe13',
     chapter: '選修數甲',
     question: "設 $f(x)=\\sqrt{x^2+6x+2}$，求 $f'(1)$。",
-    answer: '',
+    answer: '$\\frac43$',
     hasImage: false,
   },
   {
     id: '17c91cc6891',
     chapter: '選修數甲',
     question: "設 $f(x)=(x^2+1)^4$，求 $f'(1)$。",
-    answer: '',
+    answer: '$64$',
     hasImage: false,
   },
   {
     id: '17c91cd2311',
     chapter: '選修數甲',
     question: "設 $f(x)=\\sqrt{ax^2-1}$ 且 $f'(1)=2$，求 $a$。",
-    answer: '',
+    answer: '$2$',
     hasImage: false,
   },
   {
@@ -11677,7 +11677,7 @@ export const bank: Question[] = [
     chapter: '選修數甲',
     question:
       '設 $f(x)=\\begin{cases}x^3+2x+3,x\\le1\\\\x^2+ax+b,x>1\\end{cases}$，若 $f(x)$ 在 $x=1$ 可微分，試求數對 $(a,b)$。',
-    answer: '',
+    answer: '$(3,2)$',
     hasImage: false,
   },
   {
@@ -11685,14 +11685,14 @@ export const bank: Question[] = [
     chapter: '選修數甲',
     question:
       "已知 $f(x)=\\begin{cases}\\sqrt[3]x,x\\le1\\\\ax+b,x>1\\end{cases}$，若 $f'(1)$ 存在，試求數對 $(a,b)$。",
-    answer: '',
+    answer: '$(\\frac13,\\frac23)$',
     hasImage: false,
   },
   {
     id: '17c91d001fd',
     chapter: '選修數甲',
     question: '試求 $f(x)=x^3+6x^2-15x+7$ 遞增的區間及遞減的區間。',
-    answer: '',
+    answer: '$(-\\infty,5]$、$[1,\\infty)$；$[-5,1]$',
     hasImage: false,
   },
   {
@@ -11700,35 +11700,35 @@ export const bank: Question[] = [
     chapter: '選修數甲',
     question:
       '已知 $a\\in\\mathbb{R}$，若 $f(x)=ax^3+3x^2+(a+2)x+6$ 恆為遞減函數，試求 $a$ 的範圍。',
-    answer: '',
+    answer: '$a\\le3$',
     hasImage: false,
   },
   {
     id: '17c91d11cb7',
     chapter: '選修數甲',
     question: '設 $f(x)=x^4-2x^2+1$，試求函數 $f(x)$ 的遞增區間及遞減區間。',
-    answer: '',
+    answer: '$[-1,0]$、$[1,\\infty)$；$(-\\infty,-1]$、$[0,1]$',
     hasImage: false,
   },
   {
     id: '17c91d2fd27',
     chapter: '選修數甲',
     question: '已知 $a\\in\\mathbb{R}$，若 $f(x)=x^3+2x^2+ax+5$ 恆為遞增函數，求 $a$ 的範圍。',
-    answer: '',
+    answer: '$a\\ge\\frac43$',
     hasImage: false,
   },
   {
     id: '17c91d40727',
     chapter: '選修數甲',
     question: '求 $f(x)=2x^3+3x^2-12x-7$ 的極值及發生極值時的 $x$ 值。',
-    answer: '',
+    answer: '極大值 $13$，$x=-2$；極小值 $-14$，$x=1$',
     hasImage: false,
   },
   {
     id: '17c91d49212',
     chapter: '選修數甲',
     question: '求 $f(x)=-x^3-3x^2+9x+5$ 的極值及發生極值時的 $x$ 值。',
-    answer: '',
+    answer: '極大值 $10$，$x=1$；極小值 $-22$，$x=-3$',
     hasImage: false,
   },
   {
@@ -11736,7 +11736,7 @@ export const bank: Question[] = [
     chapter: '選修數甲',
     question:
       '設 $y=f(x)=2x^3+3x^2-12x+1$，$-3\\le x\\le3$，且令 $y=f(x)$ 之最大值為 $M$，最小值為 $m$，求數對 $(M,m)$。',
-    answer: '',
+    answer: '$(46,-6)$',
     hasImage: false,
   },
   {
@@ -11744,7 +11744,7 @@ export const bank: Question[] = [
     chapter: '選修數甲',
     question:
       '若函數 $f(x)=4x^3+9x^2+6x$ 在區間 $[-2,1]$ 內的最大值為 $M$，最小值為 $m$，求 $M+m$。',
-    answer: '',
+    answer: '$11$',
     hasImage: false,
   },
   {
@@ -11752,7 +11752,7 @@ export const bank: Question[] = [
     chapter: '選修數甲',
     question:
       '設 $f(x)=x^3+ax^2+bx+c$，已知 $f(x)$ 在 $x=1$ 有極大值 $3$，在 $x=3$ 有極小值，求序組 $(a,b,c)$。',
-    answer: '',
+    answer: '$(-6,9,-1)$',
     hasImage: false,
   },
   {
@@ -11920,35 +11920,35 @@ export const bank: Question[] = [
     chapter: '選修數甲',
     question:
       '設 $a>0$，函數 $f(x)=ax^3-3ax^2-9ax+b$，若 $f(x)$ 有相對極大值為 $10$，相對極小值為 $-22$，求數對 $(a,b)$。',
-    answer: '',
+    answer: '$(1,5)$',
     hasImage: false,
   },
   {
     id: '17c94b93441',
     chapter: '選修數甲',
     question: '試求函數 $f(x)=x^4+2x^3-12x^2+24x+12$ 的反曲點坐標及凹向下的區間範圍。',
-    answer: '',
+    answer: '$(-2,-84)$、$(1,27)$；$(-2,1)$',
     hasImage: false,
   },
   {
     id: '17c94ba003c',
     chapter: '選修數甲',
     question: '試求 $f(x)=x^3+3x^2-1$ 的反曲點、凹向上的區間及凹向下的區間。',
-    answer: '',
+    answer: '$(-1,1)$；$(-1,\\infty)$；$(-\\infty,-1)$',
     hasImage: false,
   },
   {
     id: '17c94baa9c6',
     chapter: '選修數甲',
     question: '若 $f(x)=x^3+ax^2+bx+1$ 的圖形以 $(-1,8)$ 為反曲點，求數對 $(a,b)$。',
-    answer: '',
+    answer: '$(3,-5)$',
     hasImage: false,
   },
   {
     id: '17c94bb1604',
     chapter: '選修數甲',
     question: '若 $f(x)=2x^3+ax^2+3x+5$，以 $(1,b)$ 為反曲點，求數對 $(a,b)$。',
-    answer: '',
+    answer: '$(-6,4)$',
     hasImage: false,
   },
   {
@@ -11956,7 +11956,7 @@ export const bank: Question[] = [
     chapter: '選修數甲',
     question:
       '$a,b,c,d\\in\\mathbb{R}$，設 $f(x)=ax^3+bx^2+cx+d$ 的圖形如圖，試問下列選項的推論哪些為真？\n(1) $a>0$ (2) $b>0$ (3) $c>0$ (4) $d>0$ (5) $b^2-3ac>0$',
-    answer: '',
+    answer: '(1)(3)(4)(5)',
     hasImage: true,
   },
   {
@@ -11964,7 +11964,7 @@ export const bank: Question[] = [
     chapter: '選修數甲',
     question:
       '若三次函數 $f(x)=ax^3+bx^2+cx+d$ 圖形如圖，則下列哪些為真？\n(1) $a<0$ (2) $b<0$ (3) $c<0$ (4) $d<0$ (5) $b^2-3ac>0$',
-    answer: '',
+    answer: '(1)(4)(5)',
     hasImage: true,
   },
   {
@@ -11972,7 +11972,7 @@ export const bank: Question[] = [
     chapter: '選修數甲',
     question:
       '設某機械加工廠之最大產量為每週 $25$ 件產品，由經驗知每週若生產 $x$ 件產品，則每件可售 $(110-2x)$ 萬元，且生產 $x$ 件之成本為 $(600+10x+x^2)$ 萬元，試問每週生產幾件可有最大利潤？最大利潤為多少萬元？',
-    answer: '',
+    answer: '$17$；$233$',
     hasImage: false,
   },
   {
@@ -11980,7 +11980,7 @@ export const bank: Question[] = [
     chapter: '選修數甲',
     question:
       '某大飯店有 $100$ 間客房，若每間客房每晚的住宿費定價 $2000$ 元，則可全部住滿；若每間客房每晚的住宿費提高 $100$ 元，就會多兩間空房。假如每間客房的服務成本為 $400$ 元，則每間客房的住宿費定價多少元時，才能有最大的利潤？',
-    answer: '',
+    answer: '$3700$',
     hasImage: false,
   },
   {
@@ -11988,7 +11988,7 @@ export const bank: Question[] = [
     chapter: '選修數甲',
     question:
       '設曲線 $y=x^2$ 與直線 $x=1$、$x=3$、$y=0$ 所圍成的區域為 $S$，若把 $x$ 軸上的區間 $[1,3]$ 分成 $8$ 等分，將 $S$ 分割求面積的近似值，求上和 $U_8$，下和 $L_8$。',
-    answer: '',
+    answer: '$\\frac{155}{16}$；$\\frac{123}{16}$',
     hasImage: true,
   },
   {
@@ -11996,7 +11996,7 @@ export const bank: Question[] = [
     chapter: '選修數甲',
     question:
       '求 $f(x)=x^2$ 在 $0\\leq x\\leq 1$ 內，與 $x$ 軸圍成區域，把區間 $[0,1]$ 分成 $10$ 等分的上和 $U_{10}$ 及下和 $L_{10}$。',
-    answer: '',
+    answer: '$\\frac{77}{200}$；$\\frac{57}{200}$',
     hasImage: false,
   },
   {
@@ -12004,7 +12004,7 @@ export const bank: Question[] = [
     chapter: '選修數甲',
     question:
       '由 $y=f(x)=x^2$、$x=0$、$x=1$ 及 $x$ 軸在第一象限圍成一區域 $S$，面積為 $R$，把區間 $[0,1]$ 給 $n$ 等分的上和為 $U_n$，下和為 $L_n$，求：\n(1) $U_n$、$L_n$、$R$\n(2) 滿足 $|U_n-R|<\\frac{1}{90}$ 之最小自然數 $n$',
-    answer: '',
+    answer: '(1) 略；略；$\\frac13$ (2) $46$',
     hasImage: true,
   },
   {
@@ -12012,22 +12012,22 @@ export const bank: Question[] = [
     chapter: '選修數甲',
     question:
       '由 $y=x^3$ 與直線 $x=0$、$x=2$ 及 $x$ 軸在第一象限所圍成區域為 $S$，求把區間 $[0,2]$ 給 $n$ 等分的上和 $U_n$、下和 $L_n$ 及 面積 $R$。',
-    answer: '',
+    answer: '略；略；$4$',
     hasImage: false,
   },
   {
     id: '17c9629033b',
     chapter: '選修數甲',
     question: '試求 $\\displaystyle\\int_{-3}^5(|x+1|+|x-2|)\\dd x$。',
-    answer: '',
-    hasImage: true,
+    answer: '$37$',
+    hasImage: false,
   },
   {
     id: '17c9629b8e1',
     chapter: '選修數甲',
     question:
       '函數 $y=f(x)$ 在 $a\\leq x\\leq b$ 範圍內，與 $x$ 軸圍出四塊封閉區域，如圖，面積分別為 $6$、$4$、$3$、$2$。設把 $[a,b]$ 給 $n$ 等分後的黎曼和為 $R_n$，求 $\\displaystyle\\lim_{n\\to\\infty}R_n$。',
-    answer: '',
+    answer: '$3$',
     hasImage: true,
   },
   {
@@ -12035,14 +12035,14 @@ export const bank: Question[] = [
     chapter: '選修數甲',
     question:
       '若 $y=f(x)$ 的圖形如圖，與 $x$ 軸圍成的封閉區域 $A$、$B$、$C$ 的面積依序為 $a$、$b$、$c$，則區間 $[x_1,x_4]$ 分成 $n$ 等分，其黎曼和為 $R_n$，求 $\\displaystyle\\lim_{n\\to\\infty}R_n$。',
-    answer: '',
+    answer: '$a-b+c$',
     hasImage: true,
   },
   {
     id: '17c962ad672',
     chapter: '選修數甲',
     question: '試求 $\\displaystyle\\int_0^5(|x-2|+3)\\dd x$。',
-    answer: '',
+    answer: '$\\frac{43}2$',
     hasImage: false,
   },
   {
@@ -12050,7 +12050,7 @@ export const bank: Question[] = [
     chapter: '選修數甲',
     question:
       '若 $\\displaystyle\\int_2^5 f(x)\\dd x=3$，$\\displaystyle\\int_0^5 f(x)\\dd x=7$，求 $\\displaystyle\\int_2^0 6f(x)\\dd x$。',
-    answer: '',
+    answer: '$-7$',
     hasImage: false,
   },
   {
@@ -12058,7 +12058,7 @@ export const bank: Question[] = [
     chapter: '選修數甲',
     question:
       '設 $f(x)$ 與 $g(x)$ 為多項式函數，若 $\\displaystyle\\int_0^7 f(x)\\dd x=20$，$\\displaystyle\\int_5^7 f(x)\\dd x=15$，$\\displaystyle\\int_0^5 g(x)\\dd x=5$，求 $\\displaystyle\\int_0^5[5g(x)-2f(x)]\\dd x$。',
-    answer: '',
+    answer: '$15$',
     hasImage: false,
   },
   {
@@ -12066,7 +12066,7 @@ export const bank: Question[] = [
     chapter: '選修數甲',
     question:
       '已知 $\\displaystyle\\int_0^3 f(x)\\dd x=7$，$\\displaystyle\\int_2^5 f(x)\\dd x=9$，$\\displaystyle\\int_0^5 f(x)\\dd x=10$，求 $\\displaystyle\\int_2^3 f(x)\\dd x$。',
-    answer: '',
+    answer: '$6$',
     hasImage: false,
   },
   {
@@ -12074,35 +12074,209 @@ export const bank: Question[] = [
     chapter: '選修數甲',
     question:
       '已知 $\\displaystyle\\int_1^2 f(x)\\dd x=2$，$\\displaystyle\\int_2^4 f(x)\\dd x=5$，$\\displaystyle\\int_2^4 g(x)\\dd x=-1$，$\\displaystyle\\int_1^2 g(x)\\dd x=3$，試求 $\\displaystyle\\int_1^4[3f(x)+2g(x)]\\dd x$。',
-    answer: '',
+    answer: '$25$',
     hasImage: false,
   },
   {
     id: '17c962e94a7',
     chapter: '選修數甲',
     question: '$x>0$，求 $f(x)=\\sqrt[3]{x^5}$ 的反導函數 $\\displaystyle\\int f(x)\\dd x$。',
-    answer: '',
+    answer: '$\\frac38x^\\frac83+c$',
     hasImage: false,
   },
   {
     id: '17c962efc08',
     chapter: '選修數甲',
     question: '求 $f(x)=3x^5$ 的反導函數 $\\displaystyle\\int f(x)\\dd x$。',
-    answer: '',
+    answer: '$\\frac12x^6+c$',
     hasImage: false,
   },
   {
     id: '17c962f51e7',
     chapter: '選修數甲',
     question: '試求 $\\displaystyle\\int(x+x^2+x^3+x^4)\\dd x$。',
-    answer: '',
+    answer: '略',
     hasImage: false,
   },
   {
     id: '17c962f9c43',
     chapter: '選修數甲',
     question: '試求 $\\displaystyle\\int(x^2+5x-\\frac{3}{x^2}+\\sqrt{x}-7)\\dd x$。',
-    answer: '',
+    answer: '略',
+    hasImage: false,
+  },
+  {
+    id: '17ca06769e9',
+    chapter: '選修數甲',
+    question: '試求 $\\displaystyle\\int(\\sqrt{x}+\\sqrt[3]{x^2}+\\sqrt[5]{x^2})\\dd x$。',
+    answer: '略',
+    hasImage: false,
+  },
+  {
+    id: '17ca0680d14',
+    chapter: '選修數甲',
+    question: '若 $x^3+4x^2+7$ 是 $f(x)$ 的反導函數，求 $f(x)$  的導函數 $f’(x)$。',
+    answer: '$6x+8$',
+    hasImage: false,
+  },
+  {
+    id: '17ca068f049',
+    chapter: '選修數甲',
+    question: '試求 $\\displaystyle\\int_0^2(x^3+3x)\\dd x$。',
+    answer: '$10$',
+    hasImage: false,
+  },
+  {
+    id: '17ca068ccbb',
+    chapter: '選修數甲',
+    question: '試求 $\\displaystyle\\int_4^9(\\sqrt{x}-\\frac{3}{\\sqrt{x}}+1)\\dd x$。',
+    answer: '$\\frac{35}3$',
+    hasImage: false,
+  },
+  {
+    id: '17ca0696939',
+    chapter: '選修數甲',
+    question: '試求 $\\displaystyle\\int_1^2(2x^3-x+1)\\dd x$。',
+    answer: '$7$',
+    hasImage: false,
+  },
+  {
+    id: '17ca069bfcc',
+    chapter: '選修數甲',
+    question: '試求 $\\displaystyle\\int_0^1(\\sqrt[3]{x}+\\sqrt[4]{x})\\dd x$。',
+    answer: '$\\frac{31}{20}$',
+    hasImage: false,
+  },
+  {
+    id: '17ca06a6a76',
+    chapter: '選修數甲',
+    question:
+      ' 設 $f(x)=x^2+ax+b$，且 $\\displaystyle\\int_0^1f(x)\\dd x=b$，$\\displaystyle\\int_0^3f(x)\\dd x=a$，求數對 $(a,b)$。',
+    answer: '$(-\\frac23,-\\frac{20}9)$',
+    hasImage: false,
+  },
+  {
+    id: '17c9e0517b4',
+    chapter: '選修數甲',
+    question: '三次多項式函數 $f(x)$ 滿足 $f’(1)=f’(5)=-2$，$f’(4)=1$，求 $f(6)-f(0)$。',
+    answer: '$-6$',
+    hasImage: false,
+  },
+  {
+    id: '17c9e05704f',
+    chapter: '選修數甲',
+    question: '$f(x)=12x^3-12x^2-24x$，求 $f(x)$ 的圖形與 $x$ 軸所圍區域的面積。',
+    answer: '$37$',
+    hasImage: false,
+  },
+  {
+    id: '17c9e08c72f',
+    chapter: '選修數甲',
+    question: '$f(x)=-6x^2-18x-12$，如圖所示，求陰影部分面積。',
+    answer: '$6$',
+    hasImage: true,
+  },
+  {
+    id: '17ca06c7353',
+    chapter: '選修數甲',
+    question:
+      '圓 $x^2+y^2=9$ 可移項開根號，得 $y=\\pm\\sqrt{9-x^2}$，求 $\\displaystyle\\int_0^3\\sqrt{9-x^2}\\dd x$。',
+    answer: '$\\frac{9\\pi}4$',
+    hasImage: true,
+  },
+  {
+    id: '17ca06d5299',
+    chapter: '選修數甲',
+    question: '試求定積分 $\\displaystyle\\int_{-2}^2\\sqrt{4-x^2}\\dd x$。',
+    answer: '$2\\pi$',
+    hasImage: false,
+  },
+  {
+    id: '17ca06db83a',
+    chapter: '選修數甲',
+    question: '試求兩拋物線 $y=2x^2$ 與 $y=(x+1)^2+2$ 圍成的月牙形區域面積。',
+    answer: '$\\frac{32}3$',
+    hasImage: true,
+  },
+  {
+    id: '17ca06e8cdb',
+    chapter: '選修數甲',
+    question: '求兩曲線 $y=x^2$ 與 $y=x^3+2x^2-2x$ 所圍的區域面積。',
+    answer: '$\\frac98$',
+    hasImage: true,
+  },
+  {
+    id: '17ca06ec135',
+    chapter: '選修數甲',
+    question: '試求 $y=x^2-1$ 與 $y=-x^2+x$ 所圍成的區域面積。',
+    answer: '$\\frac{37}{12}$',
+    hasImage: false,
+  },
+  {
+    id: '17c9e0cfceb',
+    chapter: '選修數甲',
+    question: '試求 $y=x^3$ 及 $y=x^5$ 所圍的區域面積。',
+    answer: '$\\frac16$',
+    hasImage: false,
+  },
+  {
+    id: '17c9e0d44f6',
+    chapter: '選修數甲',
+    question:
+      '$y=\\sqrt{x}$，$0\\leq x\\leq4$，與 $x$ 軸圍成的區域，繞 $x$ 軸旋轉一圈所成的彈頭形旋轉體體積為何？',
+    answer: '$8\\pi$',
+    hasImage: true,
+  },
+  {
+    id: '17ca0717e33',
+    chapter: '選修數甲',
+    question:
+      '$k\\in\\mathbb{R}$，若 $y=x^k$ 與 $x=1$ 及 $x$ 軸所圍成的區域，繞 $x$ 軸旋轉的旋轉體體積為 $\\frac{\\pi}{7}$，求 $k$。',
+    answer: '$3$',
+    hasImage: false,
+  },
+  {
+    id: '17ca0723a53',
+    chapter: '選修數甲',
+    question: '試求 $y=\\sqrt{x}$ 從 $x=1$ 到 $x=2$ 的一段繞 $x$ 軸旋轉所成之體積。',
+    answer: '$\\frac{3\\pi}2$',
+    hasImage: false,
+  },
+  {
+    id: '17ca07372c1',
+    chapter: '選修數甲',
+    question: '把圖中的三角形區域繞 $x$ 軸旋轉 $360\\degree$，求所得到的旋轉體體積。',
+    answer: '$18\\pi$',
+    hasImage: true,
+  },
+  {
+    id: '17ca09d3cd3',
+    chapter: '選修數甲',
+    question: '若 $f(x)=x^3+x+k$ 在區間 $[0,3]$ 的平均函數值為 $5$，求 $k$。',
+    answer: '$-\\frac{13}4$',
+    hasImage: false,
+  },
+  {
+    id: '17ca09db9f1',
+    chapter: '選修數甲',
+    question: '設函數 $f(x)=x(x-10)$，$0\\leq x\\leq10$，試求 $f(x)$ 在此區間內的平均值。',
+    answer: '$-\\frac{50}3$',
+    hasImage: false,
+  },
+  {
+    id: '17ca09eb6fc',
+    chapter: '選修數甲',
+    question:
+      '某一質點作直線運動，在 $t$ 秒時速度為 $v(t)=t^2-2t+4$ (公尺/秒)，求從 $t=1$ 秒到 $t=3$ 秒，此質點的位移。',
+    answer: '$\\frac{26}3$ 公尺',
+    hasImage: false,
+  },
+  {
+    id: '17ca09f6e51',
+    chapter: '選修數甲',
+    question:
+      '質點作等加速度直線運動，在 $t$ 秒時的速度為 $v(t)=5t+2$ (公尺/秒)，求 $t=2$ 到 $t=5$ 的平均加速度與位移。',
+    answer: '$5$ 公尺/秒$^2$；$\\frac{117}2$ 公尺',
     hasImage: false,
   },
   {
