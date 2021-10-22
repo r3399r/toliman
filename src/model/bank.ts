@@ -11570,7 +11570,7 @@ export const bank: Question[] = [
   {
     id: '17c91b98995',
     chapter: '選修數甲',
-    question: "已知 $f(3)=0$，$f'(3)=20$，求 $\\displaystyle\\lim_{h\\to0}\\tfrac{f(3+h)}{4h}$。",
+    question: "已知 $f(3)=0$，$f'(3)=20$，求 $\\displaystyle\\lim_{h\\to0}\\tfrac{f(3+h)}{4h}$",
     answer: '$5$',
     hasImage: false,
   },
@@ -11584,7 +11584,7 @@ export const bank: Question[] = [
   {
     id: '17c91bc76bd',
     chapter: '選修數甲',
-    question: "$x\\neq0$，$f(x)=\\dfrac1x-\\dfrac3{x^2}+\\dfrac5{x^4}$，求 $f'(1)$。",
+    question: "$x\\neq0$，$f(x)=\\dfrac1x-\\dfrac3{x^2}+\\dfrac5{x^4}$，求 $f'(1)$",
     answer: '$-15$',
     hasImage: false,
   },
@@ -11919,14 +11919,14 @@ export const bank: Question[] = [
     id: '17c94b815cd',
     chapter: '選修數甲',
     question:
-      '設 $a>0$，函數 $f(x)=ax^3-3ax^2-9ax+b$，若 $f(x)$ 有相對極大值為 $10$，相對極小值為 $-22$，求數對 $(a,b)$。',
+      '設 $a>0$，$f(x)=ax^3-3ax^2-9ax+b$，若 $f(x)$ 有相對極大值為 $10$，相對極小值為 $-22$，求數對 $(a,b)$。',
     answer: '$(1,5)$',
     hasImage: false,
   },
   {
     id: '17c94b93441',
     chapter: '選修數甲',
-    question: '試求函數 $f(x)=x^4+2x^3-12x^2+24x+12$ 的反曲點坐標及凹向下的區間範圍。',
+    question: '試求 $f(x)=x^4+2x^3-12x^2+24x+12$ 的反曲點坐標及凹向下的區間範圍。',
     answer: '$(-2,-84)$、$(1,27)$；$(-2,1)$',
     hasImage: false,
   },
@@ -11955,7 +11955,7 @@ export const bank: Question[] = [
     id: '17c94bb93cc',
     chapter: '選修數甲',
     question:
-      '$a,b,c,d\\in\\mathbb{R}$，設 $f(x)=ax^3+bx^2+cx+d$ 的圖形如圖，試問下列選項的推論哪些為真？\n(1) $a>0$ (2) $b>0$ (3) $c>0$ (4) $d>0$ (5) $b^2-3ac>0$',
+      '設 $f(x)=ax^3+bx^2+cx+d$ 的圖形如圖，試問下列選項的推論哪些為真？\n(1) $a>0$ (2) $b>0$ (3) $c>0$\n(4) $d>0$ (5) $b^2-3ac>0$',
     answer: '(1)(3)(4)(5)',
     hasImage: true,
   },
@@ -11963,7 +11963,7 @@ export const bank: Question[] = [
     id: '17c94706ca6',
     chapter: '選修數甲',
     question:
-      '若三次函數 $f(x)=ax^3+bx^2+cx+d$ 圖形如圖，則下列哪些為真？\n(1) $a<0$ (2) $b<0$ (3) $c<0$ (4) $d<0$ (5) $b^2-3ac>0$',
+      '若三次函數 $f(x)=ax^3+bx^2+cx+d$ 圖形如圖，則下列哪些為真？\n(1) $a<0$ (2) $b<0$ (3) $c<0$\n(4) $d<0$ (5) $b^2-3ac>0$',
     answer: '(1)(4)(5)',
     hasImage: true,
   },
@@ -11979,7 +11979,7 @@ export const bank: Question[] = [
     id: '17c961bcd17',
     chapter: '選修數甲',
     question:
-      '某大飯店有 $100$ 間客房，若每間客房每晚的住宿費定價 $2000$ 元，則可全部住滿；若每間客房每晚的住宿費提高 $100$ 元，就會多兩間空房。假如每間客房的服務成本為 $400$ 元，則每間客房的住宿費定價多少元時，才能有最大的利潤？',
+      '某飯店有 $100$ 間客房，若每間客房住宿費定價 $2000$ 元，則可全部住滿；若每間客房住宿費提高 $100$ 元，就會多兩間空房。假如每間客房的服務成本為 $400$ 元，則每間客房的住宿費定價多少元時，才能有最大的利潤？',
     answer: '$3700$',
     hasImage: false,
   },
@@ -12003,9 +12003,9 @@ export const bank: Question[] = [
     id: '17c96288a36',
     chapter: '選修數甲',
     question:
-      '由 $y=f(x)=x^2$、$x=0$、$x=1$ 及 $x$ 軸在第一象限圍成一區域 $S$，面積為 $R$，把區間 $[0,1]$ 給 $n$ 等分的上和為 $U_n$，下和為 $L_n$，求：\n(1) $U_n$、$L_n$、$R$\n(2) 滿足 $|U_n-R|<\\frac{1}{90}$ 之最小自然數 $n$',
+      '由 $y=f(x)=x^2$、$x=0$、$x=1$ 及 $x$ 軸在第一象限圍成一區域 $S$，面積為 $R$，把區間 $[0,1]$ 給 $n$ 等分的上和為 $U_n$，下和為 $L_n$，求：(1) $U_n$、$L_n$、$R$\n(2) 滿足 $|U_n-R|<\\frac{1}{90}$ 之最小自然數 $n$',
     answer: '(1) 略；略；$\\frac13$ (2) $46$',
-    hasImage: true,
+    hasImage: false,
   },
   {
     id: '17c96280656',
@@ -12026,7 +12026,7 @@ export const bank: Question[] = [
     id: '17c9629b8e1',
     chapter: '選修數甲',
     question:
-      '函數 $y=f(x)$ 在 $a\\leq x\\leq b$ 範圍內，與 $x$ 軸圍出四塊封閉區域，如圖，面積分別為 $6$、$4$、$3$、$2$。設把 $[a,b]$ 給 $n$ 等分後的黎曼和為 $R_n$，求 $\\displaystyle\\lim_{n\\to\\infty}R_n$。',
+      '函數 $y=f(x)$ 在 $a\\leq x\\leq b$ 範圍內，與 $x$ 軸圍出四塊封閉區域，如圖，面積由左至右分別為 $6$、$4$、$3$、$2$。設把 $[a,b]$ 給 $n$ 等分後的黎曼和為 $R_n$，求 $\\displaystyle\\lim_{n\\to\\infty}R_n$。',
     answer: '$3$',
     hasImage: true,
   },
@@ -12223,7 +12223,7 @@ export const bank: Question[] = [
     id: '17c9e0d44f6',
     chapter: '選修數甲',
     question:
-      '$y=\\sqrt{x}$，$0\\leq x\\leq4$，與 $x$ 軸圍成的區域，繞 $x$ 軸旋轉一圈所成的彈頭形旋轉體體積為何？',
+      '$y=\\sqrt{x}$，$0\\leq x\\leq4$，試求與 $x$ 軸圍成區域繞 $x$ 軸旋轉一圈所成的彈頭形旋轉體體積。',
     answer: '$8\\pi$',
     hasImage: true,
   },
@@ -12231,7 +12231,7 @@ export const bank: Question[] = [
     id: '17ca0717e33',
     chapter: '選修數甲',
     question:
-      '$k\\in\\mathbb{R}$，若 $y=x^k$ 與 $x=1$ 及 $x$ 軸所圍成的區域，繞 $x$ 軸旋轉的旋轉體體積為 $\\frac{\\pi}{7}$，求 $k$。',
+      '$k\\in\\mathbb{R}$，若 $y=x^k$ 與 $x=1$ 及 $x$ 軸所圍成區域繞 $x$ 軸旋轉的旋轉體體積為 $\\frac{\\pi}{7}$，求 $k$。',
     answer: '$3$',
     hasImage: false,
   },
@@ -12334,6 +12334,94 @@ export const bank: Question[] = [
     chapter: '指數對數',
     question: '已知 $x$ 為四位數，$n<\\log x<n+1$，求 $n$。',
     answer: '$3$',
+    hasImage: false,
+  },
+  {
+    id: '17ca910f903',
+    chapter: '指數對數',
+    question: '求 $\\log\\frac7{36}+2\\log3-\\log\\frac{14}{25}+5\\log2$。',
+    answer: '$2$',
+    hasImage: false,
+  },
+  {
+    id: '17ca9127311',
+    chapter: '指數對數',
+    question: '求 $(\\log_25+\\log_4125)\\cdot\\log_564$。',
+    answer: '$15$',
+    hasImage: false,
+  },
+  {
+    id: '17ca913919d',
+    chapter: '指數對數',
+    question:
+      '設 $\\log_23=a$，$\\log_37=b$，試以 $a$、$b$ 表示：(1) $\\log_27$ (2) $\\log_{14}63$',
+    answer: '(1) $ab$ (2) $\\frac{ab+2a}{ab+1}$',
+    hasImage: false,
+  },
+  {
+    id: '17ca9150924',
+    chapter: '指數對數',
+    question: '已知 $\\log_{(a-1)}(3+2a-a^2)$ 有意義，求 $a$ 的範圍。',
+    answer: '$-1<a<3$，$a\\ne2$',
+    hasImage: false,
+  },
+  {
+    id: '17ca91604bf',
+    chapter: '指數對數',
+    question: '求 $\\log_4(\\log_29)+3\\log_{64}(\\log_34)$。',
+    answer: '$1$',
+    hasImage: false,
+  },
+  {
+    id: '17ca9170a4c',
+    chapter: '指數對數',
+    question: '設 $\\log_52=x$，$\\log_45=y$，求 $5^{3x-\\frac2y+1}$ 之值。',
+    answer: '$\\frac52$',
+    hasImage: false,
+  },
+  {
+    id: '17ca91820bd',
+    chapter: '指數對數',
+    question: '方程式 $-x+2=\\log_\\frac12x$ 有多少個實根？',
+    answer: '$3$ 個',
+    hasImage: false,
+  },
+  {
+    id: '17ca9193313',
+    chapter: '指數對數',
+    question: '方程式 $\\log_\\frac12(x+3)-2\\log_\\frac12(x-1)=1$，求 $x$。',
+    answer: '$5$',
+    hasImage: false,
+  },
+  {
+    id: '17ca919de87',
+    chapter: '指數對數',
+    question: '求不等式 $\\log_\\frac12x>-2$ 之解。',
+    answer: '$0<x<4$',
+    hasImage: false,
+  },
+  {
+    id: '17ca91c424b',
+    chapter: '指數對數',
+    question:
+      '已知 $\\log2\\approx0.3010$，$\\log7\\approx0.8451$，試求滿足 $(\\frac27)^n<\\frac1{1000}$ 的最小自然數 $n$。',
+    answer: '$6$',
+    hasImage: false,
+  },
+  {
+    id: '17ca91d99bf',
+    chapter: '指數對數',
+    question:
+      '已知 $\\log2\\approx0.3010$，$\\log3\\approx0.4771$，$\\log7\\approx0.8451$，將 $3^{90}$ 乘開之後是幾位數？最高位數字是？',
+    answer: '$43$；$8$',
+    hasImage: false,
+  },
+  {
+    id: '17ca920a850',
+    chapter: '指數對數',
+    question:
+      '某種濾過性病毒有害人體，某人將此病毒 $100$ 個吸進體內，已知此病毒在人體內每隔 $6$ 小時就會分裂成 $2$ 個，當體內達到 $1$ 億個病毒時身體就會出現異常反應，此期間稱為潛伏期，請問此病毒在體內的潛伏期大約有幾天？\n(1) $3$ 天 (2) $5$ 天 (3) $8$ 天 (4) $10$ 天 (5) $15$ 天',
+    answer: '(2)',
     hasImage: false,
   },
 ];
