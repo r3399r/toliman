@@ -44,6 +44,21 @@ const Lecture = () => {
       <div className={style.button}>
         <Button onClick={onClick('trigonometricFunction')}>3 三角函數的圖形與正餘弦疊合</Button>
       </div>
+      第三冊 Ch3 平面向量
+      <div className={style.button}>
+        <Button onClick={onClick('basicOfVector')}>1 向量的加減法與係數積</Button>
+      </div>
+      <div className={style.button}>
+        <Button onClick={onClick('innerProductOfVector')}>2 平面向量的內積</Button>
+      </div>
+      <div className={style.button}>
+        <Button onClick={onClick('vectorInLineAndDeterminant')}>
+          3 直線的向量性質與二階行列式
+        </Button>
+      </div>
+      <div className={style.button}>
+        <Button onClick={onClick('graphDesign')}>4 平面圖形的比例與設計</Button>
+      </div>
       第五冊 Ch1 極限
       <div className={style.button}>
         <Button onClick={onClick('limitOfSequence')}>1 數列的極限</Button>

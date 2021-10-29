@@ -4,6 +4,7 @@ export type Question = {
   question: string;
   answer: string;
   hasImage: boolean;
+  imageOption?: string[];
 };
 
 export const chapterList: string[] = [
@@ -5425,7 +5426,7 @@ export const bank: Question[] = [
     id: '17a2db5f497',
     chapter: '多項式函數',
     question:
-      '$f(x)$ 為三次多項式，若 $f(x)>0$ 的解為 $2<x<5$ 或 $x>6$，$f(x)>12$ 的解為 $x>8$，求 $f(0)$。\n',
+      '$f(x)$ 為三次多項式，若 $f(x)>0$ 的解為 $2<x<5$ 或 $x>6$，$f(x)>12$ 的解為 $x>8$，求 $f(0)$。',
     answer: '$-20$',
     hasImage: false,
   },
@@ -9325,7 +9326,7 @@ export const bank: Question[] = [
     id: '17bb6bf8add',
     chapter: '三角函數A',
     question:
-      '如圖，圓之半徑為 $8$ 公分，弦 $AB$ 之圓心角為 $70.5\\degree$，試求此弦所對應的弓形（鋪色區）的面積。(四捨五入取到小數點第一位，可按計算機)\n',
+      '如圖，圓之半徑為 $8$ 公分，弦 $AB$ 之圓心角為 $70.5\\degree$，試求此弦所對應的弓形（鋪色區）的面積。(四捨五入取到小數點第一位，可按計算機)',
     answer: '$9.2$',
     hasImage: true,
   },
@@ -9595,7 +9596,7 @@ export const bank: Question[] = [
     id: '17be21e2d87',
     chapter: '數列級數',
     question:
-      '若第 $1$ 天獲得 $1$ 元、第 $2$ 天獲得 $2$ 元、第 $3$ 天獲得 $4$ 元、第 $4$ 天獲得 $8$ 元、依此每天所獲得的錢為前一天的兩倍，如此進行到第 $30$ 天，試問這 $30$ 天所獲得的錢之總數最接近下列哪一個選項？\n(1) $10^4$ (2) $10^6$ (3) $10^8$ (4) $10^9$ (5) $10^{12}$\n',
+      '若第 $1$ 天獲得 $1$ 元、第 $2$ 天獲得 $2$ 元、第 $3$ 天獲得 $4$ 元、第 $4$ 天獲得 $8$ 元、依此每天所獲得的錢為前一天的兩倍，如此進行到第 $30$ 天，試問這 $30$ 天所獲得的錢之總數最接近下列哪一個選項？\n(1) $10^4$ (2) $10^6$ (3) $10^8$ (4) $10^9$ (5) $10^{12}$',
     answer: '(4)',
     hasImage: false,
   },
@@ -10517,7 +10518,7 @@ export const bank: Question[] = [
     id: '17c3cffaea5',
     chapter: '平面向量',
     question:
-      '平面上兩點 $P(2,3\\sqrt{3})$、$Q(5,2\\sqrt{3})$，求：(1) $\\xvector{PQ}$ (2) $\\xvector{QP}$ (3) $|\\xvector{PQ}|$。',
+      '平面上兩點 $P(2,3\\sqrt{3})$、$Q(5,2\\sqrt{3})$，求：\n(1) $\\xvector{PQ}$ (2) $\\xvector{QP}$ (3) $|\\xvector{PQ}|$。',
     answer: '(1) $(3,-\\sqrt{3})$ (2) $(-3,\\sqrt{3})$ (3) $2\\sqrt{3}$',
     hasImage: false,
   },
@@ -10525,8 +10526,8 @@ export const bank: Question[] = [
     id: '17c3d014a2f',
     chapter: '平面向量',
     question:
-      '坐標平面上點 $A(x,5)$、$B(3,y)$、$C(-1,8)$、$D(2,4)$，試問：\n(1) 若 $\\xvector{AB}=(5,-4)$，求 $x$、$y$。\n(2) 若四邊形$ABCD$為平行四邊形，求 $x$、$y$。',
-    answer: '(1) $-2$；$1$ (2) $6$；$9$ ',
+      '坐標平面上點 $A(x,5)$、$B(3,y)$、$C(-1,8)$、$D(2,4)$，若：\n(1) $\\xvector{AB}=(5,-4)$，求 $(x,y)$。\n(2) 四邊形$ABCD$為平行四邊形，求 $(x,y)$',
+    answer: '(1) $(-2,1)$ (2) $(6,9)$',
     hasImage: true,
   },
   {
@@ -10541,7 +10542,7 @@ export const bank: Question[] = [
     id: '17c3d037b9d',
     chapter: '平面向量',
     question:
-      '平面上兩點 $P(-3,7)$、$Q(-5,9)$，求：(1) $\\xvector{PQ}$ (2) $\\xvector{QP}$ (3) $|\\xvector{PQ}|$。',
+      '平面上兩點 $P(-3,7)$、$Q(-5,9)$，求：\n(1) $\\xvector{PQ}$ (2) $\\xvector{QP}$ (3) $|\\xvector{PQ}|$。',
     answer: '(1) $(-2,2)$ (2) $(2,-2)$ (3) $2\\sqrt{2}$',
     hasImage: false,
   },
@@ -10549,8 +10550,8 @@ export const bank: Question[] = [
     id: '17c3d22698e',
     chapter: '平面向量',
     question:
-      '若 $D(x,y)$ 與 $A(1,2)$、$B(12,7)$、$C(5,-9)$ 連成平行四邊形，求 $D(x,y)$。(有三組解)',
-    answer: '$(8,18)$；$(16,-4)$；$(-6,-14)$',
+      '若 $D(x,y)$ 與 $A(1,2)$、$B(12,7)$、$C(5,-9)$ 連成平行四邊形，求 $D(x,y)$。\n(有三組解)',
+    answer: '$(8,18)$ 或 $(16,-4)$ 或 $(-6,-14)$',
     hasImage: false,
   },
   {
@@ -10573,7 +10574,7 @@ export const bank: Question[] = [
     id: '17c3d243d52',
     chapter: '平面向量',
     question:
-      '平面上四點 $A(2,5)$、$B(-4,1)$、$C(9,-6)$、$D(0,13)$，請用數對表示：(1) $\\xvector{AB}+\\xvector{CD}$ (2) $\\xvector{AB}+\\xvector{BC}+\\xvector{CD}$ \n(3) $\\xvector{AB}-\\xvector{CD}$。',
+      '平面上四點 $A(2,5)$、$B(-4,1)$、$C(9,-6)$、$D(0,13)$，求下列向量：\n(1) $\\xvector{AB}+\\xvector{CD}$\n(2) $\\xvector{AB}+\\xvector{BC}+\\xvector{CD}$\n(3) $\\xvector{AB}-\\xvector{CD}$。',
     answer: '(1) $(-15,15)$ (2) $(-2,8)$ (3) $(3,-23)$',
     hasImage: false,
   },
@@ -10581,8 +10582,8 @@ export const bank: Question[] = [
     id: '17c3d24d200',
     chapter: '平面向量',
     question:
-      '已知 $\\xvector{AB}=(1,2)$，$\\xvector{CD}=(-4,3)$，$\\xvector{AD}=(7,-2)$，求：(1) $\\xvector{BD}$ (2) $\\xvector{BC}$。',
-    answer: '(1) $(6,-4)$ (2) $(10,-7)$',
+      '已知 $\\xvector{AB}=(1,2)$，$\\xvector{CD}=(-4,3)$，$\\xvector{AD}=(7,-2)$，求 $\\xvector{BD}$ 及 $\\xvector{BC}$。',
+    answer: '$(6,-4)$；$(10,-7)$',
     hasImage: false,
   },
   {
@@ -10597,7 +10598,7 @@ export const bank: Question[] = [
     id: '17c3d26a079',
     chapter: '平面向量',
     question:
-      '平面上四點 $A(2,6)$、$B(1,-4)$、$C(3,2)$、$D(7,11)$，求：(1) $\\xvector{AB}+\\xvector{CD}$\n(2) $\\xvector{AB}+\\xvector{BC}+\\xvector{CD}$\n(3) $\\xvector{AB}+\\xvector{BC}+\\xvector{CD}+\\xvector{DA}$。',
+      '平面上四點 $A(2,6)$、$B(1,-4)$、$C(3,2)$、$D(7,11)$，求下列向量：\n(1) $\\xvector{AB}+\\xvector{CD}$\n(2) $\\xvector{AB}+\\xvector{BC}+\\xvector{CD}$\n(3) $\\xvector{AB}+\\xvector{BC}+\\xvector{CD}+\\xvector{DA}$。',
     answer: '(1) $(3,-1)$ (2) $(5,5)$ (3) $\\vector{0}$',
     hasImage: false,
   },
@@ -10621,7 +10622,7 @@ export const bank: Question[] = [
     id: '17c3c395cde',
     chapter: '平面向量',
     question:
-      '已知 $\\xvector{AB}=(2,13)$，$\\xvector{AD}=(15,8)$，$\\xvector{DC}=(-6,1)$，求 $\\xvector{CA}$、$\\xvector{CB}$。',
+      '已知 $\\xvector{AB}=(2,13)$，$\\xvector{AD}=(15,8)$，$\\xvector{DC}=(-6,1)$，求 $\\xvector{CA}$ 及 $\\xvector{CB}$。',
     answer: '$(-9,-9)$；$(7,4)$',
     hasImage: false,
   },
@@ -10629,15 +10630,15 @@ export const bank: Question[] = [
     id: '17c4563c8b7',
     chapter: '平面向量',
     question:
-      '線段 $\\overline{PQ}$ 上有 $5$ 個等分點 $A$、$B$、$C$、$D$、$E$，如圖所示，若 $\\xvector{AE}=x\\xvector{PQ}$，$\\xvector{AQ}=y\\xvector{DB}$，求數對 $(x,y)$。',
-    answer: '$(\\frac{2}{3},-\\frac{5}{2})$',
+      '線段 $\\overline{PQ}$ 上有 $5$ 個等分點 $A$、$B$、$C$、$D$、$E$，如圖，若 $\\xvector{AE}=x\\xvector{PQ}$，$\\xvector{AQ}=y\\xvector{DB}$，求數對 $(x,y)$。',
+    answer: '$(\\frac23,-\\frac52)$',
     hasImage: true,
   },
   {
     id: '17c3c614420',
     chapter: '平面向量',
     question:
-      '若 $2\\vector{a}-3(\\vector{b}+2\\vector{c})$\n$+2(\\vector{a}-\\vector{b}+\\vector{c})=x\\vector{a}+y\\vector{b}+z\\vector{c}$，求 $(x,y,z)$。',
+      '若 $2\\vector{a}-3(\\vector{b}+2\\vector{c})+2(\\vector{a}-\\vector{b}+\\vector{c})$$=x\\vector{a}+y\\vector{b}+z\\vector{c}$，求 $(x,y,z)$。',
     answer: '$(4,-5,-4)$',
     hasImage: false,
   },
@@ -10653,7 +10654,7 @@ export const bank: Question[] = [
     id: '17c40cb19e8',
     chapter: '平面向量',
     question:
-      '已知 $|\\vector{a}|=8$，$|\\vector{b}|=3$，$|\\vector{c}|=5$，$\\vector{a}$ 與 $\\vector{b}$ 同向，$\\vector{b}$ 與 $\\vector{c}$ 反向，$\\vector{a}=x\\vector{b}=y\\vector{c}$，求數對 $(x,y)$。\n',
+      '已知 $|\\vector{a}|=8$，$|\\vector{b}|=3$，$|\\vector{c}|=5$，$\\vector{a}$ 與 $\\vector{b}$ 同向，$\\vector{b}$ 與 $\\vector{c}$ 反向，$\\vector{a}=x\\vector{b}=y\\vector{c}$，求數對 $(x,y)$。',
     answer: '$(\\frac{8}{3},-\\frac{8}{5})$',
     hasImage: false,
   },
@@ -10661,7 +10662,7 @@ export const bank: Question[] = [
     id: '17c40d37bdd',
     chapter: '平面向量',
     question:
-      '若 $4(\\vector{a}-2\\vector{b})+3\\vector{c}$\n$-2(-\\vector{a}+2\\vector{b}+3\\vector{c})=x\\vector{a}+y\\vector{b}+z\\vector{c}$，求 $(x,y,z)$。\n',
+      '若 $4(\\vector{a}-2\\vector{b})+3\\vector{c}$$-2(-\\vector{a}+2\\vector{b}+3\\vector{c})=x\\vector{a}+y\\vector{b}+z\\vector{c}$，求 $(x,y,z)$。',
     answer: '$(6,-12,-3)$',
     hasImage: false,
   },
@@ -10677,7 +10678,7 @@ export const bank: Question[] = [
     id: '17c40dface4',
     chapter: '平面向量',
     question:
-      '平面上 $A(3,2)$、$B(1,5)$、$C(-2,-1)$，若 $P$ 點滿足 $3\\xvector{AP}+2\\xvector{BP}+\\xvector{CP}=\\vector{0}$，求 $P$ 點坐標。',
+      '平面上 $A(3,2)$、$B(1,5)$、$C(-2,-1)$，若 $P$ 滿足 $3\\xvector{AP}+2\\xvector{BP}+\\xvector{CP}=\\vector{0}$，求 $P$',
     answer: '$(\\frac{3}{2},\\frac{5}{2})$',
     hasImage: false,
   },
@@ -10701,7 +10702,7 @@ export const bank: Question[] = [
     id: '17c456250f8',
     chapter: '平面向量',
     question:
-      '平面上 $A(1,7)$、$B(2,2)$、$C(-3,1)$，若 $P$ 點滿足 $2\\xvector{AP}-3\\xvector{BP}+5\\xvector{CP}=\\vector{0}$，求 $P$ 坐標。',
+      '平面上 $A(1,7)$、$B(2,2)$、$C(-3,1)$，若 $P$ 滿足 $2\\xvector{AP}-3\\xvector{BP}+5\\xvector{CP}=\\vector{0}$，求 $P$。',
     answer: '$(-\\frac{19}{4},\\frac{13}{4})$ ',
     hasImage: false,
   },
@@ -10709,7 +10710,7 @@ export const bank: Question[] = [
     id: '17c4569c253',
     chapter: '平面向量',
     question:
-      '坐標平面上有一點 $A(7,-2)$ 及向量 $\\xvector{p}=(-3,4)$，若 $A$ 點沿著 $\\xvector{p}$ 的方向移動 $4$ 個單位長至 $B$ 點，求 $B$ 點坐標。\n',
+      '坐標平面上有一點 $A(7,-2)$ 及向量 $\\vector{p}=(-3,4)$，若 $A$ 點沿著 $\\vector{p}$ 的方向移動 $4$ 個單位長至 $B$ 點，求 $B$。',
     answer: '$(\\frac{23}{5},\\frac{6}{5})$',
     hasImage: false,
   },
@@ -10717,8 +10718,8 @@ export const bank: Question[] = [
     id: '17c4573201e',
     chapter: '平面向量',
     question:
-      '平面上 $\\vector{a}=(2,-1)$，$\\vector{b}=(4,3)$，令 $\\vector{c}=\\vector{a}+t\\vector{b}$，若 : \n(1) $\\vector{c}$ 與 $(2,1)$ 平行，求 $t$。\n(2) $\\vector{c}$ 平分 $\\vector{a}$、$\\vector{b}$ 的夾角，求 $t$。\n',
-    answer: '(1) $2$；(2) $\\dfrac{\\sqrt{5}}{5}$',
+      '平面上 $\\vector{a}=(2,-1)$，$\\vector{b}=(4,3)$，令 $\\vector{c}=\\vector{a}+t\\vector{b}$，若 : \n(1) $\\vector{c}$ 與 $(2,1)$ 平行，求 $t$。\n(2) $\\vector{c}$ 平分 $\\vector{a}$、$\\vector{b}$ 的夾角，求 $t$。',
+    answer: '(1) $2$；(2) $\\frac{\\sqrt{5}}{5}$',
     hasImage: false,
   },
   {
@@ -10962,7 +10963,7 @@ export const bank: Question[] = [
     chapter: '平面向量',
     question:
       '已知 $\\vector{a}=(2,1)$，$\\vector{b}=(3,4)$，求 $|t\\vector{a}+\\vector{b}|$ 的最小值及此時的 $t$。',
-    answer: '$-2$；$\\sqrt{5}$',
+    answer: '$\\sqrt{5}$；$-2$',
     hasImage: false,
   },
   {
@@ -10970,14 +10971,14 @@ export const bank: Question[] = [
     chapter: '平面向量',
     question:
       '已知 $\\vector{a}=(-2,1)$，$\\vector{b}=(7,4)$，求 $| t\\vector{a}+\\vector{b}|$ 的最小值及此時的 $t$。',
-    answer: '$2$；$3\\sqrt{5}$',
+    answer: '$3\\sqrt{5}$；$2$',
     hasImage: false,
   },
   {
     id: '17c561f61e7',
     chapter: '平面向量',
     question:
-      '已知正方形 $ABCD$ 的邊長 $1$，若 $P$ 點滿足 $\\xvector{AP}=t\\xvector{AB}+k\\xvector{AD}$，其中 $0\\le t\\le2$ 且 $-1\\le k\\le3$，則所有 $P$ 點所成的圖形為長方形，求其面積。\n',
+      '已知正方形 $ABCD$ 的邊長 $1$，若 $P$ 點滿足 $\\xvector{AP}=t\\xvector{AB}+k\\xvector{AD}$，其中 $0\\le t\\le2$ 且 $-1\\le k\\le3$，則所有 $P$ 點所成的圖形為長方形，求其面積。',
     answer: '$8$',
     hasImage: false,
   },
@@ -10993,7 +10994,7 @@ export const bank: Question[] = [
     id: '17c5e01de25',
     chapter: '平面向量',
     question:
-      '如圖所示，$OPCQ$ 為平行四邊形，$\\overline{OP}=2$，$\\overline{OQ}=3$，$P$ 在 $\\overline{OA}$ 上，$B$ 在 $\\overline{OQ}$ 上，$\\lvert \\xvector{OA}\\rvert=5$，$\\lvert \\xvector{OB}\\rvert=1$，若 $\\xvector{OC}=x\\xvector{OA}+y\\xvector{OB}$，求數對 $(x,y)$。',
+      '如圖，$OPCQ$ 為平行四邊形，$\\overline{OP}=2$，$\\overline{OQ}=3$，$P$ 在 $\\overline{OA}$ 上，$B$ 在 $\\overline{OQ}$ 上，$\\lvert \\xvector{OA}\\rvert=5$，$\\lvert \\xvector{OB}\\rvert=1$，若 $\\xvector{OC}=x\\xvector{OA}+y\\xvector{OB}$，求數對 $(x,y)$。',
     answer: '$(\\frac{2}{5},3)$',
     hasImage: true,
   },
@@ -11001,7 +11002,7 @@ export const bank: Question[] = [
     id: '17c5e0ecf8f',
     chapter: '平面向量',
     question:
-      '如圖所示，$APQR$ 為平行四邊形，$P$ 在 $\\overline{OA}$ 上且 $\\overline{AP}=2\\overline{PC}$，$A$ 在 $\\overline{BR}$ 上且 $5\\overline{AB}=2\\overline{AR}$，若 $\\xvector{AQ}=x\\xvector{AB}+y\\xvector{AC}$，求數對 $(x,y)$。\n',
+      '如圖，$APQR$ 為平行四邊形，$P$ 在 $\\overline{OA}$ 上且 $\\overline{AP}=2\\overline{PC}$，$A$ 在 $\\overline{BR}$ 上且 $5\\overline{AB}=2\\overline{AR}$，若 $\\xvector{AQ}=x\\xvector{AB}+y\\xvector{AC}$，求數對 $(x,y)$。',
     answer: '$(\\frac{2}{5},-\\frac{2}{3})$',
     hasImage: true,
   },
@@ -11025,7 +11026,7 @@ export const bank: Question[] = [
     id: '17c5e180ef8',
     chapter: '平面向量',
     question:
-      '平面上 $\\triangle ABC$，若 $(x+4y)\\xvector{AB}+(2x-9)\\xvector{BC}+(y-5)\\xvector{CA}=\\vector{0}$，求數對 $(x,y)$。',
+      '平面上 $\\triangle ABC$，若 $(x+4y)\\xvector{AB}+$$(2x-9)\\xvector{BC}+(y-5)\\xvector{CA}=\\vector{0}$，求數對 $(x,y)$。',
     answer: ' $(1,-2)$',
     hasImage: false,
   },
@@ -11089,7 +11090,7 @@ export const bank: Question[] = [
     id: '17c6009c44c',
     chapter: '平面向量',
     question:
-      '數線上有  $P、A、B$ 三點，已知 $\\overline{PA}:\\overline{PB}=4:7$，設點 $O$ 在數線外，若 $\\xvector{OP}=x\\xvector{OA}+y\\xvector{OB}$，求數對 $(x,y)$。(兩解)',
+      '數線上有 $P、A、B$ 三點，已知 $\\overline{PA}:\\overline{PB}=4:7$，設點 $O$ 在數線外，若 $\\xvector{OP}=x\\xvector{OA}+y\\xvector{OB}$，求數對 $(x,y)$。',
     answer: '$(\\frac{7}{11},\\frac{4}{11})$ 或 $(\\frac{7}{3},-\\frac{4}{3})$',
     hasImage: false,
   },
@@ -11105,7 +11106,7 @@ export const bank: Question[] = [
     id: '17c601738d2',
     chapter: '平面向量',
     question:
-      '如圖， $D$ 在 $\\overline{BC}$ 上，且 $\\overline{CD}=2\\overline{BD}$，$G$ 為 $\\overline{AC}$ 中點，則:\n(1) $\\xvector{GD}=x\\xvector{CA}+y\\xvector{CB}$，求數對 $(x,y)$。\n(2) $\\xvector{GD}=p\\xvector{AB}+q\\xvector{AC}$，求數對 $(p,q)$。。',
+      '如圖，$D$ 在 $\\overline{BC}$ 上，且 $\\overline{CD}=2\\overline{BD}$，$G$ 為 $\\overline{AC}$ 中點，則：\n(1) $\\xvector{GD}=x\\xvector{CA}+y\\xvector{CB}$，求數對 $(x,y)$\n(2) $\\xvector{GD}=p\\xvector{AB}+q\\xvector{AC}$，求數對 $(p,q)$',
     answer: ' $(-\\frac{1}{2},\\frac{2}{3})$；$(\\frac{2}{3},-\\frac{1}{6})$。',
     hasImage: true,
   },
@@ -11122,9 +11123,8 @@ export const bank: Question[] = [
     id: '17c5bcac6bb',
     chapter: '平面向量',
     question:
-      '$\\triangle ABC$ 中，已知 $A(1,2)$、$B(4,-2)$、$C(1,5)$：\n(1) $\\angle A$ 的內角平分線交 $\\overline{BC}$ 於 $D$，則 $\\xvector{AD}=x\\xvector{AB}+y\\xvector{AC}$，求數對 $(x,y)$ 和 $D$ 坐標。\n(2) $\\angle A$ 的外角平分線交 $\\overleftrightarrow{BC}$ 於 $E$，則 $\\xvector{AE}=p\\xvector{AB}+q\\xvector{AC}$，求數對 $(p,q)$ 和 $E$ 坐標。',
-    answer:
-      '(1) $(\\frac{3}{8},\\frac{5}{8})$；$(\\frac{17}{8},\\frac{19}{8})$ (2) $(-\\frac{3}{2},\\frac{5}{2})$；$(-\\frac{7}{2},\\frac{31}{2})$',
+      '$\\triangle ABC$ 中，$A(1,2)$、$B(4,-2)$、$C(1,5)$\n(1) $\\angle A$ 的內角平分線交 $\\overline{BC}$ 於 $D$，則 $\\xvector{AD}=x\\xvector{AB}+y\\xvector{AC}$，求數對 $(x,y)$\n(2) $\\angle A$ 的外角平分線交 $\\overleftrightarrow{BC}$ 於 $E$，則 $\\xvector{AE}=p\\xvector{AB}+q\\xvector{AC}$，求數對 $(p,q)$',
+    answer: '(1) $(\\frac38,\\frac58)$ (2) $(-\\frac32,\\frac52)$',
     hasImage: false,
   },
   {
@@ -11147,7 +11147,7 @@ export const bank: Question[] = [
     id: '17c5bdc51bf',
     chapter: '平面向量',
     question:
-      '若 $A$、$B$、$C$ 三點共線，$P$ 為線外一點，且 $4\\xvector{PA}+5\\xvector{PB}+x\\xvector{PC}=2\\xvector{CA}$，求 $x$ 並求長度比值 $\\frac{\\overline{AB}}{\\overline{BC}}$。',
+      '若 $A$、$B$、$C$ 三點共線，$P$ 為線外一點，且 $4\\xvector{PA}+5\\xvector{PB}+x\\xvector{PC}=2\\xvector{CA}$，求 $x$ 及 $\\frac{\\overline{AB}}{\\overline{BC}}$。',
     answer: '$-9$；$\\frac{7}{2}$',
     hasImage: false,
   },
@@ -11179,7 +11179,7 @@ export const bank: Question[] = [
     id: '17c5ee185ce',
     chapter: '平面向量',
     question:
-      '平面上有點 $P$ 與 $\\triangle ABC$，滿足 $\\xvector{AP}=\\alpha\\xvector{AB}+\\beta\\xvector{AC}$，則 $(\\alpha,\\beta)$ 為下列哪一個選項時，$P$ 會在 $\\triangle ABC$ 的內部(不含邊界)？\n(1) $(\\frac{2}{3},\\frac{3}{4})$ (2) $(-\\frac{2}{5},\\frac{6}{7})$ (3) $(-\\frac{6}{7},\\frac{13}{9})$\n(4) $(\\frac{1}{2},\\frac{1}{3})$ (5) $(\\frac{2}{5},\\frac{3}{5})$',
+      '平面上有點 $P$ 與 $\\triangle ABC$，滿足 $\\xvector{AP}=\\alpha\\xvector{AB}+\\beta\\xvector{AC}$，則 $(\\alpha,\\beta)$ 為下列何者時，$P$ 會在 $\\triangle ABC$ 的內部？(不含邊界)\n(1) $(\\frac{2}{3},\\frac{3}{4})$ (2) $(-\\frac{2}{5},\\frac{6}{7})$ (3) $(-\\frac{6}{7},\\frac{13}{9})$\n(4) $(\\frac{1}{2},\\frac{1}{3})$ (5) $(\\frac{2}{5},\\frac{3}{5})$',
     answer: '(4)',
     hasImage: false,
   },
@@ -11203,7 +11203,7 @@ export const bank: Question[] = [
     id: '17c5f9ca487',
     chapter: '平面向量',
     question:
-      '如圖，$D$ 在 $\\overline{AB}$ 上且 $2\\xvector{AD}=\\xvector{DB}$，$E$ 在 $\\overline{AC}$ 上且 $\\xvector{AE}=3\\xvector{EC}$，$\\overline{BE}$ 與 $\\overline{CD}$ 交於 $F$，$\\xvector{AF}=x\\xvector{AB}+y\\xvector{AC}$，求數對 $(x,y)$。',
+      '$D$ 在 $\\overline{AB}$ 上且 $2\\xvector{AD}=\\xvector{DB}$，$E$ 在 $\\overline{AC}$ 上且 $\\xvector{AE}=3\\xvector{EC}$，$\\overline{BE}$ 與 $\\overline{CD}$ 交於 $F$，$\\xvector{AF}=x\\xvector{AB}+y\\xvector{AC}$，求數對 $(x,y)$。',
     answer: '$(\\frac{1}{9},\\frac{2}{3})$',
     hasImage: true,
   },
@@ -11219,7 +11219,7 @@ export const bank: Question[] = [
     id: '17c5fdff0c5',
     chapter: '平面向量',
     question:
-      '平面上三點 $A(5,-1)$、$B(7,12)$、$C(15,4)$，若有一點 $P$ 滿足 $\\xvector{PA}+\\xvector{PB}+\\xvector{PC}=\\vector{0}$，求 $P$ 坐標。',
+      '平面上三點 $A(5,-1)$、$B(7,12)$、$C(15,4)$，若點 $P$ 滿足 $\\xvector{PA}+\\xvector{PB}+\\xvector{PC}=\\vector{0}$，求 $P$。',
     answer: '$(9,5)$',
     hasImage: false,
   },
@@ -11243,7 +11243,7 @@ export const bank: Question[] = [
     id: '17c5ff32ef2',
     chapter: '平面向量',
     question:
-      '平面上 $\\triangle ABC$，已知 $A(1,5)$、$B(-2,1)$，$\\triangle ABC$ 的重心為 $G(3,4)$，試求 $C$ 坐標。',
+      '平面上 $\\triangle ABC$，已知 $A(1,5)$、$B(-2,1)$，$\\triangle ABC$ 的重心為 $G(3,4)$，求 $C$。',
     answer: '$(10,6)$',
     hasImage: false,
   },
@@ -11259,7 +11259,7 @@ export const bank: Question[] = [
     id: '17c5ffd658c',
     chapter: '平面向量',
     question:
-      '$\\triangle ABC$ 中，$\\overline{AB}=4$，$\\overline{BC}=5$，$\\overline{CA}=7$，設 $I$ 為其內心，且 $\\xvector{AI}=x\\xvector{AB}+y\\xvector{AC}$，求數對 $(x,y)$。',
+      '$\\triangle ABC$ 中，$\\overline{AB}=4$，$\\overline{BC}=5$，$\\overline{CA}=7$，$I$ 為其內心，且 $\\xvector{AI}=x\\xvector{AB}+y\\xvector{AC}$，求數對 $(x,y)$。',
     answer: '$(\\frac{7}{16},\\frac{1}{4})$',
     hasImage: false,
   },
@@ -11376,7 +11376,7 @@ export const bank: Question[] = [
     id: '17c6f79722a',
     chapter: '平面向量',
     question:
-      '已知 $2\\vector{a}-\\vector{b}=(-1,\\sqrt{3})$，$\\vector{c}=(1,\\sqrt{3})$，$\\vector{a}\\cdot\\vector{c}=3$，$|\\vector{b}|=4$，試求 $\\vector{b}$ 與 $\\vector{c}$ 的夾角。',
+      '設 $2\\vector{a}-\\vector{b}=(-1,\\sqrt{3})$，$\\vector{c}=(1,\\sqrt{3})$，$\\vector{a}\\cdot\\vector{c}=3$，$|\\vector{b}|=4$，求 $\\vector{b}$ 與 $\\vector{c}$ 的夾角。',
     answer: '$60\\degree$',
     hasImage: false,
   },
@@ -11400,7 +11400,7 @@ export const bank: Question[] = [
     id: '17c6f99c610',
     chapter: '平面向量',
     question:
-      '$|\\vector{a}|=1$，$|\\vector{b}|=3$，$\\vector{a}$ 與 $\\vector{b}$ 的夾角為 $\\cos^{-1}\\frac{1}{3}$，求 $|2\\vector{a}+3\\vector{b}|$。',
+      '$|\\vector{a}|=1$，$|\\vector{b}|=3$，$\\vector{a}$ 與 $\\vector{b}$ 的夾角為 $\\theta$，且 $\\cos\\theta=\\frac13$，求 $|2\\vector{a}+3\\vector{b}|$。',
     answer: '$\\sqrt{97}$',
     hasImage: false,
   },
@@ -11799,8 +11799,8 @@ export const bank: Question[] = [
     id: '17c92316f9e',
     chapter: '平面向量',
     question:
-      '考慮正五邊形 $ABCDE$ 之對角線所形成的向量，下列何者內積值最大？\n(1) $\\xvector{AC}\\cdot\\xvector{EC}$ (2) $\\xvector{BD}\\cdot\\xvector{EC}$ (3) $\\xvector{DA}\\cdot\\xvector{EC}$ (4) $\\xvector{BD}\\cdot\\xvector{EB}$\n',
-    answer: '(1)\n',
+      '考慮正五邊形 $ABCDE$ 之對角線所形成的向量，下列何者內積值最大？\n(1) $\\xvector{AC}\\cdot\\xvector{EC}$ (2) $\\xvector{BD}\\cdot\\xvector{EC}$ (3) $\\xvector{DA}\\cdot\\xvector{EC}$ (4) $\\xvector{BD}\\cdot\\xvector{EB}$',
+    answer: '(1)',
     hasImage: false,
   },
   {
@@ -11808,7 +11808,7 @@ export const bank: Question[] = [
     chapter: '平面向量',
     question:
       '關於內積的性質，下列各選項哪些為真？\n(1) 若 $\\vector{a}=\\vector{b}$，則 $\\vector{a}\\cdot\\vector{c}=\\vector{b}\\cdot\\vector{c}$\n(2) 若 $\\vector{a}\\cdot\\vector{c}=\\vector{b}\\cdot\\vector{c}$ ，則 $\\vector{a}=\\vector{b}$\n(3) 若 $\\vector{a}\\neq\\vector{0}$，則 $\\vector{a}\\cdot\\vector{a}>0$\n(4) ($\\vector{a}+\\vector{b})\\cdot\\vector{c}=\\vector{c}\\cdot\\vector{a}+\\vector{c}\\cdot\\vector{b}$\n(5) 若 $\\vector{a}\\cdot\\vector{b}>0$ 且 $\\vector{b}\\cdot\\vector{c}>0$，則 $\\vector{a}\\cdot\\vector{c}>0$',
-    answer: '(1)(3)(4)\n',
+    answer: '(1)(3)(4)',
     hasImage: false,
   },
   {
@@ -11832,7 +11832,7 @@ export const bank: Question[] = [
     chapter: '平面向量',
     question:
       '下列關於向量內積的推論，下列哪些為真？\n(1) 若 $|\\vector{b}|>|\\vector{c}|$，則 $\\vector{a}\\cdot\\vector{b}>\\vector{a}\\cdot\\vector{c}$\n(2) 若 $\\vector{a}$、$\\vector{b}$ 夾鈍角，則 $\\vector{a}\\cdot\\vector{b}<0$ \n(3) 若 $\\vector{a}\\cdot\\vector{a}=0$，則 $\\vector{a}=\\vector{0}$\n(4) 若 $\\vector{a}\\cdot\\vector{b}>0$ 且 $\\vector{a}\\cdot\\vector{c}>0$，則 $\\vector{a}\\cdot(\\vector{b}+\\vector{c})>0$\n(5) 若 $\\vector{a}\\cdot\\vector{b}=0$ 且 $\\vector{b}\\cdot\\vector{c}=0$，則 $\\vector{a}\\cdot\\vector{c}=0$',
-    answer: '(2)(3)(4)\n',
+    answer: '(2)(3)(4)',
     hasImage: false,
   },
   {
@@ -11840,7 +11840,7 @@ export const bank: Question[] = [
     chapter: '平面向量',
     question:
       '$\\triangle ABC$ 中，$\\overline{AB}=3$，$\\overline{BC}=7$，$\\overline{CA}=6$，求 $\\xvector{AB}\\cdot\\xvector{AC}$ 及 $\\xvector{AB}\\cdot\\xvector{BC}$。',
-    answer: '$-2$；$-11$\n',
+    answer: '$-2$；$-11$',
     hasImage: true,
   },
   {
@@ -11855,7 +11855,7 @@ export const bank: Question[] = [
     id: '17c923d1b6b',
     chapter: '平面向量',
     question:
-      '平行四邊形 $ABCD$，已知 $\\overline{AB}=4$，$\\overline{BC}=3$，求 $\\xvector{AC}\\cdot\\xvector{BD}$\n',
+      '平行四邊形 $ABCD$，已知 $\\overline{AB}=4$，$\\overline{BC}=3$，求 $\\xvector{AC}\\cdot\\xvector{BD}$',
     answer: '$-7$',
     hasImage: false,
   },
@@ -11863,15 +11863,15 @@ export const bank: Question[] = [
     id: '17c92425fed',
     chapter: '平面向量',
     question:
-      '$\\triangle ABC$ 中，$\\overline{AB}=4$，$\\overline{BC}=7$，$\\overline{AC}=5$ 求：\n(1) $\\xvector{AC}$ (2) $\\xvector{AB}\\cdot\\xvector{BC}$\n(3) 點 $P$ 在 $\\overline{BC}$ 上且 $\\overline{BP}=3$，點 $Q$ 在 $\\overline{AC}$ 上且 $\\overline{AQ}=2$，求 $\\xvector{AP}\\cdot\\xvector{BQ}$\n\n',
-    answer: '(1) $-4$ (2) $-20$ (3 )$-\\frac{142}{35}$',
+      '$\\triangle ABC$ 中，$\\overline{AB}=4$，$\\overline{BC}=7$，$\\overline{AC}=5$ 求：(1) $\\xvector{AC}$ (2) $\\xvector{AB}\\cdot\\xvector{BC}$\n(3) 點 $P$ 在 $\\overline{BC}$ 上且 $\\overline{BP}=3$，點 $Q$ 在 $\\overline{AC}$ 上且 $\\overline{AQ}=2$，求 $\\xvector{AP}\\cdot\\xvector{BQ}$',
+    answer: '(1) $-4$ (2) $-20$ (3) $-\\frac{142}{35}$',
     hasImage: false,
   },
   {
     id: '17c92607d70',
     chapter: '平面向量',
     question:
-      '等腰梯形 $ABCD$，$\\overline{AB}=\\overline{CD}=4$，$\\overline{BC}=10$，$\\overline{AD}=8$。已知 $M$ 為 $\\overline{AD}$ 中點，$N$ 為 $\\overline{CD}$ 中點，求 $\\xvector{MN}\\cdot\\xvector{AC}$\n',
+      '等腰梯形 $ABCD$，$\\overline{AB}=\\overline{CD}=4$，$\\overline{BC}=10$，$\\overline{AD}=8$。已知 $M$ 為 $\\overline{AD}$ 中點，$N$ 為 $\\overline{CD}$ 中點，求 $\\xvector{MN}\\cdot\\xvector{AC}$',
     answer: '48',
     hasImage: false,
   },
@@ -11879,7 +11879,7 @@ export const bank: Question[] = [
     id: '17c92614ed0',
     chapter: '平面向量',
     question:
-      '已知 $\\triangle ABC$ 中，$O$ 為內部一點，$\\overline{OA}=2$，$\\overline{OB}=3$，$\\overline{OC}=\\sqrt{3}$，$\\angle AOB=120\\degree$，$\\angle AOC=150\\degree$，求  $\\xvector{AB}\\cdot\\xvector{BC}$\n\n',
+      '已知 $\\triangle ABC$ 中，$O$ 為內部一點，$\\overline{OA}=2$，$\\overline{OB}=3$，$\\overline{OC}=\\sqrt{3}$，$\\angle AOB=120\\degree$，$\\angle AOC=150\\degree$，求  $\\xvector{AB}\\cdot\\xvector{BC}$',
     answer: '$-9$',
     hasImage: false,
   },
@@ -11895,7 +11895,7 @@ export const bank: Question[] = [
     id: '17c9265f99f',
     chapter: '平面向量',
     question:
-      '若 $2|\\vector{a}|=|\\vector{b}|\\neq0$，且 $(\\vector{a}+\\vector{b})\\perp(5\\vector{a}-2\\vector{b})$，求 $\\vector{a}$ 與 $\\vector{b}$ 的夾角。',
+      '若 $2|\\vector{a}|=|\\vector{b}|\\ne0$，且 $(\\vector{a}+\\vector{b})\\perp(5\\vector{a}-2\\vector{b})$，求 $\\vector{a}$ 與 $\\vector{b}$ 的夾角。',
     answer: '$60\\degree$',
     hasImage: false,
   },
@@ -11903,16 +11903,16 @@ export const bank: Question[] = [
     id: '17c9266f664',
     chapter: '平面向量',
     question:
-      '若 $\\vector{a}=(2,5)$，$\\vector{b}=(1,3)$，$\\vector{c}=(-8,2)$，若 $\\vector{a}+t\\vector{b}$ 與 $\\vector{c}$ 垂直，求 $t$。',
-    answer: '$-3$',
+      '平面上 $\\vector a=(3,-4)$，$\\vector b=(2,1)$，求：\n(1) 與 $\\vector a$ 垂直的單位向量\n(2) 與 $\\vector b$ 垂直且大小為 $4$ 的向量',
+    answer: '(1) $\\pm(\\frac45,\\frac35)$ (2) $\\pm(\\frac4{\\sqrt5},-\\frac8{\\sqrt5})$',
     hasImage: false,
   },
   {
     id: '17c92677001',
     chapter: '平面向量',
     question:
-      '直角三角形 $ABC$ 中，$\\angle B=90\\degree$，若 $A(7,-5)$、$B(9,2)$ 且 $C$ 點在第四象限，$\\overline{BC}=3\\overline{AB}$，求 $C$ 點坐標。',
-    answer: '$(30,-4)$',
+      '給 $\\vector a=(5,12)$，求：\n(1) 與 $\\vector a$ 同向且長度為 $6$ 的向量\n(2) 與 $\\vector a$ 垂直的單位向量',
+    answer: '(1) $(\\frac{30}{13},\\frac{72}{13})$ (2) $\\pm(\\frac{12}{13},-\\frac5{13})$',
     hasImage: false,
   },
   {
@@ -12423,5 +12423,583 @@ export const bank: Question[] = [
       '某種濾過性病毒有害人體，某人將此病毒 $100$ 個吸進體內，已知此病毒在人體內每隔 $6$ 小時就會分裂成 $2$ 個，當體內達到 $1$ 億個病毒時身體就會出現異常反應，此期間稱為潛伏期，請問此病毒在體內的潛伏期大約有幾天？\n(1) $3$ 天 (2) $5$ 天 (3) $8$ 天 (4) $10$ 天 (5) $15$ 天',
     answer: '(2)',
     hasImage: false,
+  },
+  {
+    id: '17cbf396729',
+    chapter: '平面向量',
+    question:
+      '$\\triangle ABC$ 中，$\\overline{AB}=4$，$\\overline{BC}=6$，$\\overline{CA}=2\\sqrt7$，若 $H$ 為垂心，且 $\\xvector{AH}=x\\xvector{AB}+y\\xvector{AC}$，求 $(x,y)$',
+    answer: '$(\\frac29,\\frac19)$',
+    hasImage: true,
+  },
+  {
+    id: '17cbf3b2a7d',
+    chapter: '平面向量',
+    question:
+      '$\\triangle ABC$ 中，$\\overline{AB}=4$，$\\overline{BC}=6$，$\\overline{CA}=2\\sqrt7$，若 $O$ 為外心，且 $\\xvector{AO}=x\\xvector{AB}+y\\xvector{AC}$，求 $(x,y)$',
+    answer: '$(\\frac7{18},\\frac49)$',
+    hasImage: true,
+  },
+  {
+    id: '17cbf3bea31',
+    chapter: '平面向量',
+    question:
+      '$\\triangle ABC$，$\\overline{AB}=4$，$\\overline{BC}=6$，$\\overline{CA}=5$，$H$ 為垂心，若 $\\xvector{AH}=x\\xvector{AB}+y\\xvector{AC}$，求 $(x,y)$。',
+    answer: '$(\\frac17,\\frac3{35})$',
+    hasImage: false,
+  },
+  {
+    id: '17cbf3df5b9',
+    chapter: '平面向量',
+    question:
+      '$\\triangle ABC$ 中，$\\overline{AB}=4$，$\\overline{BC}=6$，$\\overline{CA}=5$，$O$ 為外心，若 $\\xvector{AO}=x\\xvector{AB}+y\\xvector{AC}$，求 $(x,y)$',
+    answer: '$(\\frac37,\\frac{16}{35})$',
+    hasImage: false,
+  },
+  {
+    id: '17cbf56cfc4',
+    chapter: '平面向量',
+    question:
+      '已知 $A(4,-1)$、$B(-3,2)$，求 $\\overleftrightarrow{AB}$、$\\overline{AB}$、$\\overrightarrow{AB}$ 的參數式。',
+    answer: '略',
+    hasImage: false,
+  },
+  {
+    id: '17cbf5861ce',
+    chapter: '平面向量',
+    question: '已知 $A(3,12)$、$B(1,-6)$，求 $\\overleftrightarrow{AB}$、$\\overline{AB}$。',
+    answer: '略',
+    hasImage: false,
+  },
+  {
+    id: '17cbf41f41a',
+    chapter: '平面向量',
+    question:
+      '直線 $L:\\begin{cases}x=-3+4t\\\\y=1-2t\\end{cases}$，$t\\in{\\mathbb R}$，請問：\n(1) 點 $(3,4)$ 是否在 $L$ 上？\n(2) 求 $L$ 化成直線標準式為？',
+    answer: '(1) 否 (2) $x+2y=-1$',
+    hasImage: false,
+  },
+  {
+    id: '17cbf431289',
+    chapter: '平面向量',
+    question:
+      '若 $L_1:\\begin{cases}x=3t+5\\\\y=-2t+p\\end{cases}$，$t\\in{\\mathbb R}$ 與 $L_2:\\begin{cases}x=as-1\\\\y=4s+6\\end{cases}$，$s\\in{\\mathbb R}$，若 $L_1$ 與 $L_2$ 重合，表同一直線，求數對 $(a,p)$。',
+    answer: '$(-6,2)$',
+    hasImage: false,
+  },
+  {
+    id: '17cbf447c0a',
+    chapter: '平面向量',
+    question:
+      '$L:\\begin{cases}x=-t+2\\\\y=3t+5\\end{cases}$，$t\\in\\mathbb R$，求：\n(1) 方向向量及斜率\n(2) $L$ 與兩軸圍成的三角形面積',
+    answer: '(1) $(-1,3)$；$-3$ (2) $\\frac{121}6$',
+    hasImage: false,
+  },
+  {
+    id: '17cbf45731c',
+    chapter: '平面向量',
+    question:
+      '兩直線參數式 $L_1:\\begin{cases}x=6t+7\\\\y=at+2\\end{cases}$，$t\\in\\mathbb R$ 與 $L_2:\\begin{cases}x=3s+b\\\\y=4s-2\\end{cases}$，$s\\in\\mathbb R$，若 $L_1$ 與 $L_2$ 重合，求數對 $(a,b)$。',
+    answer: '$(8,4)$',
+    hasImage: false,
+  },
+  {
+    id: '17cbf463043',
+    chapter: '平面向量',
+    question:
+      '直線 $L:\\begin{cases}x=11+4t\\\\y=9+3t\\end{cases}$，$t\\in\\mathbb R$，求：\n(1) $L$ 的法向量。(不唯一，舉一個例子即可)\n(2) 與 $L$ 垂直且大小為 $2$ 的向量',
+    answer: '(1) $(3,-4)$ (2) $\\pm(\\frac65,-\\frac85)$',
+    hasImage: false,
+  },
+  {
+    id: '17cbf46b1c2',
+    chapter: '平面向量',
+    question:
+      '直線 $L$ 過點 $A(-3,1)$，且法向量為 $\\vector n=(7,-4)$，求 $L$ 的方程式及點 $P(1,3)$ 到直線 $L$ 的最近距離。',
+    answer: '$7x-4y=-25$；$\\frac{4\\sqrt{65}}{13}$',
+    hasImage: false,
+  },
+  {
+    id: '17cbf47810e',
+    chapter: '平面向量',
+    question: '求直線 $3x+4y=7$ 的斜率、法向量及方向向量。(若不唯一，舉一個例子即可)',
+    answer: '$-\\frac34$；$(3,4)$；$(4,-3)$',
+    hasImage: false,
+  },
+  {
+    id: '17cbd7caa57',
+    chapter: '平面向量',
+    question: '試求通過 $(2,4)$，法向量為 $(7,1)$ 的直線方程式。',
+    answer: '$7x+y=18$',
+    hasImage: false,
+  },
+  {
+    id: '17cbf485139',
+    chapter: '平面向量',
+    question:
+      '平面上點 $A(1,5)$、$B(7,2)$ 與直線 $L:2x+3y=9$，求：\n(1) $\\xvector{AB}$ 在 $L$ 上的正射影\n(2) $\\overline{AB}$ 投影在 $L$ 上的長度。',
+    answer: '(1) $(\\frac{72}{13},-\\frac{48}{13})$ (2) $\\frac{24}{\\sqrt{13}}$',
+    hasImage: false,
+  },
+  {
+    id: '17cbf48d2c1',
+    chapter: '平面向量',
+    question: '平面上兩直線 $L_1:x+y=1$ 與 $L_2:x+ky=7$ 的銳夾角為 $60\\degree$，求 $k$。',
+    answer: '$-2\\pm\\sqrt{3}$',
+    hasImage: false,
+  },
+  {
+    id: '17cbd88250a',
+    chapter: '平面向量',
+    question: '設向量 $\\vector{a}=(k,2)$ 在直線 $3x-4y=6$ 上的正射影為 $(8,6)$，求 $k$。',
+    answer: '$11$',
+    hasImage: false,
+  },
+  {
+    id: '17cbf49a5ba',
+    chapter: '平面向量',
+    question: '請由法向量求兩直線 $4x-3y=0$ 與 $x+y-6=0$ 的夾角餘弦值及正弦值。',
+    answer: '$\\pm\\frac{\\sqrt2}{10}$；$\\frac{7\\sqrt2}{10}$',
+    hasImage: false,
+  },
+  {
+    id: '17cb58623b1',
+    chapter: '平面向量',
+    question: '求 $\\begin{vmatrix}3&-4\\\\7&6\\end{vmatrix}$。',
+    answer: '$46$',
+    hasImage: false,
+  },
+  {
+    id: '17cb5892fa3',
+    chapter: '平面向量',
+    question: '求 $\\begin{vmatrix}1998&357\\\\2008&362\\end{vmatrix}$。',
+    answer: '$6420$',
+    hasImage: false,
+  },
+  {
+    id: '17cb587126b',
+    chapter: '平面向量',
+    question:
+      '已知 $\\begin{vmatrix}a&b\\\\c&d\\end{vmatrix}=2$，求 $\\begin{vmatrix}5a-2b&5a+3b\\\\6c-2d&4c+3d\\end{vmatrix}$',
+    answer: '$46$',
+    hasImage: false,
+  },
+  {
+    id: '17cb5880bef',
+    chapter: '平面向量',
+    question:
+      '求 (1) $\\begin{vmatrix}1&2\\\\3&5\\end{vmatrix}$ (2) $\\begin{vmatrix}2&4\\\\6&8\\end{vmatrix}$ (3) $\\begin{vmatrix}-1&0\\\\4&7\\end{vmatrix}$',
+    answer: '(1) $-1$ (2) $-8$ (3) $-7$',
+    hasImage: false,
+  },
+  {
+    id: '17cb5889951',
+    chapter: '平面向量',
+    question: '求 $\\begin{vmatrix}983&124\\\\980&130\\end{vmatrix}$。',
+    answer: '$6270$',
+    hasImage: false,
+  },
+  {
+    id: '17cb58a1214',
+    chapter: '平面向量',
+    question:
+      '已知 $\\begin{vmatrix}a&b\\\\c&d\\end{vmatrix}=1$，$\\begin{vmatrix}c&d\\\\e&f\\end{vmatrix}=-4$，求 $\\begin{vmatrix}5a&5b\\\\c+2e&d+2f\\end{vmatrix}$。',
+    answer: '$-35$',
+    hasImage: false,
+  },
+  {
+    id: '17cb58baac7',
+    chapter: '平面向量',
+    question:
+      '已知 $|\\vector a|=3$，$|\\vector b|=4$，$\\vector a$ 與 $\\vector b$ 所張成三角形的面積為 $5$，求 $\\vector a$ 與 $\\vector b$ 的夾角餘弦值。',
+    answer: '$\\pm\\frac{\\sqrt{11}}6$',
+    hasImage: false,
+  },
+  {
+    id: '17cb58ca778',
+    chapter: '平面向量',
+    question:
+      '已知 $|\\vector a|=5$，$\\vector a\\cdot\\vector b=-2$，$\\vector a$ 與 $\\vector b$ 所張成的三角形面積為 $6$，求 $|\\vector b|$。',
+    answer: '$\\frac{2\\sqrt{37}}5$',
+    hasImage: false,
+  },
+  {
+    id: '17cb58d636f',
+    chapter: '平面向量',
+    question: '平面上三點 $A(2,-2)$、$B(4,5)$、$C(1,3)$，求 $\\triangle ABC$ 的面積。',
+    answer: '$\\frac{17}2$',
+    hasImage: false,
+  },
+  {
+    id: '17cb58e6f79',
+    chapter: '平面向量',
+    question: '已知平面上三點 $A(3,k)$、$B(1,k+1)$、$C(-4,5)$ 所成的三角形面積為 $6$，求實數 $k$',
+    answer: '$\\frac{15}2$ 或 $-\\frac92$',
+    hasImage: false,
+  },
+  {
+    id: '17cb59128d1',
+    chapter: '平面向量',
+    question:
+      '$\\xvector{AB}=(3,-2)$，$\\xvector{BC}=(1,5)$，$\\xvector{CD}=(-2,-1)$，求四邊形 $ABCD$ 的面積。',
+    answer: '$\\frac{19}2$',
+    hasImage: false,
+  },
+  {
+    id: '17cb58fd401',
+    chapter: '平面向量',
+    question:
+      '平面上點 $A(3,5)$、$B(1,-7)$，$C$ 在 $2x+3y=4$ 上，若 $\\triangle ABC$ 的面積為 $9$，求 $C$。',
+    answer: '$(\\frac72,-1)$ 或 $(\\frac45,\\frac45)$',
+    hasImage: false,
+  },
+  {
+    id: '17cb592fec4',
+    chapter: '平面向量',
+    question: '試求聯立方程組 $\\begin{cases}19x-31y-4=0\\\\9y+17x+1=0\\end{cases}$ 的解 $(x,y)$。',
+    answer: '$(\\frac5{698},\\frac{-87}{698})$',
+    hasImage: false,
+  },
+  {
+    id: '17cb593b84a',
+    chapter: '平面向量',
+    question: '試求聯立方程組 $\\begin{cases}41x-53y-8=0\\\\7x+9y+2=0\\end{cases}$ 的解 $(x,y)$。',
+    answer: '$(\\frac{-17}{370},\\frac{-69}{370})$',
+    hasImage: false,
+  },
+  {
+    id: '17cb5958c97',
+    chapter: '平面向量',
+    question:
+      '設聯立方程組 $\\begin{cases}6x+(a-2)y-7a+17=0\\\\(a+5)x-2y+8a+24=0\\end{cases}$，若：\n(1) 此方程組無解，求 $a$。\n(2) 此方程組有無限多解，求 $a$。',
+    answer: '(1) $-2$ (2) $-1$',
+    hasImage: false,
+  },
+  {
+    id: '17cb5969c97',
+    chapter: '平面向量',
+    question:
+      '設聯立方程組 $\\begin{cases}(k+6)x-2y+7k+22=0\\\\6x+(k-1)y-5k+2=0\\end{cases}$，若：\n(1) 此方程組無解，求 $k$。\n(2) 此方程組有無限多解，求 $k$。',
+    answer: '(1) $-3$ (2) $-2$',
+    hasImage: false,
+  },
+  {
+    id: '17cb598a8c3',
+    chapter: '平面向量',
+    question:
+      '若方程組 $(3a_1+b_1)x+(2b_1-5c_1)y=a_1+4c_1$、$(3a_2+b_2)x+(2b_2-5c_2)y=a_2+4c_2$ 有唯一解 $x=7$，$y=1$，求 $\\begin{cases}a_1x+b_1y=c_1\\\\a_2x+b_2y=c_2\\end{cases}$ 的解 $(x,y)$。',
+    answer: '$(-20,-5)$',
+    hasImage: false,
+  },
+  {
+    id: '17cb599d882',
+    chapter: '平面向量',
+    question:
+      '若方程組 $(2a_1+b_1)x+(3b_1-c_1)y=a_1+c_1$、$(2a_2+b_2)x+(3b_2-c_2)y=a_2+c_2$ 的解為 $(x,y)=(-1,3)$，求 $\\begin{cases}a_1x+b_1y=c_1\\\\a_2x+b_2y=c_2\\end{cases}$ 的解 $(x,y)$。',
+    answer: '$(-\\frac34,2)$',
+    hasImage: false,
+  },
+  {
+    id: '17cbd26af8e',
+    chapter: '直線與圓',
+    question:
+      '設直線 $L$ 通過 $A$、$B$ 兩點，若 $A$ 點坐標為 $(2,-1)$，$B$ 點坐標為 $(4,5)$，求 $L$ 之斜率。',
+    answer: '$3$',
+    hasImage: false,
+  },
+  {
+    id: '17cbd281749',
+    chapter: '直線與圓',
+    question: '設 $P(2,4)$、$Q(a,0)$、$R(-2,8)$ 為共線之三點，求 $a$。',
+    answer: '$6$',
+    hasImage: false,
+  },
+  {
+    id: '17cbd28f2a6',
+    chapter: '直線與圓',
+    question: '一直線通過 $A(\\sqrt3,2)$、$B(2\\sqrt3,-1)$ 兩點，求此直線的斜率。',
+    answer: '$\\sqrt3$',
+    hasImage: false,
+  },
+  {
+    id: '17cbd29b705',
+    chapter: '直線與圓',
+    question: '直線 $L$ 之斜率為 $-2$，且經過點 $(3,-1)$，求直線 $L$ 之方程式。',
+    answer: '$y=-2x+5$',
+    hasImage: false,
+  },
+  {
+    id: '17cbd2ade43',
+    chapter: '直線與圓',
+    question: '一直線過點 $(2,-1)$ 且斜率為 $-\\frac57$，試求此直線方程式。',
+    answer: '$5x+7y=3$',
+    hasImage: false,
+  },
+  {
+    id: '17cbd2d9505',
+    chapter: '直線與圓',
+    question:
+      '已知直線 $L$ 的斜率為 $-\\frac25$ 且過點 $(-5,4)$，試求 $L$ 與二坐標軸所圍成的三角形面積。',
+    answer: '$5$',
+    hasImage: false,
+  },
+  {
+    id: '17cbd2eafed',
+    chapter: '直線與圓',
+    question: '直線 $2x-3y=6$ 之 $y$ 截距為？',
+    answer: '$-2$',
+    hasImage: false,
+  },
+  {
+    id: '17cbd3076d1',
+    chapter: '直線與圓',
+    question: '求斜率為 $2$，且 $x$ 截距為 $-5$ 的直線方程式。',
+    answer: '$2x-y+10=0$',
+    hasImage: false,
+  },
+  {
+    id: '17cbd31afc6',
+    chapter: '直線與圓',
+    question: '若直線 $ax+y+k=0$ 之斜率為 $\\frac13$，$y$ 截距為 $2$，求序組 $(a,k)$。',
+    answer: '$(-\\frac13,-2)$',
+    hasImage: false,
+  },
+  {
+    id: '17cbd332cfa',
+    chapter: '直線與圓',
+    question: '求 $x$ 截距為 $3$，$y$ 截距為 $-2$ 的直線方程式。',
+    answer: '$2x-3y=6$',
+    hasImage: false,
+  },
+  {
+    id: '17cbdc3cbff',
+    chapter: '數據分析',
+    question:
+      'Youtube 頻道的營利規定是訂閱人數達 $1000$ 人以上，且公開觀看時數達 $4000$ 個小時。若小明是一個新手 Youtuber，目前的訂閱人數有 $105$ 人，觀看時數有 $250$ 個小時，根據統計他每個月平均增加 $40$ 個訂閱者，$200$ 小時的觀看時數，若之後都按照此比例計算，則多少個月後，可以達到營利的資格？\n(1) $12$ (2) $23$ (3) $35$ (4) $46$ (5) $53$',
+    answer: '(2)',
+    hasImage: false,
+  },
+  {
+    id: '17cbdc6f630',
+    chapter: '數據分析',
+    question:
+      '小華要買一台新車，車牌號碼決定選用 $ABC-52\\Box\\Box$，他希望 $4$ 個數字的總和為 $15$，且不想用 $4$、$3$、$9$，則小華的車牌號碼會有幾種數字組合？\n(1) $49$ (2) $36$ (3) $14$ (4) $12$ (5) $6$',
+    answer: '(5)',
+    hasImage: false,
+  },
+  {
+    id: '17cbdc8d95d',
+    chapter: '數據分析',
+    question:
+      '一袋中有大小相同的紅白黃球共 $10$ 顆，每球被選中的機率都相等。若已知從中任意選取一球，得到白球的機率為 $\\frac15$；若從中任取兩球，都沒有取到黃球的機率為 $\\frac7{15}$，則袋中的黃球有幾顆？\n(1) $3$ (2) $4$ (3) $5$ (4) $6$ (5) $7$',
+    answer: '(1)',
+    hasImage: false,
+  },
+  {
+    id: '17cbde14e3a',
+    chapter: '數據分析',
+    question:
+      '下列有五組數據，各選項資料都有六個資料點 $(x,y)$，請選出相關係數最小的選項。\n(1) $(1,1)$、$(1,2)$、$(1,3)$、$(2,1)$、$(2,2)$、$(2,3)$\n(2) $(1,1)$、$(2,1)$、$(3,1)$、$(2,2)$、$(3,2)$、$(3,3)$\n(3) $(1,1)$、$(2,1)$、$(3,1)$、$(2,3)$、$(3,3)$、$(3,5)$\n(4) $(1,1)$、$(2,1)$、$(3,1)$、$(4,1)$、$(2,2)$、$(3,2)$\n(5) $(1,1)$、$(1,2)$、$(1,3)$、$(2,1)$、$(2,2)$、$(3,1)$',
+    answer: '(5)',
+    hasImage: false,
+  },
+  {
+    id: '17cbde39e82',
+    chapter: '數據分析',
+    question:
+      '阿明和阿德猜拳玩劈腿遊戲，猜拳輸的人要雙腳打開比對方長的距離，若阿德的腿長 $80$ 公分，張開 $60\\degree$，若阿明下次猜拳輸了，且他必須最少要張開 $90\\degree$ 以上，才能張得比阿德長的距離，則其腿長約為多少公分？\n(1) $50$ (2) $57$ (3) $60$ (4) $70$ (5) $75$',
+    answer: '(2)',
+    hasImage: false,
+  },
+  {
+    id: '17cbde52ff4',
+    chapter: '數據分析',
+    question:
+      '已知 $y=a\\sin(bx+c)+d$ 的圖形如圖所示，其中 $a,b,d>0$，$-\\pi\\le c\\le0$，則 $y=b\\sin(ax+c)+d$ 的圖形為何？',
+    answer: '(1)',
+    hasImage: true,
+    imageOption: [
+      '17cbde52ff4-1',
+      '17cbde52ff4-2',
+      '17cbde52ff4-3',
+      '17cbde52ff4-4',
+      '17cbde52ff4-5',
+    ],
+  },
+  {
+    id: '17cbde7529c',
+    chapter: '數據分析',
+    question:
+      '一個等差數列共有 $2n+1$ 項，其中奇數項的和為 $290$，偶數項的和為 $261$，則第 $n+1$ 項是多少？\n(1) $27$ (2) $28$ (3) $29$ (4) $30$ (5) $31$',
+    answer: '(3)',
+    hasImage: false,
+  },
+  {
+    id: '17cbdeccb1e',
+    chapter: '數據分析',
+    question:
+      '已知直線 $L:y=x+k$ 將單位圓 $x^2+y^2=1$ 分成弧長比為 $2:1$ 的兩段弧長，則 $k$ 為？\n(1) $-\\frac12$ (2) $-\\frac{\\sqrt2}2$ (3) $-\\frac23$ (4) $\\frac12$ (5) $\\frac{\\sqrt2}2$',
+    answer: '(2)(5)',
+    hasImage: false,
+  },
+  {
+    id: '17cbf820976',
+    chapter: '數據分析',
+    question:
+      '若方程式 $|3x-1|=ax$ 沒有實根，則實數 $a$ 可為下列哪些選項中的值？\n(1) $-2$ (2) $-1$ (3) $-\\frac13$ (4) $-\\frac14$ (5) $0$',
+    answer: '(1)(2)(3)(4)',
+    hasImage: false,
+  },
+  {
+    id: '17cbf835236',
+    chapter: '數據分析',
+    question:
+      '設 $\\frac\\pi4<\\theta<\\frac\\pi2$，$a=\\sin\\theta$，$b=\\cos\\theta$，下列哪些數字比 $1$ 大？\n(1) $ab$ (2) $\\frac ab$ (3) $a^b$ (4) $\\log_ab$ (5) $\\log_ba$',
+    answer: '(2)(4)',
+    hasImage: false,
+  },
+  {
+    id: '17cbf84cea5',
+    chapter: '數據分析',
+    question:
+      '若三次函數 $f(x)=x^3+3x^2+cx+d=(x+h)^3-2(x+h)+4$，下列哪些選項正確？\n(1) $c=1$ (2) $d=4$ (3) $h=-1$ (4) 圖形的對稱中心 $(-1,4)$ (5) $f(x)$ 在 $x=0$ 附近的一次近似為 $x+3$',
+    answer: '(1)(4)(5)',
+    hasImage: false,
+  },
+  {
+    id: '17cbf8657c9',
+    chapter: '數據分析',
+    question:
+      '銳角 $\\triangle ABC$ 中，$\\overline{AB}=c$，$\\overline{AC}=b$，$\\overline{BC}=a$，則 $c$ 為？\n(1) $a\\cos B+b\\cos A$ (2) $a\\cos C+c\\cos A$ (3) $b\\cos C+c\\cos B$ (4) $\\sqrt{a^2+b^2-2ab\\cos C}$ (5) $a\\frac{\\sin C}{\\sin A}$',
+    answer: '(1)(4)(5)',
+    hasImage: false,
+  },
+  {
+    id: '17cbf888339',
+    chapter: '數據分析',
+    question:
+      '數學家發現一個無縫密鋪平面的凸五邊形，如圖所示，$\\overline{CD}=5$，且可以用三個全等的圖形拼成一個正六邊形，下列哪些選項正確？\n(1) $\\angle C=120\\degree$ (2) $\\angle A=120\\degree$ (3) $\\overline{BC}+\\overline{DE}=5$ (4) $\\angle AED+\\angle ABC=180\\degree$ (5) 五邊形 $ABCDE$ 面積為 $\\frac{25\\sqrt3}2$',
+    answer: '(1)(2)(3)(4)(5)',
+    hasImage: true,
+  },
+  {
+    id: '17cbf8d8b53',
+    chapter: '數據分析',
+    question:
+      '已知有一系列一體成形的積木組，每個小積木邊長為 $1$。每一組由小到大都比前一組增加二塊積木，整個積木組可以拿起來翻轉且不會散掉，假設 $a_n$ 表示第 $n$ 個積木組的表面積，例如 $a_1=6$，$a_2=14$，求 $a_{10}$。',
+    answer: '$78$',
+    hasImage: true,
+  },
+  {
+    id: '17cbf909b67',
+    chapter: '數據分析',
+    question:
+      'Peter Holt 在 $1996$ 年以 $7600$ 萬美元的價碼買下 NBA 馬刺隊，至此之後，馬刺隊逐漸躍升成為全美最成功的球隊之一。據《富比世》調查在 $2020$ 年馬刺的市值已經提升到 $18$ 億 $2$ 千 $4$ 百萬美元，若這 $24$ 年間，每年的市值成長率都相同，則 $2008$ 年時，其市值是購入價值的幾倍？',
+    answer: '$\\sqrt{24}$',
+    hasImage: false,
+  },
+  {
+    id: '17cbf92877b',
+    chapter: '數據分析',
+    question:
+      '平面上三點 $A(-1,4)$，$B(3,-2)$，$C(2,5)$，若 $\\xvector{AP}=r\\xvector{AB}+s\\xvector{AC}$，其中 $1\\le r\\le a$，$-1\\le s\\le2$，若 $P$ 點所在區域的面積為 $264$，求實數 $a$。',
+    answer: '$5$',
+    hasImage: false,
+  },
+  {
+    id: '17cbf93bc51',
+    chapter: '數據分析',
+    question:
+      '$\\triangle ABC$ 中，$\\overline{AB}=7$，$\\overline{AC}=6$，$\\overline{BC}=5$，$\\overline{AM}$ 是 $\\overline{BC}$ 邊上的中線，試求 $\\xvector{AM}\\cdot\\xvector{AB}$。',
+    answer: '$\\frac{79}2$',
+    hasImage: false,
+  },
+  {
+    id: '17cbf989ccb',
+    chapter: '數據分析',
+    question:
+      '阿豪畢業後找到的第一份工作是到工廠當產品組裝員，工作 $t$ 天後，組裝的產品量由函數 $f(t)=a+b(\\frac32)^{-0.4t}$ 所決定，$a$、$b$ 為常數，假設阿豪剛開始工作時 $t=0$，一天的組裝量為 $118$，工作 $5$ 天後，可達 $138$，試回答下列問題：\n(1) 數對 $(a,b)$\n(2) 若阿豪工作 $n$ 天後，$n\\in\\mathbb{N}$，組裝量可以超過 $150$，求 $n$ 的最小值。($\\log2=0.301$，$\\log3=0.4771$)',
+    answer: '(1) $(154,-36)$ (2) $14$',
+    hasImage: false,
+  },
+  {
+    id: '17cc9fe69b0',
+    chapter: '平面向量',
+    question:
+      '已知一張 A0 影印紙的面積是 $1$ 平方公尺，不斷取半依序可得 A1、A2、A3、A4、... 的影印紙。請問 A4 紙張的長與寬為幾公分？(取近似值至小數點後第一位)',
+    answer: '長 $29.7$；寬 $21.0$',
+    hasImage: false,
+  },
+  {
+    id: '17cc9ff3cb9',
+    chapter: '平面向量',
+    question:
+      '已知一張 B0 影印紙的面積是 $\\sqrt2$ 平方公尺，不斷取半依序可得 B1、B2、B3、B4、... 的影印紙。請問 B4 紙張的長與寬為幾公分？(取近似值至小數點後第一位)',
+    answer: '長 $35.4$；寬 $25$',
+    hasImage: false,
+  },
+  {
+    id: '17cca01464c',
+    chapter: '平面向量',
+    question:
+      '正五邊形 $ABCDE$ 的五條對角線連成五角星， $P$ 為 $\\overline{AC}$ 與 $\\overline{BE}$ 的交點，試說明 $P$ 為 $\\overline{AC}$ 的黃金分割點。($\\sin18\\degree=\\frac{\\sqrt5-1}4$，$\\sin54\\degree=\\frac{\\sqrt5+1}4$)',
+    answer: '略',
+    hasImage: true,
+  },
+  {
+    id: '17cca026b15',
+    chapter: '平面向量',
+    question:
+      '線段 $\\overline{AB}$ 的長度為 $10$，靠近 $A$ 的黃金分割點為 $P$，試求 $\\overline{AP}$。(取近似值到小數點後第一位)',
+    answer: '$3.8$',
+    hasImage: false,
+  },
+  {
+    id: '17cca055c95',
+    chapter: '平面向量',
+    question:
+      '用單點透視法作畫如圖，遠方地平線為 $L$，消失點為 $A$，甲站在 $P$ 點且圖中的身長為 $3$，乙站在 $Q$ 點且圖中的身長為 $5$，過 $P$ 作 $L$ 的平行線交 $\\overline{AQ}$ 於 $R$，已知 $\\overline{AR}=9$，$\\overline{QR}=4$，則：\n(1) 試問甲、乙二人誰的身高較高？\n(2) 若甲的實際身高為 $156$ 公分，則乙的身高為幾公分？',
+    answer: '(1) 乙 (2) $180$',
+    hasImage: true,
+  },
+  {
+    id: '17cca4890a6',
+    chapter: '平面向量',
+    question:
+      '以單點透視法畫出兩根等長的旗竿甲、乙，$A$ 為消失點，甲立於畫中的 $P$ 點，$\\overline{AP}=6\\sqrt2$ 與遠方地平線的夾角為 $45\\degree$，乙立於畫中的 $Q$ 點，$\\overline{AQ}=10\\sqrt3$ 與遠方地平線的夾角為 $60\\degree$。畫中甲旗竿的長度為 $2$，求乙旗竿的畫中長度。',
+    answer: '$5$',
+    hasImage: true,
+  },
+  {
+    id: '17cca2c9bf2',
+    chapter: '平面向量',
+    question:
+      '圖為某公司的 logo，單位為公分，計畫在新完工的總部大樓懸掛鋪貼金箔的 logo，為控制預算必須精準求出所需金箔的數量，請問此 logo 的面積為多少平方公分？(整數以下四捨五入)',
+    answer: '$569262$',
+    hasImage: true,
+  },
+  {
+    id: '17cca2eb03b',
+    chapter: '平面向量',
+    question:
+      '圖為某公司的註冊商標，已知圖中三個小圓的半徑為 $1$ 單位，三個大圓的半徑為 $4$ 單位，分別以 $A$、$B$、$C$ 為圓心，等腰三角形的底邊為 $12$，腰長為 $10$，請問此圖案的面積為多少平方單位？',
+    answer: '$96+15\\pi$',
+    hasImage: true,
+  },
+  {
+    id: '17cca37622a',
+    chapter: '平面向量',
+    question:
+      '設正方形 $ABCD$ 的邊長為 $8$ 公尺，想以 $\\overline{AB}$ 為底邊向上設計一座拱門，先把 $\\overline{AB}$ 四等分，等分點為 $P$、$M$、$Q$，分別以 $P$、$Q$ 為圓心，半徑為 $6$ 公尺作圓弧交於 $K$ 點，如圖，稱此為「四分之一拱」，試求：\n(1) 圓弧長 $\\arc{AK}$\n(2) 拱形 $ABK$ 區域的面積為多少平方公尺？(取近似值至小數點後第二位)',
+    answer: '$33.01$',
+    hasImage: true,
+  },
+  {
+    id: '17cca39c15c',
+    chapter: '平面向量',
+    question:
+      '線段 $\\overline{AB}=6$，$P$、$Q$ 為 $\\overline{AB}$ 的三等分點，分別以 $P$、$Q$ 為圓心，半徑為 $4$ 作圓弧交於 $K$ 點，稱所得圖形為「三分之一拱」，令 $\\cos\\theta=\\frac14$，試以 $\\theta$ 表示：\n(1) 弧長 $\\arc{AK}+\\arc{BK}$ (2) 拱形 $ABK$ 的面積',
+    answer: '(1) $8\\theta$ (2) $16\\theta-\\sqrt{15}$',
+    hasImage: true,
   },
 ];

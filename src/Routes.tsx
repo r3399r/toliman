@@ -20,6 +20,14 @@ const route = {
   C2S1Radius: loadable(() => import('./pages/lecture/book3/C2S1Radius')),
   C2S2TriFormula: loadable(() => import('./pages/lecture/book3/C2S2TrigonometricFormula')),
   C2S3TriFunction: loadable(() => import('./pages/lecture/book3/C2S3TrigonometricFunction')),
+  C3S1BasicOfVector: loadable(() => import('./pages/lecture/book3/C3S1BasicOfVector')),
+  C3S2InnerProductOfVector: loadable(
+    () => import('./pages/lecture/book3/C3S2InnerProductOfVector'),
+  ),
+  C3S3VectorInLineAndDeterminant: loadable(
+    () => import('./pages/lecture/book3/C3S3VectorInLineAndDeterminant'),
+  ),
+  C3S4GraphDesign: loadable(() => import('./pages/lecture/book3/C3S4GraphDesign')),
   C1S1LimitOfSequence: loadable(() => import('./pages/lecture/book5/C1S1LimitOfSequence')),
   C1S2LimitOfSeries: loadable(() => import('./pages/lecture/book5/C1S2LimitOfSeries')),
   C1S3LimitOfFunction: loadable(() => import('./pages/lecture/book5/C1S3LimitOfFunction')),
@@ -77,6 +85,22 @@ const AppRoutes = () => {
         path="/toliman/lecture/trigonometricFunction"
         component={route.C2S3TriFunction}
       />
+      <Route
+        exact={true}
+        path="/toliman/lecture/basicOfVector"
+        component={route.C3S1BasicOfVector}
+      />
+      <Route
+        exact={true}
+        path="/toliman/lecture/innerProductOfVector"
+        component={route.C3S2InnerProductOfVector}
+      />
+      <Route
+        exact={true}
+        path="/toliman/lecture/vectorInLineAndDeterminant"
+        component={route.C3S3VectorInLineAndDeterminant}
+      />
+      <Route exact={true} path="/toliman/lecture/graphDesign" component={route.C3S4GraphDesign} />
       <Route
         exact={true}
         path="/toliman/lecture/limitOfSequence"

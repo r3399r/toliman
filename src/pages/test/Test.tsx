@@ -5,22 +5,6 @@ import { getQuestion } from 'src/services/questionService';
 import style from './Test.module.scss';
 
 const Test = () => {
-  const ids: string[] = [
-    '17c3c395cde',
-    '17c4563c8b7',
-    '17c3c614420',
-    '17c3c7a3797',
-    '17c40cb19e8',
-    '17c40d37bdd',
-    '17c40da67d7',
-    '17c40dface4',
-    '17c40e31a97',
-    '17c40edb4d6',
-    '17c456250f8',
-    '17c4569c253',
-    '17c4573201e',
-  ];
-
   const addDefaultSrc = (ev: ChangeEvent<HTMLImageElement>) => {
     ev.target.src = '/toliman/images/09.PNG';
   };
@@ -41,44 +25,66 @@ const Test = () => {
           />
         )}
         <Textarea2MathJax text={`${i}. ${q.question}`} />
+        {q.imageOption !== undefined && (
+          <div className={style.imageOption}>
+            {q.imageOption.map((v: string, j: number) => {
+              return (
+                <div key={`${q.question}-${j}`}>
+                  <div>{`(${j + 1})`}</div>
+                  <div>
+                    <img
+                      src={`/toliman/images/${v}.PNG`}
+                      alt=""
+                      role="presentation"
+                      onError={addDefaultSrc}
+                    />
+                  </div>
+                </div>
+              );
+            })}
+          </div>
+        )}
       </div>
     );
   };
 
+  // <div style={{ pageBreakAfter: 'always' }} />
+
   return (
     <div className={style.content}>
-      <h1>高二上學期 第一次段考 數學B</h1>
+      <h1>學測模擬考 第一二三冊複習 數學</h1>
       <div>
-        <b>
-          一、多重選擇題(共 21 分；全對得 7 分，錯一個得 5 分，錯兩個得 3 分，錯三個以上得 0 分)
-        </b>
+        <b>一、單選題(共 35 分；每題 5 分)</b>
       </div>
-      {displayQuestion('17c58a894bd', 1)}
-      {displayQuestion('17c58ebfd06', 2)}
-      {displayQuestion('17c58ede958', 3)}
+      {displayQuestion('17cbdc3cbff', 1)}
+      {displayQuestion('17cbdc6f630', 2)}
+      {displayQuestion('17cbdc8d95d', 3)}
+      {displayQuestion('17cbde14e3a', 4)}
+      {displayQuestion('17cbde39e82', 5)}
+      {displayQuestion('17cbde52ff4', 6)}
+      {displayQuestion('17cbde7529c', 7)}
       <div>
-        <b>二、填充題(共 65 分；每題 5 分。答案若能化簡，請化為最簡，否則不予計分)</b>
+        <b>二、多選題(共 30 分；全對得 5 分，錯一個得 3 分，錯兩個得 1 分，錯三個以上得 0 分)</b>
       </div>
-      {displayQuestion('17c58b8a8f2', 1)}
-      {displayQuestion('17c58ba07b3', 2)}
-      {displayQuestion('17c58bc2c84', 3)}
+      {displayQuestion('17cbdeccb1e', 8, '1cm')}
       <div style={{ pageBreakAfter: 'always' }} />
-      {displayQuestion('17c58f019ff', 4)}
-      {displayQuestion('17c58bd78c5', 5)}
-      {displayQuestion('17c58f1f7d6', 6)}
-      {displayQuestion('17c58f2dcdd', 7)}
-      {displayQuestion('17c58f40c80', 8)}
-      {displayQuestion('17c58f561f1', 9)}
-      {displayQuestion('17c58f6631b', 10)}
+      {displayQuestion('17cbf820976', 9)}
+      {displayQuestion('17cbf835236', 10)}
+      {displayQuestion('17cbf84cea5', 11)}
+      {displayQuestion('17cbf8657c9', 12)}
+      {displayQuestion('17cbf888339', 13)}
       <div style={{ pageBreakAfter: 'always' }} />
-      {displayQuestion('17c58f86821', 11)}
-      {displayQuestion('17c58f93fcf', 12, '4cm')}
-      {displayQuestion('17c58fce7ab', 13)}
       <div>
-        <b>三、計算素養題(共 14 分，第一題 7 分，第二題 7 分，將部份給分)</b>
+        <b>三、填充題(共 20 分；每題 5 分)</b>
       </div>
-      {displayQuestion('17c58fe68ca', 1, '4.5cm')}
-      {displayQuestion('17c59038af4', 2)}
+      {displayQuestion('17cbf8d8b53', 14)}
+      {displayQuestion('17cbf909b67', 15)}
+      {displayQuestion('17cbf92877b', 16)}
+      {displayQuestion('17cbf93bc51', 17)}
+      <div>
+        <b>四、混合題(共 15 分，第一題 7 分，第二題 8 分，將部份給分)</b>
+      </div>
+      {displayQuestion('17cbf989ccb', 1, '1cm')}
     </div>
   );
 };

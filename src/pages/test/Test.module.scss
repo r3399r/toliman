@@ -6,6 +6,8 @@
   color: #5b81ff;
 }
 .img {
+  min-height: 100px;
+  min-width: 100px;
   max-height: 160px;
   max-width: 160px;
   float: right;
@@ -14,4 +16,15 @@ h1 {
   font-size: 28px;
   font-weight: bold;
   text-align: center;
+}
+.imageOption {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  > div {
+    display: flex;
+    > div > img {
+      max-height: 160px;
+    }
+  }
 }
