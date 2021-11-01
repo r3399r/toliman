@@ -13002,4 +13002,95 @@ export const bank: Question[] = [
     answer: '(1) $8\\theta$ (2) $16\\theta-\\sqrt{15}$',
     hasImage: true,
   },
+  {
+    id: '17cccf78e1e',
+    chapter: '指數與對數函數',
+    question: '不等式 $(\\frac14)^{x^2-\\frac52x}>0.125$ 的整數解有幾個？',
+    answer: '$3$',
+    hasImage: false,
+  },
+  {
+    id: '17cccf8b194',
+    chapter: '指數與對數函數',
+    question: '如圖，試比較 $a$、$b$、$c$、$d$、$1$ 之大小順序。',
+    answer: '$a>b>1>d>c$',
+    hasImage: true,
+  },
+  {
+    id: '17cccf9e241',
+    chapter: '指數與對數函數',
+    question: '設 $a\\in\\mathbb N$ 且 $a>1$，問：使得 $\\log_a64$ 為正整數的 $a$ 有幾個？',
+    answer: '$4$',
+    hasImage: false,
+  },
+  {
+    id: '17cccfaafb1',
+    chapter: '指數與對數函數',
+    question: '已知 $A(a,4)$，$B(b,12)$ 兩點在 $y=3^x$ 的圖形上，試求直線 $AB$ 的斜率。',
+    answer: '$8$',
+    hasImage: false,
+  },
+  {
+    id: '17cccfc62f3',
+    chapter: '指數與對數函數',
+    question:
+      '將 $100$ 萬元存入銀行，已知銀行年利率是 $8\\%$，以半年為一期複利計算。估計 $7$ 年後的存款本利和為多少萬元？(使用計算機，取至小數點後第一位)',
+    answer: '$173$',
+    hasImage: false,
+  },
+  {
+    id: '17cccff5ab0',
+    chapter: '指數與對數函數',
+    question:
+      '已知 $\\log2\\approx0.3010$，$\\log3\\approx0.4771$，試問 $3^{47}-3^{45}$ 為幾位數？',
+    answer: '$23$',
+    hasImage: false,
+  },
+  {
+    id: '17ccd01afe1',
+    chapter: '平面向量',
+    question:
+      '正六邊形 $ABCDEF$，$\\xvector{AB}=\\vector a$，$\\xvector{BC}=\\vector b$，則下列選項哪些正確？\n(1) $\\xvector{BE}=2\\vector b-2\\vector a$\n(2) $\\xvector{BE}=2\\vector a-2\\vector b$\n(3) $\\xvector{BD}=2\\vector b-\\vector a$\n(4) $\\xvector{BD}=\\vector a-2\\vector b$\n(5) $\\xvector{BF}=\\vector b-2\\vector a$',
+    answer: '(1)(3)(5)',
+    hasImage: true,
+  },
+  {
+    id: '17ccd034867',
+    chapter: '平面向量',
+    question:
+      '設 $\\vector a=(1,1)$，$\\vector b=(2,3)$，$\\vector c=(5,6)$，若實數 $x$、$y$ 滿足 $\\vector c=x\\vector a+y\\vector b$，求數對 $(x,y)$。',
+    answer: '$(3,1)$',
+    hasImage: false,
+  },
+  {
+    id: '17ccd045610',
+    chapter: '平面向量',
+    question: '已知 $A(1,3)$，$B(2,5)$，$C(3,7)$，求 $|2\\xvector{AB}-\\xvector{BC}|$。',
+    answer: '$\\sqrt5$',
+    hasImage: false,
+  },
+  {
+    id: '17ccd057d06',
+    chapter: '平面向量',
+    question:
+      '設 $A$、$B$、$C$ 為平面上三點， $\\xvector{AB}=(1,2)$，$\\xvector{BC}=(2,-1)$，求 $\\triangle ABC$ 之周長。',
+    answer: '$2\\sqrt5+\\sqrt{10}$',
+    hasImage: false,
+  },
+  {
+    id: '17ccd06d2a7',
+    chapter: '平面向量',
+    question:
+      '設 $\\xvector{AB}=(2,-3)$，$\\xvector{BC}=(-1,5)$。若 $A(1,2)$ 且 $\\xvector{AP}=3\\xvector{AB}-2\\xvector{CB}$，求 $P$。',
+    answer: '$(5,3)$',
+    hasImage: false,
+  },
+  {
+    id: '17ccd084b9d',
+    chapter: '平面向量',
+    question:
+      '在梯形 $ABCD$ 中，$A(-1,-4)$，$B(-7,4)$，$C(1,6)$，若 $\\overline{AB}\\parallel\\overline{CD}$ 且 $\\overline{CD}=4$，求 $D$。',
+    answer: '$(\\frac{17}5,\\frac{14}5)$',
+    hasImage: false,
+  },
 ];
