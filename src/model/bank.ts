@@ -13093,4 +13093,533 @@ export const bank: Question[] = [
     answer: '$(\\frac{17}5,\\frac{14}5)$',
     hasImage: false,
   },
+  {
+    id: '17cdff745aa',
+    chapter: '空間概念',
+    question:
+      '下列有關空間的敘述，那些是正確的？\n(1) 過已知直線外一點，恰有一平面與此直線垂直\n(2) 過已知直線外一點，恰有一平面與此直線平行\n(3) 過已知平面外一點，恰有一直線與此平面平行\n(4) 過已知平面外一點，恰有一平面與此平面垂直\n(5) 過已知平面外一點，恰有一平面與此平面平行',
+    answer: '(1)(5)',
+    hasImage: false,
+  },
+  {
+    id: '17cdff84f8b',
+    chapter: '空間概念',
+    question:
+      "如圖，$ABCD-A'B'C'D'$ 為立方體的八個頂點。試問下列哪些線段會與線段 $\\overline{A'B}$ 共平面？\n(1) $\\overline{BC'}$ (2) $\\overline{AC}$ (3) $\\overline{DB'}$ (4) $\\overline{DD'}$ (5) $\\overline{CD'}$",
+    answer: '(1)(5)',
+    hasImage: true,
+  },
+  {
+    id: '17cdff9458e',
+    chapter: '空間概念',
+    question: '求正四面體的兩個面所成的二面角餘弦值。',
+    answer: '$\\frac13$',
+    hasImage: false,
+  },
+  {
+    id: '17cdffa2246',
+    chapter: '空間概念',
+    question:
+      '正立方體 $ABCD-EFGH$，如圖，令 $\\triangle ACD$ 與 $\\triangle ACH$ 所夾的二面角為 $\\theta$，求 $\\sin\\theta$。',
+    answer: '$\\frac{\\sqrt6}3$',
+    hasImage: true,
+  },
+  {
+    id: '17cdffd7863',
+    chapter: '空間概念',
+    question:
+      '兩平面 $E_1$、$E_2$ 交於一線 $L$，點 $A$ 在 $E_1$ 上且不在 $E_2$ 上，將 $A$ 投影到 $E_2$ 為 $B$ 點，$B$ 再投影到 $L$ 為 $C$ 點，請問下列哪些正確？\n(1) $\\angle ABC=90\\degree$ (2) $\\overline{BC}\\perp L$ (3) $\\overline{AC}\\perp L$\n(4) $A$ 投影到 $L$ 恰為 $C$ 點 (5) $\\angle ACB$ 為 $E_1$ 與 $E_2$ 所夾二面角的銳夾角',
+    answer: '(1)(2)(3)(4)(5)',
+    hasImage: false,
+  },
+  {
+    id: '17cdffec15a',
+    chapter: '空間概念',
+    question:
+      '正立方體 $ABCD-EFGH$，如圖，$\\overline{EG}$ 與 $\\overline{HF}$ 交於 $K$ 點，則下列哪些三角形為直角三角形？\n(1) $\\triangle ABH$ (2) $\\triangle ACF$ (3) $\\triangle BKH$ (4) $\\triangle BKG$',
+    answer: '(1)(4)',
+    hasImage: true,
+  },
+  {
+    id: '17ce002d564',
+    chapter: '空間概念',
+    question:
+      '空間中球面 $S$ 的半徑為 $4$，被平面 $E$ 截出一圓，球心到圓心的距離為 $3$，求截圓面積。',
+    answer: '$7\\pi$',
+    hasImage: true,
+  },
+  {
+    id: '17ce003c076',
+    chapter: '空間概念',
+    question: '設一長方體的長、寬、高分別為 $10$、$8$、$4$，求其任意兩頂點間最長的距離。',
+    answer: '$6\\sqrt5$',
+    hasImage: false,
+  },
+  {
+    id: '17ce0001ef1',
+    chapter: '空間概念',
+    question: '圖為稜長為 $1$ 之正立方體 $ABCD-EFGH$，求四面體 $ACFH$ 的表面積及體積。',
+    answer: '$2\\sqrt3$；$\\frac13$',
+    hasImage: true,
+  },
+  {
+    id: '17ce0013699',
+    chapter: '空間概念',
+    question:
+      '各邊長均為 $a$ 的金字塔體積為 $V_1$，各邊長均為 $a$ 的正四面體體積為 $V_2$，求 $\\frac{V_1}{V_2}$。',
+    answer: '$2$',
+    hasImage: false,
+  },
+  {
+    id: '17ce0065827',
+    chapter: '空間概念',
+    question:
+      '空間坐標中關於點 $A(4,5,6)$ 的敘述，下列選項何者正確？\n(1) $xy$ 平面上恰有一點與 $A$ 的距離為 $5$\n(2) $yz$ 平面上恰有一點與 $A$ 的距離為 $5$\n(3) $xz$ 平面上恰有一點與 $A$ 的距離為 $5$\n(4) 三坐標軸上皆恰有一點與 $A$ 的距離為 $5$',
+    answer: '(3)',
+    hasImage: false,
+  },
+  {
+    id: '17ce007f2d9',
+    chapter: '空間概念',
+    question:
+      '令 $A(5,0,12)$，$B(-5,0,12)$ 為坐標空間中之兩點，且令 $P$ 為 $xy$ 平面上滿足 $\\overline{PA}=\\overline{PB}=13$ 的點。請問下列哪一個點可能為 $P$？\n(1) $(5,0,0)$ (2) $(5,5,0)$ (3) $(0,12,0)$ (4) $(0,0,0)$ (5) $(0,0,24)$',
+    answer: '(4)',
+    hasImage: false,
+  },
+  {
+    id: '17ce008fbb5',
+    chapter: '空間概念',
+    question: '設地球赤道一圈的長度約 $40000$ 公里，請問北緯 $60\\degree$ 一圈的長度約幾公里？',
+    answer: '$20000$',
+    hasImage: false,
+  },
+  {
+    id: '17ce00a154d',
+    chapter: '空間概念',
+    question:
+      '設從台北車站往東前進 $a$ 公里可使經度增加一度，而從台北車站往北前進 $b$ 公里可使緯度增加一度。試比較 $a$、$b$ 的大小。',
+    answer: '$a<b$',
+    hasImage: false,
+  },
+  {
+    id: '17ce00c5e42',
+    chapter: '空間概念',
+    question:
+      '兩相異平面 $E_1$、$E_2$ 互相平行，各與直圓錐面 $\\Omega$ 相截，所得截痕為 $\\Gamma_1$ 與 $\\Gamma_2$。\n(1) 若 $\\Gamma_1$ 為一直線，則 $\\Gamma_2$ 的圖形為？\n(2) 若 $\\Gamma_1$ 為兩相交直線，則 $\\Gamma_2$ 的圖形為？\n(3) 若 $\\Gamma_1$ 為一點，則 $\\Gamma_2$ 的圖形為？',
+    answer: '(1) 拋物線 (2) 雙曲線 (3) 橢圓',
+    hasImage: false,
+  },
+  {
+    id: '17ce00ebc7d',
+    chapter: '空間向量',
+    question:
+      '假設 $\\vector a$、$\\vector b$、$\\vector c$ 是空間中三個向量，$r\\in\\mathbb R$。已知 $\\vector a=(1,1,0)$、$\\vector b=(0,1,1)$ 且 $\\vector a$、$\\vector b$、$\\vector c$ 滿足 $\\vector a+\\vector b+r\\vector c=\\vector0$，那麼 $r$ 不可能等於下列何者？\n(1) $-\\sqrt2$ (2) $0$ (3) $1$ (4) $\\pi$ (5) $10^{100}$',
+    answer: '(2)',
+    hasImage: false,
+  },
+  {
+    id: '17ce0106d46',
+    chapter: '空間向量',
+    question: '空間中 $A(x,5,4)$、$B(-1,y,1)$、$C(3,7,2)$ 三點共線，求數對 $(x,y)$。',
+    answer: '$(11,8)$',
+    hasImage: false,
+  },
+  {
+    id: '17ce011be85',
+    chapter: '空間向量',
+    question:
+      '如圖，$ABCD-EFGH$ 為一平行六面體，$J$ 為四邊形 $BCGF$ 的中心，如果 $\\xvector{AJ}=a\\xvector{AB}+b\\xvector{AD}+c\\xvector{AE}$，求序組 $(a,b,c)$。',
+    answer: '$(1,\\frac12,\\frac12)$',
+    hasImage: true,
+  },
+  {
+    id: '17ce012e9fe',
+    chapter: '空間向量',
+    question:
+      '空間中四面體 $ABCD$，已知 $x\\xvector{AB}+y\\xvector{AC}+z\\xvector{AD}=3\\xvector{BD}+2\\xvector{CB}$，求序組 $(x,y,z)$。',
+    answer: '$(-1,-2,3)$',
+    hasImage: false,
+  },
+  {
+    id: '17ce3b59f60',
+    chapter: '空間向量',
+    question:
+      '已知 $\\vector a=(1,2,2)$、$\\vector b=(-2,-3,6)$ 的夾角為 $\\theta$，求 $\\vector a\\cdot\\vector b$ 及 $\\cos\\theta$。',
+    answer: '$4$；$\\frac4{21}$',
+    hasImage: false,
+  },
+  {
+    id: '17ce3b69c7f',
+    chapter: '空間向量',
+    question: '長方體 $ABCD-EFGH$ 如圖，已知 $A(1,2,0)$、$C(x,7,x+2)$、$E(3,x,-6)$，求 $x$。',
+    answer: '$24$',
+    hasImage: true,
+  },
+  {
+    id: '17ce3b7e1ca',
+    chapter: '空間向量',
+    question:
+      '空間向量 $\\vector a$ 與 $\\vector b$，已知 $|\\vector a|=6\\sqrt3$，$\\vector b=(2,-2,1)$，$\\vector a$ 與 $\\vector b$ 的夾角為 $30\\degree$，求 $\\vector a$ 在 $\\vector b$ 上的正射影。',
+    answer: '$(6,-6,3)$',
+    hasImage: false,
+  },
+  {
+    id: '17ce3b8ab07',
+    chapter: '空間向量',
+    question: '若 $2x-y+z=12$，求 $x^2+y^2+z^2$ 的最小值及此時的 $(x,y,z)$。',
+    answer: '$24$；$(4,-2-2)$',
+    hasImage: false,
+  },
+  {
+    id: '17ce3babf77',
+    chapter: '空間向量',
+    question:
+      '$\\vector a=(4,-1,3)$、$\\vector b=(2,1,2)$，求 $\\vector a\\times\\vector b$ 及 $\\vector a$、$\\vector b$ 所張成的三角形面積。',
+    answer: '$(-5,-2,6)$；$\\frac{\\sqrt{65}}2$',
+    hasImage: false,
+  },
+  {
+    id: '17ce3bd3de0',
+    chapter: '空間向量',
+    question:
+      '空間中共起點的五個向量 $\\vector a$、$\\vector b$、$\\vector c$、$\\vector d$、$\\vector e$ 都在平面 $E$ 上，如圖，請問哪一個選項最大？\n(1) $|\\vector a\\times\\vector a|$ (2) $|\\vector a\\times\\vector b|$\n(3) $|\\vector a\\times\\vector c|$ (4) $|\\vector a\\times\\vector d|$\n(5) $|\\vector a\\times\\vector e|$',
+    answer: '(4)',
+    hasImage: true,
+  },
+  {
+    id: '17ce3bf7d8f',
+    chapter: '空間向量',
+    question:
+      '設 $\\vector i=(1,0,0)$，$\\vector j=(0,1,0)$，$\\vector k=(0,0,1)$，求 $(\\vector i\\times\\vector j)\\times(\\vector k\\times\\vector i)$ 等於下列何者？\n(1) $\\vector i$ (2) $\\vector j$ (3) $\\vector k$ (4) $-\\vector i$ (5) $-\\vector j$ (6) $-\\vector k$',
+    answer: '(4)',
+    hasImage: false,
+  },
+  {
+    id: '17ce3c0a6f3',
+    chapter: '空間向量',
+    question:
+      '設 $\\vector a\\times\\vector b=(1,3,2)$，$\\vector b\\times\\vector c=(3,0,-1)$，求 $(2\\vector a+3\\vector b+4\\vector c)\\times\\vector b$。',
+    answer: '$(-10,6,8)$',
+    hasImage: false,
+  },
+  {
+    id: '17ce3c5d28e',
+    chapter: '空間向量',
+    question:
+      '下列個選項的行列式值哪些必為 $0$？\n(1) $\\begin{vmatrix}a&0&d\\\\b&0&e\\\\c&0&f\\end{vmatrix}$ (2) $\\begin{vmatrix}a&b&c\\\\0&d&0\\\\0&e&0\\end{vmatrix}$ (3) $\\begin{vmatrix}0&0&a\\\\b&0&c\\\\d&e&0\\end{vmatrix}$\n(4) $\\begin{vmatrix}0&a&0\\\\b&c&d\\\\0&e&0\\end{vmatrix}$ (5) $\\begin{vmatrix}a&0&b\\\\0&c&0\\\\d&0&e\\end{vmatrix}$',
+    answer: '(1)(2)(4)',
+    hasImage: false,
+  },
+  {
+    id: '17ce3c7b487',
+    chapter: '空間向量',
+    question:
+      '把三階行列式 $\\begin{vmatrix}a&2&6\\\\b&1&x\\\\c&5&3\\end{vmatrix}$ 第一行的三個元各加 $1$ 之後，行列式 $\\begin{vmatrix}a+1&2&6\\\\b+1&1&x\\\\c+1&5&3\\end{vmatrix}$ 的值會增加 $9$，求 $x$。',
+    answer: '$4$',
+    hasImage: false,
+  },
+  {
+    id: '17ce3c8c5d9',
+    chapter: '空間向量',
+    question:
+      '空間中三向量 $\\vector a=(0,2,1)$，$\\vector b=(3,0,5)$，$\\vector c=(6,2,-1)$ 所張成的平行六面體體積及四面體體積。',
+    answer: '$72$；$12$',
+    hasImage: false,
+  },
+  {
+    id: '17ce3d442fc',
+    chapter: '空間向量',
+    question:
+      '空間中三向量 $\\vector a=(x_1,y_1,z_1)$，$\\vector b=(x_2,y_2,z_2)$，$\\vector c=(x_3,y_3,z_3)$，已知 $\\begin{vmatrix}x_1&y_1&z_1\\\\x_2&y_2&z_2\\\\x_3&y_3&z_3\\end{vmatrix}=5$，求 $|(\\vector a\\times\\vector b)\\cdot\\vector c|$。',
+    answer: '$5$',
+    hasImage: false,
+  },
+  {
+    id: '17ce3e9ec47',
+    chapter: '空間向量',
+    question: '空間中點 $P(2,1,3)$ 與點 $Q(4,5,5)$，求線段 $PQ$ 之垂直平分面方程式。',
+    answer: '$x+2y+z=13$',
+    hasImage: false,
+  },
+  {
+    id: '17ce3eaf58b',
+    chapter: '空間向量',
+    question: '若點 $(1,2,k)$ 在平面 $E:2x+ky-5z=-7$ 上，求 $k$。',
+    answer: '$3$',
+    hasImage: false,
+  },
+  {
+    id: '17ce3eba839',
+    chapter: '空間向量',
+    question: '若平面 $2x+py-6z=7$ 與 $x+4y+qz=1$ 互相平行，求數對 $(p,q)$。',
+    answer: '$(8,-3)$',
+    hasImage: false,
+  },
+  {
+    id: '17ce3ec98fe',
+    chapter: '空間向量',
+    question: '求平面 $E_1:x+2y-z=1$ 與 $E_2:3x+y+z=5$ 的銳夾角餘弦值。',
+    answer: '$\\frac4{\\sqrt{66}}$',
+    hasImage: false,
+  },
+  {
+    id: '17ce3ed2ef3',
+    chapter: '空間向量',
+    question: '求點 $(1,3,-2)$ 到 $2x+y-z=1$ 的最近距離。',
+    answer: '$\\sqrt6$',
+    hasImage: false,
+  },
+  {
+    id: '17ce3ee37d5',
+    chapter: '空間向量',
+    question:
+      '長方體 $ABCD-EFGH$ 的邊長為 $\\overline{BC}=6$，$\\overline{CD}=3$，$\\overline{HD}=3$，如圖，試求頂點 $G$ 到平面 $BDE$ 的距離。',
+    answer: '$4$',
+    hasImage: true,
+  },
+  {
+    id: '17ce3eea738',
+    chapter: '空間向量',
+    question: '過點 $(1,2,-5)$ 且與向量 $(6,4,7)$ 平行的直線參數式。',
+    answer: '略',
+    hasImage: false,
+  },
+  {
+    id: '17ce3f03165',
+    chapter: '空間向量',
+    question:
+      '關於直線 $L:\\begin{cases}x=2t-6\\\\y=3t+1\\\\z=5\\end{cases},t\\in\\mathbb R$，下列哪些為真？\n(1) $L$ 不與 $xy$ 平面相交 (2) $L$ 不與 $yz$ 平面相交\n(3) $L$ 不與 $xz$ 平面相交 (4) $L$ 與 $z$ 軸平行 (5) $L$ 與 $z$ 軸歪斜',
+    answer: '(1)(5)',
+    hasImage: false,
+  },
+  {
+    id: '17ce3f0c1a9',
+    chapter: '空間向量',
+    question: '過點 $(1,2,-5)$ 且與向量 $(6,4,7)$ 平行的直線比例式。',
+    answer: '略',
+    hasImage: false,
+  },
+  {
+    id: '17ce3f1ef56',
+    chapter: '空間向量',
+    question:
+      '坐標空間中，直線 $L:\\frac{x+2}{-1}=\\frac{y+5}3=\\frac{z-7}6$ 上有一點 $P$，已知 $P$ 點的 $y$ 坐標比 $x$ 坐標多 $1$，求 $P$。',
+    answer: '$(-3,-2,13)$',
+    hasImage: false,
+  },
+  {
+    id: '17ce3f298f6',
+    chapter: '空間向量',
+    question: '將直線 $\\begin{cases}x+2y+z=1\\\\x+y-z=5\\end{cases}$ 化為參數式。',
+    answer: '略',
+    hasImage: false,
+  },
+  {
+    id: '17ce3f38be4',
+    chapter: '空間向量',
+    question:
+      '平面 $E$ 通過原點且與直線 $L:\\begin{cases}3x+4y-2z=1999\\\\2x-3y+5z=2988\\end{cases}$ 垂直，求 $E$ 的方程式。',
+    answer: '$14x-19y-17z=0$',
+    hasImage: false,
+  },
+  {
+    id: '17ce3f576c5',
+    chapter: '條件機率',
+    question:
+      '樣本空間 $S$ 中有事件 $A$ 與 $B$，已知 $A$ 事件發生的機率為 $0.4$，$B$ 事件發生的機率為 $0.3$，兩事件同時發生的機率為 $0.1$，求 $P(A|B)$ 及 $P(B|A)$。',
+    answer: '$\\frac13$；$\\frac14$',
+    hasImage: false,
+  },
+  {
+    id: '17ce3f6c2d5',
+    chapter: '條件機率',
+    question:
+      '一副撲克牌 $52$ 張中隨機抽出一張牌，假設每一張牌被抽中的機會均等，令 $A$ 代表抽中老 $K$ 的事件，$B$ 代表抽中紅心的事件，求 $P(B|A)$ 及 $P(A|B)$。',
+    answer: '$\\frac14$；$\\frac1{13}$',
+    hasImage: false,
+  },
+  {
+    id: '17ce3f81aec',
+    chapter: '條件機率',
+    question:
+      '箱中有 $5$ 白球 $3$ 黑球，每球被取的機率相等，求先取一球為白球，且再取兩球均為黑球的機率。',
+    answer: '$\\frac5{56}$',
+    hasImage: false,
+  },
+  {
+    id: '17ce3fc357b',
+    chapter: '條件機率',
+    question:
+      '有一按鈕遊戲機﹐每投幣一枚，可按遊戲機三次。第一次按下會出現黑色或白色的機率各為 $\\frac12$；第二或第三次按下，出現與前一次同色的機率為 $\\frac13$，不同的機率為 $\\frac23$。今某甲投幣一枚後，按三次均出現同色的機率為？',
+    answer: '$\\frac19$',
+    hasImage: false,
+  },
+  {
+    id: '17ce3fe7511',
+    chapter: '條件機率',
+    question:
+      "事件 $A$、$B$ 的餘事件 $A'$、$B'$ 代表該事件未發生，已知 $P(A)=0.8$，$P(B|A)=0.6$，$P(B'|A')=0.3$，可用樹狀圖表示，求 $P(B)$ 及 $P(A|B)$。",
+    answer: '$0.62$；$\\frac{24}{31}$',
+    hasImage: true,
+  },
+  {
+    id: '17ce40003b8',
+    chapter: '條件機率',
+    question:
+      '某公司員工有 $15\\%$ 為行政人員，$35\\%$ 為技術人員，$50\\%$ 為研發人員。這些員工中，$60\\%$ 的行政人員有大學文憑，$40\\%$ 的技術人員有大學文憑，$80\\%$ 的研發人員有大學文憑。從有大學文憑的員工中隨機抽選一人，他是技術人員的機率為？',
+    answer: '$\\frac29$',
+    hasImage: false,
+  },
+  {
+    id: '17ce4028079',
+    chapter: '條件機率',
+    question:
+      '甲乙兩人玩打靶遊戲。甲命中靶的機率為 $\\frac25$，乙命中靶的機率是 $\\frac12$。甲先射，以後射。甲射中與否不影響乙的命中率。若他們倆人向靶各射一次，求只有乙射中的機率。',
+    answer: '$\\frac3{10}$',
+    hasImage: false,
+  },
+  {
+    id: '17ce403fad3',
+    chapter: '條件機率',
+    question:
+      '設三事件 $A$、$B$、$C$ 為獨立事件，且 $P(A)=P(B)=P(C)=\\frac13$，求：\n(1) $A$、$B$、$C$ 只有 $A$ 發生的機率\n(2) $A$、$B$、$C$ 至少有一事件發生的機率',
+    answer: '$\\frac4{27}$；$\\frac{19}{27}$',
+    hasImage: false,
+  },
+  {
+    id: '17ce407e041',
+    chapter: '矩陣A',
+    question:
+      '請寫出下列矩陣的階數。\n(1) $\\begin{bmatrix}1&3&5\\\\2&0&7\\end{bmatrix}$ (2) $\\begin{bmatrix}1&3&5\\end{bmatrix}$ (3) $\\begin{bmatrix}1\\\\3\\\\5\\end{bmatrix}$\n(4) $\\begin{bmatrix}1&2\\\\3&4\\\\5&6\\end{bmatrix}$ (5) $\\begin{bmatrix}2&3\\\\1&4\\end{bmatrix}$',
+    answer: '略',
+    hasImage: false,
+  },
+  {
+    id: '17ce408fc10',
+    chapter: '矩陣A',
+    question:
+      '考慮每個元只能是 $0$ 或 $1$ 的 $2\\times3$ 矩陣，且它的第一列與第二列不相同且各列的元素不能全為零，這樣的矩陣共有幾個？',
+    answer: '$42$',
+    hasImage: false,
+  },
+  {
+    id: '17ce40ae751',
+    chapter: '矩陣A',
+    question:
+      '將增廣矩陣 $\\begin{bmatrix}1&2&1&3\\\\2&1&0&-7\\\\1&1&2&2\\end{bmatrix}$ 經列運算後可解得 $(x,y,z)$ 為？',
+    answer: '$(-5,3,2)$',
+    hasImage: false,
+  },
+  {
+    id: '17ce40c83ce',
+    chapter: '矩陣A',
+    question:
+      '若聯立方程式的增廣舉陣經列運算簡化為 $\\begin{bmatrix}1&a&b&a-2b\\\\0&1&4a+b&a+5\\\\0&0&a+2&3b-9\\end{bmatrix}$，已知該聯立方程式的解不只一組，求數對 $(a,b)$。',
+    answer: '$(-2,3)$',
+    hasImage: false,
+  },
+  {
+    id: '17ce40d9768',
+    chapter: '矩陣A',
+    question:
+      '設 $\\begin{bmatrix}c+a&8\\\\2a+b&c\\\\c&b\\end{bmatrix}=\\begin{bmatrix}4&8\\\\-c&c\\\\3&a-6\\end{bmatrix}$，求 $a+b+c$。',
+    answer: '$-1$',
+    hasImage: false,
+  },
+  {
+    id: '17ce40fb208',
+    chapter: '矩陣A',
+    question:
+      '$A=\\begin{bmatrix}3&1&-2\\\\2&0&4\\end{bmatrix}$，$B=\\begin{bmatrix}1&-3&0\\\\-1&2&5\\end{bmatrix}$，求 $2A+B$。',
+    answer: '$\\begin{bmatrix}7&-1&-4\\\\3&2&13\\end{bmatrix}$',
+    hasImage: false,
+  },
+  {
+    id: '17ce410b897',
+    chapter: '矩陣A',
+    question:
+      '求 $\\begin{bmatrix}2&1&-2\\\\1&0&3\\end{bmatrix}\\begin{bmatrix}4&0\\\\-1&2\\\\1&1\\end{bmatrix}$。',
+    answer: '$\\begin{bmatrix}5&0\\\\7&3\\end{bmatrix}$',
+    hasImage: false,
+  },
+  {
+    id: '17ce412dcb2',
+    chapter: '矩陣A',
+    question:
+      '矩陣 $A$ 可乘上階數為 $3\\times1$ 的矩陣，則 $A\\begin{bmatrix}3\\\\1\\\\2\\end{bmatrix}$ 的結果可能為下列哪些矩陣？\n(1) $\\begin{bmatrix}2\\end{bmatrix}$ (2) $\\begin{bmatrix}2&3\\end{bmatrix}$ (3) $\\begin{bmatrix}3\\\\4\\end{bmatrix}$ (4) $\\begin{bmatrix}1\\\\2\\\\3\\end{bmatrix}$ (5) $\\begin{bmatrix}1&2\\\\3&4\\end{bmatrix}$',
+    answer: '(1)(3)(4)',
+    hasImage: false,
+  },
+  {
+    id: '17ce4148e4f',
+    chapter: '矩陣A',
+    question:
+      '設方陣 $A=\\begin{bmatrix}1&2\\\\3&4\\end{bmatrix}$、$B=\\begin{bmatrix}a&b\\\\c&d\\end{bmatrix}$ 滿足 $AB=\\begin{bmatrix}2&0\\\\0&2\\end{bmatrix}$，求 $a^2+b^2+c^2+d^2$。',
+    answer: '$30$',
+    hasImage: false,
+  },
+  {
+    id: '17ce4154725',
+    chapter: '矩陣A',
+    question:
+      '二階方陣 $A=\\begin{bmatrix}a+1&a+3\\\\a-4&a-2\\end{bmatrix}$ 的反方陣之第 $(1,2)$ 元為 $1$，求 $a$。',
+    answer: '$-13$',
+    hasImage: false,
+  },
+  {
+    id: '17ce4166477',
+    chapter: '矩陣A',
+    question:
+      '已知 $A=\\begin{bmatrix}1\\\\2\\end{bmatrix}$，$BC=\\begin{bmatrix}3&4&5\\end{bmatrix}$，求 $(2AB)(3C)$。',
+    answer: '$\\begin{bmatrix}18&24&30\\\\36&48&60\\end{bmatrix}$',
+    hasImage: false,
+  },
+  {
+    id: '17ce4181410',
+    chapter: '矩陣A',
+    question:
+      '$A=\\begin{bmatrix}397&389\\\\476&474\\end{bmatrix}$，$B=\\begin{bmatrix}198&357\\\\469&876\\end{bmatrix}$，$C=\\begin{bmatrix}198&356\\\\470&877\\end{bmatrix}$，求 $AB-AC$。',
+    answer: '$\\begin{bmatrix}-389&8\\\\-474&2\\end{bmatrix}$',
+    hasImage: false,
+  },
+  {
+    id: '17ce41af316',
+    chapter: '矩陣A',
+    question:
+      '$\\triangle ABC$ 的頂點為 $A(1,2)$、$B(2,4)$、$C(3,-1)$，經方陣 $\\begin{bmatrix}1&2\\\\3&-1\\end{bmatrix}$ 變換後的圖形為 $\\Gamma$，試作出 $\\Gamma$ 的圖形，並求 $\\Gamma$ 的面積是 $\\triangle ABC$ 的幾倍？',
+    answer: '略；$7$',
+    hasImage: false,
+  },
+  {
+    id: '17ce41d7778',
+    chapter: '矩陣A',
+    question:
+      '平面上點 $P$ 在第一象限內，試問：\n(1) 經過 $\\begin{bmatrix}\\cos100\\degree&\\sin100\\degree\\\\-\\sin100\\degree&\\cos100\\degree\\end{bmatrix}$ 作用後的像，可能在哪些位置？\n(2) 經過 $\\begin{bmatrix}\\cos100\\degree&\\sin100\\degree\\\\\\sin100\\degree&-\\cos100\\degree\\end{bmatrix}$ 作用後的像，可能在哪些位置？',
+    answer: '(1) 第三、四象限或 $y$ 軸 (2) 第一、二象限或 $y$ 軸',
+    hasImage: false,
+  },
+  {
+    id: '17ce41ee1d6',
+    chapter: '矩陣A',
+    question:
+      '設 $k>0$，長方形 $ABCD$，已知 $A(0,0)$、$B(2,0)$、$C(2,1)$、$D(0,1)$，若推移變換 $\\begin{bmatrix}1&k\\\\0&1\\end{bmatrix}$ 使 $ABCD$ 變成菱形，求 $k$。',
+    answer: '$\\sqrt3$',
+    hasImage: false,
+  },
+  {
+    id: '17ce42281ee',
+    chapter: '矩陣A',
+    question:
+      '設 $\\begin{bmatrix}a_n\\\\b_n\\end{bmatrix}$ 滿足 $\\begin{bmatrix}a_{n+1}\\\\b_{n+1}\\end{bmatrix}=\\begin{bmatrix}2&3\\\\-1&1\\end{bmatrix}\\begin{bmatrix}a_n\\\\b_n\\end{bmatrix}$，$n\\in\\mathbb N$，若 $\\begin{bmatrix}a_1\\\\b_1\\end{bmatrix}=\\begin{bmatrix}5\\\\4\\end{bmatrix}$，求 $\\begin{bmatrix}a_2\\\\b_2\\end{bmatrix}$、$\\begin{bmatrix}a_3\\\\b_3\\end{bmatrix}$。',
+    answer: '$\\begin{bmatrix}22\\\\-1\\end{bmatrix}$；$\\begin{bmatrix}41\\\\-23\\end{bmatrix}$',
+    hasImage: false,
+  },
+  {
+    id: '17ce4249a61',
+    chapter: '矩陣A',
+    question:
+      '設 $A$、$B$ 是兩個 $n\\times n$ 的轉移矩陣，請問下列哪些敘述是正確的？\n(1) $A^2$ 是轉移矩陣 (2) $AB$ 是轉移矩陣\n(3) $\\frac12(A+B)$ 是轉移矩陣 (4) $\\frac14(A^2+B^2)$ 是轉移矩陣',
+    answer: '(1)(3)',
+    hasImage: false,
+  },
 ];
