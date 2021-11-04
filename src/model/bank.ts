@@ -13622,4 +13622,117 @@ export const bank: Question[] = [
     answer: '(1)(3)',
     hasImage: false,
   },
+  {
+    id: '17ce8eb133f',
+    chapter: '矩陣A',
+    question:
+      '一礦物內含 $A$、$B$、$C$ 三種放射性物質，放射出同一種輻射。已知 $A$、$B$、$C$ 每公克分別會釋出 $1$ 單位、$2$ 單位、$1$ 單位的輻射強度，又知 $A$、$B$、$C$ 每過半年其質量分別變為原來質量的 $\\frac12$、$\\frac13$、$\\frac14$ 倍。於一年前測得此礦物的輻射強度為 $66$ 單位，而半年前測得此礦物的輻射強度為 $22$ 單位，且目前此礦物的輻射強度為 $8$ 單位，求目前此礦物中 $A$、$B$、$C$ 物質之質量。',
+    answer: '$4$、$1$、$2$',
+    hasImage: false,
+  },
+  {
+    id: '17ce8edc471',
+    chapter: '矩陣A',
+    question:
+      '某次選舉中進行甲、乙、丙三項公投案，每項公投案一張選票，投票人可選擇領或不領。投票結束後清點某投票所的選票，發現甲案有 $765$ 人領票、乙案有 $537$ 人領票、丙案有 $648$ 人領票，同時領甲、乙、丙三案公投票的有 $224$ 人，並且每個人都至少領了兩張公投票。根據以上資訊，可知同時領甲、乙兩案但沒有領丙案公投票者共有幾人？',
+    answer: '$215$',
+    hasImage: false,
+  },
+  {
+    id: '17ce8ef7479',
+    chapter: '矩陣A',
+    question:
+      '$\\begin{cases}x+2y+3z=0\\\\2x+y+3z=6\\\\x-y=6\\\\x-2y-z=8\\end{cases}$ 經增廣矩陣列運算後可化簡為 $\\begin{bmatrix}1&0&a&b\\\\0&1&c&d\\\\0&0&0&0\\\\0&0&0&0\\end{bmatrix}$，求序組 $(a,b,c,d)$。',
+    answer: '$(6,2,2,6)$',
+    hasImage: false,
+  },
+  {
+    id: '17ce8f0c2a5',
+    chapter: '矩陣A',
+    question:
+      '對矩陣 $\\begin{bmatrix}4&9&a\\\\3&7&b\\end{bmatrix}$，做列運算若干次後得到 $\\begin{bmatrix}1&0&1\\\\0&1&1\\end{bmatrix}$，求數對 $(a,b)$。',
+    answer: '$(13,10)$',
+    hasImage: false,
+  },
+  {
+    id: '17ce8f3435f',
+    chapter: '矩陣A',
+    question:
+      '阿明解矩陣的方程組，他把 $\\begin{cases}X+2Y=A\\\\X-Y=B\\end{cases}$ 看成 $\\begin{cases}X-Y=A\\\\X+Y=B\\end{cases}$，結果得到 $X=\\begin{bmatrix}4&-1\\\\-2&3\\end{bmatrix}$，$Y=\\begin{bmatrix}3&-3\\\\-6&3\\end{bmatrix}$，求正確的 $X$、$Y$。',
+    answer:
+      '$\\begin{bmatrix}5&-2\\\\-4&4\\end{bmatrix}$；$\\begin{bmatrix}-2&2\\\\4&-2\\end{bmatrix}$',
+    hasImage: false,
+  },
+  {
+    id: '17ce8f4743b',
+    chapter: '矩陣A',
+    question:
+      '若 $a\\begin{bmatrix}-1&1\\\\1&1\\end{bmatrix}+b\\begin{bmatrix}2&-2\\\\2&2\\end{bmatrix}+c\\begin{bmatrix}3&3\\\\-3&3\\end{bmatrix}=\\begin{bmatrix}17&1\\\\3&d\\end{bmatrix}$，求 $a+b+c+d$。',
+    answer: '$31$',
+    hasImage: false,
+  },
+  {
+    id: '17ce8f5a3d0',
+    chapter: '矩陣A',
+    question:
+      '考慮矩陣相乘 $\\begin{bmatrix}a&b\\\\c&d\\\\1&2\\end{bmatrix}\\begin{bmatrix}-3&5&7\\\\-4&6&e\\end{bmatrix}=\\begin{bmatrix}3&x&7\\\\0&y&7\\\\-11&z&23\\end{bmatrix}$，求 $y$。',
+    answer: '$\\frac72$',
+    hasImage: false,
+  },
+  {
+    id: '17ce8f75d11',
+    chapter: '矩陣A',
+    question:
+      '矩陣 $\\begin{bmatrix}-1&0\\\\1&-1\\end{bmatrix}^5$ 與下列哪一個矩陣相等？\n(1) $\\begin{bmatrix}-1&0\\\\-5&-1\\end{bmatrix}$ (2) $\\begin{bmatrix}1&0\\\\-5&1\\end{bmatrix}$\n(3) $\\begin{bmatrix}-1&5\\\\0&-1\\end{bmatrix}$ (4) $\\begin{bmatrix}1&0\\\\5&1\\end{bmatrix}$\n(5) $\\begin{bmatrix}-1&0\\\\5&-1\\end{bmatrix}$',
+    answer: '(5)',
+    hasImage: false,
+  },
+  {
+    id: '17ce8f8f1d1',
+    chapter: '矩陣A',
+    question:
+      '設 $P$、$Q$、$R$ 為二階方陣，已知 $PQ=\\begin{bmatrix}2&0\\\\12&0\\end{bmatrix}$，$PR=\\begin{bmatrix}1&3\\\\4&12\\end{bmatrix}$ 且 $Q+R=\\begin{bmatrix}1&0\\\\3&3\\end{bmatrix}$，求 $P$。',
+    answer: '$\\begin{bmatrix}0&1\\\\4&4\\end{bmatrix}$',
+    hasImage: false,
+  },
+  {
+    id: '17ce8fa11a1',
+    chapter: '矩陣A',
+    question:
+      '已知 $A=\\begin{bmatrix}1&3\\\\2&4\\end{bmatrix}$，$AB=\\begin{bmatrix}5&8\\\\8&14\\end{bmatrix}$，$BC=\\begin{bmatrix}11&12\\\\4&3\\end{bmatrix}$，求 $C$。',
+    answer: '$\\begin{bmatrix}3&1\\\\1&2\\end{bmatrix}$',
+    hasImage: false,
+  },
+  {
+    id: '17ce8fc69b2',
+    chapter: '矩陣A',
+    question:
+      "設平面上三點 $P(3,1)$、$Q(4,2)$、$R(8,-5)$，經二階方陣 $A$ 變換後的點為 $P'$、$Q'$、$R'$，已知 $P'(7,5)$、$Q'(-2,6)$，求 $A$ 及 $\\triangle P'Q'R'$ 面積。",
+    answer: '$\\begin{bmatrix}8&-17\\\\2&-1\\end{bmatrix}$；$143$',
+    hasImage: false,
+  },
+  {
+    id: '17ce8fdee76',
+    chapter: '矩陣A',
+    question:
+      '考慮坐標平面上的直線 $L:3x-2y=1$，若 $a$ 為實數且二階方陣 $\\begin{bmatrix}1&0\\\\a&-8\\end{bmatrix}$ 所代表的線性變換可以將 $L$ 上的點變換到一條斜率為 $2$ 的直線，求 $a$。',
+    answer: '$14$',
+    hasImage: false,
+  },
+  {
+    id: '17ce905c7c2',
+    chapter: '矩陣A',
+    question:
+      '已知 $\\begin{bmatrix}a&b\\\\c&d\\end{bmatrix}$ 是一個轉移矩陣，並且其行列式值為 $\\frac58$，求 $a+d$。',
+    answer: '$\\frac{13}8$',
+    hasImage: false,
+  },
+  {
+    id: '17ce9083c89',
+    chapter: '矩陣A',
+    question:
+      '某現象有 $A$、$B$ 兩種狀態，其機率的變化適合用轉移方陣 $\\begin{bmatrix}0.6&0.3\\\\0.4&0.7\\end{bmatrix}$ 來描述，即該矩陣作用在機率行矩陣 $\\begin{bmatrix}P(A)\\\\P(B)\\end{bmatrix}$，可得到下一階段的機率行矩陣。求「從狀態 $A$ 變成狀態 $B$，且再變回狀態 $A$」的機率。',
+    answer: '$0.12$',
+    hasImage: false,
+  },
 ];
