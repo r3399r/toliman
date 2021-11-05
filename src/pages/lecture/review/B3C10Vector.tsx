@@ -209,6 +209,7 @@ const B3C10Vector = () => {
           <Textarea2MathJax text={'(1) 行列互換，其值不變；行(或列)對調，行列式值變號'} />
           <Textarea2MathJax text={'(2) 任一行(或列)的各項若皆為 $k$ 倍，則可將 $k$ 提出'} />
           <Textarea2MathJax text={'(3) 將一行(或列)乘一倍數加到另一行(或列)，其值不變'} />
+          <Textarea2MathJax text={'(4) 若一行(或列)的各項均為兩項之和，則可拆開成兩個行列式相加'} />
         </Concept>
       </Page>
       <Page pageNum={30}>

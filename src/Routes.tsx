@@ -49,6 +49,10 @@ const route = {
   B3C8: loadable(() => import('./pages/lecture/review/B3C8TrigonometricFunction')),
   B3C9: loadable(() => import('./pages/lecture/review/B3C9ExpLogFunction')),
   B3C10: loadable(() => import('./pages/lecture/review/B3C10Vector')),
+  B4C11: loadable(() => import('./pages/lecture/review/B4C11SpaceConcept')),
+  B4C12: loadable(() => import('./pages/lecture/review/B4C12SpaceVector')),
+  B4C13: loadable(() => import('./pages/lecture/review/B4C13Probability')),
+  B4C14: loadable(() => import('./pages/lecture/review/B4C14Matrix')),
 };
 
 const AppRoutes = () => {
@@ -138,6 +142,10 @@ const AppRoutes = () => {
       <Route exact={true} path="/toliman/lecture/B3C8" component={route.B3C8} />
       <Route exact={true} path="/toliman/lecture/B3C9" component={route.B3C9} />
       <Route exact={true} path="/toliman/lecture/B3C10" component={route.B3C10} />
+      <Route exact={true} path="/toliman/lecture/B4C11" component={route.B4C11} />
+      <Route exact={true} path="/toliman/lecture/B4C12" component={route.B4C12} />
+      <Route exact={true} path="/toliman/lecture/B4C13" component={route.B4C13} />
+      <Route exact={true} path="/toliman/lecture/B4C14" component={route.B4C14} />
 
       <Route exact={true} path="/toliman/hw" component={route.Hw} />
       <Route exact={true} path="/toliman/test" component={route.Test} />

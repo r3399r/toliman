@@ -114,6 +114,18 @@ const Lecture = () => {
       <div className={style.button}>
         <Button onClick={onClick('B3C10')}>Ch10 平面向量</Button>
       </div>
+      <div className={style.button}>
+        <Button onClick={onClick('B4C11')}>Ch11 空間概念</Button>
+      </div>
+      <div className={style.button}>
+        <Button onClick={onClick('B4C12')}>Ch12 空間向量</Button>
+      </div>
+      <div className={style.button}>
+        <Button onClick={onClick('B4C13')}>Ch13 條件機率</Button>
+      </div>
+      <div className={style.button}>
+        <Button onClick={onClick('B4C14')}>Ch14 矩陣</Button>
+      </div>
     </div>
   );
 };
