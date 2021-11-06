@@ -14103,4 +14103,96 @@ export const bank: Question[] = [
     answer: '$0.664$',
     hasImage: false,
   },
+  {
+    id: '17cf623fdfc',
+    chapter: '指數與對數函數',
+    question: '方程式 $x^2+\\log_2|x|=0$ 有幾個實根？',
+    answer: '$2$',
+    hasImage: false,
+  },
+  {
+    id: '17cf6254b1b',
+    chapter: '指數與對數函數',
+    question:
+      '解方程組 $\\begin{cases}7\\log x-5\\cdot3^y=2\\\\\\log x^6+3^{y+1}=9\\end{cases}$，求數對 $(x,y)$。',
+    answer: '$(10,0)$',
+    hasImage: false,
+  },
+  {
+    id: '17cf626ccb0',
+    chapter: '指數與對數函數',
+    question: '已知 $x\\in[0,2]$，試求函數 $f(x)=2^{x+2}-4^x$ 的最大值與最小值差距。',
+    answer: '$4$',
+    hasImage: false,
+  },
+  {
+    id: '17cf628890c',
+    chapter: '指數與對數函數',
+    question:
+      '已知 $a>0$ 且 $a\\ne1$，若以函數 $f(x)=a^x$ 圖形上兩點 $P(x_1,f(x_1))$、$Q(x_2,f(x_2))$ 為端點的線段中點在 $y$ 軸上，求 $f(x_1)\\cdot f(x_2)$。',
+    answer: '$1$',
+    hasImage: false,
+  },
+  {
+    id: '17cf62953af',
+    chapter: '指數與對數函數',
+    question: '解方程式 $\\log_{x-1}(-x^2+11x-19)=2$，求 $x$。',
+    answer: '$\\frac52$ 或 $4$',
+    hasImage: false,
+  },
+  {
+    id: '17cf62adc98',
+    chapter: '指數與對數函數',
+    question: '若正實數 $x$ 滿足 $x^{\\log x}=\\dfrac{10000}{x^3}$，求 $x$。',
+    answer: '$\\frac1{10000}$ 或 $10$',
+    hasImage: false,
+  },
+  {
+    id: '17cf6336c6f',
+    chapter: '平面向量',
+    question:
+      '已知 $\\vector a=(2,6)$，$\\vector b=(-1,2)$，求 $|t\\vector a+\\vector b|$ 的最小值及此時的 $t$。',
+    answer: '$-\\frac14$；$\\frac{\\sqrt{10}}2$',
+    hasImage: false,
+  },
+  {
+    id: '17cf6349562',
+    chapter: '平面向量',
+    question:
+      '設 $\\xvector{OA}=(6,x)$，$\\xvector{OB}=(4,3)$，$\\xvector{OC}=(x,9)$，若 $A$、$B$、$C$ 三點共線，求實數 $x$。',
+    answer: '$0$ 或 $7$',
+    hasImage: false,
+  },
+  {
+    id: '17cf6362743',
+    chapter: '平面向量',
+    question:
+      '$x,y\\in\\mathbb R$，$A$、$B$、$C$ 為不共線的三點，已知 $(2x-y-7)\\xvector{AB}+(x+y+1)\\xvector{AC}=\\vector0$，求數對 $(x,y)$。',
+    answer: '$(2,-3)$',
+    hasImage: false,
+  },
+  {
+    id: '17cf63da0c4',
+    chapter: '平面向量',
+    question:
+      '平面上兩向量 $\\vector a=(3,4)$，$\\vector b=(5,12)$，若 $t\\vector a+\\vector b$ 平分 $\\vector a$ 與 $\\vector b$ 的夾角，求 $t$。',
+    answer: '$\\frac{13}5$',
+    hasImage: false,
+  },
+  {
+    id: '17cf63f0ad2',
+    chapter: '平面向量',
+    question:
+      '已知 $\\vector a$、$\\vector b$ 為平面上兩個不平行的非零向量，若實數 $x,y$ 滿足 $x(\\vector a-2\\vector b)-y(2\\vector a-\\vector b)=4\\vector a+7\\vector b$，求 $x+y$。',
+    answer: '$-11$',
+    hasImage: false,
+  },
+  {
+    id: '17cf64030cb',
+    chapter: '平面向量',
+    question:
+      '若兩平面向量 $\\vector a$ 與 $\\vector b$ 平行但反向，已知 $\\vector a=(1,-2)$，$|\\vector b|=2\\sqrt5$，試求 $\\vector b$。',
+    answer: '$(-2,4)$',
+    hasImage: false,
+  },
 ];
