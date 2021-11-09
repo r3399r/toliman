@@ -24,11 +24,14 @@ jobs:
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2
+      
+      # Setup git user
+      - uses: fregante/setup-git-user@v1
 
       # Runs a single command using the runners shell
-      - name: install dependencies
+      - name: Install dependencies
         run: npm ci
 
       # Runs a set of commands using the runners shell
-      - name: deploy github pages
+      - name: Deploy github pages
         run: npm run deploy
