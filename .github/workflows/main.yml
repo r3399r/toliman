@@ -26,7 +26,8 @@ jobs:
       - uses: actions/checkout@v2
       
       # Setup git user
-      - uses: fregante/setup-git-user@v1
+      - run: git config --global user.email r3399r@gmail.com
+      - run: git config --global user.name Yue Chang
 
       # Runs a single command using the runners shell
       - name: Install dependencies
