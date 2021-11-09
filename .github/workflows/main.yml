@@ -26,16 +26,12 @@ jobs:
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2
-      
-      - name: Set github user
-        run: |
-          git config --global user.email "r3399r@gmail.com"
-          git config --global user.name "Yue C"
-      
+            
       - name: Install dependencies
         run: npm ci
 
       - name: Deploy github pages
         run: |
           git remote set-url origin https://git:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git
-          npm run deploy
+          npm run pre:deploy
+          npm run gh-pages -- -u "github-actions-bot <support+actions@github.com>"
