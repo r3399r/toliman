@@ -14189,4 +14189,95 @@ export const bank: Question[] = [
     answer: '$(-2,4)$',
     hasImage: false,
   },
+  {
+    id: '17d136db6dc',
+    chapter: '指數與對數函數',
+    question: '設 $-1\\le x\\le1$，求 $f(x)=9^x-4\\cdot3^x-5$ 的最大值及最小值。',
+    answer: '$-\\frac{56}9$；$-9$',
+    hasImage: false,
+  },
+  {
+    id: '17d136f797a',
+    chapter: '指數與對數函數',
+    question:
+      '設 $f(x)=\\dfrac{2^x-2^{-x}}{2^x+2^{-x}}$，若 $f(a)=\\frac34$，$f(b)=\\frac56$，求 $f(a+b)$。',
+    answer: '$\\frac{38}{39}$',
+    hasImage: false,
+  },
+  {
+    id: '17d1371d25c',
+    chapter: '指數與對數函數',
+    question:
+      '比較 $a=2^{30}$、$b=3^{20}$、$c=5^{15}$ 之大小關係。($\\log2\\approx0.3010$，$\\log3\\approx0.4771$)',
+    answer: '$c>b>a$',
+    hasImage: false,
+  },
+  {
+    id: '17d13730d6f',
+    chapter: '指數與對數函數',
+    question: '若 $\\log_{(x-4)}(-2x^2+18x)$ 有意義，求 $x$ 的範圍。',
+    answer: '$4<x<9$ 且 $x\\ne5$',
+    hasImage: false,
+  },
+  {
+    id: '17d1374704e',
+    chapter: '指數與對數函數',
+    question: '對數函數 $f(x)=\\log_9(x^2-8x+25)$ 在 $x=a$ 時有最小的函數值 $b$，求數對 $(a,b)$。',
+    answer: '$(4,1)$',
+    hasImage: false,
+  },
+  {
+    id: '17d13816531',
+    chapter: '指數與對數函數',
+    question: '將 $y=\\log_5x$ 的圖形，對直線 $x-y=0$ 對稱後，圖形和 $y=25$ 交於 $P$ 點，求 $P$。',
+    answer: '$(2,25)$',
+    hasImage: false,
+  },
+  {
+    id: '17d1378a244',
+    chapter: '平面向量',
+    question:
+      '設 $P$ 點在 $\\triangle ABC$ 的 $\\overline{BC}$ 上，且 $\\overline{BP}:\\overline{CP}=7:2$，若 $\\xvector{AP}=x\\xvector{AB}+y\\xvector{AC}$，求數對 $(x,y)$。',
+    answer: '$(\\frac29,\\frac79)$',
+    hasImage: false,
+  },
+  {
+    id: '17d13799bfd',
+    chapter: '平面向量',
+    question:
+      '設 $\\vector a=(3,5)$，$\\vector b=(2,-1)$，求 $|\\vector a+t\\vector b|$ 的最小值及此時的 $t$。',
+    answer: '$\\frac{13\\sqrt5}5$；$-\\frac15$',
+    hasImage: false,
+  },
+  {
+    id: '17d137b24b7',
+    chapter: '平面向量',
+    question:
+      '在 $\\triangle ABC$ 中，已知三頂點為 $A(3,4)$、$B(-1,1)$、$C(15,-1)$，若 $\\angle A$ 的內角平分線交 $\\overline{BC}$ 於 $D$，且 $\\xvector{AD}=x\\xvector{AB}+y\\xvector{AC}$，求數對 $(x,y)$。',
+    answer: '$(\\frac{13}{18},\\frac5{18})$',
+    hasImage: false,
+  },
+  {
+    id: '17d137d11bb',
+    chapter: '平面向量',
+    question:
+      '設 $A$、$B$、$C$ 三點在同一條直線上，且 $P$ 為線外一點，若 $7\\xvector{PA}=x\\xvector{PB}+4\\xvector{PC}$，求 $x$ 及比值 $\\frac{\\overline{AB}}{\\overline{BC}}$。',
+    answer: '$3$；$\\frac47$',
+    hasImage: false,
+  },
+  {
+    id: '17d137e1f94',
+    chapter: '平面向量',
+    question:
+      '若 $G$ 為 $\\triangle ABC$ 的重心，$P$ 點滿足 $\\xvector{PB}=(4,2)$、$\\xvector{PC}=(-3,5)$、$\\xvector{PG}=(3,7)$，求 $\\xvector{PA}$。',
+    answer: '$(8,14)$',
+    hasImage: false,
+  },
+  {
+    id: '17d137fe6ec',
+    chapter: '平面向量',
+    question: '若 $D$ 與 $A(3,1)$、$B(8,7)$、$C(10,-3)$ 連成平行四邊形，求 $D$。(有三解)',
+    answer: '$(1,11)$ 或 $(15,3)$ 或 $(5,-9)$',
+    hasImage: false,
+  },
 ];
