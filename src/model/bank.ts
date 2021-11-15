@@ -29,6 +29,8 @@ export const chapterList: string[] = [
   '極限',
   '選修數甲',
   '選修數乙',
+  '複數與複數平面',
+  '二次曲線',
 ];
 
 export const bank: Question[] = [

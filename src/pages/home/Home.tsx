@@ -29,7 +29,7 @@ const Home = () => {
       <div className={style.button}>
         <Button onClick={onClick('test')}>考卷</Button>
       </div>
-      <div>Version 3.5</div>
+      <div>Version 3.6</div>
     </div>
   );
 };
