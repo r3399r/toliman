@@ -14282,4 +14282,523 @@ export const bank: Question[] = [
     answer: '$(1,11)$ 或 $(15,3)$ 或 $(5,-9)$',
     hasImage: false,
   },
+  {
+    id: '17d2f0efd98',
+    chapter: '直線與圓',
+    question:
+      '下列哪一個方程式在坐標平面上是「無圖形」？\n(1) $x^2+y^2+x+y+1=0$\n(2) $x^2+y^2+2x+2y+2=0$\n(3) $x^2+y^2+3x+3y+3=0$\n(4) $x^2+y^2+4x+4y+4=0$\n(5) $x^2+y^2+5x+5y+5=0$',
+    answer: '(1)',
+    hasImage: false,
+  },
+  {
+    id: '17d2f101869',
+    chapter: '直線與圓',
+    question: '點 $P(4,1)$ 在圓 $(x-1)^2+(y+3)^2=4$ 的外部，求圓周上任意點到 $P$ 點的最近距離。',
+    answer: '$3$',
+    hasImage: false,
+  },
+  {
+    id: '17d2f10d194',
+    chapter: '直線與圓',
+    question: '方程式 $x^2+y^2+8x-12y+3=0$ 的圖形是一個圓，求圓心及半徑。',
+    answer: '$(-4,6)$；$7$',
+    hasImage: false,
+  },
+  {
+    id: '17d2f12aa0f',
+    chapter: '直線與圓',
+    question:
+      '若圓 $(x+2)^2+(y-1)^2=36$ 與直線 $x+y=7$ 相交於 $A$、$B$ 兩點，求 $\\overline{AB}$。',
+    answer: '$4$',
+    hasImage: false,
+  },
+  {
+    id: '17d2f13df97',
+    chapter: '直線與圓',
+    question: '求圓 $(x+2)^2+(y-3)^2=25$ 被 $x$ 軸截出的弦長。',
+    answer: '$8$',
+    hasImage: false,
+  },
+  {
+    id: '17d2f1496b9',
+    chapter: '直線與圓',
+    question: '求過圓 $(x+4)^2+(y-2)^2=20$ 上的點 $P(0,4)$ 所作的切線方程式。',
+    answer: '$2x+y=4$',
+    hasImage: false,
+  },
+  {
+    id: '17d2f16cbf3',
+    chapter: '直線與圓',
+    question: '若圓 $x^2+(y+k)^2=16$ 與直線 $4x+3y=k$ 不相交，求 $k$ 的範圍。',
+    answer: '$k>5\\lor k<-5$',
+    hasImage: false,
+  },
+  {
+    id: '17d2f19c0fc',
+    chapter: '直線與圓',
+    question: '平面上圓 $x^2+y^2=5$，過 $P(3,1)$ 作圓的兩條切線，求切線方程式。',
+    answer: '$x+2y=5$ 或 $2x-y=5$',
+    hasImage: false,
+  },
+  {
+    id: '17d2b925906',
+    chapter: '複數與複數平面',
+    question: '$a,b\\in\\mathbb R$，若 $a+b\\sqrt{-4}=(b-5)+a\\sqrt{-9}$，求數對 $(a,b)$。',
+    answer: '$(10,15)$',
+    hasImage: false,
+  },
+  {
+    id: '17d2b93acd5',
+    chapter: '複數與複數平面',
+    question:
+      '下列各選項的算式哪些正確？\n(1) $\\sqrt{-2}\\cdot\\sqrt{-3}=\\sqrt{(-2)\\cdot(-3)}$\n(2) $\\sqrt2\\cdot\\sqrt{-3}=\\sqrt{2\\cdot(-3)}$\n(3) $\\frac{\\sqrt{-2}}{\\sqrt{-3}}=\\sqrt{\\frac{-2}{-3}}$\n(4) $\\frac{\\sqrt{-2}}{\\sqrt3}=\\sqrt{\\frac{-2}3}$\n(5) $\\frac{\\sqrt2}{\\sqrt{-3}}=\\sqrt{\\frac2{-3}}$',
+    answer: '(2)(3)(4)',
+    hasImage: false,
+  },
+  {
+    id: '17d2b9473e7',
+    chapter: '複數與複數平面',
+    question:
+      '下列各選項哪些正確？\n(1) $(\\sqrt{-2})^2=(-\\sqrt2)^2$ (2) $(\\sqrt{-2})^4=(-\\sqrt2)^4$\n(3) $3+4i$ 的虛部為 $4i$ (4) $0$ 是複數\n(5) $i<0$ (6) $i^2<0$',
+    answer: '(2)(4)(6)',
+    hasImage: false,
+  },
+  {
+    id: '17d2b951bed',
+    chapter: '複數與複數平面',
+    question: '設 $(a+b)+2ai=(3b-5)+(b-7)i$，求實數數對 $(a,b)$。',
+    answer: '$(-3,1)$',
+    hasImage: false,
+  },
+  {
+    id: '17d2b952ea9',
+    chapter: '複數與複數平面',
+    question: '化簡 $5(3-2i)-2i(1-4i)+(6+5i)(3+4i)$。\n\n\n',
+    answer: '$5+27i$',
+    hasImage: false,
+  },
+  {
+    id: '17d2b95dca3',
+    chapter: '複數與複數平面',
+    question: '化簡 $\\dfrac{9+7i}{\\sqrt{-169}}+\\dfrac{4-3i}{3+2i}$。',
+    answer: '$1-2i$',
+    hasImage: false,
+  },
+  {
+    id: '17d2b99d26e',
+    chapter: '複數與複數平面',
+    question: '化簡 $(\\sqrt{3}+i)^3+(1-i)^{10}+i^{3000}$。',
+    answer: '$1-24i$',
+    hasImage: false,
+  },
+  {
+    id: '17d2b96abaf',
+    chapter: '複數與複數平面',
+    question:
+      '化簡：(1) $\\sqrt{-4}+\\sqrt{-9}\\cdot\\sqrt{-25}+\\sqrt{-6}\\cdot\\sqrt{-10}\\cdot\\sqrt{-15}$\n(2) $(\\sqrt{16}+\\sqrt{-25})(\\sqrt{36}-\\sqrt{-4})$',
+    answer: '(1) $-25-28i$ (2) $34+22i$',
+    hasImage: false,
+  },
+  {
+    id: '17d2b97df0c',
+    chapter: '複數與複數平面',
+    question:
+      '化簡：(1) $\\dfrac6{\\sqrt{-4}}+\\dfrac{1-\\sqrt{-169}}{\\sqrt{25}+\\sqrt{-9}}$ (2) $\\dfrac3{1+2i}+\\dfrac{4i}{1-2i}$',
+    answer: '(1) $-1-5i$ (2) $-1-\\frac25i$',
+    hasImage: false,
+  },
+  {
+    id: '17d2b990f22',
+    chapter: '複數與複數平面',
+    question:
+      '化簡：(1) $i+3i^3+5i^5+7i^7+9i^9+11i^{11}$\n(2) $(-1+\\sqrt3i)^3+(\\frac{1+i}{\\sqrt{2}})^{100}$',
+    answer: '(1) $-6i$ (2) $7$',
+    hasImage: false,
+  },
+  {
+    id: '17d2b9aefe9',
+    chapter: '複數與複數平面',
+    question: '$x,y\\in\\mathbb R$，且 $\\dfrac{5+10i}{x+yi}+3-2i=7+i$，求數對 $(x,y)$。',
+    answer: '$(2,1)$',
+    hasImage: false,
+  },
+  {
+    id: '17d2b9be2a7',
+    chapter: '複數與複數平面',
+    question:
+      '設 $z_1$、$z_2$ 為複數，若 $z_1$ 的虛部為 $-2$，$z_2$ 的實部為 $3$，且 $z_1+z_2$ 的虛部為 $-1$，$z_1z_2$ 的實部為 $14$，求 $z_1$ 及 $z_2$。',
+    answer: '$4-2i$；$3+i$ ',
+    hasImage: false,
+  },
+  {
+    id: '17d2b9c4ee4',
+    chapter: '複數與複數平面',
+    question: '試解方程式 $2x^2+3x+5=0$。',
+    answer: '$\\frac{-3\\pm\\sqrt{31}i}4$',
+    hasImage: false,
+  },
+  {
+    id: '17d2b9de70e',
+    chapter: '複數與複數平面',
+    question:
+      '$k\\in\\mathbb R$，方程式 $x^2-(k-2)x+(3k-11)=0$，請問：\n(1) 若有實根，則 $k$ 的範圍為？\n(2) 若有共軛虛根，則 $k$ 的範圍為？\n(3) 若有等根，則 $k$ 的範圍為？',
+    answer: '(1) $k\\le4\\lor4\\ge12$ (2) $4<k<12$ (3) $k=4\\lor12$\n',
+    hasImage: false,
+  },
+  {
+    id: '17d2b9ef1a4',
+    chapter: '複數與複數平面',
+    question: '解方程式：(1) $(x^2-2x+5)(x^2-4x+6)=0$ (2) $x^4+6x^2+5=0$',
+    answer: '(1) $1\\pm2i\\lor2\\pm\\sqrt{2}i$ (2) $\\pm\\sqrt{5}i\\lor\\pm i$\n',
+    hasImage: false,
+  },
+  {
+    id: '17d2ba04e5b',
+    chapter: '複數與複數平面',
+    question:
+      '$k\\in\\mathbb R$，方程式 $3x^2+(k+1)x+(k+1)=0$，請問：\n(1) 若有相異實根，則 $k$ 的範圍為？\n(2) 若有虛根，則 $k$ 的範圍為？',
+    answer: '(1) $k<-1\\lor k>11$ (2) $-1<k<11$',
+    hasImage: false,
+  },
+  {
+    id: '17d2ba0c1a0',
+    chapter: '複數與複數平面',
+    question: '實係數多項式 $f(x)$，若 $f(5+3i)=2i-6$，求 $f(5-3i)$。',
+    answer: '$-6-2i$',
+    hasImage: false,
+  },
+  {
+    id: '17d2ba195c1',
+    chapter: '複數與複數平面',
+    question: '$a,b\\in\\mathbb R$，若 $1-3i$ 為 $ax^3-4^2+bx+20=0$ 的根，求數對 $(a,b)$。',
+    answer: '$(3,26)$',
+    hasImage: false,
+  },
+  {
+    id: '17d2ba27dfb',
+    chapter: '複數與複數平面',
+    question:
+      '已知實係數多項式 $f(x)$，若 $f(2-3i)+1-5i=6-2i$，且 $f(1+i)=-5$，試求 $f(2+3i)$ 及 $f(1-i)$。',
+    answer: '$5-3i$；$-5$',
+    hasImage: false,
+  },
+  {
+    id: '17d2ba3a6cd',
+    chapter: '複數與複數平面',
+    question:
+      '$a,b\\in\\mathbb R$，若 $x^4-5x^3+ax^2+bx-26=0$ 有一根為 $2-3i$，求數對 $(a,b)$ 及另外三根。',
+    answer: '$(15,-5)$；$-1,2,2+3i$',
+    hasImage: false,
+  },
+  {
+    id: '17d2ba415d6',
+    chapter: '複數與複數平面',
+    question: '若 $\\alpha$、$\\beta$ 為 $x^2-3x+4=0$ 的兩根，求 $\\alpha^3+\\beta^3$。',
+    answer: '$-9$',
+    hasImage: false,
+  },
+  {
+    id: '17d2ba4cd4d',
+    chapter: '複數與複數平面',
+    question:
+      '若 $\\alpha$、$\\beta$ 為 $2x^2-6x+1=0$ 的兩根，求 $\\alpha^2+\\beta^2$ 及 $\\alpha^3+\\beta^3$。',
+    answer: '$8$；$\\frac{45}2$',
+    hasImage: false,
+  },
+  {
+    id: '17d2ba5b546',
+    chapter: '複數與複數平面',
+    question: '$k\\in\\mathbb C$，若方程式 $x^2+kx+(k+1)=0$ 有一根 $1+2i$，求 $k$ 與另一根。',
+    answer: '$\\frac{-1-3i}2$；$\\frac{-1-i}2$',
+    hasImage: false,
+  },
+  {
+    id: '17d2ba6bfb2',
+    chapter: '複數與複數平面',
+    question: '設 $k$ 為複數，若 $x^2+kx+4k-16=0$ 有 $1+i$ 的根，求 $k$ 與另一根。',
+    answer: '$3-i$；$-4$',
+    hasImage: false,
+  },
+  {
+    id: '17d2ba7b671',
+    chapter: '複數與複數平面',
+    question:
+      '實係數多項式 $f(x)$，已知 $a>b$，下列各選項的敘述哪些正確？\n(1) 若 $f(a)f(b)<0$，則方程式 $f(x)=0$ 在 $a<x<b$ 之間必恰有一實根\n(2) 若 $f(a)f(b)>0$，則方程式 $f(x)=0$ 在 $a<x<b$ 之間必沒有實根\n(3) 若 $f(x)$ 次數為奇數，則方程式 $f(x)=0$ 必有實根\n(4) 若 $f(x)$ 次數為偶數，則方程式 $f(x)=0$ 必有實根\n(5) 若 $f(x)$ 為三次且 $f(i)=0$，則 $f(x)$ 的圖形必與 $x$ 軸恰有一個交點',
+    answer: '(3)(5)',
+    hasImage: false,
+  },
+  {
+    id: '17cf9bdfa5b',
+    chapter: '複數與複數平面',
+    question:
+      '函數 $y=f(x)$ 的圖形如圖，則方程式 $f(x)+0.001=0$ 的根為何？\n(1) 一正根兩負根 (2) 兩正根一負根 (3) 三正根 (4) 三負根 (5) 一實根兩虛根',
+    answer: '(2)',
+    hasImage: true,
+  },
+  {
+    id: '17d0dd41754',
+    chapter: '複數與複數平面',
+    question: '方程式 $x^3+x^2-2x-1=0$ 的實根位於哪些連續整數之間？',
+    answer: '$(-2,-1)$、$(-1,0)$、$(1,2)$',
+    hasImage: false,
+  },
+  {
+    id: '17d0dd4fb2f',
+    chapter: '複數與複數平面',
+    question:
+      '設 $f(x)=x^3+5x^2+ax+b$，其中 $a,b\\in\\mathbb R$，則下列各選項的敘述哪些不可能成立？\n(1) $f(1)=f(2)=0$ (2) $f(1)=f(2)=f(3)=0$\n(3) $f(1+i)=f(1-i)=0$ (4) $f(1+i)=f(2+i)=0$\n(5) $f(1)f(2)<0$，$f(2)f(3)<0$，$f(3)f(4)<0$ 且 $f(4)f(5)<0$',
+    answer: '(2)(4)(5)',
+    hasImage: false,
+  },
+  {
+    id: '17d0dd68871',
+    chapter: '複數與複數平面',
+    question: '在複數平面上標出下列數值，並求出其絕對值：$2-3i$、$-3i$、$-3+\\sqrt{3}i$',
+    answer: '$\\sqrt{13}$；$3$；$2\\sqrt{3}$',
+    hasImage: false,
+  },
+  {
+    id: '17d0dd709c0',
+    chapter: '複數與複數平面',
+    question:
+      '化簡：(1) $\\left|\\dfrac{(1-5i)(2+2i)}{(-2+3i)(3+4i)}\\right|$ (2) $\\left|\\dfrac{(2+i)^9(1-2i)^{11}}{(3-4i)^7}\\right|$。',
+    answer: '(1) $\\frac{4}{5}$ (2) $125$',
+    hasImage: false,
+  },
+  {
+    id: '17d0dd7a6ee',
+    chapter: '複數與複數平面',
+    question: '(1) $|4-5i|$ (2) $|-7+24i|$ (3) $|15+8i|$ (4) $|-1+i|$ (5) $|i|$ (6) $|5i|$。',
+    answer: '(1) $\\sqrt{41}$ (2) $25$ (3) $17$ (4) $\\sqrt2$ (5) $1$ (6) $5$',
+    hasImage: false,
+  },
+  {
+    id: '17d0dd845c6',
+    chapter: '複數與複數平面',
+    question:
+      '化簡：(1) $\\left|\\dfrac{(3-2i)(1+2i)}{(-12+5i)(2+i)}\\right|$ (2) $\\left|\\dfrac{(3+4i)^9(5+2i)^2}{(7+24i)^5}\\right|$。',
+    answer: '(1) $\\frac{\\sqrt{13}}{13}$ (2) $\\frac{29}5$',
+    hasImage: false,
+  },
+  {
+    id: '17d0dd8a42b',
+    chapter: '複數與複數平面',
+    question: '將下列各複式化為極式：\n(1) $-2$ (2) $3i$ (3) $-1+i$ (4) $-1-\\sqrt{3}i$',
+    answer:
+      '(1) $2(\\cos180\\du+i\\sin180\\du)$ (2) $3(\\cos90\\du+i\\sin90\\du)$ (3) $\\sqrt{2}(\\cos135\\du+i\\sin135\\du)$ (4) $2(cos240\\du+i\\sin240\\du)$',
+    hasImage: false,
+  },
+  {
+    id: '17d0ddb4976',
+    chapter: '複數與複數平面',
+    question: '求下列複數的主幅角及並化為極式：\n(1) $i$ (2) $3-3i$ (3) $\\sqrt{3}+i$',
+    answer:
+      '(1) $90\\du$；$\\cos90\\du+i\\sin90\\du$ (2) $315\\du$；$3\\sqrt{2}(\\cos315\\du+i\\sin315\\du)$ (3) $30\\du$；$2(cos30\\du+i\\sin30\\du)$',
+    hasImage: false,
+  },
+  {
+    id: '17d0ddac896',
+    chapter: '複數與複數平面',
+    question:
+      '下列哪些選項的複數位在複數平面的第四象限內？\n(1) $\\cos100\\du+i\\sin100\\du$ (2) $\\sin100\\du+i\\cos100\\du$\n(3) $\\cos200\\du-i\\sin200\\du$ (4) $-\\cos200\\du+i\\sin200\\du$\n(5) $-\\cos300\\du+i\\sin300\\du$',
+    answer: '(2)(4)',
+    hasImage: false,
+  },
+  {
+    id: '17d0ddbccb2',
+    chapter: '複數與複數平面',
+    question:
+      '下列哪個選項的複數其主幅角為最大？哪個為最小？\n(1) $\\cos100\\du-i\\sin100\\du$ (2) $\\sin10\\du-i\\cos10\\du$\n(3) $\\cos300\\du+i\\sin300\\du$ (4) $-\\cos200\\du-i\\sin200\\du$\n(5) $-\\cos300\\du+i\\sin300\\du$',
+    answer: '(3)；(4)',
+    hasImage: false,
+  },
+  {
+    id: '17d0ddc13e2',
+    chapter: '複數與複數平面',
+    question:
+      '化簡 $\\dfrac{(\\cos38\\du+i\\sin38\\du)(\\cos100\\du+i\\sin100\\du)}{\\cos48\\du+i\\sin48\\du}$。',
+    answer: '$i$',
+    hasImage: false,
+  },
+  {
+    id: '17cfeb06189',
+    chapter: '複數與複數平面',
+    question:
+      '設 $|z_1|=6$，$\\arg(z_1)=10\\du$，$|z_2|=3$，$\\arg(z_2)=130\\du$，求 $\\frac{z_1}{z_2}$。',
+    answer: '$-1-\\sqrt{3}i$',
+    hasImage: false,
+  },
+  {
+    id: '17d0ddd35fc',
+    chapter: '複數與複數平面',
+    question:
+      '設 $x=\\sin47\\du+i\\cos313\\du$，$y=-\\cos218\\du+i\\sin142\\du$，$z=\\sin111\\du-i\\cos249\\du$，求 $\\frac{xy}z$。',
+    answer: '$\\frac12+\\frac{\\sqrt{3}}2i$',
+    hasImage: false,
+  },
+  {
+    id: '17d0dddd143',
+    chapter: '複數與複數平面',
+    question:
+      '設 $|z_1|=2$，$\\arg(z_1)=77\\du$，$|z_2|=\\frac13$，$\\arg(z_2)=212\\du$，求 $\\frac{z_1}{z_2}$。',
+    answer: '$-3\\sqrt2-3\\sqrt2i$',
+    hasImage: false,
+  },
+  {
+    id: '17d0dde7847',
+    chapter: '複數與複數平面',
+    question:
+      '把點 $(6,-4)$ 繞原點，求：\n(1) 逆時針旋轉 $60\\du$，新位置的坐標\n(2) 順時針旋轉 $90\\du$，新位置的坐標',
+    answer: '(1) $(3+2\\sqrt3,3\\sqrt3-2)$ (2) $(-4,-6)$',
+    hasImage: false,
+  },
+  {
+    id: '17d0ddf5f87',
+    chapter: '複數與複數平面',
+    question:
+      '若角度 $\\theta$ 滿足 $(3-4i)(\\cos\\theta+i\\sin\\theta)<0$，則 $\\theta$ 的範圍為下列哪一個選項？\n(1) $\\frac\\pi2\\le\\theta<\\frac{3\\pi}4$ (2) $\\frac{3\\pi}4\\le\\theta<\\pi$\n(3) $\\pi\\le\\theta<\\frac{5\\pi}4$ (4) $\\frac{5\\pi}4\\le\\theta<\\frac{3\\pi}2$\n(5) $\\frac{3\\pi}2\\le\\theta<\\frac{7\\pi}4$',
+    answer: '(4)',
+    hasImage: false,
+  },
+  {
+    id: '17d0de005d2',
+    chapter: '複數與複數平面',
+    question:
+      '把點 $(2,3)$ 繞原點，求：\n(1) 逆時針旋轉 $60\\du$，新位置的坐標\n(2) 順時針旋轉 $90\\du$，新位置的坐標',
+    answer: '(1) $(1-\\frac{3\\sqrt{3}}2,\\frac32+\\sqrt3)$ (2) $(3,-2)$',
+    hasImage: false,
+  },
+  {
+    id: '17d0de08a83',
+    chapter: '複數與複數平面',
+    question: '已知正三角形的其中兩頂點坐標為 $(0,0)$ 與 $(2,-6)$，試求另一個頂點坐標。',
+    answer: '$(1+3\\sqrt3,-3+\\sqrt3)$ 或 $(1-3\\sqrt3,-3-\\sqrt3)$',
+    hasImage: false,
+  },
+  {
+    id: '17cfec72ce3',
+    chapter: '複數與複數平面',
+    question: '設 $z=2(\\cos100\\du+i\\sin100\\du)$，求 $z^9$。',
+    answer: '$-512$',
+    hasImage: false,
+  },
+  {
+    id: '17d0de14d86',
+    chapter: '複數與複數平面',
+    question: '$n\\in\\mathbb N$，若 $(-\\sqrt3+i)^n$ 為正實數，求最小的 $n$ 值。',
+    answer: '$12$',
+    hasImage: false,
+  },
+  {
+    id: '17d0de20357',
+    chapter: '複數與複數平面',
+    question: '若 $z=\\sqrt[3]5(\\cos50\\du+i\\sin50\\du)$，求 $z^6$ 及 $z^9$。',
+    answer: '$\\frac{25-25\\sqrt{3}i}2$；$125i$',
+    hasImage: false,
+  },
+  {
+    id: '17d0de2a10e',
+    chapter: '複數與複數平面',
+    question:
+      '設 $z=\\sin15\\du+i\\cos15\\du$，$n\\in\\mathbb N$，若 $z^n\\in\\mathbb R$，求 $n$ 的最小值。',
+    answer: '$12$',
+    hasImage: false,
+  },
+  {
+    id: '17d03c4336f',
+    chapter: '複數與複數平面',
+    question: '「$-16$ 的平方根」即 $x^2=-16$ 的兩根，求 $x$。',
+    answer: '$\\pm4i$',
+    hasImage: false,
+  },
+  {
+    id: '17d0de37b82',
+    chapter: '複數與複數平面',
+    question: '試求：(1) $7(\\cos140\\du+i\\sin140\\du)$ 的平方根\n(2) $-8+8\\sqrt3i$ 的平方根。',
+    answer: '(1) $\\pm\\sqrt7(\\cos70\\du+i\\sin70\\du)$ (2) $\\pm(2+2\\sqrt3i)$',
+    hasImage: false,
+  },
+  {
+    id: '17d0de3faec',
+    chapter: '複數與複數平面',
+    question: '試求：(1) $5-12i$ 的平方根\n(2) $x^2-2(1+i)x-5+14i=0$ 之解',
+    answer: '(1) $\\pm(3-2i)$ (2) $4-i$ 或 $-2+3i$',
+    hasImage: false,
+  },
+  {
+    id: '17d0de488d4',
+    chapter: '複數與複數平面',
+    question: '若 $z$ 的平方根為 $3+ai$ 與 $b-5i$，其中 $a,b\\in\\mathbb R$，求數對 $(a,b)$。',
+    answer: '$(5,3)$',
+    hasImage: false,
+  },
+  {
+    id: '17d0de4d9ea',
+    chapter: '複數與複數平面',
+    question:
+      '試求：(1) $9(\\cos20\\du+i\\sin20\\du)$ 的平方根\n(2) $-4(\\cos160\\du+i\\sin160\\du)$ 的平方根。',
+    answer: '(1) $\\pm3(\\cos10\\du+i\\sin10\\du)$ (2) $\\pm2(\\cos170\\du+i\\sin170\\du)$',
+    hasImage: false,
+  },
+  {
+    id: '17d07e2b290',
+    chapter: '複數與複數平面',
+    question: '試求 $3+4i$ 的平方根。',
+    answer: '$\\pm(2+i)$',
+    hasImage: false,
+  },
+  {
+    id: '17d0de7379e',
+    chapter: '複數與複數平面',
+    question:
+      '解 $x^3=1$，並令主幅角最小的虛根為 $\\omega$，則：\n(1) 求 $\\omega$、$\\omega^2$\n(2) 求 $\\omega^2+\\omega+1$\n(3) 求 $(1-2\\omega+\\omega^2)(1+\\omega+3\\omega^2)$\n(4) $a,b\\in\\mathbb R$，若 $3\\omega^2+a\\omega+5=7\\omega+b$，求數對 $(a,b)$。',
+    answer: '(1) $\\frac{-1+\\sqrt3i}2$；$\\frac{-1-\\sqrt3i}2$ (2) $0$ (3) $-6$ (4) $(10,2)$',
+    hasImage: false,
+  },
+  {
+    id: '17d0de86982',
+    chapter: '複數與複數平面',
+    question:
+      '設 $\\omega=\\cos\\frac{2\\pi}{5}+i\\sin\\frac{2\\pi}{5}$，即為 $x^5=1$ 的一虛根，求：\n(1) $\\omega^{63}+\\omega^{64}+\\omega^{65}+\\cdots+\\omega^{202}$\n(2) $\\frac{\\omega^3}{1+\\omega^6}+\\frac{\\omega^4}{1+\\omega^8}$\n(3) $(2-\\omega)(2-\\omega^2)(2-\\omega^3)(2-\\omega^4)$',
+    answer: '(1) $0$ (2) $1$ (3) $31$',
+    hasImage: false,
+  },
+  {
+    id: '17d0de8a8d9',
+    chapter: '複數與複數平面',
+    question:
+      '若 $\\omega=\\frac{-1+\\sqrt3i}2$，求 $(\\omega^2+\\omega-3)(\\omega^2+2\\omega+1)(5\\omega^2+2\\omega+2)$。',
+    answer: '$-12$',
+    hasImage: false,
+  },
+  {
+    id: '17d0de953a5',
+    chapter: '複數與複數平面',
+    question:
+      '若 $\\omega=\\cos\\frac{2\\pi}5+i\\sin\\frac{2\\pi}5$，求：\n(1) $\\omega^{10}+\\omega^{11}+\\omega^{12}+\\cdots+\\omega^{2000}$\n(2) $(1-\\omega)(1-\\omega^2)(1-\\omega^3)(1-\\omega^4)$',
+    answer: '(1) $1$ (2) $5$',
+    hasImage: false,
+  },
+  {
+    id: '17d0de980a9',
+    chapter: '複數與複數平面',
+    question: '寫出 $x^6=64(\\cos78\\du+i\\sin78\\du)$ 的六個根，並在複數平面上標出。',
+    answer: '略',
+    hasImage: false,
+  },
+  {
+    id: '17d0dea4c51',
+    chapter: '複數與複數平面',
+    question: '$a,b\\in\\mathbb R$，$a+bi$ 為 $-8i$ 的立方根，且 $a<0$，求數對 $(a,b)$。',
+    answer: '$(-\\sqrt3,-1)$',
+    hasImage: false,
+  },
+  {
+    id: '17d0dec517e',
+    chapter: '複數與複數平面',
+    question:
+      '$z\\in\\mathbb C$，若 $|z|=16$，在複數平面上，$z$ 的八次方根連成一多邊形，求其面積及周長。',
+    answer: '$4\\sqrt2$；$8\\sqrt{4-2\\sqrt2}$',
+    hasImage: false,
+  },
 ];
