@@ -14801,4 +14801,185 @@ export const bank: Question[] = [
     answer: '$4\\sqrt2$；$8\\sqrt{4-2\\sqrt2}$',
     hasImage: false,
   },
+  {
+    id: '17d396141e0',
+    chapter: '指數與對數函數',
+    question:
+      '下列各數中，請選出滿足不等式 $\\log_\\frac12(x-1)\\ge-3-\\log_\\frac12(x-3)$ 的選項。\n(1) $\\sqrt2$ (2) $3$ (3) $\\pi$ (4) $4.5$ (5) $6$',
+    answer: '(3)(4)',
+    hasImage: false,
+  },
+  {
+    id: '17d3963d9c4',
+    chapter: '指數與對數函數',
+    question:
+      '假設 $(a,b)$ 為函數 $y=3^x$ 之圖形上的一點，選出下列正確的選項。\n(1) $a$ 的值一定比 $b$ 小\n(2) $(-a,b)$ 為函數 $y=(\\frac13)^{-x}$ 之圖形上一點\n(3) $(a-5,9b)$ 為函數 $y=3^{x+7}$ 之圖形上一點\n(4) $(\\frac1b,a)$ 為函數 $y=\\log_3x^{-1}$ 之圖形上一點\n(5) $(b+2,a)$ 為函數 $y=\\log_3x-2$ 之圖形上一點',
+    answer: '(1)(3)(4)',
+    hasImage: false,
+  },
+  {
+    id: '17d3967afe8',
+    chapter: '指數與對數函數',
+    question:
+      '設 $a$ 為大於 $1$ 的實數，考慮函數 $f(x)=a^x$ 與 $g(x)=\\log_ax$，試問下列哪些選項是正確的？\n(1) 若 $f(3)=6$，則 $g(36)=6$\n(2) $\\frac{f(238)}{f(219)}=\\frac{f(38)}{f(19)}$\n(3) $g(238)-g(219)=g(38)-g(19)$\n(4) 若 $P$、$Q$ 為 $y=g(x)$ 的圖形上兩相異點，則直線 $PQ$ 之斜率必為正數\n(5) 若 $f(x)=a^x$ 的圖形與直線 $y=5x$ 有交點，則 $g(x)=\\log_ax$ 的圖形與直線 $y=\\frac15x$ 有交點',
+    answer: '(1)(2)(4)(5)',
+    hasImage: false,
+  },
+  {
+    id: '17d3969462e',
+    chapter: '指數與對數函數',
+    question: '$\\pi$ 為圓周率，求指數不等式 $(\\frac3{\\pi})^{2x-1}<(\\frac{\\pi}3)^{2x^2+x+1}$。',
+    answer: '$x<-\\frac32\\lor x>0$',
+    hasImage: false,
+  },
+  {
+    id: '17d396a436d',
+    chapter: '指數與對數函數',
+    question:
+      '已知 $2$ 是方程式 $3^{2x+1}-28\\cdot3^x+k=0$ 的一根，其中 $k$ 為實數，求此方程式的另一根。',
+    answer: '$-1$',
+    hasImage: false,
+  },
+  {
+    id: '17d396c5efa',
+    chapter: '指數與對數函數',
+    question: '已知 $\\log a^3=23.496$，試求 $\\frac1a$ 於小數點後第一個不為 $0$ 的數字。',
+    answer: '$1$',
+    hasImage: false,
+  },
+  {
+    id: '17d396dd94c',
+    chapter: '指數與對數函數',
+    question: '設年利率為 $12.5\\%$，若依複利計算，至少要幾年後，本利和才會超過本金的 $3$ 倍？',
+    answer: '$10$',
+    hasImage: false,
+  },
+  {
+    id: '17d396fc49b',
+    chapter: '指數與對數函數',
+    question:
+      '方程式 $|\\log_2x|+x-2=0$ 有 $a$ 個實根，方程式 $x-1=\\log_2x$ 有 $b$ 個實根，求數對 $(a,b)$。',
+    answer: '$(2,2)$',
+    hasImage: false,
+  },
+  {
+    id: '17d39718b7b',
+    chapter: '指數與對數函數',
+    question: '已知 $a=\\log_32$，$b=\\log_73$，請以 $a$、$b$ 表示 $\\log_63.5$ 。',
+    answer: '$\\frac{1-ab}{ab+b}$',
+    hasImage: false,
+  },
+  {
+    id: '17d39739c59',
+    chapter: '指數與對數函數',
+    question:
+      '若直線 $x+y=11$ 與 $y=\\log_3x$ 的圖形交於 $P$ 點、與 $y=3^x$ 的圖形交於 $Q$ 點，如圖。若 $P$ 點也在直線 $y=2$ 上，$O$ 為原點，求 $\\triangle OPQ$ 的面積。',
+    answer: '$\\frac{77}2$',
+    hasImage: true,
+  },
+  {
+    id: '17d3974bcfb',
+    chapter: '指數與對數函數',
+    question:
+      '已知函數 $y=f(x)=3^{x-1}+b$ 的圖形會過 $(2,23)$、$(a,101)$ 兩點，求 $\\log a+\\log b$。',
+    answer: '$2$',
+    hasImage: false,
+  },
+  {
+    id: '17d39763794',
+    chapter: '指數與對數函數',
+    question:
+      '$y=\\log_2x$、$y=\\log_4(\\frac14x)$ 與 $y=\\log_bx^3$ 三個函數圖形交於一點，求 $b$。',
+    answer: '$8$',
+    hasImage: false,
+  },
+  {
+    id: '17d3ac2475f',
+    chapter: '直線與圓',
+    question: '若 $A(2,2)$、$B(m,3)$、$C(6,1)$、$D(-6,n)$ 四點共線，求數對 $(m,n)$。',
+    answer: '$(-2,4)$',
+    hasImage: false,
+  },
+  {
+    id: '17d3ac3591d',
+    chapter: '直線與圓',
+    question:
+      '下列五條直線，哪一條斜率最大？\n(1) $2x+5y=7$ (2) $y-2=0$ (3) $3x-6y+5=0$ (4) $3x-y=13$ (5) $x+3y=2$',
+    answer: '(4)',
+    hasImage: false,
+  },
+  {
+    id: '17d3ac50996',
+    chapter: '直線與圓',
+    question:
+      '$A(4,6)$、$B(5,1)$，若點 $P$ 在 $y=2x-1$ 上且 $\\overline{PA}=\\overline{PB}$，求 $P$。',
+    answer: '$(2,3)$',
+    hasImage: false,
+  },
+  {
+    id: '17d3ac684a4',
+    chapter: '直線與圓',
+    question: '已知 $A(-2,6)$、$B(a,2)$，若線段 $AB$ 的中垂線 $L$ 為 $3x-2y+k=0$，求數對 $(a,k)$。',
+    answer: '$(4,5)$',
+    hasImage: false,
+  },
+  {
+    id: '17d3ba551ce',
+    chapter: '直線與圓',
+    question: '求點 $(3,1)$ 到直線 $L:3x-4y+5=0$ 的距離。',
+    answer: '$2$',
+    hasImage: false,
+  },
+  {
+    id: '17d3b991b8e',
+    chapter: '直線與圓',
+    question: '若點 $(k,k)$ 與兩直線 $3x-y=0$，$x+3y=4$ 之距離相等，求 $k$。',
+    answer: '$2\\lor\\frac23$',
+    hasImage: false,
+  },
+  {
+    id: '17d3b99e456',
+    chapter: '直線與圓',
+    question: '試求與直線 $L:3x+4y-7=0$ 平行且距離為 $\\frac{11}5$ 的直線方程式。',
+    answer: '$3x+4y+4=0\\lor3x+4y-18=0$',
+    hasImage: false,
+  },
+  {
+    id: '17d3b9d9c69',
+    chapter: '直線與圓',
+    question:
+      '設 $A(5,6)$、$B(-3,0)$、$C(2,-3)$ 為坐標平面上的三個點，則：\n(1) 請寫出 $\\triangle ABC$ 內部 (不含邊界) 的聯立不等式。\n(2) 若點 $P(k,2k-1)$ 為 $\\triangle ABC$ 內部任一點，求實數 $k$ 的範圍。',
+    answer:
+      '(1) $\\begin{cases}3x-4y>-9\\\\3x+5y>-9\\\\3x-y<9\\end{cases}$ (2) $-\\frac4{13}<k<\\frac{13}5$',
+    hasImage: false,
+  },
+  {
+    id: '17d3ba1541c',
+    chapter: '直線與圓',
+    question:
+      '在坐標平面上，$S:x^2+y^2+2x-4y+k=0$，下列何者正確？\n(1) 若 $k=0$，則 $S$ 為一個圓\n(2) 若 $k=5$，則 $S$ 為一點\n(3) 若 $k=-5$，則 $S$ 無圖形\n(4) 若 $S$ 為一圓，則圓心為 $(-1,2)$\n(5) 若圓 $S$ 與 $x$ 軸相切，則 $k=1$',
+    answer: '(1)(2)(4)(5)',
+    hasImage: false,
+  },
+  {
+    id: '17d3ba2549c',
+    chapter: '直線與圓',
+    question: '求過 $(5,1)$、$(3,1)$ 兩點且圓心在直線 $x+2y-2=0$ 上的圓方程式。',
+    answer: '$(x-4)^2+(y+1)^2=5$',
+    hasImage: false,
+  },
+  {
+    id: '17d3ba2f6c1',
+    chapter: '直線與圓',
+    question: '求過 $(-3,5)$ 且與圓 $x^2+y^2=34$ 相切的切線方程式。',
+    answer: '$3x-5y+34=0$',
+    hasImage: false,
+  },
+  {
+    id: '17d3ba47f2e',
+    chapter: '直線與圓',
+    question: '圓 $C:x^2+y^2-2x+6y+6=0$，過 $A(3,1)$ 作 $C$ 的切線，求切線方程式。',
+    answer: '$3x-4y=5\\lor x=3$',
+    hasImage: false,
+  },
 ];
