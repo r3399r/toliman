@@ -14982,4 +14982,122 @@ export const bank: Question[] = [
     answer: '$3x-4y=5\\lor x=3$',
     hasImage: false,
   },
+  {
+    id: '17d4c2c148a',
+    chapter: '二次曲線',
+    question:
+      '動點 $P$ 到 $(3,5)$ 的距離為到直線 $y=2$ 的距離的 $\\frac23$ 倍，求動點 $P$ 所成的軌跡方程式。',
+    answer: '$9x^2+5y^2-54x-74y+290=0$',
+    hasImage: false,
+  },
+  {
+    id: '17d4c2e8bca',
+    chapter: '二次曲線',
+    question:
+      '設動圓 $C$ 與兩定圓 $C_1:x^2+y^2=1$、$C_2:x^2+(y-2)^2=25$ 相切，則：\n(1) 若 $C$ 與 $C_1$ 外切，求 $C$ 的圓心軌跡方程式。\n(2) 若 $C$ 與 $C_1$ 內切，求 $C$ 的圓心軌跡方程式。',
+    answer: '(1) $\\frac{x^2}8+\\frac{(y-1)^2}9=1$ (2) $\\frac{x^2}3+\\frac{(y-1)^2}4=1$',
+    hasImage: false,
+  },
+  {
+    id: '17d4c2e571f',
+    chapter: '二次曲線',
+    question:
+      '兩組同心圓以 $F_1$、$F_2$ 為圓心，半徑為 $1,2,3,\\cdots$，作圖如附圖所示。若 $P$ 點落在以 $F_1$、$F_2$ 為焦點的雙曲線上，請問下列哪些點也落在同一組雙曲線上？\n(1) $A$ (2) $B$ (3) $C$ (4) $D$ (5) $E$',
+    answer: '(2)(4)',
+    hasImage: true,
+  },
+  {
+    id: '17d4c2efc9d',
+    chapter: '二次曲線',
+    question:
+      ' 圖中有五個曲線，哪一個是以 $F$ 為焦點、$V$ 為頂點、$O$ 為中心的雙曲線？\n(1) $\\Gamma_1$ (2) $\\Gamma_2$ (3) $\\Gamma_3$ (4) $\\Gamma_4$ (5) $\\Gamma_5$',
+    answer: '(1)',
+    hasImage: true,
+  },
+  {
+    id: '17d4c30598d',
+    chapter: '二次曲線',
+    question:
+      '方程式 $|\\sqrt{(x-1)^2+(y-1)^2}-\\sqrt{(x-5)^2+(y-4)^2}|=k$ 的圖形。\n(1) 若為雙曲線，求 $k$ 的範圍\n(2) 若為兩射線，求 $k$\n(3) 若為一直線，求 $k$\n(4) 若為無圖形，求 $k$ 的範圍',
+    answer: '(1) $0<k<5$ (2) $5$ (3) $0$ (4) $k<0\\lor k>5$',
+    hasImage: false,
+  },
+  {
+    id: '17d4c322901',
+    chapter: '二次曲線',
+    question:
+      '平面上兩定點 $A(2,-3)$ 與 $B(7,9)$，求動點 $P$ 軌跡所成之圖形名稱：\n(1) $|\\overline{PA}-\\overline{PB}|=10$\n(2) $\\overline{PA}-\\overline{PB}=10$\n(3) $|\\overline{PA}-\\overline{PB}|=13$\n(4) $\\overline{PA}-\\overline{PB}=13$\n(5) $|\\overline{PA}-\\overline{PB}|=15$',
+    answer: '(1) 雙曲線 (2) 雙曲線的一側 (3) 兩射線 (4) 一射線 (5) 無圖形',
+    hasImage: false,
+  },
+  {
+    id: '17d4c33255e',
+    chapter: '二次曲線',
+    question:
+      '\n平面上兩定點 $A(3,-2)$ 與 $B(8,10)$，動點 $P$，令 $\\Gamma$ 為 $|\\overline{PA}-\\overline{PB}|=k$，$k>0$ 的圖形，則：\n(1) 若 $\\Gamma$ 為雙曲線，求 $k$ 的範圍\n(2) 若 $\\Gamma$ 為兩射線，求 $k$\n(3) 若此方程式無形，求 $k$ 的範圍',
+    answer: '(1) $0<k<13$ (2) $13$ (3) $k>13$',
+    hasImage: false,
+  },
+  {
+    id: '17d4c3442e9',
+    chapter: '二次曲線',
+    question:
+      '平面上兩定點 $A$ 與 $B$，$\\overline{AB}=4$，求動點 $P$ 軌跡所成之圖形名稱：\n(1) $|\\overline{PA}-\\overline{PB}|=3$\n(2) $\\overline{PA}-\\overline{PB}=4$\n(3) $|\\overline{PA}-\\overline{PB}|=4$\n(4) $\\overline{PA}-\\overline{PB}=5$',
+    answer: '(1) 雙曲線 (2) 一射線 (3) 兩射線 (4) 無圖形',
+    hasImage: false,
+  },
+  {
+    id: '17d4c34d1ba',
+    chapter: '二次曲線',
+    question: '求雙曲線 $x^2-2x-4y^2-8y+1=0$ 上點 $(1+\\sqrt5,\\frac12$) 到兩漸近線的距離乘積。',
+    answer: '$\\frac45$\n\n\n',
+    hasImage: false,
+  },
+  {
+    id: '17d4c3550b7',
+    chapter: '二次曲線',
+    question:
+      '設 $k>0$，若 $\\frac{x^2}k-\\frac{y^2}{k+3}=1$ 上某一點 $P$ 到兩漸近線的距離乘積為 $2$，求 $k$。',
+    answer: '$3$',
+    hasImage: false,
+  },
+  {
+    id: '17d4c35dc87',
+    chapter: '二次曲線',
+    question:
+      '若雙曲線 $\\frac{x^2}{k+3}+\\frac{y^2}{13-k}=1$ 與橢圓 $\\frac{x^2}{21}+\\frac{y^2}{45}=1$ 共焦點，求 $k$。',
+    answer: '$-7$',
+    hasImage: false,
+  },
+  {
+    id: '17d4c367c9e',
+    chapter: '二次曲線',
+    question:
+      '已知雙曲線 $\\frac{x^2}9-\\frac{y^2}4=1$ 上有一點 $P$，兩焦點 $F_1$ 與 $F_2$，若 $\\overline{PF_1}:\\overline{PF_2}=5:2$，試求 $\\cos\\angle F_1PF_2$。',
+    answer: '$\\frac45$',
+    hasImage: false,
+  },
+  {
+    id: '17d4c36e955',
+    chapter: '二次曲線',
+    question:
+      '設 $k$ 為常數，若方程式 $\\frac{x^2}{k^2+1}+\\frac{y^2}{7-k}=1$ 表一橢圓，且與雙曲線 $\\frac{x^2}{75}-\\frac{y^2}{9}=1$ 有相同的焦點，求 $k$。',
+    answer: '$-10$',
+    hasImage: false,
+  },
+  {
+    id: '17d4c3807a0',
+    chapter: '二次曲線',
+    question:
+      '設 $A,B>0$，$F_1$ 與 $F_2$ 為雙曲線 $\\frac{x^2}A-\\frac{y^2}B$ 的兩焦點，若 $P$ 為雙曲線上的一點，且滿足 $\\overline{PF_2}=2\\overline{PF_1}=8$，$\\angle F_1PF_2=60\\du$，求數對 $(A,B)$。',
+    answer: '$(4,8)$',
+    hasImage: false,
+  },
+  {
+    id: '17d4c38ff16',
+    chapter: '二次曲線',
+    question: '已知雙曲線的焦點為 $A(1,3)$、$B(1,-1)$，且過點 $P(4,-1)$，求此雙曲線方程式。',
+    answer: '$\\frac{(x-1)^2}3-(y-1)^2=-1$',
+    hasImage: false,
+  },
 ];
