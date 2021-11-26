@@ -15100,4 +15100,66 @@ export const bank: Question[] = [
     answer: '$\\frac{(x-1)^2}3-(y-1)^2=-1$',
     hasImage: false,
   },
+  {
+    id: '17d59d3efd5',
+    chapter: '指數與對數函數',
+    question:
+      '下列哪些方程式的解恰為兩相異實根？\n(1) $x^2=2^x$ (2) $x-1=\\log_2|x|$ (3) $2\\log_2x=x$ (4) $x-1=|\\log_2x|$ (5) $(\\frac12)^x=\\log_2x$',
+    answer: '(3)(4)',
+    hasImage: false,
+  },
+  {
+    id: '17d59d65a04',
+    chapter: '指數與對數函數',
+    question:
+      '下列關於圖形的敘述，請選出正確的選項。\n(1) 圖形 $y=\\log_2x$ 可以經過一次平移得到圖形 $y=\\log_2(8x)$\n(2) 圖形 $y=\\log_2x$ 可以經過一次伸縮得到圖形 $y=\\log_2(8x)$\n(3) 圖形 $y=2^x$ 可以經過一次伸縮得到圖形 $y=8\\times2^x$\n(4) 圖形 $y=\\log_2x$ 可以經過一次對稱得到圖形 $y=\\log_{\\frac12}x$\n(5) 圖形 $y=2^x$ 可以經過一次對稱得到圖形 $y=\\log_{\\frac12}x$',
+    answer: '(1)(2)(3)(4)',
+    hasImage: false,
+  },
+  {
+    id: '17d59d9eb8c',
+    chapter: '指數與對數函數',
+    question:
+      '設 $a=2^{50}$，請選出正確的選項。\n(1) $a$ 的首位數字為 $1$\n(2) $a$ 為 $15$ 位數\n(3) $\\frac1a$ 化為小數後，小數點後第 $15$ 位始不為 $0$\n(4) $\\frac1a$ 化為小數後，小數點後有 $50$ 個數字\n(5) $\\frac1a$ 化為小數後，首位不為 $0$ 的數字為 $9$',
+    answer: '(1)(4)',
+    hasImage: false,
+  },
+  {
+    id: '17d59dc7e99',
+    chapter: '指數與對數函數',
+    question:
+      '圖中 $A$、$B$、$C$、$D$ 分別為指數函數 $y=a^x$、$y=b^x$、$y=c^x$、$y=d^x$ 的部分圖形，求 $a$、$b$、$c$、$d$、$1$ 的大小關係。',
+    answer: '$c>d>1>a>b$',
+    hasImage: true,
+  },
+  {
+    id: '17d468c4eae',
+    chapter: '指數與對數函數',
+    question:
+      '已知某投資提供年利率為 $20\\%$ 的理財方案，每年計息一次，依複利計息，請問至少要幾年，本利和才會超過本金的 $2$ 倍？',
+    answer: '$4$',
+    hasImage: false,
+  },
+  {
+    id: '17d468db0ed',
+    chapter: '指數與對數函數',
+    question:
+      '請問指數方程式 $2^{10^x}=10^6$ 的解 $x$ 最接近下列哪一個選項？\n(1) $1.1$ (2) $1.2$ (3) $1.3$ (4) $1.4$ (5) $1.5$',
+    answer: '(3)',
+    hasImage: false,
+  },
+  {
+    id: '17d59c8e82e',
+    chapter: '指數與對數函數',
+    question: '$a=\\log(1+\\frac17)$，$b=\\log(1+\\frac1{49})$，試以 $a,b$ 表 $\\log2$。',
+    answer: '$\\frac{2a-b+2}7$',
+    hasImage: false,
+  },
+  {
+    id: '17d59ca3db1',
+    chapter: '指數與對數函數',
+    question: '方程式 $x^{\\log_5x}=625x^3$，求 $x$。',
+    answer: '$625\\lor\\frac15$',
+    hasImage: false,
+  },
 ];
