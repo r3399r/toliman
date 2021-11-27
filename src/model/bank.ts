@@ -14802,6 +14802,21 @@ export const bank: Question[] = [
     hasImage: false,
   },
   {
+    id: '17d2be43830',
+    chapter: '複數與複數平面',
+    question: '寫出 $81(\\cos172\\du+i\\sin172\\du)$ 的四次方根。',
+    answer: '略',
+    hasImage: false,
+  },
+  {
+    id: '17d51596ee9',
+    chapter: '複數與複數平面',
+    question:
+      '在複數平面上，描繪出 $z^6=4-4\\sqrt3i$ 的各根所在位置，連接各點成一正六邊形，則下列各敘述哪些正確？\n(1) 此六個頂點中有兩個點在第二象限\n(2) 此六個頂點的 $x$ 坐標總和為 $0$\n(3) 此正六邊形的周長為 $6\\sqrt2$\n(4) 此正六邊形的面積為 $3\\sqrt3$',
+    answer: '(1)(2)(3)(4)',
+    hasImage: false,
+  },
+  {
     id: '17d396141e0',
     chapter: '指數與對數函數',
     question:
@@ -14983,124 +14998,6 @@ export const bank: Question[] = [
     hasImage: false,
   },
   {
-    id: '17d4c2c148a',
-    chapter: '二次曲線',
-    question:
-      '動點 $P$ 到 $(3,5)$ 的距離為到直線 $y=2$ 的距離的 $\\frac23$ 倍，求動點 $P$ 所成的軌跡方程式。',
-    answer: '$9x^2+5y^2-54x-74y+290=0$',
-    hasImage: false,
-  },
-  {
-    id: '17d4c2e8bca',
-    chapter: '二次曲線',
-    question:
-      '設動圓 $C$ 與兩定圓 $C_1:x^2+y^2=1$、$C_2:x^2+(y-2)^2=25$ 相切，則：\n(1) 若 $C$ 與 $C_1$ 外切，求 $C$ 的圓心軌跡方程式。\n(2) 若 $C$ 與 $C_1$ 內切，求 $C$ 的圓心軌跡方程式。',
-    answer: '(1) $\\frac{x^2}8+\\frac{(y-1)^2}9=1$ (2) $\\frac{x^2}3+\\frac{(y-1)^2}4=1$',
-    hasImage: false,
-  },
-  {
-    id: '17d4c2e571f',
-    chapter: '二次曲線',
-    question:
-      '兩組同心圓以 $F_1$、$F_2$ 為圓心，半徑為 $1,2,3,\\cdots$，作圖如附圖所示。若 $P$ 點落在以 $F_1$、$F_2$ 為焦點的雙曲線上，請問下列哪些點也落在同一組雙曲線上？\n(1) $A$ (2) $B$ (3) $C$ (4) $D$ (5) $E$',
-    answer: '(2)(4)',
-    hasImage: true,
-  },
-  {
-    id: '17d4c2efc9d',
-    chapter: '二次曲線',
-    question:
-      ' 圖中有五個曲線，哪一個是以 $F$ 為焦點、$V$ 為頂點、$O$ 為中心的雙曲線？\n(1) $\\Gamma_1$ (2) $\\Gamma_2$ (3) $\\Gamma_3$ (4) $\\Gamma_4$ (5) $\\Gamma_5$',
-    answer: '(1)',
-    hasImage: true,
-  },
-  {
-    id: '17d4c30598d',
-    chapter: '二次曲線',
-    question:
-      '方程式 $|\\sqrt{(x-1)^2+(y-1)^2}-\\sqrt{(x-5)^2+(y-4)^2}|=k$ 的圖形。\n(1) 若為雙曲線，求 $k$ 的範圍\n(2) 若為兩射線，求 $k$\n(3) 若為一直線，求 $k$\n(4) 若為無圖形，求 $k$ 的範圍',
-    answer: '(1) $0<k<5$ (2) $5$ (3) $0$ (4) $k<0\\lor k>5$',
-    hasImage: false,
-  },
-  {
-    id: '17d4c322901',
-    chapter: '二次曲線',
-    question:
-      '平面上兩定點 $A(2,-3)$ 與 $B(7,9)$，求動點 $P$ 軌跡所成之圖形名稱：\n(1) $|\\overline{PA}-\\overline{PB}|=10$\n(2) $\\overline{PA}-\\overline{PB}=10$\n(3) $|\\overline{PA}-\\overline{PB}|=13$\n(4) $\\overline{PA}-\\overline{PB}=13$\n(5) $|\\overline{PA}-\\overline{PB}|=15$',
-    answer: '(1) 雙曲線 (2) 雙曲線的一側 (3) 兩射線 (4) 一射線 (5) 無圖形',
-    hasImage: false,
-  },
-  {
-    id: '17d4c33255e',
-    chapter: '二次曲線',
-    question:
-      '\n平面上兩定點 $A(3,-2)$ 與 $B(8,10)$，動點 $P$，令 $\\Gamma$ 為 $|\\overline{PA}-\\overline{PB}|=k$，$k>0$ 的圖形，則：\n(1) 若 $\\Gamma$ 為雙曲線，求 $k$ 的範圍\n(2) 若 $\\Gamma$ 為兩射線，求 $k$\n(3) 若此方程式無形，求 $k$ 的範圍',
-    answer: '(1) $0<k<13$ (2) $13$ (3) $k>13$',
-    hasImage: false,
-  },
-  {
-    id: '17d4c3442e9',
-    chapter: '二次曲線',
-    question:
-      '平面上兩定點 $A$ 與 $B$，$\\overline{AB}=4$，求動點 $P$ 軌跡所成之圖形名稱：\n(1) $|\\overline{PA}-\\overline{PB}|=3$\n(2) $\\overline{PA}-\\overline{PB}=4$\n(3) $|\\overline{PA}-\\overline{PB}|=4$\n(4) $\\overline{PA}-\\overline{PB}=5$',
-    answer: '(1) 雙曲線 (2) 一射線 (3) 兩射線 (4) 無圖形',
-    hasImage: false,
-  },
-  {
-    id: '17d4c34d1ba',
-    chapter: '二次曲線',
-    question: '求雙曲線 $x^2-2x-4y^2-8y+1=0$ 上點 $(1+\\sqrt5,\\frac12$) 到兩漸近線的距離乘積。',
-    answer: '$\\frac45$\n\n\n',
-    hasImage: false,
-  },
-  {
-    id: '17d4c3550b7',
-    chapter: '二次曲線',
-    question:
-      '設 $k>0$，若 $\\frac{x^2}k-\\frac{y^2}{k+3}=1$ 上某一點 $P$ 到兩漸近線的距離乘積為 $2$，求 $k$。',
-    answer: '$3$',
-    hasImage: false,
-  },
-  {
-    id: '17d4c35dc87',
-    chapter: '二次曲線',
-    question:
-      '若雙曲線 $\\frac{x^2}{k+3}+\\frac{y^2}{13-k}=1$ 與橢圓 $\\frac{x^2}{21}+\\frac{y^2}{45}=1$ 共焦點，求 $k$。',
-    answer: '$-7$',
-    hasImage: false,
-  },
-  {
-    id: '17d4c367c9e',
-    chapter: '二次曲線',
-    question:
-      '已知雙曲線 $\\frac{x^2}9-\\frac{y^2}4=1$ 上有一點 $P$，兩焦點 $F_1$ 與 $F_2$，若 $\\overline{PF_1}:\\overline{PF_2}=5:2$，試求 $\\cos\\angle F_1PF_2$。',
-    answer: '$\\frac45$',
-    hasImage: false,
-  },
-  {
-    id: '17d4c36e955',
-    chapter: '二次曲線',
-    question:
-      '設 $k$ 為常數，若方程式 $\\frac{x^2}{k^2+1}+\\frac{y^2}{7-k}=1$ 表一橢圓，且與雙曲線 $\\frac{x^2}{75}-\\frac{y^2}{9}=1$ 有相同的焦點，求 $k$。',
-    answer: '$-10$',
-    hasImage: false,
-  },
-  {
-    id: '17d4c3807a0',
-    chapter: '二次曲線',
-    question:
-      '設 $A,B>0$，$F_1$ 與 $F_2$ 為雙曲線 $\\frac{x^2}A-\\frac{y^2}B$ 的兩焦點，若 $P$ 為雙曲線上的一點，且滿足 $\\overline{PF_2}=2\\overline{PF_1}=8$，$\\angle F_1PF_2=60\\du$，求數對 $(A,B)$。',
-    answer: '$(4,8)$',
-    hasImage: false,
-  },
-  {
-    id: '17d4c38ff16',
-    chapter: '二次曲線',
-    question: '已知雙曲線的焦點為 $A(1,3)$、$B(1,-1)$，且過點 $P(4,-1)$，求此雙曲線方程式。',
-    answer: '$\\frac{(x-1)^2}3-(y-1)^2=-1$',
-    hasImage: false,
-  },
-  {
     id: '17d59d3efd5',
     chapter: '指數與對數函數',
     question:
@@ -15175,6 +15072,420 @@ export const bank: Question[] = [
     question:
       '根據歷年的調查資料顯示，在學校佈告欄上公告某訊息後，$n$ 個上課天內得知此訊息的學生佔全校學生的 $100(1-2^{-kn})\\%$，其中 $n\\in\\mathbb N$，常數 $k$ 與學生重視此訊息的程度有關。今學校佈告欄上公告了社團轉社期限，$2$ 個上課天內已有 $70\\%$ 的學生得知此訊息。試根據過往調查資料推測，若要使 $99\\%$ 以上的學生得知此訊息，至少需要公告幾個上課天？',
     answer: '$8$',
+    hasImage: false,
+  },
+  {
+    id: '17d515a3259',
+    chapter: '二次曲線',
+    question:
+      '圖中為以 $O$ 為圓心且半徑分別為 $1,2,3,\\cdots$ 的同心圓，已知有多組平行線與這些同心圓相切，試問下列哪些點與 $P$ 點均在以 $O$ 點為焦點且開口向上的拋物線上？\n(1) $A$ (2) $B$ (3) $C$ (4) $D$ (5) $E$',
+    answer: '(1)(3)',
+    hasImage: true,
+  },
+  {
+    id: '17d515af5e6',
+    chapter: '二次曲線',
+    question:
+      '如圖為一拋物線的部分圖形，且 $A$、$B$、$C$、$D$、$E$ 五個點中有一為其焦點。試判斷哪一點是其焦點？',
+    answer: '$C$',
+    hasImage: true,
+  },
+  {
+    id: '17d515ba542',
+    chapter: '二次曲線',
+    question:
+      '拋物線 $\\Gamma$ 的焦點為 $F$，頂點為 $V$，焦距為 $3$，設點 $P$ 在 $\\Gamma$ 上，點 $Q$ 在準線上，$\\overline{PQ}\\parallel\\overline{VF}$ 且 $PQVF$ 為等腰梯形，求 $PQVF$ 的面積。',
+    answer: '$36\\sqrt2$',
+    hasImage: false,
+  },
+  {
+    id: '17d515c6e63',
+    chapter: '二次曲線',
+    question:
+      '平面上拋物線 $\\Gamma：x^2=8y$ 的頂點為 $V$，焦點為 $F$，$\\Gamma$ 上有一點 $P$，設 $\\overline{PF}=a$，$P$ 到直線 $L:y=-5$ 的距離為 $b$，若 $a:b=3:4$，求 $\\overline{PV}$。',
+    answer: '$\\sqrt{105}$',
+    hasImage: false,
+  },
+  {
+    id: '17d515deeef',
+    chapter: '二次曲線',
+    question:
+      '衛星電視的收訊天線小耳朵，是一個由拋物線繞軸旋轉而成的拋物面鏡，經皮尺測量得知其口徑為 $120$ 公分，深度為 $20$ 公分，則此拋物面鏡的焦距為幾公分？',
+    answer: '$45$',
+    hasImage: false,
+  },
+  {
+    id: '17d515db19f',
+    chapter: '二次曲線',
+    question:
+      '河面上有拋物線形的拱橋銜接兩岸，橋下河寬原為 $20$ 公尺，拱橋高為 $6$ 公尺，現河面因枯水期下降了 $3$ 公尺，則河面寬度變為幾公尺？',
+    answer: '$10\\sqrt6$',
+    hasImage: false,
+  },
+  {
+    id: '17d515e567f',
+    chapter: '二次曲線',
+    question:
+      '坐標平面上有一以點 $V(0,3)$ 為頂點、$F(0,6)$ 為焦點的拋物線。設 $P(a,b)$ 為此拋物線上的一點，$Q(a,0)$ 為 $P$ 在 $x$ 軸上的投影，滿足 $\\angle FPQ=60\\du$，求 $b$。',
+    answer: '$12$',
+    hasImage: false,
+  },
+  {
+    id: '17d515f87ce',
+    chapter: '二次曲線',
+    question:
+      '點 $A(6,5)$，拋物線 $\\Gamma:y^2=16x$ 的焦點為 $F$，$\\Gamma$ 上有動點 $P$，求 $\\overline{PA}+\\overline{PF}$ 的最小值及此時的 $P$ 點坐標。',
+    answer: '$10$；$(\\frac{25}{16},5)$',
+    hasImage: false,
+  },
+  {
+    id: '17d5161dedb',
+    chapter: '二次曲線',
+    question:
+      '平面上有一拋物線以 $V(0,0)$ 為頂點，$F(0,4)$ 為焦點，$P$ 在拋物線上且在第一象限，$P$ 投影到 $x$ 軸為 $Q$，滿足 $\\angle VPQ=30\\du$，求 $P$ 坐標。',
+    answer: '$(16\\sqrt3,48)$',
+    hasImage: false,
+  },
+  {
+    id: '17d516370cd',
+    chapter: '二次曲線',
+    question:
+      '拋物線 $y^2=12x$ 上有動點 $P$，求 $P$ 到焦點與點 $(9,7)$ 的距離和之最小值及此時的 $P$ 點坐標。',
+    answer: '$12$；$(\\frac{49}{12},7)$',
+    hasImage: false,
+  },
+  {
+    id: '17d6026140a',
+    chapter: '二次曲線',
+    question: '平面上動圓通過點 $A(3,5)$，且與直線 $L:x=-7$ 相切，求動圓的圓心軌跡方程式。',
+    answer: '$(y-5)^2=20(x+2)$',
+    hasImage: true,
+  },
+  {
+    id: '17d6026e50e',
+    chapter: '二次曲線',
+    question:
+      '坐標平面上，有一動圓與圓 $(x-3)^2+y^2=1$ 相外切，並與直線 $L:x=-2$ 相切，求此動圓的圓心軌跡方程式。',
+    answer: '$y^2=12x$',
+    hasImage: true,
+  },
+  {
+    id: '17d602751b2',
+    chapter: '二次曲線',
+    question: '已知動圓過點 $A(1,-4)$，且與直線 $L:y=8$ 相切，試求動圓的圓心軌跡方程式。',
+    answer: '$(x-1)^2=-24(y-2)$',
+    hasImage: false,
+  },
+  {
+    id: '17d60278096',
+    chapter: '二次曲線',
+    question:
+      '坐標平面上，一動圓與一圓 $x^2+y^2+4x-2y-4=0$ 相內切，並與直線 $y=-6$ 相切，求此動圓的圓心軌跡方程式。',
+    answer: '$(x+2)^2=8(y+1)$',
+    hasImage: false,
+  },
+  {
+    id: '17d6028288d',
+    chapter: '二次曲線',
+    question: '拋物線以 $x=4$ 為軸，焦距為 $2$，且 $y$ 軸截距為 $-1$，求方程式。',
+    answer: '$(x-4)^2=8(y+3)\\lor(x-4)^2=-8(y-1)$',
+    hasImage: false,
+  },
+  {
+    id: '17d6028e107',
+    chapter: '二次曲線',
+    question: '在平面上，試求過 $A(1,6)$ 且與拋物線 $-8x=y^2+4y+28$ 共軸、共焦點的拋物線方程式。',
+    answer: '$(y+2)^2=8(x+7)\\lor(y+2)^2=-32(x-3)$',
+    hasImage: false,
+  },
+  {
+    id: '17d2e8c7444',
+    chapter: '二次曲線',
+    question: '若拋物線以 $x=-2$ 為對稱軸，並且過兩點 $A(1,10)$ 與 $B(0,-5)$，求拋物線方程式。',
+    answer: '$y=3(x+2)^2-17$',
+    hasImage: false,
+  },
+  {
+    id: '17d60298be0',
+    chapter: '二次曲線',
+    question:
+      '已知一拋物線過點 $(2,1)$，且與另一拋物線 $(x+2)^2=-4(y+1)$ 共軸、共焦點，求此拋物線方程式。',
+    answer: '$(x+2)^2=4(y+3)\\lor(x+2)^2=-16(y-2)$',
+    hasImage: false,
+  },
+  {
+    id: '17d602a4c54',
+    chapter: '二次曲線',
+    question:
+      '設橢圓 $\\Gamma$ 的焦點為 $F_1、F_2$，點 $A$、$B$ 在 $\\Gamma$ 上且 $F_1$ 在 $\\overline{AB}$ 上，若 $\\triangle ABF_2$ 的周長為 $10$，求 $\\Gamma$ 的長軸長。',
+    answer: '$5$',
+    hasImage: false,
+  },
+  {
+    id: '17d602ad136',
+    chapter: '二次曲線',
+    question: '將橢圓放置在方格紙中，如圖，長軸與短軸均平形格線，請利用尺規標示出焦點的位置。',
+    answer: '略',
+    hasImage: true,
+  },
+  {
+    id: '17d602b8608',
+    chapter: '二次曲線',
+    question:
+      '設 $\\frac{x^2}{3-t^2}+\\frac{y^2}{t+1}=1$ 表示：\n(1) 長軸平行 $x$ 軸的橢圓，求 $t$ 的範圍\n(2) 長軸平行 $y$ 軸的橢圓，求 $t$ 的範圍',
+    answer: '(1) $-1<t<1$ (2) $1<t<\\sqrt3$',
+    hasImage: false,
+  },
+  {
+    id: '17d602c02e9',
+    chapter: '二次曲線',
+    question: '若實數 $k$ 使 $\\frac{x^2}{k-1}+\\frac{y^2}{5-2k}=1$ 的圖形為橢圓，求 $k$ 的範圍。',
+    answer: '$1<k<\\frac52$ 且 $k\\ne2$',
+    hasImage: false,
+  },
+  {
+    id: '17d602e320e',
+    chapter: '二次曲線',
+    question:
+      '方程式 $\\sqrt{(x-1)^2+(y-1)^2}+\\sqrt{(x-5)^2+(y-4)^2}=k$：\n(1) 若其圖形為橢圓，求 $k$ 的範圍\n(2) 若其圖形為一線段，求 $k$\n(3) 若此方程式無圖形，求 $k$ 的範圍',
+    answer: '(1) $k>5$ (2) $5$ (3) $k<5$',
+    hasImage: false,
+  },
+  {
+    id: '17d602cd8e6',
+    chapter: '二次曲線',
+    question:
+      '方程式 $x^2+2y^2+6x-8y+k=0$：\n(1) 若為橢圓，求 $k$ 的範圍\n(2) 若為一點，求 $k$\n(3) 若為無圖形，求 $k$ 的範圍',
+    answer: '(1) $k<17$ (2) $17$ (3) $k>17$',
+    hasImage: false,
+  },
+  {
+    id: '17d602e0509',
+    chapter: '二次曲線',
+    question:
+      '方程式 $\\sqrt{(x+3)^2+(y-2)^2}+\\sqrt{(x+2)^2+(y+5)^2}=k$：\n(1) 若圖形為橢圓，求 $k$ 的範圍\n(2) 若圖形為一線段，求 $k$\n(3) 若此方程式無圖形，求 $k$ 的範圍',
+    answer: '(1) $k>5\\sqrt2$ (2) $5\\sqrt2$ (3) $k<5\\sqrt2$',
+    hasImage: false,
+  },
+  {
+    id: '17d602de014',
+    chapter: '二次曲線',
+    question:
+      '方程式 $3x^2+2y^2-12x+12y+k=0$：\n(1) 若為橢圓，求 $k$ 的範圍\n(2) 若為一點，求 $k$\n(3) 若為無圖形，求 $k$ 的範圍',
+    answer: '(1) $k<30$ (2) $30$ (3) $k>30$',
+    hasImage: false,
+  },
+  {
+    id: '17d602edb02',
+    chapter: '二次曲線',
+    question:
+      '一半橢圓形建築物如圖，$\\overline{AB}=16$ 公尺，$\\overline{OM}=6$ 公尺，有一橫樑 $\\overline{PQ}=8$ 公尺，求此橫樑到地面的距離 $\\overline{CO}$。',
+    answer: '$3\\sqrt3$ 公尺',
+    hasImage: true,
+  },
+  {
+    id: '17d602f6446',
+    chapter: '二次曲線',
+    question:
+      '已知 $P$ 點在橢圓 $4x^2+25y^2=100$ 上，且橢圓兩焦點為 $F_1、F_2$，求 $\\triangle PF_1F_2$ 周長。',
+    answer: '$10+2\\sqrt{21}$',
+    hasImage: false,
+  },
+  {
+    id: '17d60305fd1',
+    chapter: '二次曲線',
+    question:
+      '已知橢圓 $\\frac{x^2}{16}+\\frac{y^2}9=1$ 上有一點 $P$，且兩焦點為 $F_1$ 與 $F_2$，若 $\\angle F_1PF_2=60\\du$，求 $\\triangle F_1PF_2$ 的面積及中心 $O$ 到 $P$ 的距離。',
+    answer: '$3\\sqrt3$；$\\sqrt{13}$',
+    hasImage: true,
+  },
+  {
+    id: '17d603131b4',
+    chapter: '二次曲線',
+    question:
+      '設 $\\frac{x^2}{25}+\\frac{y^2}k=1$ 是一橢圓，焦點為 $F_1、F_2$。若 $A、B$ 為橢圓上相異兩點，$F_1$ 在線段 $\\overline{AB}$ 上，且 $\\triangle ABF_2$ 的周長為 $32$，求 $k$。',
+    answer: '$64$',
+    hasImage: false,
+  },
+  {
+    id: '17d6031c77e',
+    chapter: '二次曲線',
+    question: '已知橢圓的長軸平行 $x$ 軸，其中兩頂點為 $(2,-1)$ 與 $(-3,-4)$，求橢圓方程式。',
+    answer: '$\\frac{(x-2)^2}{25}+\\frac{(y+4)^2}9=1\\lor\\frac{(x+3)^2}{25}+\\frac{(y+1)^2}9=1$',
+    hasImage: false,
+  },
+  {
+    id: '17d3c473715',
+    chapter: '二次曲線',
+    question:
+      '橢圓 $\\Gamma$ 的中心為原點，長軸與短軸均在坐標軸上，且橢圓 $\\Gamma$ 通過 $A(1,3)、B(2,-1)$ 兩點，求橢圓 $\\Gamma$ 的方程式。',
+    answer: '$\\frac{8x^2}{35}+\\frac{3y^2}{35}=1$',
+    hasImage: false,
+  },
+  {
+    id: '17d60329bd7',
+    chapter: '二次曲線',
+    question:
+      '已知橢圓 $\\Gamma$ 通過點 $(3,2)$，且與另一橢圓 $\\frac{x^2}9+\\frac{y^2}4=1$ 共焦點，求橢圓 $\\Gamma$ 的方程式。',
+    answer: '$\\frac{x^2}{15}+\\frac{y^2}{10}=1$',
+    hasImage: false,
+  },
+  {
+    id: '17d60331d6d',
+    chapter: '二次曲線',
+    question:
+      '已知橢圓的焦點為 $(-1,1)$、$(7,1)$，短軸的兩端點分別為 $(3,5)$、$(3,-3)$，求橢圓方程式。',
+    answer: '$\\frac{(x-3)^2}{32}+\\frac{(y-1)^2}{16}=1$',
+    hasImage: false,
+  },
+  {
+    id: '17d6033bd4d',
+    chapter: '二次曲線',
+    question:
+      '在坐標平面上，有兩點 $F_1(k,0)$ 與 $F_2(-k,0)$，其中 $k>0$，若點 $P(2,3)$ 到 $F_1、F_2$ 的距離和為 $m$，點 $Q(-4,1)$ 到 $F_1、F_2$ 的距離和也為 $m$，求 $k$ 及 $m$。',
+    answer: '$\\frac{\\sqrt{210}}6$；$\\sqrt{70}$',
+    hasImage: false,
+  },
+  {
+    id: '17d603479c3',
+    chapter: '二次曲線',
+    question:
+      '已知橢圓過點 $(1,3)$，且與另一橢圓 $\\frac{(x-3)^2}{16}+\\frac{(y-2)^2}{10}=1$ 共焦點，試求其方程式。',
+    answer: '$\\frac{(x-3)^2}8+\\frac{(y-2)^2}2=1$',
+    hasImage: false,
+  },
+  {
+    id: '17d6034d51c',
+    chapter: '二次曲線',
+    question:
+      '已知點 $P$ 到 $(-1,2)$ 的距離等於到 $x=6$ 距離的 $\\frac12$ 倍，試求動點 $P$ 的軌跡方程式。',
+    answer: '$3x^2+4y^2+20x-16y-16=0$',
+    hasImage: false,
+  },
+  {
+    id: '17d60356b93',
+    chapter: '二次曲線',
+    question:
+      '設動圓 $C$ 與定圓 $C_1:(x-1)^2+y^2=1$ 外切，且與定圓 $C_2:(x+1)^2+y^2=16$ 相內切，求 $C$ 的圓心軌跡方程式。',
+    answer: '$\\frac{4x^2}{25}+\\frac{4y^2}{21}=1$',
+    hasImage: true,
+  },
+  {
+    id: '17d4c2c148a',
+    chapter: '二次曲線',
+    question:
+      '動點 $P$ 到 $(3,5)$ 的距離為到直線 $y=2$ 的距離的 $\\frac23$ 倍，求動點 $P$ 所成的軌跡方程式。',
+    answer: '$9x^2+5y^2-54x-74y+290=0$',
+    hasImage: false,
+  },
+  {
+    id: '17d4c2e8bca',
+    chapter: '二次曲線',
+    question:
+      '設動圓 $C$ 與兩定圓 $C_1:x^2+y^2=1$、$C_2:x^2+(y-2)^2=25$ 相切，則：\n(1) 若 $C$ 與 $C_1$ 外切，求 $C$ 的圓心軌跡方程式。\n(2) 若 $C$ 與 $C_1$ 內切，求 $C$ 的圓心軌跡方程式。',
+    answer: '(1) $\\frac{x^2}8+\\frac{(y-1)^2}9=1$ (2) $\\frac{x^2}3+\\frac{(y-1)^2}4=1$',
+    hasImage: false,
+  },
+  {
+    id: '17d4c2e571f',
+    chapter: '二次曲線',
+    question:
+      '兩組同心圓以 $F_1$、$F_2$ 為圓心，半徑為 $1,2,3,\\cdots$，作圖如附圖所示。若 $P$ 點落在以 $F_1$、$F_2$ 為焦點的雙曲線上，請問下列哪些點也落在同一組雙曲線上？\n(1) $A$ (2) $B$ (3) $C$ (4) $D$ (5) $E$',
+    answer: '(2)(4)',
+    hasImage: true,
+  },
+  {
+    id: '17d4c2efc9d',
+    chapter: '二次曲線',
+    question:
+      ' 圖中有五個曲線，哪一個是以 $F$ 為焦點、$V$ 為頂點、$O$ 為中心的雙曲線？\n(1) $\\Gamma_1$ (2) $\\Gamma_2$ (3) $\\Gamma_3$ (4) $\\Gamma_4$ (5) $\\Gamma_5$',
+    answer: '(1)',
+    hasImage: true,
+  },
+  {
+    id: '17d4c30598d',
+    chapter: '二次曲線',
+    question:
+      '方程式 $|\\sqrt{(x-1)^2+(y-1)^2}-\\sqrt{(x-5)^2+(y-4)^2}|=k$ 的圖形。\n(1) 若為雙曲線，求 $k$ 的範圍\n(2) 若為兩射線，求 $k$\n(3) 若為一直線，求 $k$\n(4) 若為無圖形，求 $k$ 的範圍',
+    answer: '(1) $0<k<5$ (2) $5$ (3) $0$ (4) $k<0\\lor k>5$',
+    hasImage: false,
+  },
+  {
+    id: '17d4c322901',
+    chapter: '二次曲線',
+    question:
+      '平面上兩定點 $A(2,-3)$ 與 $B(7,9)$，求動點 $P$ 軌跡所成之圖形名稱：\n(1) $|\\overline{PA}-\\overline{PB}|=10$\n(2) $\\overline{PA}-\\overline{PB}=10$\n(3) $|\\overline{PA}-\\overline{PB}|=13$\n(4) $\\overline{PA}-\\overline{PB}=13$\n(5) $|\\overline{PA}-\\overline{PB}|=15$',
+    answer: '(1) 雙曲線 (2) 雙曲線的一側 (3) 兩射線 (4) 一射線 (5) 無圖形',
+    hasImage: false,
+  },
+  {
+    id: '17d4c33255e',
+    chapter: '二次曲線',
+    question:
+      '平面上兩定點 $A(3,-2)$ 與 $B(8,10)$，動點 $P$，令 $\\Gamma$ 為 $|\\overline{PA}-\\overline{PB}|=k$，$k>0$ 的圖形，則：\n(1) 若 $\\Gamma$ 為雙曲線，求 $k$ 的範圍\n(2) 若 $\\Gamma$ 為兩射線，求 $k$\n(3) 若此方程式無形，求 $k$ 的範圍',
+    answer: '(1) $0<k<13$ (2) $13$ (3) $k>13$',
+    hasImage: false,
+  },
+  {
+    id: '17d4c3442e9',
+    chapter: '二次曲線',
+    question:
+      '平面上兩定點 $A$ 與 $B$，$\\overline{AB}=4$，求動點 $P$ 軌跡所成之圖形名稱：\n(1) $|\\overline{PA}-\\overline{PB}|=3$\n(2) $\\overline{PA}-\\overline{PB}=4$\n(3) $|\\overline{PA}-\\overline{PB}|=4$\n(4) $\\overline{PA}-\\overline{PB}=5$',
+    answer: '(1) 雙曲線 (2) 一射線 (3) 兩射線 (4) 無圖形',
+    hasImage: false,
+  },
+  {
+    id: '17d4c34d1ba',
+    chapter: '二次曲線',
+    question: '求雙曲線 $x^2-2x-4y^2-8y+1=0$ 上點 $(1+\\sqrt5,\\frac12$) 到兩漸近線的距離乘積。',
+    answer: '$\\frac45$',
+    hasImage: false,
+  },
+  {
+    id: '17d4c3550b7',
+    chapter: '二次曲線',
+    question:
+      '設 $k>0$，若 $\\frac{x^2}k-\\frac{y^2}{k+3}=1$ 上某一點 $P$ 到兩漸近線的距離乘積為 $2$，求 $k$。',
+    answer: '$3$',
+    hasImage: false,
+  },
+  {
+    id: '17d4c35dc87',
+    chapter: '二次曲線',
+    question:
+      '若雙曲線 $\\frac{x^2}{k+3}+\\frac{y^2}{13-k}=1$ 與橢圓 $\\frac{x^2}{21}+\\frac{y^2}{45}=1$ 共焦點，求 $k$。',
+    answer: '$-7$',
+    hasImage: false,
+  },
+  {
+    id: '17d4c367c9e',
+    chapter: '二次曲線',
+    question:
+      '已知雙曲線 $\\frac{x^2}9-\\frac{y^2}4=1$ 上有一點 $P$，兩焦點 $F_1$ 與 $F_2$，若 $\\overline{PF_1}:\\overline{PF_2}=5:2$，試求 $\\cos\\angle F_1PF_2$。',
+    answer: '$\\frac45$',
+    hasImage: false,
+  },
+  {
+    id: '17d4c36e955',
+    chapter: '二次曲線',
+    question:
+      '設 $k$ 為常數，若方程式 $\\frac{x^2}{k^2+1}+\\frac{y^2}{7-k}=1$ 表一橢圓，且與雙曲線 $\\frac{x^2}{75}-\\frac{y^2}{9}=1$ 有相同的焦點，求 $k$。',
+    answer: '$-10$',
+    hasImage: false,
+  },
+  {
+    id: '17d4c3807a0',
+    chapter: '二次曲線',
+    question:
+      '設 $A,B>0$，$F_1$ 與 $F_2$ 為雙曲線 $\\frac{x^2}A-\\frac{y^2}B$ 的兩焦點，若 $P$ 為雙曲線上的一點，且滿足 $\\overline{PF_2}=2\\overline{PF_1}=8$，$\\angle F_1PF_2=60\\du$，求數對 $(A,B)$。',
+    answer: '$(4,8)$',
+    hasImage: false,
+  },
+  {
+    id: '17d4c38ff16',
+    chapter: '二次曲線',
+    question: '已知雙曲線的焦點為 $A(1,3)$、$B(1,-1)$，且過點 $P(4,-1)$，求此雙曲線方程式。',
+    answer: '$\\frac{(x-1)^2}3-(y-1)^2=-1$',
     hasImage: false,
   },
 ];
