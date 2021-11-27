@@ -15162,4 +15162,19 @@ export const bank: Question[] = [
     answer: '$625\\lor\\frac15$',
     hasImage: false,
   },
+  {
+    id: '17d5cdad764',
+    chapter: '指數與對數函數',
+    question: '試求 $3^{1-2\\log_35}+2^{\\log_4\\frac1{25}}$ 之值。',
+    answer: '$\\frac8{25}$',
+    hasImage: false,
+  },
+  {
+    id: '17d5ce1b3bb',
+    chapter: '指數與對數函數',
+    question:
+      '根據歷年的調查資料顯示，在學校佈告欄上公告某訊息後，$n$ 個上課天內得知此訊息的學生佔全校學生的 $100(1-2^{-kn})\\%$，其中 $n\\in\\mathbb N$，常數 $k$ 與學生重視此訊息的程度有關。今學校佈告欄上公告了社團轉社期限，$2$ 個上課天內已有 $70\\%$ 的學生得知此訊息。試根據過往調查資料推測，若要使 $99\\%$ 以上的學生得知此訊息，至少需要公告幾個上課天？',
+    answer: '$8$',
+    hasImage: false,
+  },
 ];

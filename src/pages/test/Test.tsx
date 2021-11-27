@@ -74,7 +74,9 @@ const Test = () => {
       {displayQuestion('17d468c4eae', 6)}
       {displayQuestion('17d59c8e82e', 7)}
       {displayQuestion('17d59ca3db1', 8)}
-      {/* <div>
+      {displayQuestion('17d5cdad764', 9)}
+      {displayQuestion('17d5ce1b3bb', 10)}
+      {/* <div
         <b>四、混合題(共 15 分，第一題 7 分，第二題 8 分，將部份給分)</b>
       </div>
       {displayQuestion('17cbf989ccb', 1, '1cm')} */}
