@@ -15469,7 +15469,7 @@ export const bank: Question[] = [
     id: '17d4c36e955',
     chapter: '二次曲線',
     question:
-      '設 $k$ 為常數，若方程式 $\\frac{x^2}{k^2+1}+\\frac{y^2}{7-k}=1$ 表一橢圓，且與雙曲線 $\\frac{x^2}{75}-\\frac{y^2}{9}=1$ 有相同的焦點，求 $k$。',
+      '設 $k$ 為常數，若方程式 $\\frac{x^2}{k^2+1}+\\frac{y^2}{7-k}=1$ 表一橢圓，且與雙曲線 $\\frac{x^2}{75}-\\frac{y^2}9=1$ 有相同的焦點，求 $k$。',
     answer: '$-10$',
     hasImage: false,
   },
