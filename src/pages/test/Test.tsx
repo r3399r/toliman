@@ -52,34 +52,41 @@ const Test = () => {
 
   return (
     <div className={style.content}>
-      <h1>高二上第二次段考 數學A/數學B</h1>
-      <Textarea2MathJax
-        text={'$\\log2\\approx0.3010$，$\\log3\\approx0.4771$，$\\log7\\approx0.8451$'}
-      />
+      <h1>學測練習 一二冊</h1>
       <div>
-        <b>一、單選題(共 10 分；每題 10 分)</b>
+        <b>一、單選題(共 25 分；每題 5 分)</b>
       </div>
-      {displayQuestion('17d468db0ed', 1)}
-      <div>
-        <b>二、多選題(共 30 分；全對 10 分，錯一個 6 分，錯兩個 2 分，錯三個以上 0 分)</b>
-      </div>
-      {displayQuestion('17d59d3efd5', 2)}
-      {displayQuestion('17d59d65a04', 3)}
-      {displayQuestion('17d59d9eb8c', 4)}
+      {displayQuestion('17d7e696c75', 1)}
+      {displayQuestion('17d7e5fc561', 2)}
+      {displayQuestion('17d7e6712d7', 3)}
       <div style={{ pageBreakAfter: 'always' }} />
+      {displayQuestion('17d7e695827', 4)}
+      {displayQuestion('17d7e6bfc5a', 5)}
       <div>
-        <b>二、計算題(共 70 分；每題 10 分，請詳列計算過程，將部份給分)</b>
+        <b>二、多選題(共 25 分；全對 5 分，錯一個 3 分，錯兩個 1 分，錯三個以上 0 分)</b>
       </div>
-      {displayQuestion('17d59dc7e99', 5)}
-      {displayQuestion('17d468c4eae', 6)}
-      {displayQuestion('17d59c8e82e', 7)}
-      {displayQuestion('17d59ca3db1', 8)}
-      {displayQuestion('17d5cdad764', 9)}
-      {displayQuestion('17d5ce1b3bb', 10)}
-      {/* <div
+      {displayQuestion('17d7e6e29d8', 6)}
+      {displayQuestion('17d7ea25392', 7)}
+      <div style={{ pageBreakAfter: 'always' }} />
+      {displayQuestion('17d7ea6dd5a', 8)}
+      {displayQuestion('17d7eea35f1', 9)}
+      <div style={{ pageBreakAfter: 'always' }} />
+      {displayQuestion('17d7eef7b51', 10)}
+      <div>
+        <b>二、填充題(共 35 分；每題 5 分)</b>
+      </div>
+      {displayQuestion('17d7efc3583', 11)}
+      {displayQuestion('17d7efc5467', 12)}
+      {displayQuestion('17d7efc8442', 13)}
+      <div style={{ pageBreakAfter: 'always' }} />
+      {displayQuestion('17d7efeb202', 14)}
+      {displayQuestion('17d7f032b03', 15)}
+      {displayQuestion('17d7f04d466', 16)}
+      {displayQuestion('17d7f0de9a2', 17)}
+      <div>
         <b>四、混合題(共 15 分，第一題 7 分，第二題 8 分，將部份給分)</b>
       </div>
-      {displayQuestion('17cbf989ccb', 1, '1cm')} */}
+      {displayQuestion('17d7f130c2f', 18, '1cm')}
     </div>
   );
 };
