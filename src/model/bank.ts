@@ -15489,6 +15489,142 @@ export const bank: Question[] = [
     hasImage: false,
   },
   {
+    id: '17d61c6bd9c',
+    chapter: '二次曲線',
+    question:
+      '已知雙曲線與橢圓 $\\frac{(x-1)^2}9+\\frac{(y+2)^2}4=1$ 共焦點，且貫軸長為 $4$，試求其方程式。',
+    answer: '$\\frac{(x-1)^2}4-(y+2)^2=-1$',
+    hasImage: false,
+  },
+  {
+    id: '17d61c767be',
+    chapter: '二次曲線',
+    question:
+      '一雙曲線中心 $(1,-1)$，貫軸在 $y+1=0$ 上，正焦弦長為 $4$，且兩焦點間的距離為 $2\\sqrt{15}$，求此雙曲線方程式。',
+    answer: '$\\frac{(x-1)^2}9-\\frac{(y+1)^2}6=1$',
+    hasImage: false,
+  },
+  {
+    id: '17d61c7ef55',
+    chapter: '二次曲線',
+    question:
+      '(1) 已知貫軸長為 $6$，兩焦點為 $(\\pm7,3)$，求雙曲線方程式。\n(2) 雙曲線的頂點為 $(1,\\pm5)$，焦距為 $18$，求方程式。',
+    answer: '(1) $\\frac{x^2}9-\\frac{(y-3)^2}{40}=1$ (2) $\\frac{(x-1)^2}{56}-\\frac{y^2}{25}=-1$',
+    hasImage: false,
+  },
+  {
+    id: '17d61c89ff8',
+    chapter: '二次曲線',
+    question:
+      '設雙曲線過點 $(\\sqrt6,1)$，與橢圓 $\\frac{x^2}4+\\frac{3y^2}4=1$ 共頂點，且焦點共線，求此雙曲線方程式。',
+    answer: '$\\frac{x^2}4-\\frac{y^2}2=1$',
+    hasImage: false,
+  },
+  {
+    id: '17d61df9d82',
+    chapter: '二次曲線',
+    question:
+      '雙曲線 $\\Gamma$ 的貫軸在 $y=2$ 上，共軛軸在 $x=1$ 上，且貫軸長大於共軛軸長，若以貫軸端點及共軛軸端點連成菱形，該菱形的周長為 $20$，菱形的面積為 $24$，試求 $\\Gamma$ 的方程式。',
+    answer: '$\\frac{(x-1)^2}{16}-\\frac{(y-2)^2}9=1$',
+    hasImage: false,
+  },
+  {
+    id: '17d61dfdb7d',
+    chapter: '二次曲線',
+    question:
+      '已知雙曲線的兩頂點為 $(3,-3)$ 與 $(3,5)$，其中一條漸近線的斜率為 $\\frac23$，求其方程式。',
+    answer: '$\\frac{(x-3)^2}{36}-\\frac{(y-1)^2}{16}=-1$',
+    hasImage: false,
+  },
+  {
+    id: '17d615cf22c',
+    chapter: '二次曲線',
+    question:
+      '已知雙曲線的兩條漸近線為 $x+2y=4$ 與 $x-2y=10$，且通過點 $(-1,3)$， 試求此雙曲線方程式。',
+    answer: '$(x+2y-4)(x-2y-10)=-17$',
+    hasImage: false,
+  },
+  {
+    id: '17d61e0b3f1',
+    chapter: '二次曲線',
+    question:
+      '已知雙曲線的兩頂點分別為 $(2,-1)$ 與 $(2,7)$，其中一條漸近線的斜率為 $2$，求此雙曲線方程式。',
+    answer: '$\\frac{(x-2)^2}4-\\frac{(y-3)^2}{16}=-1$',
+    hasImage: false,
+  },
+  {
+    id: '17d61e0d7df',
+    chapter: '二次曲線',
+    question:
+      '已知有一雙曲線，其漸近線為 $2x+3y=-1$ 與 $2x-3y=-7$，且有一個焦點為 $(3,1)$，求此雙曲線方程式。',
+    answer: '$\\frac{13(x+2)^2}{225}-\\frac{13(y-1)^2}{100}=1$',
+    hasImage: false,
+  },
+  {
+    id: '17d616c2c0d',
+    chapter: '二次曲線',
+    question:
+      '動點 $P$ 到 $(-1,2)$ 的距離，為到直線 $x=5$ 距離的 $2$ 倍，求動點 $P$ 所成的軌跡方程式。',
+    answer: '$-3x^2+y^2+42x-4y-95=0$',
+    hasImage: false,
+  },
+  {
+    id: '17d61e29810',
+    chapter: '二次曲線',
+    question:
+      '二定圓 $C_1:(x-4)^2+y^2=9$、$C_2:(x+2)^2+y^2=1$，若動圓 $C$ 與 $C_1$、$C_2$ 均外切或均內切時，求 $C$ 圓心的軌跡方程式。',
+    answer: '$(x-1)^2-\\frac{y^2}8=1$',
+    hasImage: true,
+  },
+  {
+    id: '17d617299ca',
+    chapter: '二次曲線',
+    question:
+      '動點 $P$ 到 $(1,2)$ 的距離等於到直線 $y=6$ 距離的 $2$ 倍，求動點 $P$ 所成的軌跡方程式。',
+    answer: '$x^2-3y^2-2x+44y-139=0$',
+    hasImage: false,
+  },
+  {
+    id: '17d61e3a86a',
+    chapter: '二次曲線',
+    question:
+      '兩定圓 $C_1:x^2+(y+1)^2=4$、$C_2:x^2+(y-3)^2=1$，若動圓 $C$ 與 $C_1$、$C_2$ 均外切或均內切時，求 $C$ 圓心的軌跡方程式。',
+    answer: '$\\frac{4x^2}{15}-4(y-1)^2=-1$',
+    hasImage: false,
+  },
+  {
+    id: '17d617f4143',
+    chapter: '二次曲線',
+    question:
+      '已知等軸雙曲線 $\\Gamma$ 的中心為 $(2,-1)$，一漸近線為 $2x+3y=1$，且 $\\Gamma$ 過點 $(1,0)$，求其方程式。',
+    answer: '$(2x+3y-1)(3x-2y-8)=-5$',
+    hasImage: false,
+  },
+  {
+    id: '17d61e43885',
+    chapter: '二次曲線',
+    question:
+      '等軸雙曲線的兩焦點為 $(k,0)$ 與 $(-k,0)$，其中 $k>0$，點 $(3,2)$ 在此雙曲線上，求 $k$。',
+    answer: '$\\sqrt{10}$',
+    hasImage: false,
+  },
+  {
+    id: '17d61e4eb62',
+    chapter: '二次曲線',
+    question:
+      '坐標平面上以 $F_1$、$F_2$ 為兩焦點作橢圓 $\\Gamma_1$ 及雙曲線 $\\Gamma_2$，$P$ 為 $\\Gamma_1$ 與 $\\Gamma_2$ 的交點之一，已知 $\\Gamma_1$ 的方程式為 $\\frac{x^2}{25}+\\frac{y^2}9=1$，且 $\\overline{PF_1}=6$，試求 $\\Gamma_2$ 的方程式。',
+    answer: '$x^2-\\frac{y^2}{15}=1$',
+    hasImage: false,
+  },
+  {
+    id: '17d61e5a2cc',
+    chapter: '二次曲線',
+    question:
+      '坐標平面上有四點 $A(-5,0)$、$B(-3,0)$、$C(3,0)$、$D(5,0)$，以 $A$、$D$ 為頂點且 $B$、$C$ 為焦點作橢圓 $\\Gamma_1$，以 $B$、$C$ 為頂點且 $A$、$D$ 為焦點作雙曲線 $\\Gamma_2$，則 $\\Gamma_1$ 與 $\\Gamma_2$ 在第一象限恰有一個交點 $P$，求 $P$ 點坐標。',
+    answer: '$(\\frac{15}{\\sqrt{17}},\\frac{8\\sqrt{2}}{\\sqrt{17}})$',
+    hasImage: false,
+  },
+  {
     id: '17d7e696c75',
     chapter: '數與式',
     question:
