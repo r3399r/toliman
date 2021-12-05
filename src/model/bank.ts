@@ -15768,4 +15768,194 @@ export const bank: Question[] = [
     answer: '1. (2) 2. $33$',
     hasImage: false,
   },
+  {
+    id: '17d817420ef',
+    chapter: '平面向量',
+    question:
+      '$\\triangle ABC$ 中，點 $M$ 在 $\\overline{AB}$ 上且 $\\overline{AM}:\\overline{BM}=2:3$，點 $P$ 在 $\\overline{CM}$ 上且 $\\overline{CP}:\\overline{MP}=5:1$，若 $\\xvector{AP}=x\\xvector{AB}+y\\xvector{AC}$，$x,y\\in\\mathbb R$，求數對 $(x,y)$。',
+    answer: '$(\\frac13,\\frac16)$',
+    hasImage: true,
+  },
+  {
+    id: '17d8175f384',
+    chapter: '平面向量',
+    question:
+      '設 $A$、$B$、$C$ 是坐標平面上不共線的三點，$\\xvector{AF}=2\\xvector{AB}+3\\xvector{AC}$，$\\overline{AF}$ 交 $\\overline{BC}$ 於 $D$。若 $\\xvector{AD}=x\\xvector{AB}+y\\xvector{AC}$，$x,y\\in\\mathbb R$，求數對 $(x,y)$。',
+    answer: '$(\\frac25,\\frac35)$',
+    hasImage: false,
+  },
+  {
+    id: '17d8177c24a',
+    chapter: '平面向量',
+    question:
+      '在 $\\triangle ABC$ 兩邊 $\\overline{AC}$、$\\overline{BC}$ 上，分別取 $P$、$Q$ 兩點，使得 $\\overline{CP}=2\\overline{AP}$，$\\overline{BQ}=2\\overline{CQ}$，若 $\\xvector{PQ}=x\\xvector{AB}+y\\xvector{AC}$，試求數對 $(x,y)$。',
+    answer: '$(\\frac13,\\frac13)$',
+    hasImage: false,
+  },
+  {
+    id: '17d817a180d',
+    chapter: '平面向量',
+    question:
+      '如圖，已知 $A(0,0)$，$\\xvector{AB}=(2,1)$，$\\xvector{AC}=(1,2)$，$\\xvector{AP}=\\alpha\\xvector{AB}+\\beta\\xvector{AC}$，請問下列哪些選項的 $P$ 點落在灰色區域內？(不含邊界)\n(1) $(\\alpha,\\beta)=(3,2)$ (2) $(\\alpha,\\beta)=(1,1)$\n(3) $(\\alpha,\\beta)=(1,\\frac32)$ (4) $(\\alpha,\\beta)=(2,\\frac23)$\n(5) $(\\alpha,\\beta)=(\\frac32,\\frac23)$',
+    answer: '(2)(5)',
+    hasImage: true,
+  },
+  {
+    id: '17d817cdfe0',
+    chapter: '平面向量',
+    question:
+      '$O$、$A$、$B$、$C$ 為平面上相異四點，下列何者保證 $A$、$B$、$C$ 三點共線？\n(1) $2\\xvector{OA}-3\\xvector{OB}-\\xvector{OC}=\\vector0$\n(2) $2\\xvector{OA}=\\xvector{OB}+3\\xvector{OC}$\n(3) $5\\xvector{OA}+4\\xvector{OB}-9\\xvector{OC}=\\vector0$\n(4) $\\frac12\\xvector{OA}+\\frac13\\xvector{OB}-\\frac16\\xvector{OC}=\\vector0$\n(5) $\\xvector{OA}=\\frac43\\xvector{OB}-\\frac13\\xvector{OC}$',
+    answer: '(3)(5)',
+    hasImage: false,
+  },
+  {
+    id: '17d817f76be',
+    chapter: '平面向量',
+    question:
+      '在 $\\triangle ABC$ 的三邊 $\\overline{AB}$、$\\overline{BC}$、$\\overline{CA}$ 上分別取 $D$、$E$、$F$ 三點，使 $\\xvector{AD}=\\frac12\\xvector{AB}$，$\\xvector{BE}=\\frac13\\xvector{BC}$，$\\xvector{CF}=\\frac14\\xvector{CA}$。設 $G$ 為 $\\triangle DEF$ 的重心。若 $\\xvector{AG}=x\\xvector{AB}+y\\xvector{AC}$，求數對 $(x,y)$。',
+    answer: '$(\\frac7{18},\\frac{13}{36})$',
+    hasImage: false,
+  },
+  {
+    id: '17d81806cd6',
+    chapter: '平面向量',
+    question:
+      '設 $|\\vector a|=4$，$|\\vector b|=6$，$\\vector a$ 與 $\\vector b$ 的夾角為 $60\\du$，求 $\\vector a\\cdot\\vector b$。',
+    answer: '$12$',
+    hasImage: false,
+  },
+  {
+    id: '17d8181cc67',
+    chapter: '平面向量',
+    question:
+      '已知 $\\triangle ABC$ 為邊長 $2$ 的正三角形，試求 $\\xvector{AB}\\cdot\\xvector{BC}$。',
+    answer: '$-2$',
+    hasImage: false,
+  },
+  {
+    id: '17d81829d74',
+    chapter: '平面向量',
+    question:
+      '若 $\\vector a=(1,2)$，$\\vector b=(-3,4)$ 且 $\\vector a$ 與 $\\vector b$ 的夾角為 $\\theta$，求 $\\cos\\theta$。',
+    answer: '$\\frac{\\sqrt5}5$',
+    hasImage: false,
+  },
+  {
+    id: '17d81950d9c',
+    chapter: '平面向量',
+    question:
+      '正六邊形 $ABCDEF$，下列何者最小？\n(1) $\\xvector{AB}\\cdot\\xvector{AB}$ (2) $\\xvector{AB}\\cdot\\xvector{AC}$\n(3) $\\xvector{AB}\\cdot\\xvector{AD}$ (4) $\\xvector{AB}\\cdot\\xvector{AE}$\n(5) $\\xvector{AB}\\cdot\\xvector{AF}$',
+    answer: '(5)',
+    hasImage: false,
+  },
+  {
+    id: '17d81854653',
+    chapter: '平面向量',
+    question:
+      '$\\triangle ABC$ 中，$A(3,-2)$，$B(-1,-4)$，$C(6,-3)$，求：\n(1) $\\xvector{AB}$ (2) $\\xvector{AB}\\cdot\\xvector{AC}$ (3) $\\cos A$',
+    answer: '(1) $(-4,-2)$ (2) $-10$ (3) $-\\frac1{\\sqrt2}$',
+    hasImage: false,
+  },
+  {
+    id: '17d818642ba',
+    chapter: '平面向量',
+    question:
+      '$\\triangle ABC$ 中，$\\overline{AB}=8$，$\\overline{BC}=7$，$\\overline{CA}=6$，求 $\\xvector{AB}\\cdot\\xvector{BC}$。',
+    answer: '$-\\frac{77}2$',
+    hasImage: false,
+  },
+  {
+    id: '17d89a022b7',
+    chapter: '平面向量',
+    question:
+      '向量 $\\vector a=(1,-3)$，$\\vector b=(4,-2)$，若 $t\\vector a+\\vector b$ 與 $\\vector a$ 垂直，求 $t$。',
+    answer: '$-1$',
+    hasImage: false,
+  },
+  {
+    id: '17d89a22d8a',
+    chapter: '平面向量',
+    question:
+      '若 $|\\vector a|=2$，$|\\vector b|=3$，且 $\\vector a$ 和 $\\vector b$ 的夾角為 $120\\du$，求 $|2\\vector a+3\\vector b|$。',
+    answer: '$\\sqrt{61}$',
+    hasImage: false,
+  },
+  {
+    id: '17d89a3340f',
+    chapter: '平面向量',
+    question: '$x,y\\in\\mathbb R$，$2x-y=10$，求 $4x^2+9y^2$ 的最小值及此時的 $(x,y)$。',
+    answer: '$90$；$(\\frac92,-1)$',
+    hasImage: false,
+  },
+  {
+    id: '17d89a410b6',
+    chapter: '平面向量',
+    question:
+      '$x\\in\\mathbb R$，$\\vector a=(x,5)$，$\\vector b=(1,-3)$，若 $\\vector a$ 在 $\\vector b$ 上的正射影為 $(-2,6)$，求 $x$。',
+    answer: '$-5$',
+    hasImage: false,
+  },
+  {
+    id: '17d89a5461a',
+    chapter: '平面向量',
+    question:
+      '將向量 $\\vector a=(3,5)$ 分解為與向量 $\\vector b=(2,-1)$ 平行及垂直的兩個分量，若其中垂直的分量為 $\\vector n$，求 $\\vector n$。',
+    answer: '$(\\frac{13}5,\\frac{26}5)$',
+    hasImage: false,
+  },
+  {
+    id: '17d89a67967',
+    chapter: '平面向量',
+    question:
+      '設 $|\\vector a|=3$，$|\\vector b|=2$，且 $(2\\vector a-\\frac65\\vector b)\\perp(\\vector a+2\\vector b)$，求 $\\vector a$ 與 $\\vector b$ 的夾角。',
+    answer: '$120\\du$',
+    hasImage: false,
+  },
+  {
+    id: '17d89a91a02',
+    chapter: '平面向量',
+    question:
+      '設 $|\\vector u|=3$，$|\\vector v|=2$，$\\vector u\\cdot\\vector v=-3$，且 $\\vector u$ 與 $\\vector v$ 的夾角為 $\\theta$，則下列選項哪些正確？\n(1) $\\theta=60\\du$ (2) $\\theta=120\\du$\n(3) $|\\vector u+\\vector v|=\\sqrt7$ (4) $|\\vector u-\\vector v|=2\\sqrt5$\n(5) $|\\vector u+2\\vector v|=5$',
+    answer: '(2)(3)',
+    hasImage: false,
+  },
+  {
+    id: '17d89aac4ed',
+    chapter: '平面向量',
+    question:
+      '已知 $|\\vector a|=2$，$|\\vector b|=|\\vector c|=3$，且 $\\vector a+\\vector b+\\vector c=\\vector 0$，試求：\n(1) $\\vector a\\cdot\\vector c$ (2) $|3\\vector a+2\\vector b+4\\vector c|$',
+    answer: '(1) $-2$ (2) $4\\sqrt2$',
+    hasImage: false,
+  },
+  {
+    id: '17d89ac1364',
+    chapter: '平面向量',
+    question:
+      '$x,y\\in\\mathbb R$ 滿足 $3x-4y-1=0$，若 $(x,y)=(h,k)$ 時，$(x-1)^2+(y+2)^2$ 有最小值 $m$，求序組 $(h,k,m)$。',
+    answer: '$(-\\frac15,-\\frac25,4)$',
+    hasImage: false,
+  },
+  {
+    id: '17d89ad6428',
+    chapter: '平面向量',
+    question:
+      '設 $\\vector a=(x,4)$，$\\vector b=(3,y)$ 其中 $x,y\\in\\mathbb R$，若 $(x-1)^2+(y-2)^2=4$，求 $\\vector a\\cdot\\vector b$ 的最大值。',
+    answer: '$21$',
+    hasImage: false,
+  },
+  {
+    id: '17d89ae66d9',
+    chapter: '平面向量',
+    question:
+      '設 $\\vector a$ 與 $\\vector b$ 為非零向量，已知 $\\vector a$ 在 $2\\vector b$ 上的正射影為 $(2,-5)$，求 $2\\vector a$ 在 $-\\vector b$ 上的正射影。',
+    answer: '$(4,-10)$',
+    hasImage: false,
+  },
+  {
+    id: '17d89af267d',
+    chapter: '平面向量',
+    question: '$A(-2,4)$，$B(-4,-7)$，$C(1,8)$，求 $A$ 點在直線 $BC$ 上的投影點坐標。',
+    answer: '$(-\\frac12,\\frac72)$',
+    hasImage: false,
+  },
 ];

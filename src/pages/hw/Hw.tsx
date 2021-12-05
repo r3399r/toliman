@@ -7,18 +7,18 @@ import style from './Hw.module.scss';
 
 const Hw = () => {
   const ids: string[] = [
-    '17d136db6dc',
-    '17d136f797a',
-    '17d1371d25c',
-    '17d13730d6f',
-    '17d1374704e',
-    '17d13816531',
-    '17d1378a244',
-    '17d13799bfd',
-    '17d137b24b7',
-    '17d137d11bb',
-    '17d137e1f94',
-    '17d137fe6ec',
+    '17d89a022b7',
+    '17d89a22d8a',
+    '17d89a3340f',
+    '17d89a410b6',
+    '17d89a5461a',
+    '17d89a67967',
+    '17d89a91a02',
+    '17d89aac4ed',
+    '17d89ac1364',
+    '17d89ad6428',
+    '17d89ae66d9',
+    '17d89af267d',
   ];
 
   const addDefaultSrc = (ev: ChangeEvent<HTMLImageElement>) => {
