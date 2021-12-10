@@ -54,39 +54,27 @@ const Test = () => {
     <div className={style.content}>
       <h1>學測練習 一二冊</h1>
       <div>
-        <b>一、單選題(共 25 分；每題 5 分)</b>
+        <b>一、單選題(共 15 分；每題 5 分)</b>
       </div>
-      {displayQuestion('17d7e696c75', 1)}
-      {displayQuestion('17d7e5fc561', 2)}
-      {displayQuestion('17d7e6712d7', 3)}
-      <div style={{ pageBreakAfter: 'always' }} />
-      {displayQuestion('17d7e695827', 4)}
-      {displayQuestion('17d7e6bfc5a', 5)}
+      {displayQuestion('17da24b9ca4', 1)}
+      {displayQuestion('17da24d4535', 2)}
+      {displayQuestion('17da24eb67f', 3)}
       <div>
-        <b>二、多選題(共 25 分；全對 5 分，錯一個 3 分，錯兩個 1 分，錯三個以上 0 分)</b>
+        <b>二、多選題(共 15 分；全對 5 分，錯一個 3 分，錯兩個 1 分，錯三個以上 0 分)</b>
       </div>
-      {displayQuestion('17d7e6e29d8', 6)}
-      {displayQuestion('17d7ea25392', 7)}
-      <div style={{ pageBreakAfter: 'always' }} />
-      {displayQuestion('17d7ea6dd5a', 8)}
-      {displayQuestion('17d7eea35f1', 9)}
-      <div style={{ pageBreakAfter: 'always' }} />
-      {displayQuestion('17d7eef7b51', 10)}
+      {displayQuestion('17da2559da6', 4)}
+      {displayQuestion('17da25855c5', 5)}
+      {displayQuestion('17da25a5907', 6)}
       <div>
-        <b>二、填充題(共 35 分；每題 5 分)</b>
+        <b>二、填充題(共 15 分；每題 5 分)</b>
       </div>
-      {displayQuestion('17d7efc3583', 11)}
-      {displayQuestion('17d7efc5467', 12)}
-      {displayQuestion('17d7efc8442', 13)}
-      <div style={{ pageBreakAfter: 'always' }} />
-      {displayQuestion('17d7efeb202', 14)}
-      {displayQuestion('17d7f032b03', 15)}
-      {displayQuestion('17d7f04d466', 16)}
-      {displayQuestion('17d7f0de9a2', 17)}
+      {displayQuestion('17da25ba285', 7)}
+      {displayQuestion('17da25f01c8', 8)}
+      {displayQuestion('17da2605950', 9)}
       <div>
-        <b>四、混合題(共 15 分，第一題 7 分，第二題 8 分，將部份給分)</b>
+        <b>四、混合題(共 15 分，第一題 6 分，第二題 9 分，將部份給分)</b>
       </div>
-      {displayQuestion('17d7f130c2f', 18, '1cm')}
+      {displayQuestion('17da247200f', 10)}
     </div>
   );
 };

@@ -15958,4 +15958,164 @@ export const bank: Question[] = [
     answer: '$(-\\frac12,\\frac72)$',
     hasImage: false,
   },
+  {
+    id: '17da21136b8',
+    chapter: '三角比',
+    question:
+      '$\\triangle ABC$ 中，已知 $\\angle A=90\\du$，$\\overline{AB}=3$，$\\overline{AC}=4$，今分別以 $\\overline{BC}$ 與 $\\overline{AC}$ 為邊長往外作正方形 $BDEC$ 與 $ACFG$，如圖，請選出正確的選項。\n(1) $\\sin\\angle ACD=-\\frac{7\\sqrt2}{10}$\n(2) $\\cos\\angle ECF=-\\frac35$\n(3) $\\triangle ACE$ 的面積為 $8$\n(4) $\\triangle CEF$ 的面積為 $8$\n(5) $\\overline{EF}=\\sqrt{73}$',
+    answer: '(5)',
+    hasImage: true,
+  },
+  {
+    id: '17da21496cb',
+    chapter: '排列組合與機率',
+    question:
+      '小明製作 $8$ 張刮刮樂，其中三張有獎金，分別為 $4000$ 元，$2000$ 元，$1000$ 元，其餘 $5$ 張均為 $0$ 元，若小明將這 $8$ 張刮刮樂給 $A$、$B$、$C$、$D$ 四人，每人 $2$ 張，則得獎的情形有幾種？\n(1) $60$ (2) $72$ (3) $96$ (4) $120$ (5) $216$',
+    answer: '(1)',
+    hasImage: false,
+  },
+  {
+    id: '17da2301857',
+    chapter: '三角比',
+    question:
+      '如圖，在坐標平面上的 $\\triangle ABC$ 中，以 $B$、$C$ 為直徑兩端點作一圓交 $\\overline{AC}$ 於 $D$ 點，並連接 $\\overline{BD}$，若 $\\overline{AB}\\times\\overline{BC}=65\\sqrt2$，且 $\\overline{BD}=5$，則 $\\triangle ABC$ 的外接圓半徑為？\n(1) $5\\sqrt2$ (2) $\\frac{17}2$ (3) $\\frac{13\\sqrt2}2$ (4) $\\frac{25\\sqrt2}2$ (5) $13\\sqrt2$',
+    answer: '(3)',
+    hasImage: true,
+  },
+  {
+    id: '17da235355c',
+    chapter: '數據分析',
+    question:
+      '小華想要更換新的手機合約，市面上三種兩年期的合約如下：\n方案 $A$：前 $6$ 個月每月 $399$，第 $7\\sim24$ 個月每月 $699$\n方案 $B$：第一個月 $699$，之後每個月都比前一個月便宜 $10$ 元\n方案 $C$：每個月 $749$，簽約即送價值 $3000$ 元禮券\n假設將方案 $A$、$B$、$C$ 每個月的花費視為 $1$ 個數據點，考慮 $A$、$B$、$C$ 數據的統計資料，禮券可視為現金，下列哪些選項正確？\n(1) 使用方案 $C$ 最為划算\n(2) 使用方案 $B$ 最為划算\n(3) 方案 $B$ 的全距 $>$ 方案 $A$ 的全距\n(4) 方案 $A$ 的中位數 $>$ 方案 $B$ 的中位數\n(5) 方案 $A$ 的標準差較方案 $B$ 的標準差高',
+    answer: '(2)(4)(5)',
+    hasImage: false,
+  },
+  {
+    id: '17da2373a0b',
+    chapter: '三角比',
+    question:
+      '如圖所示，已知 $\\angle BAC=90\\du$，$\\overline{AH}=3$，$\\overline{AC}=\\overline{CD}=5$，且 $\\overline{AH}\\perp\\overline{BD}$，試問下列哪些選項是正確的？\n(1) $\\cos\\angle ACD=-\\frac35$\n(2) $\\sin\\angle CAD=\\frac3{\\sqrt{10}}$\n(3) $\\cos\\angle BAD=-\\frac1{\\sqrt{10}}$\n(4) $\\overline{AB}<3.5$\n(5) $\\overline{BH}<2.5$',
+    answer: '(3)(5)',
+    hasImage: true,
+  },
+  {
+    id: '17da23c165e',
+    chapter: '數據分析',
+    question:
+      '小黑做統計研究發現，數據 $x_i$ 與 $y_i$，$i=1,3,\\cdots,n$ 似乎有某種關係，但不像線性關係。他對 $x_i$ 進行變數變換：$t_i=x_i^2$，並得到 $y$ 對 $t$ 的迴歸直線方程式為 $y=2t$，$y$ 與 $t$ 的相關係數 $r_{(t,y)}=0.92$，下列敘述哪些正確？\n(1) $y$ 的標準差大於 $t$ 的標準差\n(2) 轉換前後的相關係數 $r_{(x,y)}$ 與 $r_{(t,y)}$ 必定相等\n(3) $t$ 與 $y$ 的平均數 $(\\mu_t,\\mu_y)=(0,0)$\n(4) 將 $y$ 與 $t$ 分別作數據標準化，此時 $y$ 對 $t$ 的迴歸直線方程式為 $y=0.92t$\n(5) 對 $y_i$ 做 $p_i=\\sqrt{y_i}$ 的變數變換，並分析 $x_i$ 與 $p_i$ 可得到相同的相關係數',
+    answer: '(1)(4)',
+    hasImage: false,
+  },
+  {
+    id: '17da23d8644',
+    chapter: '三角比',
+    question:
+      '已知 $\\cos\\theta\\ne0$，若 $P(3\\cos\\theta-2,2\\sin\\theta)$ 為直線 $y=3x+6$ 上一點，求 $\\tan\\theta$。',
+    answer: '$\\frac92$',
+    hasImage: false,
+  },
+  {
+    id: '17da23f7378',
+    chapter: '排列組合與機率',
+    question:
+      '坐標平面上由點 $A(-3,-1)$ 開始，依每小正方格的對角線行走，只許「右上」或「右下」前進至點 $B(4,2)$，求全部有幾種走法。(圖為其中一種走法)',
+    answer: '$21$',
+    hasImage: true,
+  },
+  {
+    id: '17da242c625',
+    chapter: '直線與圓',
+    question:
+      '有兩排相距 $40$ 公尺的公共住宅，在地圖上分別位於兩平行直線 $L_1$ 與 $L_2$ 上，如圖，已知在兩排住宅之間的 $E$ 點架設了一台天線，只要與天線之間的距離不超過 $50$ 公尺皆為有效的接收範圍。設兩排公共住宅的有效接收範圍，在地圖上分別位於 $\\overline{AB}$ 與 $\\overline{CD}$ 上，若 $\\frac{\\overline{AB}}{\\overline{CD}}=\\frac{\\sqrt6}2$，求此天線距離位於直線 $L_1$ 上的公共住宅最近為幾公尺？',
+    answer: '$10$',
+    hasImage: true,
+  },
+  {
+    id: '17da247200f',
+    chapter: '數與式',
+    question:
+      '農夫有一塊田地，前方為矩形 $ABCD$，其中 $\\overline{AB}=10$，$\\overline{BC}=3$，$E$ 為 $\\overline{CD}$ 邊上一點，直線 $\\overline{AE}$ 交 $\\overline{BC}$ 的延長線於 $F$ 點。農夫規劃其中兩塊三角型田地 $\\triangle ADE$ 與 $\\triangle CEF$ 種香蕉，其餘的四邊形 $ABCE$ 田地種柚子。\na. 下列敘述何者正確？(單選)\n(1) 圖中恰有兩個三角形相似\n(2) 種香蕉的田地面積可能與種柚子的田地面積相等\n(3) 種香蕉的田地面積有最大值\n(4) 當 $\\triangle ADE$ 與 $\\triangle CEF$ 面積相等時，種香蕉的面積為最小\n(5) 種柚子面積必大於種香蕉的面積\nb. 種植香蕉的面積最小值為何？',
+    answer: 'a. (2) b. $30\\sqrt2-30$',
+    hasImage: false,
+  },
+  {
+    id: '17da24b9ca4',
+    chapter: '多項式函數',
+    question:
+      '設 $a,b\\in\\mathbb R$，且二次函數 $f(x)=a(x-3)^2+b$ 滿足 $f(2)<0$，$f(1)>0$，若方程式 $f(x)=0$ 有兩個實根 $\\alpha,\\beta$，且 $\\alpha>\\beta$，則下列何者正確？',
+    answer: '(3)',
+    hasImage: false,
+  },
+  {
+    id: '17da24d4535',
+    chapter: '數與式',
+    question:
+      '試求滿足 $5^{|x+2|-|x-3|}\\ge5^{\\frac32}$ 的 $x$ 值的範圍。\n(1) $x\\ge\\frac52$\n(2) $x\\le\\frac52$\n(3) $x\\le\\frac54$\n(4) $x\\ge\\frac54$\n(5) $x\\ge-\\frac54$',
+    answer: '(4)',
+    hasImage: false,
+  },
+  {
+    id: '17da24eb67f',
+    chapter: '數列級數',
+    question:
+      '設等差數列 $\\langle a_n\\rangle$，前 $56$ 項中，其奇數項的和為 $3346$，其偶數項的和為 $3360$，試求其前 $16$ 項的和。\n(1) $878$ (2) $1756$ (3) $1816$ (4) $2186$ (5) $3512$',
+    answer: '(2)',
+    hasImage: false,
+  },
+  {
+    id: '17da2559da6',
+    chapter: '數據分析',
+    question:
+      "職籃 NBA 球員林來瘋，假設他近五場上場時間與得分如下表：\n$$\\begin{array}{|c|c|}\\hline場次&第一場&第二場&第三場&第四場&第五場\\\\\\hline上場時間(X)&25&30&20&25&25\\\\\\hline得分(Y)&30&30&25&35&30\\\\\\hline\\end{array}$$\n若資料 $X$ 的標準差為 $\\sigma_x$，資料 $Y$ 的標準差為 $\\sigma_y$，$Y$ 對 $X$ 的迴歸直線方程式為 $y=bx+a$，請依此選出正確的選項。\n(1) $\\sigma_x>\\sigma_y$\n(2) 若 $X$ 與 $Y$ 的相關係數為 $r$，則 $0.45<r<0.55$\n(3) $a+b=18$\n(4) 若資料 $X'$ 與 $Y'$ 滿足 $X'=2X-108$，$Y'=-\\frac12Y+108$，且 $X'$ 和 $Y'$ 的相關係數為 $r'$，則 $-0.56<r'<-0.44$\n(5) 若第六場比賽，總教練讓他上場 $30$ 分鐘，依迴歸直線方程式預測他的得分為 $30$ 分",
+    answer: '(2)(3)(4)',
+    hasImage: false,
+  },
+  {
+    id: '17da25855c5',
+    chapter: '排列組合與機率',
+    question:
+      '小明想要布置床頭櫃，已知他分別有初因、魯夫、小傑等三種不同公仔各一個；四個相同蛋黃哥娃娃；還有一個鬧鐘，從這當中任選若干個擺放在床頭櫃上排成一列，不考慮間隔距離，下列敘述哪些正確？\n(1) 任選 $4$ 個相異物品的排法有 $120$ 種\n(2) 任選 $3$ 個物品的排法有 $72$ 種\n(3) 若必定要排鬧鐘，並且含鬧鐘共排 $3$ 件物品，有 $39$ 種\n(4) 選擇一個公仔、一個娃娃、鬧鐘可有可無的排法有 $36$ 種\n(5) 隨機選擇 $5$ 件物品，恰選出 $2$ 個蛋黃哥的機率為 $\\frac37$',
+    answer: '(1)(3)(5)',
+    hasImage: false,
+  },
+  {
+    id: '17da25a5907',
+    chapter: '數列級數',
+    question:
+      '有一數列 $\\langle a_n\\rangle$，已知 $a_1=\\frac12$，$a_n a_{n-1}-5a_n+3a_{n-1}+1=0$，其中 $n$ 為大於 $1$ 的正整數，下列哪些正確？\n(1) $a_2+a_3>1$\n(2) $a_6=\\frac23$\n(3) $a_{108}<0.98$\n(4) $(a_{15}-5)(a_{16}+3)<-17$\n(5) $(a_{108}-5)(a_{109}+3)<110$',
+    answer: '(1)(3)(5)',
+    hasImage: false,
+  },
+  {
+    id: '17da25ba285',
+    chapter: '多項式函數',
+    question:
+      '設三次實係數多項式 $f(x)=x^3+ax+b$，已知不等式 $f(x)<52$ 的解為 $x<-\\sqrt3$ 或 $0<x<\\sqrt3$，求數對 $(a,b)$。',
+    answer: '$(-3,52)$',
+    hasImage: false,
+  },
+  {
+    id: '17da25f01c8',
+    chapter: '數據分析',
+    question:
+      '位於合歡山的武嶺為臺灣公路的最高點，也是著名的單車聖地，標高為海拔 $3275$ 公尺，已知坡度的定義為：$\\frac{上升高度}{水平移動距離}\\times100\\%$，為了方便測量，我們可以用：$\\frac{上升高度}{路徑長}\\times100\\%$ 作為坡度的近似，已知如果由埔里出發，路徑長為 $53.5$ 公里，埔里的海拔為 $475$ 公尺，試利用坡度近似公式計算埔里至合歡山武嶺的平均坡度。(四捨五入至小數點後第二位)',
+    answer: '$5.23\\%$',
+    hasImage: false,
+  },
+  {
+    id: '17da2605950',
+    chapter: '數列級數',
+    question:
+      '在 $109$ 與 $291$ 之間插入 $n$ 項，使所成的 $n+2$ 個數成一等差數列，若要使此數列的總和超過 $2020$，則 $n$ 至少為？',
+    answer: '$9$',
+    hasImage: false,
+  },
+  {
+    id: '17da261e00a',
+    chapter: '直線與圓',
+    question:
+      '已知一圓 $\\Gamma:x^2+y^2-10x-6y+25=0$ 和兩定點 $A(0,0)$、$B(10,0)$，今有一點 $C$，使得圓落在 $\\triangle ABC$ 內 (含邊界)，已知 $C$ 點的坐標為 $(5,k)$，求 $k$ 的最小值。',
+    answer: '$\\frac{75}8$',
+    hasImage: false,
+  },
 ];
