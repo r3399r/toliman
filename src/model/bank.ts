@@ -16209,4 +16209,65 @@ export const bank: Question[] = [
     answer: '$-15$',
     hasImage: false,
   },
+  {
+    id: '17db751ae42',
+    chapter: '平面向量',
+    question: '$x,y\\in\\mathbb R$，已知 $x^2+y^2=9$，求 $3x-4y+5$ 的最大值與最小值。',
+    answer: '$20$；$-10$',
+    hasImage: false,
+  },
+  {
+    id: '17db75865a4',
+    chapter: '平面向量',
+    question:
+      '$\\triangle ABC$ 中，$\\overline{AB}=4$，$\\overline{BC}=6\\sqrt2$，$\\overline{CA}=8$，$O$ 是外心，$\\xvector{AO}=x\\xvector{AB}+y\\xvector{AC}$，求數對 $(x,y)$。',
+    answer: '$(\\frac8{21},\\frac{10}{21})$',
+    hasImage: false,
+  },
+  {
+    id: '17db7595335',
+    chapter: '平面向量',
+    question:
+      '$\\triangle ABC$ 中，$\\overline{AB}=4$，$\\overline{BC}=5$，$\\overline{CA}=6$，$H$ 是垂心，$\\xvector{AH}=x\\xvector{AB}+y\\xvector{AC}$，求數對 $(x,y)$。',
+    answer: '$(\\frac{243}{315},\\frac{27}{315})$',
+    hasImage: false,
+  },
+  {
+    id: '17db75b1bb5',
+    chapter: '平面向量',
+    question:
+      '直線參數式 $\\begin{cases}x=-4+3t\\\\y=6-2t\\end{cases},t\\in\\mathbb R$，問：\n(1) 與 $x$ 軸的交點坐標 (2) 化為標準式',
+    answer: '(1) $(5,0)$ (2) $2x+3y=10$',
+    hasImage: false,
+  },
+  {
+    id: '17db75c85f1',
+    chapter: '平面向量',
+    question:
+      '兩直線參數式 $L_1:\\begin{cases}x=9t+5\\\\y=at+2\\end{cases}$，$t\\in\\mathbb R$ 與 $L_2:\\begin{cases}x=3s+b\\\\y=-2s-2\\end{cases}$，$s\\in\\mathbb R$，若 $L_1$ 與 $L_2$ 重合，求數對 $(a,b)$。',
+    answer: '$(-6,11)$',
+    hasImage: false,
+  },
+  {
+    id: '17db75cfa5a',
+    chapter: '平面向量',
+    question: '若平面向量 $(-2,3)$ 為直線 $kx+(2-k)y=1$ 的法向量，求 $k$。',
+    answer: '$-4$',
+    hasImage: false,
+  },
+  {
+    id: '17db75d5648',
+    chapter: '平面向量',
+    question: '平面上一直線的法向量為 $(3,-5)$，且過點 $(7,3)$，求直線方程式。',
+    answer: '$3x-5y=6$',
+    hasImage: false,
+  },
+  {
+    id: '17db75f0ae2',
+    chapter: '平面向量',
+    question:
+      '兩直線 $L_1:\\begin{cases}x=5-t\\\\y=3-5t\\end{cases}$，$t\\in\\mathbb R$ 與 $L_2:\\begin{cases}x=6+3s\\\\y=4+2s\\end{cases}$，$s\\in\\mathbb R$，求 $L_1$ 與 $L_2$ 的銳夾角。',
+    answer: '$45\\du$',
+    hasImage: false,
+  },
 ];
