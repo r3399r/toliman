@@ -896,7 +896,7 @@ export const bank: Question[] = [
     id: '179065c0fdf',
     chapter: '數據分析',
     question:
-      '已知數值資料 $x_1,x_2,\\dots,x_n$ 之平均數為 $15$，標準差為 $4$，若 $y_i=–3x_i+1$ ($i=1,2,\\dots,n$)，則 $y_1,y_2,\\dots,y_n$ 之標準差為？',
+      '已知數值資料 $x_1,x_2,\\dots,x_n$ 之平均數為 $15$，標準差為 $4$，若 $y_i=-3x_i+1$ ($i=1,2,\\dots,n$)，則 $y_1,y_2,\\dots,y_n$ 之標準差為？',
     answer: '$12$',
     hasImage: false,
   },
@@ -912,7 +912,7 @@ export const bank: Question[] = [
     id: '179065e0be4',
     chapter: '數據分析',
     question:
-      '某一國家近四年的經濟年成長率分別為 $60\\%$、$80\\%$、$–10\\%$、$–20\\%$，則該國家近四年每一年的平均經濟成長率為多少 $\\%$？',
+      '某一國家近四年的經濟年成長率分別為 $60\\%$、$80\\%$、$-10\\%$、$-20\\%$，則該國家近四年每一年的平均經濟成長率為多少 $\\%$？',
     answer: '$20\\%$',
     hasImage: false,
   },
@@ -936,7 +936,7 @@ export const bank: Question[] = [
     id: '17906631b9a',
     chapter: '數據分析',
     question:
-      '觀察下列四組數據(每組 $10$ 筆)\n $X_1: 1, 1, 1, 1, 1, –5, –5, –5, –5, –5$\n $X_2: –2, –2, –2, –2, –2, 10, 10, 10, 10, 10$\n $X_3: 2, 2, 2, 5, 5, 5, 5, 8, 8, 8$\n $X_4: –1, –1, –1, –1, –1, 1, 1, 1, 1, 1$\n其標準差分別為 $\\sigma_1,\\sigma_2,\\sigma_3,\\sigma_4$，則這四者的大小關係為何？',
+      '觀察下列四組數據(每組 $10$ 筆)\n $X_1: 1, 1, 1, 1, 1, -5, -5, -5, -5, -5$\n $X_2: -2, -2, -2, -2, -2, 10, 10, 10, 10, 10$\n $X_3: 2, 2, 2, 5, 5, 5, 5, 8, 8, 8$\n $X_4: -1, -1, -1, -1, -1, 1, 1, 1, 1, 1$\n其標準差分別為 $\\sigma_1,\\sigma_2,\\sigma_3,\\sigma_4$，則這四者的大小關係為何？',
     answer: '$\\sigma_2>\\sigma_1>\\sigma_3>\\sigma_4$',
     hasImage: false,
   },
@@ -1009,7 +1009,7 @@ export const bank: Question[] = [
     chapter: '數據分析',
     question:
       '數學老師記錄了班上五位同學每週上網時數($x$)與段考數學成績($y$)如下表。\n $\\begin{array} {|c|c|}\\hline 學生 & 甲 & 乙 & 丙 & 丁 & 戊 \\\\ \\hline x & 14 & 17 & 20 & 23 & 26 \\\\ \\hline  y & 88 & 70 & 79 & 61 & 52 \\\\ \\hline \\end{array}$\n設段考數學成績 $y$ 對每週上網時數 $x$ 的迴歸值線為 $y=a+bx$，試回答下列問題：\n(1) $b$ 的值為？\n(2)設本班學生小華每週上網時數為 $19$ 小時，其段考數學成績的預測值為？',
-    answer: '(1) $–2.7$ (2) $72.7$',
+    answer: '(1) $-2.7$ (2) $72.7$',
     hasImage: false,
   },
   {
@@ -12111,7 +12111,7 @@ export const bank: Question[] = [
   {
     id: '17ca0680d14',
     chapter: '選修數甲',
-    question: '若 $x^3+4x^2+7$ 是 $f(x)$ 的反導函數，求 $f(x)$  的導函數 $f’(x)$。',
+    question: "若 $x^3+4x^2+7$ 是 $f(x)$ 的反導函數，求 $f(x)$  的導函數 $f'(x)$。",
     answer: '$6x+8$',
     hasImage: false,
   },
@@ -12154,7 +12154,7 @@ export const bank: Question[] = [
   {
     id: '17c9e0517b4',
     chapter: '選修數甲',
-    question: '三次多項式函數 $f(x)$ 滿足 $f’(1)=f’(5)=-2$，$f’(4)=1$，求 $f(6)-f(0)$。',
+    question: "三次多項式函數 $f(x)$ 滿足 $f'(1)=f'(5)=-2$，$f'(4)=1$，求 $f(6)-f(0)$。",
     answer: '$-6$',
     hasImage: false,
   },
@@ -16116,6 +16116,97 @@ export const bank: Question[] = [
     question:
       '已知一圓 $\\Gamma:x^2+y^2-10x-6y+25=0$ 和兩定點 $A(0,0)$、$B(10,0)$，今有一點 $C$，使得圓落在 $\\triangle ABC$ 內 (含邊界)，已知 $C$ 點的坐標為 $(5,k)$，求 $k$ 的最小值。',
     answer: '$\\frac{75}8$',
+    hasImage: false,
+  },
+  {
+    id: '17db6950035',
+    chapter: '多項式函數',
+    question:
+      '請利用綜合除法求下列各小題的商式和餘式：\n(1) $-2x^4+3x^3+5x-3$ 除以 $x-2$\n(2) $3x^3+41x^2+25x-1$ 除以 $x+13$',
+    answer: '(1) $-2x^3-x^2-2x+1$；$-1$ (2) $3x^2+2x-1$；$12$',
+    hasImage: false,
+  },
+  {
+    id: '17db6987f37',
+    chapter: '多項式函數',
+    question:
+      '若多項式 $f(x)=2x^3+x^2-3x+1$ 可表示成 $a(x-2)^3+b(x-2)^2+c(x-2)+d$，求：\n(1) 序組 $(a,b,c,d)$\n(2) 計算 $f(2.01)$ 的近似值，四捨五入至小數點後第二位',
+    answer: '(1) $(2,13,25,15)$ (2) $15.25$',
+    hasImage: false,
+  },
+  {
+    id: '17db69a01e4',
+    chapter: '多項式函數',
+    question:
+      '設 $f(x)=x^3-8x^2+25x-32$，將 $f(x)$ 表成 $a(x-3)^3+b(x-3)^2+c(x-3)+d$，求：\n(1) 序組 $(a,b,c,d)$\n(2) $f(2.99)$ 的近似值，四捨五入至小數點後第二位',
+    answer: '(1) $(1,1,4,-2)$ (2) $-2.04$',
+    hasImage: false,
+  },
+  {
+    id: '17db69c9751',
+    chapter: '多項式函數',
+    question: '設多項式 $f(x)=3x^{11}+7x^6-6x-8$，試求 $f(x)$ 除以 $x+1$ 之餘式。',
+    answer: '$2$',
+    hasImage: false,
+  },
+  {
+    id: '17db69d4f27',
+    chapter: '多項式函數',
+    question: '設 $f(x)=(9x^3-4x-2)^5$，試求 $f(x)$ 除以 $3x+2$ 之餘式。',
+    answer: '$-32$',
+    hasImage: false,
+  },
+  {
+    id: '17db69e3379',
+    chapter: '多項式函數',
+    question: '設 $f(x)=x^{2010}+ax^{99}+7x-8$ 除以 $x+1$ 之餘式為 $6$，求 $a$。',
+    answer: '$-20$',
+    hasImage: false,
+  },
+  {
+    id: '17db6a127df',
+    chapter: '多項式函數',
+    question: '已知 $f(x)=3x^5-22x^4+12x^3-33x^2$$-10x-5$，求 $f(7)$。',
+    answer: '$23$',
+    hasImage: false,
+  },
+  {
+    id: '17db6a2a106',
+    chapter: '多項式函數',
+    question:
+      '求 $3\\times(-\\frac23)^5-4\\times(-\\frac23)^4+5\\times(-\\frac23)^3$$+3\\times(-\\frac23)^2+7\\times(-\\frac23)+16$ 之值。',
+    answer: '$10$',
+    hasImage: false,
+  },
+  {
+    id: '17db6a43a24',
+    chapter: '多項式函數',
+    question:
+      '已知多項式 $f(x)$ 除以 $x+1$ 的餘式為 $-8$，除以 $x-2$ 的餘式為 $1$，求 $f(x)$ 除以 $(x+1)(x-2)$ 之餘式。',
+    answer: '$3x-5$',
+    hasImage: false,
+  },
+  {
+    id: '17db6a58a3a',
+    chapter: '多項式函數',
+    question:
+      '已知 $x^4+2x^3+5x-7$ 除以多項式 $g(x)$ 的商式為 $x^3-x^2+3x-4$，餘式為 $5$，求 $g(x)$。',
+    answer: '$x+3$',
+    hasImage: false,
+  },
+  {
+    id: '17db6a65a45',
+    chapter: '多項式函數',
+    question:
+      '下列何者是 $2x^4+x^3-8x^2-5x+2$ 的因式？\n(1) $x+1$ (2) $x-1$ (3) $x+2$\n(4) $x-2$ (5) $x+4$',
+    answer: '(1)(4)',
+    hasImage: false,
+  },
+  {
+    id: '17db6a7ad09',
+    chapter: '多項式函數',
+    question: '設 $f(x)$ 為三次多項式，若 $f(-1)=f(3)=0$，且 $f(1)=-12$，$f(0)=-3$，求 $f(2)$。',
+    answer: '$-15$',
     hasImage: false,
   },
 ];
