@@ -17342,4 +17342,25 @@ export const bank: Question[] = [
     answer: '$5x-7z-3=0$',
     hasImage: false,
   },
+  {
+    id: '17d895f3d08',
+    chapter: '空間中的平面與直線',
+    question: '求兩平行平面 $(x-y+2z+3)(3x-3y+8z+3)=0$ 的距離。',
+    answer: '$\\frac{3\\sqrt6}8$',
+    hasImage: false,
+  },
+  {
+    id: '17d895fb6de',
+    chapter: '空間中的平面與直線',
+    question: '試求與 $x-y+z=2$ 平行且距離為 $1$ 的平面方程式。',
+    answer: '$x-y+z=2\\pm\\sqrt3$',
+    hasImage: false,
+  },
+  {
+    id: '17d898766c2',
+    chapter: '空間中的平面與直線',
+    question: '試求過 $x+2y+z=4$ 與 $3x-y+2z=1$ 的交線，且與平面 $2x+z=1$ 垂直的平面方程式。',
+    answer: '$x-19y-2z+29=0$',
+    hasImage: false,
+  },
 ];
