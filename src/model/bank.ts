@@ -16279,6 +16279,14 @@ export const bank: Question[] = [
     hasImage: false,
   },
   {
+    id: '17dc2138ad5',
+    chapter: '平面向量',
+    question:
+      '$\\triangle ABC$ 中，已知 $(a+1)\\xvector{AB}+(2a-b)\\xvector{BC}+(a+b+2)\\xvector{CA}=\\vector0$，求數對 $(a,b)$。',
+    answer: '$(0,-1)$',
+    hasImage: false,
+  },
+  {
     id: '17d88b3c86d',
     chapter: '空間概念',
     question:
