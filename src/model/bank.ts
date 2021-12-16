@@ -13864,7 +13864,7 @@ export const bank: Question[] = [
     chapter: '空間向量',
     question:
       '空間中 $\\vector{a}=(1,2,2)$、$\\vector{b}=(4,0,3)$ 與 $\\vector{a}\\times\\vector{b}$ 共起點張成平行六面體，求此平行六面體的表面積及體積。',
-    answer: '$90\\sqrt4$；$125$\n\n',
+    answer: '$90\\sqrt4$；$125$',
     hasImage: false,
   },
   {
@@ -13872,7 +13872,7 @@ export const bank: Question[] = [
     chapter: '空間向量',
     question:
       '坐標空間中有一個直立三角柱 $ABC-DEF$ 位於第一掛限，已知 $A(3,1,2)$、$B(3,4,1)$、$C(1,1,3)$，$\\overline{AD}=\\overline{BE}=\\overline{CF}=14$，且 $\\overline{AD}$、$\\overline{BE}$、$\\overline{CF}$ 均與平面 $ABC$ 垂直，請問下列各選項哪些為真？\n(1) $\\xvector{AD}=(3,2,6)$ (2) $F$ 坐標為 $(7,5,15)$\n(3) $\\triangle ABC$ 面積為 $7$\n(4) 三角柱 $ABC-DEF$ 的體積為 $49$\n(5) 三角柱 $ABC-DEF$ 的體積是四面體 $ABCD$ 的 $6$ 倍',
-    answer: '(2)(4)\n\n',
+    answer: '(2)(4)',
     hasImage: false,
   },
   {
@@ -14373,7 +14373,7 @@ export const bank: Question[] = [
   {
     id: '17d2b952ea9',
     chapter: '複數與複數平面',
-    question: '化簡 $5(3-2i)-2i(1-4i)+(6+5i)(3+4i)$。\n\n\n',
+    question: '化簡 $5(3-2i)-2i(1-4i)+(6+5i)(3+4i)$。',
     answer: '$5+27i$',
     hasImage: false,
   },
@@ -16268,6 +16268,1078 @@ export const bank: Question[] = [
     question:
       '兩直線 $L_1:\\begin{cases}x=5-t\\\\y=3-5t\\end{cases}$，$t\\in\\mathbb R$ 與 $L_2:\\begin{cases}x=6+3s\\\\y=4+2s\\end{cases}$，$s\\in\\mathbb R$，求 $L_1$ 與 $L_2$ 的銳夾角。',
     answer: '$45\\du$',
+    hasImage: false,
+  },
+  {
+    id: '17dc1655cd1',
+    chapter: '平面向量',
+    question:
+      '$\\triangle ABC$ 中，$\\overline{AB}=6$，$\\overline{BC}=4$，$\\overline{CA}=3$，設 $\\angle A$ 的分角線交 $\\overline{BC}$ 於 $D$，求 $\\overline{AD}$。',
+    answer: '$\\frac{\\sqrt{130}}3$',
+    hasImage: false,
+  },
+  {
+    id: '17d88b3c86d',
+    chapter: '空間概念',
+    question:
+      '是非題：\n(1) 過已知平面外一點，恰有一直線與此平面平行\n(2) 過已知直線外一點，恰有一平面與此直線垂直\n(3) 空間中相異三點決定唯一的平面\n(4) 相異平面 $E_1、E_2$ 交於一線 $L$，若平面 $E$ 與 $L$ 垂直，則 $E$ 必與 $E_1$、$E_2$ 都垂直\n(5) 空間中直線 $L$ 與 $M$ 相交且垂直，若 $M$ 在平面 $E$ 上，則 $L$ 也必與 $E$ 垂直',
+    answer: 'xoxox',
+    hasImage: false,
+  },
+  {
+    id: '17d88b52dbe',
+    chapter: '空間概念',
+    question:
+      '是非題：\n(1) 過已知平面外一點，恰有一平面與此平面平行\n(2) 若兩相異直線決定唯一的平面，則此兩直線交於一點\n(3) 給空間中兩相異平面，則必存在平面與此兩平面均垂直\n(4) 給空間中兩相異直線，則必存在直線與此兩直線均垂直\n(5) 若空間中直線 $L$ 與平面 $E$ 互相垂直，則包含 $L$ 的平面必與 $E$ 垂直',
+    answer: 'oxooo',
+    hasImage: false,
+  },
+  {
+    id: '17d6a825eda',
+    chapter: '空間概念',
+    question:
+      '下列敘述何者正確？\n(1) 空間中不相交的兩直線必會平行\n(2) 過已知平面外一點，恰有一平面與此平面垂直\n(3) 過已知直線外一點，恰有一平面與此直線平行\n(4) 垂直於同一平面的兩直線必互相平行\n(5) 若空間中直線 $L$ 與平面 $E$ 交於一點，則存在唯一的平面包含 $L$ 且與 $E$ 垂直',
+    answer: '(4)',
+    hasImage: false,
+  },
+  {
+    id: '17d88b9aed4',
+    chapter: '空間概念',
+    question:
+      '下列敘述哪些正確？\n(1) 在空間中，一線段的垂直平分線只有一條\n(2) 設平面 $E$ 與直線 $L$ 相交於 $A$ 點，若平面 $E$ 上有兩條通過 $A$ 點的相異直線均與 $L$ 垂直，則 $L\\perp E$\n(3) 給定一平面 $E$ 及其外一點 $P$，有無限多個平面通過 $P$ 點且與 $E$ 垂直\n(4) 設直線 $L_1$、$L_2$ 分別在平面 $E_1$、$E_2$ 上，若 $L_1\\parallel L_2$，則 $E_1\\parallel E_2$\n(5) 若直線 $L$ 垂直平面 $E$，則含 $L$ 之每一平面均垂直平面 $E$',
+    answer: '(2)(3)(5)',
+    hasImage: false,
+  },
+  {
+    id: '17d8d7b03c9',
+    chapter: '空間概念',
+    question:
+      '如圖，長方體 $ABCD-EFGH$ 共有 $12$ 個邊，試求：\n(1) 與其中某一邊互相歪斜的邊共有幾個？\n(2) 設長為 $a$，寬為 $b$，高為 $c$，求通過內部對角線長，即任兩頂點間的最大距離。',
+    answer: '(1) $4$ (2) $\\sqrt{a^2+b^2+c^2}$',
+    hasImage: true,
+  },
+  {
+    id: '17d8d7b59f6',
+    chapter: '空間概念',
+    question:
+      '空心的長方體三邊長為 $4$、$5$、$8$，$\\overline{AB}$ 為通過內部的對角線，則：\n(1) 一隻蜜蜂在內部由 $A$ 飛到 $B$，求最短路徑。\n(2) 一隻螞蟻沿表面由 $A$ 爬到 $B$，求最短路徑。',
+    answer: '(1) $\\sqrt{105}$ (2) $\\sqrt{145}$',
+    hasImage: true,
+  },
+  {
+    id: '17d71439e96',
+    chapter: '空間概念',
+    question:
+      '(1) 一長方體的長為 $4$，寬為 $8$，高為 $3$，求內部對角線長。\n(2) 長方體的長為 $6$，寬為 $5$，內部對角線長度為 $10$，求高。\n(3) 長方體的長、寬、高之和為 $8$，總表面積為 $28$，求內部對角線長度。',
+    answer: '(1) $\\sqrt{89}$ (2) $\\sqrt{39}$ (3) $6$',
+    hasImage: false,
+  },
+  {
+    id: '17d8d7c54c2',
+    chapter: '空間概念',
+    question:
+      '長方體三邊長由大而小依次為 $a$、$b$、$c$，$\\overline{PQ}$ 為通過內部的對角線，則：\n(1) 一隻蜜蜂由 $P$ 飛到 $Q$，求最短路徑。\n(2) 一隻螞蟻由 $P$ 爬到 $Q$，求最短路徑。',
+    answer: '(1) $\\sqrt{a^2+b^2+c^2}$ (2) $\\sqrt{a^2+(b+c)^2}$',
+    hasImage: false,
+  },
+  {
+    id: '17d8d7dad53',
+    chapter: '空間概念',
+    question:
+      '空間中平面 $E$ 上有一直線 $L$，平面外一點 $A$ 投影到 $E$ 上為 $B$ 點，$B$ 點再投影到 $L$ 上為 $C$ 點，已知 $\\overline{AB}=4$，$\\overline{BC}=3$，則：\n(1) 求 $\\overline{AC}$、$\\cos\\angle{ACB}$\n(2) 若 $D$ 點在 $L$ 上且 $\\overline{CD}=12$，求 $\\angle{ACD}$、$\\overline{AD}$',
+    answer: '(1) $5$；$\\frac35$ (2) $90\\du$；$13$',
+    hasImage: true,
+  },
+  {
+    id: '17d8d837c81',
+    chapter: '空間概念',
+    question:
+      '四面體 $ABCD$，已知 $\\overline{AB}\\perp\\overline{BC}$，$\\overline{AB}\\perp\\overline{BD}$，且 $\\overline{AC}\\perp\\overline{CD}$，若 $\\overline{AD}=6$，$\\overline{CD}=3$，$\\overline{BD}$ 比 $\\overline{BC}$ 多 $1$，求：\n(1) $\\triangle BCD$ 的面積\n(2) 此四面體以 $\\triangle BCD$ 為底的高\n(3) 此四面體的體積。',
+    answer: '(1) $6$ (2) $\\sqrt{11}$ (3) $2\\sqrt{11}$',
+    hasImage: true,
+  },
+  {
+    id: '17d8d840de1',
+    chapter: '空間概念',
+    question:
+      '若 $O$、$A$、$B$、$C$ 四點不共面，$A$、$B$、$C$ 三點在平面 $E$ 上，且 $\\overline{AB}\\perp\\overline{BC}$，$\\overline{OA}$ 垂直 $E$ 於 $A$，已知 $\\overline{OA}=8$，$\\overline{AB}=15$，$\\overline{BC}=10$，求 $\\overline{OC}$。',
+    answer: '$\\sqrt{389}$',
+    hasImage: true,
+  },
+  {
+    id: '17d8d84a410',
+    chapter: '空間概念',
+    question:
+      '如圖，在長方形 $ABCD$ 中，$\\overline{AB}=3$，$\\overline{BC}=4$，將此長方形沿對角線 $AC$ 折起，已知折起後的 $D$ 點在底面 $ABC$ 的投影點 $H$ 恰在 $\\overline{BC}$ 上，試求折起後的 $\\overline{BD}$。',
+    answer: '$\\sqrt7$',
+    hasImage: true,
+  },
+  {
+    id: '17d8d85c7f9',
+    chapter: '空間概念',
+    question:
+      '如圖，$ABCD$ 為四面體，已知 $\\overline{AD}$ 垂直於平面 $BCD$，$\\overline{BC}\\perp\\overline{BD}$，$\\overline{BC}=7$，$\\overline{AB}=24$，$\\overline{AD}=15$，則：\n(1) 平面 $ABC$ 與平面 $BCD$ 所成之二面角為 $\\theta$，求 $\\sin\\theta$。\n(2) 平面 $ABD$ 與平面 $ACD$ 所成之二面角為 $\\phi$，求 $\\sin\\phi$。',
+    answer: '(1) $\\frac58$ (2) $\\frac7{20}$',
+    hasImage: true,
+  },
+  {
+    id: '17d8d86a6fc',
+    chapter: '空間概念',
+    question:
+      '圖為一正立方體 $ABCD-EFGH$，若：\n(1) 平面 $ABGH$ 與底面 $EFGH$ 的二面角為 $\\theta$，求 $\\sin\\theta$。\n(2) 平面 $AFH$ 與底面 $EFGH$ 的二面角為 $\\phi$，求 $\\sin\\phi$。',
+    answer: '(1) $\\frac{\\sqrt2}2$ (2) $\\frac{\\sqrt6}3$',
+    hasImage: true,
+  },
+  {
+    id: '17d8d87a040',
+    chapter: '空間概念',
+    question:
+      '空間中四面體 $ABCD$，已知 $\\triangle ACD$ 與 $\\triangle BCD$ 均為等腰三角形，如圖，$\\overline{AC}=\\overline{AD}=3$，$\\overline{BC}=\\overline{BD}=5$，$\\overline{AB}=4$，$\\overline{CD}=2$，假設 $\\triangle ACD$ 與 $\\triangle BCD$ 的二面角為 $\\theta$，求 $\\cos\\theta$。',
+    answer: '$\\frac{\\sqrt3}3$',
+    hasImage: true,
+  },
+  {
+    id: '17d8d89ad01',
+    chapter: '空間概念',
+    question:
+      '已知正三角錐 $ABCD$，底面是邊長 $6$ 的正三角形 $BCD$，$\\overline{AB}=\\overline{AC}=\\overline{AD}=10$，如圖，求側面三角形與底面的夾角餘弦值。',
+    answer: '$\\frac{\\sqrt{273}}{91}$',
+    hasImage: true,
+  },
+  {
+    id: '17d8d8e148a',
+    chapter: '空間概念',
+    question:
+      '正四面體 $ABCD$ 的邊長為 $a$，$\\overline{AB}$ 中點 $N$，$\\overline{CD}$ 中點 $M$，求：\n(1) 高 (2) 體積\n(3) 相鄰兩面的二面角之餘弦值\n(4) 兩歪斜線 $\\overleftrightarrow{AB}$ 與 $\\overleftrightarrow{CD}$ 的距離 $\\overline{MN}$\n(5) 正四面體的外接球與內切球半徑的比值',
+    answer:
+      '(1) $\\frac{\\sqrt6}3a$ (2) $\\frac{\\sqrt2}{12}a^3$ (3) $\\frac13$ (4) $\\frac{\\sqrt2}2a$ (5) $3$',
+    hasImage: true,
+  },
+  {
+    id: '17d8d8f066a',
+    chapter: '空間概念',
+    question:
+      '正四面體的邊長為 $a$，求：\n(1) 高 (2) 體積\n(3) 相鄰兩面的二面角之正弦值\n(4) 歪斜的兩個邊其距離\n(5) 內切球的半徑',
+    answer:
+      '(1) $2\\sqrt6$ (2) $18\\sqrt2$ (3) $\\frac{2\\sqrt2}3$ (4) $3\\sqrt2$ (5) $\\frac{\\sqrt6}2$ ',
+    hasImage: false,
+  },
+  {
+    id: '17d8d912392',
+    chapter: '空間概念',
+    question:
+      '底面為正方形的四角錐 $O-ABCD$，側面為四個正三角形，邊長為 $a$，求：\n(1) 高 (2) 體積\n(2) 側面與底面的夾角之餘弦值\n(3) 任兩側面的夾角之餘弦值',
+    answer:
+      '(1) $\\frac{\\sqrt2}2a$ (2) $\\frac{\\sqrt2}6a^3$ (3) $\\frac{\\sqrt3}3$ (4) $-\\frac13$',
+    hasImage: true,
+  },
+  {
+    id: '17d8d91d87a',
+    chapter: '空間概念',
+    question:
+      '如圖，$O-ABCD$ 是一個四角錐，其中 $ABCD$ 為一正方形，且 $\\overline{OA}=\\overline{OB}=\\overline{OC}=\\overline{OD}=4$，$\\overline{AB}=\\overline{BC}=\\overline{CD}=\\overline{DA}=3$，若四角錐的側面與底面的夾角為 $\\theta$，求 $\\cos\\theta$。',
+    answer: '$\\frac{3}{\\sqrt{55}}$',
+    hasImage: true,
+  },
+  {
+    id: '17d8d932da9',
+    chapter: '空間概念',
+    question:
+      '如圖，$\\overline{OA}$、$\\overline{OB}$、$\\overline{OC}$ 兩兩垂直，且 $\\overline{OA}=5$，$\\overline{OB}=3$，$\\overline{OC}=2$，求：\n(1) $\\triangle ABC$ 與 $\\triangle OAB$ 所夾二面角之餘弦值\n(2) $\\triangle ABC$ 面積',
+    answer: '(1) $\\frac{15}{19}$ (2) $\\frac{19}2$',
+    hasImage: true,
+  },
+  {
+    id: '17d8d990529',
+    chapter: '空間概念',
+    question:
+      '已知長方體的長、寬、高分別為 $\\overline{AB}=3$，$\\overline{AC}=4$，$\\overline{AD}=2$，求 $\\triangle BCD$ 的面積、$\\triangle BCD$ 與 $\\triangle ABC$ 的二面角之正切值。',
+    answer: '(1) $\\sqrt{61}$ (2) $\\frac56$',
+    hasImage: false,
+  },
+  {
+    id: '17d8d9b400b',
+    chapter: '空間向量',
+    question:
+      '一正立方體如圖，$ABCD$ 在 $xy$ 平面上，$ADHE$ 在 $xz$ 平面上，其中 $A(2,0,0)$，且邊長為 $5$，求其他各頂點的坐標。',
+    answer: '略',
+    hasImage: true,
+  },
+  {
+    id: '17d8da368d2',
+    chapter: '空間向量',
+    question:
+      '坐標中有一個屋頂形狀的五面體 $ABCD-EF$，如圖，底面 $ABCD$ 為長方形，前後為兩個全等的等腰梯形，側面為兩個全等的等腰三角形。若 $A(0,0,0)$、$B(6,0,0)$、$C(6,10,0)$，$\\overline{EF}=8$，$\\overline{AE}=5$，試求 $E$、$F$ 坐標。',
+    answer: '$(3,1,\\sqrt{15})$；$(3,9,\\sqrt{15})$',
+    hasImage: true,
+  },
+  {
+    id: '17d8da3dced',
+    chapter: '空間向量',
+    question:
+      '如圖，有一邊長為 $1$ 的正立方體。今置頂點 $A$ 於空間坐標系中之原點 $(0,0,0)$，置頂點 $B$ 於正 $z$ 軸上，求頂點 $C$ 之 $z$ 坐標。',
+    answer: '$\\frac{\\sqrt3}3$',
+    hasImage: true,
+  },
+  {
+    id: '17d8da46280',
+    chapter: '空間向量',
+    question:
+      '空間坐標中有長方體 $ABCD-EFGH$，各邊長均與坐標軸平行，如圖。已知 $A$ 在原點 $(0,0,0)$ 且 $\\overline{AB}=5$，$\\overline{AD}=8$，$\\overline{AE}=4$，求 $D$、$F$、$G$ 坐標。',
+    answer: '$(0,8,0)$；$(5,0,4)$；$(5,8,4)$',
+    hasImage: true,
+  },
+  {
+    id: '17d8da4f841',
+    chapter: '空間向量',
+    question:
+      '如圖，一邊長為 $2$ 的正立方體，已知 $A(0,0,0)$，$C$ 在 $y$ 軸正向，$E$ 在 $z$ 軸正向，求 $G$、$F$、$D$ 坐標。',
+    answer: '$(0,2\\sqrt2,2)$；$(\\sqrt2,\\sqrt2,2)$；$(-\\sqrt2,\\sqrt2,0)$',
+    hasImage: true,
+  },
+  {
+    id: '17d8da7b042',
+    chapter: '空間向量',
+    question:
+      '如圖，空間坐標中有屋頂形狀的五面體 $ABCD-EF$，$A(0,0,0)$，$B$ 在 $x$ 軸上，$D$ 在 $y$ 軸上，底面長方形的長與寬為 $\\overline{AB}=4$，$\\overline{BC}=12$，屋樑 $\\overline{EF}=8$，$\\overline{AE}=6$，求 $E$、$F$ 坐標。',
+    answer: '$(2,2,2\\sqrt7)$；$(2,10,2\\sqrt7)$',
+    hasImage: true,
+  },
+  {
+    id: '17d8da98a60',
+    chapter: '空間向量',
+    question:
+      '點 $A(-2,1,3)$，求：\n(1) $A$ 到 $xy$ 平面的距離\n(2) $A$ 到 $x$ 軸的距離\n(3) $A$ 對 $yz$ 平面的投影點坐標\n(4) $A$ 對 $z$ 軸的投影點坐標\n(5) $A$ 對 $xz$ 平面的對稱點坐標',
+    answer: '(1) $3$ (2) $\\sqrt{10}$ (3) $(0,1,3)$ (4) $(0,0,3)$ (5) $(-2,-1,-3)$',
+    hasImage: false,
+  },
+  {
+    id: '17d7685be20',
+    chapter: '空間向量',
+    question:
+      '若空間坐標的第一卦限中，$A$ 點對 $yz$ 平面的投影點為 $(0,3,2)$，且 $A$ 點到 $z$ 軸的距離為 $5$，求 $A$ 對 $xy$ 平面的對稱點坐標。',
+    answer: '$(4,3,-2)$',
+    hasImage: false,
+  },
+  {
+    id: '17d8daad579',
+    chapter: '空間向量',
+    question:
+      '點 $A(4,-2,-1)$，求：\n(1) $A$ 到 $xy$ 平面的距離\n(2) $A$ 到 $z$ 軸的距離\n(3) $A$ 對 $xy$ 平面的投影點坐標\n(4) $A$ 對 $y$ 軸的投影點坐標\n(5) $A$ 對 $xz$ 平面的對稱點坐標',
+    answer: '(1) $1$ (2) $2\\sqrt5$ (3) $(4,-2,0)$ (4) $(0,-2,0)$ (5) $(4,2,-1)$',
+    hasImage: false,
+  },
+  {
+    id: '17d8dab4bf8',
+    chapter: '空間向量',
+    question:
+      '空間中一點 $P(1,2,3)$ 對 $xy$ 平面作對稱點得 $Q$ 點，而 $Q$ 點再作 $x$ 軸對稱點得 $R$ 點，$R$ 點再沿著 $y$ 軸之正向移動 $4$ 單位得 $S$ 點，求 $S$ 點坐標。',
+    answer: '$(1,2,3)$',
+    hasImage: false,
+  },
+  {
+    id: '17d8dabb4ea',
+    chapter: '空間向量',
+    question:
+      '$P$ 點在空間坐標中的第一卦限，若 $P$ 到 $x$ 軸的距離為 $\\sqrt{26}$，$P$ 到 $y$ 軸的距離為 $\\sqrt{34}$，$P$ 到 $yz$ 平面的距離為 $3$，求 $P$ 坐標。',
+    answer: '$(3,1,5)$',
+    hasImage: false,
+  },
+  {
+    id: '17d8dac1127',
+    chapter: '空間向量',
+    question:
+      '$P$ 點在第一卦限，$P$ 到 $x$ 軸、$y$ 軸、$z$ 軸的距離為 $\\sqrt{13}$、$\\sqrt{53}$、$\\sqrt{58}$，求 $P$ 坐標。',
+    answer: '$(7,3,2)$',
+    hasImage: false,
+  },
+  {
+    id: '17d8dacebbb',
+    chapter: '空間向量',
+    question:
+      '空間中三點 $A(7,-6,3)$、$B(5,2,2)$、$C(4,k,k+1)$，求：\n(1) $\\overline{AB}$ 長\n(2) 若 $\\overline{BC}=\\sqrt{26}$，求 $k$',
+    answer: '(1) $\\sqrt{69}$ (2) $-2\\lor5$',
+    hasImage: false,
+  },
+  {
+    id: '17d8dad1088',
+    chapter: '空間向量',
+    question:
+      '已知空間中 $A(3,-3,2)$、$B(1,3,6)$，$C$ 是 $y$ 軸上一點，且 $\\overline{AC}=\\overline{BC}$，求 $C$ 點坐標。',
+    answer: '$(0,2,0)$',
+    hasImage: false,
+  },
+  {
+    id: '17d8daf121a',
+    chapter: '空間向量',
+    question:
+      '空間中三點 $A(2,1,-3)$、$B(4,-1,-2)$ 與 $C(4,-8,11)$，求：\n(1) $\\overline{AB}$ 長\n(2) $\\triangle{ABC}$ 為何種三角形？(銳角、直角、鈍角)',
+    answer: '(1) $3$ (2) 鈍角',
+    hasImage: false,
+  },
+  {
+    id: '17d8dafa57b',
+    chapter: '空間向量',
+    question:
+      '已知 $A(7,6,-3)$、$B(3,1,-2)$，若：\n(1) $C$ 在 $z$ 軸上且 $\\overline{AC}=\\overline{BC}$，求 $C$ 坐標\n(2) $D$ 在 $x$ 軸上且 $\\overline{AD}=9$，求 $D$ 坐標',
+    answer: '(1) $(0,0,-40)$ (2) $(1,0,0)\\lor(13,0,0)$',
+    hasImage: false,
+  },
+  {
+    id: '17d8db033c2',
+    chapter: '空間向量',
+    question:
+      '空間中三點 $A(1,-3,8)$、$B(-7,5,4)$ 與 $C(3,4,-6)$，求：\n(1) $\\overline{AB}$ 中點\n(2) 若 $C$ 為 $\\overline{AD}$ 的中點，求 $D$ 坐標\n(3) $\\triangle ABC$ 的重心坐標\n(4) 若 $ABCD$ 為平行四邊形，求 $D$ 坐標',
+    answer: '(1) $(-3,1,6)$ (2) $(5,11,-20)$ (3) $(-1,2,2)$ (4) $(11,-4,-2)$',
+    hasImage: false,
+  },
+  {
+    id: '17d8db10cf6',
+    chapter: '空間向量',
+    question:
+      '若空間中三點 $A(p,3,9)$、$B(1,q,-2)$、$C(6,-5,8)$ 所成三角形的重心坐標為 $(-4,7,r)$，求序組 $(p,q,r)$。',
+    answer: '$(-19,23,5)$',
+    hasImage: false,
+  },
+  {
+    id: '17d8db124a5',
+    chapter: '空間向量',
+    question: '空間中正立方體的八個頂點，共可連成幾種不同的非零向量？',
+    answer: '$26$',
+    hasImage: false,
+  },
+  {
+    id: '17d8db1f85e',
+    chapter: '空間向量',
+    question:
+      '空間坐標中，已知點 $A(1,2,7)$、$B(4,-3,5)$：\n(1) 用數對表示 $\\xvector{AB}$\n(2) 若 $\\xvector{AC}=(-7,11,6)$，求 $C$ 點坐標',
+    answer: '$(3,-5,-2)$；$(-6,13,13)$',
+    hasImage: false,
+  },
+  {
+    id: '17d86819300',
+    chapter: '空間向量',
+    question: '空間中有四面體 $ABCD$，共可決定幾種不同的非零向量？',
+    answer: '$12$',
+    hasImage: false,
+  },
+  {
+    id: '17d8db320bf',
+    chapter: '空間向量',
+    question:
+      '(1) 空間坐標中，點 $A(1,2,4)$、$B(5,-7,6)$，求 $\\xvector{AB}$\n(2) 空間中 $\\xvector{AB}=(4,-1,3)$，若 $B$ 坐標為 $(5,11,6)$，求 $A$ 坐標',
+    answer: '(1) $(4,-9,2)$ (2) $(1,12,3)$',
+    hasImage: false,
+  },
+  {
+    id: '17d8db3de08',
+    chapter: '空間向量',
+    question:
+      '平行六面體 $ABCD-EFGH$ 如圖，每個面都是平行四邊形，試問：\n(1) 化簡 $\\xvector{AB}+\\xvector{AD}+\\xvector{AE}$\n(2) 若 $\\xvector{AC}+\\xvector{AF}+\\xvector{AH}=k\\xvector{AG}$，求 $k$',
+    answer: '(1) $\\xvector{AG}$ (2) $2$',
+    hasImage: true,
+  },
+  {
+    id: '17d8db4365d',
+    chapter: '空間向量',
+    question:
+      '$A(3,-2,5)、B(6,7,-1)、C(1,2,4)$，$O$ 為原點，求：\n(1) $\\xvector{OA}+\\xvector{OB}$\n(2) $3\\xvector{AB}-4\\xvector{AC}$。 ',
+    answer: '(1) $(9,5,4)$ (2) $(17,11,-14)$',
+    hasImage: false,
+  },
+  {
+    id: '17d8db4ac9b',
+    chapter: '空間向量',
+    question:
+      '在空間坐標中，$xy$ 平面為一面鏡子，有一道光束由 $A(3,-2,4)$ 射向 $xy$ 平面上的點 $B(5,1,0)$，經反射到達 $C$ 點，若 $5\\overline{AB}=2\\overline{BC}$，求 $C$ 坐標。',
+    answer: '$(10,\\frac{17}2,10)$',
+    hasImage: false,
+  },
+  {
+    id: '17d8db5cf4b',
+    chapter: '空間向量',
+    question:
+      '空間中，已知向量 $A(1,13,2)$、$B(5,0,10)$、$C(-1,3,4)$，$O$ 為原點，試求：\n(1) $\\xvector{OA}+\\xvector{OB}+\\xvector{OC}$\n(2) $\\xvector{AD}+\\xvector{DE}+\\xvector{EB}$\n(3) $3\\xvector{AB}+2\\xvector{CB}$\n(4) 若 $ABCD$ 為平行四邊形，求 $D$ 坐標。',
+    answer: '(1) $(5,16,16)$ (2) $(4,-13,8)$ (3) $(24,-45,36)$ (4) $(-5,16,-4)$',
+    hasImage: false,
+  },
+  {
+    id: '17d8db669b3',
+    chapter: '空間向量',
+    question:
+      '空間中長方體 $ABCD-EFGH$ 如圖，化簡：\n(1) $\\xvector{AB}+\\xvector{AD}$\n(2) $\\xvector{AB}+\\xvector{AH}$\n(3) $\\xvector{AB}-\\xvector{AH}$',
+    answer: '(1) $\\xvector{AC}$ (2) $\\xvector{AG}$ (3) $\\xvector{HB}$',
+    hasImage: true,
+  },
+  {
+    id: '17d869ce993',
+    chapter: '空間向量',
+    question:
+      '空間坐標中，$yz$ 平面為一面鏡子，有一道光線從 $A(2,3,4)$，射向鏡面上的點 $B(0,1,2)$，反射後通過 $C$ 點。若 $\\overline{CB}=3\\overline{AB}$，求 $C$ 坐標。',
+    answer: '$(6,-5,-4)$',
+    hasImage: false,
+  },
+  {
+    id: '17d860c897a',
+    chapter: '空間向量',
+    question: '若兩向量 $(3x,x+1,2y-1)$ 與 $(4,2,y+5)$ 互相平行，求數對 $(x,y)$。',
+    answer: '$(2,17)$',
+    hasImage: false,
+  },
+  {
+    id: '17d860cf363',
+    chapter: '空間向量',
+    question:
+      '$A(3,2,4)$、$B(-4,8,3)$，在 $xy$ 平面上找一點 $C$ 使 $A$、$B$、$C$ 共線，求 $C$ 坐標。',
+    answer: '$(-25,26,0)$',
+    hasImage: false,
+  },
+  {
+    id: '17d860d2d92',
+    chapter: '空間向量',
+    question: '設 $A(a,-3,2)$、$B(2,-2,b)$、$C(6,-1,4)$ 三點共線，求數對 $(a,b)$。',
+    answer: '$(-2,3)$',
+    hasImage: false,
+  },
+  {
+    id: '17d860e139e',
+    chapter: '空間向量',
+    question:
+      '$A(2,1,4)$、$B(11,7,4)$，在 $yz$ 平面上找一點 $C$，使 $A$、$B$、$C$ 共線，求 $C$ 坐標。',
+    answer: '$(0,-\\frac13,4)$',
+    hasImage: false,
+  },
+  {
+    id: '17d860ebd31',
+    chapter: '空間向量',
+    question:
+      '空間中，$\\vector a=(1,2,-1)$，$\\vector b=(-3,7,6)$，$\\vector c=(0,1,1)$，若 $x\\vector a+y\\vector b+z\\vector c=(-1,8,-1)$，求序組 $(x,y,z)$。',
+    answer: '$(2,1,-3)$',
+    hasImage: false,
+  },
+  {
+    id: '17d860fde8a',
+    chapter: '空間向量',
+    question:
+      '空間中有四面體 $ABCD$，若 $(x+2y)\\xvector{AB}+(y+z)\\xvector{AC}+(z+4)\\xvector{AD}=\\vector0$，求序組 $(x,y,z)$。',
+    answer: '$(-8,4,-4)$',
+    hasImage: false,
+  },
+  {
+    id: '17d8610f0eb',
+    chapter: '空間向量',
+    question:
+      '空間中 $\\vector a=(1,2,4)$，$\\vector b=(-1,1,1)$，$\\vector c=(2,-1,1)$，若 $x\\vector a+y\\vector b+z\\vector c=(-3,5,1)$，求序組 $(x,y,z)$。',
+    answer: '$(2,-3,-4)$',
+    hasImage: false,
+  },
+  {
+    id: '17d8611bccf',
+    chapter: '空間向量',
+    question:
+      '空間中平行六面體 $ABCD-EFGH$，若 $(x+y)\\xvector{AB}+(y+z)\\xvector{AC}+(x+z+6)\\xvector{AF}=\\vector0$，求序組 $(x,y,z)$。',
+    answer: '$(-3,3,-3)$',
+    hasImage: false,
+  },
+  {
+    id: '17d86143148',
+    chapter: '空間向量',
+    question:
+      '設 $\\vector a=(2,3,-6)$，$\\vector b=(-2,2,1)$，$\\vector c=\\vector a+t\\vector b$，其中 $t\\in\\mathbb R$，則：\n(1) $|\\vector c|$ 的最小值及此時的 $t$\n(2) 若 $\\vector c$ 平分 $\\vector a$、$\\vector b$ 的夾角，求 $t$',
+    answer: '(1) $\\frac{5\\sqrt{17}}3$；$\\frac49$ (2) $\\frac73$',
+    hasImage: false,
+  },
+  {
+    id: '17d861698a2',
+    chapter: '空間向量',
+    question:
+      '設 $\\vector a=(2,1,2)$，$\\vector b=(3,1,-1)$，$\\vector c=t\\vector a+\\vector b$，其中 $t\\in\\mathbb R$，則：\n(1) $|\\vector c|$ 的最小值及此時的 $t$\n(2) 若 $\\vector c$ 與 $yz$ 平面平行， 求 $t$\n(3) 若 $\\vector c$ 平分 $\\vector a$、$\\vector b$ 的夾角，求 $t$',
+    answer: '(1) $\\frac{\\sqrt{74}}3$；$-\\frac59$ (2) $-\\frac32$ (3) $\\frac{\\sqrt{11}}3$\n',
+    hasImage: false,
+  },
+  {
+    id: '17d8617cca5',
+    chapter: '空間向量',
+    question:
+      '空間中四面體 $ABCD$，已知 $\\overline{AB}=6$，$\\overline{AC}=4$，$\\overline{AD}=7$，$\\overline{CD}=5$，$\\angle BAC=60\\du$，求 $\\xvector{AB}\\cdot\\xvector{AC}$ 及 $\\xvector{AC}\\cdot\\xvector{AD}$。',
+    answer: '$12$；$20$',
+    hasImage: true,
+  },
+  {
+    id: '17d8618bd10',
+    chapter: '空間向量',
+    question:
+      '正四角錐 $P-ABCD$ 的底面為正方形 $ABCD$，側面為四個全等的等腰三角形，如圖，已知 $\\overline{PA}=7$，$\\overline{AB}=4$，求 $\\xvector{AP}·\\xvector{AB}$ 及 $\\xvector{AP}·\\xvector{AC}$。',
+    answer: '$8$；$16$',
+    hasImage: true,
+  },
+  {
+    id: '17d861938ba',
+    chapter: '空間向量',
+    question:
+      '空間向量 $\\vector a=(1,5,-2)$，$\\vector b=(6,3,7)$，求 $\\vector a\\cdot\\vector b$。',
+    answer: '$7$',
+    hasImage: false,
+  },
+  {
+    id: '17d861a2d65',
+    chapter: '空間向量',
+    question:
+      '三角錐 $A-BCD$，$\\overline{AB}=\\overline{AC}=2$，$\\angle BAC=45\\du$，求 $\\xvector{AB}\\cdot\\xvector{AC}$ 及 $\\xvector{BA}\\cdot\\xvector{BC}$。',
+    answer: '$2\\sqrt2$；$4-2\\sqrt2$',
+    hasImage: false,
+  },
+  {
+    id: '17d861b678c',
+    chapter: '空間向量',
+    question:
+      '四角錐體 $P-ABC$ 的底面為邊長 $3$ 的正方形 $ABCD$，$\\overline{PA}=4$ 且 $\\overline{PA}$ 與底面垂直，求 $\\xvector{PB}\\cdot\\xvector{PD}$ 及 $\\xvector{PA}\\cdot\\xvector{PC}$。',
+    answer: '$16$；$16$',
+    hasImage: true,
+  },
+  {
+    id: '17d861bdb05',
+    chapter: '空間向量',
+    question:
+      '空間中三點 $A(5,7,3)$、$B(1,-1,2)$、$C(4,9,8)$，求 $\\xvector{AB}\\cdot\\xvector{AC}$。',
+    answer: '$-17$',
+    hasImage: false,
+  },
+  {
+    id: '17d861c45e7',
+    chapter: '空間向量',
+    question:
+      '空間中三點 $A(6,1,2)$、$B(3,k,-1)$、$C(5,2,k)$，已知 $\\xvector{AB}\\cdot\\xvector{AC}=16$，求 $\\xvector{BA}\\cdot\\xvector{BC}$。',
+    answer: '$27$',
+    hasImage: false,
+  },
+  {
+    id: '17d861d2bc3',
+    chapter: '空間向量',
+    question:
+      '長方體 $ABCD-EFGH$，長、寬、高分別為 $\\overline{AB}=6$、$\\overline{AD}=4$、$\\overline{AE}=2$，若 $M$ 為 $\\overline{DH}$ 中點，$N$ 為 $\\overline{FG}$ 中點，求 $\\xvector{AN}\\cdot\\xvector{BM}$。',
+    answer: '$-26$',
+    hasImage: true,
+  },
+  {
+    id: '17d861d8aa3',
+    chapter: '空間向量',
+    question:
+      '空間中三點 $A(1,2,4)$、$B(3,1,x)$、$C(2,x,7)$，若  $\\xvector{AB}\\cdot\\xvector{AC}=10$，求 $x$。',
+    answer: '$9$',
+    hasImage: false,
+  },
+  {
+    id: '17d861e1578',
+    chapter: '空間向量',
+    question:
+      '長方體 $ABCD-EFGH$，長、寬、高分別為 $\\overline{AB}=8$、$\\overline{AD}=6$，$\\overline{AE}=4$，若 $M$ 為 $\\overline{GC}$ 中點，$N$ 為 $\\overline{ED}$ 中點，求 $\\xvector{FD}\\cdot\\xvector{MN}$。',
+    answer: '$46$',
+    hasImage: false,
+  },
+  {
+    id: '17dc12d9e62',
+    chapter: '空間向量',
+    question:
+      '三角錐 $A-BCD$ 的底面為正三角形 $BCD$，若 $\\overline{AB}=\\overline{AC}=\\overline{AD}$，求 $\\xvector{AB}⋅\\xvector{AC}$。\n',
+    answer: '$0$',
+    hasImage: false,
+  },
+  {
+    id: '17dc12e0853',
+    chapter: '空間向量',
+    question:
+      '正四面體 $ABCD$ 的邊長為 $6$，$P$ 在 $\\overline{BC}$ 上且 $\\overline{PB}=2$，$Q$ 為 $\\overline{CD}$ 中點，求 $\\xvector{AP}\\cdot\\xvector{AQ}$。',
+    answer: '$21$',
+    hasImage: true,
+  },
+  {
+    id: '17dc12e5589',
+    chapter: '空間向量',
+    question: '正四面體 $PABC$，稜長為 $10$，求兩向量的內積 $\\xvector{AP}\\cdot\\xvector{BC}$。',
+    answer: '$0$',
+    hasImage: false,
+  },
+  {
+    id: '17dc12ef52b',
+    chapter: '空間向量',
+    question:
+      '正四面體 $ABCD$，$\\overline{AB}=\\overline{AC}=\\overline{AD}=10$，$\\angle BAC=60\\du$，$\\angle BAD=90\\du$，$P$ 點在 $\\overline{CD}$ 上且 $\\overline{PC}:\\overline{PD}=2:3$，求 $\\xvector{AB}\\cdot\\xvector{AP}$。',
+    answer: '$30$',
+    hasImage: true,
+  },
+  {
+    id: '17dc12f574b',
+    chapter: '空間向量',
+    question:
+      '空間中 $\\vector a=(x,-9,2)$，$\\vector b=(3,x+4,2x)$，若 $\\vector a\\perp\\vector b$，求 $x$。',
+    answer: '$-18$',
+    hasImage: false,
+  },
+  {
+    id: '17dc130531c',
+    chapter: '空間向量',
+    question:
+      '(1) 空間向量 $\\vector a=(1,2,k)$，$\\vector b=(k,1,2)$，若 $\\vector a\\perp\\vector b$，求 $k$\n(2) 空間向量 $\\vector p=(k,k,0)$，$\\vector q=(1,0,k)$，若 $(\\vector p-\\vector q)$ 與 $(\\vector p+2\\vector q)$ 垂直，求 $k$',
+    answer: '(1) $-\\frac23$ (2) $2$',
+    hasImage: false,
+  },
+  {
+    id: '17dc130a627',
+    chapter: '空間向量',
+    question:
+      '空間中非零向量 $\\vector p=(a,a,0)$ 與 $\\vector q=(1,0,a)$，若 $\\vector p$ 與 $\\vector q$ 夾角為 $120\\du$，求 $a$。',
+    answer: '$-1$',
+    hasImage: false,
+  },
+  {
+    id: '17dc1318cbc',
+    chapter: '空間向量',
+    question:
+      '如圖為一正立方體，被一平面截出一個四邊行 $ABCD$，其中 $B$、$D$ 分別為稜的中點，且 $\\overline{EA}:\\overline{AF}=1:2$，求 $\\cos\\angle DAB$。',
+    answer: '$\\frac1{37}$',
+    hasImage: true,
+  },
+  {
+    id: '17dc1320c97',
+    chapter: '空間向量',
+    question:
+      '已知空間向量 $\\vector p=(a,1,-2)$，$\\vector q=(2,a,-1)$，若 $\\vector p$ 與 $\\vector q$ 的夾角為 $120\\du$，求 $a$。',
+    answer: '$-3$',
+    hasImage: false,
+  },
+  {
+    id: '17dc132ad64',
+    chapter: '空間向量',
+    question:
+      '如圖為一正立方體，若 $M$ 在線段 $\\overline{AB}$ 上，$\\overline{BM}=2\\overline{AM}$，$N$ 為線段 $\\overline{BC}$ 之中點，求 $\\cos\\angle MON$。',
+    answer: '$\\frac{4\\sqrt{10}}{15}$',
+    hasImage: true,
+  },
+  {
+    id: '17dc133766f',
+    chapter: '空間向量',
+    question:
+      '長方體 $ABCD-EFGH$，邊長 $\\overline{AB}=9$，$\\overline{AD}=5$，$\\overline{AE}=7$，在 $\\overline{EF}$ 上取一點 $P$ 使 $\\overline{PF}=4$，在 $\\overline{FG}$ 上取一點 $Q$ 使 $\\overline{FQ}=3$，在 $\\overline{BF}$ 上取一點 $R$ 使 $\\overline{FR}=5$，若用刀切出平面 $PRQ$，求 $\\triangle PQR$ 面積。',
+    answer: '$\\frac{\\sqrt{769}}2$',
+    hasImage: true,
+  },
+  {
+    id: '17dc13452eb',
+    chapter: '空間向量',
+    question: '空間中 $A(1,2,7)$、$B(2,1,5)$、$C(3,5,6)$，求 $\\triangle ABC$ 面積。',
+    answer: '$\\frac{\\sqrt{83}}2$',
+    hasImage: false,
+  },
+  {
+    id: '17dc1355c13',
+    chapter: '空間向量',
+    question:
+      '空間中三點 $A(5,1,-3)$、$B(11,4,6)$、$C(7,3,-2)$，求：\n(1) $\\xvector{AB}$ 在 $\\xvector{AC}$ 上的正射影\n(2) 點 $B$ 到 $\\overleftrightarrow{AC}$ 的距離\n(3) 點 $B$ 到 $\\overleftrightarrow{AC}$ 的投影點坐標',
+    answer: '(1) $(6,6,3)$ (2) $3\\sqrt5$ (3)$(11,7,0)$',
+    hasImage: false,
+  },
+  {
+    id: '17dc13670d7',
+    chapter: '空間向量',
+    question:
+      '空間向量 $\\vector a=(1,2,1)$，直線 $L$ 與 $\\vector a$ 平行，平面 $E$ 與直線 $L$ 垂直，求向量 $\\vector p=(3,1,4)$ 在平面 $E$ 上的正射影。',
+    answer: '$(\\frac32,-2,\\frac52)$',
+    hasImage: false,
+  },
+  {
+    id: '17dc136e00d',
+    chapter: '空間向量',
+    question:
+      '空間中三點 $P(10,-10,7)$、$Q(2,0,3)$、$R(4,-4,7)$，求 $P$ 到直線 $\\overleftrightarrow{QR}$ 的距離。',
+    answer: '$6$',
+    hasImage: false,
+  },
+  {
+    id: '17da3366659',
+    chapter: '空間向量',
+    question: '空間中，向量 $(5,p,p+2)$ 在另一向量 $(2,-1,4)$ 上的正射影為 $(-4,2,-8)$，試求 $p$。',
+    answer: '$-20$',
+    hasImage: false,
+  },
+  {
+    id: '17da52a1a5e',
+    chapter: '空間向量',
+    question:
+      '$x,y,z\\in\\mathbb R$，若 $3x-y+2z=5$，求 $x^2+2y^2+4z^2$ 的最小值及此時的 $(x,y,z)$。',
+    answer: '$\\frac{50}{21}$；$(\\frac{10}7,-\\frac5{21},\\frac5{21})$',
+    hasImage: false,
+  },
+  {
+    id: '17da52c23e5',
+    chapter: '空間向量',
+    question:
+      '已知實數 $x$、$y$、$z$ 滿足 $x^2+y^2+z^2+4x-2y+6z-11=0$，試求 $x+y-z$ 的最大值及最小值。',
+    answer: '$2+5\\sqrt3$；$2-5\\sqrt3$',
+    hasImage: false,
+  },
+  {
+    id: '17da52e0934',
+    chapter: '空間向量',
+    question: '設 $a$、$b$、$c$ 均為正數，$2a+9b+3c=4$，求 $\\frac2a+\\frac1b+\\frac3c$ 的最小值。',
+    answer: '$16$',
+    hasImage: false,
+  },
+  {
+    id: '17da52e775a',
+    chapter: '空間向量',
+    question: '實數 $x$、$y$、$z$，若 $2x+y+z=5$，求 $x^2+y^2+z^2-2x+4y+6$ 的最小值。',
+    answer: '$\\frac{31}6$',
+    hasImage: false,
+  },
+  {
+    id: '17da52f38f6',
+    chapter: '空間向量',
+    question:
+      '設 $x$、$y$、$z$ 均為實數，若 $x^2+y^2+z^2+4x-2y+10z-6=0$，求 $x+2y-z$ 的最大值及最小值。',
+    answer: '$5+6\\sqrt6$；$5-6\\sqrt6$',
+    hasImage: false,
+  },
+  {
+    id: '17da5305ab0',
+    chapter: '空間向量',
+    question:
+      '設 $a$、$b$、$c$ 均為正實數，若 $a+b+c=2$，試求 $\\frac4a+\\frac1b+\\frac9c$ 的最小值、$\\sqrt a+\\sqrt b+\\sqrt c$ 的最大值。',
+    answer: '$18$；$\\sqrt6$',
+    hasImage: false,
+  },
+  {
+    id: '17da54bbd8f',
+    chapter: '空間向量',
+    question:
+      '空間向量 $\\vector a=(1,2,3)$，$\\vector b=(5,7,6)$，求 $\\vector a\\cross\\vector b$、$\\vector b\\cross\\vector a$。',
+    answer: '$(-9,9,-3)$；$(9,-9,3)$',
+    hasImage: false,
+  },
+  {
+    id: '17da54b3071',
+    chapter: '空間向量',
+    question:
+      '若 $\\vector a\\cross\\vector b=(3,-2,5)$，$\\vector c\\cross\\vector a=(7,1,4)$，求 $3\\vector a\\cross(4\\vector a+\\vector b-2\\vector c)$。',
+    answer: '$(51,0,39)$',
+    hasImage: false,
+  },
+  {
+    id: '17da54d25cf',
+    chapter: '空間向量',
+    question:
+      '(1) $\\vector a=(1,3,-2)$，$\\vector b=(3,2,1)$，求 $\\vector a\\cross\\vector b$。\n(2) $\\vector a=(1,2,3)$，$\\vector b=(3,1,2)$，$\\vector c=(2,1,3)$，求 $(\\vector a\\cross\\vector b)\\cross\\vector c$ 及 $\\vector a\\cross(\\vector b\\cross\\vector c)$。',
+    answer: '(1) $(7,-7,-7)$ (2) $(26,-13,-13)$；$(17,2,-7)$',
+    hasImage: false,
+  },
+  {
+    id: '17da54e60a1',
+    chapter: '空間向量',
+    question:
+      '(1) 已知 $\\vector a\\cross\\vector p=(3,1,2)$，$\\vector a\\cross\\vector q=(5,1,3)$，求 $\\vector a\\cross(3\\vector p+2\\vector q)$。\n(2) 已知 $\\vector a\\cross(3\\vector p+2\\vector q)=(7,19,-2)$，且 $\\vector a\\cross\\vector q=(-1,2,5)$，求 $\\vector p\\cross\\vector a$。',
+    answer: '(1) $(19,5,12)$ (2) $(-3,-5,4)$',
+    hasImage: false,
+  },
+  {
+    id: '17da54f3618',
+    chapter: '空間向量',
+    question:
+      '空間坐標中，已知 $\\vector a=(1,2,-1)$，$\\vector b=(3,1,1)$，若 $\\vector p\\perp\\vector a$ 且 $\\vector p\\perp\\vector b$，$|\\vector p|=10$，試求 $\\vector p$。',
+    answer: '$\\pm(3\\sqrt2,-4\\sqrt2,-5\\sqrt2)$',
+    hasImage: false,
+  },
+  {
+    id: '17da550894a',
+    chapter: '空間向量',
+    question:
+      '已知坐標空間中，$\\vector a=(3,1,2)$，$\\vector b=(5,4,0)$，若 $\\vector p\\perp\\vector a$，$\\vector p\\perp\\vector b$ 且 $|\\vector p|=\\sqrt3$，試求 $\\vector p$。',
+    answer: '$\\pm(\\frac{-8}{\\sqrt{71}},\\frac{10}{\\sqrt{71}},\\frac7{\\sqrt{71}})$',
+    hasImage: false,
+  },
+  {
+    id: '17da5511f69',
+    chapter: '空間向量',
+    question:
+      '空間中三點 $A(7,1,-2)$、$B(12,8,7)$、$C(13,10,8)$，請分別利用內積及外積來算 $\\triangle ABC$ 的面積。',
+    answer: '$\\frac{\\sqrt{146}}2$',
+    hasImage: false,
+  },
+  {
+    id: '17dc0f6c9fe',
+    chapter: '空間向量',
+    question:
+      '已知空間中三點 $A(1,2,1)$、$B(0,1,3)$、$C(k,k,k)$，若 $\\triangle ABC$ 的面積為 $\\frac{\\sqrt5}2$，求 $k$。',
+    answer: '$\\frac53\\lor1$',
+    hasImage: false,
+  },
+  {
+    id: '17dc0f77a3b',
+    chapter: '空間向量',
+    question:
+      '空間中三點 $A(3,-2,4)$、$B(1,2,7)$、$C(-3,6,5)$，求 $\\triangle ABC$ 面積及 $A$ 到 $\\overleftrightarrow{BC}$ 的距離。',
+    answer: '$6\\sqrt5$；$2\\sqrt5$',
+    hasImage: false,
+  },
+  {
+    id: '17dc0f86dd0',
+    chapter: '空間向量',
+    question:
+      '空間中三點 $A(3,1,0)$、$B(0,2,-1)$、$C(1,k,k)$，若 $\\triangle ABC$ 的面積為 $\\frac{\\sqrt{30}}2$，求 $k$。',
+    answer: '$0\\lor1$',
+    hasImage: false,
+  },
+  {
+    id: '17dc0f91c28',
+    chapter: '空間向量',
+    question:
+      '空間中三向量 $\\vector a=(-1,2,0)$，$\\vector b=(1,4,4)$，$\\vector c=(-2,2,3)$，求：\n(1) 共起點所張成的平行六面體體積\n(2) 共起點所張成的四面體體積',
+    answer: '(1) $26$ (2) $\\frac{13}3$',
+    hasImage: false,
+  },
+  {
+    id: '17dc0f9a45f',
+    chapter: '空間向量',
+    question:
+      '空間坐標中四面體 $ABCD$ 的頂點為 $A(1,1,2)$、$B(3,4,1)$、$C(2,1,5)$、$D(6,1,7)$，求此四面體體積及頂點 $D$ 到平面 $ABC$ 的最近距離。',
+    answer: '$5$；$\\frac{30}{\\sqrt{139}}$',
+    hasImage: false,
+  },
+  {
+    id: '17da3ced345',
+    chapter: '空間向量',
+    question: '試求 $\\begin{vmatrix}4&2&1\\\\5&3&2\\\\6&1&3\\end{vmatrix}$。',
+    answer: '$9$',
+    hasImage: false,
+  },
+  {
+    id: '17dc0fa4b81',
+    chapter: '空間向量',
+    question: '試求 $\\begin{vmatrix}-3&6&5\\\\1&\\sqrt2&4\\\\-2&7&1\\end{vmatrix}$。',
+    answer: '$65+7\\sqrt2$',
+    hasImage: false,
+  },
+  {
+    id: '17dc0fadee3',
+    chapter: '空間向量',
+    question: '試求 $\\begin{vmatrix}554&427&327\\\\586&443&343\\\\711&504&404\\end{vmatrix}$。',
+    answer: '$4800$',
+    hasImage: false,
+  },
+  {
+    id: '17dc0fb90a2',
+    chapter: '空間向量',
+    question:
+      '已知 $\\begin{vmatrix}x_1&a_1&p_1\\\\x_2&a_2&p_2\\\\x_3&a_3&p_3\\end{vmatrix}=4$，$\\begin{vmatrix}x_1&b_1&p_1\\\\x_2&b_2&p_2\\\\x_3&b_3&p_3\\end{vmatrix}=5$，$\\begin{vmatrix}y_1&a_1&p_1\\\\y_2&a_2&p_2\\\\y_3&a_3&p_3\\end{vmatrix}=2$，$\\begin{vmatrix}y_1&b_1&p_1\\\\y_2&b_2&p_2\\\\y_3&b_3&p_3\\end{vmatrix}=7$，試求 $\\begin{vmatrix}x_1+2y_1&3a_1-b_1&p_1\\\\x_2+2y_2&3a_2-b_2&p_2\\\\x_3+2y_3&3a_3-b_3&p_3\\end{vmatrix}$。',
+    answer: '$5$',
+    hasImage: false,
+  },
+  {
+    id: '17dc0fc45ae',
+    chapter: '空間向量',
+    question:
+      '試求：(1) $\\begin{vmatrix}150&151&152\\\\26&24&25\\\\53&51&52\\end{vmatrix}$ (2) $\\begin{vmatrix}1^2&2^2&3^2\\\\2^2&3^2&4^2\\\\3^2&4^2&5^2\\end{vmatrix}$',
+    answer: '(1) $87$ (2) $-8$',
+    hasImage: false,
+  },
+  {
+    id: '17dc11d0dd4',
+    chapter: '空間向量',
+    question:
+      '設 $\\begin{vmatrix}a_1&b_1&c_1\\\\a_2&b_2&c_2\\\\a_3&b_3&c_3\\end{vmatrix}=5$，$\\begin{vmatrix}a_1&b_1&d_1\\\\a_2&b_2&d_2\\\\a_3&b_3&d_3\\end{vmatrix}=3$，$\\begin{vmatrix}a_1&c_1&d_1\\\\a_2&c_2&d_2\\\\a_3&c_3&d_3\\end{vmatrix}=7$，$\\begin{vmatrix}b_1&c_1&d_1\\\\b_2&c_2&d_2\\\\b_3&c_3&d_3\\end{vmatrix}=2$，試求 $\\begin{vmatrix}2a_1+3b_1&2b_1+c_1&4b_1-3d_1\\\\2a_2+3b_2&2b_2+c_2&4b_2-3d_2\\\\2a_3+3b_3&2b_3+c_3&4b_3-3d_3\\end{vmatrix}$。',
+    answer: '$-136$',
+    hasImage: false,
+  },
+  {
+    id: '17dc11da321',
+    chapter: '空間向量',
+    question:
+      '空間中四點 $A(1,2,-1)$、$B(5,4,7)$、$C(3,-2,-6)$、$D(0,2,-5)$，求 $\\xvector{AB}$、$\\xvector{AC}$、$\\xvector{AD}$ 所張成的平行六面體體積。',
+    answer: '$58$',
+    hasImage: false,
+  },
+  {
+    id: '17dc11e120c',
+    chapter: '空間向量',
+    question:
+      '空間中四點 $A(2,1,k)$、$B(4,0,k+3)$、$C(3,5,2k)$、$D(4,-1,3k)$，若四面體 $ABCD$ 的體積為 $15$，求 $k$。',
+    answer: '$6\\lor-3$',
+    hasImage: false,
+  },
+  {
+    id: '17dc11e7ed7',
+    chapter: '空間向量',
+    question:
+      '圖中的長方體表面布滿邊長為 $1$ 的正方格線，選取其中四個格線交點 $A$、$B$、$C$、$D$，切割成四面體 $ABCD$，求此四面體的體積。',
+    answer: '$22$',
+    hasImage: true,
+  },
+  {
+    id: '17dc11ee737',
+    chapter: '空間向量',
+    question:
+      '已知空間中四點 $A(1,0,-1)$、$B(3,k,5)$、$C(6,k+1,-1)$、$D(4,3,-1)$ 所成四面體體積為 $3$，求 $k$。',
+    answer: '$3\\lor5$',
+    hasImage: false,
+  },
+  {
+    id: '17dc12c2ecb',
+    chapter: '空間中的平面與直線',
+    question:
+      '已知空間中兩點 $A(5,2,-3)$ 與 $B(1,8,-2)$，若一平面通過 $P(1,-3,0)$ 且與直線 $\\overleftrightarrow{AB}$ 垂直，求其法向量及平面方程式。',
+    answer: '$(-4,6,1)$；$4x-6y-z=22$',
+    hasImage: false,
+  },
+  {
+    id: '17dc11fb683',
+    chapter: '空間中的平面與直線',
+    question:
+      '方程式 $3x+4y+2z=12$ 在空間中的圖形為平面，求：\n(1) 法向量 (2) 與 $y$ 軸的交點坐標\n(3) 若點 $(k-4,2k,2-3k)$ 在這個平面上，求 $k$',
+    answer: '(1) $(3,4,2)$ (2) $(0,3,0)$ (3) $4$',
+    hasImage: false,
+  },
+  {
+    id: '17dc1201c0a',
+    chapter: '空間中的平面與直線',
+    question: '若原點 $(0,0,0)$ 在一平面的投影點為 $A(1,5,-2)$，試求此平面方程式。',
+    answer: '$x+5y-2z=30$',
+    hasImage: false,
+  },
+  {
+    id: '17dc121215b',
+    chapter: '空間中的平面與直線',
+    question:
+      '已知平面 $E:2x+y-3z=1$，試求：\n(1) 法向量 (2) 與 $z$ 軸的交點坐標\n(3) 若點 $(k-1,2k,k+2)\\in E$，求 $k$',
+    answer: '$(2,1,-3)$；$(0,0,-\\frac{1}{3})$；$9$',
+    hasImage: false,
+  },
+  {
+    id: '17dc1219280',
+    chapter: '空間中的平面與直線',
+    question: '已知 $xy$ 平面是由 $x$ 軸與 $y$ 軸所張成，求其方程式及法向量。',
+    answer: '$z=0$；$(0,0,1)$',
+    hasImage: false,
+  },
+  {
+    id: '17dc122ac69',
+    chapter: '空間中的平面與直線',
+    question:
+      '(1) 方程式 $3y=7$ 在空間中的圖形為何？並求其法向量。\n(2) 求過點 $(3,-7,5)$，與 $z$ 軸垂直的平面方程式。\n(3) 求過點 $(3,-7,5)$，與 $yz$ 平面平行的平面方程式。\n(4) 求空間坐標系中的 $xz$ 平面方程式。',
+    answer: '(1) 平面；$(0,3,0)$ (2) $z=5$ (3) $x=3$ (4) $y=0$',
+    hasImage: false,
+  },
+  {
+    id: '17dc1231ca6',
+    chapter: '空間中的平面與直線',
+    question: '若一平面通過 $A(1,1,-5)$、$B(2,-1,3)$、$C(3,2,-4)$ 三點，試求平面方程式。',
+    answer: '$2x-3y-z=4$',
+    hasImage: false,
+  },
+  {
+    id: '17dc123720a',
+    chapter: '空間中的平面與直線',
+    question:
+      '若一平面過 $P(1,-2,1)$，且和兩平面 $E_1:3x+y+z-2=0$ 與 $E_2:x-2y+z+4=0$ 均垂直，求平面方程式。',
+    answer: '$3x-2y-7z=0$',
+    hasImage: false,
+  },
+  {
+    id: '17dc123b3e1',
+    chapter: '空間中的平面與直線',
+    question: '已知平面通過 $A(2,4,-1)$、$B(3,-1,0)$、$C(5,1,-3)$ 三點，求平面方程式。',
+    answer: '$13x+5y+12z=34$',
+    hasImage: false,
+  },
+  {
+    id: '17dc123f2ca',
+    chapter: '空間中的平面與直線',
+    question:
+      '若一平面過 $P(4,1,2)$，且和兩平面 $E_1:2x-y+3z=1$ 與 $E_2:4x-y+2z=4$ 均垂直，求平面方程式。',
+    answer: '$x+8y+2z=16$',
+    hasImage: false,
+  },
+  {
+    id: '17dc1259188',
+    chapter: '空間中的平面與直線',
+    question:
+      '一平面與 $x$ 軸、$y$ 軸、$z$ 軸的截距分別為 $2$、$-3$、$5$，求平面方程式及此平面與三坐標面圍成的四面體體積。',
+    answer: '$\\frac x2+\\frac y{-3}+\\frac z5=1$；$5$',
+    hasImage: false,
+  },
+  {
+    id: '17dc1251ae5',
+    chapter: '空間中的平面與直線',
+    question:
+      '空間中有一平面與 $x$ 軸、$y$ 軸、$z$ 軸的截距分別為 $7$、$4$、$-3$，試求平面方程式及與三坐標面圍成的四面體體積。',
+    answer: '$\\frac x7+\\frac y4-\\frac z3=1$；$14$',
+    hasImage: false,
+  },
+  {
+    id: '17dc1265fe6',
+    chapter: '空間中的平面與直線',
+    question:
+      '設 $E_1:x+ky+z=15$ 與 $E_2:x+y+kz=-2$，求：\n(1) 若 $E_1\\perp E_2$，求 $k$ (2) 若 $E_1$ 與 $E_2$ 的夾角為 $60\\du$，求 $k$',
+    answer: '(1) $-\\frac12$ (2) $0\\lor4\\lor-2$',
+    hasImage: false,
+  },
+  {
+    id: '17dc126ab0a',
+    chapter: '空間中的平面與直線',
+    question: '若平面 $2x+y+kz=2$ 與 $2x-ky+z=1$ 的夾角為 $60\\du$，求 $k$。',
+    answer: '$\\pm\\sqrt3$',
+    hasImage: false,
+  },
+  {
+    id: '17dc1280c68',
+    chapter: '空間中的平面與直線',
+    question:
+      '空間中一點 $P(1,5,3)$ 及一平面 $E:7x+4y+4z=3$，求：\n(1) 點 $P$ 與平面 $E$ 的最近距離\n(2) 點 $P$ 關於平面 $E$ 的對稱點為 $Q$，求 $\\overline{PQ}$',
+    answer: '(1) $4$ (2) $8$',
+    hasImage: false,
+  },
+  {
+    id: '17dc12836dd',
+    chapter: '空間中的平面與直線',
+    question:
+      '動點 $(x,y,z)$ 在平面 $E:2x+y-2z-5=0$ 上移動，求 $\\sqrt{(x-3)^2+y^2+(z+1)^2}$ 的最小值。',
+    answer: '$1$',
+    hasImage: true,
+  },
+  {
+    id: '17da49b6ff7',
+    chapter: '空間中的平面與直線',
+    question: '求點 $(7,1,-2)$ 在平面 $2x+y-2z=1$ 的距離。',
+    answer: '$6$',
+    hasImage: false,
+  },
+  {
+    id: '17dc128eaff',
+    chapter: '空間中的平面與直線',
+    question:
+      '點 $(x,y,z)$ 在平面 $E:3x-y+z=2$ 上移動，求 $\\sqrt{(x+3)^2+(y+2)^2+(z-1)^2}$ 的最小值。',
+    answer: '$\\frac8{\\sqrt{11}}$',
+    hasImage: false,
+  },
+  {
+    id: '17dc129f076',
+    chapter: '空間中的平面與直線',
+    question:
+      '已知兩平行平面 $E_1:2x-2y+z=-1$ 與 $E_2:4x-4y+2z=7$，求：\n(1) $E_1$ 與 $E_2$ 的間距\n(2) 與 $E_1$、$E_2$ 等距離的平行平面方程式',
+    answer: '(1) $\\frac32$ (2) $8x-8y+4z=5$',
+    hasImage: false,
+  },
+  {
+    id: '17dc12a6e73',
+    chapter: '空間中的平面與直線',
+    question: '在坐標空間中，試求出與平面 $2x-y+2z=5$ 平行，且距離為 $6$ 的平面方程式。',
+    answer: '$2x-y+2z=-13\\lor2x-y+2z=23$',
+    hasImage: false,
+  },
+  {
+    id: '17da4a7a3d0',
+    chapter: '空間中的平面與直線',
+    question:
+      '試求過兩平面 $x-2y+3z+1=0$ 與 $2x+y-5z-2=0$ 的交線，且過點 $(2,-4,1)$ 的平面方程式。',
+    answer: '$5x-7z-3=0$',
     hasImage: false,
   },
 ];
