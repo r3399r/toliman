@@ -16282,9 +16282,25 @@ export const bank: Question[] = [
     id: '17dc2138ad5',
     chapter: '平面向量',
     question:
-      '$\\triangle ABC$ 中，已知 $(a+1)\\xvector{AB}+(2a-b)\\xvector{BC}+(a+b+2)\\xvector{CA}=\\vector0$，求數對 $(a,b)$。',
+      '$\\triangle ABC$ 中，已知 $(a+1)\\xvector{AB}$$+(2a-b)\\xvector{BC}+(a+b+2)\\xvector{CA}=\\vector0$，求數對 $(a,b)$。',
     answer: '$(0,-1)$',
     hasImage: false,
+  },
+  {
+    id: '17dc5f0c735',
+    chapter: '平面向量',
+    question:
+      '設平行四邊形 $ABCD$ 中，$E$ 在 $\\overline{CD}$ 上，且 $\\overline{DE}=\\frac13\\overline{DC}$，$F$ 為 $\\overline{AB}$ 之中點，$\\overline{BE}$ 與 $\\overline{CF}$ 交於 $P$ 點，若 $\\xvector{AP}=\\alpha\\xvector{AB}+\\beta\\xvector{AD}$，試求數對 $(\\alpha,\\beta)$。',
+    answer: '$(\\frac57,\\frac37)$',
+    hasImage: true,
+  },
+  {
+    id: '17dc77a736e',
+    chapter: '平面向量',
+    question:
+      '如圖，在鉛球比賽場地中，建立一直角坐標系，使 $O$ 為原點，$A$、$B$ 兩點的坐標分別為 $(10,0)$、$(6,8)$，試求 $\\arc{AB}$ 的中點坐標。',
+    answer: '$(4\\sqrt5,2\\sqrt5)$',
+    hasImage: true,
   },
   {
     id: '17d88b3c86d',
