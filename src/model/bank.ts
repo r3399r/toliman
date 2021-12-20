@@ -17387,4 +17387,95 @@ export const bank: Question[] = [
     answer: '$x-19y-2z+29=0$',
     hasImage: false,
   },
+  {
+    id: '17dd5537b2e',
+    chapter: '多項式函數',
+    question: '設 $f(x)$ 為一次函數，且 $f(2)=1$，$f(5)=7$，求 $f(8)$。',
+    answer: '$13$',
+    hasImage: false,
+  },
+  {
+    id: '17dd5540782',
+    chapter: '多項式函數',
+    question: '設 $f(x)$ 為一次函數，且 $f(-2)=0$，$f(1)=-6$，求 $f(4)$。',
+    answer: '$-12$',
+    hasImage: false,
+  },
+  {
+    id: '17dd5576a9f',
+    chapter: '多項式函數',
+    question:
+      '設一次函數 $f(x)$，當 $x$ 增加 $2$ 單位時，其對應的函數值增加 $3$ 單位，且 $f(0)=5$，求 $f(x)$。',
+    answer: '$f(x)=\\frac32x+5$',
+    hasImage: false,
+  },
+  {
+    id: '17dd5570344',
+    chapter: '多項式函數',
+    question:
+      '設一次函數 $f(x)=2x-3$，在 $-1\\le x\\le3$ 的範圍內，求函數 $f(x)$ 的最大值及最小值。',
+    answer: '$3$；$-5$',
+    hasImage: false,
+  },
+  {
+    id: '17dd559ae06',
+    chapter: '多項式函數',
+    question:
+      '將 $y=-2x^2$ 的圖形往左平移 $1$ 個單位，再向下平移 $3$ 個單位後，所得到的新圖形，求其頂點座標。',
+    answer: '$(-1,-3)$',
+    hasImage: false,
+  },
+  {
+    id: '17dd55e37aa',
+    chapter: '多項式函數',
+    question:
+      '求下列各拋物線的頂點坐標及對稱軸方程式。\n(1) $y=x^2+4x-2$\n(2) $y=2x^2-8x+5$\n(3) $y=-3x^2-x$',
+    answer:
+      '(1) $(-2,-6)$；$x=-2$ (2) $(2,-3)$；$x=2$ (3) $(-\\frac16,\\frac1{12})$；$x=-\\frac16$',
+    hasImage: false,
+  },
+  {
+    id: '17dd5746bd7',
+    chapter: '多項式函數',
+    question:
+      '已知將 $y=-x^2+6x-5$ 的圖形向左平移 $h$ 單位，再向上平移 $k$ 單位後，恰與 $y=-x^2+2x+6$ 的圖形重合，求數對 $(h,k)$。',
+    answer: '$(2,3)$',
+    hasImage: false,
+  },
+  {
+    id: '17dd575cf61',
+    chapter: '多項式函數',
+    question:
+      '已知將 $y=2x^2+8x$ 的圖形向右平移 $h$ 單位，再向下平移 $k$ 單位後，恰與 $y=2x^2-12x+9$ 的圖形重合，求數對 $(h,k)$。',
+    answer: '$(5,1)$',
+    hasImage: false,
+  },
+  {
+    id: '17dd5771817',
+    chapter: '多項式函數',
+    question: '求二次函數 $y=x^2+3x+5$ 的最小值及此時的 $x$。',
+    answer: '$\\frac{11}4$；$-\\frac32$',
+    hasImage: false,
+  },
+  {
+    id: '17dd578072a',
+    chapter: '多項式函數',
+    question: '求二次函數 $y=x^2-2x+3$ 的最小值及此時的 $x$。',
+    answer: '$2$；$1$',
+    hasImage: false,
+  },
+  {
+    id: '17dd57928ff',
+    chapter: '多項式函數',
+    question: '在 $-2\\le x\\le1$ 的範圍內，求二次函數 $y=-2x^2-4x$ 的最大值與最小值。',
+    answer: '$2$；$-6$',
+    hasImage: false,
+  },
+  {
+    id: '17dd57b49a8',
+    chapter: '多項式函數',
+    question: '在 $2\\le x\\le3$ 的範圍內，求二次函數 $y=-3x^2+6x+1$ 的最大值與最小值。',
+    answer: '$-1$；$-10$',
+    hasImage: false,
+  },
 ];
