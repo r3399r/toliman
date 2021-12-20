@@ -17478,4 +17478,67 @@ export const bank: Question[] = [
     answer: '$-1$；$-10$',
     hasImage: false,
   },
+  {
+    id: '17dd6193d3d',
+    chapter: '平面向量',
+    question:
+      '$\\triangle ABC$ 中，$\\overline{AB}=5$，$\\overline{AC}=10$，$\\xvector{AB}\\cdot\\xvector{AC}=48$，求 $\\triangle ABC$ 面積。',
+    answer: '$7$',
+    hasImage: false,
+  },
+  {
+    id: '17dd61a0df0',
+    chapter: '平面向量',
+    question: '設 $A(0,2)$，$B(4,-2)$，$C(a,a-4)$，若 $\\triangle ABC$ 的面積為 $12$，求 $a$。',
+    answer: '$6\\lor0$',
+    hasImage: false,
+  },
+  {
+    id: '17dd61af6aa',
+    chapter: '平面向量',
+    question:
+      '設 $\\triangle ABC$ 的三頂點為 $A(2,-3)$，$B(-2,-5)$，$C(5,-4)$，求：\n(1) $\\triangle ABC$ 面積\n(2) $A$ 到 $\\overline{BC}$ 的距離',
+    answer: '(1) $5$ (2) $\\sqrt2$',
+    hasImage: false,
+  },
+  {
+    id: '17dd61d60e6',
+    chapter: '平面向量',
+    question:
+      '試求下列行列式值：\n(1) $\\begin{vmatrix}1996&1997\\\\1998&1999\\end{vmatrix}+\\begin{vmatrix}2001&4004\\\\2003&4008\\end{vmatrix}$\n(2) $\\begin{vmatrix}111&-333\\\\1234&-3702\\end{vmatrix}$\n(3) $\\begin{vmatrix}\\log3&\\log9\\\\13&26\\end{vmatrix}$',
+    answer: '(1) $-6$ (2) $0$ (3) $0$',
+    hasImage: false,
+  },
+  {
+    id: '17dd61f9cbd',
+    chapter: '平面向量',
+    question:
+      '試求下列行列式值：\n(1) 若 $\\begin{vmatrix}a&b\\\\c&d\\end{vmatrix}=1$，求 $\\begin{vmatrix}3a&2a-4b\\\\3c&2c-4d\\end{vmatrix}$\n(2) 若 $\\begin{vmatrix}a&b\\\\c&d\\end{vmatrix}=2$，$\\begin{vmatrix}a&b\\\\e&f\\end{vmatrix}=-1$，求 $\\begin{vmatrix}3a&3b\\\\4c+5e&4d+5f\\end{vmatrix}$',
+    answer: '(1) $-12$ (2) $9$',
+    hasImage: false,
+  },
+  {
+    id: '17dd621c84a',
+    chapter: '平面向量',
+    question:
+      '若聯立方程式 $\\begin{cases}a_1x+b_1y=c_1\\\\a_2x+b_2y=c_2\\end{cases}$ 的解為 $(x,y)=(1,2)$，試求聯立方程式 $\\begin{cases}3a_1x+2b_1y=5c_1\\\\3a_2x+2b_2y=5c_2\\end{cases}$ 的解 $(x,y)$。',
+    answer: '$(\\frac53,5)$',
+    hasImage: false,
+  },
+  {
+    id: '17dd623fca6',
+    chapter: '平面向量',
+    question:
+      '已知聯立方程式 $\\begin{cases}2x+(3-a)y=a+5\\\\(3-a)x+2y=7-a\\end{cases}$ 無解，求 $a$。',
+    answer: '$5$',
+    hasImage: false,
+  },
+  {
+    id: '17dd6254cb0',
+    chapter: '平面向量',
+    question:
+      '已知聯立方程式 $\\begin{cases}(1-a)x+3y=0\\\\5x+(3-a)y=0\\end{cases}$ 除了 $(x,y)=(0,0)$ 外還有其他解，求 $a$。',
+    answer: '$-2\\lor6$',
+    hasImage: false,
+  },
 ];
