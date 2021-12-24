@@ -1185,7 +1185,7 @@ export const bank: Question[] = [
     id: '1794b22404e',
     chapter: '空間中的平面與直線',
     question:
-      '一光束沿 $\\vec{a}=(2,3,4)$ 方向射向平面 $E$ 上一點 $P(4,5,6)$ 後，再沿 $\\vec{b}=(4,3,-2)$ 的方向反射出，則平面 $E$ 的方程式為？',
+      '一光束沿 $\\vector{a}=(2,3,4)$ 方向射向平面 $E$ 上一點 $P(4,5,6)$ 後，再沿 $\\vector{b}=(4,3,-2)$ 的方向反射出，則平面 $E$ 的方程式為？',
     answer: '$x-3z+14=0$',
     hasImage: false,
   },
@@ -1330,14 +1330,14 @@ export const bank: Question[] = [
     chapter: '空間向量',
     question:
       '已知 $A(1,1,2)$，$B(5,0,4)$，$C(1,x-2,4)$，$D(0,3,x)$，若四面體 $ABCD$ 之體積為 $\\frac{2}{3}$，則 $x=$？(四解)',
-    answer: '$0$ 或 $\\frac{9}{2}$ 或 $\\frac{1}{2}$ 或 $4$',
+    answer: '$0\\lor\\frac92\\lor\\frac12\\lor4$',
     hasImage: false,
   },
   {
     id: '1794b54f66b',
     chapter: '空間向量',
     question:
-      '已知由三向量 $\\vec{a}$、$\\vec{b}$、$\\vec{c}$ 所張出的平行六面體的體積為 $10$，則由三向量 $\\vec{a}$、$2\\vec{a}+3\\vec{b}$、$\\vec{a}-\\vec{b}+4\\vec{c}$ 所張出的平行六面體的體積為？',
+      '已知由三向量 $\\vector{a}$、$\\vector{b}$、$\\vector{c}$ 所張出的平行六面體的體積為 $10$，則由三向量 $\\vector{a}$、$2\\vector{a}+3\\vector{b}$、$\\vector{a}-\\vector{b}+4\\vector{c}$ 所張出的平行六面體的體積為？',
     answer: '$120$',
     hasImage: false,
   },
@@ -1345,7 +1345,7 @@ export const bank: Question[] = [
     id: '1794b568308',
     chapter: '空間向量',
     question:
-      '空間中三向量 $\\vec{a}$、$\\vec{b}$、$\\vec{c}$，滿足 $(2\\vec{a}-3\\vec{b})\\cdot\\left[2\\vec{b}\\times(-5\\vec{c})\\right]=40$，則由 $\\vec{a}$、$\\vec{b}$、$\\vec{c}$ 所張出的平行六面體體積為？',
+      '空間中三向量 $\\vector{a}$、$\\vector{b}$、$\\vector{c}$，滿足 $(2\\vector{a}-3\\vector{b})\\cdot\\left[2\\vector{b}\\times(-5\\vector{c})\\right]=40$，則由 $\\vector{a}$、$\\vector{b}$、$\\vector{c}$ 所張出的平行六面體體積為？',
     answer: '$2$',
     hasImage: false,
   },
@@ -1354,7 +1354,7 @@ export const bank: Question[] = [
     chapter: '空間向量',
     question:
       '已知空間中 $A(1,-1,0)$，$B(7-a,3,1)$，$C(0,a-2,2)$，$D(-1,-1,1)$ 四點共平面，則 $a=$？(兩解)',
-    answer: '$4$ 或 $5$',
+    answer: '$4\\lor5$',
     hasImage: false,
   },
   {
@@ -1854,16 +1854,16 @@ export const bank: Question[] = [
     id: '1798cf58181',
     chapter: '平面向量',
     question:
-      '設 $\\left|\\vec{a}\\right|=2$，$\\left|\\vec{b}\\right|=3$，$\\left|\\vec{a}+\\vec{b}\\right|=2$，試求向量 $\\vec{a}$，$\\vec{b}$ 所展的平行四邊形面積。',
-    answer: '$\\frac{3\\sqrt{7}}{2}$',
+      '設 $\\left|\\vector{a}\\right|=2$，$\\left|\\vector{b}\\right|=3$，$\\left|\\vector{a}+\\vector{b}\\right|=2$，試求向量 $\\vector{a}$，$\\vector{b}$ 所展的平行四邊形面積。',
+    answer: '$\\frac{3\\sqrt7}2$',
     hasImage: false,
   },
   {
     id: '1798cf7faea',
     chapter: '平面向量',
     question:
-      '設 $A$，$B$，$C$ 為相異三點，若 $\\overrightarrow{GA}+\\overrightarrow{GB}+\\overrightarrow{GC}=\\vec{0}$，則$\\overrightarrow{GA}=2$，$\\overrightarrow{GB}=6$，$\\overrightarrow{GC}=2\\sqrt{7}$，求 $\\overline{AB}$ 和 $\\triangle ABC$ 面積之值。',
-    answer: '$2\\sqrt{13}$；$9\\sqrt{3}$',
+      '設 $A$，$B$，$C$ 為相異三點，若 $\\overrightarrow{GA}+\\overrightarrow{GB}+\\overrightarrow{GC}=\\vector{0}$，則$\\overrightarrow{GA}=2$，$\\overrightarrow{GB}=6$，$\\overrightarrow{GC}=2\\sqrt{7}$，求 $\\overline{AB}$ 和 $\\triangle ABC$ 面積之值。',
+    answer: '$2\\sqrt{13}$；$9\\sqrt3$',
     hasImage: false,
   },
   {
@@ -1871,7 +1871,7 @@ export const bank: Question[] = [
     chapter: '平面向量',
     question:
       '若有 $\\theta$ 使下述方程組不只有一組解，求 $\\sin\\theta\\cos\\theta$ 的值。\n$\\begin{cases}(1+\\cos\\theta)x-y=0\\\\-x+(1+\\sin\\theta)y=0\\end{cases}$',
-    answer: '$1-\\sqrt{2}$',
+    answer: '$1-\\sqrt2$',
     hasImage: false,
   },
   {
@@ -1910,8 +1910,8 @@ export const bank: Question[] = [
     id: '1798d296bf7',
     chapter: '平面向量',
     question:
-      '(1) 試將 $\\vec{c}=\\begin{bmatrix}5\\\\8\\end{bmatrix}$ 分解成 $\\vec{a}=\\begin{bmatrix}4\\\\1\\end{bmatrix}$，$\\vec{b}=\\begin{bmatrix}-1\\\\2\\end{bmatrix}$ 的線性組合。\n(2) 利用第(1)題的結果，解聯立方程式 $\\begin{cases}4x-y=5\\\\x+2y=8\\end{cases}$',
-    answer: '(1) $\\vec{c}=2\\vec{a}+3\\vec{b}$ (2) $(x,y)=(2,3)$',
+      '(1) 試將 $\\vector{c}=\\begin{bmatrix}5\\\\8\\end{bmatrix}$ 分解成 $\\vector{a}=\\begin{bmatrix}4\\\\1\\end{bmatrix}$，$\\vector{b}=\\begin{bmatrix}-1\\\\2\\end{bmatrix}$ 的線性組合。\n(2) 利用第(1)題的結果，解聯立方程式 $\\begin{cases}4x-y=5\\\\x+2y=8\\end{cases}$',
+    answer: '(1) $\\vector{c}=2\\vector{a}+3\\vector{b}$ (2) $(x,y)=(2,3)$',
     hasImage: false,
   },
   {
@@ -1919,7 +1919,7 @@ export const bank: Question[] = [
     chapter: '平面向量',
     question:
       '設 $L_1:2x-y+1=0$，試求過點 $(2,3)$ 且與 $L_1$ 的一夾角為 $\\frac{\\pi}{4}$ 的直線 $L_2$ 方程式。',
-    answer: '$3x+y-9=0$ 或 $x-3y+7=0$',
+    answer: '$3x+y-9=0\\lor x-3y+7=0$',
     hasImage: false,
   },
   {
@@ -1934,7 +1934,7 @@ export const bank: Question[] = [
     chapter: '平面向量',
     question:
       '$G$ 為 $\\triangle ABC$ 重心，若 $\\left|\\overrightarrow{GA}\\right|=3$，$\\left|\\overrightarrow{GB}\\right|=5$，$\\left|\\overrightarrow{GC}\\right|=7$，則求：\n(1) $\\overrightarrow{GA}\\cdot\\overrightarrow{GB}$\n(2) $\\triangle ABC$ 的面積',
-    answer: '(1) $\\frac{15}{2}$ (2) $\\frac{45\\sqrt{3}}{4}$',
+    answer: '(1) $\\frac{15}2$ (2) $\\frac{45\\sqrt3}4$',
     hasImage: false,
   },
   {
@@ -1942,7 +1942,7 @@ export const bank: Question[] = [
     chapter: '平面向量',
     question:
       '設 $x$，$y$ 為正數，且 $3x+2y=21$，求 $\\frac{3}{x}+\\frac{8}{y}$ 的最小值，及此時的數對 $(x,y)$。',
-    answer: '$\\frac{3}{7}$；$(3,6)$',
+    answer: '$\\frac37$；$(3,6)$',
     hasImage: false,
   },
   {
@@ -1974,7 +1974,7 @@ export const bank: Question[] = [
     chapter: '空間向量',
     question:
       '$\\triangle ABC$ 的三頂點坐標為 $A(2,-3,5)$、$B(3,0,10)$、$C(x,y,0)$，則使 $\\triangle ABC$ 的周長為最小之點 $C$ 坐標為？',
-    answer: '$\\left(\\frac{7}{3},-2,0\\right)$',
+    answer: '$(\\frac73,-2,0)$',
     hasImage: false,
   },
   {
@@ -1982,7 +1982,7 @@ export const bank: Question[] = [
     chapter: '空間向量',
     question:
       '右圖中，$ABCD-EFGH$ 為一正立方體，$Q$ 為 $\\overline{GH}$ 的中點，$P$ 為 $\\overline{AD}$ 的中點，$O$ 為正立方體的中心，試求 $\\cos(\\angle POQ)$ 的值。',
-    answer: '$-\\frac{1}{2}$',
+    answer: '$-\\frac12$',
     hasImage: true,
   },
   {
@@ -1990,7 +1990,7 @@ export const bank: Question[] = [
     chapter: '空間向量',
     question:
       '在空間坐標系中，$A$、$B$、$C$ 分別為 $x$、$y$、$z$ 軸上的點，$O$ 為原點，若 $\\triangle AOB$、$\\triangle BOC$、$\\triangle COA$ 的面積分別為 $3$、$4$、$5$，試求 $\\triangle ABC$ 的面積。',
-    answer: '$5\\sqrt{2}$',
+    answer: '$5\\sqrt2$',
     hasImage: false,
   },
   {
@@ -2171,7 +2171,7 @@ export const bank: Question[] = [
     chapter: '空間向量',
     question:
       '右圖為一正立方體，被一平面截出一個四邊形 $ABCD$，其中 $B$、$D$ 分別為稜的中點，且 $\\overline{EA}:\\overline{AF}=3:7$，則 $\\cos\\angle DAB=$？',
-    answer: '$\\frac{1}{26}$',
+    answer: '$\\frac1{26}$',
     hasImage: false,
   },
   {
@@ -2195,7 +2195,7 @@ export const bank: Question[] = [
     chapter: '空間向量',
     question:
       '設平面上三相異直線 $L_1:2x-3y+1=0$，$L_2:ax+y+5=0$，$L_3:x+2ay+8=0$ 共點，求 $a$ 之值。',
-    answer: '$0$ 或 $-2$',
+    answer: '$0\\lor-2$',
     hasImage: false,
   },
   {
@@ -2273,7 +2273,7 @@ export const bank: Question[] = [
     id: '1799350a87d',
     chapter: '矩陣A',
     question:
-      '給定坐標空間中的四個向量 $\\vec{a}=(2,1,4)$，$\\vec{b}=(1,-3,1)$，$\\vec{c}=(2,-2,3)$ 與 $\\vec{d}=(1,-4,1)$，試將 $\\vec{d}$ 表示成 $\\vec{a}$、$\\vec{b}$、$\\vec{c}$ 的線性組合 $x\\vec{a}+y\\vec{b}+z\\vec{c}$，則序組 $(x,y,z)=$？',
+      '給定坐標空間中的四個向量 $\\vector{a}=(2,1,4)$，$\\vector{b}=(1,-3,1)$，$\\vector{c}=(2,-2,3)$ 與 $\\vector{d}=(1,-4,1)$，試將 $\\vector{d}$ 表示成 $\\vector{a}$、$\\vector{b}$、$\\vector{c}$ 的線性組合 $x\\vector{a}+y\\vector{b}+z\\vector{c}$，則序組 $(x,y,z)=$？',
     answer: '$(1,3,-2)$',
     hasImage: false,
   },
@@ -2369,7 +2369,7 @@ export const bank: Question[] = [
     id: '1799374e08b',
     chapter: '矩陣A',
     question:
-      '設向量 $\\vec{a}=(1,2,1)$，$\\vec{b}=(1,3,-1)$，$\\vec{c}=(1,-1,2)$，$\\vec{d}=(4,-2,9)$，若 $\\vec{d}=x\\vec{a}+y\\vec{b}+z\\vec{c}$，則序組 $(x,y,z)=$？',
+      '設向量 $\\vector{a}=(1,2,1)$，$\\vector{b}=(1,3,-1)$，$\\vector{c}=(1,-1,2)$，$\\vector{d}=(4,-2,9)$，若 $\\vector{d}=x\\vector{a}+y\\vector{b}+z\\vector{c}$，則序組 $(x,y,z)=$？',
     answer: '$(2,-1,3)$',
     hasImage: false,
   },
@@ -9736,7 +9736,7 @@ export const bank: Question[] = [
     id: '17c0ebc1b8d',
     chapter: '平面向量',
     question:
-      '設 $\\vec{a}=(3,-2)$，$\\vec{b}=(5,7)$，求 $\\vec{a}+\\vec{b}$、$\\vec{a}-\\vec{b}$。',
+      '設 $\\vector{a}=(3,-2)$，$\\vector{b}=(5,7)$，求 $\\vector{a}+\\vector{b}$、$\\vector{a}-\\vector{b}$。',
     answer: '$(8,5)$、$(-2,-9)$',
     hasImage: false,
   },
@@ -9744,14 +9744,14 @@ export const bank: Question[] = [
     id: '17c0ebfcd9d',
     chapter: '平面向量',
     question:
-      '(1) 下列哪些選項是不可能發生的？\n(2) 下列哪一個選項可推得 $\\vec{a}$ 與 $\\vec{b}$ 為同方向？\n(3) 下列哪一個選項可推得 $\\vec{a}$ 與 $\\vec{b}$ 為反方向？\n(a) $\\left|\\vec{a}\\right|=3,\\left|\\vec{b}\\right|=1,\\left|\\vec{a}\\right|+\\left|\\vec{b}\\right|=1$\n(b) $\\left|\\vec{a}\\right|=3,\\left|\\vec{b}\\right|=1,\\left|\\vec{a}\\right|+\\left|\\vec{b}\\right|=2$\n(c) $\\left|\\vec{a}\\right|=3,\\left|\\vec{b}\\right|=1,\\left|\\vec{a}\\right|+\\left|\\vec{b}\\right|=3$\n(d) $\\left|\\vec{a}\\right|=3,\\left|\\vec{b}\\right|=1,\\left|\\vec{a}\\right|+\\left|\\vec{b}\\right|=4$\n(e) $\\left|\\vec{a}\\right|=3,\\left|\\vec{b}\\right|=1,\\left|\\vec{a}\\right|+\\left|\\vec{b}\\right|=5$',
+      '(1) 下列哪些選項是不可能發生的？\n(2) 下列哪一個選項可推得 $\\vector{a}$ 與 $\\vector{b}$ 為同方向？\n(3) 下列哪一個選項可推得 $\\vector{a}$ 與 $\\vector{b}$ 為反方向？\n(a) $\\left|\\vector{a}\\right|=3,\\left|\\vector{b}\\right|=1,\\left|\\vector{a}\\right|+\\left|\\vector{b}\\right|=1$\n(b) $\\left|\\vector{a}\\right|=3,\\left|\\vector{b}\\right|=1,\\left|\\vector{a}\\right|+\\left|\\vector{b}\\right|=2$\n(c) $\\left|\\vector{a}\\right|=3,\\left|\\vector{b}\\right|=1,\\left|\\vector{a}\\right|+\\left|\\vector{b}\\right|=3$\n(d) $\\left|\\vector{a}\\right|=3,\\left|\\vector{b}\\right|=1,\\left|\\vector{a}\\right|+\\left|\\vector{b}\\right|=4$\n(e) $\\left|\\vector{a}\\right|=3,\\left|\\vector{b}\\right|=1,\\left|\\vector{a}\\right|+\\left|\\vector{b}\\right|=5$',
     answer: '(1) (a)(e) (2) (d) (3) (b)',
     hasImage: false,
   },
   {
     id: '17c13837c6d',
     chapter: '平面向量',
-    question: '設 $\\vec{a}=(3,-2)$，$\\vec{b}=(-5,1)$，求 $2\\vec{a}+3\\vec{b}$。',
+    question: '設 $\\vector{a}=(3,-2)$，$\\vector{b}=(-5,1)$，求 $2\\vector{a}+3\\vector{b}$。',
     answer: '$(-9,-1)$',
     hasImage: false,
   },
@@ -9759,15 +9759,15 @@ export const bank: Question[] = [
     id: '17c1385a0fe',
     chapter: '平面向量',
     question:
-      '平面向量 $\\vec{a}=(x-1,2)$，$\\vec{b}=(x-2,-3)$，若 $\\vec{a}\\parallel\\vec{b}$，求 $x$。',
-    answer: '$\\frac{7}{5}$',
+      '平面向量 $\\vector{a}=(x-1,2)$，$\\vector{b}=(x-2,-3)$，若 $\\vector{a}\\parallel\\vector{b}$，求 $x$。',
+    answer: '$\\frac75$',
     hasImage: false,
   },
   {
     id: '17c138d9fb9',
     chapter: '平面向量',
     question:
-      '已知 $\\vec{u}$ 與 $\\vec{v}$ 不平行，若 $(x-y-1)\\vec{u}+$(x+y+5)\\vec{v}=\\vec{0}$，求數對 $(x,y)$。',
+      '已知 $\\vector{u}$ 與 $\\vector{v}$ 不平行，若 $(x-y-1)\\vector{u}+$(x+y+5)\\vector{v}=\\vector{0}$，求數對 $(x,y)$。',
     answer: '$(-2,-3)$',
     hasImage: false,
   },
@@ -9775,8 +9775,8 @@ export const bank: Question[] = [
     id: '17c1390d4a3',
     chapter: '平面向量',
     question:
-      '圖為每小格皆為全等的平行四邊形，若 $\\overrightarrow{PQ}=x\\vec{a}+y\\vec{b}$，求數對 $(x,y)$。',
-    answer: '$(\\frac{7}{2},2)$',
+      '圖為每小格皆為全等的平行四邊形，若 $\\overrightarrow{PQ}=x\\vector{a}+y\\vector{b}$，求數對 $(x,y)$。',
+    answer: '$(\\frac72,2)$',
     hasImage: true,
   },
   {
@@ -9799,7 +9799,7 @@ export const bank: Question[] = [
     id: '17c155921cc',
     chapter: '平面向量',
     question:
-      '$\\vec{a}\\cdot\\vec{b}=3$，$\\vec{a}\\cdot\\vec{c}=-2$，求 $\\vec{a}\\cdot(4\\vec{b}-3\\vec{c})$。',
+      '$\\vector{a}\\cdot\\vector{b}=3$，$\\vector{a}\\cdot\\vector{c}=-2$，求 $\\vector{a}\\cdot(4\\vector{b}-3\\vector{c})$。',
     answer: '$18$',
     hasImage: false,
   },
@@ -9807,7 +9807,7 @@ export const bank: Question[] = [
     id: '17c155a6077',
     chapter: '平面向量',
     question:
-      '$|\\vec{a}|=4$，$|\\vec{b}|=3$，$\\vec{a}\\cdot\\vec{b}=-2$，求 $|\\vec{a}+\\vec{b}|$。',
+      '$|\\vector{a}|=4$，$|\\vector{b}|=3$，$\\vector{a}\\cdot\\vector{b}=-2$，求 $|\\vector{a}+\\vector{b}|$。',
     answer: '$\\sqrt{21}$',
     hasImage: false,
   },
@@ -9815,7 +9815,7 @@ export const bank: Question[] = [
     id: '17c155b8555',
     chapter: '平面向量',
     question:
-      '$\\vec{a}=(3,-4)$、$\\vec{b}=(12,5)$，其夾角為 $\\theta$，求 $\\vec{a}\\cdot\\vec{b}$ 及 $\\cos\\theta$。',
+      '$\\vector{a}=(3,-4)$、$\\vector{b}=(12,5)$，其夾角為 $\\theta$，求 $\\vector{a}\\cdot\\vector{b}$ 及 $\\cos\\theta$。',
     answer: '$16$；$\\frac{16}{65}$',
     hasImage: false,
   },
@@ -9823,7 +9823,7 @@ export const bank: Question[] = [
     id: '17c155c85bd',
     chapter: '平面向量',
     question:
-      '已知 $\\vec{a}=(2,3)$，下列哪些向量與 $\\vec{a}$ 垂直？\n(1) $(2,-3)$ (2) $(3,2)$ (3) $(-3,2)$ (4) $(6,-4)$',
+      '已知 $\\vector{a}=(2,3)$，下列哪些向量與 $\\vector{a}$ 垂直？\n(1) $(2,-3)$ (2) $(3,2)$ (3) $(-3,2)$ (4) $(6,-4)$',
     answer: '(3)(4)',
     hasImage: false,
   },
@@ -9838,7 +9838,7 @@ export const bank: Question[] = [
     id: '17c1560e32e',
     chapter: '平面向量',
     question:
-      '平面向量 $(4,5)=x(1,-2)+\\vec{a}$，其中 $\\vec{a}$ 與 $(1,-2)$ 垂直，求 $x$ 及 $\\vec{a}$。',
+      '平面向量 $(4,5)=x(1,-2)+\\vector{a}$，其中 $\\vector{a}$ 與 $(1,-2)$ 垂直，求 $x$ 及 $\\vector{a}$。',
     answer: '$-\\frac{6}{5}$；$(\\frac{26}{5},\\frac{13}{5})$',
     hasImage: false,
   },
@@ -9867,7 +9867,7 @@ export const bank: Question[] = [
   {
     id: '17c1597d6d1',
     chapter: '平面向量',
-    question: '求過點 $P(3,1)$ 且法向量為 $\\vec{n}=(2,5)$ 的直線方程式。',
+    question: '求過點 $P(3,1)$ 且法向量為 $\\vector{n}=(2,5)$ 的直線方程式。',
     answer: '$2x+5y=11$',
     hasImage: false,
   },
@@ -9920,7 +9920,7 @@ export const bank: Question[] = [
     id: '17c15c2e8a0',
     chapter: '平面向量',
     question:
-      '設 $\\vec{a}=(5,1)$，$\\vec{b}=(2,-1)$，求 $3\\vec{a}-2\\vec{b}$ 與 $2\\vec{a}+\\vec{b}$ 所張成之平行四邊形面積。',
+      '設 $\\vector{a}=(5,1)$，$\\vector{b}=(2,-1)$，求 $3\\vector{a}-2\\vector{b}$ 與 $2\\vector{a}+\\vector{b}$ 所張成之平行四邊形面積。',
     answer: '$49$',
     hasImage: false,
   },
@@ -9974,7 +9974,7 @@ export const bank: Question[] = [
     id: '17c15ffe58e',
     chapter: '平面向量',
     question:
-      '平面向量 $\\vec{a}$、$\\vec{b}$、$\\vec{c}$ 滿足 $\\vec{a}+\\vec{b}=(1,6)$，$\\vec{b}+\\vec{c}=(4,7)$，$\\vec{c}+\\vec{a}=(-3,11)$，則下列哪些選項的推論正確？\n(1) $\\vec{a}$、$\\vec{b}$、$\\vec{c}$ 以 $\\vec{a}$ 的長度為最大\n(2) $\\vec{a}$、$\\vec{b}$、$\\vec{c}$ 以 $\\vec{b}$ 的長度為最小\n(3) $\\vec{a}$、$\\vec{b}$、$\\vec{c}$ 兩兩互不平行\n(4) 可找到三點 $P$、$Q$、$R$，使 $\\overrightarrow{PQ}=\\vec{a}$、$\\overrightarrow{QR}=\\vec{b}$、$\\overrightarrow{RP}=\\vec{c}$\n(5) 可找到三點 $P$、$Q$、$R$，使 $\\overline{PQ}=|\\vec{a}|$、$\\overline{QR}=|\\vec{b}|$、$\\overline{RP}=|\\vec{c}|$',
+      '平面向量 $\\vector{a}$、$\\vector{b}$、$\\vector{c}$ 滿足 $\\vector{a}+\\vector{b}=(1,6)$，$\\vector{b}+\\vector{c}=(4,7)$，$\\vector{c}+\\vector{a}=(-3,11)$，則下列哪些選項的推論正確？\n(1) $\\vector{a}$、$\\vector{b}$、$\\vector{c}$ 以 $\\vector{a}$ 的長度為最大\n(2) $\\vector{a}$、$\\vector{b}$、$\\vector{c}$ 以 $\\vector{b}$ 的長度為最小\n(3) $\\vector{a}$、$\\vector{b}$、$\\vector{c}$ 兩兩互不平行\n(4) 可找到三點 $P$、$Q$、$R$，使 $\\overrightarrow{PQ}=\\vector{a}$、$\\overrightarrow{QR}=\\vector{b}$、$\\overrightarrow{RP}=\\vector{c}$\n(5) 可找到三點 $P$、$Q$、$R$，使 $\\overline{PQ}=|\\vector{a}|$、$\\overline{QR}=|\\vector{b}|$、$\\overline{RP}=|\\vector{c}|$',
     answer: '(2)(3)(5)',
     hasImage: false,
   },
@@ -9982,7 +9982,7 @@ export const bank: Question[] = [
     id: '17c1601e11b',
     chapter: '平面向量',
     question:
-      '設 $\\vec{a}=(3,2t+1)$，$\\vec{b}=(t,t-2)$，$\\vec{c}=(1,2)$，若 $(\\vec{a}+\\vec{b})\\parallel\\vec{c}$，求 $t$。',
+      '設 $\\vector{a}=(3,2t+1)$，$\\vector{b}=(t,t-2)$，$\\vector{c}=(1,2)$，若 $(\\vector{a}+\\vector{b})\\parallel\\vector{c}$，求 $t$。',
     answer: '$7$',
     hasImage: false,
   },
@@ -9990,7 +9990,7 @@ export const bank: Question[] = [
     id: '17c1603d189',
     chapter: '平面向量',
     question:
-      '如圖所示的正六角星是以 $O$ 為中心，其中 $\\vec{x}$、$\\vec{y}$ 為 $O$ 到兩個頂點的向量。若將 $O$ 到正六角星 $12$ 個頂點的向量都寫成 $a\\vec{x}+b\\vec{y}$ 的形式，求 $a+b$ 的最大值。',
+      '如圖所示的正六角星是以 $O$ 為中心，其中 $\\vector{x}$、$\\vector{y}$ 為 $O$ 到兩個頂點的向量。若將 $O$ 到正六角星 $12$ 個頂點的向量都寫成 $a\\vector{x}+b\\vector{y}$ 的形式，求 $a+b$ 的最大值。',
     answer: '$5$',
     hasImage: true,
   },
@@ -9998,7 +9998,7 @@ export const bank: Question[] = [
     id: '17c16051046',
     chapter: '平面向量',
     question:
-      '兩個同大小的正六邊形併接如圖，圖中有 $\\vec{a}$、$\\vec{b}$、$\\overrightarrow{PQ}$ 三個向量，若 $\\overrightarrow{PQ}=x\\vec{a}+y\\vec{b}$，求數對 $(x,y)$。',
+      '兩個同大小的正六邊形併接如圖，圖中有 $\\vector{a}$、$\\vector{b}$、$\\overrightarrow{PQ}$ 三個向量，若 $\\overrightarrow{PQ}=x\\vector{a}+y\\vector{b}$，求數對 $(x,y)$。',
     answer: '$(4,1)$',
     hasImage: true,
   },
@@ -10054,7 +10054,7 @@ export const bank: Question[] = [
     id: '17c165d5250',
     chapter: '平面向量',
     question:
-      '$\\triangle ABC$ 內接於圓心為 $O$ 之單位圓。若 $\\overrightarrow{OA}+\\overrightarrow{OB}+\\sqrt{3}\\overrightarrow{OC}=\\vec{0}$，求 $\\angle BAC$。',
+      '$\\triangle ABC$ 內接於圓心為 $O$ 之單位圓。若 $\\overrightarrow{OA}+\\overrightarrow{OB}+\\sqrt{3}\\overrightarrow{OC}=\\vector{0}$，求 $\\angle BAC$。',
     answer: '$75\\du$',
     hasImage: false,
   },
@@ -10062,7 +10062,7 @@ export const bank: Question[] = [
     id: '17c165fdd52',
     chapter: '平面向量',
     question:
-      '有三個向量 $\\vec{a}$、$\\vec{b}$、$\\vec{c}$，已知 $|\\vec{a}|=8$，$|\\vec{b}|=3$，且 $\\vec{a}+\\vec{b}+\\vec{c}=(2,5)$，$2\\vec{a}-\\vec{b}+\\vec{c}=(7,-4)$，求 $\\vec{a}$ 與 $\\vec{b}$ 的夾角餘弦值。',
+      '有三個向量 $\\vector{a}$、$\\vector{b}$、$\\vector{c}$，已知 $|\\vector{a}|=8$，$|\\vector{b}|=3$，且 $\\vector{a}+\\vector{b}+\\vector{c}=(2,5)$，$2\\vector{a}-\\vector{b}+\\vector{c}=(7,-4)$，求 $\\vector{a}$ 與 $\\vector{b}$ 的夾角餘弦值。',
     answer: '$\\frac{-1}{16}$',
     hasImage: false,
   },
@@ -10078,7 +10078,7 @@ export const bank: Question[] = [
     id: '17c1664a847',
     chapter: '平面向量',
     question:
-      '平面向量 $\\vec{a}$ 與 $\\vec{b}$，已知 $\\vec{a}$ 在 $\\vec{b}$ 上的正射影為 $-\\frac{1}{4}\\vec{b}$，且 $\\vec{b}$ 在 $\\vec{a}$ 上的正射影為 $-3\\vec{a}$，求 $\\vec{a}$ 與 $\\vec{b}$ 的夾角及 $|\\vec{a}|:|\\vec{b}|$。',
+      '平面向量 $\\vector{a}$ 與 $\\vector{b}$，已知 $\\vector{a}$ 在 $\\vector{b}$ 上的正射影為 $-\\frac{1}{4}\\vector{b}$，且 $\\vector{b}$ 在 $\\vector{a}$ 上的正射影為 $-3\\vector{a}$，求 $\\vector{a}$ 與 $\\vector{b}$ 的夾角及 $|\\vector{a}|:|\\vector{b}|$。',
     answer: '$150\\du$；$1:2\\sqrt{3}$',
     hasImage: false,
   },
@@ -10102,7 +10102,7 @@ export const bank: Question[] = [
     id: '17c168fdd8f',
     chapter: '平面向量',
     question:
-      '坐標平面上有一質點沿方向 $\\vec{u}=(1,2)$ 前進。現欲在此平面上置一直線 $L$，使得此質點碰到 $L$ 時依光學原理 (入射角等於反射角) 反射，之後沿方向 $\\vec{v}=(-2,1)$ 前進，則直線 $L$ 的方向向量應為 $\\vec{w}=(1,k)$，求 $k$。',
+      '坐標平面上有一質點沿方向 $\\vector{u}=(1,2)$ 前進。現欲在此平面上置一直線 $L$，使得此質點碰到 $L$ 時依光學原理 (入射角等於反射角) 反射，之後沿方向 $\\vector{v}=(-2,1)$ 前進，則直線 $L$ 的方向向量應為 $\\vector{w}=(1,k)$，求 $k$。',
     answer: '$-3$',
     hasImage: false,
   },
@@ -10158,7 +10158,7 @@ export const bank: Question[] = [
     id: '17c169f6102',
     chapter: '平面向量',
     question:
-      '坐標平面上 $O$ 為原點，設 $\\vec{u}=(1,2)$、$\\vec{v}=(3,4)$。令 $\\Omega$ 為滿足 $\\overrightarrow{OP}=x\\vec{u}+y\\vec{v}$ 的所有點 $P$ 所形成的區域，其中 $\\frac{1}{2}\\le x\\le1$，$-3\\le y\\le\\frac{1}{2}$，求 $\\Omega$ 的面積。',
+      '坐標平面上 $O$ 為原點，設 $\\vector{u}=(1,2)$、$\\vector{v}=(3,4)$。令 $\\Omega$ 為滿足 $\\overrightarrow{OP}=x\\vector{u}+y\\vector{v}$ 的所有點 $P$ 所形成的區域，其中 $\\frac{1}{2}\\le x\\le1$，$-3\\le y\\le\\frac{1}{2}$，求 $\\Omega$ 的面積。',
     answer: '$\\frac{7}{2}$',
     hasImage: false,
   },
@@ -17539,6 +17539,727 @@ export const bank: Question[] = [
     question:
       '已知聯立方程式 $\\begin{cases}(1-a)x+3y=0\\\\5x+(3-a)y=0\\end{cases}$ 除了 $(x,y)=(0,0)$ 外還有其他解，求 $a$。',
     answer: '$-2\\lor6$',
+    hasImage: false,
+  },
+  {
+    id: '17ddb98c087',
+    chapter: '平面向量',
+    question:
+      '在坐標平面上，$\\triangle ABC$ 內有一點 $P$ 滿足 $\\xvector{AP}=(\\frac43,\\frac56)$ 及 $\\xvector{AP}=\\frac12\\xvector{AB}+\\frac15\\xvector{AC}$。若 $A$、$P$ 連線交 $\\overline{BC}$ 於 $M$，求 $\\xvector{AM}$。',
+    answer: '$(\\frac{40}{21},\\frac{25}{21})$',
+    hasImage: false,
+  },
+  {
+    id: '17dea2bb82c',
+    chapter: '平面向量',
+    question:
+      '設 $\\triangle ABC$ 中，$\\overline{AB}=5$，$\\overline{BC}=7$，$\\overline{CA}=8$，且 $I$ 是 $\\triangle ABC$ 的內心，若 $\\xvector{AI}=x\\xvector{AB}+y\\xvector{AC}$，試求數對 $(x,y)$。',
+    answer: '$(\\frac25,\\frac14)$',
+    hasImage: false,
+  },
+  {
+    id: '17deb4c7d73',
+    chapter: '平面向量',
+    question:
+      '設 $\\triangle ABC$ 為坐標平面上一三角形，$P$ 為平面上一點且 $\\xvector{AP}=\\frac15\\xvector{AB}+\\frac25\\xvector{AC}$，求 $\\frac{\\triangle ABP}{\\triangle ABC}$。',
+    answer: '$\\frac25$',
+    hasImage: false,
+  },
+  {
+    id: '17de15c9102',
+    chapter: '空間中的平面與直線',
+    question:
+      '空間中兩相異點 $A(2,-3,-10)$、$B(7,1,5)$，求 $\\overleftrightarrow{AB}$ 的：\n(1) 參數式 (2) 對稱比例式\n',
+    answer: '略',
+    hasImage: false,
+  },
+  {
+    id: '17de15be8ea',
+    chapter: '空間中的平面與直線',
+    question:
+      '空間中直線 $L:\\begin{cases}x=7+2t\\\\y=4-3t\\\\z=-2+t\\end{cases}$，$t\\in\\mathbb R$，試問：\n(1) 起點坐標與方向向量\n(2) 點 $P(a,b,2)$ 在 $L$ 上，求數對 $(a,b)$\n(3) 若參數 $t$ 的範圍為 $-1\\le t\\le5$，所得的圖形為線段，求此線段的長度與中點坐標',
+    answer: '(1) $(7,4,2)$；$(2,-3,1)$ (2) $(15,-8)$ (3) $6\\sqrt{14}$；$(11,-2,0)$',
+    hasImage: false,
+  },
+  {
+    id: '17de15c6538',
+    chapter: '空間中的平面與直線',
+    question: '兩點 $A(-1,4,8)$、$B(3,0,7)$ 決定一直線，求其：\n(1) 參數式 (2) 對稱比例式\n',
+    answer: '略',
+    hasImage: false,
+  },
+  {
+    id: '17de15e1197',
+    chapter: '空間中的平面與直線',
+    question:
+      '空間中直線 $L:\\begin{cases}x=4+3t\\\\y=7-6t\\\\z=3+2t\\end{cases}$，$t\\in\\mathbb R$，試問：\n(1) 起點坐標與方向向量\n(2) 點 $(10,p,q)$ 在 $L$ 上，求數對 $(p,q)$\n(3) 若參數 $t$ 的範圍為 $2\\le t\\le7$，求所得線段的長度。',
+    answer: '(1) $(4,7,3)$；$(3,-6,2)$ (2) $(-5,7)$ (3) $35$',
+    hasImage: false,
+  },
+  {
+    id: '17de15fb5a1',
+    chapter: '空間中的平面與直線',
+    question:
+      '直線 $L:\\frac{x-5}2=\\frac{y+1}6=z-3$，求：\n(1) $L$ 的起點坐標與方向向量\n(2) 若點 $(1,p,q)$ 在 $L$ 上，求數對 $(p,q)$\n(3) $L$ 的參數式',
+    answer: '(1) $(5,-1,3)$；$(2,6,1)$ (2) $(-13,1)$ (3) 略',
+    hasImage: false,
+  },
+  {
+    id: '17de1612952',
+    chapter: '空間中的平面與直線',
+    question:
+      '直線 $\\begin{cases}2x-3y+z=1\\\\x+y-2z=8\\end{cases}$ 上有一點 $(4,r,s)$，則：\n(1) 求數對 $(r,s)$ (2) 把直線改為參數式\n',
+    answer: '(1) $(2,-1)$ (2) 略',
+    hasImage: false,
+  },
+  {
+    id: '17de16567d1',
+    chapter: '空間中的平面與直線',
+    question:
+      '(1) $\\frac{x-2}{-1}=\\frac{y+3}5=z-4$ 的直線上其中一點為 $(x,12,z)$，求數對 $(x,z)$\n(2) 若點 $(2,5,a)$ 在直線 $\\frac{x+1}p=\\frac{y-2}3=\\frac{z+5}{-1}$ 上，求數對 $(a,p)$',
+    answer: '(1) $(-1,7)$ (2) $(-6,3)$',
+    hasImage: false,
+  },
+  {
+    id: '17de166b7a9',
+    chapter: '空間中的平面與直線',
+    question:
+      '(1) 將直線 $\\begin{cases}3x+y-2z=5\\\\2x-y+3z=1\\end{cases}$，化成參數式\n(2) 若點 $(3,1,p)$ 落在直線 $\\begin{cases}px+2y+z=q\\\\-x-qy+z=2p\\end{cases}$ 上，求數對 $(p,q)$',
+    answer: '(1) 略 (2) $(-1,-2)$',
+    hasImage: false,
+  },
+  {
+    id: '17de16755c1',
+    chapter: '空間中的平面與直線',
+    question: '求過點 $P(3,2,-5)$ 且與平面 $E:4x+2y-3z=6$ 垂直的直線比例式。',
+    answer: '$\\frac{x-3}4=\\frac{y-2}2=\\frac{z+5}{-3}$',
+    hasImage: true,
+  },
+  {
+    id: '17de1690243',
+    chapter: '空間中的平面與直線',
+    question: '求過點 $(1,-2,4)$ 且與 $2x+y-4z=1$ 垂直的直線比例式。',
+    answer: '$\\frac{x-1}2=\\frac{y+2}1=\\frac{z-4}{-4}$',
+    hasImage: false,
+  },
+  {
+    id: '17de16a28d2',
+    chapter: '空間中的平面與直線',
+    question:
+      '直線 $L:\\frac{x+2}3=\\frac{y-1}{-2}=\\frac{z+5}4$，求：\n(1) $L$ 與 $yz$ 平面之交點坐標 (2) $L$ 與 $x+2y-z=10$ 之交點坐標',
+    answer: '(1) $(0,-\\frac13,-\\frac73)$ (2) $(-5,3,-9)$',
+    hasImage: false,
+  },
+  {
+    id: '17de16ace58',
+    chapter: '空間中的平面與直線',
+    question:
+      '直線 $L:\\frac{x-2}3=\\frac{y+1}{-1}=\\frac{z-1}2$ 與下列哪一個平面平行 (即不相交)？\n(1) $E_1:2x-y+z=1$ (2) $E_2:x+y-z=2$\n(3) $E_3:3x-y+2z=1$ (4) $E_4:4x+6y-3z=-1$',
+    answer: '(2)',
+    hasImage: false,
+  },
+  {
+    id: '17de16b7148',
+    chapter: '空間中的平面與直線',
+    question:
+      '直線 $L:\\frac{x-1}2=\\frac{y+4}{-3}=\\frac{z+1}1$，求：\n(1) $L$ 與 $xz$ 平面之交點坐標 (2) $L$ 與 $2x+y-3z=5$ 之交點坐標',
+    answer: '(1) $(-\\frac53,0,-\\frac73)$ (2) $(-3,2,-3)$',
+    hasImage: false,
+  },
+  {
+    id: '17de16c06c9',
+    chapter: '空間中的平面與直線',
+    question:
+      '已知直線 $L:\\frac x2=\\frac y1=\\frac{z-6}3$ 繞 $z$ 軸旋轉，與 $xy$ 平面圍成一個直圓錐體，試求此直圓錐體的體積。',
+    answer: '$40\\pi$',
+    hasImage: false,
+  },
+  {
+    id: '17de16d5d48',
+    chapter: '空間中的平面與直線',
+    question:
+      '空間中一點 $A(2,-5,7)$ 與一平面 $E:2x+5y-z=2$ 的，試求：\n(1) 投影點坐標 (2) 對稱點坐標\n(3) 由 $A$ 點向平面 $E$ 的 $P$ 點射出一束光線，在 $P$ 點反射朝 $Q(0,-13,-7)$ 射去，求 $P$ 點坐標',
+    answer: '(1) $(4,0,6)$ (2) $(6,5,5)$ (3) $(4,-1,1)$',
+    hasImage: false,
+  },
+  {
+    id: '17de16eb8ab',
+    chapter: '空間中的平面與直線',
+    question:
+      '空間中一點 $A(-1,3,2)$ 與一平面 $E:x+2y-z=-3$，試求：\n(1) 投影點坐標 (2) 對稱點坐標\n(3) 由 $A$ 射出一束光線到 $E$ 上的點 $P(1,-1,2)$ 後反射，求反射光線所在直線的比例式',
+    answer: '(1) $(-2,1,3)$ (2) $(-3,-1,4)$ (3) 略',
+    hasImage: false,
+  },
+  {
+    id: '17de17131ad',
+    chapter: '空間中的平面與直線',
+    question:
+      '直線 $L:\\frac{x-1}2=\\frac{y-3}{-1}=\\frac z2$ 外一點 $A(1,-2,0)$，求：\n(1) $A$ 到直線 $L$ 的距離\n(2) $A$ 對 $L$ 的垂足點 (投影點) 坐標\n(3) 含 $A$ 與 $L$ 的平面方程式',
+    answer: '(1) $2\\sqrt5$ (2) $(1,2,2)$ (3) $5x+2y-4z-1=0$',
+    hasImage: false,
+  },
+  {
+    id: '17de170f9bd',
+    chapter: '空間中的平面與直線',
+    question:
+      '已知直線 $L:\\frac{x-2}3=\\frac{y+1}{-2}=z+2$ 外一點 $A(3,-1,2)$，求：\n(1) $A$ 到直線 $L$ 的距離\n(2) $A$ 對 $L$ 的垂足點',
+    answer: '(1) $\\frac{3\\sqrt6}2$ (2) $(\\frac72,-2,-\\frac32)$',
+    hasImage: false,
+  },
+  {
+    id: '17de172e612',
+    chapter: '空間中的平面與直線',
+    question:
+      '空間中兩平行直線 $L_1:x+2=\\frac{y-5}{-3}=\\frac{z+10}2$ 與 $L_2:x+5=\\frac{y+1}{-3}=\\frac{z+7}2$，求：\n(1) $L_1$ 與 $L_2$ 之間的距離\n(2) 包含 $L_1$ 與 $L_2$ 的平面方程式',
+    answer: '(1) $\\frac{3\\sqrt{10}}2$ (2) $x-3y-5z=33$',
+    hasImage: false,
+  },
+  {
+    id: '17de172c101',
+    chapter: '空間中的平面與直線',
+    question:
+      '空間中兩平行直線 $L_1:x-1=\\frac{y+5}2=\\frac{z+4}3$ 與 $L_2:x-3=\\frac{y+1}2=\\frac{z+3}3$，求：\n(1) $L_1$ 與 $L_2$ 之間的距離\n(2) 包含 $L_1$ 與 $L_2$ 的平面方程式',
+    answer: '(1) $\\frac{5\\sqrt5}{\\sqrt{14}}$ (2) $2x-y=7$',
+    hasImage: false,
+  },
+  {
+    id: '17de17c608b',
+    chapter: '空間中的平面與直線',
+    question:
+      '空間中兩直線 $L_1:\\frac{x-3}2=\\frac{y+1}3=\\frac{z-4}4$、$L_2:\\frac{x-11}6=\\frac{y-5}3=\\frac{z-6}{-2}$，請問：\n(1) $L_1$ 與 $L_2$ 是否相交？若相交，試求交點坐標\n(2) 包含 $L_1$ 與 $L_2$ 的平面方程式',
+    answer: '(1) 是；$(5,2,8)$ (2) $9x-14y+6z=65$',
+    hasImage: false,
+  },
+  {
+    id: '17de17de1db',
+    chapter: '空間中的平面與直線',
+    question:
+      '空間中兩直線 $L_1:x-2=\\frac{y+3}{-4}=\\frac{z+1}2$ 與 $L_2:\\frac{x-7}{-4}=\\frac{y-3}3=\\frac{z+1}{-3}$，試求：\n(1) $L_1$ 與 $L_2$ 兩直線的交點坐標\n(2) $L_1$ 與 $L_2$ 的公垂線方程式\n(3) 包含 $L_1$ 與 $L_2$ 的平面方程式',
+    answer:
+      '(1) $(-1,9,-7)$ (2) $\\frac{x+1}6=\\frac{y-9}{-5}=\\frac{z+7}{-13}$ (3) $6x-5y-13z=40$',
+    hasImage: false,
+  },
+  {
+    id: '17de17f8547',
+    chapter: '空間中的平面與直線',
+    question:
+      '空間中，$L_1:\\frac{x+2}3=\\frac{y-5}{-1}=\\frac{z-3}1$ 與 $L_2:\\frac{x+3}{-3}=\\frac{y+7}2=\\frac{z-6}4$ 為兩歪斜線，求：\n(1) 包含 $L_1$ 且平行 $L_2$ 的平面方程式\n(2) $L_1$ 與 $L_2$ 的最短距離',
+    answer: '(1) $2x+5y-z=18$ (2) $\\frac{13\\sqrt{30}}6$',
+    hasImage: false,
+  },
+  {
+    id: '17de17f52e3',
+    chapter: '空間中的平面與直線',
+    question: '求空間中直線 $L_1:\\begin{cases}x+y=3\\\\x-z=5\\end{cases}$ 與 $z$ 軸的最短距離。',
+    answer: '$\\frac{3\\sqrt2}2$',
+    hasImage: false,
+  },
+  {
+    id: '17de1800c07',
+    chapter: '條件機率',
+    question:
+      '樣本空間有事件 $A$ 與 $B$，已知 $P(A)=\\frac34$，$P(B)=\\frac47$，$P(A\\cap B)=\\frac25$，求 $P(A|B)$。',
+    answer: '$\\frac7{10}$',
+    hasImage: false,
+  },
+  {
+    id: '17de180c98b',
+    chapter: '條件機率',
+    question:
+      '樣本空間有事件 $A$ 與 $B$，$A$ 發生的機率為 $\\frac14$，$B$ 發生的機率為 $\\frac13$，$A$ 與 $B$ 至少有一事件發生的機率為 $\\frac5{12}$，求：\n(1) 若 $B$ 發生，$A$ 發生的機率\n(2) 若 $A$ 發生，$B$ 發生的機率\n(3) 若 $B$ 不發生，$A$ 發生的機率',
+    answer: '(1) $\\frac12$ (2) $\\frac23$ (3) $\\frac18$',
+    hasImage: false,
+  },
+  {
+    id: '17de1815d0b',
+    chapter: '條件機率',
+    question:
+      "樣本空間有事件 $A$ 與 $B$，已知 $P(A)=\\frac25，P(A|B)=\\frac23，P(B|A)=\\frac12$，求：\n(1) $P(A\\cap B)$ (2) $P(A\\cup B)$ (3) $P(A'|B')$",
+    answer: '(1) $\\frac15$ (2) $\\frac12$ (3) $\\frac57$',
+    hasImage: false,
+  },
+  {
+    id: '17de182078f',
+    chapter: '條件機率',
+    question:
+      "已知兩事件 $A$、$B$，$P(A)=\\frac13$，$P(B)=\\frac25$，$P(A\\cup B)=\\frac8{15}$，求 $P(A|B)$、$P(B|A)$、$P(A'|B')$。",
+    answer: '$\\frac12$；$\\frac35$；$\\frac79$',
+    hasImage: false,
+  },
+  {
+    id: '17de1826e1b',
+    chapter: '條件機率',
+    question:
+      '家庭有三個小孩，已知至少有一個男生，求：\n(1) 全部小孩都是男生的機率\n(2) 三個小孩為二男一女的機率\n(3) 老大是男生的機率',
+    answer: '$\\frac17$；$\\frac37$；$\\frac47$',
+    hasImage: false,
+  },
+  {
+    id: '17de182f28b',
+    chapter: '條件機率',
+    question:
+      '含甲、乙共 $15$ 人參加考試，座位安排如圖，有 $5$ 直行 $3$ 橫列，以抽籤方式入座，試問：\n(1) 若甲、乙不同行，求甲、乙同列的機率\n(2) 若甲、乙不同列，求甲、乙同行的機率',
+    answer: '(1) $\\frac13$ (2) $\\frac15$',
+    hasImage: true,
+  },
+  {
+    id: '17de1835f12',
+    chapter: '條件機率',
+    question:
+      '家庭有四個小孩，已知至少有一個女生，求：\n(1) 恰有一個女生的機率\n(2) 至少有三個女生的機率\n(3) 老大是女生的機率',
+    answer: '$\\frac4{15}$；$\\frac13$；$\\frac8{15}$',
+    hasImage: false,
+  },
+  {
+    id: '17de183d533',
+    chapter: '條件機率',
+    question:
+      '圖中線段所分割的大大小小矩形中，隨機任取一個矩形，在包含 $A$ 點的條件之下，試求：\n(1) 包含 $B$ 點的機率 (2) 包含 $C$ 點的機率',
+    answer: '(1) $\\frac12$ (2) $\\frac13$',
+    hasImage: true,
+  },
+  {
+    id: '17de18419dd',
+    chapter: '條件機率',
+    question: '擲三粒公正骰子，求點數和為 $8$ 的條件下，至少有一骰子出現 $3$ 點的機率。',
+    answer: '$\\frac37$',
+    hasImage: false,
+  },
+  {
+    id: '17de18492e3',
+    chapter: '條件機率',
+    question:
+      '丟一公正的銅板 $5$ 次，$A$ 表前 $2$ 次都是正面的事件，$B$ 表至少出現 $3$ 次正面的事件，求：\n(1) $P(A|B)$ (2) $P(B|A)$',
+    answer: '(1) $\\frac7{16}$ (2) $\\frac78$',
+    hasImage: false,
+  },
+  {
+    id: '17db6f9c9c7',
+    chapter: '條件機率',
+    question: '擲三粒均勻骰子一次，則在至少出現一次 $4$ 點的條件下，求點數和為偶數的機率。',
+    answer: '$\\frac{46}{91}$',
+    hasImage: false,
+  },
+  {
+    id: '17de18826f9',
+    chapter: '條件機率',
+    question:
+      '丟一公正的銅板 $6$ 次，$A$ 表前 $3$ 次都是正面的事件，$B$ 表至少出現 $4$ 次正面的事件，求 $P(A|B)$、$P(B|A)$。',
+    answer: '$\\frac7{22}$；$\\frac78$',
+    hasImage: false,
+  },
+  {
+    id: '17de186a2a4',
+    chapter: '條件機率',
+    question:
+      '有甲、乙、丙三個袋子，甲袋有 $1$ 個金幣與 $4$ 個銀幣，乙袋有 $3$ 個銀幣，丙袋有 $2$ 個銀幣。現由甲袋取出 $2$ 個錢幣放入乙袋，再由乙袋取出 $3$ 個錢幣放入丙袋，最後由丙袋取出 $1$ 個錢幣，求此錢幣為金幣的機率。',
+    answer: '$\\frac6{125}$',
+    hasImage: false,
+  },
+  {
+    id: '17de1872c6a',
+    chapter: '條件機率',
+    question:
+      '甲袋有 $1$ 個金幣與 $5$ 個銀幣，乙袋、丙袋各有 $4$ 個銀幣。從甲袋取出 $3$ 個錢幣放入乙袋，再由乙袋取出 $4$ 個錢幣放入丙袋，求：\n(1) 金幣在乙袋的機率 (2) 金幣在丙袋的機率。',
+    answer: '(1) $\\frac3{14}$ (2) $\\frac27$',
+    hasImage: false,
+  },
+  {
+    id: '17de187e2d6',
+    chapter: '條件機率',
+    question:
+      '設 $A_1$、$A_2$、$A_3$ 是樣本空間的一組分割，事件 $B$ 滿足 $P(A_1\\cap B)=0.1$，$P(A_2\\cap B)=0.3$，$P(B|A_3)=0.4$，$P(A_3)=0.5$，求 $P(B)$、$P(A_3|B)$。',
+    answer: '$0.6$；$\\frac13$',
+    hasImage: false,
+  },
+  {
+    id: '17de1890106',
+    chapter: '條件機率',
+    question:
+      '若事件 $A_1$、$A_2$、$A_3$ 是樣本空間 $S$ 的一組分割，已知 $P(A_1)=\\frac13$，$P(A_2)=\\frac16$，$P(A_3)=\\frac12$，事件 $B$ 滿足 $P(B|A_1)=\\frac12$，$P(B|A_2)=\\frac23$，$P(B|A_3)=\\frac34$，求 $P(B)$、$P(A_1|B)$。',
+    answer: '$\\frac{47}{72}$；$\\frac{12}{47}$',
+    hasImage: false,
+  },
+  {
+    id: '17de1895962',
+    chapter: '條件機率',
+    question:
+      '根據臺灣某地區的雨晴紀錄，得知某地區若雨天的翌日也下雨的機率為 $\\frac13$，非下雨天的翌日卻下雨的機率為 $\\frac19$。若今天下雨，求該地區大後天也下雨的機率。',
+    answer: '$\\frac{37}{243}$',
+    hasImage: false,
+  },
+  {
+    id: '17de189ed5d',
+    chapter: '條件機率',
+    question:
+      '工廠有 $A$、$B$、$C$ 三部機器生產相同的產品，產量各占 $50\\%$、$20%$、$30\\%$，其瑕疵品各占其生產量的 $4\\%$、$6\\%$、$7\\%$。現從中任取一個產品，請問：\n(1) 求其為瑕疵品的機率\n(2) 若取得瑕疵品，求由 $A$ 所生產的機率',
+    answer: '(1) $0.053$ (2) $\\frac{20}{53}$',
+    hasImage: false,
+  },
+  {
+    id: '17de18b2502',
+    chapter: '條件機率',
+    question:
+      '有一種診斷肝病的方法，依過去的經驗知道：有肝病的人經檢查確定患有肝病的可能性為 $0.95$，沒有肝病的人經檢查卻診斷患有肝病的可能性為 $0.03$。若城市中有 $10\\%$ 的人患有肝病，從中任選一人加以檢查，請問：\n(1) 求此人檢查出患有肝病的機率\n(2) 若檢查出患有肝病，求此人其實沒有肝病的機率\n(3) 誤診率',
+    answer: '(1) $0.122$ (2) $\\frac{27}{122}$ (3) $0.032$',
+    hasImage: false,
+  },
+  {
+    id: '17de18b98b1',
+    chapter: '條件機率',
+    question:
+      '下雨天的隔日也下雨的機率為 $\\frac23$；不下雨的隔日卻下雨的機率為 $\\frac19$。若今天下雨，求大後天也下雨的機率。',
+    answer: '$\\frac{92}{243}$',
+    hasImage: false,
+  },
+  {
+    id: '17de18d1a9a',
+    chapter: '條件機率',
+    question:
+      '某地區的小汽車共有甲、乙、丙三種廠牌，其市占率分別為 $55\\%$、$15\\%$、$30\\%$，而各廠排氣量 1600 c.c. 的車種依次占該廠比例的 $30\\%$、$40\\%$、$25\\%$，請問：\n(1) 求市面上 1600 c.c. 的小汽車共占全部小汽車的多少比例\n(2) 在馬路上看到一輛 1600 c.c. 的小汽車，求其為甲廠牌的機率',
+    answer: '(1) $30\\%$ (2) $\\frac{11}{20}$',
+    hasImage: false,
+  },
+  {
+    id: '17de18de77e',
+    chapter: '條件機率',
+    question:
+      '依臨床試驗的資料知：懷孕女性的尿液經某藥廠的試紙檢查，確定真的懷孕的機率為 $0.97$，沒有懷孕的女性經同樣檢查結果卻是懷孕的可能性為 $0.04$。若假定城市中有 $2\\%$ 的女性已知懷孕，從中任選一人加以檢查，請問：\n(1) 求此人檢查出懷孕的機率\n(2) 若檢查出懷孕，求此人其實沒有懷孕的機率',
+    answer: '(1) $0.0586$ (2) $\\frac{196}{293}$',
+    hasImage: false,
+  },
+  {
+    id: '17de18e936d',
+    chapter: '條件機率',
+    question:
+      '甲袋有 $6$ 白球、$3$ 紅球，乙袋有 $4$ 白球、$5$ 紅球，丙袋有 $7$ 白球、$2$ 紅球。現以擲一公正骰子方式選定一個袋子，再任取兩球，若擲得一點則選甲袋，若擲得二、三點則選乙袋，若擲得四、五、六點則選丙袋。求：\n(1) 取甲袋且取出一白球一紅球的機率\n(2) 本試驗取得一白球一紅球的機率',
+    answer: '(1) $\\frac1{12}$ (2) $\\frac{25}{54}$',
+    hasImage: false,
+  },
+  {
+    id: '17dbe8033c1',
+    chapter: '條件機率',
+    question:
+      '甲袋有 $5$ 白球、$3$ 黑球，乙袋有 $4$ 白球、$2$ 黑球。今自甲袋取出一球放入乙袋，再由乙袋取出兩球，求取得兩白球的機率。',
+    answer: '$\\frac{17}{42}$',
+    hasImage: false,
+  },
+  {
+    id: '17de18f7266',
+    chapter: '條件機率',
+    question:
+      '甲袋有 $3$ 黑球、$2$ 白球，乙袋有 $4$ 黑球、$1$ 白球，丙袋有 $1$ 黑球、$4$ 白球，現擲兩枚公正銅板，若恰二正面則選甲袋，恰一正面則選乙袋，沒正面則選丙袋，再從袋中取出兩球，求：\n(1) 選甲袋且取得兩黑球的機率\n(2) 選乙袋且取得一白球一黑球的機率\n(3) 選丙袋且取得兩白球的機率',
+    answer: '(1) $\\frac3{40}$ (2) $\\frac15$ (3) $\\frac3{20}$',
+    hasImage: false,
+  },
+  {
+    id: '17dbedddf8c',
+    chapter: '條件機率',
+    question:
+      '有甲、乙、丙三個袋子，甲袋有 $2$ 白球、$3$ 紅球，乙袋有 $3$ 白球、$2$ 紅球、$1$ 藍球，丙袋有 $3$ 白球、$5$ 藍球。現任選兩袋並由兩袋中各任取一球，設選袋的機率相等，選球的機率也相等，求取到兩球同色的機率。',
+    answer: '$\\frac{101}{360}$',
+    hasImage: false,
+  },
+  {
+    id: '17de19042b6',
+    chapter: '條件機率',
+    question:
+      '籤筒有 $3$ 支中獎和 $8$ 支銘謝惠顧的籤。甲、乙、丙 $3$ 人依序抽籤，取後不放回，求：\n(1) 甲中籤的機率 (2) 乙中籤的機率 (3) 丙中籤的機率。',
+    answer: '(1) $\\frac3{11}$ (2) $\\frac3{11}$ (3) $\\frac3{11}$',
+    hasImage: false,
+  },
+  {
+    id: '17de1908a59',
+    chapter: '條件機率',
+    question:
+      '箱中有黑球 $4$ 顆、白球 $5$ 顆、紅球 $3$ 顆、綠球 $2$ 顆，從中取球五次，每次一球，取後不放回，試求第四次取得紅球的機率。 ',
+    answer: '$\\frac3{14}$',
+    hasImage: false,
+  },
+  {
+    id: '17de190cd09',
+    chapter: '條件機率',
+    question:
+      '籤筒有 $8$ 支中獎和 $98$ 支銘謝惠顧的籤。甲、乙、丙 $3$ 人依序抽籤，取後不放回，求丙中籤的機率。',
+    answer: '$\\frac4{53}$',
+    hasImage: false,
+  },
+  {
+    id: '17dcc56ef1d',
+    chapter: '條件機率',
+    question:
+      '箱中有 $3$ 紅球、$2$ 綠球與 $2$ 黃球，共 $7$ 個球，逐一取出不放回，試求紅球不是最先也不是最後被取完的機率。 ',
+    answer: '$\\frac{12}{35}$',
+    hasImage: false,
+  },
+  {
+    id: '17de192adcc',
+    chapter: '條件機率',
+    question:
+      '抽獎箱內共有 $100$ 張彩券，其中頭獎 $1000$ 元有 $5$ 張，二獎 $500$ 元有 $10$ 張，三獎 $100$ 元有 $20$ 張，剩下 $65$ 張沒有獎金。小明從箱中抽出一張，沒有看到彩券內容就交給主持人，請問：\n(1) 主持人尚未透漏訊息，求小明獲得獎金的期望值\n(2) 主持人看完彩券告訴大家這張彩券有中獎，求小明獲得獎金的期望值\n(3) 主持人進一步告訴大家這張彩券所中的獎項不是頭獎，求小明獲得獎金的期望值',
+    answer: '(1) $120$ 元 (2) $\\frac{2400}7$ 元 (3) $\\frac{700}3$ 元',
+    hasImage: false,
+  },
+  {
+    id: '17de193349f',
+    chapter: '條件機率',
+    question:
+      '已知任一彩券中頭獎 $10000$ 元的機率為 $0.001$，中二獎 $3000$ 元的機率為 $0.02$，中三獎 $500$ 元的機率為 $0.1$，若開獎後已確定某張彩券有中獎，但不知道中哪一個獎項，求該彩券的獎金期望值。',
+    answer: '$\\frac{120000}{121}$ 元',
+    hasImage: false,
+  },
+  {
+    id: '17de193b9a5',
+    chapter: '條件機率',
+    question:
+      '樣本空間中有兩事件 $A$ 與 $B$，已知 $P(A)=\\frac13$，$P(A\\cup B)=\\frac56$，請問：\n(1) 若 $A$ 與 $B$ 互斥，求 $P(B)$\n(2) 若 $A$ 與 $B$ 互為獨立事件，求 $P(B)$',
+    answer: '(1) $\\frac12$ (2) $\\frac34$',
+    hasImage: false,
+  },
+  {
+    id: '17de194400b',
+    chapter: '條件機率',
+    question:
+      '某家庭有三個小孩，設每胎生男生女的機會各為二分之一，若 $A$ 表有男有女的事件，$B$ 表最多有一女的事件，$C$ 表奇數個女孩的事件，請問：\n(1) $A$ 與 $B$ 是否為獨立事件？\n(2) $B$ 與 $C$ 是否為獨立事件？',
+    answer: '(1) 是 (2) 否',
+    hasImage: false,
+  },
+  {
+    id: '17de194a703',
+    chapter: '條件機率',
+    question:
+      '樣本空間中有兩事件 $A$ 與 $B$，已知 $P(A)=\\frac38$，$P(A\\cup B)=\\frac12$，請問：\n(1) 若 $A$ 與 $B$ 互斥，求 $P(B)$\n(2) 若 $A$ 與 $B$ 互為獨立事件，求 $P(B)$',
+    answer: '(1) $\\frac18$ (2) $\\frac15$',
+    hasImage: false,
+  },
+  {
+    id: '17dcc734c81',
+    chapter: '條件機率',
+    question: '丟骰子兩次，則「第一次為偶數點」與「點數和為偶數」是否互相獨立？',
+    answer: '是',
+    hasImage: false,
+  },
+  {
+    id: '17de1955cf2',
+    chapter: '條件機率',
+    question:
+      "已知 $A$、$B$、$C$ 三事件為獨立事件，且 $P(A\\cap B)=\\frac16$，$P(B\\cap C)=\\frac1{18}$，$P(C\\cap A)=\\frac1{12}$，求：\n(1) $P(A|B')$ (2) $P(A\\cup B\\cup C)$",
+    answer: '(1) $\\frac12$ (2) $\\frac{13}{18}$',
+    hasImage: false,
+  },
+  {
+    id: '17de19614ea',
+    chapter: '條件機率',
+    question:
+      '已知 $A$、$B$、$C$ 為三獨立事件，且 $P(A)=\\frac13$，$P(B)=\\frac25$，$P(C)=\\frac12$，求：\n(1) $P(A\\cup B\\cup C)$ (2) $P(A\\cup B-C)$。',
+    answer: '(1) $\\frac45$ (2) $\\frac3{10}$',
+    hasImage: false,
+  },
+  {
+    id: '17de197d1fb',
+    chapter: '條件機率',
+    question:
+      '已知學校柔道社高一、高二、高三的男、女生人數如表所示，今從中任選一人，以 $A$ 表示選中高二學生的事件，$B$ 表示選中女生的事件，若希望 $A$ 和 $B$ 為獨立事件，求 $x$。\n$$\\begin{array}{|c|c|}\\hline&高一&高二&高三\\\\\\hline男生&36&30&12\\\\\\hline女生&x&20&5\\\\\\hline\\end{array}$$',
+    answer: '$27$',
+    hasImage: false,
+  },
+  {
+    id: '17de19901a5',
+    chapter: '條件機率',
+    question:
+      '已知某校音樂班的錄取人數如表，現任取一人，若令 $A$ 表取得市區學生錄取的事件，$B$ 表取得女生錄取的事件，若希望 $A$ 與 $B$ 為獨立事件，則可使郊區的男生錄取人數增加幾人？\n$$\\begin{array}{|c|c|}\\hline&市區&郊區\\\\\\hline男&15&9\\\\\\hline女&10&8\\\\\\hline\\end{array}$$',
+    answer: '$3$',
+    hasImage: false,
+  },
+  {
+    id: '17dea033c7c',
+    chapter: '條件機率',
+    question:
+      '甲、乙兩人解一道選擇題，甲解出的機率為 $\\frac34$，乙解出的機率為 $\\frac23$，兩人解出與否互相獨立，求：\n(1) 兩人都解出的機率 (2) 此題被解出的機率',
+    answer: '(1) $\\frac12$ (2) $\\frac{11}{12}$',
+    hasImage: false,
+  },
+  {
+    id: '17dea041038',
+    chapter: '條件機率',
+    question:
+      '俗話說：「三個臭皮匠，勝過一個諸葛亮」，甲、乙、丙三人解題能力分別是 $\\frac13$、$\\frac25$、$\\frac14$，三人解題互不影響，試求：\n(1) 甲、乙兩人同解一題，此題被解出之機率\n(2) 甲、乙、丙三人同解一題，此題被解出之機率',
+    answer: '(1) $\\frac35$ (2) $\\frac7{10}$',
+    hasImage: false,
+  },
+  {
+    id: '17dea0453ca',
+    chapter: '條件機率',
+    question:
+      '甲、乙、丙三射擊選手同射一靶，每人一發，命中率各為 $0.6$、$0.8$、$0.7$，請問：\n(1) 靶面恰中一發的機率\n(2) 若恰中一發，求此發是乙射中的機率',
+    answer: '(1) $0.188$ (2) $\\frac{24}{47}$',
+    hasImage: false,
+  },
+  {
+    id: '17dea056006',
+    chapter: '條件機率',
+    question:
+      '甲、乙兩人射擊一靶的命中率為 $\\frac25$ 與 $\\frac13$，若兩人各射擊兩發子彈，各子彈互不影響，求：\n(1) 靶被射中的機率\n(2) 靶恰中一彈的機率\n(3) 靶恰中兩彈的機率',
+    answer: '(1) $\\frac{21}{25}$ (2) $\\frac{28}{75}$ (3) $\\frac{73}{225}$',
+    hasImage: false,
+  },
+  {
+    id: '17dea0921c2',
+    chapter: '條件機率',
+    question:
+      '射擊選手每射擊一發，命中機率為 $\\frac14$，請問：\n(1) 求射擊 $5$ 發，恰中 $2$ 發的機率\n(2) 若射擊 $n$ 發，至少中一發的機率大於 $0.97$，求 $n$ 最小值\n($\\log2\\approx0.3010$，$\\log3\\approx0.4771$)',
+    answer: '(1) $\\frac{135}{512}$ (2) $13$',
+    hasImage: false,
+  },
+  {
+    id: '17dea096923',
+    chapter: '條件機率',
+    question:
+      '射擊選手每射擊一發，命中機率為 $\\frac13$，請問：\n(1) 求射擊 $6$ 發，恰中 $2$ 發的機率\n(2) 若射擊 $n$ 發，至少中一發的機率大於 $0.98$，求 $n$ 最小值\n($\\log2\\approx0.3010$，$\\log3\\approx0.4771$)',
+    answer: '(1) $\\frac{80}{243}$ (2) $10$',
+    hasImage: false,
+  },
+  {
+    id: '17dea09a4eb',
+    chapter: '條件機率',
+    question:
+      '線路由五個開關組成，每個開關通電的機率為 $\\frac13$，其電線配置如圖，且開關之間互不影響，求電流可由 $A$ 流至 $B$ 的機率。',
+    answer: '$\\frac{35}{243}$',
+    hasImage: true,
+  },
+  {
+    id: '17dea0a1045',
+    chapter: '條件機率',
+    question:
+      '線路連接如圖，六個開關通電與否均互不影響，每個開關通電的機率為 $\\frac12$，求整個線路通電的機率。',
+    answer: '$\\frac{43}{64}$',
+    hasImage: true,
+  },
+  {
+    id: '17dea0b1c3e',
+    chapter: '條件機率',
+    question:
+      '甲、乙兩人有時說實話有時說謊話，根據經驗判斷，甲說實話的機率為 $\\frac23$，乙說實話的機率為 $\\frac56$，兩人說謊與否互為獨立事件。現在袋中有 $2$ 個金幣和 $4$ 個銀幣，取出一個給兩人看過，兩人都說是金幣，求真的是金幣的機率。',
+    answer: '$\\frac56$',
+    hasImage: false,
+  },
+  {
+    id: '17dea0b9e24',
+    chapter: '條件機率',
+    question:
+      '籤筒有 $10$ 支籤，其中 $7$ 支為「說實話」，$3$ 支為「說謊話」。某人擲一枚正面機率為 $\\frac35$ 的不公正銅板，先觀察正反面，再由籤筒抽籤決定說實話或說謊話，最後宣稱該銅板為正面，求該銅板真的是正面的機率。',
+    answer: '$\\frac79$',
+    hasImage: false,
+  },
+  {
+    id: '17dea0e2ecb',
+    chapter: '條件機率',
+    question:
+      '袋中有 $5$ 元、$10$ 元、$50$ 元硬幣各一個，經多次實驗得知，$5$ 元的正面機率為 $0.64$，$10$ 元的正面機率為 $0.55$，$50$ 元的正面機率為 $0.57$。現由袋中任取一枚硬幣，各枚被取的機率均等，若擲出正面則可獲得該硬幣當獎金，試求獎金的期望值。',
+    answer: '$12.4$ 元',
+    hasImage: false,
+  },
+  {
+    id: '17dea0f5df1',
+    chapter: '條件機率',
+    question:
+      '袋中有三個不均勻硬幣，經多次試驗得知正面的機率分別為 $0.56$、$0.58$、$0.62$，現從中任取一枚，各枚被取的機率均等，若得正面則可獲得獎金 $300$ 元，試問獎金的期望值。',
+    answer: '$176$ 元',
+    hasImage: false,
+  },
+  {
+    id: '17dea106397',
+    chapter: '矩陣A',
+    question:
+      '解下列聯立方程組：\n(1) $\\begin{cases}x-2y+3z=5\\\\2x+y-3z=-3\\\\3x-y+2z=6\\end{cases}$\n(2) $\\begin{cases}3x+y-z=2\\\\x+2y+z=8\\\\x-3y-3z=1\\end{cases}$\n(3) $\\begin{cases}x-y+2z=0\\\\x+y-z=0\\\\3x+y=0\\end{cases}$',
+    answer: '(1) $(1,1,2)$ (2) 無解 (3) $x=\\frac{y}{-3}=\\frac{z}{-2}$',
+    hasImage: false,
+  },
+  {
+    id: '17dea13e825',
+    chapter: '矩陣A',
+    question:
+      '空間中相異三平面 $E_1$、$E_2$、$E_3$ 把空間分割成 $n$ 個不相連通的區域，請問 $n$ 值可能為何？\n(1) $4$ (2) $5$ (3) $6$ (4) $7$ (5) $8$',
+    answer: '(1)(3)(4)(5)',
+    hasImage: false,
+  },
+  {
+    id: '17dea13d4eb',
+    chapter: '矩陣A',
+    question:
+      '小智去合作社買東西吃，剛好合作社在進行促銷活動，熱狗限量 $100$ 根，每位同學一次能買 $1\\sim3$ 根，價錢分別為一根 $8$ 元、兩根 $15$ 元、三根 $23$ 元。當小智到合作社時，熱狗剩下 $3$ 根，已知在小智之前已有 $45$ 位同學搶購，合作社已獲得 $739$ 元。求購買 $3$ 根熱狗的同學人數。',
+    answer: '$15$',
+    hasImage: false,
+  },
+  {
+    id: '17dea136cc7',
+    chapter: '矩陣A',
+    question:
+      '籃球比賽中，有一位球員總共投進了 $19$ 球，得了 $39$ 分，其中罰球及三分球加起來還比二分球少進一個，請問若此人在比賽中分別進了 $x$ 個罰球 (每球一分)，$y$ 個二分球及 $z$ 個三分球，求序組 $(x,y,z)$。',
+    answer: '$(4,10,5)$',
+    hasImage: false,
+  },
+  {
+    id: '17debc9daeb',
+    chapter: '多項式函數',
+    question: '已知對任意實數 $x$，$2x^2+4x+a$ 的值恆為正數，求 $a$ 的範圍。',
+    answer: '$a>2$',
+    hasImage: false,
+  },
+  {
+    id: '17debcac6db',
+    chapter: '多項式函數',
+    question: '已知對任意實數 $x$，$-3x^2+x+p$ 的值恆為負數，求 $p$ 的範圍。',
+    answer: '$p<-\\frac1{12}$',
+    hasImage: false,
+  },
+  {
+    id: '17debcce9b0',
+    chapter: '多項式函數',
+    question: '已知二次函數 $y=ax^2+2x+4$ 的圖形恆在直線 $y=2$ 的上方，求 $a$ 的範圍。',
+    answer: '$a>\\frac12$',
+    hasImage: false,
+  },
+  {
+    id: '17debcf1d3f',
+    chapter: '多項式函數',
+    question: '已知二次函數 $y=ax^2+5x-4$ 的圖形恆在直線 $y=2x+1$ 的下方，求 $a$ 的範圍。',
+    answer: '$a<-\\frac9{20}$',
+    hasImage: false,
+  },
+  {
+    id: '17debd0cc3d',
+    chapter: '多項式函數',
+    question: '已知二次函數 $y=x^2+5x+a$ 的圖形恆在直線 $y=x+3$ 的上方，求 $a$ 的範圍。',
+    answer: '$a>7$',
+    hasImage: false,
+  },
+  {
+    id: '17debd4b626',
+    chapter: '多項式函數',
+    question: '已知二次函數 $f(x)=(x-a)^2+3$ 滿足 $f(100)=f(200)$，求 $a$。',
+    answer: '$150$',
+    hasImage: false,
+  },
+  {
+    id: '17debd81235',
+    chapter: '多項式函數',
+    question: '試描繪三次多項式 $f(x)=-3(x-9)^3+2(x-9)+7$ 的圖形，並求其對稱中心。',
+    answer: '圖略；$(9,7)$',
+    hasImage: false,
+  },
+  {
+    id: '17debdc6bc7',
+    chapter: '多項式函數',
+    question: '求三次函數 $f(x)=-x^3-3x^2-x-3$ 的對稱中心。',
+    answer: '$(-1,-4)$',
+    hasImage: false,
+  },
+  {
+    id: '17debdd76f0',
+    chapter: '多項式函數',
+    question: '求三次函數 $f(x)=2x^3-12x^2+25x+9$ 的對稱中心。',
+    answer: '$(2,9)$',
     hasImage: false,
   },
 ];
