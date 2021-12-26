@@ -17561,9 +17561,17 @@ export const bank: Question[] = [
     id: '17deb4c7d73',
     chapter: '平面向量',
     question:
-      '設 $\\triangle ABC$ 為坐標平面上一三角形，$P$ 為平面上一點且 $\\xvector{AP}=\\frac15\\xvector{AB}+\\frac25\\xvector{AC}$，求 $\\frac{\\triangle ABP}{\\triangle ABC}$。',
+      '設 $\\triangle ABC$ 為坐標平面上一三角形，$P$ 為平面上一點且 $\\xvector{AP}=\\frac15\\xvector{AB}+\\frac25\\xvector{AC}$，求 $\\dfrac{\\triangle ABP}{\\triangle ABC}$。',
     answer: '$\\frac25$',
     hasImage: false,
+  },
+  {
+    id: '17ded03ee72',
+    chapter: '平面向量',
+    question:
+      '梯形 $ABCD$，其中 $\\overline{AB}$ 與 $\\overline{DC}$ 平行。已知點 $E$、$F$ 分別在對角線 $\\overline{AC}$、$\\overline{BD}$ 上，且 $\\overline{AB}=\\frac25\\overline{DC}$，$\\overline{AE}=\\frac32\\overline{EC}$，$\\overline{BF}=\\frac23\\overline{FD}$，如圖，若 $\\xvector{FE}=\\alpha\\xvector{AC}+\\beta\\xvector{AD}$，求數對 $(\\alpha,\\beta)$。',
+    answer: '$(\\frac9{25},-\\frac4{25})$',
+    hasImage: true,
   },
   {
     id: '17de15c9102',
@@ -18260,6 +18268,572 @@ export const bank: Question[] = [
     chapter: '多項式函數',
     question: '求三次函數 $f(x)=2x^3-12x^2+25x+9$ 的對稱中心。',
     answer: '$(2,9)$',
+    hasImage: false,
+  },
+  {
+    id: '17df4f75aa0',
+    chapter: '矩陣A',
+    question: '請利用增廣矩陣的列運算解 $\\begin{cases}2x+y=35\\\\x-3y=7\\end{cases}$。',
+    answer: '$(x,y)=(16,3)$',
+    hasImage: false,
+  },
+  {
+    id: '17df4f81069',
+    chapter: '矩陣A',
+    question:
+      '若 $\\begin{bmatrix}1&1&2&3\\\\1&2&4&0\\\\3&1&1&2\\end{bmatrix}$ 經過列運算後可化成 $\\begin{bmatrix}1&1&2&3\\\\0&1&0&a\\\\0&0&1&b\\end{bmatrix}$，求數對 $(a,b)$。',
+    answer: '$(-29,13)$',
+    hasImage: false,
+  },
+  {
+    id: '17df4fcd30d',
+    chapter: '矩陣A',
+    question: '$\\begin{cases}3x+y=2\\\\x-2y=1\\end{cases}$，試用列運算求解。',
+    answer: '$(x,y)=(\\frac57,-\\frac17)$',
+    hasImage: false,
+  },
+  {
+    id: '17df4fdb66b',
+    chapter: '矩陣A',
+    question:
+      '若 $\\begin{bmatrix}1&1&2&5\\\\2&3&1&1\\\\1&4&2&2\\end{bmatrix}$ 可經由列運算化成 $\\begin{bmatrix}1&1&2&5\\\\0&1&0&a\\\\0&0&1&b\\end{bmatrix}$，求數對 $(a,b)$。',
+    answer: '$(-1,\\frac83)$',
+    hasImage: false,
+  },
+  {
+    id: '17df4fe8a7d',
+    chapter: '矩陣A',
+    question:
+      '已知 $\\begin{bmatrix}1&-2&a&5\\\\3&-1&2&b\\\\2&c&-3&-5\\end{bmatrix}$ 可經由列運算得到 $\\begin{bmatrix}1&0&0&2\\\\0&1&0&3\\\\0&0&1&1\\end{bmatrix}$ 求序組 $(a,b,c)$。',
+    answer: '$(9,5,-2)$',
+    hasImage: false,
+  },
+  {
+    id: '17df5039120',
+    chapter: '矩陣A',
+    question:
+      '方程式 $\\begin{cases}x+2y+4z=3\\\\x+y+2z=a\\\\3x+y+az=b\\end{cases}$\n(1) 若有唯一解，求 $a$ 的範圍\n(2) 若有無限多解，求 $a$、$b$\n(3) 若無解，求 $a$、$b$ 的範圍',
+    answer: '(1) $a\\ne2$ (2) $a=2$；$b=4$ (3) $a=2$；$b\\ne4$',
+    hasImage: false,
+  },
+  {
+    id: '17df50001ba',
+    chapter: '矩陣A',
+    question:
+      '已知 $\\begin{bmatrix}1&2&a&16\\\\0&-1&-5&b\\\\0&12&c&0\\end{bmatrix}$ 可經由列運算得到 $\\begin{bmatrix}1&0&0&2\\\\0&1&0&3\\\\0&0&1&-4\\end{bmatrix}$ 求序組 $(a,b,c)$。',
+    answer: '$(-1,15,15)$',
+    hasImage: false,
+  },
+  {
+    id: '17df5045f33',
+    chapter: '矩陣A',
+    question:
+      '若 $\\begin{cases}x+y-z=a\\\\2x-y+2z=b\\\\x-2y+az=1\\end{cases}$ 有無限多解，求數對 $(a,b)$。',
+    answer: '$(3,4)$',
+    hasImage: false,
+  },
+  {
+    id: '17df50568a3',
+    chapter: '矩陣A',
+    question:
+      '設 $A=\\begin{bmatrix}a_{ij}\\end{bmatrix}_{2\\times3}$，且 $a_{ij}=2i-3j$，求：\n(1) $A$ (2) $A$ 的所有元素和',
+    answer: '(1) $\\begin{bmatrix}-1&-4&-7\\\\1&-2&-5\\end{bmatrix}$ (2)$-18$',
+    hasImage: false,
+  },
+  {
+    id: '17df5064f51',
+    chapter: '矩陣A',
+    question:
+      '方陣 $A=\\begin{bmatrix}a_{ij}\\end{bmatrix}_{5\\times5}$，試問：\n(1) 若 $a_{ij}=i-j$，求 $A$ 的所有元素和\n(2) 若 $a_{ij}=|i-j|$，求 $A$ 的所有元素和',
+    answer: '(1) $0$ (2) $40$',
+    hasImage: false,
+  },
+  {
+    id: '17df506c704',
+    chapter: '矩陣A',
+    question:
+      '若 $\\begin{bmatrix}a+3b&7\\\\-3&x+y\\end{bmatrix}=\\begin{bmatrix}5&x-y\\\\a-b&1\\end{bmatrix}$，求 $a+b+x+y$。',
+    answer: '$2$',
+    hasImage: false,
+  },
+  {
+    id: '17df50834fb',
+    chapter: '矩陣A',
+    question:
+      '若 $A=\\begin{bmatrix}3&2&1\\\\1&0&4\\end{bmatrix}$，$B=\\begin{bmatrix}1&0&5\\\\2&4&-1\\end{bmatrix}$，求：\n(1) $A+B$ (2) $3A-2B$\n(3) $8(2A-B)-2[4A+3(A-2B)]$',
+    answer:
+      '(1) $\\begin{bmatrix}4&2&6\\\\3&4&3\\end{bmatrix}$ (2) $\\begin{bmatrix}7&6&-7\\\\-1&-8&14\\end{bmatrix}$ (3) $\\begin{bmatrix}10&4&22\\\\10&16&4\\end{bmatrix}$',
+    hasImage: false,
+  },
+  {
+    id: '17df508d090',
+    chapter: '矩陣A',
+    question:
+      '設 $\\begin{bmatrix}x-2y&a-b\\\\a+b&x-4y\\end{bmatrix}=\\begin{bmatrix}0&1\\\\9&2\\end{bmatrix}$，求序組 $(a,b,x,y)$。',
+    answer: '$(5,4,-2,-1)$',
+    hasImage: false,
+  },
+  {
+    id: '17df5097b18',
+    chapter: '矩陣A',
+    question:
+      '$A=\\begin{bmatrix}3&1\\\\2&5\\end{bmatrix}$，$B=\\begin{bmatrix}-1&7\\\\-2&4\\end{bmatrix}$，求：\n(1) $A+B$ (2) $2A-3B$\n(3) $B+[5A-3(2A-B)]$',
+    answer:
+      '(1)$\\begin{bmatrix}2&8\\\\0&9\\end{bmatrix}$ (2)$\\begin{bmatrix}9&-19\\\\10&-2\\end{bmatrix}$ (3)$\\begin{bmatrix}-7&27\\\\-10&11\\end{bmatrix}$',
+    hasImage: false,
+  },
+  {
+    id: '17df50a0228',
+    chapter: '矩陣A',
+    question:
+      '設 $A=\\begin{bmatrix}5&1\\\\0&2\\end{bmatrix}$，$B=\\begin{bmatrix}1&-3\\\\6&-5\\end{bmatrix}$，若 $4A-X=3(2B-X)$，求 $X$。',
+    answer: '$\\begin{bmatrix}-7&-11\\\\18&-19\\end{bmatrix}$',
+    hasImage: false,
+  },
+  {
+    id: '17df50af357',
+    chapter: '矩陣A',
+    question:
+      '設 $A=\\begin{bmatrix}3&1&2\\\\4&0&3\\end{bmatrix}$，$B=\\begin{bmatrix}2&2&0\\\\1&3&5\\end{bmatrix}$，若 $\\begin{cases}2X+Y=6A\\\\X-Y=3B\\end{cases}$，求 $X$、$Y$。',
+    answer:
+      '$\\begin{bmatrix}8&4&4\\\\9&3&11\\end{bmatrix}$；$\\begin{bmatrix}2&-2&4\\\\6&-6&-4\\end{bmatrix}$',
+    hasImage: false,
+  },
+  {
+    id: '17df50be60a',
+    chapter: '矩陣A',
+    question:
+      '若 $3X+\\begin{bmatrix}5&2\\\\2&-3\\\\5&1\\end{bmatrix}=\\begin{bmatrix}3&0\\\\2&-5\\\\1&4\\end{bmatrix}+4\\begin{bmatrix}2&2\\\\-3&-1\\\\7&3\\end{bmatrix}$，求 $X$。',
+    answer: '$\\begin{bmatrix}2&2\\\\-4&-2\\\\8&5\\end{bmatrix}$',
+    hasImage: false,
+  },
+  {
+    id: '17df50cf6be',
+    chapter: '矩陣A',
+    question:
+      '阿明解矩陣的聯立方程式組，把 $\\begin{cases}X+2Y=A\\\\2X-Y=B\\end{cases}$ 看成 $\\begin{cases}X+Y=A\\\\2X+Y=B\\end{cases}$ 結果得到錯誤的 $X=\\begin{bmatrix}3&-13\\\\-17&1\\end{bmatrix}$，$Y=\\begin{bmatrix}0&25\\\\30&5\\end{bmatrix}$，若阿明無其他失誤，求正確的 $X$、$Y$。\n',
+    answer:
+      '$\\begin{bmatrix}3&2\\\\1&4\\end{bmatrix}$；$\\begin{bmatrix}0&5\\\\6&1\\end{bmatrix}$',
+    hasImage: false,
+  },
+  {
+    id: '17df50dc03b',
+    chapter: '矩陣A',
+    question:
+      '設 $A=\\begin{bmatrix}2&3&5\\\\7&6&4\\end{bmatrix}$，$B=\\begin{bmatrix}1&6&2\\\\4&9&8\\\\8&7&3\\end{bmatrix}$，求 $AB$、$BA$。',
+    answer: '$\\begin{bmatrix}54&74&43\\\\63&124&74\\end{bmatrix}$；不存在',
+    hasImage: false,
+  },
+  {
+    id: '17df50e4f9f',
+    chapter: '矩陣A',
+    question: '二階方陣 $A=\\begin{bmatrix}1&2\\\\3&4\\end{bmatrix}$，求 $A^2$、$A^3$。',
+    answer:
+      '$\\begin{bmatrix}7&10\\\\15&22\\end{bmatrix}$；$\\begin{bmatrix}37&54\\\\81&118\\end{bmatrix}$',
+    hasImage: false,
+  },
+
+  {
+    id: '17df510dec6',
+    chapter: '矩陣A',
+    question:
+      '$A=\\begin{bmatrix}0&1\\\\2&0\\end{bmatrix}$，$B=\\begin{bmatrix}3&1&6\\\\4&5&2\\end{bmatrix}$，求 $AB$、$BA$。',
+    answer: '$\\begin{bmatrix}4&5&2\\\\6&2&12\\end{bmatrix}$；不存在',
+    hasImage: false,
+  },
+  {
+    id: '17df5114895',
+    chapter: '矩陣A',
+    question: '二階方陣 $A=\\begin{bmatrix}3&1\\\\0&2\\end{bmatrix}$，求 $A^2$、$A^3$。',
+    answer:
+      '$\\begin{bmatrix}9&5\\\\0&4\\end{bmatrix}$；$\\begin{bmatrix}27&19\\\\0&8\\end{bmatrix}$',
+    hasImage: false,
+  },
+  {
+    id: '17df55552c9',
+    chapter: '矩陣A',
+    question:
+      '設矩陣 $A$ 滿足 $A\\begin{bmatrix}1\\\\2\\\\3\\end{bmatrix}=\\begin{bmatrix}5\\\\7\\end{bmatrix}$，$A\\begin{bmatrix}32\\\\8\\\\16\\end{bmatrix}\\begin{bmatrix}72\\\\96\\end{bmatrix}$，求乘積 $A\\begin{bmatrix}-2&4\\\\-4&1\\\\-6&2\\end{bmatrix}$。',
+    answer: '$\\begin{bmatrix}-10&9\\\\-14&12\\end{bmatrix}$',
+    hasImage: false,
+  },
+  {
+    id: '17df5563457',
+    chapter: '矩陣A',
+    question:
+      '已知矩陣 $A$ 滿足 $\\begin{bmatrix}2&3\\end{bmatrix}A=\\begin{bmatrix}1&8&3\\end{bmatrix}$，$\\begin{bmatrix}1&4\\end{bmatrix}A=\\begin{bmatrix}5&2&7\\end{bmatrix}$，試求 $\\begin{bmatrix}4&6\\\\5&20\\end{bmatrix}A$。',
+    answer: '$\\begin{bmatrix}2&16&6\\\\25&10&35\\end{bmatrix}$',
+    hasImage: false,
+  },
+  {
+    id: '17df556cdf6',
+    chapter: '矩陣A',
+    question:
+      '$A=\\begin{bmatrix}2&4&3\\\\1&-1&5\\end{bmatrix}$，$B=\\begin{bmatrix}1\\\\3\\\\-2\\end{bmatrix}$，$C=\\begin{bmatrix}1&2&1&3\\end{bmatrix}$，試問 $(AB)C$ 與 $A(BC)$ 是否相同。',
+    answer: '是',
+    hasImage: false,
+  },
+  {
+    id: '17df5572cb7',
+    chapter: '矩陣A',
+    question:
+      '已知方陣 $A=\\begin{bmatrix}2&3&1\\\\4&1&5\\\\6&1&2\\end{bmatrix}$，$B=\\begin{bmatrix}7&-3&6\\\\2&8&-9\\\\-6&8&-6\\end{bmatrix}$，$C=\\begin{bmatrix}-7&3&-4\\\\-2&-8&9\\\\6&-8&-7\\end{bmatrix}$，試求 $AB+AC$。',
+    answer: '$\\begin{bmatrix}0&0&3\\\\0&0&3\\\\0&0&10\\end{bmatrix}$',
+    hasImage: false,
+  },
+  {
+    id: '17df55831c0',
+    chapter: '矩陣A',
+    question:
+      '計算 $\\begin{bmatrix}\\frac12&\\frac23\\\\\\frac56&1\\end{bmatrix}\\begin{bmatrix}\\frac25&\\frac3{10}\\\\\\frac12&\\frac7{10}\\end{bmatrix}$。',
+    answer: '$\\begin{bmatrix}\\frac8{15}&\\frac{37}{60}\\\\\\frac56&\\frac{19}{20}\\end{bmatrix}$',
+    hasImage: false,
+  },
+  {
+    id: '17df5588b8a',
+    chapter: '矩陣A',
+    question:
+      '已知 $A=\\begin{bmatrix}3&2\\\\4&1\\end{bmatrix}$，$B=\\begin{bmatrix}1&2\\\\3&4\\end{bmatrix}$，$C=\\begin{bmatrix}4&3\\\\2&1\\end{bmatrix}$，求 $(AB)C、A(BC)$。',
+    answer:
+      '$\\begin{bmatrix}64&41\\\\52&33\\end{bmatrix}$；$\\begin{bmatrix}64&41\\\\52&33\\end{bmatrix}$',
+    hasImage: false,
+  },
+  {
+    id: '17df5594d29',
+    chapter: '矩陣A',
+    question:
+      '已知 $A=\\begin{bmatrix}3&7&2\\\\5&6&9\\\\1&4&8\\end{bmatrix}$，$B=\\begin{bmatrix}-3&-7&-1\\\\-5&-6&-9\\\\0&-4&-8\\end{bmatrix}$，$C=\\begin{bmatrix}-3&-7&0\\\\-4&-6&-9\\\\1&-4&-8\\end{bmatrix}$，求 $AC+BC$、$AB-AC$。',
+    answer:
+      '$\\begin{bmatrix}1&-4&-8\\\\0&0&0\\\\-3&-7&0\\end{bmatrix}$；$\\begin{bmatrix}-9&0&-3\\\\-15&0&-5\\\\-12&0&-1\\end{bmatrix}$',
+    hasImage: false,
+  },
+  {
+    id: '17df55a336b',
+    chapter: '矩陣A',
+    question:
+      '計算 $\\begin{bmatrix}\\frac32&1\\\\2&\\frac52\\end{bmatrix}\\begin{bmatrix}\\frac16&\\frac56\\\\\\frac32&\\frac73\\end{bmatrix}$。',
+    answer: '$\\begin{bmatrix}\\frac74&\\frac{43}{12}\\\\\\frac{49}{12}&\\frac{15}2\\end{bmatrix}$',
+    hasImage: false,
+  },
+  {
+    id: '17df55ae28b',
+    chapter: '矩陣A',
+    question:
+      '$A=\\begin{bmatrix}1&2\\\\2&4\\end{bmatrix}$，$B=\\begin{bmatrix}2&-2\\\\-1&1\\end{bmatrix}$，試問 $AB$ 與 $BA$ 是否相同。',
+    answer: '否',
+    hasImage: false,
+  },
+  {
+    id: '17df55b5ef9',
+    chapter: '矩陣A',
+    question:
+      '已知 $A=\\begin{bmatrix}x&y\\\\5&-1\\end{bmatrix}$，$B=\\begin{bmatrix}3&1\\\\4&2\\end{bmatrix}$，若 $AB=BA$，求 $x$、$y$。',
+    answer: '$\\frac14$；$\\frac54$',
+    hasImage: false,
+  },
+  {
+    id: '17df55c3250',
+    chapter: '矩陣A',
+    question:
+      '已知 $A$、$B$、$C$ 皆為 $2$ 階方陣， $I$ 為 $2$ 階單位方陣，$O$ 為 $2$ 階零方陣，下列選項哪些為真？\n(1) $(A+B)+C=A+(B+C)$ 且 $(AB)C=A(BC)$\n(2) $(A+B)^2=A^2+2AB+B^2$\n(3) $(A+I)^2=A^2+2A+I$\n(4) 若 $AB=AC$，則 $B=C$\n(5) 若 $AB=O$，則 $A=O$ 或 $B=O$\n(6) 若 $A^2=O$，則 $A=O$',
+    answer: '(1)(3)',
+    hasImage: false,
+  },
+  {
+    id: '17df55cdeb5',
+    chapter: '矩陣A',
+    question:
+      '$A=\\begin{bmatrix}x&y\\\\10&-1\\end{bmatrix}$，$B=\\begin{bmatrix}3&-1\\\\5&2\\end{bmatrix}$，若 $AB=BA$，求 $x$、$y$。',
+    answer: '$1$；$-2$',
+    hasImage: false,
+  },
+  {
+    id: '17df55d7985',
+    chapter: '矩陣A',
+    question:
+      '$I=\\begin{bmatrix}1&0&0\\\\0&1&0\\\\0&0&1\\end{bmatrix}$，$J=\\begin{bmatrix}1&1&1\\\\1&1&1\\\\1&1&1\\end{bmatrix}$，求：\n(1) $(I+J)^3$ (2) $(I+\\frac J3)^{10}$',
+    answer:
+      '(1) $\\begin{bmatrix}22&21&21\\\\21&22&21\\\\21&21&22\\end{bmatrix}$ (2) $\\begin{bmatrix}342&341&341\\\\341&342&341\\\\341&341&342\\end{bmatrix}$',
+    hasImage: false,
+  },
+  {
+    id: '17df55e8e6f',
+    chapter: '矩陣A',
+    question:
+      '已知方陣 $I=\\begin{bmatrix}1&0\\\\0&1\\end{bmatrix}$，$J=\\begin{bmatrix}1&1\\\\1&1\\end{bmatrix}$，試問：\n(1) 求 $(I+J)^4$\n(2) 若 $(I+\\frac12J)^{10}=I+kJ$，求 $k$',
+    answer: '(1) $\\begin{bmatrix}41&40\\\\40&41\\end{bmatrix}$ (2) $\\frac{1023}2$',
+    hasImage: false,
+  },
+  {
+    id: '17df55f2ff6',
+    chapter: '矩陣A',
+    question:
+      '已知二階方陣 $A$ 滿足 $A\\begin{bmatrix}4\\\\8\\end{bmatrix}=\\begin{bmatrix}2\\\\0\\end{bmatrix}$，$A\\begin{bmatrix}9\\\\6\\end{bmatrix}=\\begin{bmatrix}0\\\\3\\end{bmatrix}$，求 $A$。',
+    answer: '$\\begin{bmatrix}-\\frac14&\\frac38\\\\\\frac12&-\\frac14\\end{bmatrix}$',
+    hasImage: false,
+  },
+  {
+    id: '17df55fb5ef',
+    chapter: '矩陣A',
+    question:
+      '若方陣 $A\\begin{bmatrix}2\\\\3\\end{bmatrix}=\\begin{bmatrix}1\\\\0\\end{bmatrix}$，$A\\begin{bmatrix}1\\\\4\\end{bmatrix}=\\begin{bmatrix}0\\\\1\\end{bmatrix}$，求 $A$。',
+    answer: '$\\begin{bmatrix}\\frac45&-\\frac15\\\\-\\frac35&\\frac25\\end{bmatrix}$',
+    hasImage: false,
+  },
+  {
+    id: '17df5600752',
+    chapter: '矩陣A',
+    question:
+      '設 $A$ 為二階方陣，若 $A^2=\\begin{bmatrix}-1&-4\\\\8&7\\end{bmatrix}$，$A^3=\\begin{bmatrix}-9&-11\\\\22&13\\end{bmatrix}$，求 $A$。',
+    answer: '$\\begin{bmatrix}1&-1\\\\2&3\\end{bmatrix}$',
+    hasImage: false,
+  },
+  {
+    id: '17df560d2dd',
+    chapter: '矩陣A',
+    question:
+      '已知 $AB=\\begin{bmatrix}8&6\\\\14&8\\end{bmatrix}$，$BA=\\begin{bmatrix}5&15\\\\5&11\\end{bmatrix}$，求 $A^{-1}B^{-1}$。',
+    answer: '$\\begin{bmatrix}-\\frac{11}{20}&\\frac34\\\\\\frac14&-\\frac14\\end{bmatrix}$',
+    hasImage: false,
+  },
+  {
+    id: '17df5611088',
+    chapter: '矩陣A',
+    question:
+      '設 $A$ 為二階方陣，已知 $A^3=\\begin{bmatrix}7&10\\\\5&7\\end{bmatrix}$，$A^4=\\begin{bmatrix}17&24\\\\12&17\\end{bmatrix}$，求 $A^2$。',
+    answer: '$\\begin{bmatrix}3&4\\\\2&3\\end{bmatrix}$',
+    hasImage: false,
+  },
+  {
+    id: '17df56186ce',
+    chapter: '矩陣A',
+    question:
+      '已知 $AB=\\begin{bmatrix}5&4\\\\6&5\\end{bmatrix}$，$BA=\\begin{bmatrix}3&10\\\\2&7\\end{bmatrix}$，求 $A^{-1}B^{-1}$、$B^{-1}A^{-1}$。',
+    answer:
+      '$\\begin{bmatrix}7&-10\\\\-2&3\\end{bmatrix}$；$\\begin{bmatrix}5&-4\\\\-6&5\\end{bmatrix}$',
+    hasImage: false,
+  },
+  {
+    id: '17df561e770',
+    chapter: '矩陣A',
+    question: '若方陣 $\\begin{bmatrix}a^2&a-2\\\\a+1&1\\end{bmatrix}$ 的反方陣不存在，求 $a$。',
+    answer: '$-2$',
+    hasImage: false,
+  },
+  {
+    id: '17df5625e43',
+    chapter: '矩陣A',
+    question:
+      '$x\\in\\mathbb R$，若 $\\begin{bmatrix}3x&2\\\\x+1&4x\\end{bmatrix}$ 的反方陣存在，但 $\\begin{bmatrix}x+1&1\\\\5x+1&3x\\end{bmatrix}$ 的反方陣不存在，求 $x$。',
+    answer: '$1$',
+    hasImage: false,
+  },
+  {
+    id: '17df5646192',
+    chapter: '矩陣A',
+    question:
+      '$A$、$B$、$C$ 為 $n$ 階方陣，$I$ 為 $n$ 階單位方陣。判別對錯：\n(1) 若 $AB=AC$，則 $B=C$\n(2) 若 $AB=AC=I$，則 $B=C$\n(3) 若 $A$ 的反方陣為 $A^{-1}$，則 $(A^{-1})^2=(A^2)^{-1}$\n(4) 若 $ABA^{-1}=I$，則 $B=I$\n(5) 若 $(AB)$ 為可逆方陣，則 $A$ 與 $B$ 均為可逆方陣',
+    answer: 'xoooo',
+    hasImage: false,
+  },
+  {
+    id: '17df5658930',
+    chapter: '矩陣A',
+    question:
+      '$I$ 為 $n$ 階單位方陣，$A$、$B$ 為 $n$ 階方陣，請問下列各選項哪些正確？\n(1) 若 $AX=B$ 且 $A^{-1}$ 存在，則 $X=BA^{-1}$\n(2) 若 $AB=BC$ 且 $B^{-1}$ 存在，則 $A=C$\n(3) 若 $A-B$ 有反方陣，則 $(A-B)^{-1}(B-A)=-I$\n(4) 若 $A+B$ 有反方陣，則 $\\begin{cases}AX+Y=B\\\\BX-Y=A\\end{cases}$ 必可解出 $X=I$\n(5) 若 $A^2=I$，則 $A=A^{-1}=I$',
+    answer: '(3)(4)',
+    hasImage: false,
+  },
+  {
+    id: '17df566708a',
+    chapter: '矩陣A',
+    question:
+      '將聯立方程式 $\\begin{cases}3x+2y=15\\\\4x+y=10\\end{cases}$ 寫成矩陣乘積的等式並利用反方陣求解。',
+    answer: '$(x,y)=(1,6)$',
+    hasImage: false,
+  },
+  {
+    id: '17df56727bf',
+    chapter: '矩陣A',
+    question:
+      '設二階方陣 $X$ 滿足 $2X\\begin{bmatrix}3&2\\\\5&3\\end{bmatrix}+3\\begin{bmatrix}1&2\\\\-1&0\\end{bmatrix}=\\begin{bmatrix}5&10\\\\1&8\\end{bmatrix}$，求 $X$。',
+    answer: '$\\begin{bmatrix}-\\frac52&\\frac32\\\\-\\frac{15}2&\\frac92\\end{bmatrix}$',
+    hasImage: false,
+  },
+  {
+    id: '17df567f4d7',
+    chapter: '矩陣A',
+    question:
+      '$A=\\begin{bmatrix}3&1\\\\5&0\\end{bmatrix}$，若 $A\\begin{bmatrix}x\\\\y\\end{bmatrix}=\\begin{bmatrix}2\\\\7\\end{bmatrix}$，求 $x$，$y$。',
+    answer: '$\\frac75$；$-\\frac{11}5$',
+    hasImage: false,
+  },
+  {
+    id: '17df568a279',
+    chapter: '矩陣A',
+    question:
+      '設 $A=\\begin{bmatrix}1&2&3\\\\1&0&4\\end{bmatrix}$，$B=\\begin{bmatrix}2&1&1\\\\1&3&0\\end{bmatrix}$，$C=\\begin{bmatrix}2&3\\\\1&1\\end{bmatrix}$，$A+2B+2CX=3A+B-X$，求 $X$。',
+    answer: '$\\begin{bmatrix}-2&9&-11\\\\\\frac53&-7&10\\end{bmatrix}$',
+    hasImage: false,
+  },
+  {
+    id: '17df56940d1',
+    chapter: '矩陣A',
+    question:
+      '下列有關轉移方陣的敘述，哪些是正確的？\n(1) $\\begin{bmatrix}0.2&0.8\\\\0.6&0.4\\end{bmatrix}$ 是轉移方陣\n(2) $\\begin{bmatrix}0.2&2\\\\0.8&-1\\end{bmatrix}$ 是轉移方陣\n(3) $\\begin{bmatrix}0.2&1&0.6\\\\0.4&0&0.1\\\\0.4&0&0.3\\end{bmatrix}$ 是轉移方陣\n(4) 若 $A$、$B$ 都是轉移方陣，則 $AB$ 也是轉移方陣\n(5) 若 $A$、$B$ 都是轉移方陣，則 $\\frac12(A+B)$ 也是轉移方陣',
+    answer: '(3)(4)(5)',
+    hasImage: false,
+  },
+  {
+    id: '17df569c034',
+    chapter: '矩陣A',
+    question: '已知 $A$ 為轉移方陣，若 $x(A+A^2+A^3+\\cdots+A^{10})$ 為轉移方陣，求 $x$。',
+    answer: '$\\frac1{10}$',
+    hasImage: false,
+  },
+  {
+    id: '17df56b28c6',
+    chapter: '矩陣A',
+    question:
+      '多次數學考試下來，數學老師發現，全體同學若上次數學考及格，則這次也會及格的比率為 $80\\%$，若上次數學不及格，則這次數學仍不及格的比率為 $60\\%$。若這次數學考完共有七成的同學及格，則：\n(1) 下次及格的比率\n(2) 下下次及格的比率\n(3) 多次考試後及格的比率',
+    answer: '(1) $0.68$ (2) $0.672$ (3) $\\frac23$',
+    hasImage: false,
+  },
+  {
+    id: '17df56b6cb2',
+    chapter: '矩陣A',
+    question:
+      '設 $A$ 箱內有 $2$ 白球，$B$ 箱內有 $1$ 黑球，兩手伸進 $A$ 與 $B$ 內各取一球互換，求多次交換後黑球在 $A$ 箱內的機率。',
+    answer: '$\\frac23$',
+    hasImage: false,
+  },
+  {
+    id: '17df56d4e30',
+    chapter: '矩陣A',
+    question:
+      '小明去學校有甲、乙兩條路可以走，他每天依下述方法決定上學的路線：若某一天走乙路線上學，則次日一定走甲路線；若某一天走甲路線上學，則次日丟一枚公正硬幣，正面走甲路線，反面走乙路線：試問：\n(1) 若星期一小明以丟硬幣決定上學路線，求他在星期三走甲路線的機率\n(2) 長期而言，小明走甲路線的機率',
+    answer: '$\\frac58$；$\\frac23$',
+    hasImage: false,
+  },
+  {
+    id: '17df56e3bb3',
+    chapter: '矩陣A',
+    question:
+      '設 $A$ 箱內有 $2$ 白球，$B$ 箱內有 $1$ 黑球，甲、乙兩人輪流取球，每次先由甲自 $A$ 箱內任取一球，放入 $B$ 箱內，再由乙自 $B$ 箱內任取一球，放入 $A$ 箱內，這樣稱為一局，試求：\n(1) 在交換三局後，$2$ 白球在 $A$ 箱內的機率\n(2) 多次交換後 $2$ 白球在 $A$ 箱的機率',
+    answer: '$\\frac{11}{32}$；$\\frac13$',
+    hasImage: false,
+  },
+  {
+    id: '17df56f3ed1',
+    chapter: '矩陣A',
+    question:
+      '方陣 $A=\\begin{bmatrix}2&1\\\\3&4\\end{bmatrix}$，試問：\n(1) $A$ 作用在 $P(-1,5)$ 所得的像為 $Q$，求 $Q$ 坐標\n(2) 若點 $(k+1,2k-3)$ 經 $A$ 變換之後所得的像為 $(7,m)$，求 $k$、$m$\n(3) 正方形四個頂點為 $(0,0)$、$(1,0)$、$(1,1)$、$(0,1)$，經過 $A$ 變換後的圖形為 $\\Gamma$，試畫出 $\\Gamma$ 的圖形',
+    answer: '(1) $(3,17)$ (2) $2$；$13$ (3) 略',
+    hasImage: false,
+  },
+  {
+    id: '17df1d69974',
+    chapter: '矩陣A',
+    question:
+      '方陣 $A=\\begin{bmatrix}1&2\\\\4&3\\end{bmatrix}$，$A$ 作用在點 $P$ 的像為 $(15,55)$，求點 $P$ 坐標。',
+    answer: '$(13,1)$',
+    hasImage: false,
+  },
+  {
+    id: '17df56ff47e',
+    chapter: '矩陣A',
+    question:
+      '方陣 $\\begin{bmatrix}5&6\\\\1&2\\end{bmatrix}$ 作用在點 $(a,5)$ 所得的像為 $(b,7)$，求 $a$，$b$。',
+    answer: '$-3$；$15$',
+    hasImage: false,
+  },
+  {
+    id: '17df1d9804e',
+    chapter: '矩陣A',
+    question:
+      '方陣 $\\begin{bmatrix}4&1\\\\5&3\\end{bmatrix}$ 作用在 $P$ 點上的像為 $(-7,7)$，求 $P$ 坐標。',
+    answer: '$(-4,9)$',
+    hasImage: false,
+  },
+  {
+    id: '17df57184c6',
+    chapter: '矩陣A',
+    question:
+      "平面上有 $\\triangle PQR$，已知 $P(1,2)$、$Q(3,8)$、$R(6,-5)$，$\\triangle PQR$ 經 $\\begin{bmatrix}9&3\\\\2&-1\\end{bmatrix}$ 線性變換後得 $\\triangle P'Q'R'$，求 $\\triangle P'Q'R'$ 面積。",
+    answer: '$330$',
+    hasImage: false,
+  },
+  {
+    id: '17df571c79b',
+    chapter: '矩陣A',
+    question:
+      '平面上長方形 $ABCD$ 頂點為 $(2,1)$、$(5,1)$、$(2,8)$、$(5,8)$，經 $\\begin{bmatrix}3&7\\\\2&6\\end{bmatrix}$ 變換為平行四邊形，求其面積。',
+    answer: '$84$',
+    hasImage: false,
+  },
+  {
+    id: '17df5721a17',
+    chapter: '矩陣A',
+    question:
+      '$A=\\begin{bmatrix}3&2\\\\1&4\\end{bmatrix}$，求直線 $2x+3y=6$ 經 $A$ 變換後的圖形方程式。',
+    answer: '$x+y=12$',
+    hasImage: false,
+  },
+  {
+    id: '17df5725bce',
+    chapter: '矩陣A',
+    question:
+      '試求平面上直線 $L:5x+7y=6$ 經方陣 $\\begin{bmatrix}3&1\\\\4&2\\end{bmatrix}$ 變換後，所得的圖形方程式。',
+    answer: '$9x-8y=-6$',
+    hasImage: false,
+  },
+  {
+    id: '17df573a1dd',
+    chapter: '矩陣A',
+    question:
+      '平面上一點 $(3,5)$，試求：\n(1) 繞原點逆時針轉 $45\\du$ 得到之坐標\n(2) 繞原點順時針轉 $45\\du$ 得到之坐標',
+    answer: '$(-\\sqrt2,4\\sqrt2)$；$(4\\sqrt2,-\\sqrt2)$',
+    hasImage: false,
+  },
+  {
+    id: '17df57574d4',
+    chapter: '矩陣A',
+    question: '正三角形 $OAB$，$O$ 為原點，$A(4,10)$，求 $B$ 坐標。',
+    answer: '$(2-5\\sqrt3,5+2\\sqrt3)\\lor(2+5\\sqrt3,5-2\\sqrt3)$',
+    hasImage: false,
+  },
+  {
+    id: '17df5765825',
+    chapter: '矩陣A',
+    question:
+      '求 $\\begin{bmatrix}\\frac12&-\\frac{\\sqrt3}2\\\\\\frac{\\sqrt3}2&\\frac12\\end{bmatrix}^{100}$。',
+    answer:
+      '$\\begin{bmatrix}-\\frac12&\\frac{\\sqrt3}2\\\\-\\frac{\\sqrt3}2&-\\frac12\\end{bmatrix}$',
+    hasImage: false,
+  },
+  {
+    id: '17df577b7ed',
+    chapter: '矩陣A',
+    question:
+      '(1) $\\begin{bmatrix}\\frac1{\\sqrt2}&\\frac1{\\sqrt2}\\\\-\\frac1{\\sqrt2}&\\frac1{\\sqrt2}\\end{bmatrix}^{123}$ (2) $\\begin{bmatrix}1&\\sqrt3\\\\-\\sqrt3&1\\end{bmatrix}^{10}$',
+    answer:
+      '(1) $\\begin{bmatrix}-\\frac{\\sqrt2}2&\\frac{\\sqrt2}2\\\\-\\frac{\\sqrt2}2&-\\frac{\\sqrt2}2\\end{bmatrix}$ (2) $\\begin{bmatrix}-512&-512\\sqrt3\\\\512\\sqrt3&-512\\end{bmatrix}$',
+    hasImage: false,
+  },
+  {
+    id: '17df579b485',
+    chapter: '矩陣A',
+    question:
+      '已知鏡射矩陣 $A=\\begin{bmatrix}-\\frac12&-\\frac{\\sqrt3}2\\\\-\\frac{\\sqrt3}2&\\frac12\\end{bmatrix}$ 與旋轉矩陣 $B=\\begin{bmatrix}\\frac12&-\\frac{\\sqrt3}2\\\\\\frac{\\sqrt3}2&\\frac12\\end{bmatrix}$，試問：\n(1) 點 $(x,y)$ 經矩陣 $A$ 作用，相當於對哪一條直線鏡射？\n(2) 點 $(x,y)$ 先經 $A$ 再經 $B$ 作用，會得到鏡射矩陣，相當於對哪一條直線鏡射？',
+    answer: '(1) $y=-\\sqrt3x$  (2) $y=-\\frac x{\\sqrt3}$',
+    hasImage: false,
+  },
+  {
+    id: '17df57a5fb6',
+    chapter: '矩陣A',
+    question:
+      '鏡射矩陣 $\\begin{bmatrix}\\frac{\\sqrt3}2&-\\frac12\\\\-\\frac12&-\\frac{\\sqrt3}2\\end{bmatrix}$ 是對直線 $y=kx$ 做鏡射，求 $k$。',
+    answer: '$\\tan15\\du$',
     hasImage: false,
   },
 ];
