@@ -10,9 +10,10 @@ type Props = {
   ids: [string, string];
   height?: string;
   note?: string;
+  showAnswer?: boolean;
 };
 
-const Example = ({ num, ids, height = '11cm', note }: Props) => {
+const Example = ({ num, ids, height = '11cm', note, showAnswer = true }: Props) => {
   const questions: Question[] = getQuestions(ids);
 
   const addDefaultSrc = (ev: ChangeEvent<HTMLImageElement>) => {
@@ -26,7 +27,9 @@ const Example = ({ num, ids, height = '11cm', note }: Props) => {
         <div className={style.card} style={{ height }}>
           <div key={questions[0].id}>
             <Textarea2MathJax text={questions[0].question} />
-            <Textarea2MathJax text={`Ans: ${questions[0].answer}`} className={style.ans} />
+            {showAnswer && (
+              <Textarea2MathJax text={`Ans: ${questions[0].answer}`} className={style.ans} />
+            )}
             {questions[0].hasImage === true && (
               <img
                 className={style.img}
@@ -44,7 +47,9 @@ const Example = ({ num, ids, height = '11cm', note }: Props) => {
         <div className={classNames(style.card, style.right)} style={{ height }}>
           <div key={questions[1].id}>
             <Textarea2MathJax text={questions[1].question} />
-            <Textarea2MathJax text={`Ans: ${questions[1].answer}`} className={style.ans} />
+            {showAnswer && (
+              <Textarea2MathJax text={`Ans: ${questions[1].answer}`} className={style.ans} />
+            )}
             {questions[1].hasImage === true && (
               <img
                 className={style.img}

@@ -59,6 +59,26 @@ const Lecture = () => {
       <div className={style.button}>
         <Button onClick={onClick('graphDesign')}>4 平面圖形的比例與設計</Button>
       </div>
+      第四冊 Ch1 空間概念
+      <div className={style.button}>
+        <Button onClick={onClick('basicOfSpace')}>1 空間中的點線面</Button>
+      </div>
+      <div className={style.button}>
+        <Button onClick={onClick('spaceCoordinate')}>2 空間坐標</Button>
+      </div>
+      <div className={style.button}>
+        <Button>3 球面與圓錐曲線</Button>
+      </div>
+      第四冊 Ch2 空間向量與方程式
+      <div className={style.button}>
+        <Button>1 空間向量</Button>
+      </div>
+      <div className={style.button}>
+        <Button>2 空間中的平面方程式</Button>
+      </div>
+      <div className={style.button}>
+        <Button>3 空間中的直線方程式</Button>
+      </div>
       第五冊 Ch1 極限
       <div className={style.button}>
         <Button onClick={onClick('limitOfSequence')}>1 數列的極限</Button>

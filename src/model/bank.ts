@@ -16306,7 +16306,7 @@ export const bank: Question[] = [
     id: '17d88b3c86d',
     chapter: '空間概念',
     question:
-      '是非題：\n(1) 過已知平面外一點，恰有一直線與此平面平行\n(2) 過已知直線外一點，恰有一平面與此直線垂直\n(3) 空間中相異三點決定唯一的平面\n(4) 相異平面 $E_1、E_2$ 交於一線 $L$，若平面 $E$ 與 $L$ 垂直，則 $E$ 必與 $E_1$、$E_2$ 都垂直\n(5) 空間中直線 $L$ 與 $M$ 相交且垂直，若 $M$ 在平面 $E$ 上，則 $L$ 也必與 $E$ 垂直',
+      '是非題：\n(1) 過平面外一點，恰有一直線與此平面平行\n(2) 過直線外一點，恰有一平面與此直線垂直\n(3) 空間中相異三點決定唯一的平面\n(4) 相異平面 $E_1、E_2$ 交於一線 $L$，若平面 $E$ 與 $L$ 垂直，則 $E$ 必與 $E_1$、$E_2$ 都垂直\n(5) 空間中直線 $L$ 與 $M$ 相交且垂直，若 $M$ 在平面 $E$ 上，則 $L$ 也必與 $E$ 垂直',
     answer: 'xoxox',
     hasImage: false,
   },
@@ -16314,7 +16314,7 @@ export const bank: Question[] = [
     id: '17d88b52dbe',
     chapter: '空間概念',
     question:
-      '是非題：\n(1) 過已知平面外一點，恰有一平面與此平面平行\n(2) 若兩相異直線決定唯一的平面，則此兩直線交於一點\n(3) 給空間中兩相異平面，則必存在平面與此兩平面均垂直\n(4) 給空間中兩相異直線，則必存在直線與此兩直線均垂直\n(5) 若空間中直線 $L$ 與平面 $E$ 互相垂直，則包含 $L$ 的平面必與 $E$ 垂直',
+      '是非題：\n(1) 過平面外一點，恰有一平面與此平面平行\n(2) 若兩相異直線決定唯一的平面，則此兩直線交於一點\n(3) 給空間中兩相異平面，則必存在平面與此兩平面均垂直\n(4) 給空間中兩相異直線，則必存在直線與此兩直線均垂直\n(5) 若空間中直線 $L$ 與平面 $E$ 互相垂直，則包含 $L$ 的平面必與 $E$ 垂直',
     answer: 'oxooo',
     hasImage: false,
   },
@@ -16322,7 +16322,7 @@ export const bank: Question[] = [
     id: '17d6a825eda',
     chapter: '空間概念',
     question:
-      '下列敘述何者正確？\n(1) 空間中不相交的兩直線必會平行\n(2) 過已知平面外一點，恰有一平面與此平面垂直\n(3) 過已知直線外一點，恰有一平面與此直線平行\n(4) 垂直於同一平面的兩直線必互相平行\n(5) 若空間中直線 $L$ 與平面 $E$ 交於一點，則存在唯一的平面包含 $L$ 且與 $E$ 垂直',
+      '下列敘述何者正確？\n(1) 空間中不相交的兩直線必會平行\n(2) 過平面外一點，恰有一平面與此平面垂直\n(3) 過直線外一點，恰有一平面與此直線平行\n(4) 垂直於同一平面的兩直線必互相平行\n(5) 若空間中直線 $L$ 與平面 $E$ 交於一點，則存在唯一的平面包含 $L$ 且與 $E$ 垂直',
     answer: '(4)',
     hasImage: false,
   },
@@ -16338,7 +16338,7 @@ export const bank: Question[] = [
     id: '17d8d7b03c9',
     chapter: '空間概念',
     question:
-      '如圖，長方體 $ABCD-EFGH$ 共有 $12$ 個邊，試求：\n(1) 與其中某一邊互相歪斜的邊共有幾個？\n(2) 設長為 $a$，寬為 $b$，高為 $c$，求通過內部對角線長，即任兩頂點間的最大距離。',
+      '如圖，長方體共有 $12$ 個邊，試求：\n(1) 與其中某一邊互相歪斜的邊共有幾個？\n(2) 設長為 $a$，寬為 $b$，高為 $c$，求通過內部對角線長，即任兩頂點間的最大距離',
     answer: '(1) $4$ (2) $\\sqrt{a^2+b^2+c^2}$',
     hasImage: true,
   },
@@ -16346,7 +16346,7 @@ export const bank: Question[] = [
     id: '17d8d7b59f6',
     chapter: '空間概念',
     question:
-      '空心的長方體三邊長為 $4$、$5$、$8$，$\\overline{AB}$ 為通過內部的對角線，則：\n(1) 一隻蜜蜂在內部由 $A$ 飛到 $B$，求最短路徑。\n(2) 一隻螞蟻沿表面由 $A$ 爬到 $B$，求最短路徑。',
+      '空心的長方體三邊長為 $4$、$5$、$8$，$\\overline{AB}$ 為通過內部的對角線，則：\n(1) 一蜜蜂在內部由 $A$ 飛到 $B$，求最短路徑\n(2) 一螞蟻沿表面由 $A$ 爬到 $B$，求最短路徑',
     answer: '(1) $\\sqrt{105}$ (2) $\\sqrt{145}$',
     hasImage: true,
   },
@@ -16354,7 +16354,7 @@ export const bank: Question[] = [
     id: '17d71439e96',
     chapter: '空間概念',
     question:
-      '(1) 一長方體的長為 $4$，寬為 $8$，高為 $3$，求內部對角線長。\n(2) 長方體的長為 $6$，寬為 $5$，內部對角線長度為 $10$，求高。\n(3) 長方體的長、寬、高之和為 $8$，總表面積為 $28$，求內部對角線長度。',
+      '(1) 若一長方體的長為 $4$，寬為 $8$，高為 $3$，求內部對角線長\n(2) 若一長方體的長為 $6$，寬為 $5$，內部對角線長度為 $10$，求高\n(3) 若一長方體的長、寬、高之和為 $8$，總表面積為 $28$，求內部對角線長度',
     answer: '(1) $\\sqrt{89}$ (2) $\\sqrt{39}$ (3) $6$',
     hasImage: false,
   },
@@ -16362,7 +16362,7 @@ export const bank: Question[] = [
     id: '17d8d7c54c2',
     chapter: '空間概念',
     question:
-      '長方體三邊長由大而小依次為 $a$、$b$、$c$，$\\overline{PQ}$ 為通過內部的對角線，則：\n(1) 一隻蜜蜂由 $P$ 飛到 $Q$，求最短路徑。\n(2) 一隻螞蟻由 $P$ 爬到 $Q$，求最短路徑。',
+      '長方體三邊長由大而小依次為 $a$、$b$、$c$，$\\overline{PQ}$ 為通過內部的對角線，則：\n(1) 一隻蜜蜂由 $P$ 飛到 $Q$，求最短路徑\n(2) 一隻螞蟻由 $P$ 爬到 $Q$，求最短路徑',
     answer: '(1) $\\sqrt{a^2+b^2+c^2}$ (2) $\\sqrt{a^2+(b+c)^2}$',
     hasImage: false,
   },
@@ -16402,7 +16402,7 @@ export const bank: Question[] = [
     id: '17d8d85c7f9',
     chapter: '空間概念',
     question:
-      '如圖，$ABCD$ 為四面體，已知 $\\overline{AD}$ 垂直於平面 $BCD$，$\\overline{BC}\\perp\\overline{BD}$，$\\overline{BC}=7$，$\\overline{AB}=24$，$\\overline{AD}=15$，則：\n(1) 平面 $ABC$ 與平面 $BCD$ 所成之二面角為 $\\theta$，求 $\\sin\\theta$。\n(2) 平面 $ABD$ 與平面 $ACD$ 所成之二面角為 $\\phi$，求 $\\sin\\phi$。',
+      '如圖，$ABCD$ 為四面體，已知 $\\overline{AD}$ 垂直於平面 $BCD$，$\\overline{BC}\\perp\\overline{BD}$，$\\overline{BC}=7$，$\\overline{AB}=24$，$\\overline{AD}=15$，則：\n(1) 平面 $ABC$ 與平面 $BCD$ 所成之二面角為 $\\theta$，求 $\\sin\\theta$\n(2) 平面 $ABD$ 與平面 $ACD$ 所成之二面角為 $\\phi$，求 $\\sin\\phi$',
     answer: '(1) $\\frac58$ (2) $\\frac7{20}$',
     hasImage: true,
   },
@@ -16410,7 +16410,7 @@ export const bank: Question[] = [
     id: '17d8d86a6fc',
     chapter: '空間概念',
     question:
-      '圖為一正立方體 $ABCD-EFGH$，若：\n(1) 平面 $ABGH$ 與底面 $EFGH$ 的二面角為 $\\theta$，求 $\\sin\\theta$。\n(2) 平面 $AFH$ 與底面 $EFGH$ 的二面角為 $\\phi$，求 $\\sin\\phi$。',
+      '圖為一正立方體 $ABCD-EFGH$，若：\n(1) 平面 $ABGH$ 與底面 $EFGH$ 的二面角為 $\\theta$，求 $\\sin\\theta$\n(2) 平面 $AFH$ 與底面 $EFGH$ 的二面角為 $\\phi$，求 $\\sin\\phi$',
     answer: '(1) $\\frac{\\sqrt2}2$ (2) $\\frac{\\sqrt6}3$',
     hasImage: true,
   },
@@ -16426,7 +16426,7 @@ export const bank: Question[] = [
     id: '17d8d89ad01',
     chapter: '空間概念',
     question:
-      '已知正三角錐 $ABCD$，底面是邊長 $6$ 的正三角形 $BCD$，$\\overline{AB}=\\overline{AC}=\\overline{AD}=10$，如圖，求側面三角形與底面的夾角餘弦值。',
+      '已知三角錐體 $ABCD$，底面是邊長 $6$ 的正三角形 $BCD$，$\\overline{AB}=\\overline{AC}=\\overline{AD}=10$，如圖，求側面三角形與底面的夾角餘弦值。',
     answer: '$\\frac{\\sqrt{273}}{91}$',
     hasImage: true,
   },
@@ -16478,7 +16478,7 @@ export const bank: Question[] = [
     chapter: '空間概念',
     question:
       '已知長方體的長、寬、高分別為 $\\overline{AB}=3$，$\\overline{AC}=4$，$\\overline{AD}=2$，求 $\\triangle BCD$ 的面積、$\\triangle BCD$ 與 $\\triangle ABC$ 的二面角之正切值。',
-    answer: '(1) $\\sqrt{61}$ (2) $\\frac56$',
+    answer: '$\\sqrt{61}$；$\\frac56$',
     hasImage: false,
   },
   {
@@ -16493,7 +16493,7 @@ export const bank: Question[] = [
     id: '17d8da368d2',
     chapter: '空間向量',
     question:
-      '坐標中有一個屋頂形狀的五面體 $ABCD-EF$，如圖，底面 $ABCD$ 為長方形，前後為兩個全等的等腰梯形，側面為兩個全等的等腰三角形。若 $A(0,0,0)$、$B(6,0,0)$、$C(6,10,0)$，$\\overline{EF}=8$，$\\overline{AE}=5$，試求 $E$、$F$ 坐標。',
+      '坐標中有一個屋頂形狀的五面體，如圖，底面 $ABCD$ 為長方形，前後為兩個全等的等腰梯形，側面為兩個全等的等腰三角形。若 $A(0,0,0)$、$B(6,0,0)$、$C(6,10,0)$，$\\overline{EF}=8$，$\\overline{AE}=5$，試求 $E$、$F$ 坐標。',
     answer: '$(3,1,\\sqrt{15})$；$(3,9,\\sqrt{15})$',
     hasImage: true,
   },
@@ -16525,7 +16525,7 @@ export const bank: Question[] = [
     id: '17d8da7b042',
     chapter: '空間向量',
     question:
-      '如圖，空間坐標中有屋頂形狀的五面體 $ABCD-EF$，$A(0,0,0)$，$B$ 在 $x$ 軸上，$D$ 在 $y$ 軸上，底面長方形的長與寬為 $\\overline{AB}=4$，$\\overline{BC}=12$，屋樑 $\\overline{EF}=8$，$\\overline{AE}=6$，求 $E$、$F$ 坐標。',
+      '如圖，空間坐標中有屋頂形狀的五面體，$A(0,0,0)$，$B$ 在 $x$ 軸上，$D$ 在 $y$ 軸上，底面長方形的長與寬為 $\\overline{AB}=4$，$\\overline{BC}=12$，屋樑 $\\overline{EF}=8$，$\\overline{AE}=6$，求 $E$、$F$ 坐標。',
     answer: '$(2,2,2\\sqrt7)$；$(2,10,2\\sqrt7)$',
     hasImage: true,
   },
@@ -18835,5 +18835,37 @@ export const bank: Question[] = [
       '鏡射矩陣 $\\begin{bmatrix}\\frac{\\sqrt3}2&-\\frac12\\\\-\\frac12&-\\frac{\\sqrt3}2\\end{bmatrix}$ 是對直線 $y=kx$ 做鏡射，求 $k$。',
     answer: '$\\tan15\\du$',
     hasImage: false,
+  },
+  {
+    id: '17e058b7d0b',
+    chapter: '平面向量',
+    question:
+      '點 $P$ 在 $\\overline{AB}$ 上，點 $Q$ 在 $\\overline{AC}$ 上，$\\overline{BQ}$ 與 $\\overline{CP}$ 交於 $R$，$\\xvector{AR}=\\frac25\\xvector{AB}+\\frac37\\xvector{AC}$，如圖，求 $\\frac{\\overline{AP}}{\\overline{PB}}$、$\\frac{\\overline{AQ}}{\\overline{QC}}$。',
+    answer: '$\\frac73$；$\\frac52$',
+    hasImage: true,
+  },
+  {
+    id: '17e08ddf12a',
+    chapter: '平面向量',
+    question:
+      '如圖，在四邊形 $ABCD$ 中，已知 $\\overline{AC}$ 與 $\\overline{BD}$ 相交於 $P$ 點，且 $\\xvector{AC}=2\\xvector{AB}+3\\xvector{AD}$，求 $\\overline{AP}:\\overline{PC}$。',
+    answer: '$1:4$',
+    hasImage: true,
+  },
+  {
+    id: '17e092a5366',
+    chapter: '平面向量',
+    question:
+      '平面上有一 $\\triangle ABC$，$G$ 為 $\\triangle ABC$ 的重心，$O$、$D$ 為此平面上的相異二點，且滿足 $\\xvector{OD}=\\xvector{OA}+\\xvector{OB}+\\xvector{OC}$，請選出正確的選項。\n(1) $O$、$G$、$D$ 三點共線\n(2) $\\overline{OD}=2\\overline{OG}$\n(3) $\\xvector{AD}+\\xvector{BD}+\\xvector{CD}=2\\xvector{OD}$\n(4) $G$ 位於 $\\triangle ABC$ 的內部\n(5) $D$ 位於 $\\triangle ABC$ 的外部',
+    answer: '(1)(3)(4)',
+    hasImage: false,
+  },
+  {
+    id: '17e0a7eeea1',
+    chapter: '平面向量',
+    question:
+      '矩形 $ABCD$ 中，$\\overline{AB}=3$，$\\overline{AD}=6$，$\\xvector{DN}=2\\xvector{NC}$，$\\xvector{BM}=2\\xvector{MC}$，若 $\\angle NAM=\\theta$，求 $\\cos\\theta$。',
+    answer: '$\\frac{3\\sqrt{10}}{10}$',
+    hasImage: true,
   },
 ];

@@ -28,6 +28,8 @@ const route = {
     () => import('./pages/lecture/book3/C3S3VectorInLineAndDeterminant'),
   ),
   C3S4GraphDesign: loadable(() => import('./pages/lecture/book3/C3S4GraphDesign')),
+  C1S1BasicOfSpace: loadable(() => import('./pages/lecture/book4/C1S1BasicOfSpace')),
+  C1S2SpaceCoordinate: loadable(() => import('./pages/lecture/book4/C1S2SpaceCoordinate')),
   C1S1LimitOfSequence: loadable(() => import('./pages/lecture/book5/C1S1LimitOfSequence')),
   C1S2LimitOfSeries: loadable(() => import('./pages/lecture/book5/C1S2LimitOfSeries')),
   C1S3LimitOfFunction: loadable(() => import('./pages/lecture/book5/C1S3LimitOfFunction')),
@@ -105,6 +107,12 @@ const AppRoutes = () => {
         component={route.C3S3VectorInLineAndDeterminant}
       />
       <Route exact={true} path="/toliman/lecture/graphDesign" component={route.C3S4GraphDesign} />
+      <Route exact={true} path="/toliman/lecture/basicOfSpace" component={route.C1S1BasicOfSpace} />
+      <Route
+        exact={true}
+        path="/toliman/lecture/spaceCoordinate"
+        component={route.C1S2SpaceCoordinate}
+      />
       <Route
         exact={true}
         path="/toliman/lecture/limitOfSequence"
