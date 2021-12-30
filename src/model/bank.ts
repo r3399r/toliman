@@ -2868,7 +2868,7 @@ export const bank: Question[] = [
     id: '179b477953e',
     chapter: '矩陣B',
     question:
-      '請問下列哪一個選項中的矩陣乘積等於 $\\begin{bmatrix}2a&3b\\\\2c&3d\\end{bmatrix}$`?\n(A) $\\begin{bmatrix}a&b\\\\c&d\\end{bmatrix}\\begin{bmatrix}2\\\\3\\end{bmatrix}$ (B) $\\begin{bmatrix}2&3\\end{bmatrix}\\begin{bmatrix}a&b\\\\c&d\\end{bmatrix}$\n(C) $\\begin{bmatrix}2&3\\\\2&3\\end{bmatrix}\\begin{bmatrix}a&b\\\\c&d\\end{bmatrix}$ (D) $\\begin{bmatrix}2&0\\\\0&3\\end{bmatrix}\\begin{bmatrix}a&b\\\\c&d\\end{bmatrix}$\n(E) $\\begin{bmatrix}a&b\\\\c&d\\end{bmatrix}\\begin{bmatrix}2&0\\\\0&3\\end{bmatrix}$',
+      '請問下列哪一個選項中的矩陣乘積等於 $\\begin{bmatrix}2a&3b\\\\2c&3d\\end{bmatrix}$？\n(A) $\\begin{bmatrix}a&b\\\\c&d\\end{bmatrix}\\begin{bmatrix}2\\\\3\\end{bmatrix}$ (B) $\\begin{bmatrix}2&3\\end{bmatrix}\\begin{bmatrix}a&b\\\\c&d\\end{bmatrix}$\n(C) $\\begin{bmatrix}2&3\\\\2&3\\end{bmatrix}\\begin{bmatrix}a&b\\\\c&d\\end{bmatrix}$ (D) $\\begin{bmatrix}2&0\\\\0&3\\end{bmatrix}\\begin{bmatrix}a&b\\\\c&d\\end{bmatrix}$\n(E) $\\begin{bmatrix}a&b\\\\c&d\\end{bmatrix}\\begin{bmatrix}2&0\\\\0&3\\end{bmatrix}$',
     answer: '(E)',
     hasImage: false,
   },
@@ -11763,7 +11763,7 @@ export const bank: Question[] = [
     id: '17c922bf1a6',
     chapter: '平面向量',
     question:
-      '$\\vector{a}＝(3,-5)$，$\\vector{b} =(2,7)$，$\\vector{c} =(k,2k+1)$，則：\n(1) 求 $\\vector{a}\\cdot\\vector{b}$ (2) 若 $\\vector{b}\\cdot\\vector{c}=-25$，求 $k$',
+      '$\\vector{a}=(3,-5)$，$\\vector{b} =(2,7)$，$\\vector{c} =(k,2k+1)$，則：\n(1) 求 $\\vector{a}\\cdot\\vector{b}$ (2) 若 $\\vector{b}\\cdot\\vector{c}=-25$，求 $k$',
     answer: '(1) $-29$ (2) $-2$',
     hasImage: false,
   },
@@ -18840,7 +18840,7 @@ export const bank: Question[] = [
     id: '17e058b7d0b',
     chapter: '平面向量',
     question:
-      '點 $P$ 在 $\\overline{AB}$ 上，點 $Q$ 在 $\\overline{AC}$ 上，$\\overline{BQ}$ 與 $\\overline{CP}$ 交於 $R$，$\\xvector{AR}=\\frac25\\xvector{AB}+\\frac37\\xvector{AC}$，如圖，求 $\\frac{\\overline{AP}}{\\overline{PB}}$、$\\frac{\\overline{AQ}}{\\overline{QC}}$。',
+      '$P$ 在 $\\overline{AB}$ 上，$Q$ 在 $\\overline{AC}$ 上，$\\overline{BQ}$ 與 $\\overline{CP}$ 交於 $R$，$\\xvector{AR}=\\frac25\\xvector{AB}+\\frac37\\xvector{AC}$，如圖，求 $\\frac{\\overline{AP}}{\\overline{PB}}$、$\\frac{\\overline{AQ}}{\\overline{QC}}$。',
     answer: '$\\frac73$；$\\frac52$',
     hasImage: true,
   },
@@ -18856,7 +18856,7 @@ export const bank: Question[] = [
     id: '17e092a5366',
     chapter: '平面向量',
     question:
-      '平面上有一 $\\triangle ABC$，$G$ 為 $\\triangle ABC$ 的重心，$O$、$D$ 為此平面上的相異二點，且滿足 $\\xvector{OD}=\\xvector{OA}+\\xvector{OB}+\\xvector{OC}$，請選出正確的選項。\n(1) $O$、$G$、$D$ 三點共線\n(2) $\\overline{OD}=2\\overline{OG}$\n(3) $\\xvector{AD}+\\xvector{BD}+\\xvector{CD}=2\\xvector{OD}$\n(4) $G$ 位於 $\\triangle ABC$ 的內部\n(5) $D$ 位於 $\\triangle ABC$ 的外部',
+      '平面上有一 $\\triangle ABC$，$G$ 為 $\\triangle ABC$ 的重心，$O$、$D$ 為此平面上的相異二點，且滿足 $\\xvector{OD}=\\xvector{OA}+\\xvector{OB}+\\xvector{OC}$，下列哪些正確？\n(1) $O$、$G$、$D$ 三點共線\n(2) $\\overline{OD}=2\\overline{OG}$\n(3) $\\xvector{AD}+\\xvector{BD}+\\xvector{CD}=2\\xvector{OD}$\n(4) $G$ 位於 $\\triangle ABC$ 的內部\n(5) $D$ 位於 $\\triangle ABC$ 的外部',
     answer: '(1)(3)(4)',
     hasImage: false,
   },
@@ -18864,8 +18864,48 @@ export const bank: Question[] = [
     id: '17e0a7eeea1',
     chapter: '平面向量',
     question:
-      '矩形 $ABCD$ 中，$\\overline{AB}=3$，$\\overline{AD}=6$，$\\xvector{DN}=2\\xvector{NC}$，$\\xvector{BM}=2\\xvector{MC}$，若 $\\angle NAM=\\theta$，求 $\\cos\\theta$。',
+      '矩形如圖，$\\overline{AB}=3$，$\\overline{AD}=6$，$\\xvector{DN}=2\\xvector{NC}$，$\\xvector{BM}=2\\xvector{MC}$，若 $\\angle NAM=\\theta$，求 $\\cos\\theta$。',
     answer: '$\\frac{3\\sqrt{10}}{10}$',
     hasImage: true,
+  },
+  {
+    id: '17e0bb831da',
+    chapter: '平面向量',
+    question:
+      '設平面上三點 $A(2,5)$，$B(5,1)$，$C(3,7)$，若 $\\xvector{AP}=x\\xvector{AB}+y\\xvector{AC}$，其中 $-1\\le x\\le1$，$0\\le y\\le3$，試求所有的點 $P$ 所形成之區域面積。',
+    answer: '$60$',
+    hasImage: false,
+  },
+  {
+    id: '17e0bbea7a2',
+    chapter: '平面向量',
+    question:
+      '坊間一包 A4 影印紙有 $500$ 張，請問至少需要幾張 A0 尺寸的影印原紙，才足夠切得一包 A4 影印紙？',
+    answer: '$32$',
+    hasImage: false,
+  },
+  {
+    id: '17e0bc2d5b6',
+    chapter: '平面向量',
+    question:
+      '三分之一拱 $ABK$ 如圖，$P$、$Q$ 為 $\\overline{AB}$ 的三等分點，也是左、右兩道圓弧的圓心，兩圓弧交於 $K$，在 $K$ 作兩圓弧的切線 $L$、$M$，兩切線的鈍夾角稱為拱形的「頂角」，試求頂角大小。(求近似值至小數點後第二位，可用計算機)',
+    answer: '$151.04\\du$',
+    hasImage: true,
+  },
+  {
+    id: '17e0bc65abf',
+    chapter: '平面向量',
+    question:
+      '圖為「單點透視法」畫出的立體圖形，$L$ 是遠方地平線，$A$ 為消失點，某人的身長在圖中為 $15$ 公分，站立在距 $A$ 為 $18$ 公分的 $P$ 點位置，若此人沿 $\\xvector{AP}$ 的方向走到 $Q$，圖中 $\\overline{PQ}$ 為 $12$ 公分，求此人在圖中 $Q$ 處的身長。',
+    answer: '$25$ 公分',
+    hasImage: true,
+  },
+  {
+    id: '17e0bca6fe6',
+    chapter: '平面向量',
+    question:
+      '設 $O$、$A$、$B$、$C$ 為平面上任意四點，下列哪些選項中的 $A$、$B$、$C$ 三點一定共線？\n(1) $|\\xvector{AB}|+|\\xvector{BC}|=|\\xvector{AC}|$\n(2) $|\\xvector{AB}|-|\\xvector{BC}|=|\\xvector{AC}|$\n(3) $\\xvector{OC}=\\frac13\\xvector{OA}-\\frac23\\xvector{OB}$\n(4) $3\\xvector{OC}=8\\xvector{OA}-5\\xvector{OB}$\n(5) $\\xvector{AB}=2\\xvector{CB}$',
+    answer: '(1)(2)(4)(5)',
+    hasImage: false,
   },
 ];
