@@ -64,20 +64,23 @@ const Lecture = () => {
         <Button onClick={onClick('basicOfSpace')}>1 空間中的點線面</Button>
       </div>
       <div className={style.button}>
-        <Button onClick={onClick('spaceCoordinate')}>2 空間坐標</Button>
+        <Button onClick={onClick('spaceCoordinate')}>2 空間坐標與向量</Button>
       </div>
       <div className={style.button}>
-        <Button>3 球面與圓錐曲線</Button>
+        <Button onClick={onClick('sphereAndConics')}>3 球面與圓錐曲線</Button>
       </div>
       第四冊 Ch2 空間向量與方程式
       <div className={style.button}>
-        <Button>1 空間向量</Button>
+        <Button>1 空間向量的內積</Button>
       </div>
       <div className={style.button}>
-        <Button>2 空間中的平面方程式</Button>
+        <Button>2 外積與三階行列式</Button>
       </div>
       <div className={style.button}>
-        <Button>3 空間中的直線方程式</Button>
+        <Button>3 空間中的平面方程式</Button>
+      </div>
+      <div className={style.button}>
+        <Button>4 空間中的直線方程式</Button>
       </div>
       第五冊 Ch1 極限
       <div className={style.button}>

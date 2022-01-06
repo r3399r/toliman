@@ -30,6 +30,7 @@ const route = {
   C3S4GraphDesign: loadable(() => import('./pages/lecture/book3/C3S4GraphDesign')),
   C1S1BasicOfSpace: loadable(() => import('./pages/lecture/book4/C1S1BasicOfSpace')),
   C1S2SpaceCoordinate: loadable(() => import('./pages/lecture/book4/C1S2SpaceCoordinate')),
+  C1S3SphereAndConics: loadable(() => import('./pages/lecture/book4/C1S3SphereAndConics')),
   C1S1LimitOfSequence: loadable(() => import('./pages/lecture/book5/C1S1LimitOfSequence')),
   C1S2LimitOfSeries: loadable(() => import('./pages/lecture/book5/C1S2LimitOfSeries')),
   C1S3LimitOfFunction: loadable(() => import('./pages/lecture/book5/C1S3LimitOfFunction')),
@@ -112,6 +113,11 @@ const AppRoutes = () => {
         exact={true}
         path="/toliman/lecture/spaceCoordinate"
         component={route.C1S2SpaceCoordinate}
+      />
+      <Route
+        exact={true}
+        path="/toliman/lecture/sphereAndConics"
+        component={route.C1S3SphereAndConics}
       />
       <Route
         exact={true}

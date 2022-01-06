@@ -16370,15 +16370,15 @@ export const bank: Question[] = [
     id: '17d8d7dad53',
     chapter: '空間概念',
     question:
-      '空間中平面 $E$ 上有一直線 $L$，平面外一點 $A$ 投影到 $E$ 上為 $B$ 點，$B$ 點再投影到 $L$ 上為 $C$ 點，已知 $\\overline{AB}=4$，$\\overline{BC}=3$，則：\n(1) 求 $\\overline{AC}$、$\\cos\\angle{ACB}$\n(2) 若 $D$ 點在 $L$ 上且 $\\overline{CD}=12$，求 $\\angle{ACD}$、$\\overline{AD}$',
-    answer: '(1) $5$；$\\frac35$ (2) $90\\du$；$13$',
+      '空間中平面 $E$ 上有一直線 $L$，平面外一點 $A$ 投影到 $E$ 上為 $B$ 點，$B$ 點再投影到 $L$ 上為 $C$ 點，已知 $\\overline{AB}=4$，$\\overline{BC}=3$，則：\n(1) 求 $\\overline{AC}$、$\\cos\\angle{ACB}$\n(2) 若 $D\\in L$ 且 $\\overline{CD}=12$，求 $\\overline{AD}$',
+    answer: '(1) $5$；$\\frac35$ (2) $13$',
     hasImage: true,
   },
   {
     id: '17d8d837c81',
     chapter: '空間概念',
     question:
-      '四面體 $ABCD$，已知 $\\overline{AB}\\perp\\overline{BC}$，$\\overline{AB}\\perp\\overline{BD}$，且 $\\overline{AC}\\perp\\overline{CD}$，若 $\\overline{AD}=6$，$\\overline{CD}=3$，$\\overline{BD}$ 比 $\\overline{BC}$ 多 $1$，求：\n(1) $\\triangle BCD$ 的面積\n(2) 此四面體以 $\\triangle BCD$ 為底的高\n(3) 此四面體的體積。',
+      '四面體 $ABCD$，已知 $\\overline{AB}\\perp\\overline{BC}$，$\\overline{AB}\\perp\\overline{BD}$，且 $\\overline{AC}\\perp\\overline{CD}$，若 $\\overline{AD}=6$，$\\overline{CD}=3$，$\\overline{BD}$ 比 $\\overline{BC}$ 多 $1$，求：\n(1) $\\triangle BCD$ 的面積\n(2) 此四面體以 $\\triangle BCD$ 為底的高\n(3) 此四面體的體積',
     answer: '(1) $6$ (2) $\\sqrt{11}$ (3) $2\\sqrt{11}$',
     hasImage: true,
   },
@@ -16434,7 +16434,7 @@ export const bank: Question[] = [
     id: '17d8d8e148a',
     chapter: '空間概念',
     question:
-      '正四面體 $ABCD$ 的邊長為 $a$，$\\overline{AB}$ 中點 $N$，$\\overline{CD}$ 中點 $M$，求：\n(1) 高 (2) 體積\n(3) 相鄰兩面的二面角之餘弦值\n(4) 兩歪斜線 $\\overleftrightarrow{AB}$ 與 $\\overleftrightarrow{CD}$ 的距離 $\\overline{MN}$\n(5) 正四面體的外接球與內切球半徑的比值',
+      '正四面體 $ABCD$ 的邊長為 $a$，$\\overline{AB}$ 中點 $N$，$\\overline{CD}$ 中點 $M$，求：(1) 高 (2) 體積\n(3) 相鄰兩面的二面角之餘弦值\n(4) 兩歪斜線 $\\overleftrightarrow{AB}$ 與 $\\overleftrightarrow{CD}$ 的距離 $\\overline{MN}$\n(5) 正四面體的外接球與內切球半徑的比值',
     answer:
       '(1) $\\frac{\\sqrt6}3a$ (2) $\\frac{\\sqrt2}{12}a^3$ (3) $\\frac13$ (4) $\\frac{\\sqrt2}2a$ (5) $3$',
     hasImage: true,
@@ -16443,7 +16443,7 @@ export const bank: Question[] = [
     id: '17d8d8f066a',
     chapter: '空間概念',
     question:
-      '正四面體的邊長為 $a$，求：\n(1) 高 (2) 體積\n(3) 相鄰兩面的二面角之正弦值\n(4) 歪斜的兩個邊其距離\n(5) 內切球的半徑',
+      '正四面體的邊長為 $a$，求：(1) 高 (2) 體積\n(3) 相鄰兩面的二面角之正弦值\n(4) 歪斜的兩個邊其距離\n(5) 內切球的半徑',
     answer:
       '(1) $2\\sqrt6$ (2) $18\\sqrt2$ (3) $\\frac{2\\sqrt2}3$ (4) $3\\sqrt2$ (5) $\\frac{\\sqrt6}2$ ',
     hasImage: false,
@@ -16452,7 +16452,7 @@ export const bank: Question[] = [
     id: '17d8d912392',
     chapter: '空間概念',
     question:
-      '底面為正方形的四角錐 $O-ABCD$，側面為四個正三角形，邊長為 $a$，求：\n(1) 高 (2) 體積\n(2) 側面與底面的夾角之餘弦值\n(3) 任兩側面的夾角之餘弦值',
+      '底面為正方形的四角錐 $O-ABCD$，側面為四個正三角形，邊長為 $a$，求：\n(1) 高 (2) 體積\n(3) 側面與底面的夾角之餘弦值\n(4) 任兩側面的夾角之餘弦值',
     answer:
       '(1) $\\frac{\\sqrt2}2a$ (2) $\\frac{\\sqrt2}6a^3$ (3) $\\frac{\\sqrt3}3$ (4) $-\\frac13$',
     hasImage: true,
@@ -16534,7 +16534,7 @@ export const bank: Question[] = [
     chapter: '空間向量',
     question:
       '點 $A(-2,1,3)$，求：\n(1) $A$ 到 $xy$ 平面的距離\n(2) $A$ 到 $x$ 軸的距離\n(3) $A$ 對 $yz$ 平面的投影點坐標\n(4) $A$ 對 $z$ 軸的投影點坐標\n(5) $A$ 對 $xz$ 平面的對稱點坐標',
-    answer: '(1) $3$ (2) $\\sqrt{10}$ (3) $(0,1,3)$ (4) $(0,0,3)$ (5) $(-2,-1,-3)$',
+    answer: '(1) $3$ (2) $\\sqrt{10}$ (3) $(0,1,3)$ (4) $(0,0,3)$ (5) $(-2,-1,3)$',
     hasImage: false,
   },
   {
@@ -16581,7 +16581,7 @@ export const bank: Question[] = [
     id: '17d8dacebbb',
     chapter: '空間向量',
     question:
-      '空間中三點 $A(7,-6,3)$、$B(5,2,2)$、$C(4,k,k+1)$，求：\n(1) $\\overline{AB}$ 長\n(2) 若 $\\overline{BC}=\\sqrt{26}$，求 $k$',
+      '空間中三點 $A(7,-6,3)$、$B(5,2,2)$、$C(4,k,k+1)$，試問：\n(1) 求 $\\overline{AB}$ (2) 若 $\\overline{BC}=\\sqrt{26}$，求 $k$',
     answer: '(1) $\\sqrt{69}$ (2) $-2\\lor5$',
     hasImage: false,
   },
@@ -16597,7 +16597,7 @@ export const bank: Question[] = [
     id: '17d8daf121a',
     chapter: '空間向量',
     question:
-      '空間中三點 $A(2,1,-3)$、$B(4,-1,-2)$ 與 $C(4,-8,11)$，求：\n(1) $\\overline{AB}$ 長\n(2) $\\triangle{ABC}$ 為何種三角形？(銳角、直角、鈍角)',
+      '空間中三點 $A(2,1,-3)$、$B(4,-1,-2)$ 與 $C(4,-8,11)$，試問：(1) 求 $\\overline{AB}$\n(2) $\\triangle{ABC}$ 為何種三角形？(銳角、直角、鈍角)',
     answer: '(1) $3$ (2) 鈍角',
     hasImage: false,
   },
@@ -16636,7 +16636,7 @@ export const bank: Question[] = [
     id: '17d8db1f85e',
     chapter: '空間向量',
     question:
-      '空間坐標中，已知點 $A(1,2,7)$、$B(4,-3,5)$：\n(1) 用數對表示 $\\xvector{AB}$\n(2) 若 $\\xvector{AC}=(-7,11,6)$，求 $C$ 點坐標',
+      '空間中兩點 $A(1,2,7)$、$B(4,-3,5)$：\n(1) 求 $\\xvector{AB}$\n(2) 若 $\\xvector{AC}=(-7,11,6)$，求 $C$ 點坐標',
     answer: '$(3,-5,-2)$；$(-6,13,13)$',
     hasImage: false,
   },
@@ -16651,7 +16651,7 @@ export const bank: Question[] = [
     id: '17d8db320bf',
     chapter: '空間向量',
     question:
-      '(1) 空間坐標中，點 $A(1,2,4)$、$B(5,-7,6)$，求 $\\xvector{AB}$\n(2) 空間中 $\\xvector{AB}=(4,-1,3)$，若 $B$ 坐標為 $(5,11,6)$，求 $A$ 坐標',
+      '(1) 空間坐標中，$A(1,2,4)$、$B(5,-7,6)$，求 $\\xvector{AB}$\n(2) 空間中 $\\xvector{AB}=(4,-1,3)$，若 $B$ 坐標為 $(5,11,6)$，求 $A$ 坐標',
     answer: '(1) $(4,-9,2)$ (2) $(1,12,3)$',
     hasImage: false,
   },
@@ -16667,7 +16667,7 @@ export const bank: Question[] = [
     id: '17d8db4365d',
     chapter: '空間向量',
     question:
-      '$A(3,-2,5)、B(6,7,-1)、C(1,2,4)$，$O$ 為原點，求：\n(1) $\\xvector{OA}+\\xvector{OB}$\n(2) $3\\xvector{AB}-4\\xvector{AC}$。 ',
+      '$A(3,-2,5)$、$B(6,7,-1)$、$C(1,2,4)$，$O$ 為原點，求：\n(1) $\\xvector{OA}+\\xvector{OB}$ (2) $3\\xvector{AB}-4\\xvector{AC}$。 ',
     answer: '(1) $(9,5,4)$ (2) $(17,11,-14)$',
     hasImage: false,
   },
@@ -16691,7 +16691,7 @@ export const bank: Question[] = [
     id: '17d8db669b3',
     chapter: '空間向量',
     question:
-      '空間中長方體 $ABCD-EFGH$ 如圖，化簡：\n(1) $\\xvector{AB}+\\xvector{AD}$\n(2) $\\xvector{AB}+\\xvector{AH}$\n(3) $\\xvector{AB}-\\xvector{AH}$',
+      '長方體 $ABCD-EFGH$ 如圖，化簡：\n(1) $\\xvector{AB}+\\xvector{AD}$\n(2) $\\xvector{AB}+\\xvector{AH}$\n(3) $\\xvector{AB}-\\xvector{AH}$',
     answer: '(1) $\\xvector{AC}$ (2) $\\xvector{AG}$ (3) $\\xvector{HB}$',
     hasImage: true,
   },
@@ -16745,7 +16745,7 @@ export const bank: Question[] = [
     id: '17d860fde8a',
     chapter: '空間向量',
     question:
-      '空間中有四面體 $ABCD$，若 $(x+2y)\\xvector{AB}+(y+z)\\xvector{AC}+(z+4)\\xvector{AD}=\\vector0$，求序組 $(x,y,z)$。',
+      '空間中有四面體 $ABCD$，若 $(x+2y)\\xvector{AB}+(y+z)\\xvector{AC}$$+(z+4)\\xvector{AD}=\\vector0$，求序組 $(x,y,z)$。',
     answer: '$(-8,4,-4)$',
     hasImage: false,
   },
@@ -16761,7 +16761,7 @@ export const bank: Question[] = [
     id: '17d8611bccf',
     chapter: '空間向量',
     question:
-      '空間中平行六面體 $ABCD-EFGH$，若 $(x+y)\\xvector{AB}+(y+z)\\xvector{AC}+(x+z+6)\\xvector{AF}=\\vector0$，求序組 $(x,y,z)$。',
+      '空間中平行六面體 $ABCD-EFGH$，若 $(x+y)\\xvector{AB}+(y+z)\\xvector{AC}$$+(x+z+6)\\xvector{AF}=\\vector0$，求序組 $(x,y,z)$。',
     answer: '$(-3,3,-3)$',
     hasImage: false,
   },
@@ -18866,6 +18866,215 @@ export const bank: Question[] = [
     question:
       '矩形 $ABCD$ 中，$\\overline{AB}=3$，$\\overline{AD}=6$，$\\xvector{DN}=2\\xvector{NC}$，$\\xvector{BM}=2\\xvector{MC}$，若 $\\angle NAM=\\theta$，求 $\\cos\\theta$。',
     answer: '$\\frac{3\\sqrt{10}}{10}$',
+    hasImage: true,
+  },
+  {
+    id: '17e2b7e3767',
+    chapter: '空間概念',
+    question:
+      '在地球儀上，$A$ 點沿著赤道，$B$ 點沿著北緯 $60\\du$ 線，兩點皆自 $0\\du$ 經線出發向東移動到達東經 $120\\du$ 線，已知 $A$ 點移動 $20$ 公分，求 $B$ 點移動的距離。',
+    answer: '$10$ 公分',
+    hasImage: false,
+  },
+  {
+    id: '17e2b7ecfb0',
+    chapter: '空間概念',
+    question: '已知地球儀的赤道長 $100$ 公分，求其南緯 $60\\du$ 的緯線長。',
+    answer: '$50$ 公分',
+    hasImage: false,
+  },
+  {
+    id: '17e2b878759',
+    chapter: '空間概念',
+    question:
+      '將地球儀設定成一個坐標空間，其中球心為原點 $O$，地球儀上有兩個城市其坐標分別為 $A(6,0,0)$、$B(-3,3,3\\sqrt2)$，求：\n(1) $A$、$B$ 兩點的球面距離\n(2) 在實際地球上，飛機從 $A$ 城市直飛至 $B$ 城市的最短航線長大約多少公里？(地球半徑約 $6400$ 公里)',
+    answer: '(1) $4\\pi$ (2) $13404$',
+    hasImage: false,
+  },
+  {
+    id: '17e2b88833c',
+    chapter: '空間概念',
+    question:
+      '將地球儀設定成一個坐標空間，其中球心為原點 $O$，地球儀上有兩個城市其坐標分別為 $A(1,2,2)$、$B(2,-2,1)$，求 $A$、$B$ 兩點的球面距離。',
+    answer: '$\\frac{3\\pi}2$',
+    hasImage: false,
+  },
+  {
+    id: '17e2d5c3df0',
+    chapter: '平面向量',
+    question: '坐標平面上三點 $P(3,-4)$、$A(-2,-3)$、$B(4,1)$，求 $P$ 在直線 $AB$ 上之投影點坐標。',
+    answer: '$(1,-1)$',
+    hasImage: false,
+  },
+  {
+    id: '17e2d5fefb3',
+    chapter: '平面向量',
+    question:
+      '將一個 $30\\du-60\\du-90\\du$ 的直角三角形放在坐標平面上，直角頂點位於原點 $O$，此時 $30\\du$ 角頂點坐標為 $(-2\\sqrt3,3\\sqrt3)$，求 $60\\du$ 角頂點坐標。',
+    answer: '$(3,2)$',
+    hasImage: false,
+  },
+  {
+    id: '17e2d60c7b2',
+    chapter: '平面向量',
+    question: '$x,y\\in\\mathbb R$，$x^2+4y^2=9$，求 $3x-8y$ 的最大值。',
+    answer: '$15$',
+    hasImage: false,
+  },
+  {
+    id: '17e2d65b05f',
+    chapter: '平面向量',
+    question:
+      '$P$ 為 $\\triangle ABC$ 內部之一點，且 $\\xvector{AP}=\\frac15\\xvector{AB}+\\frac25\\xvector{AC}$。延伸 $\\overline{AP}$ 交 $\\overline{BC}$ 於 $D$ 點，試問：\n(1) 若 $\\xvector{AD}=t\\xvector{AP}$，求 $t$\n(2) $\\triangle ABP:\\triangle ABD:\\triangle ABC$',
+    answer: '(1) $\\frac53$ (2) $6:10:15$',
+    hasImage: false,
+  },
+  {
+    id: '17e2d696d85',
+    chapter: '平面向量',
+    question:
+      '$P$ 為正三角形 $OAB$ 內部之一點，已知 $\\xvector{OP}=\\frac16\\xvector{OA}+\\frac12\\xvector{OB}$，求 $\\cos\\angle AOP$。',
+    answer: '$\\frac{5\\sqrt{13}}{26}$',
+    hasImage: false,
+  },
+  {
+    id: '17e2d7b4333',
+    chapter: '平面向量',
+    question:
+      '設 $O$ 為 $\\triangle OAB$ 之外心，且 $\\overline{OA}=\\overline{OB}=\\overline{OC}=2$，$\\angle A=60\\du$，$\\angle B=45\\du$，則 $|\\xvector{OA}+\\xvector{OB}+\\xvector{OC}|=\\sqrt{a+b\\sqrt3}$，求 $a$、$b$。',
+    answer: '$8$；$-4$',
+    hasImage: false,
+  },
+  {
+    id: '17e2d7cfb8f',
+    chapter: '平面向量',
+    question:
+      '設 $|\\vector a|=3$，$|\\vector b|=4$，$|\\vector c|=5$，若 $\\vector a+\\vector b+\\vector c=\\vector0$，求 $\\vector a\\cdot\\vector b$。',
+    answer: '$0$',
+    hasImage: false,
+  },
+  {
+    id: '17e2d7f0b10',
+    chapter: '平面向量',
+    question:
+      '設 $\\vector a=(3,-7)$，$\\vector b=(-4,1)$，$\\vector c=(2,2)$，求 $(\\vector a+2\\vector b)\\cdot(\\vector b-\\vector c)$。',
+    answer: '$35$',
+    hasImage: false,
+  },
+  {
+    id: '17e2d80a002',
+    chapter: '平面向量',
+    question:
+      '坐標平面上，設 $O$ 為原點，$P(2,1)$，若 $A$、$B$ 分別是正 $x$ 軸及正 $y$ 軸上的點，使得 $\\xvector{PA}\\perp\\xvector{PB}$，求 $\\triangle OAB$ 面積的最大值。',
+    answer: '$\\frac{35}{16}$',
+    hasImage: false,
+  },
+  {
+    id: '17e2d826202',
+    chapter: '平面向量',
+    question:
+      '已知點 $A(-2,2)$、$B(4,8)$ 為坐標平面上的兩點，且點 $C$ 在二次函數 $y=\\frac12x^2$ 的圖形上變動，求 $\\xvector{AB}\\cdot\\xvector{AC}$ 的最小值及此時 $C$ 點的 $x$ 坐標。',
+    answer: '$-3$；$-1$',
+    hasImage: false,
+  },
+  {
+    id: '17e2eb6f63c',
+    chapter: '多項式函數',
+    question: '描繪 $y=x^3-9x^2+29x-32$ 的圖形，並求其對稱中心。',
+    answer: '$(3,1)$',
+    hasImage: false,
+  },
+  {
+    id: '17e2eb88e32',
+    chapter: '多項式函數',
+    question: '描繪 $y=-x^3+3x^2-2x-2$ 的圖形，並求其對稱中心。',
+    answer: '$(1,-2)$',
+    hasImage: false,
+  },
+  {
+    id: '17e2eba374f',
+    chapter: '多項式函數',
+    question: '解不等式 $x-3>3x+5$。',
+    answer: '$x<-4$',
+    hasImage: false,
+  },
+  {
+    id: '17e2ebaabff',
+    chapter: '多項式函數',
+    question: '解不等式 $2x+1>5x+10$。',
+    answer: '$x<-3$',
+    hasImage: false,
+  },
+  {
+    id: '17e2ebb16b1',
+    chapter: '多項式函數',
+    question: '解不等式 $x^2-4x+3\\le0$。',
+    answer: '$1\\le x\\le3$',
+    hasImage: false,
+  },
+  {
+    id: '17e2ebc9726',
+    chapter: '多項式函數',
+    question: '解不等式 $3+x-x^2<0$。',
+    answer: '$x<\\frac{1-\\sqrt{13}}2\\lor x>\\frac{1+\\sqrt{13}}2$',
+    hasImage: false,
+  },
+  {
+    id: '17e2ebd58fd',
+    chapter: '多項式函數',
+    question: '解不等式 $6-5x-x^2<0$。',
+    answer: '$x>1\\lor x<-6$',
+    hasImage: false,
+  },
+  {
+    id: '17e2ebe4bd4',
+    chapter: '多項式函數',
+    question: '解不等式 $3+5x\\ge x^2$。',
+    answer: '$\\frac{5-\\sqrt{37}}2\\le x\\le\\frac{5+\\sqrt{37}}2$',
+    hasImage: false,
+  },
+  {
+    id: '17e2ebf4cc9',
+    chapter: '多項式函數',
+    question: '解不等式 $x^2+x+1>0$。',
+    answer: '$x\\in\\mathbb R$',
+    hasImage: false,
+  },
+  {
+    id: '17e2ebfab2d',
+    chapter: '多項式函數',
+    question: '解不等式 $x^2-2\\sqrt3x+5<0$。',
+    answer: '無解',
+    hasImage: false,
+  },
+  {
+    id: '17e2ec050bc',
+    chapter: '多項式函數',
+    question: '解不等式 $(x-1)(x-2)(x-3)>0$。',
+    answer: '$1<x<2\\lor x>3$',
+    hasImage: false,
+  },
+  {
+    id: '17e2ec0b9e8',
+    chapter: '多項式函數',
+    question: '解不等式 $(x-1)^2(x-3)<0$。',
+    answer: '$x<1\\lor1<x<3$',
+    hasImage: false,
+  },
+  {
+    id: '17e301d42b8',
+    chapter: '空間概念',
+    question:
+      '圖為一盞桌上的檯燈，已知其照射的燈光形成直圓錐狀，將檯燈罩往下壓，求燈光在桌面上照亮區域所形成的邊界是哪個圓錐曲線的一部分？',
+    answer: '橢圓',
+    hasImage: true,
+  },
+  {
+    id: '17e2fd4b9bb',
+    chapter: '空間概念',
+    question:
+      '假設某飲料杯封口後為圓錐台的形狀 (即上底與下底皆為圓形且下底半徑略小於上底半徑，且過兩圓心的直線同時垂直上底圓與下底圓)，如圖。今將該飲料杯裝半滿的水，在封口後側置於平坦的水平桌面上。當飲料杯靜止不動時，此時水面與飲料杯側面的截痕為哪個圓錐曲線的一部分？',
+    answer: '拋物線',
     hasImage: true,
   },
 ];
