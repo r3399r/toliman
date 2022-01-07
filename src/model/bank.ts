@@ -18986,6 +18986,14 @@ export const bank: Question[] = [
     hasImage: false,
   },
   {
+    id: '17e34eb80fd',
+    chapter: '平面向量',
+    question:
+      '$\\triangle ABC$ 中，$\\overline{AB}=3$，$\\overline{AC}=4$，$\\xvector{AB}$ 與 $\\xvector{AC}$ 的夾角為 $120\\du$，且 $\\overline{BM}:\\overline{MC}=2:1$，求 $\\xvector{AB}\\cdot\\xvector{AM}$。',
+    answer: '$-1$',
+    hasImage: true,
+  },
+  {
     id: '17e2eb6f63c',
     chapter: '多項式函數',
     question: '描繪 $y=x^3-9x^2+29x-32$ 的圖形，並求其對稱中心。',
