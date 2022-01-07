@@ -18978,6 +18978,14 @@ export const bank: Question[] = [
     hasImage: false,
   },
   {
+    id: '17e32194049',
+    chapter: '平面向量',
+    question:
+      '若 $ABCD$ 為平行四邊形，$\\overline{AB}=8$，$\\overline{AD}=6$，求 $\\xvector{AC}\\cdot\\xvector{BD}$。',
+    answer: '$-28$',
+    hasImage: false,
+  },
+  {
     id: '17e2eb6f63c',
     chapter: '多項式函數',
     question: '描繪 $y=x^3-9x^2+29x-32$ 的圖形，並求其對稱中心。',
