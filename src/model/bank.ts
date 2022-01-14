@@ -10030,8 +10030,8 @@ export const bank: Question[] = [
     id: '17c1644e24c',
     chapter: '平面向量',
     question:
-      '如圖，$\\triangle ABC$ 中，$\\overrightarrow{AN}=\\frac{1}{3}\\overrightarrow{NC}$，$P$ 在 $\\overline{BN}$ 上，若 $\\overrightarrow{AP}=m\\overrightarrow{AB}+\\frac{2}{9}\\overrightarrow{AC}$，求 $m$。',
-    answer: '$\\frac{1}{9}$',
+      '如圖，$\\triangle ABC$ 中，$\\xvector{AN}=\\frac13\\xvector{NC}$，$P$ 在 $\\overline{BN}$ 上，若 $\\xvector{AP}=m\\xvector{AB}+\\frac29\\xvector{AC}$，求 $m$。',
+    answer: '$\\frac19$',
     hasImage: true,
   },
   {
@@ -10063,7 +10063,7 @@ export const bank: Question[] = [
     chapter: '平面向量',
     question:
       '有三個向量 $\\vector{a}$、$\\vector{b}$、$\\vector{c}$，已知 $|\\vector{a}|=8$，$|\\vector{b}|=3$，且 $\\vector{a}+\\vector{b}+\\vector{c}=(2,5)$，$2\\vector{a}-\\vector{b}+\\vector{c}=(7,-4)$，求 $\\vector{a}$ 與 $\\vector{b}$ 的夾角餘弦值。',
-    answer: '$\\frac{-1}{16}$',
+    answer: '$\\-frac1{16}$',
     hasImage: false,
   },
   {
@@ -19131,6 +19131,144 @@ export const bank: Question[] = [
     question:
       '設 $O$、$A$、$B$、$C$ 為平面上任意四點，下列哪些選項中的 $A$、$B$、$C$ 三點一定共線？\n(1) $|\\xvector{AB}|+|\\xvector{BC}|=|\\xvector{AC}|$\n(2) $|\\xvector{AB}|-|\\xvector{BC}|=|\\xvector{AC}|$\n(3) $\\xvector{OC}=\\frac13\\xvector{OA}-\\frac23\\xvector{OB}$\n(4) $3\\xvector{OC}=8\\xvector{OA}-5\\xvector{OB}$\n(5) $\\xvector{AB}=2\\xvector{CB}$',
     answer: '(1)(2)(4)(5)',
+    hasImage: false,
+  },
+  {
+    id: '17e4c01d316',
+    chapter: '平面向量',
+    question:
+      '坐標平面上一平行四邊形 $ABCD$，其中 $A(2,1)$，$B(8,2)$，$C$ 在第一象限且其 $x$ 坐標為 $12$，若平行四邊形 $ABCD$ 的面積等於 $38$，求 $D$。',
+    answer: '$(6,8)$',
+    hasImage: false,
+  },
+  {
+    id: '17e4c032799',
+    chapter: '平面向量',
+    question:
+      '$\\triangle ABC$ 中，$\\overline{AB}=3$，$\\overline{AC}=4$，$\\overline{BC}=\\sqrt{37}$，求：(1) $\\xvector{AB}\\cdot\\xvector{CA}$ (2) $\\xvector{AC}\\cdot\\xvector{BC}$',
+    answer: '(1) $6$ (2) $22$',
+    hasImage: false,
+  },
+  {
+    id: '17e52724684',
+    chapter: '平面向量',
+    question:
+      '設 $A(1,2)$、$B(1,-2)$ 為平面上兩定點，$P$ 為 $x$ 軸正向上的一點。若 $\\xvector{PA}\\cdot\\xvector{PB}=5$，求 $P$',
+    answer: '$(4,0)$',
+    hasImage: false,
+  },
+  {
+    id: '17e576e031b',
+    chapter: '平面向量',
+    question:
+      '已知 $\\vector a$、$\\vector b$、$\\vector c$ 為平面上三個非零向量，則下列敘述哪些正確？\n(1) 若 $\\vector a\\cdot\\vector b=\\vector a\\cdot\\vector c$，則 $\\vector b=\\vector c$\n(2) 若 $(\\vector a\\cdot\\vector b)\\cdot\\vector c=(\\vector a\\cdot\\vector c)\\cdot\\vector b$，則 $\\vector b=\\vector c$\n(3) 若 $\\vector a\\perp\\vector b$，則 $|\\vector a+\\vector b|=|\\vector a-\\vector b|$\n(4) 若 $|\\vector a|=|\\vector b|$，則 $(\\vector a+\\vector b)\\cdot(\\vector a-\\vector b)=0$\n(5) 若 $\\alpha\\vector a+\\beta\\vector b=\\vector0$，其中 $\\alpha,\\beta\\in\\mathbb R$，則 $\\alpha=\\beta=0$',
+    answer: '(3)(4)',
+    hasImage: false,
+  },
+  {
+    id: '17e5770633b',
+    chapter: '平面向量',
+    question:
+      '圖為 $8$ 層的正三角形排列而成的圖形，圖中每一個小正三角形邊長皆為 $1$，$\\vector a$、$\\vector b$ 是兩個夾角為 $\\frac\\pi3$ 的單位向量，則下列敘述哪些是正確的？\n(1) $\\xvector{AB}=2\\vector a+6\\vector b$\n(2) $\\xvector{AC}=3\\vector a+3\\vector b$\n(3) $|\\xvector{AC}|=3\\sqrt2$\n(4) $\\xvector{AB}$ 在 $\\xvector{AC}$ 上的正射影為 $2\\vector a+2\\vector b$\n(5) $\\xvector{AB}\\cdot\\xvector{AC}=12$',
+    answer: '(2)(4)',
+    hasImage: true,
+  },
+  {
+    id: '17e57739a25',
+    chapter: '平面向量',
+    question:
+      '如圖，已知四邊形 $ABCD$ 中，$\\xvector{BC}=\\xvector{AB}+\\xvector{AD}$，$\\xvector{AC}\\perp\\xvector{BD}$ 且 $|\\xvector{AC}|=|\\xvector{BD}|$。若假設 $\\overrightarrow{AC}$ 為 $x$ 軸正向，$\\overrightarrow{BD}$ 為 $y$ 軸正向，$O$ 為原點且 $A$ 點坐標為 $(-1,0)$，則下列敘述哪些是正確的？\n(1) $2\\xvector{AB}=\\xvector{DC}$\n(2) $\\triangle AOB$ 與 $\\triangle COD$ 相似\n(3) $C$ 點坐標為 $(3,0)$\n(4) $\\xvector{AB}\\cdot\\xvector{AD}=-2$\n(5) $\\tan\\angle BAD=-3$',
+    answer: '(1)(2)(5)',
+    hasImage: true,
+  },
+  {
+    id: '17e577537ee',
+    chapter: '平面向量',
+    question: '如圖，設四分之一拱的頂角為 $\\theta$，求 $\\cos\\theta$。',
+    answer: '$-\\frac79$',
+    hasImage: true,
+  },
+  {
+    id: '17e5779eff2',
+    chapter: '平面向量',
+    question:
+      '已知正方形 $ABCD$ 中，$M$、$N$ 兩點滿足 $\\xvector{BM}=2\\xvector{MC}$ 且 $\\xvector{CN}=2\\xvector{ND}$，求 $\\cos\\angle MAN$',
+    answer: '$\\frac9{\\sqrt{130}}$',
+    hasImage: false,
+  },
+  {
+    id: '17e577ce397',
+    chapter: '平面向量',
+    question:
+      '設 $\\triangle ABC$ 的各頂點坐標為 $A(0,0$)、$B(-3,1)$、$C(2,-4)$，試問：\n(1) $\\triangle ABC$ 的重心坐標 (2) $\\xvector{AB}$ 在 $\\xvector{AC}$ 上的正射影\n(3) 若 $\\xvector{AB}=\\vector p+\\vector q$，其中 $\\vector p\\parallel\\xvector{AC}$ 且 $\\vector q\\perp\\xvector{AC}$，求 $\\vector q$',
+    answer: '(1) $(-\\frac13,-1)$ (2) $(-1,2)$ (3) $(-2,-1)$',
+    hasImage: false,
+  },
+  {
+    id: '17e57ad15bc',
+    chapter: '多項式函數',
+    question:
+      '已知二次函數 $y=ax^2+bx+c$ 的圖形如圖所示，則下列各式哪些為正數？\n(1) $a$ (2) $b$ (3) $c$ (4) $b^2-4ac$ (5) $a+b+c$',
+    answer: '(2)(4)(5)',
+    hasImage: true,
+  },
+  {
+    id: '17e57ae841d',
+    chapter: '多項式函數',
+    question: '已知 $y=-2x^2+ax+b$，在 $x=-2$ 時有最大值 $1$，求數對 $(a,b)$。',
+    answer: '$(-8,-7)$',
+    hasImage: false,
+  },
+  {
+    id: '17e57af6aae',
+    chapter: '多項式函數',
+    question: '設 $f(x)=x^5-9x^4+13x^3+32x+12$，試求 $f(7)$。',
+    answer: '$-107$',
+    hasImage: false,
+  },
+  {
+    id: '17e57afffb4',
+    chapter: '多項式函數',
+    question: '若二次函數 $y=2x^2+x-k+1$ 恆在直線 $y=3x$ 的上方，求 $k$ 的範圍。',
+    answer: '$k<\\frac12$',
+    hasImage: false,
+  },
+  {
+    id: '17e57b119f1',
+    chapter: '多項式函數',
+    question: '試求不等式 $(x-1)(x+2)^2(x-3)^3(x+4)^4\\le0$ 的解。',
+    answer: '$1\\le x\\le3\\lor x=-2\\lor x=-4$',
+    hasImage: false,
+  },
+  {
+    id: '17e57b22a99',
+    chapter: '多項式函數',
+    question: '試求不等式 $(x^2+x-2)(x^2-4x+3)(x^2-x+2)(x^2-x-1)\\le0$ 的解。',
+    answer: '$\\frac{1+\\sqrt5}2\\le x\\le3\\lor -2\\le x\\le\\frac{1-\\sqrt5}2\\lor x=1$',
+    hasImage: false,
+  },
+  {
+    id: '17e57b32b37',
+    chapter: '多項式函數',
+    question:
+      '若三次函數 $f(x)=-2x^3+6x^2+3x+4$ 可寫成 $a(x-h)^3+p(x-h)+k$ 的形式，求 $f(x)$ 的對稱中心。',
+    answer: '$(1,11)$',
+    hasImage: false,
+  },
+  {
+    id: '17e57b45929',
+    chapter: '多項式函數',
+    question:
+      '將一多項式 $f(x)=x^3-3x^2+x+3$ 表示成 $a(x-2)^3+b(x-2)^2+c(x-2)+d$ 的形式，求序組 $(a,b,c,d)$。',
+    answer: '$(1,3,1,1)$',
+    hasImage: false,
+  },
+  {
+    id: '17e57b567ab',
+    chapter: '多項式函數',
+    question:
+      '若將 $y=2x^2+4x+3$ 之函數圖形向右平移 $h$ 單位，再向下平移 $k$ 單位，會與 $y=2(x-1)^2+4$ 圖形重合，求數對 $(h,k)$。',
+    answer: '$(2,-3)$',
     hasImage: false,
   },
 ];

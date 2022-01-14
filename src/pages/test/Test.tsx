@@ -52,29 +52,25 @@ const Test = () => {
 
   return (
     <div className={style.content}>
-      <h1>學測練習 一二冊</h1>
+      <h1>高二上第三次段考A(向量)</h1>
       <div>
-        <b>一、單選題(共 15 分；每題 5 分)</b>
+        <b>一、多選題(共 30 分；全對 10 分，錯一個 6 分，錯兩個 2 分，錯三個以上 0 分)</b>
       </div>
-      {displayQuestion('17da24b9ca4', 1)}
-      {displayQuestion('17da24d4535', 2)}
-      {displayQuestion('17da24eb67f', 3)}
+      {displayQuestion('17e576e031b', 1)}
+      {displayQuestion('17e5770633b', 2)}
+      {displayQuestion('17e57739a25', 3)}
       <div>
-        <b>二、多選題(共 15 分；全對 5 分，錯一個 3 分，錯兩個 1 分，錯三個以上 0 分)</b>
+        <b>二、計算題(共 70 分；每題 10 分)</b>
       </div>
-      {displayQuestion('17da2559da6', 4)}
-      {displayQuestion('17da25855c5', 5)}
-      {displayQuestion('17da25a5907', 6)}
-      <div>
-        <b>二、填充題(共 15 分；每題 5 分)</b>
-      </div>
-      {displayQuestion('17da25ba285', 7)}
-      {displayQuestion('17da25f01c8', 8)}
-      {displayQuestion('17da2605950', 9)}
-      <div>
-        <b>四、混合題(共 15 分，第一題 6 分，第二題 9 分，將部份給分)</b>
-      </div>
-      {displayQuestion('17da247200f', 10)}
+      {displayQuestion('17e4c01d316', 4, '2.5cm')}
+      {/* {displayQuestion('17c1644e24c', 4,'2.5cm')} */}
+      {displayQuestion('17e4c032799', 5)}
+      {displayQuestion('17e52724684', 6)}
+      {displayQuestion('17c16703fde', 7)}
+      {/* {displayQuestion('17e577537ee', 7)} */}
+      {displayQuestion('17e5779eff2', 8)}
+      {displayQuestion('17e577ce397', 9)}
+      {displayQuestion('17c165fdd52', 10)}
     </div>
   );
 };
