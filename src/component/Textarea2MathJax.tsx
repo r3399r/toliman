@@ -11,14 +11,15 @@ const Textarea2MathJax = ({ className, text }: Props) => (
   <MathJax.Provider
     url="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"
     options={{
-      loader: { load: ['[tex]/mathtools', '[tex]/physics'] },
+      loader: { load: ['[tex]/mathtools', '[tex]/physics', '[tex]/cancel'] },
       tex: {
         inlineMath: [['$', '$']],
-        packages: { '[+]': ['mathtools', 'physics'] },
+        packages: { '[+]': ['mathtools', 'physics', 'cancel'] },
         macros: {
           vector: ['\\overset{\\small\\rightharpoonup}{#1}', 1],
           xvector: ['\\overset{\\LARGE\\rightharpoonup}{#1}', 1],
           parallel: ['\\mathrel{/\\mkern-5mu/}', 0],
+          nparallel: ['\\bcancel{\\mathrel{/\\mkern-5mu/}}', 0],
           arc: ['\\overset{\\huge\\frown}{#1}', 1],
           du: ['^\\circ', 0],
           arg: ['\\operatorname{Arg}', 0],

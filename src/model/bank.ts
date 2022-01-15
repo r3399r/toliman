@@ -10063,7 +10063,7 @@ export const bank: Question[] = [
     chapter: '平面向量',
     question:
       '有三個向量 $\\vector{a}$、$\\vector{b}$、$\\vector{c}$，已知 $|\\vector{a}|=8$，$|\\vector{b}|=3$，且 $\\vector{a}+\\vector{b}+\\vector{c}=(2,5)$，$2\\vector{a}-\\vector{b}+\\vector{c}=(7,-4)$，求 $\\vector{a}$ 與 $\\vector{b}$ 的夾角餘弦值。',
-    answer: '$\\-frac1{16}$',
+    answer: '$-\\frac1{16}$',
     hasImage: false,
   },
   {
@@ -19269,6 +19269,506 @@ export const bank: Question[] = [
     question:
       '若將 $y=2x^2+4x+3$ 之函數圖形向右平移 $h$ 單位，再向下平移 $k$ 單位，會與 $y=2(x-1)^2+4$ 圖形重合，求數對 $(h,k)$。',
     answer: '$(2,-3)$',
+    hasImage: false,
+  },
+  {
+    id: '17e435d9c5a',
+    chapter: '數列級數',
+    question:
+      '觀察數列 $\\frac11,\\frac12,\\frac22,\\frac13,\\frac23,\\frac33,\\frac14,\\frac24,\\frac34,\\frac44,\\frac15,\\cdots$ 的規律，求：\n(1) $\\frac{13}{29}$ 為第幾項？\n(2) 第 $100$ 項為何？',
+    answer: '(1) $419$ (2)$\\frac9{14}$',
+    hasImage: false,
+  },
+  {
+    id: '17e435e7ba8',
+    chapter: '數列級數',
+    question:
+      '數列 $(1),(2,3),(4,5,6),(7,8,9,10),\\cdots$，依此類推，每個括號的數字個數比前一個括號多一，求數列中第 $23$ 個括號中的第 $10$ 個數字。',
+    answer: '$263$',
+    hasImage: false,
+  },
+  {
+    id: '17e435ef8a0',
+    chapter: '數列級數',
+    question: '等差數列的第 $10$ 項為 $37$ ，第 $25$ 項為 $82$，求首項、公差、第 $40$ 項。',
+    answer: '$10$；$3$；$127$',
+    hasImage: false,
+  },
+  {
+    id: '17e435f6dcc',
+    chapter: '數列級數',
+    question: '在 $21$ 與 $81$ 之間插入 $10$ 個數使其成為等差數列，求所插入的第 $7$ 個數。',
+    answer: '$63$',
+    hasImage: false,
+  },
+  {
+    id: '17e436041fd',
+    chapter: '數列級數',
+    question: '若 $x,y,8,z,u,v,-20,\\cdots$ 成等差，求 $x$。',
+    answer: '$22$',
+    hasImage: false,
+  },
+  {
+    id: '17e4360cb0f',
+    chapter: '數列級數',
+    question:
+      '等差數列 $\\langle a_n\\rangle$，若 $a_2+a_5=28$，$a_3+a_6+a_{10}=59$，求首項、公差。',
+    answer: '$9$；$2$',
+    hasImage: false,
+  },
+  {
+    id: '17e43614e40',
+    chapter: '數列級數',
+    question: '等比數列各項均為實數，第 $6$ 項為 $120$，第 $9$ 項為 $405$，求公比、首項。',
+    answer: '$\\frac32$；$\\frac{1280}{81}$',
+    hasImage: false,
+  },
+  {
+    id: '17e4361d39a',
+    chapter: '數列級數',
+    question:
+      '等比數列 $\\langle a_n\\rangle$，若 $a_1+a_2+a_3=-90$，$a_4+a_5+a_6=720$，求此數列的公比、首項。',
+    answer: '$-2$；$-30$',
+    hasImage: false,
+  },
+  {
+    id: '17e43624a58',
+    chapter: '數列級數',
+    question: '若 $x,2x+2,3x+3,\\cdots$ 是等比數列，求此數列第五項。',
+    answer: '$-\\frac{81}4$',
+    hasImage: false,
+  },
+  {
+    id: '17e4362ba4d',
+    chapter: '數列級數',
+    question: '數列 $x,y,1\\frac79,-2\\frac23,z$ 成等比，求 $x$、$z$。',
+    answer: '$\\frac{64}{81}$；$4$',
+    hasImage: false,
+  },
+  {
+    id: '17e43639b52',
+    chapter: '數列級數',
+    question:
+      '等比數列 $\\langle a_n\\rangle$ 的各項均為負值，若 $a_4+a_6=-48$，$a_8+a_{10}=-3$，求首項、公比、第 $9$ 項。',
+    answer: '$-\\frac{1536}5$；$\\frac12$；$-\\frac65$',
+    hasImage: false,
+  },
+  {
+    id: '17e4363fd23',
+    chapter: '數列級數',
+    question: '若 $20$、$50$、$100$ 各加上同一數後成為等比數列，求公比。',
+    answer: '$\\frac53$',
+    hasImage: false,
+  },
+  {
+    id: '17e4365da05',
+    chapter: '數列級數',
+    question:
+      '小明向小華借了 $1600$ 元，每個月算一次利息，月利率為 $50\\%$，請依單利、複利兩種不同的計息方式，試算借滿一個月至五個月的月本利和，填入下表：\n$$\\begin{array}{|c|c|}\\hline&借一個月&借兩個月&借三個月&借四個月&借五個月\\\\\\hline單利本利和\\\\\\hline複利本利和\\\\\\hline\\end{array}$$',
+    answer: '略',
+    hasImage: false,
+  },
+  {
+    id: '17e4366f627',
+    chapter: '數列級數',
+    question:
+      '在銀行存入一萬元，每年計息一次：\n(1) 若年利率 $10\\%$，單利計算，求 $10$ 年後利息。\n(2) 若年利率 $8\\%$，複利計算，求 $10$ 年後利息。\n($1.08^{10}\\approx2.1589$)',
+    answer: '(1) $10000$ 元 (2) $11589$ 元',
+    hasImage: false,
+  },
+  {
+    id: '17e4367a1a7',
+    chapter: '數列級數',
+    question:
+      '遞迴數列 $\\begin{cases}a_1=29\\\\a_n=a_{n-1}-3,n\\ge2\\end{cases}$，求第 $n$ 項、前 $20$ 項之和。',
+    answer: '$32-3n$；$10$',
+    hasImage: false,
+  },
+  {
+    id: '17e436ad9ad',
+    chapter: '數列級數',
+    question:
+      '數列 $\\langle a_n\\rangle$ 滿足 $a_1=\\frac17$，$a_{n+1}=\\frac72a_n(1-a_n)$，求 $a_{101}+a_{202}$。',
+    answer: '$\\frac97$',
+    hasImage: false,
+  },
+  {
+    id: '17e436b3ffd',
+    chapter: '數列級數',
+    question:
+      '遞迴數列 $\\begin{cases}a_1=5\\\\a_n=a_{n-1}\\times2,n\\ge2\\end{cases}$，求第 $n$ 項。',
+    answer: '$5\\times2^{n-1}$',
+    hasImage: false,
+  },
+  {
+    id: '17e436c240c',
+    chapter: '數列級數',
+    question:
+      '數列 $\\langle a_n\\rangle$ 的遞迴定義為 $a_1=1$，$a_{n+1}=\\frac{1-3a_n}{1-4a_n}$，其中 $n\\in\\mathbb N$，求 $a_{20}$。',
+    answer: '$\\frac{20}{39}$',
+    hasImage: false,
+  },
+  {
+    id: '17e436cdb31',
+    chapter: '數列級數',
+    question:
+      '觀察數列 $\\langle a_n\\rangle=1,2,4,7,11,16,22,\\cdots$，依此規則求出第 $10$ 項、第 $n$ 項。',
+    answer: '$46$；$\\frac{n^2-n+2}2$',
+    hasImage: false,
+  },
+  {
+    id: '17e436d6d3f',
+    chapter: '數列級數',
+    question:
+      '數列 $\\langle a_n\\rangle$，若 $a_1=1$，$a_{n+1}=a_n+(2n-3)$，$n\\in\\mathbb N$，求 $a_n$。',
+    answer: '$n^2-4n+4$',
+    hasImage: false,
+  },
+  {
+    id: '17e436de3cc',
+    chapter: '數列級數',
+    question: '觀察附圖，各相鄰兩點的邊長為 $1$ 單位，求圖 $n$ 的線段總長度。',
+    answer: '$\\frac{3n^2+3n}2$',
+    hasImage: true,
+  },
+  {
+    id: '17e436e88e2',
+    chapter: '數列級數',
+    question:
+      '如圖，相鄰兩點的連線段長為 $1$ 單位，設圖 $n$ 的線段總長度為 $a_n$，求一般項 $a_n$。',
+    answer: '$\\frac{3n^2+7n}2$',
+    hasImage: true,
+  },
+  {
+    id: '17e436f8382',
+    chapter: '數列級數',
+    question:
+      '數列 $\\langle a_n\\rangle$ 滿足 $\\begin{cases}a_1=7\\\\a_{n+1}=2a_n+5,n\\in\\mathbb N\\end{cases}$，證明 $a_n=6\\times2^n-5$ 為 $\\langle a_n\\rangle$ 的一般式。',
+    answer: '略',
+    hasImage: false,
+  },
+  {
+    id: '17e436ffaa3',
+    chapter: '數列級數',
+    question: '證明：$n$ 為自然數，$1^2+2^2+3^2+\\cdots+n^2=\\frac{n(n+1)(2n+1)}6$。',
+    answer: '略',
+    hasImage: false,
+  },
+  {
+    id: '17e43708781',
+    chapter: '數列級數',
+    question:
+      '$n$ 為自然數，$3^{2n+1}+2^{n+2}$ 必為某個質數 $p$ 的倍數，求出 $p$ 後並用數學歸納法證明。',
+    answer: '$p=7$，證明略',
+    hasImage: false,
+  },
+  {
+    id: '17e38805738',
+    chapter: '數列級數',
+    question:
+      '設對於所有的自然數 $n$，$\\begin{cases}a_1=1\\\\a_{n+1}=3a_n+2\\end{cases}$，請用數學歸納法證明：對於所有的自然數 $n$，$a_n=2\\cdot3^{n-1}-1$ 恆成立。',
+    answer: '略',
+    hasImage: false,
+  },
+  {
+    id: '17e43719f98',
+    chapter: '數列級數',
+    question: '證明：$n$ 為自然數，$1^3+2^3+3^3+\\cdots+n^3=[\\frac{n(n+1)}2]^2$。',
+    answer: '略',
+    hasImage: false,
+  },
+  {
+    id: '17e3883dd20',
+    chapter: '數列級數',
+    question: '$n$ 為自然數，證明：$3\\times 5^{2n+1}+2^{3n+1}$ 恆為 $17$ 的倍數。',
+    answer: '略',
+    hasImage: false,
+  },
+  {
+    id: '17e5b7d2e67',
+    chapter: '數列級數',
+    question: '若等差數列的第 $8$ 項為 $35$，且前 $20$ 項的和等於前 $30$ 項的和，求首項、公差。',
+    answer: '$49$；$-2$',
+    hasImage: false,
+  },
+  {
+    id: '17e38ced40c',
+    chapter: '數列級數',
+    question:
+      '某戲院共 $15$ 排座位，後一排比前一排多 $2$ 個座位，已知最後一排有 $40$ 個座位，求該戲院共有幾個座位。',
+    answer: '$390$',
+    hasImage: false,
+  },
+  {
+    id: '17e5b7ffe2b',
+    chapter: '數列級數',
+    question: '求等比級數 $16-8+4-2+1-\\frac12+\\cdots-\\frac1{128}$。',
+    answer: '$\\frac{1365}{128}$',
+    hasImage: false,
+  },
+  {
+    id: '17e5b80b592',
+    chapter: '數列級數',
+    question:
+      '若等比級數的前 $n$ 項和為 $S_n=1+\\frac12+\\frac14+\\cdots+\\frac1{2^{n-1}}$，求滿足 $|S_n-2|\\le\\frac1{10000}$ 的最小正整數 $n$。',
+    answer: '$15$',
+    hasImage: false,
+  },
+  {
+    id: '17e5b811b24',
+    chapter: '數列級數',
+    question:
+      '等比級數共有 $10$ 項，第 $9$ 項為 $\\frac14$，第 $10$ 項為 $\\frac18$，求該 $10$ 項之和。',
+    answer: '$\\frac{1023}8$',
+    hasImage: false,
+  },
+  {
+    id: '17e5b826d1a',
+    chapter: '數列級數',
+    question:
+      '若等比級數 $\\frac1{16}+\\frac18+\\frac14+\\cdots+$ 第 $n$ 項，若其和大於 $2000$，則 $n$ 至少為？',
+    answer: '$15$',
+    hasImage: false,
+  },
+  {
+    id: '17e5b830d54',
+    chapter: '數列級數',
+    question:
+      '等差數列 $\\langle a_n\\rangle$，已知 $a_7+a_{11}+a_{15}+a_{19}+a_{23}=55$，求：\n(1) $a_{15}$ (2) $a_{12}+a_{14}+a_{16}+a_{18}$',
+    answer: '(1) $11$ (2) $44$',
+    hasImage: false,
+  },
+  {
+    id: '17e38f64acc',
+    chapter: '數列級數',
+    question:
+      '等差級數前 $10$ 項和 $S_{10}=5$，前 $20$ 項和 $S_{20}=12$，求前 $40$ 項和 $S_{40}$。',
+    answer: '$32$',
+    hasImage: false,
+  },
+  {
+    id: '17e5b83d66e',
+    chapter: '數列級數',
+    question:
+      '有一等差數列 $\\langle a_n\\rangle$，若 $a_{20}+a_{67}=15$，求 $a_{12}+a_{13}+\\cdots+a_{74}+a_{75}$。',
+    answer: '$480$',
+    hasImage: false,
+  },
+  {
+    id: '17e38fd6c19',
+    chapter: '數列級數',
+    question: '等差級數前 $n$ 項和 $S_n=2$，前 $2n$ 項和 $S_{2n}=-8$，求前 $3n$ 項和 $S_{3n}$。',
+    answer: '$-30$',
+    hasImage: false,
+  },
+  {
+    id: '17e5b8499f7',
+    chapter: '數列級數',
+    question:
+      '銀行提供儲蓄方案，每年年初存入 $5000$ 元，年利率 $20\\%$，每半年複利一次，求 $10$ 年後全部領出可得本利和。($1.1^{20}\\approx6.7275$，整數以下四捨五入)',
+    answer: '$165007$',
+    hasImage: false,
+  },
+  {
+    id: '17e5b854c38',
+    chapter: '數列級數',
+    question:
+      '某人參加儲蓄存款，年利率 $6\\%$，每年複利一次，每年年初存入 $10000$ 元，求 $10$ 年後所得本利和。($1.06^{10}\\approx1.7908$)',
+    answer: '$165007$',
+    hasImage: false,
+  },
+  {
+    id: '17e5b85e60a',
+    chapter: '數列級數',
+    question: '求 $10^3+11^3+12^3+13^3+\\cdots+20^3$。',
+    answer: '$42075$',
+    hasImage: false,
+  },
+  {
+    id: '17e5b869e62',
+    chapter: '數列級數',
+    question: '求 $1^2+2^2+3^2+\\cdots+18^2$ 及 $19^2+20^2+21^2+\\cdots+30^2$。',
+    answer: '$2109$；$7346$',
+    hasImage: false,
+  },
+  {
+    id: '17e5b870850',
+    chapter: '數列級數',
+    question: '求 $11^2+13^2+15^2+\\cdots+29^2+31^2$。',
+    answer: '$5291$',
+    hasImage: false,
+  },
+  {
+    id: '17e5b8762fc',
+    chapter: '數列級數',
+    question: '求 $1\\times3+2\\times5+3\\times7+\\cdots+n(2n+1)+\\cdots+20\\times41$。',
+    answer: '$5950$',
+    hasImage: false,
+  },
+  {
+    id: '17e5b884a40',
+    chapter: '數列級數',
+    question:
+      '數列 $\\langle a_n\\rangle$，已知前 $n$ 項和 $S_n=n^2+n+2$，$n\\in\\mathbb N$，求：\n(1) $S_5$ (2) $a_{10}$ (3) $a_n$',
+    answer: '(1) $32$ (2) $20$ (3) $\\begin{cases}4,n=1\\\\2n,n\\ge2\\end{cases}$',
+    hasImage: false,
+  },
+  {
+    id: '17e5b895721',
+    chapter: '數列級數',
+    question:
+      '數列$\\langle a_n\\rangle$，已知前 $n$ 項和 $S_n=3n^2+4n-1$，求：\n(1) $a_1$ (2) $a_{10}$ (3) $a_n$ (4) $a_{10}+a_{11}+a_{12}+\\cdots+a_{20}$',
+    answer: '(1) $6$ (2) $61$ (3) $\\begin{cases}6,n=1\\\\6n+1,n\\ge2\\end{cases}$ (4) $1001$',
+    hasImage: false,
+  },
+  {
+    id: '17e5b8a89f4',
+    chapter: '排列組合與機率',
+    question:
+      '是非題：\n(1) 循環小數 $1.2\\overline{34}$ 是無理數\n(2) $f(x)=x+1$ 是多項式\n(3) $2$ 是整數而且也是有理數\n(4) $8$ 是偶數且會被 $3$ 整除\n(5) $5$ 是質數或 $3>5$\n(6) $35$ 是 $2$ 或 $3$ 的倍數',
+    answer: 'xooxox',
+    hasImage: false,
+  },
+  {
+    id: '17e5b8b5a5c',
+    chapter: '排列組合與機率',
+    question:
+      '將下列各敘述改為否定：\n(1) $2x=9$\n(2) $3\\le x<7$\n(3) $x>1$ 或 $y\\le4$\n(4) 全班同學都及格\n(5) 至少有 $10$ 個隊伍闖關成功',
+    answer: '略',
+    hasImage: false,
+  },
+  {
+    id: '17e5b8c1a3a',
+    chapter: '排列組合與機率',
+    question:
+      '是非題：\n(1) $\\sqrt2+\\sqrt3=\\sqrt5$\n(2) $0$ 是偶數\n(3) $1<2$ 且 $2=3$\n(4) $2>1$ 且 $2>0$\n(5) $1<2$ 或 $2=3$\n(6) $\\sqrt2>2$ 或 $\\sqrt3>2$',
+    answer: 'xoxoox',
+    hasImage: false,
+  },
+  {
+    id: '17e5b8cb0ae',
+    chapter: '排列組合與機率',
+    question:
+      '請將下列各敘述改為否定：\n(1) $3x+2y\\ne10$\n(2) $a=3$ 且 $b=5$\n(3) $x\\ge7$ 或 $y<2$\n(4) 數學競賽全班最多 $5$ 人過關\n(5) 至少有 $10$ 個同學及格',
+    answer: '略',
+    hasImage: false,
+  },
+  {
+    id: '17e5b8e3a7c',
+    chapter: '排列組合與機率',
+    question:
+      '判斷下列推論的對錯，並回答充分必要的關係：\nA：若四邊形為矩形，則此四邊形的對角線等長\nB：若四邊形的對角線等長，則此四邊形為矩形\n「四邊形為矩形」是「四邊形的對角線等長」的什麼條件？(充分、必要、充要)',
+    answer: 'ox；充份',
+    hasImage: false,
+  },
+  {
+    id: '17e5b8f7608',
+    chapter: '排列組合與機率',
+    question:
+      '判斷下列推論的對錯，並回答充分必要的關係：\nA：若 $a=0$ 或 $b=0$，則 $a^2+b^2=0$\nB：若 $a^2+b^2=0$，則 $a=0$ 或 $b=0$\n「$a=0$ 或 $b=0$」是「$a^2+b^2=0$」的什麼條件？(充份、必要、充要)',
+    answer: 'xo；必要',
+    hasImage: false,
+  },
+  {
+    id: '17e5b901d00',
+    chapter: '排列組合與機率',
+    question:
+      '判斷下列推論的對錯，並回答充分必要的關係：\nA：若 $ab<0$，則 $|a|+|b|>|a+b|$。\nB：若 $|a|+|b|>|a+b|$，則 $ab<0$。\n「$ab<0$」是 「$|a|+|b|>|a+b|$」的什麼條件？(充份、必要、充要)',
+    answer: 'oo；充要',
+    hasImage: false,
+  },
+  {
+    id: '17e5c312681',
+    chapter: '排列組合與機率',
+    question:
+      '是非題：\n(1) $x$ 為實數，若 $\\frac x3<2$，則 $x<6$\n(2) $x$ 為非零實數，若 $\\frac6x<3$，則 $x>2$\n(3) 設 $a$、$b$ 為正數，若 $a>b$，則 $a^2>b^2$\n(4) 設 $a$、$b$ 為實數，若 $a^2+b^2>0$，則 $ab\\ne0$',
+    answer: 'oxox',
+    hasImage: false,
+  },
+  {
+    id: '17e5c32a7ca',
+    chapter: '排列組合與機率',
+    question:
+      '是非題：\n(1) 若 $\\triangle ABC$ 為等腰三角形，則 $\\angle B=\\angle C$\n(2) 三角形的邊長為 $a$、$b$、$c$，若 $a^2+b^2=c^2$，則此三角形為直角三角形\n(3) 若 $\\triangle ABC$ 與 $\\triangle PQR$ 是平面上的三角形，則 $\\angle A+\\angle B+\\angle C=\\angle P+\\angle Q+\\angle R$\n(4) 平面上三條直線 $L_1$、$L_2$、$L_3$，若 $L_1\\nparallel L_2$ 且 $L_2\\nparallel L_3$，則 $L_1\\nparallel L_3$。',
+    answer: 'xoox',
+    hasImage: false,
+  },
+  {
+    id: '17e5c3361eb',
+    chapter: '排列組合與機率',
+    question:
+      '已知敘述 $A$、$B$、$C$、$D$、$E$、$F$ 的蘊涵關係如圖，則下列選項哪些為真？\n(1) $A$ 是 $E$ 的充分條件 (2) $A$ 是 $F$ 的充分條件\n(3) $B$ 是 $E$ 的充要條件 (4) $D$ 是 $E$ 的必要條件\n(5) $F$ 是 $D$ 的必要條件',
+    answer: '(1)(3)(5)',
+    hasImage: true,
+  },
+  {
+    id: '17e5c342742',
+    chapter: '排列組合與機率',
+    question:
+      '請問下列各選項中，哪些是含有 $3$ 個元素的集合？\n(1) $1,2,3$ (2) $[x,y,z]$ (3) $\\{1,1,a\\}$ (4) $\\{小明,小華,5,5\\}$',
+    answer: '(4)',
+    hasImage: false,
+  },
+  {
+    id: '17e5c350051',
+    chapter: '排列組合與機率',
+    question:
+      '設 $A=\\{1,2,\\{3,4\\}\\}$，下列各選項哪些正確？\n(1) $1\\in A$ (2) $2\\subset A$ (3) $3\\in A$ (4) $\\{1,2\\}\\subset A$ (5) $\\{3,4\\}\\subset A$',
+    answer: '(1)(4)',
+    hasImage: false,
+  },
+  {
+    id: '17e5c35b90f',
+    chapter: '排列組合與機率',
+    question: '請問集合 $\\{1,2,\\{1,2\\},\\{1\\},2\\}$ 內共有幾個元素？',
+    answer: '$4$',
+    hasImage: false,
+  },
+  {
+    id: '17e5c36883f',
+    chapter: '排列組合與機率',
+    question:
+      '集合 $S=\\{\\phi,\\{1,5\\},2\\}$，下列哪些為真？\n(1) $S$ 共有 $4$ 個元素 (2) $\\phi\\in S$ (3) $\\phi\\subset S$\n(4) $1\\in S$ 且 $5\\in S$ (5) $\\{1,5\\}\\subset S$ (6) $\\{2\\}\\subset S$',
+    answer: '(2)(3)(6)',
+    hasImage: false,
+  },
+  {
+    id: '17e5c378ac4',
+    chapter: '排列組合與機率',
+    question: '$A=\\{1,3,5\\}$，$B=\\{2,3,4,5,6\\}$，求：\n(1) $A\\cap B$ (2) $A\\cup B$ (3) $A-B$',
+    answer: '(1) $\\{3,5\\}$ (2) $\\{1,2,3,4,5,6\\}$ (3) $\\{1\\}$',
+    hasImage: false,
+  },
+  {
+    id: '17e5c38b493',
+    chapter: '排列組合與機率',
+    question:
+      "已知 $A\\cap B=\\{1,2,3\\}$，$A'=\\{4,5,7,8,10\\}$，$B'=\\{4,5,7,9,11,12\\}$，求 $A$、$B$。",
+    answer: '$\\{1,2,3,9,11,12\\}$；$\\{1,2,3,8,10\\}$',
+    hasImage: false,
+  },
+  {
+    id: '17e5c396ba9',
+    chapter: '排列組合與機率',
+    question: '$A=\\{0,1,2,4,7\\}$，$B=\\{2,3,4,7,9\\}$，求 $(A\\cup B)-(A\\cap B)$。',
+    answer: '$\\{0,1,3,9\\}$',
+    hasImage: false,
+  },
+  {
+    id: '17e5c3a3982',
+    chapter: '排列組合與機率',
+    question:
+      "宇集 $U=\\{1,2,3,4,5,6,7,8\\}$，$A=\\{2,4,6,8\\}$，$B=\\{3,4,5,6,7\\}$，求 $(A\\cup B)'$、$(A-B)'$。",
+    answer: '$\\{1\\}$；$\\{1,3,4,5,6,7\\}$',
+    hasImage: false,
+  },
+  {
+    id: '17e5c3c4ada',
+    chapter: '排列組合與機率',
+    question:
+      "設 $A=\\{x|2\\leq x<5,x\\in\\mathbb R\\}$，$B=\\{x|4\\le x<7,x\\in\\mathbb R\\}$，求：\n(1) $A\\cap B$ (2) $A\\cup B$ (3) $A\\cap B'$ (4) $A'-B'$",
+    answer:
+      '(1) $\\{x|4\\le x<5,x\\in\\mathbb R\\}$ (2) $\\{x|2\\le x<7,x\\in\\mathbb R\\}$ (3) $\\{x|2\\le x<4,x\\in\\mathbb R\\}$ (4) $\\{x|5\\le x<7,x\\in\\mathbb R\\}$',
     hasImage: false,
   },
 ];
