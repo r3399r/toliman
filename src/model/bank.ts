@@ -21833,4 +21833,169 @@ export const bank: Question[] = [
     answer: '$503$',
     hasImage: true,
   },
+  {
+    id: '17f0dc48998',
+    chapter: '空間概念',
+    question:
+      '將地球儀設定成一個坐標空間，其中球心為原點 $O$，地球儀上 $A$、$B$ 兩個海島的坐標分別為 $A(0,0,4)$、$B(1,\\sqrt{11},2)$，求在實際地球上，輪船從 $A$ 海島到 $B$ 海島的最短航線長大約多少公里？(可按計算機，地球半徑約 $6400$ 公里，四捨五入到整數位)',
+    answer: '$6702$',
+    hasImage: false,
+  },
+  {
+    id: '17f0dca28bd',
+    chapter: '空間概念',
+    question:
+      '有一燈泡掛在離地面 $3$ 公尺的垂直牆面，此燈泡與牆面成 $60\\du$，如圖。當通電後，光源照在地面形成光影。假設整個光影均在地面上，則此光影的邊界為下列哪一種圓錐曲線？\n(1) 直線 (2) 圓 (3) 拋物線 (4) 橢圓 (5) 雙曲線',
+    answer: '(4)',
+    hasImage: true,
+  },
+  {
+    id: '17f0dd0e239',
+    chapter: '空間概念',
+    question: '四面體 $ABCD$ 的六條稜邊所在的直線中，共有幾組歪斜線？',
+    answer: '$3$',
+    hasImage: false,
+  },
+  {
+    id: '17f0dd2ad5f',
+    chapter: '空間概念',
+    question:
+      '圖為一正立方體，下列哪些直線與平面 $BCGF$ 垂直？\n(1) 直線 $EH$ (2) 直線 $EF$ (3) 直線 $EB$ (4) 直線 $EG$ (5) 直線 $EA$',
+    answer: '(2)',
+    hasImage: true,
+  },
+  {
+    id: '17f0dd4619a',
+    chapter: '空間概念',
+    question:
+      '圖為一正立方體，$A$、$B$、$C$ 分別為所在的邊之中點，通過 $A$、$B$、$C$ 三點的平面與此立方體相截，試問下列何者為其截痕的形狀？\n(1) 直角三角形 (2) 非直角的三角形 (3) 六邊形 (4) 正方形 (5) 非正方形的長方形',
+    answer: '(5)',
+    hasImage: true,
+  },
+  {
+    id: '17f0dd61a80',
+    chapter: '空間概念',
+    question:
+      '設直線 $AB$ 垂直平面 $E$ 於 $B$ 點，且 $L$ 是平面 $E$ 上一條直線，$D$ 是 $L$ 上一點，如圖，若直線 $BC$ 垂直 $L$ 於 $C$，且 $\\overline{AB}=2$，$\\overline{BC}=1$，$\\overline{CD}=2$，求 $\\overline{AD}$。',
+    answer: '$3$',
+    hasImage: true,
+  },
+  {
+    id: '17f0dd7aed2',
+    chapter: '空間概念',
+    question:
+      '如圖，已知空間中一直線 $L$ 通過 $A$、$B$ 兩點，$O$ 為 $L$ 外一點，取 $\\overline{OC}$ 垂直平面 $OAB$ 於 $O$ 點，若 $\\overline{OA}=\\overline{OB}=10$，$\\overline{AB}=12$，且 $C$ 點到直線 $L$ 的最短距離為 $12$，求 $\\overline{OC}$。',
+    answer: '$4\\sqrt5$',
+    hasImage: true,
+  },
+  {
+    id: '17f0dd92e38',
+    chapter: '空間概念',
+    question:
+      '設 $P$ 點位於第一卦限，且與三坐標平面等距離，若 $P$ 點到 $z$ 軸的距離是 $2$，求 $P$ 點到原點之距離。',
+    answer: '$\\sqrt6$',
+    hasImage: false,
+  },
+  {
+    id: '17f0dda40d4',
+    chapter: '空間概念',
+    question:
+      '由點 $P(-8,18,-15)$ 沿著向量 $\\vector v=(3,-4,5)$ 的方向平移 $20\\sqrt2$ 單位到達點 $Q$，求 $Q$。',
+    answer: '$(4,2,5)$',
+    hasImage: false,
+  },
+  {
+    id: '17f0ddc43f4',
+    chapter: '空間概念',
+    question:
+      '已知一正四面體，其中三頂點坐標分別為 $O(0,0,0)$、$A(2,0,0)$ 及 $B(1,1,\\sqrt2)$，求另一頂點 $C$ 的坐標。(兩解)',
+    answer: '$(1,-1,\\sqrt2)\\lor(1,\\frac53,-\\frac{\\sqrt2}3)$',
+    hasImage: false,
+  },
+  {
+    id: '17f0dddb2cc',
+    chapter: '空間概念',
+    question:
+      '令 $A(-1,6,0)$，$B(3,-1,-2)$，$C(4,4,5)$ 為空間坐標系中三點，若 $D$ 點滿足 $3\\xvector{DA}-4\\xvector{DB}+2\\xvector{DC}=\\vector0$，求 $D$。',
+    answer: '$(-7,30,18)$',
+    hasImage: false,
+  },
+  {
+    id: '17f0ddef48e',
+    chapter: '空間概念',
+    question:
+      '$\\triangle ABC$ 中，$A(6,3,4)$、$B(3,1,-2)$、$C(4,1,3)$，若 $\\angle A$ 的角平分線交直線 $BC$ 於 $D$，求 $D$。',
+    answer: '$(\\frac{37}{10},1,\\frac32)$',
+    hasImage: false,
+  },
+  {
+    id: '17f0dedd6ac',
+    chapter: '空間向量',
+    question:
+      '設 $\\vector a=(2,2,1)$，$\\vector b=(3,1,-2)$，$\\vector c=(1,2,4)$，若 $(\\vector a+t\\vector b)\\perp\\vector c$，求 $t$。',
+    answer: '$\\frac{10}3$',
+    hasImage: false,
+  },
+  {
+    id: '17f0defa418',
+    chapter: '空間向量',
+    question:
+      '如圖為長、寬、高分別為 $2$、$3$、$7$ 的長方體。已知 $\\overline{AB}=2$，$\\overline{AD}=3$，且 $\\overline{DH}=7$，求內積 $\\xvector{AG}\\cdot\\xvector{BH}$。',
+    answer: '$54$',
+    hasImage: true,
+  },
+  {
+    id: '17f0df1294d',
+    chapter: '空間向量',
+    question:
+      '如圖，$ABCD$ 為正立方體的一個面，$P$ 為 $\\overline{BC}$ 中點，$Q$ 在 $\\overline{CD}$ 上，且 $\\overline{CQ}:\\overline{DQ}=2:1$，$O$ 為正立方體的中心，求 $\\cos\\angle POQ$。',
+    answer: '$\\frac{\\sqrt{38}}{19}$',
+    hasImage: true,
+  },
+  {
+    id: '17f0df1bc14',
+    chapter: '空間向量',
+    question: '若 $2x+y-2z+3=0$，求 $4x^2+y^2+4z^2-9$ 的最小值。',
+    answer: '$-6$',
+    hasImage: false,
+  },
+  {
+    id: '17f0df3023e',
+    chapter: '空間向量',
+    question: '若 $x^2+y^2+z^2=\\frac27$，求 $x+3y-2z$ 的最大值及此時的序組 $(x,y,z)$。',
+    answer: '$2$；$(\\frac17,\\frac37,-\\frac27)$',
+    hasImage: false,
+  },
+  {
+    id: '17f0df44a83',
+    chapter: '空間向量',
+    question:
+      '已知 $\\xvector{AB}=(7,2,1)$，$\\xvector{AC}=(2,4,-4)$，求 $\\xvector{AB}$ 在 $\\xvector{AC}$ 上的正射影。',
+    answer: '$(1,2,-2)$',
+    hasImage: false,
+  },
+  {
+    id: '17f0df59034',
+    chapter: '空間向量',
+    question:
+      '設 $A(1,0,1)$、$B(1,2,3)$、$C(-1,1,2)$，若 $B$ 點在直線 $AC$ 上的投影點為 $H$，且 $\\xvector{AH}=t\\xvector{AC}$，求 $t$。',
+    answer: '$\\frac23$',
+    hasImage: false,
+  },
+  {
+    id: '17f0df681b0',
+    chapter: '空間向量',
+    question:
+      '設 $\\vector a=(1,2,-1)$，$\\vector b=(-2,3,-1)$，求 $(3\\vector a+\\vector b)\\cdot(2\\vector a-\\vector b)$。',
+    answer: '$17$',
+    hasImage: false,
+  },
+  {
+    id: '17f0df7ab1b',
+    chapter: '空間向量',
+    question:
+      '已知 $\\vector a=(1,2,-1)$，$\\vector b=(3,2x+5,3y-1)$，$\\vector c=(z,5,x-1)$，若 $\\vector a\\parallel\\vector b$ 且 $\\vector b\\perp\\vector c$，求序組 $(x,y,z)$。',
+    answer: '$(\\frac12,-\\frac23,-\\frac{21}2)$',
+    hasImage: false,
+  },
 ];
