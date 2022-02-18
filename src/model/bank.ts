@@ -16817,7 +16817,7 @@ export const bank: Question[] = [
     id: '17d861b678c',
     chapter: '空間向量',
     question:
-      '四角錐體 $P-ABC$ 的底面為邊長 $3$ 的正方形 $ABCD$，$\\overline{PA}=4$ 且 $\\overline{PA}$ 與底面垂直，求 $\\xvector{PB}\\cdot\\xvector{PD}$ 及 $\\xvector{PA}\\cdot\\xvector{PC}$。',
+      '四角錐 $P-ABCD$ 的底面為邊長 $3$ 的正方形 $ABCD$，$\\overline{PA}=4$ 且 $\\overline{PA}$ 與底面垂直，求 $\\xvector{PB}\\cdot\\xvector{PD}$ 及 $\\xvector{PA}\\cdot\\xvector{PC}$。',
     answer: '$16$；$16$',
     hasImage: true,
   },
@@ -16843,7 +16843,7 @@ export const bank: Question[] = [
     question:
       '長方體 $ABCD-EFGH$，長、寬、高分別為 $\\overline{AB}=6$、$\\overline{AD}=4$、$\\overline{AE}=2$，若 $M$ 為 $\\overline{DH}$ 中點，$N$ 為 $\\overline{FG}$ 中點，求 $\\xvector{AN}\\cdot\\xvector{BM}$。',
     answer: '$-26$',
-    hasImage: true,
+    hasImage: false,
   },
   {
     id: '17d861d8aa3',
@@ -16873,7 +16873,7 @@ export const bank: Question[] = [
     id: '17dc12e0853',
     chapter: '空間向量',
     question:
-      '正四面體 $ABCD$ 的邊長為 $6$，$P$ 在 $\\overline{BC}$ 上且 $\\overline{PB}=2$，$Q$ 為 $\\overline{CD}$ 中點，求 $\\xvector{AP}\\cdot\\xvector{AQ}$。',
+      '正四面體 $ABCD$ 的邊長為 $6$，$P$ 在 $\\overline{BC}$ 上且 $\\overline{PB}=2$，$Q$ 為 $\\overline{CD}$ 中點，求 $\\xvector{AP}\\cdot\\xvector{AQ}$',
     answer: '$21$',
     hasImage: true,
   },
@@ -16888,7 +16888,7 @@ export const bank: Question[] = [
     id: '17dc12ef52b',
     chapter: '空間向量',
     question:
-      '正四面體 $ABCD$，$\\overline{AB}=\\overline{AC}=\\overline{AD}=10$，$\\angle BAC=60\\du$，$\\angle BAD=90\\du$，$P$ 點在 $\\overline{CD}$ 上且 $\\overline{PC}:\\overline{PD}=2:3$，求 $\\xvector{AB}\\cdot\\xvector{AP}$。',
+      '正四面體 $ABCD$，$\\overline{AB}=\\overline{AC}=\\overline{AD}=10$，$\\angle BAC=60\\du$，$\\angle BAD=90\\du$，$P$ 點在 $\\overline{CD}$ 上且 $\\overline{PC}:\\overline{PD}=2:3$，求 $\\xvector{AB}\\cdot\\xvector{AP}$',
     answer: '$30$',
     hasImage: true,
   },
@@ -16975,14 +16975,14 @@ export const bank: Question[] = [
     id: '17dc136e00d',
     chapter: '空間向量',
     question:
-      '空間中三點 $P(10,-10,7)$、$Q(2,0,3)$、$R(4,-4,7)$，求 $P$ 到直線 $\\overleftrightarrow{QR}$ 的距離。',
+      '空間中三點 $P(10,-10,7)$、$Q(2,0,3)$、$R(4,-4,7)$，求 $P$ 到 $\\overleftrightarrow{QR}$ 的距離。',
     answer: '$6$',
     hasImage: false,
   },
   {
     id: '17da3366659',
     chapter: '空間向量',
-    question: '空間中，向量 $(5,p,p+2)$ 在另一向量 $(2,-1,4)$ 上的正射影為 $(-4,2,-8)$，試求 $p$。',
+    question: '空間中，向量 $(5,p,p+2)$ 在另一向量 $(2,-1,4)$ 上的正射影為 $(-4,2,-8)$，求 $p$',
     answer: '$-20$',
     hasImage: false,
   },
@@ -16990,7 +16990,7 @@ export const bank: Question[] = [
     id: '17da52a1a5e',
     chapter: '空間向量',
     question:
-      '$x,y,z\\in\\mathbb R$，若 $3x-y+2z=5$，求 $x^2+2y^2+4z^2$ 的最小值及此時的 $(x,y,z)$。',
+      '$x,y,z\\in\\mathbb R$，若 $3x-y+2z=5$，求 $x^2+2y^2+4z^2$ 的最小值及此時的 $(x,y,z)$',
     answer: '$\\frac{50}{21}$；$(\\frac{10}7,-\\frac5{21},\\frac5{21})$',
     hasImage: false,
   },
@@ -17052,7 +17052,7 @@ export const bank: Question[] = [
     id: '17da54d25cf',
     chapter: '空間向量',
     question:
-      '(1) $\\vector a=(1,3,-2)$，$\\vector b=(3,2,1)$，求 $\\vector a\\cross\\vector b$。\n(2) $\\vector a=(1,2,3)$，$\\vector b=(3,1,2)$，$\\vector c=(2,1,3)$，求 $(\\vector a\\cross\\vector b)\\cross\\vector c$ 及 $\\vector a\\cross(\\vector b\\cross\\vector c)$。',
+      '(1) 求 $(1,3,-2)\\cross(3,2,1)$\n(2) $\\vector a=(1,2,3)$，$\\vector b=(3,1,2)$，$\\vector c=(2,1,3)$，求 $(\\vector a\\cross\\vector b)\\cross\\vector c$ 及 $\\vector a\\cross(\\vector b\\cross\\vector c)$',
     answer: '(1) $(7,-7,-7)$ (2) $(26,-13,-13)$；$(17,2,-7)$',
     hasImage: false,
   },
@@ -17092,7 +17092,7 @@ export const bank: Question[] = [
     id: '17dc0f6c9fe',
     chapter: '空間向量',
     question:
-      '已知空間中三點 $A(1,2,1)$、$B(0,1,3)$、$C(k,k,k)$，若 $\\triangle ABC$ 的面積為 $\\frac{\\sqrt5}2$，求 $k$。',
+      '已知空間中三點 $A(1,2,1)$、$B(0,1,3)$、$C(k,k,k)$，若 $\\triangle ABC$ 的面積為 $\\frac{\\sqrt5}2$，求 $k$',
     answer: '$\\frac53\\lor1$',
     hasImage: false,
   },
@@ -17153,7 +17153,7 @@ export const bank: Question[] = [
     id: '17dc0fb90a2',
     chapter: '空間向量',
     question:
-      '已知 $\\begin{vmatrix}x_1&a_1&p_1\\\\x_2&a_2&p_2\\\\x_3&a_3&p_3\\end{vmatrix}=4$，$\\begin{vmatrix}x_1&b_1&p_1\\\\x_2&b_2&p_2\\\\x_3&b_3&p_3\\end{vmatrix}=5$，$\\begin{vmatrix}y_1&a_1&p_1\\\\y_2&a_2&p_2\\\\y_3&a_3&p_3\\end{vmatrix}=2$，$\\begin{vmatrix}y_1&b_1&p_1\\\\y_2&b_2&p_2\\\\y_3&b_3&p_3\\end{vmatrix}=7$，試求 $\\begin{vmatrix}x_1+2y_1&3a_1-b_1&p_1\\\\x_2+2y_2&3a_2-b_2&p_2\\\\x_3+2y_3&3a_3-b_3&p_3\\end{vmatrix}$。',
+      '設 $\\begin{vmatrix}x_1&a_1&p_1\\\\x_2&a_2&p_2\\\\x_3&a_3&p_3\\end{vmatrix}=4$，$\\begin{vmatrix}x_1&b_1&p_1\\\\x_2&b_2&p_2\\\\x_3&b_3&p_3\\end{vmatrix}=5$，$\\begin{vmatrix}y_1&a_1&p_1\\\\y_2&a_2&p_2\\\\y_3&a_3&p_3\\end{vmatrix}=2$，$\\begin{vmatrix}y_1&b_1&p_1\\\\y_2&b_2&p_2\\\\y_3&b_3&p_3\\end{vmatrix}=7$，試求 $\\begin{vmatrix}x_1+2y_1&3a_1-b_1&p_1\\\\x_2+2y_2&3a_2-b_2&p_2\\\\x_3+2y_3&3a_3-b_3&p_3\\end{vmatrix}$。',
     answer: '$5$',
     hasImage: false,
   },
@@ -17161,7 +17161,7 @@ export const bank: Question[] = [
     id: '17dc0fc45ae',
     chapter: '空間向量',
     question:
-      '試求：(1) $\\begin{vmatrix}150&151&152\\\\26&24&25\\\\53&51&52\\end{vmatrix}$ (2) $\\begin{vmatrix}1^2&2^2&3^2\\\\2^2&3^2&4^2\\\\3^2&4^2&5^2\\end{vmatrix}$',
+      '求：(1) $\\begin{vmatrix}150&151&152\\\\26&24&25\\\\53&51&52\\end{vmatrix}$ (2) $\\begin{vmatrix}1^2&2^2&3^2\\\\2^2&3^2&4^2\\\\3^2&4^2&5^2\\end{vmatrix}$',
     answer: '(1) $87$ (2) $-8$',
     hasImage: false,
   },
@@ -17193,7 +17193,7 @@ export const bank: Question[] = [
     id: '17dc11e7ed7',
     chapter: '空間向量',
     question:
-      '圖中的長方體表面布滿邊長為 $1$ 的正方格線，選取其中四個格線交點 $A$、$B$、$C$、$D$，切割成四面體 $ABCD$，求此四面體的體積。',
+      '圖為長、寬、高各為 $6$、$4$、$4$ 的長方體，其中有四點 $A$、$B$、$C$、$D$ 形成一四面體 $ABCD$，求此四面體的體積。',
     answer: '$22$',
     hasImage: true,
   },
@@ -17233,7 +17233,7 @@ export const bank: Question[] = [
     chapter: '空間中的平面與直線',
     question:
       '已知平面 $E:2x+y-3z=1$，試求：\n(1) 法向量 (2) 與 $z$ 軸的交點坐標\n(3) 若點 $(k-1,2k,k+2)\\in E$，求 $k$',
-    answer: '$(2,1,-3)$；$(0,0,-\\frac{1}{3})$；$9$',
+    answer: '(1) $(2,1,-3)$ (2) $(0,0,-\\frac{1}{3})$ (3) $9$',
     hasImage: false,
   },
   {
@@ -17262,7 +17262,7 @@ export const bank: Question[] = [
     id: '17dc123720a',
     chapter: '空間中的平面與直線',
     question:
-      '若一平面過 $P(1,-2,1)$，且和兩平面 $E_1:3x+y+z-2=0$ 與 $E_2:x-2y+z+4=0$ 均垂直，求平面方程式。',
+      '若一平面過 $(1,-2,1)$，且和兩平面 $3x+y+z-2=0$ 與 $x-2y+z+4=0$ 均垂直，求平面方程式。',
     answer: '$3x-2y-7z=0$',
     hasImage: false,
   },
@@ -17276,8 +17276,7 @@ export const bank: Question[] = [
   {
     id: '17dc123f2ca',
     chapter: '空間中的平面與直線',
-    question:
-      '若一平面過 $P(4,1,2)$，且和兩平面 $E_1:2x-y+3z=1$ 與 $E_2:4x-y+2z=4$ 均垂直，求平面方程式。',
+    question: '若一平面過 $(4,1,2)$，且和兩平面 $2x-y+3z=1$ 與 $4x-y+2z=4$ 均垂直，求平面方程式。',
     answer: '$x+8y+2z=16$',
     hasImage: false,
   },
@@ -17301,7 +17300,7 @@ export const bank: Question[] = [
     id: '17dc1265fe6',
     chapter: '空間中的平面與直線',
     question:
-      '設 $E_1:x+ky+z=15$ 與 $E_2:x+y+kz=-2$，求：\n(1) 若 $E_1\\perp E_2$，求 $k$ (2) 若 $E_1$ 與 $E_2$ 的夾角為 $60\\du$，求 $k$',
+      '設 $E_1:x+ky+z=15$ 與 $E_2:x+y+kz=-2$，求：\n(1) 若 $E_1\\perp E_2$，求 $k$\n(2) 若 $E_1$ 與 $E_2$ 的夾角為 $60\\du$，求 $k$',
     answer: '(1) $-\\frac12$ (2) $0\\lor4\\lor-2$',
     hasImage: false,
   },
@@ -17324,9 +17323,9 @@ export const bank: Question[] = [
     id: '17dc12836dd',
     chapter: '空間中的平面與直線',
     question:
-      '動點 $(x,y,z)$ 在平面 $E:2x+y-2z-5=0$ 上移動，求 $\\sqrt{(x-3)^2+y^2+(z+1)^2}$ 的最小值。',
+      '動點 $(x,y,z)$ 在平面 $2x+y-2z-5=0$ 上移動，求 $\\sqrt{(x-3)^2+y^2+(z+1)^2}$ 的最小值。',
     answer: '$1$',
-    hasImage: true,
+    hasImage: false,
   },
   {
     id: '17da49b6ff7',
@@ -17339,7 +17338,7 @@ export const bank: Question[] = [
     id: '17dc128eaff',
     chapter: '空間中的平面與直線',
     question:
-      '點 $(x,y,z)$ 在平面 $E:3x-y+z=2$ 上移動，求 $\\sqrt{(x+3)^2+(y+2)^2+(z-1)^2}$ 的最小值。',
+      '點 $(x,y,z)$ 在平面 $3x-y+z=2$ 上移動，求 $\\sqrt{(x+3)^2+(y+2)^2+(z-1)^2}$ 的最小值。',
     answer: '$\\frac8{\\sqrt{11}}$',
     hasImage: false,
   },
@@ -17354,7 +17353,7 @@ export const bank: Question[] = [
   {
     id: '17dc12a6e73',
     chapter: '空間中的平面與直線',
-    question: '在坐標空間中，試求出與平面 $2x-y+2z=5$ 平行，且距離為 $6$ 的平面方程式。',
+    question: '在坐標空間中，試求與平面 $2x-y+2z=5$ 平行，且距離為 $6$ 的平面方程式。',
     answer: '$2x-y+2z=-13\\lor2x-y+2z=23$',
     hasImage: false,
   },
@@ -17577,7 +17576,7 @@ export const bank: Question[] = [
     id: '17de15c9102',
     chapter: '空間中的平面與直線',
     question:
-      '空間中兩相異點 $A(2,-3,-10)$、$B(7,1,5)$，求 $\\overleftrightarrow{AB}$ 的：\n(1) 參數式 (2) 對稱比例式\n',
+      '空間中兩相異點 $A(2,-3,-10)$、$B(7,1,5)$，求 $\\overleftrightarrow{AB}$ 的：(1) 參數式 (2) 對稱比例式\n',
     answer: '略',
     hasImage: false,
   },
@@ -17585,14 +17584,14 @@ export const bank: Question[] = [
     id: '17de15be8ea',
     chapter: '空間中的平面與直線',
     question:
-      '空間中直線 $L:\\begin{cases}x=7+2t\\\\y=4-3t\\\\z=-2+t\\end{cases}$，$t\\in\\mathbb R$，試問：\n(1) 起點坐標與方向向量\n(2) 點 $P(a,b,2)$ 在 $L$ 上，求數對 $(a,b)$\n(3) 若參數 $t$ 的範圍為 $-1\\le t\\le5$，所得的圖形為線段，求此線段的長度與中點坐標',
-    answer: '(1) $(7,4,2)$；$(2,-3,1)$ (2) $(15,-8)$ (3) $6\\sqrt{14}$；$(11,-2,0)$',
+      '空間中直線 $L:\\begin{cases}x=7+2t\\\\y=4-3t\\\\z=-2+t\\end{cases},t\\in\\mathbb R$，試問：(1) 起點坐標與方向向量\n(2) 點 $P(a,b,2)$ 在 $L$ 上，求數對 $(a,b)$\n(3) 若參數 $t$ 的範圍為 $-1\\le t\\le5$，所得的圖形為線段，求此線段的長度',
+    answer: '(1) $(7,4,2)$；$(2,-3,1)$ (2) $(15,-8)$ (3) $6\\sqrt{14}$',
     hasImage: false,
   },
   {
     id: '17de15c6538',
     chapter: '空間中的平面與直線',
-    question: '兩點 $A(-1,4,8)$、$B(3,0,7)$ 決定一直線，求其：\n(1) 參數式 (2) 對稱比例式\n',
+    question: '兩點 $A(-1,4,8)$、$B(3,0,7)$ 決定一直線，求其：(1) 參數式 (2) 對稱比例式\n',
     answer: '略',
     hasImage: false,
   },
@@ -17600,7 +17599,7 @@ export const bank: Question[] = [
     id: '17de15e1197',
     chapter: '空間中的平面與直線',
     question:
-      '空間中直線 $L:\\begin{cases}x=4+3t\\\\y=7-6t\\\\z=3+2t\\end{cases}$，$t\\in\\mathbb R$，試問：\n(1) 起點坐標與方向向量\n(2) 點 $(10,p,q)$ 在 $L$ 上，求數對 $(p,q)$\n(3) 若參數 $t$ 的範圍為 $2\\le t\\le7$，求所得線段的長度。',
+      '空間中直線 $L:\\begin{cases}x=4+3t\\\\y=7-6t\\\\z=3+2t\\end{cases},t\\in\\mathbb R$，試問：(1) 起點坐標與方向向量\n(2) 點 $(10,p,q)$ 在 $L$ 上，求數對 $(p,q)$\n(3) 若參數 $t$ 的範圍為 $2\\le t\\le7$，求所得線段的長度',
     answer: '(1) $(4,7,3)$；$(3,-6,2)$ (2) $(-5,7)$ (3) $35$',
     hasImage: false,
   },
@@ -17616,15 +17615,15 @@ export const bank: Question[] = [
     id: '17de1612952',
     chapter: '空間中的平面與直線',
     question:
-      '直線 $\\begin{cases}2x-3y+z=1\\\\x+y-2z=8\\end{cases}$ 上有一點 $(4,r,s)$，則：\n(1) 求數對 $(r,s)$ (2) 把直線改為參數式\n',
-    answer: '(1) $(2,-1)$ (2) 略',
+      '直線 $\\begin{cases}2x-3y+z=1\\\\x+y-2z=8\\end{cases}$ 上有一點 $(4,r,s)$，則：(1) 求 $r$、$s$ (2) 把直線改為參數式',
+    answer: '(1) $2$；$-1$ (2) 略',
     hasImage: false,
   },
   {
     id: '17de16567d1',
     chapter: '空間中的平面與直線',
     question:
-      '(1) $\\frac{x-2}{-1}=\\frac{y+3}5=z-4$ 的直線上其中一點為 $(x,12,z)$，求數對 $(x,z)$\n(2) 若點 $(2,5,a)$ 在直線 $\\frac{x+1}p=\\frac{y-2}3=\\frac{z+5}{-1}$ 上，求數對 $(a,p)$',
+      '(1) $\\frac{x-2}{-1}=\\frac{y+3}5=z-4$ 的直線上其中一點為 $(m,12,n)$，求數對 $(m,n)$\n(2) 若點 $(2,5,a)$ 在直線 $\\frac{x+1}p=\\frac{y-2}3=\\frac{z+5}{-1}$ 上，求數對 $(a,p)$',
     answer: '(1) $(-1,7)$ (2) $(-6,3)$',
     hasImage: false,
   },
@@ -17641,7 +17640,7 @@ export const bank: Question[] = [
     chapter: '空間中的平面與直線',
     question: '求過點 $P(3,2,-5)$ 且與平面 $E:4x+2y-3z=6$ 垂直的直線比例式。',
     answer: '$\\frac{x-3}4=\\frac{y-2}2=\\frac{z+5}{-3}$',
-    hasImage: true,
+    hasImage: false,
   },
   {
     id: '17de1690243',
@@ -17654,7 +17653,7 @@ export const bank: Question[] = [
     id: '17de16a28d2',
     chapter: '空間中的平面與直線',
     question:
-      '直線 $L:\\frac{x+2}3=\\frac{y-1}{-2}=\\frac{z+5}4$，求：\n(1) $L$ 與 $yz$ 平面之交點坐標 (2) $L$ 與 $x+2y-z=10$ 之交點坐標',
+      '直線 $L:\\frac{x+2}3=\\frac{y-1}{-2}=\\frac{z+5}4$，求：\n(1) $L$ 與 $yz$ 平面之交點坐標\n(2) $L$ 與 $x+2y-z=10$ 之交點坐標',
     answer: '(1) $(0,-\\frac13,-\\frac73)$ (2) $(-5,3,-9)$',
     hasImage: false,
   },
@@ -17662,15 +17661,15 @@ export const bank: Question[] = [
     id: '17de16ace58',
     chapter: '空間中的平面與直線',
     question:
-      '直線 $L:\\frac{x-2}3=\\frac{y+1}{-1}=\\frac{z-1}2$ 與下列哪一個平面平行 (即不相交)？\n(1) $E_1:2x-y+z=1$ (2) $E_2:x+y-z=2$\n(3) $E_3:3x-y+2z=1$ (4) $E_4:4x+6y-3z=-1$',
-    answer: '(2)',
+      '直線 $L:\\frac{x-2}3=\\frac{y+1}{-1}=\\frac{z-1}2$ 與下列哪一個平面平行 (即不相交)？\n(1) $2x-y+z=1$ (2) $x+y-z=-2$\n(3) $3x-y+2z=1$ (4) $4x+6y-3z=1$',
+    answer: '(4)',
     hasImage: false,
   },
   {
     id: '17de16b7148',
     chapter: '空間中的平面與直線',
     question:
-      '直線 $L:\\frac{x-1}2=\\frac{y+4}{-3}=\\frac{z+1}1$，求：\n(1) $L$ 與 $xz$ 平面之交點坐標 (2) $L$ 與 $2x+y-3z=5$ 之交點坐標',
+      '直線 $L:\\frac{x-1}2=\\frac{y+4}{-3}=\\frac{z+1}1$，求：\n(1) $L$ 與 $xz$ 平面之交點坐標\n(2) $L$ 與 $2x+y-3z=5$ 之交點坐標',
     answer: '(1) $(-\\frac53,0,-\\frac73)$ (2) $(-3,2,-3)$',
     hasImage: false,
   },
@@ -17694,15 +17693,16 @@ export const bank: Question[] = [
     id: '17de16eb8ab',
     chapter: '空間中的平面與直線',
     question:
-      '空間中一點 $A(-1,3,2)$ 與一平面 $E:x+2y-z=-3$，試求：\n(1) 投影點坐標 (2) 對稱點坐標\n(3) 由 $A$ 射出一束光線到 $E$ 上的點 $P(1,-1,2)$ 後反射，求反射光線所在直線的比例式',
-    answer: '(1) $(-2,1,3)$ (2) $(-3,-1,4)$ (3) $\\frac{x-1}2=\\frac{z-2}{-1}, y=-1$',
+      '空間中一點 $A(-1,3,2)$ 與一平面 $E:x+2y-z=-3$，試求：\n(1) 投影點坐標 (2) 對稱點坐標\n(3) 由 $A$ 射出一束光線到 $E$ 上的點 $P(1,-1,2)$ 後反射，求反射光線所在直線的參數式',
+    answer:
+      '(1) $(-2,1,3)$ (2) $(-3,-1,4)$ (3) $\\begin{cases}x=1+2t\\\\y=-1\\\\z=2-t\\end{cases}$',
     hasImage: false,
   },
   {
     id: '17de17131ad',
     chapter: '空間中的平面與直線',
     question:
-      '直線 $L:\\frac{x-1}2=\\frac{y-3}{-1}=\\frac z2$ 外一點 $A(1,-2,0)$，求：\n(1) $A$ 到直線 $L$ 的距離\n(2) $A$ 對 $L$ 的垂足點 (投影點) 坐標\n(3) 含 $A$ 與 $L$ 的平面方程式',
+      '直線 $L:\\frac{x-1}2=\\frac{y-3}{-1}=\\frac z2$ 外一點 $A(1,-2,0)$，求：(1) $A$ 到直線 $L$ 的距離\n(2) $A$ 對 $L$ 的垂足點 (投影點) 坐標\n(3) 含 $A$ 與 $L$ 的平面方程式',
     answer: '(1) $2\\sqrt5$ (2) $(1,2,2)$ (3) $5x+2y-4z-1=0$',
     hasImage: false,
   },
@@ -17710,7 +17710,7 @@ export const bank: Question[] = [
     id: '17de170f9bd',
     chapter: '空間中的平面與直線',
     question:
-      '已知直線 $L:\\frac{x-2}3=\\frac{y+1}{-2}=z+2$ 外一點 $A(3,-1,2)$，求：\n(1) $A$ 到直線 $L$ 的距離\n(2) $A$ 對 $L$ 的垂足點',
+      '已知直線 $L:\\frac{x-2}3=\\frac{y+1}{-2}=z+2$ 外一點 $A(3,-1,2)$，求：(1) $A$ 到直線 $L$ 的距離\n(2) $A$ 對 $L$ 的垂足點',
     answer: '(1) $\\frac{3\\sqrt6}2$ (2) $(\\frac72,-2,-\\frac32)$',
     hasImage: false,
   },
@@ -17734,7 +17734,7 @@ export const bank: Question[] = [
     id: '17de17c608b',
     chapter: '空間中的平面與直線',
     question:
-      '空間中兩直線 $L_1:\\frac{x-3}2=\\frac{y+1}3=\\frac{z-4}4$、$L_2:\\frac{x-11}6=\\frac{y-5}3=\\frac{z-6}{-2}$，請問：\n(1) $L_1$ 與 $L_2$ 是否相交？若相交，試求交點坐標\n(2) 包含 $L_1$ 與 $L_2$ 的平面方程式',
+      '空間中兩直線 $L_1:\\frac{x-3}2=\\frac{y+1}3=\\frac{z-4}4$、$L_2:\\frac{x-11}6=\\frac{y-5}3=\\frac{z-6}{-2}$，請問：\n(1) $L_1$ 與 $L_2$ 是否相交？若相交，求交點坐標\n(2) 包含 $L_1$ 與 $L_2$ 的平面方程式',
     answer: '(1) 是；$(5,2,8)$ (2) $9x-14y+6z=65$',
     hasImage: false,
   },

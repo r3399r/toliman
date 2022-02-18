@@ -31,6 +31,10 @@ const route = {
   C1S1BasicOfSpace: loadable(() => import('./pages/lecture/book4/C1S1BasicOfSpace')),
   C1S2SpaceCoordinate: loadable(() => import('./pages/lecture/book4/C1S2SpaceCoordinate')),
   C1S3SphereAndConics: loadable(() => import('./pages/lecture/book4/C1S3SphereAndConics')),
+  C2S1InnerProductOfSpace: loadable(() => import('./pages/lecture/book4/C2S1InnerProductOfSpace')),
+  C2S2OuterProduct: loadable(() => import('./pages/lecture/book4/C2S2OuterProduct')),
+  C2S3PlaneEquation: loadable(() => import('./pages/lecture/book4/C2S3PlaneEquation')),
+  C2S4LineEquation: loadable(() => import('./pages/lecture/book4/C2S4LineEquation')),
   C1S1LimitOfSequence: loadable(() => import('./pages/lecture/book5/C1S1LimitOfSequence')),
   C1S2LimitOfSeries: loadable(() => import('./pages/lecture/book5/C1S2LimitOfSeries')),
   C1S3LimitOfFunction: loadable(() => import('./pages/lecture/book5/C1S3LimitOfFunction')),
@@ -119,6 +123,18 @@ const AppRoutes = () => {
         path="/toliman/lecture/sphereAndConics"
         component={route.C1S3SphereAndConics}
       />
+      <Route
+        exact={true}
+        path="/toliman/lecture/innerProductOfSpace"
+        component={route.C2S1InnerProductOfSpace}
+      />
+      <Route exact={true} path="/toliman/lecture/outerProduct" component={route.C2S2OuterProduct} />
+      <Route
+        exact={true}
+        path="/toliman/lecture/planeEquation"
+        component={route.C2S3PlaneEquation}
+      />
+      <Route exact={true} path="/toliman/lecture/lineEquation" component={route.C2S4LineEquation} />
       <Route
         exact={true}
         path="/toliman/lecture/limitOfSequence"
