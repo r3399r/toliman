@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack://src/pages/lecture/Lecture.module.scss"],"names":[],"mappings":"AAAA,wBACE,YAAa,CACd,uBAEC,kBAAmB","file":"56.b2099d2b.chunk.css","sourcesContent":[".content {\n  padding: 20px;\n}\n.button {\n  margin-bottom: 10px;\n}\n"]}
