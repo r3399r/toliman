@@ -21646,4 +21646,191 @@ export const bank: Question[] = [
     answer: '$15+5\\sqrt3$ 公尺',
     hasImage: false,
   },
+  {
+    id: '17eea036205',
+    chapter: '空間概念',
+    question:
+      '在空間中，下列哪些選項正確？\n(1) 一線段的中垂線恰有一條\n(2) 已知平面 $E$ 及平面 $E$ 上一點 $P$，恰有一平面通過 $P$ 點且與平面 $E$ 垂直\n(3) 已知直線 $L$ 垂直平面 $E$ 於 $P$ 點，則平面 $E$ 上過 $P$ 點的任一直線都與 $L$ 垂直\n(4) 已知直線 $L$ 及 $L$ 外一點 $P$，恰有一平面通過 $P$ 點且與直線 $L$ 垂直\n(5) 設直線 $L$ 交平面 $E$ 於一點 $P$，若平面 $E$ 上有一直線過 $P$ 點且垂直 $L$，則 $L$ 垂直 $E$',
+    answer: '(3)(4)',
+    hasImage: false,
+  },
+  {
+    id: '17eea072712',
+    chapter: '空間概念',
+    question:
+      '下列有關空間幾何的敘述，哪些是正確的？\n(1) 給空間中兩相異平面，則必存在平面與此兩平面均垂直\n(2) 給空間中兩相異直線，則必存在直線與此兩直線均垂直\n(3) 設平面 $E$ 與直線 $L$ 相交於 $A$ 點，若平面 $E$ 上有兩條通過 $A$ 點的相異直線均與 $L$ 垂直，則 $L\\perp E$\n(4) 設直線 $L_1$ 在平面 $E_1$ 上，直線 $L_2$ 在平面 $E_2$ 上，若 $E_1\\parallel E_2$，則 $L_1\\parallel L_2$\n(5) 設 $L_1$、$L_2$ 為相異直線，若 $L_1$ 與 $L$ 為歪斜線，且 $L_2$ 與 $L$ 為歪斜線，則 $L_1$ 與 $L_2$ 必為歪斜線',
+    answer: '(1)(2)(3)',
+    hasImage: false,
+  },
+  {
+    id: '17eea0904f3',
+    chapter: '空間概念',
+    question:
+      '如圖之錐體中，$\\overline{AB}=\\overline{BC}=\\overline{CA}=2$，$\\overline{AD}=\\overline{BD}=\\overline{CD}=4$，求底面 $ABC$ 與側面 $BCD$ 所夾的兩面角 $\\theta$ 之餘弦值。',
+    answer: '$\\frac{\\sqrt5}{15}$',
+    hasImage: true,
+  },
+  {
+    id: '17eea0a5adf',
+    chapter: '空間概念',
+    question:
+      '如圖，$\\triangle ABC$ 與 $\\triangle DBC$ 皆為邊長是 $2$ 的正三角形，若平面 $ABC$ 與平面 $DBC$ 所成兩面角為 $120\\du$，求 $\\cos\\angle ABD$。',
+    answer: '$-\\frac18$',
+    hasImage: true,
+  },
+  {
+    id: '17eea0b7db8',
+    chapter: '空間概念',
+    question:
+      '空間坐標系中，$P$ 點在 $xy$ 平面上的投影點為 $Q(2,-3,c)$，$P$ 點在 $yz$ 平面上的投影點為 $R(a,b,4)$，求 $\\overline{QR}$。',
+    answer: '$2\\sqrt5$',
+    hasImage: false,
+  },
+  {
+    id: '17eea0cb699',
+    chapter: '空間概念',
+    question:
+      '空間坐標系中第一卦限內一點 $P$，若 $P$ 點到 $x$ 軸、$y$ 軸、$xz$ 平面的距離分別為 $\\sqrt{34}$、$\\sqrt{61}$、$3$，求 $P$。',
+    answer: '$(6,3,5)$',
+    hasImage: false,
+  },
+  {
+    id: '17eea0da476',
+    chapter: '空間向量',
+    question: '空間中 $A(a,b,3)$，$B(2,1,1)$，$C(0,3,5)$ 三點共線，求數對 $(a,b)$。',
+    answer: '$(1,2)$',
+    hasImage: false,
+  },
+  {
+    id: '17eea0e9220',
+    chapter: '空間向量',
+    question:
+      '在空間中有 $A(2,1,3)$，$B(0,1,2)$，$C(-1,2,4)$ 三點，且 $\\vector a=4\\xvector{AB}-3\\xvector{CB}$，求 $\\vector a$。',
+    answer: '$(-11,3,2)$',
+    hasImage: false,
+  },
+  {
+    id: '17eea0f2f0d',
+    chapter: '空間向量',
+    question: '設 $\\vector a=(1,2,-4)$，$\\vector b=(1,1,1)$，試求 $|\\vector a+3\\vector b|$。',
+    answer: '$\\sqrt{42}$',
+    hasImage: false,
+  },
+  {
+    id: '17eea0fddc3',
+    chapter: '空間向量',
+    question:
+      '設 $\\vector a=(1,-2,3)$，$\\vector b=(-1,1,-1)$，求 $|\\vector a+t\\vector b|$ 的最小值。',
+    answer: '$\\sqrt2$',
+    hasImage: false,
+  },
+  {
+    id: '17eea109994',
+    chapter: '空間向量',
+    question: '設 $A(1,2,3)$，$B(4,0,-1)$，$C(2,-1,5)$ 為平行四邊形 $ABCD$ 之三個頂點，求 $D$。',
+    answer: '$(-1,1,9)$',
+    hasImage: false,
+  },
+  {
+    id: '17eea11c75b',
+    chapter: '空間向量',
+    question:
+      '設 $A(3,0,2)$，$B(18,10,-18)$ 為空間中兩點，$P$ 為直線 $AB$ 上一點，且 $\\overline{AP}:\\overline{PB}=3:2$，求 $P$。',
+    answer: '$(12,6,-10)\\lor(48,30,-58)$',
+    hasImage: false,
+  },
+  {
+    id: '17eec334c05',
+    chapter: '數列級數',
+    question:
+      '設數列 $\\langle a_n\\rangle$ 滿足 $a_2=16$ 且 $a_5=2$，\n(1) 若數列 $\\langle a_n\\rangle$ 為等差數列，求公差 $d$\n(2) 若數列 $\\langle a_n\\rangle$ 為等比數列，求公比 $r$',
+    answer: '(1) $-\\frac{14}3$ (2) $\\frac12$',
+    hasImage: false,
+  },
+  {
+    id: '17eec342094',
+    chapter: '數列級數',
+    question: '已知一等差數列 $\\langle a_n\\rangle$ 的第 $51$ 項是 $20$，求 $a_2+a_{100}$。',
+    answer: '$40$',
+    hasImage: false,
+  },
+  {
+    id: '17eec355280',
+    chapter: '數列級數',
+    question:
+      '如圖，橫、直列均有 $7$ 格方格，若將每個方格內部都填入一個數字，使得橫列方格內的數字由左而右依序成等差數列；直列由上而下依序成等比數列，求數對 $(a,b)$。',
+    answer: '$(18,8)$',
+    hasImage: true,
+  },
+  {
+    id: '17eec3651ce',
+    chapter: '數列級數',
+    question:
+      '設 $\\langle a_n\\rangle$ 為等比數列，若 $a_1+a_2+a_3=3$ 且 $a_4+a_5+a_6=-24$，求 $a_7$。',
+    answer: '$64$',
+    hasImage: false,
+  },
+  {
+    id: '17eec36f7fb',
+    chapter: '數列級數',
+    question: '已知四個正數 $6$、$x$、$y$、$16$ 中，前三項成等差數列，後三項為等比數列，求 $x+y$。',
+    answer: '$21$',
+    hasImage: false,
+  },
+  {
+    id: '17eec5ce6dd',
+    chapter: '數列級數',
+    question:
+      '將一個長度為 $1$ 的線段，剪去其長度的 $\\frac23$；再將剩下的線段，剪去其長度的 $\\frac23$；重複這樣的步驟如此繼續下去。設 $a_n$ 為剪了 $n$ 次後剩下的長度，\n(1) 寫出數列 $\\langle a_n\\rangle$ 的遞迴關係式\n(2) 求 $a_5$',
+    answer:
+      '(1) $\\begin{cases}a_1=\\frac13\\\\a_n=\\frac13a_{n-1},n\\ge2\\end{cases}$ (2) $\\frac1{243}$',
+    hasImage: false,
+  },
+  {
+    id: '17eec5f9f8c',
+    chapter: '數列級數',
+    question:
+      '設等差數列 $\\langle a_n\\rangle$ 的第 $3$ 項為 $27$，第 $7$ 項為 $-9$，求此等差數列的第 $15$ 項。',
+    answer: '$-81$',
+    hasImage: false,
+  },
+  {
+    id: '17eec60348e',
+    chapter: '數列級數',
+    question:
+      '設等比數列 $\\langle a_n\\rangle$，若 $a_2+a_4=10$，$a_3+a_5=\\frac{10}3$，求 $a_4+a_6$。',
+    answer: '$\\frac{10}9$',
+    hasImage: false,
+  },
+  {
+    id: '17eec6134c0',
+    chapter: '數列級數',
+    question:
+      '在 $103$ 與 $1003$ 之間插入 $a_1$、$a_2$、...、$a_8$ 等八個數，使它們形成 $10$ 項的等差數列，求 $a_5$。',
+    answer: '$603$',
+    hasImage: false,
+  },
+  {
+    id: '17eec62b9f9',
+    chapter: '數列級數',
+    question:
+      '設三正數成等差數列，其和為 $30$，若三數依序加上 $1$、$6$、$47$，則成為等比數列，求此三數中最小的數。',
+    answer: '$3$',
+    hasImage: false,
+  },
+  {
+    id: '17eec638fb0',
+    chapter: '數列級數',
+    question: '若一數列滿足 $a_1=3$ 且 $a_n=a_{n-1}+4$ ($n\\ge2$)，求 $a_{100}$。',
+    answer: '$399$',
+    hasImage: false,
+  },
+  {
+    id: '17eec64b278',
+    chapter: '數列級數',
+    question:
+      '用黑白兩種顏色的正方形地磚依如下規律拼成若干圖形，請問拼第 $100$ 個圖形需要幾個白色地磚？',
+    answer: '$503$',
+    hasImage: true,
+  },
 ];
