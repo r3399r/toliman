@@ -21998,4 +21998,93 @@ export const bank: Question[] = [
     answer: '$(\\frac12,-\\frac23,-\\frac{21}2)$',
     hasImage: false,
   },
+  {
+    id: '17f1072d1bb',
+    chapter: '數列級數',
+    question:
+      '設數列 $\\langle a_n\\rangle$ 的遞迴關係式為 $\\begin{cases}a_1=1\\\\a_n=3a_{n-1}+4,n\\ge2\\end{cases}$。使用數學歸納法證明：對於所有的正整數 $n$，$a_n=3^n-2$。',
+    answer: '略',
+    hasImage: false,
+  },
+  {
+    id: '17f10743528',
+    chapter: '數列級數',
+    question: '已知一等差數列的首項為 $20$，公差為 $3$，求前 $10$ 項的和。',
+    answer: '$335$',
+    hasImage: false,
+  },
+  {
+    id: '17f1074f6e0',
+    chapter: '數列級數',
+    question:
+      '已知 $\\langle a_n\\rangle$ 為等差數列，且首項為 $-15$，公差為 $5$，和為 $735$，求此等差數列的項數。',
+    answer: '$21$',
+    hasImage: false,
+  },
+  {
+    id: '17f10759723',
+    chapter: '數列級數',
+    question: '求 $1$ 到 $110$ 之間，是 $4$ 的倍數又是 $6$ 的倍數的總和。',
+    answer: '$540$',
+    hasImage: false,
+  },
+  {
+    id: '17f10763b85',
+    chapter: '數列級數',
+    question: '已知連續 $100$ 個整數和為 $6050$，求此 $100$ 個整數中最大的數。',
+    answer: '$110$',
+    hasImage: false,
+  },
+  {
+    id: '17f1077cdac',
+    chapter: '數列級數',
+    question:
+      '已知 $\\langle a_n\\rangle$ 是等差數列，且 $a_3=56$，$a_{10}=-7$，試問：\n(1) 求首項 $a_1$ 與公差 $d$\n(2) 設這等差數列的前 $n$ 項總和是 $S_n$，當 $n$ 的值為何時，$S_n$ 有最大值。',
+    answer: '(1) $74$；$-9$ (2) $9$',
+    hasImage: false,
+  },
+  {
+    id: '17f1078a0f3',
+    chapter: '數列級數',
+    question: '已知 $\\langle a_n\\rangle$ 是等比數列，且 $a_4=16$，$a_7=128$，求前 $10$ 項的和。',
+    answer: '$2046$',
+    hasImage: false,
+  },
+  {
+    id: '17f10799d45',
+    chapter: '數列級數',
+    question:
+      '已知 $\\langle a_n\\rangle$ 是等比數列，且前 $n$ 項和 $S_n$ 與第 $n$ 項 $a_n$ 滿足 $4S_n=4+a_n$，求此數列的公比。',
+    answer: '$-\\frac13$',
+    hasImage: false,
+  },
+  {
+    id: '17f107a1e81',
+    chapter: '數列級數',
+    question: '求 $7^2+8^2+\\cdots+21^2$。',
+    answer: '$3220$',
+    hasImage: false,
+  },
+  {
+    id: '17f107a7081',
+    chapter: '數列級數',
+    question: '求 $11^3+12^3+\\cdots+25^3$。',
+    answer: '$102600$',
+    hasImage: false,
+  },
+  {
+    id: '17f107dce68',
+    chapter: '數列級數',
+    question:
+      '某巨蛋球場 $E$ 區每一排的座位都比前一排多 $2$ 個座位。已知 $E$ 區的第一排有 $12$ 個座位，且座位總數不超過 $600$ 個，請問 $E$ 區座位最多的排數。',
+    answer: '$19$',
+    hasImage: false,
+  },
+  {
+    id: '17f107fd3f0',
+    chapter: '數列級數',
+    question: '已知等比級數 $1+2+2^2+\\cdots+2^{n-1}$ 的和為 $1023$，求 $n$。',
+    answer: '$10$',
+    hasImage: false,
+  },
 ];
