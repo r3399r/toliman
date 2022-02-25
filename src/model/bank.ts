@@ -22182,4 +22182,68 @@ export const bank: Question[] = [
     answer: '$4$',
     hasImage: false,
   },
+  {
+    id: '17f31996f77',
+    chapter: '空間向量',
+    question:
+      '設 $\\vector a$、$\\vector b$ 是空間中的兩向量，$|\\vector a|=3$，$|\\vector b|=4$，$|\\vector a+\\vector b|=\\sqrt{41}$，求 $|\\vector a-\\vector b|$。',
+    answer: '$3$',
+    hasImage: false,
+  },
+  {
+    id: '17f319a769d',
+    chapter: '空間向量',
+    question:
+      '若 $2x-y-2z=12$，當 $(x,y,z)=(p,q,r)$ 時，$x^2+y^2+z^2-2x-4y-6$ 有最小值 $t$，求 $p+q+r+t$。',
+    answer: '$\\frac{20}3$',
+    hasImage: false,
+  },
+  {
+    id: '17f319c4d62',
+    chapter: '空間向量',
+    question:
+      '給定空間中兩向量 $\\vector a=(6,4,4)$、$\\vector b=(2,1,3)$，若 $\\vector a=r\\vector b+\\vector c$，$r\\in\\mathbb R$ 且 $\\vector c\\perp\\vector b$，求 $\\vector c$。',
+    answer: '$(2,2,-2)$',
+    hasImage: false,
+  },
+  {
+    id: '17f319d4e55',
+    chapter: '空間向量',
+    question:
+      '已知向量 $\\xvector{AB}=(1,-3,2)$ 與 $\\xvector{AC}=(-3,-1,-1)$，求 $\\xvector{AB}\\cross\\xvector{AC}$。',
+    answer: '$(5,-5,-10)$',
+    hasImage: false,
+  },
+  {
+    id: '17f319e408b',
+    chapter: '空間向量',
+    question:
+      '已知向量 $\\vector a=(1,-2,8)$、$\\vector b=(2,1,1)$，求 $\\vector a$、$\\vector b$ 所張成的平行四邊形面積。',
+    answer: '$5\\sqrt{14}$',
+    hasImage: false,
+  },
+  {
+    id: '17f319f3aee',
+    chapter: '空間向量',
+    question:
+      '已知 $\\vector n$ 和 $\\vector a=(2,-1,0)$ 與 $\\vector b=(4,-1,-1)$ 均垂直，且 $|\\vector n|=6$，求 $\\vector n$。',
+    answer: '$\\pm(2,4,4)$',
+    hasImage: false,
+  },
+  {
+    id: '17f31a038a5',
+    chapter: '空間向量',
+    question:
+      '求向量 $\\vector a=(3,3,2)$、$\\vector b=(3,0,2)$ 及 $\\vector c=(2,4,2)$ 所張成的四面體體積。',
+    answer: '$1$',
+    hasImage: false,
+  },
+  {
+    id: '17f31a17e93',
+    chapter: '空間向量',
+    question:
+      '已知三向量 $\\vector a=(4,1,1)$、$\\vector b=(3,0,3)$ 及 $\\vector c=(2,k,2)$，若 $\\vector a$、$\\vector b$ 及 $\\vector c$ 所張成的平行六面體體積為 $9$，求 $k$。',
+    answer: '$\\pm1$',
+    hasImage: false,
+  },
 ];
