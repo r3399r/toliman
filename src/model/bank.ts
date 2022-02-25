@@ -22087,4 +22087,99 @@ export const bank: Question[] = [
     answer: '$10$',
     hasImage: false,
   },
+  {
+    id: '17f2ea3a636',
+    chapter: '空間概念',
+    question:
+      '在 $\\triangle ABC$ 中，已知 $\\overline{AB}=\\overline{AC}=13$，$\\overline{BC}=10$，$G$ 為其重心，將 $G$ 點沿垂直於平面 $ABC$ 的方向拉升至 $P$ 點使 $\\overline{GP}=3$，求 $\\overline{PC}$。',
+    answer: '$5\\sqrt2$',
+    hasImage: true,
+  },
+  {
+    id: '17f2ea5bc79',
+    chapter: '空間概念',
+    question:
+      '設四面體 $ABCD$ 中，$\\overline{AC}=\\overline{AD}=5$，$\\overline{BC}=\\overline{BD}=5$，$\\overline{AB}=4$，$\\overline{CD}=6$，且 $M$ 為 $\\overline{CD}$ 中點，令平面 $ACD$ 與平面 $BCD$ 所定的兩面角為 $\\theta$，求 $\\theta$。',
+    answer: '$\\frac{\\pi}3$',
+    hasImage: true,
+  },
+  {
+    id: '17f2ecb23ad',
+    chapter: '空間概念',
+    question:
+      '如圖，有一張正三角形紙 $ABC$，設 $D$、$E$ 為 $\\overline{BC}$ 的三等分點，今沿著摺線 $\\overline{AD}$、$\\overline{AE}$ 摺起，使得 $B$、$C$ 兩點重合，令此重合點為 $P$ 點。設平面 $APD$ 與平面 $APE$ 所夾的銳夾角為 $\\theta$，試求 $\\cos\\theta$。',
+    answer: '$\\frac13$',
+    hasImage: true,
+  },
+  {
+    id: '17f2ecd1c45',
+    chapter: '空間概念',
+    question:
+      '二平面 $E$、$F$ 的交角為 $45\\du$，$L$ 為 $E$ 與 $F$ 的公共稜，如圖，$\\overline{AB}$ 在 $E$ 上，且與 $L$ 夾角為 $30\\du$，$\\overline{AB}$ 的正射影為 $\\overline{BC}$，若 $\\overline{AB}$ 與 $\\overline{BC}$ 的銳夾角為 $\\theta$，求 $\\cos\\theta$。',
+    answer: '$\\frac{\\sqrt{14}}4$',
+    hasImage: true,
+  },
+  {
+    id: '17f2ed0b1e3',
+    chapter: '空間概念',
+    question: '一正立方體的八個頂點中，有四個頂點彼此之間的距離都是 $1$，求此正立方體的體積。',
+    answer: '$\\frac{\\sqrt2}4$',
+    hasImage: false,
+  },
+  {
+    id: '17f2ed3ac33',
+    chapter: '空間概念',
+    question:
+      '如圖，$ABCD$ 為四面體，已知 $\\overline{AD}$ 垂直於 $BCD$，$\\overline{BC}\\perp\\overline{CD}$，$\\overline{AD}=9$，$\\overline{CD}=12$，$\\overline{BC}=20$，則：\n(1) 求 $\\overline{AB}$\n(2) 若平面 $ABD$ 與 $ACD$ 的兩面角為 $\\theta$，求 $\\tan\\theta$。',
+    answer: '(1) $25$ (2) $\\frac53$',
+    hasImage: true,
+  },
+  {
+    id: '17f2ed4b9c7',
+    chapter: '空間概念',
+    question:
+      '設 $(0,\\sqrt2,2)$，$(0,\\sqrt2,-2)$，$(0,-\\sqrt2,2)$，$(0,-\\sqrt2,-2)$ 為一正立方體的四個頂點，求此正立方體的表面積。',
+    answer: '$48$',
+    hasImage: false,
+  },
+  {
+    id: '17f2ed6d09b',
+    chapter: '空間概念',
+    question:
+      '正立方體如圖，$P$ 為 $\\overline{BF}$ 中點，$Q$ 為 $\\overline{AD}$ 中點，可將 $\\xvector{PQ}$ 用 $\\xvector{AF}$、$\\xvector{AH}$、$\\xvector{AG}$ 的線性組合表示為 $\\xvector{PQ}=x\\xvector{AF}+y\\xvector{AH}+z\\xvector{AG}$，試求 $x+y+z$。',
+    answer: '$-\\frac12$',
+    hasImage: false,
+  },
+  {
+    id: '17f2ed81b7c',
+    chapter: '空間概念',
+    question:
+      '有一邊長為 $3$ 的立方體如圖，今置頂點 $A$ 於空間坐標系中之原點 $(0,0,0)$，置頂點 $B$ 於正 $z$ 軸上，試問頂點 $C$ 之 $z$ 坐標。',
+    answer: '$\\sqrt3$',
+    hasImage: true,
+  },
+  {
+    id: '17f2eed8420',
+    chapter: '空間概念',
+    question:
+      '設點 $P(1,-2,3)$ 為空間中一點，$O$ 為原點，則下列敘述何者正確？\n(1) $P$ 點在 $y$ 軸上的投影點為 $(0,-2,0)$\n(2) $P$ 點到 $z$ 軸上的距離為 $3$\n(3) $P$ 點到對於 $xz$ 平面的對稱點為 $(-1,2,-3)$\n(4) $\\overline{OP}$ 的長為 $\\sqrt{14}$\n(5) $\\overline{OP}$ 在 $xy$ 平面上的投影長為 $\\sqrt5$',
+    answer: '(1)(4)(5)',
+    hasImage: false,
+  },
+  {
+    id: '17f2eeff6d6',
+    chapter: '空間概念',
+    question:
+      '在空間坐標中，設 $xz$ 平面為一個鏡面，有一道光線經過點 $P(-1,2,2)$，射向 $xz$ 平面上的一點 $A(-3,0,a)$，經鏡面反射後的光線通過點 $Q(-4,b,11)$，求：\n(1) $P$ 點對 $xz$ 平面的對稱點\n(2) 數對 $(a,b)$`',
+    answer: '(1) $(-1,-2,2)$ (2) $(8,1)$',
+    hasImage: false,
+  },
+  {
+    id: '17f2ef14942',
+    chapter: '空間概念',
+    question:
+      '已知 $\\xvector{OA}=(2,-1,2)$，$\\xvector{OB}=(4,-3,0)$，$\\xvector{OC}=(a,b,5)$，若 $\\xvector{OC}$ 平分 $\\angle AOB$，求 $a+b$。',
+    answer: '$4$',
+    hasImage: false,
+  },
 ];
