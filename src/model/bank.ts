@@ -22148,7 +22148,7 @@ export const bank: Question[] = [
     question:
       '正立方體如圖，$P$ 為 $\\overline{BF}$ 中點，$Q$ 為 $\\overline{AD}$ 中點，可將 $\\xvector{PQ}$ 用 $\\xvector{AF}$、$\\xvector{AH}$、$\\xvector{AG}$ 的線性組合表示為 $\\xvector{PQ}=x\\xvector{AF}+y\\xvector{AH}+z\\xvector{AG}$，試求 $x+y+z$。',
     answer: '$-\\frac12$',
-    hasImage: false,
+    hasImage: true,
   },
   {
     id: '17f2ed81b7c',
