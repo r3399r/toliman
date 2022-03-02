@@ -22246,4 +22246,252 @@ export const bank: Question[] = [
     answer: '$\\pm1$',
     hasImage: false,
   },
+  {
+    id: '17f48c0100f',
+    chapter: '排列組合與機率',
+    question:
+      '用 $5$ 種不同顏色塗下列各圖中的空白區域，每區域只塗一色，顏色可重複使用，但相鄰的區域不同顏色，各有多少種塗法？',
+    answer: '$17280$',
+    hasImage: true,
+  },
+  {
+    id: '17f48c04702',
+    chapter: '排列組合與機率',
+    question:
+      '用 $5$ 種不同顏色塗下列各圖中的空白區域，每區域只塗一色，顏色可重複使用，但相鄰的區域不同顏色，各有多少種塗法？',
+    answer: '$420$',
+    hasImage: true,
+  },
+  {
+    id: '17f48c170f9',
+    chapter: '排列組合與機率',
+    question:
+      '從 $1$ 到 $500$ 的正整數中，\n(1) 是 $3$ 的倍數或 $5$ 的倍數者有多少個？\n(2) 不是 $3$ 的倍數，也不是 $5$ 的倍數者有多少個？\n(3) 是 $3$ 的倍數但不是 $5$ 的倍數者有多少個？',
+    answer: '(1) $233$ (2) $267$ (3) $333$',
+    hasImage: false,
+  },
+  {
+    id: '17f48c260ce',
+    chapter: '排列組合與機率',
+    question:
+      '老師規定全班 $40$ 位同學，在校運期間大隊接力與趣味競賽兩個項目至少擇一參加。已知參加大隊接力的有 $20$ 人，兩個項目都參加的有 $10$ 人，求參加趣味競賽的有多少人？',
+    answer: '$30$',
+    hasImage: false,
+  },
+  {
+    id: '17f48c343e0',
+    chapter: '排列組合與機率',
+    question:
+      '在 $1$ 到 $100$ 的正整數中，\n(1) 是 $2$、$3$ 或 $7$ 的倍數者共有多少個？\n(2) 是 $2$ 的倍數或 $3$ 的倍數，但不是 $7$ 的倍數者共有多少個？',
+    answer: '(1) $72$ (2) $58$',
+    hasImage: false,
+  },
+  {
+    id: '17f48c412b7',
+    chapter: '排列組合與機率',
+    question:
+      '有一個十字路口，規定不可迴轉，東西向可以左右轉，南北向不可以左轉，則在此路口共有多少種車流方向？',
+    answer: '$10$',
+    hasImage: false,
+  },
+  {
+    id: '17f48c53808',
+    chapter: '排列組合與機率',
+    question:
+      '老師出兩個習題給班上 $45$ 人解，結果解出第一題的有 $28$ 人，解出第二題的有 $18$ 人，兩題都不會解的有 $5$ 人，求：\n(1) 兩題都解出來的人數\n(2) 只解出第二題的人數',
+    answer: '(1) $6$ (2) $12$',
+    hasImage: false,
+  },
+  {
+    id: '17f48c5fec1',
+    chapter: '排列組合與機率',
+    question:
+      '在 $1$ 到 $400$ 的正整數中，\n(1) 是 $2$、$3$ 或 $5$ 的倍數者共有多少個？\n(2) 與 $30$ 互質者共有幾個？',
+    answer: '(1) $294$ (2) $106$',
+    hasImage: false,
+  },
+  {
+    id: '17f48c6b231',
+    chapter: '排列組合與機率',
+    question:
+      '學校舉辦獨唱比賽共有 $5$ 位同學報名參加，出場順序由抽籤決定。請問共有多少種可能的抽籤結果？',
+    answer: '$120$',
+    hasImage: false,
+  },
+  {
+    id: '17f48c7503d',
+    chapter: '排列組合與機率',
+    question: '推銷員想從 $7$ 個城市中，選出 $4$ 個城市依序推銷產品，安排方案有多少種？',
+    answer: '$840$',
+    hasImage: false,
+  },
+  {
+    id: '17f48c8370e',
+    chapter: '排列組合與機率',
+    question:
+      '從 $6$ 個同學中選出 $3$ 名參加辯論比賽，並排定一辯、二辯與三辯的名單。若其中甲同學不適合擔任三辯，則出賽名單的安排共有多少種？',
+    answer: '$100$',
+    hasImage: false,
+  },
+  {
+    id: '17f48c93930',
+    chapter: '排列組合與機率',
+    question:
+      '甲、乙、丙、丁、戊、己共六人排成一列，求下列排列方法數：\n(1) 甲乙丙三人完全相鄰\n(2) 甲乙丙三人完全分開\n(3) 甲乙相鄰但丙丁分開',
+    answer: '(1) $144$ (2) $144$ (3) $144$',
+    hasImage: false,
+  },
+  {
+    id: '17f48d3bac2',
+    chapter: '空間概念',
+    question:
+      '下列哪些選項的敘述是正確的？\n(1) 在平面上，兩相異直線不相交，則它們必平行\n(2) 在空間中，兩相異直線不相交，則它們必平行\n(3) 在平面上，任意兩相異直線一定有公垂線 (仍在該平面上)\n(4) 在空間中，任意兩相異直線一定有公垂線\n(5) 在空間中，相交的兩相異平面一定有公垂面',
+    answer: '(1)(4)(5)',
+    hasImage: false,
+  },
+  {
+    id: '17f48d61fb0',
+    chapter: '空間概念',
+    question:
+      '設 $A$、$B$、$C$ 為空間中相異的三點，且不在同一直線上。在空間中另取一點 $D$，使得 $A$、$B$、$C$、$D$ 成為一平行四邊形的四個頂點，則這樣的 $D$ 點一共有多少個？',
+    answer: '$3$',
+    hasImage: false,
+  },
+  {
+    id: '17f48d833f8',
+    chapter: '空間概念',
+    question:
+      '若 $\\overline{OA}$、$\\overline{OB}$、$\\overline{OC}$ 兩兩垂直，且 $\\overline{OA}=1$，$\\overline{OB}=1$，$\\overline{OC}=2$，求：\n(1) $\\triangle ABC$ 面積\n(2) $O$ 到平面 $ABC$ 的距離',
+    answer: '(1) $\\frac32$ (2) $\\frac23$',
+    hasImage: false,
+  },
+  {
+    id: '17f48d9b1e0',
+    chapter: '空間概念',
+    question:
+      '平面 $E$ 上有一直角三角形 $\\triangle BCD$，$\\angle C=90\\du$，$\\overline{BC}=4$，$\\overline{CD}=3$，若線段 $\\overline{AB}$ 與 $E$ 垂直，且 $\\overline{AB}=2$，求 $\\overline{AD}$。',
+    answer: '$\\sqrt{29}$',
+    hasImage: false,
+  },
+  {
+    id: '17f48da9557',
+    chapter: '空間概念',
+    question:
+      '空間中兩平面 $E_1$ 與 $E_2$ 相交於一線，銳交角為 $60\\du$，在 $E_1$ 上有一面積為 $26$ 的圖形，求此圖形在 $E_2$ 上的投影面積。',
+    answer: '$13$',
+    hasImage: false,
+  },
+  {
+    id: '17f48db4f3a',
+    chapter: '空間概念',
+    question: '正立方體的兩條對角線 (通過內部)，其銳夾角為 $\\theta$，求 $\\tan\\theta$。',
+    answer: '$2\\sqrt2$',
+    hasImage: false,
+  },
+  {
+    id: '17f48dcca48',
+    chapter: '空間概念',
+    question:
+      '$\\triangle ABC$ 是一個邊長為 $6$ 的正三角形，$D$、$E$、$F$ 是三邊中點。今沿 $\\overline{DE}$、$\\overline{EF}$、$\\overline{FD}$ 上摺，使 $A$、$B$、$C$ 三點重疊在 $P$ 點，成為一個四面體 $P-DEF$，求此四面體的高。',
+    answer: '$\\sqrt6$',
+    hasImage: false,
+  },
+  {
+    id: '17f48de6b4e',
+    chapter: '空間概念',
+    question:
+      '空間坐標中有長方體如圖，已知 $A(0,-2,0)$，$\\overline{AB}=5$，$\\overline{AD}=4$，$\\overline{AE}=3$，且各邊均與坐標軸平行，試求 $C$、$E$、$H$。',
+    answer: '$(4,-7,0)$；$(0,-2,-3)$；$(4,-2,-3)$',
+    hasImage: true,
+  },
+  {
+    id: '17f48df8cca',
+    chapter: '空間概念',
+    question: '已知平行四邊形的三頂點坐標為 $(1,1,-3)$、$(2,-3,5)$、$(3,-7,6)$，求另一頂點坐標。',
+    answer: '$(2,-3,-2)$ 或 $(4,-11,14)$ 或 $(0,5,-4)$',
+    hasImage: false,
+  },
+  {
+    id: '17f48e10aa3',
+    chapter: '空間概念',
+    question:
+      '$P(2,0,1)$、$Q(3,1,-1)$、$R(1,-1,2)$，求：\n(1) $\\xvector{PQ}$ (2) $|\\xvector{PQ}|$\n(3) 若 $\\xvector{PQ}=\\xvector{RS}$，求 $S$\n(4) $2\\xvector{PQ}-3\\xvector{RQ}$',
+    answer: '(1) $(1,1,-2)$ (2) $\\sqrt6$ (3) $(2,0,0)$ (4) $(-4,-4,5)$',
+    hasImage: false,
+  },
+  {
+    id: '17f48e29372',
+    chapter: '空間向量',
+    question: '$\\begin{vmatrix}x+1&x&2x\\\\1&3x&x\\\\4x&1&0\\end{vmatrix}\\le0$，求 $x$ 的範圍。',
+    answer: '$-\\frac14\\le x\\le0\\lor x\\ge\\frac15$',
+    hasImage: false,
+  },
+  {
+    id: '17f48e43a13',
+    chapter: '空間向量',
+    question:
+      '$\\begin{vmatrix}a_1&a_2&a_3\\\\b_1&b_2&b_3\\\\c_1&c_2&c_3\\end{vmatrix}=9$，求 $\\begin{vmatrix}b_3&b_2&b_1\\\\a_3&a_2&a_1\\\\c_3&c_2&c_1\\end{vmatrix}+\\begin{vmatrix}3b_1&3b_2&3b_3\\\\2c_1&2c_2&2c_3\\\\a_1&a_2&a_3\\end{vmatrix}$。',
+    answer: '$63$',
+    hasImage: false,
+  },
+  {
+    id: '17f48e52276',
+    chapter: '空間向量',
+    question: '求 $\\begin{vmatrix}554&627&327\\\\586&643&343\\\\711&704&404\\end{vmatrix}$。',
+    answer: '$14400$',
+    hasImage: false,
+  },
+  {
+    id: '17f48e7bb6c',
+    chapter: '空間向量',
+    question:
+      '若 $\\begin{vmatrix}a&b&c\\\\x&y&z\\\\p&q&r\\end{vmatrix}=5$，求 $\\begin{vmatrix}b+c&c+a&a+b\\\\y+z&z+x&x+y\\\\q+r&r+p&p+q\\end{vmatrix}$。',
+    answer: '$10$',
+    hasImage: false,
+  },
+  {
+    id: '17f48e88e86',
+    chapter: '空間向量',
+    question:
+      '利用 $\\begin{vmatrix}1&a&a^2\\\\1&b&b^2\\\\1&c&c^2\\end{vmatrix}=(a-b)(b-c)(c-a)$，求 $\\begin{vmatrix}1&99&99^2\\\\1&199&199^2\\\\1&399&399^2\\end{vmatrix}$。',
+    answer: '$6000000$',
+    hasImage: false,
+  },
+  {
+    id: '17f48ea9117',
+    chapter: '空間向量',
+    question: '求空間中三向量 $(-2,-1,-5)$、$(1,0,-3)$、$(-1,2,-3)$ 所張成的平行六面體體積。',
+    answer: '$28$',
+    hasImage: false,
+  },
+  {
+    id: '17f48eba267',
+    chapter: '空間向量',
+    question:
+      '空間中 $A(1,-2,1)$、$B(2,-2,5)$、$C(2,0,1)$、$D(2,-1,0)$，求：\n(1) $\\xvector{AB}$、$\\xvector{AC}$、$\\xvector{AD}$ 所張成的平行六面體體積\n(2) $\\xvector{AB}$、$\\xvector{AC}$、$\\xvector{AD}$ 所張成的四面體體積',
+    answer: '(1) $6$ (2) $1$',
+    hasImage: false,
+  },
+  {
+    id: '17f48ecbbac',
+    chapter: '空間中的平面與直線',
+    question: '試求空間中與平面 $5x-2y+3z=1$ 平行，並通過點 $(7,1,-8)$ 的平面方程式。',
+    answer: '$5x-2y+3z=9$',
+    hasImage: false,
+  },
+  {
+    id: '17f48ed71f2',
+    chapter: '空間中的平面與直線',
+    question:
+      '已知空間中兩點 $A(5,8,-2)$、$B(1,2,5)$，試求線段 $\\overline{AB}$ 的垂直平分面方程式。',
+    answer: '$8x+12y-14z=63$',
+    hasImage: false,
+  },
+  {
+    id: '17f48ee3b6a',
+    chapter: '空間中的平面與直線',
+    question: '空間中，求由三點 $A(1,2,3)$、$B(-1,2,1)$、$C(0,1,-2)$ 所決定的平面方程式。',
+    answer: '$x+4y-z=6$',
+    hasImage: false,
+  },
 ];
