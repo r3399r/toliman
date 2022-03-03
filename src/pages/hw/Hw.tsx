@@ -7,17 +7,6 @@ import style from './Hw.module.scss';
 
 const Hw = () => {
   const ids: string[] = [
-    '17f48d3bac2',
-    '17f48d61fb0',
-    '17f48d833f8',
-    '17f48d9b1e0',
-    '17f48da9557',
-    '17f48db4f3a',
-    '17f48dcca48',
-    '17f48de6b4e',
-    '17f48df8cca',
-    '17f48e10aa3',
-
     '17f48e29372',
     '17f48e43a13',
     '17f48e52276',
