@@ -22502,4 +22502,20 @@ export const bank: Question[] = [
     answer: '$2513$',
     hasImage: false,
   },
+  {
+    id: '17f53ed89c1',
+    chapter: '空間向量',
+    question:
+      '如圖有一個平行六面體，設 $O$ 為原點且 $A(-2,1,-1)$，$B(2,-1,0)$，$C(-3,6,6)$，已知 $\\overline{OA}:\\overline{OP}=1:1$，$\\overline{OB}:\\overline{BQ}=1:2$，$\\overline{OC}:\\overline{CR}=3:1$，求 $S$。',
+    answer: '$(-2,7,6)$',
+    hasImage: true,
+  },
+  {
+    id: '17f53ef69af',
+    chapter: '空間向量',
+    question:
+      '如圖，將一張正方形的紙 $ABCD$，沿著對角線 $\\overline{BD}$ 摺起，使得 $\\angle ABC=30\\du$，設二平面 $ABD$ 與 $BCD$ 的銳夾角 $\\theta$，求 $\\cos\\theta$。',
+    answer: '$\\sqrt3-1$',
+    hasImage: true,
+  },
 ];
