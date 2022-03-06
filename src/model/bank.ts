@@ -22518,4 +22518,96 @@ export const bank: Question[] = [
     answer: '$\\sqrt3-1$',
     hasImage: true,
   },
+  {
+    id: '17f34737862',
+    chapter: '排列組合與機率',
+    question:
+      '選出正確的選項。\n(1) $5\\ge5$\n(2) $\\sqrt4=-2$ 或 $\\sqrt4=2$\n(3) $\\sqrt4=-2$ 且 $\\sqrt4=2$\n(4) $x=1$ 的否定敘述為 $x\\ne1$ \n(5) $0<x<2$ 的否定敘述為 $x\\le0$ 或 $x\\ge2$',
+    answer: '(1)(2)(4)(5)',
+    hasImage: false,
+  },
+  {
+    id: '17f3475953a',
+    chapter: '排列組合與機率',
+    question:
+      "已知宇集為實數 $\\mathbb R$，$A=\\{x|0\\le x\\le2\\}$，$B=\\{x|1\\le x\\le3\\}$，求：\n(1) $A\\cap B$ (2) $A\\cup B$ (3) $A'$",
+    answer: '(1) $\\{x|1\\le x\\le-2\\}$ (2) $\\{x|0\\le x\\le3\\}$ (3) $\\{x|x<0\\lor x>2\\}$',
+    hasImage: false,
+  },
+  {
+    id: '17f3476ef9b',
+    chapter: '排列組合與機率',
+    question:
+      "已知宇集 $U=\\{1,2,3,4,5,6\\}$，$A=\\{1,2,3\\}$，$B=\\{2,4,6\\}$，求：\n(1) $A\\cap B$ (2) $A\\cup B$ (3) $A'$",
+    answer: '(1) $\\{2\\}$ (2) $\\{1,2,3,4,6\\}$ (3) $\\{4,5,6\\}$',
+    hasImage: false,
+  },
+  {
+    id: '17f34785f46',
+    chapter: '排列組合與機率',
+    question:
+      "設 $U=\\{1,2,3,4\\}$ 為宇集，集合 $A=\\{1,2\\}$ 與 $B=\\{2,3\\}$ 為 $U$ 的兩個子集，求：\n(1) $(A\\cap B)'$\n(2) $A'\\cup B'$\n(3) $(A\\cap B)'$ 與 $A'\\cup B'$ 是否相等？",
+    answer: '(1) $\\{1,3,4\\}$ (2) $\\{1,3,4\\}$ (3) 是',
+    hasImage: false,
+  },
+  {
+    id: '17f34792bd9',
+    chapter: '排列組合與機率',
+    question:
+      "設 $U=\\{1,2,3,4\\}$ 為宇集，集合 $A=\\{1,2\\}$ 與 $B=\\{2,3\\}$ 為 $U$ 的兩個子集，求：\n(1) $(A\\cup B)'$\n(2) $A'\\cap B'$\n(3) $(A\\cup B)'$ 與 $A'\\cap B'$ 是否相等？",
+    answer: '(1) $\\{4\\}$ (2) $\\{4\\}$ (3) 是',
+    hasImage: false,
+  },
+  {
+    id: '17f347a9edd',
+    chapter: '排列組合與機率',
+    question:
+      "已知宇集 $U=\\{-2,-1,0,1,2\\}$，集合 $A=\\{-2,-1,0\\}$，$B=\\{0,1,2\\}$，求 $A'\\cap B$。",
+    answer: '$\\{1,2\\}$',
+    hasImage: false,
+  },
+  {
+    id: '17f347b3b8c',
+    chapter: '排列組合與機率',
+    question: '同時丟三枚大小不同的硬幣，求奇數個正面的情形共有幾種？',
+    answer: '$4$',
+    hasImage: false,
+  },
+  {
+    id: '17f347bca85',
+    chapter: '排列組合與機率',
+    question: '從 $5$ 種報紙、$4$ 種週刊及 $3$ 種期刊中各訂一種共有多少種訂閱方案？',
+    answer: '$60$',
+    hasImage: false,
+  },
+  {
+    id: '17f347da392',
+    chapter: '排列組合與機率',
+    question: '請寫出「$x=0$ 且 $y\\ge1$」的否定敘述。',
+    answer: '$x\\ne0$ 或 $y<1$',
+    hasImage: false,
+  },
+  {
+    id: '17f347edef3',
+    chapter: '排列組合與機率',
+    question:
+      '有 $A$、$B$ 二隊比賽籃球，每場不得和局，約定 $A$ 須勝三場才贏得比賽，而 $B$ 只勝二場就可贏得比賽，共有多少種可能的情形？',
+    answer: '$20$',
+    hasImage: false,
+  },
+  {
+    id: '17f347f8bda',
+    chapter: '排列組合與機率',
+    question: '連續投擲一粒骰子兩次，出現點數和為 $3$ 的倍數之情形共有幾種？',
+    answer: '$12$',
+    hasImage: false,
+  },
+  {
+    id: '17f34822dcc',
+    chapter: '排列組合與機率',
+    question:
+      '小玲有不同的短衣 $4$ 件、長衣 $3$ 件、褲子 $2$ 件、裙子 $2$ 件及外套 $1$ 件，外出時，從短衣、長衣中選一件穿，從褲子、裙子中選一件穿，至於外套可穿也可不穿，共有多少種搭配的方式？',
+    answer: '$56$',
+    hasImage: false,
+  },
 ];
