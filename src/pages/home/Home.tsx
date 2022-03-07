@@ -1,4 +1,4 @@
-import { Button } from 'antd';
+import { Button } from '@mui/material';
 import { useHistory } from 'react-router-dom';
 import style from './Home.module.scss';
 
@@ -12,22 +12,34 @@ const Home = () => {
   return (
     <div className={style.content}>
       <div className={style.button}>
-        <Button onClick={onClick('edit')}>增修題目</Button>
+        <Button variant="contained" onClick={onClick('edit')}>
+          增修題目
+        </Button>
       </div>
       <div className={style.button}>
-        <Button onClick={onClick('bank')}>題庫</Button>
+        <Button variant="contained" onClick={onClick('bank')}>
+          題庫
+        </Button>
       </div>
       <div className={style.button}>
-        <Button onClick={onClick('lecture')}>講義</Button>
+        <Button variant="contained" onClick={onClick('lecture')}>
+          講義
+        </Button>
       </div>
       <div className={style.button}>
-        <Button onClick={onClick('projection')}>題目投影</Button>
+        <Button variant="contained" onClick={onClick('projection')}>
+          題目投影
+        </Button>
       </div>
       <div className={style.button}>
-        <Button onClick={onClick('hw')}>作業</Button>
+        <Button variant="contained" onClick={onClick('hw')}>
+          作業
+        </Button>
       </div>
       <div className={style.button}>
-        <Button onClick={onClick('test')}>考卷</Button>
+        <Button variant="contained" onClick={onClick('test')}>
+          考卷
+        </Button>
       </div>
       <div>Version 3.8</div>
     </div>

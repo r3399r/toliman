@@ -1,11 +1,20 @@
-import { Button, Checkbox, Input, message, Radio, RadioChangeEvent } from 'antd';
-import { useEffect, useState } from 'react';
+import {
+  Button,
+  Checkbox,
+  FormControlLabel,
+  Radio,
+  RadioGroup,
+  Snackbar,
+  TextField,
+} from '@mui/material';
+import { ChangeEvent, useEffect, useState } from 'react';
 import { CopyToClipboard } from 'react-copy-to-clipboard';
 import Textarea2MathJax from 'src/component/Textarea2MathJax';
 import { chapterList, Question } from 'src/model/bank';
 import style from './Edit.module.scss';
 
 const Home = () => {
+  const [message, setMessage] = useState<string>();
   const [countdown, setCountdown] = useState<NodeJS.Timeout>();
   const [isRendering, setIsRendering] = useState<boolean>(false);
 
@@ -31,7 +40,7 @@ const Home = () => {
     setCountdown(newCountdown);
   }, [question, answer]);
 
-  const handleEdit = (ev: { target: HTMLInputElement }) => {
+  const handleEdit = (ev: ChangeEvent<HTMLInputElement>) => {
     try {
       const inputJSON: string = ev.target.value;
       const res: Question = JSON.parse(inputJSON);
@@ -42,25 +51,25 @@ const Home = () => {
         res.answer === undefined ||
         res.hasImage === undefined
       )
-        message.error('格式不符');
+        setMessage('格式不符');
       setChapter(res.chapter);
       setQuestion(res.question);
       setAnswer(res.answer);
       setHasImage(res.hasImage);
     } catch (e) {
-      message.error('格式不符');
+      setMessage('格式不符');
     }
   };
 
-  const handleCheckbox = (val: RadioChangeEvent) => {
+  const handleCheckbox = (val: ChangeEvent<HTMLInputElement>) => {
     setChapter(val.target.value);
   };
 
-  const handleQuestionEvent = (ev: { target: HTMLTextAreaElement }) => {
+  const handleQuestionEvent = (ev: ChangeEvent<HTMLInputElement>) => {
     setQuestion(ev.target.value);
   };
 
-  const handleAnswerEvent = (ev: { target: HTMLTextAreaElement }) => {
+  const handleAnswerEvent = (ev: ChangeEvent<HTMLInputElement>) => {
     setAnswer(ev.target.value);
   };
 
@@ -69,51 +78,74 @@ const Home = () => {
   };
 
   const onCopy = () => {
-    message.success('已複製');
+    setMessage('已複製');
+  };
+
+  const onClose = () => {
+    setMessage(undefined);
   };
 
   const result: Question = { id: randomId, chapter, question, answer, hasImage };
 
   return (
-    <div className={style.content}>
-      <div>修改</div>
-      <Input placeholder="貼上JSON" onChange={handleEdit} />
-      <div>章節</div>
-      <Radio.Group options={chapterList} onChange={handleCheckbox} value={chapter} />
-      <div>題目</div>
-      <Input.TextArea
-        rows={4}
-        placeholder="輸入題目"
-        onChange={handleQuestionEvent}
-        value={question}
+    <>
+      <div className={style.content}>
+        <div>修改</div>
+        <TextField fullWidth={true} placeholder="貼上JSON" onChange={handleEdit} />
+        <div>章節</div>
+        <RadioGroup row={true} value={chapter} onChange={handleCheckbox}>
+          {chapterList?.map((v: string, i: number) => (
+            <FormControlLabel key={i} value={v} control={<Radio size="small" />} label={v} />
+          ))}
+        </RadioGroup>
+        <div>題目</div>
+        <TextField
+          placeholder="輸入題目"
+          multiline={true}
+          fullWidth={true}
+          onChange={handleQuestionEvent}
+          value={question}
+        />
+        <div>答案</div>
+        <TextField
+          multiline={true}
+          fullWidth={true}
+          placeholder="輸入答案"
+          onChange={handleAnswerEvent}
+          value={answer}
+        />
+        <FormControlLabel
+          control={<Checkbox id="hasImage" checked={hasImage} onClick={onCheckboxClick} />}
+          label="是否有圖"
+        />
+        <hr />
+        <div className={style.preview}>
+          {isRendering === true && <div>產生中...</div>}
+          {isRendering === false && question && <Textarea2MathJax text={question} />}
+          {isRendering === false && answer && (
+            <Textarea2MathJax className={style.ans} text={'Ans: ' + answer} />
+          )}
+        </div>
+        <hr />
+        <div>{JSON.stringify(result)}</div>
+        <div>
+          <CopyToClipboard
+            text={JSON.stringify(result)}
+            onCopy={onCopy}
+            options={{ format: 'text/plain' }}
+          >
+            <Button variant="contained">複製文字</Button>
+          </CopyToClipboard>
+        </div>
+      </div>
+      <Snackbar
+        open={message !== undefined}
+        autoHideDuration={3000}
+        onClose={onClose}
+        message={message}
+        anchorOrigin={{ vertical: 'top', horizontal: 'center' }}
       />
-      <div>答案</div>
-      <Input.TextArea rows={2} placeholder="輸入答案" onChange={handleAnswerEvent} value={answer} />
-      <div>
-        <Checkbox id="hasImage" checked={hasImage} onClick={onCheckboxClick}>
-          是否有圖
-        </Checkbox>
-      </div>
-      <hr />
-      <div className={style.preview}>
-        {isRendering === true && <div>產生中...</div>}
-        {isRendering === false && question && <Textarea2MathJax text={question} />}
-        {isRendering === false && answer && (
-          <Textarea2MathJax className={style.ans} text={'Ans: ' + answer} />
-        )}
-      </div>
-      <hr />
-      <div>{JSON.stringify(result)}</div>
-      <div>
-        <CopyToClipboard
-          text={JSON.stringify(result)}
-          onCopy={onCopy}
-          options={{ format: 'text/plain' }}
-        >
-          <Button>複製文字</Button>
-        </CopyToClipboard>
-      </div>
-    </div>
+    </>
   );
 };
 

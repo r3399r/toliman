@@ -1,4 +1,4 @@
-import { Radio, RadioChangeEvent } from 'antd';
+import { FormControlLabel, Radio, RadioGroup } from '@mui/material';
 import lodash from 'lodash';
 import { ChangeEvent, useState } from 'react';
 import GridWith2Col from 'src/component/GridWith2Col';
@@ -9,7 +9,7 @@ import style from './Bank.module.scss';
 const Bank = () => {
   const [filteredBank, setFilteredBank] = useState<Question[]>();
 
-  const handleCheckbox = (val: RadioChangeEvent) => {
+  const handleCheckbox = (val: ChangeEvent<HTMLInputElement>) => {
     setFilteredBank(lodash.filter(bank, { chapter: val.target.value }));
   };
 
@@ -19,7 +19,11 @@ const Bank = () => {
 
   return (
     <div className={style.content}>
-      <Radio.Group options={chapterList} onChange={handleCheckbox} />
+      <RadioGroup row={true} onChange={handleCheckbox}>
+        {chapterList?.map((v: string, i: number) => (
+          <FormControlLabel key={i} value={v} control={<Radio size="small" />} label={v} />
+        ))}
+      </RadioGroup>
       {filteredBank && (
         <GridWith2Col>
           {filteredBank.map((q: Question) => (

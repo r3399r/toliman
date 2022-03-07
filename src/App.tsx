@@ -1,10 +1,17 @@
+import { createTheme, ThemeProvider } from '@mui/material';
 import AppRoutes from './Routes';
 
 const App = () => {
+  const theme = createTheme({
+    typography: {
+      fontFamily: ['Times New Roman', 'cwTeXYen'].join(','),
+    },
+  });
+
   return (
-    <div className="App">
+    <ThemeProvider theme={theme}>
       <AppRoutes />
-    </div>
+    </ThemeProvider>
   );
 };
 

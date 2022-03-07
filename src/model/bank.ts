@@ -22592,7 +22592,7 @@ export const bank: Question[] = [
     chapter: '排列組合與機率',
     question:
       '有 $A$、$B$ 二隊比賽籃球，每場不得和局，約定 $A$ 須勝三場才贏得比賽，而 $B$ 只勝二場就可贏得比賽，共有多少種可能的情形？',
-    answer: '$20$',
+    answer: '$10$',
     hasImage: false,
   },
   {
@@ -22608,6 +22608,30 @@ export const bank: Question[] = [
     question:
       '小玲有不同的短衣 $4$ 件、長衣 $3$ 件、褲子 $2$ 件、裙子 $2$ 件及外套 $1$ 件，外出時，從短衣、長衣中選一件穿，從褲子、裙子中選一件穿，至於外套可穿也可不穿，共有多少種搭配的方式？',
     answer: '$56$',
+    hasImage: false,
+  },
+  {
+    id: '17f620f9634',
+    chapter: '空間概念',
+    question:
+      '如圖，四面體 $ABCD$ 為三明治斜切後的圖形，已知 $\\overline{AD}$ 垂直於平面 $BCD$，$\\overline{BC}\\perp\\overline{BD}$，$\\overline{BC}=5$，$\\overline{AB}=12$，$\\overline{AD}=10$，問：\n(1) 求 $\\overline{AC}$\n(2) 若平面 $ADB$ 與平面 $ADC$ 夾角為 $\\theta$，求 $\\cos\\theta$',
+    answer: '(1) $13$ (2) $\\sqrt{\\frac{44}{69}}$',
+    hasImage: true,
+  },
+  {
+    id: '17f62117853',
+    chapter: '空間概念',
+    question:
+      '空間中 $A$ 點對平面 $E$ 的投影點為 $B$，直線 $L$ 在 $E$ 上，$B$ 對 $L$ 的投影點為 $C$，$D$ 在 $L$ 上。若 $\\overline{AB}=5$，$\\overline{BC}=12$，$\\overline{CD}=16$，求 $\\overline{AD}$。',
+    answer: '$5\\sqrt{17}$',
+    hasImage: false,
+  },
+  {
+    id: '17f6214178c',
+    chapter: '空間概念',
+    question:
+      '空間中線段 $\\overline{AB}=12$，$A$ 在平面 $E$ 上，$B$ 投影到 $E$ 為 $C$ 點且 $\\angle BAC=60\\du$，$E$ 上有一直線 $L$ 過 $A$ 且 $\\overline{AC}$ 與 $L$ 的夾角為 $30\\du$，求 $B$ 到 $L$ 的最短距離。',
+    answer: '$3\\sqrt{13}$',
     hasImage: false,
   },
 ];
