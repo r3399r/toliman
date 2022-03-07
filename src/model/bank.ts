@@ -22634,4 +22634,227 @@ export const bank: Question[] = [
     answer: '$3\\sqrt{13}$',
     hasImage: false,
   },
+  {
+    id: '17f636f1fc8',
+    chapter: '空間概念',
+    question:
+      '設 $\\overline{OA}$、$\\overline{OB}$、$\\overline{OC}$ 兩兩垂直，$\\overline{OA}=5$，$\\overline{OB}=3$，$\\overline{OC}=4$，求平面 $ABC$ 與平面 $OBC$ 夾角的正弦值。',
+    answer: '$\\frac{25}{\\sqrt{769}}$',
+    hasImage: false,
+  },
+  {
+    id: '17f63703aff',
+    chapter: '空間概念',
+    question: '正四面體 $A-BCD$ 的邊長為 $6$ 公分，求：\n(1) 高 (2) 體積 (3) 內切球半徑',
+    answer: '(1) $2\\sqrt6$ (2) $18\\sqrt2$ (3) $\\frac{\\sqrt6}2$',
+    hasImage: false,
+  },
+  {
+    id: '17f6371e3cc',
+    chapter: '空間概念',
+    question:
+      '生活在邊長為 $1$ 的正四面體 $ABCD$ 表面上的一隻昆蟲，希望由這四面體一邊的中點，沿著四面體表面爬到對邊的中點，求此昆蟲行進路線的最短距離。(四面體中不相交的兩邊互稱為對邊)',
+    answer: '$1$',
+    hasImage: false,
+  },
+  {
+    id: '17f637320bc',
+    chapter: '空間概念',
+    question:
+      '正立方體如圖，已知 $A(0,0,2)$，$F(0,0,-2)$，$B$、$E$ 二點在 $y$ 軸上，求 $C$、$D$、$H$、$G$。',
+    answer: '$(2\\sqrt2,-2,0)$；$(2\\sqrt2,0,2)$；$(2\\sqrt2,2,0)$；$(2\\sqrt2,0,-2)$',
+    hasImage: true,
+  },
+  {
+    id: '17f637526da',
+    chapter: '空間概念',
+    question:
+      '空間坐標系中一點 $P(3,1,-5)$，求：\n(1) $P$ 在 $x$ 軸上的投影點坐標\n(2) $P$ 在 $xy$ 平面上的對稱點坐標\n(3) $P$ 到 $y$ 軸的距離\n(4) $P$ 到 $z$ 軸的對稱點坐標\n(5) $P$ 到 $xz$ 平面的距離',
+    answer: '(1) $(3,0,0)$ (2) $(3,1,5)$ (3) $\\sqrt{34}$ (4) $(-3,-1,-5)$ (5) $1$',
+    hasImage: false,
+  },
+  {
+    id: '17f63761d3e',
+    chapter: '空間概念',
+    question: '空間中三點 $A(4,3,1)$、$B(7,1,2)$、$C(5,2,3)$ 連成一個三角形，求周長、重心坐標。',
+    answer: '$\\sqrt{14}+2\\sqrt6$；$(\\frac{16}3,2,2)$',
+    hasImage: false,
+  },
+  {
+    id: '17f63770d79',
+    chapter: '空間概念',
+    question:
+      '已知 $\\vector a=(1,-2,3)$，$\\vector b=(-1,1,-1)$，求 $|\\vector a+t\\vector b|$ 的最小值及此時的 $t$。',
+    answer: '$\\sqrt2$；$2$',
+    hasImage: false,
+  },
+  {
+    id: '17f63789c73',
+    chapter: '空間中的平面與直線',
+    question: '已知一平面通過點 $(2,-1,0)$ 與 $(3,0,5)$，且與 $xy$ 平面垂直，求此平面方程式。',
+    answer: '$x-y=3$',
+    hasImage: false,
+  },
+  {
+    id: '17f63797131',
+    chapter: '空間中的平面與直線',
+    question: '求過點 $(3,-2,6)$、三軸截距相等且不過原點的平面方程式。',
+    answer: '$x+y+z=7$',
+    hasImage: false,
+  },
+  {
+    id: '17f637c919f',
+    chapter: '空間中的平面與直線',
+    question:
+      '已知兩平面 $E_1:x-y+z=5$ 與 $E_2:x+y+\\sqrt6z=10$，試問：\n(1) 求 $E_1$ 與 $E_2$ 的交角\n(2) 若 $E_1$ 上有一圖形的面積為 $6$，求此圖形投影到 $E_2$ 上的圖形面積',
+    answer: '(1) $60\\du,120\\du$ (2) $3$',
+    hasImage: false,
+  },
+  {
+    id: '17f637c591e',
+    chapter: '空間中的平面與直線',
+    question:
+      '兩平面 $E_1:2x+my-z=5$、$E_2:6x-5y-3z=2$，試問：\n(1) 若 $E_1\\perp E_2$，求 $m$\n(2) 若 $E_1\\parallel E_2$，求 $m$',
+    answer: '(1) $3$ (2) $-\\frac53$',
+    hasImage: false,
+  },
+  {
+    id: '17f637d57da',
+    chapter: '空間中的平面與直線',
+    question:
+      '$x,y,z\\in\\mathbb R$，$x+4y-5z=-15$，求 $\\sqrt{(x+1)^2+(y-2)^2+(z+4)^2}$ 的最小值。',
+    answer: '$\\sqrt{42}$',
+    hasImage: false,
+  },
+  {
+    id: '17f637ea80c',
+    chapter: '空間中的平面與直線',
+    question:
+      '設空間中兩點 $A(6,2,5)$、$B(3,-1,8)$，若 $\\overleftrightarrow{AB}$ 和平面 $2x+y-3z=-13$ 交於 $Q$，求 $\\frac{\\overline{QA}}{\\overline{PB}}$。',
+    answer: '$2$',
+    hasImage: false,
+  },
+  {
+    id: '17f6381676b',
+    chapter: '空間中的平面與直線',
+    question:
+      '下列有關空間中方程式的圖形，哪些正確？\n(1) $2x-y=y+2z=z-x$ 的圖形為直線\n(2) $2x+y=y-2z$ 的圖形為直線\n(3) $xy=0$ 的圖形為 $xy$ 平面\n(4) $x^2+y^2=0$ 的圖形為 $z$ 軸\n(5) $z=0$ 的圖形為 $z$ 軸\n(6) $|x|+|y|+|z|=0$ 的圖形為一點',
+    answer: '(1)(4)(6)',
+    hasImage: false,
+  },
+  {
+    id: '17f63826b3b',
+    chapter: '空間中的平面與直線',
+    question:
+      '一直線 $2x-2=-y=z$，試求：\n(1) 與 $yz$ 平面的交點坐標\n(2) 與平面 $x+y+z=2$ 的焦點坐標',
+    answer: '(1) $(0,2,-2)$ (2) $(2,-2,2)$',
+    hasImage: false,
+  },
+  {
+    id: '17f63836d3e',
+    chapter: '空間中的平面與直線',
+    question:
+      '求空間中點 $A(3,13,16)$ 對直線 $\\frac{x-10}3=\\frac{y+6}{-1}=\\frac{z+11}2$ 的投影點、對稱點。',
+    answer: '$(13,-7,-9)$；$(23,-27,-34)$',
+    hasImage: false,
+  },
+  {
+    id: '17f63842a0f',
+    chapter: '空間中的平面與直線',
+    question: '求點 $(4,-1,2)$ 到直線 $\\frac{x-1}1=\\frac y{-1}=\\frac{z+1}2$ 的距離。',
+    answer: '$\\frac{\\sqrt{21}}3$',
+    hasImage: false,
+  },
+  {
+    id: '17f63889561',
+    chapter: '排列組合與機率',
+    question:
+      '將國文、英文、數學和音樂各一節課排入早上的 $4$ 節課中，音樂課不排在第一節和第二節，共有多少種不同的排法？',
+    answer: '12',
+    hasImage: false,
+  },
+  {
+    id: '17f63892e77',
+    chapter: '排列組合與機率',
+    question: '安排 $7$ 個節目的出場序，若其中 $3$ 個舞蹈節目要完全分開，則共有多少種不同的排法？',
+    answer: '1440',
+    hasImage: false,
+  },
+  {
+    id: '17f638a1789',
+    chapter: '排列組合與機率',
+    question:
+      '從一個 $10$ 人中的俱樂部，選出一位主任、一位幹事和一位會計，且均由不同人出任，如果 $10$ 人中的甲和乙不能同時被選上，那麼共有多少種不同的選法？',
+    answer: '672',
+    hasImage: false,
+  },
+  {
+    id: '17f638aa943',
+    chapter: '排列組合與機率',
+    question: '已知甲、乙、丙、丁、戊共五人排一列，求甲乙不相鄰且丙丁不相鄰的排列數。',
+    answer: '48',
+    hasImage: false,
+  },
+  {
+    id: '17f638bd19e',
+    chapter: '排列組合與機率',
+    question:
+      '要將國文兩節、英文、數學、物理、化學及音樂各一節，排入星期一的 7 節課中，若數學課不排在第四節與第五節，則課表共有幾種排法？',
+    answer: '1800',
+    hasImage: false,
+  },
+  {
+    id: '17f638cfc4b',
+    chapter: '排列組合與機率',
+    question:
+      '設 2 位女生 3 位男生，要坐在 9 個排成一列的座位等候面試，若 2 位女生相鄰而坐，3 位男生也相鄰而坐，男生與女生之間，可以有空位，也可以沒有空位，則有多少種坐法？',
+    answer: '360',
+    hasImage: false,
+  },
+  {
+    id: '17f638e12d0',
+    chapter: '排列組合與機率',
+    question:
+      '以汽笛的長短音來做信號，長音一次需 2 秒，短音一次需 1 秒，每兩音之間停 1 秒。若鳴放時間為 15 秒，則可發出多少種不同的信號？',
+    answer: '37',
+    hasImage: false,
+  },
+  {
+    id: '17f638fa19e',
+    chapter: '排列組合與機率',
+    question:
+      '如圖的棋盤形街道，從 A 取捷徑走到 B，試問：\n(1) 共有幾種走法？\n(2) 若 C、D 兩處施工禁止通行，則共有幾種走法？',
+    answer: '(1) 210 (2) 80',
+    hasImage: true,
+  },
+  {
+    id: '17f6390d761',
+    chapter: '排列組合與機率',
+    question:
+      '有 3 艘不同的渡船，每船最多可載 4 人，求下列安全渡河的方法各有幾種？\n(1) 4 人同時渡河\n(2) 5 人同時渡河\n(3) 6 人同時渡河',
+    answer: '(1) 81 (2) 240 (3) 690',
+    hasImage: false,
+  },
+  {
+    id: '17f6392560d',
+    chapter: '排列組合與機率',
+    question:
+      '一列火車有七節車廂，車廂號碼 1~7，今有兩對夫婦同時搭上火車，此四人剛好選坐兩節不同車廂而且是一對夫婦在一節車廂，另外一對夫婦選坐另一節車廂，則共有幾種選法？',
+    answer: '42',
+    hasImage: false,
+  },
+  {
+    id: '17f6392fabd',
+    chapter: '排列組合與機率',
+    question: '用 0，0，1，1，1，2 共 6 個數字作成六位數，共有幾種不同的數字？',
+    answer: '40',
+    hasImage: false,
+  },
+  {
+    id: '17f63938f4d',
+    chapter: '排列組合與機率',
+    question: '將 5 張不同面額的禮券分給甲、乙、丙三人，禮券必須全部分完，求甲恰得一張的方法數。',
+    answer: '80',
+    hasImage: false,
+  },
 ];
