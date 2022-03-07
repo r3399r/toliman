@@ -1,5 +1,5 @@
 .grid {
-  width: calc(17.6cm + 1px);
+  width: 16cm;
   margin: 0 auto;
   display: flex;
   flex-wrap: wrap;
@@ -9,7 +9,8 @@
   border-right: 1px solid #000000;
 }
 .card {
-  width: 8.8cm;
+  box-sizing: border-box;
+  width: 50%;
   > div {
     padding: 5px;
     border-top: 1px solid #000000;

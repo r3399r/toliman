@@ -13,7 +13,7 @@ type Props = {
   showAnswer?: boolean;
 };
 
-const Example = ({ num, ids, height = '11cm', note, showAnswer = true }: Props) => {
+const Example = ({ num, ids, height = '8cm', note, showAnswer = true }: Props) => {
   const questions: Question[] = getQuestions(ids);
 
   const addDefaultSrc = (ev: ChangeEvent<HTMLImageElement>) => {

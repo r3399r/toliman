@@ -1,17 +1,22 @@
 .page {
-  height: 27.1cm;
-  padding: 1.2cm 0;
+  height: 25.7cm;
+  width: 18.2cm;
+  margin: 2cm auto;
+  padding: 0.5cm;
   page-break-after: always;
   position: relative;
 
   .pageNum {
     position: absolute;
-    bottom: 1.2cm;
+    height: 0.6cm;
+    bottom: 1.4cm;
     border: 1px solid black;
     border-radius: 8px;
     padding: 3px;
     min-width: 0.8cm;
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   .right {
     right: 0.8cm;

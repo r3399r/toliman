@@ -25,7 +25,7 @@ const C2S3PlaneEquation = () => {
             }
           />
         </Concept>
-        <Example num={1} ids={['17dc12c2ecb', '17dc1201c0a']} height="10.5cm" />
+        <Example num={1} ids={['17dc12c2ecb', '17dc1201c0a']} />
       </Page>
       <Page pageNum={21}>
         <Example num={2} ids={['17dc11fb683', '17dc121215b']} />
