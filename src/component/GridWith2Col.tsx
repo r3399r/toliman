@@ -1,12 +1,12 @@
 import classNames from 'classnames';
-import { ReactNode, ReactNodeArray } from 'react';
+import { ReactNode } from 'react';
 import style from './GridWith2Col.module.scss';
 
 type Props = {
-  children: ReactNodeArray;
+  children: ReactNode[];
 };
 
-const Homework = ({ children }: Props) => {
+const GridWith2Col = ({ children }: Props) => {
   return (
     <div className={style.grid}>
       {children.map((child: ReactNode, i: number) => (
@@ -23,4 +23,4 @@ const Homework = ({ children }: Props) => {
   );
 };
 
-export default Homework;
+export default GridWith2Col;
