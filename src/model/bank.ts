@@ -22645,7 +22645,7 @@ export const bank: Question[] = [
   {
     id: '17f63703aff',
     chapter: '空間概念',
-    question: '正四面體 $A-BCD$ 的邊長為 $6$ 公分，求：\n(1) 高 (2) 體積 (3) 內切球半徑',
+    question: '正四面體 $A-BCD$ 的邊長為 $6$ 公分，求：(1) 高 (2) 體積 (3) 內切球半徑',
     answer: '(1) $2\\sqrt6$ (2) $18\\sqrt2$ (3) $\\frac{\\sqrt6}2$',
     hasImage: false,
   },
@@ -22746,7 +22746,7 @@ export const bank: Question[] = [
     id: '17f63826b3b',
     chapter: '空間中的平面與直線',
     question:
-      '一直線 $2x-2=-y=z$，試求：\n(1) 與 $yz$ 平面的交點坐標\n(2) 與平面 $x+y+z=2$ 的焦點坐標',
+      '一直線 $2x-2=-y=z$，試求：\n(1) 與 $yz$ 平面的交點坐標\n(2) 與平面 $x+y+z=2$ 的交點坐標',
     answer: '(1) $(0,2,-2)$ (2) $(2,-2,2)$',
     hasImage: false,
   },
@@ -22855,6 +22855,37 @@ export const bank: Question[] = [
     chapter: '排列組合與機率',
     question: '將 5 張不同面額的禮券分給甲、乙、丙三人，禮券必須全部分完，求甲恰得一張的方法數。',
     answer: '80',
+    hasImage: false,
+  },
+  {
+    id: '17f71d6b4b8',
+    chapter: '空間概念',
+    question:
+      '已知空間中相異三點 $A(0,1,4)$、$B(-1,2,0)$、$P(x,y,z)$，求 $\\overline{PA}^2+\\overline{PB}^2$ 的最小值，及此時 $P$ 點坐標。',
+    answer: '$9$；$(-\\frac12,\\frac32,2)$',
+    hasImage: false,
+  },
+  {
+    id: '17f7321aa31',
+    chapter: '平面向量',
+    question:
+      '坐標平面上有 $\\triangle ABC$，$P$ 在 $\\overline{AB}$ 上，且 $4\\overline{AP}=5\\overline{PB}$，$Q$ 在 $\\overline{BC}$ 上，且 $2\\overline{BQ}=3\\overline{QC}$，已知 $\\xvector{QA}=(3,5)$，$\\xvector{PQ}=(1,2)$，求 $\\xvector{AB}$、$\\xvector{BC}$。',
+    answer: '$(-\\frac{36}5,-\\frac{63}5)$；$(7,\\frac{38}3)$',
+    hasImage: false,
+  },
+  {
+    id: '17f79262520',
+    chapter: '空間向量',
+    question:
+      '坐標空間中三點，$A(2,0,3)$、$B(10,-10,7)$、$C(4,-4,7)$，若 $H$ 為 $\\triangle ABC$ 的垂心，求 $\\xvector{AH}$ 在 $\\xvector{AC}$ 上的正射影。',
+    answer: '$(4,-8,8)$',
+    hasImage: false,
+  },
+  {
+    id: '17f7931f1b8',
+    chapter: '空間向量',
+    question: '若 $x,y\\in\\mathbb R$，求 $x+y+\\sqrt{4-x^2-y^2}$ 的最大值。',
+    answer: '$2\\sqrt3$',
     hasImage: false,
   },
 ];
