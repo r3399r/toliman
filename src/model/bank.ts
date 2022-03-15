@@ -22888,4 +22888,221 @@ export const bank: Question[] = [
     answer: '$2\\sqrt3$',
     hasImage: false,
   },
+  {
+    id: '17f8cdd8e1e',
+    chapter: '空間概念',
+    question:
+      '將邊長為 $2$ 的正方形 $ABCD$ 沿對角線 $\\overline{AC}$ 折成一個夾角 $\\theta$ 的二面角，若 $B$、$D$ 相距 $1$ 單位長，求 $\\sin\\theta$。',
+    answer: '$\\frac{\\sqrt7}4$',
+    hasImage: false,
+  },
+  {
+    id: '17f8cdfe430',
+    chapter: '空間概念',
+    question:
+      '平面 $E$、$F$ 交於 $\\overleftrightarrow{AB}$，夾角為 $30\\du$，$\\triangle ABC$ 在平面 $E$ 上，$\\overline{AB}=13$，$\\overline{BC}=12$，$\\overline{CA}=5$，$C$ 在平面 $F$ 上的投影為 $D$，求 $\\overline{CD}$ 及 $\\triangle ABD$ 面積。',
+    answer: '$\\frac{30}{13}$；$15\\sqrt3$',
+    hasImage: false,
+  },
+  {
+    id: '17f8ce272f7',
+    chapter: '空間概念',
+    question:
+      '一圓錐體由扇形捲成，此扇形的半徑為 $6$，中心角為 $120\\du$，試問：\n(1) 圓錐體積\n(2) $A$ 為底圓周上一點，由 $A$ 出發，繞錐體一圈後回到 $A$ 點，此路徑的最短距離',
+    answer: '(1) $\\frac{16\\sqrt2}3\\pi$ (2) $6\\sqrt3$',
+    hasImage: false,
+  },
+  {
+    id: '17f8ce44a86',
+    chapter: '空間概念',
+    question:
+      '正四角錐 $O-ABCD$ 的底面是正方形 $ABCD$，如圖。若 $\\overline{AB}=2$，高 $\\overline{OH}=1$，求：\n(1) 底面 $ABCD$ 與側面的夾角\n(2) 相鄰二斜面所夾的二面角',
+    answer: '(1) $45\\du$ (2) $120\\du$',
+    hasImage: true,
+  },
+  {
+    id: '17f8ce54f05',
+    chapter: '空間概念',
+    question:
+      '設 $\\overline{PQ}=10$，若 $\\overline{PQ}$ 在 $x$ 軸的投影長為 $3$，在 $y$ 軸的投影長為 $8$，求在 $z$ 軸的投影長。',
+    answer: '$3\\sqrt3$',
+    hasImage: false,
+  },
+  {
+    id: '17f8ce6c591',
+    chapter: '空間概念',
+    question:
+      '設 $P$ 點在第一卦限，與 $x$ 軸、$y$ 軸的距離分別為 $10$ 與 $5$，且與 $xy$ 平面的距離為 $2$，求 $P$。',
+    answer: '$(\\sqrt{21},4\\sqrt6,2)$',
+    hasImage: false,
+  },
+  {
+    id: '17f8ce7dbab',
+    chapter: '空間概念',
+    question:
+      '空間中 $A(3,-1,5)$、$B(8,9,-2)$，$P$ 在 $\\overleftrightarrow{AB}$ 上，若 $\\overline{AP}:\\overline{PB}=3:2$，求 $P$。',
+    answer: '$(6,5,\\frac45)\\lor(18,29,-16)$',
+    hasImage: false,
+  },
+  {
+    id: '17f8ce90794',
+    chapter: '空間概念',
+    question:
+      '設空間坐標中有兩點 $A(1,2,5)$、$B(3,-1,4)$，另一點 $P$ 滿足 $\\overline{PA}=\\overline{PB}$，若：\n(1) $P$ 在 $x$ 軸上，求 $P$\n(2) $P$ 在 $y$ 軸上，求 $P$',
+    answer: '(1) $(-1,0,0)$ (2) $(0,\\frac23,0)$',
+    hasImage: false,
+  },
+  {
+    id: '17f8cea4c68',
+    chapter: '空間概念',
+    question:
+      '已知三向量 $\\vector a=(2,1,-3)$，$\\vector b=(1,4,5)$，$\\vector c=(2,6,k)$，若 $\\vector a+t\\vector b$ 與 $\\vector c$ 平行，求 $t$、$k$。',
+    answer: '$5$；$\\frac{44}7$',
+    hasImage: false,
+  },
+  {
+    id: '17f8ceba7cb',
+    chapter: '空間概念',
+    question:
+      '空間中，點 $A(1,3,2)$、$B(3,5,1)$、$C(1,0,6)$，$\\angle BAC$ 的內角平分線交 $\\overline{BC}$ 於 $P$，$\\xvector{AP}=x\\xvector{AB}+y\\xvector{AC}$，求 $x$、$y$。',
+    answer: '$\\frac58$；$\\frac38$',
+    hasImage: false,
+  },
+  {
+    id: '17f8cecf234',
+    chapter: '空間向量',
+    question:
+      '空間中，正立方體如圖，$\\overline{CF}$ 中點為 $M$，$\\overline{EF}$ 中點為 $N$，求 $\\cos\\angle MAN$。',
+    answer: '$\\frac89$',
+    hasImage: true,
+  },
+  {
+    id: '17f8cee9aed',
+    chapter: '空間向量',
+    question:
+      '$\\triangle ABC$ 中，$\\overline{AB}=5$，$\\overline{BC}=6$，$\\overline{CA}=7$，在 $\\triangle ABC$ 內部有一動點 $P$，由 $P$ 作 $\\overline{AB}$、$\\overline{BC}$、$\\overline{CA}$ 的垂線長為 $x$、$y$、$z$，求 $x^2+y^2+z^2$ 的最小值。',
+    answer: '$\\frac{432}{55}$',
+    hasImage: false,
+  },
+  {
+    id: '17f8cf0a6af',
+    chapter: '空間向量',
+    question:
+      '已知空間中向量 $\\vector a=(1,2,-1)$，$\\vector b=(3,1,-2)$，若 $\\vector c\\perp\\vector a$ 且 $\\vector c\\perp\\vector b$，$|\\vector c|=70$，試求 $\\vector c$。',
+    answer: '$\\pm(6\\sqrt{35},2\\sqrt{35},10\\sqrt{35})$',
+    hasImage: false,
+  },
+  {
+    id: '17f8cf185a3',
+    chapter: '空間向量',
+    question: '化簡 $\\begin{vmatrix}1&1&1\\\\a&b&c\\\\b+c&a+c&a+b\\end{vmatrix}$。',
+    answer: '$0$',
+    hasImage: false,
+  },
+  {
+    id: '17f8cf262cb',
+    chapter: '空間中的平面與直線',
+    question: '一平面過 $A(1,1,3)$、$B(-2,1,1)$ 且與平面 $2x-y+z=3$ 垂直，求此平面方程式。',
+    answer: '$2x+y-3z=-6$',
+    hasImage: false,
+  },
+  {
+    id: '17f8cf4403c',
+    chapter: '空間中的平面與直線',
+    question:
+      '若平面 $E$ 過 $E_1:x+2y-3z=-2$ 與 $E_2:3x-2y+z=6$ 的交線，且過點 $(-3,1,7)$，求此平面方程式。',
+    answer: '$5x-6y+5z=14$',
+    hasImage: false,
+  },
+  {
+    id: '17f8cf5196f',
+    chapter: '空間中的平面與直線',
+    question:
+      '若直線 $\\frac{x+4}{-1}=\\frac{y+9}3=\\frac z2$ 落在平面 $ax+y-z=b$ 上，求數對 $(a,b)$。',
+    answer: '$(1,-13)$',
+    hasImage: false,
+  },
+  {
+    id: '17f8cf5c3d7',
+    chapter: '空間中的平面與直線',
+    question: '求空間中點 $(-1,-2,2)$ 對平面 $x+2y-3z=3$ 的投影點及對稱點。',
+    answer: '$(0,0,-1)$；$(1,2,-4)$',
+    hasImage: false,
+  },
+  {
+    id: '17f8cf6ac15',
+    chapter: '空間中的平面與直線',
+    question:
+      '求直線 $L_1:\\frac{x+1}3=\\frac{y-1}4=\\frac{z-1}2$ 與 $L_2:\\frac{x+2}2=\\frac{y+1}3=\\frac{z-1}1$ 的交點。',
+    answer: '$(2,5,3)$',
+    hasImage: false,
+  },
+  {
+    id: '17f8cfb0e93',
+    chapter: '排列組合與機率',
+    question:
+      '從 5 個老師及 9 個學生中，選出 3 人，求下列選法有幾種？\n(1) 任意選\n(2) 老師與學生各至少一人\n(3) 至少有兩個老師',
+    answer: '(1) 364 (2) 270 (3) 100',
+    hasImage: false,
+  },
+  {
+    id: '17f8cfb9ab3',
+    chapter: '排列組合與機率',
+    question: '從連續正整數 1 到 11 中，任取相異三數，其和為偶數的取法共有多少種？',
+    answer: '85',
+    hasImage: false,
+  },
+  {
+    id: '17f8cfd289e',
+    chapter: '排列組合與機率',
+    question:
+      '水族箱中有金魚 3 隻，孔雀魚 4 隻，大肚魚 5 隻。若從中撈 2 隻不同種類的魚送給小花，則共有多少種選擇的方案？(每隻魚都長得不一樣)',
+    answer: '47',
+    hasImage: false,
+  },
+  {
+    id: '17f8cfdc4b6',
+    chapter: '排列組合與機率',
+    question:
+      '拳擊比賽中，規定每位選手必須和所有其他選手各比賽一場。已知賽程總計為 78 場，求選手人數。',
+    answer: '13',
+    hasImage: false,
+  },
+  {
+    id: '17f8cff4cba',
+    chapter: '排列組合與機率',
+    question:
+      '公司從 8 名職員中選出 5 人派往甲、乙、丙三地出差，其中甲地須派 1 人，另外兩地各派 2 人，求共有多少種選派方案。',
+    answer: '1680',
+    hasImage: false,
+  },
+  {
+    id: '17f8d00a18e',
+    chapter: '排列組合與機率',
+    question:
+      '由 4 個大小相等的正方形拼成如圖，問圖中的 9 個點共可決定：\n(1) 多少條直線\n(2) 多少個三角形',
+    answer: '(1) 20 (2) 76',
+    hasImage: true,
+  },
+  {
+    id: '17f8d0178e6',
+    chapter: '排列組合與機率',
+    question: '從 dependence 一字共 10 個字母中，任取 4 個字母為一組，共有多少種選法？',
+    answer: '31',
+    hasImage: false,
+  },
+  {
+    id: '17f8d02e7a1',
+    chapter: '排列組合與機率',
+    question: '求 $C^2_2+C^3_2+C^4_2\\cdots+C^{98}_2+C^{99}_2$。',
+    answer: '161700',
+    hasImage: false,
+  },
+  {
+    id: '17f8d03a30c',
+    chapter: '排列組合與機率',
+    question: '求 $(3a^2-b)^5$ 展開式中 $a^4b^3$ 的係數。',
+    answer: '$-90$',
+    hasImage: false,
+  },
 ];
