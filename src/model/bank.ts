@@ -23105,4 +23105,12 @@ export const bank: Question[] = [
     answer: '$-90$',
     hasImage: false,
   },
+  {
+    id: '17f9b42ef3f',
+    chapter: '平面向量',
+    question:
+      '設 $O$ 為原點，$\\xvector{OA}=(5,1)$，$\\xvector{OB}=(1,7)$，$\\xvector{OP}=(2,1)$，在直線 $OP$ 上取一點 $Q$，使 $\\xvector{QA}\\cdot\\xvector{QB}$ 值為最小，求最小值及此時的 $Q$ 點坐標。',
+    answer: '$-8$；$(4,2)$',
+    hasImage: false,
+  },
 ];

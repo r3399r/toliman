@@ -52,25 +52,25 @@ const Test = () => {
 
   return (
     <div className={style.content}>
-      <h1>高二上第三次段考A(向量)</h1>
-      <div>
+      <h1>高二下第一次段考A</h1>
+      {/* <div>
         <b>一、多選題(共 30 分；全對 10 分，錯一個 6 分，錯兩個 2 分，錯三個以上 0 分)</b>
-      </div>
-      {displayQuestion('17e576e031b', 1)}
-      {displayQuestion('17e5770633b', 2)}
-      {displayQuestion('17e57739a25', 3)}
-      <div>
+      </div> */}
+      {displayQuestion('17f8cdd8e1e', 1)}
+      {displayQuestion('17f8ceba7cb', 2)}
+      {displayQuestion('17f8cecf234', 3)}
+      {/* <div>
         <b>二、計算題(共 70 分；每題 10 分)</b>
-      </div>
-      {displayQuestion('17e4c01d316', 4, '2.5cm')}
+      </div> */}
+      {displayQuestion('17f8cee9aed', 4, '2.5cm')}
       {/* {displayQuestion('17c1644e24c', 4,'2.5cm')} */}
-      {displayQuestion('17e4c032799', 5)}
-      {displayQuestion('17e52724684', 6)}
-      {displayQuestion('17c16703fde', 7)}
+      {displayQuestion('17f8cf0a6af', 5)}
+      {displayQuestion('17f8cf185a3', 6)}
+      {displayQuestion('17f8cf4403c', 7)}
       {/* {displayQuestion('17e577537ee', 7)} */}
-      {displayQuestion('17e5779eff2', 8)}
-      {displayQuestion('17e577ce397', 9)}
-      {displayQuestion('17c165fdd52', 10)}
+      {displayQuestion('17f8cf5196f', 8)}
+      {displayQuestion('17f8cf5c3d7', 9)}
+      {displayQuestion('17f8cf6ac15', 10)}
     </div>
   );
 };
