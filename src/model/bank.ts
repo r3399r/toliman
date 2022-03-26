@@ -23113,4 +23113,68 @@ export const bank: Question[] = [
     answer: '$-8$；$(4,2)$',
     hasImage: false,
   },
+  {
+    id: '17fc1c53f7a',
+    chapter: '空間概念',
+    question:
+      '空間中，試選出正確的選項。\n(1) 垂直同一平面之相異兩直線必平行\n(2) 平行同一平面之相異兩直線必平行\n(3) 垂直同一直線之相異兩直線必平行\n(4) 平行同一直線之相異兩直線必平行\n(5) 平面 $E_1$ 平行平面 $E$，平面 $E_2$ 垂直平面 $E$，則平面 $E_1$ 垂直平面 $E_2$',
+    answer: '(1)(4)(5)',
+    hasImage: false,
+  },
+  {
+    id: '17fc1ce2d66',
+    chapter: '空間概念',
+    question:
+      '已知空間中 A(1,2,3)、B(4,3,4)、C(5,4,6)、D 為平行四邊形的頂點，試選出所有可能為 D 點坐標之選項。\n(1) (8,5,7) (2) (1,3,5) (3) (4,3,2) (4) (0,1,1) (5) (4,1,-2)',
+    answer: '(1)(4)',
+    hasImage: false,
+  },
+  {
+    id: '17fc1d1aad8',
+    chapter: '空間概念',
+    question:
+      '有一個底為正方形的四角錐，每一稜長都是 10，設 ABCD 為其底，O 為其錐頂，如圖，選出正確的選項。\n(1) O 點到 $\\overline{AB}$ 的距離為 5\n(2) A 點到 $\\overline{BO}$ 的距離為 $5\\sqrt3$\n(3) O 點到平面 ABCD 的距離為 $5\\sqrt2$\n(4) 平面 OBC 與平面 ABCD 的夾角為 $\\theta$，則 $\\sin\\theta=\\frac{\\sqrt3}3$\n(5) 兩側面之夾角為 $\\alpha$，則 $\\cos\\alpha=\\frac23$',
+    answer: '(2)(3)(5)',
+    hasImage: true,
+  },
+  {
+    id: '17fc1d58d7e',
+    chapter: '空間概念',
+    question:
+      '如圖，空間中，自 A 點作平面 E 的垂線，交平面於 B 點，一直線 L 在平面 E 上，自 B 點作 $\\overline{BC}\\perp L$，交 L 於 C 點，若 D 為 L 上另一點，且 $\\overline{AB}=7$，$\\overline{BC}=5$，$\\overline{AD}=11$，求 $\\overline{CD}$。',
+    answer: '$\\sqrt{47}$',
+    hasImage: true,
+  },
+  {
+    id: '17fc1d71e3c',
+    chapter: '空間概念',
+    question:
+      '設 P(6,3,-3)，且 P 在 $xy$ 平面、$yz$ 平面、$zx$ 平面上之投影點分別為 A、B、C 三點，求 $\\triangle ABC$ 之重心坐標。',
+    answer: '$(4,2,-2)$',
+    hasImage: false,
+  },
+  {
+    id: '17fc1d876c4',
+    chapter: '空間概念',
+    question:
+      '設球面 S 的球心為 O(0,0,0)，若已知球面上兩點 $A(-4,0,0)$、$B(-2,3,-\\sqrt3)$，球 A、B 兩點的球面距離。',
+    answer: '$\\frac43\\pi$',
+    hasImage: false,
+  },
+  {
+    id: '17fc1db10b5',
+    chapter: '空間概念',
+    question:
+      '如圖，有一長方體的長寬高分別為 $\\overline{AE}=6$，$\\overline{AB}=8$，$\\overline{AD}=6$，K 點位在 $\\overline{AD}$ 上且 $\\overline{DK}:\\overline{KA}=2:1$，J 點位於 $\\overline{EF}$ 的中點，求 $\\overline{KJ}$。',
+    answer: '$\\sqrt{56}$',
+    hasImage: true,
+  },
+  {
+    id: '17fc1dce4a8',
+    chapter: '空間概念',
+    question:
+      '設正四面體稜長為 12，M 是 $\\overline{AB}$ 的中點，N 在 $\\overline{CD}$ 上，使得 $\\overline{CN}:\\overline{DN}=2:1$，求 $\\overline{MN}$。',
+    answer: '$2\\sqrt{19}$',
+    hasImage: true,
+  },
 ];
