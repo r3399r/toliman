@@ -122,6 +122,17 @@ const Lecture = () => {
           4 空間中的直線方程式
         </Button>
       </div>
+      第四冊 Ch3 條件機率與獨立事件
+      <div className={style.button}>
+        <Button variant="contained" onClick={onClick('condProbability')}>
+          1 條件機率
+        </Button>
+      </div>
+      <div className={style.button}>
+        <Button variant="contained" onClick={onClick('independentEvent')}>
+          2 獨立事件
+        </Button>
+      </div>
       第五冊 Ch1 極限
       <div className={style.button}>
         <Button variant="contained" onClick={onClick('limitOfSequence')}>

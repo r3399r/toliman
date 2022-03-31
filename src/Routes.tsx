@@ -34,6 +34,8 @@ const route = {
   C2S1InnerProductOfSpace: loadable(() => import('./pages/lecture/book4/C2S1InnerProductOfSpace')),
   C2S2OuterProduct: loadable(() => import('./pages/lecture/book4/C2S2OuterProduct')),
   C2S3PlaneEquation: loadable(() => import('./pages/lecture/book4/C2S3PlaneEquation')),
+  C3S1CondProbability: loadable(() => import('./pages/lecture/book4/C3S1CondProbability')),
+  C3S2IndependentEvent: loadable(() => import('./pages/lecture/book4/C3S2IndependentEvent')),
   C2S4LineEquation: loadable(() => import('./pages/lecture/book4/C2S4LineEquation')),
   C1S1LimitOfSequence: loadable(() => import('./pages/lecture/book5/C1S1LimitOfSequence')),
   C1S2LimitOfSeries: loadable(() => import('./pages/lecture/book5/C1S2LimitOfSeries')),
@@ -135,6 +137,16 @@ const AppRoutes = () => {
         component={route.C2S3PlaneEquation}
       />
       <Route exact={true} path="/toliman/lecture/lineEquation" component={route.C2S4LineEquation} />
+      <Route
+        exact={true}
+        path="/toliman/lecture/condProbability"
+        component={route.C3S1CondProbability}
+      />
+      <Route
+        exact={true}
+        path="/toliman/lecture/independentEvent"
+        component={route.C3S2IndependentEvent}
+      />
       <Route
         exact={true}
         path="/toliman/lecture/limitOfSequence"
