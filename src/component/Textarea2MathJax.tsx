@@ -1,6 +1,4 @@
-import classNames from 'classnames';
-import MathJax from 'mathjax3-react';
-import style from './Textarea2MathJax.module.scss';
+import { MathJax } from 'better-react-mathjax';
 
 type Props = {
   text: string;
@@ -8,33 +6,15 @@ type Props = {
 };
 
 const Textarea2MathJax = ({ className, text }: Props) => (
-  <MathJax.Provider
-    url="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"
-    options={{
-      loader: { load: ['[tex]/mathtools', '[tex]/physics', '[tex]/cancel'] },
-      tex: {
-        inlineMath: [['$', '$']],
-        packages: { '[+]': ['mathtools', 'physics', 'cancel'] },
-        macros: {
-          vector: ['\\overset{\\small\\rightharpoonup}{#1}', 1],
-          xvector: ['\\overset{\\LARGE\\rightharpoonup}{#1}', 1],
-          parallel: ['\\mathrel{/\\mkern-5mu/}', 0],
-          nparallel: ['\\bcancel{\\mathrel{/\\mkern-5mu/}}', 0],
-          arc: ['\\overset{\\huge\\frown}{#1}', 1],
-          du: ['^\\circ', 0],
-          arg: ['\\operatorname{Arg}', 0],
-        },
-      },
-    }}
-  >
+  <>
     {text.split('\n').map((line: string, index: number) => {
       return (
-        <div key={index} className={classNames(className, style.font)}>
-          <MathJax.Formula formula={line} />
+        <div key={index} className={className}>
+          <MathJax>{line}</MathJax>
         </div>
       );
     })}
-  </MathJax.Provider>
+  </>
 );
 
 export default Textarea2MathJax;

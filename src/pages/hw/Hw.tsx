@@ -47,7 +47,7 @@ const Hw = () => {
           if (q === undefined) return <div key={`error${i}`}>ERROR! id at {i} does not exists</div>;
 
           return (
-            <div key={q.id} className={style.qqq}>
+            <div key={q.id}>
               {q.hasImage === true && (
                 <img
                   className={style.img}
