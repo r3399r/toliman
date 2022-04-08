@@ -23193,4 +23193,98 @@ export const bank: Question[] = [
     answer: '(1) $\\frac16$ (2) $\\frac27$',
     hasImage: false,
   },
+  {
+    id: '17fe7a403fe',
+    chapter: '條件機率',
+    question:
+      "樣本空間中有事件 $A$、$B$，若 $P(A)=\\frac13$，$P(B)=\\frac12$，$P(A\\cup B)=\\frac35$，求 $P(A|B)$、$P(B'|A)$。",
+    answer: '$\\frac7{15}$；$\\frac3{10}$',
+    hasImage: false,
+  },
+  {
+    id: '17fe7a5ae21',
+    chapter: '條件機率',
+    question:
+      '事件 $A$ 與 $B$，已知 $P(A\\cap B)=\\frac1{12}$，$P(A\\cup B)=\\frac34$，$P(A|B)=\\frac12$，求 $P(B|A)$。',
+    answer: '$\\frac18$',
+    hasImage: false,
+  },
+  {
+    id: '17fe7a6e54c',
+    chapter: '條件機率',
+    question:
+      '某家庭有兩個小孩，男孩、女孩的機會均等，\n(1) 已知在兩個小孩中至少有一個男孩，求兩個均為男孩的機率\n(2) 已知較大的小孩是男孩，求兩個均為男孩的機率',
+    answer: '(1) $\\frac13$ (2) $\\frac12$',
+    hasImage: false,
+  },
+  {
+    id: '17fe7a8cd44',
+    chapter: '條件機率',
+    question:
+      '擲三枚相同硬幣一次，在至少出現一個正面的條件下，求：\n(1) 恰好出現三個正面的機率\n(2) 恰好出現一個正面的機率',
+    answer: '(1) $\\frac17$ (2) $\\frac37$',
+    hasImage: false,
+  },
+  {
+    id: '17fe7a9d67b',
+    chapter: '條件機率',
+    question: '擲兩粒均勻骰子一次，若點數和大於 8，求至少一粒骰子為 5 點的機率。',
+    answer: '$\\frac12$',
+    hasImage: false,
+  },
+  {
+    id: '17fe7ab5107',
+    chapter: '條件機率',
+    question:
+      '擲三顆公正骰子，若三顆骰子的點數均相異，求：\n(1) 恰有一次出現 6 點的機率\n(2) 沒有出現 1 點也沒有出現 6 點的機率',
+    answer: '(1) $\\frac12$ (2) $\\frac15$',
+    hasImage: false,
+  },
+  {
+    id: '17fe7ad2af2',
+    chapter: '條件機率',
+    question:
+      '某次月考，高三學生中數學不及格有 $\\frac35$，英文不及格有 $\\frac23$，數學與英文至少一科不及格有 $\\frac56$，今任選一名高三學生，若此生數學及格，試求生英文不及格之機率。',
+    answer: '$\\frac7{12}$',
+    hasImage: false,
+  },
+  {
+    id: '17fe7aedcae',
+    chapter: '條件機率',
+    question: '擲一公正銅板 8 次，已知共出現 4 正面與 4 反面，求投擲過程是正反面交錯出現的機率。',
+    answer: '$\\frac1{35}$',
+    hasImage: false,
+  },
+  {
+    id: '17fe7b03132',
+    chapter: '條件機率',
+    question:
+      '擲一公正骰子三次，$A$ 表第一次出現偶數的事件，$B$ 表三次的點數和為 12 的事件，求 $P(A|B)$、$P(B|A)$。',
+    answer: '$\\frac{13}{25}$；$\\frac{13}{108}$',
+    hasImage: false,
+  },
+  {
+    id: '17fe7b1fbd9',
+    chapter: '條件機率',
+    question:
+      '設袋中有 10 個紅球、8 個白球，今自袋中連取兩次，每次取一球，取後不放回。已知兩次中至少有一次取到紅球，試求兩球皆為紅球的機率。',
+    answer: '$\\frac9{25}$',
+    hasImage: false,
+  },
+  {
+    id: '17fe7b4d9a2',
+    chapter: '條件機率',
+    question:
+      '袋中有 4 紅球、5 白球、3 黑球，今自袋中每次取出一球，取後不放回。求：\n(1) 第一次拿紅球、第二次拿黑球、第三次拿白球的機率\n(2) 在第四次拿白球的條件下，在第二次也拿白球的機率',
+    answer: '(1) $\\frac1{22}$ (2) $\\frac4{11}$',
+    hasImage: false,
+  },
+  {
+    id: '17fe7b7d1b0',
+    chapter: '條件機率',
+    question:
+      '某同學早上騎車上學有甲、乙兩條路線可以選擇，走甲路線有 0.1 的機率會遲到，走乙路線則有 0.2 的機率會遲到。無論走哪一條路線，只要不遲到，下次就走同一條路線，否則就換另一條路線。假設他第一天走甲路線，求第四天走乙路線的機率。',
+    answer: '0.219',
+    hasImage: false,
+  },
 ];

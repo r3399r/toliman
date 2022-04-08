@@ -7,33 +7,19 @@ import style from './Hw.module.scss';
 
 const Hw = () => {
   const ids: string[] = [
-    // 高二 A
-    '17f8cdd8e1e',
-    '17f8ce6c591',
-    '17f8ceba7cb',
-    '17f8cecf234',
-    '17f8cee9aed',
-    '17f8cf0a6af',
-    '17f8cf185a3',
-    '17f8cf262cb',
-    '17f8cf4403c',
-    '17f8cf5196f',
-    '17f8cf5c3d7',
-    '17f8cf6ac15',
-
-    // 高二 B
-    // '17f8cdd8e1e',
-    // '17f8ce6c591',
-    // '17f8cdfe430',
-    // '17f8ce272f7',
-    // '17f8ce44a86',
-    // '17f8ce54f05',
-    // '17f8ce6c591',
-    // '17f8ce7dbab',
-    // '17f8ce90794',
-    // '17f8cea4c68',
-    // '17f8ceba7cb',
-    // '17f9b42ef3f',
+    // 高二
+    '17fe7a403fe',
+    '17fe7a5ae21',
+    '17fe7a6e54c',
+    '17fe7a8cd44',
+    '17fe7a9d67b',
+    '17fe7ab5107',
+    '17fe7ad2af2',
+    '17fe7aedcae',
+    '17fe7b03132',
+    '17fe7b1fbd9',
+    '17fe7b4d9a2',
+    '17fe7b7d1b0',
 
     // 高一
     // '17f8cfb0e93',
