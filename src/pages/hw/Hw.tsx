@@ -1,3 +1,4 @@
+import { MathJax } from 'better-react-mathjax';
 import { ChangeEvent } from 'react';
 import GridWith2Col from 'src/component/GridWith2Col';
 import Textarea2MathJax from 'src/component/Textarea2MathJax';
@@ -41,7 +42,7 @@ const Hw = () => {
   };
 
   return (
-    <div className={style.content}>
+    <MathJax className={style.content}>
       <GridWith2Col>
         {getQuestions(ids).map((q: Question, i: number) => {
           if (q === undefined) return <div key={`error${i}`}>ERROR! id at {i} does not exists</div>;
@@ -63,7 +64,7 @@ const Hw = () => {
           );
         })}
       </GridWith2Col>
-    </div>
+    </MathJax>
   );
 };
 

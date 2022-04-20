@@ -1,5 +1,4 @@
 import { MathJax } from 'better-react-mathjax';
-import Textarea2MathJax from 'src/component/Textarea2MathJax';
 import style from 'src/pages/lecture/Common.module.scss';
 import Concept from 'src/pages/lecture/component/Concept';
 import Example from 'src/pages/lecture/component/Example';
@@ -47,9 +46,7 @@ const C4S1SystemOfEquations = () => {
       <Example num={1} ids={['17de193b9a5', '17de194a703']} />
       <Concept num={2} title="增廣矩陣與列運算求解">
         <div className={style.conceptHead}>係數矩陣與增廣矩陣</div>
-        <div>
-          把一次聯立方程組的未知數 <i>x</i>、<i>y</i>、<i>z</i> 的所有係數寫出，就是係數矩陣。
-        </div>
+        <div>把一次聯立方程組的未知數 $x$、$y$、$z$ 的所有係數寫出，就是係數矩陣。</div>
         <div>把一次聯立方程組的的各項係數(連同常數項)寫出，就是增廣矩陣。</div>
         <div className={style.conceptHead}>列運算</div>
         <div>以整條「橫列」為單位，任選一列，可以乘上常數加到另一列，稱為列運算。</div>
