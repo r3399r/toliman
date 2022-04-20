@@ -133,6 +133,27 @@ const Lecture = () => {
           2 獨立事件
         </Button>
       </div>
+      第四冊 Ch4 矩陣
+      <div className={style.button}>
+        <Button variant="contained" onClick={onClick('systemOfEquations')}>
+          1 聯立方程組的矩陣表達
+        </Button>
+      </div>
+      <div className={style.button}>
+        <Button variant="contained" onClick={onClick('matrixOperation')}>
+          2 矩陣的四則運算
+        </Button>
+      </div>
+      <div className={style.button}>
+        <Button variant="contained" onClick={onClick('inverseAndTransition')}>
+          3 反方陣與轉移方陣
+        </Button>
+      </div>
+      <div className={style.button}>
+        <Button variant="contained" onClick={onClick('linearTransform')}>
+          4 平面的線性轉換
+        </Button>
+      </div>
       第五冊 Ch1 極限
       <div className={style.button}>
         <Button variant="contained" onClick={onClick('limitOfSequence')}>

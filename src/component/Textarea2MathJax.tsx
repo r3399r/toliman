@@ -10,7 +10,7 @@ const Textarea2MathJax = ({ className, text }: Props) => (
     {text.split('\n').map((line: string, index: number) => {
       return (
         <div key={index} className={className}>
-          <MathJax>{line}</MathJax>
+          <div>{line}</div>
         </div>
       );
     })}

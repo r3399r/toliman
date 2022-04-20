@@ -34,9 +34,15 @@ const route = {
   C2S1InnerProductOfSpace: loadable(() => import('./pages/lecture/book4/C2S1InnerProductOfSpace')),
   C2S2OuterProduct: loadable(() => import('./pages/lecture/book4/C2S2OuterProduct')),
   C2S3PlaneEquation: loadable(() => import('./pages/lecture/book4/C2S3PlaneEquation')),
+  C2S4LineEquation: loadable(() => import('./pages/lecture/book4/C2S4LineEquation')),
   C3S1CondProbability: loadable(() => import('./pages/lecture/book4/C3S1CondProbability')),
   C3S2IndependentEvent: loadable(() => import('./pages/lecture/book4/C3S2IndependentEvent')),
-  C2S4LineEquation: loadable(() => import('./pages/lecture/book4/C2S4LineEquation')),
+  C4S1SystemOfEquations: loadable(() => import('./pages/lecture/book4/C4S1SystemOfEquations')),
+  C4S2MatrixOperation: loadable(() => import('./pages/lecture/book4/C4S2MatrixOperation')),
+  C4S3InverseAndTransition: loadable(
+    () => import('./pages/lecture/book4/C4S3InverseAndTransition'),
+  ),
+  C4S4LinearTransform: loadable(() => import('./pages/lecture/book4/C4S4LinearTransform')),
   C1S1LimitOfSequence: loadable(() => import('./pages/lecture/book5/C1S1LimitOfSequence')),
   C1S2LimitOfSeries: loadable(() => import('./pages/lecture/book5/C1S2LimitOfSeries')),
   C1S3LimitOfFunction: loadable(() => import('./pages/lecture/book5/C1S3LimitOfFunction')),
@@ -146,6 +152,26 @@ const AppRoutes = () => {
         exact={true}
         path="/toliman/lecture/independentEvent"
         component={route.C3S2IndependentEvent}
+      />
+      <Route
+        exact={true}
+        path="/toliman/lecture/systemOfEquations"
+        component={route.C4S1SystemOfEquations}
+      />
+      <Route
+        exact={true}
+        path="/toliman/lecture/matrixOperation"
+        component={route.C4S2MatrixOperation}
+      />
+      <Route
+        exact={true}
+        path="/toliman/lecture/inverseAndTransition"
+        component={route.C4S3InverseAndTransition}
+      />
+      <Route
+        exact={true}
+        path="/toliman/lecture/linearTransform"
+        component={route.C4S4LinearTransform}
       />
       <Route
         exact={true}
