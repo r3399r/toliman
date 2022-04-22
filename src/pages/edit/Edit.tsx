@@ -7,6 +7,7 @@ import {
   Snackbar,
   TextField,
 } from '@mui/material';
+import { MathJax } from 'better-react-mathjax';
 import { ChangeEvent, useEffect, useState } from 'react';
 import { CopyToClipboard } from 'react-copy-to-clipboard';
 import Textarea2MathJax from 'src/component/Textarea2MathJax';
@@ -119,13 +120,13 @@ const Home = () => {
           label="是否有圖"
         />
         <hr />
-        <div className={style.preview}>
+        <MathJax className={style.preview}>
           {isRendering === true && <div>產生中...</div>}
           {isRendering === false && question && <Textarea2MathJax text={question} />}
           {isRendering === false && answer && (
             <Textarea2MathJax className={style.ans} text={'Ans: ' + answer} />
           )}
-        </div>
+        </MathJax>
         <hr />
         <div>{JSON.stringify(result)}</div>
         <div>

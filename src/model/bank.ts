@@ -19325,6 +19325,165 @@ const conditionalProb: Question[] = [
 // 矩陣A
 export const matrixA: Question[] = [
   {
+    id: '1804b49a689',
+    chapter: '矩陣A',
+    question: '求解 $\\begin{cases}x+y-z=0\\\\2x-5y+z=2\\\\x+5y-3z=-2\\end{cases}$',
+    answer: '$(2,1,3)$',
+    hasImage: false,
+  },
+  {
+    id: '1804b4ae883',
+    chapter: '矩陣A',
+    question: '求解 $\\begin{cases}2x-5y-z=-22\\\\x-y-2z=-5\\\\x+3y-6z=11\\end{cases}$',
+    answer: '$\\frac{x+12}3=y=z+4$',
+    hasImage: false,
+  },
+  {
+    id: '1804b4b8f06',
+    chapter: '矩陣A',
+    question: '求解 $\\begin{cases}x+2y+3z=3\\\\x+y+2z=2\\\\-x+2y+z=3\\end{cases}$',
+    answer: '無解',
+    hasImage: false,
+  },
+  {
+    id: '1804b527194',
+    chapter: '矩陣A',
+    question:
+      '試寫出聯立方程組 $\\begin{cases}2x+3y-z+4u=5\\\\x+y+2z+3u=3\\\\-x+2y+z-4u=1\\end{cases}$ 的係數矩陣及增廣矩陣。',
+    answer: '略',
+    hasImage: false,
+  },
+  {
+    id: '1804ffe9bd5',
+    chapter: '矩陣A',
+    question:
+      '矩陣 $\\begin{bmatrix}2&\\sqrt[3]2&-5&1\\\\0&3&\\sqrt7&9\\\\\\pi&\\log5&9&8\\end{bmatrix}$ 的階數為？第 (2,3) 元為？第 (1,4) 元為？',
+    answer: '$3\\times4$；$\\sqrt7$；1',
+    hasImage: false,
+  },
+  {
+    id: '1805000a3c7',
+    chapter: '矩陣A',
+    question: '矩陣 $\\begin{bmatrix}1&0&1\\\\2&4&5\\end{bmatrix}$ 的階數為？第 (2,1) 元為？',
+    answer: '$2\\times3$；2',
+    hasImage: false,
+  },
+  {
+    id: '1805006d65e',
+    chapter: '矩陣A',
+    question:
+      '求 $\\begin{bmatrix}5&3&2\\\\1&6&4\\end{bmatrix}\\begin{bmatrix}1&3&-2\\\\0&6&3\\\\5&2&1\\end{bmatrix}$。',
+    answer: '$\\begin{bmatrix}15&37&1\\\\21&47&20\\end{bmatrix}$',
+    hasImage: false,
+  },
+  {
+    id: '180500939c7',
+    chapter: '矩陣A',
+    question:
+      '$A=\\begin{bmatrix}1&2&3\\\\4&5&6\\end{bmatrix}$，$B=\\begin{bmatrix}1&2\\\\3&4\\\\5&6\\end{bmatrix}$，求 $AB$、$BA$',
+    answer:
+      '$\\begin{bmatrix}22&28\\\\49&64\\end{bmatrix}$；$\\begin{bmatrix}9&12&15\\\\19&26&33\\\\29&40&51\\end{bmatrix}$',
+    hasImage: false,
+  },
+  {
+    id: '18050152680',
+    chapter: '矩陣A',
+    question:
+      '設 $A=\\begin{bmatrix}3&1\\\\4&2\\end{bmatrix}$，若 $AB=I=\\begin{bmatrix}1&0\\\\0&1\\end{bmatrix}$，求 $B$、$BA$。',
+    answer:
+      '$\\begin{bmatrix}1&-\\frac12\\\\-2&\\frac32\\end{bmatrix}$；$\\begin{bmatrix}1&0\\\\0&1\\end{bmatrix}$',
+    hasImage: false,
+  },
+  {
+    id: '18050164cbb',
+    chapter: '矩陣A',
+    question:
+      '設 $A=\\begin{bmatrix}1&3\\\\3&2\\end{bmatrix}$，若 $AB=\\begin{bmatrix}1&0\\\\0&1\\end{bmatrix}$，求 $B$、$BA$。',
+    answer:
+      '$\\begin{bmatrix}-\\frac27&\\frac37\\\\\\frac37&-\\frac17\\end{bmatrix}$；$\\begin{bmatrix}1&0\\\\0&1\\end{bmatrix}$',
+    hasImage: false,
+  },
+  {
+    id: '1805027dba9',
+    chapter: '矩陣A',
+    question:
+      '已知 $A=\\begin{bmatrix}1&2\\\\3&4\\end{bmatrix}$，$B=\\begin{bmatrix}2&1\\\\6&3\\end{bmatrix}$，若二階方陣 $X$、$Y$ 滿足 $AX=B$、$YA=B$，求 $X$、$Y$。',
+    answer:
+      '$\\begin{bmatrix}2&1\\\\0&0\\end{bmatrix}$；$\\begin{bmatrix}-\\frac52&\\frac32\\\\-\\frac{15}2&\\frac92\\end{bmatrix}$',
+    hasImage: false,
+  },
+  {
+    id: '180502996b9',
+    chapter: '矩陣A',
+    question:
+      '$A=\\begin{bmatrix}3&5\\\\6&9\\end{bmatrix}$，$B=\\begin{bmatrix}2&1\\\\3&4\\end{bmatrix}$，$AX+B=\\begin{bmatrix}4&5\\\\1&1\\end{bmatrix}$，求 $X$。',
+    answer: '$\\begin{bmatrix}-\\frac{28}3&-17\\\\6&11\\end{bmatrix}$',
+    hasImage: false,
+  },
+  {
+    id: '1805030b4dc',
+    chapter: '矩陣A',
+    question:
+      '某人上班有甲、乙、丙三條路線可供選擇，若某天走甲路線，則隔天走甲、乙、丙的機率依序為 0.5、0.2、0.3；若某天走乙，則隔天走甲、乙、丙的機率依序為 0.4、0.6、0；若某天走丙，則隔天走甲、乙、丙的機率依序為 0.2、0.1、0.7。試寫出轉移方陣。',
+    answer: '略',
+    hasImage: false,
+  },
+  {
+    id: '1805032ff50',
+    chapter: '矩陣A',
+    question:
+      '某國選舉有 A 黨、B 黨、C 黨三種選民，據調查顯示：A 黨員每次選舉不跑票的有 80%，而轉向 B 黨與 C 黨依序占 10% 與 10%；B 黨員每次選舉不跑票的有 60%，而轉向 A 黨與 C 黨依序占 10% 與 30%；C 黨員每次選舉不跑票的有 20%，而轉向 A 黨與 B 黨依序占 45% 與 35%。試寫出轉移方陣。',
+    answer: '略',
+    hasImage: false,
+  },
+  {
+    id: '180503e364e',
+    chapter: '矩陣A',
+    question:
+      '若 $y=5x^2$ 在 $(x,y)\\rightarrow(3x,2y)$ 的伸縮變換下變成另一圖形，求此新圖形的方程式。',
+    answer: '$9y=10x^2$',
+    hasImage: false,
+  },
+  {
+    id: '180503f537f',
+    chapter: '矩陣A',
+    question:
+      '若直線 $5x+3y=4$ 在 $(x,y)\\rightarrow(2x,7y)$ 的伸縮變換下變成另一圖形，求此新圖形的方程式。',
+    answer: '$35x+6y=56$',
+    hasImage: false,
+  },
+  {
+    id: '1805041523e',
+    chapter: '矩陣A',
+    question:
+      "若直線 $L:3x-4y=5$ 在 $(x,y)\\rightarrow(x+2y,y)$ 的推移下變成另一直線 $L'$，求 $L'$ 的方程式。",
+    answer: '$3x-10y=5$',
+    hasImage: false,
+  },
+  {
+    id: '1805042d699',
+    chapter: '矩陣A',
+    question:
+      "$\\triangle ABC$ 的頂點為 $A(2,7)$、$B(5,4)$、$C(7,8)$，將此三頂點分別沿 $x$ 軸推移 $y$ 坐標的 4 倍，得 $A'$、$B'$、$C'$ 三點，求 $A'$ 坐標、$\\triangle A'B'C'$ 的面積。",
+    answer: '(30,7)；9',
+    hasImage: false,
+  },
+  {
+    id: '18050a7b2f7',
+    chapter: '矩陣A',
+    question: '若二階方陣 $A$ 把點 (2,5) 變換成 (4,3)，把點 (1,3) 變換成 (-5,12)，試求 $A$。',
+    answer: '$\\begin{bmatrix}37&-14\\\\-51&21\\end{bmatrix}$',
+    hasImage: false,
+  },
+  {
+    id: '18050a8dcff',
+    chapter: '矩陣A',
+    question:
+      '二階方陣 $A$，點 (1,2) 經 $A$ 變換的像為 (10,-5)，點 (2,-1) 經 $A$ 變換的像為 (15,20)，求 $A$。',
+    answer: '$\\begin{bmatrix}8&1\\\\7&-6\\end{bmatrix}$',
+    hasImage: false,
+  },
+  {
     id: '17df4f75aa0',
     chapter: '矩陣A',
     question: '請利用增廣矩陣的列運算解 $\\begin{cases}2x+y=35\\\\x-3y=7\\end{cases}$。',
@@ -19486,12 +19645,11 @@ export const matrixA: Question[] = [
       '$\\begin{bmatrix}7&10\\\\15&22\\end{bmatrix}$；$\\begin{bmatrix}37&54\\\\81&118\\end{bmatrix}$',
     hasImage: false,
   },
-
   {
     id: '17df510dec6',
     chapter: '矩陣A',
     question:
-      '$A=\\begin{bmatrix}0&1\\\\2&0\\end{bmatrix}$，$B=\\begin{bmatrix}3&1&6\\\\4&5&2\\end{bmatrix}$，求 $AB$、$BA$。',
+      '$A=\\begin{bmatrix}0&1\\\\2&0\\end{bmatrix}$，$B=\\begin{bmatrix}3&1&6\\\\4&5&2\\end{bmatrix}$，求 $AB$、$BA$',
     answer: '$\\begin{bmatrix}4&5&2\\\\6&2&12\\end{bmatrix}$；不存在',
     hasImage: false,
   },
@@ -19670,7 +19828,7 @@ export const matrixA: Question[] = [
   {
     id: '17df561e770',
     chapter: '矩陣A',
-    question: '若方陣 $\\begin{bmatrix}a^2&a-2\\\\a+1&1\\end{bmatrix}$ 的反方陣不存在，求 $a$。',
+    question: '若 $\\begin{bmatrix}a^2&a-2\\\\a+1&1\\end{bmatrix}$ 的反方陣不存在，求 $a$。',
     answer: '$-2$',
     hasImage: false,
   },
@@ -19741,7 +19899,7 @@ export const matrixA: Question[] = [
   {
     id: '17df569c034',
     chapter: '矩陣A',
-    question: '已知 $A$ 為轉移方陣，若 $x(A+A^2+A^3+\\cdots+A^{10})$ 為轉移方陣，求 $x$。',
+    question: '已知 $A$ 為轉移方陣，若 $x(A+A^2+A^3+\\cdots+A^{10})$ 為轉移方陣，求 $x$',
     answer: '$\\frac1{10}$',
     hasImage: false,
   },
@@ -19781,8 +19939,8 @@ export const matrixA: Question[] = [
     id: '17df56f3ed1',
     chapter: '矩陣A',
     question:
-      '方陣 $A=\\begin{bmatrix}2&1\\\\3&4\\end{bmatrix}$，試問：\n(1) $A$ 作用在 $P(-1,5)$ 所得的像為 $Q$，求 $Q$ 坐標\n(2) 若點 $(k+1,2k-3)$ 經 $A$ 變換之後所得的像為 $(7,m)$，求 $k$、$m$\n(3) 正方形四個頂點為 $(0,0)$、$(1,0)$、$(1,1)$、$(0,1)$，經過 $A$ 變換後的圖形為 $\\Gamma$，試畫出 $\\Gamma$ 的圖形',
-    answer: '(1) $(3,17)$ (2) $2$；$13$ (3) 略',
+      '方陣 $A=\\begin{bmatrix}2&1\\\\3&4\\end{bmatrix}$，$A$ 作用在 $P(-1,5)$ 所得的像為 $Q$，求 $Q$ 坐標。',
+    answer: '(3,17)',
     hasImage: false,
   },
   {
@@ -19797,7 +19955,7 @@ export const matrixA: Question[] = [
     id: '17df56ff47e',
     chapter: '矩陣A',
     question:
-      '方陣 $\\begin{bmatrix}5&6\\\\1&2\\end{bmatrix}$ 作用在點 $(a,5)$ 所得的像為 $(b,7)$，求 $a$，$b$。',
+      '方陣 $\\begin{bmatrix}5&6\\\\1&2\\end{bmatrix}$ 作用在點 $(a,5)$ 所得的像為 $(b,7)$，求 $a$、$b$。',
     answer: '$-3$；$15$',
     hasImage: false,
   },
@@ -19894,7 +20052,7 @@ export const matrixA: Question[] = [
     id: '17dea106397',
     chapter: '矩陣A',
     question:
-      '解下列聯立方程組：\n(1) $\\begin{cases}x-2y+3z=5\\\\2x+y-3z=-3\\\\3x-y+2z=6\\end{cases}$\n(2) $\\begin{cases}3x+y-z=2\\\\x+2y+z=8\\\\x-3y-3z=1\\end{cases}$\n(3) $\\begin{cases}x-y+2z=0\\\\x+y-z=0\\\\3x+y=0\\end{cases}$',
+      '試用列運算求解：(1) $\\begin{cases}x-2y+3z=5\\\\2x+y-3z=-3\\\\3x-y+2z=6\\end{cases}$　(2) $\\begin{cases}3x+y-z=2\\\\x+2y+z=8\\\\x-3y-3z=1\\end{cases}$　(3) $\\begin{cases}x-y+2z=0\\\\x+y-z=0\\\\3x+y=0\\end{cases}$',
     answer: '(1) $(1,1,2)$ (2) 無解 (3) $x=\\frac{y}{-3}=\\frac{z}{-2}$',
     hasImage: false,
   },
@@ -19910,16 +20068,16 @@ export const matrixA: Question[] = [
     id: '17dea13d4eb',
     chapter: '矩陣A',
     question:
-      '小智去合作社買東西吃，剛好合作社在進行促銷活動，熱狗限量 $100$ 根，每位同學一次能買 $1\\sim3$ 根，價錢分別為一根 $8$ 元、兩根 $15$ 元、三根 $23$ 元。當小智到合作社時，熱狗剩下 $3$ 根，已知在小智之前已有 $45$ 位同學搶購，合作社已獲得 $739$ 元。求購買 $3$ 根熱狗的同學人數。',
-    answer: '$15$',
+      '小智去合作社買東西吃，剛好合作社在進行促銷活動，熱狗限量 100 根，每位同學一次能買 1~3 根，價錢分別為一根 8 元、兩根 15 元、三根 23 元。當小智到合作社時，熱狗剩下 3 根，已知在小智之前已有 45 位同學搶購，合作社已獲得 739 元。求購買 3 根熱狗的同學人數。',
+    answer: '15',
     hasImage: false,
   },
   {
     id: '17dea136cc7',
     chapter: '矩陣A',
     question:
-      '籃球比賽中，有一位球員總共投進了 $19$ 球，得了 $39$ 分，其中罰球及三分球加起來還比二分球少進一個，請問若此人在比賽中分別進了 $x$ 個罰球 (每球一分)，$y$ 個二分球及 $z$ 個三分球，求序組 $(x,y,z)$。',
-    answer: '$(4,10,5)$',
+      '籃球比賽中，有一位球員總共投進了 19 球，得了 39 分，其中罰球及三分球加起來還比二分球少進一個，請問若此人在比賽中分別進了 $x$ 個罰球 (每球一分)，$y$ 個二分球及 $z$ 個三分球，求序組 $(x,y,z)$。',
+    answer: '(4,10,5)',
     hasImage: false,
   },
   {
