@@ -8345,8 +8345,8 @@ const combination: Question[] = [
     id: '17ac72792d5',
     chapter: '排列組合與機率',
     question:
-      '阿貴和阿美及其他 $8$ 名同學共 $10$ 名學生輪到本週擔任值日生。本週 $5$ 個上課日每天從尚未當過的同學中抽籤選出 $2$ 位輪值。則阿貴和阿美同一天擔任值日生的機率為？',
-    answer: '$\\frac{1}{9}$',
+      '阿貴和阿美及其他 8 名同學共 10 名學生輪到本週擔任值日生。本週 5 個上課日每天從尚未當過的同學中抽籤選出 2 位輪值。求阿貴和阿美同一天擔任值日生的機率。',
+    answer: '$\\frac19$',
     hasImage: false,
   },
   {
@@ -17431,6 +17431,38 @@ const spaceVector: Question[] = [
 // 空間中的平面與直線
 const spaceEquations: Question[] = [
   {
+    id: '1807da3fca7',
+    chapter: '空間中的平面與直線',
+    question:
+      '求包含直線 $L:\\begin{cases}x+y+4z=0\\\\3x+3y+z=0\\end{cases}$ 且與平面 $E:x-y-z=0$ 垂直的平面方程式。',
+    answer: '$x+y=0$',
+    hasImage: false,
+  },
+  {
+    id: '1807da2f079',
+    chapter: '空間中的平面與直線',
+    question:
+      '一平面 $F$ 通過 $A(1,1,3)$，$B(-2,1,1)$ 兩點且與平面 $E:2x-y+z=3$ 垂直，試求平面 $F$ 的方程式。',
+    answer: '$2x+y-3z+6=0$',
+    hasImage: false,
+  },
+  {
+    id: '1807da1d1f1',
+    chapter: '空間中的平面與直線',
+    question:
+      '若兩直線 $\\frac{x-7}2=b-y=\\frac{z-2}3$ 與 $x-4=\\frac{y+5}a=\\frac{z+3}2$ 垂直，求兩直線的交點坐標。',
+    answer: '$(5,3,-1)$',
+    hasImage: false,
+  },
+  {
+    id: '1807d7f78ac',
+    chapter: '空間中的平面與直線',
+    question:
+      '在空間坐標中，設平面 $3x-y+z+4=0$ 為一鏡面，有一光線通過點 $P(2,3,4)$，射向鏡面上的點 $O(0,2,-2)$，經鏡面反射後通過 $R$，若 $3\\overline{OR}=2\\overline{OP}$，求 $R$。',
+    answer: '$(\\frac83,0,-\\frac{14}3)$',
+    hasImage: false,
+  },
+  {
     id: '17f48ecbbac',
     chapter: '空間中的平面與直線',
     question: '試求空間中與平面 $5x-2y+3z=1$ 平行，並通過點 $(7,1,-8)$ 的平面方程式。',
@@ -18176,6 +18208,77 @@ const spaceEquations: Question[] = [
 
 // 條件機率
 const conditionalProb: Question[] = [
+  {
+    id: '1807d95db8c',
+    chapter: '條件機率',
+    question: '擲三顆公正骰子一次，在至少出現一顆 5 點的條件下，求點數和為奇數的機率。',
+    answer: '$\\frac{46}{91}$',
+    hasImage: false,
+  },
+  {
+    id: '1807d94cf3a',
+    chapter: '條件機率',
+    question:
+      '學期結束，教務處公告：全校學生中，有 $\\frac25$ 國文不及格，有 $\\frac34$ 數學不及格，有 $\\frac3{20}$ 兩科都不及格。今任選一學生，若已知他國文不及格，求他數學及格的機率。',
+    answer: '$\\frac58$',
+    hasImage: false,
+  },
+  {
+    id: '1807d9373c7',
+    chapter: '條件機率',
+    question:
+      '袋中有 8 個白球，4 個紅球，每個球被取到的機率均等，一次取三球，求三球同色的條件下，三球皆為紅色的機率。',
+    answer: '$\\frac1{15}$',
+    hasImage: false,
+  },
+  {
+    id: '1807d909204',
+    chapter: '條件機率',
+    question:
+      '投擲一公正的骰子，考慮下列三個事件：$A$：出現奇數點；$B$：出現偶數點；$C$：出現 1 點或 2 點，則下列選項何者正確？\n(1) $P(A|B)=0$ (2) $P(A|C)=\\frac12$\n(3) $A$、$B$ 是獨立事件 (4) $A$、$C$ 是獨立事件\n(5) $B$、$C$ 是獨立事件',
+    answer: '(1)(2)(4)(5)',
+    hasImage: false,
+  },
+  {
+    id: '1807d77e3b5',
+    chapter: '條件機率',
+    question:
+      '某校數學複習考有 800 位同學參加，評分後將此 800 位同學依總分由高到低排序：前 200 人為 A 組，次 200 人為 B 組，再次 200 人為 C 組，最後 200 人為 D 組。再進一步逐題分析同學答題情形，將各組第一題的答對率列表如下，若從第一題答錯的同學中隨機抽出一人，此人屬於 C 組的機率為 $\\frac25$，求 C 組中第一題答錯的人數。$$\\begin{array}{|c|c|}\\hline&A&B&C&D\\\\\\hline第一題答對率(\\%)&100&80&p&0\\\\\\hline\\end{array}$$',
+    answer: '160',
+    hasImage: false,
+  },
+  {
+    id: '1807d7c4809',
+    chapter: '條件機率',
+    question:
+      '若某社團參加人員依性別與年級分，人數統計表如下。今隨機從社團中抽樣，設 A、B 分別表抽到男生與抽到二年級學生的事件，若事件 A、B 為獨立，求 $x$。\n$$\\begin{array}{|c|c|}\\hline&一年級&二年級\\\\\\hline男&6&18\\\\\\hline女&4&x\\\\\\hline\\end{array}$$',
+    answer: '12',
+    hasImage: false,
+  },
+  {
+    id: '18051fc51b0',
+    chapter: '條件機率',
+    question:
+      '設 $A$、$B$ 為樣本空間之兩事件，且 $P(A)=\\frac13$，$P(B)=\\frac12$，$P(A\\cup B)=\\frac7{12}$，求 $P(B|A)$。',
+    answer: '$\\frac34$',
+    hasImage: false,
+  },
+  {
+    id: '18052006133',
+    chapter: '條件機率',
+    question:
+      '袋中有 2 個金幣及 3 個銀幣，由小傑取出一枚握在手中，並聲稱是一枚金幣。\n(1) 若小明認為小傑說實話的機率為 $\\frac23$，則對小明來說，小傑手中確實是金幣的機率為？\n(2) 若小華認為小傑說實話的機率只有 $\\frac13$，則對小華而言，小傑手中確實是金幣的機率為？',
+    answer: '(1) $\\frac47$ (2) $\\frac14$',
+    hasImage: false,
+  },
+  {
+    id: '1805203579d',
+    chapter: '條件機率',
+    question:
+      '有一顆不公正的骰子丟擲百伺候個點數的出現次數如表，擲該骰兩次，根據表求：\n(1) 點數均為奇數的機率\n(2) 點數和的期望值\n$$\\begin{array}{|c|c|}\\hline點數&1&2&3&4&5&6\\\\\\hline次數&23&21&16&18&12&10\\\\\\hline\\end{array}$$',
+    answer: '(1) 0.2601 (2) 6.1',
+    hasImage: false,
+  },
   {
     id: '17fdfa6586d',
     chapter: '條件機率',
@@ -19324,6 +19427,89 @@ const conditionalProb: Question[] = [
 
 // 矩陣A
 export const matrixA: Question[] = [
+  {
+    id: '1807d84d9d7',
+    chapter: '矩陣A',
+    question:
+      '$A=\\begin{bmatrix}3&1&7\\\\2&4&5\\end{bmatrix}$，$B=\\begin{bmatrix}1&3&5\\\\7&2&8\\\\4&6&3\\end{bmatrix}$，求 $AB$、$BA$。',
+    answer: '$\\begin{bmatrix}58&53&44\\\\50&44&57\\end{bmatrix}$；不存在',
+    hasImage: false,
+  },
+  {
+    id: '1807d830fcb',
+    chapter: '矩陣A',
+    question:
+      '矩陣 $\\begin{bmatrix}2&1&0&3\\\\1&7&4&6\\end{bmatrix}$ 可以乘下列哪些矩陣？\n(1) $\\begin{bmatrix}2&4\\\\6&5\\end{bmatrix}$ (2) $\\begin{bmatrix}1&4&3&2\\end{bmatrix}$ (3) $\\begin{bmatrix}3&6\\\\1&8\\\\4&3\\end{bmatrix}$\n(4) $\\begin{bmatrix}1\\\\3\\\\7\\\\4\\end{bmatrix}$ (5) $\\begin{bmatrix}1&2&0\\\\3&5&4\\\\7&8&3\\\\4&7&3\\end{bmatrix}$',
+    answer: '(4)(5)',
+    hasImage: false,
+  },
+  {
+    id: '18052045c6e',
+    chapter: '矩陣A',
+    question: '$\\begin{cases}x+5y-2z=7\\\\x-4y+z=-5\\\\7x-3y-z=0\\end{cases}$，求解 $(x,y,z)$。',
+    answer: '(2,3,5)',
+    hasImage: false,
+  },
+  {
+    id: '18052051b6a',
+    chapter: '矩陣A',
+    question: '$\\begin{cases}3x+4y+3z=0\\\\x+2y-z=-1\\\\x+y+2z=1\\end{cases}$，求解 $(x,y,z)$。',
+    answer: '無解',
+    hasImage: false,
+  },
+  {
+    id: '18052069a4f',
+    chapter: '矩陣A',
+    question:
+      '一容量為 200 立方公尺的水塔，由 A 水管注入水，B、C 兩水管放出水。現在是滿水位，若三水管全開則 30 分鐘水乾，只開 A、B 兩水管則 2 小時水乾，只開 A、C 兩水管則 1 小時水乾，求 B 水管每小時放出水量。',
+    answer: '200 立方公尺',
+    hasImage: false,
+  },
+  {
+    id: '18052079823',
+    chapter: '矩陣A',
+    question: '$\\begin{cases}x+4y+z=6\\\\2x-y-z=0\\\\x+2y+2z=5\\end{cases}$，求解 $(x,y,z)$。',
+    answer: '(1,1,1)',
+    hasImage: false,
+  },
+  {
+    id: '18052085551',
+    chapter: '矩陣A',
+    question: '$\\begin{cases}2x-y-z=0\\\\x+2y+2z=10\\\\x+4y+z=9\\end{cases}$，求解 $(x,y,z)$。',
+    answer: '(2,1,3)',
+    hasImage: false,
+  },
+  {
+    id: '1805208ff3c',
+    chapter: '矩陣A',
+    question: '$\\begin{cases}x+2y+z=1\\\\2x+y+z=2\\\\x+5y+2z=0\\end{cases}$，求解 $(x,y,z)$。',
+    answer: '無解',
+    hasImage: false,
+  },
+  {
+    id: '180520bbcbc',
+    chapter: '矩陣A',
+    question:
+      '下列哪些選項中的矩陣經過一系列的列運算可以化成 $\\begin{bmatrix}1&3&4&6\\\\0&1&2&5\\\\0&0&1&2\\end{bmatrix}$？\n(1) $\\begin{bmatrix}1&2&2&1\\\\0&1&2&5\\\\0&4&9&22\\end{bmatrix}$ (2) $\\begin{bmatrix}1&3&4&6\\\\2&7&10&17\\\\1&3&5&-2\\end{bmatrix}$\n(3) $\\begin{bmatrix}1&1&0&-4\\\\2&3&2&-3\\\\1&1&0&-4\\end{bmatrix}$ (4) $\\begin{bmatrix}1&3&4&6\\\\0&2&-1&0\\\\2&5&6&7\\end{bmatrix}$',
+    answer: '(1)(4)',
+    hasImage: false,
+  },
+  {
+    id: '180520d375f',
+    chapter: '矩陣A',
+    question:
+      '若三平面 $\\begin{cases}x+2y-z=3\\\\2x+5y+2z=5\\\\x+4y+7z=a\\end{cases}$ 交於一直線。求 $a$。',
+    answer: '1',
+    hasImage: false,
+  },
+  {
+    id: '180520ff92a',
+    chapter: '矩陣A',
+    question:
+      '就實數 $k$ 之值，討論三平面相交的情形: $\\begin{cases}x-y-z=k\\\\kx-3y-4z=6\\\\x-ky-3z=4\\end{cases}$。',
+    answer: '$k\\ne2\\land k\\ne5$，唯一解；$k=2$，無限多解；$k=5$，無解',
+    hasImage: false,
+  },
   {
     id: '1804b49a689',
     chapter: '矩陣A',
