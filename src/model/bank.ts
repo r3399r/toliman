@@ -17431,6 +17431,61 @@ const spaceVector: Question[] = [
 // 空間中的平面與直線
 const spaceEquations: Question[] = [
   {
+    id: '1809a4534ba',
+    chapter: '空間中的平面與直線',
+    question:
+      '空間坐標中，若 $A(2,-1,3)$、$B(5,4,-1)$ 兩點同時在相異兩平面 $E_1$、$E_2$ 上，試求下列哪一個點也同時在此兩平面上？(1) $(8,9,11)$ (2) $(-1,4,7)$ (3) $(11,14,15)$ (4) $(14,19,-13)$ (5) $(-10,-21,-19)$',
+    answer: '(4)',
+    hasImage: false,
+  },
+  {
+    id: '1809a477bd2',
+    chapter: '空間中的平面與直線',
+    question:
+      '空間中，下列哪些選項的圖形為一直線？\n(1) $2x+y=5$ (2) $\\frac2{x+1}=\\frac3y=\\frac{-1}z$ (3) $x^2+z^2=0$ (4) $x=y=z=1$ (5) $\\begin{cases}x+y=1\\\\3x+y=5\\end{cases}$',
+    answer: '(3)(5)',
+    hasImage: false,
+  },
+  {
+    id: '1809a4c3371',
+    chapter: '空間中的平面與直線',
+    question:
+      '設 $A(1,2,3)$，$B(3,0,1)$，$\\xvector{AB}$ 在平面 $ax+2y+bz+4=0$ 的投影長為 0，求數對 $(a,b)$。',
+    answer: '$(-2,2)$',
+    hasImage: false,
+  },
+  {
+    id: '1809a51b463',
+    chapter: '空間中的平面與直線',
+    question:
+      '圖為長方體 $ABCD-EFGH$，其中 $\\overline{AB}=5$，$\\overline{AD}=3$，$\\overline{AE}=2$。設平面 $AEHD$ 與平面 $AEGC$ 的夾角為 $\\theta$，求 $\\tan\\theta$。',
+    answer: '$\\frac53$',
+    hasImage: true,
+  },
+  {
+    id: '1809a531cd7',
+    chapter: '空間中的平面與直線',
+    question: '空間中 $A(1,0,2)$，$B(2,1,3)$，$C(4,2,5)$，求通過 $A$、$B$、$C$ 三點的平面方程式。',
+    answer: '$x-z+1=0$',
+    hasImage: false,
+  },
+  {
+    id: '1809a54e68e',
+    chapter: '空間中的平面與直線',
+    question:
+      '求兩直線 $L_1:\\frac{x-1}2=\\frac{y+2}4=\\frac{z-2}{-1}$ 與 $L_2:\\begin{cases}x=t\\\\y=8-2t\\\\z=-5+2t\\end{cases},t\\in\\mathbb R$ 的交點坐標。',
+    answer: '$(3,2,1)$',
+    hasImage: false,
+  },
+  {
+    id: '1809a56f461',
+    chapter: '空間中的平面與直線',
+    question:
+      '兩直線 $L_1:\\frac x1=\\frac{y+3}2=\\frac{z-4}{-3}$ 與 $L_2:\\frac{x+1}2=\\frac{y-1}{-2}=\\frac{z-2}{-1}$，求：\n(1) $L_1$ 與 $L_2$ 的交點坐標 (2) 包含 $L_1$、$L_2$ 兩直線的平面方程式',
+    answer: '(1) $(1,-1,1)$ (2) $8x+5y+6z=9$',
+    hasImage: false,
+  },
+  {
     id: '1807da3fca7',
     chapter: '空間中的平面與直線',
     question:
@@ -18208,6 +18263,46 @@ const spaceEquations: Question[] = [
 
 // 條件機率
 const conditionalProb: Question[] = [
+  {
+    id: '1809a3dd105',
+    chapter: '條件機率',
+    question:
+      '設 $A$、$B$ 為獨立事件，且 $P(B)=\\frac15$，$P(A\\cup B)=\\frac7{10}$，求 $P(A)$。(1) $\\frac12$ (2) $\\frac3{10}$ (3) $\\frac78$ (4) $\\frac58$ (5) $\\frac38$',
+    answer: '(4)',
+    hasImage: false,
+  },
+  {
+    id: '1809a408850',
+    chapter: '條件機率',
+    question:
+      '設甲、乙兩人射擊的命中率分別為 $\\frac23$、$\\frac34$，今兩人同射一靶，每人各射擊一發，且射擊時彼此互不影響，若已知靶面恰中一發，求是由甲命中的機率。(1) $\\frac34$ (2) $\\frac16$ (3) $\\frac58$ (4) $\\frac13$ (5) $\\frac25$',
+    answer: '(5)',
+    hasImage: false,
+  },
+  {
+    id: '1809a4a0b3e',
+    chapter: '條件機率',
+    question:
+      '設 $A$、$B$ 為樣本空間中的兩個事件，已知 $P(A)=P(B)=0.6$，請選出正確的選項。\n(1) $P(A\\cup B)=1$ (2) $P(A\\cap B)\\ge0.2$ (3) $P(A|B)=1$ (4) $P(A|B)=P(B|A)$ (5) $A$、$B$ 是獨立事件',
+    answer: '(2)(4)',
+    hasImage: false,
+  },
+  {
+    id: '1809a599bb8',
+    chapter: '條件機率',
+    question:
+      '擲一顆公正的骰子兩次，已知擲出的點數和大於 8 的條件下，求第一次出現 5 點的條件機率。',
+    answer: '$\\frac3{10}$',
+    hasImage: false,
+  },
+  {
+    id: '1809a5c302f',
+    chapter: '條件機率',
+    question:
+      '市面上某廠牌的防毒軟體聲稱會對你所下載的所有檔案都掃描一次，無論該檔案有毒或是沒毒，病毒偵測準確度達 95%，已知某批下載的檔案中，有 2% 含帶病毒。當此防毒軟體掃描的過程中，顯示某檔案含帶病毒，求該檔案確實含帶病毒的機率。',
+    answer: '$\\frac{19}{68}$',
+    hasImage: false,
+  },
   {
     id: '1807d95db8c',
     chapter: '條件機率',
@@ -19229,16 +19324,16 @@ const conditionalProb: Question[] = [
     id: '1794b4a21c2',
     chapter: '條件機率',
     question:
-      '已知某種飛彈擊中目標的機率為 $\\frac{3}{5}$，則至少要同時發射幾枚飛彈，才能使擊中目標(即至少中 $1$ 發)的機率提高到 $99.9\\%$？($\\log2\\approx0.3010$)',
-    answer: '$8$',
+      '已知某種飛彈擊中目標的機率為 $\\frac35$，則至少要同時發射幾枚飛彈，才能使擊中目標 (即至少中 1 發) 的機率提高到 99.9%？($\\log2\\approx0.3010$)',
+    answer: '8',
     hasImage: false,
   },
   {
     id: '179032bab5b',
     chapter: '條件機率',
     question:
-      '有一個孩童猜拳，過去 $20$ 次中，此孩童出石頭和布的次數各有 $8$ 次，根據此這 $20$ 次的紀錄，下一次這位孩童出剪刀的機率為？',
-    answer: '$\\frac{1}{5}$',
+      '有一個孩童猜拳，過去 20 次中，此孩童出石頭和布的次數各有 8 次，根據此這 20 次的紀錄，下一次這位孩童出剪刀的機率為？',
+    answer: '$\\frac15$',
     hasImage: false,
   },
   {
