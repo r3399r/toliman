@@ -19523,6 +19523,88 @@ const conditionalProb: Question[] = [
 // 矩陣A
 export const matrixA: Question[] = [
   {
+    id: '180e2347fa4',
+    chapter: '矩陣A',
+    question: '設 $A=\\begin{bmatrix}x+2&1\\\\6&x+1\\end{bmatrix}$ 的乘法反方陣不存在，求 $x$。',
+    answer: '$1\\lor-4$',
+    hasImage: false,
+  },
+  {
+    id: '180e2331aca',
+    chapter: '矩陣A',
+    question:
+      '設 $A=\\begin{bmatrix}1&2\\\\3&x\\end{bmatrix}$，$B=\\begin{bmatrix}6&y\\\\3&9\\end{bmatrix}$，若 $(A+B)^2=A^2+2AB+B^2$ 成立，求 $x$、$y$',
+    answer: '4；2',
+    hasImage: false,
+  },
+  {
+    id: '180e22d0fdc',
+    chapter: '矩陣A',
+    question:
+      '設矩陣 $A=\\begin{bmatrix}5&5\\\\5&5\\end{bmatrix}$，$I=\\begin{bmatrix}1&0\\\\0&1\\end{bmatrix}$，試將 $(I+A)^2$ 表成 $aI+bA$ 的形式，求 $a$、$b$。',
+    answer: '$1$；$12$',
+    hasImage: false,
+  },
+  {
+    id: '180e2291a1d',
+    chapter: '矩陣A',
+    question: '試求 $k$ 的範圍使得 $A=\\begin{bmatrix}1-k&2\\\\4&3-k\\end{bmatrix}$ 有乘法反方陣。',
+    answer: '$k\\ne1,5$',
+    hasImage: false,
+  },
+  {
+    id: '180e227a8cf',
+    chapter: '矩陣A',
+    question:
+      '下列哪些方陣有乘法反方陣？\n(1) $\\begin{bmatrix}\\sqrt2&\\sqrt3\\\\\\sqrt5&\\sqrt7\\end{bmatrix}$ (2) $\\begin{bmatrix}1&-1\\\\-1&1\\end{bmatrix}$\n(3) $\\begin{bmatrix}1&0\\\\0&0\\end{bmatrix}$ (4) $\\begin{bmatrix}2&4\\\\6&8\\end{bmatrix}$',
+    answer: '(1)(4)',
+    hasImage: false,
+  },
+  {
+    id: '180e225be30',
+    chapter: '矩陣A',
+    question:
+      '已知 $\\begin{bmatrix}5&4\\\\3&-2\\end{bmatrix}\\begin{bmatrix}x\\\\y\\end{bmatrix}=\\begin{bmatrix}5\\\\-7\\end{bmatrix}$，試利用乘法反方陣求 $x$、$y$。',
+    answer: '$-\\frac9{11}$；$\\frac{25}{11}$',
+    hasImage: false,
+  },
+  {
+    id: '180e221a095',
+    chapter: '矩陣A',
+    question: '試求 $\\begin{bmatrix}-4&6\\\\-3&7\\end{bmatrix}$ 的乘法反方陣。',
+    answer: '$\\begin{bmatrix}-\\frac7{10}&\\frac35\\\\-\\frac3{10}&\\frac25\\end{bmatrix}$',
+    hasImage: false,
+  },
+  {
+    id: '180e21fccfa',
+    chapter: '矩陣A',
+    question: '已知 $A=\\begin{bmatrix}1&2\\\\4&3\\end{bmatrix}$，試求 $A^2-4A$。',
+    answer: '$\\begin{bmatrix}5&0\\\\0&5\\end{bmatrix}$',
+    hasImage: false,
+  },
+  {
+    id: '180e21e1269',
+    chapter: '矩陣A',
+    question: '已知 $A=\\begin{bmatrix}1&-1\\\\0&1\\end{bmatrix}$，試求 $A+A^2+\\cdots+A^{10}$。',
+    answer: '$\\begin{bmatrix}10&-55\\\\0&10\\end{bmatrix}$',
+    hasImage: false,
+  },
+  {
+    id: '180e21c043e',
+    chapter: '矩陣A',
+    question:
+      '已知 $A$、$B$ 是二階方陣，$A+B=\\begin{bmatrix}3&5\\\\4&2\\end{bmatrix}$，$A-B=\\begin{bmatrix}1&-1\\\\2&4\\end{bmatrix}$，試求 $A^2-B^2$。',
+    answer: '$\\begin{bmatrix}6&10\\\\15&11\\end{bmatrix}$',
+    hasImage: false,
+  },
+  {
+    id: '180e218cfa1',
+    chapter: '矩陣A',
+    question: '$A=\\begin{bmatrix}2&0\\\\1&-2\\end{bmatrix}$，若 $A^3+B=I_2$，求 $B$。',
+    answer: '$\\begin{bmatrix}-7&0\\\\-4&9\\end{bmatrix}$',
+    hasImage: false,
+  },
+  {
     id: '1807d84d9d7',
     chapter: '矩陣A',
     question:
