@@ -19523,6 +19523,94 @@ const conditionalProb: Question[] = [
 // 矩陣A
 export const matrixA: Question[] = [
   {
+    id: '18105214e8d',
+    chapter: '矩陣A',
+    question:
+      '已知二階方陣 $A=\\begin{bmatrix}4&3\\\\3&2\\end{bmatrix}$，$B=\\begin{bmatrix}2&1\\\\3&2\\end{bmatrix}$，求滿足 $XA=B$ 之矩陣 $X$。',
+    answer: '$\\begin{bmatrix}-1&2\\\\0&1\\end{bmatrix}$',
+    hasImage: false,
+  },
+  {
+    id: '181051faf3e',
+    chapter: '矩陣A',
+    question:
+      '已知 $\\begin{bmatrix}a_{11}&a_{12}\\\\a_{21}&a_{22}\\end{bmatrix}\\begin{bmatrix}x_1\\\\x_2\\end{bmatrix}=\\begin{bmatrix}7\\\\-3\\end{bmatrix}$；$\\begin{bmatrix}a_{11}&a_{12}\\\\a_{21}&a_{22}\\end{bmatrix}\\begin{bmatrix}y_1\\\\y_2\\end{bmatrix}=\\begin{bmatrix}-5\\\\3\\end{bmatrix}$，求 $\\begin{bmatrix}a_{11}&a_{12}\\\\a_{21}&a_{22}\\end{bmatrix}\\begin{bmatrix}y_1&x_1\\\\y_2&x_2\\end{bmatrix}$。',
+    answer: '$\\begin{bmatrix}-5&7\\\\3&-3\\end{bmatrix}$',
+    hasImage: false,
+  },
+  {
+    id: '181051c9665',
+    chapter: '矩陣A',
+    question:
+      '選出正確的選項。\n(1) 若 $A^2=A$，則 $\\det(A)=0\\lor1$\n(2) 若 $A$、$B$、$C$ 均為轉移矩陣，則 $\\frac25A^2+\\frac35BC$ 亦為轉移矩陣\n(3) 若 $A^{-1}$、$B^{-1}$ 存在，則 $A^{-1}B^{-1}=(AB)^{-1}$\n(4) 若 $AB=I$，則 $A^2B=A$\n(5) 若 $AB=O$，則 $BA=O$',
+    answer: '(1)(2)(4)',
+    hasImage: false,
+  },
+  {
+    id: '1810516c9e9',
+    chapter: '矩陣A',
+    question:
+      '設 A、B 二箱中，A 箱內有兩球為一黑一白，B 箱內有一白球，甲、乙二人輪流取球，每次先由甲自 A 箱內任取一球，放入 B 箱內，再由乙自 B 箱內任取一球，放入 A 箱內，這樣稱為一局。\n(1) 當第一局結束時，A 箱內兩球為一黑一白的機率為？\n(2) 當第三局結束時，A 箱內兩球為一黑一白的機率為？',
+    answer: '(1) $\\frac34$ (2) $\\frac{43}{64}$',
+    hasImage: false,
+  },
+  {
+    id: '181050de865',
+    chapter: '矩陣A',
+    question:
+      '設 $B=\\begin{bmatrix}1&-1\\\\1&0\\end{bmatrix}$，$P=\\begin{bmatrix}-1&0\\\\0&3\\end{bmatrix}$，求 $(BPB^{-1})^6$。',
+    answer: '$\\begin{bmatrix}729&-728\\\\0&1\\end{bmatrix}$',
+    hasImage: false,
+  },
+  {
+    id: '18105099dc7',
+    chapter: '矩陣A',
+    question:
+      '某工廠有甲、乙兩條生產線，共有 1400 位工人。工作一週後，依轉調規定：甲生產線保留 $\\frac23$ 的工人，另 $\\frac13$ 的工人轉調到乙生產線；乙生產線保留 $\\frac34$ 的工人，另 $\\frac14$ 的工人轉調到甲生產線。雖然每週都這樣作輪調，但是每條生產線上的工人總數都是不變的，求甲生產線上的工人數。',
+    answer: '600',
+    hasImage: false,
+  },
+  {
+    id: '18105037348',
+    chapter: '矩陣A',
+    question:
+      '假設有一學生，他的讀書習慣是：如果他在今晚讀書，則他在明晚有 60% 的機率不讀書；如果他在今晚不讀書，則他在明晚有 50% 的機率不讀書。\n(1) 若已知他在星期一讀書，則他兩天後 (星期三) 讀書的機率為？\n(2) 就長期而言，他晚上讀書的機率為？',
+    answer: '(1) 0.46 (2) $\\frac5{11}$',
+    hasImage: false,
+  },
+  {
+    id: '181050102ac',
+    chapter: '矩陣A',
+    question:
+      '設 $A$、$B$ 是兩個 $2\\times2$ 階的轉移矩陣，請問下列哪些敘述是正確的？\n(1) $A^2$ 是轉移矩陣 (2) $AB$ 不是轉移矩陣\n(3) $\\frac12(A+B)$ 是轉移矩陣 (4) $A^{-1}$ 是轉移矩陣',
+    answer: '(1)(3)',
+    hasImage: false,
+  },
+  {
+    id: '18104fe687b',
+    chapter: '矩陣A',
+    question:
+      '將 $\\begin{cases}5x+4y-5=0\\\\3x-2y+7=0\\end{cases}$ 寫成 $AX=B$ 的形式，並利用乘法反方陣解此方程組。',
+    answer: '$x=-\\frac9{11}$；$y=\\frac{25}{11}$',
+    hasImage: false,
+  },
+  {
+    id: '18104faf725',
+    chapter: '矩陣A',
+    question:
+      '若 $A^3=\\begin{bmatrix}3&-10\\\\2&-7\\end{bmatrix}$，$A^5=\\begin{bmatrix}7&-25\\\\5&-18\\end{bmatrix}$，求 $A$。',
+    answer: '$\\begin{bmatrix}2&-5\\\\1&-3\\end{bmatrix}$',
+    hasImage: false,
+  },
+  {
+    id: '18104f94bf1',
+    chapter: '矩陣A',
+    question:
+      '設矩陣 $\\begin{bmatrix}a&b\\\\c&-a\\end{bmatrix}$ 為一可逆矩陣，且其行列式值 $\\det(A)=3$，試求 $\\det(A-A^{-1})$。',
+    answer: '$\\frac{16}3$',
+    hasImage: false,
+  },
+  {
     id: '180e2347fa4',
     chapter: '矩陣A',
     question: '設 $A=\\begin{bmatrix}x+2&1\\\\6&x+1\\end{bmatrix}$ 的乘法反方陣不存在，求 $x$。',
