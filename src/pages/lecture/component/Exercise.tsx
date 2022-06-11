@@ -8,9 +8,10 @@ import style from './Exercise.module.scss';
 type Props = {
   ids: string[];
   height?: string;
+  showAnswer?: boolean;
 };
 
-const Exercise = ({ ids, height = '6cm' }: Props) => {
+const Exercise = ({ ids, height = '6cm', showAnswer = true }: Props) => {
   const questions: Question[] = getQuestions(ids);
 
   const addDefaultSrc = (ev: ChangeEvent<HTMLImageElement>) => {
@@ -27,10 +28,14 @@ const Exercise = ({ ids, height = '6cm' }: Props) => {
             className={classNames(style.card, {
               [style.left]: i % 2 === 0,
               [style.odd]: questions.length === 1,
+              [style.top]: i > 1,
             })}
             style={{ height }}
           >
             <Textarea2MathJax text={question.question} />
+            {showAnswer && (
+              <Textarea2MathJax text={`Ans: ${question.answer}`} className={style.ans} />
+            )}
             {question.hasImage && (
               <img
                 className={style.img}

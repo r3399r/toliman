@@ -28,9 +28,17 @@
 .left {
   border-right: 1px dashed #000000;
 }
+.top {
+  border-top: 1px dashed #000000;
+}
 .odd {
   width: 100%;
   border-right: none;
+}
+.ans {
+  font-size: 13px;
+  color: #5b81ff;
+  float: right;
 }
 img {
   max-width: 100%;

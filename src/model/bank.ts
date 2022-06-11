@@ -301,7 +301,7 @@ const numAndEquation: Question[] = [
     id: '17a0dc85372',
     chapter: '數與式',
     question:
-      '下列哪些分數可化成有限小數？\n(1) $\\frac{7}{8}$ (2) $\\frac{8}{7}$ (3) $\\frac{21}{75}$ (4) $\\frac{3}{2^{10}}$',
+      '下列哪些分數可化成有限小數？\n(1) $\\dfrac78$ (2) $\\dfrac87$ (3) $\\dfrac{21}{75}$ (4) $\\dfrac3{2^{10}}$',
     answer: '(1)(3)(4)',
     hasImage: false,
   },
@@ -310,7 +310,7 @@ const numAndEquation: Question[] = [
     chapter: '數與式',
     question:
       '將 $\\frac{1234}{9999}$ 化成小數形式為 $0.\\overline{1234}$，設小數點後第 $n$ 位的數字為 $f(n)$，求 $f(1)+f(2)+\\cdots+f(99)$。',
-    answer: '$246$',
+    answer: '246',
     hasImage: false,
   },
   {
@@ -324,14 +324,22 @@ const numAndEquation: Question[] = [
     id: '17a0dd42c25',
     chapter: '數與式',
     question: '設 $a$、$b$ 為循環小數，$a=0.\\overline{12}$，$b=0.\\overline{01}$，求 $a-b$。',
-    answer: '$\\frac{1}{9}$',
+    answer: '$\\frac19$',
+    hasImage: false,
+  },
+  {
+    id: '181525558a2',
+    chapter: '數與式',
+    question:
+      '選出正確的選項。\n(1) $0.3\\overline{43}$ 不是有理數 (2) $0.\\overline{34}>\\frac13$\n(3) $0.\\overline{34}>0.343$ (4) $0.\\overline{34}>0.35$\n(5) $0.\\overline{34}=0.3\\overline{43}$',
+    answer: '(2)(3)(4)(5)',
     hasImage: false,
   },
   {
     id: '17a0ddf5269',
     chapter: '數與式',
     question:
-      '設 $a$、$b$、$c$ 為有理數，$x$、$y$ 為無理數，下列推論哪些為真？\n(1) $ab+c$ 必為有理數 (2) $x+y$ 必為無理數\n(3) $a+x$ 必為無理數 (4) $ax$ 必為無理數',
+      '設 $a,b,c\\in\\mathbb Q$，$x,y\\notin\\mathbb Q$，下列何者正確？\n(1) $ab+c\\in\\mathbb Q$ (2) $x+y\\notin\\mathbb Q$\n(3) $a+x\\notin\\mathbb Q$ (4) $ax\\notin\\mathbb Q$',
     answer: '(1)(3)',
     hasImage: false,
   },
@@ -339,7 +347,14 @@ const numAndEquation: Question[] = [
     id: '17a0de2821c',
     chapter: '數與式',
     question: '問 $\\sqrt{7+\\sqrt{47}}$，在哪兩個連續整數之間？',
-    answer: '$3$ 與 $4$',
+    answer: '3,4',
+    hasImage: false,
+  },
+  {
+    id: '1815259a744',
+    chapter: '數與式',
+    question: '$x,y\\in\\mathbb Z$，若 $|x-7|+3(y-4)^2=2$，求數對 $(x,y)$。',
+    answer: '$(9,4)\\lor(5,4)$',
     hasImage: false,
   },
   {
@@ -347,14 +362,22 @@ const numAndEquation: Question[] = [
     chapter: '數與式',
     question:
       '點 $P(x)$ 在 $A(5)$、$B(11)$ 之間，且 $\\overline{AP}:\\overline{PB}=\\sqrt{3}:\\sqrt{2}$，則 $x=a+b\\sqrt{6}$，其中 $a,b\\in\\mathbb{Z}$，求 $a$、$b$。',
-    answer: '$a=23$；$b=-6$',
+    answer: '23；-6',
+    hasImage: false,
+  },
+  {
+    id: '181525f5385',
+    chapter: '數與式',
+    question:
+      '已知 $a,b\\in\\mathbb R$ 且 $a>b$，則下列哪些大小關係必定成立？\n(1) $\\frac{a+b}3<\\frac{a+b}2$ (2) $\\frac{4a+b}5<\\frac{3a+b}4$\n(3) 若 $b>0$，則 $\\frac{2a-b}5<\\frac{a-b}4$\n(4) 若 $b<0$，則 $\\frac{2a-b}5<\\frac{a-b}4$',
+    answer: '(2)(4)',
     hasImage: false,
   },
   {
     id: '17a0df8d0dc',
     chapter: '數與式',
-    question: '化簡 $\\sqrt{5+2\\sqrt{6}}+\\sqrt{6+2\\sqrt{5}}$。',
-    answer: '$1+\\sqrt{2}+\\sqrt{3}+\\sqrt{5}$',
+    question: '化簡：(1) $\\sqrt{5+2\\sqrt{6}}$ (2) $\\sqrt{6+2\\sqrt{5}}$。',
+    answer: '(1) $1+\\sqrt2$ (2) $\\sqrt3+\\sqrt5$',
     hasImage: false,
   },
   {
@@ -367,36 +390,36 @@ const numAndEquation: Question[] = [
   {
     id: '17a0e014770',
     chapter: '數與式',
-    question: '已知 $x>0$，$y>0$，且 $xy=225$，求 $4x+9y$ 的最小值，以及此時的 $x$、$y$。',
-    answer: '最小值 $180$；$x=\\frac{45}{2}$；$y=10$',
+    question: '已知 $x>0$，$y>0$，且 $xy=225$，求 $4x+9y$ 的最小值及此時的 $x$、$y$。',
+    answer: '180；$\\frac{45}2$；10',
     hasImage: false,
   },
   {
     id: '17a0e043512',
     chapter: '數與式',
-    question: '設 $x>0$，求 $f(x)=x+\\frac{16}{x+1}$ 在 $x$ 為何時，$f(x)$ 有最小的函數值為？',
-    answer: '$x=3$，最小值 $7$',
+    question: '設 $x>0$，求 $f(x)=x+\\frac{16}{x+1}$ 的最小值及此時的 $x$。',
+    answer: '7；3',
     hasImage: false,
   },
   {
     id: '17a0e0fafec',
     chapter: '數與式',
     question: '化簡 $(4+\\sqrt{10})^3+(4-\\sqrt{10})^3$。',
-    answer: '$368$',
+    answer: '368',
     hasImage: false,
   },
   {
     id: '17a0e1064a1',
     chapter: '數與式',
-    question: '若 $x+\\frac{1}{x}=5$，求 $x^3+\\frac{1}{x^3}$。',
-    answer: '$110$',
+    question: '若 $x+\\dfrac1 x=5$，求 $x^3+\\dfrac1{x^3}$。',
+    answer: '110',
     hasImage: false,
   },
   {
     id: '17a0e14abac',
     chapter: '數與式',
     question: '求方程式 $|2x+1|=9$ 的解。',
-    answer: '$4$ 或 $-5$',
+    answer: '$4\\lor-5$',
     hasImage: false,
   },
   {
@@ -418,21 +441,45 @@ const numAndEquation: Question[] = [
     id: '17a0e1f7aea',
     chapter: '數與式',
     question: '求 $\\left(\\frac{8}{27}\\right)^{-\\frac{2}{3}}\\times(0.25)^{-2.5}$',
-    answer: '$72$',
+    answer: '72',
     hasImage: false,
   },
   {
     id: '17a0e447974',
     chapter: '數與式',
-    question: '求 $(3+\\sqrt{7})^{10}(3-\\sqrt{7})^{10}$',
-    answer: '$1024$',
+    question: '求 $(3+\\sqrt7)^{10}(3-\\sqrt7)^{10}$',
+    answer: '1024',
     hasImage: false,
   },
   {
     id: '17a0e46db1a',
     chapter: '數與式',
-    question: '$\\dfrac{(2^{-5})^{-\\frac{7}{3}}}{8^\\frac{4}{9}}=16^x$，求 $x$。',
-    answer: '$-\\frac{13}{4}$',
+    question: '$\\dfrac{(2^{-5})^{-\\frac73}}{8^\\frac49}=16^x$，求 $x$。',
+    answer: '$-\\frac{13}4$',
+    hasImage: false,
+  },
+  {
+    id: '18153600d6d',
+    chapter: '數與式',
+    question:
+      '亞佛加厥數是一莫耳物質所含的粒子數，數值為 $6.022\\times10^{23}$，此數值寫成整數為幾位數？最高位數字為？',
+    answer: '24；6',
+    hasImage: false,
+  },
+  {
+    id: '181536175e7',
+    chapter: '數與式',
+    question:
+      '一個電子的質量約為 $9.11\\times10^{-28}$ 公克，自小數點後第幾位開始出現不為 0 的數字？此數字為？',
+    answer: '28；9',
+    hasImage: false,
+  },
+  {
+    id: '181536f48b4',
+    chapter: '數與式',
+    question:
+      '已知 $\\log2\\approx0.3010$，$\\log3\\approx0.4771$，若 $10^k=6$，試估計 $k$ 的大小。',
+    answer: '0.7781',
     hasImage: false,
   },
   {
@@ -446,7 +493,7 @@ const numAndEquation: Question[] = [
     id: '17a0ef24961',
     chapter: '數與式',
     question:
-      '請問下列哪些選項正確？\n(1) $9\\sqrt{5}<20$\n(2) $\\sqrt{7}+\\sqrt{2}>4$\n(3) $\\sqrt{13}-\\sqrt{10}<\\sqrt{11}-2\\sqrt{2}$\n(4) 若 $-1\\le x\\le3$，則 $1\\le x^2\\le9$\n(5) 若 $-2\\le x\\le5$ 且 $2\\le y\\le3$，則 $-6\\le x-2y\\le-1$',
+      '請問下列哪些選項正確？\n(1) $9\\sqrt5<20$ (2) $\\sqrt7+\\sqrt2>4$\n(3) $\\sqrt{13}-\\sqrt{10}<\\sqrt{11}-2\\sqrt2$\n(4) 若 $-1\\le x\\le3$，則 $1\\le x^2\\le9$\n(5) 若 $-2\\le x\\le5$ 且 $2\\le y\\le3$，則 $-6\\le x-2y\\le-1$',
     answer: '(2)(3)',
     hasImage: false,
   },
@@ -454,8 +501,24 @@ const numAndEquation: Question[] = [
     id: '17a0ef528bf',
     chapter: '數與式',
     question:
-      '$x,y\\in\\mathbb{R}$，若 $|2x-1|\\le7$，$|y-4|\\le2$，則下列選項哪些正確？\n(1) $-5\\le x-y\\le2$ 必成立\n(2) $9\\le x^2\\le16$ 必成立\n(3) $-27\\le x^3\\le64$ 必成立\n(4) $-6\\le xy\\le24$ 必成立\n(5) $\\frac{1}{6}\\le\\frac{1}{y}\\le\\frac{1}{2}$ 必成立',
+      '$x,y\\in\\mathbb R$，若 $|2x-1|\\le7$，$|y-4|\\le2$，則下列選項哪些必成立？\n(1) $-5\\le x-y\\le2$ (2) $9\\le x^2\\le16$\n(3) $-27\\le x^3\\le64$ (4) $-6\\le xy\\le24$\n(5) $\\frac16\\le\\frac1y\\le\\frac12$',
     answer: '(3)(5)',
+    hasImage: false,
+  },
+  {
+    id: '181539745ee',
+    chapter: '數與式',
+    question:
+      '選出正確的選項。\n(1) $\\sqrt{13}>3.5$ (2) $\\sqrt{13}<3.6$\n(3) $\\sqrt{13}-\\sqrt3>\\sqrt{10}$ (4) $\\sqrt{13}+\\sqrt3>\\sqrt{16}$\n(5) $\\frac1{\\sqrt{13}-\\sqrt3}>0.6$',
+    answer: '(1)(4)',
+    hasImage: false,
+  },
+  {
+    id: '181539a9517',
+    chapter: '數與式',
+    question:
+      '考慮有理數 $\\frac n m$，其中 $m$、$n$ 為正整數且 $1\\le mn\\le8$。則這樣的數值有共有幾個？\n(例如 $\\frac12$ 和 $\\frac24$ 同值，只算一個)',
+    answer: '17',
     hasImage: false,
   },
   {
@@ -470,52 +533,52 @@ const numAndEquation: Question[] = [
     id: '17a0efc748e',
     chapter: '數與式',
     question:
-      '數線上由 $A(-4)$ 出發朝右步行到達 $P(x)$，再騎上單車朝右駛抵達 $B(88)$，已知步行的速度是每秒 $3$ 單位，騎單車的速度是每秒 $10$ 單位，且 $A$ 到 $P$ 的時間是 $P$ 到 $B$ 的一半，求 $\\overline{PA}:\\overline{PB}$ 及 $x$。',
-    answer: '$3:20$；$8$',
+      '數線上由 $A(-4)$ 出發朝右步行到達 $P(x)$，再騎上單車朝右駛抵達 $B(88)$，已知步行的速度是每秒 3 單位，騎單車的速度是每秒 10 單位，且 $A$ 到 $P$ 的時間是 $P$ 到 $B$ 的一半，求 $\\overline{PA}:\\overline{PB}$ 及 $x$。',
+    answer: '3:20；8',
     hasImage: false,
   },
   {
     id: '17a0f5dd109',
     chapter: '數與式',
     question:
-      '設 $\\sqrt{7+4\\sqrt{3}}$ 的整數部分為 $a$，純小數部分為 $b$，求 $a+\\frac{b^2}{1-b}$ 之值。',
-    answer: '$5$',
+      '設 $\\sqrt{7+4\\sqrt3}$ 的整數部分為 $a$，純小數部分為 $b$，求 $a+\\dfrac{b^2}{1-b}$。',
+    answer: '5',
     hasImage: false,
   },
   {
     id: '17a0f616066',
     chapter: '數與式',
     question:
-      '介於 $\\frac{4}{2+\\sqrt{3}}$ 與 $\\frac{11}{\\sqrt{13-4\\sqrt{3}}}$ 之間的整數共有幾個？$(\\sqrt{3}\\approx1.732)$',
-    answer: '$3$',
+      '介於 $\\dfrac4{2+\\sqrt3}$ 與 $\\dfrac{11}{\\sqrt{13-4\\sqrt3}}$ 之間的整數共有幾個？($\\sqrt3\\approx1.732$)',
+    answer: '3',
     hasImage: false,
   },
   {
     id: '17a0f6382ae',
     chapter: '數與式',
-    question: '當 $(x,y)$ 在直線 $2x+y=3$ 上變動時，求 $9^x+3^y$ 的最小值。',
-    answer: '$6\\sqrt{3}$',
+    question: '已知 $2x+y=3$，求 $9^x+3^y$ 的最小值。',
+    answer: '$6\\sqrt3$',
     hasImage: false,
   },
   {
     id: '17a0f66cd40',
     chapter: '數與式',
     question: '若實數 $x$、$y$ 滿足 $9x^4+25y^4=270$，求 $xy$ 的最大值。',
-    answer: '$3$',
+    answer: '3',
     hasImage: false,
   },
   {
     id: '17a0f68d778',
     chapter: '數與式',
     question: '求 $2^{15}+1$ 的最大質因數。',
-    answer: '$331$',
+    answer: '331',
     hasImage: false,
   },
   {
     id: '17a0f6a214a',
     chapter: '數與式',
     question: '實係數方程式 $x^3+ax^2+bx+8=0$ 有三根相同，求 $b$。',
-    answer: '$12$',
+    answer: '12',
     hasImage: false,
   },
   {
@@ -530,15 +593,15 @@ const numAndEquation: Question[] = [
     id: '17a0f700535',
     chapter: '數與式',
     question:
-      '試問數線上有多少個整數點與點 $\\sqrt{101}$ 的距離小於 $5$，但與點 $\\sqrt{38}$ 的距離大於 $3$？',
-    answer: '$6$',
+      '試問數線上有多少個整數點與點 $\\sqrt{101}$ 的距離小於 5，但與點 $\\sqrt{38}$ 的距離大於 3？',
+    answer: '6',
     hasImage: false,
   },
   {
     id: '17a0f72f269',
     chapter: '數與式',
     question:
-      '設 $a=\\left(\\frac{1}{2}\\right)^{\\frac{1}{2}}$，$b=\\left(\\frac{1}{3}\\right)^{\\frac{1}{3}}$，$c=\\left(\\frac{1}{4}\\right)^{\\frac{1}{4}}$，試比較三者的大小關係。',
+      '設 $a=\\left(\\frac12\\right)^{\\frac12}$，$b=\\left(\\frac13\\right)^{\\frac13}$，$c=\\left(\\frac14\\right)^{\\frac14}$，試比較三者的大小關係。',
     answer: '$a=c>b$',
     hasImage: false,
   },
@@ -546,7 +609,7 @@ const numAndEquation: Question[] = [
     id: '17a0f78f52f',
     chapter: '數與式',
     question:
-      '某個手機程式，每次點擊螢幕上的數 $a$ 後，螢幕上的數會變成 $a^2$。當一開始時螢幕上的數 $b$ 為正且連續點擊螢幕三次後，螢幕上的數接近 $81^3$。試問實數 $b$ 最接近下列哪一個選項？$(\\sqrt{3}\\approx1.732)$\n(1) $1.7$ (2) $3$ (3) $5.2$ (4) $9$ (5) $81$',
+      '某個手機程式，每次點擊螢幕上的數 $a$ 後，螢幕上的數會變成 $a^2$。當一開始時螢幕上的數 $b$ 為正且連續點擊螢幕三次後，螢幕上的數接近 $81^3$。試問實數 $b$ 最接近下列哪一個選項？($\\sqrt3\\approx1.732$)\n(1) 1.7 (2) 3 (3) 5.2 (4) 9 (5) 81',
     answer: '(3)',
     hasImage: false,
   },
@@ -562,8 +625,8 @@ const numAndEquation: Question[] = [
     id: '17a0f7ed607',
     chapter: '數與式',
     question:
-      '觀察 $2$ 的次方所形成的等比數列：$2,2^2,2^3,\\cdots$，設其中出現的第一個 $13$ 位數為 $2^n$，求 $n$。$(\\log2\\approx0.3010)$',
-    answer: '$40$',
+      '觀察 2 的次方所形成的等比數列：$2,2^2,2^3,\\cdots$，設其中出現的第一個 13 位數為 $2^n$，求 $n$。($\\log2\\approx0.3010$)',
+    answer: '40',
     hasImage: false,
   },
   {
@@ -18264,6 +18327,22 @@ const spaceEquations: Question[] = [
 // 條件機率
 const conditionalProb: Question[] = [
   {
+    id: '180be2f6ab4',
+    chapter: '條件機率',
+    question:
+      '設甲、乙、丙三人射擊的命中率分別為 $\\frac25$、$\\frac12$、$\\frac35$，今在靶場中，有一目標靶，三人各射擊一發，且每個人命中靶面的事件為獨立事件，求恰有兩人命中的機率。',
+    answer: '$\\frac{19}{50}$',
+    hasImage: false,
+  },
+  {
+    id: '180be31cbae',
+    chapter: '條件機率',
+    question:
+      '已知一箱中共有 20 枚硬幣，其中 7 枚兩面皆是人頭，8 枚兩面皆是字，其餘 5 枚一面是人頭一面是字，每枚硬幣被選到之機會均等，今將手伸入箱中握住一枚硬幣，取出後打開手掌，發現一面是人頭，求另一面也是人頭的之機率。',
+    answer: '$\\frac{14}{19}$',
+    hasImage: false,
+  },
+  {
     id: '1809a3dd105',
     chapter: '條件機率',
     question:
@@ -18290,8 +18369,7 @@ const conditionalProb: Question[] = [
   {
     id: '1809a599bb8',
     chapter: '條件機率',
-    question:
-      '擲一顆公正的骰子兩次，已知擲出的點數和大於 8 的條件下，求第一次出現 5 點的條件機率。',
+    question: '擲一顆公正的骰子兩次，已知擲出的點數和大於 8 的條件下，求第一次出現 5 點的機率。',
     answer: '$\\frac3{10}$',
     hasImage: false,
   },
@@ -19522,6 +19600,14 @@ const conditionalProb: Question[] = [
 
 // 矩陣A
 export const matrixA: Question[] = [
+  {
+    id: '180be29a3d3',
+    chapter: '矩陣A',
+    question:
+      '設矩陣 $A=\\begin{bmatrix}3&8\\\\4&9\\end{bmatrix}$，$B=\\begin{bmatrix}-2&-7\\\\-1&-6\\end{bmatrix}$，若 $3A-2B=\\begin{bmatrix}a&b\\\\c&d\\end{bmatrix}$，則下列選項何者正確？\n(1) $a=5$ (2) $b=38$ (3) $c=-14$ (4) $d=21$ (5) $a+b=13$',
+    answer: '(2)',
+    hasImage: false,
+  },
   {
     id: '1807d84d9d7',
     chapter: '矩陣A',
@@ -21460,7 +21546,7 @@ const matrixB: Question[] = [
     id: '17a222923d8',
     chapter: '矩陣B',
     question:
-      '(多選) 設 $A=\\begin{bmatrix}a_{ij}\\end{bmatrix}_{3\\times3}$ 滿足 $a_{ij}=\\begin{cases}i^2,i>j\\\\j-i,i\\le j\\end{cases}$，下列何者為真？\n(1) $a_{32}=9$ (2) $a_{22}=1$ (3) $a_{13}=2$ (4) 所有元素和為 $30$ (5) 所有元素平方和為 $100$ ',
+      '設 $A=\\begin{bmatrix}a_{ij}\\end{bmatrix}_{3\\times3}$ 滿足 $a_{ij}=\\begin{cases}i^2,i>j\\\\j-i,i\\le j\\end{cases}$，下列何者為真？\n(1) $a_{32}=9$ (2) $a_{22}=1$ (3) $a_{13}=2$ (4) 所有元素和為 30 (5) 所有元素平方和為 100',
     answer: '(1)(3)',
     hasImage: false,
   },
@@ -21564,16 +21650,16 @@ const matrixB: Question[] = [
     id: '179bc173e66',
     chapter: '矩陣B',
     question:
-      '設 $A=\\begin{bmatrix}1&-1&-3&4\\\\2&0&1&5\\end{bmatrix}$，$B=\\begin{bmatrix}2&0&-3&7\\\\1&2&-2&6\\end{bmatrix}$，若 $A+2X=3B$，則矩陣 $X$ 中，各元的總和為？',
-    answer: '$15$',
+      '設 $A=\\begin{bmatrix}1&-1&-3&4\\\\2&0&1&5\\end{bmatrix}$，$B=\\begin{bmatrix}2&0&-3&7\\\\1&2&-2&6\\end{bmatrix}$，若 $A+2X=3B$，求矩陣 $X$ 中各元的總和。',
+    answer: '15',
     hasImage: false,
   },
   {
     id: '179bc18676f',
     chapter: '矩陣B',
     question:
-      '設 $A=\\begin{bmatrix}1&2\\\\3&4\\end{bmatrix}$，$B=\\begin{bmatrix}k&2\\\\3&9\\end{bmatrix}$，若 $AB=BA$，則 $k=$？',
-    answer: '$6$',
+      '設 $A=\\begin{bmatrix}1&2\\\\3&4\\end{bmatrix}$，$B=\\begin{bmatrix}k&2\\\\3&9\\end{bmatrix}$，若 $AB=BA$，求 $k$。',
+    answer: '6',
     hasImage: false,
   },
   {
@@ -21628,7 +21714,7 @@ const matrixB: Question[] = [
     id: '179bc23d7cf',
     chapter: '矩陣B',
     question:
-      '已知兩個二階方陣 $X$ 及 $Y$ 滿足 $X+Y=\\begin{bmatrix}2&2\\\\2&5\\end{bmatrix}$，$X-Y=\\begin{bmatrix}0&2\\\\4&3\\end{bmatrix}$，則 $X^2-Y^2=$？',
+      '已知兩個二階方陣 $X$ 及 $Y$ 滿足 $X+Y=\\begin{bmatrix}2&2\\\\2&5\\end{bmatrix}$，$X-Y=\\begin{bmatrix}0&2\\\\4&3\\end{bmatrix}$，求 $X^2-Y^2$。',
     answer: '$\\begin{bmatrix}6&10\\\\17&21\\end{bmatrix}$',
     hasImage: false,
   },
