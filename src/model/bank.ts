@@ -5,6 +5,7 @@ export type Question = {
   answer: string;
   hasImage: boolean;
   imageOption?: string[];
+  style?: { width?: string; height?: string };
 };
 
 export const chapterList: string[] = [
@@ -1869,7 +1870,7 @@ const polynomial: Question[] = [
     id: '17a2d6163e4',
     chapter: '多項式函數',
     question:
-      '設 $a,b,c\\in\\mathbb{R}$，若二次函數 $f(x)=ax^2+bx+c$ 的圖形通過 $(0,-1)$ 且與 $x$ 軸相切，則下列哪些正確？\n(1) $a<0$ (2) $b>0$ (3) $c=-1$\n(4) $b^2+4ac=0$ (5) $a+b+c\\le0$',
+      '設 $a,b,c\\in\\mathbb R$，若二次函數 $f(x)=ax^2+bx+c$ 的圖形通過 (0,-1) 且與 $x$ 軸相切，則下列哪些正確？\n(1) $a<0$ (2) $b>0$ (3) $c=-1$\n(4) $b^2+4ac=0$ (5) $a+b+c\\le0$',
     answer: '(1)(3)(5)',
     hasImage: false,
   },
@@ -1879,12 +1880,13 @@ const polynomial: Question[] = [
     question: '函數 $y=ax+b$ 與 $y=ax^2+bx+c$ 在同一坐標系的圖形可能為下列哪些？',
     answer: '(2)(4)',
     hasImage: true,
+    style: { width: '100%' },
   },
   {
     id: '17a2d790e42',
     chapter: '多項式函數',
     question:
-      '設 $a,b\\in\\mathbb{R}$，已知坐標平面上拋物線 $y=x^2+ax+b$ 與 $x$ 軸交於 $P$，$Q$ 兩點，且 $\\overline{PQ}=7$，若拋物線 $y=x^2+ax+(b+2)$ 與 $x$ 軸的兩交點為 $R$，$S$，求 $\\overline{RS}$。',
+      '設 $a,b\\in\\mathbb R$，已知坐標平面上拋物線 $y=x^2+ax+b$ 與 $x$ 軸交於 $P$、$Q$ 兩點，且 $\\overline{PQ}=7$，若拋物線 $y=x^2+ax+(b+2)$ 與 $x$ 軸的兩交點為 $R$、$S$，求 $\\overline{RS}$。',
     answer: '$\\sqrt{41}$',
     hasImage: false,
   },
@@ -1892,16 +1894,16 @@ const polynomial: Question[] = [
     id: '17a2da48070',
     chapter: '多項式函數',
     question:
-      '設 $a,b\\in\\mathbb{R}$，若 $y=x^2+ax+b$ 的圖形被 $x$ 軸所截的弦長為 $6$，則此圖形沿 $y$ 軸正向平移 $k$ 後恰與 $x$ 軸相切，求 $k$。',
-    answer: '$9$',
+      '設 $a,b\\in\\mathbb R$，若 $y=x^2+ax+b$ 的圖形被 $x$ 軸所截的弦長為 6，則此圖形沿 $y$ 軸正向平移 $k$ 後恰與 $x$ 軸相切，求 $k$。',
+    answer: '9',
     hasImage: false,
   },
   {
     id: '17a2da5fdc6',
     chapter: '多項式函數',
     question:
-      '設 $m\\in\\mathbb{R}$，二次函數 $y=mx^2+x+(m+1)$ 的圖形恆在直線 $3x+2y=1$ 的上方，求 $m$ 的範圍。',
-    answer: '$m>\\frac{-1+\\sqrt{26}}{4}$',
+      '設 $m\\in\\mathbb R$，二次函數 $y=mx^2+x+(m+1)$ 的圖形恆在直線 $3x+2y=1$ 的上方，求 $m$ 的範圍。',
+    answer: '$m>\\frac{-1+\\sqrt{26}}4$',
     hasImage: false,
   },
   {
@@ -1909,15 +1911,15 @@ const polynomial: Question[] = [
     chapter: '多項式函數',
     question:
       '二次函數 $f(x)=ax^2+bx+c$，已知 $f(2)=4$，$f(5)=1$，且 $y=f(x)$ 的函數值恆為正數，求二次項係數 $a$ 的範圍。',
-    answer: '$\\frac{1}{9}<a<1$',
+    answer: '$\\frac19<a<1$',
     hasImage: false,
   },
   {
     id: '17a2db390e3',
     chapter: '多項式函數',
     question:
-      '設 $a,b\\in\\mathbb{R}$ 且 $\\begin{cases}x^2-5x+a<0\\\\x^2+3x+b<0\\end{cases}$ 的解為 $1<x<2$，求數對 $(a,b)$。',
-    answer: '$(4,-10)$',
+      '設 $a,b\\in\\mathbb R$ 且 $\\begin{cases}x^2-5x+a<0\\\\x^2+3x+b<0\\end{cases}$ 的解為 $1<x<2$，求數對 $(a,b)$。',
+    answer: '(4,-10)',
     hasImage: false,
   },
   {
@@ -1925,14 +1927,14 @@ const polynomial: Question[] = [
     chapter: '多項式函數',
     question:
       '$f(x)$ 為三次多項式，若 $f(x)>0$ 的解為 $2<x<5$ 或 $x>6$，$f(x)>12$ 的解為 $x>8$，求 $f(0)$。',
-    answer: '$-20$',
+    answer: '-20',
     hasImage: false,
   },
   {
     id: '17a2db8d3e7',
     chapter: '多項式函數',
     question:
-      '不等式 $x^2(x+5)(x+1)(x-4)(x-7)<$(2x-3)(x+5)(x+1)(x-4)(x-7)$，下列哪些選項是它的一個解？\n(1) $-2\\pi$ (2) $-\\pi$ (3) $\\pi$ (4) $2\\pi$',
+      '不等式 $x^2(x+5)(x+1)(x-4)(x-7)<$$(2x-3)(x+5)(x+1)(x-4)(x-7)$，下列哪些選項是它的一個解？\n(1) $-2\\pi$ (2) $-\\pi$ (3) $\\pi$ (4) $2\\pi$',
     answer: '(2)(4)',
     hasImage: false,
   },
@@ -1940,7 +1942,7 @@ const polynomial: Question[] = [
     id: '17a2dbb5a10',
     chapter: '多項式函數',
     question: '求 $(x^2-4x+2)(2x-5)(2x-37)\\le0$ 的整數解個數。',
-    answer: '$17$',
+    answer: '17',
     hasImage: false,
   },
   {
@@ -1991,30 +1993,30 @@ const polynomial: Question[] = [
   {
     id: '17a17f2a43b',
     chapter: '多項式函數',
-    question: '設 $f(x)=ax^6-bx^4+3x-\\sqrt{2}$，其中 $a$、$b$ 為非零實數，求 $f(5)-f(-5)$。',
-    answer: '$30$',
+    question: '設 $f(x)=ax^6-bx^4+3x-\\sqrt2$，其中 $a$、$b$ 為非零實數，求 $f(5)-f(-5)$。',
+    answer: '30',
     hasImage: false,
   },
   {
     id: '17a17f48c08',
     chapter: '多項式函數',
     question:
-      '$a\\in\\mathbb{R}$，多項式 $f(x)=(2x^7+ax^4-a)^5$ 的次數為？將 $f(x)$ 乘開後各項係數之和為？',
-    answer: '$35$；$32$',
+      '$a\\in\\mathbb R$，多項式 $f(x)=(2x^7+ax^4-a)^5$ 的次數為？將 $f(x)$ 乘開後各項係數之和為？',
+    answer: '35；32',
     hasImage: false,
   },
   {
     id: '17a17faa323',
     chapter: '多項式函數',
     question: '若多項式 $x^2+x+2$ 能整除 $x^5+x^4+x^3+px^2+2x+q$，求 $p$、$q$。',
-    answer: '$3$；$8$',
+    answer: '3；8',
     hasImage: false,
   },
   {
     id: '17a17fb7134',
     chapter: '多項式函數',
     question: '利用綜合除法求 $2x^3+x^2-7$ 除以 $x+3$ 的商與餘。',
-    answer: '$2x^2-5x+15$；$-52$',
+    answer: '$2x^2-5x+15$；-52',
     hasImage: false,
   },
   {
@@ -2035,51 +2037,74 @@ const polynomial: Question[] = [
   {
     id: '17a180799da',
     chapter: '多項式函數',
-    question: '將 $f(x)=5x^3+x^2-2x+4$ 化為 $x-1$ 的多項式，並求 $f(x)$ 在 $x=1$ 的一次近似。',
-    answer: '$=15x-7$',
+    question: '將 $f(x)=5x^3+x^2-2x+4$ 化為 $x-1$ 的多項式，並利用此結果求 $f(1.1)$。',
+    answer: '9.665',
+    hasImage: false,
+  },
+  {
+    id: '18155c5e153',
+    chapter: '多項式函數',
+    question:
+      '$f(x)=(x-4)^3+7(x-4)^2+2(x-4)+5$ 的圖形經過點 $P(4,5)$，求 $f(x)$ 在 $x=4$ 的一次近似。',
+    answer: '$2x-3$',
     hasImage: false,
   },
   {
     id: '17a180d10c7',
     chapter: '多項式函數',
     question: '求 $x^{10}+3$ 除以 $x-2$ 的餘式。',
-    answer: '$1027$',
+    answer: '1027',
     hasImage: false,
   },
   {
     id: '17a180dadba',
     chapter: '多項式函數',
     question: '$f(x)=x^5+6x^4-4x^3+25x^2+30x+20$，求 $f(-7)$。',
-    answer: '$6$',
+    answer: '6',
     hasImage: false,
   },
   {
     id: '17a181a61da',
     chapter: '多項式函數',
     question: '若 $x+2$ 為 $f(x)=x^7+ax^3$ 的因式，求 $a$。',
-    answer: '$-16$',
+    answer: '-16',
     hasImage: false,
   },
   {
     id: '17a181b5061',
     chapter: '多項式函數',
     question:
-      '$a\\in\\mathbb{Z}$，下列哪一個選項的一次式，有可能是 $f(x)=2x^3+ax^2-2ax+a$ 的因式？\n(1) $x+1$ (2) $x-1$ (3) $x+2$ (4) $x-2$',
+      '$a\\in\\mathbb Z$，下列哪一個選項的一次式，有可能是 $f(x)=2x^3+ax^2-2ax+a$ 的因式？\n(1) $x+1$ (2) $x-1$ (3) $x+2$ (4) $x-2$',
     answer: '(4)',
     hasImage: false,
   },
   {
     id: '17a18286398',
     chapter: '多項式函數',
-    question: '$f(x)$ 為三次多項式，若 $f(-2)=f(1)=0$，$f(0)=6$ 且 $f(3)=30$，求 $f(-1)$。',
-    answer: '$10$',
+    question: '設 $f(x)$ 為三次多項式，若 $f(-2)=f(1)=0$，$f(0)=6$ 且 $f(3)=30$，求 $f(-1)$。',
+    answer: '10',
+    hasImage: false,
+  },
+  {
+    id: '18155dc8999',
+    chapter: '多項式函數',
+    question: '$f(x)$ 為三次多項式，若 $f(1)=f(5)=f(6)=3$ 且 $f(0)=63$，求 $f(2)$。',
+    answer: '-21',
     hasImage: false,
   },
   {
     id: '17a182b5deb',
     chapter: '多項式函數',
     question: '設 $f(x)$ 是二次多項式，若 $f(121)=1$，$f(122)=4$，$f(123)=11$，求 $f(125)$。',
-    answer: '$37$',
+    answer: '37',
+    hasImage: false,
+  },
+  {
+    id: '18155df085c',
+    chapter: '多項式函數',
+    question:
+      '多項式 $f(x)$ 至少三次，除以 $x+1$ 的餘式為 6，除以 $x^2+x+2$ 的餘式為 $5x-3$，求 $f(x)$ 除以 $(x+1)(x^2+x+2)$ 的餘式。',
+    answer: '$7x^2+12x+11$',
     hasImage: false,
   },
   {
@@ -2100,8 +2125,15 @@ const polynomial: Question[] = [
   {
     id: '17a18414108',
     chapter: '多項式函數',
-    question: '$f(x)$ 為一次函數，若 $f(1.27)=8.723$，$f(1.28)=8.783$，求 $f(x)$。',
-    answer: '$f(x)=6x+1.103$',
+    question: '$f(x)$ 為一次函數，若 $f(1.27)=8.723$，$f(1.28)=8.783$，求 $f(1.29)$。',
+    answer: '8.843',
+    hasImage: false,
+  },
+  {
+    id: '1815800314f',
+    chapter: '多項式函數',
+    question: '已知一次函數 $f(x)$ 滿足 $f(\\sqrt2)=2$，$f(\\sqrt7)=7$，$f(k)=5$，求 $k$。',
+    answer: '$\\frac{2\\sqrt2+3\\sqrt7}5$',
     hasImage: false,
   },
   {
@@ -2109,7 +2141,15 @@ const polynomial: Question[] = [
     chapter: '多項式函數',
     question:
       '設某沙漠地區某一段時間的溫度函數為 $f(t)=-t^2+10t+11$，其中 $1\\le t\\le10$，則這段時間內該地區的最大溫差為？',
-    answer: '$25$',
+    answer: '25',
+    hasImage: false,
+  },
+  {
+    id: '1815827492c',
+    chapter: '多項式函數',
+    question:
+      '設 $f(x)=x^2+ax+b$，$a$、$b$ 為固定實數，若 $f(3+x)=f(3-x)$ 對任意實數 $x$ 均成立，求 $f(1)$、$f(3)$、$f(4)$ 的大小關係。',
+    answer: '$f(1)>f(4)>f(3)$',
     hasImage: false,
   },
   {
@@ -2120,39 +2160,91 @@ const polynomial: Question[] = [
     hasImage: false,
   },
   {
+    id: '181582aa801',
+    chapter: '多項式函數',
+    question: '$f(x)=3(x-1)^2+2(x-2)^2+(x-5)^2$ 的最小值及此時的 $x$。',
+    answer: '12；2',
+    hasImage: false,
+  },
+  {
+    id: '1815831939c',
+    chapter: '多項式函數',
+    question: '已知函數 $y=ax^2+bx=c$，$a\\ne0$，通過 (-6,3)，(0,3) 兩點，求其對稱軸方程式。',
+    answer: '$x=-3$',
+    hasImage: false,
+  },
+  {
+    id: '1815833a34f',
+    chapter: '多項式函數',
+    question:
+      '二次函數 $f(x)=ax^2+bx+c$ 的圖形通過四個象限，則點 $A\\left(\\dfrac c a,\\dfrac{4ac-b^2}{ac}\\right)$ 落在第幾象限？',
+    answer: '二',
+    hasImage: false,
+  },
+  {
     id: '17a19a9301f',
     chapter: '多項式函數',
-    question: '$f(x)=x^3+12x^2+8x+7$\n$=(x+h)^3+p(x+h)+q$，求 $h$、$p$、$q$、對稱中心。',
-    answer: '$4$；$-40$；$103$；$(-4,103)$',
+    question: '$f(x)=x^3+12x^2+8x+7$\n$=(x-h)^3+p(x-h)+q$，求 $h$、$p$、$q$、對稱中心。',
+    answer: '-4；-40；103；(-4,103)',
     hasImage: false,
   },
   {
     id: '17a19abbcc7',
     chapter: '多項式函數',
     question:
-      '$a\\neq0$，$f(x)=a(x-9)^3+b(x-9)+7$ 的圖形與圓 $(x-9)^2+(y-7)^2=r^2$ 恰有兩個交點，其中一個交點的坐標是 $(20,15)$，求另一個交點的坐標。',
-    answer: '$(-2,-1)$',
+      '$a\\ne0$，$f(x)=a(x-9)^3+b(x-9)+7$ 的圖形與圓 $(x-9)^2+(y-7)^2=r^2$ 恰有兩個交點，其中一個交點的坐標是 (20,15)，求另一個交點的坐標。',
+    answer: '(-2,-1)',
+    hasImage: false,
+  },
+  {
+    id: '181585ee75b',
+    chapter: '多項式函數',
+    question: '若 $f(x)$ 為五次多項式，試問 $f(x)=0$ 的解可能有幾個？',
+    answer: '$1\\lor3\\lor5$',
+    hasImage: false,
+  },
+  {
+    id: '18158627ae9',
+    chapter: '多項式函數',
+    question:
+      '$n$ 次多項式 $a_nx^n+a_{n-1}x^{n-1}+\\cdots+a_1x+a_0$，若圖為其大域圖形，則下列何者正確？\n(1) $a_n>0$ (2) $a_n<0$\n(3) $n$ 為奇數 (4) $n$ 為偶數',
+    answer: '(2)(3)',
+    hasImage: true,
+    style: { height: '3.5cm' },
+  },
+  {
+    id: '1815876f5b7',
+    chapter: '多項式函數',
+    question: '求 $x^2-x-2\\ge0$ 之解。',
+    answer: '$x\\le-1\\lor x\\ge2$',
+    hasImage: false,
+  },
+  {
+    id: '181587a3095',
+    chapter: '多項式函數',
+    question: '求 $(x-1)(x-4)<x-5$ 之解。',
+    answer: '無解',
     hasImage: false,
   },
   {
     id: '17a19bb02e6',
     chapter: '多項式函數',
-    question: '求 $(x+1)(x^2+x-1)<0$ 之解。',
-    answer: '$x<\\frac{-1-\\sqrt{5}}{2}$ 或 $-1<x<\\frac{-1+\\sqrt{5}}{2}$',
+    question: '求 $(x+1)(x-1)(x^2+x+1)<0$ 之解。',
+    answer: '$-1<x<1$',
     hasImage: false,
   },
   {
     id: '17a19bbf61e',
     chapter: '多項式函數',
     question: '求 $(x-1)(x-2)^3(x-3)^2>0$ 之解。',
-    answer: '$x<1$ 或 $x>2$，但 $x\\neq3$',
+    answer: '$x<1\\lor x>2,x\\ne3$',
     hasImage: false,
   },
   {
     id: '17a19c2b55e',
     chapter: '多項式函數',
     question:
-      '多項式 $f(x)$ 除以 $x^2-2x-3$ 的餘式為 $x+5$，則關於 $f(x)$ 的除法，哪些正確？\n(1) 除以 $x+1$ 的餘式必為 $4$\n(2) 除以 $x+3$ 的餘式必為 $8$\n(3) 除以 $x^2+3x+2$ 的餘式可能為 $3x+7$\n(4) 除以 $x^2-x-6$ 的餘式可能為 $2x+3$\n(5) 除以 $(x+1)(x-3)(x+2)$ 的餘式可能為 $2x^2-3x-1$',
+      '多項式 $f(x)$ 除以 $x^2-2x-3$ 的餘式為 $x+5$，則關於 $f(x)$ 的除法，哪些正確？\n(1) 除以 $x+1$ 的餘式必為 4\n(2) 除以 $x+3$ 的餘式必為 8\n(3) 除以 $x^2+3x+2$ 的餘式可能為 $3x+7$\n(4) 除以 $x^2-x-6$ 的餘式可能為 $2x+3$\n(5) 除以 $(x+1)(x-3)(x+2)$ 的餘式可能為 $2x^2-3x-1$',
     answer: '(1)(3)(5)',
     hasImage: false,
   },
@@ -2160,7 +2252,7 @@ const polynomial: Question[] = [
     id: '17a1ad46bf7',
     chapter: '多項式函數',
     question:
-      '學生練習三次多項式 $f(x)$ 除以一次多項式 $g(x)$ 的餘式。已知 $f(x)$ 的三次項係數為 $3$，一次項係數為 $2$。甲生把 $f(x)$ 的三次項係數錯看成 $2$，乙生把 $f(x)$ 的一次項係數錯看成 $-2$。而甲生和乙生算出來的餘式剛好一樣。試問 $g(x)$ 可能等於以下列哪些一次式？\n(1) $x$ (2) $x-1$ (3) $x-2$ (4) $x+1$ (5) $x+2$',
+      '學生練習三次多項式 $f(x)$ 除以一次多項式 $g(x)$ 的餘式。已知 $f(x)$ 的三次項係數為 3，一次項係數為 2。甲生把 $f(x)$ 的三次項係數錯看成 2，乙生把 $f(x)$ 的一次項係數錯看成 -2。而甲生和乙生算出來的餘式剛好一樣。試問 $g(x)$ 可能等於以下列哪些一次式？\n(1) $x$ (2) $x-1$ (3) $x-2$ (4) $x+1$ (5) $x+2$',
     answer: '(1)(3)(5)',
     hasImage: false,
   },
@@ -2184,15 +2276,15 @@ const polynomial: Question[] = [
     id: '17a1aff775f',
     chapter: '多項式函數',
     question:
-      '若多項式 $f(x)$、$g(x)$ 滿足 $f(x)-g(x)=x^3-5x^2+x+4$，且 $g(x)$ 除以 $x-1$ 的餘式為 $8$，求 $f(x)$ 除以 $x-1$ 的餘式。',
-    answer: '$9$',
+      '若多項式 $f(x)$、$g(x)$ 滿足 $f(x)-g(x)=x^3-5x^2+x+4$，且 $g(x)$ 除以 $x-1$ 的餘式為 8，求 $f(x)$ 除以 $x-1$ 的餘式。',
+    answer: '9',
     hasImage: false,
   },
   {
     id: '17a1b0214d9',
     chapter: '多項式函數',
     question: '若 $f(x)=x^3-2x^2-x+5$，求多項式 $g(x)=f(f(x))$ 除以 $x-2$ 的餘式。',
-    answer: '$11$',
+    answer: '11',
     hasImage: false,
   },
   {
@@ -2200,14 +2292,14 @@ const polynomial: Question[] = [
     chapter: '多項式函數',
     question:
       '設 $f(x)=6x^4+5x^3-16x^2-6x+17$，已知有四個相異實數 $p$、$q$、$r$、$s$ 滿足 $f(p)=f(q)=f(r)=f(s)=12$，求 $(p+1)(q+1)(r+1)(s+1)$。',
-    answer: '$-\\frac{2}{3}$',
+    answer: '$-\\frac23$',
     hasImage: false,
   },
   {
     id: '17a1b0ada5c',
     chapter: '多項式函數',
     question:
-      '設 $p,q\\in\\mathbb{R}$，若多項式 $f(x)=x^{20}-4x^{18}+x^5+px+q$ 能被 $x^2+x-2$ 整除，請問下列選項哪些正確？\n(1) $p,q\\in\\mathbb{Z}$ (2) $p>q$ (3) $p+q>0$ (4) $pq>0$ (5) $p^q>q^p$',
+      '設 $p,q\\in\\mathbb R$，若多項式 $f(x)=x^{20}-4x^{18}+x^5+px+q$ 能被 $x^2+x-2$ 整除，請問下列選項哪些正確？\n(1) $p,q\\in\\mathbb{Z}$ (2) $p>q$ (3) $p+q>0$\n(4) $pq>0$ (5) $p^q>q^p$',
     answer: '(1)(3)(5)',
     hasImage: false,
   },
@@ -2215,17 +2307,47 @@ const polynomial: Question[] = [
     id: '17a1b0d869e',
     chapter: '多項式函數',
     question:
-      '設二次實係數多項式函數 $f(x)=ax^2+2ax+b$ 在區間 $-1\\le x\\le1$ 的最大值為 $7$、最小值為 $3$，求數對 $(a,b)$。',
-    answer: '$(1,4)$ 或 $(-1,6)$',
+      '設二次實係數多項式函數 $f(x)=ax^2+2ax+b$ 在區間 $-1\\le x\\le1$ 的最大值為 7、最小值為 3，求數對 $(a,b)$。',
+    answer: '$(1,4)\\lor(-1,6)$',
     hasImage: false,
   },
   {
     id: '17a1b10ab40',
     chapter: '多項式函數',
     question:
-      '設 $a,b\\in\\mathbb{R}$ 且 $a\\neq0$，若 $f(x)=ax^2+bx+\\frac{1}{a}$ 在 $x=2$ 時有最大值為 $-3$，則點 $P(a,b)$ 在第幾象限？',
+      '設 $a,b\\in\\mathbb R$ 且 $a\\ne0$，若 $f(x)=ax^2+bx+\\frac1a$ 在 $x=2$ 時有最大值為 -3，則點 $P(a,b)$ 在第幾象限？',
     answer: '二',
     hasImage: false,
+  },
+  {
+    id: '181588e7b16',
+    chapter: '多項式函數',
+    question: '若 $a(x-4)^2+b<10$ 的解為 $k-8<x<2k+1$。求 $k$。',
+    answer: '5',
+    hasImage: false,
+  },
+  {
+    id: '1815890a8b2',
+    chapter: '多項式函數',
+    question:
+      '三次函數 $f(x)=a(x-5)^3+b(x-5)+7$，其中 $a$、$b$ 為實數且 $a\\ne0$，若不等式 $1\\le f(x)\\le13$ 的解為 $k-9\\le x\\le3k+7$，求 $k$。',
+    answer: '3',
+    hasImage: false,
+  },
+  {
+    id: '1815892e7ec',
+    chapter: '多項式函數',
+    question: '設 $f(x)$ 為二次函數，且 $f(x)>0$ 之解為 $-2<x<4$，求 $f(2x)<0$ 之解。',
+    answer: '$x<-1\\lor x>2$',
+    hasImage: false,
+  },
+  {
+    id: '181589436c7',
+    chapter: '多項式函數',
+    question: '若 $y=f(x)$ 的圖形如圖，求 $f(2x+5)<0$ 的解。',
+    answer: '$-2<x<-1\\lor x>1$',
+    hasImage: true,
+    style: { height: '3cm' },
   },
 ];
 

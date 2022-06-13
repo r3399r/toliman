@@ -33,7 +33,8 @@ const Example = ({ num, ids, height = '7.5cm', note, showAnswer = true }: Props)
               )}
               {questions[0].hasImage === true && (
                 <img
-                  className={style.img}
+                  className={classNames({ [style.img]: !questions[0].style })}
+                  style={questions[0].style ?? questions[0].style}
                   src={`/toliman/images/${questions[0].id}.PNG`}
                   alt=""
                   role="presentation"
@@ -53,7 +54,8 @@ const Example = ({ num, ids, height = '7.5cm', note, showAnswer = true }: Props)
               )}
               {questions[1].hasImage === true && (
                 <img
-                  className={style.img}
+                  className={classNames({ [style.img]: !questions[1].style })}
+                  style={questions[1].style ?? questions[1].style}
                   src={`/toliman/images/${questions[1].id}.PNG`}
                   alt=""
                   role="presentation"
@@ -78,7 +80,8 @@ const Example = ({ num, ids, height = '7.5cm', note, showAnswer = true }: Props)
             )}
             {questions[0].hasImage === true && (
               <img
-                className={style.img}
+                className={classNames({ [style.img]: !questions[0].style })}
+                style={questions[0].style ?? questions[0].style}
                 src={`/toliman/images/${questions[0].id}.PNG`}
                 alt=""
                 role="presentation"

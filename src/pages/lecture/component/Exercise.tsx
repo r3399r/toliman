@@ -38,7 +38,8 @@ const Exercise = ({ ids, height = '6cm', showAnswer = true }: Props) => {
             )}
             {question.hasImage && (
               <img
-                className={style.img}
+                className={classNames({ [style.img]: !question.style })}
+                style={question.style ?? question.style}
                 alt=""
                 src={`/toliman/images/${question.id}.PNG`}
                 role="presentation"
