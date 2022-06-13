@@ -2611,12 +2611,13 @@ const lineAndCircle: Question[] = [
       '坐標平面上四條直線 $L_1$、$L_2$、$L_3$、$L_4$ 與 $x$ 軸、$y$ 軸及直線 $ y=x$ 的相關位置如圖所示，其中 $L_1$ 與 $L_3$ 垂直，而 $L_3$ 與 $L_4$ 平行。設 $L_1$、$L_2$、$L_3$、$L_4$ 的方程式分別為 $y=m_1x$，$y=m_2x$，$y=m_3x$，$y=m_4x+c$。試問下列哪些正確。\n(1) $m_3>m_2>m_1$ (2) $m_1\\cdot m_4=-1$\n(3) $m_1<-1$ (4) $m_2\\cdot m_3<-1$ (5) $c>0$',
     answer: '(2)(3)(4)',
     hasImage: true,
+    style: { height: '5.5cm' },
   },
   {
     id: '17a50c4a7d8',
     chapter: '直線與圓',
     question:
-      '如圖一鳶形 $ABCD$，其中 $A$、$C$ 在 $y$ 軸上，$B$、$D$ 在 $x$ 軸上，且 $\\overline{AB}=\\overline{AD}=2$，$\\overline{BC}=\\overline{CD}=4$，$\\overline{AC}=5$。令 $m_{AB}$、$m_{BC}$、$m_{CD}$、$m_{DA}$ 分別表各對應直線之斜率。試問以下哪些敘述成立？\n(1) 此四數值中以 $m_{AB}$ 為最大\n(2) 此四數值中以 $m_{BC}$ 為最小\n(3) $m_{BC}=-m_{CD}$ (4) $m_{AB}\\times m_{BC}=-1$\n(5) $m_{CD}+m_{DA}>0$',
+      '鳶形 $ABCD$ 如圖，其中 $A$、$C$ 在 $y$ 軸上，$B$、$D$ 在 $x$ 軸上，且 $\\overline{AB}=\\overline{AD}=2$，$\\overline{BC}=\\overline{CD}=4$，$\\overline{AC}=5$。令 $m_{AB}$、$m_{BC}$、$m_{CD}$、$m_{DA}$ 分別表各對應直線之斜率。試問以下哪些敘述成立？\n(1) 此四數值中以 $m_{AB}$ 為最大\n(2) 此四數值中以 $m_{BC}$ 為最小\n(3) $m_{BC}=-m_{CD}$\n(4) $m_{AB}\\times m_{BC}=-1$\n(5) $m_{CD}+m_{DA}>0$',
     answer: '(2)(3)(5)',
     hasImage: true,
   },
@@ -2625,37 +2626,37 @@ const lineAndCircle: Question[] = [
     chapter: '直線與圓',
     question:
       '坐標平面上有一個菱形 $ABCD$，若 $A(1,1)$，$\\overleftrightarrow{AB}$ 方程式為 $4x-3y-1=0$，中心為 $M(5,3)$，求此菱形面積。',
-    answer: '$20$',
+    answer: '20',
     hasImage: false,
   },
   {
     id: '17a50ca5eea',
     chapter: '直線與圓',
     question:
-      '平面上直線 $L_1$ 過 $A(4,5)$，$L_2$ 過 $B(7,-1)$，$L_1$ 與 $L_2$ 交於 $P$ 點，且 $L_1$ 的斜率比 $L_2$ 的斜率多 $1$，若 $\\angle ABP=90\\du$，求 $P$。',
-    answer: '$\\left(-\\frac{7}{2},-\\frac{25}{4}\\right)$',
+      '平面上直線 $L_1$ 過 $A(4,5)$，$L_2$ 過 $B(7,-1)$，$L_1$ 與 $L_2$ 交於 $P$ 點，且 $L_1$ 的斜率比 $L_2$ 的斜率多 1，若 $\\angle ABP=90\\du$，求 $P$。',
+    answer: '$(-\\frac72,-\\frac{25}4)$',
     hasImage: false,
   },
   {
     id: '17a50d16805',
     chapter: '直線與圓',
-    question: '點 $(2,p)$ 對直線 $3x-y=q$ 的對稱點稱為 $(8,-3)$，求 $(p,q)$。',
-    answer: '$(-1,17)$',
+    question: '點 $(2,p)$ 對直線 $3x-y=q$ 的對稱點為 (8,-3)，求 $(p,q)$。',
+    answer: '(-1,17)',
     hasImage: false,
   },
   {
     id: '17a50d68e5a',
     chapter: '直線與圓',
     question:
-      '平面上有點 $A(7,1)$ 及直線 $L:5x-2y=4$，請找 $B$ 點，使 $A$、$B$ 在 $L$ 的同側，滿足 $\\overleftrightarrow{AB}\\perp L$ 且 $A$ 到 $B$ 的距離與 $A$ 到 $L$ 的距離相等，求 $B$。',
-    answer: '$(12,-1)$',
+      '平面上有點 $A(7,1)$ 及直線 $L:5x-2y=4$，若有一點 $B$，使 $A$、$B$ 在 $L$ 的同側，滿足 $\\overleftrightarrow{AB}\\perp L$ 且 $A$ 到 $B$ 的距離與 $A$ 到 $L$ 的距離相等，求 $B$。',
+    answer: '(12,-1)',
     hasImage: false,
   },
   {
     id: '17a50d82b17',
     chapter: '直線與圓',
-    question: '平面上，$P(2k,1)$ 到直線 $L:x+ky=5$ 的最近距離為 $\\sqrt{2}$，求實數 $k$。(兩解)',
-    answer: '$\\frac{23}{7}$ 或 $1$',
+    question: '平面上，$P(2k,1)$ 到直線 $L:x+ky=5$ 的最近距離為 $\\sqrt2$，求實數 $k$。',
+    answer: '$\\frac{23}7\\lor1$',
     hasImage: false,
   },
   {
@@ -2663,38 +2664,38 @@ const lineAndCircle: Question[] = [
     chapter: '直線與圓',
     question:
       '已知直線 $L:3x+4y=12$，$P(2,6)$，$O(0,0)$，點 $P$ 在 $L$ 上之投影為 $A$ 點，點 $O$ 在 $L$ 上之投影為 $B$ 點，$\\overline{OP}$ 與 $L$ 交點為 $M$，求：(1) $\\overline{AM}:\\overline{MB}$ (2) $\\overline{AB}$',
-    answer: '(1) $3:2$ (2) $2$',
+    answer: '(1) 3:2 (2) 2',
     hasImage: false,
   },
   {
     id: '17a50dd5388',
     chapter: '直線與圓',
     question:
-      '設 $a\\in\\mathbb{R}$，已知在第一象限滿足聯立不等式 $\\begin{cases}x-3y\\le a\\\\x+2y\\le14\\end{cases}$ 的所有點所形成之區域面積為 $\\frac{213}{5}$ 平方單位，求 $a$。',
-    answer: '$6$',
+      '設 $a\\in\\mathbb R$，已知在第一象限滿足聯立不等式 $\\begin{cases}x-3y\\le a\\\\x+2y\\le14\\end{cases}$ 的所有點所形成之區域面積為 $\\frac{213}5$ 平方單位，求 $a$。',
+    answer: '6',
     hasImage: false,
   },
   {
     id: '17a50def853',
     chapter: '直線與圓',
     question:
-      '設 $a,b\\in\\mathbb{R}$，已知坐標平面上滿足聯立不等式 $\\begin{cases}x+y\\ge0\\\\x+y\\le6\\\\2x-y\\ge0\\\\y\\ge ax-b\\end{cases}$ 的區域是一個菱形，試求此菱形邊長、$a$、$b$。',
-    answer: '$2\\sqrt{5}$；$2$；$3\\sqrt{10}$',
+      '設 $a,b\\in\\mathbb R$，已知坐標平面上滿足聯立不等式 $\\begin{cases}x+y\\ge0\\\\x+y\\le6\\\\2x-y\\ge0\\\\y\\ge ax-b\\end{cases}$ 的區域是一個菱形，試求此菱形邊長、$a$、$b$。',
+    answer: '$2\\sqrt5$；2；$3\\sqrt{10}$',
     hasImage: false,
   },
   {
     id: '17a50e0e6da',
     chapter: '直線與圓',
     question:
-      '工匠在窗子外邊想做一個圓弧型的花臺，此花臺在窗口的中央往外伸 $72$ 公分，窗口的寬度是 $168$ 公分，求此圓弧的圓半徑。',
-    answer: '$85$ 公分',
+      '工匠在窗子外邊想做一個圓弧型的花臺，此花臺在窗口的中央往外伸 72 公分，窗口的寬度是 168 公分，求此圓弧的圓半徑。',
+    answer: '85 公分',
     hasImage: true,
   },
   {
     id: '17a50e283b8',
     chapter: '直線與圓',
     question:
-      '設圓 $O$ 之半徑為 $24$，$\\overline{OC}=26$，$\\overline{OC}$ 交圓 $O$ 於 $A$ 點，$\\overline{CD}$ 切圓 $O$ 於 $D$ 點，$B$ 為 $A$ 點到 $\\overline{OD}$ 的垂足，如示意圖，求 $\\overline{AB}$。',
+      '設圓 $O$ 之半徑為 24，$\\overline{OC}=26$，$\\overline{OC}$ 交圓 $O$ 於 $A$ 點，$\\overline{CD}$ 切圓 $O$ 於 $D$ 點，$B$ 為 $A$ 點到 $\\overline{OD}$ 的垂足，如示意圖，求 $\\overline{AB}$。',
     answer: '$\\frac{120}{13}$',
     hasImage: true,
   },
@@ -2702,7 +2703,7 @@ const lineAndCircle: Question[] = [
     id: '17a50e42825',
     chapter: '直線與圓',
     question: '坐標平面上的圓 $(x-7)^2+(y-8)^2=9$ 上有幾個點與原點的距離正好是整數值？',
-    answer: '$12$',
+    answer: '12',
     hasImage: false,
   },
   {
@@ -2710,7 +2711,7 @@ const lineAndCircle: Question[] = [
     chapter: '直線與圓',
     question:
       '點 $A(1,0)$ 在單位圓 $\\Gamma:x^2+y^2=1$ 上。試問 $\\Gamma$ 上除了 $A$ 點以外，還有幾個點到直線 $L:y=2x$ 的距離，等於 $A$ 點到 $L$ 的距離？',
-    answer: '$3$',
+    answer: '3',
     hasImage: false,
   },
   {
@@ -2725,14 +2726,14 @@ const lineAndCircle: Question[] = [
     chapter: '直線與圓',
     question:
       '若圓 $C$ 通過點 $A(4,2)$ 及點 $B(1,-5)$，且其圓心在直線 $L:x-3y-7=0$ 上，求圓 $C$ 方程式。',
-    answer: '$\\left(x-\\frac{5}{2}\\right)^2+\\left(y+\\frac{3}{2}\\right)^2=\\frac{29}{2}$',
+    answer: '$(x-\\frac52)^2+(y+\\frac32)^2=\\frac{29}2$',
     hasImage: false,
   },
   {
     id: '17a50ebac7c',
     chapter: '直線與圓',
     question:
-      '設 $\\Gamma$ 為坐標平面上通過 $(7,0)$ 與 $\\left(0,\\frac{7}{2}\\right)$ 兩點的圓。試選出正確的選項。\n(1) $\\Gamma$ 的半徑大於或等於 $5$\n(2) 當 $\\Gamma$ 的半徑達到最小值時，$\\Gamma$ 通過原點\n(3) $\\Gamma$ 與直線 $x+2y=6$ 有交點\n(4) $\\Gamma$ 的圓心不可能在第四象限\n(5) 若 $\\Gamma$ 圓心在第三象限，則 $\\Gamma$ 半徑大於 $8$',
+      '設 $\\Gamma$ 為坐標平面上通過 (7,0) 與 $(0,\\frac72)$ 兩點的圓。試選出正確的選項。\n(1) $\\Gamma$ 的半徑大於或等於 5\n(2) 當 $\\Gamma$ 的半徑達到最小值時，$\\Gamma$ 通過原點\n(3) $\\Gamma$ 與直線 $x+2y=6$ 有交點\n(4) $\\Gamma$ 的圓心不可能在第四象限\n(5) 若 $\\Gamma$ 圓心在第三象限，則 $\\Gamma$ 半徑大於 8',
     answer: '(2)(5)',
     hasImage: false,
   },
@@ -2740,7 +2741,7 @@ const lineAndCircle: Question[] = [
     id: '17a50ee3140',
     chapter: '直線與圓',
     question:
-      '設 $\\Gamma$ 為坐標平面上的圓，點 $(0,0)$ 在 $\\Gamma$ 的外部且點 $(2,6)$ 在 $\\Gamma$ 的內部。選出正確選項。\n(1) $\\Gamma$ 的圓心不可能在第二象限\n(2) $\\Gamma$ 的圓心可能在第三象限且此時 $\\Gamma$ 的半徑必大於 $10$\n(3) $\\Gamma$ 的圓心可能在第一象限且此時 $\\Gamma$ 的半徑必小於 $10$\n(4) $\\Gamma$ 的圓心可能在 $x$ 軸上且此時圓心的 $x$ 坐標必小於 $10$\n(5) $\\Gamma$ 的圓心可能在第四象限且此時 $\\Gamma$ 的半徑必大於 $10$',
+      '設 $\\Gamma$ 為坐標平面上的圓，點 (0,0) 在 $\\Gamma$ 的外部且點 (2,6) 在 $\\Gamma$ 的內部。選出正確選項。\n(1) $\\Gamma$ 的圓心不可能在第二象限\n(2) $\\Gamma$ 的圓心可能在第三象限且此時 $\\Gamma$ 的半徑必大於 10\n(3) $\\Gamma$ 的圓心可能在第一象限且此時 $\\Gamma$ 的半徑必小於 10\n(4) $\\Gamma$ 的圓心可能在 $x$ 軸上且此時圓心的 $x$ 坐標必小於 10\n(5) $\\Gamma$ 的圓心可能在第四象限且此時 $\\Gamma$ 的半徑必大於 10',
     answer: '(5)',
     hasImage: false,
   },
@@ -2748,8 +2749,8 @@ const lineAndCircle: Question[] = [
     id: '17a50f2d913',
     chapter: '直線與圓',
     question:
-      '坐標平面上有一圓 $C$，圓心為 $P$ 點，恰在直線 $L$ 上。將 $L$ 向左或向右平移 $12$ 單位之後恰與圓 $C$ 相切；將 $L$ 向上或向下平移 $5$ 單位之後也可與圓 $C$ 相切。求：\n(1) 直線 $L$ 的斜率 (2) 圓 $C$ 的半徑 ',
-    answer: '(1) $\\pm\\frac{5}{12}$ (2) $\\frac{60}{13}$',
+      '坐標平面上有一圓 $C$，圓心為 $P$ 點，恰在直線 $L$ 上。將 $L$ 向左或向右平移 12 單位之後恰與圓 $C$ 相切；將 $L$ 向上或向下平移 5 單位之後也可與圓 $C$ 相切。求：\n(1) 直線 $L$ 的斜率 (2) 圓 $C$ 的半徑 ',
+    answer: '(1) $\\pm\\frac5{12}$ (2) $\\frac{60}{13}$',
     hasImage: false,
   },
   {
@@ -2757,52 +2758,57 @@ const lineAndCircle: Question[] = [
     chapter: '直線與圓',
     question:
       '坐標平面上圓 $C:x^2+y^2+14x+8y-16=0$ 向右移 $p$ 單位再向上移 $q$ 單位之後，可使圓心落在第一象限且與兩坐標軸都相切，求數對 $(p,q)$。',
-    answer: '$(16,13)$',
+    answer: '(16,13)',
     hasImage: false,
   },
   {
     id: '17a2dd2d0b1',
     chapter: '直線與圓',
-    question:
-      '正五邊形 $ABCDE$，如圖。五個邊長中何者的斜率最大？何者的斜率最小？\n(1) $\\overline{AB}$ (2) $\\overline{BC}$ (3) $\\overline{CD}$ (4) $\\overline{DE}$ (5) $\\overline{EA}$',
-    answer: '(3)；(1)',
+    question: '正五邊形 $ABCDE$，如圖。試比較五個邊長中的斜率大小。',
+    answer: '$m_{CD}>m_{AE}>m_{BC}>m_{DE}>m_{AB}$',
     hasImage: true,
   },
   {
     id: '17a2dd465e2',
     chapter: '直線與圓',
-    question: '已知 $\\overline{AB}$ 斜率為 $2$，若 $A(3,7)$、$B(-1,x)$，求 $x$。',
-    answer: '$-1$',
+    question: '已知 $\\overline{AB}$ 斜率為 2，若 $A(3,7)$、$B(-1,b)$，求 $b$。',
+    answer: '-1',
     hasImage: false,
   },
   {
     id: '17a2dd59cf5',
     chapter: '直線與圓',
-    question:
-      '由 $A$ 向右移 $5$，再向上移 $y$ 到達 $B$ 點，若 $\\overline{AB}$ 的斜率為 $2$，求 $y$。',
-    answer: '$10$',
+    question: '由 $A$ 向右移 5，再向上移 $y$ 到達 $B$ 點，若 $\\overline{AB}$ 的斜率為 2，求 $y$。',
+    answer: '10',
     hasImage: false,
   },
   {
     id: '17a2dd669cd',
     chapter: '直線與圓',
-    question: '設直線方程式 $kx+(k-6)y=1$ 的斜率為 $2$，求 $k$。',
-    answer: '$4$',
+    question: '設直線方程式 $kx+(k-6)y=1$ 的斜率為 2，求 $k$。',
+    answer: '4',
     hasImage: false,
   },
   {
     id: '17a348a3b3e',
     chapter: '直線與圓',
     question:
-      '三點 $P(1,a)$，$Q(2,a+3)$，$R(-1,5)$，若：\n(1) 在同一直線上，求 $a$。 (2) $\\angle PQR=90\\du$，求 $a$。',
-    answer: '(1) $11$ (2) $1$',
+      '三點 $P(1,a)$，$Q(2,a+3)$，$R(-1,5)$，若：\n(1) 在同一直線上，求 $a$\n(2) $\\angle PQR=90\\du$，求 $a$',
+    answer: '(1) 11 (2) 1',
+    hasImage: false,
+  },
+  {
+    id: '1815da6c177',
+    chapter: '直線與圓',
+    question: '求過點 $(3,4)$ 且與直線 $L:2x-5y=7$ 垂直的直線方程式。',
+    answer: '$5x+2y=23$',
     hasImage: false,
   },
   {
     id: '17a34943d7f',
     chapter: '直線與圓',
-    question: '已知 $A(3,4)$，$B(-5,2)$，求 $\\overleftrightarrow{AB}$ 方程式。',
-    answer: '$x-4y=-13$',
+    question: '已知 $A(3,4)$，$B(-5,2)$，求 $\\overline{AB}$ 的垂直平分線方程式。',
+    answer: '$4x+y=-1$',
     hasImage: false,
   },
   {
@@ -2810,22 +2816,29 @@ const lineAndCircle: Question[] = [
     chapter: '直線與圓',
     question:
       '坐標平面上直線 $L$ 與 $x$ 軸交於 $(-k,0)$，與 $y$ 軸交於 $(0,2k)$，且點 $(9,8)$ 在 $L$ 上，求 $k$。',
-    answer: '$-5$',
+    answer: '-5',
     hasImage: false,
   },
   {
     id: '17a349b3a65',
     chapter: '直線與圓',
     question:
-      '平面上直線 $L:2x+6y=4$，請問下列哪一個選項的直線與 $L$ 相平行？哪一個選項的直線與 $L$ 相垂直？\n(1) $3x-9y=1$ (2) $3x-y=1$ (3) $x+3y=1$ (4) $3x+9y=6$',
+      '平面上直線 $L:2x+6y=4$，請問下列哪一個選項的直線與 $L$ 相平行？哪一個選項的直線與 $L$ 相垂直？(1) $3x-9y=1$\n(2) $3x-y=1$ (3) $x+3y=1$ (4) $3x+9y=6$',
     answer: '(3)；(2)',
+    hasImage: false,
+  },
+  {
+    id: '1815dbfad29',
+    chapter: '直線與圓',
+    question: '直線 $ax+y=2$ 與 $4x-3y=b$ 重合，求數對 $(a,b)$。',
+    answer: '$(-\\frac43,-6)$',
     hasImage: false,
   },
   {
     id: '17a34a1e673',
     chapter: '直線與圓',
-    question: '點 $(2,k)$ 到直線 $3x-4y=1$ 的距離為 $3$，求 $k$。',
-    answer: '$5$ 或 $-\\frac{5}{2}$',
+    question: '點 $(2,k)$ 到直線 $3x-4y=1$ 的距離為 3，求 $k$。',
+    answer: '$5\\lor-\\frac52$',
     hasImage: false,
   },
   {
@@ -2838,28 +2851,37 @@ const lineAndCircle: Question[] = [
   {
     id: '17a34abb772',
     chapter: '直線與圓',
-    question: '不等式 $ax+by\\ge c$ 的圖形為下列哪一個選項，可使實數 $a$、$b$、$c$ 均小於 $0$？',
+    question: '不等式 $ax+by\\ge c$ 的圖形為下列哪一個選項，可使實數 $a$、$b$、$c$ 均小於 0？',
     answer: '(2)',
     hasImage: true,
+    style: { width: '100%' },
+  },
+  {
+    id: '1815dd688e8',
+    chapter: '直線與圓',
+    question:
+      '坐標平面上，直線 $y=2x$ 與直線 $y=-3x+5$ 將坐標平面分割成四個區域。試問下列哪一個選項的點會和點 (1,1) 在同一個區域？(1) (20,-56) (2) (13,-33)\n(3) (-1,1) (4) (-15,-29) (5) (-20,-29)',
+    answer: '(1)',
+    hasImage: false,
   },
   {
     id: '17a36690e96',
     chapter: '直線與圓',
-    question: '求圓心 $(1,-3)$ 且半徑為 $4$ 的圓方程式。',
-    answer: '$(x-1)^2(+y+3)^2=16$',
+    question: '求圓心 (1,-3) 且半徑為 4 的圓方程式。',
+    answer: '$(x-1)^2+(y+3)^2=16$',
     hasImage: false,
   },
   {
     id: '17a366ab9d9',
     chapter: '直線與圓',
-    question: '$x^2+pxy+qy^2+4x-6y-5=0$ 為圓，求 $p$、$q$、圓心、半徑。',
-    answer: '$0$；$1$；$(-2,3)$；$3\\sqrt{2}$',
+    question: '已知 $x^2+pxy+qy^2+4x-6y-5=0$ 為圓，求 $p$、$q$、圓心、半徑。',
+    answer: '0；1；(-2,3)；$3\\sqrt2$',
     hasImage: false,
   },
   {
     id: '17a3671805f',
     chapter: '直線與圓',
-    question: '直線 $L:3x+5y=1$ 向右平移 $4$ 單位再向上平移 $7$ 單位，求所成圖形的方程式。',
+    question: '直線 $L:3x+5y=1$ 向右平移 4 單位再向上平移 7 單位，求所成圖形的方程式。',
     answer: '$3x+5y=-22$',
     hasImage: false,
   },
@@ -2867,15 +2889,15 @@ const lineAndCircle: Question[] = [
     id: '17a36731378',
     chapter: '直線與圓',
     question:
-      '圓 $x^2+y^2-6x+4y+1=0$ 向左移 $h$ 單位再向上移 $k$ 單位，所成圖形的方程式為 $x^2+y^2+2x-10y+p=0$，求序組 $(h,k,p)$。',
-    answer: '$(4,7,14)$',
+      '圓 $x^2+y^2-6x+4y+1=0$ 向左移 $h$ 單位再向上移 $k$ 單位，所成圖形的方程式為 $x^2+y^2+2x-10y+p=0$，求 $h$、$k$、$p$。',
+    answer: '4；7；14',
     hasImage: false,
   },
   {
     id: '17a3677e6c4',
     chapter: '直線與圓',
     question: '若點 $(a,-a)$ 在圓 $x^2+y^2+3x=0$ 的內部，求 $a$ 的範圍。',
-    answer: '$-\\frac{3}{2}<a<0$',
+    answer: '$-\\frac32<a<0$',
     hasImage: false,
   },
   {
@@ -2895,23 +2917,70 @@ const lineAndCircle: Question[] = [
   {
     id: '17a367e6585',
     chapter: '直線與圓',
-    question: '若圓 $x^2+y^2=9$ 與直線 $3x+4y=k$ 相切，求 $k$。',
-    answer: '$\\pm15$',
+    question: '圓 $x^2+y^2=9$ 與直線 $3x+4y=5$ 交於 $P$、$Q$ 兩點，求弦長 $\\overline{PQ}$。',
+    answer: '$4\\sqrt2$',
     hasImage: false,
   },
   {
     id: '17a36834824',
     chapter: '直線與圓',
-    question: '點 $A(7,-2)$ 對圓 $(x-3)^2+(y+4)^2=5$ 所作的切線段長度為？',
+    question: '求點 $A(7,-2)$ 對圓 $(x-3)^2+(y+4)^2=5$ 所作的切線段長度。',
     answer: '$\\sqrt{15}$',
     hasImage: false,
   },
   {
     id: '17a36848471',
     chapter: '直線與圓',
-    question: '點 $A(3,1)$ 在圓 $(x+2)^2+(y-5)^2=41$ 上，求過 $A$ 點且與圓相切的切線方程式',
+    question: '點 $A(3,1)$ 在圓 $(x+2)^2+(y-5)^2=41$ 上，求過 $A$ 點且與圓相切的切線方程式。',
     answer: '$5x-4y=11$',
     hasImage: false,
+  },
+  {
+    id: '1815e0b4e7b',
+    chapter: '直線與圓',
+    question: '在坐標平面上 (7,5) 處有一光源，將圓 $x^2+(y-1)^2=1$ 投影到 $x$ 軸的影長為？',
+    answer: '$\\frac{16}3$',
+    hasImage: false,
+  },
+  {
+    id: '1815e0cac72',
+    chapter: '直線與圓',
+    question:
+      '坐標平面上，一圓通過點 (-2,7)，與直線 $4x+3y-14=0$ 相切於點 (-1,6)，若圓方程式 $x^2+y^2+ax+by+c=0$，求 $a$、$b$、$c$。',
+    answer: '10；-6；9',
+    hasImage: false,
+  },
+  {
+    id: '1815e15c070',
+    chapter: '直線與圓',
+    question:
+      '設 $A(1,1)$、$B(3,5)$、$C(5,3)$、$D(0,-7)$、$E(2,-3)$ 及 $F(8,-6)$ 為坐標平面上的六個點。若直線 $L$ 分別與三角形 $ABC$ 及三角形 $DEF$ 各恰有一個交點，求 $L$ 的斜率之最小可能值。',
+    answer: '-3',
+    hasImage: false,
+  },
+  {
+    id: '1815e187ec4',
+    chapter: '直線與圓',
+    question:
+      '平面上有一個直角三角形，三邊的斜率為 $m_1$、$m_2$、$m_3$，若 $m_1>m_2>m_3$。則下列哪些必定為真？(1) $m_1m_2=-1$ (2) $m_1m_3=-1$\n(3) $m_1>0$ (4) $m_2\\le0$ (5) $m_3<0$',
+    answer: '(3)(5)',
+    hasImage: false,
+  },
+  {
+    id: '1815e1af7c8',
+    chapter: '直線與圓',
+    question:
+      '坐標平面上有兩條平行直線。它們的 $x$ 截距相差 20，$y$ 截距相差 15。求這兩條平行線的距離。',
+    answer: '12',
+    hasImage: false,
+  },
+  {
+    id: '1815e1d140a',
+    chapter: '直線與圓',
+    question:
+      '平面上兩平行線如圖，若 $L_2$ 的 $x$ 截距是 $L_1$ 的 $x$ 截距之 3 倍，$L_2$ 的 $y$ 截距比 $L_1$ 的 $y$ 截距多 10，且 $L_1$、$L_2$ 與兩坐標軸所圍成的梯形面積為 80，求 $L_1$ 的方程式。',
+    answer: '$5x+4y=20$',
+    hasImage: true,
   },
 ];
 
@@ -17257,7 +17326,7 @@ const spaceVector: Question[] = [
     id: '17cebf90ad3',
     chapter: '空間向量',
     question:
-      '坐標空間中有一個直立三角柱 $ABC-DEF$ 位於第一掛限，已知 $A(3,1,2)$、$B(3,4,1)$、$C(1,1,3)$，$\\overline{AD}=\\overline{BE}=\\overline{CF}=14$，且 $\\overline{AD}$、$\\overline{BE}$、$\\overline{CF}$ 均與平面 $ABC$ 垂直，請問下列各選項哪些為真？\n(1) $\\xvector{AD}=(3,2,6)$ (2) $F$ 坐標為 $(7,5,15)$\n(3) $\\triangle ABC$ 面積為 $7$\n(4) 三角柱 $ABC-DEF$ 的體積為 $49$\n(5) 三角柱 $ABC-DEF$ 的體積是四面體 $ABCD$ 的 $6$ 倍',
+      '坐標空間中有一個直立三角柱 $ABC-DEF$ 位於第一卦限，已知 $A(3,1,2)$、$B(3,4,1)$、$C(1,1,3)$，$\\overline{AD}=\\overline{BE}=\\overline{CF}=14$，且 $\\overline{AD}$、$\\overline{BE}$、$\\overline{CF}$ 均與平面 $ABC$ 垂直，請問下列各選項哪些為真？\n(1) $\\xvector{AD}=(3,2,6)$ (2) $F$ 坐標為 $(7,5,15)$\n(3) $\\triangle ABC$ 面積為 $7$\n(4) 三角柱 $ABC-DEF$ 的體積為 $49$\n(5) 三角柱 $ABC-DEF$ 的體積是四面體 $ABCD$ 的 $6$ 倍',
     answer: '(2)(4)',
     hasImage: false,
   },
