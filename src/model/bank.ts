@@ -21080,16 +21080,24 @@ export const matrixA: Question[] = [
   {
     id: '17a06695075',
     chapter: '矩陣A',
-    question: '已知直線 $L:x-\\sqrt{3}y=0$，則點 $P(2,-4)$ 對於直線 $L$ 的對稱點坐標為？',
-    answer: '$(1-2\\sqrt{3},\\sqrt{3}+2)$',
+    question: '已知直線 $L:x-\\sqrt3y=0$，求點 $P(2,-4)$ 對於直線 $L$ 的對稱點坐標。',
+    answer: '$(1-2\\sqrt3,\\sqrt3+2)$',
+    hasImage: false,
+  },
+  {
+    id: '1815af10f9d',
+    chapter: '矩陣A',
+    question:
+      "若平面上四點 $A(0,0)$、$B(3,0)$、$C(3,4)$、$D(0,4)$ 經推移矩陣 $\\begin{bmatrix}1&-5\\\\0&1\\end{bmatrix}$ 變換後依序為 $A'$、$B'$、$C'$、$D'$，求四邊形 $A'B'C'D'$ 面積。",
+    answer: '12',
     hasImage: false,
   },
   {
     id: '17a066acfd6',
     chapter: '矩陣A',
     question:
-      '平面上有一點 $P(3,-5)$ 沿著 $y$ 軸推移 $x$ 坐標的 $2$ 倍，再沿著 $x$ 軸推移 $y$ 坐標的 $2$ 倍後得到 $Q$ 點，則 $Q$ 點坐標為？',
-    answer: '$(5,1)$',
+      '平面上有一點 $P(3,-5)$ 沿著 $y$ 軸推移 $x$ 坐標的 2 倍，再沿著 $x$ 軸推移 $y$ 坐標的 2 倍後得到 $Q$ 點，則 $Q$ 點坐標為？',
+    answer: '(5,1)',
     hasImage: false,
   },
   {
@@ -21098,6 +21106,36 @@ export const matrixA: Question[] = [
     question:
       '下列共有幾個矩陣可為轉移矩陣？\n$\\begin{bmatrix}0.2&0.8\\\\0.7&0.3\\end{bmatrix}$、$\\begin{bmatrix}2&-2\\\\-1&3\\end{bmatrix}$、$\\begin{bmatrix}\\frac{1}{3}&\\frac{2}{5}\\\\\\frac{2}{3}&\\frac{3}{5}\\end{bmatrix}$、$\\begin{bmatrix}\\log2&\\log5\\\\\\log5&\\log2\\end{bmatrix}$、$\\begin{bmatrix}0&1\\\\1&0\\end{bmatrix}$',
     answer: '$3$ 個',
+    hasImage: false,
+  },
+  {
+    id: '1815ae8493b',
+    chapter: '矩陣A',
+    question:
+      '設 $A=\\begin{bmatrix}\\frac12&-\\frac{\\sqrt3}2\\\\\\frac{\\sqrt3}2&\\frac12\\end{bmatrix}\\begin{bmatrix}2&0\\\\0&4\\end{bmatrix}$，若點 $P(x,y)$ 被 $A$ 變換成 $Q(8,4)$，求 $P$ 點坐標。',
+    answer: '$(2+\\sqrt3,\\frac12-\\sqrt3)$',
+    hasImage: false,
+  },
+  {
+    id: '1815aeab9e5',
+    chapter: '矩陣A',
+    question:
+      '下列哪些二階方陣可使 $\\triangle ABC$ 經該方陣變換後，面積保持不變？\n(1) $\\begin{bmatrix}1&2\\\\2&1\\end{bmatrix}$ (2) $\\begin{bmatrix}1&2\\\\0&1\\end{bmatrix}$\n(3) $\\begin{bmatrix}\\cos10\\du&-\\sin10\\du\\\\\\sin10\\du&\\cos10\\du\\end{bmatrix}$\n(4) $\\begin{bmatrix}\\sin20\\du&\\cos20\\du\\\\\\cos20\\du&-\\sin20\\du\\end{bmatrix}$\n(5) $\\begin{bmatrix}\\cos45\\du&\\sin45\\du\\\\\\sin45\\du&\\cos45\\du\\end{bmatrix}$',
+    answer: '(2)(3)(4)',
+    hasImage: false,
+  },
+  {
+    id: '1815aec64aa',
+    chapter: '矩陣A',
+    question: '已知正三角形 $OAB$ 兩頂點坐標 $O(0,0)$，$A(-2,0)$，求頂點 $B$。',
+    answer: '$(-1,\\pm\\sqrt3)$',
+    hasImage: false,
+  },
+  {
+    id: '1815aeda9e7',
+    chapter: '矩陣A',
+    question: '$A=\\begin{bmatrix}\\sqrt3&1\\\\-1&\\sqrt3\\end{bmatrix}$ ，試求 $A^{12}$。',
+    answer: '$\\begin{bmatrix}4096&0\\\\0&4096\\end{bmatrix}$',
     hasImage: false,
   },
   {
@@ -21128,15 +21166,15 @@ export const matrixA: Question[] = [
     id: '17a06734454',
     chapter: '矩陣A',
     question:
-      '如圖，正三角形 $ABC$ 的中心為原點 $O$，頂點 $A(2,-2)$，且 $B$ 點在第三象限，則 $B$ 點坐標為？',
-    answer: '$(-1-\\sqrt{3},-\\sqrt{3}+1)$',
+      '如圖，正三角形 $ABC$ 的中心為原點 $O$，頂點 $A(2,-2)$，且 $B$ 點在第三象限，求 $B$ 點坐標。',
+    answer: '$(-1-\\sqrt3,1-\\sqrt3)$',
     hasImage: true,
   },
   {
     id: '17a0674dd31',
     chapter: '矩陣A',
     question:
-      '$A=\\begin{bmatrix}\\frac{1}{2}&-\\frac{\\sqrt{3}}{2}\\\\\\frac{\\sqrt{3}}{2}&\\frac{1}{2}\\end{bmatrix}$，求 $A^{108}+A^{2019}$。',
+      '$A=\\begin{bmatrix}\\frac12&-\\frac{\\sqrt3}2\\\\\\frac{\\sqrt3}2&\\frac12\\end{bmatrix}$，求 $A^{108}+A^{2019}$。',
     answer: '$\\begin{bmatrix}0&0\\\\0&0\\end{bmatrix}$',
     hasImage: false,
   },
@@ -21145,7 +21183,7 @@ export const matrixA: Question[] = [
     chapter: '矩陣A',
     question:
       '$A=\\begin{bmatrix}\\cos18\\du&-\\sin18\\du\\\\\\sin18\\du&\\cos18\\du\\end{bmatrix}$，$B=\\begin{bmatrix}\\cos87\\du&-\\sin87\\du\\\\\\sin87\\du&\\cos87\\du\\end{bmatrix}$，$C=\\begin{bmatrix}\\cos45\\du&\\sin45\\du\\\\-\\sin45\\du&\\cos45\\du\\end{bmatrix}$，將 $ABC$ 化簡後得到矩陣 $\\begin{bmatrix}a&b\\\\c&d\\end{bmatrix}$，求 $\\frac{b}{a}$。',
-    answer: '$-\\sqrt{3}$',
+    answer: '$-\\sqrt3$',
     hasImage: false,
   },
   {
@@ -21193,7 +21231,7 @@ export const matrixA: Question[] = [
     chapter: '矩陣A',
     question:
       '設平面上有一個平面變換，將 $P_1(1,2)$，$P_2(2,-1)$ 兩點分別變換到 $Q_1(7,3)$、$Q_2(4,1)$ 兩點，則此變換所對應的二階方陣為 $\\begin{bmatrix}a&b\\\\c&d\\end{bmatrix}$，求 $a+b+c+d$。',
-    answer: '$7$',
+    answer: '7',
     hasImage: false,
   },
   {
@@ -21216,8 +21254,8 @@ export const matrixA: Question[] = [
     id: '179e05820dd',
     chapter: '矩陣A',
     question:
-      "設 $P(1,2)$，$Q(2,3)$，$R(3,-2)$ 為平面上三點，$A=\\begin{bmatrix}1&0\\\\2&3\\end{bmatrix}$，$B=\\begin{bmatrix}\\frac{4}{5}&-\\frac{3}{5}\\\\\\frac{3}{5}&\\frac{4}{5}\\end{bmatrix}$ 為二階方陣，$M=BA$，則 $\\triangle PQR$ 經過二階方陣 $M$ 線性變換後成 $\\triangle P'Q'R'$，求 $\\triangle P'Q'R'$ 的面積。",
-    answer: '$9$',
+      "設 $P(1,2)$，$Q(2,3)$，$R(3,-2)$ 為平面上三點，$A=\\begin{bmatrix}1&0\\\\2&3\\end{bmatrix}$，$B=\\begin{bmatrix}\\frac45&-\\frac35\\\\\\frac35&\\frac45\\end{bmatrix}$ 為二階方陣，$M=BA$，則 $\\triangle PQR$ 經過二階方陣 $M$ 線性變換後成 $\\triangle P'Q'R'$，求 $\\triangle P'Q'R'$ 的面積。",
+    answer: '9',
     hasImage: false,
   },
   {
@@ -21241,7 +21279,7 @@ export const matrixA: Question[] = [
     id: '179dab5caf3',
     chapter: '矩陣A',
     question:
-      '考慮某一個二皆矩陣的集合 $M=\\left\\{\\begin{bmatrix}a&c\\\\b&d\\end{bmatrix}|a,b,c,d\\in\\{0,1,2,4\\}\\right\\}$，從 $M$ 中任取一個二階矩陣，其為可逆矩陣的機率為何？',
+      '考慮某一個二階矩陣的集合 $M=\\left\\{\\begin{bmatrix}a&c\\\\b&d\\end{bmatrix}|a,b,c,d\\in\\{0,1,2,4\\}\\right\\}$，從 $M$ 中任取一個二階矩陣，其為可逆矩陣的機率為何？',
     answer: '$\\frac{47}{64}$',
     hasImage: false,
   },
