@@ -347,7 +347,7 @@ const numAndEquation: Question[] = [
   {
     id: '17a0de2821c',
     chapter: '數與式',
-    question: '問 $\\sqrt{7+\\sqrt{47}}$，在哪兩個連續整數之間？',
+    question: '試問 $\\sqrt{7+\\sqrt{47}}$ 在哪兩個連續整數之間？',
     answer: '3,4',
     hasImage: false,
   },
