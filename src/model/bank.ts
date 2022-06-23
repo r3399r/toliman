@@ -21555,8 +21555,8 @@ export const matrixA: Question[] = [
     id: '179c1ca4a43',
     chapter: '矩陣A',
     question:
-      '平面上 $O$ 為原點，$P$ 為 $(2,6)$，$\\overline{OP}$ 是正六邊形的一個邊，也是正八邊形的一個邊，如圖，求正六邊形的頂點 $Q$ 之坐標、正八邊形的頂點 $R$坐標。',
-    answer: '',
+      '平面上 $O$ 為原點，$P$ 為 (2,6)，$\\overline{OP}$ 是正六邊形的一個邊，也是正八邊形的一個邊，如圖，求正六邊形的頂點 $Q$ 之坐標、正八邊形的頂點 $R$ 坐標。',
+    answer: '$(-1-3\\sqrt3,-3+\\sqrt3)$；$(2\\sqrt2,-4\\sqrt2)$',
     hasImage: true,
   },
   {
@@ -21751,8 +21751,8 @@ export const matrixA: Question[] = [
     id: '179a35714f2',
     chapter: '矩陣A',
     question:
-      '多次數學考試下來，數學老師發現，全體同學若上次數學考及格，則這次也會及格的比率為 $80\\%$，若上次數學不及格，則這次數學仍不及格的比率為 $60\\%$。若這次數學考完共有七成的同學及格，則：\n(1) 下次及格的比率為？\n(2) 下下次及格的比率為？\n(3) 多次考試後及格的比率會趨近於？',
-    answer: '',
+      '多次數學考試下來，數學老師發現，全體同學若上次數學考及格，則這次也會及格的比率為 80%，若上次數學不及格，則這次數學仍不及格的比率為 60%。若這次數學考完共有七成的同學及格，則：\n(1) 下次及格的比率為？\n(2) 下下次及格的比率為？\n(3) 多次考試後及格的比率會趨近於？',
+    answer: '(1) 0.68 (2) 0.672 (3) $\\frac23$',
     hasImage: false,
   },
   {
@@ -21760,7 +21760,7 @@ export const matrixA: Question[] = [
     chapter: '矩陣A',
     question:
       '設 $A$ 箱內有 $2$ 白球，$B$ 箱內有 $1$ 黑球，兩手伸進 $A$ 與 $B$ 內各取一球互換，則多次交換後黑球在 $A$ 箱內的機率為？',
-    answer: '',
+    answer: '$\\frac13$',
     hasImage: false,
   },
   {
@@ -21799,7 +21799,7 @@ export const matrixA: Question[] = [
     chapter: '矩陣A',
     question:
       '若二階方陣 $A$ 把點 $(2,5)$ 變換成 $(4,3)$，把點 $(1,3)$ 變換成 $(-5,12)$，求 $A=$？\n$A$ 把點 $(1,2)$ 變換到另一點，其坐標為？',
-    answer: '',
+    answer: '$\\begin{bmatrix}37&-14\\\\-51&21\\end{bmatrix}$',
     hasImage: false,
   },
   {
@@ -22264,8 +22264,8 @@ const matrixB: Question[] = [
     id: '179b7a29ea3',
     chapter: '矩陣B',
     question:
-      '設 $A$ 與 $B$ 階為二階方陣，$I$ 是二階單位方陣，則下列各敘述哪些恆為真？\n(A) $A^2-B^2=(A+B)(A-B)$ (B) $(A+I)^2=A^2+2A+I$\n(C) $\\det(2A)=4\\det A$ (D) 若 $A^2=I$，則 $A=I$ 或 $A=-I$\n(E) $(AB)^2=A^2B^2$',
-    answer: '(B)(C)',
+      '設 $A$ 與 $B$ 階為二階方陣，$I$ 是二階單位方陣，則下列各敘述哪些恆為真？\n(1) $A^2-B^2=(A+B)(A-B)$\n(2) $(A+I)^2=A^2+2A+I$\n(3) $\\det(2A)=4\\det A$\n(4) 若 $A^2=I$，則 $A=I$ 或 $A=-I$\n(5) $(AB)^2=A^2B^2$',
+    answer: '(2)(3)',
     hasImage: false,
   },
   {
@@ -22273,7 +22273,8 @@ const matrixB: Question[] = [
     chapter: '矩陣B',
     question:
       '設 $X$，$Y$ 為矩陣，且滿足 $5X+3Y=\\begin{bmatrix}1&-2\\\\0&3\\end{bmatrix}$，$2X+Y=\\begin{bmatrix}2&1\\\\-1&4\\end{bmatrix}$，試求 $X$、$Y$。',
-    answer: '',
+    answer:
+      '$\\begin{bmatrix}5&5\\\\-3&9\\end{bmatrix}$；$\\begin{bmatrix}-8&-9\\\\5&-14\\end{bmatrix}$',
     hasImage: false,
   },
   {
