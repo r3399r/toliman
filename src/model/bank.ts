@@ -19792,6 +19792,85 @@ const conditionalProb: Question[] = [
 // 矩陣A
 export const matrixA: Question[] = [
   {
+    id: '1818ee916be',
+    chapter: '矩陣A',
+    question:
+      '令 $A=\\begin{bmatrix}a+2&-4\\\\-2&2\\end{bmatrix}$，若 $A^{-1}$ 不存在，求 $a$。\n(1) 2 (2) -1 (3) 0 (4) -3 (5) 4',
+    answer: '',
+    hasImage: false,
+  },
+  {
+    id: '1818eeb6cda',
+    chapter: '矩陣A',
+    question:
+      '設 $A$、$B$均為二階方陣，若 $A+B=\\begin{bmatrix}1&4\\\\1&6\\end{bmatrix}$，$A-B=\\begin{bmatrix}3&2\\\\1&2\\end{bmatrix}$，$A^2-B^2=\\begin{bmatrix}a&b\\\\c&d\\end{bmatrix}$，則下列何者最大？\n(1) $a$ (2) $b$ (3) $c$ (4) $d$ (5) $ad-bc$',
+    answer: '',
+    hasImage: false,
+  },
+  {
+    id: '1818ef304bf',
+    chapter: '矩陣A',
+    question:
+      '有關矩陣 $A=\\begin{bmatrix}-1&0\\\\0&1\\end{bmatrix}$ 與矩陣 $B=\\begin{bmatrix}\\frac{\\sqrt3}2&-\\frac12\\\\\\frac12&\\frac{\\sqrt3}2\\end{bmatrix}$，試問下列哪些選項是正確的？\n(1) $B^6=-I$ (2) $A^2B=BA^4$ (3) $AB^6=A^3B^{12}$ (4) $A^9B^4=B^8A^5$ (5) $(ABA)^{20}=A^{20}B^{20}A^{20}$',
+    answer: '',
+    hasImage: false,
+  },
+  {
+    id: '1818f0e2cdb',
+    chapter: '矩陣A',
+    question:
+      '已知方程組的解 $\\begin{cases}x+3y+2z=7\\\\3x-4y+z=1\\\\5x+2y+az=b\\end{cases}$ 所形成的圖形為一直線，試求數對 $(a,b)$。',
+    answer: '',
+    hasImage: false,
+  },
+  {
+    id: '1818f12c960',
+    chapter: '矩陣A',
+    question:
+      '小樹從家裡到學校有甲、乙兩條路可以走，他每天依下述方法決定上學的路線；若某一天走甲路線上學，則次日有 $\\frac23$ 的機率走乙路線；若某一天走乙路線上學，則次日一定走甲路線。若星期一小樹決定走甲路線上學，則他在星期三走甲路線上學的機率為？',
+    answer: '',
+    hasImage: false,
+  },
+  {
+    id: '1818f14271f',
+    chapter: '矩陣A',
+    question:
+      '某城市與其郊區於 2019 年人口遷移狀況為每年住在城市的人有 20% 會遷往郊區，而住在郊區的人有 30% 會遷往城市，若該年度城市人口 40 萬人，郊區人口 20 萬人，則預估 2019 年到 2021 年，城市的人口會減少多少萬人？',
+    answer: '',
+    hasImage: false,
+  },
+  {
+    id: '1818f16bfc2',
+    chapter: '矩陣A',
+    question: '設 $L:x-\\sqrt3y=0$，點 $P(1,\\sqrt3)$ 對 $L$ 鏡射後得 $P$ 點，求 $P$。',
+    answer: '',
+    hasImage: false,
+  },
+  {
+    id: '1818f1af59b',
+    chapter: '矩陣A',
+    question:
+      "設 $M$ 為二階方陣，且滿足 $M\\begin{bmatrix}1\\\\2\\end{bmatrix}=\\begin{bmatrix}7\\\\4\\end{bmatrix}$，$M\\begin{bmatrix}5\\\\-1\\end{bmatrix}=\\begin{bmatrix}2\\\\9\\end{bmatrix}$，試回答下列問題：\n(1) 若矩陣 $M$ 將 $\\triangle ABC$ 變換為 $\\triangle A'B'C'$，則  $\\triangle A'B'C'$ 的面積為  $\\triangle ABC$ 面積的幾倍？\n(2) 若點 $P(4-3a,5a)$ 經過矩陣 $M$ 的變換後的點落在第一象限內，則整數值 $a$ 共有幾個？",
+    answer: '',
+    hasImage: false,
+  },
+  {
+    id: '1818f1af59c',
+    chapter: '矩陣A',
+    question:
+      '設 $M$ 為二階方陣，且滿足 $M\\begin{bmatrix}1\\\\2\\end{bmatrix}=\\begin{bmatrix}7\\\\4\\end{bmatrix}$，$M\\begin{bmatrix}5\\\\-1\\end{bmatrix}=\\begin{bmatrix}2\\\\9\\end{bmatrix}$，若點 $P(4-3a,5a)$ 經過矩陣 $M$ 的變換後的點落在第一象限內，則整數值 $a$ 共有幾個？',
+    answer: '',
+    hasImage: false,
+  },
+  {
+    id: '1818f20eaf3',
+    chapter: '矩陣A',
+    question:
+      '已知 $I=\\begin{bmatrix}1&0\\\\0&1\\end{bmatrix}$，$J=\\begin{bmatrix}3&3\\\\3&3\\end{bmatrix}$，且 $(I+2J)^3=aI+bJ$，求 $b$。',
+    answer: '',
+    hasImage: false,
+  },
+  {
     id: '180be29a3d3',
     chapter: '矩陣A',
     question:
@@ -21005,7 +21084,7 @@ export const matrixA: Question[] = [
     id: '17ce8f75d11',
     chapter: '矩陣A',
     question:
-      '矩陣 $\\begin{bmatrix}-1&0\\\\1&-1\\end{bmatrix}^5$ 與下列哪一個矩陣相等？\n(1) $\\begin{bmatrix}-1&0\\\\-5&-1\\end{bmatrix}$ (2) $\\begin{bmatrix}1&0\\\\-5&1\\end{bmatrix}$\n(3) $\\begin{bmatrix}-1&5\\\\0&-1\\end{bmatrix}$ (4) $\\begin{bmatrix}1&0\\\\5&1\\end{bmatrix}$\n(5) $\\begin{bmatrix}-1&0\\\\5&-1\\end{bmatrix}$',
+      '矩陣 $\\begin{bmatrix}-1&0\\\\1&-1\\end{bmatrix}^5$ 與下列哪一個矩陣相等？\n(1) $\\begin{bmatrix}-1&0\\\\-5&-1\\end{bmatrix}$ (2) $\\begin{bmatrix}1&0\\\\-5&1\\end{bmatrix}$ (3) $\\begin{bmatrix}-1&5\\\\0&-1\\end{bmatrix}$ (4) $\\begin{bmatrix}1&0\\\\5&1\\end{bmatrix}$ (5) $\\begin{bmatrix}-1&0\\\\5&-1\\end{bmatrix}$',
     answer: '(5)',
     hasImage: false,
   },
@@ -21961,7 +22040,7 @@ const matrixB: Question[] = [
     id: '17a222cf18f',
     chapter: '矩陣B',
     question:
-      '(多選) $A=\\begin{bmatrix}0&2\\\\-2&0\\end{bmatrix}$，$I=\\begin{bmatrix}1&0\\\\0&1\\end{bmatrix}$，則以下敘述，何者正確？\n(1) $A^2=-4I$ (2) $A^3=-4A$\n(3) $A^4=16I$ (4) $A^{100}=(-4)^{50}I$\n(5) $(A-I)^3=-A+11I$',
+      '$A=\\begin{bmatrix}0&2\\\\-2&0\\end{bmatrix}$，$I=\\begin{bmatrix}1&0\\\\0&1\\end{bmatrix}$，則以下敘述，何者正確？\n(1) $A^2=-4I$ (2) $A^3=-4A$\n(3) $A^4=16I$ (4) $A^{100}=(-4)^{50}I$\n(5) $(A-I)^3=-A+11I$',
     answer: '(1)(2)(3)(4)(5)',
     hasImage: false,
   },
@@ -21969,8 +22048,8 @@ const matrixB: Question[] = [
     id: '17a222ea5b7',
     chapter: '矩陣B',
     question:
-      '若兩矩陣 $A$ 與 $B$ 滿足 $A+3B=\\begin{bmatrix}1&6&3\\\\2&13&18\\end{bmatrix}$ 且 $A-2B=\\begin{bmatrix}1&-4&-2\\\\-3&-7&-7\\end{bmatrix}$，求矩陣 $B$ 的第 $(2,1)$ 元。',
-    answer: '$1$',
+      '若兩矩陣 $A$ 與 $B$ 滿足 $A+3B=\\begin{bmatrix}1&6&3\\\\2&13&18\\end{bmatrix}$ 且 $A-2B=\\begin{bmatrix}1&-4&-2\\\\-3&-7&-7\\end{bmatrix}$，求矩陣 $B$ 的第 (2,1) 元。',
+    answer: '1',
     hasImage: false,
   },
   {
@@ -21978,7 +22057,7 @@ const matrixB: Question[] = [
     chapter: '矩陣B',
     question:
       '設 $A=\\begin{bmatrix}3&2\\\\2&1\\end{bmatrix}$，若 $A\\begin{bmatrix}a\\\\b\\end{bmatrix}=\\begin{bmatrix}1\\\\0\\end{bmatrix}$，$A\\begin{bmatrix}c\\\\d\\end{bmatrix}=\\begin{bmatrix}0\\\\1\\end{bmatrix}$，求 $a^3+b^3+c^3+d^3$。',
-    answer: '$-12$',
+    answer: '-12',
     hasImage: false,
   },
   {

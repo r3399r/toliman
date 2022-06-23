@@ -52,7 +52,7 @@ const B1C1Numbers = () => {
         </Concept>
       </Page>
       <Page pageNum={3}>
-        <Exercise ids={['17a0df3d2da', '181525f5385']} height="7cm" />
+        <Exercise ids={['17a0df3d2da', '181525f5385']} height="8.5cm" />
         <Concept num={5} title="雙重根號的化簡">
           <div>
             {'設 $a\\ge b\\ge0$'}
@@ -62,7 +62,7 @@ const B1C1Numbers = () => {
             {'$\\sqrt{(a+b)-2\\sqrt{ab}}=$'}
           </div>
         </Concept>
-        <Exercise ids={['17a0df8d0dc', '17a0df9ff9f']} height="8cm" />
+        <Exercise ids={['17a0df8d0dc', '17a0df9ff9f']} height="9.5cm" />
       </Page>
       <Page pageNum={4}>
         <Concept num={6} title="算幾不等式" height="3.6cm">
