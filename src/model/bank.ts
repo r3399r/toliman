@@ -643,7 +643,7 @@ const beginner: Question[] = [
     id: '181d147f7e4',
     chapter: '升高中銜接',
     question:
-      '試判斷 $x=-2$ 是下列哪一個不等式的解？\n(1) $-6x+1\\le4x+5$\n(2) $3x-2\\ge-2x+1$\n(3) $-x+2>7x+5$\n(4) $x+5<3x-2$',
+      '試判斷 $x=-2$ 是下列哪一個不等式的解？(1) $-6x+1\\le4x+5$\n(2) $3x-2\\ge-2x+1$\n(3) $-x+2>7x+5$\n(4) $x+5<3x-2$',
     answer: '',
     hasImage: false,
   },
@@ -693,6 +693,190 @@ const beginner: Question[] = [
     id: '181d14dd65d',
     chapter: '升高中銜接',
     question: '若一元一次不等式 $2(x+3a)>-15$ 的解都是正數，求 $a$ 的最大值。',
+    answer: '',
+    hasImage: false,
+  },
+  {
+    id: '181d1531cf1',
+    chapter: '升高中銜接',
+    question: '解方程式 $\\dfrac13(3x-4)-\\dfrac16(5x-7)=\\dfrac12(3x-4)$。',
+    answer: '',
+    hasImage: false,
+  },
+  {
+    id: '181d154f755',
+    chapter: '升高中銜接',
+    question: '解方程式 $3x-2\\{x-3[x-(5x-3)]\\}=0$。',
+    answer: '',
+    hasImage: false,
+  },
+  {
+    id: '181d156007d',
+    chapter: '升高中銜接',
+    question: '解不等式 $\\dfrac{2x+8}5-\\dfrac{3x-2}{15}>\\dfrac{x+2}3$',
+    answer: '',
+    hasImage: false,
+  },
+  {
+    id: '181d156e1b5',
+    chapter: '升高中銜接',
+    question: '解不等式 $5(4x+5)+8<9(3x-1)-7$。',
+    answer: '',
+    hasImage: false,
+  },
+  {
+    id: '181d2788e2f',
+    chapter: '升高中銜接',
+    question:
+      '計算並化簡：\n(1) $-\\sqrt{12}\\times\\sqrt7$\n(2) $\\sqrt{\\dfrac13}\\times3\\sqrt3$',
+    answer: '',
+    hasImage: false,
+  },
+  {
+    id: '181d2794dcb',
+    chapter: '升高中銜接',
+    question:
+      '計算並化簡：\n(1) $\\sqrt{18}\\times(-\\sqrt{\\dfrac{32}9})$\n(2) $-\\dfrac23\\sqrt5\\times(-\\dfrac34\\sqrt{15})$',
+    answer: '',
+    hasImage: false,
+  },
+  {
+    id: '181d27ad6d7',
+    chapter: '升高中銜接',
+    question:
+      '計算並化簡：\n(1) $\\sqrt{48}\\div\\sqrt3$\n(2) $-\\sqrt{10}\\div\\sqrt{45}$\n(3) $-\\sqrt{35}\\div\\sqrt{\\dfrac8{21}}\\times(-\\sqrt{\\dfrac{32}{49}})$',
+    answer: '',
+    hasImage: false,
+  },
+  {
+    id: '181d27c56bb',
+    chapter: '升高中銜接',
+    question:
+      '計算並化簡：\n(1) $-4\\sqrt3\\div\\sqrt6$\n(2) $\\sqrt{\\dfrac12}\\div\\sqrt{\\dfrac23}$\n(3) $\\sqrt{\\dfrac{48}{25}}\\times\\dfrac{\\sqrt{15}}{\\sqrt{18}}\\div(-\\sqrt{\\dfrac5{12}})$',
+    answer: '',
+    hasImage: false,
+  },
+  {
+    id: '181d27da1fa',
+    chapter: '升高中銜接',
+    question:
+      '化為最簡根式：\n(1) $\\sqrt{7^3}$ (2) $\\sqrt{24}$\n(3) $\\sqrt{35}\\times\\sqrt{48}$ (4) $\\sqrt{2^5\\times3^3\\times7}$',
+    answer: '',
+    hasImage: false,
+  },
+  {
+    id: '181d27f3bae',
+    chapter: '升高中銜接',
+    question:
+      '化為最簡根式：\n(1) $-\\sqrt{72}$ (2) $-\\sqrt{1\\dfrac34}$\n(3) $-\\dfrac7{\\sqrt{21}}$ (4) $\\sqrt{2^3\\times3^4\\times5^2}$',
+    answer: '',
+    hasImage: false,
+  },
+  {
+    id: '181d281172c',
+    chapter: '升高中銜接',
+    question: '若 $\\sqrt{\\dfrac{32}3}\\div x\\times\\sqrt{\\dfrac{15}{16}}=\\dfrac23$，求 $x$。',
+    answer: '',
+    hasImage: false,
+  },
+  {
+    id: '181d282b2d1',
+    chapter: '升高中銜接',
+    question:
+      '若 $x\\div\\dfrac{\\sqrt{15}}{\\sqrt{16}}\\times\\dfrac{\\sqrt{45}}{\\sqrt2}=\\dfrac{\\sqrt5}{\\sqrt{18}}$，求 $x$。',
+    answer: '',
+    hasImage: false,
+  },
+  {
+    id: '181d2875de4',
+    chapter: '升高中銜接',
+    question: '計算並化簡：\n(1) $5-3\\sqrt{25}$\n(2) $\\dfrac1{\\sqrt2}+\\sqrt{128}$',
+    answer: '',
+    hasImage: false,
+  },
+  {
+    id: '181d287e58d',
+    chapter: '升高中銜接',
+    question:
+      '計算並化簡：\n(1) $\\sqrt{98}-\\sqrt{72}+\\sqrt{32}$\n(2) $\\dfrac4{2\\sqrt5}-\\dfrac{\\sqrt{80}}3+\\sqrt{125}$',
+    answer: '',
+    hasImage: false,
+  },
+  {
+    id: '181d288e091',
+    chapter: '升高中銜接',
+    question:
+      '計算並化簡：\n(1) $-2\\sqrt2\\times(\\sqrt{14}-\\sqrt7)$\n(2) $(3\\sqrt2-2\\sqrt3)(\\sqrt6+2)$',
+    answer: '',
+    hasImage: false,
+  },
+  {
+    id: '181d289ae85',
+    chapter: '升高中銜接',
+    question:
+      '計算並化簡：\n(1) $(3\\sqrt5-\\sqrt{10})\\div\\sqrt{15}$\n(2) $\\sqrt3-\\sqrt{20}+\\sqrt{27}-\\sqrt5$',
+    answer: '',
+    hasImage: false,
+  },
+  {
+    id: '181d28b0696',
+    chapter: '升高中銜接',
+    question:
+      '利用乘法公式計算並化簡：\n(1) $(\\sqrt6-\\sqrt{10})(\\sqrt6+\\sqrt{10})$\n(2) $(2\\sqrt5+\\sqrt3)^2$\n(3) $(3\\sqrt2-\\sqrt6)^2$',
+    answer: '',
+    hasImage: false,
+  },
+  {
+    id: '181d28c5aec',
+    chapter: '升高中銜接',
+    question:
+      '利用乘法公式計算並化簡：\n(1) $(6\\sqrt2-4\\sqrt3)(6\\sqrt2+4\\sqrt3)$\n(2) $(2\\sqrt5+\\sqrt8)^2$\n(3) $(\\sqrt3-2\\sqrt6)^2$',
+    answer: '',
+    hasImage: false,
+  },
+  {
+    id: '181d28d167a',
+    chapter: '升高中銜接',
+    question: '化簡：(1) $\\dfrac2{\\sqrt6+\\sqrt2}$ (2) $\\dfrac3{\\sqrt{11}-2\\sqrt5}$',
+    answer: '',
+    hasImage: false,
+  },
+  {
+    id: '181d28dffc5',
+    chapter: '升高中銜接',
+    question: '化簡：(1) $\\dfrac1{2-\\sqrt2}$ (2) $\\dfrac6{2\\sqrt3+3\\sqrt2}$',
+    answer: '',
+    hasImage: false,
+  },
+  {
+    id: '181d29a4cb9',
+    chapter: '升高中銜接',
+    question:
+      '化簡：\n(1) $5\\sqrt{18}-7\\sqrt8+4\\sqrt{20}-2\\sqrt{45}$\n(2) $\\sqrt3(\\sqrt6-\\sqrt2)-\\sqrt2(-2-\\sqrt3)$',
+    answer: '',
+    hasImage: false,
+  },
+  {
+    id: '181d29c17da',
+    chapter: '升高中銜接',
+    question:
+      '化簡：\n(1) $\\dfrac{\\sqrt{54}}3+\\dfrac3{\\sqrt6}-\\dfrac8{\\sqrt{24}}$\n(2) $(4\\sqrt5-2\\sqrt6)\\times(\\sqrt5+4\\sqrt6)$',
+    answer: '',
+    hasImage: false,
+  },
+  {
+    id: '181d29f1200',
+    chapter: '升高中銜接',
+    question:
+      '化簡：$\\dfrac1{\\sqrt3+\\sqrt2}+\\dfrac2{\\sqrt5+\\sqrt3}+\\dfrac3{\\sqrt8+\\sqrt5}$',
+    answer: '',
+    hasImage: false,
+  },
+  {
+    id: '181d2a016b1',
+    chapter: '升高中銜接',
+    question:
+      '化簡：$\\dfrac1{1+\\sqrt2}+\\dfrac1{\\sqrt2+\\sqrt3}+\\dfrac1{\\sqrt3+\\sqrt4}+$$\\cdots+\\dfrac1{\\sqrt9+\\sqrt{10}}$',
     answer: '',
     hasImage: false,
   },
