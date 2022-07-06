@@ -13,7 +13,7 @@ const App = () => {
     <ThemeProvider theme={theme}>
       <MathJaxContext
         config={{
-          loader: { load: ['[tex]/mathtools', '[tex]/physics', '[tex]/cancel'] },
+          loader: { load: ['[tex]/mathtools', '[tex]/cancel'] },
           tex: {
             inlineMath: [['$', '$']],
             packages: { '[+]': ['mathtools', 'physics', 'cancel'] },

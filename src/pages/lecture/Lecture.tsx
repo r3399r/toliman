@@ -16,6 +16,17 @@ const Lecture = () => {
           升高一試聽
         </Button>
       </div>
+      升高中銜接
+      <div className={style.button}>
+        <Button variant="contained" onClick={onClick('b0c1')}>
+          1 有理數的四則運算
+        </Button>
+      </div>
+      <div className={style.button}>
+        <Button variant="contained" onClick={onClick('b0c2')}>
+          2 方程式
+        </Button>
+      </div>
       第一冊 Ch1 數與式
       <div className={style.button}>
         <Button variant="contained" onClick={onClick('numbers')}>

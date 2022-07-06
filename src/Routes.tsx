@@ -11,6 +11,8 @@ const route = {
 
   Lecture: loadable(() => import('./pages/lecture/Lecture')),
   Trial: loadable(() => import('./pages/lecture/trial/Trial')),
+  B0C1: loadable(() => import('./pages/lecture/book0/Arithmatic')),
+  B0C2: loadable(() => import('./pages/lecture/book0/Linear')),
   Numbers: loadable(() => import('./pages/lecture/book1/Numbers')),
   Equations: loadable(() => import('./pages/lecture/book1/Equations')),
   Exponent: loadable(() => import('./pages/lecture/book1/Exponent')),
@@ -79,6 +81,8 @@ const AppRoutes = () => {
 
       <Route exact={true} path="/toliman/lecture" component={route.Lecture} />
       <Route exact={true} path="/toliman/lecture/trial" component={route.Trial} />
+      <Route exact={true} path="/toliman/lecture/b0c1" component={route.B0C1} />
+      <Route exact={true} path="/toliman/lecture/b0c2" component={route.B0C2} />
       <Route exact={true} path="/toliman/lecture/numbers" component={route.Numbers} />
       <Route exact={true} path="/toliman/lecture/equations" component={route.Equations} />
       <Route exact={true} path="/toliman/lecture/exponent" component={route.Exponent} />
