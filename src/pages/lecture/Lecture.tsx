@@ -32,6 +32,11 @@ const Lecture = () => {
           3 根式
         </Button>
       </div>
+      <div className={style.button}>
+        <Button variant="contained" onClick={onClick('b0c4')}>
+          4 二次式
+        </Button>
+      </div>
       第一冊 Ch1 數與式
       <div className={style.button}>
         <Button variant="contained" onClick={onClick('numbers')}>
