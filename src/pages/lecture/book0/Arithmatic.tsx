@@ -7,7 +7,7 @@ const Arithmatic = () => {
   return (
     <MathJax>
       <Page pageNum={1}>
-        <div className={style.head}>有理數的四則運算</div>
+        <div className={style.head}>四則運算</div>
         <Example num={1} ids={['181cc7a2693', '181cc7b534d']} showAnswer={false} height="2cm" />
         <Example num={2} ids={['181cc882e42', '181cc8957d2']} showAnswer={false} height="3cm" />
         <Example num={3} ids={['181cc8a8a0c', '181cc8ba549']} showAnswer={false} height="3cm" />
@@ -21,7 +21,7 @@ const Arithmatic = () => {
         <Example num={7} ids={['181cd018076', '181cd026848']} showAnswer={false} />
         <Example num={8} ids={['181cd032736', '181cd04771c']} showAnswer={false} />
       </Page>
-      <Page pageNum={3}>
+      <Page pageNum={4}>
         <Example num={9} ids={['181cd05db77', '181cd076eba']} showAnswer={false} />
         <Example num={10} ids={['181cd0881e2', '181cd09da53']} showAnswer={false} />
       </Page>

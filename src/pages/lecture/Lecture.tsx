@@ -19,7 +19,7 @@ const Lecture = () => {
       升高中銜接
       <div className={style.button}>
         <Button variant="contained" onClick={onClick('b0c1')}>
-          1 有理數的四則運算
+          1 四則運算
         </Button>
       </div>
       <div className={style.button}>
