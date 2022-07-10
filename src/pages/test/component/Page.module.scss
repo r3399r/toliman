@@ -1,0 +1,21 @@
+.page {
+  font-size: 17px;
+  height: 29.7cm;
+  width: 21cm;
+  box-sizing: border-box;
+  padding: 1.5cm;
+  page-break-after: always;
+  position: relative;
+
+  // border: 1px solid black;
+  > h3 {
+    margin: 0;
+  }
+  > h4 {
+    margin: 0;
+  }
+  > ol {
+    margin: 0;
+    padding-left: 20px;
+  }
+}

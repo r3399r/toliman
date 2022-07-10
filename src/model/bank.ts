@@ -1097,6 +1097,167 @@ const beginner: Question[] = [
 // 數與式
 const numAndEquation: Question[] = [
   {
+    id: '181e21d1e58',
+    chapter: '數與式',
+    question:
+      '若已知 $x+\\dfrac1 x=2\\sqrt2$，則 $|x^3+\\dfrac1{x^3}|-9$ 之值為下列何者？\n(1) 4　 (2) 5　 (3) 6　 (4) 7　 (5) 8',
+    answer: '(2)',
+    hasImage: false,
+  },
+  {
+    id: '181e22266b0',
+    chapter: '數與式',
+    question:
+      '已知 $f(x)=x^2-53x+196+|x^2-53x+196|$，則 $f(20)+f(14)$ 的值為哪個選項？\n(1) -928　 (2) -300　 (3) 0　 (4) 300　 (5) 928',
+    answer: '(3)',
+    hasImage: false,
+  },
+  {
+    id: '181e22c1aa9',
+    chapter: '數與式',
+    question:
+      '西元前 4 世紀，管子一書記載了音階形成術－三分損益法。由此法可推出「宮」、「商」、「角」、「徵」、「羽」五聲音階。已知弦長 $l$ 的琴弦發出的音為「宮」，而弦長 $\\dfrac{2^6}{3^4}l$ 的琴弦發出的音為「角」(頻率 330 Hz)，請問下列哪一個弦長發出的音為「羽」(頻率 440 Hz)？(註：弦振動的頻率與弦長成反比)\n(1) $\\dfrac{2^3}{3^2}l$　 (2) $\\dfrac23l$　 (3) $\\dfrac{2^7}{3^5}l$　 (4) $\\dfrac{2^4}{3^3}l$　 (5) $\\dfrac{2^3}{3^4}l$',
+    answer: '(4)',
+    hasImage: false,
+  },
+  {
+    id: '181e22eb423',
+    chapter: '數與式',
+    question:
+      '設 $a,b$ 為實數，若不等式 $|ax-1|\\le b$ 的解為 $-5\\le x\\le2$，則數對 $(a,b)=$？\n(1) $(\\dfrac23,\\dfrac73)$　 (2) $(-\\dfrac23,\\dfrac73)$　 (3) $(-\\dfrac23,-\\dfrac73)$　 (4) $(\\dfrac73,-\\dfrac23)$　 (5) $(\\dfrac73,\\dfrac23)$',
+    answer: '(2)',
+    hasImage: false,
+  },
+  {
+    id: '181e23076a5',
+    chapter: '數與式',
+    question:
+      '設 $a,b$ 皆為大於 0 的實數，已知 $2a+b=6$，求 $3ab$ 的最大值為何？\n(1) 9　 (2) $\\dfrac92$　 (3) $\\dfrac{27}2$　 (4) 18　 (5) 27',
+    answer: '(3)',
+    hasImage: false,
+  },
+  {
+    id: '181e232cb0c',
+    chapter: '數與式',
+    question:
+      '試選出正確的選項。\n(1) $(\\sqrt3)^{-1}=-\\sqrt3$\n(2) $(\\sqrt3)^{\\frac12}=\\dfrac1{\\sqrt3}$\n(3) $2\\times10^3+8\\times10^3=10^5$\n(4) $8\\times10^3-2\\times10^3=6$\n(5) $(10^{\\log10^2})^{-1}=\\dfrac1{100}$',
+    answer: '(5)',
+    hasImage: false,
+  },
+  {
+    id: '181e23a2ffb',
+    chapter: '數與式',
+    question:
+      '已知 $x,y$ 為實數，下列哪些敘述恆成立？\n(1) $x^2+y^2\\ge6(x+y-3)$\n(2) 若 $x\\ge y$，則 $x\\ge\\dfrac{x+2y}3\\ge y$\n(3) 若 $x\\ge0$，$y\\ge0$，則 $2\\sqrt x+\\sqrt y\\ge\\sqrt{4x+y}$\n(4) $|x+1|+|x-3|$ 之最小值為 4\n(5) $|x+1|-|x+3|$ 之最小值為 -4',
+    answer: '(1)(2)(3)(4)',
+    hasImage: false,
+  },
+  {
+    id: '181e23f52d1',
+    chapter: '數與式',
+    question:
+      '若對任意實數 $x$，$t^2+5t\\le|2x-4|-|x-2|$ 恆成立，下列哪些 $t$ 值滿足此條件？\n(1) 0　 (2) -1　 (3) $-\\pi$　 (4) $-\\dfrac{11}3$　 (5) $-\\dfrac{17}4$',
+    answer: '(2)(3)(4)',
+    hasImage: false,
+  },
+  {
+    id: '181e243dc24',
+    chapter: '數與式',
+    question:
+      '如圖，數線上五點 $A(a),B(b),C(c),D(d),E(e)$，若 $\\overline{AB}:\\overline{BC}:\\overline{CD}:\\overline{DE}=2:3:1:4$，請選出正確的選項。\n(1) $d=\\dfrac{b+e}2$　 (2) $b=\\dfrac{2a+3c}5$　 (3) $c=\\dfrac{b+3d}4$　 (4) $e=\\dfrac{4c-d}5$　 (5) $a=\\dfrac{5b+2c}3$',
+    answer: '(1)(3)',
+    hasImage: true,
+    style: { width: '6.5cm' },
+  },
+  {
+    id: '181e2459e50',
+    chapter: '數與式',
+    question:
+      '若 $10^{\\frac52a}=243$，且 $a$ 為實數，試選出正確的選項。\n(1) $10^a=3$　 (2) $100^a=81$　 (3) $0<a<1$　 (4) $\\dfrac12a=\\log\\sqrt3$　 (5) $0.01^a=\\dfrac19$',
+    answer: '(2)(3)',
+    hasImage: false,
+  },
+  {
+    id: '181e24ae73f',
+    chapter: '數與式',
+    question:
+      '設 $a,b,c,d$ 為實數，則下列選項哪些是正確的？\n(1) $\\dfrac{10549}{385}$ 可化為有限小數\n(2) 若 $a+b$ 為有理數、$a-b$ 為無理數，則 $a^2-b^2$ 必為無理數\n(3) 若 $a+\\sqrt b=c+\\sqrt d$，則 $a=c$ 且 $b=d$\n(4) 若 $a^2<b^2$，則 $|a|<|b|$\n(5) 若 $|a-2|:|a+6|=1:3$，則 $a=0$',
+    answer: '(1)(4)',
+    hasImage: false,
+  },
+  {
+    id: '181e259532c',
+    chapter: '數與式',
+    question:
+      '設 $-2\\le x\\le3$，$1\\le y\\le4$，若 $xy+y$ 的最大值為 $M$，最小值為 $m$，則數對 $(M,m)=(\\textcirc{12-1}\\textcirc{12-2},\\textcirc{12-3}\\textcirc{12-4})$。',
+    answer: '16-4',
+    hasImage: false,
+  },
+  {
+    id: '181e25cd818',
+    chapter: '數與式',
+    question:
+      '已知 $a,b$ 皆為正實數，若 $y=|x-a|+b|x-2|$ 的圖形通過 (0,3) 及 (1,2) 兩點，則數對 $(a,b)=(\\dfrac{\\textcirc{13-1}}{\\textcirc{13-2}},\\dfrac{\\textcirc{13-3}}{\\textcirc{13-4}})$。',
+    answer: '1343',
+    hasImage: false,
+  },
+  {
+    id: '181e25f2e1f',
+    chapter: '數與式',
+    question:
+      '某種有害人體的 Y 病菌在人體內每小時會由 1 個分裂成 2 個。當人體內的 Y 病菌達 1000 萬個時，身體便會出現不適症狀。若某人一開始將 100 個 Y 病菌吸入體內，則將在 $\\textcirc{14-1}\\textcirc{14-2}$ 小時後身體開始出現不適症狀。(四捨五入到整數位)',
+    answer: '17',
+    hasImage: false,
+  },
+  {
+    id: '181e2637c5f',
+    chapter: '數與式',
+    question:
+      '放射性物質每過一段固定的時間，質量會變為原來的一半，則稱此固定的時間為該放射性物質的「半衰期」。若放射性物質 A 的半衰期為 2 年，放射性物質 B 的半衰期為 3 年。現有同質量的物質 A 與物質 B，則至少 $\\textcirc{15-1}\\textcirc{15-2}$ 年後，物質 B 的質量會是物質 A 的 10 倍以上。',
+    answer: '20',
+    hasImage: false,
+  },
+  {
+    id: '181e2697128',
+    chapter: '數與式',
+    question:
+      '不等式 $|x-1|+2|x-3|\\le4$ 的解為 $\\textcirc{16-1}\\le x\\le\\dfrac{\\textcirc{16-2}\\textcirc{16-3}}{\\textcirc{16-4}}$。(化為最簡分數）',
+    answer: '1113',
+    hasImage: false,
+  },
+  {
+    id: '181e26c651a',
+    chapter: '數與式',
+    question:
+      '如圖，直角 $\\triangle ABC$ 中，$\\overline{AB}=20$，$\\overline{AC}=15$，$\\overline{BC}=25$。在 $\\overline{AB}$ 邊上取一點 $P$，在 $\\overline{BC}$ 邊上取兩點 $Q$、$R$，在 $\\overline{AC}$ 邊上取一點 $S$，使得 $PQRS$ 為矩形，求矩形 $PQRS$ 面積的最大值為 $\\textcirc{17-1}\\textcirc{17-2}$。',
+    answer: '75',
+    hasImage: true,
+  },
+  {
+    id: '181e271596b',
+    chapter: '數與式',
+    question:
+      '南迴公路是台灣著名的環島道路，連接了屏東與台東與無數美麗的景點。由於電動綠能機車環島經過南迴公路時，常常續航力不足以致拋錨於蜿蜒的山路上，廠商於南迴公路里程 18 與 42 處設置了 A、B 兩處換電站，並提供拋錨救援服務。救援規則如下：「拋錨處的里程處與 A 的距離」加上 3 倍的「拋錨處的里程處與 B 的距離」不大於 80 公里時，則可以免費救援，若超過 80 公里，則每公里加收費用 50 元，且未滿 1 公里以 1 公里收費。',
+    answer: '',
+    hasImage: true,
+    style: { width: '12cm' },
+  },
+  {
+    id: '181e27380a2',
+    chapter: '數與式',
+    question:
+      '某天小華騎乘電動綠能機車環島經過南迴公路從屏東往台東方向前進時，經過 B 換電站後，拋錨於整數處，經救援至換電站時被收費 200 元，則小華拋錨處的里程為 $\\textcirc{18-1}\\textcirc{18-2}$。(選填題，6 分)',
+    answer: '57',
+    hasImage: false,
+  },
+  {
+    id: '181e365094a',
+    chapter: '數與式',
+    question: '試問免費救援的里程範圍為何？(非選擇題，9 分)',
+    answer: '$16\\le x\\le56$',
+    hasImage: false,
+  },
+  {
     id: '17da24d4535',
     chapter: '數與式',
     question:

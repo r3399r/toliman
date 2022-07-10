@@ -1,5 +1,3 @@
-import { MathJax } from 'better-react-mathjax';
-
 type Props = {
   text: string;
   className?: string;

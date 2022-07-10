@@ -5,7 +5,7 @@ const route = {
   Home: loadable(() => import('./pages/home/Home')),
   Edit: loadable(() => import('./pages/edit/Edit')),
   Hw: loadable(() => import('./pages/hw/Hw')),
-  Test: loadable(() => import('./pages/test/Test')),
+  Test: loadable(() => import('./pages/test/Review01')),
   Bank: loadable(() => import('./pages/bank/Bank')),
   Projection: loadable(() => import('./pages/projection/Projection')),
 

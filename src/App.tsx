@@ -25,6 +25,7 @@ const App = () => {
               arc: ['\\overset{\\huge\\frown}{#1}', 1],
               du: ['^\\circ', 0],
               arg: ['\\operatorname{Arg}', 0],
+              textcirc: ['\\enclose{circle}{\\kern .06em \\text{#1}\\kern .06em}', 1],
             },
           },
         }}
