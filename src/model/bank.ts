@@ -1097,6 +1097,22 @@ const beginner: Question[] = [
 // 數與式
 const numAndEquation: Question[] = [
   {
+    id: '18207a82d82',
+    chapter: '數與式',
+    question:
+      '若 $x<0$，則下列何者必為正數？\n(1) $\\dfrac x{|x|}$　 (2) $x^3$　 (3) $-(\\dfrac12)^x$　 (4) $-x^{-1}$　 (5) $\\log(-x)$',
+    answer: '4',
+    hasImage: false,
+  },
+  {
+    id: '18207be6601',
+    chapter: '數與式',
+    question:
+      '若 $|x-1|\\le3$，$|y+1|\\le1$，$x,y$ 為實數，試選出正確的選項。\n(1) $-4\\le x\\le2$\n(2) $-2\\le y\\le0$\n(3) $-4\\le x+y\\le4$\n(4) $0\\le x^2+y^2\\le16$\n(5) $xy-3x+4y+5$ 最大值為 15',
+    answer: '23',
+    hasImage: false,
+  },
+  {
     id: '181e21d1e58',
     chapter: '數與式',
     question:
@@ -2536,6 +2552,126 @@ const expAndLog: Question[] = [
 // 多項式函數
 const polynomial: Question[] = [
   {
+    id: '18207c333b1',
+    chapter: '多項式函數',
+    question:
+      '已知二次函數 $y=(3-k)x^2-kx$ 的圖形恆在 $y=k$ 的上方，則 $k$ 值有可能為下列何者？\n(1) 6　 (2) 2　 (3) -2　 (4) -6　 (5) -10',
+    answer: '345',
+    hasImage: false,
+  },
+  {
+    id: '18206332abe',
+    chapter: '多項式函數',
+    question:
+      '在坐標平面上，將 $\\Gamma_1:y=\\dfrac13x^2+x+1$ 的圖形沿水平方向右移 2 單位，再沿鉛直方向下移 1 單位，可得 $\\Gamma_2:y=g(x)$ 的圖形，則下列哪些敘述是正確的？\n(1) $\\Gamma_1$ 的頂點為 $(-\\dfrac32,\\dfrac14)$\n(2) $g(x)=\\dfrac13(x-\\dfrac72)^2-\\dfrac34$\n(3) 當 $-1\\le x\\le3$ 時，$y=g(x)$ 的最大值為 6\n(4) 當 $-1\\le x\\le3$ 時，$y=g(x)$ 的最小值為 $-\\dfrac34$\n(5) 點 $(-\\dfrac{20}9,-\\dfrac{103}{243})$ 是 $\\Gamma_1$ 與 $\\Gamma_2$ 的一個交點',
+    answer: '14',
+    hasImage: false,
+  },
+  {
+    id: '182063bf53c',
+    chapter: '多項式函數',
+    question:
+      '已知多項式 $f(x)$，經三次的除法運算，其結果分述如下：\na. $f(x)$ 除以 $x-2$，得商式為 $Q_1(x)$，餘式為 1\nb. $Q_1(x)$ 除以 $x-2$，得商式為 $Q_2(x)$，餘式為 2\nc. $Q_2(x)$ 除以 $x-2$，得商式為 $x-3$，餘式為 3\n試選出正確的選項。\n(1) $f(x)$ 是三次多項式\n(2) $f(2)=1$\n(3) $f(x)$ 除以 $Q_1(x)$ 的餘式為 1\n(4) $f(x)$ 除以 $(x-2)^2$ 的餘式為 $Q_2(x)$\n(5) $f(2+\\sqrt2)=11$',
+    answer: '235',
+    hasImage: false,
+  },
+  {
+    id: '182063fe6b8',
+    chapter: '多項式函數',
+    question:
+      '有一條高速公路符合三次實係數多項式函數，$f(x)=x^3-2x^2+5x$，其中有兩個交流道在 $A(0,0)$ 和 $B(2,6)$ 試選出正確的選項。\n(1) $A(0,0)$ 為這條高速公路的對稱中心\n(2) 在 $0\\le x\\le2$ 時，$y=f(x)$ 的圖形為嚴格遞增\n(3) $y=f(x)$ 和所有的水平線恰交於一點\n(4) $y=f(x)$ 圖形的大域特徵近似於曲線 $y=x^3$\n(5) $y=f(x)$ 圖形在 $x=1$ 附近的圖形特徵近似於直線 $y=x$',
+    answer: '234',
+    hasImage: false,
+  },
+  {
+    id: '1820645637d',
+    chapter: '多項式函數',
+    question:
+      '設 $f(x)=x^4+ax^2+bx+c$，其中 $a,b,c$ 為實數。已知 $f(x)$ 除以 $x^2+1$ 得餘式為 $2x+1$，$f(x)$ 除以 $x+1$ 得餘式為 5，請選出正確的選項。\n(1) $a-b+c=-4$　 (2) $a=c$　 (3) $a=3$　 (4) $b=2$　 (5) $c=-3$',
+    answer: '234',
+    hasImage: false,
+  },
+  {
+    id: '1820649fdce',
+    chapter: '多項式函數',
+    question:
+      '關於多項式 $f(x)=\\dfrac{\\sqrt{5-2\\sqrt6}}2x(x-1)-\\dfrac{\\sqrt2+\\sqrt3}2(x-1)(x-2)+\\sqrt2x(x-2)$。試選出正確的選項。\n(1) $f(x)$ 的常數項為 $-\\sqrt2-\\sqrt3$　 (2) $f(x)$ 的各項係數總和為 $\\sqrt2$\n(3) $f(2)=\\sqrt2-\\sqrt3$　　　　　　 (4) $f(x)$ 是二次多項式\n(5) $f(4)=\\dfrac{f(3)+f(5)}2$',
+    answer: '15',
+    hasImage: false,
+  },
+  {
+    id: '182064c2b3f',
+    chapter: '多項式函數',
+    question:
+      '已知 $a,b,c$ 皆為實數，多項式 $x^3+ax^2+bx+c$ 同時可被 $x^2-3x+2$ 及 $x^2-5x+6$ 整除，則 $b=\\textcirc{13-1}\\textcirc{13-2}$。',
+    answer: '11',
+    hasImage: false,
+  },
+  {
+    id: '182064ff955',
+    chapter: '多項式函數',
+    question:
+      '在地面上有 $A,B,C$ 三點，且知 $\\overline{AB}=60$ 公尺，$\\overline{BC}=120$ 公尺，$\\angle ABC=90\\du$。今有甲、乙兩人，甲由 $A$ 沿著直線 $AB$ 等速走到 $B$，乙由 $B$ 沿著直線 $BC$ 等速走到 $C$，若兩人同時出發，也同時到達。則在行進過程中，甲、乙兩人之間的最短距離為 $\\textcirc{14-1}\\textcirc{14-2}\\sqrt{\\textcirc{14-3}}$ 公尺。(化為最簡根式)',
+    answer: '245',
+    hasImage: false,
+  },
+  {
+    id: '182065333cc',
+    chapter: '多項式函數',
+    question:
+      '設正實數 $a$ 的小數部分為 $b(0<b<1)$，且 $3a^2-2b^3=41$，求 $a=\\textcirc{13-1}+\\sqrt{\\textcirc{13-2}}$。',
+    answer: '23',
+    hasImage: false,
+  },
+  {
+    id: '18206555620',
+    chapter: '多項式函數',
+    question:
+      '若二次函數 $\\Gamma:y=x^2+ax+b$，$a,b$ 為實數且 $\\Gamma$ 與 $L_1:y=2x-4$、$\\Gamma$ 與 $L_2:y=-2x+4$ 均恰交於一點，則 $(a,b)=(\\textcirc{14-1}\\textcirc{14-2},\\textcirc{14-3})$。',
+    answer: '-45',
+    hasImage: false,
+  },
+  {
+    id: '18206571fa1',
+    chapter: '多項式函數',
+    question:
+      '如圖，$ABCDEF$ 為正六邊形，且 $B,C,D,E$ 皆在二次函數 $y=ax^2$ 上，若 $\\overline{AF}$ 在直線 $y=7$ 上，求 $a=\\dfrac{\\textcirc{17-1}}{\\textcirc{17-2}}$ 。(化為最簡分數)',
+    answer: '13',
+    hasImage: true,
+  },
+  {
+    id: '1820659e7b5',
+    chapter: '多項式函數',
+    question:
+      '設二次多項式函數 $f(x)$ 滿足以下三個條件：\na. 對所有實數 $t$，$f(4+t)=f(-2-t)$ 恆成立\nb. 當 $-3\\le x\\le10$ 時，$f(x)$ 有最大值 62，最小值 -100\nc. $f(-4)>f(9)$，\n則 $f(6)=\\textcirc{13-1}\\textcirc{13-2}$。',
+    answer: '12',
+    hasImage: false,
+  },
+  {
+    id: '182065f04fc',
+    chapter: '多項式函數',
+    question:
+      '如圖，為某賽車場的連續轉彎賽道，良良發現經由電腦分析，其平面圖於平面坐標上為三次函數 $f(x)$ 的一部分，經由電腦計算後，最好的入彎點為 $A(2,8)$ (即賽車手需開始踩煞車的位置)，出彎點為 $B(h,k)$ (即賽車手可以開始踩下油門的位置)，已知 $O(3,5)$ 為此三次函數的對稱中心，且 $A,B$ 對稱於 $O$ 點，則：',
+    answer: '',
+    hasImage: true,
+    style: { width: '4cm' },
+  },
+  {
+    id: '182065ff677',
+    chapter: '多項式函數',
+    question: '$h+k$ 之值為 $\\textcirc{18-1}$。(選填題，6 分)',
+    answer: '6',
+    hasImage: false,
+  },
+  {
+    id: '18206615ddc',
+    chapter: '多項式函數',
+    question:
+      '若在 $O$ 點附近的局部特徵 (即過 $O$ 點和圖形相切之直線)，近似於 $y=-5x+20$，則函數 $f(x)$ 為何？(非選擇題，9 分)',
+    answer: '$f(x)=2x^3-18x^2+49x-34$',
+    hasImage: false,
+  },
+  {
     id: '181ed7a9ed9',
     chapter: '多項式函數',
     question:
@@ -3622,6 +3758,70 @@ const polynomial: Question[] = [
 
 // 直線與圓
 const lineAndCircle: Question[] = [
+  {
+    id: '18207a17825',
+    chapter: '直線與圓',
+    question:
+      '學校合作社販賣的香檳冰棒每枝 20 元，水果冰棒每枝 30 元，某生帶著 180 元欲購買五枝以上(含)的冰棒，錢可不必花完，則他會有幾種買法？\n(1) 13　 (2) 15　 (3) 22　 (4) 29　 (5) 36',
+    answer: '3',
+    hasImage: false,
+  },
+  {
+    id: '182079f4012',
+    chapter: '直線與圓',
+    question:
+      '小美欲設計一款月亮形狀的餅乾，如圖所示，點 $B(0,0)$ 為小圓的圓心，點 $C(1,0)$ 為大圓的圓心，點 $A(-1,0)$ 在圓 $O_1$ 上，點 $A,B,C$ 在同一直線上，利用適當的關係式表示此餅乾的區域。\n(1) $(x^2+y^2-1)[(x-1)^2+y^2-4]\\le0$\n(2) $(x^2+y^2-1)[(x-1)^2+y^2-4]\\ge0$\n(3) $(x^2+y^2-1)[(x-1)^2+y^2-1]\\le0$\n(4) $(x^2+y^2-1)[(x-1)^2+y^2-1]\\ge0$\n(5) $(x^2+y^2)[(x-1)^2+y^2-4]\\le0$',
+    answer: '1',
+    hasImage: true,
+  },
+  {
+    id: '18207a67ec1',
+    chapter: '直線與圓',
+    question:
+      '過點 (1,1) 的直線 L 將圓 $x^2+y^2=100$ 分成兩段弧，當較小的弧所對的圓心角最小時，則該直線的斜率為何？\n(1) -1　 (2) 1　 (3) $\\sqrt2$　 (4) $\\dfrac32$　 (5) 2',
+    answer: '1',
+    hasImage: false,
+  },
+  {
+    id: '18207aa2b6f',
+    chapter: '直線與圓',
+    question:
+      '在坐標平面上，一圓通過點 $P(-1,1)$，且與直線 $L:x-y=0$ 相切於 $Q(1,1)$，若此圓方程式為 $x^2+y^2+ax+by+c=0$，則 $a+b+c$ 的值為何？\n(1) -4　 (2) -2　 (3) 0　 (4) 2　 (5) 4',
+    answer: '2',
+    hasImage: false,
+  },
+  {
+    id: '18207ac1316',
+    chapter: '直線與圓',
+    question:
+      '在坐標平面上，求以 (0,0), (1,0), (0,1), (1,1) 四個點為頂點的正方形，與圓 $x^2+y^2-4x-4y+6=0$ 的交點個數為幾個？\n(1) 0　 (2) 1　 (3) 2　 (4) 3　 (5) 4',
+    answer: '2',
+    hasImage: false,
+  },
+  {
+    id: '18207b021bf',
+    chapter: '直線與圓',
+    question:
+      '設 $k$ 為實數，已知圓方程式 $x^2+y^2+4kx-6ky+12k^2-4k-8=0$。試選出正確的選項。\n(1) 圓心落在直線 $3x-2y=0$\n(2) 當此圓的圓心為 (0,0) 時，圓的面積為 $8\\pi$\n(3) 當 $k=-2$ 時，圓的面積有最小值\n(4) 圓的面積最小值為 $2\\pi$\n(5) 存在 $k$，使得圓與 $y$ 軸相切',
+    answer: '235',
+    hasImage: false,
+  },
+  {
+    id: '18207bab427',
+    chapter: '直線與圓',
+    question:
+      '陳老師想設計一個房間，提供給小孩及柴犬一個長方形活動的區域 $ODEF$。如圖所示小孩只在三角形 $OAB$ 區域內活動，柴犬則只在區域 $ODEF$ 內除了三角形 $OAB$ 以外的區域活動。令 $O(0,0)$, $A(4,2)$, $B(2,3)$, $D(0,4)$, $E(6,4)$, $F(6,0)$，試選出正確的選項。\n(1) 長方形 $ODEF$ 的區域(含邊界)可用不等式 $\\begin{cases}0\\le x\\le4\\\\0\\le y\\le6\\end{cases}$ 來表示\n(2) 三角形 $OAB$ 的區域(含邊界)可用不等式 $\\begin{cases}x-2y\\le0\\\\3x-2y\\ge0\\\\x+2y\\le8\\end{cases}$ 來表示\n(3) 柴犬活動的區域面積 : 小孩活動的區域面積 $=5:1$\n(4) 柴犬原本在 $E$ 點，聽到小孩叫喚聲，想跑去三角形 $OAB$ 區域，則 $E$ 點與三角形 $OAB$ 區域最近的距離為 $2\\sqrt2$\n(5) 此小孩跟柴犬會玩一種餵食的遊戲，因小孩活動區域邊界有柵欄，故當小孩在三角形 $OAB$ 區域內某點 $P$ 時，柴犬會在點 $P$ 以三角形各邊為對稱軸的對稱點接食物。若小孩在點 (3,2) 時，柴犬可能會在點 $Q(\\dfrac{17}5,\\dfrac{14}5)$',
+    answer: '345',
+    hasImage: true,
+  },
+  {
+    id: '18207c1ce55',
+    chapter: '直線與圓',
+    question:
+      '考慮坐標平面上以 $O(0,0)$, $A(-8,0)$, $B(0,6)$ 為頂點的三角形，令 $C_1,C_2$ 分別為 $\\triangle OAB$ 的外接圓與內切圓，試選出正確的選項。\n(1) 圓 $C_1$ 的方程式為 $(x+4)^2+(y+3)^2=25$\n(2) 圓 $C_1$ 的圓心在直線 $x+y=0$ 上\n(3) 圓 $C_2$ 的圓心為 (-2,2)\n(4) 圓 $C_2$ 的圓心在直線 $x-y=0$ 上\n(5) 圓 $C_2$ 的半徑為 2',
+    answer: '35',
+    hasImage: false,
+  },
   {
     id: '17da261e00a',
     chapter: '直線與圓',
