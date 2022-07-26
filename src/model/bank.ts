@@ -2579,7 +2579,7 @@ const polynomial: Question[] = [
     id: '182063fe6b8',
     chapter: '多項式函數',
     question:
-      '有一條高速公路符合三次實係數多項式函數，$f(x)=x^3-2x^2+5x$，其中有兩個交流道在 $A(0,0)$ 和 $B(2,6)$ 試選出正確的選項。\n(1) $A(0,0)$ 為這條高速公路的對稱中心\n(2) 在 $0\\le x\\le2$ 時，$y=f(x)$ 的圖形為嚴格遞增\n(3) $y=f(x)$ 和所有的水平線恰交於一點\n(4) $y=f(x)$ 圖形的大域特徵近似於曲線 $y=x^3$\n(5) $y=f(x)$ 圖形在 $x=1$ 附近的圖形特徵近似於直線 $y=x$',
+      '有一條高速公路符合三次實係數多項式函數，$f(x)=x^3-3x^2+5x$，其中有兩個交流道在 $A(0,0)$ 和 $B(2,6)$，試選出正確的選項。\n(1) $A(0,0)$ 為這條高速公路的對稱中心\n(2) 在 $0\\le x\\le2$ 時，$y=f(x)$ 的圖形為嚴格遞增\n(3) $y=f(x)$ 和所有的水平線恰交於一點\n(4) $y=f(x)$ 圖形的大域特徵近似於曲線 $y=x^3$\n(5) $y=f(x)$ 圖形在 $x=1$ 附近的圖形特徵近似於直線 $y=x$',
     answer: '234',
     hasImage: false,
   },
@@ -2603,7 +2603,7 @@ const polynomial: Question[] = [
     id: '182064c2b3f',
     chapter: '多項式函數',
     question:
-      '已知 $a,b,c$ 皆為實數，多項式 $x^3+ax^2+bx+c$ 同時可被 $x^2-3x+2$ 及 $x^2-5x+6$ 整除，則 $b=\\textcirc{13-1}\\textcirc{13-2}$。',
+      '已知 $a,b,c$ 皆為實數，多項式 $x^3+ax^2+bx+c$ 同時可被 $x^2-3x+2$ 及 $x^2-5x+6$ 整除，則 $b=\\textcirc{12-1}\\textcirc{12-2}$。',
     answer: '11',
     hasImage: false,
   },
@@ -2611,7 +2611,7 @@ const polynomial: Question[] = [
     id: '182064ff955',
     chapter: '多項式函數',
     question:
-      '在地面上有 $A,B,C$ 三點，且知 $\\overline{AB}=60$ 公尺，$\\overline{BC}=120$ 公尺，$\\angle ABC=90\\du$。今有甲、乙兩人，甲由 $A$ 沿著直線 $AB$ 等速走到 $B$，乙由 $B$ 沿著直線 $BC$ 等速走到 $C$，若兩人同時出發，也同時到達。則在行進過程中，甲、乙兩人之間的最短距離為 $\\textcirc{14-1}\\textcirc{14-2}\\sqrt{\\textcirc{14-3}}$ 公尺。(化為最簡根式)',
+      '在地面上有 $A,B,C$ 三點，且知 $\\overline{AB}=60$ 公尺，$\\overline{BC}=120$ 公尺，$\\angle ABC=90\\du$。今有甲、乙兩人，甲由 $A$ 沿著直線 $AB$ 等速走到 $B$，乙由 $B$ 沿著直線 $BC$ 等速走到 $C$，若兩人同時出發，也同時到達。則在行進過程中，甲、乙兩人之間的最短距離為 $\\textcirc{13-1}\\textcirc{13-2}\\sqrt{\\textcirc{13-3}}$ 公尺。(化為最簡根式)',
     answer: '245',
     hasImage: false,
   },
@@ -2619,7 +2619,7 @@ const polynomial: Question[] = [
     id: '182065333cc',
     chapter: '多項式函數',
     question:
-      '設正實數 $a$ 的小數部分為 $b(0<b<1)$，且 $3a^2-2b^3=41$，求 $a=\\textcirc{13-1}+\\sqrt{\\textcirc{13-2}}$。',
+      '設正實數 $a$ 的小數部分為 $b(0<b<1)$，且 $3a^2-2b^2=41$，求 $a=\\textcirc{14-1}\\textcirc{14-2}+\\sqrt{\\textcirc{14-3}\\textcirc{14-4}}$。',
     answer: '23',
     hasImage: false,
   },
@@ -2627,7 +2627,7 @@ const polynomial: Question[] = [
     id: '18206555620',
     chapter: '多項式函數',
     question:
-      '若二次函數 $\\Gamma:y=x^2+ax+b$，$a,b$ 為實數且 $\\Gamma$ 與 $L_1:y=2x-4$、$\\Gamma$ 與 $L_2:y=-2x+4$ 均恰交於一點，則 $(a,b)=(\\textcirc{14-1}\\textcirc{14-2},\\textcirc{14-3})$。',
+      '若二次函數 $\\Gamma:y=x^2+ax+b$，$a,b$ 為實數且 $\\Gamma$ 與 $L_1:y=2x-4$、$\\Gamma$ 與 $L_2:y=-2x+4$ 均恰交於一點，則 $(a,b)=(\\textcirc{15-1}\\textcirc{15-2},\\textcirc{15-3})$。',
     answer: '-45',
     hasImage: false,
   },
@@ -2635,7 +2635,7 @@ const polynomial: Question[] = [
     id: '18206571fa1',
     chapter: '多項式函數',
     question:
-      '如圖，$ABCDEF$ 為正六邊形，且 $B,C,D,E$ 皆在二次函數 $y=ax^2$ 上，若 $\\overline{AF}$ 在直線 $y=7$ 上，求 $a=\\dfrac{\\textcirc{17-1}}{\\textcirc{17-2}}$ 。(化為最簡分數)',
+      '如圖，$ABCDEF$ 為正六邊形，且 $B,C,D,E$ 皆在二次函數 $y=ax^2$ 上，若 $\\overline{AF}$ 在直線 $y=7$ 上，求 $a=\\dfrac{\\textcirc{16-1}}{\\textcirc{16-2}}$ 。(化為最簡分數)',
     answer: '13',
     hasImage: true,
   },
@@ -2643,7 +2643,7 @@ const polynomial: Question[] = [
     id: '1820659e7b5',
     chapter: '多項式函數',
     question:
-      '設二次多項式函數 $f(x)$ 滿足以下三個條件：\na. 對所有實數 $t$，$f(4+t)=f(-2-t)$ 恆成立\nb. 當 $-3\\le x\\le10$ 時，$f(x)$ 有最大值 62，最小值 -100\nc. $f(-4)>f(9)$，\n則 $f(6)=\\textcirc{13-1}\\textcirc{13-2}$。',
+      '設二次多項式函數 $f(x)$ 滿足以下三個條件：\na. 對所有實數 $t$，$f(4+t)=f(-2-t)$ 恆成立\nb. 當 $-3\\le x\\le10$ 時，$f(x)$ 有最大值 62，最小值 -100\nc. $f(-4)>f(9)$，\n則 $f(6)=\\textcirc{17-1}\\textcirc{17-2}$。',
     answer: '12',
     hasImage: false,
   },
@@ -2691,7 +2691,7 @@ const polynomial: Question[] = [
     id: '181ed84aa34',
     chapter: '多項式函數',
     question:
-      '有一密碼機設置如下，輸入或輸出皆以 $a*b*c...$ 表示多項式的係數，且由高次項至低次項呈現。如當輸入 $1*1*6$ 時，即表示 $f(x)$ 除以二次式 $x^2+x+6$，而密碼機則會輸出 $1*2$，即除式為 $x+2$；如輸入 $*2$ 則表示 $f(x)$ 除以零次式 2。今有一謎題為三次式 $f(x)$，當輸入 $1*1*-6$ 時，而密碼機則會輸出 $4*-15$；而當輸入 $1*-1*-6$ 時，密碼機則會輸出 $2*-3$。試求當輸入 $1*-1$ 時，則密碼機顯示輸出結果為何？\n(1) $*1$　 (2) $*-1$　 (3) $*0$　 (4) $*-3$　 (5) $*-7$',
+      '有一密碼機設置如下，輸入或輸出皆以 $a*b*c...$ 表示多項式的係數，且由高次項至低次項呈現。如當輸入 $1*1*6$ 時，即表示 $f(x)$ 除以二次式 $x^2+x+6$，而密碼機則會輸出 $1*2$，即餘式為 $x+2$；如輸入 $*2$ 則表示 $f(x)$ 除以零次式 2。今有一謎題為三次式 $f(x)$，當輸入 $1*1*-6$ 時，密碼機會輸出 $4*-15$；而當輸入 $1*-1*-6$ 時，密碼機會輸出 $2*-3$。試求當輸入 $1*-1$ 時，密碼機顯示輸出結果為何？\n(1) $*1$　 (2) $*-1$　 (3) $*0$　 (4) $*-3$　 (5) $*-7$',
     answer: '(5)',
     hasImage: false,
   },
