@@ -5192,15 +5192,15 @@ const trigonometric: Question[] = [
     id: '17aca900411',
     chapter: '三角比',
     question:
-      '$\\theta$ 為銳角，若 $\\sin\\theta=\\frac{3}{5}$，求 $\\cos\\theta$、$\\tan\\theta$。',
-    answer: '$\\frac{4}{5}$；$\\frac{3}{4}$',
+      '$\\theta$ 為銳角，若 $\\sin\\theta=\\dfrac{3}{5}$，求 $\\cos\\theta$、$\\tan\\theta$。',
+    answer: '$\\frac45$；$\\frac34$',
     hasImage: false,
   },
   {
     id: '17aca9268fc',
     chapter: '三角比',
     question:
-      '有一等腰三角形底邊為 $10$，頂角 $72\\du$，下列何者可以表示腰長？\n(1) $5\\sin36\\du$ (2) $5\\tan36\\du$ (3) $\\frac{5}{\\tan36\\du}$\n(4) $\\frac{5}{\\cos36\\du}$ (5) $\\frac{5}{\\sin36\\du}$',
+      '有一等腰三角形底邊為 10，頂角 $72\\du$，下列何者可以表示腰長？\n(1) $5\\sin36\\du$　　(2) $5\\tan36\\du$　　(3) $\\dfrac5{\\tan36\\du}$\n(4) $\\dfrac5{\\cos36\\du}$　　(5) $\\dfrac5{\\sin36\\du}$',
     answer: '(5)',
     hasImage: false,
   },
@@ -5215,7 +5215,7 @@ const trigonometric: Question[] = [
     id: '17aca9748af',
     chapter: '三角比',
     question:
-      '若有向角 $\\theta$ 如圖所示，則 $\\theta$ 最接近：\n(1) $40\\du$ (2) $400\\du$ (3) $-320\\du$ (4) $-680\\du$',
+      '若有向角 $\\theta$ 如圖所示，則 $\\theta$ 最接近：\n(1) $40\\du$　(2) $400\\du$　(3) $-320\\du$　(4) $-680\\du$',
     answer: '(4)',
     hasImage: true,
   },
@@ -5223,13 +5223,13 @@ const trigonometric: Question[] = [
     id: '17aca9badeb',
     chapter: '三角比',
     question: '求平面上兩點 $P[3,70\\du]$ 與 $Q[4,160\\du]$ 的距離。',
-    answer: '$5$',
+    answer: '5',
     hasImage: false,
   },
   {
     id: '17aca9d9f29',
     chapter: '三角比',
-    question: '將直角坐標化為極坐標：\n(1) $(0,4)$ (2) $(-\\pi,0)$ (3) $(1,-1)$',
+    question: '將直角坐標化為極坐標：\n(1) (0,4)　　(2) $(-\\pi,0)$　　(3) (1,-1)',
     answer: '(1) $[4,90\\du]$ (2) $[\\pi,180\\du]$ (3) $[\\sqrt{2},315\\du]$',
     hasImage: false,
   },
@@ -5245,7 +5245,7 @@ const trigonometric: Question[] = [
     id: '17acaa9ade9',
     chapter: '三角比',
     question:
-      '$\\begin{array} {|c|c|}\\hline \\theta & \\sin\\theta & \\cos\\theta & \\tan\\theta \\\\\\hline 0\\du \\\\\\hline 90\\du \\\\\\hline 180\\du \\\\\\hline 270\\du \\\\\\hline 120\\du \\\\\\hline 135\\du \\\\\\hline 150\\du \\\\\\hline 240\\du \\\\\\hline \\end{array}$',
+      '$$\\begin{array} {|c|c|}\\hline \\theta & \\sin\\theta & \\cos\\theta & \\tan\\theta \\\\\\hline 0\\du \\\\\\hline 90\\du \\\\\\hline 180\\du \\\\\\hline 270\\du \\\\\\hline 120\\du \\\\\\hline 135\\du \\\\\\hline 150\\du \\\\\\hline 240\\du \\\\\\hline \\end{array}$$',
     answer: '略',
     hasImage: false,
   },
@@ -5274,38 +5274,38 @@ const trigonometric: Question[] = [
     id: '17ad14f2801',
     chapter: '三角比',
     question: '任意的角度變換，$\\sin(\\theta+180\\du)$、$\\cos(270\\du-\\theta)$。',
-    answer: '$\\sin\\theta$；$-\\sin\\theta$',
+    answer: '$-\\sin\\theta$；$-\\sin\\theta$',
     hasImage: false,
   },
   {
     id: '17ad15f1203',
     chapter: '三角比',
-    question: '若 $\\sin x-\\cos x=\\frac{1}{2}$，求 $\\sin x\\cos x。',
-    answer: '$\\frac{3}{8}$',
+    question: '若 $\\sin x-\\cos x=\\dfrac12$，求 $\\sin x\\cos x$。',
+    answer: '$\\frac38$',
     hasImage: false,
   },
   {
     id: '17ad16129f7',
     chapter: '三角比',
     question:
-      '設 $180\\du<\\theta<270\\du$，若 $\\cos\\theta-\\sin\\theta=\\frac{\\sqrt{2}}{2}$，求 $\\cos\\theta+\\sin\\theta$。',
-    answer: '$-\\frac{\\sqrt{6}}{2}$',
+      '設 $180\\du<\\theta<270\\du$，若 $\\cos\\theta-\\sin\\theta=\\dfrac{\\sqrt2}2$，求 $\\cos\\theta+\\sin\\theta$。',
+    answer: '$-\\frac{\\sqrt6}2$',
     hasImage: false,
   },
   {
     id: '17ad166ba0a',
     chapter: '三角比',
     question:
-      '$\\triangle ABC$ 中，已知 $\\sin A=\\frac{1}{4}$，$\\sin B=\\frac{1}{3}$，$\\overline{BC}=6$，求：(1) $\\overline{AC}$ (2) 外接圓半徑 $R$',
-    answer: '(1) $8$ (2) $12$',
+      '$\\triangle ABC$ 中，已知 $\\sin A=\\frac14$，$\\sin B=\\frac13$，$\\overline{BC}=6$，求：(1) $\\overline{AC}$　(2) 外接圓半徑 $R$',
+    answer: '(1) 8 (2) 12',
     hasImage: false,
   },
   {
     id: '17ad1685100',
     chapter: '三角比',
     question:
-      '如圖所示，$ABCD$ 為圓內接四邊形，若 $\\angle DBC=30\\du$，$\\angle ABD=45\\du$，$\\overline{CD}=6$，求 $\\overline{AD}$。',
-    answer: '$6\\sqrt{2}$',
+      '如圖，$ABCD$ 為圓內接四邊形，若 $\\overline{CD}=6$，$\\angle DBC=30\\du$，$\\angle ABD=45\\du$，求 $\\overline{AD}$。',
+    answer: '$6\\sqrt2$',
     hasImage: true,
   },
   {
@@ -5321,7 +5321,7 @@ const trigonometric: Question[] = [
     chapter: '三角比',
     question:
       '在 $\\triangle ABC$ 中，若 $D$ 點在 $\\overline{BC}$ 邊上，且 $\\overline{AB}=7$，$\\overline{AC}=13$，$\\overline{BD}=7$，$\\overline{CD}=8$，求 $\\overline{AD}$。',
-    answer: '$7$',
+    answer: '7',
     hasImage: false,
   },
   {
@@ -5329,21 +5329,37 @@ const trigonometric: Question[] = [
     chapter: '三角比',
     question:
       '$\\triangle ABC$，$\\overline{AB}=5$，$\\overline{AC}=4$，$\\angle A=60\\du$，求 $\\triangle ABC$ 面積。',
-    answer: '$5\\sqrt{3}$',
+    answer: '$5\\sqrt3$',
     hasImage: false,
   },
   {
     id: '17ad1771119',
     chapter: '三角比',
-    question: '$\\triangle ABC$ 的邊長為 $8$、$5$、$7$，求面積、內切圓半徑、外切圓半徑。',
-    answer: '$10\\sqrt{3}$；$\\sqrt{3}$；$\\frac{7\\sqrt{3}}{3}',
+    question: '$\\triangle ABC$ 的邊長為 8、5、7，求面積、內切圓半徑、外切圓半徑。',
+    answer: '$10\\sqrt3$；$\\sqrt3$；$\\frac{7\\sqrt3}3$',
     hasImage: false,
+  },
+  {
+    id: '1823e5af102',
+    chapter: '三角比',
+    question:
+      '$\\triangle ABC$，$\\overline{AB}=6$，$\\overline{AC}=10$，$\\angle BAC=120\\du$，點 $P$ 在 $\\overline{BC}$ 上且 $\\overline{AP}$ 平分 $\\angle BAC$，求 $\\overline{AP}$。',
+    answer: '$\\frac{15}4$',
+    hasImage: false,
+  },
+  {
+    id: '1823e5cb932',
+    chapter: '三角比',
+    question:
+      '如圖 $\\triangle ABC$ 中，$D$ 為 $\\overline{BC}$ 上一點且 $\\angle BAD=30\\du$，$\\angle CAD=90\\du$，已知 $\\overline{AB}=8$，$\\overline{AD}=3\\sqrt3$，求 $\\triangle ABD$ 與 $\\triangle ABC$ 面積的比值。',
+    answer: '$\\frac14$',
+    hasImage: true,
   },
   {
     id: '17ad17cb39c',
     chapter: '三角比',
     question:
-      '化簡 (1) $\\sin^{-1}\\frac{\\sqrt{3}}{2}\\quad$ (2) $\\cos^{-1}\\frac{-1}{2}\\quad$ (3) $\\tan^{-1}1$',
+      '化簡 (1) $\\sin^{-1}\\dfrac{\\sqrt3}2$　　(2) $\\cos^{-1}\\dfrac{-1}2$　　(3) $\\tan^{-1}1$',
     answer: '(1) $60\\du$ (2) $120\\du$ (3) $45\\du$',
     hasImage: false,
   },
@@ -5351,54 +5367,54 @@ const trigonometric: Question[] = [
     id: '17ad18548de',
     chapter: '三角比',
     question:
-      '有一艘船向南航行，在東 $30\\du$ 南的方位發現一燈塔後，繼續向前進 $20$ 浬，此時燈塔的方向在北 $30\\du$ 東，求此船航線與燈塔的最短距離。',
-    answer: '$5\\sqrt{3}$ 浬',
+      '有艘船向南航行，在東 $30\\du$ 南的方位發現一燈塔後，繼續向前 20 浬，此時燈塔的方向在北 $30\\du$ 東，求此船航線與燈塔的最短距離。',
+    answer: '$5\\sqrt3$ 浬',
     hasImage: false,
   },
   {
     id: '17ad187f99e',
     chapter: '三角比',
     question:
-      '某人隔河測一山高，在 $A$ 點觀測山時，山的方位為東偏北 $60\\du$，山頂的仰角為 $45\\du$，某人自 $A$ 點向東行 $600$ 公尺到達 $B$ 點，山的方位變成在西偏北 $60\\du$，求山高。',
-    answer: '$600$ 公尺',
+      '某人隔河測一山高，在 $A$ 點觀測山時，山的方位為東偏北 $60\\du$，山頂的仰角為 $45\\du$，某人自 $A$ 點向東行 600 公尺到達 $B$ 點，山的方位變成在西偏北 $60\\du$，求山高。',
+    answer: '600 公尺',
     hasImage: false,
   },
   {
     id: '17ad192e53e',
     chapter: '三角比',
     question:
-      '在 $\\triangle ABC$ 中，$M$ 為 $\\overline{BC}$ 邊之中點，若 $\\overline{AB}=3$，$\\overline{AC}=5$，且 $\\angle BAC=120\\du$，求 $\\angle BAM$。',
-    answer: '$5\\sqrt{3}$',
+      '在 $\\triangle ABC$ 中，$M$ 為 $\\overline{BC}$ 邊之中點，若 $\\overline{AB}=3$，$\\overline{AC}=5$，且 $\\angle BAC=120\\du$，求 $\\tan\\angle BAM$。',
+    answer: '$5\\sqrt3$',
     hasImage: false,
   },
   {
     id: '17ad195a9f7',
     chapter: '三角比',
     question:
-      '有向角 $\\theta$ 以 $x$ 軸正向為始邊，終邊與直線 $2x+y+3=0$ 相交於 $P$，已知 $\\tan\\theta=\\frac{3}{4}$，求 $\\sin\\theta$、$\\cos\\theta$、$P$ 點坐標。',
-    answer: '$-\\frac{3}{5}$；$-\\frac{4}{5}$；$\\left(-\\frac{12}{11},-\\frac{9}{11}\\right)',
+      '有向角 $\\theta$ 以 $x$ 軸正向為始邊，終邊與直線 $2x+y+3=0$ 相交於 $P$，已知 $\\tan\\theta=\\frac34$，求 $\\sin\\theta$、$\\cos\\theta$、$P$ 點坐標。',
+    answer: '$-\\frac35$；$-\\frac45$；$(-\\frac{12}{11},-\\frac9{11})$',
     hasImage: false,
   },
   {
     id: '17ad1986e1e',
     chapter: '三角比',
     question:
-      '設 $\\theta$ 為三角形 $\\Gamma$ 的一個內角，且 $\\sin\\theta$、$\\cos\\theta$ 是 $3x^2-2x+k=0$ 的兩根，請問下列哪些選項的敘述為真？\n(1) $k<-0.7$ (2) $k>-0.8$\n(3) $\\Gamma$ 為鈍角三角形 (4) $\\cos\\theta>0$\n(5) $k$、$\\sin\\theta$、$\\cos\\theta$ 之值均為有理數',
+      '設 $\\theta$ 為三角形 $\\Gamma$ 的一個內角，且 $\\sin\\theta$、$\\cos\\theta$ 是 $3x^2-2x+k=0$ 的兩根，請問下列哪些選項的敘述為真？\n(1) $k<-0.7$　　(2) $k>-0.8$\n(3) $\\Gamma$ 為鈍角三角形　　(4) $\\cos\\theta>0$\n(5) $k$、$\\sin\\theta$、$\\cos\\theta$ 之值均為有理數',
     answer: '(1)(3)',
     hasImage: false,
   },
   {
     id: '17ad199eac9',
     chapter: '三角比',
-    question: '方程式 $4x^2-5x+m=0$ 的兩根是直角三角形的兩銳角的正弦，求 $m$。',
-    answer: '$\\frac{9}{8}$',
+    question: '方程式 $4x^2-5x+m=0$ 的兩根是直角三角形的兩銳角的正弦值，求 $m$。',
+    answer: '$\\frac98$',
     hasImage: false,
   },
   {
     id: '17ad19d0a01',
     chapter: '三角比',
     question:
-      '設 $\\theta_1$、$\\theta_2$、$\\theta_3$、$\\theta_4$ 分別為第一、第二、第三、第四象限角，且都介於 $0\\du$ 與 $360\\du$ 之間。已知 $|\\cos\\theta_1|=|\\cos\\theta_2|=|\\cos\\theta_3|$=|\\cos\\theta_4|=\\frac{1}{3}$，下列哪些選項是正確的？\n(1) $\\theta_1<45\\du$ (2) $\\theta_1+\\theta_2=180\\du$\n(3) $\\cos\\theta_3=-\\frac{1}{3}$ (4) $\\sin\\theta_4=\\frac{2\\sqrt{2}}{3}$\n(5) $\\theta_4=\\theta_3+90\\du$',
+      '設 $\\theta_1,\\theta_2,\\theta_3,\\theta_4$ 分別為第一、第二、第三、第四象限角，且都介於 $0\\du$ 與 $360\\du$ 之間。已知 $|\\cos\\theta_1|=|\\cos\\theta_2|=|\\cos\\theta_3|=|\\cos\\theta_4|=\\frac13$，下列哪些選項是正確的？\n(1) $\\theta_1<45\\du$　　(2) $\\theta_1+\\theta_2=180\\du$\n(3) $\\cos\\theta_3=-\\frac13$　　(4) $\\sin\\theta_4=\\frac{2\\sqrt2}3$\n(5) $\\theta_4=\\theta_3+90\\du$',
     answer: '(2)(3)',
     hasImage: false,
   },
@@ -5406,7 +5422,7 @@ const trigonometric: Question[] = [
     id: '17ad19fe25d',
     chapter: '三角比',
     question:
-      '如圖，$\\angle BAC=\\theta$，$\\angle ABD=\\angle ACD=90\\du$，$\\overline{AB}=a$，$\\overline{BD}=b$，下列選項何者可以表示 $\\overline{CD}$？\n(1) $a\\sin\\theta+b\\cos\\theta$ (2) $a\\sin\\theta-b\\cos\\theta$\n(3) $a\\cos\\theta-b\\sin\\theta$ (4) $a\\cos\\theta+b\\sin\\theta$\n(5) $a\\sin\\theta+b\\tan\\theta$',
+      '如圖，$\\angle BAC=\\theta$，$\\angle ABD=\\angle ACD=90\\du$，$\\overline{AB}=a$，$\\overline{BD}=b$，下列選項何者可以表示 $\\overline{CD}$？\n(1) $a\\sin\\theta+b\\cos\\theta$　　(2) $a\\sin\\theta-b\\cos\\theta$\n(3) $a\\cos\\theta-b\\sin\\theta$　　(4) $a\\cos\\theta+b\\sin\\theta$\n(5) $a\\sin\\theta+b\\tan\\theta$',
     answer: '(2)',
     hasImage: true,
   },
@@ -5414,24 +5430,24 @@ const trigonometric: Question[] = [
     id: '17ad1a1d228',
     chapter: '三角比',
     question:
-      '如圖，正三角形 $ABC$ 的邊長為 $1$，並且 $\\angle1=\\angle2=\\angle3=15\\du$。已知 $\\sin15\\du=\\frac{\\sqrt{6}-\\sqrt{2}}{4}$，求正三角形 $DEF$ 的邊長。',
-    answer: '$\\frac{\\sqrt{6}-\\sqrt{2}}{2}$',
+      '如圖，正三角形 $ABC$ 的邊長為 1，並且 $\\angle1=\\angle2=\\angle3=15\\du$。已知 $\\sin15\\du=\\frac{\\sqrt6-\\sqrt2}4$，求正三角形 $DEF$ 的邊長。',
+    answer: '$\\frac{\\sqrt6-\\sqrt2}2$',
     hasImage: true,
   },
   {
     id: '17ad1a5d24f',
     chapter: '三角比',
     question:
-      '在 $\\triangle ABC$ 中，已知 $\\overline{BC}=1$，$\\sin A<\\sin B$，$\\sin A$ 與 $\\sin B$ 為 $8x^2-4\\sqrt{3}x+1=0$ 的兩根，求 $\\triangle ABC$ 的外接圓半徑。',
-    answer: '$1+\\sqrt{3}$',
+      '在 $\\triangle ABC$ 中，已知 $\\overline{BC}=1$，$\\sin A<\\sin B$，$\\sin A$ 與 $\\sin B$ 為 $8x^2-4\\sqrt3x+1=0$ 的兩根，求 $\\triangle ABC$ 的外接圓半徑。',
+    answer: '$1+\\sqrt3$',
     hasImage: false,
   },
   {
     id: '17ad1a75088',
     chapter: '三角比',
     question:
-      '在邊長為 $13$ 的正三角形 $ABC$ 上各邊分別取一點 $P$、$Q$、$R$，使得 $APQR$ 形成一平行四邊形，如圖所示。若平行四邊形 $APQR$ 的面積為 $20\\sqrt{3}$，求 $\\overline{PR}$。',
-    answer: '$7$',
+      '在邊長為 13 的正三角形 $ABC$ 上各邊分別取一點 $P,Q,R$，使得 $APQR$ 形成一平行四邊形，如圖所示。若平行四邊形 $APQR$ 的面積為 $20\\sqrt3$，求 $\\overline{PR}$。',
+    answer: '7',
     hasImage: true,
   },
   {
@@ -5439,7 +5455,7 @@ const trigonometric: Question[] = [
     chapter: '三角比',
     question:
       '如圖，在 $\\triangle ABC$ 中，$\\overline{AD}$ 交 $\\overline{BC}$ 於 $D$ 點， $\\overline{BE}$ 交 $\\overline{AD}$ 於 $E$ 點，且 $\\angle ACB=30\\du$，$\\angle EDB=60\\du$，$\\angle AEB=120\\du$。若 $\\overline{CD}=15$，$\\overline{ED}=7$，求 $\\overline{AB}$。',
-    answer: '$13$',
+    answer: '13',
     hasImage: true,
   },
   {
@@ -5447,53 +5463,53 @@ const trigonometric: Question[] = [
     chapter: '三角比',
     question:
       '四邊形 $ABCD$ 中，$\\overline{AB}=1$，$\\overline{BC}=5$，$\\overline{CD}=5$，$\\overline{DA}=7$，且 $\\angle DAB=\\angle BCD=90\\du$，求對角線 $\\overline{AC}$。',
-    answer: '$4\\sqrt{2}$',
+    answer: '$4\\sqrt2$',
     hasImage: false,
   },
   {
     id: '17ad1af7240',
     chapter: '三角比',
     question:
-      '圓內接四邊形 $ABCD$，已知 $\\overline{AB}=5$，$\\overline{BC}=3$，$\\overline{CD}=2$，$\\overline{DA}=3$，試求：\n(1) $\\overline{AC}$ (2) 此四邊形面積 (3) 此圓面積',
-    answer: '(1) $\\sqrt{19}$ (2) $\\frac{2\\sqrt{13}}{4}$ (3) $\\frac{19}{3}\\pi$',
+      '圓內接四邊形 $ABCD$，已知 $\\overline{AB}=5$，$\\overline{BC}=3$，$\\overline{CD}=2$，$\\overline{DA}=3$，試求：\n(1) $\\overline{AC}$　(2) 此四邊形面積　(3) 此圓面積',
+    answer: '(1) $\\sqrt{19}$ (2) $\\frac{21\\sqrt3}4$ (3) $\\frac{19}3\\pi$',
     hasImage: false,
   },
   {
     id: '17ad1b111d9',
     chapter: '三角比',
     question:
-      '如圖，圓 $O$ 內切於 $\\triangle ABC$ 中，切點分別為 $D$、$E$、$F$，且 $\\overline{AD}=3$，$\\overline{BD}=2$，內切圓半徑為 $\\frac{2\\sqrt{6}}{3}$，求 $\\overline{AC}$。',
-    answer: '$7$',
+      '如圖，圓 $O$ 內切於 $\\triangle ABC$ 中，切點分別為 $D,E,F$，且 $\\overline{AD}=3$，$\\overline{BD}=2$，內切圓半徑為 $\\frac{2\\sqrt6}3$，求 $\\overline{AC}$。',
+    answer: '7',
     hasImage: true,
   },
   {
     id: '17ad1b2ca8a',
     chapter: '三角比',
     question:
-      '平面上有一箏形 $ABCD$，其中 $\\overline{AB}=\\overline{BC}=\\sqrt{2}$，$\\overline{AC}=\\overline{CD}=2$，$\\angle BAD=135\\du$，求 $\\overline{AC}$。',
-    answer: '$\\frac{2\\sqrt{10}}{5}$',
+      '平面上有一箏形 $ABCD$，其中 $\\overline{AB}=\\overline{BC}=\\sqrt2$，$\\overline{AD}=\\overline{CD}=2$，$\\angle BAD=135\\du$，求 $\\overline{AC}$。',
+    answer: '$\\frac{2\\sqrt{10}}5$',
     hasImage: false,
   },
   {
     id: '17ad1b3be5c',
     chapter: '三角比',
     question:
-      '$\\triangle ABC$ 中，$\\angle ABC=60\\du$，$\\angle ABC$ 的角平分線交 $\\overline{AC}$ 於 $D$。已知 $\\overline{AB}=6$，$\\overline{BD}=2\\sqrt{3}$，求 $\\overline{AC}$。',
-    answer: '$\\frac{2\\sqrt{10}}{5}$',
+      '$\\triangle ABC$ 中，$\\angle ABC=60\\du$，$\\angle ABC$ 的角平分線交 $\\overline{AC}$ 於 $D$。已知 $\\overline{AB}=6$，$\\overline{BD}=2\\sqrt3$，求 $\\overline{AC}$。',
+    answer: '$3\\sqrt3$',
     hasImage: false,
   },
   {
     id: '17ad1b58388',
     chapter: '三角比',
     question: '如圖所示，求 $x$。',
-    answer: '$\\frac{\\sqrt{210}}{7}$',
+    answer: '$\\frac{\\sqrt{210}}7$',
     hasImage: true,
   },
   {
     id: '17ad1ba3335',
     chapter: '三角比',
     question:
-      '海面上有漁船發出求救訊號，此漁船在燈塔的南 $\\theta$ 東方向，距離燈塔 $15$ 浬處，救難艦則位在燈塔的東 $2\\theta$ 北的方向，距離燈塔 $11$ 浬處，若救難艦收到求救信號後立刻以每小時 $10$ 浬的速度趕赴漁船所在位置，已知 $\\theta=\\sin^{-1}\\frac{1}{3}$，則該漁船必須等待幾分鐘才能得到救援？請選出最接近的選項。\n(1) $100$ 分鐘 (2) $110$ 分鐘 (3) $120$ 分鐘\n(4) $130$ 分鐘 (5) $140$ 分鐘',
+      '海面上有漁船發出求救訊號，此漁船在燈塔的南 $\\theta$ 東的方向，距離燈塔 15 浬處，救難艦則位在燈塔的東 $2\\theta$ 北的方向，距離燈塔 11 浬處，若救難艦收到求救信號後立刻以每小時 10 浬的速度趕赴漁船所在位置，已知 $\\theta=\\sin^{-1}\\frac13$，則該漁船約需等待幾分鐘才能得到救援？($\\sqrt{456}\\approx21.4$)\n(1) 100 分鐘　(2) 110 分鐘　(3) 120 分鐘\n(4) 130 分鐘　(5) 140 分鐘',
     answer: '(4)',
     hasImage: false,
   },
@@ -5501,24 +5517,24 @@ const trigonometric: Question[] = [
     id: '17ad1c0f6ba',
     chapter: '三角比',
     question:
-      '莎韻觀測遠方等速率垂直上升的熱氣球。在上午 $10:00$ 熱氣球的仰角為 $30\\du$，到上午 $10:10$ 仰角變成 $34\\du$。請利用下表判斷到上午 $10:30$ 時，熱氣球的仰角的正切值？\n($\\tan30\\du\\approx0.577$、$\\tan34\\du\\approx0.675$)',
-    answer: '$0.871$',
+      '莎韻觀測遠方等速率垂直上升的熱氣球。在上午 10:00 熱氣球的仰角為 $30\\du$，到上午 10:10 仰角變成 $34\\du$。請判斷到上午 10:30 時，熱氣球的仰角的正切值？\n($\\tan30\\du\\approx0.577$、$\\tan34\\du\\approx0.675$)',
+    answer: '0.871',
     hasImage: false,
   },
   {
     id: '17ad1c5ea2f',
     chapter: '三角比',
     question:
-      '自地面一點觀測甲、乙兩棟大樓，甲大樓在西北方向距離 $60$ 公尺處，乙大樓在東北方向距離 $80$ 公尺處，且先測得甲大樓樓頂的仰角為 $45\\du$，再登上甲大樓的樓頂並從樓頂測得乙大樓的樓頂仰角為 $60\\du$，求乙大樓的高度。($\\sqrt{3}\\approx1.732$，整數以下四捨五入)',
-    answer: '$233$ 公尺',
+      '自地面一點觀測甲、乙兩棟大樓，甲大樓在西北方向距離 60 公尺處，乙大樓在東北方向距離 80 公尺處，且先測得甲大樓樓頂的仰角為 $45\\du$，再登上甲大樓的樓頂並從樓頂測得乙大樓的樓頂仰角為 $60\\du$，求乙大樓的高度。\n($\\sqrt3\\approx1.732$，整數以下四捨五入)',
+    answer: '233 公尺',
     hasImage: false,
   },
   {
     id: '17ad1c89c26',
     chapter: '三角比',
     question:
-      '小明從旗桿底 $O$ 點的正西方 $A$ 點測得桿頂 $T$ 點的仰角為 $30\\du$。他向旗桿前進 $30$ 公尺至 $B$ 點，再測得旗桿頂的仰角為 $60\\du$，求旗桿高。',
-    answer: '$15\\sqrt{3}$ 公尺',
+      '小明從旗桿底 $O$ 點的正西方 $A$ 點測得桿頂 $T$ 點的仰角為 $30\\du$。他向旗桿前進 30 公尺至 $B$ 點，再測得旗桿頂的仰角為 $60\\du$，求旗桿高。',
+    answer: '$15\\sqrt3$ 公尺',
     hasImage: false,
   },
   {
@@ -6894,7 +6910,7 @@ const series: Question[] = [
     id: '17a55c297af',
     chapter: '數列級數',
     question:
-      '設各項都是實數的等差數列 $a_1$，$a_2$，$a_3\\cdots$ 之公差為正實數 $\\alpha$，試選出正確的選項。\n(1) 若 $b_n=-a_n$，則 $b_1>b_2>b_3>\\cdots$\n(2) 若 $c_n=a_n^2$，則 $c_1<c_2<c_3<\\cdots$\n(3) 若 $d_n=a_n+a_{n+1}$，則 $d_1$，$d_2$，$d_3\\cdots$ 是公差為 $\\alpha$ 的等差數列\n(4) 若 $e_n=a_n+n$，則 $e_1$，$e_2$，$e_3\\cdots$ 是公差為 $\\alpha+1$ 的等差數列\n(5) 若 $f_n$ 為 $a_1$，$a_2\\cdots a_n$ 的算術平均數，則 $f_1$，$f_2$，$f_3\\cdots$ 是公差為 $\\alpha$ 的等差數列',
+      '設各項都是實數的等差數列 $a_1,a_2,a_3\\cdots$ 之公差為正實數 $\\alpha$，試選出正確的選項。\n(1) 若 $b_n=-a_n$，則 $b_1>b_2>b_3>\\cdots$\n(2) 若 $c_n=a_n^2$，則 $c_1<c_2<c_3<\\cdots$\n(3) 若 $d_n=a_n+a_{n+1}$，則 $d_1,d_2,d_3\\cdots$ 是公差為 $\\alpha$ 的等差數列\n(4) 若 $e_n=a_n+n$，則 $e_1,e_2,e_3\\cdots$ 是公差為 $\\alpha+1$ 的等差數列\n(5) 若 $f_n$ 為 $a_1,a_2\\cdots a_n$ 的算術平均數，則 $f_1,f_2,f_3\\cdots$ 是公差為 $\\alpha$ 的等差數列',
     answer: '(1)(4)',
     hasImage: false,
   },
@@ -6902,7 +6918,7 @@ const series: Question[] = [
     id: '17a55c5894d',
     chapter: '數列級數',
     question:
-      '設 $a_1=1$ 且 $a_1$，$a_2$，$a_3\\cdots$ 為等差數列。請選出正確的選項。\n(1) 若 $a_{100}>0$，則 $a_{1000}>0$\n(2) 若 $a_{100}<0$，則 $a_{1000}<0$\n(3) 若 $a_{1000}>0$，則 $a_{100}>0$\n(4) 若 $a_{1000}<0$，則 $a_{100}<0$\n(5) $a_{1000}-a_{10}=10(a_{100}-a_1)$',
+      '設 $a_1=1$ 且 $a_1,a_2,a_3\\cdots$ 為等差數列。請選出正確的選項。\n(1) 若 $a_{100}>0$，則 $a_{1000}>0$\n(2) 若 $a_{100}<0$，則 $a_{1000}<0$\n(3) 若 $a_{1000}>0$，則 $a_{100}>0$\n(4) 若 $a_{1000}<0$，則 $a_{100}<0$\n(5) $a_{1000}-a_{10}=10(a_{100}-a_1)$',
     answer: '(2)(3)(5)',
     hasImage: false,
   },
@@ -6910,15 +6926,15 @@ const series: Question[] = [
     id: '17a55c7d6e2',
     chapter: '數列級數',
     question:
-      '若一個等差數列前 $5$ 項的和為 $24$，最後 $5$ 項的和為 $186$，且所有項的和為 $609$，則這個數列共有幾項？',
-    answer: '$29$',
+      '若一個等差數列前 5 項的和為 24，最後 5 項的和為 186，且所有項的和為 609，則這個數列共有幾項？',
+    answer: '29',
     hasImage: false,
   },
   {
     id: '17a55ca2296',
     chapter: '數列級數',
     question:
-      '一個 $101$ 項的等差數列 $a_1$，$a_2$，$a_3\\cdots a_{101}$，其和為 $0$，且 $a_{71}=71$，下列哪些正確？\n(1) $a_1+a_{101}>0$ (2) $a_2+a_{101}<0$\n(3) $a_3+a_{99}=0$ (4) $a_{51}=51$ (5) $a_1<0$',
+      '一個 101 項的等差數列 $a_1,a_2,a_3,\\cdots,a_{101}$，其和為 0，且 $a_{71}=71$，下列哪些正確？\n(1) $a_1+a_{101}>0$　(2) $a_2+a_{101}<0$\n(3) $a_3+a_{99}=0$　(4) $a_{51}=51$　(5) $a_1<0$',
     answer: '(3)(5)',
     hasImage: false,
   },
@@ -6926,39 +6942,39 @@ const series: Question[] = [
     id: '17a5605dcf4',
     chapter: '數列級數',
     question:
-      '設 $a_1$，$a_2$，$a_3\\cdots a_{11}$ 為等比數列且均為正數，$a_{11}=\\frac{1}{a_1}$，$a_4=4$，求 $a_3$。',
-    answer: '$8$',
+      '設 $a_1,a_2,a_3,\\cdots,a_{11}$ 為等比數列且均為正數，$a_{11}=\\dfrac1{a_1}$，$a_4=4$，求 $a_3$。',
+    answer: '8',
     hasImage: false,
   },
   {
     id: '17a5606fee2',
     chapter: '數列級數',
     question:
-      '在等比數列 $\\langle a_n\\rangle$ 中，$a_1=1$，$a_4=2-\\sqrt{5}$，$a_{n+2}=a_{n+1}+a_n$，$n\\ge1$，求 $\\langle a_n\\rangle$ 的公比。',
-    answer: '$\\frac{1-\\sqrt{5}}{2}$',
+      '在等比數列 $\\langle a_n\\rangle$ 中，$a_1=1$，$a_4=2-\\sqrt{5}$，$a_{n+2}=a_{n+1}+a_n$($n\\ge1$)求 $\\langle a_n\\rangle$ 的公比。',
+    answer: '$\\frac{1-\\sqrt5}2$',
     hasImage: false,
   },
   {
     id: '17a560a8bbc',
     chapter: '數列級數',
     question:
-      '若自然數 $n$ 使 $9^n$ 為 $20$ 位數，則等比級數 $1+81+81^2+\\cdots+81^n$ 之和是幾位數？\n($\\log2\\approx0.301$，$\\log3\\approx0.477$)',
-    answer: '$39$',
+      '若自然數 $n$ 使 $9^n$ 為 20 位數，則等比級數 $1+81+81^2+\\cdots+81^n$ 之和是幾位數？\n($\\log2\\approx0.301$，$\\log3\\approx0.477$)',
+    answer: '39',
     hasImage: false,
   },
   {
     id: '17a560b9cb2',
     chapter: '數列級數',
     question:
-      '一數列共 $20$ 項，奇數項和為 $24$，偶數項和為 $84$，試問：(1) 若為等差數列，求公差。\n(2) 若為等比數列，求公比。',
-    answer: '(1) $6$ (2) $\\frac{7}{2}$',
+      '一數列共 20 項，奇數項和為 24，偶數項和為 84，試問：(1) 若為等差數列，求公差。\n(2) 若為等比數列，求公比。',
+    answer: '(1) 6 (2) $\\frac72$',
     hasImage: false,
   },
   {
     id: '17a560ec3d0',
     chapter: '數列級數',
     question:
-      '假設實數 $a_1$、$a_2$、$a_3$、$a_4$ 是一個等差數列，且滿足 $0<a_1<2$ 及 $a_3=4$。若定義 $b_n=2^{a_n}$，則哪些選項是對的？\n(1) $b_1$、$b_2$、$b_3$、$b_4$ 是一個等比數列\n(2) $b_1<b_2$ (3) $b_2>4$\n(4) $b_4>32$ (5) $b_2\\times b_4=256$',
+      '假設實數 $a_1$、$a_2$、$a_3$、$a_4$ 是一個等差數列，且滿足 $0<a_1<2$ 及 $a_3=4$。若定義 $b_n=2^{a_n}$，則哪些選項是對的？\n(1) $b_1$、$b_2$、$b_3$、$b_4$ 是一個等比數列\n(2) $b_1<b_2$　　(3) $b_2>4$\n(4) $b_4>32$　　(5) $b_2\\times b_4=256$',
     answer: '(1)(2)(3)(4)(5)',
     hasImage: false,
   },
@@ -6966,7 +6982,7 @@ const series: Question[] = [
     id: '17a5610d83d',
     chapter: '數列級數',
     question:
-      '設實數組成的數列 $\\langle a_n\\rangle$ 是公比為 $-0.8$ 的等比數列，實數組成的數列 $\\langle b_n\\rangle$ 是首項為 $10$ 的等差數列。已知 $a_9>b_9$ 且 $a_{10}>b_{10}$。請選出正確的選項。\n(1) $a_9\\times a_{10}<0$ (2) $b_{10}>0$ (3) $b_9>b_{10}$\n(4) $a_9>a_{10}$ (5) $a_8>b_8$',
+      '設實數組成的數列 $\\langle a_n\\rangle$ 是公比為 -0.8 的等比數列，實數組成的數列 $\\langle b_n\\rangle$ 是首項為 10 的等差數列。已知 $a_9>b_9$ 且 $a_{10}>b_{10}$。請選出正確的選項。\n(1) $a_9\\times a_{10}<0$　　(2) $b_{10}>0$\n(3) $b_9>b_{10}$　　(4) $a_9>a_{10}$　　(5) $a_8>b_8$',
     answer: '(1)(3)',
     hasImage: false,
   },
@@ -6974,39 +6990,39 @@ const series: Question[] = [
     id: '17a57ce4c98',
     chapter: '數列級數',
     question:
-      '小華準備向銀行貸款 $3$ 百萬元當做創業基金，其年利率為 $3\\%$，約定三年期滿一次還清貸款的本利和。銀行貸款一般以複利(每年複利一次)計息還款，但給小華創業優惠改以單利計息還款。試問在此優惠下，小華在三年期滿還款時可以比一般複利計息少繳多少元？',
-    answer: '$8181$',
+      '小華準備向銀行貸款 300 萬元當做創業基金，其年利率為 3%，約定三年期滿一次還清貸款的本利和。銀行貸款一般以複利(每年複利一次)計息還款，但給小華創業優惠改以單利計息還款。試問在此優惠下，小華在三年期滿還款時可以比一般複利計息少繳多少元？',
+    answer: '8181',
     hasImage: false,
   },
   {
     id: '17a57d3f244',
     chapter: '數列級數',
     question:
-      '王小姐想利用銀行的薪資帳戶定時定額扣款，以年繳的方式參加儲蓄方案，希望在 $10$ 年後存滿 $10$ 萬元，若每年複利一次且年利率為 $4\\%$，請問她接下來這 $10$ 年，每年年初會在帳戶固定提撥多少元給銀行？\n($1.04^{10}\\approx1.48$，整數以下四捨五入)',
-    answer: '$8013$',
+      '王小姐想利用銀行的薪資帳戶定時定額扣款，以年繳的方式參加儲蓄方案，希望在 10 年後存滿 10 萬元，若每年複利一次且年利率為 4%，請問她接下來這 10 年，每年年初會在帳戶固定提撥多少元給銀行？\n($1.04^{10}\\approx1.48$，整數以下四捨五入)',
+    answer: '8013',
     hasImage: false,
   },
   {
     id: '17a57d7aeac',
     chapter: '數列級數',
     question:
-      '酒杯一層一層往上堆疊，預計有 $12$ 層，希望最上面的第一層 $3\\times5$ 個，第二層有 $4\\times6$ 個，第三層有 $5\\times7$ 個，依此類推。經過計算，應該準備多少個酒杯？',
-    answer: '$1214$',
+      '酒杯一層一層往上堆疊，預計有 12 層，希望最上面的第一層 $3\\times5$ 個，第二層有 $4\\times6$ 個，第三層有 $5\\times7$ 個，依此類推。經過計算，應該準備多少個酒杯？',
+    answer: '1214',
     hasImage: false,
   },
   {
     id: '17a57da7235',
     chapter: '數列級數',
     question:
-      '一個袋子內有 $1$ 號球 $2$ 顆、$2$ 號球 $3$ 顆、$3$ 號球 $4$ 顆、$\\cdots$、$n$ 號球 $(n+1)$ 顆，若此袋內球號之總和為 $1938$，求 $n$。',
-    answer: '$17$',
+      '一個袋子內有 1 號球 2 顆、2 號球 3 顆、3 號球 4 顆、$\\cdots$、$n$ 號球 $(n+1)$ 顆，若此袋內球號之總和為 1938，求 $n$。',
+    answer: '17',
     hasImage: false,
   },
   {
     id: '17a57e93260',
     chapter: '數列級數',
     question:
-      '設實數數列 $\\langle a_n\\rangle$ 對所有的正整數 $n$ 滿足 $a_{n+1}=\\frac{n(n+1)}{2}-a_n$。下列哪些選項正確。\n(1) 若 $a_1=1$，則 $a_2=1$\n(2) 若 $a_1$ 是整數，則此數列的每項都是整數\n(3) 若 $a_1$ 是無理數，則此數列的每項都是無理數\n(4) $a_2\\le a_4\\le\\cdots\\le a_{2n}\\le\\cdots$ ($n$為正整數)\n(5) 若 $a_k$ 是奇數，則 $a_{k+2}$、$a_{k+4}$、$\\cdots$、$a_{k+2n}$、$\\cdots$ 都是奇數 ($n$為正整數)',
+      '設實數數列 $\\langle a_n\\rangle$ 對所有的正整數 $n$ 滿足 $a_{n+1}=\\dfrac{n(n+1)}2-a_n$。下列哪些選項正確。(1) 若 $a_1=1$，則 $a_2=1$\n(2) 若 $a_1$ 是整數，則此數列的每項都是整數\n(3) 若 $a_1$ 是無理數，則此數列的每項都是無理數\n(4) $a_2\\le a_4\\le\\cdots\\le a_{2n}\\le\\cdots$ ($n$ 為正整數)\n(5) 若 $a_k$ 是奇數，則 $a_{k+2}$、$a_{k+4}$、$\\cdots$、$a_{k+2n}$、$\\cdots$ 都是奇數 ($n$ 為正整數)',
     answer: '(2)(3)(4)',
     hasImage: false,
   },
@@ -7017,6 +7033,22 @@ const series: Question[] = [
       '實數數列 $\\langle a_n\\rangle$ 的各項均非 $0$，設 $a_3=a_2+a_1$，下列選項哪些為真？\n(1) 若 $a_1a_2>0$，則 $a_2a_3>0$\n(2) 若 $\\langle a_n\\rangle$ 成等差數列，則 $a_4=a_3+a_2$\n(3) 若 $\\langle a_n\\rangle$ 成等差數列，則 $a_4=4a_1$\n(4) 若 $\\langle a_n\\rangle$ 成等比數列，則 $a_4=a_3+a_2$\n(5) 若 $\\langle a_n\\rangle$ 成等比數列，則公比必為有理數',
     answer: '(1)(3)(4)',
     hasImage: false,
+  },
+  {
+    id: '1823960c143',
+    chapter: '數列級數',
+    question:
+      '用大小相同的圓點，一邊排 $n$ 個圓點的正六邊形，共需圓點 $a_n$ 個，如圖，例如 $a_3=19$，求 $a_{10}$。',
+    answer: '271',
+    hasImage: true,
+  },
+  {
+    id: '1823963048a',
+    chapter: '數列級數',
+    question:
+      '用單位長的不銹鋼條焊接如圖的四面體鐵架，圖中的小圈圈表示焊接點，兩層共 4 個焊接點，三層共 10 個焊接點，四層共 20 個焊接點。請問依此規律，推算六層共有幾個焊接點？',
+    answer: '56',
+    hasImage: true,
   },
   {
     id: '17a3872be1f',
@@ -7038,51 +7070,51 @@ const series: Question[] = [
     id: '17a38ef2658',
     chapter: '數列級數',
     question:
-      '等比數列 $\\langle a_n\\rangle=1,6,36,216,\\cdots$，從第幾項開始會超過 $10^{10}$？($\\log_2\\approx0.3010$，$\\log_3\\approx0.4771$)',
+      '等比數列 $\\langle a_n\\rangle=1,6,36,216,\\cdots$，從第幾項開始會超過 $10^{10}$？($\\log2\\approx0.3010$，$\\log3\\approx0.4771$)',
     answer: '$14$',
     hasImage: false,
   },
   {
     id: '17a38f133a4',
     chapter: '數列級數',
-    question: '等比級數 $\\frac{1}{16}+\\frac{1}{8}+\\frac{1}{4}+\\cdots+512$ 共有幾項？其和為？',
+    question: '等比級數 $\\frac1{16}+\\frac18+\\frac14+\\cdots+512$ 共有幾項？其和為？',
     answer: '$14$、$1023\\frac{15}{16}$',
     hasImage: false,
   },
   {
     id: '17a38f954aa',
     chapter: '數列級數',
-    question: '某人存入銀行 $10000$ 元，年利率 $4\\%$，半年計息，以單利計息，求滿一年本利和。',
-    answer: '$10400$ 元',
+    question: '某人存入銀行 10000 元，年利率 4%，半年計息，以單利計息，求滿一年本利和。',
+    answer: '10400 元',
     hasImage: false,
   },
   {
     id: '17a38fa110e',
     chapter: '數列級數',
-    question: '某人存入銀行 $10000$ 元，年利率 $4\\%$，半年計息，以複利計息，求滿一年本利和。',
-    answer: '$10404$ 元',
+    question: '某人存入銀行 10000 元，年利率 4%，半年計息，以複利計息，求滿一年本利和。',
+    answer: '10404 元',
     hasImage: false,
   },
   {
     id: '17a38ffc8f0',
     chapter: '數列級數',
     question:
-      '(1) 求 $1+2+3+\\cdots+24=$\n(2) 求 $1^2+2^2+3^2+\\cdots+24^2=$\n(3) 求 $1^3+2^3+3^3+\\cdots+24^3=$',
-    answer: '(1) $300$ (2) $4900$ (3) $90000$',
+      '(1) 求 $1+2+3+\\cdots+24$\n(2) 求 $1^2+2^2+3^2+\\cdots+24^2$\n(3) 求 $1^3+2^3+3^3+\\cdots+24^3$',
+    answer: '(1) 300 (2) 4900 (3) 90000',
     hasImage: false,
   },
   {
     id: '17a39013d19',
     chapter: '數列級數',
-    question: '求 $11^3+12^3+13^3+\\cdots+20^3=$',
-    answer: '$41075$',
+    question: '求 $11^3+12^3+13^3+\\cdots+20^3$',
+    answer: '41075',
     hasImage: false,
   },
   {
     id: '17a39109975',
     chapter: '數列級數',
     question:
-      '下列各選項的遞迴關係式，哪一個所得的 $\\langle a_n\\rangle$ 為等差？哪一個所得的 $\\langle a_n\\rangle$ 為等比？\n(1) $a_{n+1}=a_n+n$ (2) $a_{n+1}=3a_n$\n(3) $a_{n+1}=a_n+5$ (4) $a_{n+1}=\\frac{a_n}{n}$\n(5) $a_{n+1}=2a_n+3$',
+      '下列各選項的遞迴關係式，哪一個所得的 $\\langle a_n\\rangle$ 為等差？哪一個所得的 $\\langle a_n\\rangle$ 為等比？\n(1) $a_{n+1}=a_n+n$　　(2) $a_{n+1}=3a_n$\n(3) $a_{n+1}=a_n+5$　　(4) $a_{n+1}=\\dfrac{a_n} n$\n(5) $a_{n+1}=2a_n+3$',
     answer: '(3)；(2)',
     hasImage: false,
   },
@@ -7090,8 +7122,8 @@ const series: Question[] = [
     id: '17a3912f008',
     chapter: '數列級數',
     question:
-      '數列 $\\langle a_n\\rangle$ 滿足 $a_1=\\frac{1}{7}$，若 $n\\ge1$，則 $a_{n+1}=\\frac{7}{2}a_n(1-a_n)$，求 $a_{100}$。',
-    answer: '$\\frac{3}{7}$',
+      '數列 $\\langle a_n\\rangle$ 滿足 $a_1=\\dfrac17$，若 $n\\ge1$，則 $a_{n+1}=\\dfrac72a_n(1-a_n)$，求 $a_{100}$。',
+    answer: '$\\frac37$',
     hasImage: false,
   },
   {
@@ -7839,40 +7871,40 @@ const statistics: Question[] = [
     id: '17a580aaf30',
     chapter: '數據分析',
     question:
-      '在某項競賽中，為了避免評審個人主觀影響成績太大，規定：先將 $15$ 位評審的成績求得算術平均數，再將與平均數相差超過 $15$ 分的成績剔除後重新計算平均值做為參賽者的比賽成績。現在有一位參賽者所獲 $15$ 位評審的平均成績為 $76$ 分，其中有三位評審給的成績 $92$、$45$、$55$ 應剔除，求這個參賽者的成績。',
-    answer: '$79$',
+      '在某項競賽中，為了避免評審個人主觀影響成績太大，規定：先將 15 位評審的成績求得算術平均數，再將與平均數相差超過 15 分的成績剔除後重新計算平均值做為參賽者的比賽成績。現在有一位參賽者所獲 15 位評審的平均成績為 76 分，其中有三位評審給的成績 92, 45, 55 應剔除，求這個參賽者的成績。',
+    answer: '79',
     hasImage: false,
   },
   {
     id: '17a580c7137',
     chapter: '數據分析',
     question:
-      '某校一、二、三年級各派學生參加比賽，高一派 $x$ 人，高二派 $y$ 人，高三派 $12$ 人，各年級的平均成績為：高一 $60$ 分，高二 $65$ 分，高三 $74$ 分。若合併高一與高二，則平均變成 $63$ 分，若合併高一、高二、高三，則平均變成 $69$ 分，求 $(x,y)$。',
-    answer: '$(4,6)$',
+      '某校一、二、三年級各派學生參加比賽，高一派 $x$ 人，高二派 $y$ 人，高三派 12 人，各年級的平均成績為：高一 60 分，高二 65 分，高三 74 分。若合併高一與高二，則平均變成 63 分，若合併高一、高二、高三，則平均變成 69 分，求 $(x,y)$。',
+    answer: '(4,6)',
     hasImage: false,
   },
   {
     id: '17a5811f5c8',
     chapter: '數據分析',
     question:
-      '某生第一次月考六科的平均成績(算術平均)為 $80$ 分，若已知其中五科的成績為 $68$、$80$、$80$、$80$、$86$，求成績的標準差。',
-    answer: '$6$',
+      '某生第一次月考六科的平均成績 (算術平均)為 80 分，若已知其中五科的成績為 68, 80, 80, 80, 86，求成績的標準差。',
+    answer: '6',
     hasImage: false,
   },
   {
     id: '17a58136eaf',
     chapter: '數據分析',
     question:
-      '$9$ 個數值 $1$、$1$、$1$、$1$、$1$、$1$、$1$、$1$、$x$，其中 $x\\in\\mathbb{N}$，若這 $9$ 個數的標準差比 $10$ 大，求 $x$ 的最小值。',
-    answer: '$33$',
+      '9 個數值 1, 1, 1, 1, 1, 1, 1, 1, $x$，其中 $x\\in\\mathbb N$，若這 9 個數的標準差比 10 大，求 $x$ 的最小值。($\\sqrt2\\approx1.414$)',
+    answer: '33',
     hasImage: false,
   },
   {
     id: '17a58e8ba61',
     chapter: '數據分析',
     question:
-      '資料 $5$，$11\\cdots$，共 $100$ 個數值，標準化之後 $5$ 會變成 $1$，$11$ 會變成 $3$，求這 $100$ 個數值之和。',
-    answer: '$200$',
+      '資料 $5,11,\\cdots$，共 100 個數值，標準化之後 5 變成 1，11 變成 3，求這 100 個數值之和。',
+    answer: '200',
     hasImage: false,
   },
   {
@@ -7884,26 +7916,34 @@ const statistics: Question[] = [
     hasImage: false,
   },
   {
+    id: '18239affe3a',
+    chapter: '數據分析',
+    question:
+      '五位同學的段考平均 ($x$) 與學測級分 ($y$) 成績 ($x$,$y$) 為：(90, 14), (81, 12), (84, 10), (72, 11), (78, 8)，求其相關係數。',
+    answer: '0.55',
+    hasImage: false,
+  },
+  {
     id: '17a58f86582',
     chapter: '數據分析',
     question:
-      '數對 $(x_1,y_1)$、$(x_2,y_2)$、$\\cdots$、$(x_{10},y_{10})$，已知 $x_1+x_2+\\cdots+x_{10}=30$，$y_1+y_2+\\cdots+y_{10}=50$，$x_1^2+x_2^2+\\cdots+x_{10}^2=150$，$y_1^2+y_2^2+\\cdots+y_{10}^2=310$，$x_1y_1+x_2y_2+\\cdots+x_{10}y_{10}=120$，求 $X$ 與 $Y$ 的相關係數。',
-    answer: '$0.75$',
+      '數對 $(x_1,y_1),(x_2,y_2),\\cdots,(x_{10},y_{10})$，已知 $x_1+x_2+\\cdots+x_{10}=30$，$y_1+y_2+\\cdots+y_{10}=50$，$x_1^2+x_2^2+\\cdots+x_{10}^2=150$，$y_1^2+y_2^2+\\cdots+y_{10}^2=310$，$x_1y_1+x_2y_2+\\cdots+x_{10}y_{10}=120$，求 $X$ 與 $Y$ 的相關係數。',
+    answer: '0.75',
     hasImage: false,
   },
   {
     id: '17a5901f440',
     chapter: '數據分析',
     question:
-      '數對 $(x_1,y_1)$、$(x_2,y_2)$、$\\cdots$、$(x_n,y_n)$，$X$ 的算術平均為 $8$，$y$ 對 $x$ 的迴歸直線為 $y=-2x+25$，求 $Y$ 的算術平均。',
-    answer: '$9$',
+      '數對 $(x_1,y_1),(x_2,y_2),\\cdots,(x_n,y_n)$，$X$ 的算術平均為 8，$y$ 對 $x$ 的迴歸直線為 $y=-2x+25$，求 $Y$ 的算術平均。',
+    answer: '9',
     hasImage: false,
   },
   {
     id: '17a5903a862',
     chapter: '數據分析',
     question:
-      '數對 $(x_1,y_1)$、$(x_2,y_2)$、$\\cdots$、$(x_n,y_n)$，$X$ 的算術平均為 $12$，標準差為 $3$，$Y$ 的算術平均為 $25$，標準差為 $8$，$X$ 與 $Y$ 的相關係數為 $-0.6$，求 $y$ 對 $x$ 的迴歸直線方程式。',
+      '數對 $(x_1,y_1),(x_2,y_2),\\cdots,(x_n,y_n)$，$X$ 的算術平均為 12，標準差為 $3$，$Y$ 的算術平均為 25，標準差為 8，$X$ 與 $Y$ 的相關係數為 -0.6，求 $y$ 對 $x$ 的迴歸直線方程式。',
     answer: '$y=-1.6x+44.2$',
     hasImage: false,
   },
@@ -7911,23 +7951,23 @@ const statistics: Question[] = [
     id: '17a5d030723',
     chapter: '數據分析',
     question:
-      '已知 $(X,Y)$ 的相關係數為 $0.8$，求：\n(1) $(X+5,Y-2)$ 的相關係數為？\n(2) $(2X,3Y)$ 的相關係數為？\n(3) $(2+X,3-Y)$ 的相關係數為？',
-    answer: '(1) $0.8$ (2) $0.8$ (3) $-0.8$',
+      '已知 $(X,Y)$ 的相關係數為 0.8，求：\n(1) $(X+5,Y-2)$ 的相關係數為？\n(2) $(2X,3Y)$ 的相關係數為？\n(3) $(2+X,3-Y)$ 的相關係數為？',
+    answer: '(1) 0.8 (2) 0.8 (3) -0.8',
     hasImage: false,
   },
   {
     id: '17a5d04eb8b',
     chapter: '數據分析',
     question:
-      '二維數據 $(X,Y)$ 的迴歸直線之斜率為 $4$，則 $(2X+7,3Y-5)$ 表 $x$ 值同乘 $2$ 再同加 $7$，且 $y$ 值同乘 $3$ 之後再同減 $5$，求新的迴歸直線斜率。',
-    answer: '$6$',
+      '二維數據 $(X,Y)$ 的迴歸直線之斜率為 4，則 $(2X+7,3Y-5)$ 表 $x$ 值同乘 2 再同加 7，且 $y$ 值同乘 3 之後再同減 5，求新的迴歸直線斜率。',
+    answer: '6',
     hasImage: false,
   },
   {
     id: '17a5d0c5ca2',
     chapter: '數據分析',
     question:
-      '圖為兩組數據 $x$、$y$ 的分布圖，其相關係數 $r$ 最接近下列何值？\n(1) $1$ (2) $0.5$ (3) $0$ (4) $-0.5$ (5) $-1$',
+      '圖為兩組數據 $x$、$y$ 的分布圖，其相關係數 $r$ 最接近下列何值？\n(1) 1 (2) 0.5 (3) 0 (4) -0.5 (5) -1',
     answer: '(3)',
     hasImage: true,
   },
@@ -7935,7 +7975,7 @@ const statistics: Question[] = [
     id: '17a5d0e67c4',
     chapter: '數據分析',
     question:
-      '如圖所示有 $5$ 筆 $(X,Y)$ 資料。去掉哪一筆資料後，剩下來 $4$ 筆資料的相關係數最大？\n(1) $A$ (2) $B$ (3) $C$ (4) $D$ (5) $E$',
+      '如圖所示有 5 筆 $(X,Y)$ 資料。去掉哪一筆資料後，剩下來 4 筆資料的相關係數最大？\n(1) $A$ (2) $B$ (3) $C$ (4) $D$ (5) $E$',
     answer: '(4)',
     hasImage: true,
   },
@@ -7951,15 +7991,15 @@ const statistics: Question[] = [
     id: '17a5fc9a59d',
     chapter: '數據分析',
     question:
-      '調查班上段考國文及英文成績，國文平均 $80$ 分，標準差 $9$ 分，英文平均 $81$ 分，標準差 $3$ 分，國文與英文的相關係數為 $0.9$，請利用迴歸直線預測，國文考 $100$ 分的同學，英文大約為幾分？',
-    answer: '$87$',
+      '調查班上段考國文及英文成績，國文平均 80 分，標準差 9 分，英文平均 81 分，標準差 3 分，國文與英文的相關係數為 0.9，請利用迴歸直線預測，國文考 100 分的同學，英文大約為幾分？',
+    answer: '87',
     hasImage: false,
   },
   {
     id: '17a5fd1067d',
     chapter: '數據分析',
     question:
-      '一金屬圓柱，在不同負重下柱高會被影響，實驗結果 (負重,柱高)：$(0,70.5)$、$(2,69.4)$、$(4,68.4)$、$(6,67.2)$、$(8,66.3)$、$(10,65.5)$、$(12,64.4)$，其中測量單位分別為英噸和英寸。此筆資料的相關係數為 $r$，迴歸直線斜率為 $m$。將單位轉換為公噸 ($1$ 英噸等於 $1.016$ 公噸) 及公分 ($1$ 英寸等於 $2.54$ 公分)，若單位換算後的相關係數為 $R$，回歸直線斜率為 $M$。下列哪些正確？\n(1) $rm>0$ (2) $r>0$ (3) $r=R$ (4) $m=M$',
+      '一金屬圓柱，在不同負重下柱高會被影響，實驗結果 (負重, 柱高)：(0, 70.5), (2, 69.4),　(4, 68.4), (6, 67.2), (8, 66.3), (10, 65.5),　　　(12, 64.4)，其中測量單位分別為英噸和英寸。此筆資料的相關係數為 $r$，迴歸直線斜率為 $m$。將單位轉換為公噸 (1 英噸等於 1.016 公噸) 及公分 (1 英寸等於 2.54 公分)，若單位換算後的相關係數為 $R$，回歸直線斜率為 $M$。下列哪些正確？\n(1) $rm>0$ (2) $r>0$ (3) $r=R$ (4) $m=M$',
     answer: '(1)(3)',
     hasImage: false,
   },
@@ -7967,7 +8007,7 @@ const statistics: Question[] = [
     id: '17a5fd46a57',
     chapter: '數據分析',
     question:
-      "某校高三學生數學第一次、二次段考成績分別以 $X$、$Y$ 表示。若兩次段考的相關係數為 $0.016$，下列哪些正確？\n(1) $X$ 與 $Y$ 的相關情形可以用散布圖表示\n(2) 這兩次段考的數學成績適合用直線 $X=a+bY$ 表示 $X$ 與 $Y$ 的相關情形\n(3) $X+5$ 與 $Y+5$ 的相關係數仍為 $0.016$\n(4) $10X$ 與 $10Y$ 的相關係數仍為 $0.016$\n(5) 若 $X'=\\frac{X-\\mu_x}{\\sigma_x}$、$Y'=\\frac{Y-\\mu_y}{\\sigma_y}$，則 $X'$ 與 $Y'$ 的相關係數仍為 $0.016$",
+      "某校高三學生數學第一次、二次段考成績分別以 $X$、$Y$ 表示。若兩次段考的相關係數為 0.016，下列哪些正確？\n(1) $X$ 與 $Y$ 的相關情形可以用散布圖表示\n(2) 這兩次段考的數學成績適合用直線 $X=a+bY$ 表示 $X$ 與 $Y$ 的相關情形\n(3) $X+5$ 與 $Y+5$ 的相關係數仍為 0.016\n(4) $10X$ 與 $10Y$ 的相關係數仍為 0.016\n(5) 若 $X'=\\dfrac{X-\\mu_x}{\\sigma_x}$、$Y'=\\dfrac{Y-\\mu_y}{\\sigma_y}$，則 $X'$ 與 $Y'$ 的相關係數仍為 0.016",
     answer: '(1)(3)(4)(5)',
     hasImage: false,
   },
@@ -7975,54 +8015,53 @@ const statistics: Question[] = [
     id: '17a393dba9d',
     chapter: '數據分析',
     question:
-      '正數 $a$ 與 $b$ 的算術平均數為 $37$，幾何平均數為 $24$；正數 $c$、$d$、$e$、$f$ 的算術平均數為 $13$，幾何平均數為 $3$，求 $a$、$b$、$c$、$d$、$e$、$f$ 的算術平均數及幾何平均數。',
-    answer: '$21$；$6$',
+      '正數 $a,b$ 的算術平均數為 37，幾何平均數為 24；正數 $c,d,e,f$ 的算術平均數為 13，幾何平均數為 3，求 $a,b,c,d,e,f$ 的算術平均數及幾何平均數。',
+    answer: '21；6',
     hasImage: false,
   },
   {
     id: '17a393f79d8',
     chapter: '數據分析',
-    question:
-      '有 $5$ 個數值：$21$、$30$、$31$、$40$、$52$，其權數依序為 $1$、$1$、$2$、$3$、$3$，求加權平均數。',
-    answer: '$38.9$',
+    question: '有 5 個數值：21, 30, 31, 40, 52，其權數依序為 1, 1, 2, 3, 3，求加權平均數。',
+    answer: '38.9',
     hasImage: false,
   },
   {
     id: '17a3a063f85',
     chapter: '數據分析',
     question:
-      '由小而大的 $16$ 個數值 $1$，$2$，$4$，$5$，$7$，$8$，$10$，$11$，$13$，$14$，$16$，$17$，$19$，$20$，$22$，$23$，試求：(1) 第 $40$ 百分位數 (2) 第 $3$ 四分位數',
-    answer: '(1) $10$ (2) $18$',
+      '由小而大的 16 個數值 1, 2, 4, 5, 7, 8, 10, 11, 13, 14, 16, 17, 19, 20, 22, 23，試求：\n(1) 第 40 百分位數 (2) 第 3 四分位數',
+    answer: '(1) 10 (2) 18',
     hasImage: false,
   },
   {
     id: '17a3a0f0062',
     chapter: '數據分析',
-    question: '試求五個數值 $2$，$4$，$6$，$8$，$10$ 的標準差。',
-    answer: '$2\\sqrt{2}$',
+    question: '試求五個數值 2, 4, 6, 8, 10 的標準差。',
+    answer: '$2\\sqrt2$',
     hasImage: false,
   },
   {
     id: '17a3a11a2cb',
     chapter: '數據分析',
     question:
-      '下列五組資料，哪一組的標準差最大？哪一組的標準差最小？\n$A:1$，$1$，$1$，$1$，$1$，$10$，$10$，$10$，$10$，$10$\n$B:1$，$1$，$1$，$1$，$1$，$5$，$5$，$5$，$5$，$5$\n$C:4$，$4$，$4$，$5$，$5$，$5$，$5$，$6$，$6$，$6$\n$D:1$，$1$，$2$，$2$，$3$，$3$，$4$，$4$，$5$，$5$\n$E:1$，$2$，$3$，$4$，$5$，$6$，$7$，$8$，$9$，$10$',
-    answer: '$A$；$C$',
+      '下列五組資料，哪一組的標準差最大？哪一組的標準差最小？\nA: 1, 1, 1, 1, 1, 10, 10, 10, 10, 10\nB: 1, 1, 1, 1, 1, 5, 5, 5, 5, 5\nC: 4, 4, 4, 5, 5, 5, 5, 6, 6, 6\nD: 1, 1, 2, 2, 3, 3, 4, 4, 5, 5\nE: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10',
+    answer: 'A；C',
     hasImage: false,
   },
   {
     id: '17a3a18212b',
     chapter: '數據分析',
     question:
-      '$a$、$b$、$c$、$d$ 的算術平均數為 $5$，標準差為 $8$，求 $1-4a$、$1-4b$、$1-4c$、$1-4d$ 的算術平均數及標準差。',
-    answer: '$-19$；$32$',
+      '$a,b,c,d$ 的算術平均數為 5，標準差為 8，求 $1-4a,1-4b,1-4c,1-4d$ 的算術平均數及標準差。',
+    answer: '-19；32',
     hasImage: false,
   },
   {
     id: '17a3a1a6f8e',
     chapter: '數據分析',
     question:
-      '某班數學老師算出學生學期成績後，鑑於學生平時都很用功，決定每人各加 $5$ 分(加分後沒人超過滿分)，則加分前與加分後，成績統計數值絕對不會改變的有：\n(1) 算術平均數 (2) 中位數\n(3) 標準差 (4) 全距 (5) 四分位距',
+      '某班數學老師算出學生學期成績後，鑑於學生平時都很用功，決定每人各加 5 分 (加分後沒人超過滿分)，則加分前與加分後，成績統計數值絕對不會改變的有：\n(1) 算術平均數　　(2) 中位數\n(3) 標準差　　(4) 全距　　(5) 四分位距',
     answer: '(3)(4)(5)',
     hasImage: false,
   },
@@ -9684,14 +9723,14 @@ const combination: Question[] = [
     id: '17abc66d799',
     chapter: '排列組合與機率',
     question: '$x\\in\\mathbb{R}$，「$1\\le x\\le5$」的否定敘述為？',
-    answer: '$x<1$ 或 $x>5$',
+    answer: '$x<1\\lor x>5$',
     hasImage: false,
   },
   {
     id: '17abc680e3a',
     chapter: '排列組合與機率',
     question: '$x,y\\in\\mathbb{N}$，「$x<3$ 或 $y=1$」的否定敘述為？',
-    answer: '$x\\ge1$ 且 $y\\neq1$',
+    answer: '$x\\ge3\\land y\\ne1$',
     hasImage: false,
   },
   {
@@ -9706,7 +9745,7 @@ const combination: Question[] = [
     id: '17abc786a8b',
     chapter: '排列組合與機率',
     question:
-      '集合 $A=\\{3,5,\\{1,2\\}\\}$，下列何者正確？\n(1) $A$ 有 $4$ 個元素 (2) $1\\in A$ (3) $\\{5\\}\\in A$\n(4) $\\{1,2\\}\\subset A$ (5) $3\\in A$',
+      '集合 $A=\\{3,5,\\{1,2\\}\\}$，下列何者正確？\n(1) $A$ 有 4 個元素　　(2) $1\\in A$\n(3) $\\{5\\}\\in A$　　(4) $\\{1,2\\}\\subset A$　　(5) $3\\in A$',
     answer: '(5)',
     hasImage: false,
   },
@@ -9714,7 +9753,7 @@ const combination: Question[] = [
     id: '17abc7a99fd',
     chapter: '排列組合與機率',
     question:
-      '下列哪些正確？\n(1) $0\\in\\mathbb{N}$ (2) $3\\in\\mathbb{Q}$ (3) $\\sqrt{16}\\in\\mathbb{Z}$ (4) $0^0\\in\\mathbb{R}$',
+      '下列哪些正確？\n(1) $0\\in\\mathbb N$　　(2) $3\\in\\mathbb Q$\n(3) $\\sqrt{16}\\in\\mathbb Z$　　(4) $0^0\\in\\mathbb R$',
     answer: '(2)(3)',
     hasImage: false,
   },
@@ -9722,16 +9761,14 @@ const combination: Question[] = [
     id: '17abc81d00d',
     chapter: '排列組合與機率',
     question: '$A=\\{1,2,3,4,5,6\\}$，$B=\\{2,4,6,8,10\\}$，求 $A\\cap B$、$A\\cup B$、$A-B$。',
-    answer: '$\\{2,4,6\\}$；$\\{1,2,3,4,5,6,8,10\\}$；$\\{1,3,5\\}$',
+    answer: '{2,4,6}；{1,2,3,4,5,6,8,10}；{1,3,5}',
     hasImage: false,
   },
   {
     id: '17abc83cf11',
     chapter: '排列組合與機率',
-    question:
-      '$A=\\{x|-1<x\\le3,x\\in\\mathbb{R}\\}$，$B=\\{x|2\\le x<5,x\\in\\mathbb{R}\\}$，求 $A\\cap B$、$A\\cup B$、$A-B$。',
-    answer:
-      '$\\{x|2\\le x\\le3,x\\in\\mathbb{R}\\}$；$\\{x|-1<x<5,x\\in\\mathbb{R}\\}$；$\\{x|-1<x<2,x\\in\\mathbb{R}\\}$',
+    question: '$A=\\{x|-1<x\\le3\\}$，$B=\\{x|2\\le x<5\\}$，求 $A\\cap B$、$A\\cup B$、$A-B$。',
+    answer: '$\\{x|2\\le x\\le3\\}$；$\\{x|-1<x<5\\}$；$\\{x|-1<x<2\\}$',
     hasImage: false,
   },
   {
@@ -9739,37 +9776,37 @@ const combination: Question[] = [
     chapter: '排列組合與機率',
     question:
       "已知 $n(U)=10$，$n(A\\cap B)=2$，$n(A\\cup B)=9$，求 $n(A'\\cap B')$、$n(A'\\cup B')$。",
-    answer: '$1$；$8$',
+    answer: '1；8',
     hasImage: false,
   },
   {
     id: '17abf829bb2',
     chapter: '排列組合與機率',
     question: '已知 $n(A)=10$，$n(B)=20$，$n(A\\cap B)=5$，求 $n(A\\cup B)$。',
-    answer: '$1$；$8$',
+    answer: '25',
     hasImage: false,
   },
   {
     id: '17abfa9a9fa',
     chapter: '排列組合與機率',
     question:
-      '有甲、乙、丙三個社團，參加者共 $40$ 人，其中參加甲的有 $27$ 人，參加乙的有 $30$ 人，參加丙的有 $32$ 人，參加甲和乙的有 $20$ 人，參加乙和丙的有 $23$ 人，參加甲和丙的有 $25$ 人，求三社團均參加的人數。',
-    answer: '$25$',
+      '有甲、乙、丙三個社團，參加者共 40 人，其中參加甲的有 27 人，參加乙的有 30 人，參加丙的有 32 人，參加甲和乙的有 20 人，參加乙和丙的有 23 人，參加甲和丙的有 25 人，求三社團均參加的人數。',
+    answer: '19',
     hasImage: false,
   },
   {
     id: '17abfaec432',
     chapter: '排列組合與機率',
     question: '如圖，由 $A$ 到 $B$ 走捷徑，有幾種走法？',
-    answer: '$31$',
+    answer: '31',
     hasImage: true,
   },
   {
     id: '17abfb144de',
     chapter: '排列組合與機率',
     question:
-      '口袋裡有 $4$ 個一元硬幣、$8$ 個十元硬幣、$2$ 張百元鈔，到商店買了一件商品，付帳時，不用找錢，若已知此商品至少 $10$ 元，則價錢共有幾種可能？',
-    answer: '$130$',
+      '口袋裡有 4 個一元硬幣、8 個十元硬幣、2 張百元鈔，到商店買了一件商品，付帳時，不用找錢，若已知此商品至少 10 元，則價錢共有幾種可能？',
+    answer: '130',
     hasImage: false,
   },
   {
@@ -9777,77 +9814,77 @@ const combination: Question[] = [
     chapter: '排列組合與機率',
     question:
       '$A$ 城到 $B$ 城之間有甲、乙、丙、丁、戊五城，其間連結的道路如圖所示。今從 $A$ 城出發走向 $B$ 城，要求每條道路都要經過並且只經過一次，則總共有幾種走法？',
-    answer: '$6$',
+    answer: '6',
     hasImage: true,
   },
   {
     id: '17abfb7c4c1',
     chapter: '排列組合與機率',
-    question: '$6$ 個不同的獎品選其中 $4$ 個分給甲、乙、丙、丁四個人，每人一個，分法有幾種？',
-    answer: '$360$',
+    question: '6 個不同的獎品選其中 4 個分給甲、乙、丙、丁四個人，每人一個，分法有幾種？',
+    answer: '360',
     hasImage: false,
   },
   {
     id: '17abfbad6c4',
     chapter: '排列組合與機率',
-    question: '平面上 $7$ 條直線，最多有幾個交點？最多可圍成幾個三角形？',
-    answer: '$21$；$35$',
+    question: '平面上 7 條直線，最多有幾個交點？最多可圍成幾個三角形？',
+    answer: '21；35',
     hasImage: false,
   },
   {
     id: '17abfbbbcce',
     chapter: '排列組合與機率',
     question: '將八位新生平均分發到甲、乙、丙、丁四班，共有幾種分法？',
-    answer: '$2520$',
+    answer: '2520',
     hasImage: false,
   },
   {
     id: '17abfbeeb64',
     chapter: '排列組合與機率',
-    question: '$9$ 本不同的書分成三堆，每堆三本，共有幾種分法？',
-    answer: '$280$',
+    question: '9 本不同的書分成三堆，每堆三本，共有幾種分法？',
+    answer: '280',
     hasImage: false,
   },
   {
     id: '17abfc5b973',
     chapter: '排列組合與機率',
     question:
-      '動物園的遊園列車依序編號 $1$ 到 $7$，共有 $7$ 節車廂，今想將每節車廂畫上一種動物。如果其中的兩節車廂畫企鵝，另兩節車廂畫無尾熊，剩下的三節車廂畫上貓熊，並且要求最中間的三節車廂必須有企鵝、無尾熊及貓熊，則 $7$ 節車廂一共有幾種畫法？',
-    answer: '$72$',
+      '動物園的遊園列車依序編號 1 到 7，共有 7 節車廂，今想將每節車廂畫上一種動物。如果其中的兩節車廂畫企鵝，另兩節車廂畫無尾熊，剩下的三節車廂畫上貓熊，並且要求最中間的三節車廂必須有企鵝、無尾熊及貓熊，則 7 節車廂一共有幾種畫法？',
+    answer: '72',
     hasImage: false,
   },
   {
     id: '17abfc983f9',
     chapter: '排列組合與機率',
     question: '若 $C^9_3+C^9_7=C^{10}_k$，求 $k$。',
-    answer: '$3$ 或 $7$',
+    answer: '$3\\lor7$',
     hasImage: false,
   },
   {
     id: '17abfd028f8',
     chapter: '排列組合與機率',
-    question: '$C^3_0+C^4_1+C^5_2+C^6_3+C^7_4+C^8_5+C^9_6$=C^{10}_r$，且 $r\\le5$，求 $r$。',
-    answer: '$4$',
+    question: '$C^3_0+C^4_1+C^5_2+C^6_3+C^7_4+C^8_5+C^9_6=C^{10}_r$，且 $r\\le5$，求 $r$。',
+    answer: '4',
     hasImage: false,
   },
   {
     id: '17abfe2acac',
     chapter: '排列組合與機率',
-    question: '求 $(2x+y)^7$ 展開後：\n(1) $x^3y^4$ 項係數 (2) $x^2y^6$ 項係數',
-    answer: '(1) $280$ (2) $0$',
+    question: '求 $(2x+y)^7$ 展開後：\n(1) $x^3y^4$ 項係數　　(2) $x^2y^6$ 項係數',
+    answer: '(1) 280 (2) 0',
     hasImage: false,
   },
   {
     id: '17abfe40b1e',
     chapter: '排列組合與機率',
     question: '求 $C^{10}_1+C^{10}_2+C^{10}_3+\\cdots+C^{10}_9+C^{10}_{10}$。',
-    answer: '$1023$',
+    answer: '1023',
     hasImage: false,
   },
   {
     id: '17abfe8c83f',
     chapter: '排列組合與機率',
-    question: '擲一公正硬幣 $8$ 次，求正面恰出現 $4$ 次的機率。',
+    question: '擲一公正硬幣 8 次，求正面恰出現 4 次的機率。',
     answer: '$\\frac{35}{128}$',
     hasImage: false,
   },
@@ -9855,46 +9892,62 @@ const combination: Question[] = [
     id: '17abfe9f277',
     chapter: '排列組合與機率',
     question: '擲三粒公正骰子，求恰好有兩粒點數相同的機率。',
-    answer: '$\\frac{5}{12}$',
+    answer: '$\\frac5{12}$',
     hasImage: false,
   },
   {
     id: '17abff3edad',
     chapter: '排列組合與機率',
     question:
-      '袋中有若干個白球與黑球，任取其中 $5$ 球，沒有白球的機率為 $\\frac{6}{25}$，恰得一白球的機率為 $\\frac{11}{25}$，求至少取得兩白球的機率。',
-    answer: '$\\frac{8}{25}$',
+      '袋中有若干個白球與黑球，任取其中 5 球，沒有白球的機率為 $\\frac6{25}$，恰得一白球的機率為 $\\frac{11}{25}$，求至少取得兩白球的機率。',
+    answer: '$\\frac8{25}$',
     hasImage: false,
   },
   {
     id: '17abff591b0',
     chapter: '排列組合與機率',
     question:
-      '已知樣本空間中事件 $A$ 發生的機率為 $0.7$，事件 $B$ 發生的機率為 $0.5$，$A$ 或 $B$ 發生的機率為 $0.9$，求 $A$ 與 $B$ 同時發生的機率。',
-    answer: '$0.3$',
+      '已知樣本空間中事件 $A$ 發生的機率為 0.7，事件 $B$ 發生的機率為 0.5，$A$ 或 $B$ 發生的機率為 0.9，求 $A$ 與 $B$ 同時發生的機率。',
+    answer: '0.3',
     hasImage: false,
   },
   {
     id: '17abffbab4d',
     chapter: '排列組合與機率',
     question:
-      '有一箱子，內有 $3$ 黑球與 $2$ 白球。有一遊戲，從箱子中任取出一球。假設每一顆球被取出的機率相同，若取出黑球可得獎金 $50$ 元，而取出白球可得獎金 $100$ 元，求此遊戲的獎金期望值。',
-    answer: '$70$ 元',
+      '有一箱子，內有 3 黑球與 2 白球。有一遊戲，從箱子中任取出一球。假設每一顆球被取出的機率相同，若取出黑球可得獎金 50 元，而取出白球可得獎金 100 元，求此遊戲的獎金期望值。',
+    answer: '70 元',
     hasImage: false,
   },
   {
     id: '17abffd87fa',
     chapter: '排列組合與機率',
     question:
-      '袋子裡有 $3$ 個球，$2$ 個球上標 $1$ 元，$1$ 個球上標 $5$ 元。從袋中任取 $2$ 個球，即可得到兩個球所標錢數的總和，求此玩法所得錢數的期望值。',
-    answer: '$\\frac{14}{3}$ 元',
+      '袋子裡有 3 個球，2 個球上標 1 元，1 個球上標 5 元。從袋中任取 2 個球，即可得到兩個球所標錢數的總和，求此玩法所得錢數的期望值。',
+    answer: '$\\frac{14}3$ 元',
+    hasImage: false,
+  },
+  {
+    id: '1823dae49a6',
+    chapter: '排列組合與機率',
+    question:
+      '某公司舉辦年終尾牙餐會，會中安插了一項抽獎活動。在抽獎箱中放了一副 52 張的撲克牌，每人抽出一張牌，且抽後放回；抽到紅心給獎金 8000 元，抽到方塊給獎金 6000 元，而抽到黑桃或梅花則一律給 2000 元獎金。假設每張牌被抽到的機率相等，求抽到獎金的數學期望值。',
+    answer: '4500 元',
+    hasImage: false,
+  },
+  {
+    id: '1823db011c8',
+    chapter: '排列組合與機率',
+    question:
+      '一顆特別的骰子，其六個面中有兩面為 2 點、兩面為 4 點、其餘兩面為 5 點。假設投擲這顆骰子每面出現的機率相等。擲這顆骰子兩次，所得點數和的數學期望值為？',
+    answer: '$\\frac{22}3$',
     hasImage: false,
   },
   {
     id: '17ac5042097',
     chapter: '排列組合與機率',
     question:
-      '有集合 $A$、$B$、$C$、$D$，已知 $A\\cap B=\\{1\\}$，$A\\cap C=\\{2,3\\}$，$A-D=\\{4\\}$，下列敘述哪些為真？\n(1) $B\\cap C=\\varnothing$ (2) $A\\cap B\\cap C=\\varnothing$\n(3) $4\\in(B\\cup C)$ (4) $1\\in(B\\cap D)$\n(5) $\\{1,2,3\\}\\subset D$',
+      '有集合 $A$、$B$、$C$、$D$，已知 $A\\cap B=\\{1\\}$，$A\\cap C=\\{2,3\\}$，$A-D=\\{4\\}$，下列敘述哪些為真？\n(1) $B\\cap C=\\varnothing$　　(2) $A\\cap B\\cap C=\\varnothing$\n(3) $4\\in(B\\cup C)$　　(4) $1\\in(B\\cap D)$\n(5) $\\{1,2,3\\}\\subset D$',
     answer: '(2)(4)(5)',
     hasImage: false,
   },
@@ -9903,22 +9956,22 @@ const combination: Question[] = [
     chapter: '排列組合與機率',
     question:
       '$A=\\{x|x^2+ax-12=0\\}$，$B=\\{x|x^2+bx+c=0\\}$，若 $A\\neq B$，$A\\cup B=\\{-3,4\\}$，$A\\cap B=\\{-3\\}$，求 $(a,b,c)$。',
-    answer: '$(-1,6,9)$',
+    answer: '(-1,6,9)',
     hasImage: false,
   },
   {
     id: '17ac517bd78',
     chapter: '排列組合與機率',
     question:
-      '某公司生產多種款式的公仔，各種款式只有帽子、衣服、鞋子顏色不同。其中帽子有黑、灰、紅、藍四種顏色，衣服有白、綠、藍三種顏色，鞋子有黑、白、灰三種顏色。公司決定紅色的帽子不搭配灰色的鞋子，而白色的衣服必須搭配藍色的帽子，至於其他顏色間的搭配就沒有限制。在這些配色的要求下，最多可有幾種不同款式的公子？',
-    answer: '$25$',
+      '某公司生產多種款式的公仔，各種款式只有帽子、衣服、鞋子顏色不同。其中帽子有黑、灰、紅、藍四種顏色，衣服有白、綠、藍三種顏色，鞋子有黑、白、灰三種顏色。公司決定紅色的帽子不搭配灰色的鞋子，而白色的衣服必須搭配藍色的帽子，至於其他顏色間的搭配就沒有限制。在這些配色的要求下，最多可有幾種不同款式的公仔？',
+    answer: '25',
     hasImage: false,
   },
   {
     id: '17ac51b5e9f',
     chapter: '排列組合與機率',
     question:
-      '某班共 $45$ 人，其中有 $35$ 人有手機，而有 $24$ 人有平板電腦。設：\n$A$ 為同時有手機與平板電腦的人數\n$B$ 為有手機，但沒有平板電腦的人數\n$C$ 為沒有手機，但有平板電腦的人數\n$D$ 為沒有手機，也沒有平板電腦的人數\n請選出恆成立的不等式選項。\n(1) $A>B$ (2) $A>C$ (3) $B>C$\n(4) $B>D$ (5) $C>D$',
+      '某班共 45 人，其中有 35 人有手機，而有 24 人有平板電腦。設：\n$A$ 為同時有手機與平板電腦的人數\n$B$ 為有手機，但沒有平板電腦的人數\n$C$ 為沒有手機，但有平板電腦的人數\n$D$ 為沒有手機，也沒有平板電腦的人數\n請選出恆成立的不等式選項。\n(1) $A>B$　　(2) $A>C$　　(3) $B>C$\n(4) $B>D$　　(5) $C>D$',
     answer: '(2)(3)(4)',
     hasImage: false,
   },
@@ -9926,23 +9979,23 @@ const combination: Question[] = [
     id: '17ac5215d11',
     chapter: '排列組合與機率',
     question:
-      '甲、乙、丙、丁、戊共 $5$ 人，排成一列拍了一張照。拍完後這 $5$ 人還想再拍一張，且限定每個人都不可以待在原本的位置，其中甲因身高最高只能站在兩側，請問下一張照片中，這 $5$ 人共有幾種不同的排列方式？',
-    answer: '$11$',
+      '甲、乙、丙、丁、戊共 5 人，由左至右按甲、乙、丙、丁、戊的順序排成一列拍了一張照。拍完後這 5 人還想再拍一張，且限定每個人都不可以待在原本的位置，其中甲因身高最高只能站在兩側，請問下一張照片中，這 5 人共有幾種不同的排列方式？',
+    answer: '11',
     hasImage: false,
   },
   {
     id: '17ac522cd09',
     chapter: '排列組合與機率',
     question: '試問共有多少組正整數 $(k,m,n)$ 滿足 $2^k4^m8^n=512$？',
-    answer: '$3$',
+    answer: '3',
     hasImage: false,
   },
   {
     id: '17ac6da6a26',
     chapter: '排列組合與機率',
     question:
-      '甲、乙、丙、丁 ... 等 $6$ 人排成一列，求：\n(1) 甲乙丙 $3$ 人相鄰的排列數\n(2) 甲乙相鄰但甲丙不相鄰的排列數\n(3) 甲乙不相鄰且丙丁不相鄰的排列數\n(4) 甲乙兩人都不可以排在首位也不可以排在末位的排法數',
-    answer: '(1) $144$ (2) $192$ (3) $336$ (4) $4320$',
+      '甲、乙、丙、丁... 等 6 人排成一列，求：\n(1) 甲乙丙 3 人相鄰的排列數\n(2) 甲乙相鄰但甲丙不相鄰的排列數\n(3) 甲乙不相鄰且丙丁不相鄰的排列數\n(4) 甲乙兩人都不可以排在首位也不可以排在末位的排列數',
+    answer: '(1) 144 (2) 192 (3) 336 (4) 288',
     hasImage: false,
   },
   {
@@ -9950,87 +10003,86 @@ const combination: Question[] = [
     chapter: '排列組合與機率',
     question:
       '學校班級在本學期中，每週有四節藝能課，包含兩節體育課、一節音樂課與一節美術課。根據學校排課原則：\n(1) 兩節體育課不能排在同一天或相鄰的兩天\n(2) 每班一天中最多只能有兩節藝能課\n請問該班從星期一至星期五的課表，這四節藝能課的排課有幾種不同的方法？',
-    answer: '$138$',
+    answer: '138',
     hasImage: false,
   },
   {
     id: '17ac6f0e1b6',
     chapter: '排列組合與機率',
     question:
-      '有一種號碼鎖有 $3$ 個轉輪，每個轉輪有 $0\\sim6$ 等 $6$ 個數字，正確號碼是一組可重複的數字，例如：$035$、$525$、$333$。\n(1) 在完全不知情的情況下，要打開鎖，最多要試幾組？\n(2) 已知正確號碼中有一個數字是 $5$，另外兩個號碼是異於 $5$ 的數字 (可相同也可相異)，要打開這個鎖，最多要試幾組不同的號碼？',
-    answer: '(1) $216$ (2) $75$',
+      '有一種號碼鎖有 3 個轉輪，每個轉輪有 0~6 等 6 個數字，正確號碼是一組可重複的數字，例如：035、525、333。\n(1) 在完全不知情的情況下，要打開鎖，最多要試幾組？\n(2) 已知正確號碼中有一個數字是 5，另外兩個號碼是異於 5 的數字 (可相同也可相異)，要打開這個鎖，最多要試幾組不同的號碼？',
+    answer: '(1) 216 (2) 75',
     hasImage: false,
   },
   {
     id: '17ac6f453c9',
     chapter: '排列組合與機率',
     question:
-      '有 $4$ 本不同的書及 $2$ 枝不同的筆要分給甲乙丙三人，求：\n(1) 任意分配的方法數\n(2) 甲至少拿一本書的方法數\n(3) 甲有拿到書也有拿到筆的方法數',
-    answer: '(1) $729$ (2) $585$ (3) $325$',
+      '有 4 本不同的書及 2 枝不同的筆要分給甲乙丙三人，求：\n(1) 任意分配的方法數\n(2) 甲至少拿一本書的方法數\n(3) 甲有拿到書也有拿到筆的方法數',
+    answer: '(1) 729 (2) 585 (3) 325',
     hasImage: false,
   },
   {
     id: '17ac6f6fb34',
     chapter: '排列組合與機率',
     question:
-      '小明在安排週一至週五共五天的午餐計畫。他的餐點共有四種選擇：牛肉麵、大滷麵、咖哩飯及排骨飯。小明想要依據下列兩原則來安排他的午餐：\n(1) 每天只選一種餐點但這五天中每一種餐點至少各點一次\n(2) 連續兩天的餐點不重複且不連兩天吃麵食\n根據上述原則，小明共有幾種不同的計畫？',
-    answer: '$60$',
+      '小明在安排週一至週五共五天的午餐計畫。他的餐點共有四種選擇：牛肉麵、大滷麵、咖哩飯及排骨飯。小明想要依據下列兩原則來安排午餐，請問共有幾種不同的計畫？\n(1) 每天只選一種餐點但這五天中每一種餐點至少各點一次\n(2) 連續兩天的餐點不重複且不連兩天吃麵食',
+    answer: '60',
     hasImage: false,
   },
   {
     id: '17ac6fc1f57',
     chapter: '排列組合與機率',
     question:
-      '某社區共有 $12$ 戶住家，舉辦住戶大會時，管委會提供獎品供參加的住戶摸彩，計有特獎一份、頭獎一份、貳獎兩份、參獎三份，結果只有 $6$ 戶的住家派家人前來出席大會，獎品卻有七份，怎麼辦呢？經大家討論，決定先摸出頭獎、貳獎及參獎，各戶恰得一份獎品後，再由抽中參獎的 $3$ 位住戶來抽特獎，請問這樣安排下，抽完籤之後這七份獎品共有幾種分配方法？',
-    answer: '$180$',
+      '某社區共有 12 戶住家，舉辦住戶大會時，管委會提供獎品供參加的住戶摸彩，計有特獎一份、頭獎一份、貳獎兩份、參獎三份，結果只有 6 戶的住家前來出席大會，獎品卻有七份。經大家討論，決定先摸出頭獎、貳獎及參獎，各戶恰得一份獎品後，再由抽中參獎的 3 位住戶來抽特獎，請問這樣安排下，抽完籤之後這七份獎品共有幾種分配方法？',
+    answer: '180',
     hasImage: false,
   },
   {
     id: '17ac6fe8036',
     chapter: '排列組合與機率',
     question:
-      '圓周上有 $n$ 個點，若任取兩點連成弦共可得到 $a$ 條弦，若任取三點連成三角形共可得到 $b$ 個三角形，已知 $b$ 是 $a$ 的 $4$ 倍，求 $n$。',
-    answer: '$14$',
+      '圓周上有 $n$ 個點，若任取兩點連成弦共可得到 $a$ 條弦，若任取三點連成三角形共可得到 $b$ 個三角形，已知 $b$ 是 $a$ 的 4 倍，求 $n$。',
+    answer: '14',
     hasImage: false,
   },
   {
     id: '17ac714425f',
     chapter: '排列組合與機率',
     question:
-      '有 $6$ 男 $4$ 女共 $10$ 名學生擔任本週值日生，導師規定在本週五個上課日中，每天 $2$ 名值日生，且至少須有 $1$ 名男生，試求本週安排值日生的方法數。',
-    answer: '$43200$',
+      '有 6 男 4 女共 10 名學生擔任本週值日生，導師規定在本週五個上課日中，每天 2 名值日生，且至少須有 1 名男生，試求本週安排值日生的方法數。',
+    answer: '43200',
     hasImage: false,
   },
   {
     id: '17ac7159652',
     chapter: '排列組合與機率',
     question:
-      '啦啦隊競賽規定每隊 $8$ 人，且每隊男、女生均至少要有 $2$ 人。某班共有 $4$ 名男生及 $7$ 名女生想參加競賽。若由此 $11$ 人中依規定選出 $8$ 人組隊，則共有幾種不同的組隊方法？',
-    answer: '$161$',
+      '啦啦隊競賽規定每隊 8 人，且每隊男、女生均至少要有 2 人。某班共有 4 名男生及 7 名女生想參加競賽。若由此 11 人中依規定選出 8 人組隊，則共有幾種不同的組隊方法？',
+    answer: '161',
     hasImage: false,
   },
   {
     id: '17ac7175955',
     chapter: '排列組合與機率',
     question:
-      '一組電話號碼共 $7$ 碼，若前三碼數字相異遞增，且後四碼數字也是相異遞增，則稱這組號碼是「旺數號碼」，現某區域的電話號碼第一個數字必須是 $5$，則這個區域的「旺數號碼」共有幾組？',
-    answer: '$1260$',
+      '一組電話號碼共 7 碼，若前三碼數字相異遞增，且後四碼數字也是相異遞增，則稱這組號碼是「旺數號碼」，現某區域的電話號碼第一個數字必須是 5，則這個區域的「旺數號碼」共有幾組？',
+    answer: '1260',
     hasImage: false,
   },
   {
     id: '17ac7188883',
     chapter: '排列組合與機率',
-    question:
-      '如圖之方格，求：\n(1) 圖中有幾個矩形？\n(2) 任選兩格，此兩格不在同一行的選法有幾種？',
-    answer: '(1) $150$ (2) $160$',
+    question: '如圖之方格，求：(1) 圖中有幾個矩形？\n(2) 任選兩格，此兩格不在同一行的選法有幾種？',
+    answer: '(1) 150 (2) 160',
     hasImage: true,
   },
   {
     id: '17ac71b8036',
     chapter: '排列組合與機率',
     question:
-      '設 $(1+x)^n=a_0+a_1x+a_2x^2\\cdots$+a_{n-1}x^{n-1}+a_nx^n$，請回答下列問題：\n(1) 若 $a_0+a_1+a_2+\\cdots+a_{n-1}+a_n$=4096$，求 $n$。\n(2) 若 $a_4:a_{n-6}=3:2$，求 $n$。\n(3) $11^{2004}$ 的十位數字為？',
-    answer: '(1) $12$ (2) $9$ (3) $4$',
+      '設 $(1+x)^n=a_0+a_1x+a_2x^2+\\cdots$$+a_{n-1}x^{n-1}+a_nx^n$，請回答下列問題：\n(1) 若 $a_0+a_1+a_2+\\cdots+a_{n-1}+a_n=4096$，求 $n$。\n(2) 若 $a_4:a_{n-6}=3:2$，求 $n$。\n(3) $11^{2004}$ 的十位數字為？',
+    answer: '(1) 12 (2) 9 (3) 4',
     hasImage: false,
   },
   {
@@ -10045,22 +10097,22 @@ const combination: Question[] = [
     chapter: '排列組合與機率',
     question:
       '坐標平面上，一隻青蛙從原點出發，每次可向上、下、左、右隨機選一個方向移動一單位長，求經過四次的移動後，青蛙又回到原點的機率為？',
-    answer: '$\\frac{9}{64}$',
+    answer: '$\\frac9{64}$',
     hasImage: false,
   },
   {
     id: '17ac720dc90',
     chapter: '排列組合與機率',
     question:
-      '小明提款時忘了密碼，但他還記得密碼的四位數字中，有兩個 $3$、一個 $8$、一個 $9$，於是他就用這四個數字隨機排成一個四位數輸入提款機嘗試，求他只試一次就成功的機率。',
-    answer: '$\\frac{1}{12}$',
+      '小明提款時忘了密碼，但他還記得密碼的四位數字中，有兩個 3、一個 8、一個 9，於是他就用這四個數字隨機排成一個四位數輸入提款機嘗試，求他只試一次就成功的機率。',
+    answer: '$\\frac1{12}$',
     hasImage: false,
   },
   {
     id: '17ac7258a05',
     chapter: '排列組合與機率',
     question:
-      '某班共 $20$ 位男生、$15$ 位女生，需推派 $3$ 位同學參加活動。大家決定用抽籤的方式決定參加人選。若每個人中籤的機率相等，求推派的三位同學中有男也有女的機率。',
+      '某班共 20 位男生、15 位女生，需推派 3 位同學參加活動。大家決定用抽籤的方式決定參加人選。若每個人中籤的機率相等，求推派的三位同學中有男也有女的機率。',
     answer: '$\\frac{90}{119}$',
     hasImage: false,
   },
@@ -10068,7 +10120,7 @@ const combination: Question[] = [
     id: '17ac72792d5',
     chapter: '排列組合與機率',
     question:
-      '阿貴和阿美及其他 8 名同學共 10 名學生輪到本週擔任值日生。本週 5 個上課日每天從尚未當過的同學中抽籤選出 2 位輪值。求阿貴和阿美同一天擔任值日生的機率。',
+      '阿貴和阿美及其他 8 名同學共 10 名學生輪到本週擔任值日生。本週 5 個上課日每天從尚未當過的同學中抽籤選出 2 位輪值，求阿貴和阿美同一天擔任值日生的機率。',
     answer: '$\\frac19$',
     hasImage: false,
   },
@@ -10076,7 +10128,7 @@ const combination: Question[] = [
     id: '17ac72c29e7',
     chapter: '排列組合與機率',
     question:
-      '從 $1\\sim10$ 這十個數中隨意取兩個，以 $p$ 表示其和為偶數之機率，$q$ 表示其和為奇數之機率。試問下列哪些敘述是正確的。\n(1) $p+q=1$ (2) $p=q$ (3) $|p-q|\\le\\frac{1}{10}$\n(4) $|p-q|\\ge\\frac{1}{20}$ (5) $p\\ge\\frac{1}{2}$',
+      '從 1~10 這十個數中隨意取兩個，以 $p$ 表示其和為偶數之機率，$q$ 表示其和為奇數之機率。試問下列哪些敘述是正確的。\n(1) $p+q=1$　(2) $p=q$　(3) $|p-q|\\le\\frac1{10}$\n(4) $|p-q|\\ge\\frac1{20}$　(5) $p\\ge\\frac12$',
     answer: '(1)(4)',
     hasImage: false,
   },
@@ -10084,7 +10136,7 @@ const combination: Question[] = [
     id: '17ac72e7b9b',
     chapter: '排列組合與機率',
     question:
-      '有一個不公正的骰子，投擲的時候，二點、三點、四點、五點、和六點出現的機率都是 $\\log_{10}\\frac{3}{2}$，今以 $a$ 表 $\\log_{10}\\frac{3}{2}$，以 $b$ 表投擲的時候一點出現的機率，請選出正確的選項：\n(1) $a>0$ (2) $a>1$ (3) $b<\\frac{1}{6}$\n(4) $b<\\log_{10}\\frac{4}{3}$ (5) $a>b$',
+      '有一個不公正的骰子，投擲的時候，二點、三點、四點、五點、六點出現的機率都是 $\\log_{10}\\frac32$，今以 $a$ 表 $\\log_{10}\\frac32$，以 $b$ 表投擲的時候一點出現的機率，請選出正確的選項：\n($\\log_{10}2\\approx0.3010$，$\\log_{10}3\\approx0.4771$)\n(1) $a>0$　　(2) $a>1$　　(3) $b<\\frac16$\n(4) $b<\\log_{10}\\frac43$　　(5) $a>b$',
     answer: '(1)(3)(4)(5)',
     hasImage: false,
   },
@@ -10092,47 +10144,47 @@ const combination: Question[] = [
     id: '17ac730181f',
     chapter: '排列組合與機率',
     question:
-      '甲、乙兩人各擲一均勻骰子，約定如下：乙得 $6$ 點時乙就贏，兩人同點時 (非 $6$ 點)，甲贏；其餘情形，則以點數多者為贏，求甲贏的機率。',
-    answer: '$\\frac{5}{9}$',
+      '甲、乙兩人各擲一均勻骰子，約定如下：乙得 6 點時乙就贏，兩人同點時 (非 6 點)，甲贏；其餘情形，則以點數多者為贏，求甲贏的機率。',
+    answer: '$\\frac59$',
     hasImage: false,
   },
   {
     id: '17ac731ee06',
     chapter: '排列組合與機率',
     question:
-      '不透明箱中置有編號分別為 $1$、$2$、$3$、$6$、$8$ 的球各一顆。同時自相中隨機取出三顆球，求此三球編號之和大於 $14$ 的機率。',
-    answer: '$\\frac{3}{10}$',
+      '不透明箱中置有編號分別為 1、2、3、6、8 的球各一顆。同時自箱中隨機取出三顆球，求此三球編號之和大於 14 的機率。',
+    answer: '$\\frac3{10}$',
     hasImage: false,
   },
   {
     id: '17ac734394f',
     chapter: '排列組合與機率',
     question:
-      '甲箱中有白球和黑球共 $5$ 個，乙箱中有白球和黑球共 $20$ 個，若取球的機會都相等，今隨機從兩個箱子中各取一球，已知兩個取出的球都是白球的機率是 $0.54$，試求從兩個箱子中各取出一球時，兩球都是黑球的機率。',
-    answer: '$\\frac{1}{25}$',
+      '甲箱中有白球和黑球共 5 個，乙箱中有白球和黑球共 20 個，若取球的機會都相等，今隨機從兩個箱子中各取一球，已知兩個取出的球都是白球的機率是 0.54，試求從兩個箱子中各取出一球時，兩球都是黑球的機率。',
+    answer: '$\\frac1{25}$',
     hasImage: false,
   },
   {
     id: '17ac7362b10',
     chapter: '排列組合與機率',
     question:
-      '某遊戲的規則為同時擲兩顆公正骰子一次，若兩顆點數和為 $6$ 或者至少有一顆點數為 $6$，即可獲得獎金 $36$ 元，否則沒有獎金，求這個遊戲獎金的期望值。',
-    answer: '$16$ 元',
+      '某遊戲的規則為同時擲兩顆公正骰子一次，若兩顆點數和為 6 或者至少有一顆點數為 6，即可獲得獎金 36 元，否則沒有獎金，求這個遊戲獎金的期望值。',
+    answer: '16 元',
     hasImage: false,
   },
   {
     id: '17ac7380496',
     chapter: '排列組合與機率',
     question:
-      '有 $100$ 元、$200$ 元、$300$ 元、$400$ 元的紅包各一個，由甲、乙、丙三人依序各抽取 $1$ 個紅包袋，抽取後不放回。若每個紅包袋被抽取的機會都相等，求甲、乙、丙三人紅包金額總和的期望值。',
-    answer: '$750$ 元',
+      '有 100 元、200 元、300 元、400 元的紅包各一個，由甲、乙、丙三人依序各抽取 1 個紅包袋，抽取後不放回。若每個紅包袋被抽取的機會都相等，求甲、乙、丙三人紅包金額總和的期望值。',
+    answer: '750 元',
     hasImage: false,
   },
   {
     id: '17ac73b6777',
     chapter: '排列組合與機率',
     question:
-      '某次考試，有一多重選擇題，有 $A$、$B$、$C$、$D$、$E$ 五個選項。給分標準為完全答對給 $5$ 分，只答錯 $1$ 個選項給 $2.5$ 分，答錯 $2$ 個或 $2$ 個以上的選項得 $0$ 分。若某一考生對該題的 $A$、$B$ 選項已確定是應選的正確答案，但 $C$、$D$、$E$ 三個選項根本看不懂，決定這三個選項要用猜的來作答。求他此題所得分數的期望值。',
+      '有一多重選擇題有 $A,B,C,D,E$ 五個選項。完全答對給 5 分，只答錯 1 個選項給 2.5 分，答錯 2 個或 2 個以上的選項得 0 分。若某一考生對該題的 $A,B$ 選項已確定是應選的正確答案，但 $C,D,E$ 三個選項根本看不懂，決定這三個選項要用猜的來作答。求他此題所得分數的期望值。',
     answer: '$\\frac{25}{16}$ 分',
     hasImage: false,
   },
@@ -10140,8 +10192,32 @@ const combination: Question[] = [
     id: '17ac73ed399',
     chapter: '排列組合與機率',
     question:
-      '某公司考慮在甲、乙兩地選一地投資設廠。經評估，在甲地設廠，如獲利，預計可獲利 $10000$ (萬元)；如不獲利，預計將虧損 $7000$ (萬元)。在乙地設廠，如獲利，預計可獲利 $6000$ (萬元)；如不獲利，預計將虧損 $5000$ (萬元)。又該公司評估新廠在甲、乙兩地獲利的機率分別為 $0.6$、$0.7$。如以獲利期望值為決策準則，該公司應選擇甲地或乙地投資？',
+      '某公司考慮在甲、乙兩地選一地投資設廠。經評估，在甲地設廠，如獲利，預計可獲利 10000 (萬元)；如不獲利，預計將虧損 7000 (萬元)。在乙地設廠，如獲利，預計可獲利 6000 (萬元)；如不獲利，預計將虧損 5000 (萬元)。又該公司評估新廠在甲、乙兩地獲利的機率分別為 0.6、0.7。如以獲利期望值為決策準則，該公司應選擇甲地或乙地投資？',
     answer: '甲地',
+    hasImage: false,
+  },
+  {
+    id: '1823dd59556',
+    chapter: '排列組合與機率',
+    question:
+      '有一款線上遊戲推出「十連抽」的抽卡機制，「十連抽」意思為系統自動做十次的抽卡動作。若每次「十連抽」需用 1500 枚代幣，抽中金卡的機率在前九次皆為 2%，在第十次為 10%。今某生有代幣 23000 枚，且不斷使用「十連抽」，抽到不能再抽為止。求某生抽到金卡張數的期望值。',
+    answer: '4.2',
+    hasImage: false,
+  },
+  {
+    id: '1823ddd4cde',
+    chapter: '排列組合與機率',
+    question:
+      '同時拋擲八枚均勻的 1 元硬幣及兩枚均勻的 5 元硬幣，若有硬幣出現正面，則可取走正面的硬幣做為獎金，求獲得 7 元以上的機率。',
+    answer: '$\\frac{759}{1024}$',
+    hasImage: false,
+  },
+  {
+    id: '1823ddfb64f',
+    chapter: '排列組合與機率',
+    question:
+      '擲一枚均勻硬幣 4 次，恰好出現 $n$ 次正面的機率為 $a_n$；擲一枚均勻硬幣 8 次，恰好出現 $n$ 次正面的機率為 $b_n$。試問以下哪些選項是正確的？(1) $a_2=\\frac12$　　(2) $a_2=b_4$\n(3) $b_2=b_6$　　(4) $a_3>b_3$\n(5) $b_0,b_1,b_2,\\cdots,b_8$ 中的最大值是 $b_4$',
+    answer: '(3)(4)(5)',
     hasImage: false,
   },
   {
@@ -10283,7 +10359,7 @@ const combination: Question[] = [
     id: '179fb7cdf25',
     chapter: '排列組合與機率',
     question:
-      '樂透是由 $1\\sim42$ 個號碼開出 $6$ 個號碼，請問開出的 $6$ 個號碼都是偶數的機率，最接近下列哪一個值？\n(1) $\\frac{1}{2}$ (2) $\\frac{6}{42}$ (3) $\\frac{1}{2^3}$ (4) $\\frac{1}{12}$ (5) $\\frac{1}{2^6}$',
+      '樂透是由 1~42 個號碼開出 6 個號碼，請問開出的 6 個號碼都是偶數的機率，最接近下列哪一個值？\n(1) $\\dfrac12$ (2) $\\dfrac6{42}$ (3) $\\dfrac1{2^3}$ (4) $\\dfrac1{12}$ (5) $\\dfrac1{2^6}$',
     answer: '(5)',
     hasImage: false,
   },
@@ -10291,8 +10367,8 @@ const combination: Question[] = [
     id: '179fb8b03ff',
     chapter: '排列組合與機率',
     question:
-      '在遊戲中，阿玲拿到如圖的數字卡。主持人隨機從 $1$ 至 $9$ 號球中同時取出三球，若這三球的號碼中任兩個都不在卡片上的同一行也不在卡片上的同一列時就得獎，則阿玲得獎的機率為？',
-    answer: '$\\frac{1}{14}$',
+      '在遊戲中，阿玲拿到如圖的數字卡。主持人隨機從 1 至 9 號球中同時取出三球，若這三球的號碼中任兩個都不在卡片上的同一行也不在卡片上的同一列時就得獎，則阿玲得獎的機率為？',
+    answer: '$\\frac1{14}$',
     hasImage: true,
   },
   {
@@ -10564,8 +10640,8 @@ const combination: Question[] = [
     id: '179b3a0ab68',
     chapter: '排列組合與機率',
     question:
-      '因乾旱水源不足，自來水公司計畫在下週一至日的 $7$ 天中選擇 $2$ 天停止供水。若要求停水的兩天不相連，則自來水公司共有幾種選擇方式？',
-    answer: '$15$',
+      '因乾旱水源不足，自來水公司計畫在下週一至日的 7 天中選擇 2 天停止供水。若要求停水的兩天不相連，則自來水公司共有幾種選擇方式？',
+    answer: '15',
     hasImage: false,
   },
   {
