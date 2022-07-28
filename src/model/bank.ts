@@ -5517,6 +5517,7 @@ const trigonometric: Question[] = [
       '如圖 $\\triangle ABC$ 中，$D$ 為 $\\overline{BC}$ 上一點且 $\\angle BAD=30\\du$，$\\angle CAD=90\\du$，已知 $\\overline{AB}=8$，$\\overline{AD}=3\\sqrt3$，求 $\\triangle ABD$ 與 $\\triangle ABC$ 面積的比值。',
     answer: '$\\frac14$',
     hasImage: true,
+    style: { width: '5.5cm' },
   },
   {
     id: '17ad17cb39c',
@@ -7216,32 +7217,31 @@ const series: Question[] = [
   {
     id: '17a3872be1f',
     chapter: '數列級數',
-    question:
-      '等差數列 $\\langle a_n\\rangle$，若 $a_3=100$，$a_{10}=79$，求首項、前 $20$ 項之和。',
-    answer: '$106$；$1550$',
+    question: '等差數列 $\\langle a_n\\rangle$，若 $a_3=100$，$a_{10}=79$，求首項、前 20 項之和。',
+    answer: '106；1550',
     hasImage: false,
   },
   {
     id: '17a3878a91c',
     chapter: '數列級數',
     question:
-      '某巨蛋球場 $E$ 區共有 $25$ 排座位，此區每一排都比其前一排多 $2$ 個座位。小明坐在正中間那一排(即第 $13$ 排)，發現此排共有 $64$ 個座位，求此球場 $E$ 區的總座位數？',
-    answer: '$1600$',
+      '某巨蛋球場 $E$ 區共有 25 排座位，此區每一排都比其前一排多 2 個座位。小明坐在正中間那一排(即第 13 排)，發現此排共有 64 個座位，求此球場 $E$ 區的總座位數？',
+    answer: '1600',
     hasImage: false,
   },
   {
     id: '17a38ef2658',
     chapter: '數列級數',
     question:
-      '等比數列 $\\langle a_n\\rangle=1,6,36,216,\\cdots$，從第幾項開始會超過 $10^{10}$？($\\log2\\approx0.3010$，$\\log3\\approx0.4771$)',
+      '等比數列 $\\langle a_n\\rangle=1,6,36,216,\\cdots$，從第幾項開始會超過 $10^{10}$？\n($\\log2\\approx0.3010$，$\\log3\\approx0.4771$)',
     answer: '$14$',
     hasImage: false,
   },
   {
     id: '17a38f133a4',
     chapter: '數列級數',
-    question: '等比級數 $\\frac1{16}+\\frac18+\\frac14+\\cdots+512$ 共有幾項？其和為？',
-    answer: '$14$、$1023\\frac{15}{16}$',
+    question: '等比級數 $\\dfrac1{16}+\\dfrac18+\\dfrac14+\\cdots+512$ 共有幾項？其和為？',
+    answer: '14；$1023\\frac{15}{16}$',
     hasImage: false,
   },
   {

@@ -13,7 +13,7 @@ const B2C5DataAnalysis = () => {
         <Concept num={1} title="全體數據的代表數">
           <div>全體數據的代表性量值，常見的有以下五種：</div>
           <div>{'(1) 算術平均數：即 $\\dfrac{x_1+x_2+\\cdots+x_n}n$，習慣記為 $\\mu$'}</div>
-          <div>(2) 加權平均數：令數值乘上各自的權重，再除以總權數。</div>
+          <div>(2) 加權平均數：令數值乘上各自的權重，再除以總權數</div>
           <div>
             {
               '(3) 幾何平均數：$G=\\sqrt[n]{x_1\\times x_2\\times\\cdots\\times x_n}$，適用於平均成長率'
@@ -55,13 +55,9 @@ const B2C5DataAnalysis = () => {
         </Concept>
         <Exercise ids={['17a3a0f0062', '17a3a11a2cb']} height="9cm" />
         <Concept num={4} title="一維數據的線性調整">
-          <div>
-            {"若資料的每個數值都加上 $k$，$x'=x+k$，則：$\\mu'=\\mu+k$、$\\sigma'=\\sigma$"}
-          </div>
+          <div>{"若資料的每個數值都加上 $k$，$x'=x+k$，則：$\\mu'=\\mu+k,\\sigma'=\\sigma$"}</div>
           <br />
-          <div>
-            {"若資料的每個數值都乘以 $m$，$x'=mx$，則：$\\mu'=m\\mu$、$\\sigma'=|m|\\sigma$"}
-          </div>
+          <div>{"若資料的每個數值都乘以 $m$，$x'=mx$，則：$\\mu'=m\\mu,\\sigma'=|m|\\sigma$"}</div>
           <br />
           <div>{"若資料的每個數值皆線性調整，$x'=ax+b$，則："}</div>
         </Concept>
@@ -71,7 +67,7 @@ const B2C5DataAnalysis = () => {
         <Concept num={5} title="資料的標準化">
           <div>{'標準化數據，或稱 $z$ 分數，可用來客觀比較不同種類的數據，公式如下：'}</div>
           <div>{'$$z=\\dfrac{x-\\mu}{\\sigma}$$'}</div>
-          <div>標準化後的算術平均數為 0，標準差為 1。</div>
+          <div>標準化後的算術平均數為　　，標準差為</div>
         </Concept>
         <Exercise ids={['17a58e8ba61', '17a58ea29ec']} height="9cm" />
       </Page>
@@ -79,7 +75,7 @@ const B2C5DataAnalysis = () => {
         <Concept num={6} title="散布圖">
           <div>
             {
-              '將二維數據 $(x_1,y_1)$、$(x_2,y_2)$、$cdots$、$(x_n,y_n)$ 畫在 $xy$ 平面上，觀察分布狀況，可判定相關程度：'
+              '將二維數據 $(x_1,y_1),(x_2,y_2),\\cdots,(x_n,y_n)$ 畫在 $xy$ 平面上，觀察分布狀況，可判定相關程度：'
             }
           </div>
           <div>{'(1) 正相關：大致上 $y$ 隨著 $x$ 增加而增加'}</div>
@@ -106,7 +102,7 @@ const B2C5DataAnalysis = () => {
               '$S_{xx}$ 為 $X$ 的離差平方和，$S_{yy}$ 為 $Y$ 的離差平方和，$S_{xy}$ 稱為「離差乘積和」。'
             }
           </div>
-          <div>{'相關係數 $r$ 的範圍為 $-1\\le r\\le1$'}</div>
+          <div>{'相關係數 $r$ 的範圍為'}</div>
         </Concept>
         <Exercise ids={['18239affe3a', '17a58f86582']} height="9cm" />
         <Concept num={8} title="迴歸直線">
