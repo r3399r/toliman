@@ -1097,6 +1097,169 @@ const beginner: Question[] = [
 // 數與式
 const numAndEquation: Question[] = [
   {
+    id: '182406b30eb',
+    chapter: '數與式',
+    question: '乘開 $(2a+3b)^3=$',
+    answer: '略',
+    hasImage: false,
+  },
+  {
+    id: '182406cb62d',
+    chapter: '數與式',
+    question: '乘開：(1) $(3a-b)^3$　　(2) $(x^2-\\dfrac2x)^3$',
+    answer: '略',
+    hasImage: false,
+  },
+  {
+    id: '182406dc4f1',
+    chapter: '數與式',
+    question: '因式分解 $x^6+8$',
+    answer: '略',
+    hasImage: false,
+  },
+  {
+    id: '182406e85d1',
+    chapter: '數與式',
+    question: '因式分解 (1) $8x^3-27$　(2) $x^3+2x^2+2x+1$',
+    answer: '略',
+    hasImage: false,
+  },
+  {
+    id: '1824070506d',
+    chapter: '數與式',
+    question: '若 $a+b=5$，$ab=2$，求：\n(1) $a^2+b^2$　　(2) $a^3+b^3$',
+    answer: '(1) 21 (2) 95',
+    hasImage: false,
+  },
+  {
+    id: '182407138ec',
+    chapter: '數與式',
+    question: '若 $a-b=7$，$ab=3$，求：\n(1) $a^2+b^2$　　(2) $a^3-b^3$',
+    answer: '(1) 55 (2) 406',
+    hasImage: false,
+  },
+  {
+    id: '1824072402b',
+    chapter: '數與式',
+    question: '若 $a+b=5$，$ab=3$，且 $a>b$．求 $a-b$。',
+    answer: '$\\sqrt{13}$',
+    hasImage: false,
+  },
+  {
+    id: '1824072ddd6',
+    chapter: '數與式',
+    question: '若 $a-b=3$，$ab=5$，求 $a+b$。',
+    answer: '$\\sqrt{29}$',
+    hasImage: false,
+  },
+  {
+    id: '1824073e6a8',
+    chapter: '數與式',
+    question: '若 $x+\\dfrac1x=4$，求：\n(1) $x^2+\\dfrac1{x^2}$　　(2) $x^3+\\dfrac1{x^3}$',
+    answer: '(1) 14 (2) 52',
+    hasImage: false,
+  },
+  {
+    id: '1824074e224',
+    chapter: '數與式',
+    question: '若 $x-\\dfrac1x=4$，求：\n(1) $x^2+\\dfrac1{x^2}$　　(2) $x^3-\\dfrac1{x^3}$',
+    answer: '(1) 18 (2) 76',
+    hasImage: false,
+  },
+  {
+    id: '18240764c41',
+    chapter: '數與式',
+    question:
+      '下列哪些選項的數值可以化成有限小數？\n(1) $\\dfrac{13}4$ (2) $\\dfrac{79}{625}$ (3) $\\dfrac{77}{66}$ (4) $\\dfrac{343}{56}$ (5) $\\dfrac{\\sqrt3}8$',
+    answer: '(1)(2)(4)',
+    hasImage: false,
+  },
+  {
+    id: '18240777cb0',
+    chapter: '數與式',
+    question:
+      '下列哪些選項可以化為有限小數？\n(1) $\\dfrac7{32}$ (2) $\\dfrac{114}{625}$ (3) $\\dfrac{21}{12}$ (4) $\\dfrac{15}{72}$ (5) $\\dfrac{3^{2012}}{2^{99}\\cdot5^{43}}$',
+    answer: '(1)(2)(3)(5)',
+    hasImage: false,
+  },
+  {
+    id: '182407927fb',
+    chapter: '數與式',
+    question:
+      '將有理數 $\\dfrac{18}{55}$ 表成小數會有無限多位，若小數點後第 $n$ 位的數字記為 $a_n$，其中 $n$ 為正整數。求 $a_1+a_2+a_3+\\cdots+a_{100}$。',
+    answer: '446',
+    hasImage: false,
+  },
+  {
+    id: '182407a0590',
+    chapter: '數與式',
+    question: '若 $\\dfrac3{28}$ 在小數點後第 $n$ 位數字 $f(n)=4$，且 $n>200$，求最小 $n$ 值。',
+    answer: '203',
+    hasImage: false,
+  },
+  {
+    id: '182407d3766',
+    chapter: '數與式',
+    question: '化成最簡分數：(1) $0.\\overline{27}$　(2) $3.1\\overline{45}$',
+    answer: '(1) $\\frac{3}{11}$ (2) $\\frac{173}{55}$',
+    hasImage: false,
+  },
+  {
+    id: '182407eba69',
+    chapter: '數與式',
+    question: '化成最簡分數：(1) $2.\\overline{14}$　(2) $0.2\\overline8$　(3) $4.3\\overline{21}$',
+    answer: '(1) $\\frac{212}{99}$ (2) $\\frac{13}{35}$ (3) $\\frac{713}{165}$',
+    hasImage: false,
+  },
+  {
+    id: '182407fdd7c',
+    chapter: '數與式',
+    question: '化簡 $0.\\overline{73}+1.\\overline{36}\\times2.3\\overline8$',
+    answer: '$\\frac{791}{198}$',
+    hasImage: false,
+  },
+  {
+    id: '18240816d62',
+    chapter: '數與式',
+    question:
+      '化簡 $3.2\\overline5+4.\\overline3-(11\\times0.\\overline{27}-0.0\\overline6\\div\\dfrac3{10})$',
+    answer: '$\\frac{433}{90}$',
+    hasImage: false,
+  },
+  {
+    id: '18240835833',
+    chapter: '數與式',
+    question:
+      '數線上，已知 $A(-1)$、$B(5)$，點 $P$ 滿足 $\\overline{PA}:\\overline{PB}=4:3$，試問：\n(1) 若 $P$ 在線段 $\\overline{AB}$ 上，求 $P$ 坐標\n(2) 若 $P$ 在線段 $\\overline{AB}$ 外，求 $P$ 坐標',
+    answer: '(1) $\\frac{17}7$ (2) 23',
+    hasImage: false,
+  },
+  {
+    id: '182408482b0',
+    chapter: '數與式',
+    question:
+      '數線上，已知 $P(4)$、$Q(-7)$，點 $R$ 滿足 $\\overline{PR}:\\overline{PQ}=2:3$，試問：\n(1) 若 $R$ 在 $\\overline{PQ}$ 上，求 $R$ 坐標\n(2) 若 $R$ 在 $\\overline{PQ}$ 外，求 $R$ 坐標',
+    answer: '(1) $-\\frac25$ (2) 26',
+    hasImage: false,
+  },
+  {
+    id: '1824086d367',
+    chapter: '數與式',
+    question:
+      '數線上有 $A(a)$、$B(b)$ 兩點，其中 $a<b$，且在 $A$、$B$ 之間有 $P(1)$、$Q(8)$ 兩點，已知 $\\overline{PA}:\\overline{PB}=2:3$，$\\overline{QA}:\\overline{QB}=5:4$，求 $a$、$b$。',
+    answer: '-17；28',
+    hasImage: false,
+  },
+  {
+    id: '1824088d061',
+    chapter: '數與式',
+    question:
+      '數線上，已知 $A(7)$、$B(-4)$，若 $P$、$Q$ 在 $\\overline{AB}$ 上且 $\\overline{AP}:\\overline{PQ}:\\overline{QB}=2:1:3$，求 $P$、$Q$ 坐標。',
+    answer: '$\\frac{10}3$；$-\\frac{13}6$',
+    hasImage: false,
+  },
+
+  {
     id: '18207a82d82',
     chapter: '數與式',
     question:
@@ -1394,21 +1557,21 @@ const numAndEquation: Question[] = [
     id: '17c2b915c10',
     chapter: '數與式',
     question: '試求 $|x-3|=2x+5$ 的解。',
-    answer: '$-\\frac{2}{3}$',
+    answer: '$-\\frac23$',
     hasImage: false,
   },
   {
     id: '17c2b924fe6',
     chapter: '數與式',
     question: '試求 $|x+1|+|x-5|=x+3$ 的解。',
-    answer: '$7$ 或 $3$',
+    answer: '$7\\lor3$',
     hasImage: false,
   },
   {
     id: '17c2b92fc44',
     chapter: '數與式',
     question: '試求 $|x-1|-x-5=0$ 的解。',
-    answer: '$-2$',
+    answer: '-2',
     hasImage: false,
   },
   {

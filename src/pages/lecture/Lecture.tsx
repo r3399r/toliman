@@ -39,18 +39,8 @@ const Lecture = () => {
       </div>
       第一冊 Ch1 數與式
       <div className={style.button}>
-        <Button variant="contained" onClick={onClick('numbers')}>
-          1-1 數與數線
-        </Button>
-      </div>
-      <div className={style.button}>
-        <Button variant="contained" onClick={onClick('equations')}>
-          1-2 式的運算
-        </Button>
-      </div>
-      <div className={style.button}>
-        <Button variant="contained" onClick={onClick('exponent')}>
-          2-1 指數
+        <Button variant="contained" onClick={onClick('b1c1s1')}>
+          1-1 實數
         </Button>
       </div>
       第三冊 Ch1 指數與對數函數

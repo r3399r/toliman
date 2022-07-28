@@ -15,9 +15,7 @@ const route = {
   B0C2: loadable(() => import('./pages/lecture/book0/Linear')),
   B0C3: loadable(() => import('./pages/lecture/book0/SquareRoot')),
   B0C4: loadable(() => import('./pages/lecture/book0/Quadratic')),
-  Numbers: loadable(() => import('./pages/lecture/book1/Numbers')),
-  Equations: loadable(() => import('./pages/lecture/book1/Equations')),
-  Exponent: loadable(() => import('./pages/lecture/book1/Exponent')),
+  C1S1Number: loadable(() => import('./pages/lecture/book1/C1S1Number')),
   C1S1ExpFunction: loadable(() => import('./pages/lecture/book3/C1S1ExponentFunction')),
   C1S2Logarithm: loadable(() => import('./pages/lecture/book3/C1S2Logarithm')),
   C1S3LogFunction: loadable(() => import('./pages/lecture/book3/C1S3LogarithmFunction')),
@@ -87,9 +85,7 @@ const AppRoutes = () => {
       <Route exact={true} path="/toliman/lecture/b0c2" component={route.B0C2} />
       <Route exact={true} path="/toliman/lecture/b0c3" component={route.B0C3} />
       <Route exact={true} path="/toliman/lecture/b0c4" component={route.B0C4} />
-      <Route exact={true} path="/toliman/lecture/numbers" component={route.Numbers} />
-      <Route exact={true} path="/toliman/lecture/equations" component={route.Equations} />
-      <Route exact={true} path="/toliman/lecture/exponent" component={route.Exponent} />
+      <Route exact={true} path="/toliman/lecture/b1c1s1" component={route.C1S1Number} />
       <Route
         exact={true}
         path="/toliman/lecture/exponentFunction"
