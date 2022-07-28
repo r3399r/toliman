@@ -1,7 +1,7 @@
 {
   "files": {
-    "static/js/0.659be165.chunk.js": "/toliman/static/js/0.659be165.chunk.js",
-    "static/js/0.659be165.chunk.js.map": "/toliman/static/js/0.659be165.chunk.js.map",
+    "static/js/0.bdb2ed3f.chunk.js": "/toliman/static/js/0.bdb2ed3f.chunk.js",
+    "static/js/0.bdb2ed3f.chunk.js.map": "/toliman/static/js/0.bdb2ed3f.chunk.js.map",
     "static/js/1.feaa0489.chunk.js": "/toliman/static/js/1.feaa0489.chunk.js",
     "static/js/1.feaa0489.chunk.js.map": "/toliman/static/js/1.feaa0489.chunk.js.map",
     "static/js/2.511de93a.chunk.js": "/toliman/static/js/2.511de93a.chunk.js",
@@ -11,8 +11,8 @@
     "main.css": "/toliman/static/css/main.03f92f3d.chunk.css",
     "main.js": "/toliman/static/js/main.5b29ab52.chunk.js",
     "main.js.map": "/toliman/static/js/main.5b29ab52.chunk.js.map",
-    "runtime-main.js": "/toliman/static/js/runtime-main.8d3cd690.js",
-    "runtime-main.js.map": "/toliman/static/js/runtime-main.8d3cd690.js.map",
+    "runtime-main.js": "/toliman/static/js/runtime-main.f6288d36.js",
+    "runtime-main.js.map": "/toliman/static/js/runtime-main.f6288d36.js.map",
     "static/js/6.f2140bb2.chunk.js": "/toliman/static/js/6.f2140bb2.chunk.js",
     "static/js/6.f2140bb2.chunk.js.map": "/toliman/static/js/6.f2140bb2.chunk.js.map",
     "static/css/7.13ae3175.chunk.css": "/toliman/static/css/7.13ae3175.chunk.css",
@@ -28,8 +28,8 @@
     "static/js/10.9c272056.chunk.js": "/toliman/static/js/10.9c272056.chunk.js",
     "static/js/10.9c272056.chunk.js.map": "/toliman/static/js/10.9c272056.chunk.js.map",
     "static/css/11.13ae3175.chunk.css": "/toliman/static/css/11.13ae3175.chunk.css",
-    "static/js/11.91de5506.chunk.js": "/toliman/static/js/11.91de5506.chunk.js",
-    "static/js/11.91de5506.chunk.js.map": "/toliman/static/js/11.91de5506.chunk.js.map",
+    "static/js/11.2b7be58e.chunk.js": "/toliman/static/js/11.2b7be58e.chunk.js",
+    "static/js/11.2b7be58e.chunk.js.map": "/toliman/static/js/11.2b7be58e.chunk.js.map",
     "static/css/12.13ae3175.chunk.css": "/toliman/static/css/12.13ae3175.chunk.css",
     "static/js/12.3a215de2.chunk.js": "/toliman/static/js/12.3a215de2.chunk.js",
     "static/js/12.3a215de2.chunk.js.map": "/toliman/static/js/12.3a215de2.chunk.js.map",
@@ -251,7 +251,7 @@
     "static/css/main.03f92f3d.chunk.css.map": "/toliman/static/css/main.03f92f3d.chunk.css.map",
     "static/js/1.feaa0489.chunk.js.LICENSE.txt": "/toliman/static/js/1.feaa0489.chunk.js.LICENSE.txt",
     "static/js/10.9c272056.chunk.js.LICENSE.txt": "/toliman/static/js/10.9c272056.chunk.js.LICENSE.txt",
-    "static/js/11.91de5506.chunk.js.LICENSE.txt": "/toliman/static/js/11.91de5506.chunk.js.LICENSE.txt",
+    "static/js/11.2b7be58e.chunk.js.LICENSE.txt": "/toliman/static/js/11.2b7be58e.chunk.js.LICENSE.txt",
     "static/js/12.3a215de2.chunk.js.LICENSE.txt": "/toliman/static/js/12.3a215de2.chunk.js.LICENSE.txt",
     "static/js/13.49bf89eb.chunk.js.LICENSE.txt": "/toliman/static/js/13.49bf89eb.chunk.js.LICENSE.txt",
     "static/js/14.134b30be.chunk.js.LICENSE.txt": "/toliman/static/js/14.134b30be.chunk.js.LICENSE.txt",
@@ -308,7 +308,7 @@
     "static/js/9.0646438d.chunk.js.LICENSE.txt": "/toliman/static/js/9.0646438d.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.8d3cd690.js",
+    "static/js/runtime-main.f6288d36.js",
     "static/js/6.f2140bb2.chunk.js",
     "static/css/main.03f92f3d.chunk.css",
     "static/js/main.5b29ab52.chunk.js"
