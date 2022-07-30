@@ -15,13 +15,8 @@ import style from './Edit.module.scss';
 
 const Home = () => {
   const [message, setMessage] = useState<string>();
-  const [countdown, setCountdown] = useState<NodeJS.Timeout>();
-  const [isRendering, setIsRendering] = useState<boolean>(false);
-
   const [randomId, setRandomId] = useState<string>('');
-
   const [chapter, setChapter] = useState<string>('');
-
   const [question, setQuestion] = useState<string>('');
   const [answer, setAnswer] = useState<string>('');
 
@@ -29,15 +24,6 @@ const Home = () => {
 
   useEffect(() => {
     setRandomId(Date.now().toString(16));
-  }, [question, answer]);
-
-  useEffect(() => {
-    setIsRendering(true);
-    if (countdown) clearTimeout(countdown);
-    const newCountdown = setTimeout(() => {
-      setIsRendering(false);
-    }, 600);
-    setCountdown(newCountdown);
   }, [question, answer]);
 
   const handleEdit = (ev: ChangeEvent<HTMLInputElement>) => {
@@ -120,9 +106,8 @@ const Home = () => {
         />
         <hr />
         <MathJax className={style.preview}>
-          {isRendering === true && <div>產生中...</div>}
-          {isRendering === false && question && <div>{question}</div>}
-          {isRendering === false && answer && <div className={style.ans}>{'Ans: ' + answer}</div>}
+          {question && <div>{question}</div>}
+          {answer && <div className={style.ans}>{'Ans: ' + answer}</div>}
         </MathJax>
         <hr />
         <div>{JSON.stringify(result)}</div>
