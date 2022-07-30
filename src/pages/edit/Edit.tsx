@@ -10,7 +10,6 @@ import {
 import { MathJax } from 'better-react-mathjax';
 import { ChangeEvent, useEffect, useState } from 'react';
 import { CopyToClipboard } from 'react-copy-to-clipboard';
-import Textarea2MathJax from 'src/component/Textarea2MathJax';
 import { chapterList, Question } from 'src/model/bank';
 import style from './Edit.module.scss';
 
@@ -122,10 +121,8 @@ const Home = () => {
         <hr />
         <MathJax className={style.preview}>
           {isRendering === true && <div>產生中...</div>}
-          {isRendering === false && question && <Textarea2MathJax text={question} />}
-          {isRendering === false && answer && (
-            <Textarea2MathJax className={style.ans} text={'Ans: ' + answer} />
-          )}
+          {isRendering === false && question && <div>{question}</div>}
+          {isRendering === false && answer && <div className={style.ans}>{'Ans: ' + answer}</div>}
         </MathJax>
         <hr />
         <div>{JSON.stringify(result)}</div>

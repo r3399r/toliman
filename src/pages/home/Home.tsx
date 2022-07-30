@@ -41,7 +41,7 @@ const Home = () => {
           考卷
         </Button>
       </div>
-      <div>Version 3.8</div>
+      <div>Version 3.9</div>
     </div>
   );
 };
