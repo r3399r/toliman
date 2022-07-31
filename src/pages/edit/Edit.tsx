@@ -13,7 +13,7 @@ import { CopyToClipboard } from 'react-copy-to-clipboard';
 import { chapterList, Question } from 'src/model/bank';
 import style from './Edit.module.scss';
 
-const Home = () => {
+const Edit = () => {
   const [message, setMessage] = useState<string>();
   const [randomId, setRandomId] = useState<string>('');
   const [chapter, setChapter] = useState<string>('');
@@ -132,4 +132,4 @@ const Home = () => {
   );
 };
 
-export default Home;
+export default Edit;

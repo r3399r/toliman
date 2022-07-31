@@ -5,8 +5,6 @@ type Props = {
   children: ReactNode;
 };
 
-const Page = ({ children }: Props) => {
-  return <div className={style.page}>{children}</div>;
-};
+const Page = ({ children }: Props) => <div className={style.page}>{children}</div>;
 
 export default Page;

@@ -5,13 +5,11 @@ type Props = {
 
 const Textarea2MathJax = ({ className, text }: Props) => (
   <>
-    {text.split('\n').map((line: string, index: number) => {
-      return (
-        <div key={index} className={className}>
-          <div>{line}</div>
-        </div>
-      );
-    })}
+    {text.split('\n').map((line: string, index: number) => (
+      <div key={index} className={className}>
+        <div>{line}</div>
+      </div>
+    ))}
   </>
 );
 

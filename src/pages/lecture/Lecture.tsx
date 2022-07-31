@@ -1,12 +1,12 @@
 import { Button } from '@mui/material';
-import { useHistory } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 import style from './Lecture.module.scss';
 
 const Lecture = () => {
-  const history = useHistory();
+  const navigate = useNavigate();
 
   const onClick = (url: string) => () => {
-    history.push(`/toliman/lecture/${url}`);
+    navigate(`/toliman/lecture/${url}`);
   };
 
   return (

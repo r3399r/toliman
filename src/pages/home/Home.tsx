@@ -1,12 +1,12 @@
 import { Button } from '@mui/material';
-import { useHistory } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 import style from './Home.module.scss';
 
 const Home = () => {
-  const history = useHistory();
+  const navigate = useNavigate();
 
   const onClick = (url: string) => () => {
-    history.push(`/toliman/${url}`);
+    navigate(`/toliman/${url}`);
   };
 
   return (
@@ -41,7 +41,7 @@ const Home = () => {
           考卷
         </Button>
       </div>
-      <div>Version 3.9</div>
+      <div>Version 4.0</div>
     </div>
   );
 };

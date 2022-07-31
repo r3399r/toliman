@@ -8,17 +8,15 @@ type Props = {
   height?: string;
 };
 
-const Concept = ({ title, children, num, height }: Props) => {
-  return (
-    <div className={style.content}>
-      <div className={style.title}>
-        觀念 {num} {title}
-      </div>
-      <div className={style.card} style={{ height }}>
-        {children}
-      </div>
+const Concept = ({ title, children, num, height }: Props) => (
+  <div className={style.content}>
+    <div className={style.title}>
+      觀念 {num} {title}
     </div>
-  );
-};
+    <div className={style.card} style={{ height }}>
+      {children}
+    </div>
+  </div>
+);
 
 export default Concept;

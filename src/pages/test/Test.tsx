@@ -10,7 +10,7 @@ const Test = () => {
     ev.target.src = '/toliman/images/09.PNG';
   };
 
-  const displayQuestion = (id: string, i: number, height: string = '3cm') => {
+  const displayQuestion = (id: string, i: number, height = '3cm') => {
     const q: Question | undefined = getQuestion(id);
     if (q === undefined) return <div key={`error${i}`}>ERROR! id of {i} does not exists</div>;
 
@@ -28,21 +28,19 @@ const Test = () => {
         <Textarea2MathJax text={`${i}. ${q.question}`} />
         {q.imageOption !== undefined && (
           <div className={style.imageOption}>
-            {q.imageOption.map((v: string, j: number) => {
-              return (
-                <div key={`${q.question}-${j}`}>
-                  <div>{`(${j + 1})`}</div>
-                  <div>
-                    <img
-                      src={`/toliman/images/${v}.PNG`}
-                      alt=""
-                      role="presentation"
-                      onError={addDefaultSrc}
-                    />
-                  </div>
+            {q.imageOption.map((v: string, j: number) => (
+              <div key={`${q.question}-${j}`}>
+                <div>{`(${j + 1})`}</div>
+                <div>
+                  <img
+                    src={`/toliman/images/${v}.PNG`}
+                    alt=""
+                    role="presentation"
+                    onError={addDefaultSrc}
+                  />
                 </div>
-              );
-            })}
+              </div>
+            ))}
           </div>
         )}
       </div>

@@ -1,230 +1,136 @@
-import loadable from '@loadable/component';
-import { Redirect, Route, Switch } from 'react-router-dom';
+import { Navigate, Route, Routes } from 'react-router-dom';
+import Bank from './pages/bank/Bank';
+import Edit from './pages/edit/Edit';
+import Home from './pages/home/Home';
+import Hw from './pages/hw/Hw';
+import Arithmatic from './pages/lecture/book0/Arithmatic';
+import Linear from './pages/lecture/book0/Linear';
+import Quadratic from './pages/lecture/book0/Quadratic';
+import SquareRoot from './pages/lecture/book0/SquareRoot';
+import C1S1Number from './pages/lecture/book1/C1S1Number';
+import C1S1ExponentFunction from './pages/lecture/book3/C1S1ExponentFunction';
+import C1S2Logarithm from './pages/lecture/book3/C1S2Logarithm';
+import C1S3LogarithmFunctiontsx from './pages/lecture/book3/C1S3LogarithmFunction';
+import C2S1Radius from './pages/lecture/book3/C2S1Radius';
+import C2S2TrigonometricFormula from './pages/lecture/book3/C2S2TrigonometricFormula';
+import C2S3TrigonometricFunction from './pages/lecture/book3/C2S3TrigonometricFunction';
+import C3S1BasicOfVector from './pages/lecture/book3/C3S1BasicOfVector';
+import C3S2InnerProductOfVector from './pages/lecture/book3/C3S2InnerProductOfVector';
+import C3S3VectorInLineAndDeterminant from './pages/lecture/book3/C3S3VectorInLineAndDeterminant';
+import C3S4GraphDesign from './pages/lecture/book3/C3S4GraphDesign';
+import C1S1BasicOfSpace from './pages/lecture/book4/C1S1BasicOfSpace';
+import C1S2SpaceCoordinate from './pages/lecture/book4/C1S2SpaceCoordinate';
+import C1S3SphereAndConics from './pages/lecture/book4/C1S3SphereAndConics';
+import C2S1InnerProductOfSpace from './pages/lecture/book4/C2S1InnerProductOfSpace';
+import C2S2OuterProduct from './pages/lecture/book4/C2S2OuterProduct';
+import C2S3PlaneEquation from './pages/lecture/book4/C2S3PlaneEquation';
+import C2S4LineEquation from './pages/lecture/book4/C2S4LineEquation';
+import C3S1CondProbability from './pages/lecture/book4/C3S1CondProbability';
+import C3S2IndependentEvent from './pages/lecture/book4/C3S2IndependentEvent';
+import C4S1SystemOfEquations from './pages/lecture/book4/C4S1SystemOfEquations';
+import C4S2MatrixOperation from './pages/lecture/book4/C4S2MatrixOperation';
+import C4S3InverseAndTransition from './pages/lecture/book4/C4S3InverseAndTransition';
+import C4S4LinearTransform from './pages/lecture/book4/C4S4LinearTransform';
+import C1S1LimitOfSequence from './pages/lecture/book5/C1S1LimitOfSequence';
+import C1S2LimitOfSeries from './pages/lecture/book5/C1S2LimitOfSeries';
+import C1S3LimitOfFunction from './pages/lecture/book5/C1S3LimitOfFunction';
+import C2S1Derivative from './pages/lecture/book5/C2S1Derivative';
+import C2S2GraphicMeaningOfDerivative from './pages/lecture/book5/C2S2GraphicMeaningOfDerivative';
+import C3S1Integral from './pages/lecture/book5/C3S1Integral';
+import C3S2ApplicationOfIntegral from './pages/lecture/book5/C3S2ApplicationOfIntegral';
+import Lecture from './pages/lecture/Lecture';
+import B1C1Numbers from './pages/lecture/review/B1C1Numbers';
+import B1C2Polynomial from './pages/lecture/review/B1C2Polynomial';
+import B1C3LineAndCircle from './pages/lecture/review/B1C3LineAndCircle';
+import B2C4Series from './pages/lecture/review/B2C4Series';
+import B2C5DataAnalysis from './pages/lecture/review/B2C5DataAnalysis';
+import B2C6Combination from './pages/lecture/review/B2C6Combination';
+import B2C7Trigonometric from './pages/lecture/review/B2C7Trigonometric';
+import B3C10Vector from './pages/lecture/review/B3C10Vector';
+import B3C8TrigonometricFunction from './pages/lecture/review/B3C8TrigonometricFunction';
+import B3C9ExpLogFunction from './pages/lecture/review/B3C9ExpLogFunction';
+import B4C11SpaceConcept from './pages/lecture/review/B4C11SpaceConcept';
+import B4C12SpaceVector from './pages/lecture/review/B4C12SpaceVector';
+import B4C13Probability from './pages/lecture/review/B4C13Probability';
+import B4C14Matrix from './pages/lecture/review/B4C14Matrix';
+import Trial from './pages/lecture/trial/Trial';
+import Projection from './pages/projection/Projection';
+import Review03 from './pages/test/Review03';
 
-const route = {
-  Home: loadable(() => import('./pages/home/Home')),
-  Edit: loadable(() => import('./pages/edit/Edit')),
-  Hw: loadable(() => import('./pages/hw/Hw')),
-  Test: loadable(() => import('./pages/test/Review02')),
-  Bank: loadable(() => import('./pages/bank/Bank')),
-  Projection: loadable(() => import('./pages/projection/Projection')),
+const AppRoutes = () => (
+  <Routes>
+    <Route path="/toliman/edit" element={<Edit />} />
+    <Route path="/toliman/bank" element={<Bank />} />
+    <Route path="/toliman/projection" element={<Projection />} />
+    <Route path="/toliman/lecture" element={<Lecture />} />
+    <Route path="/toliman/lecture/trial" element={<Trial />} />
+    <Route path="/toliman/lecture/b0c1" element={<Arithmatic />} />
+    <Route path="/toliman/lecture/b0c2" element={<Linear />} />
+    <Route path="/toliman/lecture/b0c3" element={<SquareRoot />} />
+    <Route path="/toliman/lecture/b0c4" element={<Quadratic />} />
 
-  Lecture: loadable(() => import('./pages/lecture/Lecture')),
-  Trial: loadable(() => import('./pages/lecture/trial/Trial')),
-  B0C1: loadable(() => import('./pages/lecture/book0/Arithmatic')),
-  B0C2: loadable(() => import('./pages/lecture/book0/Linear')),
-  B0C3: loadable(() => import('./pages/lecture/book0/SquareRoot')),
-  B0C4: loadable(() => import('./pages/lecture/book0/Quadratic')),
-  C1S1Number: loadable(() => import('./pages/lecture/book1/C1S1Number')),
-  C1S1ExpFunction: loadable(() => import('./pages/lecture/book3/C1S1ExponentFunction')),
-  C1S2Logarithm: loadable(() => import('./pages/lecture/book3/C1S2Logarithm')),
-  C1S3LogFunction: loadable(() => import('./pages/lecture/book3/C1S3LogarithmFunction')),
-  C2S1Radius: loadable(() => import('./pages/lecture/book3/C2S1Radius')),
-  C2S2TriFormula: loadable(() => import('./pages/lecture/book3/C2S2TrigonometricFormula')),
-  C2S3TriFunction: loadable(() => import('./pages/lecture/book3/C2S3TrigonometricFunction')),
-  C3S1BasicOfVector: loadable(() => import('./pages/lecture/book3/C3S1BasicOfVector')),
-  C3S2InnerProductOfVector: loadable(
-    () => import('./pages/lecture/book3/C3S2InnerProductOfVector'),
-  ),
-  C3S3VectorInLineAndDeterminant: loadable(
-    () => import('./pages/lecture/book3/C3S3VectorInLineAndDeterminant'),
-  ),
-  C3S4GraphDesign: loadable(() => import('./pages/lecture/book3/C3S4GraphDesign')),
-  C1S1BasicOfSpace: loadable(() => import('./pages/lecture/book4/C1S1BasicOfSpace')),
-  C1S2SpaceCoordinate: loadable(() => import('./pages/lecture/book4/C1S2SpaceCoordinate')),
-  C1S3SphereAndConics: loadable(() => import('./pages/lecture/book4/C1S3SphereAndConics')),
-  C2S1InnerProductOfSpace: loadable(() => import('./pages/lecture/book4/C2S1InnerProductOfSpace')),
-  C2S2OuterProduct: loadable(() => import('./pages/lecture/book4/C2S2OuterProduct')),
-  C2S3PlaneEquation: loadable(() => import('./pages/lecture/book4/C2S3PlaneEquation')),
-  C2S4LineEquation: loadable(() => import('./pages/lecture/book4/C2S4LineEquation')),
-  C3S1CondProbability: loadable(() => import('./pages/lecture/book4/C3S1CondProbability')),
-  C3S2IndependentEvent: loadable(() => import('./pages/lecture/book4/C3S2IndependentEvent')),
-  C4S1SystemOfEquations: loadable(() => import('./pages/lecture/book4/C4S1SystemOfEquations')),
-  C4S2MatrixOperation: loadable(() => import('./pages/lecture/book4/C4S2MatrixOperation')),
-  C4S3InverseAndTransition: loadable(
-    () => import('./pages/lecture/book4/C4S3InverseAndTransition'),
-  ),
-  C4S4LinearTransform: loadable(() => import('./pages/lecture/book4/C4S4LinearTransform')),
-  C1S1LimitOfSequence: loadable(() => import('./pages/lecture/book5/C1S1LimitOfSequence')),
-  C1S2LimitOfSeries: loadable(() => import('./pages/lecture/book5/C1S2LimitOfSeries')),
-  C1S3LimitOfFunction: loadable(() => import('./pages/lecture/book5/C1S3LimitOfFunction')),
-  C2S1Derivative: loadable(() => import('./pages/lecture/book5/C2S1Derivative')),
-  C2S2GraphicMeaningOfDerivative: loadable(
-    () => import('./pages/lecture/book5/C2S2GraphicMeaningOfDerivative'),
-  ),
-  C3S1Integral: loadable(() => import('./pages/lecture/book5/C3S1Integral')),
-  C3S2ApplicationOfIntegral: loadable(
-    () => import('./pages/lecture/book5/C3S2ApplicationOfIntegral'),
-  ),
-  B1C1: loadable(() => import('./pages/lecture/review/B1C1Numbers')),
-  B1C2: loadable(() => import('./pages/lecture/review/B1C2Polynomial')),
-  B1C3: loadable(() => import('./pages/lecture/review/B1C3LineAndCircle')),
-  B2C4: loadable(() => import('./pages/lecture/review/B2C4Series')),
-  B2C5: loadable(() => import('./pages/lecture/review/B2C5DataAnalysis')),
-  B2C6: loadable(() => import('./pages/lecture/review/B2C6Combination')),
-  B2C7: loadable(() => import('./pages/lecture/review/B2C7Trigonometric')),
-  B3C8: loadable(() => import('./pages/lecture/review/B3C8TrigonometricFunction')),
-  B3C9: loadable(() => import('./pages/lecture/review/B3C9ExpLogFunction')),
-  B3C10: loadable(() => import('./pages/lecture/review/B3C10Vector')),
-  B4C11: loadable(() => import('./pages/lecture/review/B4C11SpaceConcept')),
-  B4C12: loadable(() => import('./pages/lecture/review/B4C12SpaceVector')),
-  B4C13: loadable(() => import('./pages/lecture/review/B4C13Probability')),
-  B4C14: loadable(() => import('./pages/lecture/review/B4C14Matrix')),
-};
+    <Route path="/toliman/lecture/b1c1s1" element={<C1S1Number />} />
 
-const AppRoutes = () => {
-  return (
-    <Switch>
-      <Route exact={true} path="/toliman/edit" component={route.Edit} />
-      <Route exact={true} path="/toliman/bank" component={route.Bank} />
-      <Route exact={true} path="/toliman/projection" component={route.Projection} />
+    <Route path="/toliman/lecture/exponentFunction" element={<C1S1ExponentFunction />} />
+    <Route path="/toliman/lecture/logarithm" element={<C1S2Logarithm />} />
+    <Route path="/toliman/lecture/logarithmFunction" element={<C1S3LogarithmFunctiontsx />} />
+    <Route path="/toliman/lecture/radius" element={<C2S1Radius />} />
+    <Route path="/toliman/lecture/trigonometricFormula" element={<C2S2TrigonometricFormula />} />
+    <Route path="/toliman/lecture/trigonometricFunction" element={<C2S3TrigonometricFunction />} />
+    <Route path="/toliman/lecture/basicOfVector" element={<C3S1BasicOfVector />} />
+    <Route path="/toliman/lecture/innerProductOfVector" element={<C3S2InnerProductOfVector />} />
+    <Route
+      path="/toliman/lecture/vectorInLineAndDeterminant"
+      element={<C3S3VectorInLineAndDeterminant />}
+    />
+    <Route path="/toliman/lecture/graphDesign" element={<C3S4GraphDesign />} />
 
-      <Route exact={true} path="/toliman/lecture" component={route.Lecture} />
-      <Route exact={true} path="/toliman/lecture/trial" component={route.Trial} />
-      <Route exact={true} path="/toliman/lecture/b0c1" component={route.B0C1} />
-      <Route exact={true} path="/toliman/lecture/b0c2" component={route.B0C2} />
-      <Route exact={true} path="/toliman/lecture/b0c3" component={route.B0C3} />
-      <Route exact={true} path="/toliman/lecture/b0c4" component={route.B0C4} />
-      <Route exact={true} path="/toliman/lecture/b1c1s1" component={route.C1S1Number} />
-      <Route
-        exact={true}
-        path="/toliman/lecture/exponentFunction"
-        component={route.C1S1ExpFunction}
-      />
-      <Route exact={true} path="/toliman/lecture/logarithm" component={route.C1S2Logarithm} />
-      <Route
-        exact={true}
-        path="/toliman/lecture/logarithmFunction"
-        component={route.C1S3LogFunction}
-      />
-      <Route exact={true} path="/toliman/lecture/radius" component={route.C2S1Radius} />
-      <Route
-        exact={true}
-        path="/toliman/lecture/trigonometricFormula"
-        component={route.C2S2TriFormula}
-      />
-      <Route
-        exact={true}
-        path="/toliman/lecture/trigonometricFunction"
-        component={route.C2S3TriFunction}
-      />
-      <Route
-        exact={true}
-        path="/toliman/lecture/basicOfVector"
-        component={route.C3S1BasicOfVector}
-      />
-      <Route
-        exact={true}
-        path="/toliman/lecture/innerProductOfVector"
-        component={route.C3S2InnerProductOfVector}
-      />
-      <Route
-        exact={true}
-        path="/toliman/lecture/vectorInLineAndDeterminant"
-        component={route.C3S3VectorInLineAndDeterminant}
-      />
-      <Route exact={true} path="/toliman/lecture/graphDesign" component={route.C3S4GraphDesign} />
-      <Route exact={true} path="/toliman/lecture/basicOfSpace" component={route.C1S1BasicOfSpace} />
-      <Route
-        exact={true}
-        path="/toliman/lecture/spaceCoordinate"
-        component={route.C1S2SpaceCoordinate}
-      />
-      <Route
-        exact={true}
-        path="/toliman/lecture/sphereAndConics"
-        component={route.C1S3SphereAndConics}
-      />
-      <Route
-        exact={true}
-        path="/toliman/lecture/innerProductOfSpace"
-        component={route.C2S1InnerProductOfSpace}
-      />
-      <Route exact={true} path="/toliman/lecture/outerProduct" component={route.C2S2OuterProduct} />
-      <Route
-        exact={true}
-        path="/toliman/lecture/planeEquation"
-        component={route.C2S3PlaneEquation}
-      />
-      <Route exact={true} path="/toliman/lecture/lineEquation" component={route.C2S4LineEquation} />
-      <Route
-        exact={true}
-        path="/toliman/lecture/condProbability"
-        component={route.C3S1CondProbability}
-      />
-      <Route
-        exact={true}
-        path="/toliman/lecture/independentEvent"
-        component={route.C3S2IndependentEvent}
-      />
-      <Route
-        exact={true}
-        path="/toliman/lecture/systemOfEquations"
-        component={route.C4S1SystemOfEquations}
-      />
-      <Route
-        exact={true}
-        path="/toliman/lecture/matrixOperation"
-        component={route.C4S2MatrixOperation}
-      />
-      <Route
-        exact={true}
-        path="/toliman/lecture/inverseAndTransition"
-        component={route.C4S3InverseAndTransition}
-      />
-      <Route
-        exact={true}
-        path="/toliman/lecture/linearTransform"
-        component={route.C4S4LinearTransform}
-      />
-      <Route
-        exact={true}
-        path="/toliman/lecture/limitOfSequence"
-        component={route.C1S1LimitOfSequence}
-      />
-      <Route
-        exact={true}
-        path="/toliman/lecture/limitOfSeries"
-        component={route.C1S2LimitOfSeries}
-      />
-      <Route
-        exact={true}
-        path="/toliman/lecture/limitOfFunction"
-        component={route.C1S3LimitOfFunction}
-      />
-      <Route exact={true} path="/toliman/lecture/derivative" component={route.C2S1Derivative} />
-      <Route
-        exact={true}
-        path="/toliman/lecture/graphicMeaningOfDerivative"
-        component={route.C2S2GraphicMeaningOfDerivative}
-      />
-      <Route exact={true} path="/toliman/lecture/integral" component={route.C3S1Integral} />
-      <Route
-        exact={true}
-        path="/toliman/lecture/applicationOfIntegral"
-        component={route.C3S2ApplicationOfIntegral}
-      />
-      <Route exact={true} path="/toliman/lecture/B1C1" component={route.B1C1} />
-      <Route exact={true} path="/toliman/lecture/B1C2" component={route.B1C2} />
-      <Route exact={true} path="/toliman/lecture/B1C3" component={route.B1C3} />
-      <Route exact={true} path="/toliman/lecture/B2C4" component={route.B2C4} />
-      <Route exact={true} path="/toliman/lecture/B2C5" component={route.B2C5} />
-      <Route exact={true} path="/toliman/lecture/B2C6" component={route.B2C6} />
-      <Route exact={true} path="/toliman/lecture/B2C7" component={route.B2C7} />
-      <Route exact={true} path="/toliman/lecture/B3C8" component={route.B3C8} />
-      <Route exact={true} path="/toliman/lecture/B3C9" component={route.B3C9} />
-      <Route exact={true} path="/toliman/lecture/B3C10" component={route.B3C10} />
-      <Route exact={true} path="/toliman/lecture/B4C11" component={route.B4C11} />
-      <Route exact={true} path="/toliman/lecture/B4C12" component={route.B4C12} />
-      <Route exact={true} path="/toliman/lecture/B4C13" component={route.B4C13} />
-      <Route exact={true} path="/toliman/lecture/B4C14" component={route.B4C14} />
+    <Route path="/toliman/lecture/basicOfSpace" element={<C1S1BasicOfSpace />} />
+    <Route path="/toliman/lecture/spaceCoordinate" element={<C1S2SpaceCoordinate />} />
+    <Route path="/toliman/lecture/sphereAndConics" element={<C1S3SphereAndConics />} />
+    <Route path="/toliman/lecture/innerProductOfSpace" element={<C2S1InnerProductOfSpace />} />
+    <Route path="/toliman/lecture/outerProduct" element={<C2S2OuterProduct />} />
+    <Route path="/toliman/lecture/planeEquation" element={<C2S3PlaneEquation />} />
+    <Route path="/toliman/lecture/lineEquation" element={<C2S4LineEquation />} />
+    <Route path="/toliman/lecture/condProbability" element={<C3S1CondProbability />} />
+    <Route path="/toliman/lecture/independentEvent" element={<C3S2IndependentEvent />} />
+    <Route path="/toliman/lecture/systemOfEquations" element={<C4S1SystemOfEquations />} />
+    <Route path="/toliman/lecture/matrixOperation" element={<C4S2MatrixOperation />} />
+    <Route path="/toliman/lecture/inverseAndTransition" element={<C4S3InverseAndTransition />} />
+    <Route path="/toliman/lecture/linearTransform" element={<C4S4LinearTransform />} />
 
-      <Route exact={true} path="/toliman/hw" component={route.Hw} />
-      <Route exact={true} path="/toliman/test" component={route.Test} />
-      <Route exact={true} path="/toliman" component={route.Home} />
-      <Redirect to="/toliman" />
-    </Switch>
-  );
-};
+    <Route path="/toliman/lecture/limitOfSequence" element={<C1S1LimitOfSequence />} />
+    <Route path="/toliman/lecture/limitOfSeries" element={<C1S2LimitOfSeries />} />
+    <Route path="/toliman/lecture/limitOfFunction" element={<C1S3LimitOfFunction />} />
+    <Route path="/toliman/lecture/derivative" element={<C2S1Derivative />} />
+    <Route
+      path="/toliman/lecture/graphicMeaningOfDerivative"
+      element={<C2S2GraphicMeaningOfDerivative />}
+    />
+    <Route path="/toliman/lecture/integral" element={<C3S1Integral />} />
+    <Route path="/toliman/lecture/applicationOfIntegral" element={<C3S2ApplicationOfIntegral />} />
+
+    <Route path="/toliman/lecture/B1C1" element={<B1C1Numbers />} />
+    <Route path="/toliman/lecture/B1C2" element={<B1C2Polynomial />} />
+    <Route path="/toliman/lecture/B1C3" element={<B1C3LineAndCircle />} />
+    <Route path="/toliman/lecture/B2C4" element={<B2C4Series />} />
+    <Route path="/toliman/lecture/B2C5" element={<B2C5DataAnalysis />} />
+    <Route path="/toliman/lecture/B2C6" element={<B2C6Combination />} />
+    <Route path="/toliman/lecture/B2C7" element={<B2C7Trigonometric />} />
+    <Route path="/toliman/lecture/B3C8" element={<B3C8TrigonometricFunction />} />
+    <Route path="/toliman/lecture/B3C9" element={<B3C9ExpLogFunction />} />
+    <Route path="/toliman/lecture/B3C10" element={<B3C10Vector />} />
+    <Route path="/toliman/lecture/B4C11" element={<B4C11SpaceConcept />} />
+    <Route path="/toliman/lecture/B4C12" element={<B4C12SpaceVector />} />
+    <Route path="/toliman/lecture/B4C13" element={<B4C13Probability />} />
+    <Route path="/toliman/lecture/B4C14" element={<B4C14Matrix />} />
+
+    <Route path="/toliman/hw" element={<Hw />} />
+    <Route path="/toliman/test" element={<Review03 />} />
+
+    <Route path="/toliman" element={<Home />} />
+    <Route path="/*" element={<Navigate to={'/toliman'} />} />
+  </Routes>
+);
 
 export default AppRoutes;

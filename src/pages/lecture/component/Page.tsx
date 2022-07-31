@@ -7,20 +7,18 @@ type Props = {
   pageNum: number;
 };
 
-const Page = ({ children, pageNum }: Props) => {
-  return (
-    <div className={style.page}>
-      {children}
-      <div
-        className={classNames(style.pageNum, {
-          [style.right]: pageNum % 2 === 1,
-          [style.left]: pageNum % 2 === 0,
-        })}
-      >
-        {pageNum}
-      </div>
+const Page = ({ children, pageNum }: Props) => (
+  <div className={style.page}>
+    {children}
+    <div
+      className={classNames(style.pageNum, {
+        [style.right]: pageNum % 2 === 1,
+        [style.left]: pageNum % 2 === 0,
+      })}
+    >
+      {pageNum}
     </div>
-  );
-};
+  </div>
+);
 
 export default Page;
