@@ -14,6 +14,9 @@ import { chapterList, Question } from 'src/model/bank';
 import style from './Edit.module.scss';
 
 const Edit = () => {
+  const [countdown, setCountdown] = useState<NodeJS.Timeout>();
+  const [isRendering, setIsRendering] = useState<boolean>(false);
+
   const [message, setMessage] = useState<string>();
   const [randomId, setRandomId] = useState<string>('');
   const [chapter, setChapter] = useState<string>('');
@@ -24,6 +27,13 @@ const Edit = () => {
 
   useEffect(() => {
     setRandomId(Date.now().toString(16));
+
+    setIsRendering(true);
+    if (countdown) clearTimeout(countdown);
+    const newCountdown = setTimeout(() => {
+      setIsRendering(false);
+    }, 300);
+    setCountdown(newCountdown);
   }, [question, answer]);
 
   const handleEdit = (ev: ChangeEvent<HTMLInputElement>) => {
@@ -105,10 +115,12 @@ const Edit = () => {
           label="是否有圖"
         />
         <hr />
-        <MathJax className={style.preview}>
-          {question && <div>{question}</div>}
-          {answer && <div className={style.ans}>{'Ans: ' + answer}</div>}
-        </MathJax>
+        {isRendering === false && (
+          <MathJax className={style.preview}>
+            {question && <div>{question}</div>}
+            {answer && <div className={style.ans}>{'Ans: ' + answer}</div>}
+          </MathJax>
+        )}
         <hr />
         <div>{JSON.stringify(result)}</div>
         <div>
