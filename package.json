@@ -93,9 +93,5 @@
       "pre-commit": "npm run pre:commit"
     }
   },
-  "engines": {
-    "node": "^16.0.0",
-    "npm": "^8.0.0"
-  },
   "homepage": "https://r3399r.github.io/toliman/"
 }

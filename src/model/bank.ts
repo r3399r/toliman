@@ -1097,6 +1097,393 @@ const beginner: Question[] = [
 // 數與式
 const numAndEquation: Question[] = [
   {
+    id: '1825344bd5c',
+    chapter: '數與式',
+    question:
+      '已知 $x<y$ ，且 $a=\\dfrac{x+2y}3$，$b=\\dfrac{2x+y}3$，$c=\\dfrac{3x+2y}5$，$d=\\dfrac{7x-3y}4$，請比較 $a,b,c,d$ 的大小。',
+    answer: '$d<b<c<a$',
+    hasImage: false,
+  },
+  {
+    id: '1825348f6f0',
+    chapter: '數與式',
+    question:
+      '已知 $x<y$，且 $a=\\dfrac{x+y}2$，$b=\\dfrac{x+3y}4$，$c=\\dfrac{5x+y}6$，請選出下列哪些選項為真。\n(1) $x<a$　(2) $a<b$　(3) $b<c$\n(4) $a<c$　(5) $c<y$',
+    answer: '(1)(2)(5)',
+    hasImage: false,
+  },
+  {
+    id: '18253dc12a0',
+    chapter: '數與式',
+    question: '若 $\\sqrt{41+12\\sqrt5}$ 的整數部分為 $a$，小數部分為 $b$，求 $a+\\dfrac1b$。',
+    answer: '$10+\\sqrt5$',
+    hasImage: false,
+  },
+  {
+    id: '18253e3677e',
+    chapter: '數與式',
+    question:
+      '化簡：(1) $\\sqrt{8-2\\sqrt7}$\n(2) $\\sqrt{11+6\\sqrt2}$\n(3) $\\sqrt{11-\\sqrt{72}}$。',
+    answer: '(1) $\\sqrt7-1$ (2) $3+\\sqrt2$ (3) $3-\\sqrt2$',
+    hasImage: false,
+  },
+  {
+    id: '182547b6289',
+    chapter: '數與式',
+    question:
+      '若 $\\sqrt{11+\\sqrt{112}}$ 的整數部分為 $a$，小數部分為 $b$，求 $\\dfrac{2a+b+1}{a-b-6}$。',
+    answer: '$-\\sqrt7-1$',
+    hasImage: false,
+  },
+  {
+    id: '18254860518',
+    chapter: '數與式',
+    question:
+      '判斷下列各敘述的對錯，請選出敘述正確的選項。\n(1) 若 $a,b$ 為無理數，則 $a+b$ 必為無理數\n(2) 若 $a$ 為有理數，$b$ 為無理數，則 $a+b$ 必為無理數\n(3) 若 $a$ 為有理數，$b$ 為無理數，則 $ab$ 必為無理數\n(4) $a,b$ 為無理數，$c,d$ 為有理數，若 $a+c=b+d$，則 $a=b$ 且 $c=d$\n(5) $a,b,c,d$ 為有理數，若 $a+b\\sqrt2=c+d\\sqrt2$，則 $a=c$ 且 $b=d$',
+    answer: '(2)(5)',
+    hasImage: false,
+  },
+  {
+    id: '182553ac6ad',
+    chapter: '數與式',
+    question:
+      '若 $a,b$ 為正有理數，$x,y$ 為正無理數，請選出下列各選項何者為真。\n(1) $\\sqrt a+x$ 必為無理數\n(2) $x+y$ 有可能是有理數\n(3) $\\dfrac ax$ 必為無理數\n(4) $\\sqrt{xy}$ 必為無理數\n(5) $x\\sqrt y$ 有可能是有理數',
+    answer: '(2)(3)(5)',
+    hasImage: false,
+  },
+  {
+    id: '182553cc452',
+    chapter: '數與式',
+    question: '設 $a=\\sqrt3-\\sqrt{11}$，$b=2-\\sqrt{10}$，$c=\\sqrt5-3$，試比較 $a,b,c$ 的大小。',
+    answer: '$a<b<c$',
+    hasImage: false,
+  },
+  {
+    id: '182553d9163',
+    chapter: '數與式',
+    question: '設 $a=\\sqrt7+\\sqrt2$，$b=\\sqrt6+\\sqrt3$，$c=\\sqrt5+2$，試比較 $a,b,c$ 的大小。',
+    answer: '$a<b<c$',
+    hasImage: false,
+  },
+  {
+    id: '1825540969f',
+    chapter: '數與式',
+    question: '設 $a>0$，$b>0$，且 $3a+4b=10$，求 $ab$ 的最大值及此時的 $(a,b)$。',
+    answer: '$\\frac{25}{12}$；$(\\frac53,\\frac54)$；',
+    hasImage: false,
+  },
+  {
+    id: '1825544e283',
+    chapter: '數與式',
+    question:
+      '半圓的直徑為 6，內接矩形 $ABCD$，其中 $\\overline{AB}$ 落在直徑上，如圖，試求矩形 $ABCD$ 的最大面積。',
+    answer: '9',
+    hasImage: true,
+  },
+  {
+    id: '1825547733e',
+    chapter: '數與式',
+    question: '若 $a,b$ 為正數，且 $a+2b=8$，求 $ab$ 的最大值及此時的 $(a,b)$。',
+    answer: '8；(4,2)',
+    hasImage: false,
+  },
+  {
+    id: '182554b378e',
+    chapter: '數與式',
+    question:
+      '用 24 公尺的鐵絲圍出一個六邊形，如圖(虛線部分不需圍起)，此區域若按照虛線可分為面積相等的五塊矩形，試求圍出的六邊形之最大面積。',
+    answer: '30 平方公尺',
+    hasImage: true,
+  },
+  {
+    id: '1825551e13b',
+    chapter: '數與式',
+    question:
+      '已知 $x,y$ 為實數，滿足 $-2\\le x\\le3$，$1\\le y\\le2$，在這些範圍限制之下，請問：\n(1) $2x+3y$ 的最大值與最小值\n(2) $x-y$ 的最大值與最小值\n(3) $xy$ 的最大值與最小值',
+    answer: '(1) 12；-1 (2) 2；-4 (2) 6；-4',
+    hasImage: false,
+  },
+  {
+    id: '182555363da',
+    chapter: '數與式',
+    question:
+      '若 $x,y$ 滿足 $2\\le x\\le4$，$1\\le y\\le5$，試求：\n(1) $2x-3y$ 的最大值與最小值\n(2) $xy$ 的最大值與最小值',
+    answer: '(1) 5；-11 (2) 20；2',
+    hasImage: false,
+  },
+  {
+    id: '18255547db9',
+    chapter: '數與式',
+    question: '試解 $|2x-1|=5$，求 $x$。',
+    answer: '$3\\lor-2$',
+    hasImage: false,
+  },
+  {
+    id: '1825555eef4',
+    chapter: '數與式',
+    question: '設 $x,y$ 為整數，滿足 $2|x-3|+3|y-5|=10$，求數對 $(x,y)$ 共有幾組解。',
+    answer: '6',
+    hasImage: false,
+  },
+  {
+    id: '1825558ad4b',
+    chapter: '數與式',
+    question: '試解下列各式：\n(1) $|3x+4|=5$　(2) $2|2x-1|+5=11$',
+    answer: '(1) $\\frac13\\lor-3$ (2) $2\\lor-1$',
+    hasImage: false,
+  },
+  {
+    id: '1825559febb',
+    chapter: '數與式',
+    question: '設 $a,b,c$ 為整數，滿足 $|a|+2|b+3|+3|c-2|=4$ 的序組共有幾組。',
+    answer: '12',
+    hasImage: false,
+  },
+  {
+    id: '182555b6ded',
+    chapter: '數與式',
+    question: '試求 $|x-7|+|x-1|\\le18$ 之解。',
+    answer: '$-5\\le x\\le13$',
+    hasImage: false,
+  },
+  {
+    id: '182555c1f06',
+    chapter: '數與式',
+    question: '試求 $|x+5|+|x-7|\\le20$ 之解。',
+    answer: '$-9\\le x\\le11$',
+    hasImage: false,
+  },
+  {
+    id: '182555dea8b',
+    chapter: '數與式',
+    question: '若不等式 $|ax+7|\\le b$ 的解為 $-1\\le x\\le5$，試求數對 $(a,b)$。',
+    answer: '$(-\\frac72,\\frac{21}2)$',
+    hasImage: false,
+  },
+  {
+    id: '1825560c2b0',
+    chapter: '數與式',
+    question:
+      '(1) 若 $|ax+6|\\le b$ 的解為 $1\\le x\\le5$，試求數對 $(a,b)$\n(2) 若 $|3x+a|\\ge b$ 的解為 $x\\le5$ 或 $x\\ge11$，試求數對 $(a,b)$',
+    answer: '(1) (-2,4) (2) (-24,9)',
+    hasImage: false,
+  },
+  {
+    id: '18255647dfe',
+    chapter: '數與式',
+    question:
+      '化簡下列各指數式為最簡分數：\n(1) $2^{-3}$　(2) $16^{\\frac12}$　(3) $8^{-\\frac13}$　(4) $(\\dfrac{27}8)^{-\\frac23}$',
+    answer: '(1) $\\frac18$ (2) 4 (3) $\\frac12$ (4) $\\frac49$',
+    hasImage: false,
+  },
+  {
+    id: '182556659e7',
+    chapter: '數與式',
+    question:
+      '化簡求值：\n(1) $3^{-2}$　(2) $64^{\\frac13}$　(3) $(\\dfrac{16}{81})^{\\frac14}$　(4) $(\\dfrac{243}{32})^{-\\frac35}$',
+    answer: '(1) $\\frac19$ (2) 4 (3) $\\frac23$ (4) $\\frac8{27}$ ',
+    hasImage: false,
+  },
+  {
+    id: '182556a77b3',
+    chapter: '數與式',
+    question:
+      '設 $\\sqrt[3]4\\cdot\\sqrt[4]8\\cdot\\sqrt[5]{16}=\\sqrt[a]{2^{b}}$，其中 $a$ 與 $b$ 為互質的正整數，求數對 $(a,b)$。',
+    answer: '(60,133)',
+    hasImage: false,
+  },
+  {
+    id: '182556e3786',
+    chapter: '數與式',
+    question:
+      '設 $a=(2\\dfrac79)^{0.5}$，$b=\\dfrac{10^{1+\\sqrt2}}{0.1^{1-\\sqrt2}}$，$c=(3^{\\sqrt2})^{\\frac{\\sqrt2}2}$，$d=(\\sqrt5+1)^{\\frac32}(\\sqrt5-1)^{\\frac32}$，求 $a+b+c+d$。',
+    answer: '110',
+    hasImage: false,
+  },
+  {
+    id: '1825570630b',
+    chapter: '數與式',
+    question: '若 $67^x=27$，$603^y=81$，求 $\\dfrac3x-\\dfrac4y$。',
+    answer: '-2',
+    hasImage: false,
+  },
+  {
+    id: '1825572bb3b',
+    chapter: '數與式',
+    question: '設 $2^x=5^y=3$，求：\n(1) $3^{\\frac4x}$  (2) $3^{\\frac2x-\\frac3y}$。',
+    answer: '(1) 16 (2) $\\frac4{125}$',
+    hasImage: false,
+  },
+  {
+    id: '18255741868',
+    chapter: '數與式',
+    question: '若 $11.2^a=0.0112^b=10$，求 $\\dfrac1a-\\dfrac1b$。',
+    answer: '3',
+    hasImage: false,
+  },
+  {
+    id: '18252d8edcd',
+    chapter: '數與式',
+    question: '若 $a^{2x}=3$，求 $ \\dfrac{a^x-a^{-x}}{a^{3x}+a^{-5x}}$。',
+    answer: '$\\frac9{41}$',
+    hasImage: false,
+  },
+  {
+    id: '1825338a7a6',
+    chapter: '數與式',
+    question: '設 $3^x-3^{-x}=4$，求 $27^x-27^{-x}$。',
+    answer: '76',
+    hasImage: false,
+  },
+  {
+    id: '182533ad2ff',
+    chapter: '數與式',
+    question: '若 $a^{2x}=2$，求 $\\dfrac{a^{x}+a^{-x}}{a^{3x}-a^{-3x}}$。',
+    answer: '$\\frac67$',
+    hasImage: false,
+  },
+  {
+    id: '182533ba210',
+    chapter: '數與式',
+    question: '若 $2^x+2^{-x}=10$，求：\n(1) $4^x+4^{-x}$　(2) $8^x+8^{-x}$',
+    answer: '(1) 98 (2) 970',
+    hasImage: false,
+  },
+  {
+    id: '182533d8fe3',
+    chapter: '數與式',
+    question:
+      '有天文學家估計宇宙的年齡約 200 億年，請問 200 億年換算成秒為？(以科學記號表示，取三位有效數字，一年為 365 天) 請問該數字是幾位數字？最高數字為何？',
+    answer: '$6.31\\times10^{17}$ 秒；18；6',
+    hasImage: false,
+  },
+  {
+    id: '182533e6b13',
+    chapter: '數與式',
+    question:
+      '在顯微鏡下測得一個球菌的直徑是 0.6 微米 $(\\mu m)$，已知 $1\\mu m=10^{-6}m$，球體的體積公式是 $V=\\frac43\\pi r^3$，其中 $r$ 為球半徑，$\\pi\\approx3.14$。請問此球菌的體積多少立方公尺？(以科學記號表示，取四位有效數字) 此數字在小數點後第幾位出現不為 0 的數字？該數字為何？',
+    answer: '$1.130\\times10^{-19}$ 立方公尺；19；1',
+    hasImage: false,
+  },
+  {
+    id: '1825340b341',
+    chapter: '數與式',
+    question:
+      '已知 $a=6\\times10^{-7}$、$b=9\\times10^{-10}$、$c=3.2\\times10^{-16}$，求：\n(1) $ab-c$　(2) $abc$ (均以科學記號表示)',
+    answer: '(1) $2.2\\times10^{-16}$ (2) $1.728\\times10^{-31}$',
+    hasImage: false,
+  },
+  {
+    id: '18253420bea',
+    chapter: '數與式',
+    question:
+      '銀河系光年直徑約為 150000 光年 (光每秒走 $3\\times10^8$ 公尺，一年約為 31536000 秒)，請問銀河系的直徑換算成公尺為何？(以科學記號表示，取三位有效數字) 此數字為幾位數字？',
+    answer: '$1.42\\times10^{21}$ 公尺；22',
+    hasImage: false,
+  },
+  {
+    id: '18253428533',
+    chapter: '數與式',
+    question:
+      '已知氫原子核的密度約為 $2.31\\times10^{14}$ 克/立方公分，質量約為 $1.67 \\times10^{-24}$ 克，請問氫原子核的體積為多少立方公分？(取三位有效數字) 此數字自小數點後第幾位開始不為 0？',
+    answer: '$7.23\\times10^{-39}$；39',
+    hasImage: false,
+  },
+  {
+    id: '1825343d1e5',
+    chapter: '數與式',
+    question:
+      '求下列各對數值：\n(1) $\\log100000$　(2) $\\log\\frac1{10000}$\n(3) $\\log\\sqrt[3]{10}$　(4)$\\log100\\sqrt{10}$',
+    answer: '(1) 5 (2) -4 (3)$\\frac13$ (4) $\\frac52$\n',
+    hasImage: false,
+  },
+  {
+    id: '18253445b60',
+    chapter: '數與式',
+    question:
+      '簡化下列各指數式：\n(1) $10^{\\log234}$　(2)$100^{\\log13}$　(3)$\\sqrt{10}^{\\log64}$',
+    answer: '(1) 234 (2) 169 (3) 8',
+    hasImage: false,
+  },
+  {
+    id: '1825349ad1b',
+    chapter: '數與式',
+    question:
+      '求下列各對數值：\n(1) $\\log10000$　(2) $\\log\\frac1{100}$\n(3) $\\log10^{12}$　(4) $\\log\\sqrt[3]{100}$\n(5) $\\log10\\sqrt{10}$　(6) $\\log(\\sqrt{10}\\cdot\\sqrt[3]{10})$',
+    answer: '(1) 4 (2) -2 (3) 12 (4) $\\frac23$ (5) $\\frac32$ (6) $\\frac56$',
+    hasImage: false,
+  },
+  {
+    id: '182534ba324',
+    chapter: '數與式',
+    question:
+      '簡化下列各指數式：\n(1) $1000^{\\log2}$　(2)$100^{\\log\\sqrt3}$\n(3) $\\sqrt{10}^{\\log25}$　(4) $(10\\sqrt{10})^{\\log4}$\n(5) $\\sqrt[3]{100}^{\\log\\frac{64}{125}}$',
+    answer: '(1) 8 (2) 3 (3) 5 (4) 8 (5) $\\frac{16}{25}$',
+    hasImage: false,
+  },
+  {
+    id: '182534c2155',
+    chapter: '數與式',
+    question: '設 $\\log3456700$ 介於整數 $n$ 與 $n+1$ 之間，求 $n$。',
+    answer: '6',
+    hasImage: false,
+  },
+  {
+    id: '182534d02b8',
+    chapter: '數與式',
+    question:
+      '若整數 $n$ 是六位數，則 $\\log n$ 介於整數 $k$ 與 $k+1$ 之間 (包含 $k$ 但不含 $k+1$)，求 $k$。',
+    answer: '5',
+    hasImage: false,
+  },
+  {
+    id: '182534d6f9f',
+    chapter: '數與式',
+    question:
+      '若正整數 $n$ 滿足 $3^n>2^{100}$，求最小的 $n$。($\\log2\\approx0.3010，\\log3\\approx0.4771$)',
+    answer: '64',
+    hasImage: false,
+  },
+  {
+    id: '182534ea30e',
+    chapter: '數與式',
+    question: '求滿足 $2^n>10^{20}$ 的最小正整數 $n$。($\\log2\\approx0.3010$)',
+    answer: '67',
+    hasImage: false,
+  },
+  {
+    id: '182534f1779',
+    chapter: '數與式',
+    question:
+      '已知 $\\log2\\approx0.3010$，$\\log3\\approx0.4771$，$\\log6\\approx0.7781$，請回答下列問題：\n(1) $6^{100}$ 乘開為幾位數？最高位數字為？\n(2) $(\\frac23)^{100}$ 自小數點後第幾位數開始不為 0？此不為 0 數字為？',
+    answer: '(1) 78；6 (2) 18；2',
+    hasImage: false,
+  },
+  {
+    id: '18253504b95',
+    chapter: '數與式',
+    question:
+      '已知 $\\log5\\approx0.6990$，$(\\frac35)^{100}$ 自小數點後第幾位數開始不為 0？此不為 0 的數字為何？',
+    answer: '23；6',
+    hasImage: false,
+  },
+  {
+    id: '1825353a634',
+    chapter: '數與式',
+    question:
+      '聲音的強度是用每平方多少瓦特 $(W/m^2)$ 來衡量，一般人能感覺出聲音的最小強度為 $I_0=10^{-12}(W/m^2)$，若測得的聲音強度為  $I(W/m^2)$ 時，所產生的聲音分貝數 $d$ 為 $d(I)=10\\cdot\\log\\frac{I}{I_0}$。今棒球比賽場中，已知 1 支瓦斯汽笛獨鳴，測得的噪音為 70 分貝，則 200 支瓦斯汽笛同時同地合鳴，聲音強度增為 200 倍，請問測得的噪音大約為多少分貝？($\\log2\\approx0.3010$，小數點以下四捨五入至整數)',
+    answer: '93',
+    hasImage: false,
+  },
+  {
+    id: '1825355a364',
+    chapter: '數與式',
+    question:
+      '聲音的強度是每平方公尺多少能量(單位：$W/m^2$，$W$ 為瓦特)，若某一發聲體的強度為 $I(W/m^2)$，將它換算成分貝 $d$ 表示時，其公式為 $d(I)=10\\cdot\\log(10^{12}\\times I)$。若有一支 70 分貝的汽笛和二十支 60 分貝的汽笛齊響，測得的音量為幾分貝？(四捨五入至小數點後第一位，$\\log3\\approx0.4771$)',
+    answer: '74.8',
+    hasImage: false,
+  },
+  {
     id: '182406b30eb',
     chapter: '數與式',
     question: '乘開 $(2a+3b)^3=$',
