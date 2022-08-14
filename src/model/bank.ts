@@ -4309,6 +4309,601 @@ const polynomial: Question[] = [
 // 直線與圓
 const lineAndCircle: Question[] = [
   {
+    id: '18286a8d994',
+    chapter: '直線與圓',
+    question: '坐標平面上有平行四邊形 $ABCD$，已知 $A(3,5)$、$B(6,1)$、$C(-2,3)$，求 $D$ 坐標。',
+    answer: '(-5,7)',
+    hasImage: false,
+  },
+  {
+    id: '18286ab3268',
+    chapter: '直線與圓',
+    question: '如圖，正方形 $ABCD$ 在坐標平面上，已知 $A(2,1)$、$C(6,19)$，求 $B$、$D$ 坐標。',
+    answer: '(13,8)；(-5,12)',
+    hasImage: true,
+  },
+  {
+    id: '18286ad47e5',
+    chapter: '直線與圓',
+    question: '已知菱形的三個頂點坐標為 (7,-2)、(10,2)、(14,5)，求第四個頂點坐標。',
+    answer: '(11,1)',
+    hasImage: false,
+  },
+  {
+    id: '18286af2a3a',
+    chapter: '直線與圓',
+    question: '正方形 $ABCD$，已知 $A(3,2)$、$B(7,9)$，$D$ 在第二象限，求 $C$、$D$ 坐標。',
+    answer: '(0,13)；(-4,6)',
+    hasImage: false,
+  },
+  {
+    id: '18286b152b0',
+    chapter: '直線與圓',
+    question:
+      "設坐標平面上點 $A(3,-14)$ 對 $P$ 點的對稱點為 $A'(-7,6)$，求點 $B(8,5)$ 對 $P$ 點的對稱點。",
+    answer: '(-12,-13)',
+    hasImage: false,
+  },
+  {
+    id: '18287f99617',
+    chapter: '直線與圓',
+    question: '求坐標平面上點 $P(9,4)$ 對 $y$ 軸的對稱點坐標以及對 $y=-3$ 的對稱點坐標。',
+    answer: '$(-9,4)$；$(9,-10)$',
+    hasImage: false,
+  },
+  {
+    id: '1828816488f',
+    chapter: '直線與圓',
+    question:
+      '平面上點 $P(3,-7)$ 對 $A(-4,1)$ 的對稱點為 $Q$，$Q$ 對 $B(2,5)$ 的對稱點為 $R$，求 $R$ 坐標。',
+    answer: '$(15,1)$',
+    hasImage: false,
+  },
+  {
+    id: '1828836bcfa',
+    chapter: '直線與圓',
+    question:
+      '坐標平面上點 $P(3,5)$ 對 $x$ 軸的對稱點為 $Q$，$Q$ 對 $x=-7$ 的對稱點為 $R$，求 $R$ 坐標。',
+    answer: '$(17,-5)$',
+    hasImage: false,
+  },
+  {
+    id: '1828839875b',
+    chapter: '直線與圓',
+    question: '平面上兩點 $A(1,-3)、B(4,5)$，求 $\\overline{AB}$ 的斜率 $m$。',
+    answer: '$\\frac{8}{3}$',
+    hasImage: false,
+  },
+  {
+    id: '182883cb133',
+    chapter: '直線與圓',
+    question:
+      '平面上 $\\Delta{ABC}$，已知 $A(1,7)、B(6,-2)、C(4,3)$，求 $\\overline{AB}$ 的斜率，$\\overline{BC}$ 的斜率，$\\overline{CA}$ 的斜率。',
+    answer: '$-\\frac{9}{5}$；$-\\frac{5}{2}$；$-\\frac{4}{3}$',
+    hasImage: false,
+  },
+  {
+    id: '1828840012a',
+    chapter: '直線與圓',
+    question:
+      '(1) 線型函數 $y=f(x)=7x+3$ 的圖形為直線，求此直線的斜率。\n(2) 求平面上直線 $L：5x+4y=1$ 的斜率。',
+    answer: '(1) $7$ (2) $-\\frac{5}{4}$',
+    hasImage: false,
+  },
+  {
+    id: '1828844af9c',
+    chapter: '直線與圓',
+    question:
+      '$y=3x+1$ 的斜率為 $a$，$y=-2x+5$ 的斜率為 $b$，$3x-2y=1$ 的斜率為 $c$，$5x+y=2$ 的斜率為 $d$，比較 $a、b、c、d$ 的大小。',
+    answer: '$d<b<c<a$',
+    hasImage: false,
+  },
+  {
+    id: '1828866b7b7',
+    chapter: '直線與圓',
+    question:
+      '有甲、乙、丙、丁、戊、己、庚共 $7$ 根牙籤散落在坐標平面上，如圖，求斜率為正的牙籤共有幾根，斜率為負的牙籤共有幾根，其中以何者的斜率為最大，何者的斜率為最小。',
+    answer: '$3$；$4$；乙；丁',
+    hasImage: true,
+  },
+  {
+    id: '182886a6a58',
+    chapter: '直線與圓',
+    question:
+      '如圖，坐標平面上正五邊形 $ABCDE$ 哪個邊的斜率最大？哪個邊的斜率最小？\n(1) $\\overline{AB}$ (2) $\\overline{BC}$ (3) $\\overline{CD}$ (4) $\\overline{DE}$ (5) $\\overline{EA}$',
+    answer: '(4)；(2)',
+    hasImage: true,
+  },
+  {
+    id: '182886ca2cd',
+    chapter: '直線與圓',
+    question:
+      '平面上相異三點 $A(1,3)、B(k,2k)、C(k+1,3k-1)$ 在同一條直線上，稱為「三點共線」，求 $k$。',
+    answer: '$2$',
+    hasImage: false,
+  },
+  {
+    id: '182886fd275',
+    chapter: '直線與圓',
+    question:
+      '平面上兩直線 $L_{1}：(a+1)x+2y=5、L_{2}：(a+2)x-3y=1$，則：\n(1) 若 $L_{1}$ 與 $L_{2}$ 平行，求 $a$ (2) 若 $L_{1}$ 與 $L_{2}$ 垂直，求 $a$。',
+    answer: '(1) $-\\frac{7}{5}$ (2) $-4$ 或 $1$',
+    hasImage: false,
+  },
+  {
+    id: '1828871c199',
+    chapter: '直線與圓',
+    question: '若平面上三點 $A(3,5)、B(1,k)、C(-4,2k+1)$ 共線，求 $k$。',
+    answer: '$9$',
+    hasImage: false,
+  },
+  {
+    id: '1828873ddb8',
+    chapter: '直線與圓',
+    question:
+      '平面上兩直線 $ax+3y=1$ 與 $4x+(a+1)y=8$，則：\n(1) 若互相平行，求 $a$ (2) 若互相垂直，求 $a$。',
+    answer: '(1) $-4$ 或 $3$ (2) $-\\frac{3}{7}$',
+    hasImage: false,
+  },
+  {
+    id: '182887a4754',
+    chapter: '直線與圓',
+    question:
+      '平面上直線 $L$ 通過點 $P(-3,7)$，則：\n(1) 求斜率為 $2$ 的直線方程式。\n(2) 求斜率為 $-\\frac{4}{5}$ 的直線方程式。\n',
+    answer: '(1) $2x-y=-13$ (2) $4x+5y=23$',
+    hasImage: false,
+  },
+  {
+    id: '182887c2e70',
+    chapter: '直線與圓',
+    question: '求平面上過 $A(3,-1)、B(7,2)$ 兩點的直線方程式。',
+    answer: '$3x-4y=13$',
+    hasImage: false,
+  },
+  {
+    id: '182887ddc0c',
+    chapter: '直線與圓',
+    question: '兩點 $A(1,2)、B(-3,8)$，求 $\\overline{AB}$ 的垂直平分線方程式。',
+    answer: '$2x-3y=-17$',
+    hasImage: false,
+  },
+  {
+    id: '182887f7529',
+    chapter: '直線與圓',
+    question: '求過點 $(3,7)$，斜率為 $\\frac{5}{4}$ 的直線方程式。',
+    answer: '$5x-4y=-13$',
+    hasImage: false,
+  },
+  {
+    id: '1828d742e0e',
+    chapter: '直線與圓',
+    question: '求過兩點 $(8,4)、(5,-1)$ 的直線方程式。',
+    answer: '$5x-3y=28$',
+    hasImage: false,
+  },
+  {
+    id: '1828d7f4b20',
+    chapter: '直線與圓',
+    question:
+      '(1) $A(2,1)、B(-1,6)$，求 $\\overline{AB}$ 的垂直平分線方程式。\n(2) 求到 $A(4,-2)、B(7,6)$ 等距離的動點軌跡方程式。\n(3) 平面上點 $A(3,2)$ 與 $B(-5,-2)$ 對稱於直線 $L$，求 $L$ 的方程式。\n(以上三小題都是在求垂直平分線)',
+    answer: '(1) $3x-5y=-16$ (2) $6x+16y=65$ (3) $2x+y=-2$',
+    hasImage: false,
+  },
+  {
+    id: '1828d815a14',
+    chapter: '直線與圓',
+    question: '平面上點 $P(2,-3)$，直線 $L：5x-3y=1$，求過 $P$ 與 $L$ 平行的直線方程式。',
+    answer: '$5x-3y=19$',
+    hasImage: false,
+  },
+  {
+    id: '1828d8455e1',
+    chapter: '直線與圓',
+    question:
+      '已知平面上一點 $P(-1,4)$，試求：\n(1) 通過 $P$ 且與 $5x+3y=1$ 垂直的直線方程式。\n(2) 通過 $P$ 且與 $2x-7y=3$ 垂直的直線方程式。',
+    answer: '(1) $3x-5y=-23$ (2) $7x+2y=1$',
+    hasImage: false,
+  },
+  {
+    id: '1828d8acd1d',
+    chapter: '直線與圓',
+    question:
+      '(1) 求過點 $(3,-5)$，與 $4x+7y=12$ 平行的直線方程式。\n(2) 與 $4x+5y=1$ 垂直且通過點 $(2,1)$ 的直線方程式。',
+    answer: '(1) $4x+7y=-23$ (2) $5x-4y=6$',
+    hasImage: false,
+  },
+  {
+    id: '1828d8d51e2',
+    chapter: '直線與圓',
+    question:
+      '$\\Delta{ABC}$，已知 $A$ 點坐標為 $(3,7)$，$\\overleftrightarrow{BC}$ 方程式為 $2x-5y=4$，求過 $A$ 的高所在直線之方程式。',
+    answer: '$5x++2y=29$',
+    hasImage: false,
+  },
+  {
+    id: '1828d904ecc',
+    chapter: '直線與圓',
+    question:
+      '兩直線 $L_{1}：ax-3y=5a+1$，$L_{2}：2x+(a-5)y=13-a$，若 $L_{1}$ 與 $L_{2}$：\n(1) 互相平行，求 $a$ (2) 互相重合，求 $a$。',
+    answer: '(1) $3$ (2) $2$',
+    hasImage: false,
+  },
+  {
+    id: '1828dc4b596',
+    chapter: '直線與圓',
+    question:
+      '若三直線 $L_{1}：4x+y=5$，$L_{2}：3x-2y=12$，$L_{3}：x+ay+4=0$ 不能圍成三角形，求 $a$。',
+    answer: '$\\frac{1}{4}$ 或是 $-\\frac{2}{3}$ 或是 $2$',
+    hasImage: false,
+  },
+  {
+    id: '1828dcad8f5',
+    chapter: '直線與圓',
+    question:
+      '平面上直線 $L_{1}：(k-1)x+ky=k+2$，$L_{2}：(k+1)x+2ky=10$，請問：\n(1) 若 $L_{1}$ 與 $L_{2}$ 重合，求 $k$ (2) 若 $L_{1}$ 與 $L_{2}$ 平行，求 $k$。',
+    answer: '(1) $3$ (2) $0$',
+    hasImage: false,
+  },
+  {
+    id: '1828dcd8766',
+    chapter: '直線與圓',
+    question:
+      '若三直線 $L_{1}：x+3y=1$，$L_{2}：x-y=-3$，$L_{3}：2x+ky=-1$ 不能圍成三角形，求 $k$。',
+    answer: '$6$ 或是 $-2$ 或是 $3$',
+    hasImage: false,
+  },
+  {
+    id: '1828dcf80a5',
+    chapter: '直線與圓',
+    question: '平面上直線 $L：2x-9y=72$，求 $x$ 截距，$y$ 截距，$L$ 與兩軸圍成的三角形面積。',
+    answer: '$36$；$-8$；$144$',
+    hasImage: false,
+  },
+  {
+    id: '1828dd11baa',
+    chapter: '直線與圓',
+    question: '平面上，直線的 $x$ 截距為 $-12$，$y$ 截距為 $15$，求直線方程式。',
+    answer: '$-5x+4y=60$',
+    hasImage: false,
+  },
+  {
+    id: '1828dd2d2c1',
+    chapter: '直線與圓',
+    question: '平面上直線 $L：4x+15y+120=0$，求兩軸的截距和，與兩軸圍成的三角形面積。',
+    answer: '$-38$；$120$',
+    hasImage: false,
+  },
+  {
+    id: '1828dd3d654',
+    chapter: '直線與圓',
+    question: '求 $x$ 軸截距為 $3$，$y$ 軸截距為 $-5$ 的直線方程式。',
+    answer: '$5x-3y=15$',
+    hasImage: false,
+  },
+  {
+    id: '1828dd5906d',
+    chapter: '直線與圓',
+    question: '直線在兩軸的截距和為 $3$，與兩軸圍成的三角形面積為 $9$，求該直線方程式。',
+    answer: '$-2x+y=6$ 或是 $x-2y=6$',
+    hasImage: false,
+  },
+  {
+    id: '1828dd736b5',
+    chapter: '直線與圓',
+    question: '直線在兩軸的截距和為 $-2$，與兩坐標軸圍成的三角形面積為 $4$，求此直線方程式。',
+    answer: '$-x+2y=4$ 或是 $2x-y=4$',
+    hasImage: false,
+  },
+  {
+    id: '1828dd94f51',
+    chapter: '直線與圓',
+    question: '$k$ 為任意實數，直線 $(3k+2)x+(k-1)y-(4k+1)=0$ 恆過一定點，求此定點坐標。',
+    answer: '$(1,1)$',
+    hasImage: false,
+  },
+  {
+    id: '1828ddce4de',
+    chapter: '直線與圓',
+    question:
+      '設 $m$ 為實數，$\\Delta{ABC}$ 的頂點為 $A(-1,5)、B(-3,0)、C(1,1)$，若直線 $L：y=m(x-3)+2$ 與 $\\Delta{ABC}$ 有交點，求 $m$ 的範圍。',
+    answer: '$-\\frac{3}{4}\\le m\\le \\frac{1}{2}$',
+    hasImage: false,
+  },
+  {
+    id: '1828ddfc1d8',
+    chapter: '直線與圓',
+    question: '設 $k$ 為任意實數，直線 $(2k+5)x+(k-2)y-2k+1=0$ 恆過一定點，求其坐標。',
+    answer: '$(\\frac{1}{3},\\frac{4}{3})$',
+    hasImage: false,
+  },
+  {
+    id: '1828e167b8e',
+    chapter: '直線與圓',
+    question:
+      '平面上有三點 $A(2,1)、B(3,7)、C(-5,4)$，直線 $L：y=mx+2m-1$：\n(1) 若 $L$ 與 $\\overline{AB}$ 相交，求 $m$ 的範圍。\n(2) 若 $L$ 與 $\\overline{BC}$ 相交，求 $m$ 的範圍。',
+    answer:
+      '(1) $\\frac{1}{2}\\le m\\le \\frac{8}{5}$ (2) $m\\le -\\frac{5}{3}$ 或是 $m\\ge \\frac{8}{5}$',
+    hasImage: false,
+  },
+  {
+    id: '1828e18e697',
+    chapter: '直線與圓',
+    question: "求點 $A(1,4)$ 對直線 $L：3x-2y=8$ 的投影點 $A_{0}$，對稱點 $A'$。",
+    answer: '$(4,2)$；$(7,0)$',
+    hasImage: false,
+  },
+  {
+    id: '1828e1a17a9',
+    chapter: '直線與圓',
+    question: "求點 $P(6,-7)$ 對 $3x-4y=-4$ 的投影點 $P_{0}$，對稱點 $P'$。",
+    answer: '$(0,1)$；$(-6,9)$',
+    hasImage: false,
+  },
+  {
+    id: '1828e1cec96',
+    chapter: '直線與圓',
+    question:
+      '坐標平面上的兩點 $A(1,5)、B(6,7)$，點 $P(x,0)$ 在 $x$ 軸上移動，求 $x$ 為多少時，$\\overline{PA}+\\overline{PB}$ 有最小值為多少。',
+    answer: '$\\frac{37}{12}$；$13$',
+    hasImage: false,
+  },
+  {
+    id: '1828e1effc4',
+    chapter: '直線與圓',
+    question:
+      '平面上三點 $A(2,2)、B(6,4)、P(x,0)$，求 $x$ 為多少時，使 $\\Delta{PAB}$ 周長最小為多少。',
+    answer: '$\\frac{10}{3}$；$2\\sqrt{5}+2\\sqrt{13}$',
+    hasImage: false,
+  },
+  {
+    id: '1828e2079f5',
+    chapter: '直線與圓',
+    question: '求點 $P(-3,5)$ 到直線 $L：3x-4y=6$ 的最近距離。',
+    answer: '$7$',
+    hasImage: false,
+  },
+  {
+    id: '1828e224598',
+    chapter: '直線與圓',
+    question: '求點 $P(x,y)$ 在直線 $L：7x+24y-9=0$ 上，求 $\\sqrt{(x-1)^2+(y+2)^2}$ 的最小值。',
+    answer: '$2$',
+    hasImage: false,
+  },
+  {
+    id: '1828e2376fd',
+    chapter: '直線與圓',
+    question: '點 $(1,-4)$ 到直線 $5x+12y=k$ 的距離為 $5$，求 $k$。',
+    answer: '$-108$ 或是 $22$',
+    hasImage: false,
+  },
+  {
+    id: '1828e252132',
+    chapter: '直線與圓',
+    question: '求點 $(4,1)$ 到直線 $3x-4y=2$ 的距離。',
+    answer: '$\\frac{6}{5}$',
+    hasImage: false,
+  },
+  {
+    id: '1829276afdf',
+    chapter: '直線與圓',
+    question: '點 $(x,y)$ 在直線 $12x-5y-2=0$，求 $\\sqrt{(x+3)^2+(y+1)^2}$ 的最小值。',
+    answer: '$\\frac{33}{13}$',
+    hasImage: false,
+  },
+  {
+    id: '1829278a2da',
+    chapter: '直線與圓',
+    question: '點 (2,5) 到直線 $4x+3y=k$ 的距離為 7，求 $k$。',
+    answer: '$28\\lor-42$',
+    hasImage: false,
+  },
+  {
+    id: '18292736eb9',
+    chapter: '直線與圓',
+    question: '求兩平行線 $L_1:3x-4y=4$、$L_2:6x-8y=7$ 之間的距離。',
+    answer: '$\\frac1{10}$',
+    hasImage: false,
+  },
+  {
+    id: '182927905cc',
+    chapter: '直線與圓',
+    question: '求與直線 $L:3x-4y=-1$ 平行且間距為 3 單位的直線方程式。',
+    answer: '$3x-4y=14\\lor3x-4y=-16$',
+    hasImage: false,
+  },
+  {
+    id: '1829279e1e9',
+    chapter: '直線與圓',
+    question: '求兩平行線 $L_1:5x-y-2=0$、$L_2:10x-2y-5=0$ 之間的距離。',
+    answer: '$\\frac{\\sqrt{26}}{52}$',
+    hasImage: false,
+  },
+  {
+    id: '182927a97eb',
+    chapter: '直線與圓',
+    question: '求與直線 $L:4x-3y=1$ 平行且間距為 $4$ 單位的直線方程式為何?\n',
+    answer: '$4x-3y=21$ or $4x-3y=-19$',
+    hasImage: false,
+  },
+  {
+    id: '182927b3d49',
+    chapter: '直線與圓',
+    question:
+      '求  $L_1:x-y=7$ 與 $L_2:7x+y=1$ 的兩條角平分線方程式為何?其中銳角平分線方程式為何?\n',
+    answer: '(1)$x+3y=-17$ or $3x-y=9$\n(2)$3x-y=9$',
+    hasImage: false,
+  },
+  {
+    id: '182927c1bcd',
+    chapter: '直線與圓',
+    question: '求  $3x-4y+2=0$ 與 $4x-3y-5=0$ 之銳角平分線方程式為何為何?\n',
+    answer: '$7x-7y=3$',
+    hasImage: false,
+  },
+  {
+    id: '182927d41c7',
+    chapter: '直線與圓',
+    question: '作圖:(1) $x-2y \\ge 6$ (2) $-2x+3y>12$。\n',
+    answer: '略',
+    hasImage: false,
+  },
+  {
+    id: '182927e5185',
+    chapter: '直線與圓',
+    question:
+      '平面上點 $P(3,1)$，直線 $L:2x+y=5$，請問下列哪些點與 $P$ 位在$L$ 的同側?\n(A)$(0,0)$ (B)$(1,3)$ (C)$(2,\\sqrt{3})$ (D)$(100,-100)$ (E)$(-100,100)$\n\n',
+    answer: '$C、D$',
+    hasImage: false,
+  },
+  {
+    id: '182927f0c13',
+    chapter: '直線與圓',
+    question: '作圖:(1) $2x+y \\le 4$ (2) $-x-3y<6$。\n',
+    answer: '略',
+    hasImage: false,
+  },
+  {
+    id: '18292825cfa',
+    chapter: '直線與圓',
+    question:
+      '若 $ax+by\\le c$ 的圖形如圖所示，請選出正確的選項。\n(A)$a>0$ (B)$b>0$ (C)$c>0$ \n\n',
+    answer: '$B、C$',
+    hasImage: true,
+  },
+  {
+    id: '1829280a5a1',
+    chapter: '直線與圓',
+    question:
+      '作圖:(1)$\\begin{cases}x+y+1\\ge 0\\\\x-y-2\\ge 0\\end{cases}$ \n         (2)$(x+y+1)(x-y-2)>0$。\n\n',
+    answer: '略',
+    hasImage: false,
+  },
+  {
+    id: '18292812c79',
+    chapter: '直線與圓',
+    question:
+      '聯立不等式的圖形為三角形及其內部，圖形如圖所示，其中 $L_3$ 平行 $x$ 軸，請寫出該聯立不等式。\n\n',
+    answer: '$\\begin{cases}3x-2y\\ge -6\\\\2x+y\\le 3\\\\y \\ge -1\\end{cases}$',
+    hasImage: true,
+  },
+  {
+    id: '1829283fcf1',
+    chapter: '直線與圓',
+    question:
+      '聯立不等式 $\\begin{cases}ax+by\\le c\\\\x+y \\ge d\\end{cases}$ 的圖如圖所示，則何者正確?\n(A)$a>0$ (B)$b>0$ (C)$c>0$ (D)$d>0$\n\n',
+    answer: '$B、C$',
+    hasImage: true,
+  },
+  {
+    id: '18292856c77',
+    chapter: '直線與圓',
+    question:
+      '作圖:(1)$\\begin{cases}x+2y-4\\le 0\\\\3x-y-6\\le 0\\end{cases}$\n         (2)$(x+2y-4)(3x-y-6)\\le 0$\n\n',
+    answer: '略',
+    hasImage: false,
+  },
+  {
+    id: '18292861598',
+    chapter: '直線與圓',
+    question:
+      '四邊形區域(含邊界)如圖所示，其四邊的直線方程式為 $x+y=7、x-y=3、2x+y=3、x-2y=-11$，試以聯立不等式組表示。\n\n',
+    answer: '$\\begin{cases}2x+y\\ge 3\\\\x-y\\le 3\\\\x+y \\le 7\\\\x-2y\\ge -11\\end{cases}$',
+    hasImage: true,
+  },
+  {
+    id: '18292872257',
+    chapter: '直線與圓',
+    question:
+      '若 $\\begin{cases}5x+ay\\ge b\\\\cx+dy\\le e\\end{cases}$ 如圖所示，請選出正確的選項。\n(A)$a>0$ (B)$b>0$ (C)$c>0$ (D)$d>0$ (E)$e>0$\n',
+    answer: '$A、C$',
+    hasImage: true,
+  },
+  {
+    id: '1829288068f',
+    chapter: '直線與圓',
+    question:
+      '二元一次聯立不等式 $\\begin{cases}2x+y\\le 6\\\\x+y\\ge 2\\\\x \\ge 0\\\\y\\ge 0\\end{cases}$，求此區域共有幾個格子點?($x、y$ 坐標均為完整的點)\n',
+    answer: '$13$ 個',
+    hasImage: false,
+  },
+  {
+    id: '18292893ba6',
+    chapter: '直線與圓',
+    question:
+      '已知可樂一杯 $18$ 元，果汁一杯 $30$ 元，小明用現有的 $150$ 元去買飲料，在至少購買 $2$ 杯飲料的情況下，請問小明共有幾種不同購買方式?\n',
+    answer: '$26$ 種\n',
+    hasImage: false,
+  },
+  {
+    id: '182928bfd14',
+    chapter: '直線與圓',
+    question:
+      '有一個車輪緊靠台階，如圖所示，台階的高度為 $25$ 公分，車輪與地面的接觸點距離台階 $35$ 公分，請問此車輪的直徑為多少公分?\n \n\n',
+    answer: '$74$ 公分 \n',
+    hasImage: true,
+  },
+  {
+    id: '182928cabc2',
+    chapter: '直線與圓',
+    question:
+      '坐標平面上有一單位圓，圓心為 $(7,4)$，試求圓周上所有點 $(x,y)$ 所滿足的關係式為何?\n\n',
+    answer: '$(x-7)^2+(y-4)^2=1$\n',
+    hasImage: false,
+  },
+  {
+    id: '182928d33bd',
+    chapter: '直線與圓',
+    question:
+      '坐標平面上有一圓以點 $A(3,-2)$ 為圓心，點 $B(-1,1)$ 在圓周上，試求此圓方程式為何?\n\n',
+    answer: '$(x-3)^2+(y+2)^2=25$\n',
+    hasImage: false,
+  },
+  {
+    id: '182928ecc5e',
+    chapter: '直線與圓',
+    question: '圓方程式 $2x^2+2y^2-8x+12y-15=0$ 的圓心與半徑為何?\n\n',
+    answer: '圓心=$(2,3)$\n半徑=$\\frac{\\sqrt{82}}{2}$',
+    hasImage: false,
+  },
+  {
+    id: '182928f5481',
+    chapter: '直線與圓',
+    question: '以點 $(\\sqrt{6},\\pi)$ 為圓心，半徑為 $3$ 的圓方程式為何?\n\n\n',
+    answer: '$(x-\\sqrt{6})^2+(y-\\pi)^2=9$',
+    hasImage: false,
+  },
+  {
+    id: '182929009f8',
+    chapter: '直線與圓',
+    question:
+      '坐標平面上有一圓以點 $(-4,1)$ 為圓心，點 $(0,2)$ 在圓周上，求此圓方程式為何?\n\n\n\n',
+    answer: '$(x+4)^2+(y-1)^2=17$',
+    hasImage: false,
+  },
+  {
+    id: '1829290af50',
+    chapter: '直線與圓',
+    question: '已知圓方程式 $2x^2+2y^2+ax+by-1=0$ 的圓心為 $(-1,4)$ 試求 $a、b$、半徑為何?\n\n\n\n',
+    answer: '$a=4$\n$b=-16$\n半徑=$\\frac{\\sqrt{70}}{2}$\n',
+    hasImage: false,
+  },
+  {
+    id: '1829291be5b',
+    chapter: '直線與圓',
+    question:
+      '若方程式 $axy+bx(x+y-4)+2xy+3y^2=6y$ 的圖形為一圓，求數對 $(a,b)$ 與圓心、半徑為何?\n\n\n\n',
+    answer: '$(a,b)=(-5,3)$ \n圓心=$(2,1)$\n半徑=$\\sqrt{5}$\n',
+    hasImage: false,
+  },
+  {
+    id: '18292928531',
+    chapter: '直線與圓',
+    question:
+      '設 $a$ 為實數，考慮方程式 $x^2+y^2+2x-6y+k=0$ 的圖形，若為一點，則 $k$ 與此點坐標為何?\n\n\n\n\n',
+    answer: '(1)$k=10$\n(2)(-1,3)',
+    hasImage: false,
+  },
+  {
     id: '18207a17825',
     chapter: '直線與圓',
     question:
