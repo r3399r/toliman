@@ -3102,6 +3102,14 @@ const expAndLog: Question[] = [
 // 多項式函數
 const polynomial: Question[] = [
   {
+    id: '1829fc38032',
+    chapter: '多項式函數',
+    question:
+      '已知實係數多項式 $f(x)$ 除以 $(x^4+x^3-x-1)$ 的餘式為 $ax^2-3x+1$，若 $(x-1)$ 為多項式 $f(x)$ 的因式，則多項式 $f(x)$ 除以 $(x+1)$ 的餘式為 $\\textcirc{14-1}$。',
+    answer: '6',
+    hasImage: false,
+  },
+  {
     id: '18207c333b1',
     chapter: '多項式函數',
     question:
@@ -4309,6 +4317,71 @@ const polynomial: Question[] = [
 // 直線與圓
 const lineAndCircle: Question[] = [
   {
+    id: '1829fb61cd1',
+    chapter: '直線與圓',
+    question:
+      '圓 $x^2+y^2=4$ 的切線與 $x$ 軸正向、$y$ 軸正向圍成一個三角形，則該三角形面積最小值為 $\\textcirc{12-1}$。',
+    answer: '4',
+    hasImage: false,
+  },
+  {
+    id: '1829fbea0f0',
+    chapter: '直線與圓',
+    question:
+      '$L:y=mx+9$ 與 $y=-\\dfrac13x$ 互相垂直，將直線 $L$ 向右平移 $a$ 個單位或向下平移 $b$ 個單位都會與直線 $M:y=mx$ 重合，試求數對 $(a,b)=(\\textcirc{13-1},\\textcirc{13-2})$。',
+    answer: '39',
+    hasImage: false,
+  },
+  {
+    id: '1829fc62869',
+    chapter: '直線與圓',
+    question:
+      '設 $m$ 為實數，已知圓方程式 $C:x^2+y^2-2mx+(2m+4)y+3m^2-2m-3=0$，若此圓的半徑為整數。則滿足上述條件的所有 $m$ 值的和為 $\\textcirc{15-1}\\textcirc{15-2}$。',
+    answer: '21',
+    hasImage: false,
+  },
+  {
+    id: '1829fd3e577',
+    chapter: '直線與圓',
+    question:
+      '坐標平面上，甲、乙兩人站在 $A(0,0)$，甲從 $A$ 出發走到 $B(3,1)$ 花了 5 分鐘，若速度與方向均不變，再繼續走 15 分鐘到達 $C$ 點後，再依前進方向順時針轉 $90\\du$ 後，依相同速度繼續走 5 分鐘後到達 $P$ 點；乙從 $A$ 點出發沿直線 $3x+4y=0$ 移動 10 單位後抵達 $Q$ 點，已知 $Q$ 點在 $x$ 軸下方，則 $\\overleftrightarrow{PQ}$ 斜率為 $\\dfrac{\\textcirc{16-1}}{\\textcirc{16-2}}$。(化為最簡分數)',
+    answer: '75',
+    hasImage: false,
+  },
+  {
+    id: '1829fda2890',
+    chapter: '直線與圓',
+    question:
+      '有一吊車在水平地面上實施吊掛作業，要吊起吊鉤 $A$ 正下方的貨物，如圖。已知吊臂基部 $B$ 點離地面高 2 公尺，伸出的吊臂 $\\overline{BA}$ 長 20 公尺。今發現 $A$ 點正下方有一高壓電線 $L$，為確保作業安全，必須將吊臂縮短並降低高度至電線 $L$ 以下，即吊臂位置移動至線段 $\\overline{BC}$。在正常安全情況下，設線段 $\\overline{BA}$ 斜率為 $\\dfrac43$，若線段 $\\overline{BC}$ 斜率最大值為 $\\dfrac34$，吊臂最少須縮短超過 $n$ 公尺，則 $n=\\textcirc{17-1}$。($n$ 取整數)',
+    answer: '5',
+    hasImage: true,
+    style: { width: '5.5cm' },
+  },
+  {
+    id: '1829fc891e7',
+    chapter: '直線與圓',
+    question:
+      '圖為投幣機的基本剖面構造，從右側硬幣投入口投入十元硬幣後，經由 $L_1$、$L_2$ 兩切線所構成的軌道由右至左往下滑，並經過直線型的感應器 $L_3$。如圖所示，在直角坐標平面上，三直線方程式分別為 $L_1:x-3y+8=0$、$L_2:x-3y=0$ 且 $L_3:3x-y-8=0$，設十元硬幣為一正圓，則：',
+    answer: '',
+    hasImage: true,
+    style: { width: '6.5cm' },
+  },
+  {
+    id: '1829fcc2dd1',
+    chapter: '直線與圓',
+    question:
+      '十元硬幣下滑過程中圓心所成的直線方程式為 $x-\\textcirc{18-1}y+\\textcirc{18-2}=0$。(選填題，6 分)',
+    answer: '34',
+    hasImage: false,
+  },
+  {
+    id: '1829fcd6f22',
+    chapter: '直線與圓',
+    question: '當十元硬幣滑動過程中與 $L_3$ 相切時，其圓心坐標為何？(非選擇題，9 分)',
+    answer: '(5,3) or (2,2)',
+    hasImage: false,
+  },
+  {
     id: '18286a8d994',
     chapter: '直線與圓',
     question: '坐標平面上有平行四邊形 $ABCD$，已知 $A(3,5)$、$B(6,1)$、$C(-2,3)$，求 $D$ 坐標。',
@@ -4955,7 +5028,7 @@ const lineAndCircle: Question[] = [
     id: '18207bab427',
     chapter: '直線與圓',
     question:
-      '陳老師想設計一個房間，提供給小孩及柴犬一個長方形活動的區域 $ODEF$。如圖所示小孩只在三角形 $OAB$ 區域內活動，柴犬則只在區域 $ODEF$ 內除了三角形 $OAB$ 以外的區域活動。令 $O(0,0)$, $A(4,2)$, $B(2,3)$, $D(0,4)$, $E(6,4)$, $F(6,0)$，試選出正確的選項。\n(1) 長方形 $ODEF$ 的區域(含邊界)可用不等式 $\\begin{cases}0\\le x\\le4\\\\0\\le y\\le6\\end{cases}$ 來表示\n(2) 三角形 $OAB$ 的區域(含邊界)可用不等式 $\\begin{cases}x-2y\\le0\\\\3x-2y\\ge0\\\\x+2y\\le8\\end{cases}$ 來表示\n(3) 柴犬活動的區域面積 : 小孩活動的區域面積 $=5:1$\n(4) 柴犬原本在 $E$ 點，聽到小孩叫喚聲，想跑去三角形 $OAB$ 區域，則 $E$ 點與三角形 $OAB$ 區域最近的距離為 $2\\sqrt2$\n(5) 此小孩跟柴犬會玩一種餵食的遊戲，因小孩活動區域邊界有柵欄，故當小孩在三角形 $OAB$ 區域內某點 $P$ 時，柴犬會在點 $P$ 以三角形各邊為對稱軸的對稱點接食物。若小孩在點 (3,2) 時，柴犬可能會在點 $Q(\\dfrac{17}5,\\dfrac{14}5)$',
+      '陳老師想設計一個房間，提供給小孩及柴犬一個長方形活動的區域 $ODEF$。如圖所示小孩只在三角形 $OAB$ 區域內活動，柴犬則只在區域 $ODEF$ 內除了三角形 $OAB$ 以外的區域活動。令 $O(0,0)$, $A(4,2)$, $B(2,3)$, $D(0,4)$, $E(6,4)$, $F(6,0)$，試選出正確的選項。\n(1) 長方形 $ODEF$ 的區域(含邊界)可用不等式 $\\begin{cases}0\\le x\\le4\\\\0\\le y\\le6\\end{cases}$ 來表示\n(2) 三角形 $OAB$ 的區域(含邊界)可用不等式 $\\begin{cases}x-2y\\le0\\\\3x-2y\\ge0\\\\x+2y\\le8\\end{cases}$ 來表示\n(3) 柴犬活動的區域面積 : 小孩活動的區域面積 $=5:1$\n(4) 柴犬原本在 $E$ 點，聽到小孩叫喚聲，想跑去三角形 $OAB$ 區域，則 $E$ 點與三角形 $OAB$ 區域最近的距離為 $2\\sqrt2$\n(5) 此小孩跟柴犬會玩一種餵食的遊戲，因小孩活動區域邊界有柵欄，故當小孩在三角形 $OAB$ 區域內某點 $P$ 時，柴犬會在點 $P$ 以三角形各邊為對稱軸的對稱點接食物。若小孩在點 (3,2) 時，柴犬可能會在點 $Q(\\dfrac{17}5,\\dfrac{14}5)$ 接食物',
     answer: '345',
     hasImage: true,
   },
