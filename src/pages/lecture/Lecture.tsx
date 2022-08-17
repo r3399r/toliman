@@ -43,6 +43,16 @@ const Lecture = () => {
           1-1 實數
         </Button>
       </div>
+      <div className={style.button}>
+        <Button variant="contained" onClick={onClick('b1c1s2')}>
+          1-2 絕對值
+        </Button>
+      </div>
+      <div className={style.button}>
+        <Button variant="contained" onClick={onClick('b1c1s3')}>
+          1-3 指數與常用對數
+        </Button>
+      </div>
       第三冊 Ch1 指數與對數函數
       <div className={style.button}>
         <Button variant="contained" onClick={onClick('exponentFunction')}>

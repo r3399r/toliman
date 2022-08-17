@@ -8,6 +8,8 @@ import Linear from './pages/lecture/book0/Linear';
 import Quadratic from './pages/lecture/book0/Quadratic';
 import SquareRoot from './pages/lecture/book0/SquareRoot';
 import C1S1Number from './pages/lecture/book1/C1S1Number';
+import C1S2Absolute from './pages/lecture/book1/C1S2Absolute';
+import C1S3CommonLog from './pages/lecture/book1/C1S3CommonLog';
 import C1S1ExponentFunction from './pages/lecture/book3/C1S1ExponentFunction';
 import C1S2Logarithm from './pages/lecture/book3/C1S2Logarithm';
 import C1S3LogarithmFunctiontsx from './pages/lecture/book3/C1S3LogarithmFunction';
@@ -70,6 +72,8 @@ const AppRoutes = () => (
     <Route path="/toliman/lecture/b0c4" element={<Quadratic />} />
 
     <Route path="/toliman/lecture/b1c1s1" element={<C1S1Number />} />
+    <Route path="/toliman/lecture/b1c1s2" element={<C1S2Absolute />} />
+    <Route path="/toliman/lecture/b1c1s3" element={<C1S3CommonLog />} />
 
     <Route path="/toliman/lecture/exponentFunction" element={<C1S1ExponentFunction />} />
     <Route path="/toliman/lecture/logarithm" element={<C1S2Logarithm />} />

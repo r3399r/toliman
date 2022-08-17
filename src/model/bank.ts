@@ -1100,7 +1100,7 @@ const numAndEquation: Question[] = [
     id: '1825344bd5c',
     chapter: '數與式',
     question:
-      '已知 $x<y$ ，且 $a=\\dfrac{x+2y}3$，$b=\\dfrac{2x+y}3$，$c=\\dfrac{3x+2y}5$，$d=\\dfrac{7x-3y}4$，請比較 $a,b,c,d$ 的大小。',
+      '已知 $x<y$，且 $a=\\dfrac{x+2y}3$，$b=\\dfrac{2x+y}3$，$c=\\dfrac{3x+2y}5$，$d=\\dfrac{7x-3y}4$，請比較 $a,b,c,d$ 的大小。',
     answer: '$d<b<c<a$',
     hasImage: false,
   },
@@ -1113,18 +1113,26 @@ const numAndEquation: Question[] = [
     hasImage: false,
   },
   {
+    id: '182a7b3e360',
+    chapter: '數與式',
+    question:
+      '化簡：(1) $\\sqrt{12-2\\sqrt{35}}$\n(2) $\\sqrt{8+4\\sqrt3}$　　(3) $\\sqrt{26-\\sqrt{192}}$',
+    answer: '(1) $\\sqrt7-\\sqrt5$ (2) $\\sqrt6+\\sqrt2$ (3) $2\\sqrt6-\\sqrt2$',
+    hasImage: false,
+  },
+  {
+    id: '182a7b689e2',
+    chapter: '數與式',
+    question:
+      '化簡：(1) $\\sqrt{8-2\\sqrt7}$\n(2) $\\sqrt{11+6\\sqrt2}$　　(3) $\\sqrt{11-\\sqrt{72}}$',
+    answer: '(1) $\\sqrt7-1$ (2) $3+\\sqrt2$ (3) $3-\\sqrt2$',
+    hasImage: false,
+  },
+  {
     id: '18253dc12a0',
     chapter: '數與式',
     question: '若 $\\sqrt{41+12\\sqrt5}$ 的整數部分為 $a$，小數部分為 $b$，求 $a+\\dfrac1b$。',
     answer: '$10+\\sqrt5$',
-    hasImage: false,
-  },
-  {
-    id: '18253e3677e',
-    chapter: '數與式',
-    question:
-      '化簡：(1) $\\sqrt{8-2\\sqrt7}$\n(2) $\\sqrt{11+6\\sqrt2}$\n(3) $\\sqrt{11-\\sqrt{72}}$。',
-    answer: '(1) $\\sqrt7-1$ (2) $3+\\sqrt2$ (3) $3-\\sqrt2$',
     hasImage: false,
   },
   {
@@ -1139,7 +1147,7 @@ const numAndEquation: Question[] = [
     id: '18254860518',
     chapter: '數與式',
     question:
-      '判斷下列各敘述的對錯，請選出敘述正確的選項。\n(1) 若 $a,b$ 為無理數，則 $a+b$ 必為無理數\n(2) 若 $a$ 為有理數，$b$ 為無理數，則 $a+b$ 必為無理數\n(3) 若 $a$ 為有理數，$b$ 為無理數，則 $ab$ 必為無理數\n(4) $a,b$ 為無理數，$c,d$ 為有理數，若 $a+c=b+d$，則 $a=b$ 且 $c=d$\n(5) $a,b,c,d$ 為有理數，若 $a+b\\sqrt2=c+d\\sqrt2$，則 $a=c$ 且 $b=d$',
+      '請選出正確的選項。\n(1) 若 $a,b\\notin\\mathbb Q$，則 $a+b$ 必為無理數\n(2) 若 $a\\in\\mathbb Q$，$b\\notin\\mathbb Q$，則 $a+b$ 必為無理數\n(3) 若 $a\\in\\mathbb Q$，$b\\notin\\mathbb Q$，則 $ab$ 必為無理數\n(4) $a,b\\notin\\mathbb Q$，$c,d\\in\\mathbb Q$，若 $a+c=b+d$，則 $a=b$ 且 $c=d$\n(5) $a,b,c,d\\in\\mathbb Q$，若 $a+b\\sqrt2=c+d\\sqrt2$，則 $a=c$ 且 $b=d$',
     answer: '(2)(5)',
     hasImage: false,
   },
@@ -1169,7 +1177,7 @@ const numAndEquation: Question[] = [
     id: '1825540969f',
     chapter: '數與式',
     question: '設 $a>0$，$b>0$，且 $3a+4b=10$，求 $ab$ 的最大值及此時的 $(a,b)$。',
-    answer: '$\\frac{25}{12}$；$(\\frac53,\\frac54)$；',
+    answer: '$\\frac{25}{12}$；$(\\frac53,\\frac54)$',
     hasImage: false,
   },
   {
@@ -1296,7 +1304,7 @@ const numAndEquation: Question[] = [
     id: '182556e3786',
     chapter: '數與式',
     question:
-      '設 $a=(2\\dfrac79)^{0.5}$，$b=\\dfrac{10^{1+\\sqrt2}}{0.1^{1-\\sqrt2}}$，$c=(3^{\\sqrt2})^{\\frac{\\sqrt2}2}$，$d=(\\sqrt5+1)^{\\frac32}(\\sqrt5-1)^{\\frac32}$，求 $a+b+c+d$。',
+      '設 $a=(2\\dfrac79)^{0.5}$，$b=\\dfrac{10^{1+\\sqrt2}}{0.1^{1-\\sqrt2}}$，$c=(3^{\\sqrt2})^{\\frac{\\sqrt2}2}$，$d=(\\sqrt5+1)^{\\frac32}(\\sqrt5-1)^{\\frac32}$，求 $a+b+c+d$',
     answer: '110',
     hasImage: false,
   },
@@ -1310,7 +1318,7 @@ const numAndEquation: Question[] = [
   {
     id: '1825572bb3b',
     chapter: '數與式',
-    question: '設 $2^x=5^y=3$，求：\n(1) $3^{\\frac4x}$  (2) $3^{\\frac2x-\\frac3y}$。',
+    question: '設 $2^x=5^y=3$，求：(1) $3^{\\frac4x}$　(2) $3^{\\frac2x-\\frac3y}$。',
     answer: '(1) 16 (2) $\\frac4{125}$',
     hasImage: false,
   },
@@ -1440,14 +1448,14 @@ const numAndEquation: Question[] = [
     id: '182534d6f9f',
     chapter: '數與式',
     question:
-      '若正整數 $n$ 滿足 $3^n>2^{100}$，求最小的 $n$。($\\log2\\approx0.3010，\\log3\\approx0.4771$)',
+      '若正整數 $n$ 滿足 $3^n>2^{100}$，求最小的 $n$。\n($\\log2\\approx0.3010，\\log3\\approx0.4771$)',
     answer: '64',
     hasImage: false,
   },
   {
     id: '182534ea30e',
     chapter: '數與式',
-    question: '求滿足 $2^n>10^{20}$ 的最小正整數 $n$。($\\log2\\approx0.3010$)',
+    question: '求滿足 $2^n>10^{20}$ 的最小正整數 $n$。\n($\\log2\\approx0.3010$)',
     answer: '67',
     hasImage: false,
   },
@@ -1463,7 +1471,7 @@ const numAndEquation: Question[] = [
     id: '18253504b95',
     chapter: '數與式',
     question:
-      '已知 $\\log5\\approx0.6990$，$(\\frac35)^{100}$ 自小數點後第幾位數開始不為 0？此不為 0 的數字為何？',
+      '已知 $\\log3\\approx0.4771$，$\\log5\\approx0.6990$，$(\\frac35)^{100}$ 自小數點後第幾位數開始不為 0？此不為 0 的數字為何？',
     answer: '23；6',
     hasImage: false,
   },
@@ -1486,7 +1494,7 @@ const numAndEquation: Question[] = [
   {
     id: '182406b30eb',
     chapter: '數與式',
-    question: '乘開 $(2a+3b)^3=$',
+    question: '乘開 $(2a+3b)^3$。',
     answer: '略',
     hasImage: false,
   },
@@ -1528,7 +1536,7 @@ const numAndEquation: Question[] = [
   {
     id: '1824072402b',
     chapter: '數與式',
-    question: '若 $a+b=5$，$ab=3$，且 $a>b$．求 $a-b$。',
+    question: '若 $a+b=5$，$ab=3$，且 $a>b$，求 $a-b$。',
     answer: '$\\sqrt{13}$',
     hasImage: false,
   },
@@ -1633,7 +1641,7 @@ const numAndEquation: Question[] = [
     id: '1824086d367',
     chapter: '數與式',
     question:
-      '數線上有 $A(a)$、$B(b)$ 兩點，其中 $a<b$，且在 $A$、$B$ 之間有 $P(1)$、$Q(8)$ 兩點，已知 $\\overline{PA}:\\overline{PB}=2:3$，$\\overline{QA}:\\overline{QB}=5:4$，求 $a$、$b$。',
+      '數線上有 $A(a)$、$B(b)$ 兩點，其中 $a<b$，且在 $A$、$B$ 之間有 $P(1)$、$Q(8)$ 兩點，已知 $\\overline{PA}:\\overline{PB}=2:3$，$\\overline{QA}:\\overline{QB}=5:4$，求 $a$、$b$',
     answer: '-17；28',
     hasImage: false,
   },
@@ -1912,8 +1920,8 @@ const numAndEquation: Question[] = [
     id: '17c682e7f64',
     chapter: '數與式',
     question:
-      '化簡 $(\\frac{81}{16})^{-0.25}\\cdot(\\frac{4}{9})^{-\\frac{1}{2}}\\cdot(0.25)^{-1.5}\\cdot(\\frac{27}{8})^{-\\frac{2}{3}}$。',
-    answer: '$\\frac{32}{9}$',
+      '化簡 $(\\dfrac{81}{16})^{-0.25}\\cdot(\\dfrac49)^{-\\frac12}\\cdot(0.25)^{-1.5}\\cdot(\\frac{27}8)^{-\\frac23}$。',
+    answer: '$\\frac{32}9$',
     hasImage: false,
   },
   {
@@ -1965,42 +1973,42 @@ const numAndEquation: Question[] = [
     id: '17c2b93c90b',
     chapter: '數與式',
     question: '試求 $|4x+3|=|2x|+1$ 的解。',
-    answer: '$-\\frac{1}{3}$ 或 $-2$',
+    answer: '$-\\frac13\\lor-2$',
     hasImage: false,
   },
   {
     id: '17c2b0f8115',
     chapter: '數與式',
     question: '試求 $2|5x-1|-7\\le3$ 的解。',
-    answer: '$-\\frac{4}{5}\\le x\\le-\\frac{6}{5}$',
+    answer: '$-\\frac45\\le x\\le-\\frac65$',
     hasImage: false,
   },
   {
     id: '17c2b519174',
     chapter: '數與式',
     question: '試求 $2\\le|x+4|<5$ 的解並求其整數解個數。',
-    answer: '$-2\\le x<1$ 或 $-9< x\\le-6$；$6$',
+    answer: '$-2\\le x<1\\lor-9< x\\le-6$；$6$',
     hasImage: false,
   },
   {
     id: '17c2b22ab34',
     chapter: '數與式',
     question: '試求 $|3x-1|<8$ 的解並求其整數解個數。',
-    answer: '$-\\frac{7}{3}<x<3$；$5$',
+    answer: '$-\\frac73<x<3$；$5$',
     hasImage: false,
   },
   {
     id: '17c2b245f7f',
     chapter: '數與式',
     question: '試求 $|2x+3|>9$ 的解。',
-    answer: '$x<-6$ 或 $x>3$',
+    answer: '$x<-6\\lor x>3$',
     hasImage: false,
   },
   {
     id: '17c2b2a519f',
     chapter: '數與式',
-    question: '化簡 $(\\frac{81}{16})^{-0.25}+(0.25)^{-2.5}$',
-    answer: '$32\\frac{2}{3}$',
+    question: '化簡 $(\\dfrac{81}{16})^{-0.25}+0.25^{-2.5}$',
+    answer: '$32\\frac23$',
     hasImage: false,
   },
   {
@@ -2008,14 +2016,14 @@ const numAndEquation: Question[] = [
     chapter: '數與式',
     question:
       '化簡 $(3^\\sqrt{2})^\\sqrt{2}+2^{\\pi+1}\\cdot2^{-\\pi}+\\dfrac{36^\\sqrt{5}}{6^\\sqrt{20}}+$\n$(\\sqrt{3}+\\sqrt{2})^{\\pi}(\\sqrt{3}-\\sqrt{2})^{\\pi}$。',
-    answer: '$13$',
+    answer: '13',
     hasImage: false,
   },
   {
     id: '17c2b38b1a4',
     chapter: '數與式',
     question: '設 $2^x=5$，$3^y=25$，求 $5^{\\frac{3}{x}+\\frac{4}{y}}$。',
-    answer: '$72$',
+    answer: '72',
     hasImage: false,
   },
   {
