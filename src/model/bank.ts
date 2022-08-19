@@ -1097,6 +1097,98 @@ const beginner: Question[] = [
 // 數與式
 const numAndEquation: Question[] = [
   {
+    id: '182af18b972',
+    chapter: '數與式',
+    question: '因式分解 $8x^3-27y^3$',
+    answer: '$(2x-3y)(4x^2+6xy+9y^2)$',
+    hasImage: false,
+  },
+  {
+    id: '182af19f91e',
+    chapter: '數與式',
+    question: '若 $a+b=7$，$a^2+b^2=39$，求 $ab$、$a^3+b^3$。',
+    answer: '5；238',
+    hasImage: false,
+  },
+  {
+    id: '182af1c1c57',
+    chapter: '數與式',
+    question: '若 $a-b=2$，$ab=1$，求：\n(1) $a^2+b^2$ (2) $a^4+b^4$ (3) $a^6+b^6$。',
+    answer: '(1) 6 (2) 34 (3) 198',
+    hasImage: false,
+  },
+  {
+    id: '182af1d6421',
+    chapter: '數與式',
+    question:
+      '若 $x-\\dfrac1x=4$，求：\n(1) $x^2+\\dfrac1{x^2}$ (2) $x^3-\\dfrac1{x^3}$ (3) $x^4+\\dfrac1{x^4}$',
+    answer: '(1) 18 (2) 76 (3) 322',
+    hasImage: false,
+  },
+  {
+    id: '182af24a857',
+    chapter: '數與式',
+    question:
+      '將下列循環小數化成最簡分數：\n(1) $0.\\overline{25}$ (2) $1.3\\overline{24}$ (3) $3.21\\overline5$',
+    answer: '(1) $\\frac{25}{99}$ (2) $\\frac{437}{330}$ (3) $\\frac{1447}{450}$',
+    hasImage: false,
+  },
+  {
+    id: '182af2597b0',
+    chapter: '數與式',
+    question: '化簡 $\\sqrt{1.\\overline7}\\times\\sqrt{7.\\overline7+8.\\overline8}$',
+    answer: '$\\frac{20\\sqrt6}9$',
+    hasImage: false,
+  },
+  {
+    id: '182af269992',
+    chapter: '數與式',
+    question:
+      '下列哪些數字可以化成無限循環小數？\n(1) $\\dfrac{27}8$ (2) $\\dfrac8{27}$ (3) $\\dfrac{25}{70}$ (4) $\\dfrac{15}{12}$ (5) $\\sqrt2$',
+    answer: '(2)(3)',
+    hasImage: false,
+  },
+  {
+    id: '182af289888',
+    chapter: '數與式',
+    question:
+      '數線上點 $A(1.\\overline2)$、$B(7.\\overline3)$，若點 $P(x)$ 在 $A$、$B$ 之間且 $\\overline{PA}:\\overline{PB}=3:2$，求 $x$。',
+    answer: '$\\frac{44}9$',
+    hasImage: false,
+  },
+  {
+    id: '182af2aaf39',
+    chapter: '數與式',
+    question:
+      '數線上，已知 $A(3)$、$B(11)$，若點 $P(x)$ 滿足 $\\overline{PA}:\\overline{PB}=2:5$，求 $P$ 點坐標。',
+    answer: '$\\frac{37}7\\lor-\\frac73$',
+    hasImage: false,
+  },
+  {
+    id: '182af2bc169',
+    chapter: '數與式',
+    question:
+      '數線上有 $A(x-3)$、$B(2x+7)$ 兩點，$P(5)$ 在 $A$、$B$ 之間且 $\\overline{PA}:\\overline{PB}=3:4$，求 $x$。',
+    answer: '$\\frac{13}5$',
+    hasImage: false,
+  },
+  {
+    id: '182af2d8395',
+    chapter: '數與式',
+    question:
+      '數線上有 $A(x)$ 與 $B(y)$ 兩點，若 $P(1)$ 在 $\\overline{AB}$ 內且 $\\overline{PA}:\\overline{PB}=2:3$，$Q(-13)$ 在 $\\overline{AB}$ 外且 $\\overline{QA}:\\overline{QB}=1:2$，求 $\\overline{AB}$。',
+    answer: '10',
+    hasImage: false,
+  },
+  {
+    id: '182af2e8d4e',
+    chapter: '數與式',
+    question:
+      '數線上有 $A(a)$ 與 $B(b)$ 兩點，$a<b$，另有一點 $P(\\dfrac{3a+4b}7)$，若 $\\overline{PA}=12$，求 $\\overline{PB}$。',
+    answer: '9',
+    hasImage: false,
+  },
+  {
     id: '1825344bd5c',
     chapter: '數與式',
     question:
@@ -1187,6 +1279,7 @@ const numAndEquation: Question[] = [
       '半圓的直徑為 6，內接矩形 $ABCD$，其中 $\\overline{AB}$ 落在直徑上，如圖，試求矩形 $ABCD$ 的最大面積。',
     answer: '9',
     hasImage: true,
+    style: { width: '4cm' },
   },
   {
     id: '1825547733e',
