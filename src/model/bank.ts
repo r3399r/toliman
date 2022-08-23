@@ -3203,6 +3203,487 @@ const expAndLog: Question[] = [
 // 多項式函數
 const polynomial: Question[] = [
   {
+    id: '182c50491f3',
+    chapter: '多項式函數',
+    question:
+      '下列哪些選項為 $x$ 的多項式？\n(1) $100x$ (2) $\\frac{x^2}{\\sqrt{2}}+1$ (3) $x^{-2}+x$ (4) $\\frac{x^2-1}{x+1}$ (5) $\\sqrt{x}+1$ (6) $|3x+1|$',
+    answer: '(1)(2)',
+    hasImage: false,
+  },
+  {
+    id: '182c50797a6',
+    chapter: '多項式函數',
+    question:
+      '下列何者為 $x$ 的多項式？\n(1) $x+\\frac{1}{x}$ (2) $\\frac{x}{\\pi}$ (3) $\\sqrt{x^2}$ (4) $|x^2-1|$',
+    answer: '(2)',
+    hasImage: false,
+  },
+  {
+    id: '182c50b80c8',
+    chapter: '多項式函數',
+    question:
+      '若 $f(x)=x^{4}+2x，g(x)=3x^{2}+x+7$，求：\n(1) $3f(x)+4g(x)$。\n(2) $f(x)\\cdot g(x)$。',
+    answer: '(1) $3x^{4}+12x^{2}+10x+28$ (2) $3x^{6}+x^{5}+7x^{4}+6x^{3}+2x^{2}+14x$',
+    hasImage: false,
+  },
+  {
+    id: '182c51261ac',
+    chapter: '多項式函數',
+    question:
+      '設 $f(x)$ 與 $g(x)$ 為 $7$ 次與 $4$ 次多項式，求 $[f(x)+g(x)]\\cdot[xg(x)+2]$ 次數。',
+    answer: '$12$',
+    hasImage: false,
+  },
+  {
+    id: '182c519bad9',
+    chapter: '多項式函數',
+    question:
+      '若 $f(x)=2x^{3}-4x^{2}-5x+1$$=a(x-2)(x-1)(x+3)$$+b(x-2)(x-1)+c(x-2)+d$，求 $a，b，c，d$。',
+    answer: '$2$；$-4$；$-3$；$-9$',
+    hasImage: false,
+  },
+  {
+    id: '182c59bb5a5',
+    chapter: '多項式函數',
+    question: '若二次多項式 $f(x)=ax^2+bx+c$ 滿足 $f(1)=7，f(3)=1，f(4)=10$，求 $a，b，c$。',
+    answer: '$4$；$-19$；$22$',
+    hasImage: false,
+  },
+  {
+    id: '182c59cfc9a',
+    chapter: '多項式函數',
+    question: '二次多項式 $f(x)$ 滿足 $f(1998)=3，f(2000)=1，f(2001)=6$，求 $f(2002)$。',
+    answer: '$15$',
+    hasImage: false,
+  },
+  {
+    id: '182c59e6656',
+    chapter: '多項式函數',
+    question: '若 $f(x)=7x^2+2x-10=a(x+1)(x-2)+b(x+1)+c$，求 $a，b，c$。',
+    answer: '$7$；$9$；$-5$',
+    hasImage: false,
+  },
+  {
+    id: '182c59fe482',
+    chapter: '多項式函數',
+    question: '二次函數 $f(x)$ 滿足 $f(2)=9，f(-1)=0，f(4)=5$，求 $f(x)$。',
+    answer: '$-x^2+4x+5$',
+    hasImage: false,
+  },
+  {
+    id: '182c5a1665f',
+    chapter: '多項式函數',
+    question: '二次多項式 $f(x)$ 過點 $A(997,3)、B(999,-2)、C(1001,1)$，求 $f(1003)$。',
+    answer: '$12$',
+    hasImage: false,
+  },
+  {
+    id: '182c5a3a89a',
+    chapter: '多項式函數',
+    question: '以 $x+3$ 除 $x^4+4x^3-x^2+30$，用分離係數及綜合除法分別求商，餘式。',
+    answer: '$x^3+x^2-4x+12$；$-6$',
+    hasImage: false,
+  },
+  {
+    id: '182c5a5b249',
+    chapter: '多項式函數',
+    question: '以 $x+2$ 除 $x^5+2x^3+x^2-3$，求商以及餘式。',
+    answer: '$x^4-2x^3+6x^2-11x+22$；$-47$',
+    hasImage: false,
+  },
+  {
+    id: '182c6228fbe',
+    chapter: '多項式函數',
+    question:
+      '若 $f(x)=2x^3-x^2+4x-5$$=a(x-2)^3+b(x-2)^2+c(x-2)+d$，求 $a，b，c，d，f(1.99)，f(2+\\sqrt{5})$。',
+    answer: '$2$；$11$；$24$；$15$；$14.761098$；$70+34\\sqrt{5}$',
+    hasImage: false,
+  },
+  {
+    id: '182c6269548',
+    chapter: '多項式函數',
+    question:
+      '若 $f(x)=x^4-8x^3+25x^2-30x+5=a(x-3)^4+b(x-3)^3+c(x-3)^2+d(x-3)+e$，求序組 $(a,b,c,d,e)，f(2.9)$。',
+    answer: '$(1,4,7,12,5)$；$6.73$',
+    hasImage: false,
+  },
+  {
+    id: '182c62b9173',
+    chapter: '多項式函數',
+    question:
+      '若 $f(x)=(2x^3+x+3)(x^2+2x-1)+(x^2+1)$，試求：\n(1) $f(x)$ 除以 $2x^3+x+3$ 的商，餘式。\n(2) $f(x)$ 除以 $x^2+2x-1$ 的商，餘式。',
+    answer: '(1) $x^2+2x-1$；$x^2+1$ (2) $2x^3+x+4$；$-2x+2$',
+    hasImage: false,
+  },
+  {
+    id: '182c62effb7',
+    chapter: '多項式函數',
+    question:
+      '若多項式 $f(x)$ 除以 $x^2+3x+1$ 的餘式為 $2x+5$，求 $x^2f(x)$ 除以 $x^2+3x+1$ 的餘式。',
+    answer: '$x+1$',
+    hasImage: false,
+  },
+  {
+    id: '182c631e45b',
+    chapter: '多項式函數',
+    question:
+      '設多項式 $f(x)=(x^4+2x+4)(x^2-5x+1)+2x^3-x^2+1$，試求：\n(1) $f(x)$ 除以 $x^4+2x+4$ 的商，餘式。\n(2) $f(x)$ 除以 $x^2-5x+1$ 的商，餘式。',
+    answer: '(1) $x^2-5x+1$；$2x^3-x^2+1$ (2) $x^4+4x+13$；$43x-8$',
+    hasImage: false,
+  },
+  {
+    id: '182c63397c5',
+    chapter: '多項式函數',
+    question:
+      '若多項式 $f(x)$ 除以 $x^2+2x+3$ 的餘式為 $x+8$，求 $x^2f(x)+4x-1$ 除以 $x^2+2x+3$ 的餘式。',
+    answer: '$-11x-19$',
+    hasImage: false,
+  },
+  {
+    id: '182c6362739',
+    chapter: '多項式函數',
+    question:
+      '若 $f(x)=5x^{95}+19x^2-7$，試求：\n(1) $f(x)$ 除以 $x+1$ 的餘式。\n(2) 設 $g(x)=x^2+4x+4$，求 $f(g(x))$ 除以 $x+3$ 的餘式。',
+    answer: '(1) $7$ (2) $17$',
+    hasImage: false,
+  },
+  {
+    id: '182c6385b19',
+    chapter: '多項式函數',
+    question:
+      '若 $f(x)=x^{36}-4x^8+5x^4+3x-1$，試求：\n(1) $f(x)$ 除以 $x+1$ 的餘式。\n(2) $f(x^2+x-1)$ 除以 $x+2$ 的餘式。',
+    answer: '(1) $-2$ (2) $4$',
+    hasImage: false,
+  },
+  {
+    id: '182c63a444d',
+    chapter: '多項式函數',
+    question: '若 $f(x)=1250x^6-2790x^5-3125x^4+707x^3+100x^2+45x-62$，求 $f(3)$。',
+    answer: '$217$',
+    hasImage: false,
+  },
+  {
+    id: '182c63d0e8c',
+    chapter: '多項式函數',
+    question:
+      '(1) 若 $f(x)=x^7-50x^5+6x^4+4x^3+26x^2+x-5$，求 $f(7)$。\n(2) 若 $f(x)=x^5-4x^4-72x^3-56x^2+20x+2$，求 $f(11)$。',
+    answer: '(1) $247$ (2) $101$',
+    hasImage: false,
+  },
+  {
+    id: '182c63ef8b6',
+    chapter: '多項式函數',
+    question: '設 $f(x)=ax^{10}+8x^3-12x^2+4x+5$，若 $2x+1$ 是 $f(x)$ 的因式，求 $a$。',
+    answer: '$1024$',
+    hasImage: false,
+  },
+  {
+    id: '182c63fc5fb',
+    chapter: '多項式函數',
+    question: '若 $x+3$ 是 $x^5+2x^4+ax+27$ 的因式，求 $a$。',
+    answer: '$-18$',
+    hasImage: false,
+  },
+  {
+    id: '182c641fe76',
+    chapter: '多項式函數',
+    question:
+      '若多項式 $f(x)$ 除以 $x-2$ 得餘式 $7$，除以 $x+3$ 得餘式 $-8$，求 $f(x)$ 除以 $(x-2)(x+3)$ 的餘式。',
+    answer: '$3x+1$',
+    hasImage: false,
+  },
+  {
+    id: '182c643dcfd',
+    chapter: '多項式函數',
+    question:
+      '設多項式 $f(x)$ 除以 $(x+1)(x-2)$ 得餘式為 $3x-1$，$f(x)$ 除以 $(x-1)(x+3)$ 得餘式為 $5x-10$，求 $f(x)$ 除以 $(x-2)(x+3)$ 的餘式。',
+    answer: '$6x-7$',
+    hasImage: false,
+  },
+  {
+    id: '182c6491d92',
+    chapter: '多項式函數',
+    question:
+      '若多項式 $f(x)$ 除以 $x-3$ 得餘式 $16$，且 $f(x)$ 除以 $x+4$ 得餘式 $-19$，求 $f(x)$ 除以 $(x-3)(x+4)$ 的餘式。',
+    answer: '$5x+1$',
+    hasImage: false,
+  },
+  {
+    id: '182c64971da',
+    chapter: '多項式函數',
+    question:
+      '設多項式 $f(x)$ 除以 $x^2-5x+4$，餘式為 $x+2$；除以 $x^2-5x+6$，餘式為 $3x+4$，求多項式 $f(x)$ 除以 $x^2-4x+3$ 的餘式。',
+    answer: '$5x-2$',
+    hasImage: false,
+  },
+  {
+    id: '182c64c44f4',
+    chapter: '多項式函數',
+    question:
+      '已知 $f(x)$ 不低於三次，若以 $x-1$ 除之餘 $3$，以 $x+1$ 除之餘 $1$，以 $x-2$ 除之餘 $-2$，求以 $(x-1)(x+1)(x-2)$ 除 $f(x)$ 的餘式。',
+    answer: '$-2x^2+x+4$',
+    hasImage: false,
+  },
+  {
+    id: '182c64e379f',
+    chapter: '多項式函數',
+    question:
+      '若多項式 $f(x)$ 以 $x-1、x-2、x-3$ 除之依次餘 $-4、1、2$，求以 $(x-1)(x-2)(x-3)$ 除之的餘式。',
+    answer: '$-2x^2+11x-13$',
+    hasImage: false,
+  },
+  {
+    id: '182c650e595',
+    chapter: '多項式函數',
+    question:
+      '設 $f(x)$ 為三次多項式，若 $f(x)$ 除以 $x^2-1$ 餘 $3x+1$，除以 $x^2+1$ 餘 $-x+3$，試求 $f(x)$。',
+    answer: '$2x^3-x^2+x+2$',
+    hasImage: false,
+  },
+  {
+    id: '182c651fe31',
+    chapter: '多項式函數',
+    question:
+      '設 $f(x)$ 為三次多項式，若 $f(x)$ 除以 $x^2-x-2$ 餘 $3x+12$，除以 $x^2+2$ 餘 $3x-6$，試求 $f(x)$。',
+    answer: '$-x^3+5x^2+x+4$',
+    hasImage: false,
+  },
+  {
+    id: '182c0777e48',
+    chapter: '多項式函數',
+    question:
+      '某次全班考試的成續均不佳，最高僅 $50$ 分，老師想用一個線型函數來調整分數，使 $50$ 分變成 $100$ 分，$20$ 分變為 $60$ 分，則原來分數為 $41$ 分的可調整為幾分?\n',
+    answer: '$88$ 分',
+    hasImage: false,
+  },
+  {
+    id: '182c079e6a2',
+    chapter: '多項式函數',
+    question:
+      '線型函數 $y=f(x)$，已知 $f(7)=13$，$f(10)=7$，若 $f(m)=0$，$f(0)=n$，則數對 $(m,n)$、$f(f(1))$ 為何?\n',
+    answer: '$(m,n)=(\\frac{27}{2},27)$\n$f(f(1))=-23$\n',
+    hasImage: false,
+  },
+  {
+    id: '182c07aecea',
+    chapter: '多項式函數',
+    question:
+      '請將下列二次式配成平方式，並求出頂點坐標:\n(1)$y=x^2+6x-1$ 的頂點坐標為何?\n(2)$y=x^2-x+1$ 的頂點坐標為何?\n(3)$y=-2x^2+8x+3$ 的頂點坐標為何?\n\n',
+    answer: '(1)$(-3,-10)$\n(2)$(\\frac{1}{2},\\frac{3}{4})$\n(3)$(2,11)$\n',
+    hasImage: false,
+  },
+  {
+    id: '182c07daa5e',
+    chapter: '多項式函數',
+    question:
+      '請將下列二次式配成平方式，並求出頂點坐標:\n(1)$y=x^2-10x+5$ 的頂點坐標為何?\n(2)$y=4x^2+16x+11$ 的頂點坐標為何?\n(3)$y=-3x^2+4x+5$ 的頂點坐標為何?\n',
+    answer: '(1)$(5,-20)$\n(2)$(-2,-5)$\n(3)$(\\frac{2}{3},\\frac{19}{3})$\n',
+    hasImage: false,
+  },
+  {
+    id: '182c07e3dba',
+    chapter: '多項式函數',
+    question: '將 $y=-5^2+4x+1$ 的圖形先向右移 $2$，再向下移 $3$，所得圖形的函數關係式為何?\n\n',
+    answer: ' $y=-5x^2+24x-30$\n',
+    hasImage: false,
+  },
+  {
+    id: '182c082b620',
+    chapter: '多項式函數',
+    question: '將 $y=5x^2-17x+2$ 的圖形先向左移 $1$，再向下移 $4$，所得圖形的函數關係式為何?\n\n\n',
+    answer: ' $y=5x^2-7x-14$',
+    hasImage: false,
+  },
+  {
+    id: '182c084b7be',
+    chapter: '多項式函數',
+    question:
+      '二次函數 $y=f(x)=3(x-5)^2+1$，請問:\n(1)若 $x$ 為任意實數，在 $x$ 為何時，$y$ 有最小值為何?\n(2)若 $0\\le x \\le4$ 為 $x$ 的限定範圍，在 $x$ 為何時，$y$ 有最大值為何?在 $x$ 為何時，$y$ 有最小值為何?\n\n\n\n',
+    answer:
+      '(1)$x=5$ 時，$y$ 有最小值 $1$\n(2)$x=0$ 時，$y$ 有最大值 $76$；在 $x=4$ 時，$y$ 有最小值 $4$',
+    hasImage: false,
+  },
+  {
+    id: '182c085f33d',
+    chapter: '多項式函數',
+    question:
+      '(1)若 $-5\\le x\\le5$，則 $y=-2(x+3)^2+5$ 在 $x$ 為何時，$y$ 有最大值為何?在 $x$ 為何時，$y$ 有最小值為何?\n(2)若 $-2\\le x\\le3$，則 $f(x)=x^2-2x+5$ 的最小值為何?最大值為何?\n\n',
+    answer:
+      '(1)$x=-3$ 時，$y$ 有最大值 $5$；在 $x=5$ 時，$y$ 有最小值 $-123$\n(2)最小值 $4$；最大值 $13$',
+    hasImage: false,
+  },
+  {
+    id: '182c08894ba',
+    chapter: '多項式函數',
+    question: '若函數 $y=ax^2+12x+b$ 在 $x=3$ 時，有最大值 $4$ ，則 $a、b$ 為何?\n\n\n',
+    answer: ' $a=-2、b=-14$',
+    hasImage: false,
+  },
+  {
+    id: '182c0896c4e',
+    chapter: '多項式函數',
+    question: '若 $y=ax^2+bx+5$ 在 $x=2$ 時，有最小值為 $1$，則 $a、b$ 為何?\n\n\n\n',
+    answer: ' $a=1、b=-4$',
+    hasImage: false,
+  },
+  {
+    id: '182c08aa931',
+    chapter: '多項式函數',
+    question:
+      '設 $a、b、c$ 為實數，$f(x)=ax^2+bx+c$ 的圖形如圖所示，判別各值的正負:\n(1)$a$_0 \n(2)$b$_$0$ \n(3)$c$_$0$ \n(4)$b^2-4ac$_$0$\n(5)$a+b+c$_$0$ \n(6)$4a+2b+c$_$0$ \n(7)$2a+b+3c$_$0$\n\n\n\n',
+    answer: '(1)$<$\n(2)$<$\n(3)$>$\n(4)$>$\n(5)$=$\n(6)$<$\n(7)$>$',
+    hasImage: true,
+  },
+  {
+    id: '182c08f84ef',
+    chapter: '多項式函數',
+    question:
+      '若 $a>0，b>0，c<0$，則 $y=ax^2+bx+c$ 的頂點位於何處？\n(1)第一象限內 (2)第二象限內 (3)第三象限內 (4)第四象限內 (5)坐標軸上\n\n\n\n',
+    answer: '$3$',
+    hasImage: false,
+  },
+  {
+    id: '182c09045f1',
+    chapter: '多項式函數',
+    question: '若二次函數 $f(x)$ 過三點 $A(1,6)、B(4,-15)、C(3,-4)$，則 $f(x)$ 為何?\n\n\n\n\n',
+    answer: '$f(x)=-2x^2+3x+5$',
+    hasImage: false,
+  },
+  {
+    id: '182c0920e8c',
+    chapter: '多項式函數',
+    question: '若二次函數 $f(x)$ 的頂點為 $(-2,13)$，且過 $(1,-5)$，則 $f(x)$ 為何?\n\n\n\n\n',
+    answer: '$f(x)=-2x^2-8x+5$',
+    hasImage: false,
+  },
+  {
+    id: '182c09aa6fb',
+    chapter: '多項式函數',
+    question:
+      '若二次函數 $f(x)$ 的圖形交 $x$ 軸於 $(-4,0)$ 與 $(-1,0)$ 兩點，且與 $y$ 軸交於 $(0,3)$，則 $f(x)$ 為何?\n\n\n\n\n\n',
+    answer: '$f(x)=\\frac{3}{4}(x+4)(x+1)$',
+    hasImage: false,
+  },
+  {
+    id: '182c09fa603',
+    chapter: '多項式函數',
+    question: '二次函數 $f(x)$，若 $f(-1)=3，$f(2)=6$，f(3)=-1$，則 $f(x)$ 為何?\n\n\n\n\n\n\n',
+    answer: '$f(x)=-2x^2+3x+8$',
+    hasImage: false,
+  },
+  {
+    id: '182c09b4df4',
+    chapter: '多項式函數',
+    question: '若二次函數 $f(x)$ 的頂點 $(2,1)$，且過 $(4,3)$，則 $f(x)$ 為何?\n\n\n\n\n\n\n',
+    answer: '$\\frac{1}{2}(x-2)^2+1$',
+    hasImage: false,
+  },
+  {
+    id: '182c0a086ec',
+    chapter: '多項式函數',
+    question:
+      '若二次函數 $f(x)$ 的圖形交 $x$ 軸於 $(1,0)$ 與 $(7,0)$ 兩點，且與 $y$ 軸交於 $(0,-14)$，則 $f(x)$ 為何?\n\n\n\n\n\n\n',
+    answer: '$f(x)=-2x^2+16x-14$',
+    hasImage: false,
+  },
+  {
+    id: '182c0a19bab',
+    chapter: '多項式函數',
+    question:
+      '若 $f(x)=ax^3 +bx$ 滿足 $f(-5)>0$ 且 $f(2)>0$，則 $y=ax+b$ 的圖形為下列哪一個選項?\n(1) (2) (3) (4)\n\n\n\n\n\n\n\n',
+    answer: '$3$',
+    hasImage: true,
+  },
+  {
+    id: '182c0a258d8',
+    chapter: '多項式函數',
+    question:
+      '若 $y=ax^3+bx$ 的圖形如圖所示，則 $y=bx^3-ax$ 的圖形為下列哪一個選項?\n(1) (2) (3) (4)\n\n\n\n\n\n\n\n',
+    answer: '$3$',
+    hasImage: true,
+  },
+  {
+    id: '182c0a48915',
+    chapter: '多項式函數',
+    question:
+      '$y=f(x)=2x^3+5x$ 的圖形對稱於原點，試問：\n(1)$f(x)$ 的圖形向左平移 $1$ 再向上平移 $3$，得到 $g(x)$ 的圖形，則 $g(x)$ 為何?\n(2)$h(x)$ 的圖形向左平移 $4$ 再向上平移 $7$，得到 $f(x)$ 的圖形，則 $h(x)$ 為何?\n\n\n\n\n\n\n',
+    answer: '(1)$2(x+1)^3+5(x+1)+3$\n(2)$2(x-4)^3+5(x-4)-7$',
+    hasImage: false,
+  },
+  {
+    id: '182c0a5821b',
+    chapter: '多項式函數',
+    question:
+      '$y=a(x-h)^3+b(x-h)+c$ 的圖形如圖所示，請問下列選項哪些為真？\n(1)$a>0$\n(2)$b>0$\n(3)$c>0$\n(4)$h>0$\n\n\n\n\n\n\n\n',
+    answer: '$1、4$',
+    hasImage: true,
+  },
+  {
+    id: '182c0a67bdf',
+    chapter: '多項式函數',
+    question:
+      '將 $y=-4x^3+5x$ 的函數圖形\n(1)先向左平移 $1$ 再向下平移 $6$，所得圖形之函數式為 $y$ 為何?\n(2)先向右平移 $7$ 再向上平移 $2$，所得圖形之函數式為 $y$ 為何?\n\n\n\n\n\n\n\n\n',
+    answer: '(1)$-4(x+1)^3+5(x+1)-6$\n(2)$-4(x-7)^3+5(x-7)+2$',
+    hasImage: false,
+  },
+  {
+    id: '182c0a842ea',
+    chapter: '多項式函數',
+    question:
+      '設 $a、b、p、q$ 均為非零實數，若 $f(x)=a(x-p)^3+b(x-p)+q$ 的圖形只通過第二及第四象限，請間下列哪些選項的推論為真？\n(1)$a<0$\n(2)$b<0$\n(3)$p<0$\n(4)$q<0$\n(5)$pq<0$\n\n\n\n\n\n\n\n\n\n',
+    answer: '$1、5$',
+    hasImage: false,
+  },
+  {
+    id: '182c0ad07b9',
+    chapter: '多項式函數',
+    question:
+      '將下列各三次函數配立方，並求出對稱中心的坐標:\n(1)$y=x^3+6x^2-x+1$\n(2)$y=2x^3-6x^2+7x+4$\n\n\n\n\n\n\n\n\n\n\n',
+    answer: '(1)$(x+2)^3-13(x+2)+19、(-2,19)$\n(2)$2(x-1)^3+(x-1)+7、(1,7)$',
+    hasImage: false,
+  },
+  {
+    id: '182c0ae5956',
+    chapter: '多項式函數',
+    question:
+      '將下列各三次函數配立方，並求出對稱中心的坐標:\n(1)$y=-x^3-9x^2+x+1$\n(2)$y=2x^3+18x^2-x-5$\n\n\n\n\n\n\n\n\n\n\n',
+    answer: '(1)$-(x+3)^3+28(x+3)-56、(-3,-56)$\n(2)$2(x+3)^3-55(x+3)+106、(-3,106)$',
+    hasImage: false,
+  },
+  {
+    id: '182c0b1abdf',
+    chapter: '多項式函數',
+    question:
+      '在 $x$ 很大時，$y=-4x^3+5x^2-x+7$ 的大域圖形會接近哪一個選項？\n(1)$y=-x^3$\n(2)$y=-2x^3$\n(3)$y=-3x^3$\n(4)$y=-4x^3$\n(5)$y=-5x^3$\n\n\n\n\n\n\n\n\n\n\n\n',
+    answer: '$4$',
+    hasImage: false,
+  },
+  {
+    id: '182c0b29b5e',
+    chapter: '多項式函數',
+    question:
+      '在 $x$ 靠近 $1$ 時，$y=x^3+2x^2-4x+1$ 的局部圖形會接近哪一個選項？\n(1)$y=x-1$\n(2)$y=2x-2$\n(3)$y=3x-3$\n(4)$y=4x-4$\n(5)$y=5x-5$\n\n\n\n\n\n\n\n\n\n\n\n\n',
+    answer: '$3$',
+    hasImage: false,
+  },
+  {
+    id: '182c0bfe5a5',
+    chapter: '多項式函數',
+    question:
+      '若 $y=f(x)$ 的函數圖形如圖所示，請間：\n(1)方程式 $f(x)=0$ 的相異實根 $x$ 為何?\n(2)不等式 $f(x)>0$ 的解為何?\n(3)不等式 $f(x)\\ge0$ 的解為?\n(4)不等式 $f(x)<0$ 的解為?\n(5)不等式 $f(x)\\le0$ 的解為?\n\n\n\n\n\n\n\n\n\n\n\n\n\n',
+    answer:
+      '(1)$-2$ or $3$ or $6$\n(2)$x<-2$ or $-2<x<3$ or $x>6$\n(3)$x\\le3$ or $x \\ge 6$\n(4)$3<x<6$\n(5)$x=-2$ or $3\\le6$',
+    hasImage: true,
+  },
+  {
+    id: '182c0d34edb',
+    chapter: '多項式函數',
+    question:
+      '若 $y=f(x)$ 的函數圖形如圖所示，請問:\n(1)方程式 $f(x)=0$ 的解 $x$ 為何?\n(2)不等式 $f(x)>0$ 的解為何?\n(3不等式 $f(x)<0$ 的解為何?\n(4)不等式 $f(x)\\le0$ 的解為何?\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n',
+    answer: '(1)$1$ or $5$\n(2)$x>5$\n(3)$x<1$ or $1<x<5$\n(4)$x\\le5$',
+    hasImage: true,
+  },
+  {
     id: '1829fc38032',
     chapter: '多項式函數',
     question:
@@ -4417,6 +4898,216 @@ const polynomial: Question[] = [
 
 // 直線與圓
 const lineAndCircle: Question[] = [
+  {
+    id: '182b73a19ad',
+    chapter: '直線與圓',
+    question:
+      '方程式 $(3a+2b)x^2+(a-b-11)xy+(b-3)y^2+(6-2b)x=0$ 的圖形為圓，求 $a，b$，圓心，半徑。',
+    answer: '$2$；$-9$；$(1,0)$；$1$',
+    hasImage: false,
+  },
+  {
+    id: '182b73f316b',
+    chapter: '直線與圓',
+    question:
+      '考慮 $x^2+y^2+x+2y+k=0$ 所表圖形：\n(1) 若為一圓，求 $k$ 的範圍。\n(2) 若為一點，求 $k$，此點坐標。\n(3) 若無圖形，求 $k$ 的範圍。',
+    answer: '(1) $k<\\frac{5}{4}$ (2) $\\frac{5}{4}$；$(-\\frac{1}{2},-1)$ (3) $k>\\frac{5}{4}$',
+    hasImage: false,
+  },
+  {
+    id: '182b740b006',
+    chapter: '直線與圓',
+    question: '已知圓心坐標為 $(3,-4)$，且與 $x$ 軸相切，求其圓方程式。',
+    answer: '$(x-3)^2+(y+4)^2=16$',
+    hasImage: false,
+  },
+  {
+    id: '182b741e3c9',
+    chapter: '直線與圓',
+    question: '求圓心 $(-5,2)$，與 $y$ 軸相切的圓方程式。',
+    answer: '$(x+5)^2+(y-2)^2=25$',
+    hasImage: false,
+  },
+  {
+    id: '182b76131a8',
+    chapter: '直線與圓',
+    question:
+      '已知兩點 $A(3,-1)、B(0,5)$，若 $P$ 點滿足 $\\overline{PA}：\\overline{PB}=1：2$，求動點 $P$ 的軌跡方程式。',
+    answer: '$x^2+y^2-8x+6y+5=0$',
+    hasImage: false,
+  },
+  {
+    id: '182b760c59a',
+    chapter: '直線與圓',
+    question:
+      '已知 $A(3,-4)、B(-2,6)$，若 $P$ 點滿足 $\\overline{PA}：\\overline{PB}=2：3$，求動點 $P$ 的軌跡方程式。',
+    answer: '$x^2+y^2-14x+24y+13=0$',
+    hasImage: false,
+  },
+  {
+    id: '182b74754b7',
+    chapter: '直線與圓',
+    question:
+      '三點 $A(5,-2)、B(1,0)、C(-2,-9)$ 在圓上，此圓即為 $\\Delta{ABC}$ 的外接圓，求其方程式。',
+    answer: '$x^2+y^2-2x+10y+1=0$',
+    hasImage: false,
+  },
+  {
+    id: '182b7490438',
+    chapter: '直線與圓',
+    question: '已知圓心在 $x$ 軸上，且點 $A(1,-4)、B(7,2)$ 在圓上，求圓方程式。',
+    answer: '$(x-3)^2+y^2=20$',
+    hasImage: false,
+  },
+  {
+    id: '182b74bc773',
+    chapter: '直線與圓',
+    question: '三直線 $x-y=0、x+y=0、x-2y=6$ 所圍成的三角形，試求其外接圓方程式。',
+    answer: '$(x+2)^2+(y+4)^2=20$',
+    hasImage: false,
+  },
+  {
+    id: '182b74a34b4',
+    chapter: '直線與圓',
+    question: '圓心在 $y$ 軸上，且點 $(7,1)、(-1,3)$ 在圓上，求圓方程式。',
+    answer: '$x^2+(y+10)^2=170$',
+    hasImage: false,
+  },
+  {
+    id: '182b75fe882',
+    chapter: '直線與圓',
+    question:
+      '已知點 $P(a,b)$ 為圓 $C：x^2+y^2-6x+8y+16=0$ 上的動點，試求：\n(1) $\\sqrt{a^2+b^2}$ 的最大值 (2) $(a+2)^2+(b-1)^2$ 的最小值。',
+    answer: '(1) $8$ (2) $5\\sqrt{2}-3$',
+    hasImage: false,
+  },
+  {
+    id: '182b7637fd5',
+    chapter: '直線與圓',
+    question:
+      '點 $P(x,y)$ 在圓 $C：x^2+y^2-2x-4y-4=0$ 上，求 $\\sqrt{(x-5)^2+(y+1)^2}$ 的最大值，$(x-5)^2+(y+1)^2$ 的最小值。',
+    answer: '$8$；$4$',
+    hasImage: false,
+  },
+  {
+    id: '182b766b62e',
+    chapter: '直線與圓',
+    question:
+      '點 $P(3,2)$ 與圓 $C：x^2+y^2-4x+2y+k=0$ 上，試問：\n(1) 若 $P$ 點在圓 $C$ 的內部，求 $k$ 的範圍。\n(2) 若 $P$ 點在圓 $C$ 的外部，求 $k$ 的範圍。',
+    answer: '(1) $k<-5$ (2) $-5<k<5$',
+    hasImage: false,
+  },
+  {
+    id: '182c4a66798',
+    chapter: '直線與圓',
+    question: '點 $P(1,3)$ 在圓 $C：x^2+y^2+6x+8y+k=0$ 的外部，求 $k$ 的範圍。',
+    answer: '$-40<k<25$',
+    hasImage: false,
+  },
+  {
+    id: '182c49dce7a',
+    chapter: '直線與圓',
+    question: '直線 $3x-4y=-11$ 與圓 $x^2+y^2+2y-24=0$ 交於兩點 $A、B$，求 $\\overline{AB}$。',
+    answer: '$8$',
+    hasImage: false,
+  },
+  {
+    id: '182c4a5b884',
+    chapter: '直線與圓',
+    question: '若圓 $(x+2)^2+(y-3)^2=30$ 被直線 $L：3x+2y=k$ 截出的弦長為 $10$，求 $k$。',
+    answer: '$\\pm\\sqrt{65}$',
+    hasImage: false,
+  },
+  {
+    id: '182c4a902ea',
+    chapter: '直線與圓',
+    question: '直線 $x+y=3$ 與 $(x-1)^2+(y+2)^2=10$ 交於 $A、B$ 兩點，求 $\\overline{AB}$。',
+    answer: '$2\\sqrt{2}$',
+    hasImage: false,
+  },
+  {
+    id: '182c4aaf8c2',
+    chapter: '直線與圓',
+    question: '直線 $y=mx-m$ 截圓 $x^2+y^2-y=0$ 的弦長為 $\\frac{\\sqrt{2}}{2}$，求 $m$。',
+    answer: '$-\\frac{1}{7}$ 或 $-1$',
+    hasImage: false,
+  },
+  {
+    id: '182c4ade8ff',
+    chapter: '直線與圓',
+    question:
+      '圓 $C：(x+1)^2+(y-3)^2=4$ 與直線 $L：3x+4y=k$，請問：\n(1) 若相交於兩點，求 $k$ 的範圍 (2) 若相切，求 $k$。',
+    answer: '(1) $-1<k<19$ (2) $-1$ 或 $19$',
+    hasImage: false,
+  },
+  {
+    id: '182c4b154e1',
+    chapter: '直線與圓',
+    question:
+      '直線 $L：ax-y+a+1=0$ 與圓 $C：x^2+y^2-2x+4y+1=0$，求：\n(1) 若交於相異兩點，求 $a$ 的範圍 (2) 若相切，求 $a$ (3) 若不相交，求 $a$ 的範圍。',
+    answer: '(1) $a<-\\frac{5}{12}$ (2) $-\\frac{5}{12}$ (3) $a>-\\frac{5}{12}$',
+    hasImage: false,
+  },
+  {
+    id: '182c4b3ba92',
+    chapter: '直線與圓',
+    question: '過圓 $(x-3)^2+(y+2)^2=29$ 上的點 $(1,3)$ 所作的切線方程式。',
+    answer: '$-2x+5y=13$',
+    hasImage: false,
+  },
+  {
+    id: '182c4b58fef',
+    chapter: '直線與圓',
+    question: '圓 $x^2+y^2+2x-4y-12=0$ 上有一點 $P(3,1)$，求過 $P$ 點所作圓的切線方程式。',
+    answer: '$4x-y=11$',
+    hasImage: false,
+  },
+  {
+    id: '182c4f325f2',
+    chapter: '直線與圓',
+    question: '過圓 $C：(x-1)^2+(y+2)^2=25$ 外一點 $P(8,-1)$ 作圓 $C$ 的兩條切線，求切線方程式。',
+    answer: '$3x+4y=20, 4x-3y=35$',
+    hasImage: false,
+  },
+  {
+    id: '182c4f2bc8c',
+    chapter: '直線與圓',
+    question: '求過 $P(5,1)$ 作圓 $x^2+y^2-4x-5=0$ 的切線方程式。',
+    answer: '$4x+3y=23, x=5$',
+    hasImage: false,
+  },
+  {
+    id: '182c4f5ea3e',
+    chapter: '直線與圓',
+    question:
+      '自 $P(5,3)$ 作圓 $(x-1)^2+(y-2)^2=5$ 的切線切圓於 $M$ 與 $N$，求切線段長 $\\overline{PM}=\\overline{PN}$ 等於多少。',
+    answer: '$2\\sqrt{3}$',
+    hasImage: false,
+  },
+  {
+    id: '182c4f95e4d',
+    chapter: '直線與圓',
+    question:
+      '過點 $P(5,2)$，作圓 $(x-3)^2+(y+2)^2=10$ 的兩條切線，切圓於 $A$ 與 $B$，則：\n(1) 求切線段長 (2) 求弦長 $\\overline{AB}$。',
+    answer: '(1) $\\sqrt{10}$ (2) $2\\sqrt{5}$',
+    hasImage: false,
+  },
+  {
+    id: '182c4fed962',
+    chapter: '直線與圓',
+    question:
+      '若兩圓 $C_{1}：x^2+y^2-2x-4y-4=0$ 與 $C_{2}：x^2+y^2-6x-12=0$ 的交點為 $A、B$，求 $\\overleftrightarrow{AB}$ 的直線方程式，並求公共弦 $\\overline{AB}$ 的長。',
+    answer: '$x-y+2=0$；$\\sqrt{34}$',
+    hasImage: true,
+  },
+  {
+    id: '182c501a604',
+    chapter: '直線與圓',
+    question:
+      '兩圓 $C_{1}：x^2+y^2-2x+6y-10=0$ 與 $C_{2}：x^2+y^2+2x+2y-6=0$ 的交點為 $A、B$，求 $\\overleftrightarrow{AB}$ 的直線方程式。',
+    answer: '$x-y+1=0$',
+    hasImage: false,
+  },
   {
     id: '1829fb61cd1',
     chapter: '直線與圓',
