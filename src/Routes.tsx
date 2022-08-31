@@ -57,7 +57,7 @@ import B4C13Probability from './pages/lecture/review/B4C13Probability';
 import B4C14Matrix from './pages/lecture/review/B4C14Matrix';
 import Trial from './pages/lecture/trial/Trial';
 import Projection from './pages/projection/Projection';
-import Review03 from './pages/test/Review03';
+import Review04 from './pages/test/Review04';
 
 const AppRoutes = () => (
   <Routes>
@@ -130,7 +130,7 @@ const AppRoutes = () => (
     <Route path="/toliman/lecture/B4C14" element={<B4C14Matrix />} />
 
     <Route path="/toliman/hw" element={<Hw />} />
-    <Route path="/toliman/test" element={<Review03 />} />
+    <Route path="/toliman/test" element={<Review04 />} />
 
     <Route path="/toliman" element={<Home />} />
     <Route path="/*" element={<Navigate to={'/toliman'} />} />
