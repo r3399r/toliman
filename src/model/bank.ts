@@ -1097,6 +1097,95 @@ const beginner: Question[] = [
 // 數與式
 const numAndEquation: Question[] = [
   {
+    id: '182f2ddcf59',
+    chapter: '數與式',
+    question: '解 $|x-1|+|x-2|=3$。',
+    answer: '$0\\lor3$',
+    hasImage: false,
+  },
+  {
+    id: '182f2e1e32b',
+    chapter: '數與式',
+    question: '(1) 求解不等式 $|2x-5|\\le9$ 的範圍\n(2) 求解不等式 $|x-5|>3$ 的範圍',
+    answer: '(1) $-2\\le x\\le7$ (2) $x>8\\lor x<2$',
+    hasImage: false,
+  },
+  {
+    id: '182f2e27bf1',
+    chapter: '數與式',
+    question: '解 $3<|2x+1|\\le7$。',
+    answer: '$-4\\le x<-2\\lor1<x\\le3$',
+    hasImage: false,
+  },
+  {
+    id: '182f2e67906',
+    chapter: '數與式',
+    question: '解 $2|x+1|<x+7$。',
+    answer: '$-3<x<5$',
+    hasImage: false,
+  },
+  {
+    id: '182f2e79837',
+    chapter: '數與式',
+    question: '滿足 $|ax+1|\\le b$ 的所有實數 $x$，其範圍為 $-1\\le x\\le5$，求 $a,b$。',
+    answer: '$-\\frac12$；$\\frac32$',
+    hasImage: false,
+  },
+  {
+    id: '182f2ece54f',
+    chapter: '數與式',
+    question: '設 $a,b$ 為實數，若 $|x-a|<3$ 的解為 $-4<x<b$，求 $a,b$。',
+    answer: '-1；2',
+    hasImage: false,
+  },
+  {
+    id: '182f2edd2db',
+    chapter: '數與式',
+    question:
+      '若聯立不等式 $\\begin{cases}|x-a|<2\\\\|x-b|\\le3\\end{cases}$ 的解為 $6<x\\le7$，求 $a,b$。',
+    answer: '8；4',
+    hasImage: false,
+  },
+  {
+    id: '182f2fbfe26',
+    chapter: '數與式',
+    question: '求 $0.25^{2.5}$ 及 $0.25^{-2.5}$。',
+    answer: '$\\frac1{32}$；32',
+    hasImage: false,
+  },
+  {
+    id: '182f2fd3fcf',
+    chapter: '數與式',
+    question:
+      '化簡 $(2^{\\frac52}+3^{\\frac32})^{\\frac72}\\cdot(2^{\\frac52}-3^{\\frac32})^{\\frac72}$。',
+    answer: '$125\\sqrt5$',
+    hasImage: false,
+  },
+  {
+    id: '182f304f91e',
+    chapter: '數與式',
+    question:
+      '化簡 $(\\dfrac{81}{16})^{-0.25}\\cdot(\\dfrac49)^{-\\frac12}\\cdot(0.25)^{-1.5}\\cdot(\\dfrac{27}8)^{-\\frac23}$。',
+    answer: '$\\frac{32}9$',
+    hasImage: false,
+  },
+  {
+    id: '182f301404a',
+    chapter: '數與式',
+    question:
+      '設 $a>0$ 且 $a\\ne1$，化簡 $\\sqrt[3]{\\sqrt[6]{a^5}}\\cdot(\\sqrt{\\sqrt[12]{a^7}})^4=a^x$，求 $x$。',
+    answer: '$\\frac{13}9$',
+    hasImage: false,
+  },
+  {
+    id: '182f3037484',
+    chapter: '數與式',
+    question:
+      '化簡 $(124+22\\sqrt3)^{\\frac12}-27^{\\frac16}-16^{\\frac34}-2(8^{-\\frac23})^{-1}+2^{\\frac15}(4^{-\\frac25})^{-1}$。',
+    answer: '-3',
+    hasImage: false,
+  },
+  {
     id: '182f1ca5587',
     chapter: '數與式',
     question:
