@@ -1097,6 +1097,92 @@ const beginner: Question[] = [
 // 數與式
 const numAndEquation: Question[] = [
   {
+    id: '182ddcea560',
+    chapter: '數與式',
+    question:
+      '化簡：(1) $\\dfrac{3-\\sqrt2}{\\sqrt2+1}$ (2) $\\dfrac{15}{7+2\\sqrt3}$\n(3) $\\dfrac4{\\sqrt5-\\sqrt3}+\\dfrac{10}{\\sqrt5+\\sqrt3}$',
+    answer: '(1) $-5+4\\sqrt2$ (2) $6\\sqrt3-3\\sqrt7$ (3) $7\\sqrt5-3\\sqrt3$',
+    hasImage: false,
+  },
+  {
+    id: '182ddd11d2a',
+    chapter: '數與式',
+    question:
+      '求：(1) $(\\sqrt3+\\sqrt2)^{100}(\\sqrt3-\\sqrt2)^{102}$\n(2) $\\dfrac1{\\sqrt4+\\sqrt5}+\\dfrac2{\\sqrt5+\\sqrt7}+\\dfrac3{\\sqrt7+\\sqrt{10}}$$+\\dfrac6{\\sqrt{10}+\\sqrt{16}}$',
+    answer: '(1) $5-2\\sqrt6$ (2) 2',
+    hasImage: false,
+  },
+  {
+    id: '182ddd25c5a',
+    chapter: '數與式',
+    question: '化簡：(1) $\\sqrt{11-4\\sqrt7}$\n(2) $\\sqrt{2-\\sqrt3}-\\sqrt{2+\\sqrt3}$',
+    answer: '(1) $\\sqrt7-2$ (2) $-\\sqrt2$',
+    hasImage: false,
+  },
+  {
+    id: '182ddd3e6a9',
+    chapter: '數與式',
+    question: '若正數 $a$ 的小數部分為 $b$，且 $a^2+b=15$，求 $a$。',
+    answer: '$\\dfrac{\\sqrt{73}-1}2$',
+    hasImage: false,
+  },
+  {
+    id: '182ddd52fe4',
+    chapter: '數與式',
+    question: '若 $x,y$ 為有理數，且 $(x+2\\sqrt3)(2-\\sqrt3)=6-y\\sqrt3$，求數對 $(a,b)$。',
+    answer: '(6,2)',
+    hasImage: false,
+  },
+  {
+    id: '182ddd7f578',
+    chapter: '數與式',
+    question: '所有滿足 $ab=60$ 的正數 $a$ 與 $b$，求 $3a+5b$ 的最小值，及此時的 $a,b$。',
+    answer: '60；10；6',
+    hasImage: false,
+  },
+  {
+    id: '182ddd8fae5',
+    chapter: '數與式',
+    question: '設 $x$ 為正數，求 $49x+\\dfrac9x$ 的最小值，及此時的 $x$。',
+    answer: '42；$\\frac37$',
+    hasImage: false,
+  },
+  {
+    id: '182ddd9dad9',
+    chapter: '數與式',
+    question: '化簡 $|\\sqrt1-\\sqrt3|+|\\sqrt3-\\sqrt5|$$+|\\sqrt5-\\sqrt7|+|\\sqrt7-\\sqrt9|$',
+    answer: '2',
+    hasImage: false,
+  },
+  {
+    id: '182dddaff7d',
+    chapter: '數與式',
+    question: '化簡 $|\\sqrt2+\\sqrt3-5|+|1-\\sqrt2|$$+|\\sqrt3+\\sqrt7|+|4-\\sqrt7|$',
+    answer: '8',
+    hasImage: false,
+  },
+  {
+    id: '182de83a9d8',
+    chapter: '數與式',
+    question: '解 $|2x+3|=7$。',
+    answer: '2 or -5',
+    hasImage: false,
+  },
+  {
+    id: '182de84497d',
+    chapter: '數與式',
+    question: '解 $||x+1|-3|=2$。',
+    answer: '4 or -6 or 0 or -2',
+    hasImage: false,
+  },
+  {
+    id: '182de853d1a',
+    chapter: '數與式',
+    question: '解 $|x+2|=2x-7$。',
+    answer: '9',
+    hasImage: false,
+  },
+  {
     id: '182af18b972',
     chapter: '數與式',
     question: '因式分解 $8x^3-27y^3$',
