@@ -1097,6 +1097,97 @@ const beginner: Question[] = [
 // 數與式
 const numAndEquation: Question[] = [
   {
+    id: '18321761d3e',
+    chapter: '數與式',
+    question: '若 $a^{2x}=1+\\sqrt2$，求 $\\dfrac{a^{3x}+a^{-3x}}{a^x+a^{-x}}$。',
+    answer: '$-1+2\\sqrt2$',
+    hasImage: false,
+  },
+  {
+    id: '18321793206',
+    chapter: '數與式',
+    question: '若 $16^x=5^y=\\sqrt{10}$，則 $\\dfrac1x+\\dfrac4y$。',
+    answer: '8',
+    hasImage: false,
+  },
+  {
+    id: '183217c06f5',
+    chapter: '數與式',
+    question: '若 $575^x=125$，$23^y=25$，則 $\\dfrac3x-\\dfrac2y$',
+    answer: '2',
+    hasImage: false,
+  },
+  {
+    id: '18321843bb2',
+    chapter: '數與式',
+    question:
+      '設 $a=2.1\\times10^{35}$，$b=7.2\\times10^{21}$，$c=5.4\\times10^{47}$，求 $\\dfrac{a^2b}c$ 及 $\\sqrt{3bc}$。\n(用科學記號表示)',
+    answer: '$5.88\\times10^{44}$；$1.08\\times10^{35}$',
+    hasImage: false,
+  },
+  {
+    id: '183218ab274',
+    chapter: '數與式',
+    question:
+      '「莫耳數」是計算個數的單位，一莫耳相當於 $6\\times10^{23}$ 個，已知一莫耳的水分子的體積為 18 立方公分，請問一座游泳池長為 50 公尺，寬為 30 公尺，水深為 1.5 公尺，池內共有多少莫耳的水分子？多少個水分子？(用科學記號表示)',
+    answer: '$1.25\\times10^8$；$7.5\\times10^{31}$',
+    hasImage: false,
+  },
+  {
+    id: '183218c74ee',
+    chapter: '數與式',
+    question:
+      '求：(1) $\\log100$ (2) $\\log\\dfrac1{10000}$\n(3) $\\log\\sqrt{10}$ (4) $\\log1000^{2.1}$',
+    answer: '2；-4；$\\frac12$；6.3',
+    hasImage: false,
+  },
+  {
+    id: '183218e54eb',
+    chapter: '數與式',
+    question: '求：(1) $10^{\\log100}$ (2) $100^{\\log7}$ (3) $1000^{\\log2}$',
+    answer: '100；49；8',
+    hasImage: false,
+  },
+  {
+    id: '183218f8575',
+    chapter: '數與式',
+    question: '求滿足 $2^n>100^{10}$ 的最小整數 $n$。\n($\\log2\\approx0.3010$)',
+    answer: '67',
+    hasImage: false,
+  },
+  {
+    id: '18321931de0',
+    chapter: '數與式',
+    question:
+      '在一個城市中，一旦有人得到某種傳染病，若沒有採取任何防疫措施，則全體市民在經過 $d$ 日後得到該傳染病的人數比率為 $(1-10^{-0.09d})\\times10\\%$，請問至少經過幾日 (取整數)，就會有 $90\\%$ 的市民得病？',
+    answer: '12',
+    hasImage: false,
+  },
+  {
+    id: '18321960918',
+    chapter: '數與式',
+    question:
+      '芮氏規模可量度地震強度，設 $I$ 為地震時所釋放的能量強度，芮氏規模 $r$ 定義為 $r=\\log I$。已知有兩次地震的芮氏規模分別為 7.3 和 6.4，就釋放能量的強度而言，芮氏規模 7.3 的地震約為芮氏規模 6.4 的多少倍？($\\log2\\approx0.3$)',
+    answer: '8',
+    hasImage: false,
+  },
+  {
+    id: '1832198eac0',
+    chapter: '數與式',
+    question:
+      '水溶液的氫離子濃度為 $M$，則酸鹼度 pH 值的定義為 $\\text{pH}=-\\log M$。若可樂的氫離子濃度為 $4\\times10^{-3}$，求其 pH 值。',
+    answer: '2.4',
+    hasImage: false,
+  },
+  {
+    id: '183219d5ac0',
+    chapter: '數與式',
+    question:
+      '設某支股票自今日起每天以 3% 的幅度下跌 (即每日的收盤價為前一日收盤價的 0.97 倍)，則至少經過幾日後，該股票的股價會跌超過今日股價的一半？\n($\\log0.97\\approx-0.0132$，$\\log2\\approx0.3$)',
+    answer: '23',
+    hasImage: false,
+  },
+  {
     id: '182f2ddcf59',
     chapter: '數與式',
     question: '解 $|x-1|+|x-2|=3$。',
