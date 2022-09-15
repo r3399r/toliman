@@ -50,16 +50,16 @@ const C2S2 = () => (
       </Concept>
     </Page>
     <Page pageNum={15}>
-      <Example num={7} ids={['182927d41c7', '182927f0c13']} />
-      <Example num={8} ids={['182927e5185', '18292825cfa']} />
+      <Example num={8} ids={['182927d41c7', '182927f0c13']} />
+      <Example num={9} ids={['182927e5185', '18292825cfa']} />
     </Page>
     <Page pageNum={16}>
-      <Example num={9} ids={['1829280a5a1', '18292856c77']} />
-      <Example num={10} ids={['18292812c79', '18292861598']} />
+      <Example num={10} ids={['1829280a5a1', '18292856c77']} />
+      <Example num={11} ids={['18292812c79', '18292861598']} />
     </Page>
     <Page pageNum={17}>
-      <Example num={11} ids={['1829283fcf1', '18292872257']} />
-      <Example num={12} ids={['1829288068f', '18292893ba6']} />
+      <Example num={12} ids={['1829283fcf1', '18292872257']} />
+      <Example num={13} ids={['1829288068f', '18292893ba6']} />
     </Page>
   </MathJax>
 );
