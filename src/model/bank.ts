@@ -5217,29 +5217,29 @@ const lineAndCircle: Question[] = [
     id: '182b73a19ad',
     chapter: '直線與圓',
     question:
-      '方程式 $(3a+2b)x^2+(a-b-11)xy+(b-3)y^2+(6-2b)x=0$ 的圖形為圓，求 $a，b$，圓心，半徑。',
-    answer: '$2$；$-9$；$(1,0)$；$1$',
+      '方程式 $(3a+2b)x^2+(a-b-11)xy$$+(b-3)y^2+(6-2b)x=0$ 的圖形為圓，求 $a$、$b$、圓心、半徑。',
+    answer: '2；-9；(1,0)；1',
     hasImage: false,
   },
   {
     id: '182b73f316b',
     chapter: '直線與圓',
     question:
-      '考慮 $x^2+y^2+x+2y+k=0$ 所表圖形：\n(1) 若為一圓，求 $k$ 的範圍。\n(2) 若為一點，求 $k$，此點坐標。\n(3) 若無圖形，求 $k$ 的範圍。',
-    answer: '(1) $k<\\frac{5}{4}$ (2) $\\frac{5}{4}$；$(-\\frac{1}{2},-1)$ (3) $k>\\frac{5}{4}$',
+      '考慮 $x^2+y^2+x+2y+k=0$ 所表圖形：\n(1) 若為一圓，求 $k$ 的範圍\n(2) 若為一點，求 $k$、此點坐標\n(3) 若無圖形，求 $k$ 的範圍',
+    answer: '(1) $k<\\frac54$ (2) $\\frac54$；$(-\\frac12,-1)$ (3) $k>\\frac54$',
     hasImage: false,
   },
   {
     id: '182b740b006',
     chapter: '直線與圓',
-    question: '已知圓心坐標為 $(3,-4)$，且與 $x$ 軸相切，求其圓方程式。',
+    question: '已知圓心坐標為 (3,-4)，且與 $x$ 軸相切，求其圓方程式。',
     answer: '$(x-3)^2+(y+4)^2=16$',
     hasImage: false,
   },
   {
     id: '182b741e3c9',
     chapter: '直線與圓',
-    question: '求圓心 $(-5,2)$，與 $y$ 軸相切的圓方程式。',
+    question: '求圓心 (-5,2)，與 $y$ 軸相切的圓方程式。',
     answer: '$(x+5)^2+(y-2)^2=25$',
     hasImage: false,
   },
@@ -5247,7 +5247,7 @@ const lineAndCircle: Question[] = [
     id: '182b76131a8',
     chapter: '直線與圓',
     question:
-      '已知兩點 $A(3,-1)、B(0,5)$，若 $P$ 點滿足 $\\overline{PA}：\\overline{PB}=1：2$，求動點 $P$ 的軌跡方程式。',
+      '已知兩點 $A(3,-1)$、$B(0,5)$，若 $P$ 點滿足 $\\overline{PA}:\\overline{PB}=1:2$，求動點 $P$ 的軌跡方程式。',
     answer: '$x^2+y^2-8x+6y+5=0$',
     hasImage: false,
   },
@@ -5255,7 +5255,7 @@ const lineAndCircle: Question[] = [
     id: '182b760c59a',
     chapter: '直線與圓',
     question:
-      '已知 $A(3,-4)、B(-2,6)$，若 $P$ 點滿足 $\\overline{PA}：\\overline{PB}=2：3$，求動點 $P$ 的軌跡方程式。',
+      '已知 $A(3,-4)$、$B(-2,6)$，若 $P$ 點滿足 $\\overline{PA}:\\overline{PB}=2:3$，求動點 $P$ 的軌跡方程式。',
     answer: '$x^2+y^2-14x+24y+13=0$',
     hasImage: false,
   },
@@ -5263,28 +5263,28 @@ const lineAndCircle: Question[] = [
     id: '182b74754b7',
     chapter: '直線與圓',
     question:
-      '三點 $A(5,-2)、B(1,0)、C(-2,-9)$ 在圓上，此圓即為 $\\Delta{ABC}$ 的外接圓，求其方程式。',
+      '三點 $A(5,-2)$、$B(1,0)$、$C(-2,-9)$ 在圓上，此圓即為 $\\triangle ABC$ 的外接圓，求其方程式。',
     answer: '$x^2+y^2-2x+10y+1=0$',
     hasImage: false,
   },
   {
     id: '182b7490438',
     chapter: '直線與圓',
-    question: '已知圓心在 $x$ 軸上，且點 $A(1,-4)、B(7,2)$ 在圓上，求圓方程式。',
+    question: '已知圓心在 $x$ 軸上，且點 $A(1,-4)$、$B(7,2)$ 在圓上，求圓方程式。',
     answer: '$(x-3)^2+y^2=20$',
     hasImage: false,
   },
   {
     id: '182b74bc773',
     chapter: '直線與圓',
-    question: '三直線 $x-y=0、x+y=0、x-2y=6$ 所圍成的三角形，試求其外接圓方程式。',
+    question: '三直線 $x-y=0$、$x+y=0$、$x-2y=6$ 所圍成的三角形，試求其外接圓方程式。',
     answer: '$(x+2)^2+(y+4)^2=20$',
     hasImage: false,
   },
   {
     id: '182b74a34b4',
     chapter: '直線與圓',
-    question: '圓心在 $y$ 軸上，且點 $(7,1)、(-1,3)$ 在圓上，求圓方程式。',
+    question: '圓心在 $y$ 軸上，且點 (7,1)、(-1,3) 在圓上，求圓方程式。',
     answer: '$x^2+(y+10)^2=170$',
     hasImage: false,
   },
@@ -5292,81 +5292,81 @@ const lineAndCircle: Question[] = [
     id: '182b75fe882',
     chapter: '直線與圓',
     question:
-      '已知點 $P(a,b)$ 為圓 $C：x^2+y^2-6x+8y+16=0$ 上的動點，試求：\n(1) $\\sqrt{a^2+b^2}$ 的最大值 (2) $(a+2)^2+(b-1)^2$ 的最小值。',
-    answer: '(1) $8$ (2) $5\\sqrt{2}-3$',
+      '已知點 $P(a,b)$ 為圓 $C:x^2+y^2-6x+8y+16=0$ 上的動點，試求：(1) $\\sqrt{a^2+b^2}$ 的最大值\n(2) $(a+2)^2+(b-1)^2$ 的最小值',
+    answer: '(1) 8 (2) $5\\sqrt2-3$',
     hasImage: false,
   },
   {
     id: '182b7637fd5',
     chapter: '直線與圓',
     question:
-      '點 $P(x,y)$ 在圓 $C：x^2+y^2-2x-4y-4=0$ 上，求 $\\sqrt{(x-5)^2+(y+1)^2}$ 的最大值，$(x-5)^2+(y+1)^2$ 的最小值。',
-    answer: '$8$；$4$',
+      '點 $P(x,y)$ 在圓 $C:x^2+y^2-2x-4y-4=0$ 上，求：(1) $\\sqrt{(x-5)^2+(y+1)^2}$ 的最大值 (2) $(x-5)^2+(y+1)^2$ 的最小值',
+    answer: '(1) 8 (2) 4',
     hasImage: false,
   },
   {
     id: '182b766b62e',
     chapter: '直線與圓',
     question:
-      '點 $P(3,2)$ 與圓 $C：x^2+y^2-4x+2y+k=0$ 上，試問：\n(1) 若 $P$ 點在圓 $C$ 的內部，求 $k$ 的範圍。\n(2) 若 $P$ 點在圓 $C$ 的外部，求 $k$ 的範圍。',
+      '點 $P(3,2)$ 與圓 $C:x^2+y^2-4x+2y+k=0$ 上，試問：\n(1) 若 $P$ 點在圓 $C$ 的內部，求 $k$ 的範圍\n(2) 若 $P$ 點在圓 $C$ 的外部，求 $k$ 的範圍',
     answer: '(1) $k<-5$ (2) $-5<k<5$',
     hasImage: false,
   },
   {
     id: '182c4a66798',
     chapter: '直線與圓',
-    question: '點 $P(1,3)$ 在圓 $C：x^2+y^2+6x+8y+k=0$ 的外部，求 $k$ 的範圍。',
+    question: '點 $P(1,3)$ 在圓 $C:x^2+y^2+6x+8y+k=0$ 的外部，求 $k$ 的範圍。',
     answer: '$-40<k<25$',
     hasImage: false,
   },
   {
     id: '182c49dce7a',
     chapter: '直線與圓',
-    question: '直線 $3x-4y=-11$ 與圓 $x^2+y^2+2y-24=0$ 交於兩點 $A、B$，求 $\\overline{AB}$。',
-    answer: '$8$',
+    question: '直線 $3x-4y=-11$ 與圓 $x^2+y^2+2y-24=0$ 交於兩點 $A$、$B$，求 $\\overline{AB}$。',
+    answer: '8',
     hasImage: false,
   },
   {
     id: '182c4a5b884',
     chapter: '直線與圓',
-    question: '若圓 $(x+2)^2+(y-3)^2=30$ 被直線 $L：3x+2y=k$ 截出的弦長為 $10$，求 $k$。',
+    question: '若圓 $(x+2)^2+(y-3)^2=30$ 被直線 $L:3x+2y=k$ 截出的弦長為 10，求 $k$。',
     answer: '$\\pm\\sqrt{65}$',
     hasImage: false,
   },
   {
     id: '182c4a902ea',
     chapter: '直線與圓',
-    question: '直線 $x+y=3$ 與 $(x-1)^2+(y+2)^2=10$ 交於 $A、B$ 兩點，求 $\\overline{AB}$。',
-    answer: '$2\\sqrt{2}$',
+    question: '直線 $x+y=3$ 與 $(x-1)^2+(y+2)^2=10$ 交於 $A$、$B$ 兩點，求 $\\overline{AB}$。',
+    answer: '$2\\sqrt2$',
     hasImage: false,
   },
   {
     id: '182c4aaf8c2',
     chapter: '直線與圓',
-    question: '直線 $y=mx-m$ 截圓 $x^2+y^2-y=0$ 的弦長為 $\\frac{\\sqrt{2}}{2}$，求 $m$。',
-    answer: '$-\\frac{1}{7}$ 或 $-1$',
+    question: '直線 $y=mx-m$ 截圓 $x^2+y^2-y=0$ 的弦長為 $\\dfrac{\\sqrt2}2$，求 $m$。',
+    answer: '$-\\frac17$ 或 -1',
     hasImage: false,
   },
   {
     id: '182c4ade8ff',
     chapter: '直線與圓',
     question:
-      '圓 $C：(x+1)^2+(y-3)^2=4$ 與直線 $L：3x+4y=k$，請問：\n(1) 若相交於兩點，求 $k$ 的範圍 (2) 若相切，求 $k$。',
-    answer: '(1) $-1<k<19$ (2) $-1$ 或 $19$',
+      '圓 $C:(x+1)^2+(y-3)^2=4$ 與直線 $L:3x+4y=k$，請問：\n(1) 若相交於兩點，求 $k$ 的範圍\n(2) 若相切，求 $k$',
+    answer: '(1) $-1<k<19$ (2) $-1$ 或 19',
     hasImage: false,
   },
   {
     id: '182c4b154e1',
     chapter: '直線與圓',
     question:
-      '直線 $L：ax-y+a+1=0$ 與圓 $C：x^2+y^2-2x+4y+1=0$，求：\n(1) 若交於相異兩點，求 $a$ 的範圍 (2) 若相切，求 $a$ (3) 若不相交，求 $a$ 的範圍。',
-    answer: '(1) $a<-\\frac{5}{12}$ (2) $-\\frac{5}{12}$ (3) $a>-\\frac{5}{12}$',
+      '直線 $L:ax-y+a+1=0$ 與圓 $C:x^2+y^2-2x+4y+1=0$，求：\n(1) 若交於相異兩點，求 $a$ 的範圍\n(2) 若相切，求 $a$\n(3) 若不相交，求 $a$ 的範圍',
+    answer: '(1) $a<-\\frac5{12}$ (2) $-\\frac5{12}$ (3) $a>-\\frac5{12}$',
     hasImage: false,
   },
   {
     id: '182c4b3ba92',
     chapter: '直線與圓',
-    question: '過圓 $(x-3)^2+(y+2)^2=29$ 上的點 $(1,3)$ 所作的切線方程式。',
+    question: '過圓 $(x-3)^2+(y+2)^2=29$ 上的點 (1,3) 所作的切線方程式。',
     answer: '$-2x+5y=13$',
     hasImage: false,
   },
@@ -5378,48 +5378,61 @@ const lineAndCircle: Question[] = [
     hasImage: false,
   },
   {
+    id: '1833e9d6094',
+    chapter: '直線與圓',
+    question: '已知圓 $C:(x-1)^2+(y+2)^2=25$，求以 $\\dfrac34$ 為切線斜率所作切線方程式。',
+    answer: '$3x-4y=-14$ 與 $3x-4y=36$',
+    hasImage: false,
+  },
+  {
+    id: '1833ea218e5',
+    chapter: '直線與圓',
+    question: '求與圓 $x^2+y^2-5x+2y+3=0$ 相切，且斜率為 4 的切線方程式。',
+    answer: '$8x-2y=39$ 與 $8x-2y=5$',
+    hasImage: false,
+  },
+  {
     id: '182c4f325f2',
     chapter: '直線與圓',
-    question: '過圓 $C：(x-1)^2+(y+2)^2=25$ 外一點 $P(8,-1)$ 作圓 $C$ 的兩條切線，求切線方程式。',
-    answer: '$3x+4y=20, 4x-3y=35$',
+    question: '過圓 $C:(x-1)^2+(y+2)^2=25$ 外一點 $P(8,-1)$ 作圓 $C$ 的兩條切線，求切線方程式。',
+    answer: '$3x+4y=20$ 與 $4x-3y=35$',
     hasImage: false,
   },
   {
     id: '182c4f2bc8c',
     chapter: '直線與圓',
     question: '求過 $P(5,1)$ 作圓 $x^2+y^2-4x-5=0$ 的切線方程式。',
-    answer: '$4x+3y=23, x=5$',
+    answer: '$4x+3y=23$ 與 $x=5$',
     hasImage: false,
   },
   {
     id: '182c4f5ea3e',
     chapter: '直線與圓',
-    question:
-      '自 $P(5,3)$ 作圓 $(x-1)^2+(y-2)^2=5$ 的切線切圓於 $M$ 與 $N$，求切線段長 $\\overline{PM}=\\overline{PN}$ 等於多少。',
-    answer: '$2\\sqrt{3}$',
+    question: '自 $P(5,3)$ 作圓 $(x-1)^2+(y-2)^2=5$ 的切線切圓於 $M$ 與 $N$，求切線段長。',
+    answer: '$2\\sqrt3$',
     hasImage: false,
   },
   {
     id: '182c4f95e4d',
     chapter: '直線與圓',
     question:
-      '過點 $P(5,2)$，作圓 $(x-3)^2+(y+2)^2=10$ 的兩條切線，切圓於 $A$ 與 $B$，則：\n(1) 求切線段長 (2) 求弦長 $\\overline{AB}$。',
-    answer: '(1) $\\sqrt{10}$ (2) $2\\sqrt{5}$',
+      '過點 $P(5,2)$，作圓 $(x-3)^2+(y+2)^2=10$ 的兩條切線，切圓於 $A$ 與 $B$，求：\n(1) 切線段長 (2) 弦長 $\\overline{AB}$',
+    answer: '(1) $\\sqrt{10}$ (2) $2\\sqrt5$',
     hasImage: false,
   },
   {
     id: '182c4fed962',
     chapter: '直線與圓',
     question:
-      '若兩圓 $C_{1}：x^2+y^2-2x-4y-4=0$ 與 $C_{2}：x^2+y^2-6x-12=0$ 的交點為 $A、B$，求 $\\overleftrightarrow{AB}$ 的直線方程式，並求公共弦 $\\overline{AB}$ 的長。',
+      '若兩圓 $C_1:x^2+y^2-2x-4y-4=0$ 與 $C_2:x^2+y^2-6x-12=0$ 的交點為 $A$、$B$，求 $\\overleftrightarrow{AB}$ 的直線方程式，並求公共弦 $\\overline{AB}$ 的長。',
     answer: '$x-y+2=0$；$\\sqrt{34}$',
-    hasImage: true,
+    hasImage: false,
   },
   {
     id: '182c501a604',
     chapter: '直線與圓',
     question:
-      '兩圓 $C_{1}：x^2+y^2-2x+6y-10=0$ 與 $C_{2}：x^2+y^2+2x+2y-6=0$ 的交點為 $A、B$，求 $\\overleftrightarrow{AB}$ 的直線方程式。',
+      '兩圓 $C_1:x^2+y^2-2x+6y-10=0$ 與 $C_2:x^2+y^2+2x+2y-6=0$ 的交點為 $A$、$B$，求 $\\overleftrightarrow{AB}$ 的直線方程式。',
     answer: '$x-y+1=0$',
     hasImage: false,
   },
@@ -5528,7 +5541,7 @@ const lineAndCircle: Question[] = [
     id: '18287f99617',
     chapter: '直線與圓',
     question: '求坐標平面上點 $P(9,4)$ 對 $y$ 軸的對稱點坐標以及對 $y=-3$ 的對稱點坐標。',
-    answer: '$(-9,4)$；$(9,-10)$',
+    answer: '(-9,4)；(9,-10)',
     hasImage: false,
   },
   {
@@ -5536,7 +5549,7 @@ const lineAndCircle: Question[] = [
     chapter: '直線與圓',
     question:
       '平面上點 $P(3,-7)$ 對 $A(-4,1)$ 的對稱點為 $Q$，$Q$ 對 $B(2,5)$ 的對稱點為 $R$，求 $R$ 坐標。',
-    answer: '$(15,1)$',
+    answer: '(15,1)',
     hasImage: false,
   },
   {
@@ -5544,22 +5557,22 @@ const lineAndCircle: Question[] = [
     chapter: '直線與圓',
     question:
       '坐標平面上點 $P(3,5)$ 對 $x$ 軸的對稱點為 $Q$，$Q$ 對 $x=-7$ 的對稱點為 $R$，求 $R$ 坐標。',
-    answer: '$(17,-5)$',
+    answer: '(17,-5)',
     hasImage: false,
   },
   {
     id: '1828839875b',
     chapter: '直線與圓',
-    question: '平面上兩點 $A(1,-3)、B(4,5)$，求 $\\overline{AB}$ 的斜率 $m$。',
-    answer: '$\\frac{8}{3}$',
+    question: '平面上兩點 $A(1,-3)$、$B(4,5)$，求 $\\overline{AB}$ 的斜率 $m$。',
+    answer: '$\\frac83$',
     hasImage: false,
   },
   {
     id: '182883cb133',
     chapter: '直線與圓',
     question:
-      '平面上 $\\Delta{ABC}$，已知 $A(1,7)、B(6,-2)、C(4,3)$，求 $\\overline{AB}$ 的斜率，$\\overline{BC}$ 的斜率，$\\overline{CA}$ 的斜率。',
-    answer: '$-\\frac{9}{5}$；$-\\frac{5}{2}$；$-\\frac{4}{3}$',
+      '平面上 $\\triangle ABC$，已知 $A(1,7)$、$B(6,-2)$、$C(4,3)$，求 $\\overline{AB}$ 的斜率，$\\overline{BC}$ 的斜率，$\\overline{CA}$ 的斜率。',
+    answer: '$-\\frac95$；$-\\frac52$；$-\\frac43$',
     hasImage: false,
   },
   {
@@ -5567,7 +5580,7 @@ const lineAndCircle: Question[] = [
     chapter: '直線與圓',
     question:
       '(1) 線型函數 $y=f(x)=7x+3$ 的圖形為直線，求此直線的斜率。\n(2) 求平面上直線 $L：5x+4y=1$ 的斜率。',
-    answer: '(1) $7$ (2) $-\\frac{5}{4}$',
+    answer: '(1) 7 (2) $-\\frac54$',
     hasImage: false,
   },
   {
@@ -5583,7 +5596,7 @@ const lineAndCircle: Question[] = [
     chapter: '直線與圓',
     question:
       '有甲、乙、丙、丁、戊、己、庚共 $7$ 根牙籤散落在坐標平面上，如圖，求斜率為正的牙籤共有幾根，斜率為負的牙籤共有幾根，其中以何者的斜率為最大，何者的斜率為最小。',
-    answer: '$3$；$4$；乙；丁',
+    answer: '3；4；乙；丁',
     hasImage: true,
   },
   {
@@ -5598,66 +5611,66 @@ const lineAndCircle: Question[] = [
     id: '182886ca2cd',
     chapter: '直線與圓',
     question:
-      '平面上相異三點 $A(1,3)、B(k,2k)、C(k+1,3k-1)$ 在同一條直線上，稱為「三點共線」，求 $k$。',
-    answer: '$2$',
+      '平面上相異三點 $A(1,3)$、$B(k,2k)$、$C(k+1,3k-1)$ 在同一條直線上，稱為「三點共線」，求 $k$。',
+    answer: '2',
     hasImage: false,
   },
   {
     id: '182886fd275',
     chapter: '直線與圓',
     question:
-      '平面上兩直線 $L_{1}：(a+1)x+2y=5、L_{2}：(a+2)x-3y=1$，則：\n(1) 若 $L_{1}$ 與 $L_{2}$ 平行，求 $a$ (2) 若 $L_{1}$ 與 $L_{2}$ 垂直，求 $a$。',
-    answer: '(1) $-\\frac{7}{5}$ (2) $-4$ 或 $1$',
+      '平面上兩直線 $L_1:(a+1)x+2y=5$、$L_2:(a+2)x-3y=1$，則：\n(1) 若 $L_1$ 與 $L_2$ 平行，求 $a$\n(2) 若 $L_1$ 與 $L_2$ 垂直，求 $a$',
+    answer: '(1) $-\\frac75$ (2) -4 或 1',
     hasImage: false,
   },
   {
     id: '1828871c199',
     chapter: '直線與圓',
-    question: '若平面上三點 $A(3,5)、B(1,k)、C(-4,2k+1)$ 共線，求 $k$。',
-    answer: '$9$',
+    question: '若平面上三點 $A(3,5)$、$B(1,k)$、$C(-4,2k+1)$ 共線，求 $k$。',
+    answer: '9',
     hasImage: false,
   },
   {
     id: '1828873ddb8',
     chapter: '直線與圓',
     question:
-      '平面上兩直線 $ax+3y=1$ 與 $4x+(a+1)y=8$，則：\n(1) 若互相平行，求 $a$ (2) 若互相垂直，求 $a$。',
-    answer: '(1) $-4$ 或 $3$ (2) $-\\frac{3}{7}$',
+      '平面上兩直線 $ax+3y=1$ 與 $4x+(a+1)y=8$，則：\n(1) 若互相平行，求 $a$ (2) 若互相垂直，求 $a$',
+    answer: '(1) -4 或 3 (2) $-\\frac37$',
     hasImage: false,
   },
   {
     id: '182887a4754',
     chapter: '直線與圓',
     question:
-      '平面上直線 $L$ 通過點 $P(-3,7)$，則：\n(1) 求斜率為 $2$ 的直線方程式。\n(2) 求斜率為 $-\\frac{4}{5}$ 的直線方程式。\n',
+      '平面上直線 $L$ 通過點 $P(-3,7)$，則：\n(1) 求斜率為 2 的直線方程式。\n(2) 求斜率為 $-\\frac45$ 的直線方程式。',
     answer: '(1) $2x-y=-13$ (2) $4x+5y=23$',
     hasImage: false,
   },
   {
     id: '182887c2e70',
     chapter: '直線與圓',
-    question: '求平面上過 $A(3,-1)、B(7,2)$ 兩點的直線方程式。',
+    question: '求平面上過 (3,-1)、(7,2) 兩點的直線方程式。',
     answer: '$3x-4y=13$',
     hasImage: false,
   },
   {
     id: '182887ddc0c',
     chapter: '直線與圓',
-    question: '兩點 $A(1,2)、B(-3,8)$，求 $\\overline{AB}$ 的垂直平分線方程式。',
+    question: '兩點 $A(1,2)$、$B(-3,8)$，求 $\\overline{AB}$ 的垂直平分線方程式。',
     answer: '$2x-3y=-17$',
     hasImage: false,
   },
   {
     id: '182887f7529',
     chapter: '直線與圓',
-    question: '求過點 $(3,7)$，斜率為 $\\frac{5}{4}$ 的直線方程式。',
+    question: '求過點 (3,7)，斜率為 $\\frac54$ 的直線方程式。',
     answer: '$5x-4y=-13$',
     hasImage: false,
   },
   {
     id: '1828d742e0e',
     chapter: '直線與圓',
-    question: '求過兩點 $(8,4)、(5,-1)$ 的直線方程式。',
+    question: '求過兩點 (8,4)、(5,-1) 的直線方程式。',
     answer: '$5x-3y=28$',
     hasImage: false,
   },
@@ -5665,14 +5678,14 @@ const lineAndCircle: Question[] = [
     id: '1828d7f4b20',
     chapter: '直線與圓',
     question:
-      '(1) $A(2,1)、B(-1,6)$，求 $\\overline{AB}$ 的垂直平分線方程式。\n(2) 求到 $A(4,-2)、B(7,6)$ 等距離的動點軌跡方程式。\n(3) 平面上點 $A(3,2)$ 與 $B(-5,-2)$ 對稱於直線 $L$，求 $L$ 的方程式。\n(以上三小題都是在求垂直平分線)',
-    answer: '(1) $3x-5y=-16$ (2) $6x+16y=65$ (3) $2x+y=-2$',
+      '(1) 求到 $A(4,-2)$、$B(7,6)$ 等距離的動點軌跡方程式\n(2) 平面上點 $A(3,2)$ 與 $B(-5,-2)$ 對稱於直線 $L$，求 $L$ 的方程式\n(以上兩題都是在求垂直平分線)',
+    answer: '(1) $6x+16y=65$ (2) $2x+y=-2$',
     hasImage: false,
   },
   {
     id: '1828d815a14',
     chapter: '直線與圓',
-    question: '平面上點 $P(2,-3)$，直線 $L：5x-3y=1$，求過 $P$ 與 $L$ 平行的直線方程式。',
+    question: '平面上點 $P(2,-3)$，直線 $L:5x-3y=1$，求過 $P$ 與 $L$ 平行的直線方程式。',
     answer: '$5x-3y=19$',
     hasImage: false,
   },
@@ -5680,7 +5693,7 @@ const lineAndCircle: Question[] = [
     id: '1828d8455e1',
     chapter: '直線與圓',
     question:
-      '已知平面上一點 $P(-1,4)$，試求：\n(1) 通過 $P$ 且與 $5x+3y=1$ 垂直的直線方程式。\n(2) 通過 $P$ 且與 $2x-7y=3$ 垂直的直線方程式。',
+      '已知平面上一點 $P(-1,4)$，試求：\n(1) 過 $P$ 且與 $5x+3y=1$ 垂直的直線方程式\n(2) 過 $P$ 且與 $2x-7y=3$ 垂直的直線方程式',
     answer: '(1) $3x-5y=-23$ (2) $7x+2y=1$',
     hasImage: false,
   },
@@ -5688,7 +5701,7 @@ const lineAndCircle: Question[] = [
     id: '1828d8acd1d',
     chapter: '直線與圓',
     question:
-      '(1) 求過點 $(3,-5)$，與 $4x+7y=12$ 平行的直線方程式。\n(2) 與 $4x+5y=1$ 垂直且通過點 $(2,1)$ 的直線方程式。',
+      '(1) 求過點 $(3,-5)$，與 $4x+7y=12$ 平行的直線方程式\n(2) 與 $4x+5y=1$ 垂直且通過點 $(2,1)$ 的直線方程式',
     answer: '(1) $4x+7y=-23$ (2) $5x-4y=6$',
     hasImage: false,
   },
@@ -5696,171 +5709,168 @@ const lineAndCircle: Question[] = [
     id: '1828d8d51e2',
     chapter: '直線與圓',
     question:
-      '$\\Delta{ABC}$，已知 $A$ 點坐標為 $(3,7)$，$\\overleftrightarrow{BC}$ 方程式為 $2x-5y=4$，求過 $A$ 的高所在直線之方程式。',
-    answer: '$5x++2y=29$',
+      '$\\triangle ABC$，已知 $A$ 點坐標為 (3,7)，直線 $BC$ 方程式為 $2x-5y=4$，求過 $A$ 的高所在直線之方程式。',
+    answer: '$5x+2y=29$',
     hasImage: false,
   },
   {
     id: '1828d904ecc',
     chapter: '直線與圓',
     question:
-      '兩直線 $L_{1}：ax-3y=5a+1$，$L_{2}：2x+(a-5)y=13-a$，若 $L_{1}$ 與 $L_{2}$：\n(1) 互相平行，求 $a$ (2) 互相重合，求 $a$。',
-    answer: '(1) $3$ (2) $2$',
+      '兩直線 $L_1:ax-3y=5a+1$，$L_2:2x+(a-5)y=13-a$，若 $L_1$ 與 $L_2$：\n(1) 互相平行，求 $a$ (2) 互相重合，求 $a$',
+    answer: '(1) 3 (2) 2',
     hasImage: false,
   },
   {
     id: '1828dc4b596',
     chapter: '直線與圓',
-    question:
-      '若三直線 $L_{1}：4x+y=5$，$L_{2}：3x-2y=12$，$L_{3}：x+ay+4=0$ 不能圍成三角形，求 $a$。',
-    answer: '$\\frac{1}{4}$ 或是 $-\\frac{2}{3}$ 或是 $2$',
+    question: '若三直線 $L_1:4x+y=5$，$L_2:3x-2y=12$，$L_3:x+ay+4=0$ 不能圍成三角形，求 $a$',
+    answer: '$\\frac14$ 或 $-\\frac23$ 或 2',
     hasImage: false,
   },
   {
     id: '1828dcad8f5',
     chapter: '直線與圓',
     question:
-      '平面上直線 $L_{1}：(k-1)x+ky=k+2$，$L_{2}：(k+1)x+2ky=10$，請問：\n(1) 若 $L_{1}$ 與 $L_{2}$ 重合，求 $k$ (2) 若 $L_{1}$ 與 $L_{2}$ 平行，求 $k$。',
-    answer: '(1) $3$ (2) $0$',
+      '平面上直線 $L_1:(k-1)x+ky=k+2$，$L_2:(k+1)x+2ky=10$，請問：\n(1) 若 $L_1$ 與 $L_2$ 重合，求 $k$\n(2) 若 $L_1$ 與 $L_2$ 平行，求 $k$',
+    answer: '(1) 3 (2) 0',
     hasImage: false,
   },
   {
     id: '1828dcd8766',
     chapter: '直線與圓',
-    question:
-      '若三直線 $L_{1}：x+3y=1$，$L_{2}：x-y=-3$，$L_{3}：2x+ky=-1$ 不能圍成三角形，求 $k$。',
-    answer: '$6$ 或是 $-2$ 或是 $3$',
+    question: '若三直線 $L_1:x+3y=1$，$L_2:x-y=-3$，$L_3:2x+ky=-1$ 不能圍成三角形，求 $k$',
+    answer: '6 或 -2 或 3',
     hasImage: false,
   },
   {
     id: '1828dcf80a5',
     chapter: '直線與圓',
-    question: '平面上直線 $L：2x-9y=72$，求 $x$ 截距，$y$ 截距，$L$ 與兩軸圍成的三角形面積。',
-    answer: '$36$；$-8$；$144$',
+    question: '平面上直線 $L:2x-9y=72$，求 $x$ 截距、$y$ 截距、$L$ 與兩軸圍成的三角形面積。',
+    answer: '36；-8；144',
     hasImage: false,
   },
   {
     id: '1828dd11baa',
     chapter: '直線與圓',
-    question: '平面上，直線的 $x$ 截距為 $-12$，$y$ 截距為 $15$，求直線方程式。',
+    question: '平面上，直線的 $x$ 截距為 -12，$y$ 截距為 15，求直線方程式。',
     answer: '$-5x+4y=60$',
     hasImage: false,
   },
   {
     id: '1828dd2d2c1',
     chapter: '直線與圓',
-    question: '平面上直線 $L：4x+15y+120=0$，求兩軸的截距和，與兩軸圍成的三角形面積。',
-    answer: '$-38$；$120$',
+    question: '平面上直線 $L:4x+15y+120=0$，求兩軸的截距和、與兩軸圍成的三角形面積。',
+    answer: '-38；120',
     hasImage: false,
   },
   {
     id: '1828dd3d654',
     chapter: '直線與圓',
-    question: '求 $x$ 軸截距為 $3$，$y$ 軸截距為 $-5$ 的直線方程式。',
+    question: '求 $x$ 軸截距為 3，$y$ 軸截距為 -5 的直線方程式。',
     answer: '$5x-3y=15$',
     hasImage: false,
   },
   {
     id: '1828dd5906d',
     chapter: '直線與圓',
-    question: '直線在兩軸的截距和為 $3$，與兩軸圍成的三角形面積為 $9$，求該直線方程式。',
-    answer: '$-2x+y=6$ 或是 $x-2y=6$',
+    question: '直線在兩軸的截距和為 3，與兩軸圍成的三角形面積為 9，求該直線方程式。',
+    answer: '$-2x+y=6$ 或 $x-2y=6$',
     hasImage: false,
   },
   {
     id: '1828dd736b5',
     chapter: '直線與圓',
-    question: '直線在兩軸的截距和為 $-2$，與兩坐標軸圍成的三角形面積為 $4$，求此直線方程式。',
-    answer: '$-x+2y=4$ 或是 $2x-y=4$',
+    question: '直線在兩軸的截距和為 -2，與兩坐標軸圍成的三角形面積為 4，求此直線方程式。',
+    answer: '$-x+2y=4$ 或 $2x-y=4$',
     hasImage: false,
   },
   {
     id: '1828dd94f51',
     chapter: '直線與圓',
     question: '$k$ 為任意實數，直線 $(3k+2)x+(k-1)y-(4k+1)=0$ 恆過一定點，求此定點坐標。',
-    answer: '$(1,1)$',
+    answer: '(1,1)',
     hasImage: false,
   },
   {
     id: '1828ddce4de',
     chapter: '直線與圓',
     question:
-      '設 $m$ 為實數，$\\Delta{ABC}$ 的頂點為 $A(-1,5)、B(-3,0)、C(1,1)$，若直線 $L：y=m(x-3)+2$ 與 $\\Delta{ABC}$ 有交點，求 $m$ 的範圍。',
-    answer: '$-\\frac{3}{4}\\le m\\le \\frac{1}{2}$',
+      '設 $m$ 為實數，$\\triangle ABC$ 的頂點為 $A(-1,5)$、$B(-3,0)$、$C(1,1)$，若直線 $L:y=m(x-3)+2$ 與 $\\triangle ABC$ 有交點，求 $m$ 的範圍。',
+    answer: '$-\\frac34\\le m\\le \\frac12$',
     hasImage: false,
   },
   {
     id: '1828ddfc1d8',
     chapter: '直線與圓',
     question: '設 $k$ 為任意實數，直線 $(2k+5)x+(k-2)y-2k+1=0$ 恆過一定點，求其坐標。',
-    answer: '$(\\frac{1}{3},\\frac{4}{3})$',
+    answer: '$(\\frac13,\\frac43)$',
     hasImage: false,
   },
   {
     id: '1828e167b8e',
     chapter: '直線與圓',
     question:
-      '平面上有三點 $A(2,1)、B(3,7)、C(-5,4)$，直線 $L：y=mx+2m-1$：\n(1) 若 $L$ 與 $\\overline{AB}$ 相交，求 $m$ 的範圍。\n(2) 若 $L$ 與 $\\overline{BC}$ 相交，求 $m$ 的範圍。',
-    answer:
-      '(1) $\\frac{1}{2}\\le m\\le \\frac{8}{5}$ (2) $m\\le -\\frac{5}{3}$ 或是 $m\\ge \\frac{8}{5}$',
+      '平面上有三點 $A(2,1)$、$B(3,7)$、$C(-5,4)$，直線 $L:y=mx+2m-1$：\n(1) 若 $L$ 與 $\\overline{AB}$ 相交，求 $m$ 的範圍\n(2) 若 $L$ 與 $\\overline{BC}$ 相交，求 $m$ 的範圍',
+    answer: '(1) $\\frac12\\le m\\le \\frac85$ (2) $m\\le -\\frac53$ 或 $m\\ge \\frac85$',
     hasImage: false,
   },
   {
     id: '1828e18e697',
     chapter: '直線與圓',
-    question: "求點 $A(1,4)$ 對直線 $L：3x-2y=8$ 的投影點 $A_{0}$，對稱點 $A'$。",
-    answer: '$(4,2)$；$(7,0)$',
+    question: "求點 $A(1,4)$ 對直線 $L:3x-2y=8$ 的投影點 $A_0$，對稱點 $A'$。",
+    answer: '(4,2)；(7,0)',
     hasImage: false,
   },
   {
     id: '1828e1a17a9',
     chapter: '直線與圓',
-    question: "求點 $P(6,-7)$ 對 $3x-4y=-4$ 的投影點 $P_{0}$，對稱點 $P'$。",
-    answer: '$(0,1)$；$(-6,9)$',
+    question: "求點 $P(6,-7)$ 對 $3x-4y=-4$ 的投影點 $P_0$，對稱點 $P'$。",
+    answer: '(0,1)；(-6,9)',
     hasImage: false,
   },
   {
     id: '1828e1cec96',
     chapter: '直線與圓',
     question:
-      '坐標平面上的兩點 $A(1,5)、B(6,7)$，點 $P(x,0)$ 在 $x$ 軸上移動，求 $x$ 為多少時，$\\overline{PA}+\\overline{PB}$ 有最小值為多少。',
-    answer: '$\\frac{37}{12}$；$13$',
+      '坐標平面上的兩點 $A(1,5)$、$B(6,7)$，點 $P(x,0)$ 在 $x$ 軸上移動，求 $x$ 為何時，$\\overline{PA}+\\overline{PB}$ 有最小值？最小值為？',
+    answer: '$\\frac{37}{12}$；13',
     hasImage: false,
   },
   {
     id: '1828e1effc4',
     chapter: '直線與圓',
     question:
-      '平面上三點 $A(2,2)、B(6,4)、P(x,0)$，求 $x$ 為多少時，使 $\\Delta{PAB}$ 周長最小為多少。',
-    answer: '$\\frac{10}{3}$；$2\\sqrt{5}+2\\sqrt{13}$',
+      '平面上三點 $A(2,2)$、$B(6,4)$、$P(x,0)$，求 $x$ 為何時，使 $\\triangle PAB$ 周長最小？其最小值為？',
+    answer: '$\\frac{10}3$；$2\\sqrt5+2\\sqrt{13}$',
     hasImage: false,
   },
   {
     id: '1828e2079f5',
     chapter: '直線與圓',
-    question: '求點 $P(-3,5)$ 到直線 $L：3x-4y=6$ 的最近距離。',
-    answer: '$7$',
+    question: '求點 $P(-3,5)$ 到直線 $L:3x-4y=6$ 的最近距離。',
+    answer: '7',
     hasImage: false,
   },
   {
     id: '1828e224598',
     chapter: '直線與圓',
-    question: '求點 $P(x,y)$ 在直線 $L：7x+24y-9=0$ 上，求 $\\sqrt{(x-1)^2+(y+2)^2}$ 的最小值。',
-    answer: '$2$',
+    question: '求點 $P(x,y)$ 在直線 $L:7x+24y-9=0$ 上，求 $\\sqrt{(x-1)^2+(y+2)^2}$ 的最小值。',
+    answer: '2',
     hasImage: false,
   },
   {
     id: '1828e2376fd',
     chapter: '直線與圓',
-    question: '點 $(1,-4)$ 到直線 $5x+12y=k$ 的距離為 $5$，求 $k$。',
-    answer: '$-108$ 或是 $22$',
+    question: '點 (1,-4) 到直線 $5x+12y=k$ 的距離為 5，求 $k$。',
+    answer: '-108 或 22',
     hasImage: false,
   },
   {
     id: '1828e252132',
     chapter: '直線與圓',
-    question: '求點 $(4,1)$ 到直線 $3x-4y=2$ 的距離。',
-    answer: '$\\frac{6}{5}$',
+    question: '求點 (4,1) 到直線 $3x-4y=2$ 的距離。',
+    answer: '$\\frac65$',
     hasImage: false,
   },
   {
@@ -5874,7 +5884,7 @@ const lineAndCircle: Question[] = [
     id: '1829278a2da',
     chapter: '直線與圓',
     question: '點 (2,5) 到直線 $4x+3y=k$ 的距離為 7，求 $k$。',
-    answer: '$28\\lor-42$',
+    answer: '28 或 -42',
     hasImage: false,
   },
   {
@@ -5901,29 +5911,28 @@ const lineAndCircle: Question[] = [
   {
     id: '182927a97eb',
     chapter: '直線與圓',
-    question: '求與直線 $L:4x-3y=1$ 平行且間距為 $4$ 單位的直線方程式為何?\n',
-    answer: '$4x-3y=21$ or $4x-3y=-19$',
+    question: '求與直線 $L:4x-3y=1$ 平行且間距為 4 單位的直線方程式。',
+    answer: '$4x-3y=21\\lor4x-3y=-19$',
     hasImage: false,
   },
   {
     id: '182927b3d49',
     chapter: '直線與圓',
-    question:
-      '求  $L_1:x-y=7$ 與 $L_2:7x+y=1$ 的兩條角平分線方程式為何?其中銳角平分線方程式為何?\n',
-    answer: '(1)$x+3y=-17$ or $3x-y=9$\n(2)$3x-y=9$',
+    question: '求 $L_1:x-y=7$ 與 $L_2:7x+y=1$ 的角平分線方程式，並分辨何者為銳角角平分線。',
+    answer: '鈍角 $x+3y=-17$；銳角 $3x-y=9$',
     hasImage: false,
   },
   {
     id: '182927c1bcd',
     chapter: '直線與圓',
-    question: '求  $3x-4y+2=0$ 與 $4x-3y-5=0$ 之銳角平分線方程式為何為何?\n',
+    question: '求 $3x-4y+2=0$ 與 $4x-3y-5=0$ 之銳角平分線方程式。',
     answer: '$7x-7y=3$',
     hasImage: false,
   },
   {
     id: '182927d41c7',
     chapter: '直線與圓',
-    question: '作圖:(1) $x-2y \\ge 6$ (2) $-2x+3y>12$。\n',
+    question: '作圖：(1) $x-2y\\ge6$ (2) $-2x+3y>12$',
     answer: '略',
     hasImage: false,
   },
@@ -5931,30 +5940,29 @@ const lineAndCircle: Question[] = [
     id: '182927e5185',
     chapter: '直線與圓',
     question:
-      '平面上點 $P(3,1)$，直線 $L:2x+y=5$，請問下列哪些點與 $P$ 位在$L$ 的同側?\n(A)$(0,0)$ (B)$(1,3)$ (C)$(2,\\sqrt{3})$ (D)$(100,-100)$ (E)$(-100,100)$\n\n',
-    answer: '$C、D$',
+      '平面上點 $P(3,1)$，直線 $L:2x+y=5$，請問下列哪些點與 $P$ 位在 $L$ 的同側?\n(1) (0,0)　(2) (1,3)　(3) $(2,\\sqrt3)$\n(4) (100,-100)　(5) (-100,100)',
+    answer: '(3)(4)',
     hasImage: false,
   },
   {
     id: '182927f0c13',
     chapter: '直線與圓',
-    question: '作圖:(1) $2x+y \\le 4$ (2) $-x-3y<6$。\n',
+    question: '作圖：(1) $2x+y\\le4$ (2) $-x-3y<6$',
     answer: '略',
     hasImage: false,
   },
   {
     id: '18292825cfa',
     chapter: '直線與圓',
-    question:
-      '若 $ax+by\\le c$ 的圖形如圖所示，請選出正確的選項。\n(A)$a>0$ (B)$b>0$ (C)$c>0$ \n\n',
-    answer: '$B、C$',
+    question: '若 $ax+by\\le c$ 的圖形如圖所示，請選出正確的選項。(1) $a>0$　(2) $b>0$　(3) $c>0$',
+    answer: '(2)(3)',
     hasImage: true,
   },
   {
     id: '1829280a5a1',
     chapter: '直線與圓',
     question:
-      '作圖:(1)$\\begin{cases}x+y+1\\ge 0\\\\x-y-2\\ge 0\\end{cases}$ \n         (2)$(x+y+1)(x-y-2)>0$。\n\n',
+      '作圖：(1) $\\begin{cases}x+y+1\\ge0\\\\x-y-2\\ge0\\end{cases}$\n(2) $(x+y+1)(x-y-2)>0$',
     answer: '略',
     hasImage: false,
   },
@@ -5962,23 +5970,23 @@ const lineAndCircle: Question[] = [
     id: '18292812c79',
     chapter: '直線與圓',
     question:
-      '聯立不等式的圖形為三角形及其內部，圖形如圖所示，其中 $L_3$ 平行 $x$ 軸，請寫出該聯立不等式。\n\n',
-    answer: '$\\begin{cases}3x-2y\\ge -6\\\\2x+y\\le 3\\\\y \\ge -1\\end{cases}$',
+      '聯立不等式的圖形為三角形及其內部，圖形如圖所示，其中 $L_3$ 平行 $x$ 軸，請寫出該聯立不等式。',
+    answer: '$\\begin{cases}3x-2y\\ge-6\\\\2x+y\\le3\\\\y\\ge-1\\end{cases}$',
     hasImage: true,
   },
   {
     id: '1829283fcf1',
     chapter: '直線與圓',
     question:
-      '聯立不等式 $\\begin{cases}ax+by\\le c\\\\x+y \\ge d\\end{cases}$ 的圖如圖所示，則何者正確?\n(A)$a>0$ (B)$b>0$ (C)$c>0$ (D)$d>0$\n\n',
-    answer: '$B、C$',
+      '聯立不等式 $\\begin{cases}ax+by\\le c\\\\x+y\\ge d\\end{cases}$ 的圖如圖所示，則何者正確?\n(1) $a>0$　(2) $b>0$　(3) $c>0$　(4) $d>0$',
+    answer: '(2)(3)',
     hasImage: true,
   },
   {
     id: '18292856c77',
     chapter: '直線與圓',
     question:
-      '作圖:(1)$\\begin{cases}x+2y-4\\le 0\\\\3x-y-6\\le 0\\end{cases}$\n         (2)$(x+2y-4)(3x-y-6)\\le 0$\n\n',
+      '作圖：(1) $\\begin{cases}x+2y-4\\le0\\\\3x-y-6\\le0\\end{cases}$\n(2) $(x+2y-4)(3x-y-6)\\le0$',
     answer: '略',
     hasImage: false,
   },
@@ -5986,101 +5994,96 @@ const lineAndCircle: Question[] = [
     id: '18292861598',
     chapter: '直線與圓',
     question:
-      '四邊形區域(含邊界)如圖所示，其四邊的直線方程式為 $x+y=7、x-y=3、2x+y=3、x-2y=-11$，試以聯立不等式組表示。\n\n',
-    answer: '$\\begin{cases}2x+y\\ge 3\\\\x-y\\le 3\\\\x+y \\le 7\\\\x-2y\\ge -11\\end{cases}$',
+      '四邊形區域 (含邊界) 如圖所示，其四邊的直線方程式為 $x+y=7$、$x-y=3$、$2x+y=3$、$x-2y=-11$，試以聯立不等式組表示。',
+    answer: '$\\begin{cases}2x+y\\ge3\\\\x-y\\le3\\\\x+y\\le7\\\\x-2y\\ge-11\\end{cases}$',
     hasImage: true,
   },
   {
     id: '18292872257',
     chapter: '直線與圓',
     question:
-      '若 $\\begin{cases}5x+ay\\ge b\\\\cx+dy\\le e\\end{cases}$ 如圖所示，請選出正確的選項。\n(A)$a>0$ (B)$b>0$ (C)$c>0$ (D)$d>0$ (E)$e>0$\n',
-    answer: '$A、C$',
+      '若 $\\begin{cases}5x+ay\\ge b\\\\cx+dy\\le e\\end{cases}$ 如圖所示，請選出正確的選項。(1) $a>0$　(2) $b>0$\n(3) $c>0$　(4) $d>0$　(5) $e>0$',
+    answer: '(1)(3)',
     hasImage: true,
   },
   {
     id: '1829288068f',
     chapter: '直線與圓',
     question:
-      '二元一次聯立不等式 $\\begin{cases}2x+y\\le 6\\\\x+y\\ge 2\\\\x \\ge 0\\\\y\\ge 0\\end{cases}$，求此區域共有幾個格子點?($x、y$ 坐標均為完整的點)\n',
-    answer: '$13$ 個',
+      '二元一次聯立不等式 $\\begin{cases}2x+y\\le6\\\\x+y\\ge2\\\\x\\ge0\\\\y\\ge0\\end{cases}$，求此區域共有幾個格子點？($x$、$y$ 坐標均為整數的點)',
+    answer: '13 個',
     hasImage: false,
   },
   {
     id: '18292893ba6',
     chapter: '直線與圓',
     question:
-      '已知可樂一杯 $18$ 元，果汁一杯 $30$ 元，小明用現有的 $150$ 元去買飲料，在至少購買 $2$ 杯飲料的情況下，請問小明共有幾種不同購買方式?\n',
-    answer: '$26$ 種\n',
+      '已知可樂一杯 18 元，果汁一杯 30 元，小明用現有的 150 元去買飲料，在至少購買 2 杯飲料的情況下，請問小明共有幾種不同購買方式？',
+    answer: '26 種',
     hasImage: false,
   },
   {
     id: '182928bfd14',
     chapter: '直線與圓',
     question:
-      '有一個車輪緊靠台階，如圖所示，台階的高度為 $25$ 公分，車輪與地面的接觸點距離台階 $35$ 公分，請問此車輪的直徑為多少公分?\n \n\n',
-    answer: '$74$ 公分 \n',
+      '有一個車輪緊靠台階，如圖所示，台階的高度為 25 公分，車輪與地面的接觸點距離台階 35 公分，請問此車輪的直徑為多少公分？',
+    answer: '74 公分',
     hasImage: true,
   },
   {
     id: '182928cabc2',
     chapter: '直線與圓',
-    question:
-      '坐標平面上有一單位圓，圓心為 $(7,4)$，試求圓周上所有點 $(x,y)$ 所滿足的關係式為何?\n\n',
-    answer: '$(x-7)^2+(y-4)^2=1$\n',
+    question: '坐標平面上有一單位圓，圓心為 (7,4)，試求此圓方程式。',
+    answer: '$(x-7)^2+(y-4)^2=1$',
     hasImage: false,
   },
   {
     id: '182928d33bd',
     chapter: '直線與圓',
-    question:
-      '坐標平面上有一圓以點 $A(3,-2)$ 為圓心，點 $B(-1,1)$ 在圓周上，試求此圓方程式為何?\n\n',
-    answer: '$(x-3)^2+(y+2)^2=25$\n',
+    question: '坐標平面上有一圓以點 $A(3,-2)$ 為圓心，點 $B(-1,1)$ 在圓周上，試求此圓方程式。',
+    answer: '$(x-3)^2+(y+2)^2=25$',
     hasImage: false,
   },
   {
     id: '182928ecc5e',
     chapter: '直線與圓',
-    question: '圓方程式 $2x^2+2y^2-8x+12y-15=0$ 的圓心與半徑為何?\n\n',
-    answer: '圓心=$(2,3)$\n半徑=$\\frac{\\sqrt{82}}{2}$',
+    question: '求圓方程式 $2x^2+2y^2-8x+12y-15=0$ 的圓心與半徑。',
+    answer: '(2,-3)；$\\frac{\\sqrt{82}}2$',
     hasImage: false,
   },
   {
     id: '182928f5481',
     chapter: '直線與圓',
-    question: '以點 $(\\sqrt{6},\\pi)$ 為圓心，半徑為 $3$ 的圓方程式為何?\n\n\n',
+    question: '試求以點 $(\\sqrt6,\\pi)$ 為圓心，半徑為 3 的圓方程式。',
     answer: '$(x-\\sqrt{6})^2+(y-\\pi)^2=9$',
     hasImage: false,
   },
   {
     id: '182929009f8',
     chapter: '直線與圓',
-    question:
-      '坐標平面上有一圓以點 $(-4,1)$ 為圓心，點 $(0,2)$ 在圓周上，求此圓方程式為何?\n\n\n\n',
+    question: '坐標平面上有一圓以點 (-4,1) 為圓心，點 (0,2) 在圓周上，求此圓方程式。',
     answer: '$(x+4)^2+(y-1)^2=17$',
     hasImage: false,
   },
   {
     id: '1829290af50',
     chapter: '直線與圓',
-    question: '已知圓方程式 $2x^2+2y^2+ax+by-1=0$ 的圓心為 $(-1,4)$ 試求 $a、b$、半徑為何?\n\n\n\n',
-    answer: '$a=4$\n$b=-16$\n半徑=$\\frac{\\sqrt{70}}{2}$\n',
+    question: '已知圓方程式 $2x^2+2y^2+ax+by-1=0$ 的圓心為 (-1,4)，試求 $a$、$b$、半徑。',
+    answer: '4；-16；$\\frac{\\sqrt{70}}2$',
     hasImage: false,
   },
   {
     id: '1829291be5b',
     chapter: '直線與圓',
-    question:
-      '若方程式 $axy+bx(x+y-4)+2xy+3y^2=6y$ 的圖形為一圓，求數對 $(a,b)$ 與圓心、半徑為何?\n\n\n\n',
-    answer: '$(a,b)=(-5,3)$ \n圓心=$(2,1)$\n半徑=$\\sqrt{5}$\n',
+    question: '若方程式 $axy+bx(x+y-4)+2xy+3y^2=6y$ 的圖形為一圓，求數對 $(a,b)$ 與圓心、半徑。',
+    answer: '(-5,3)；(2,1)；$\\sqrt5$',
     hasImage: false,
   },
   {
     id: '18292928531',
     chapter: '直線與圓',
-    question:
-      '設 $a$ 為實數，考慮方程式 $x^2+y^2+2x-6y+k=0$ 的圖形，若為一點，則 $k$ 與此點坐標為何?\n\n\n\n\n',
-    answer: '(1)$k=10$\n(2)(-1,3)',
+    question: '設 $k$ 為實數，考慮方程式 $x^2+y^2+2x-6y+k=0$ 的圖形，若為一點，求 $k$ 與此點坐標。',
+    answer: '10；(-1,3)',
     hasImage: false,
   },
   {
@@ -14800,43 +14803,43 @@ const trigonometricFuncA: Question[] = [
     id: '17b738a20a1',
     chapter: '三角函數A',
     question:
-      '若 $\\sin\\theta=\\frac{3}{5}$，$90\\du<\\theta<180\\du$，求 $\\sin2\\theta$、$\\cos2\\theta$、$\\tan2\\theta$。',
-    answer: '$-\\frac{24}{25}$；$\\frac{7}{25}$；$-\\frac{24}{7}$',
+      '若 $\\sin\\theta=\\dfrac35$，$90\\du<\\theta<180\\du$，求 $\\sin2\\theta$、$\\cos2\\theta$、$\\tan2\\theta$。',
+    answer: '$-\\frac{24}{25}$；$\\frac7{25}$；$-\\frac{24}7$',
     hasImage: false,
   },
   {
     id: '17b738c5a2e',
     chapter: '三角函數A',
     question: '圖是由三個直角三角形堆疊而成的圖形，且 $\\overline{OD}=8$，求 $\\overline{AB}$。',
-    answer: '$\\sqrt{3}$',
+    answer: '$\\sqrt3$',
     hasImage: true,
   },
   {
     id: '17b7392533f',
     chapter: '三角函數A',
     question: '求 $\\sin22.5\\du$、$\\cos22.5\\du$。',
-    answer: '$\\frac{\\sqrt{2-\\sqrt{2}}}{2}$；$\\frac{\\sqrt{2+\\sqrt{2}}}{2}$',
+    answer: '$\\frac{\\sqrt{2-\\sqrt2}}2$；$\\frac{\\sqrt{2+\\sqrt2}}2$',
     hasImage: false,
   },
   {
     id: '17b73936315',
     chapter: '三角函數A',
     question: '求 $\\tan15\\du$。',
-    answer: '$2-\\sqrt{3}$',
+    answer: '$2-\\sqrt3$',
     hasImage: false,
   },
   {
     id: '17b7395c7e2',
     chapter: '三角函數A',
-    question: '若 $\\sin\\theta=-\\frac{1}{3}$，求 $\\sin3\\theta$。',
+    question: '若 $\\sin\\theta=-\\dfrac13$，求 $\\sin3\\theta$。',
     answer: '$-\\frac{23}{27}$',
     hasImage: false,
   },
   {
     id: '17b7396db1b',
     chapter: '三角函數A',
-    question: '化簡 $\\frac{\\sin51\\du}{\\sin17\\du}-\\frac{\\cos51\\du}{\\cos17\\du}$。',
-    answer: '$2$',
+    question: '化簡 $\\dfrac{\\sin51\\du}{\\sin17\\du}-\\dfrac{\\cos51\\du}{\\cos17\\du}$。',
+    answer: '2',
     hasImage: false,
   },
   {
@@ -14851,7 +14854,7 @@ const trigonometricFuncA: Question[] = [
     id: '17b73a6f1c5',
     chapter: '三角函數A',
     question:
-      '求 $y=2\\sin x+3$ 的圖形與 $x=\\frac{\\pi}{2}$、$x=\\frac{3\\pi}{2}$、$x$ 軸圍成的區域面積。',
+      '求 $y=2\\sin x+3$ 的圖形與 $x=\\dfrac{\\pi}2$、$x=\\dfrac{3\\pi}2$、$x$ 軸圍成的區域面積。',
     answer: '$3\\pi$',
     hasImage: false,
   },
@@ -14859,32 +14862,31 @@ const trigonometricFuncA: Question[] = [
     id: '17b73a9657d',
     chapter: '三角函數A',
     question:
-      '函數 $f(x)=3\\cos\\left(5x+\\frac{\\pi}{3}\\right)-1$ 的週期為？最大函數值為？最小函數值為？$f(x)$ 的圖形可由 $y=3\\cos5x$ 向左移 $a$ 再向下移 $b$ 而得，求 $(a,b)$。',
-    answer: '$\\frac{2\\pi}{5}$；$2$；$-4$；$\\left(\\frac{\\pi}{15},1\\right)',
+      '函數 $f(x)=3\\cos(5x+\\dfrac{\\pi}3)-1$ 的週期為？最大函數值為？最小函數值為？$f(x)$ 的圖形可由 $y=3\\cos5x$ 向左移 $a$ 再向下移 $b$ 而得，求 $(a,b)$。',
+    answer: '$\\frac{2\\pi}5$；2；-4；$(\\frac{\\pi}{15},1)$',
     hasImage: false,
   },
   {
     id: '17b741d382b',
     chapter: '三角函數A',
     question:
-      '$f(x)=\\sin x-\\sqrt{3}\\cos x=a\\sin(x+k)$，其中 $a>0$ 且 $0\\le k<2\\pi$，求 $a$、$k$。若 $0\\le x\\le\\pi$，求 $f(x)$ 的最大值與最小值。',
-    answer: '$2$；$\\frac{5\\pi}{3}$；$2$；$-\\sqrt{3}$',
+      '$f(x)=\\sin x-\\sqrt3\\cos x=a\\sin(x+k)$，其中 $a>0$ 且 $0\\le k<2\\pi$，求 $a$、$k$。',
+    answer: '2；$\\frac{5\\pi}3$',
     hasImage: false,
   },
   {
     id: '17b7420b612',
     chapter: '三角函數A',
     question:
-      '$f(x)=-5\\sin x+12\\cos x$，$x\\in\\mathbb{R}$，求：\n(1) $f(x)$ 的最大值、及此時的 $\\sin x$、$\\cos x$\n(2) $f(x)$ 的最小值、及此時的 $\\sin x$、$\\cos x$',
-    answer:
-      '(1) $13$；$\\frac{-5}{13}$；$\\frac{12}{13}$ (2) $-13$；$\\frac{5}{13}$；$\\frac{-12}{13}$',
+      '$f(x)=-5\\sin x+12\\cos x$，$x\\in\\mathbb{R}$，求：\n(1) $f(x)$ 的最大值及此時的 $\\sin x$、$\\cos x$\n(2) $f(x)$ 的最小值及此時的 $\\sin x$、$\\cos x$',
+    answer: '(1) 13；$\\frac{-5}{13}$；$\\frac{12}{13}$ (2) -13；$\\frac5{13}$；$\\frac{-12}{13}$',
     hasImage: false,
   },
   {
     id: '17b742931cf',
     chapter: '三角函數A',
     question:
-      "將地球視為一個球體，在航海學中將赤道上與地心夾角為 $1'$ 的 $A$、$B$ 兩地間的距離 (即 $\\arc{AB}$ 弧長) 定為「$1$ 浬」，若地球半徑為 $6400$ 公里，得 $1$ 浬為 $t\\times\\pi$ 公里，求 $t$。",
+      "將地球視為一個球體，在航海學中將赤道上與地心夾角為 1' 的 $A$、$B$ 兩地間的距離 (即 $\\arc{AB}$ 弧長) 定為「1 浬」，若地球半徑為 6400 公里，得 1 浬為 $t\\times\\pi$ 公里，求 $t$。",
     answer: '$\\frac{16}{27}$',
     hasImage: false,
   },
@@ -14892,7 +14894,7 @@ const trigonometricFuncA: Question[] = [
     id: '17b742d3338',
     chapter: '三角函數A',
     question:
-      '有一扇形，其半徑為 $5$ 公分，中心角為 $\\theta$，經過計算，發現該扇形的周長為 $k$ 公分，面積為 $k$ 平方公分，兩者的數字大小恰好相等，則 $\\theta$ 應介於下列哪一個範圍之內？\n(1) $75\\du<\\theta<76\\du$ (2) $76\\du<\\theta<77\\du$\n(3) $77\\du<\\theta<78\\du$ (4) $78\\du<\\theta<79\\du$\n(5) $79\\du<\\theta<80\\du$',
+      '有一扇形，其半徑為 5 公分，中心角為 $\\theta$，經過計算，發現該扇形的周長為 $k$ 公分，面積為 $k$ 平方公分，兩者的數字大小恰好相等，則 $\\theta$ 應介於下列哪一個範圍之內？\n(1) $75\\du<\\theta<76\\du$ (2) $76\\du<\\theta<77\\du$\n(3) $77\\du<\\theta<78\\du$ (4) $78\\du<\\theta<79\\du$\n(5) $79\\du<\\theta<80\\du$',
     answer: '(2)',
     hasImage: false,
   },
@@ -14900,7 +14902,7 @@ const trigonometricFuncA: Question[] = [
     id: '17b7439275c',
     chapter: '三角函數A',
     question:
-      '令 $a=\\cos\\pi^2$，試問下列何者正確？\n(1) $a=-1$ (2) $-1<a\\le-\\frac{1}{2}$\n(3) $-\\frac{1}{2}<a\\le0$ (4) $0<a\\le\\frac{1}{2}$\n(5) $\\frac{1}{2}<a\\le1$',
+      '令 $a=\\cos\\pi^2$，試問下列何者正確？\n(1) $a=-1$ (2) $-1<a\\le-\\dfrac12$\n(3) $-\\dfrac12<a\\le0$ (4) $0<a\\le\\dfrac12$\n(5) $\\dfrac12<a\\le1$',
     answer: '(2)',
     hasImage: false,
   },
@@ -14909,14 +14911,14 @@ const trigonometricFuncA: Question[] = [
     chapter: '三角函數A',
     question:
       '弧度 $\\theta=1,2,3,4,5,6,7,8,9,10$ 共有十個有向角，試問其中有幾個可使 $\\sin\\theta>0$ 且 $\\sin2\\theta<0$？',
-    answer: '$4$ 個',
+    answer: '4 個',
     hasImage: false,
   },
   {
     id: '17b743f2946',
     chapter: '三角函數A',
     question:
-      '已知 $A$ 與 $B$ 均為有向角，滿足 $\\sin A=\\frac{4}{5}$，$\\sin B=\\frac{12}{13}$，則下列關於兩角和 $A+B$ 的敘述，哪些正確？\n(1) $A+B$ 可為第一象限角\n(2) $A+B$ 可為第二象限角\n(3) $A+B$ 可為第三象限角\n(4) $A+B$ 可為第四象限角\n(5) $A+B$ 的終邊可落在坐標軸上',
+      '已知 $A$ 與 $B$ 均為有向角，滿足 $\\sin A=\\dfrac45$，$\\sin B=\\dfrac{12}{13}$，則下列關於兩角和 $A+B$ 的敘述，哪些正確？\n(1) $A+B$ 可為第一象限角\n(2) $A+B$ 可為第二象限角\n(3) $A+B$ 可為第三象限角\n(4) $A+B$ 可為第四象限角\n(5) $A+B$ 的終邊可落在坐標軸上',
     answer: '(2)(3)',
     hasImage: false,
   },
@@ -14924,7 +14926,7 @@ const trigonometricFuncA: Question[] = [
     id: '17b74415bfb',
     chapter: '三角函數A',
     question:
-      '在 $\\triangle ABC$ 中，已知 $2\\sin A+3\\cos B=\\sqrt{5}$ 且 $3\\sin B+2\\cos A=2\\sqrt{5}$，求 $\\angle C$。',
+      '在 $\\triangle ABC$ 中，已知 $2\\sin A+3\\cos B=\\sqrt5$ 且 $3\\sin B+2\\cos A=2\\sqrt5$，求 $\\angle C$。',
     answer: '$90\\du$',
     hasImage: false,
   },
@@ -14932,7 +14934,7 @@ const trigonometricFuncA: Question[] = [
     id: '17b7e1d24b8',
     chapter: '三角函數A',
     question:
-      '設銳角三角形 $ABC$ 的外接圓半徑為 $8$。已知外接圓圓心到 $\\overline{AB}$ 的距離為 $2$，而到 $\\overline{BC}$ 的距離為 $7$，求 $\\overline{AC}$。',
+      '設銳角三角形 $ABC$ 的外接圓半徑為 8。已知外接圓圓心到 $\\overline{AB}$ 的距離為 2，而到 $\\overline{BC}$ 的距離為 7，求 $\\overline{AC}$。',
     answer: '$4\\sqrt{15}$',
     hasImage: false,
   },
@@ -14941,7 +14943,7 @@ const trigonometricFuncA: Question[] = [
     chapter: '三角函數A',
     question:
       '在 $\\triangle ABC$ 中，$D$ 為 $\\overline{BC}$ 邊上一點且 $\\overline{AD}$ 平分 $\\angle BAC$。已知 $\\overline{BD}=5$，$\\overline{DC}=7$，且 $\\angle ABC=60\\du$，求：\n(1) $\\sin\\angle ACB$ (2) $\\sin\\angle BAC$ (3) $\\overline{AB}$',
-    answer: '(1) $\\frac{5\\sqrt{3}}{14}$ (2) $\\frac{4\\sqrt{3}}{7}$ (3) $\\frac{15}{2}$',
+    answer: '(1) $\\frac{5\\sqrt3}{14}$ (2) $\\frac{4\\sqrt3}7$ (3) $\\frac{15}2$',
     hasImage: false,
   },
   {
@@ -14949,14 +14951,14 @@ const trigonometricFuncA: Question[] = [
     chapter: '三角函數A',
     question:
       '已知 $\\triangle ABC$ 中，$\\overline{AB}=2$，$\\overline{BC}=3$，且 $\\angle A=2\\angle C$，求 $\\overline{AC}$。',
-    answer: '$\\frac{5}{2}$',
+    answer: '$\\frac52$',
     hasImage: false,
   },
   {
     id: '17b7e281805',
     chapter: '三角函數A',
     question:
-      '坐標平面上﹑以原點 $O$ 為圓心的圓上有三個相異點 $A(1,0)$、$B$、$C$，且 $\\overline{AB}=\\overline{BC}$。已知銳角 $\\triangle OAB$ 的面積為 $\\frac{3}{10}$，求 $\\triangle OAC$ 面積。',
+      '坐標平面上，以原點 $O$ 為圓心的圓上有三個相異點 $A(1,0)$、$B$、$C$，且 $\\overline{AB}=\\overline{BC}$。已知銳角 $\\triangle OAB$ 的面積為 $\\frac3{10}$，求 $\\triangle OAC$ 面積。',
     answer: '$\\frac{12}{25}$',
     hasImage: false,
   },
@@ -14964,8 +14966,8 @@ const trigonometricFuncA: Question[] = [
     id: '17b7e3099e8',
     chapter: '三角函數A',
     question:
-      '在一個無風的夜晚，祈福天燈從地面的 $A$ 點冉冉升起，$1$ 秒鐘後升至 $B$ 點，再花 $1$ 秒鐘升至 $C$ 點，再花 $1$ 秒鐘升至 $D$ 點。在離 $A$ 點 $9$ 公尺遠的 $P$ 點處觀察，發現 $\\angle APB=\\angle BPC=\\angle CPD$，且 $\\overline{AB}=3$ 公尺，求升起 $3$ 秒後的高度 $\\overline{AD}$。',
-    answer: '$13$ 公尺',
+      '在一個無風的夜晚，祈福天燈從地面的 $A$ 點冉冉升起，1 秒鐘後升至 $B$ 點，再花 1 秒鐘升至 $C$ 點，再花 1 秒鐘升至 $D$ 點。在離 $A$ 點 9 公尺遠的 $P$ 點處觀察，發現 $\\angle APB=\\angle BPC=\\angle CPD$，且 $\\overline{AB}=3$ 公尺，求升起 3 秒後的高度 $\\overline{AD}$。',
+    answer: '13 公尺',
     hasImage: true,
   },
   {
@@ -14973,23 +14975,23 @@ const trigonometricFuncA: Question[] = [
     chapter: '三角函數A',
     question:
       '設 $\\triangle ABC$ 為一等腰直角三角形，$\\angle BAC=90\\du$，若 $P$、$Q$ 為斜邊 $\\overline{BC}$ 的三等分點，求 $\\tan\\angle PAQ$。',
-    answer: '$\\frac{3}{4}$',
+    answer: '$\\frac34$',
     hasImage: false,
   },
   {
     id: '17b7e3e015b',
     chapter: '三角函數A',
     question:
-      '設 $f(x)=2\\sin(kx+\\theta)$，其中 $x$ 為任何實數，$0\\le\\theta\\le\\frac{\\pi}{2}$，$k>0$，若 $f(x)$ 的圖形與 $y$ 軸交於點 $(0,1)$，如圖，求 $\\theta$。若 $P$ 是圖形最高點，$M$、$N$ 是圖形與 $x$ 軸的交點，$M$ 的坐標為 $\\left(-\\frac{1}{5},0\\right)$，求 $\\triangle PMN$ 面積。',
-    answer: '$\\frac{\\pi}{6}$；$\\frac{6\\pi}{5}$',
+      '設 $f(x)=2\\sin(kx+\\theta)$，其中 $x$ 為任何實數，$0\\le\\theta\\le\\dfrac{\\pi}2$，$k>0$，若 $f(x)$ 的圖形與 $y$ 軸交於點 (0,1)，如圖，求 $\\theta$。若 $P$ 是圖形最高點，$M$、$N$ 是圖形與 $x$ 軸的交點，$M$ 的坐標為 $(-\\dfrac15,0)$，求 $\\triangle PMN$ 面積。',
+    answer: '$\\frac{\\pi}6$；$\\frac{6\\pi}5$',
     hasImage: true,
   },
   {
     id: '17b7e414060',
     chapter: '三角函數A',
     question:
-      '圖為函數 $f(x)=a\\cos(bx+c)+d$ 的圖形，其中 $a,b>0$，$(2,3)$ 為波峰的頂點，$(20,-1)$ 為波谷的頂點，求 $(a,b,d)$。$c$ 值有無限種可能，若 $c$ 為最小正數，求 $c$。',
-    answer: '$\\left(2,\\frac{\\pi}{2},1\\right)$；$\\pi$',
+      '圖為函數 $f(x)=a\\cos(bx+c)+d$ 的圖形，其中 $a,b>0$，(2,3) 為波峰的頂點，(20,-1) 為波谷的頂點，求 $(a,b,d)$。$c$ 值有無限種可能，若 $c$ 為最小正數，求 $c$。',
+    answer: '$(2,\\frac{\\pi}2,1)$；$\\pi$',
     hasImage: true,
   },
   {
@@ -14997,14 +14999,14 @@ const trigonometricFuncA: Question[] = [
     chapter: '三角函數A',
     question:
       '在 $0\\le x\\le2\\pi$ 的範圍中，$y=3\\sin x$ 的圖形與 $y=2\\sin2x$ 的圖形有幾個交點？',
-    answer: '$5$',
+    answer: '5',
     hasImage: false,
   },
   {
     id: '17b7e4c391e',
     chapter: '三角函數A',
     question:
-      '關於函數 $y=\\sin x$ 的圖形和 $y=\\frac{x}{10\\pi}$ 的圖形之交點個數，下列哪一個選項是正確的？\n(1) 交點的個數是無窮多\n(2) 交點的個數是奇數且大於 $20$\n(3) 交點的個數是奇數且小於 $20$\n(4) 交點的個數是偶數且大於或等於 $20$\n(5) 交點的個數是偶數且小於 $20$',
+      '關於函數 $y=\\sin x$ 的圖形和 $y=\\dfrac x{10\\pi}$ 的圖形之交點個數，下列哪一個選項是正確的？\n(1) 交點的個數是無窮多\n(2) 交點的個數是奇數且大於 20\n(3) 交點的個數是奇數且小於 20\n(4) 交點的個數是偶數且大於或等於 20\n(5) 交點的個數是偶數且小於 20',
     answer: '(3)',
     hasImage: false,
   },
@@ -15012,24 +15014,24 @@ const trigonometricFuncA: Question[] = [
     id: '17b7e4f1e51',
     chapter: '三角函數A',
     question:
-      '函數 $f(x)=\\sqrt{3}\\sin x+\\cos x$，$x$ 的範圍為 $\\alpha\\le x\\le\\beta$，其中 $0<\\alpha,\\beta<2\\pi$，已知 $f(x)$ 的最小值為 $-1$，最大值為 $\\sqrt{2}$，求 $(\\alpha,\\beta)$。',
-    answer: '$\\left(\\frac{7\\pi}{12},\\pi\\right)$',
+      '函數 $f(x)=\\sqrt{3}\\sin x+\\cos x$，$x$ 的範圍為 $\\alpha\\le x\\le\\beta$，其中 $0<\\alpha,\\beta<2\\pi$，已知 $f(x)$ 的最小值為 -1，最大值為 $\\sqrt2$，求 $(\\alpha,\\beta)$。',
+    answer: '$(\\frac{7\\pi}{12},\\pi)$',
     hasImage: false,
   },
   {
     id: '17b7e5131d7',
     chapter: '三角函數A',
     question:
-      '$x\\in\\mathbb{R}$，求 $f(x)=(2\\sin x+3\\cos x)^2$+4(2\\sin x+3\\cos x)+1$ 的最大值與最小值。',
-    answer: '$14+4\\sqrt{13}$；$-3$',
+      '$x\\in\\mathbb R$，求 $f(x)=(2\\sin x+3\\cos x)^2$$+4(2\\sin x+3\\cos x)+1$ 的最大值與最小值。',
+    answer: '$14+4\\sqrt{13}$；-3',
     hasImage: false,
   },
   {
     id: '17b64a843b2',
     chapter: '三角函數A',
     question:
-      '車輪的半徑為 $40$ 公分，若輪軸轉動使軸心前進 $20$ 公尺，求車輪繞軸心轉動的角為多少弳？換算成角度為多少度？',
-    answer: '$50$；$\\frac{9000}{\\pi}$',
+      '車輪的半徑為 40 公分，若輪軸轉動使軸心前進 20 公尺，求車輪繞軸心轉動的角為多少弳？換算成角度為多少度？',
+    answer: '50；$\\frac{9000}{\\pi}$',
     hasImage: false,
   },
   {
@@ -15043,30 +15045,30 @@ const trigonometricFuncA: Question[] = [
   {
     id: '17b64ae2615',
     chapter: '三角函數A',
-    question: '若扇形的弧長為 $4$ 單位，面積為 $3$ 平方單位，求此扇形的半徑、中心角。',
-    answer: '$\\frac{3}{2}$；$\\frac{8}{3}$ 弳',
+    question: '若扇形的弧長為 4 單位，面積為 3 平方單位，求此扇形的半徑、中心角。',
+    answer: '$\\frac32$；$\\frac83$ 弳',
     hasImage: false,
   },
   {
     id: '17b64af334b',
     chapter: '三角函數A',
-    question: '設鐘面的分針長度是時針的 $2$ 倍，經過一小時後，分針掃過的扇形面積是時針的幾倍？',
-    answer: '$48$',
+    question: '設鐘面的分針長度是時針的 2 倍，經過一小時後，分針掃過的扇形面積是時針的幾倍？',
+    answer: '48',
     hasImage: false,
   },
   {
     id: '17b64b61b0b',
     chapter: '三角函數A',
     question:
-      '已知 $\\theta$ 與 $\\phi$ 為銳角，若 $\\sin\\theta=\\frac{3}{5}$，$\\cos\\phi=\\frac{5}{13}$，求 $\\sin(\\theta+\\phi)$、$\\cos(\\theta-\\phi)$。',
-    answer: '$\\frac{63}{65}$；略',
+      '已知 $\\theta$ 與 $\\phi$ 為銳角，若 $\\sin\\theta=\\dfrac35$，$\\cos\\phi=\\dfrac5{13}$，求 $\\sin(\\theta+\\phi)$、$\\cos(\\theta-\\phi)$。',
+    answer: '$\\frac{63}{65}$；$\\frac{56}{65}$',
     hasImage: false,
   },
   {
     id: '17b64b76a9c',
     chapter: '三角函數A',
-    question: '若 $\\tan A=5$，$\\tan B=-3$，求 $\\tan(A+B)$。',
-    answer: '$\\frac{1}{8}$',
+    question: '若 $\\tan A=5$，$\\tan B=-3$，求 $\\tan(A+B)$',
+    answer: '$\\frac18$',
     hasImage: false,
   },
 ];
@@ -15544,7 +15546,7 @@ const expAndLogFunction: Question[] = [
     id: '17c0e46cd15',
     chapter: '指數與對數函數',
     question:
-      '在養分充足的情況下，細菌的數量會以指數函數的方式成長，假設細菌 $A$ 的數量每兩個小時可以成長為兩倍，細菌 $B$ 的數量每三個小時可以成長為三倍。若養分充足且一開始兩種細菌的數量相等，則大約幾小時後細菌 $B$ 的數量除以細菌 $A$ 的數量最接近 $10$？\n(1) $24$ (2) $48$ (3) $69$ (4) $96$ (5) $117$',
+      '在養分充足的情況下，細菌的數量會以指數函數的方式成長，假設細菌 $A$ 的數量每兩個小時可以成長為兩倍，細菌 $B$ 的數量每三個小時可以成長為三倍。若養分充足且一開始兩種細菌的數量相等，則大約幾小時後細菌 $B$ 的數量除以細菌 $A$ 的數量最接近 10？\n(1) 24 (2) 48 (3) 69 (4) 96 (5) 117',
     answer: '(5)',
     hasImage: false,
   },
@@ -15552,7 +15554,7 @@ const expAndLogFunction: Question[] = [
     id: '17c0e4b28e3',
     chapter: '指數與對數函數',
     question:
-      '設地震芮氏規模 $r$，震央所釋放的能量 $E(r)$，其關係式為 $\\log E(r)=11.8+1.5r$，試問日本 311 規模 $9.0$ 的強震所釋放出的能量約為臺灣 921 規模 $7.3$ 地震所釋放能量的多少倍？($\\log2\\approx0.3010$，$\\log3\\approx0.4771$，$\\log7\\approx0.8451$)\n(1) $250$ (2) $350$ (3) $450$ (4) $550$ (5) $650$',
+      '設地震芮氏規模 $r$，震央所釋放的能量 $E(r)$，其關係式為 $\\log E(r)=11.8+1.5r$，試問日本 311 規模 9.0 的強震所釋放出的能量約為臺灣 921 規模 7.3 地震所釋放能量的多少倍？($\\log2\\approx0.3010$，$\\log3\\approx0.4771$，$\\log7\\approx0.8451$)\n(1) 250 (2) 350 (3) 450 (4) 550 (5) 650',
     answer: '(5)',
     hasImage: false,
   },
@@ -15560,15 +15562,15 @@ const expAndLogFunction: Question[] = [
     id: '17c0e4f3e9f',
     chapter: '指數與對數函數',
     question:
-      '聲音的強度為 $I$，規定其分貝數為 $d=10\\log\\frac{I}{10^{-12}}$，已知一支喇叭的分貝數為 $107$ 分貝，若希望 $n$ 支喇叭齊鳴的分貝達到 $120$ 分貝，求最小整數 $n$。($\\log2\\approx0.3$)',
-    answer: '$20$',
+      '聲音的強度為 $I$，規定其分貝數為 $d=10\\log\\dfrac I{10^{-12}}$，已知一支喇叭的分貝數為 107 分貝，若希望 $n$ 支喇叭齊鳴的分貝達到 120 分貝，求最小整數 $n$。($\\log2\\approx0.3$)',
+    answer: '20',
     hasImage: false,
   },
   {
     id: '17c0e5c084b',
     chapter: '指數與對數函數',
     question:
-      '已知氫原子核的質量約為 $1.7\\times10^{-27}$ 公斤，氫原子核的半徑約為 $10^{-15}$ 公尺，球體體積為 $\\frac{4}{3}\\pi r^3\\approx4.2r^3$，其中 $r$ 為球半徑。請計算氫原子核的密度約為多少 $km/m^3$？(以科學記號表示，取一位有效數字)',
+      '已知氫原子核的質量約為 $1.7\\times10^{-27}$ 公斤，氫原子核的半徑約為 $10^{-15}$ 公尺，球體體積為 $\\frac43\\pi r^3\\approx4.2r^3$，其中 $r$ 為球半徑。請計算氫原子核的密度約為多少 $km/m^3$？(以科學記號表示，取一位有效數字)',
     answer: '$4\\times10^{17}$',
     hasImage: false,
   },
@@ -15576,30 +15578,30 @@ const expAndLogFunction: Question[] = [
     id: '17c0e6013ff',
     chapter: '指數與對數函數',
     question:
-      '數學家把形如 $2^n-1$ 的質數稱為「梅森質數」，例如 $2^5-1=31$。目前人類所知最大的梅森質數為 $2^{82589933}-1$。請問此數最接近幾位數？($\\log\\approx0.3$)\n(1) $1000$ 萬位 (2) $1500$ 萬位 (3) $2000$ 萬位 (4) $2500$ 萬位 (5) $3000$ 萬位',
+      '數學家把形如 $2^n-1$ 的質數稱為「梅森質數」，例如 $2^5-1=31$。目前人類所知最大的梅森質數為 $2^{82589933}-1$。請問此數最接近幾位數？($\\log\\approx0.3$)\n(1) 1000 萬位 (2) 1500 萬位 (3) 2000 萬位 (4) 2500 萬位 (5) 3000 萬位',
     answer: '(4)',
     hasImage: false,
   },
   {
     id: '17bdeef5d0a',
     chapter: '指數與對數函數',
-    question: '$(\\frac{3}{2})^{100}$ 的整數部分為幾位數？最高位數字為？',
-    answer: '$18$；$4$',
+    question: '$(\\dfrac32)^{100}$ 的整數部分為幾位數？最高位數字為？',
+    answer: '18；4',
     hasImage: false,
   },
   {
     id: '17bdef095bc',
     chapter: '指數與對數函數',
-    question: '$(\\frac{2}{3})^{100}$ 自小數點後第幾位開始不為 $0$？此不為 $0$ 的數字是？',
-    answer: '$18$；$2$',
+    question: '$(\\dfrac23)^{100}$ 自小數點後第幾位開始不為 0？此不為 0 的數字是？',
+    answer: '18；2',
     hasImage: false,
   },
   {
     id: '17bdef3ebc0',
     chapter: '指數與對數函數',
     question:
-      '圖為殘存在胃裡的藥量 ( $y$ 毫克) 與服藥時間 ( $x$ 小時) 的關係圖，若其關係式為指數函數 $y=c\\cdot a^x$，$c$ 是常數。(1) 求數對 $(a,c)$。\n(2) 若經過 $1.5$ 小時候藥量殘存為 $k\\sqrt{6}$ 毫克，求 $k$。',
-    answer: '(1) $(\\frac{2}{3},450)$ (2) $100$',
+      '圖為殘存在胃裡的藥量 ($y$ 毫克) 與服藥時間 ($x$ 小時) 的關係圖，若其關係式為指數函數 $y=c\\cdot a^x$，$c$ 是常數。(1) 求數對 $(a,c)$。\n(2) 若經過 1.5 小時候藥量殘存為 $k\\sqrt6$ 毫克，求 $k$。',
+    answer: '(1) $(\\frac23,450)$ (2) 100',
     hasImage: true,
   },
   {
@@ -15614,7 +15616,7 @@ const expAndLogFunction: Question[] = [
     id: '17bdf089825',
     chapter: '指數與對數函數',
     question:
-      '$a,b\\in\\mathbb{R}$，考慮函數 $y=2^{x+a}=b$ 的圖形，請問下列選項哪些為真？\n(1) 無論 $a,b$ 為何，函數圖形必過第一象限\n(2) 無論 $a,b$ 為何，函數圖形必過第二象限\n(3) 無論 $a,b$ 為何，函數圖形至少過兩個象限\n(4) 可找到實數 $a,b$ 使函數的圖形過四個象限\n(5) 若此函數的圖形通過原點，此時函數圖形必恰過兩個象限',
+      '$a,b\\in\\mathbb R$，考慮函數 $y=2^{x+a}=b$ 的圖形，請問下列選項哪些為真？\n(1) 無論 $a,b$ 為何，函數圖形必過第一象限\n(2) 無論 $a,b$ 為何，函數圖形必過第二象限\n(3) 無論 $a,b$ 為何，函數圖形至少過兩個象限\n(4) 可找到實數 $a,b$ 使函數的圖形過四個象限\n(5) 若此函數的圖形通過原點，此時函數圖形必恰過兩個象限',
     answer: '(2)(3)(5)',
     hasImage: false,
   },
@@ -15646,7 +15648,7 @@ const expAndLogFunction: Question[] = [
     id: '17bdf134773',
     chapter: '指數與對數函數',
     question:
-      '下列哪些選項的值恰等於 $\\log_25$？\n(1) $\\log_{16}25$ (2) $\\log_52$ (3) $\\log_\\frac{1}{2}\\frac{1}{5}$\n(4) $\\log_23\\times\\log_35$ (5) $\\frac{\\log_{27}125}{\\log_94}',
+      '下列哪些選項的值恰等於 $\\log_25$？\n(1) $\\log_{16}25$ (2) $\\log_52$ (3) $\\log_\\frac12\\dfrac15$\n(4) $\\log_23\\times\\log_35$ (5) $\\dfrac{\\log_{27}125}{\\log_94}$',
     answer: '(1)(3)(4)(5)',
     hasImage: false,
   },
@@ -15654,7 +15656,7 @@ const expAndLogFunction: Question[] = [
     id: '17bdf208be0',
     chapter: '指數與對數函數',
     question:
-      '設 $(a_{n+1})^2=\\frac{1}{\\sqrt{10}}(a_n)^2$，$n\\in\\mathbb{N}$，且知 $a_n$ 皆為正。令 $b_n=\\log a_n$，則數列 $\\langle b_n\\rangle$ 為：\n(1) 公差為正的等差數列\n(2) 公差為負的等差數列\n(3) 公比為正的等比數列\n(4) 公比為負的等比數列\n(5) 既非等差亦非等比數列',
+      '設 $(a_{n+1})^2=\\dfrac1{\\sqrt{10}}(a_n)^2$，$n\\in\\mathbb N$，且知 $a_n$ 皆為正。令 $b_n=\\log a_n$，則數列 $\\langle b_n\\rangle$ 為：\n(1) 公差為正的等差數列\n(2) 公差為負的等差數列\n(3) 公比為正的等比數列\n(4) 公比為負的等比數列\n(5) 既非等差亦非等比數列',
     answer: '(2)',
     hasImage: false,
   },
@@ -15662,29 +15664,29 @@ const expAndLogFunction: Question[] = [
     id: '17bdf223df1',
     chapter: '指數與對數函數',
     question: '設實數 $x$ 滿足 $0<x<1$，且 $\\log_x4-\\log_2x=1$，求 $x$。',
-    answer: '$\\frac{1}{4}$',
+    answer: '$\\frac14$',
     hasImage: false,
   },
   {
     id: '17bdf238b24',
     chapter: '指數與對數函數',
     question: '若 $x^2+2(1+\\log_7k)x+(3+\\log_7k)=0$ 有兩相異實根，求實數 $k$ 的範圍。',
-    answer: '$0<k<\\frac{1}{49}$ 或 $k>7$',
+    answer: '$0<k<\\frac1{49}$ 或 $k>7$',
     hasImage: false,
   },
   {
     id: '17bdf25d197',
     chapter: '指數與對數函數',
     question:
-      '在坐標平面上，$A(a,r)$、$B(b,s)$ 為函數圖形 $y=\\log_2x$ 上之兩點，其中 $a<b$。已知 $A$、$B$ 連線的斜率等於 $2$，且線段 $\\overline{AB}$ 長度為 $\\sqrt{5}$，求數對 $(a,b)$。',
-    answer: '$(\\frac{1}{3},\\frac{4}{3})$',
+      '在坐標平面上，$A(a,r)$、$B(b,s)$ 為函數圖形 $y=\\log_2x$ 上之兩點，其中 $a<b$。已知 $A$、$B$ 連線的斜率等於 2，且線段 $\\overline{AB}$ 長度為 $\\sqrt5$，求數對 $(a,b)$。',
+    answer: '$(\\frac13,\\frac43)$',
     hasImage: false,
   },
   {
     id: '17bdf27ab1b',
     chapter: '指數與對數函數',
     question:
-      '若 $(a,b)$ 是對數函數 $y=\\log x$ 圖形上的一點，則下列哪些選項中的點也在該對數函數的圖形上？ (1) $(1,0)$ (2) $(10a,b+1)$\n(3) $(2a,2b)$ (4) $(\\frac{1}{a},1-b)$ (5) $(a^2,2b)$',
+      '若 $(a,b)$ 是對數函數 $y=\\log x$ 圖形上的一點，則下列哪些選項中的點也在該對數函數的圖形上？ (1) (1,0) (2) $(10a,b+1)$\n(3) $(2a,2b)$ (4) $(\\dfrac1a,1-b)$ (5) $(a^2,2b)$',
     answer: '(1)(2)(5)',
     hasImage: false,
   },
@@ -15693,7 +15695,7 @@ const expAndLogFunction: Question[] = [
     chapter: '指數與對數函數',
     question:
       '圖中甲、乙、丙、丁、戊為五個函數的圖形，則：(1) $y=\\log_2x$ 的圖形為\n(2) $y=\\log_2(-x)$ 的圖形為\n(3) $y=-\\log_2x$ 的圖形為\n(4) $y=\\log_2(2x)$ 的圖形為\n(5) $y=\\log_2x^2$ 的圖形為',
-    answer: '(1)戊 (2)甲 (3)丙 (4)丁 (5)乙',
+    answer: '(1) 戊 (2) 甲 (3) 丙 (4) 丁 (5) 乙',
     hasImage: true,
   },
   {
@@ -15708,7 +15710,7 @@ const expAndLogFunction: Question[] = [
     id: '17bdf4330cf',
     chapter: '指數與對數函數',
     question:
-      '下列哪些方程式有實數解？\n(1) $2^x=\\log_2x$\n(2) $(\\frac{1}{2})^2=\\log_\\frac{1}{2}x$\n(3) $2^x=\\log_\\frac{1}{2}x$\n(4) $2^x=x^2$\n(5) $\\log_2x=x-1$',
+      '下列哪些方程式有實數解？\n(1) $2^x=\\log_2x$\n(2) $(\\dfrac12)^2=\\log_\\frac12x$\n(3) $2^x=\\log_\\frac12x$\n(4) $2^x=x^2$\n(5) $\\log_2x=x-1$',
     answer: '(2)(3)(4)(5)',
     hasImage: false,
   },
@@ -15716,7 +15718,7 @@ const expAndLogFunction: Question[] = [
     id: '17bdf4864dd',
     chapter: '指數與對數函數',
     question:
-      '$k\\in\\mathbb{R}$，考慮方程式 $\\log_2x+k=x$ 的實根，請問下列哪些為真？\n(1) 若 $x=8$ 為此方程式的實根，則 $k=5$\n(2) 若此方程式有解，則 $k>0$\n(3) 若實數 $k$ 使得方程式有解，則必恰有 $2$ 個相異實根\n(4) 若 $\\log_2x+k=x$ 有實根，則 $\\log_2x+k=10x$ 也有實根\n(5) 若 $\\log_2x+k=x$ 有實根，則 $\\log_2x+k=\\frac{x}{10}$ 也有實根',
+      '$k\\in\\mathbb R$，考慮方程式 $\\log_2x+k=x$ 的實根，請問下列哪些為真？\n(1) 若 $x=8$ 為此方程式的實根，則 $k=5$\n(2) 若此方程式有解，則 $k>0$\n(3) 若實數 $k$ 使得方程式有解，則必恰有 2 個相異實根\n(4) 若 $\\log_2x+k=x$ 有實根，則 $\\log_2x+k=10x$ 也有實根\n(5) 若 $\\log_2x+k=x$ 有實根，則 $\\log_2x+k=\\frac{x}{10}$ 也有實根',
     answer: '(1)(2)(5)',
     hasImage: false,
   },
@@ -15724,7 +15726,7 @@ const expAndLogFunction: Question[] = [
     id: '17bdf4ca016',
     chapter: '指數與對數函數',
     question:
-      '據統計，當一件訊息發布後，$t$ 小時內聽到該訊息的人口是總人口的 $100(1-2^{-kt})\\%$，其中 $k$ 為一個大於 $0$ 的常數。今有一訊息，假設在發布後 $3$ 小時之內已經有 $70\\%$ 的人口聽到該訊息。又設最快 $T$ 小時後，有 $99\\%$ 的人口已聽到該訊息，則 $T$ 最接近下列哪一選項？ (1) $5$ (2) $7\\frac{1}{2}$ (3) $9$ (4) $11\\frac{1}{2}$ (5) $13$',
+      '據統計，當一件訊息發布後，$t$ 小時內聽到該訊息的人口是總人口的 $100(1-2^{-kt})\\%$，其中 $k$ 為一個大於 0 的常數。今有一訊息，假設在發布後 3 小時之內已經有 70% 的人口聽到該訊息。又設最快 $T$ 小時後，有 99% 的人口已聽到該訊息，則 $T$ 最接近下列哪一選項？ (1) 5 (2) $7\\dfrac12$ (3) 9 (4) $11\\dfrac12$ (5) 13',
     answer: '(4)',
     hasImage: false,
   },
@@ -15732,7 +15734,7 @@ const expAndLogFunction: Question[] = [
     id: '17b82e42744',
     chapter: '指數與對數函數',
     question:
-      '坐標平面上，在函數圖形 $y=2^x$ 上，標示 $A$、$B$、$C$、$D$ 四個點，其 $x$ 坐標分別為 $-1$、$0$、$1$、$2$。請選出正確的選項。\n(1) 點 $B$ 落在直線 $AC$ 下方\n(2) 在 $\\overleftrightarrow{AB}$、$\\overleftrightarrow{BC}$、$\\overleftrightarrow{CD}$、$\\overleftrightarrow{CD}$ 中，以 $\\overleftrightarrow{CD}$ 的斜率最大\n(3) $A$、$B$、$C$、$D$ 四點，以 $B$ 最靠近 $x$ 軸\n(4) $y=2x$ 與 $y=2^x$ 的圖形有兩個交點\n(5) 點 $A$ 與點 $C$ 對稱於 $y$ 軸',
+      '坐標平面上，在函數圖形 $y=2^x$ 上，標示 $A$、$B$、$C$、$D$ 四個點，其 $x$ 坐標分別為 -1、0、1、2。請選出正確的選項。\n(1) 點 $B$ 落在直線 $AC$ 下方\n(2) 在直線 $AB$、直線 $BC$、直線 $CD$、直線 $CD$ 中，以直線 $CD$ 的斜率最大\n(3) $A$、$B$、$C$、$D$ 四點，以 $B$ 最靠近 $x$ 軸\n(4) $y=2x$ 與 $y=2^x$ 的圖形有兩個交點\n(5) 點 $A$ 與點 $C$ 對稱於 $y$ 軸',
     answer: '(1)(2)(4)',
     hasImage: false,
   },
@@ -15740,15 +15742,15 @@ const expAndLogFunction: Question[] = [
     id: '17b82e9f8ad',
     chapter: '指數與對數函數',
     question:
-      '設 $a>0$ 且 $a\\neq1$，則 $y=a^x$ 的圖形與下列哪些直線必定會有交點？\n(1) $x$ 軸 (2) $y$ 軸 (3) $y=0.0001$\n(4) $y=10000$ (5) $y=-1$',
+      '設 $a>0$ 且 $a\\ne1$，則 $y=a^x$ 的圖形與下列哪些直線必定會有交點？\n(1) $x$ 軸 (2) $y$ 軸 (3) $y=0.0001$\n(4) $y=10000$ (5) $y=-1$',
     answer: '(2)(3)(4)',
     hasImage: false,
   },
   {
     id: '17b838818d6',
     chapter: '指數與對數函數',
-    question: '$y=3^x$ 的圖形向左移 $2$ 再向下移 $4$，得到 $y=f(x)$ 的圖形，求 $f(1)$。',
-    answer: '$23$',
+    question: '$y=3^x$ 的圖形向左移 2 再向下移 4，得到 $y=f(x)$ 的圖形，求 $f(1)$。',
+    answer: '23',
     hasImage: false,
   },
   {
@@ -15762,30 +15764,30 @@ const expAndLogFunction: Question[] = [
   {
     id: '17b838e6907',
     chapter: '指數與對數函數',
-    question: '方程式 $3^{x-2}=\\left(\\frac{1}{9}\\right)^{x-5}$，求 $x$。',
-    answer: '$4$',
+    question: '方程式 $3^{x-2}=(\\dfrac19)^{x-5}$，求 $x$。',
+    answer: '4',
     hasImage: false,
   },
   {
     id: '17b838fdeab',
     chapter: '指數與對數函數',
     question:
-      '設 $x\\in\\mathbb{R}$，若 $\\frac{1}{8}\\le\\left(\\frac{1}{4}\\right)^{2x-1}\\le16$ 的解為 $a\\le x\\le b$，求數對 $(a,b)$。',
-    answer: '$\\left(-\\frac{1}{2},\\frac{5}{4}\\right)$',
+      '設 $x\\in\\mathbb R$，若 $\\dfrac18\\le(\\dfrac14)^{2x-1}\\le16$ 的解為 $a\\le x\\le b$，求數對 $(a,b)$。',
+    answer: '$(-\\frac12,\\frac54)$',
     hasImage: false,
   },
   {
     id: '17b8394a0da',
     chapter: '指數與對數函數',
-    question: '求 (1) $\\log_216$ (2) $\\log_3\\frac{1}{27}$ (3) $\\log_{25}5$',
-    answer: '(1) $4$ (2) $-3$ (3) $\\frac{1}{2}$',
+    question: '求 (1) $\\log_216$ (2) $\\log_3\\dfrac1{27}$ (3) $\\log_{25}5$',
+    answer: '(1) 4 (2) -3 (3) $\\frac12$',
     hasImage: false,
   },
   {
     id: '17b8396d89b',
     chapter: '指數與對數函數',
     question:
-      '若 $\\sqrt{2}^\\sqrt{3}=a$，則下列哪些選項正確？\n(1) $2^\\sqrt{3}=a^2$ (2) $\\sqrt{2}^3=a^2$\n(3) $\\sqrt{2}=\\log_\\sqrt{3}a$ (4) $\\sqrt{3}=\\log_\\sqrt{2}a$\n(5) $\\sqrt{3}=\\log_2\\sqrt{a}$',
+      '若 $\\sqrt2^\\sqrt3=a$，則下列哪些選項正確？\n(1) $2^\\sqrt3=a^2$ (2) $\\sqrt2^3=a^2$ (3) $\\sqrt2=\\log_\\sqrt3a$\n(4) $\\sqrt3=\\log_\\sqrt2a$ (5) $\\sqrt3=\\log_2\\sqrt a$',
     answer: '(1)(4)',
     hasImage: false,
   },
@@ -15801,22 +15803,22 @@ const expAndLogFunction: Question[] = [
     id: '17b839dee39',
     chapter: '指數與對數函數',
     question:
-      '下列哪些選項的推論為真？\n(1) 由 $(-2)^3=-8$ 知 $\\log_{-2}(-8)=3$ 成立\n(2) 由 $(-2)^4=16$ 知 $\\log_{-2}16=4$ 成立\n(3) 由 $2^{-4}=\\frac{1}{16}$ 知 $\\log_2\\frac{1}{16}=-4$ 成立\n(4) 滿足 $\\log_x3=2$ 的 $x$ 會滿足 $x^2=3$\n(5) 滿足 $x^2=3$ 的 $x$ 會滿足 $\\log_x3=2$',
+      '下列哪些選項的推論為真？\n(1) 由 $(-2)^3=-8$ 知 $\\log_{-2}(-8)=3$ 成立\n(2) 由 $(-2)^4=16$ 知 $\\log_{-2}16=4$ 成立\n(3) 由 $2^{-4}=\\dfrac1{16}$ 知 $\\log_2\\dfrac1{16}=-4$ 成立\n(4) 滿足 $\\log_x3=2$ 的 $x$ 會滿足 $x^2=3$\n(5) 滿足 $x^2=3$ 的 $x$ 會滿足 $\\log_x3=2$',
     answer: '(3)(4)',
     hasImage: false,
   },
   {
     id: '17b83aa9f1b',
     chapter: '指數與對數函數',
-    question: '求 (1) $\\log_{10}25+\\log_{10}4$ (2) $\\log125-\\log\\frac{1}{8}$',
-    answer: '(1) $2$ (2) $3$',
+    question: '求 (1) $\\log_{10}25+\\log_{10}4$ (2) $\\log125-\\log\\dfrac18$',
+    answer: '(1) 2 (2) 3',
     hasImage: false,
   },
   {
     id: '17b83ad833a',
     chapter: '指數與對數函數',
     question:
-      '若 $x,y>0$ 滿足 $\\log x=2.8$，$\\log y=5.6$，則 $\\log(x^2+y)$ 最接近下列哪一個選項的值？($\\log2\\approx0.3010$)\n(1) $2.8$ (2) $5.6$ (3) $5.9$ (4) $8.4$ (5) $11.2$',
+      '若 $x,y>0$ 滿足 $\\log x=2.8$，$\\log y=5.6$，則 $\\log(x^2+y)$ 最接近下列哪一個選項的值？\n($\\log2\\approx0.3010$)\n(1) 2.8 (2) 5.6 (3) 5.9 (4) 8.4 (5) 11.2',
     answer: '(3)',
     hasImage: false,
   },
@@ -15824,14 +15826,14 @@ const expAndLogFunction: Question[] = [
     id: '17b83af255b',
     chapter: '指數與對數函數',
     question: '求 $\\log_23\\times\\log_349\\times\\log_716$。',
-    answer: '$8$',
+    answer: '8',
     hasImage: false,
   },
   {
     id: '17b83b03143',
     chapter: '指數與對數函數',
-    question: '若 $a=\\frac{3}{\\log_25}$，求 $25^a$。',
-    answer: '$64$',
+    question: '若 $a=\\dfrac3{\\log_25}$，求 $25^a$。',
+    answer: '64',
     hasImage: false,
   },
   {
@@ -15846,7 +15848,7 @@ const expAndLogFunction: Question[] = [
     id: '17b83bf21ed',
     chapter: '指數與對數函數',
     question:
-      '坐標平面上，$\\Gamma_1$ 為 $y=\\log_2x$ 的圖形，$\\Gamma_2$ 為 $y=\\log_\\frac{1}{2}x$ 的圖形。下列關於 $\\Gamma_1$ 與 $\\Gamma_2$ 的敘述，試選出正確的選項。\n(1) $\\Gamma_1$ 的圖形凹口向下\n(2) $\\Gamma_2$ 的圖形凹口向下\n(3) $\\Gamma_1$ 的圖形均在 $x$ 軸的上方\n(4) $\\Gamma_2$ 的圖形均在 $y$ 軸的右方\n(5) $\\Gamma_1$ 與 $\\Gamma_2$ 恰交於一點',
+      '坐標平面上，$\\Gamma_1$ 為 $y=\\log_2x$ 的圖形，$\\Gamma_2$ 為 $y=\\log_\\frac12x$ 的圖形。下列關於 $\\Gamma_1$ 與 $\\Gamma_2$ 的敘述，試選出正確的選項。\n(1) $\\Gamma_1$ 的圖形凹口向下\n(2) $\\Gamma_2$ 的圖形凹口向下\n(3) $\\Gamma_1$ 的圖形均在 $x$ 軸的上方\n(4) $\\Gamma_2$ 的圖形均在 $y$ 軸的右方\n(5) $\\Gamma_1$ 與 $\\Gamma_2$ 恰交於一點',
     answer: '(1)(4)(5)',
     hasImage: false,
   },
@@ -15869,8 +15871,8 @@ const expAndLogFunction: Question[] = [
   {
     id: '17b83cb16d1',
     chapter: '指數與對數函數',
-    question: '方程式 $\\log_9x^5+7\\log_\\frac{1}{3}x=18$，求 $x$。',
-    answer: '$\\frac{1}{81}$',
+    question: '方程式 $\\log_9x^5+7\\log_\\frac13x=18$，求 $x$。',
+    answer: '$\\frac1{81}$',
     hasImage: false,
   },
   {
@@ -15884,30 +15886,30 @@ const expAndLogFunction: Question[] = [
     id: '17b83d0155c',
     chapter: '指數與對數函數',
     question:
-      '設細菌的數量會以指數函數的方式成長，現有細菌 $125$ 個，若經過 $2$ 個小時候的細菌數為 $8000$ 個，求現在起算 $20$ 分鐘後的細菌數。',
-    answer: '$250$',
+      '設細菌的數量會以指數函數的方式成長，現有細菌 125 個，若經過 2 個小時候的細菌數為 8000 個，求現在起算 20 分鐘後的細菌數。',
+    answer: '250',
     hasImage: false,
   },
   {
     id: '17b83d31116',
     chapter: '指數與對數函數',
     question:
-      '化學家利用水溶液的氫離子濃度 $[H^+]$ 來定義酸鹼 $pH$ 值，公式為 $pH=-\\log_{10}[H^+]$。若甲溶液的氫離子濃度是乙溶液的 $20$ 倍，則甲溶液的 $pH$ 值比乙溶液的 $pH$ 值小，求兩者相減的差。($\\log2\\approx0.3$)',
-    answer: '$1.3$',
+      '化學家利用水溶液的氫離子濃度 $[H^+]$ 來定義酸鹼 $pH$ 值，公式為 $pH=-\\log_{10}[H^+]$。若甲溶液的氫離子濃度是乙溶液的 20 倍，則甲溶液的 $pH$ 值比乙溶液的 $pH$ 值小，求兩者相減的差。($\\log2\\approx0.3$)',
+    answer: '1.3',
     hasImage: false,
   },
   {
     id: '17b6d04948c',
     chapter: '指數與對數函數',
-    question: '化簡 $\\log_23\\cdot\\log_764\\cdot\\log_35\\cdot\\log_{5}49$。',
-    answer: '$12$',
+    question: '化簡 $\\log_23\\cdot\\log_764\\cdot\\log_35\\cdot\\log_549$。',
+    answer: '12',
     hasImage: false,
   },
   {
     id: '17b6d058070',
     chapter: '指數與對數函數',
     question: '化簡 $(\\log_25+\\log_40.2)(\\log_52+\\log_{25}0.5)$。',
-    answer: '$\\frac{1}{4}$',
+    answer: '$\\frac14$',
     hasImage: false,
   },
   {
@@ -17681,7 +17683,7 @@ const planeVector: Question[] = [
   {
     id: '17cbd88250a',
     chapter: '平面向量',
-    question: '設向量 $\\vector{a}=(k,2)$ 在直線 $3x-4y=6$ 上的正射影為 $(8,6)$，求 $k$。',
+    question: '設向量 $\\vector a=(k,2)$ 在直線 $3x-4y=6$ 上的正射影為 $(8,6)$，求 $k$。',
     answer: '$11$',
     hasImage: false,
   },
@@ -17841,7 +17843,7 @@ const planeVector: Question[] = [
     id: '17c922bf1a6',
     chapter: '平面向量',
     question:
-      '$\\vector{a}=(3,-5)$，$\\vector{b} =(2,7)$，$\\vector{c} =(k,2k+1)$，則：\n(1) 求 $\\vector{a}\\cdot\\vector{b}$ (2) 若 $\\vector{b}\\cdot\\vector{c}=-25$，求 $k$',
+      '$\\vector a=(3,-5)$，$\\vector b =(2,7)$，$\\vector c =(k,2k+1)$，則：\n(1) 求 $\\vector a\\cdot\\vector b$ (2) 若 $\\vector b\\cdot\\vector c=-25$，求 $k$',
     answer: '(1) $-29$ (2) $-2$',
     hasImage: false,
   },
@@ -17857,7 +17859,7 @@ const planeVector: Question[] = [
     id: '17c922f5425',
     chapter: '平面向量',
     question:
-      '已知 $|\\vector{a}|=3$，$|\\vector{b}|=4$，$|\\vector{c}|=10$，$\\vector{a}$ 與 $\\vector{b}$ 的夾角為 $30\\du$，$\\vector{a}$ 與 $\\vector{c}$ 的夾角為 $120\\du$，求 $\\vector{a}\\cdot\\vector{b}$ 與 $\\vector{a}\\cdot\\vector{c}$。',
+      '已知 $|\\vector a|=3$，$|\\vector b|=4$，$|\\vector c|=10$，$\\vector a$ 與 $\\vector b$ 的夾角為 $30\\du$，$\\vector a$ 與 $\\vector c$ 的夾角為 $120\\du$，求 $\\vector a\\cdot\\vector b$ 與 $\\vector a\\cdot\\vector c$。',
     answer: '$6\\sqrt{3}$；$-15$',
     hasImage: false,
   },
@@ -17865,7 +17867,7 @@ const planeVector: Question[] = [
     id: '17c923047dd',
     chapter: '平面向量',
     question:
-      '設 $\\vector{a}=(k,k+1)$，$\\vector{b}=(2,-1)$，$\\vector{c}=(3k-1,k+2)$，若 $\\vector{a}\\cdot\\vector{b}=5$，求 $\\vector{b}\\cdot\\vector{c}$。',
+      '設 $\\vector a=(k,k+1)$，$\\vector b=(2,-1)$，$\\vector c=(3k-1,k+2)$，若 $\\vector a\\cdot\\vector b=5$，求 $\\vector b\\cdot\\vector c$。',
     answer: '$26$',
     hasImage: false,
   },
@@ -17881,7 +17883,7 @@ const planeVector: Question[] = [
     id: '17c9235066d',
     chapter: '平面向量',
     question:
-      '關於內積的性質，下列各選項哪些為真？\n(1) 若 $\\vector{a}=\\vector{b}$，則 $\\vector{a}\\cdot\\vector{c}=\\vector{b}\\cdot\\vector{c}$\n(2) 若 $\\vector{a}\\cdot\\vector{c}=\\vector{b}\\cdot\\vector{c}$ ，則 $\\vector{a}=\\vector{b}$\n(3) 若 $\\vector{a}\\neq\\vector{0}$，則 $\\vector{a}\\cdot\\vector{a}>0$\n(4) ($\\vector{a}+\\vector{b})\\cdot\\vector{c}=\\vector{c}\\cdot\\vector{a}+\\vector{c}\\cdot\\vector{b}$\n(5) 若 $\\vector{a}\\cdot\\vector{b}>0$ 且 $\\vector{b}\\cdot\\vector{c}>0$，則 $\\vector{a}\\cdot\\vector{c}>0$',
+      '關於內積的性質，下列各選項哪些為真？\n(1) 若 $\\vector a=\\vector b$，則 $\\vector a\\cdot\\vector c=\\vector b\\cdot\\vector c$\n(2) 若 $\\vector a\\cdot\\vector c=\\vector b\\cdot\\vector c$ ，則 $\\vector a=\\vector b$\n(3) 若 $\\vector a\\neq\\vector{0}$，則 $\\vector a\\cdot\\vector a>0$\n(4) ($\\vector a+\\vector b)\\cdot\\vector c=\\vector c\\cdot\\vector a+\\vector c\\cdot\\vector b$\n(5) 若 $\\vector a\\cdot\\vector b>0$ 且 $\\vector b\\cdot\\vector c>0$，則 $\\vector a\\cdot\\vector c>0$',
     answer: '(1)(3)(4)',
     hasImage: false,
   },
@@ -17889,7 +17891,7 @@ const planeVector: Question[] = [
     id: '17c92363d6f',
     chapter: '平面向量',
     question:
-      '已知 $|\\vector{a}|=2$，$|\\vector{b}|=5$，$\\vector{a}\\cdot\\vector{b}=3$，求 $(4\\vector{a}-\\vector{b})\\cdot(2\\vector{a}+3\\vector{b})$。',
+      '已知 $|\\vector a|=2$，$|\\vector b|=5$，$\\vector a\\cdot\\vector b=3$，求 $(4\\vector a-\\vector b)\\cdot(2\\vector a+3\\vector b)$。',
     answer: '$-13$',
     hasImage: false,
   },
@@ -17897,7 +17899,7 @@ const planeVector: Question[] = [
     id: '17c9237763c',
     chapter: '平面向量',
     question:
-      '已知 $|\\vector{a}|=3$，$|\\vector{b}|=5$，$\\vector{a}$ 與 $\\vector{b}$ 的夾角為 $\\frac{2\\pi}{3}$，求 $(2\\vector{a}+\\vector{b})\\cdot(4\\vector{a}-3\\vector{b})$。',
+      '已知 $|\\vector a|=3$，$|\\vector b|=5$，$\\vector a$ 與 $\\vector b$ 的夾角為 $\\frac{2\\pi}{3}$，求 $(2\\vector a+\\vector b)\\cdot(4\\vector a-3\\vector b)$。',
     answer: '$12$',
     hasImage: false,
   },
@@ -17905,7 +17907,7 @@ const planeVector: Question[] = [
     id: '17c923aa4be',
     chapter: '平面向量',
     question:
-      '下列關於向量內積的推論，下列哪些為真？\n(1) 若 $|\\vector{b}|>|\\vector{c}|$，則 $\\vector{a}\\cdot\\vector{b}>\\vector{a}\\cdot\\vector{c}$\n(2) 若 $\\vector{a}$、$\\vector{b}$ 夾鈍角，則 $\\vector{a}\\cdot\\vector{b}<0$ \n(3) 若 $\\vector{a}\\cdot\\vector{a}=0$，則 $\\vector{a}=\\vector{0}$\n(4) 若 $\\vector{a}\\cdot\\vector{b}>0$ 且 $\\vector{a}\\cdot\\vector{c}>0$，則 $\\vector{a}\\cdot(\\vector{b}+\\vector{c})>0$\n(5) 若 $\\vector{a}\\cdot\\vector{b}=0$ 且 $\\vector{b}\\cdot\\vector{c}=0$，則 $\\vector{a}\\cdot\\vector{c}=0$',
+      '下列關於向量內積的推論，下列哪些為真？\n(1) 若 $|\\vector b|>|\\vector c|$，則 $\\vector a\\cdot\\vector b>\\vector a\\cdot\\vector c$\n(2) 若 $\\vector a$、$\\vector b$ 夾鈍角，則 $\\vector a\\cdot\\vector b<0$ \n(3) 若 $\\vector a\\cdot\\vector a=0$，則 $\\vector a=\\vector{0}$\n(4) 若 $\\vector a\\cdot\\vector b>0$ 且 $\\vector a\\cdot\\vector c>0$，則 $\\vector a\\cdot(\\vector b+\\vector c)>0$\n(5) 若 $\\vector a\\cdot\\vector b=0$ 且 $\\vector b\\cdot\\vector c=0$，則 $\\vector a\\cdot\\vector c=0$',
     answer: '(2)(3)(4)',
     hasImage: false,
   },
@@ -17961,7 +17963,7 @@ const planeVector: Question[] = [
     id: '17c9264b427',
     chapter: '平面向量',
     question:
-      '$|\\vector{a}|=3$，$|\\vector{b}|=2$，$\\vector{a}\\cdot\\vector{b}=-2$，若 $(\\vector{a}+\\vector{b})\\perp(\\vector{a}+t\\vector{b})$，求 $t$。',
+      '$|\\vector a|=3$，$|\\vector b|=2$，$\\vector a\\cdot\\vector b=-2$，若 $(\\vector a+\\vector b)\\perp(\\vector a+t\\vector b)$，求 $t$。',
     answer: '$-\\frac{7}{2}$',
     hasImage: false,
   },
@@ -17969,7 +17971,7 @@ const planeVector: Question[] = [
     id: '17c9265f99f',
     chapter: '平面向量',
     question:
-      '若 $2|\\vector{a}|=|\\vector{b}|\\ne0$，且 $(\\vector{a}+\\vector{b})\\perp(5\\vector{a}-2\\vector{b})$，求 $\\vector{a}$ 與 $\\vector{b}$ 的夾角。',
+      '若 $2|\\vector a|=|\\vector b|\\ne0$，且 $(\\vector a+\\vector b)\\perp(5\\vector a-2\\vector b)$，求 $\\vector a$ 與 $\\vector b$ 的夾角。',
     answer: '$60\\du$',
     hasImage: false,
   },
@@ -17993,7 +17995,7 @@ const planeVector: Question[] = [
     id: '17c72eae50f',
     chapter: '平面向量',
     question:
-      '若 $|\\vector{a}|=2$，$|\\vector{b}|=3$，$\\vector{a}\\cdot\\vector{b}=-3\\sqrt{2}$，則 $\\vector{a}$ 與 $\\vector{b}$ 的夾角為多少弳？',
+      '若 $|\\vector a|=2$，$|\\vector b|=3$，$\\vector a\\cdot\\vector b=-3\\sqrt{2}$，則 $\\vector a$ 與 $\\vector b$ 的夾角為多少弳？',
     answer: '$\\frac{3\\pi}{4}$',
     hasImage: false,
   },
@@ -18001,7 +18003,7 @@ const planeVector: Question[] = [
     id: '17c6f72cb2e',
     chapter: '平面向量',
     question:
-      '已知 $\\vector{a}=(3,4)$，$\\vector{b}=(1,x)$，若 $\\vector{a}$ 與 $\\vector{b}$ 的夾角為 $135\\du$，求 $x$。',
+      '已知 $\\vector a=(3,4)$，$\\vector b=(1,x)$，若 $\\vector a$ 與 $\\vector b$ 的夾角為 $135\\du$，求 $x$。',
     answer: '$-7$',
     hasImage: false,
   },
@@ -18009,7 +18011,7 @@ const planeVector: Question[] = [
     id: '17c6f759d67',
     chapter: '平面向量',
     question:
-      '$\\vector{a}=(2,11)$，$\\vector{b}=(3,6)$，求 $\\vector{a}$ 與 $\\vector{b}$ 夾角的正弦值。',
+      '$\\vector a=(2,11)$，$\\vector b=(3,6)$，求 $\\vector a$ 與 $\\vector b$ 夾角的正弦值。',
     answer: '$\\frac{7}{25}$',
     hasImage: false,
   },
@@ -18017,7 +18019,7 @@ const planeVector: Question[] = [
     id: '17c6f79722a',
     chapter: '平面向量',
     question:
-      '設 $2\\vector{a}-\\vector{b}=(-1,\\sqrt{3})$，$\\vector{c}=(1,\\sqrt{3})$，$\\vector{a}\\cdot\\vector{c}=3$，$|\\vector{b}|=4$，求 $\\vector{b}$ 與 $\\vector{c}$ 的夾角。',
+      '設 $2\\vector a-\\vector b=(-1,\\sqrt{3})$，$\\vector c=(1,\\sqrt{3})$，$\\vector a\\cdot\\vector c=3$，$|\\vector b|=4$，求 $\\vector b$ 與 $\\vector c$ 的夾角。',
     answer: '$60\\du$',
     hasImage: false,
   },
@@ -18025,7 +18027,7 @@ const planeVector: Question[] = [
     id: '17c6f904640',
     chapter: '平面向量',
     question:
-      '$|\\vector{a}|=1$，$|\\vector{b}|=3$，$|\\vector{a}-\\vector{b}|=\\sqrt{7}$，求：(1) $\\vector{a}$ 與 $\\vector{b}$ 的夾角\n(2) $|t\\vector{a}+\\vector{b}|$ 的最小值及此時的 $t$。',
+      '$|\\vector a|=1$，$|\\vector b|=3$，$|\\vector a-\\vector b|=\\sqrt{7}$，求：(1) $\\vector a$ 與 $\\vector b$ 的夾角\n(2) $|t\\vector a+\\vector b|$ 的最小值及此時的 $t$。',
     answer: '(1) $60\\du$ (2) $\\frac{3\\sqrt{3}}{2}$；$-\\frac{3}{2}$',
     hasImage: false,
   },
@@ -18033,7 +18035,7 @@ const planeVector: Question[] = [
     id: '17c6f95b5b1',
     chapter: '平面向量',
     question:
-      '$2\\vector{a}+\\vector{b}+3\\vector{c}=\\vector{0}$，且 $|\\vector{a}|=\\sqrt{7}$，$|\\vector{b}|=2$，$|\\vector{c}|=2$，求：\n(1) $\\vector{a}\\cdot\\vector{b}$ (2) $|\\vector{a}+\\vector{b}-6\\vector{c}|$',
+      '$2\\vector a+\\vector b+3\\vector c=\\vector{0}$，且 $|\\vector a|=\\sqrt{7}$，$|\\vector b|=2$，$|\\vector c|=2$，求：\n(1) $\\vector a\\cdot\\vector b$ (2) $|\\vector a+\\vector b-6\\vector c|$',
     answer: '(1) $1$ (2) $\\sqrt{241}$',
     hasImage: false,
   },
@@ -18041,7 +18043,7 @@ const planeVector: Question[] = [
     id: '17c6f99c610',
     chapter: '平面向量',
     question:
-      '$|\\vector{a}|=1$，$|\\vector{b}|=3$，$\\vector{a}$ 與 $\\vector{b}$ 的夾角為 $\\theta$，且 $\\cos\\theta=\\frac13$，求 $|2\\vector{a}+3\\vector{b}|$。',
+      '$|\\vector a|=1$，$|\\vector b|=3$，$\\vector a$ 與 $\\vector b$ 的夾角為 $\\theta$，且 $\\cos\\theta=\\frac13$，求 $|2\\vector a+3\\vector b|$。',
     answer: '$\\sqrt{97}$',
     hasImage: false,
   },
@@ -18049,7 +18051,7 @@ const planeVector: Question[] = [
     id: '17c6fd7598e',
     chapter: '平面向量',
     question:
-      '設 $\\vector{a}+\\vector{b}+\\vector{c}=\\vector{0}$，$|\\vector{a}|=2$，$|\\vector{b}|=1$，$|\\vector{c}|=2$，求 $\\vector{a}\\cdot\\vector{b}+\\vector{b}\\cdot\\vector{c}+\\vector{c}\\cdot\\vector{a}$。',
+      '設 $\\vector a+\\vector b+\\vector c=\\vector{0}$，$|\\vector a|=2$，$|\\vector b|=1$，$|\\vector c|=2$，求 $\\vector a\\cdot\\vector b+\\vector b\\cdot\\vector c+\\vector c\\cdot\\vector a$。',
     answer: '$-\\frac{9}{2}$',
     hasImage: false,
   },
@@ -18057,7 +18059,7 @@ const planeVector: Question[] = [
     id: '17c6fdc3a65',
     chapter: '平面向量',
     question:
-      '$\\vector{a}=(3,5)$，$\\vector{b}=(1,1)$，求：\n(1) $\\vector{a}$ 在 $\\vector{b}$ 上的正射影\n(2) $\\vector{b}$ 在 $\\vector{a}$ 上的正射影',
+      '$\\vector a=(3,5)$，$\\vector b=(1,1)$，求：\n(1) $\\vector a$ 在 $\\vector b$ 上的正射影\n(2) $\\vector b$ 在 $\\vector a$ 上的正射影',
     answer: '(1) $(4,4)$ (2) $(\\frac{12}{17},\\frac{20}{17})$',
     hasImage: false,
   },
@@ -18073,7 +18075,7 @@ const planeVector: Question[] = [
     id: '17c6fe8418e',
     chapter: '平面向量',
     question:
-      '$\\vector{a}=(5,2)$，$\\vector{b}=(-1,3)$，求 $\\vector{a}$ 在 $\\vector{b}$ 上的正射影及 $\\vector{b}$ 在 $\\vector{a}$ 上的正射影。',
+      '$\\vector a=(5,2)$，$\\vector b=(-1,3)$，求 $\\vector a$ 在 $\\vector b$ 上的正射影及 $\\vector b$ 在 $\\vector a$ 上的正射影。',
     answer: '$(-\\frac{1}{10},\\frac{3}{10})$；$(\\frac{5}{29},\\frac{2}{29})$',
     hasImage: false,
   },
@@ -18152,7 +18154,7 @@ const planeVector: Question[] = [
     id: '17c72eae50f',
     chapter: '平面向量',
     question:
-      '若 $|\\vector{a}|=2$，$|\\vector{b}|=3$，$\\vector{a}\\cdot\\vector{b}=-3\\sqrt{2}$，則 $\\vector{a}$ 與 $\\vector{b}$ 的夾角為多少弳？',
+      '若 $|\\vector a|=2$，$|\\vector b|=3$，$\\vector a\\cdot\\vector b=-3\\sqrt{2}$，則 $\\vector a$ 與 $\\vector b$ 的夾角為多少弳？',
     answer: '$\\frac{3\\pi}{4}$',
     hasImage: false,
   },
@@ -18160,7 +18162,7 @@ const planeVector: Question[] = [
     id: '17c607a943e',
     chapter: '平面向量',
     question:
-      '已知 $\\vector{a}=(2,1)$，$\\vector{b}=(3,4)$，求 $|t\\vector{a}+\\vector{b}|$ 的最小值及此時的 $t$。',
+      '已知 $\\vector a=(2,1)$，$\\vector b=(3,4)$，求 $|t\\vector a+\\vector b|$ 的最小值及此時的 $t$。',
     answer: '$\\sqrt{5}$；$-2$',
     hasImage: false,
   },
@@ -18168,7 +18170,7 @@ const planeVector: Question[] = [
     id: '17c607db430',
     chapter: '平面向量',
     question:
-      '已知 $\\vector{a}=(-2,1)$，$\\vector{b}=(7,4)$，求 $| t\\vector{a}+\\vector{b}|$ 的最小值及此時的 $t$。',
+      '已知 $\\vector a=(-2,1)$，$\\vector b=(7,4)$，求 $| t\\vector a+\\vector b|$ 的最小值及此時的 $t$。',
     answer: '$3\\sqrt{5}$；$2$',
     hasImage: false,
   },
@@ -18208,7 +18210,7 @@ const planeVector: Question[] = [
     id: '17c5e131245',
     chapter: '平面向量',
     question:
-      '設 $\\vector{a}$ 與 $\\vector{b}$ 為非零向量且不互相平行，若 $(2x+y-7)\\vector{a}+(3x-y-3)\\vector{b}=\\vector{0}$，求數對 $(x,y)$。',
+      '設 $\\vector a$ 與 $\\vector b$ 為非零向量且不互相平行，若 $(2x+y-7)\\vector a+(3x-y-3)\\vector b=\\vector{0}$，求數對 $(x,y)$。',
     answer: '$(2,3)$',
     hasImage: false,
   },
@@ -18216,7 +18218,7 @@ const planeVector: Question[] = [
     id: '17c5e14893b',
     chapter: '平面向量',
     question:
-      '已知平面上 $\\vector{a}$ 與 $\\vector{b}$ 為非零向量且不互相平行，若 $(x-y+7)\\vector{a}+(2x+y-1)\\vector{b}=\\vector{0}$，求數對 $(x,y)$。',
+      '已知平面上 $\\vector a$ 與 $\\vector b$ 為非零向量且不互相平行，若 $(x-y+7)\\vector a+(2x+y-1)\\vector b=\\vector{0}$，求數對 $(x,y)$。',
     answer: '$(-2,5)$',
     hasImage: false,
   },
@@ -18240,7 +18242,7 @@ const planeVector: Question[] = [
     id: '17c5e24a614',
     chapter: '平面向量',
     question:
-      '設 $\\vector{a}=(3,1)$，$\\vector{b}=(-2,4)$，$\\vector{c}=(12,-10)$，若 $\\vector{c}=x\\vector{a}+y\\vector{b}$，求數對 $(x,y)$。',
+      '設 $\\vector a=(3,1)$，$\\vector b=(-2,4)$，$\\vector c=(12,-10)$，若 $\\vector c=x\\vector a+y\\vector b$，求數對 $(x,y)$。',
     answer: '$(2,-3)$',
     hasImage: false,
   },
@@ -18256,7 +18258,7 @@ const planeVector: Question[] = [
     id: '17c5e38a87b',
     chapter: '平面向量',
     question:
-      '設 $\\vector{a}=(3,1)$，$\\vector{b}=(-1,2)$，$\\vector{c}=(3,8)$，若 $\\vector{c}=x\\vector{a}+y\\vector{b}$，求數對 $(x,y)$。',
+      '設 $\\vector a=(3,1)$，$\\vector b=(-1,2)$，$\\vector c=(3,8)$，若 $\\vector c=x\\vector a+y\\vector b$，求數對 $(x,y)$。',
     answer: '$(2,3)$',
     hasImage: false,
   },
@@ -18472,7 +18474,7 @@ const planeVector: Question[] = [
   {
     id: '17c3cfd8db7',
     chapter: '平面向量',
-    question: '用坐標表示向量：$\\vector{a}$，$\\vector{b}$，$\\vector{c}$，$\\vector{d}$。',
+    question: '用坐標表示向量：$\\vector a$，$\\vector b$，$\\vector c$，$\\vector d$。',
     answer: '$(4,3)$；$(-2,5)$；$(-4,-2)$；$(3,-3)$',
     hasImage: true,
   },
@@ -18600,7 +18602,7 @@ const planeVector: Question[] = [
     id: '17c3c614420',
     chapter: '平面向量',
     question:
-      '若 $2\\vector{a}-3(\\vector{b}+2\\vector{c})+2(\\vector{a}-\\vector{b}+\\vector{c})$$=x\\vector{a}+y\\vector{b}+z\\vector{c}$，求 $(x,y,z)$。',
+      '若 $2\\vector a-3(\\vector b+2\\vector c)+2(\\vector a-\\vector b+\\vector c)$$=x\\vector a+y\\vector b+z\\vector c$，求 $(x,y,z)$。',
     answer: '$(4,-5,-4)$',
     hasImage: false,
   },
@@ -18608,7 +18610,7 @@ const planeVector: Question[] = [
     id: '17c3c7a3797',
     chapter: '平面向量',
     question:
-      '坐標平面上，$\\vector{a}=(1,-3)$，$\\vector{b}=(4,5)$，$\\vector{c}=(-2,7)$，求 $2\\vector{a}+3\\vector{b}-5\\vector{c}$？',
+      '坐標平面上，$\\vector a=(1,-3)$，$\\vector b=(4,5)$，$\\vector c=(-2,7)$，求 $2\\vector a+3\\vector b-5\\vector c$？',
     answer: '$(24,-26)$',
     hasImage: false,
   },
@@ -18616,7 +18618,7 @@ const planeVector: Question[] = [
     id: '17c40cb19e8',
     chapter: '平面向量',
     question:
-      '已知 $|\\vector{a}|=8$，$|\\vector{b}|=3$，$|\\vector{c}|=5$，$\\vector{a}$ 與 $\\vector{b}$ 同向，$\\vector{b}$ 與 $\\vector{c}$ 反向，$\\vector{a}=x\\vector{b}=y\\vector{c}$，求數對 $(x,y)$。',
+      '已知 $|\\vector a|=8$，$|\\vector b|=3$，$|\\vector c|=5$，$\\vector a$ 與 $\\vector b$ 同向，$\\vector b$ 與 $\\vector c$ 反向，$\\vector a=x\\vector b=y\\vector c$，求數對 $(x,y)$。',
     answer: '$(\\frac{8}{3},-\\frac{8}{5})$',
     hasImage: false,
   },
@@ -18624,7 +18626,7 @@ const planeVector: Question[] = [
     id: '17c40d37bdd',
     chapter: '平面向量',
     question:
-      '若 $4(\\vector{a}-2\\vector{b})+3\\vector{c}$$-2(-\\vector{a}+2\\vector{b}+3\\vector{c})=x\\vector{a}+y\\vector{b}+z\\vector{c}$，求 $(x,y,z)$。',
+      '若 $4(\\vector a-2\\vector b)+3\\vector c$$-2(-\\vector a+2\\vector b+3\\vector c)=x\\vector a+y\\vector b+z\\vector c$，求 $(x,y,z)$。',
     answer: '$(6,-12,-3)$',
     hasImage: false,
   },
@@ -18656,7 +18658,7 @@ const planeVector: Question[] = [
     id: '17c40edb4d6',
     chapter: '平面向量',
     question:
-      '已知平面上 $\\vector{a}=(3,-2)$、$\\vector{b}=(5,1)$、$\\vector{c}=(4,6)$，若：\n(1) $\\vector{a}$ 與 $\\vector{b}+t\\vector{c}$ 平行，求 $t$。\n(2) $k\\vector{a}+\\vector{b}$ 平分 $\\vector{a}$ 與 $\\vector{b}$ 的夾角，求 $k$。',
+      '已知平面上 $\\vector a=(3,-2)$、$\\vector b=(5,1)$、$\\vector c=(4,6)$，若：\n(1) $\\vector a$ 與 $\\vector b+t\\vector c$ 平行，求 $t$。\n(2) $k\\vector a+\\vector b$ 平分 $\\vector a$ 與 $\\vector b$ 的夾角，求 $k$。',
     answer: '(1) $-\\frac{1}{2}$ (2) $\\sqrt{2}$',
     hasImage: false,
   },
@@ -18680,7 +18682,7 @@ const planeVector: Question[] = [
     id: '17c4573201e',
     chapter: '平面向量',
     question:
-      '平面上 $\\vector{a}=(2,-1)$，$\\vector{b}=(4,3)$，令 $\\vector{c}=\\vector{a}+t\\vector{b}$，若 : \n(1) $\\vector{c}$ 與 $(2,1)$ 平行，求 $t$。\n(2) $\\vector{c}$ 平分 $\\vector{a}$、$\\vector{b}$ 的夾角，求 $t$。',
+      '平面上 $\\vector a=(2,-1)$，$\\vector b=(4,3)$，令 $\\vector c=\\vector a+t\\vector b$，若 : \n(1) $\\vector c$ 與 $(2,1)$ 平行，求 $t$。\n(2) $\\vector c$ 平分 $\\vector a$、$\\vector b$ 的夾角，求 $t$。',
     answer: '(1) $2$；(2) $\\frac{\\sqrt{5}}{5}$',
     hasImage: false,
   },
@@ -18688,7 +18690,7 @@ const planeVector: Question[] = [
     id: '17c0eb34ae1',
     chapter: '平面向量',
     question:
-      '平面上 $A$、$B$、$C$、$D$ 為相異四點，則下列個選項的推論哪些正確？\n(1) $\\overrightarrow{AB}$、$\\overrightarrow{AC}$、$\\overrightarrow{AD}$ 必兩兩相異\n(2) $\\left|\\overrightarrow{AB}\\right|$、$\\left|\\overrightarrow{AC}\\right|$、$\\left|\\overrightarrow{AD}\\right|$ 必兩兩相異\n(3) $\\overrightarrow{AB}$、$\\overrightarrow{BC}$、$\\overrightarrow{CD}$ 必兩兩相異\n(4) 若 $\\overrightarrow{AB}=\\overrightarrow{CD}$，則 $\\overrightarrow{AD}=\\overrightarrow{BC}$\n(5) 若 $\\overrightarrow{AB}=\\overrightarrow{CD}$，則 $\\overrightarrow{AC}=\\overrightarrow{BD}$',
+      '平面上 $A$、$B$、$C$、$D$ 為相異四點，則下列個選項的推論哪些正確？\n(1) $\\xvector{AB}$、$\\xvector{AC}$、$\\xvector{AD}$ 必兩兩相異\n(2) $|\\xvector{AB}|$、$|\\xvector{AC}|$、$|\\xvector{AD}|$ 必兩兩相異\n(3) $\\xvector{AB}$、$\\xvector{BC}$、$\\xvector{CD}$ 必兩兩相異\n(4) 若 $\\xvector{AB}=\\xvector{CD}$，則 $\\xvector{AD}=\\xvector{BC}$\n(5) 若 $\\xvector{AB}=\\xvector{CD}$，則 $\\xvector{AC}=\\xvector{BD}$',
     answer: '(1)(5)',
     hasImage: false,
   },
@@ -18696,38 +18698,38 @@ const planeVector: Question[] = [
     id: '17c0eb5c023',
     chapter: '平面向量',
     question:
-      '平面上兩點 $A(2,1)$、$B(-6,7)$，求 $\\overrightarrow{AB}$、$\\left|\\overrightarrow{AB}\\right|$。若 $\\overrightarrow{AC}=(5,-3)$，求 $C$。',
-    answer: '$(-8,6)$；$10$；$(7,-2)$',
+      '平面上兩點 $A(2,1)$、$B(-6,7)$，求 $\\xvector{AB}$、$|\\xvector{AB}|$。若 $\\xvector{AC}=(5,-3)$，求 $C$。',
+    answer: '(-8,6)；10；(7,-2)',
     hasImage: false,
   },
   {
     id: '17c0ebc1b8d',
     chapter: '平面向量',
     question:
-      '設 $\\vector{a}=(3,-2)$，$\\vector{b}=(5,7)$，求 $\\vector{a}+\\vector{b}$、$\\vector{a}-\\vector{b}$。',
-    answer: '$(8,5)$、$(-2,-9)$',
+      '設 $\\vector a=(3,-2)$，$\\vector b=(5,7)$，求 $\\vector a+\\vector b$、$\\vector a-\\vector b$。',
+    answer: '(8,5)、(-2,-9)',
     hasImage: false,
   },
   {
     id: '17c0ebfcd9d',
     chapter: '平面向量',
     question:
-      '(1) 下列哪些選項是不可能發生的？\n(2) 下列哪一個選項可推得 $\\vector{a}$ 與 $\\vector{b}$ 為同方向？\n(3) 下列哪一個選項可推得 $\\vector{a}$ 與 $\\vector{b}$ 為反方向？\n(a) $\\left|\\vector{a}\\right|=3,\\left|\\vector{b}\\right|=1,\\left|\\vector{a}\\right|+\\left|\\vector{b}\\right|=1$\n(b) $\\left|\\vector{a}\\right|=3,\\left|\\vector{b}\\right|=1,\\left|\\vector{a}\\right|+\\left|\\vector{b}\\right|=2$\n(c) $\\left|\\vector{a}\\right|=3,\\left|\\vector{b}\\right|=1,\\left|\\vector{a}\\right|+\\left|\\vector{b}\\right|=3$\n(d) $\\left|\\vector{a}\\right|=3,\\left|\\vector{b}\\right|=1,\\left|\\vector{a}\\right|+\\left|\\vector{b}\\right|=4$\n(e) $\\left|\\vector{a}\\right|=3,\\left|\\vector{b}\\right|=1,\\left|\\vector{a}\\right|+\\left|\\vector{b}\\right|=5$',
+      '(1) 下列哪些選項是不可能發生的？\n(2) 下列哪一個選項可推得 $\\vector a,\\vector b$ 為同方向？\n(3) 下列哪一個選項可推得 $\\vector a,\\vector b$ 為反方向？\n(a) $|\\vector a|=3,|\\vector b|=1,|\\vector a|+|\\vector b|=1$\n(b) $|\\vector a|=3,|\\vector b|=1,|\\vector a|+|\\vector b|=2$\n(c) $|\\vector a|=3,|\\vector b|=1,|\\vector a|+|\\vector b|=3$\n(d) $|\\vector a|=3,|\\vector b|=1,|\\vector a|+|\\vector b|=4$\n(e) $|\\vector a|=3,|\\vector b|=1,|\\vector a|+|\\vector b|=5$',
     answer: '(1) (a)(e) (2) (d) (3) (b)',
     hasImage: false,
   },
   {
     id: '17c13837c6d',
     chapter: '平面向量',
-    question: '設 $\\vector{a}=(3,-2)$，$\\vector{b}=(-5,1)$，求 $2\\vector{a}+3\\vector{b}$。',
-    answer: '$(-9,-1)$',
+    question: '設 $\\vector a=(3,-2)$，$\\vector b=(-5,1)$，求 $2\\vector a+3\\vector b$。',
+    answer: '(-9,-1)',
     hasImage: false,
   },
   {
     id: '17c1385a0fe',
     chapter: '平面向量',
     question:
-      '平面向量 $\\vector{a}=(x-1,2)$，$\\vector{b}=(x-2,-3)$，若 $\\vector{a}\\parallel\\vector{b}$，求 $x$。',
+      '平面向量 $\\vector a=(x-1,2)$，$\\vector b=(x-2,-3)$，若 $\\vector a\\parallel\\vector b$，求 $x$。',
     answer: '$\\frac75$',
     hasImage: false,
   },
@@ -18735,15 +18737,15 @@ const planeVector: Question[] = [
     id: '17c138d9fb9',
     chapter: '平面向量',
     question:
-      '已知 $\\vector{u}$ 與 $\\vector{v}$ 不平行，若 $(x-y-1)\\vector{u}+$(x+y+5)\\vector{v}=\\vector{0}$，求數對 $(x,y)$。',
-    answer: '$(-2,-3)$',
+      '已知 $\\vector u$ 與 $\\vector v$ 不平行，若 $(x-y-1)\\vector u+(x+y+5)\\vector v=\\vector 0$，求數對 $(x,y)$。',
+    answer: ' (-2,-3)',
     hasImage: false,
   },
   {
     id: '17c1390d4a3',
     chapter: '平面向量',
     question:
-      '圖為每小格皆為全等的平行四邊形，若 $\\overrightarrow{PQ}=x\\vector{a}+y\\vector{b}$，求數對 $(x,y)$。',
+      '圖為每小格皆為全等的平行四邊形，若 $\\xvector{PQ}=x\\vector a+y\\vector b$，求數對 $(x,y)$。',
     answer: '$(\\frac72,2)$',
     hasImage: true,
   },
@@ -18751,15 +18753,15 @@ const planeVector: Question[] = [
     id: '17c139a2fd3',
     chapter: '平面向量',
     question:
-      '已知四點 $P$、$A$、$B$、$C$ 滿足 $\\overrightarrow{PA}=\\frac{3}{7}\\overrightarrow{PB}+\\frac{4}{7}\\overrightarrow{PC}$，若 $\\overline{AB}=12$，求 $\\overline{BC}$。',
-    answer: '$21$',
+      '已知四點 $P$、$A$、$B$、$C$ 滿足 $\\xvector{PA}=\\dfrac37\\xvector{PB}+\\dfrac47\\xvector{PC}$，若 $\\overline{AB}=12$，求 $\\overline{BC}$。',
+    answer: '21',
     hasImage: false,
   },
   {
     id: '17c1553b7bb',
     chapter: '平面向量',
     question:
-      '在坐標平面上，$\\triangle ABC$ 內有一點 $P$ 滿足 $\\overrightarrow{AP}=(\\frac{4}{3},\\frac{5}{6})$ 及 $\\overrightarrow{AP}=\\frac{1}{2}\\overrightarrow{AB}+\\frac{1}{5}\\overrightarrow{AC}$。若 $A$、$P$ 連線交 $\\overline{BC}$ 於 $M$，求 $\\overrightarrow{AM}$。',
+      '在坐標平面上，$\\triangle ABC$ 內有一點 $P$ 滿足 $\\xvector{AP}=(\\dfrac43,\\dfrac56)$ 及 $\\xvector{AP}=\\dfrac12\\xvector{AB}+\\dfrac15\\xvector{AC}$。若 $A$、$P$ 連線交 $\\overline{BC}$ 於 $M$，求 $\\xvector{AM}$。',
     answer: '$(\\frac{40}{21},\\frac{25}{21})$',
     hasImage: false,
   },
@@ -18767,15 +18769,15 @@ const planeVector: Question[] = [
     id: '17c155921cc',
     chapter: '平面向量',
     question:
-      '$\\vector{a}\\cdot\\vector{b}=3$，$\\vector{a}\\cdot\\vector{c}=-2$，求 $\\vector{a}\\cdot(4\\vector{b}-3\\vector{c})$。',
-    answer: '$18$',
+      '$\\vector a\\cdot\\vector b=3$，$\\vector a\\cdot\\vector c=-2$，求 $\\vector a\\cdot(4\\vector b-3\\vector c)$',
+    answer: '18',
     hasImage: false,
   },
   {
     id: '17c155a6077',
     chapter: '平面向量',
     question:
-      '$|\\vector{a}|=4$，$|\\vector{b}|=3$，$\\vector{a}\\cdot\\vector{b}=-2$，求 $|\\vector{a}+\\vector{b}|$。',
+      '$|\\vector a|=4$，$|\\vector b|=3$，$\\vector a\\cdot\\vector b=-2$，求 $|\\vector a+\\vector b|$',
     answer: '$\\sqrt{21}$',
     hasImage: false,
   },
@@ -18783,38 +18785,38 @@ const planeVector: Question[] = [
     id: '17c155b8555',
     chapter: '平面向量',
     question:
-      '$\\vector{a}=(3,-4)$、$\\vector{b}=(12,5)$，其夾角為 $\\theta$，求 $\\vector{a}\\cdot\\vector{b}$ 及 $\\cos\\theta$。',
-    answer: '$16$；$\\frac{16}{65}$',
+      '$\\vector a=(3,-4)$、$\\vector b=(12,5)$，其夾角為 $\\theta$，求 $\\vector a\\cdot\\vector b$ 及 $\\cos\\theta$。',
+    answer: '16；$\\frac{16}{65}$',
     hasImage: false,
   },
   {
     id: '17c155c85bd',
     chapter: '平面向量',
     question:
-      '已知 $\\vector{a}=(2,3)$，下列哪些向量與 $\\vector{a}$ 垂直？\n(1) $(2,-3)$ (2) $(3,2)$ (3) $(-3,2)$ (4) $(6,-4)$',
+      '已知 $\\vector a=(2,3)$，下列哪些向量與 $\\vector a$ 垂直？\n(1) $(2,-3)$ (2) $(3,2)$ (3) $(-3,2)$ (4) $(6,-4)$',
     answer: '(3)(4)',
     hasImage: false,
   },
   {
     id: '17c155f8670',
     chapter: '平面向量',
-    question: '求向量 $(-3,5)$ 在 $(1,2)$ 上的正射影及正射影的長度。',
-    answer: '$(\\frac{7}{5},\\frac{14}{5})$，$\\frac{7\\sqrt{5}}{5}$',
+    question: '求向量 (-3,5) 在 (1,2) 上的正射影及正射影的長度。',
+    answer: '$(\\frac75,\\frac{14}5)$，$\\frac{7\\sqrt5}5$',
     hasImage: false,
   },
   {
     id: '17c1560e32e',
     chapter: '平面向量',
     question:
-      '平面向量 $(4,5)=x(1,-2)+\\vector{a}$，其中 $\\vector{a}$ 與 $(1,-2)$ 垂直，求 $x$ 及 $\\vector{a}$。',
-    answer: '$-\\frac{6}{5}$；$(\\frac{26}{5},\\frac{13}{5})$',
+      '平面向量 $(4,5)=x(1,-2)+\\vector a$，其中 $\\vector a$ 與 $(1,-2)$ 垂直，求 $x$ 及 $\\vector a$。',
+    answer: '$-\\frac65$；$(\\frac{26}5,\\frac{13}5)$',
     hasImage: false,
   },
   {
     id: '17c15675098',
     chapter: '平面向量',
-    question: '設 $x,y\\in\\mathbb{R}$ 滿足 $3x+5y=2$，求 $x^2+y^2$ 的最小值及此時的數對 $(x,y)$。',
-    answer: '$\\frac{2}{17}$；$(\\frac{3}{17},\\frac{5}{17})$',
+    question: '設 $x,y\\in\\mathbb R$ 滿足 $3x+5y=2$，求 $x^2+y^2$ 的最小值及此時的數對 $(x,y)$。',
+    answer: '$\\frac2{17}$；$(\\frac3{17},\\frac5{17})$',
     hasImage: false,
   },
   {
@@ -18829,7 +18831,7 @@ const planeVector: Question[] = [
     chapter: '平面向量',
     question:
       '平面上直線 $L:\\begin{cases}x=5t-2\\\\y=3t+7\\end{cases},t\\in\\mathbb{R}$，若 $L$ 上有一點 $P(k,22)$，求 $k$。',
-    answer: '$23$',
+    answer: '23',
     hasImage: false,
   },
   {
@@ -18857,7 +18859,7 @@ const planeVector: Question[] = [
     id: '17c15b7239f',
     chapter: '平面向量',
     question: '平面上，$A(1,4)$、$B(2,0)$、$C(3,5)$，求 $\\triangle ABC$ 的重心坐標。',
-    answer: '$(2,3)$',
+    answer: '(2,3)',
     hasImage: false,
   },
   {
@@ -18865,62 +18867,62 @@ const planeVector: Question[] = [
     chapter: '平面向量',
     question:
       '直角 $\\triangle ABC$，兩股長為 $\\overline{AB}=5$，$\\overline{AC}=12$，內切圓切 $\\overline{BC}$ 於 $P$，求 $\\overline{BP}$ 及內切圓半徑。',
-    answer: '$3$；$2$',
+    answer: '3；2',
     hasImage: false,
   },
   {
     id: '17c15baf95a',
     chapter: '平面向量',
     question:
-      '$\\overline{AB}=6$，$\\angle C=120\\du$，$O$ 為 $\\triangle ABC$ 外心，求 $\\overrightarrow{AO}\\cdot\\overrightarrow{AB}$ 及外接圓半徑。',
-    answer: '$18$；$2\\sqrt{3}$',
+      '$\\overline{AB}=6$，$\\angle C=120\\du$，$O$ 為 $\\triangle ABC$ 外心，求 $\\xvector{AO}\\cdot\\xvector{AB}$ 及外接圓半徑。',
+    answer: '18；$2\\sqrt3$',
     hasImage: false,
   },
   {
     id: '17c15bc3f33',
     chapter: '平面向量',
     question:
-      '$H$ 為 $\\triangle ABC$ 之垂心，若 $\\overrightarrow{AB}\\cdot\\overrightarrow{AC}=-3$，求 $\\overrightarrow{AH}\\cdot\\overrightarrow{AB}$ 及 $\\overrightarrow{AH}\\cdot\\overrightarrow{AC}$。',
-    answer: '$-3$；$-3$',
+      '$H$ 為 $\\triangle ABC$ 之垂心，若 $\\xvector{AB}\\cdot\\xvector{AC}=-3$，求 $\\xvector{AH}\\cdot\\xvector{AB}$ 及 $\\xvector{AH}\\cdot\\xvector{AC}$。',
+    answer: '-3；-3',
     hasImage: false,
   },
   {
     id: '17c15c2e8a0',
     chapter: '平面向量',
     question:
-      '設 $\\vector{a}=(5,1)$，$\\vector{b}=(2,-1)$，求 $3\\vector{a}-2\\vector{b}$ 與 $2\\vector{a}+\\vector{b}$ 所張成之平行四邊形面積。',
-    answer: '$49$',
+      '設 $\\vector a=(5,1)$，$\\vector b=(2,-1)$，求 $3\\vector a-2\\vector b$ 與 $2\\vector a+\\vector b$ 所張成之平行四邊形面積。',
+    answer: '49',
     hasImage: false,
   },
   {
     id: '17c15c4ad5b',
     chapter: '平面向量',
     question:
-      '已知 $a,b\\in\\mathbb{Z}$，行列式 $\\begin{vmatrix}5&a\\\\b&7\\end{vmatrix}=4$，求 $|a+b|$。',
-    answer: '$32$',
+      '已知 $a,b\\in\\mathbb Z$，行列式 $\\begin{vmatrix}5&a\\\\b&7\\end{vmatrix}=4$，求 $|a+b|$',
+    answer: '32',
     hasImage: false,
   },
   {
     id: '17c15cfcb5e',
     chapter: '平面向量',
     question:
-      '已知一張 $B0$ 影印紙的面積是 $\\sqrt{2}$ 平方公尺，連續取半四次可得 $B4$ 紙張，請問 $B4$ 紙張的長與寬各為幾公分？(若需估算，取至小數點後第一位，$\\sqrt{2}\\approx1.414$)',
-    answer: '$35.4$；$25$',
+      '已知一張 B0 影印紙的面積是 $\\sqrt2$ 平方公尺，連續取半四次可得 B4 紙張，請問 B4 紙張的長與寬各為幾公分？(若需估算，取至小數點後第一位，$\\sqrt2\\approx1.414$)',
+    answer: '35.4；25',
     hasImage: false,
   },
   {
     id: '17c15d2b440',
     chapter: '平面向量',
     question:
-      '請問由 $A4$ 原稿要放大印成 $A3$ 的紙張輸出，應在影印機的縮放倍率按下多少 $\\%$？\n(整數以下四捨五入，$\\sqrt{2}\\approx1.414$)',
-    answer: '$141$',
+      '請問由 A4 原稿要放大印成 A3 的紙張輸出，應在影印機的縮放倍率按下多少 %？\n(整數以下四捨五入，$\\sqrt2\\approx1.414$)',
+    answer: '141',
     hasImage: false,
   },
   {
     id: '17c15d940e4',
     chapter: '平面向量',
     question: '線段 $\\overline{AB}=10$，靠近 $A$ 的黃金分割點為 $P$，求 $\\overline{AP}$。',
-    answer: '$15-5\\sqrt{5}$',
+    answer: '$15-5\\sqrt5$',
     hasImage: false,
   },
   {
@@ -18935,14 +18937,14 @@ const planeVector: Question[] = [
     id: '17c15fb53d5',
     chapter: '平面向量',
     question: '若 $\\begin{cases}kx+y=5\\\\2x+(k+1)y=1\\end{cases}$ 恰有一解，求 $k$ 的範圍。',
-    answer: '$k\\neq1$ 與 $-2$',
+    answer: '$k\\ne1$ 與 -2',
     hasImage: false,
   },
   {
     id: '17c15ffe58e',
     chapter: '平面向量',
     question:
-      '平面向量 $\\vector{a}$、$\\vector{b}$、$\\vector{c}$ 滿足 $\\vector{a}+\\vector{b}=(1,6)$，$\\vector{b}+\\vector{c}=(4,7)$，$\\vector{c}+\\vector{a}=(-3,11)$，則下列哪些選項的推論正確？\n(1) $\\vector{a}$、$\\vector{b}$、$\\vector{c}$ 以 $\\vector{a}$ 的長度為最大\n(2) $\\vector{a}$、$\\vector{b}$、$\\vector{c}$ 以 $\\vector{b}$ 的長度為最小\n(3) $\\vector{a}$、$\\vector{b}$、$\\vector{c}$ 兩兩互不平行\n(4) 可找到三點 $P$、$Q$、$R$，使 $\\overrightarrow{PQ}=\\vector{a}$、$\\overrightarrow{QR}=\\vector{b}$、$\\overrightarrow{RP}=\\vector{c}$\n(5) 可找到三點 $P$、$Q$、$R$，使 $\\overline{PQ}=|\\vector{a}|$、$\\overline{QR}=|\\vector{b}|$、$\\overline{RP}=|\\vector{c}|$',
+      '平面向量 $\\vector a$、$\\vector b$、$\\vector c$ 滿足 $\\vector a+\\vector b=(1,6)$，$\\vector b+\\vector c=(4,7)$，$\\vector c+\\vector a=(-3,11)$，則下列哪些選項的推論正確？\n(1) $\\vector a$、$\\vector b$、$\\vector c$ 以 $\\vector a$ 的長度為最大\n(2) $\\vector a$、$\\vector b$、$\\vector c$ 以 $\\vector b$ 的長度為最小\n(3) $\\vector a$、$\\vector b$、$\\vector c$ 兩兩互不平行\n(4) 可找到三點 $P$、$Q$、$R$，使 $\\overrightarrow{PQ}=\\vector a$、$\\overrightarrow{QR}=\\vector b$、$\\overrightarrow{RP}=\\vector c$\n(5) 可找到三點 $P$、$Q$、$R$，使 $\\overline{PQ}=|\\vector a|$、$\\overline{QR}=|\\vector b|$、$\\overline{RP}=|\\vector c|$',
     answer: '(2)(3)(5)',
     hasImage: false,
   },
@@ -18950,8 +18952,8 @@ const planeVector: Question[] = [
     id: '17c1601e11b',
     chapter: '平面向量',
     question:
-      '設 $\\vector{a}=(3,2t+1)$，$\\vector{b}=(t,t-2)$，$\\vector{c}=(1,2)$，若 $(\\vector{a}+\\vector{b})\\parallel\\vector{c}$，求 $t$。',
-    answer: '$7$',
+      '設 $\\vector a=(3,2t+1)$，$\\vector b=(t,t-2)$，$\\vector c=(1,2)$，若 $(\\vector a+\\vector b)\\parallel\\vector c$，求 $t$。',
+    answer: '7',
     hasImage: false,
   },
   {
@@ -18959,23 +18961,23 @@ const planeVector: Question[] = [
     chapter: '平面向量',
     question:
       '如圖所示的正六角星是以 $O$ 為中心，其中 $\\vector{x}$、$\\vector{y}$ 為 $O$ 到兩個頂點的向量。若將 $O$ 到正六角星 $12$ 個頂點的向量都寫成 $a\\vector{x}+b\\vector{y}$ 的形式，求 $a+b$ 的最大值。',
-    answer: '$5$',
+    answer: '5',
     hasImage: true,
   },
   {
     id: '17c16051046',
     chapter: '平面向量',
     question:
-      '兩個同大小的正六邊形併接如圖，圖中有 $\\vector{a}$、$\\vector{b}$、$\\overrightarrow{PQ}$ 三個向量，若 $\\overrightarrow{PQ}=x\\vector{a}+y\\vector{b}$，求數對 $(x,y)$。',
-    answer: '$(4,1)$',
+      '兩個同大小的正六邊形併接如圖，圖中有 $\\vector a$、$\\vector b$、$\\xvector{PQ}$ 三個向量，若 $\\xvector{PQ}=x\\vector a+y\\vector b$，求數對 $(x,y)$。',
+    answer: '(4,1)',
     hasImage: true,
   },
   {
     id: '17c16327d59',
     chapter: '平面向量',
     question:
-      '在平面上有一 $\\triangle ABC$，$P$ 在 $\\overline{BC}$ 上，且 $\\overline{BP}:\\overline{PC}=3:2$，$Q$ 在 $\\overline{AB}$ 上，且 $\\overline{AQ}:\\overline{QB}=1:1$，$R$ 在 $\\overline{AC}$ 上，且 $\\overline{AR}:\\overline{RC}=2:1$。已知 $\\overrightarrow{PQ}=(-1,1)$，$\\overrightarrow{PR}=(4,10)$，求 $\\overrightarrow{PA}$ 及 $\\overrightarrow{BC}$。',
-    answer: '$(4,14)$；$(10,20)$',
+      '在平面上有一 $\\triangle ABC$，$P$ 在 $\\overline{BC}$ 上，且 $\\overline{BP}:\\overline{PC}=3:2$，$Q$ 在 $\\overline{AB}$ 上，且 $\\overline{AQ}:\\overline{QB}=1:1$，$R$ 在 $\\overline{AC}$ 上，且 $\\overline{AR}:\\overline{RC}=2:1$。已知 $\\xvector{PQ}=(-1,1)$，$\\xvector{PR}=(4,10)$，求 $\\xvector{PA}$ 及 $\\xvector{BC}$。',
+    answer: '(4,14)；(10,20)',
     hasImage: false,
   },
   {
@@ -18983,14 +18985,14 @@ const planeVector: Question[] = [
     chapter: '平面向量',
     question:
       '如圖，已知圓 $O$ 與直線 $BC$、直線 $AC$、直線 $AB$ 均相切，且分別相切於 $D$、$E$、$F$。又 $\\overline{BC}=4$、$\\overline{AC}=5$、$\\overline{AB}=6$，假設 $\\overline{BF}=x$，求 $x$。',
-    answer: '$\\frac{3}{2}$',
+    answer: '$\\frac32$',
     hasImage: true,
   },
   {
     id: '17c1642f855',
     chapter: '平面向量',
     question:
-      '如圖，$P$ 為 $\\triangle ABC$ 內部一點且 $\\overrightarrow{AP}=\\frac{1}{5}\\overrightarrow{AB}+\\frac{2}{5}\\overrightarrow{AC}$，$\\overleftrightarrow{AP}$ 與 $\\overline{BC}$ 交於 $D$，試問下列選項哪些正確？\n(1) $\\overline{BD}:\\overline{CD}=2:1$\n(2) $\\overline{AP}:\\overline{PD}=3:2$\n(3) $\\overline{AB}:\\overline{AC}=2:1$\n(4) $\\triangle ABP$ 面積$:\\triangle ACP$ 面積$=2:1$\n(5) $\\triangle BPC$ 面積$:\\triangle ABC$ 面積$=3:5$',
+      '如圖，$P$ 為 $\\triangle ABC$ 內部一點且 $\\xvector{AP}=\\dfrac15\\xvector{AB}+\\dfrac25\\xvector{AC}$，$\\overleftrightarrow{AP}$ 與 $\\overline{BC}$ 交於 $D$，試問下列選項哪些正確？\n(1) $\\overline{BD}:\\overline{CD}=2:1$\n(2) $\\overline{AP}:\\overline{PD}=3:2$\n(3) $\\overline{AB}:\\overline{AC}=2:1$\n(4) $\\triangle ABP$ 面積$:\\triangle ACP$ 面積$=2:1$\n(5) $\\triangle BPC$ 面積$:\\triangle ABC$ 面積$=3:5$',
     answer: '(1)(2)(4)',
     hasImage: true,
   },
@@ -19006,7 +19008,7 @@ const planeVector: Question[] = [
     id: '17c16598874',
     chapter: '平面向量',
     question:
-      '在坐標平面上，有一通過原點 $O$ 的直線 $L$，以及一半徑為 $2$、圓心為原點 $O$ 的圓 $C$。$P$、$Q$ 為 $C$ 上相異 $2$ 點，且 $\\overline{OP}$、$\\overline{OQ}$ 分別為 $L$ 所夾的銳角皆為 $30\\du$，試選出內積 $\\overrightarrow{OP}\\cdot\\overrightarrow{OQ}$ 之值可能發生的選項。\n(1) $2\\sqrt{3}$ (2) $-2\\sqrt{3}$ (3) $0$ (4) $-2$ (5) $-4$',
+      '在坐標平面上，有一通過原點 $O$ 的直線 $L$，以及一半徑為 2、圓心為原點 $O$ 的圓 $C$。$P$、$Q$ 為 $C$ 上相異 2 點，且 $\\overline{OP}$、$\\overline{OQ}$ 分別為 $L$ 所夾的銳角皆為 $30\\du$，試選出內積 $\\xvector{OP}\\cdot\\xvector{OQ}$ 之值可能發生的選項。\n(1) $2\\sqrt3$ (2) $-2\\sqrt3$ (3) 0 (4) -2 (5) -4',
     answer: '(4)(5)',
     hasImage: false,
   },
@@ -19014,15 +19016,15 @@ const planeVector: Question[] = [
     id: '17c165ba13d',
     chapter: '平面向量',
     question:
-      '設點 $A(-2,2)$、$B(4,8)$ 為坐標平面上兩點，且點 $C$ 在二次函數 $y=\\frac{1}{2}x^2$ 的圖形上變動。求內積 $\\overrightarrow{AB}\\cdot\\overrightarrow{AC}$ 的最小值及此時 $C$ 點的 $x$ 坐標。',
-    answer: '$-3$；$-1$',
+      '設點 $A(-2,2)$、$B(4,8)$ 為坐標平面上兩點，且點 $C$ 在二次函數 $y=\\dfrac12x^2$ 的圖形上變動。求內積 $\\xvector{AB}\\cdot\\xvector{AC}$ 的最小值及此時 $C$ 點的 $x$ 坐標。',
+    answer: '-3；-1',
     hasImage: false,
   },
   {
     id: '17c165d5250',
     chapter: '平面向量',
     question:
-      '$\\triangle ABC$ 內接於圓心為 $O$ 之單位圓。若 $\\overrightarrow{OA}+\\overrightarrow{OB}+\\sqrt{3}\\overrightarrow{OC}=\\vector{0}$，求 $\\angle BAC$。',
+      '$\\triangle ABC$ 內接於圓心為 $O$ 之單位圓。若 $\\xvector{OA}+\\xvector{OB}+\\sqrt3\\xvector{OC}=\\vector 0$，求 $\\angle BAC$。',
     answer: '$75\\du$',
     hasImage: false,
   },
@@ -19030,7 +19032,7 @@ const planeVector: Question[] = [
     id: '17c165fdd52',
     chapter: '平面向量',
     question:
-      '有三個向量 $\\vector{a}$、$\\vector{b}$、$\\vector{c}$，已知 $|\\vector{a}|=8$，$|\\vector{b}|=3$，且 $\\vector{a}+\\vector{b}+\\vector{c}=(2,5)$，$2\\vector{a}-\\vector{b}+\\vector{c}=(7,-4)$，求 $\\vector{a}$ 與 $\\vector{b}$ 的夾角餘弦值。',
+      '有三個向量 $\\vector a$、$\\vector b$、$\\vector c$，已知 $|\\vector a|=8$，$|\\vector b|=3$，且 $\\vector a+\\vector b+\\vector c=(2,5)$，$2\\vector a-\\vector b+\\vector c=(7,-4)$，求 $\\vector a$ 與 $\\vector b$ 的夾角餘弦值。',
     answer: '$-\\frac1{16}$',
     hasImage: false,
   },
@@ -19038,7 +19040,7 @@ const planeVector: Question[] = [
     id: '17c16623835',
     chapter: '平面向量',
     question:
-      '若 $\\left|\\overrightarrow{AB}\\right|=5$，$\\left|\\overrightarrow{AC}\\right|=6$，$\\left|\\overrightarrow{AD}\\right|=3$，且 $\\overrightarrow{AB}+2\\overrightarrow{AC}=3\\overrightarrow{AD}$，若 $\\overrightarrow{AC}$ 在 $\\overrightarrow{AB}$ 上的正射影為 $k\\overrightarrow{AB}$，求 $k$。',
+      '若 $|\\xvector{AB}|=5$，$|\\xvector{AC}|=6$，$|\\xvector{AD}|=3$，且 $\\xvector{AB}+2\\xvector{AC}=3\\xvector{AD}$，若 $\\xvector{AC}$ 在 $\\xvector{AB}$ 上的正射影為 $k\\xvector{AB}$，求 $k$。',
     answer: '$\\frac{-22}{25}$',
     hasImage: false,
   },
@@ -19046,23 +19048,23 @@ const planeVector: Question[] = [
     id: '17c1664a847',
     chapter: '平面向量',
     question:
-      '平面向量 $\\vector{a}$ 與 $\\vector{b}$，已知 $\\vector{a}$ 在 $\\vector{b}$ 上的正射影為 $-\\frac{1}{4}\\vector{b}$，且 $\\vector{b}$ 在 $\\vector{a}$ 上的正射影為 $-3\\vector{a}$，求 $\\vector{a}$ 與 $\\vector{b}$ 的夾角及 $|\\vector{a}|:|\\vector{b}|$。',
-    answer: '$150\\du$；$1:2\\sqrt{3}$',
+      '平面向量 $\\vector a$ 與 $\\vector b$，已知 $\\vector a$ 在 $\\vector b$ 上的正射影為 $-\\dfrac14\\vector b$，且 $\\vector b$ 在 $\\vector a$ 上的正射影為 $-3\\vector a$，求 $\\vector a$ 與 $\\vector b$ 的夾角及 $|\\vector a|:|\\vector b|$。',
+    answer: '$150\\du$；$1:2\\sqrt3$',
     hasImage: false,
   },
   {
     id: '17c166e949a',
     chapter: '平面向量',
     question:
-      '設 $x,y>0$，且 $2x+3y=14$，求 $\\frac{8}{x}+\\frac{3}{y}$ 的最小值，及此時的數對 $(x,y)$。',
-    answer: '$\\frac{7}{2}$；$(4,2)$',
+      '設 $x,y>0$，且 $2x+3y=14$，求 $\\dfrac8x+\\dfrac3y$ 的最小值，及此時的數對 $(x,y)$。',
+    answer: '$\\frac72$；(4,2)',
     hasImage: false,
   },
   {
     id: '17c16703fde',
     chapter: '平面向量',
     question:
-      '平面上有兩平行直線 $L_1:ax+by=5$ 與 $L_2:ax+by=20$，已知 $L_1$ 通過點 $(2,3)$，求 $L_1$ 與 $L_2$ 之間的最大距離。',
+      '平面上有兩平行直線 $L_1:ax+by=5$ 與 $L_2:ax+by=20$，已知 $L_1$ 通過點 (2,3)，求 $L_1$ 與 $L_2$ 之間的最大距離。',
     answer: '$3\\sqrt{13}$',
     hasImage: false,
   },
@@ -19070,23 +19072,23 @@ const planeVector: Question[] = [
     id: '17c168fdd8f',
     chapter: '平面向量',
     question:
-      '坐標平面上有一質點沿方向 $\\vector{u}=(1,2)$ 前進。現欲在此平面上置一直線 $L$，使得此質點碰到 $L$ 時依光學原理 (入射角等於反射角) 反射，之後沿方向 $\\vector{v}=(-2,1)$ 前進，則直線 $L$ 的方向向量應為 $\\vector{w}=(1,k)$，求 $k$。',
-    answer: '$-3$',
+      '坐標平面上有一質點沿方向 $\\vector u=(1,2)$ 前進。現欲在此平面上置一直線 $L$，使得此質點碰到 $L$ 時依光學原理 (入射角等於反射角) 反射，之後沿方向 $\\vector v=(-2,1)$ 前進，則直線 $L$ 的方向向量應為 $\\vector w=(1,k)$，求 $k$。',
+    answer: '-3',
     hasImage: false,
   },
   {
     id: '17c1692196d',
     chapter: '平面向量',
     question:
-      '平面上直線 $L:\\begin{cases}x=3-5t\\\\y=11+2t\\end{cases},t\\in\\mathbb{R}$，$L$ 上有兩點 $A(-2,13)$ 與 $B(18,5)$。若 $B$ 為 $\\overline{AC}$ 中點，則參數 $t$ 代入多少時可得到 $C$？',
-    answer: '$-7$',
+      '平面上直線 $L:\\begin{cases}x=3-5t\\\\y=11+2t\\end{cases},t\\in\\mathbb R$，$L$ 上有兩點 $A(-2,13)$ 與 $B(18,5)$。若 $B$ 為 $\\overline{AC}$ 中點，則參數 $t$ 代入多少時可得到 $C$？',
+    answer: '-7',
     hasImage: false,
   },
   {
     id: '17c16956025',
     chapter: '平面向量',
     question:
-      '平面上有一 $\\triangle ABC$，$G$ 為 $\\triangle ABC$ 的重心。$O$、$D$ 為此平面上的相異二點，且滿足 $\\overrightarrow{OD}=\\overrightarrow{OA}+\\overrightarrow{OB}+\\overrightarrow{OC}$。下列何者正確。\n(1) $O$、$G$、$D$ 三點共線\n(2) $\\overline{OD}=2\\overline{OG}$\n(3) $\\overrightarrow{AD}+\\overrightarrow{BD}+\\overrightarrow{CD}=2\\overrightarrow{OD}$\n(4) $G$ 位於 $\\triangle ABC$ 的內部\n(5) $D$ 位於 $\\triangle ABC$ 的外部',
+      '平面上有一 $\\triangle ABC$，$G$ 為 $\\triangle ABC$ 的重心。$O$、$D$ 為此平面上的相異二點，且滿足 $\\xvector{OD}=\\xvector{OA}+\\xvector{OB}+\\xvector{OC}$。下列何者正確。\n(1) $O$、$G$、$D$ 三點共線\n(2) $\\overline{OD}=2\\overline{OG}$\n(3) $\\xvector{AD}+\\xvector{BD}+\\xvector{CD}=2\\xvector{OD}$\n(4) $G$ 位於 $\\triangle ABC$ 的內部\n(5) $D$ 位於 $\\triangle ABC$ 的外部',
     answer: '(1)(3)(4)',
     hasImage: false,
   },
@@ -19094,15 +19096,15 @@ const planeVector: Question[] = [
     id: '17c1697ac04',
     chapter: '平面向量',
     question:
-      '如圖，$\\triangle ABC$ 中，$G$ 為重心，$\\overline{GA}=3$，$\\overline{GB}=5$，$\\overline{GC}=7$，求 $\\overrightarrow{GA}\\cdot\\overrightarrow{GB}$ 及 $\\triangle ABC$ 之面積。',
-    answer: '$\\frac{15}{2}$；$\\frac{45\\sqrt{3}}{4}$',
+      '如圖，$\\triangle ABC$ 中，$G$ 為重心，$\\overline{GA}=3$，$\\overline{GB}=5$，$\\overline{GC}=7$，求 $\\xvector{GA}\\cdot\\xvector{GB}$ 及 $\\triangle ABC$ 之面積。',
+    answer: '$\\frac{15}2$；$\\frac{45\\sqrt3}4$',
     hasImage: true,
   },
   {
     id: '17c169a0537',
     chapter: '平面向量',
     question:
-      '若 $a,b,c,d\\in\\mathbb{R}$ 使得聯立方程組 $\\begin{cases}ax+8y=c\\\\x-4y=3\\end{cases}$ 有解，且聯立方程組 $\\begin{cases}-3x+by=d\\\\x-4y=3\\end{cases}$ 無解，則下列哪些選項一定正確？\n(1) $a\\neq2$ (2) $c=-6$ (3) $b=12$ (4) $d\\neq9$\n(5) 聯立方程組 $\\begin{cases}ax+8y=c\\\\-3x+by=d\\end{cases}$ 無解',
+      '若 $a,b,c,d\\in\\mathbb R$ 使得聯立方程組 $\\begin{cases}ax+8y=c\\\\x-4y=3\\end{cases}$ 有解，且聯立方程組 $\\begin{cases}-3x+by=d\\\\x-4y=3\\end{cases}$ 無解，則下列哪些選項一定正確？\n(1) $a\\ne2$ (2) $c=-6$ (3) $b=12$ (4) $d\\ne9$\n(5) 聯立方程組 $\\begin{cases}ax+8y=c\\\\-3x+by=d\\end{cases}$ 無解',
     answer: '(3)(4)',
     hasImage: false,
   },
@@ -19111,23 +19113,23 @@ const planeVector: Question[] = [
     chapter: '平面向量',
     question:
       '設實數 $a>0$。若 $x$、$y$ 的方程組 $\\begin{cases}2x-y=1\\\\x-2y=a\\\\x-ay=122\\end{cases}$ 有解，求 $a$。',
-    answer: '$14$',
+    answer: '14',
     hasImage: false,
   },
   {
     id: '17c169d647d',
     chapter: '平面向量',
     question:
-      '坐標平面上有一面積為 $40$ 的凸四邊形，其四個頂點的坐標按逆時針方向依序為 $(0,0)$、$(4,2)$、$(x,2x)$、$(2,6)$，求 $x$。',
-    answer: '$10$',
+      '坐標平面上有一面積為 40 的凸四邊形，其四個頂點的坐標按逆時針方向依序為 (0,0)、(4,2)、$(x,2x)$、(2,6)，求 $x$。',
+    answer: '10',
     hasImage: false,
   },
   {
     id: '17c169f6102',
     chapter: '平面向量',
     question:
-      '坐標平面上 $O$ 為原點，設 $\\vector{u}=(1,2)$、$\\vector{v}=(3,4)$。令 $\\Omega$ 為滿足 $\\overrightarrow{OP}=x\\vector{u}+y\\vector{v}$ 的所有點 $P$ 所形成的區域，其中 $\\frac{1}{2}\\le x\\le1$，$-3\\le y\\le\\frac{1}{2}$，求 $\\Omega$ 的面積。',
-    answer: '$\\frac{7}{2}$',
+      '坐標平面上 $O$ 為原點，設 $\\vector u=(1,2)$、$\\vector v=(3,4)$。令 $\\Omega$ 為滿足 $\\xvector{OP}=x\\vector u+y\\vector v$ 的所有點 $P$ 所形成的區域，其中 $\\dfrac12\\le x\\le1$，$-3\\le y\\le\\dfrac12$，求 $\\Omega$ 的面積。',
+    answer: '$\\frac72$',
     hasImage: false,
   },
   {
@@ -19135,14 +19137,14 @@ const planeVector: Question[] = [
     chapter: '平面向量',
     question:
       '設 $\\triangle ABC$ 之 $\\angle A=60\\du$，$\\overline{AC}=b$，$\\overline{AB}=c$，今在 $\\overline{BC}$ 上取一點 $D$，使得 $\\overline{BD}=\\frac{1}{3}\\overline{BC}$，$s=\\overline{AD}$，則 $s^2=$？',
-    answer: '$\\frac{1}{9}(b^2+4c^2+2bc)$',
+    answer: '$\\frac19(b^2+4c^2+2bc)$',
     hasImage: false,
   },
   {
     id: '1798cf58181',
     chapter: '平面向量',
     question:
-      '設 $\\left|\\vector{a}\\right|=2$，$\\left|\\vector{b}\\right|=3$，$\\left|\\vector{a}+\\vector{b}\\right|=2$，試求向量 $\\vector{a}$，$\\vector{b}$ 所展的平行四邊形面積。',
+      '設 $\\left|\\vector a\\right|=2$，$\\left|\\vector b\\right|=3$，$\\left|\\vector a+\\vector b\\right|=2$，試求向量 $\\vector a$，$\\vector b$ 所展的平行四邊形面積。',
     answer: '$\\frac{3\\sqrt7}2$',
     hasImage: false,
   },
@@ -19198,8 +19200,8 @@ const planeVector: Question[] = [
     id: '1798d296bf7',
     chapter: '平面向量',
     question:
-      '(1) 試將 $\\vector{c}=\\begin{bmatrix}5\\\\8\\end{bmatrix}$ 分解成 $\\vector{a}=\\begin{bmatrix}4\\\\1\\end{bmatrix}$，$\\vector{b}=\\begin{bmatrix}-1\\\\2\\end{bmatrix}$ 的線性組合。\n(2) 利用第(1)題的結果，解聯立方程式 $\\begin{cases}4x-y=5\\\\x+2y=8\\end{cases}$',
-    answer: '(1) $\\vector{c}=2\\vector{a}+3\\vector{b}$ (2) $(x,y)=(2,3)$',
+      '(1) 試將 $\\vector c=\\begin{bmatrix}5\\\\8\\end{bmatrix}$ 分解成 $\\vector a=\\begin{bmatrix}4\\\\1\\end{bmatrix}$，$\\vector b=\\begin{bmatrix}-1\\\\2\\end{bmatrix}$ 的線性組合。\n(2) 利用第(1)題的結果，解聯立方程式 $\\begin{cases}4x-y=5\\\\x+2y=8\\end{cases}$',
+    answer: '(1) $\\vector c=2\\vector a+3\\vector b$ (2) $(x,y)=(2,3)$',
     hasImage: false,
   },
   {
@@ -21271,7 +21273,7 @@ const spaceVector: Question[] = [
     id: '17cebf3cc3a',
     chapter: '空間向量',
     question:
-      '設 $\\vector{a}=(k,k,k)$，$k\\ne0$，$\\vector{b}=(3,1,-2)$\n(1) 若 $\\vector a$ 在 $\\vector b$ 的正射影為 $-\\vector b$，求 $k$\n(2) 若 $\\vector{b}$ 在 $\\vector{a}$ 的正射影為 $2\\vector{a}$，求 $k$',
+      '設 $\\vector a=(k,k,k)$，$k\\ne0$，$\\vector b=(3,1,-2)$\n(1) 若 $\\vector a$ 在 $\\vector b$ 的正射影為 $-\\vector b$，求 $k$\n(2) 若 $\\vector b$ 在 $\\vector a$ 的正射影為 $2\\vector a$，求 $k$',
     answer: '(1) $-7$ (2) $\\frac13$',
     hasImage: false,
   },
@@ -21302,7 +21304,7 @@ const spaceVector: Question[] = [
     id: '17cebf7ee13',
     chapter: '空間向量',
     question:
-      '空間中 $\\vector{a}=(1,2,2)$、$\\vector{b}=(4,0,3)$ 與 $\\vector{a}\\times\\vector{b}$ 共起點張成平行六面體，求此平行六面體的表面積及體積。',
+      '空間中 $\\vector a=(1,2,2)$、$\\vector b=(4,0,3)$ 與 $\\vector a\\times\\vector b$ 共起點張成平行六面體，求此平行六面體的表面積及體積。',
     answer: '$90\\sqrt4$；$125$',
     hasImage: false,
   },
@@ -21318,7 +21320,7 @@ const spaceVector: Question[] = [
     id: '17cebf9bff6',
     chapter: '空間向量',
     question:
-      '設 $\\vector{a}$、$\\vector{b}$、$\\vector{c}$ 三向量所張平行六面體體積為 $V$，則下列選項哪些正確？\n(1) $-\\vector{a}$、$-\\vector{b}$、$-\\vector{c}$ 所張六面體體積為 $V$\n(2) $2\\vector{a}$、$2\\vector{b}$、$2\\vector{c}$ 所張六面體體積為 $2V$\n(3) $2\\vector{a}$、$3\\vector{b}$、$\\frac{1}{6}\\vector{c}$ 所張六面體體積為 $V$\n(4) $\\vector{a}$、$\\vector{a}+\\vector{b}$、$\\vector{a}+\\vector{c}$ 所張六面體積為 $V$\n(5) $\\vector{a}+\\vector{b}$、$\\vector{b}+\\vector{c}$、$\\vector{c}+\\vector{a}$ 所張六面體體積為 $V$',
+      '設 $\\vector a$、$\\vector b$、$\\vector c$ 三向量所張平行六面體體積為 $V$，則下列選項哪些正確？\n(1) $-\\vector a$、$-\\vector b$、$-\\vector c$ 所張六面體體積為 $V$\n(2) $2\\vector a$、$2\\vector b$、$2\\vector c$ 所張六面體體積為 $2V$\n(3) $2\\vector a$、$3\\vector b$、$\\frac{1}{6}\\vector c$ 所張六面體體積為 $V$\n(4) $\\vector a$、$\\vector a+\\vector b$、$\\vector a+\\vector c$ 所張六面體積為 $V$\n(5) $\\vector a+\\vector b$、$\\vector b+\\vector c$、$\\vector c+\\vector a$ 所張六面體體積為 $V$',
     answer: '(1)(3)(4)',
     hasImage: false,
   },
@@ -21636,7 +21638,7 @@ const spaceVector: Question[] = [
     id: '1794b54f66b',
     chapter: '空間向量',
     question:
-      '已知由三向量 $\\vector{a}$、$\\vector{b}$、$\\vector{c}$ 所張出的平行六面體的體積為 $10$，則由三向量 $\\vector{a}$、$2\\vector{a}+3\\vector{b}$、$\\vector{a}-\\vector{b}+4\\vector{c}$ 所張出的平行六面體的體積為？',
+      '已知由三向量 $\\vector a$、$\\vector b$、$\\vector c$ 所張出的平行六面體的體積為 $10$，則由三向量 $\\vector a$、$2\\vector a+3\\vector b$、$\\vector a-\\vector b+4\\vector c$ 所張出的平行六面體的體積為？',
     answer: '$120$',
     hasImage: false,
   },
@@ -21644,7 +21646,7 @@ const spaceVector: Question[] = [
     id: '1794b568308',
     chapter: '空間向量',
     question:
-      '空間中三向量 $\\vector{a}$、$\\vector{b}$、$\\vector{c}$，滿足 $(2\\vector{a}-3\\vector{b})\\cdot\\left[2\\vector{b}\\times(-5\\vector{c})\\right]=40$，則由 $\\vector{a}$、$\\vector{b}$、$\\vector{c}$ 所張出的平行六面體體積為？',
+      '空間中三向量 $\\vector a$、$\\vector b$、$\\vector c$，滿足 $(2\\vector a-3\\vector b)\\cdot\\left[2\\vector b\\times(-5\\vector c)\\right]=40$，則由 $\\vector a$、$\\vector b$、$\\vector c$ 所張出的平行六面體體積為？',
     answer: '$2$',
     hasImage: false,
   },
@@ -22347,7 +22349,7 @@ const spaceEquations: Question[] = [
     id: '17ce1b28bc3',
     chapter: '空間中的平面與直線',
     question:
-      '坐標空間中一質點自點 $P(1,1,1)$ 沿著方向 $\\vector{a}=(1,2,2)$ 等速直線前進，經過 $5$ 秒後剛好到達平面 $x-y+3z=28$ 上，立即轉向沿著方向 $\\vector{b}=(-2,2,-1)$ 依同樣的速率等速直線前進。請問再經過幾秒此質點會剛好到達平面 $x=2$ 上？\n(1) $1$ (2) $2$ (3) $3$ (4) $4$ (5) 永遠不會到達 ',
+      '坐標空間中一質點自點 $P(1,1,1)$ 沿著方向 $\\vector a=(1,2,2)$ 等速直線前進，經過 $5$ 秒後剛好到達平面 $x-y+3z=28$ 上，立即轉向沿著方向 $\\vector b=(-2,2,-1)$ 依同樣的速率等速直線前進。請問再經過幾秒此質點會剛好到達平面 $x=2$ 上？\n(1) $1$ (2) $2$ (3) $3$ (4) $4$ (5) 永遠不會到達 ',
     answer: '(2)',
     hasImage: false,
   },
@@ -22469,7 +22471,7 @@ const spaceEquations: Question[] = [
     id: '1794b22404e',
     chapter: '空間中的平面與直線',
     question:
-      '一光束沿 $\\vector{a}=(2,3,4)$ 方向射向平面 $E$ 上一點 $P(4,5,6)$ 後，再沿 $\\vector{b}=(4,3,-2)$ 的方向反射出，則平面 $E$ 的方程式為？',
+      '一光束沿 $\\vector a=(2,3,4)$ 方向射向平面 $E$ 上一點 $P(4,5,6)$ 後，再沿 $\\vector b=(4,3,-2)$ 的方向反射出，則平面 $E$ 的方程式為？',
     answer: '$x-3z+14=0$',
     hasImage: false,
   },
@@ -25853,7 +25855,7 @@ export const matrixA: Question[] = [
     id: '1799350a87d',
     chapter: '矩陣A',
     question:
-      '給定坐標空間中的四個向量 $\\vector{a}=(2,1,4)$，$\\vector{b}=(1,-3,1)$，$\\vector{c}=(2,-2,3)$ 與 $\\vector{d}=(1,-4,1)$，試將 $\\vector{d}$ 表示成 $\\vector{a}$、$\\vector{b}$、$\\vector{c}$ 的線性組合 $x\\vector{a}+y\\vector{b}+z\\vector{c}$，則序組 $(x,y,z)=$？',
+      '給定坐標空間中的四個向量 $\\vector a=(2,1,4)$，$\\vector b=(1,-3,1)$，$\\vector c=(2,-2,3)$ 與 $\\vector d=(1,-4,1)$，試將 $\\vector d$ 表示成 $\\vector a$、$\\vector b$、$\\vector c$ 的線性組合 $x\\vector a+y\\vector b+z\\vector c$，則序組 $(x,y,z)=$？',
     answer: '$(1,3,-2)$',
     hasImage: false,
   },
@@ -25949,7 +25951,7 @@ export const matrixA: Question[] = [
     id: '1799374e08b',
     chapter: '矩陣A',
     question:
-      '設向量 $\\vector{a}=(1,2,1)$，$\\vector{b}=(1,3,-1)$，$\\vector{c}=(1,-1,2)$，$\\vector{d}=(4,-2,9)$，若 $\\vector{d}=x\\vector{a}+y\\vector{b}+z\\vector{c}$，則序組 $(x,y,z)=$？',
+      '設向量 $\\vector a=(1,2,1)$，$\\vector b=(1,3,-1)$，$\\vector c=(1,-1,2)$，$\\vector d=(4,-2,9)$，若 $\\vector d=x\\vector a+y\\vector b+z\\vector c$，則序組 $(x,y,z)=$？',
     answer: '$(2,-1,3)$',
     hasImage: false,
   },

@@ -1,5 +1,5 @@
 import { MathJax } from 'better-react-mathjax';
-import { ChangeEvent, useEffect } from 'react';
+import { ChangeEvent } from 'react';
 import GridWith2Col from 'src/component/GridWith2Col';
 import Textarea2MathJax from 'src/component/Textarea2MathJax';
 import { Question } from 'src/model/bank';

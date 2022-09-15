@@ -53,6 +53,27 @@ const Lecture = () => {
           1-3 指數與常用對數
         </Button>
       </div>
+      第一冊 Ch2 直線與圓
+      <div className={style.button}>
+        <Button variant="contained" onClick={onClick('b1c2s1')}>
+          2-1 坐標平面與直線方程式
+        </Button>
+      </div>
+      <div className={style.button}>
+        <Button variant="contained" onClick={onClick('b1c2s2')}>
+          2-2 直線方程式的應用
+        </Button>
+      </div>
+      <div className={style.button}>
+        <Button variant="contained" onClick={onClick('b1c2s3')}>
+          2-3 圓方程式
+        </Button>
+      </div>
+      <div className={style.button}>
+        <Button variant="contained" onClick={onClick('b1c2s4')}>
+          2-4 圓與直線的關係
+        </Button>
+      </div>
       第三冊 Ch1 指數與對數函數
       <div className={style.button}>
         <Button variant="contained" onClick={onClick('exponentFunction')}>
