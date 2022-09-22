@@ -26460,7 +26460,7 @@ const advancedA: Question[] = [
   {
     id: '17c9629033b',
     chapter: '選修數甲',
-    question: '試求 $\\displaystyle\\int_{-3}^5(|x+1|+|x-2|)\\dd x$。',
+    question: '試求 $\\displaystyle\\int_{-3}^5(|x+1|+|x-2|)\\text dx$。',
     answer: '$37$',
     hasImage: false,
   },
@@ -26483,7 +26483,7 @@ const advancedA: Question[] = [
   {
     id: '17c962ad672',
     chapter: '選修數甲',
-    question: '試求 $\\displaystyle\\int_0^5(|x-2|+3)\\dd x$。',
+    question: '試求 $\\displaystyle\\int_0^5(|x-2|+3)\\text dx$。',
     answer: '$\\frac{43}2$',
     hasImage: false,
   },
@@ -26491,7 +26491,7 @@ const advancedA: Question[] = [
     id: '17c962b6888',
     chapter: '選修數甲',
     question:
-      '若 $\\displaystyle\\int_2^5 f(x)\\dd x=3$，$\\displaystyle\\int_0^5 f(x)\\dd x=7$，求 $\\displaystyle\\int_2^0 6f(x)\\dd x$。',
+      '若 $\\displaystyle\\int_2^5 f(x)\\text dx=3$，$\\displaystyle\\int_0^5 f(x)\\text dx=7$，求 $\\displaystyle\\int_2^0 6f(x)\\text dx$。',
     answer: '$-7$',
     hasImage: false,
   },
@@ -26499,7 +26499,7 @@ const advancedA: Question[] = [
     id: '17c962c151a',
     chapter: '選修數甲',
     question:
-      '設 $f(x)$ 與 $g(x)$ 為多項式函數，若 $\\displaystyle\\int_0^7 f(x)\\dd x=20$，$\\displaystyle\\int_5^7 f(x)\\dd x=15$，$\\displaystyle\\int_0^5 g(x)\\dd x=5$，求 $\\displaystyle\\int_0^5[5g(x)-2f(x)]\\dd x$。',
+      '設 $f(x)$ 與 $g(x)$ 為多項式函數，若 $\\displaystyle\\int_0^7 f(x)\\text dx=20$，$\\displaystyle\\int_5^7 f(x)\\text dx=15$，$\\displaystyle\\int_0^5 g(x)\\text dx=5$，求 $\\displaystyle\\int_0^5[5g(x)-2f(x)]\\text dx$。',
     answer: '$15$',
     hasImage: false,
   },
@@ -26507,7 +26507,7 @@ const advancedA: Question[] = [
     id: '17c962cbc5e',
     chapter: '選修數甲',
     question:
-      '已知 $\\displaystyle\\int_0^3 f(x)\\dd x=7$，$\\displaystyle\\int_2^5 f(x)\\dd x=9$，$\\displaystyle\\int_0^5 f(x)\\dd x=10$，求 $\\displaystyle\\int_2^3 f(x)\\dd x$。',
+      '已知 $\\displaystyle\\int_0^3 f(x)\\text dx=7$，$\\displaystyle\\int_2^5 f(x)\\text dx=9$，$\\displaystyle\\int_0^5 f(x)\\text dx=10$，求 $\\displaystyle\\int_2^3 f(x)\\text dx$。',
     answer: '$6$',
     hasImage: false,
   },
@@ -26515,42 +26515,42 @@ const advancedA: Question[] = [
     id: '17c962d6caf',
     chapter: '選修數甲',
     question:
-      '已知 $\\displaystyle\\int_1^2 f(x)\\dd x=2$，$\\displaystyle\\int_2^4 f(x)\\dd x=5$，$\\displaystyle\\int_2^4 g(x)\\dd x=-1$，$\\displaystyle\\int_1^2 g(x)\\dd x=3$，試求 $\\displaystyle\\int_1^4[3f(x)+2g(x)]\\dd x$。',
+      '已知 $\\displaystyle\\int_1^2 f(x)\\text dx=2$，$\\displaystyle\\int_2^4 f(x)\\text dx=5$，$\\displaystyle\\int_2^4 g(x)\\text dx=-1$，$\\displaystyle\\int_1^2 g(x)\\text dx=3$，試求 $\\displaystyle\\int_1^4[3f(x)+2g(x)]\\text dx$。',
     answer: '$25$',
     hasImage: false,
   },
   {
     id: '17c962e94a7',
     chapter: '選修數甲',
-    question: '$x>0$，求 $f(x)=\\sqrt[3]{x^5}$ 的反導函數 $\\displaystyle\\int f(x)\\dd x$。',
+    question: '$x>0$，求 $f(x)=\\sqrt[3]{x^5}$ 的反導函數 $\\displaystyle\\int f(x)\\text dx$。',
     answer: '$\\frac38x^\\frac83+c$',
     hasImage: false,
   },
   {
     id: '17c962efc08',
     chapter: '選修數甲',
-    question: '求 $f(x)=3x^5$ 的反導函數 $\\displaystyle\\int f(x)\\dd x$。',
+    question: '求 $f(x)=3x^5$ 的反導函數 $\\displaystyle\\int f(x)\\text dx$。',
     answer: '$\\frac12x^6+c$',
     hasImage: false,
   },
   {
     id: '17c962f51e7',
     chapter: '選修數甲',
-    question: '試求 $\\displaystyle\\int(x+x^2+x^3+x^4)\\dd x$。',
+    question: '試求 $\\displaystyle\\int(x+x^2+x^3+x^4)\\text dx$。',
     answer: '略',
     hasImage: false,
   },
   {
     id: '17c962f9c43',
     chapter: '選修數甲',
-    question: '試求 $\\displaystyle\\int(x^2+5x-\\frac{3}{x^2}+\\sqrt{x}-7)\\dd x$。',
+    question: '試求 $\\displaystyle\\int(x^2+5x-\\frac{3}{x^2}+\\sqrt{x}-7)\\text dx$。',
     answer: '略',
     hasImage: false,
   },
   {
     id: '17ca06769e9',
     chapter: '選修數甲',
-    question: '試求 $\\displaystyle\\int(\\sqrt{x}+\\sqrt[3]{x^2}+\\sqrt[5]{x^2})\\dd x$。',
+    question: '試求 $\\displaystyle\\int(\\sqrt{x}+\\sqrt[3]{x^2}+\\sqrt[5]{x^2})\\text dx$。',
     answer: '略',
     hasImage: false,
   },
@@ -26564,28 +26564,28 @@ const advancedA: Question[] = [
   {
     id: '17ca068f049',
     chapter: '選修數甲',
-    question: '試求 $\\displaystyle\\int_0^2(x^3+3x)\\dd x$。',
+    question: '試求 $\\displaystyle\\int_0^2(x^3+3x)\\text dx$。',
     answer: '$10$',
     hasImage: false,
   },
   {
     id: '17ca068ccbb',
     chapter: '選修數甲',
-    question: '試求 $\\displaystyle\\int_4^9(\\sqrt{x}-\\frac{3}{\\sqrt{x}}+1)\\dd x$。',
+    question: '試求 $\\displaystyle\\int_4^9(\\sqrt{x}-\\frac{3}{\\sqrt{x}}+1)\\text dx$。',
     answer: '$\\frac{35}3$',
     hasImage: false,
   },
   {
     id: '17ca0696939',
     chapter: '選修數甲',
-    question: '試求 $\\displaystyle\\int_1^2(2x^3-x+1)\\dd x$。',
+    question: '試求 $\\displaystyle\\int_1^2(2x^3-x+1)\\text dx$。',
     answer: '$7$',
     hasImage: false,
   },
   {
     id: '17ca069bfcc',
     chapter: '選修數甲',
-    question: '試求 $\\displaystyle\\int_0^1(\\sqrt[3]{x}+\\sqrt[4]{x})\\dd x$。',
+    question: '試求 $\\displaystyle\\int_0^1(\\sqrt[3]{x}+\\sqrt[4]{x})\\text dx$。',
     answer: '$\\frac{31}{20}$',
     hasImage: false,
   },
@@ -26593,7 +26593,7 @@ const advancedA: Question[] = [
     id: '17ca06a6a76',
     chapter: '選修數甲',
     question:
-      ' 設 $f(x)=x^2+ax+b$，且 $\\displaystyle\\int_0^1f(x)\\dd x=b$，$\\displaystyle\\int_0^3f(x)\\dd x=a$，求數對 $(a,b)$。',
+      ' 設 $f(x)=x^2+ax+b$，且 $\\displaystyle\\int_0^1f(x)\\text dx=b$，$\\displaystyle\\int_0^3f(x)\\text dx=a$，求數對 $(a,b)$。',
     answer: '$(-\\frac23,-\\frac{20}9)$',
     hasImage: false,
   },
@@ -26622,14 +26622,14 @@ const advancedA: Question[] = [
     id: '17ca06c7353',
     chapter: '選修數甲',
     question:
-      '圓 $x^2+y^2=9$ 可移項開根號，得 $y=\\pm\\sqrt{9-x^2}$，求 $\\displaystyle\\int_0^3\\sqrt{9-x^2}\\dd x$。',
+      '圓 $x^2+y^2=9$ 可移項開根號，得 $y=\\pm\\sqrt{9-x^2}$，求 $\\displaystyle\\int_0^3\\sqrt{9-x^2}\\text dx$。',
     answer: '$\\frac{9\\pi}4$',
     hasImage: true,
   },
   {
     id: '17ca06d5299',
     chapter: '選修數甲',
-    question: '試求定積分 $\\displaystyle\\int_{-2}^2\\sqrt{4-x^2}\\dd x$。',
+    question: '試求定積分 $\\displaystyle\\int_{-2}^2\\sqrt{4-x^2}\\text dx$。',
     answer: '$2\\pi$',
     hasImage: false,
   },
@@ -26673,7 +26673,7 @@ const advancedA: Question[] = [
     id: '17ca0717e33',
     chapter: '選修數甲',
     question:
-      '$k\\in\\mathbb{R}$，若 $y=x^k$ 與 $x=1$ 及 $x$ 軸所圍成區域繞 $x$ 軸旋轉的旋轉體體積為 $\\frac{\\pi}{7}$，求 $k$。',
+      '$k\\in\\mathbb{R}$，若 $y=x^k$ 與 $x=1$ 及 $x$ 軸所圍成區域繞 $x$ 軸旋轉的旋轉體體積為 $\\dfrac{\\pi}{7}$，求 $k$。',
     answer: '$3$',
     hasImage: false,
   },
@@ -26754,7 +26754,7 @@ const advancedA: Question[] = [
   {
     id: '17c91b2b515',
     chapter: '選修數甲',
-    question: "設 $f(x)=\\frac{(x-1)(x-2)(x-3)(x-5)}{x-4}$，求 $f'(1)$。",
+    question: "設 $f(x)=\\dfrac{(x-1)(x-2)(x-3)(x-5)}{x-4}$，求 $f'(1)$。",
     answer: '$\\frac{8}{3}$',
     hasImage: false,
   },
@@ -26762,7 +26762,7 @@ const advancedA: Question[] = [
     id: '17c91b52ada',
     chapter: '選修數甲',
     question:
-      "若多項式 $f(x)$ 滿足 $f(1)=0$，$f'(1)=-15$，求 $\\displaystyle\\lim_{h\\to0}\\tfrac{f(1+h)}{3h}$。",
+      "若多項式 $f(x)$ 滿足 $f(1)=0$，$f'(1)=-15$，求 $\\displaystyle\\lim_{h\\to0}\\frac{f(1+h)}{3h}$。",
     answer: '$-5$',
     hasImage: false,
   },
@@ -26776,14 +26776,14 @@ const advancedA: Question[] = [
   {
     id: '17c91b98995',
     chapter: '選修數甲',
-    question: "已知 $f(3)=0$，$f'(3)=20$，求 $\\displaystyle\\lim_{h\\to0}\\tfrac{f(3+h)}{4h}$",
+    question: "已知 $f(3)=0$，$f'(3)=20$，求 $\\displaystyle\\lim_{h\\to0}\\frac{f(3+h)}{4h}$",
     answer: '$5$',
     hasImage: false,
   },
   {
     id: '17c91bb4a4b',
     chapter: '選修數甲',
-    question: '設 $f(x)=3x^5-2x^4+5x^3-3x^2+x-7$，求 $\\dv xf(x)$。',
+    question: '設 $f(x)=3x^5-2x^4+5x^3-3x^2+x-7$，求 $\\ddv xf(x)$。',
     answer: '$15x^4-8x^3+15x^2-6x+1$',
     hasImage: false,
   },
@@ -26797,7 +26797,7 @@ const advancedA: Question[] = [
   {
     id: '17c91bce4f5',
     chapter: '選修數甲',
-    question: "$x>0$，$f(x)=3\\sqrt{x}-5\\sqrt[3]{x}+\\sqrt[4]{x^3}$，求 $f'(1)$。",
+    question: "$x>0$，$f(x)=3\\sqrt{x}-5\\sqrt[3]{x}+\\sqrt[4]{x^3}$，求 $f'(1)$",
     answer: '$\\frac7{12}$',
     hasImage: false,
   },
@@ -26818,7 +26818,7 @@ const advancedA: Question[] = [
   {
     id: '17c91bebd27',
     chapter: '選修數甲',
-    question: "設 $x>0$，$f(x)=6\\sqrt{x}-9\\sqrt[3]{x^2}+1$，求 $f'(1)$。",
+    question: "設 $x>0$，$f(x)=6\\sqrt{x}-9\\sqrt[3]{x^2}+1$，求 $f'(1)$",
     answer: '$-3$',
     hasImage: false,
   },
@@ -26839,15 +26839,29 @@ const advancedA: Question[] = [
   {
     id: '17c91c009a0',
     chapter: '選修數甲',
-    question: "設 $f(x)=(x^2-x+1)(x^2+x+1)$，求 $f'(1)$。",
+    question: "設 $f(x)=(x^2-x+1)(x^2+x+1)$，求 $f'(1)$",
     answer: '$6$',
     hasImage: false,
   },
   {
     id: '17c91c0817e',
     chapter: '選修數甲',
-    question: "設 $f(x)=\\frac{x-2}{x+1}$，求 $f'(1)$。",
+    question: "設 $f(x)=\\dfrac{x-2}{x+1}$，求 $f'(1)$。",
     answer: '$\\frac34$',
+    hasImage: false,
+  },
+  {
+    id: '18366088158',
+    chapter: '極限',
+    question: '設 $y=\\sqrt[3]{x+5}$，試求以 (3,2) 為切點的切線方程式。',
+    answer: '$x-12y=-21$',
+    hasImage: false,
+  },
+  {
+    id: '1836609962d',
+    chapter: '極限',
+    question: '設 $f(x)=\\dfrac{x-1}{x+2}$，則 $y=f(x)$ 在 $x=0$ 處的切線方程式。',
+    answer: '$3x-4y=2$',
     hasImage: false,
   },
   {
@@ -27029,16 +27043,16 @@ const limit: Question[] = [
     id: '17baf2aecc8',
     chapter: '極限',
     question:
-      '觀察以下各數列，判斷收斂或發散，並寫出極限值：\n(1) $\\frac{\\sqrt{5}}{2},(\\frac{\\sqrt{5}}{2})^2,(\\frac{\\sqrt{5}}{2})^3,(\\frac{\\sqrt{5}}{2})^4,...$\n(2) $-\\frac{\\pi}{4},(\\frac{\\pi}{4})^2,-(\\frac{\\pi}{4})^3,(\\frac{\\pi}{4})^4,...$\n(3) $\\frac{1}{2},-\\frac{2}{3},\\frac{3}{4},-\\frac{4}{5},\\frac{5}{6},-\\frac{6}{7},...$\n(4) $3,3,3,3,3,3,3,...$\n(5) $\\log\\frac{1}{1},\\log\\frac{1}{2},\\log\\frac{1}{3},\\log\\frac{1}{4},\\log\\frac{1}{5},...$',
-    answer: '(1) 發散 (2) $0$ (3) 發散 (4) $3$ (5) 發散',
+      '觀察以下各數列，判斷收斂或發散，並寫出極限值：\n(1) $\\dfrac{\\sqrt5}2,(\\dfrac{\\sqrt5}2)^2,(\\dfrac{\\sqrt5}2)^3,(\\dfrac{\\sqrt5}2)^4,...$\n(2) $-\\dfrac{\\pi}4,(\\dfrac{\\pi}4)^2,-(\\dfrac{\\pi}4)^3,(\\dfrac{\\pi}4)^4,...$\n(3) $\\dfrac12,-\\dfrac23,\\dfrac34,-\\dfrac45,\\dfrac56,-\\dfrac67,...$\n(4) $3,3,3,3,3,3,3,...$\n(5) $\\log\\dfrac11,\\log\\dfrac12,\\log\\dfrac13,\\log\\dfrac14,\\log\\dfrac15,...$',
+    answer: '(1) 發散 (2) $0$ (3) 發散 (4) 3 (5) 發散',
     hasImage: false,
   },
   {
     id: '17baf2f3825',
     chapter: '極限',
     question:
-      '觀察以下各數列，判斷收斂或發散，並寫出極限值：\n(1) $1,-1,1,-1,1,-1,-1,...$\n(2) $1.01,1.01^2,1.01^3,10.1^4,1.01^5,...$\n(3) $1.01^{-1},1.01^{-2},1.01^{-3},1.01^{-4},...$\n(4) $999,999^\\frac{1}{2},999^\\frac{1}{3},999^\\frac{1}{4},999^\\frac{1}{5},...$\n(5) $\\frac{1}{1},\\frac{1}{2},\\frac{1}{3},\\frac{1}{4},\\frac{1}{5},\\frac{1}{6},\\frac{1}{7},...$',
-    answer: '(1) 發散 (2) 發散 (3) $0$ (4) $1$ (5) $0$',
+      '觀察以下各數列，判斷收斂或發散，並寫出極限值：\n(1) $1,-1,1,-1,1,-1,-1,...$\n(2) $1.01,1.01^2,1.01^3,10.1^4,1.01^5,...$\n(3) $1.01^{-1},1.01^{-2},1.01^{-3},1.01^{-4},...$\n(4) $999,999^\\frac{1}{2},999^\\frac{1}{3},999^\\frac{1}{4},999^\\frac{1}{5},...$\n(5) $\\dfrac{1}{1},\\dfrac{1}{2},\\dfrac{1}{3},\\dfrac{1}{4},\\dfrac{1}{5},\\dfrac{1}{6},\\dfrac{1}{7},...$',
+    answer: '(1) 發散 (2) 發散 (3) 0 (4) 1 (5) 0',
     hasImage: false,
   },
   {
@@ -27046,7 +27060,7 @@ const limit: Question[] = [
     chapter: '極限',
     question:
       '試求 (1) $\\displaystyle\\lim_{n\\to\\infty}\\frac{5n^3-7n^2+n+2}{4n^3+6n^2-5n+1}$\n(2) $\\displaystyle\\lim_{n\\to\\infty}\\frac{3n^2+7n}{2n^3+5}$ (3) $\\displaystyle\\lim_{n\\to\\infty}\\frac{3n^2+5}{2n+7}$',
-    answer: '(1) $\\frac{5}{4}$ (2) $0$ (3) 不存在',
+    answer: '(1) $\\frac54$ (2) 0 (3) 不存在',
     hasImage: false,
   },
   {
@@ -27054,14 +27068,14 @@ const limit: Question[] = [
     chapter: '極限',
     question:
       '試求 (1) $\\displaystyle\\lim_{n\\to\\infty}\\frac{5n^3+6n^2+1}{2n^3+4n+8}$\n(2) $\\displaystyle\\lim_{n\\to\\infty}\\frac{4n^2+9n}{2n^3+1}$ (3) $\\displaystyle\\lim_{n\\to\\infty}\\frac{4n^3+9}{2n^2+7}$',
-    answer: '(1) $\\frac{5}{4}$ (2) $0$ (3) 不存在',
+    answer: '(1) $\\frac52$ (2) 0 (3) 不存在',
     hasImage: false,
   },
   {
     id: '17baf3771d5',
     chapter: '極限',
     question: '試求 $\\displaystyle\\lim_{n\\to\\infty}\\frac{5^{n+2}-2^{2n}}{5^{n-1}+3^{n+1}}$',
-    answer: '$125$',
+    answer: '125',
     hasImage: false,
   },
   {
@@ -27069,7 +27083,7 @@ const limit: Question[] = [
     chapter: '極限',
     question:
       '試求 (1) $\\displaystyle\\lim_{n\\to\\infty}\\frac{3\\cdot4^n+2\\cdot5^{n+2}}{5^n+7\\cdot(-3)^n}$\n(2) $\\displaystyle\\lim_{n\\to\\infty}\\frac{2^{n+20}-5^n}{2^{n+15}+5^{n-2}}$',
-    answer: '(1) $50$ (2) $-25$',
+    answer: '(1) 50 (2) -25',
     hasImage: false,
   },
   {
@@ -27077,7 +27091,7 @@ const limit: Question[] = [
     chapter: '極限',
     question:
       '若 $\\displaystyle\\lim_{n\\to\\infty}\\frac{an^4+10n^3+n-5}{bn^3+n^2-n+7}=5$，求數對 $(a,b)$。',
-    answer: '$(0,2)$',
+    answer: '(0,2)',
     hasImage: false,
   },
   {
@@ -27085,7 +27099,7 @@ const limit: Question[] = [
     chapter: '極限',
     question:
       '若 $\\displaystyle\\lim_{n\\to\\infty}\\frac{an^2+8n-1}{bn^3+2n^2+2}=3$，求數對 $(a,b)$',
-    answer: '$(6,0)$',
+    answer: '(6,0)',
     hasImage: false,
   },
   {
@@ -27093,7 +27107,7 @@ const limit: Question[] = [
     chapter: '極限',
     question:
       '若數列 $\\langle a_n\\rangle$ 滿足 $\\displaystyle\\lim_{n\\to\\infty}\\frac{3a_n+4}{a_n+2}=5$，求 $\\displaystyle\\lim_{n\\to\\infty}a_n$。',
-    answer: '$-3$',
+    answer: '-3',
     hasImage: false,
   },
   {
@@ -27101,23 +27115,23 @@ const limit: Question[] = [
     chapter: '極限',
     question:
       '若數列 $\\langle a_n\\rangle$ 滿足 $\\displaystyle\\lim_{n\\to\\infty}\\frac{a_n}{3n+5}=24$，求 $\\displaystyle\\lim_{n\\to\\infty}\\frac{a_n}{8n+1}$。',
-    answer: '$9$',
+    answer: '9',
     hasImage: false,
   },
   {
     id: '17baf441656',
     chapter: '極限',
     question:
-      '若數列 $\\langle a_n\\rangle$ 滿足 $\\frac{3n-5}{n+1}<a_n<\\frac{3n+7}{n-2}$，試求 $\\displaystyle\\lim_{n\\to\\infty}a_n$。',
-    answer: '$3$',
+      '若數列 $\\langle a_n\\rangle$ 滿足 $\\dfrac{3n-5}{n+1}<a_n<\\dfrac{3n+7}{n-2}$，試求 $\\displaystyle\\lim_{n\\to\\infty}a_n$。',
+    answer: '3',
     hasImage: false,
   },
   {
     id: '17baf453b18',
     chapter: '極限',
     question:
-      '若數列 $\\langle a_n\\rangle$ 滿足 $\\frac{7n^2+5}{n^2+2n+1}<a_n<\\frac{7n^2+n+6}{n^2+n-2}$，試求 $\\displaystyle\\lim_{n\\to\\infty}a_n$。',
-    answer: '$7$',
+      '若數列 $\\langle a_n\\rangle$ 滿足 $\\dfrac{7n^2+5}{n^2+2n+1}<a_n<\\dfrac{7n^2+n+6}{n^2+n-2}$，試求 $\\displaystyle\\lim_{n\\to\\infty}a_n$。',
+    answer: '7',
     hasImage: false,
   },
   {
@@ -27132,7 +27146,7 @@ const limit: Question[] = [
     id: '17baf4a1be5',
     chapter: '極限',
     question:
-      '試選出 $\\displaystyle\\sum^{23}_{k=0}(3k+10)^3$ 的展開\n(1) $10^3+11^3+12^3+\\cdots+79^2$\n(2) $13^3+16^3+19^3+\\cdots+69^2$\n(3) $10^3+13^3+16^3+\\cdots+69^2$\n(4) $10^3+13^3+16^3+\\cdots+79^2$',
+      '試選出 $\\displaystyle\\sum^{23}_{k=0}(3k+10)^3$ 的展開\n(1) $10^3+11^3+12^3+\\cdots+79^3$\n(2) $13^3+16^3+19^3+\\cdots+69^3$\n(3) $10^3+13^3+16^3+\\cdots+69^3$\n(4) $10^3+13^3+16^3+\\cdots+79^3$',
     answer: '(4)',
     hasImage: false,
   },
@@ -27156,28 +27170,28 @@ const limit: Question[] = [
     id: '17baf52582a',
     chapter: '極限',
     question: '試求 $\\displaystyle\\sum^{10}_{k=1}(2k-3)(k-1)$',
-    answer: '$525$',
+    answer: '525',
     hasImage: false,
   },
   {
     id: '17baf535b16',
     chapter: '極限',
     question: '試求 $\\displaystyle\\sum^{20}_{k=1}(k+2)(k-1)$',
-    answer: '$3040$',
+    answer: '3040',
     hasImage: false,
   },
   {
     id: '17baf540b30',
     chapter: '極限',
     question: '試求 $1\\times3+2\\times5+3\\times7+\\cdots+20\\times41$',
-    answer: '$5950$',
+    answer: '5950',
     hasImage: false,
   },
   {
     id: '17baf54e4a7',
     chapter: '極限',
     question: '試求 $1\\times4+2\\times7+3\\times10+\\cdots+30\\times91$',
-    answer: '$28830$',
+    answer: '28830',
     hasImage: false,
   },
   {
@@ -27206,7 +27220,7 @@ const limit: Question[] = [
   {
     id: '17baf5b51c3',
     chapter: '極限',
-    question: '若數列 $\\langle (\\frac{3x-5}{2})^n\\rangle$ 收斂，求實數 $x$ 的範圍。',
+    question: '若數列 $\\langle (\\dfrac{3x-5}{2})^n\\rangle$ 收斂，求實數 $x$ 的範圍。',
     answer: '$1<x\\le\\frac{7}{3}$',
     hasImage: false,
   },
@@ -27214,7 +27228,7 @@ const limit: Question[] = [
     id: '17baf5ce83c',
     chapter: '極限',
     question:
-      '已知首項為 $a$、公比為 $r$ 的無窮等比級數和為 $5$，首項為 $a$、公比為 $3r$ 的無窮等比級數和為 $7$，求首項為 $a$、公比為 $2r$ 的無窮等比級數和。',
+      '已知首項為 $a$、公比為 $r$ 的無窮等比級數和為 5，首項為 $a$、公比為 $3r$ 的無窮等比級數和為 7，求首項為 $a$、公比為 $2r$ 的無窮等比級數和。',
     answer: '$\\frac{35}{6}$',
     hasImage: false,
   },
@@ -27237,7 +27251,7 @@ const limit: Question[] = [
     chapter: '極限',
     question:
       '試求 (1) $\\displaystyle\\lim_{n\\to\\infty}\\frac{2^n+3^n+1}{6^n}$\n(2) $\\displaystyle\\sum^{\\infty}_{n=1}\\frac{2^n+3^n+1}{6^n}$',
-    answer: '(1) $0$ (2) $\\frac{17}{10}$',
+    answer: '(1) 0 (2) $\\frac{17}{10}$',
     hasImage: false,
   },
   {
@@ -27249,11 +27263,58 @@ const limit: Question[] = [
     hasImage: false,
   },
   {
+    id: '18365d35929',
+    chapter: '極限',
+    question: '試求 $\\displaystyle\\lim_{n\\to\\infty}(\\sqrt{n^2+n+1}-n)$。',
+    answer: '$\\frac12$',
+    hasImage: false,
+  },
+  {
+    id: '18365d5c606',
+    chapter: '極限',
+    question:
+      '試求 (1) $\\displaystyle\\lim_{n\\to\\infty}(\\sqrt{n^2+5n+2}-n)$ (2) $\\displaystyle\\lim_{n\\to\\infty}(\\sqrt{n^2+n}-\\sqrt{n^2+3n})$',
+    answer: '(1) $\\frac52$ (2) -1',
+    hasImage: false,
+  },
+  {
+    id: '18365d91a94',
+    chapter: '極限',
+    question:
+      '試求 $\\displaystyle\\lim_{n\\to\\infty}\\frac{\\sqrt{n^2+1}+\\sqrt{n^2+2}+\\cdots+\\sqrt{n^2+n}}{3n^2+5n+1}$',
+    answer: '$\\frac13$',
+    hasImage: false,
+  },
+  {
+    id: '18365da0634',
+    chapter: '極限',
+    question:
+      '試求 $\\displaystyle\\lim_{n\\to\\infty}\\frac{\\sqrt[3]{n^3+1}+\\sqrt[3]{n^3+2}+\\cdots+\\sqrt[3]{n^3+n}}{n^2}$',
+    answer: '1',
+    hasImage: false,
+  },
+  {
+    id: '18365e7d18b',
+    chapter: '極限',
+    question:
+      '$S_n=\\dfrac12+(\\dfrac12)^2+(\\dfrac12)^3+(\\dfrac12)^4+\\cdots+(\\dfrac12)^n$，求 $\\displaystyle\\lim_{n\\to\\infty}S_n$。',
+    answer: '2',
+    hasImage: false,
+  },
+  {
+    id: '18365e6fea0',
+    chapter: '極限',
+    question:
+      '$S_n=\\dfrac13+(\\dfrac13)^2+(\\dfrac13)^3+(\\dfrac13)^4+\\cdots+(\\dfrac13)^n$，求 $\\displaystyle\\lim_{n\\to\\infty}S_n$。',
+    answer: '$\\frac12$',
+    hasImage: false,
+  },
+  {
     id: '17baf66e6f8',
     chapter: '極限',
     question:
-      '若皮球自離地面 $25$ 公尺的高處落下，每次返跳高度為其落下時高度的 $\\frac{3}{5}$，試求此球到靜止時所經過的距離。',
-    answer: '$100$ 公尺',
+      '若皮球自離地面 25 公尺的高處落下，每次返跳高度為其落下時高度的 $\\dfrac{3}{5}$，試求此球到靜止時所經過的距離。',
+    answer: '100 公尺',
     hasImage: false,
   },
   {
@@ -27261,22 +27322,22 @@ const limit: Question[] = [
     chapter: '極限',
     question:
       '設 $f(x)=\\begin{cases}x^2+3,0\\le x<2\\\\9-x,2\\le x<6\\end{cases}$ 且 $f(x+6)=f(x)$，求 $f(14)+f(f(13))$。',
-    answer: '$12$',
+    answer: '12',
     hasImage: false,
   },
   {
     id: '17baf718934',
     chapter: '極限',
     question:
-      '設 $f(x)=\\begin{cases}2x+1,0\\le x<1\\\\x^2+2x+2,1\\le x<2\\\\-x+3,2\\le x<3\\end{cases}$ 且 $f(x+3)=f(x)$，求 $f(f(\\frac{23}{2}))$。',
-    answer: '$2$',
+      '設 $f(x)=\\begin{cases}2x+1,0\\le x<1\\\\x^2+2x+2,1\\le x<2\\\\-x+3,2\\le x<3\\end{cases}$ 且 $f(x+3)=f(x)$，求 $f(f(\\dfrac{23}2))$。',
+    answer: '2',
     hasImage: false,
   },
   {
     id: '17baf7362e5',
     chapter: '極限',
     question: '高斯函數 $f(x)=[x]$，求 $f(5)$、$f(\\pi)$、$f(-3.1)$，並作其函數圖形。',
-    answer: '$5$；$3$；$-4$；圖略',
+    answer: '5；3；-4；圖略',
     hasImage: false,
   },
   {
@@ -27290,7 +27351,7 @@ const limit: Question[] = [
     id: '17baf771a46',
     chapter: '極限',
     question:
-      '已知 $f(x)$ 為奇函數，$g(x)$ 為偶函數，$h(x)$ 不是奇函數也不是偶函數，則下列哪些選項為奇函數？哪些為偶函數？\n(1) $y=f(x)+3\\quad$ (2) $y=g(x)+5$\n(3) $y=f(x)+g(x)\\quad$ (4) $y=f(x)+2x^3$\n(5) $y=f(x)\\cdot g(x)\\quad$ (6) $y=f(x)\\cdot\\sin x$\n(7) $y=g(f(x))\\quad$ (8) $y=\\frac{h(x)-h(-x)}{2}$',
+      '已知 $f(x)$ 為奇函數，$g(x)$ 為偶函數，$h(x)$ 不是奇函數也不是偶函數，則下列哪些選項為奇函數？哪些為偶函數？\n(1) $y=f(x)+3\\quad$ (2) $y=g(x)+5$\n(3) $y=f(x)+g(x)\\quad$ (4) $y=f(x)+2x^3$\n(5) $y=f(x)\\cdot g(x)\\quad$ (6) $y=f(x)\\cdot\\sin x$\n(7) $y=g(f(x))\\quad$ (8) $y=\\dfrac{h(x)-h(-x)}{2}$',
     answer: '(4)(5)(8)；(2)(6)(7)',
     hasImage: false,
   },
@@ -27306,24 +27367,24 @@ const limit: Question[] = [
     id: '17baf7ce619',
     chapter: '極限',
     question:
-      '設 $f(x)=\\frac{x^2+x-2}{x-1}$，求：\n(1) $f(1)\\quad$ (2) $\\displaystyle\\lim_{x\\to1}f(x)\\quad$ (3) $\\displaystyle\\lim_{x\\to2}f(x)$\n(4) 作 $f(x)$ 的圖形',
-    answer: '(1) 不存在 (2) $3$ (3) $4$',
+      '設 $f(x)=\\dfrac{x^2+x-2}{x-1}$，求：\n(1) $f(1)\\quad$ (2) $\\displaystyle\\lim_{x\\to1}f(x)\\quad$ (3) $\\displaystyle\\lim_{x\\to2}f(x)$\n(4) 作 $f(x)$ 的圖形',
+    answer: '(1) 不存在 (2) 3 (3) 4',
     hasImage: false,
   },
   {
     id: '17baf7e403e',
     chapter: '極限',
     question:
-      '設 $f(x)=\\frac{x^2+2x-3}{(x-1)(x-2)}$，求：\n(1) $\\displaystyle\\lim_{x\\to1}f(x)$ (2) $\\displaystyle\\lim_{x\\to2}f(x)$',
-    answer: '(1) 不存在 (2) $3$ (3) $4$',
+      '設 $f(x)=\\dfrac{x^2+2x-3}{(x-1)(x-2)}$，求：\n(1) $\\displaystyle\\lim_{x\\to1}f(x)$ (2) $\\displaystyle\\lim_{x\\to2}f(x)$',
+    answer: '(1) 不存在 (2) 3 (3) 4',
     hasImage: false,
   },
   {
     id: '17baf7ee65e',
     chapter: '極限',
     question:
-      '設 $f(x)=\\frac{x^2+2x-3}{(x-1)(x-2)}$，求：\n(1) $\\displaystyle\\lim_{x\\to1}f(x)\\quad$ (2) $\\displaystyle\\lim_{x\\to2}f(x)$',
-    answer: '(1) $-4$ (2) 不存在',
+      '設 $f(x)=\\dfrac{x^2+2x-3}{(x-1)(x-2)}$，求：\n(1) $\\displaystyle\\lim_{x\\to1}f(x)\\quad$ (2) $\\displaystyle\\lim_{x\\to2}f(x)$',
+    answer: '(1) -4 (2) 不存在',
     hasImage: false,
   },
   {
@@ -27331,7 +27392,7 @@ const limit: Question[] = [
     chapter: '極限',
     question:
       '設 $y=f(x)$ 的圖形如圖所示，試求：\n(1) $f(1)$，$f(2)$，$f(3)$\n(2) $\\displaystyle\\lim_{x\\to1^-}f(x)$，$\\displaystyle\\lim_{x\\to1^+}f(x)$，$\\displaystyle\\lim_{x\\to1}f(x)$\n(3) $\\displaystyle\\lim_{x\\to2^-}f(x)$，$\\displaystyle\\lim_{x\\to2^+}f(x)$，$\\displaystyle\\lim_{x\\to2}f(x)$\n(4) $\\displaystyle\\lim_{x\\to3^-}f(x)$，$\\displaystyle\\lim_{x\\to3^+}f(x)$，$\\displaystyle\\lim_{x\\to3}f(x)$',
-    answer: '(1) $4$；$3$；不存在 (2) $2$；$2$；$2$ (2) $5$；$1$；不存在 (3) $4$；不存在；不存在',
+    answer: '略',
     hasImage: true,
   },
   {
@@ -27339,7 +27400,7 @@ const limit: Question[] = [
     chapter: '極限',
     question:
       '如圖，求下列各極限值：\n(1) $\\displaystyle\\lim_{x\\to1^-}f(x)$，$\\displaystyle\\lim_{x\\to1^+}f(x)$，$\\displaystyle\\lim_{x\\to1}f(x)$\n(2) $\\displaystyle\\lim_{x\\to3^-}f(x)$，$\\displaystyle\\lim_{x\\to3^+}f(x)$，$\\displaystyle\\lim_{x\\to3}f(x)$\n(3) $\\displaystyle\\lim_{x\\to5^-}f(x)$，$\\displaystyle\\lim_{x\\to5^+}f(x)$，$\\displaystyle\\lim_{x\\to5}f(x)$',
-    answer: '(1) $2$；$2$；$2$ (2) $4$；$4$；$4$ (3) $3$；$2$；不存在',
+    answer: '(1) 2；2；2 (2) 4；4；4 (3) 3；2；不存在',
     hasImage: true,
   },
   {
@@ -27493,6 +27554,20 @@ const limit: Question[] = [
     chapter: '極限',
     question: '求 $1\\times1+2\\times3+3\\times5+4\\times7+\\cdots$+20\\times39$',
     answer: '$5530$',
+    hasImage: false,
+  },
+  {
+    id: '183664aca9c',
+    chapter: '極限',
+    question: '試證半徑為 $r$ 的球的體積為 $\\dfrac43\\pi r^3$。',
+    answer: '略',
+    hasImage: false,
+  },
+  {
+    id: '183664c844d',
+    chapter: '極限',
+    question: '半徑為 $r$ 之兩球體，互過彼此球心，試求兩球體共同部分之體積。',
+    answer: '$\\frac5{12}\\pi r^3$',
     hasImage: false,
   },
 ];
