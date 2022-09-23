@@ -1097,6 +1097,84 @@ const beginner: Question[] = [
 // 數與式
 const numAndEquation: Question[] = [
   {
+    id: '1836aec7436',
+    chapter: '數與式',
+    question:
+      '數線上 $A$、$B$ 兩點的坐標分別為 $0.\\overline{26}$、$0.3\\overline{27}$，$P$ 在 $A$、$B$ 之間，若 $\\overline{AP}:\\overline{BP}=5:9$，求 $P$。',
+    answer: '$\\frac27$',
+    hasImage: false,
+  },
+  {
+    id: '1836aeea0ea',
+    chapter: '數與式',
+    question: '求解不等式 $\\begin{cases}|2x-1|<9\\\\|x+2|\\ge3\\end{cases}$。',
+    answer: '$1\\le x<5$',
+    hasImage: false,
+  },
+  {
+    id: '1836aefd793',
+    chapter: '數與式',
+    question: '已知 $x-\\dfrac1x=4$，求：(1) $x^2+\\dfrac1{x^2}$ (2) $x^3-\\dfrac1{x^3}$',
+    answer: '(1) 18 (2) 76',
+    hasImage: false,
+  },
+  {
+    id: '1836af129de',
+    chapter: '數與式',
+    question: '若 $\\sqrt{41-12\\sqrt5}$ 的整數部分為 $a$，小數部分為 $b$，$0\\le b<1$，求 $b$。',
+    answer: '$3-\\sqrt5$',
+    hasImage: false,
+  },
+  {
+    id: '1836af32d83',
+    chapter: '數與式',
+    question: '設 $a,b>0$，且 $3a+2b=24$，求 $ab$ 的最大值及此時的 $(a,b)$。',
+    answer: '24; (4,6)',
+    hasImage: false,
+  },
+  {
+    id: '1836af5aef1',
+    chapter: '數與式',
+    question: '比較 $a=\\sqrt5+\\sqrt{10}$，$b=\\sqrt6+3$，$c=\\sqrt{13}+\\sqrt2$ 的大小順序。',
+    answer: '$b>a>c$',
+    hasImage: false,
+  },
+  {
+    id: '1836af73df6',
+    chapter: '數與式',
+    question: '求解不等式 $|1-x|-2x\\le3$。',
+    answer: '$x\\ge-\\frac23$',
+    hasImage: false,
+  },
+  {
+    id: '1836af84a3d',
+    chapter: '數與式',
+    question: '若 $|ax+5|\\le b$ 之解為 $-1\\le x\\le6$，求數對 $(a,b)$。',
+    answer: '(-2,7)',
+    hasImage: false,
+  },
+  {
+    id: '1836afa7324',
+    chapter: '數與式',
+    question: '若 $\\sqrt{11+4\\sqrt7}$ 的整數部分為 $a$，小數部分為 $b$，求 $\\dfrac{7a}{a+2b}$。',
+    answer: '$2\\sqrt7$',
+    hasImage: false,
+  },
+  {
+    id: '1836b009b6e',
+    chapter: '數與式',
+    question: '試求 $(\\sqrt3)^{-2}\\cdot[(\\sqrt3)^3]^{-0.5}\\cdot(\\sqrt3)^{\\frac{11}2}$。',
+    answer: '3',
+    hasImage: false,
+  },
+  {
+    id: '1836aff69b0',
+    chapter: '數與式',
+    question: '求 (1) $10^{2+\\log1.08}$ (2) $(\\sqrt{10})^{2-\\log16}$',
+    answer: '(1) 108 (2) $\\frac52$',
+    hasImage: false,
+  },
+  {
     id: '18321761d3e',
     chapter: '數與式',
     question: '若 $a^{2x}=1+\\sqrt2$，求 $\\dfrac{a^{3x}+a^{-3x}}{a^x+a^{-x}}$。',
@@ -5196,6 +5274,21 @@ const polynomial: Question[] = [
 
 // 直線與圓
 const lineAndCircle: Question[] = [
+  {
+    id: '1836b0487b7',
+    chapter: '直線與圓',
+    question:
+      '已知 $A(3,-2)$，$B(-1,0)$，$C(2,k)$ 為 $\\triangle ABC$ 的三頂點，且 $\\angle A=90\\du$，求 $k$。',
+    answer: '-4',
+    hasImage: false,
+  },
+  {
+    id: '1836b05ec81',
+    chapter: '直線與圓',
+    question: '在坐標平面上，若 $A(1,-2)$，$B(5,a-1)$，$C(a+1,1)$ 三點共線，求 $a$。',
+    answer: '-4 or 3',
+    hasImage: false,
+  },
   {
     id: '1834acaccca',
     chapter: '直線與圓',
