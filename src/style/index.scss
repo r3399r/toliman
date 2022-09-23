@@ -6,3 +6,10 @@ body {
   line-height: 1.5;
   font-family: 'Times New Roman', 'Noto Sans TC', serif;
 }
+
+mjx-stretchy-h > mjx-ext > mjx-c::before {
+  transform: none !important;
+}
+mjx-stretchy-h > mjx-ext > mjx-c {
+  transform: scalex(500);
+}

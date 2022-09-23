@@ -5197,6 +5197,59 @@ const polynomial: Question[] = [
 // 直線與圓
 const lineAndCircle: Question[] = [
   {
+    id: '1834acaccca',
+    chapter: '直線與圓',
+    question: '平面上有 $A(1,2)$、$B(12,7)$、$(5,-9)$ 三點，若 $ABCD$ 為平行四邊形，求 $D$。',
+    answer: '(-6,-14)',
+    hasImage: false,
+  },
+  {
+    id: '1834acbe11c',
+    chapter: '直線與圓',
+    question:
+      '平面上有 $A(1,2)$、$B(12,7)$、$(5,-9)$ 三點，若 $D$ 與 $A$、$B$、$C$ 可以連成平行四邊形，求 $D$。',
+    answer: '(-6,-14) 或 (8,18) 或 (16,-4)',
+    hasImage: false,
+  },
+  {
+    id: '1834acdb025',
+    chapter: '直線與圓',
+    question:
+      '坐標平面上 $A(1,4)$、$B(9,-2)$、$C(x,y)$ 依序在一直線上，且 $\\overline{AB}:\\overline{BC}=2:5$，求 $(x,y)$。',
+    answer: '(29,-17)',
+    hasImage: false,
+  },
+  {
+    id: '1834ad03f5f',
+    chapter: '直線與圓',
+    question:
+      '點 $A(k,k+1)$、$B(2k+1,5k-4)$，試問：\n(1) 若 $\\overline{AB}$ 的斜率為 $\\dfrac52$，求 $k$\n(2) 若 $\\overline{AB}$ 沒有斜率，求 $k$',
+    answer: '5；-1',
+    hasImage: false,
+  },
+  {
+    id: '1834ad2261e',
+    chapter: '直線與圓',
+    question:
+      '輪椅坡道所建議的最大斜率是 $\\dfrac1{12}$，一家公司安裝一個輪椅坡道，此處無障礙坡道高度為 0.8 公尺，請問此坡道之水平長度至少需要幾公尺才能合乎規定？(答案取至整數位)',
+    answer: '10',
+    hasImage: false,
+  },
+  {
+    id: '1834ad37a5b',
+    chapter: '直線與圓',
+    question: '求平面上過點 (5,7) 且斜率為 -3 的直線方程式。',
+    answer: '$3x+y=22$',
+    hasImage: false,
+  },
+  {
+    id: '1834ad45b45',
+    chapter: '直線與圓',
+    question: '求平面上過兩點 (3,-1)、(2,6) 的直線方程式。',
+    answer: '$7x+y=20$',
+    hasImage: false,
+  },
+  {
     id: '182f1e9f5db',
     chapter: '直線與圓',
     question:
