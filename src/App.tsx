@@ -26,6 +26,8 @@ const App = () => {
               du: ['^\\circ', 0],
               arg: ['\\operatorname{Arg}', 0],
               textcirc: ['\\enclose{circle}{\\kern .06em \\text{#1}\\kern .06em}', 1],
+              dv: ['\\dfrac{\\text{d}{#1}}{\\text{d}{#2}}', 2],
+              ddv: ['\\dfrac{\\text{d}}{\\text{d}{#1}}', 1],
             },
           },
         }}
