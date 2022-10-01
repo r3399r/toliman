@@ -52,12 +52,12 @@ const Quiz = () => {
   return (
     <MathJax>
       <div className={style.content}>
-        <h1>高一 ch1 小考</h1>
-        {displayQuestion('1836aec7436', 1)}
-        {displayQuestion('1836aeea0ea', 2)}
-        {displayQuestion('1836aefd793', 3)}
-        {displayQuestion('1836af129de', 4)}
-        {displayQuestion('1836af32d83', 5)}
+        <h1>高一 第一次段考範圍 小考</h1>
+        {displayQuestion('18391d37c69', 1)}
+        {displayQuestion('18391d49044', 2)}
+        {displayQuestion('18391d6d3dc', 3)}
+        {displayQuestion('18391d93e74', 4)}
+        {displayQuestion('18391dabb4f', 5)}
       </div>
     </MathJax>
   );

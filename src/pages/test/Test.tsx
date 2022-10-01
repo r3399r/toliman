@@ -52,31 +52,31 @@ const Test = () => {
   return (
     <MathJax>
       <div className={style.content}>
-        <h1>高二下第三次段考練習 B</h1>
+        <h1>高一上第一次段考練習</h1>
         <div>
-          <b>一、單選題</b>
+          <b>一、多選題</b>
         </div>
-        {displayQuestion('1818ee916be', 1)}
-        {displayQuestion('1818eeb6cda', 2)}
-        {displayQuestion('17ce8f75d11', 3)}
+        {displayQuestion('18392cd9c64', 1)}
+        {displayQuestion('18392d0e202', 2)}
+        {displayQuestion('18392d6ffb5', 3)}
         <div>
-          <b>二、多選題</b>
+          <b>二、填充題</b>
         </div>
-        {displayQuestion('17a222cf18f', 4)}
+        {displayQuestion('18392ea57cd', 4)}
+        {displayQuestion('18392ec653f', 5)}
         <div style={{ pageBreakAfter: 'always' }} />
-        {displayQuestion('17df55c3250', 5)}
-        <div>
-          <b>三、計算題</b>
-        </div>
-        {displayQuestion('17a222ea5b7', 6)}
-        {displayQuestion('1818f20eaf3', 7, '5cm')}
+        {displayQuestion('18392ed90dc', 6)}
+        {displayQuestion('18392eee3ac', 7)}
+        {displayQuestion('18392f3254c', 8)}
+        {displayQuestion('18392f4bb4b', 9)}
+        {displayQuestion('18392f6502d', 10)}
+        {displayQuestion('18392f94459', 11)}
         <div style={{ pageBreakAfter: 'always' }} />
-        {displayQuestion('17a22302368', 8)}
-        {displayQuestion('17a2231a63b', 9)}
-        {displayQuestion('1818f20eaf3', 10)}
-        {displayQuestion('179a35cf63d', 11)}
-        {displayQuestion('17e2fd4b9bb', 12)}
-        {displayQuestion('17ce00c5e42', 13)}
+        {displayQuestion('18392fa9861', 12)}
+        {displayQuestion('18392fbcf43', 13)}
+        {displayQuestion('18392fd3e82', 14)}
+        {displayQuestion('18392fe79cb', 15)}
+        {displayQuestion('18392ff6952', 16)}
       </div>
     </MathJax>
   );

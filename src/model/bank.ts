@@ -1097,6 +1097,213 @@ const beginner: Question[] = [
 // 數與式
 const numAndEquation: Question[] = [
   {
+    id: '18392cd9c64',
+    chapter: '數與式',
+    question:
+      '若 $a(3-\\sqrt7)$ 為有理數，則 $a$ 可能為哪些種類的數？\n(A) 正整數　(B) 整數　(C) 有理數　(D) 無理數　(E) 實數',
+    answer: 'BCDE',
+    hasImage: false,
+  },
+  {
+    id: '18392d0e202',
+    chapter: '數與式',
+    question:
+      '下列哪些是無理數？\n(A) 5.2236　(B) $1.\\overline{23}$　(C) $\\sqrt2+1$　(D) $\\pi+5$　(E) $\\dfrac1{\\sqrt5-2}$',
+    answer: 'CDE',
+    hasImage: false,
+  },
+  {
+    id: '18392d3d70e',
+    chapter: '數與式',
+    question:
+      '已知 $a=5^{0.2}$，$b=5^{0.3}$，請選出正確的選項：\n(A) $a^5=5$　(B) $b^{10}=125$　(C) $a+b=5^{0.5}$　(D) $ab=\\sqrt5$　(E) $a^2=b^3$',
+    answer: 'ABD',
+    hasImage: false,
+  },
+  {
+    id: '18392d6ffb5',
+    chapter: '數與式',
+    question:
+      '已知 $a=2+\\sqrt5$ 且 $b$ 為 $a$ 的小數部分，請選出正確的選項\n(A) $a+a^{-1}=4$　(B) $b^{-1}=a$　(C) $a^2+b^2=14$　(D) $a^3-b^3=60$　(E) $b=a-4$',
+    answer: 'BE',
+    hasImage: false,
+  },
+  {
+    id: '18392ea57cd',
+    chapter: '數與式',
+    question: '已知 $\\log a=5.26$，若 $b$ 為 $a$ 的 10 倍，求 $\\log b$。',
+    answer: '6.26',
+    hasImage: false,
+  },
+  {
+    id: '18392ec653f',
+    chapter: '數與式',
+    question: '試化簡下列雙重根式\n(1) $\\sqrt{9+2\\sqrt{14}}$\n(2) $\\sqrt{5-\\sqrt{21}}$',
+    answer: '(1) $\\sqrt7+\\sqrt2$ (2) $\\frac{\\sqrt{14}-\\sqrt6}2$',
+    hasImage: false,
+  },
+  {
+    id: '18392ed90dc',
+    chapter: '數與式',
+    question: '若對某數連續取兩次 $\\log$ 後會等於 3，試問這個數是幾位數？',
+    answer: '1001',
+    hasImage: false,
+  },
+  {
+    id: '18392eee3ac',
+    chapter: '數與式',
+    question: '$\\sqrt{43-\\sqrt{27}}$ 介於整數 $n$ 與 $n-1$ 之間，求 $n$。',
+    answer: '7',
+    hasImage: false,
+  },
+  {
+    id: '18392f3254c',
+    chapter: '數與式',
+    question:
+      '放射性物質的半衰期 $T$ 定義為每經過時間 $T$，該物質的質量會衰退成原來的一半。鉛製容器中有兩種放射性物質 $A$、$B$，開始紀錄時容器中物質 $A$ 的質量為物質 $B$ 的兩倍，而 120 小時後兩種物質的質量相同。已知質量 $A$ 的半衰期為 7.5 小時，請問物質 $B$ 的半衰期為多少小時？',
+    answer: '8',
+    hasImage: false,
+  },
+  {
+    id: '18392f4bb4b',
+    chapter: '數與式',
+    question:
+      '設 $A(4)$、$B(11)$ 為數線上兩點，已知 $P$ 點在直線 $AB$ 上，且 $\\overline{AP}:\\overline{BP}=4:3$，求 $P$ 點坐標。(有兩解)',
+    answer: '8 or 32',
+    hasImage: false,
+  },
+  {
+    id: '18392f6502d',
+    chapter: '數與式',
+    question: '設 $x,y$ 為實數，若 $25.7^x=0.0257^y=10000$，求 $\\dfrac1x-\\dfrac1y$。',
+    answer: '$\\frac34$',
+    hasImage: false,
+  },
+  {
+    id: '18392f94459',
+    chapter: '數與式',
+    question:
+      '如圖，一動物園欲將園區重新規劃成六個長方形的區域，設計師以美化的石牆 (實線部分) 分隔任意兩相鄰的長方形，並以鐵欄杆 (虛線部分) 隔離遊客。如果石牆共 1200 公尺 (不考慮高度與厚度)，而鐵欄杆的數量十分充足，試求鐵欄杆圍成的長方形最大面積。',
+    answer: '180000',
+    hasImage: true,
+  },
+  {
+    id: '18392fa9861',
+    chapter: '數與式',
+    question: '求解 $\\sqrt2=1+\\dfrac1{2+\\dfrac1{2+x}}$。',
+    answer: '$\\sqrt2-1$',
+    hasImage: false,
+  },
+  {
+    id: '18392fbcf43',
+    chapter: '數與式',
+    question: '求解不等式 $|x-1|+|x-2|\\ge4$。',
+    answer: '$x\\le-\\frac12$ or $x\\ge\\frac72$',
+    hasImage: false,
+  },
+  {
+    id: '18392fd3e82',
+    chapter: '數與式',
+    question: '若 $a=0.2\\overline{75}+\\dfrac{18}{55}$，求將 $a$ 展開後小數點後的第 2000 位數字。',
+    answer: '0',
+    hasImage: false,
+  },
+  {
+    id: '18392fe79cb',
+    chapter: '數與式',
+    question:
+      '試比較下列實數大小：$a=\\sqrt{13}+\\sqrt5$，$b=\\sqrt{11}+\\sqrt7$，$c=\\sqrt{15}+\\sqrt3$。',
+    answer: 'b>a>c',
+    hasImage: false,
+  },
+  {
+    id: '18392ff6952',
+    chapter: '數與式',
+    question: '$|ax-1|\\le b$ 之解為 $-5\\le x\\le3$，求 $a,b$。',
+    answer: '-1；4',
+    hasImage: false,
+  },
+  {
+    id: '1839207686d',
+    chapter: '數與式',
+    question: '估計 $\\sqrt{50+\\sqrt{1230}}$ 在哪兩個整數之間？',
+    answer: '9~10',
+    hasImage: false,
+  },
+  {
+    id: '1839208efa0',
+    chapter: '數與式',
+    question: '若 $a,b$ 為有理數且 $\\sqrt{a+15\\sqrt2}=5+b\\sqrt2$，求 $a,b$。',
+    answer: '$\\frac{59}2$；$\\frac32$',
+    hasImage: false,
+  },
+  {
+    id: '183920ae2f0',
+    chapter: '數與式',
+    question: '已知實數 $a,b$ 滿足 $9a^2+16b^2=32$，求乘積 $ab$ 的最大值及最小值。',
+    answer: '$\\frac43$；$-\\frac43$',
+    hasImage: false,
+  },
+  {
+    id: '183920cb7eb',
+    chapter: '數與式',
+    question:
+      '數線上有 $A(a)$、$B(b)$、$C(c)$、$D(d)$ 四點，已知 $\\overline{AB}=1$、$\\overline{CD}=2$、$\\overline{AC}=5$，求 $|b-d|$ 的最大值。',
+    answer: '8',
+    hasImage: false,
+  },
+  {
+    id: '183920dbb81',
+    chapter: '數與式',
+    question: '已知 $\\log2\\approx0.3010$，求 $\\log 4$、$\\log5$。',
+    answer: '0.6020；0.6990',
+    hasImage: false,
+  },
+  {
+    id: '183920eae12',
+    chapter: '數與式',
+    question:
+      '求滿足 $(\\dfrac32)^n>10000$ 的最小整數 $n$。\n($\\log2\\approx0.3010$、$\\log3\\approx0.4771$)',
+    answer: '23',
+    hasImage: false,
+  },
+  {
+    id: '18391d37c69',
+    chapter: '數與式',
+    question: '設 $x=\\sqrt{5-\\sqrt{24}}$，求 $x^3+\\dfrac1{x^3}$。 ',
+    answer: '$18\\sqrt3$',
+    hasImage: false,
+  },
+  {
+    id: '18391d49044',
+    chapter: '數與式',
+    question: '設 $x>0$，$y>0$，已知 $\\dfrac1x+\\dfrac2y=1$，求 $xy$ 的最小值。',
+    answer: '8',
+    hasImage: false,
+  },
+  {
+    id: '18391d6d3dc',
+    chapter: '數與式',
+    question:
+      '已知數線上有相異四點 $A(-2)$，$B(x)$，$C(5)$，$D(3x-1)$，且滿足 $\\overline{AB}+2\\overline{CD}=6$，求 $x$。',
+    answer: '$\\frac85$ or $\\frac{16}7$',
+    hasImage: false,
+  },
+  {
+    id: '18391d93e74',
+    chapter: '數與式',
+    question: '設 $27^x=25^y=225$，求 $\\dfrac2x+\\dfrac3y$。',
+    answer: '3',
+    hasImage: false,
+  },
+  {
+    id: '18391dabb4f',
+    chapter: '數與式',
+    question: '已知 $\\log a=-2.546$，$\\log b=-4.805$，$\\log c=-10.351$，求 $\\dfrac{ab}c$。',
+    answer: '1000',
+    hasImage: false,
+  },
+  {
     id: '1836aec7436',
     chapter: '數與式',
     question:
@@ -5402,6 +5609,49 @@ const polynomial: Question[] = [
 
 // 直線與圓
 const lineAndCircle: Question[] = [
+  {
+    id: '18391fd87c0',
+    chapter: '直線與圓',
+    question: '求平面上垂直於 $2x+y=3$，且 $y$ 截距為 -4 的直線方程式。',
+    answer: '$x-2y=8$',
+    hasImage: false,
+  },
+  {
+    id: '18391fcd9fd',
+    chapter: '直線與圓',
+    question:
+      '平面上有一點 $P(2,-1)$ 與 $L:4x+3y=1$，求：\n(1) 過 $P$ 且與 $L$ 平行的直線方程式\n(2) 過 $P$ 且與 $L$ 垂直的直線方程式',
+    answer: '(1) $4x+3y=5$ (2) $3x-4y=10$',
+    hasImage: false,
+  },
+  {
+    id: '18391fb3721',
+    chapter: '直線與圓',
+    question: '平面上直線 $L$ 的 $x$ 截距為 3，$y$ 截距為 5，求直線 $L$ 的方程式。',
+    answer: '$5x-3y=-15$',
+    hasImage: false,
+  },
+  {
+    id: '18391fa48db',
+    chapter: '直線與圓',
+    question: '求平面上點 $A(2,-3)$ 對直線 $L:5x+y=-6$ 的投影點與對稱點。',
+    answer: '$(-\\frac12,-\\frac72)$；(-3,-4)',
+    hasImage: false,
+  },
+  {
+    id: '18391f96002',
+    chapter: '直線與圓',
+    question: '平面上點 $(k+1,2k-1)$ 到直線 $3x-4y=k+1$ 的距離為 12，求 $k$。',
+    answer: '11 or -9',
+    hasImage: false,
+  },
+  {
+    id: '18391f869fb',
+    chapter: '直線與圓',
+    question: '求平面上與 $3x+4y=5$ 平行，且距離為 2 的直線方程式。',
+    answer: '$3x+4y=15$ or $3x+4y=-5$',
+    hasImage: false,
+  },
   {
     id: '1836b0487b7',
     chapter: '直線與圓',
