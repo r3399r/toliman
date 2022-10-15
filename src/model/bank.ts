@@ -1097,6 +1097,37 @@ const beginner: Question[] = [
 // 數與式
 const numAndEquation: Question[] = [
   {
+    id: '183d7727fb2',
+    chapter: '數與式',
+    question: '已知 $x$ 為正實數且滿足方程式 $2|x+2|+3|x-1|+4|x-3|=25$，則 $x=\\textcirc{11-1}$。',
+    answer: '4',
+    hasImage: false,
+  },
+  {
+    id: '183d7391f35',
+    chapter: '數與式',
+    question:
+      '有個老婆婆的二個兒子都是商人，大兒子賣雨傘，而小兒子賣草帽。雨傘賣的數量和草帽賣的數量是反比關係。如果大兒子賣出 140 把雨傘，則小兒子可以賣出 21 頂草帽。每天大兒子每賣出 1 把雨傘就會給媽媽 50 元，小兒子每賣出一頂草帽會給媽媽 30 元。則老婆婆一天最少可以得到 $\\textcirc{14-1}\\textcirc{14-2}\\textcirc{14-3}\\textcirc{14-4}$ 元',
+    answer: '4200',
+    hasImage: false,
+  },
+  {
+    id: '183d7245365',
+    chapter: '數與式',
+    question:
+      '下列哪些選項的值代入 $k$，可使得方程式 $|x+3|+|x-2|=k$ 有解？\n(1) $\\sqrt3$　(2) $4.\\overline9$　(3) $\\sqrt{17+\\sqrt{17}}$　(4) $2\\pi$　(5) 7',
+    answer: '245',
+    hasImage: false,
+  },
+  {
+    id: '183d7164c81',
+    chapter: '數與式',
+    question:
+      '請問滿足絕對值不等式 $|2x-3|\\le|x|$ 的實數 $x$ 所形成的區間，其長度為下列哪一個選項？\n(1) 1　(2) 2　(3) 3　(4) 4　(5) 5',
+    answer: '2',
+    hasImage: false,
+  },
+  {
     id: '18392cd9c64',
     chapter: '數與式',
     question:
@@ -3770,6 +3801,30 @@ const expAndLog: Question[] = [
 // 多項式函數
 const polynomial: Question[] = [
   {
+    id: '183d8d8d724',
+    chapter: '多項式函數',
+    question:
+      'N 平台目前美人年費為 1000 元，經問卷調查結果得知，若每年調漲 $200a$ 元，$a$ 為實數且 $0\\le a\\le10$，則訂閱人數會下降 $10a\\%$。在不考慮其他收支的情況下，以此推論 N 平台明年年費定為多少錢，會有最大收益？(收益為訂閱總人數乘上每人須繳交的年費) (非選擇題，9 分)',
+    answer: '1500',
+    hasImage: false,
+  },
+  {
+    id: '183d757525f',
+    chapter: '多項式函數',
+    question:
+      '設點 $(a,b)$ 在函數 $y=-2x+3$ 上，若限制 $-2\\le a\\le1$，試求 $ab$ 的最大值為何？\n(1) $\\dfrac34$　(2) 1　(3) $\\dfrac98$　(4) 7　(5) 14',
+    answer: '3',
+    hasImage: false,
+  },
+  {
+    id: '183d731a447',
+    chapter: '多項式函數',
+    question:
+      '關於函數 $f(x)=2(x-1)^3+4(x-1)^2-7(x-1)+1$，下列何者正確？\n(1) $f(1.1)=0.24$　(2) $(x-2)$ 可以整除 $f(x)$\n(3) 1 為 $f(x)=0$ 的一個根　(4) $f(x)$ 展開的各項係數和為 1\n(5) $f(x)$ 展開的常數項為 11',
+    answer: '24',
+    hasImage: false,
+  },
+  {
     id: '1837d8c7896',
     chapter: '多項式函數',
     question: '解 $2x^2+3x+1\\ge 0$，求 $x$ 的範圍。',
@@ -5610,6 +5665,87 @@ const polynomial: Question[] = [
 // 直線與圓
 const lineAndCircle: Question[] = [
   {
+    id: '183da733a68',
+    chapter: '直線與圓',
+    question: '求平面上過點 (5,7) 且斜率為 -3 的直線方程式。',
+    answer: '$3x+y=22$',
+    hasImage: false,
+  },
+  {
+    id: '183da74766b',
+    chapter: '直線與圓',
+    question: '求平面上過兩點 (3, -1)、(2, 6) 的直線方程式。',
+    answer: '$7x+y=20$',
+    hasImage: false,
+  },
+  {
+    id: '183da76f5c3',
+    chapter: '直線與圓',
+    question: '求平面上兩點 $A(3,4)$、$B(2,-5)$ 的垂直平分線方程式。',
+    answer: '$x+9y=-2$',
+    hasImage: false,
+  },
+  {
+    id: '183da7810d2',
+    chapter: '直線與圓',
+    question: '平面上與 $2x+3y=7$ 平行，且兩軸截距之和為 8 的直線方程式。',
+    answer: '$10x+15y=48$',
+    hasImage: false,
+  },
+  {
+    id: '183da7b1ef4',
+    chapter: '直線與圓',
+    question:
+      '直線 $L:y=mx-2m+1$，其中 $m$ 為實數，點 $A(5,4)$、$B(1,6)$，若 $L$ 與 $\\overline{AB}$ 相交，求 $m$ 的範圍。',
+    answer: '$m\\le-5\\lor m\\ge1$',
+    hasImage: false,
+  },
+  {
+    id: '183da7d3dc4',
+    chapter: '直線與圓',
+    question: '求平面上點 (2,3) 到直線 $5x-12y=3$ 的距離。',
+    answer: '$\\frac{29}{13}$',
+    hasImage: false,
+  },
+  {
+    id: '183da7e3619',
+    chapter: '直線與圓',
+    question: '若點 $P(3,1)$ 對直線 $L:12x-5y+8=0$ 的對稱點 $Q$，求 $\\overline{PQ}$。',
+    answer: '6',
+    hasImage: false,
+  },
+  {
+    id: '183da7fe912',
+    chapter: '直線與圓',
+    question: '求兩平行線 $2x+y=-3$ 與 $2x+y-7=0$ 的間距。',
+    answer: '$2\\sqrt5$',
+    hasImage: false,
+  },
+  {
+    id: '183d76e9317',
+    chapter: '直線與圓',
+    question:
+      '平面上有兩直線 $L_1:y=3x-6$，$L_2:y=-\\dfrac13x+4$。若 $L_1$ 與 $x$ 軸交於點 $A$，$L_1$ 與 $L_2$ 交於點 $B$，且 $L_2$ 與 $y$ 軸交於點 $C$。已知點 $O$ 為坐標原點，且 $O$、$A$、$B$、$C$ 的外接圓為 $K$，則下列哪些敘述是正確的？\n(1) $A(0,2)$　(2) $B(3,3)$　(3) $C(4,0)$　(4) $K$ 的半徑為 $2\\sqrt5$\n(5) 若點 $D$ 在 $\\arc{AC}$ 上，且 $D$、$B$ 在 $\\overleftrightarrow{AC}$ 的異側，則四邊形 $DABC$ 面積的最大值為 10',
+    answer: '25',
+    hasImage: false,
+  },
+  {
+    id: '183d76522fb',
+    chapter: '直線與圓',
+    question:
+      '坐標平面上四條直線 $L_1,L_2,L_3,L_4$ 與 $x$ 軸、$y$ 軸的相關位置如圖所示，其中 $L_2$  與 $L_4$ 垂直。設 $L_1:x=m_1y+a$，$L_2:x=m_2y+b$，$L_3:y=m_3x+c$，$L_4:y=m_4x+d$。試問下列哪些選項是正確的？\n(1) $m_3>m_2>m_1$　(2) $m_2+m_4=0$　(3) $m_2\\times m_4=-1$\n(4) $m_3\\times m_4<-1$　(5) $b-a>0$',
+    answer: '25',
+    hasImage: true,
+  },
+  {
+    id: '183d721821f',
+    chapter: '直線與圓',
+    question:
+      '如圖，公園內有一個圓形的水池，在水池內建造了四條觀賞人行道，步道 $\\overline{AB}$、$\\overline{BC}$、$\\overline{CD}$、$\\overline{DA}$，在公園架平面坐標得 $B(0,0)$、$D(4,2)$，又已知 $\\angle A=\\angle C=90\\du$，試選出正確的選項。\n(1) 圓心坐標為 (2,1)\n(2) 圓的半徑為 $\\sqrt5$\n(3) 圓的方程式為 $x^2+y^2-4x-2y=0$\n(4) 若小明沿著 $2x-y+6=0$ 直線跑，則他會掉進水池中\n(5) 過 $B$ 點與圓相切的直線為 $y=-2x$',
+    answer: '1235',
+    hasImage: true,
+  },
+  {
     id: '18391fd87c0',
     chapter: '直線與圓',
     question: '求平面上垂直於 $2x+y=3$，且 $y$ 截距為 -4 的直線方程式。',
@@ -5649,7 +5785,7 @@ const lineAndCircle: Question[] = [
     id: '18391f869fb',
     chapter: '直線與圓',
     question: '求平面上與 $3x+4y=5$ 平行，且距離為 2 的直線方程式。',
-    answer: '$3x+4y=15$ or $3x+4y=-5$',
+    answer: '$3x+4y=15\\lor3x+4y=-5$',
     hasImage: false,
   },
   {
@@ -7307,6 +7443,46 @@ const lineAndCircle: Question[] = [
 
 // 三角比
 const trigonometric: Question[] = [
+  {
+    id: '183d8d2ca73',
+    chapter: '三角比',
+    question:
+      '在 $\\triangle ABC$ 中，已知兩個邊長 $\\overline{AB}=4$，$\\overline{BC}=3$，若 $\\angle A$ 有最大值 $\\theta$，則 $\\sin\\theta=\\dfrac{\\textcirc{17-1}}{\\textcirc{17-2}}$。(化為最簡分數)',
+    answer: '34',
+    hasImage: false,
+  },
+  {
+    id: '183d770fc17',
+    chapter: '三角比',
+    question:
+      '設 $\\triangle ABC$ 中，$\\angle A=30\\du$ 且 $\\overline{AB}=8$，試選出正確的選項。\n(1) 若 $\\overline{AC}=4$，則可求出唯一的 $\\triangle ABC$ 面積\n(2) 若 $\\overline{BC}=4$，則可求出唯一的 $\\triangle ABC$ 面積\n(3) 若 $\\overline{BC}=5$，則可求出唯一的 $\\triangle ABC$ 面積\n(4) 若 $\\overline{BC}=6$，則可求出唯一的 $\\triangle ABC$ 面積\n(5) 若 $\\overline{BC}=8$，則可求出唯一的 $\\triangle ABC$ 面積',
+    answer: '125',
+    hasImage: false,
+  },
+  {
+    id: '183d75a9217',
+    chapter: '三角比',
+    question:
+      '如圖是一個圓形步道，小明用同樣的步伐由 B 點開始以逆時針繞著圓形步道健走，每走 360 步恰好可以繞完圓形步道一圈。小明預計每走 45 步就停下來喘口氣。當在 e 區內 (不包含 D、E) 停留的時候他都會吃一塊餅乾，試問小明從開始健走，到第 100 次停下來的時候，總共吃了幾塊餅乾？\n(1) 10　(2) 11　(3) 12　(4) 13　(5) 14',
+    answer: '3',
+    hasImage: true,
+  },
+  {
+    id: '183d744c61e',
+    chapter: '三角比',
+    question:
+      '在 $\\triangle ABC$ 中，$\\angle A=135\\du$，$\\overline{AB}=\\sqrt2$，$\\overline{AC}=2$。設 $G$ 為 $\\triangle ABC$ 的重心，則 $\\overline{AG}=\\dfrac{\\sqrt{\\textcirc{16-1}}}{\\textcirc{16-2}}$。(化為最簡根式)',
+    answer: '23',
+    hasImage: false,
+  },
+  {
+    id: '183d72dcdd5',
+    chapter: '三角比',
+    question:
+      '在 $\\triangle ABC$ 中，設 $\\overline{AB}=c$，$\\overline{BC}=a$，$\\overline{AC}=b$，且 $\\overline{AB}$、$\\overline{BC}$、$\\overline{AC}$ 上的高分別為 $h_c$、$h_a$、$h_b$，則下列哪些選項的條件有可能成立？\n(1) $a:b:c=2:3:4$\n(2) $\\sin A:\\sin B:\\sin C=\\sqrt7:\\sqrt{11}:(\\sqrt6+\\sqrt{12})$\n(3) $h_a:h_b:h_c=2:3:5$\n(4) $\\sin A$、$\\sin B$、$\\sin C$ 都大於 $\\dfrac{\\sqrt3}2$\n(5) $\\sin A=\\sin B=\\dfrac12$，$\\sin C=\\dfrac{\\sqrt3}2$',
+    answer: '1235',
+    hasImage: false,
+  },
   {
     id: '17ea8dfc8d7',
     chapter: '三角比',
@@ -9155,6 +9331,38 @@ const trigonometric: Question[] = [
 // 數列級數
 const series: Question[] = [
   {
+    id: '183d8cbecc6',
+    chapter: '數據分析',
+    question:
+      '$S_n$ 代表等差數列前 $n$ 項的總和，若 $S_{10}=110$，$S_{20}=420$，求 $S_{15}=\\textcirc{14-1}\\textcirc{14-2}\\textcirc{14-3}$。',
+    answer: '240',
+    hasImage: false,
+  },
+  {
+    id: '183d769ca93',
+    chapter: '數列級數',
+    question:
+      '已知 $a,x,y,b$ 為一等差數列，而 $a,u,v,b$ 為一等比數列，且此六數皆為實數。試問下列哪些選項是正確的？\n(1) $a<x$ 與 $y>b$ 可能同時成立　(2) $a<u$ 與 $v>b$ 可能同時成立\n(3) 若 $a+x<0$，則 $y+b<0$　(4) 若 $au<0$，則 $vb<0$\n(5) $t^2-(x+y)t+uv=(t-a)(t-b)$',
+    answer: '45',
+    hasImage: false,
+  },
+  {
+    id: '183d733a965',
+    chapter: '數列級數',
+    question:
+      '設數列 $\\langle a_n\\rangle$ 滿足遞迴關係式：$\\sqrt{a_n}=\\dfrac{\\sqrt{a_{n+1}}+\\sqrt{a_{n-1}}}2$，其中 $n\\ge2$ 且 $n$ 為正整數，若 $a_1=4$，$a_2=25$，求 $a_8=\\textcirc{13-1}\\textcirc{13-2}\\textcirc{13-3}$',
+    answer: '529',
+    hasImage: false,
+  },
+  {
+    id: '183d7150b4f',
+    chapter: '數列級數',
+    question:
+      '已知公式：$1^2+2^2+\\cdots+n^2=\\dfrac{n(n+1)(2n+1)}6$，其中 $n$ 為正整數。設 $S=2^2+4^2+6^2+\\cdots+100^2$，則下列選項何者正確？\n(1) $70000<S<80000$　(2) $80000<S<90000$　(3) $90000<S<100000$\n(4) $170000<S<180000$　(5) $180000<S<190000$',
+    answer: '4',
+    hasImage: false,
+  },
+  {
     id: '182f1e4e0a6',
     chapter: '數列級數',
     question:
@@ -10188,6 +10396,22 @@ const series: Question[] = [
 
 // 數據分析
 const statistics: Question[] = [
+  {
+    id: '183d8c9fef2',
+    chapter: '數據分析',
+    question:
+      '研究 4 位同學的物理 ($x$) 與數學 ($y$) 成績級分關係。在經過測驗後記錄這 4 位學生的物理與數學成績二維數據，如下表。\n$$\\begin{array}{|c|c|}\\hline x&5&s&t&6\\\\\\hline y&7&9&8&8\\\\\\hline\\end{array}$$\n若物理平均 $\\mu_x$ 比數學平均 $\\mu_y$ 少 2 分且相關係數 $r_{x,y}=\\dfrac12$，試求數對 $(s,t)=\\textcirc{13-1}\\textcirc{13-2}$。',
+    answer: '67',
+    hasImage: false,
+  },
+  {
+    id: '183d75570f6',
+    chapter: '數據分析',
+    question:
+      '某班有學生 43 人，數學科學期成績的算術平均數為 62 分，標準差為 16 分。有兩位同學原本分數分別為 10 分和 65 分，因為曠課超過三分之一節數而改為 0 分，重新計算後，該班新的平均數 $\\mu$ 和標準差 $\\sigma$，試選出正確的選項。\n(1) $\\mu\\ge62$；$\\sigma\\le16$　(2) $\\mu\\le62$；$\\sigma\\le16$　(3) $\\mu\\ge62$；$\\sigma\\ge16$\n(4) $\\mu\\le62$；$\\sigma\\ge16$　(5) $\\mu<62$，無法確定 $\\sigma$ 與 16 的大小關係',
+    answer: '4',
+    hasImage: false,
+  },
   {
     id: '182f1e1e383',
     chapter: '數據分析',
@@ -11242,6 +11466,62 @@ const statistics: Question[] = [
 
 // 排列組合與機率
 const combination: Question[] = [
+  {
+    id: '183d8d5438a',
+    chapter: '排列組合與機率',
+    question:
+      '近年來線上影音平台盛行，消費者可選擇是否繳交年費訂閱該平台，來觀看平台上所提供的各國戲劇與節目。在甲鎮，目前有 N、D 兩個平台可做選擇，且目前甲鎮人口有 1000 人，其中有 600 人訂閱 N 平台；有 500 人訂閱 D 平台；而有 200 人兩個平台均未訂閱，則：',
+    answer: '',
+    hasImage: false,
+  },
+  {
+    id: '183d8d69d1a',
+    chapter: '排列組合與機率',
+    question:
+      '在甲鎮中，隨機抽取一人，則此人訂閱平台數的期望值為 $\\dfrac{\\textcirc{18-1}\\textcirc{18-2}}{\\textcirc{18-3}\\textcirc{18-4}}$ 個。(化為最簡分數) (選填題，6 分)',
+    answer: '1110',
+    hasImage: false,
+  },
+  {
+    id: '183d8ce2cc1',
+    chapter: '排列組合與機率',
+    question:
+      '如圖，用藍、白、紅、黑、黃、綠六種顏色去隨機塗色。在相鄰區域異色的條件下，求塗成法國國旗的機率為 $\\dfrac{\\textcirc{15-1}}{\\textcirc{15-2}\\textcirc{15-3}\\textcirc{15-4}}$。(法國國旗由左至右為藍、白、紅) (化為最簡分數)',
+    answer: '1150',
+    hasImage: true,
+  },
+  {
+    id: '183d75ce5b9',
+    chapter: '排列組合與機率',
+    question:
+      '某次考試有一題 5 個選項的單選題超級困難。若有甲、乙、丙、丁四位同學，這一題都不會，只能隨便亂猜做答，而且都有寫上答案。試問至少有兩位同學猜到相同選項的機率最接近以下哪個選項？\n(1) 81%　(2) 83%　(3) 85%　(4) 27%　(5) 90%',
+    answer: '1',
+    hasImage: false,
+  },
+  {
+    id: '183d741c890',
+    chapter: '排列組合與機率',
+    question:
+      '有一百貨公司舉辦週年慶滿額抽獎活動，遊戲規則如下：參加者自箱中一次抽出兩球，確定顏色後放回。其顏色組合及可得金額如下表：\n$$\\begin{array}{|c|c|}\\hline顏色組合&二藍&二紅&一藍一紅&其他組合\\\\\\hline可獲折價券金額&1800&1200&600&0\\\\\\hline\\end{array}$$\n已知箱中置有 2 顆藍色球及 3 顆紅色球。在抽出任一球之機率相等的條件下，主辦單位希望參加者所得折價券金額的期望值為 200 元，則主辦單位應於箱內再放入 $\\textcirc{15-1}$ 顆其他顏色的球。',
+    answer: '5',
+    hasImage: false,
+  },
+  {
+    id: '183d72a32c9',
+    chapter: '排列組合與機率',
+    question:
+      '如圖，從正六邊形 $ABCDEF$ 的各邊中點，任取 3 點連成三角形，試選出正確的選項。\n(1) 依此方法可連成 3 種不同大小的三角形\n(2) 這些三角形中，共有 6 個鈍角三角形\n(3) 這些三角形中，共有 6 個銳角三角形\n(4) 這些三角形中，共有 6 個直角三角形\n(5) 這些三角形中，若為銳角三角形，則必為正三角形',
+    answer: '125',
+    hasImage: true,
+  },
+  {
+    id: '183d71a9419',
+    chapter: '排列組合與機率',
+    question:
+      '若 $a,b,c,d$ 均為集合 $S=\\{1,2,3,4,5\\}$ 的元素，且此四數的算術平均數為 $\\mu$。今將 $a,b,c,d$ 分別平方後得到的四個數的算術平均數恰好為 $\\mu^2$，則符合上述條件的數據 $(a,b,c,d)$ 共有多少組解？\n(1) 0　(2) 5　(3) $5\\times4\\times3\\times2$　(4) $5^4$　(5) $4^5$',
+    answer: '2',
+    hasImage: false,
+  },
   {
     id: '182f1e74679',
     chapter: '排列組合與機率',
@@ -14302,6 +14582,22 @@ const combination: Question[] = [
 // 三角函數A
 const trigonometricFuncA: Question[] = [
   {
+    id: '183d72f576a',
+    chapter: '三角函數A',
+    question:
+      '若 $x$ 為實數，求函數 $\\dfrac{8^{\\cos x}}{16^{\\sin x}}$ 的最大值為 $\\textcirc{12-1}\\textcirc{12-2}$',
+    answer: '32',
+    hasImage: false,
+  },
+  {
+    id: '183d717bb86',
+    chapter: '三角函數A',
+    question:
+      '下列哪一個數值最大？\n(1) $\\sin25\\du\\cos35\\du+\\cos25\\du\\sin35\\du$\n(2) $\\sin25\\du\\cos65\\du+\\cos25\\du\\sin65\\du$\n(3) $\\sin25\\du\\cos95\\du+\\cos25\\du\\sin95\\du$\n(4) $\\sin25\\du\\cos125\\du+\\cos25\\du\\sin125\\du$\n(5) $\\sin25\\du\\cos155\\du+\\cos25\\du\\sin155\\du$',
+    answer: '2',
+    hasImage: false,
+  },
+  {
     id: '17c58a894bd',
     chapter: '三角函數A',
     question:
@@ -15600,6 +15896,14 @@ const trigonometricFuncA: Question[] = [
 // 三角函數B
 const trigonometricFuncB: Question[] = [
   {
+    id: '183d7601b38',
+    chapter: '三角函數B',
+    question:
+      "有一函數 $f(x)=\\sin x$，若將函數 $f(x)$ 先向右平移 $\\dfrac12$ 單位，再水平伸縮 2 倍，得到 $f'(x)$，則 $f(x)$ 所表示的函數為何？\n(1) $f'(x)=\\sin\\dfrac12(x-\\dfrac12)$　(2) $f'(x)=2\\sin(x+\\dfrac12)$　(3) $f'(x)=\\dfrac12\\sin(x+\\dfrac12)$\n(4) $f'(x)=\\sin(\\dfrac x2-\\dfrac12)$　(5) $f'(x)=\\sin(\\dfrac x2-\\dfrac14)$",
+    answer: '4',
+    hasImage: false,
+  },
+  {
     id: '17c58ebfd06',
     chapter: '三角函數B',
     question:
@@ -15765,6 +16069,77 @@ const trigonometricFuncB: Question[] = [
 
 // 指數與對數函數
 const expAndLogFunction: Question[] = [
+  {
+    id: '183d8d12f90',
+    chapter: '指數與對數函數',
+    question:
+      '某老板為了提升工廠的競爭力，改善營運績效；決定在五年之後將工廠的採購成本減少 20%。老板希望每年依固定的比率 (當年和前一年支出的比) 逐年降低。若要達到這項目標，則該工廠每年至少要比前一年減少 $\\textcirc{16-1}.\\textcirc{16-2}$% 的採購成本，才可以順利達成預定的目標。($\\log952\\approx2.9806$)',
+    answer: '48',
+    hasImage: false,
+  },
+  {
+    id: '183d7752ee8',
+    chapter: '指數與對數函數',
+    question:
+      '設實數 $x$ 滿足 $0<x<1$，且 $\\dfrac{\\log_2100}{\\log_2x}-\\log x=1$，則 $\\dfrac1x=\\textcirc{12-1}\\textcirc{12-2}\\textcirc{12-3}$。',
+    answer: '100',
+    hasImage: false,
+  },
+  {
+    id: '183d766ebeb',
+    chapter: '指數與對數函數',
+    question:
+      '設 $a,b$ 為有理數，且 $27\\times3^{a\\sqrt{3-\\sqrt8}+b\\sqrt8}=1$。試問下列哪些選項是正確的？\n(1) $a=-3$　(2) $b=-\\dfrac32$　(3) $b$ 無解　(4) $a-2b=6$　(5) $2a+b=0$',
+    answer: '24',
+    hasImage: false,
+  },
+  {
+    id: '183d74f5bfc',
+    chapter: '指數與對數函數',
+    question:
+      '當顯示設備沒有獲得訊號源時，若成因是電磁波干擾而隨機生成的閃爍像素點圖案，則稱為「螢幕雜訊」，某電腦科技公司研發出偵測螢幕雜訊的方法為假設某螢幕的每平方公分有 $n$ 個雜訊點，則雜訊程度 $r(n)$ 定義為 $r(n)=1+\\dfrac15\\log_4n$，已知螢幕 A 的雜訊程度為 67.3，螢幕 B 的雜訊程度為 48.1，則：',
+    answer: '',
+    hasImage: false,
+  },
+  {
+    id: '183d7509d1e',
+    chapter: '指數與對數函數',
+    question:
+      '若某螢幕 C 受測時每平方公分有 $10^{30}$ 個雜訊點，則螢幕 C 的雜訊程度最接近下列哪一個選項？(單選題，4 分)\n(1) 8　(2) 9　(3) 10　(4) 11　(5) 12',
+    answer: '4',
+    hasImage: false,
+  },
+  {
+    id: '183d751942d',
+    chapter: '指數與對數函數',
+    question: '若螢幕 A 每平方公分的雜訊點為螢幕 B 的 $k$ 倍，則 $k$ 為幾位數？(非選擇題，11 分)',
+    answer: '58',
+    hasImage: false,
+  },
+  {
+    id: '183d74727d6',
+    chapter: '指數與對數函數',
+    question:
+      '設 $k$ 為不等於 1 的正實數。若三數 $\\log_{27}(3k),\\log_9k,\\log_3k$ 成等比數列，其中公比不為 0，已知 $k=\\dfrac n m$，其中 $m,n$ 為互質的正整數，則 $m+n$ 的值等於 $\\textcirc{17-1}\\textcirc{17-2}$。',
+    answer: '82',
+    hasImage: false,
+  },
+  {
+    id: '183d726d142',
+    chapter: '指數與對數函數',
+    question:
+      '設點 $(a,b)$ 為 $y=\\log_2x$ 圖形上的一點，試選出正確的選項。\n(1) $(2a,2b)$ 亦為 $y=\\log_2x$ 圖形上的一點\n(2) $(a^2,b^2)$ 亦為 $y=\\log_2x$ 圖形上的一點\n(3) $(a,-b)$ 為 $y=\\log_{\\frac12}x$ 圖形上的一點\n(4) $(b,a)$ 為 $y=2^x$ 圖形上的一點\n(5) $(2b,2a)$ 為 $y=2^x$ 圖形上的一點',
+    answer: '34',
+    hasImage: false,
+  },
+  {
+    id: '183d71dcce0',
+    chapter: '指數與對數函數',
+    question:
+      '設 $a_n$ 代表正 $n$ 邊形的一個內角角度的數值。\n例如：$a_3=60$，因為正三角形的內角為 $60\\du$；$a_4=90$，因為正方形的內角為 $90\\du$。\n若 $a_3\\times a_4\\times a_5\\times\\cdots\\times a_{10}=\\dfrac{180^8}k$，求 $\\log k$。\n(1) 1　(2) 1.2552　(3) 1.6532　(4) 1.8751　(5) 2',
+    answer: '3',
+    hasImage: false,
+  },
   {
     id: '17d59d3efd5',
     chapter: '指數與對數函數',
