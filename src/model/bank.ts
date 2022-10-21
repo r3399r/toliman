@@ -20930,7 +20930,7 @@ const spaceConcept: Question[] = [
     id: '17cebe8f1c9',
     chapter: '空間概念',
     question:
-      '如圖的四角錐展開圖，底面為邊長 $2$ 的正方形，四個側面都是腰長為 $4$ 的等腰三角形，求此四角錐的高度。',
+      '如圖的四角錐展開圖，底面為邊長 2 的正方形，四個側面都是腰長為 4 的等腰三角形，求此四角錐的高度。',
     answer: '$\\sqrt{14}$',
     hasImage: true,
   },
@@ -20946,7 +20946,7 @@ const spaceConcept: Question[] = [
     id: '17cebe9df49',
     chapter: '空間概念',
     question:
-      '空間中有兩個點 $A$、$B$，已知 $\\overline{AB}$ 與平面 $E$ 平行，且 $A$、$B$ 到 $E$ 的最近距離均為 $12$，平面 $E$ 上有一條直線 $L$，$\\overline{AB}$ 投影到 $E$ 後不與 $L$ 相交，$A$ 到 $L$ 的最近距離為 $13$，$B$ 到 $L$ 的最近距離為 $15$，且 $A$、$B$ 投影到 $L$ 後相距 $7$ 單位，如圖，求 $\\overline{AB}$。\n',
+      '空間中有兩個點 $A$、$B$，已知 $\\overline{AB}$ 與平面 $E$ 平行，且 $A$、$B$ 到 $E$ 的最近距離均為 12，平面 $E$ 上有一條直線 $L$，$\\overline{AB}$ 投影到 $E$ 後不與 $L$ 相交，$A$ 到 $L$ 的最近距離為 13，$B$ 到 $L$ 的最近距離為 15，且 $A$、$B$ 投影到 $L$ 後相距 7 單位，如圖，求 $\\overline{AB}$。',
     answer: '$\\sqrt{65}$',
     hasImage: true,
   },
@@ -20954,7 +20954,7 @@ const spaceConcept: Question[] = [
     id: '17cebeaa5b5',
     chapter: '空間概念',
     question:
-      '有一底面為正方形的四角錐，其展開圖如圖所示，其中兩側面的三角形邊長為 $3$、$4$、$5$，求此角錐的體積。',
+      '有一底面為正方形的四角錐，其展開圖如圖所示，其中兩側面的三角形邊長為 3、4、5，求此角錐的體積。',
     answer: '$\\frac{16\\sqrt5}3$',
     hasImage: true,
   },
@@ -20962,7 +20962,7 @@ const spaceConcept: Question[] = [
     id: '17cebeb1bce',
     chapter: '空間概念',
     question:
-      '四面體 $A-BCD$，其底面 $\\triangle BCD$ 的周長為 $10$，面積為 $15$，各側面與底面所成的兩面角均為 $60\\du$，求此四面體的體積。',
+      '四面體 $A-BCD$，其底面 $\\triangle BCD$ 的周長為 10，面積為 15，各側面與底面所成的兩面角均為 $60\\du$，求此四面體的體積。',
     answer: '$15\\sqrt3$',
     hasImage: false,
   },
@@ -20970,15 +20970,15 @@ const spaceConcept: Question[] = [
     id: '17cebec7ace',
     chapter: '空間概念',
     question:
-      '正立方體 $ABCD-EFGH$ 的邊長為 $2$，建立坐標系使原點位於底面 $ABCD$ 的中心，且 $A$ 在 $x$ 軸正向上，$B$ 在 $y$ 軸正向上，頂面 $EFGH$ 的中心位於 $z$ 軸正向上，如圖，現有五個點 $P(0.6,0.6,0.6)$、$Q(0.7,0.7,0.7)$、$R(0.8,0.8,0.8)$、$S(0.9,0.9,0.9)$、$T(1,1,1)$，請問共有幾個點落在這個正立方體的內部？',
-    answer: '$2$',
+      '正立方體 $ABCD-EFGH$ 的邊長為 2，建立坐標系使原點位於底面 $ABCD$ 的中心，且 $A$ 在 $x$ 軸正向上，$B$ 在 $y$ 軸正向上，頂面 $EFGH$ 的中心位於 $z$ 軸正向上，如圖，現有五個點 $P(0.6,0.6,0.6)$、$Q(0.7,0.7,0.7)$、$R(0.8,0.8,0.8)$、$S(0.9,0.9,0.9)$、$T(1,1,1)$，請問共有幾個點落在這個正立方體的內部？',
+    answer: '2',
     hasImage: true,
   },
   {
     id: '17cebed7be4',
     chapter: '空間概念',
     question:
-      '下列有關空間坐標的敘述，下列哪些正確？\n(1) 在垂直 $x$ 軸的平面上，任兩點的 $x$ 坐標皆相等\n(2) 在垂直 $xy$ 平面的直線上，任兩點的 $z$ 坐標相等\n(3) 設 $a>b>c>0$，則點 $(a,b,c)$ 到三坐標平面的最近距離為 $a$\n(4) 設 $a>b>c>0$，則點 $(a,b,c)$ 到三坐標軸的最近距離為 $\\sqrt{b^2+c^2}$\n(5) 在三坐標軸上，共可找到 $4$ 個相異點到 $A(5,6,7)$ 的距離為 $8$',
+      '下列有關空間坐標的敘述，下列哪些正確？\n(1) 在垂直 $x$ 軸的平面上，任兩點的 $x$ 坐標皆相等\n(2) 在垂直 $xy$ 平面的直線上，任兩點的 $z$ 坐標相等\n(3) 設 $a>b>c>0$，則點 $(a,b,c)$ 到三坐標平面的最近距離為 $a$\n(4) 設 $a>b>c>0$，則點 $(a,b,c)$ 到三坐標軸的最近距離為 $\\sqrt{b^2+c^2}$\n(5) 在三坐標軸上，共可找到 4 個相異點到 $A(5,6,7)$ 的距離為 8',
     answer: '(1)(4)',
     hasImage: false,
   },
@@ -20994,8 +20994,8 @@ const spaceConcept: Question[] = [
     id: '17cea2e6483',
     chapter: '空間概念',
     question:
-      '正四面體 $P-ABC$ 的邊長為 $6$，底面 $ABC$ 的重心位於坐標原點 $O$，頂點 $A$ 在 $x$ 軸正向，頂點 $P$ 在 $z$ 軸正向，求 $B$。',
-    answer: '$(-\\sqrt{3},3,0)$\n',
+      '正四面體 $P-ABC$ 的邊長為 6，底面 $ABC$ 的重心位於坐標原點 $O$，頂點 $A$ 在 $x$ 軸正向，頂點 $P$ 在 $z$ 軸正向，求 $B$。',
+    answer: '$(-\\sqrt{3},3,0)$',
     hasImage: true,
   },
   {
@@ -21010,7 +21010,7 @@ const spaceConcept: Question[] = [
     id: '17cec384cda',
     chapter: '空間概念',
     question:
-      '設一地球儀的球心為空間坐標的原點，有兩個城市的坐標分別為 $A(1,2,2)$、$B(2,-2,1)$。假定地球為半徑 $6400$ 公里的圓球，試問飛機從 $A$ 城市直飛至 $B$ 城市最短航線長為幾公里？',
+      '設一地球儀的球心為空間坐標的原點，有兩個城市的坐標分別為 $A(1,2,2)$、$B(2,-2,1)$。假定地球為半徑 6400 公里的圓球，試問飛機從 $A$ 城市直飛至 $B$ 城市最短航線長為幾公里？',
     answer: '$3200\\pi$',
     hasImage: false,
   },
@@ -21064,22 +21064,21 @@ const spaceConcept: Question[] = [
   {
     id: '17ce002d564',
     chapter: '空間概念',
-    question:
-      '空間中球面 $S$ 的半徑為 $4$，被平面 $E$ 截出一圓，球心到圓心的距離為 $3$，求截圓面積。',
+    question: '空間中球面 $S$ 的半徑為 4，被平面 $E$ 截出一圓，球心到圓心的距離為 3，求截圓面積。',
     answer: '$7\\pi$',
     hasImage: true,
   },
   {
     id: '17ce003c076',
     chapter: '空間概念',
-    question: '設一長方體的長、寬、高分別為 $10$、$8$、$4$，求其任意兩頂點間最長的距離。',
+    question: '設一長方體的長、寬、高分別為 10、8、4，求其任意兩頂點間最長的距離。',
     answer: '$6\\sqrt5$',
     hasImage: false,
   },
   {
     id: '17ce0001ef1',
     chapter: '空間概念',
-    question: '圖為稜長為 $1$ 之正立方體，求四面體 $ACFH$ 的表面積及體積。',
+    question: '圖為稜長為 1 之正立方體，求四面體 $ACFH$ 的表面積及體積。',
     answer: '$2\\sqrt3$；$\\frac13$',
     hasImage: true,
   },
@@ -21087,15 +21086,15 @@ const spaceConcept: Question[] = [
     id: '17ce0013699',
     chapter: '空間概念',
     question:
-      '各邊長均為 $a$ 的金字塔體積為 $V_1$，各邊長均為 $a$ 的正四面體體積為 $V_2$，求 $\\frac{V_1}{V_2}$。',
-    answer: '$2$',
+      '各邊長均為 $a$ 的金字塔體積為 $V_1$，各邊長均為 $a$ 的正四面體體積為 $V_2$，求 $\\dfrac{V_1}{V_2}$。',
+    answer: '2',
     hasImage: false,
   },
   {
     id: '17ce0065827',
     chapter: '空間概念',
     question:
-      '空間坐標中關於點 $A(4,5,6)$ 的敘述，下列選項何者正確？\n(1) $xy$ 平面上恰有一點與 $A$ 的距離為 $5$\n(2) $yz$ 平面上恰有一點與 $A$ 的距離為 $5$\n(3) $xz$ 平面上恰有一點與 $A$ 的距離為 $5$\n(4) 三坐標軸上皆恰有一點與 $A$ 的距離為 $5$',
+      '空間坐標中關於點 $A(4,5,6)$ 的敘述，下列選項何者正確？\n(1) $xy$ 平面上恰有一點與 $A$ 的距離為 5\n(2) $yz$ 平面上恰有一點與 $A$ 的距離為 5\n(3) $xz$ 平面上恰有一點與 $A$ 的距離為 5\n(4) 三坐標軸上皆恰有一點與 $A$ 的距離為 5',
     answer: '(3)',
     hasImage: false,
   },
@@ -21103,15 +21102,15 @@ const spaceConcept: Question[] = [
     id: '17ce007f2d9',
     chapter: '空間概念',
     question:
-      '令 $A(5,0,12)$，$B(-5,0,12)$ 為坐標空間中之兩點，且令 $P$ 為 $xy$ 平面上滿足 $\\overline{PA}=\\overline{PB}=13$ 的點。請問下列哪一個點可能為 $P$？(1) $(5,0,0)$ (2) $(5,5,0)$\n(3) $(0,12,0)$ (4) $(0,0,0)$ (5) $(0,0,24)$',
+      '令 $A(5,0,12)$，$B(-5,0,12)$ 為坐標空間中之兩點，且令 $P$ 為 $xy$ 平面上滿足 $\\overline{PA}=\\overline{PB}=13$ 的點。請問下列哪一個點可能為 $P$？(1) (5,0,0)　(2) (5,5,0)\n(3) (0,12,0)　(4) (0,0,0)　(5) (0,0,24)',
     answer: '(4)',
     hasImage: false,
   },
   {
     id: '17ce008fbb5',
     chapter: '空間概念',
-    question: '設地球赤道一圈的長度約 $40000$ 公里，請問北緯 $60\\du$ 一圈的長度約幾公里？',
-    answer: '$20000$',
+    question: '設地球赤道一圈的長度約 40000 公里，請問北緯 $60\\du$ 一圈的長度約幾公里？',
+    answer: '20000',
     hasImage: false,
   },
   {
@@ -22173,13 +22172,13 @@ const spaceVector: Question[] = [
     chapter: '空間向量',
     question:
       '設 $\\vector a=(k,k,k)$，$k\\ne0$，$\\vector b=(3,1,-2)$\n(1) 若 $\\vector a$ 在 $\\vector b$ 的正射影為 $-\\vector b$，求 $k$\n(2) 若 $\\vector b$ 在 $\\vector a$ 的正射影為 $2\\vector a$，求 $k$',
-    answer: '(1) $-7$ (2) $\\frac13$',
+    answer: '(1) -7 (2) $\\frac13$',
     hasImage: false,
   },
   {
     id: '17cebf48a19',
     chapter: '空間向量',
-    question: '三角形邊長為 $4$、$5$、$7$，求內部一動點 $P$ 到三邊距離平方和的最小值。',
+    question: '三角形邊長為 4、5、7，求內部一動點 $P$ 到三邊距離平方和的最小值。',
     answer: '$\\frac{64}{15}$',
     hasImage: false,
   },
@@ -22188,7 +22187,7 @@ const spaceVector: Question[] = [
     chapter: '空間向量',
     question:
       '坐標空間中有 $\\triangle PQR$，已知 $\\xvector{PQ}=(-5,3,1)$，$\\xvector{PR}=(x,2,y)$，且 $\\xvector{PQ}\\times\\xvector{PR}=(1,3,z)$，求序組 $(x,y,z)$ 及 $\\triangle PQR$ 的面積。',
-    answer: '$(-2,1,-4)$；$\\frac{\\sqrt{26}}2$\n',
+    answer: '(-2, 1, -4)；$\\frac{\\sqrt{26}}2$\n',
     hasImage: false,
   },
   {
@@ -22204,7 +22203,7 @@ const spaceVector: Question[] = [
     chapter: '空間向量',
     question:
       '空間中 $\\vector a=(1,2,2)$、$\\vector b=(4,0,3)$ 與 $\\vector a\\times\\vector b$ 共起點張成平行六面體，求此平行六面體的表面積及體積。',
-    answer: '$90\\sqrt4$；$125$',
+    answer: '$90\\sqrt4$；125',
     hasImage: false,
   },
   {
@@ -22228,14 +22227,14 @@ const spaceVector: Question[] = [
     chapter: '空間向量',
     question:
       '空間中，平行六面體 $ABCD-EFGH$ 如圖，已知部分的頂點坐標 $A(1,0,2)$、 $B(2,5,3)$、$D(4,-1,7)$、$E(3,6,1)$，求：\n(1) $G$ 坐標 (2) $|\\xvector{AB}·(\\xvector{AD}\\times\\xvector{AE})|$\n(3) 四面體 $ABCD$ 體積',
-    answer: '(1) $(7,10,7)$ (2) $56$ (3) $\\frac{28}3$',
+    answer: '(1) (7, 10, 7) (2) 56 (3) $\\frac{28}3$',
     hasImage: true,
   },
   {
     id: '17ce00ebc7d',
     chapter: '空間向量',
     question:
-      '假設 $\\vector a$、$\\vector b$、$\\vector c$ 是空間中三個向量，$r\\in\\mathbb R$。已知 $\\vector a=(1,1,0)$、$\\vector b=(0,1,1)$ 且 $\\vector a$、$\\vector b$、$\\vector c$ 滿足 $\\vector a+\\vector b+r\\vector c=\\vector0$，那麼 $r$ 不可能等於下列何者？\n(1) $-\\sqrt2$ (2) $0$ (3) $1$ (4) $\\pi$ (5) $10^{100}$',
+      '假設 $\\vector a$、$\\vector b$、$\\vector c$ 是空間中三個向量，$r\\in\\mathbb R$。已知 $\\vector a=(1,1,0)$、$\\vector b=(0,1,1)$ 且 $\\vector a$、$\\vector b$、$\\vector c$ 滿足 $\\vector a+\\vector b+r\\vector c=\\vector0$，那麼 $r$ 不可能等於下列何者？\n(1) $-\\sqrt2$ (2) 0 (3) 1 (4) $\\pi$ (5) $10^{100}$',
     answer: '(2)',
     hasImage: false,
   },
@@ -22267,14 +22266,14 @@ const spaceVector: Question[] = [
     chapter: '空間向量',
     question:
       '已知 $\\vector a=(1,2,2)$、$\\vector b=(-2,-3,6)$ 的夾角為 $\\theta$，求 $\\vector a\\cdot\\vector b$ 及 $\\cos\\theta$。',
-    answer: '$4$；$\\frac4{21}$',
+    answer: '4；$\\frac4{21}$',
     hasImage: false,
   },
   {
     id: '17ce3b69c7f',
     chapter: '空間向量',
     question: '如圖為一長方體，已知 $A(1,2,0)$、$C(x,7,x+2)$、$E(3,x,-6)$，求 $x$。',
-    answer: '$24$',
+    answer: '24',
     hasImage: true,
   },
   {
@@ -22282,14 +22281,14 @@ const spaceVector: Question[] = [
     chapter: '空間向量',
     question:
       '空間向量 $\\vector a$ 與 $\\vector b$，已知 $|\\vector a|=6\\sqrt3$，$\\vector b=(2,-2,1)$，$\\vector a$ 與 $\\vector b$ 的夾角為 $30\\du$，求 $\\vector a$ 在 $\\vector b$ 上的正射影。',
-    answer: '$(6,-6,3)$',
+    answer: '(6, -6, 3)',
     hasImage: false,
   },
   {
     id: '17ce3b8ab07',
     chapter: '空間向量',
     question: '若 $2x-y+z=12$，求 $x^2+y^2+z^2$ 的最小值及此時的 $(x,y,z)$。',
-    answer: '$24$；$(4,-2-2)$',
+    answer: '24；(4, -2, -2)',
     hasImage: false,
   },
   {
@@ -22297,7 +22296,7 @@ const spaceVector: Question[] = [
     chapter: '空間向量',
     question:
       '$\\vector a=(4,-1,3)$、$\\vector b=(2,1,2)$，求 $\\vector a\\times\\vector b$ 及 $\\vector a$、$\\vector b$ 所張成的三角形面積。',
-    answer: '$(-5,-2,6)$；$\\frac{\\sqrt{65}}2$',
+    answer: '(-5, -2, 6)；$\\frac{\\sqrt{65}}2$',
     hasImage: false,
   },
   {
@@ -22321,14 +22320,14 @@ const spaceVector: Question[] = [
     chapter: '空間向量',
     question:
       '設 $\\vector a\\times\\vector b=(1,3,2)$，$\\vector b\\times\\vector c=(3,0,-1)$，求 $(2\\vector a+3\\vector b+4\\vector c)\\times\\vector b$。',
-    answer: '$(-10,6,8)$',
+    answer: '(-10, 6, 8)',
     hasImage: false,
   },
   {
     id: '17ce3c5d28e',
     chapter: '空間向量',
     question:
-      '下列個選項的行列式值哪些必為 $0$？\n(1) $\\begin{vmatrix}a&0&d\\\\b&0&e\\\\c&0&f\\end{vmatrix}$ (2) $\\begin{vmatrix}a&b&c\\\\0&d&0\\\\0&e&0\\end{vmatrix}$ (3) $\\begin{vmatrix}0&0&a\\\\b&0&c\\\\d&e&0\\end{vmatrix}$\n(4) $\\begin{vmatrix}0&a&0\\\\b&c&d\\\\0&e&0\\end{vmatrix}$ (5) $\\begin{vmatrix}a&0&b\\\\0&c&0\\\\d&0&e\\end{vmatrix}$',
+      '下列個選項的行列式值哪些必為 0？\n(1) $\\begin{vmatrix}a&0&d\\\\b&0&e\\\\c&0&f\\end{vmatrix}$ (2) $\\begin{vmatrix}a&b&c\\\\0&d&0\\\\0&e&0\\end{vmatrix}$ (3) $\\begin{vmatrix}0&0&a\\\\b&0&c\\\\d&e&0\\end{vmatrix}$\n(4) $\\begin{vmatrix}0&a&0\\\\b&c&d\\\\0&e&0\\end{vmatrix}$ (5) $\\begin{vmatrix}a&0&b\\\\0&c&0\\\\d&0&e\\end{vmatrix}$',
     answer: '(1)(2)(4)',
     hasImage: false,
   },
@@ -22336,8 +22335,8 @@ const spaceVector: Question[] = [
     id: '17ce3c7b487',
     chapter: '空間向量',
     question:
-      '把三階行列式 $\\begin{vmatrix}a&2&6\\\\b&1&x\\\\c&5&3\\end{vmatrix}$ 第一行的三個元各加 $1$ 之後，行列式 $\\begin{vmatrix}a+1&2&6\\\\b+1&1&x\\\\c+1&5&3\\end{vmatrix}$ 的值會增加 $9$，求 $x$。',
-    answer: '$4$',
+      '把三階行列式 $\\begin{vmatrix}a&2&6\\\\b&1&x\\\\c&5&3\\end{vmatrix}$ 第一行的三個元各加 1 之後，行列式 $\\begin{vmatrix}a+1&2&6\\\\b+1&1&x\\\\c+1&5&3\\end{vmatrix}$ 的值會增加 9，求 $x$。',
+    answer: '4',
     hasImage: false,
   },
   {
@@ -22345,7 +22344,7 @@ const spaceVector: Question[] = [
     chapter: '空間向量',
     question:
       '空間中三向量 $\\vector a=(0,2,1)$，$\\vector b=(3,0,5)$，$\\vector c=(6,2,-1)$ 所張成的平行六面體體積及四面體體積。',
-    answer: '$72$；$12$',
+    answer: '72；12',
     hasImage: false,
   },
   {
@@ -22353,13 +22352,13 @@ const spaceVector: Question[] = [
     chapter: '空間向量',
     question:
       '空間中三向量 $\\vector a=(x_1,y_1,z_1)$，$\\vector b=(x_2,y_2,z_2)$，$\\vector c=(x_3,y_3,z_3)$，已知 $\\begin{vmatrix}x_1&y_1&z_1\\\\x_2&y_2&z_2\\\\x_3&y_3&z_3\\end{vmatrix}=5$，求 $|(\\vector a\\times\\vector b)\\cdot\\vector c|$。',
-    answer: '$5$',
+    answer: '5',
     hasImage: false,
   },
   {
     id: '17ce3e9ec47',
     chapter: '空間向量',
-    question: '空間中點 $P(2,1,3)$ 與點 $Q(4,5,5)$，求線段 $PQ$ 之垂直平分面方程式。',
+    question: '空間中點 $P(2,1,3)$ 與點 $Q(4,5,5)$，求線段 $\\overline{PQ}$ 之垂直平分面方程式。',
     answer: '$x+2y+z=13$',
     hasImage: false,
   },
@@ -22367,14 +22366,14 @@ const spaceVector: Question[] = [
     id: '17ce3eaf58b',
     chapter: '空間向量',
     question: '若點 $(1,2,k)$ 在平面 $E:2x+ky-5z=-7$ 上，求 $k$。',
-    answer: '$3$',
+    answer: '3',
     hasImage: false,
   },
   {
     id: '17ce3eba839',
     chapter: '空間向量',
     question: '若平面 $2x+py-6z=7$ 與 $x+4y+qz=1$ 互相平行，求數對 $(p,q)$',
-    answer: '$(8,-3)$',
+    answer: '(8, -3)',
     hasImage: false,
   },
   {
@@ -22387,7 +22386,7 @@ const spaceVector: Question[] = [
   {
     id: '17ce3ed2ef3',
     chapter: '空間向量',
-    question: '求點 $(1,3,-2)$ 到 $2x+y-z=1$ 的最近距離。',
+    question: '求點 (1, 3, -2) 到 $2x+y-z=1$ 的最近距離。',
     answer: '$\\sqrt6$',
     hasImage: false,
   },
@@ -22396,13 +22395,13 @@ const spaceVector: Question[] = [
     chapter: '空間向量',
     question:
       '長方體 $ABCD-EFGH$ 的邊長為 $\\overline{BC}=6$，$\\overline{CD}=3$，$\\overline{HD}=3$，如圖，試求頂點 $G$ 到平面 $BDE$ 的距離。',
-    answer: '$4$',
+    answer: '4',
     hasImage: true,
   },
   {
     id: '17ce3eea738',
     chapter: '空間向量',
-    question: '過點 $(1,2,-5)$ 且與向量 $(6,4,7)$ 平行的直線參數式與比例式。',
+    question: '過點 (1, 2, -5) 且與向量 (6, 4, 7) 平行的直線參數式與比例式。',
     answer: '略',
     hasImage: false,
   },
@@ -22410,8 +22409,8 @@ const spaceVector: Question[] = [
     id: '17ce3f1ef56',
     chapter: '空間向量',
     question:
-      '坐標空間中，直線 $L:\\frac{x+2}{-1}=\\frac{y+5}3=\\frac{z-7}6$ 上有一點 $P$，已知 $P$ 點的 $y$ 坐標比 $x$ 坐標多 $1$，求 $P$。',
-    answer: '$(-3,-2,13)$',
+      '坐標空間中，直線 $L:\\dfrac{x+2}{-1}=\\dfrac{y+5}3=\\dfrac{z-7}6$ 上有一點 $P$，已知 $P$ 點的 $y$ 坐標比 $x$ 坐標多 1，求 $P$。',
+    answer: ' (-3, -2, 13)',
     hasImage: false,
   },
   {
@@ -22474,7 +22473,7 @@ const spaceVector: Question[] = [
     chapter: '空間向量',
     question:
       '在空間坐標系中，點 $P$ 在第一卦限，且點 $P$ 到 $x$ 軸、$y$ 軸、$z$ 軸的距離分別為 $2\\sqrt{5}$、$5$、$\\sqrt{13}$，試求點 $P$ 的坐標。',
-    answer: '$(3,2,4)$',
+    answer: '(3, 2, 4)',
     hasImage: false,
   },
   {
@@ -23248,7 +23247,7 @@ const spaceEquations: Question[] = [
     id: '17ce1b28bc3',
     chapter: '空間中的平面與直線',
     question:
-      '坐標空間中一質點自點 $P(1,1,1)$ 沿著方向 $\\vector a=(1,2,2)$ 等速直線前進，經過 $5$ 秒後剛好到達平面 $x-y+3z=28$ 上，立即轉向沿著方向 $\\vector b=(-2,2,-1)$ 依同樣的速率等速直線前進。請問再經過幾秒此質點會剛好到達平面 $x=2$ 上？\n(1) $1$ (2) $2$ (3) $3$ (4) $4$ (5) 永遠不會到達 ',
+      '坐標空間中一質點自點 $P(1,1,1)$ 沿著方向 $\\vector a=(1,2,2)$ 等速直線前進，經過 5 秒後剛好到達平面 $x-y+3z=28$ 上，立即轉向沿著方向 $\\vector b=(-2,2,-1)$ 依同樣的速率等速直線前進。請問再經過幾秒此質點會剛好到達平面 $x=2$ 上？\n(1) 1 (2) 2 (3) 3 (4) 4 (5) 永遠不會到達 ',
     answer: '(2)',
     hasImage: false,
   },
@@ -23265,7 +23264,7 @@ const spaceEquations: Question[] = [
     chapter: '空間中的平面與直線',
     question:
       '空間中有三點 $A(1,7,2)$、$B(2,-6,3)$、$C(0,-4,1)$。若直線 $L$ 通過 $A$ 點並與直線 $BC$ 相交且垂直，求 $L$ 和直線 $BC$ 的交點。',
-    answer: '$(-3,-1,-2)$',
+    answer: '(-3, -1, -2)',
     hasImage: false,
   },
   {
@@ -24230,7 +24229,7 @@ const conditionalProb: Question[] = [
     id: '17ce890d760',
     chapter: '條件機率',
     question:
-      "事件 $A$ 與 $B$，$A\\subset{B}$ 且 $A\\ne{B}$，則下列哪些選項的機率值為 $1$？\n(1) $P(A|B)$ (2) $P(B|A)$ (3) $P(A|B')$\n(4) $P(B|A')$ (5) $P(A'|B')$ (6) $P(B'|A')$",
+      "事件 $A$ 與 $B$，$A\\subset{B}$ 且 $A\\ne{B}$，則下列哪些選項的機率值為 1？\n(1) $P(A|B)$　(2) $P(B|A)$　(3) $P(A|B')$\n(4) $P(B|A')$　(5) $P(A'|B')$　(6) $P(B'|A')$",
     answer: '(2)(5)',
     hasImage: false,
   },
@@ -24238,7 +24237,7 @@ const conditionalProb: Question[] = [
     id: '17ce3bda0e7',
     chapter: '條件機率',
     question:
-      '箱中有 $9$ 個球，每球標有整數球號，共有 $5$ 個奇數號球與 $4$ 個偶數號球，每球被取的機會均等。若從中取出兩球不放回，已知兩球號碼和為偶數，求再從剩下的 $7$ 個球取出兩球所得號碼和為奇數的機率。',
+      '箱中有 9 個球，每球標有整數球號，共有 5 個奇數號球與 4 個偶數號球，每球被取的機會均等。若從中取出兩球不放回，已知兩球號碼和為偶數，求再從剩下的 7 個球取出兩球所得號碼和為奇數的機率。',
     answer: '$\\frac{15}{28}$',
     hasImage: false,
   },
@@ -24246,7 +24245,7 @@ const conditionalProb: Question[] = [
     id: '17ce8929835',
     chapter: '條件機率',
     question:
-      '袋子裡有 $3$ 顆白球，$2$ 顆黑球。由甲、乙、丙三人依序各抽取 $1$ 顆球，抽取後不放回。若每顆球被取出的機會相等，求在甲和乙抽到相同顏色球的條件下，丙抽到白球之條件機率。',
+      '袋子裡有 3 顆白球，2 顆黑球。由甲、乙、丙三人依序各抽取 1 顆球，抽取後不放回。若每顆球被取出的機會相等，求在甲和乙抽到相同顏色球的條件下，丙抽到白球之條件機率。',
     answer: '$\\frac12$',
     hasImage: false,
   },
@@ -24254,15 +24253,15 @@ const conditionalProb: Question[] = [
     id: '17ce8932351',
     chapter: '條件機率',
     question:
-      '小華射擊兩發子彈，第一發的命中率為 $0.6$，若第一發命中則第二發的命中率提昇為 $0.8$，若第一發不中則第二發命中率只有 $0.3$。求小華連中兩發的機率及恰中一發的機率。',
-    answer: '$0.48$；$0.24$',
+      '小華射擊兩發子彈，第一發的命中率為 0.6，若第一發命中則第二發的命中率提昇為 0.8，若第一發不中則第二發命中率只有 0.3。求小華連中兩發的機率及恰中一發的機率。',
+    answer: '0.48；0.24',
     hasImage: false,
   },
   {
     id: '17ce895b00c',
     chapter: '條件機率',
     question:
-      '某人上班有甲、乙兩條路線可供選擇。早上定時從家裡出發，走甲路線有 $\\frac1{10}$ 的機率會遲到，走乙路線則有 $\\frac15$ 的機率會遲到。無論走哪一路線，只要不遲到，下次就走同一條路線，否則就換另一條路線。假設他第一天走甲路線，求第三天也走甲路線的機率。',
+      '某人上班有甲、乙兩條路線可供選擇。早上定時從家裡出發，走甲路線有 $\\dfrac1{10}$ 的機率會遲到，走乙路線則有 $\\dfrac15$ 的機率會遲到。無論走哪一路線，只要不遲到，下次就走同一條路線，否則就換另一條路線。假設他第一天走甲路線，求第三天也走甲路線的機率。',
     answer: '$\\frac{83}{100}$',
     hasImage: false,
   },
@@ -24270,7 +24269,7 @@ const conditionalProb: Question[] = [
     id: '17ce896e624',
     chapter: '條件機率',
     question:
-      '某公司共有 $6$ 個工廠，各工廠的產量都一樣，且所生產的產品都放進同一倉庫中。由過去的經驗知道，第 $k$ 個工廠的產品不良率為 $\\frac k{50}$，其中 $k=1$、$2$、$3$、$4$、$5$、$6$，為了檢驗倉庫中這一批產品的品質，從倉庫中任意抽出一件，若為不良品，求此不良品是來自第五個工廠的機率。',
+      '某公司共有 6 個工廠，各工廠的產量都一樣，且所生產的產品都放進同一倉庫中。由過去的經驗知道，第 $k$ 個工廠的產品不良率為 $\\dfrac k{50}$，其中 $k=1,2,3,4,5,6$，為了檢驗倉庫中這一批產品的品質，從倉庫中任意抽出一件，若為不良品，求此不良品是來自第五個工廠的機率。',
     answer: '$\\frac5{21}$',
     hasImage: false,
   },
@@ -24278,7 +24277,7 @@ const conditionalProb: Question[] = [
     id: '17ce8979f50',
     chapter: '條件機率',
     question:
-      '袋中有 $1$ 號、$2$號、$3$ 號球各一顆，先由阿明取出一球得球號為 $k$，此時把該球放回，並添加兩顆 $k$ 號球，所以袋中總共有五顆球，然後再由小華任取出一球，得球號為 $2$ 號，求 $k$ 值為 $2$ 的機率。',
+      '袋中有 1 號、2 號、3 號球各一顆，先由阿明取出一球得球號為 $k$，此時把該球放回，並添加兩顆 $k$ 號球，所以袋中總共有五顆球，然後再由小華任取出一球，得球號為 2 號，求 $k$ 值為 2 的機率。',
     answer: '$\\frac35$',
     hasImage: false,
   },
@@ -24286,7 +24285,7 @@ const conditionalProb: Question[] = [
     id: '17ce8984597',
     chapter: '條件機率',
     question:
-      '阿明解單選題的答對機率為 $\\frac12$，解多選題的答對機率為 $\\frac13$，各題的求解相互獨立。現在考卷有單選 $6$ 題，每題 $10$ 分，多選 $2$ 題，每題 $20$ 分，求這張考卷阿明恰考 $80$ 分的機率。',
+      '阿明解單選題的答對機率為 $\\dfrac12$，解多選題的答對機率為 $\\dfrac13$，各題的求解相互獨立。現在考卷有單選 6 題，每題 10 分，多選 2 題，每題 20 分，求這張考卷阿明恰考 80 分的機率。',
     answer: '$\\frac{19}{576}$',
     hasImage: false,
   },
@@ -24294,7 +24293,7 @@ const conditionalProb: Question[] = [
     id: '17ce89935b2',
     chapter: '條件機率',
     question:
-      '甲、乙、丙三人玩一投擲銅板的遊戲，每局三人各擲銅板 $1$ 次；當有一人投擲結果與其他兩人不同時，此人出局並遊戲終止；否則進入下一局，直到有人出局為止。試問下列哪些選項是正確的？\n(1) 第一局甲就出局的機率是 $\\frac13$\n(2) 第一局就有人出局的機率是 $\\frac12$\n(3) 第三局才有人出局的機率是 $\\frac3{64}$\n(4) 若第十局才有人出局，則是甲的機率為 $\\frac13$\n(5) 玩一場遊戲，至少六局的機率大於 $\\frac1{1000}$',
+      '甲、乙、丙三人玩一投擲銅板的遊戲，每局三人各擲銅板 1 次；當有一人投擲結果與其他兩人不同時，此人出局並遊戲終止；否則進入下一局，直到有人出局為止。試問下列哪些選項是正確的？\n(1) 第一局甲就出局的機率是 $\\dfrac13$\n(2) 第一局就有人出局的機率是 $\\dfrac12$\n(3) 第三局才有人出局的機率是 $\\dfrac3{64}$\n(4) 若第十局才有人出局，則是甲的機率為 $\\dfrac13$\n(5) 玩一場遊戲，至少六局的機率大於 $\\dfrac1{1000}$',
     answer: '(3)(4)',
     hasImage: false,
   },
@@ -24302,7 +24301,7 @@ const conditionalProb: Question[] = [
     id: '17ce899d5d0',
     chapter: '條件機率',
     question:
-      '甲說實話的機率為 $\\frac23$，乙說實話的機率為 $\\frac14$，今有一袋內含 $4$ 白球、$3$ 黑球。自袋中任取出一球，甲說白球，乙說黑球，求此球確為白球的機率。',
+      '甲說實話的機率為 $\\dfrac23$，乙說實話的機率為 $\\dfrac14$，今有一袋內含 4 白球、3 黑球。自袋中任取出一球，甲說白球，乙說黑球，求此球確為白球的機率。',
     answer: '$\\frac89$',
     hasImage: false,
   },
@@ -24310,7 +24309,7 @@ const conditionalProb: Question[] = [
     id: '17ce89a6df4',
     chapter: '條件機率',
     question:
-      '甲、乙兩支球隊每逢週末都會相約比賽，根據長久的數據統計，不下雨的日子甲贏乙的機率為 $60\\%$，下雨的日子甲贏乙的機率為 $68\\%$，若氣象局公布本週末下雨的機率為 $80\\%$，求本週末甲隊贏乙隊的機率。',
+      '甲、乙兩支球隊每逢週末都會相約比賽，根據長久的數據統計，不下雨的日子甲贏乙的機率為 60%，下雨的日子甲贏乙的機率為 68%，若氣象局公布本週末下雨的機率為 80%，求本週末甲隊贏乙隊的機率。',
     answer: '$0.664$',
     hasImage: false,
   },
@@ -24318,7 +24317,7 @@ const conditionalProb: Question[] = [
     id: '17ce3f576c5',
     chapter: '條件機率',
     question:
-      '樣本空間 $S$ 中有事件 $A$ 與 $B$，已知 $A$ 事件發生的機率為 $0.4$，$B$ 事件發生的機率為 $0.3$，兩事件同時發生的機率為 $0.1$，求 $P(A|B)$ 及 $P(B|A)$。',
+      '樣本空間 $S$ 中有事件 $A$ 與 $B$，已知 $A$ 事件發生的機率為 0.4，$B$ 事件發生的機率為 0.3，兩事件同時發生的機率為 0.1，求 $P(A|B)$ 及 $P(B|A)$。',
     answer: '$\\frac13$；$\\frac14$',
     hasImage: false,
   },
@@ -24326,7 +24325,7 @@ const conditionalProb: Question[] = [
     id: '17ce3f6c2d5',
     chapter: '條件機率',
     question:
-      '一副撲克牌 $52$ 張中隨機抽出一張牌，假設每一張牌被抽中的機會均等，令 $A$ 代表抽中老 K 的事件，$B$ 代表抽中紅心的事件，求 $P(B|A)$ 及 $P(A|B)$。',
+      '一副撲克牌 52 張中隨機抽出一張牌，假設每一張牌被抽中的機會均等，令 $A$ 代表抽中老 K 的事件，$B$ 代表抽中紅心的事件，求 $P(B|A)$ 及 $P(A|B)$。',
     answer: '$\\frac14$；$\\frac1{13}$',
     hasImage: false,
   },
@@ -24334,7 +24333,7 @@ const conditionalProb: Question[] = [
     id: '17ce3f81aec',
     chapter: '條件機率',
     question:
-      '箱中有 $5$ 白球 $3$ 黑球，每球被取的機率相等，求先取一球為白球，且再取兩球均為黑球的機率。',
+      '箱中有 5 白球 3 黑球，每球被取的機率相等，求先取一球為白球，且再取兩球均為黑球的機率。',
     answer: '$\\frac5{56}$',
     hasImage: false,
   },
@@ -24342,7 +24341,7 @@ const conditionalProb: Question[] = [
     id: '17ce3fc357b',
     chapter: '條件機率',
     question:
-      '有一按鈕遊戲機，玩一次可按鈕三次。第一次按下會出現黑色或白色的機率各為 $\\frac12$；第二或第三次按下，出現與前一次同色的機率為 $\\frac13$，不同的機率為 $\\frac23$。今某甲玩一次，按三次均出現同色的機率為？',
+      '有一按鈕遊戲機，玩一次可按鈕三次。第一次按下會出現黑色或白色的機率各為 $\\dfrac12$；第二或第三次按下，出現與前一次同色的機率為 $\\dfrac13$，不同的機率為 $\\dfrac23$。今某甲玩一次，按三次均出現同色的機率為？',
     answer: '$\\frac19$',
     hasImage: false,
   },
@@ -24358,7 +24357,7 @@ const conditionalProb: Question[] = [
     id: '17ce40003b8',
     chapter: '條件機率',
     question:
-      '某公司員工有 $15\\%$ 為行政人員，$35\\%$ 為技術人員，$50\\%$ 為研發人員。這些員工中，$60\\%$ 的行政人員、$40\\%$ 的技術人員、$80\\%$ 的研發人員有大學文憑。從有大學文憑的人中隨機抽一人，他是技術人員的機率為？',
+      '某公司員工有 15% 為行政人員，35% 為技術人員，50% 為研發人員。這些員工中，60% 的行政人員、40% 的技術人員、80% 的研發人員有大學文憑。從有大學文憑的人中隨機抽一人，他是技術人員的機率為？',
     answer: '$\\frac29$',
     hasImage: false,
   },
@@ -24366,7 +24365,7 @@ const conditionalProb: Question[] = [
     id: '17ce4028079',
     chapter: '條件機率',
     question:
-      '甲、乙兩人玩打靶遊戲。甲命中率為 $\\frac25$，乙命中率為 $\\frac12$。甲先射，乙後射。甲射中與否不影響乙的命中率。若他們倆人向靶各射一次，求只有乙射中的機率。',
+      '甲、乙兩人玩打靶遊戲。甲命中率為 $\\dfrac25$，乙命中率為 $\\dfrac12$。甲先射，乙後射。甲射中與否不影響乙的命中率。若他們倆人向靶各射一次，求只有乙射中的機率。',
     answer: '$\\frac3{10}$',
     hasImage: false,
   },
@@ -24374,7 +24373,7 @@ const conditionalProb: Question[] = [
     id: '17ce403fad3',
     chapter: '條件機率',
     question:
-      '設三事件 $A$、$B$、$C$ 為獨立事件，且 $P(A)=P(B)=P(C)=\\frac13$，求：\n(1) $A$、$B$、$C$ 只有 $A$ 發生的機率\n(2) $A$、$B$、$C$ 至少有一事件發生的機率',
+      '設三事件 $A$、$B$、$C$ 為獨立事件，且 $P(A)=P(B)=P(C)=\\dfrac13$，求：\n(1) $A$、$B$、$C$ 只有 $A$ 發生的機率\n(2) $A$、$B$、$C$ 至少有一事件發生的機率',
     answer: '$\\frac4{27}$；$\\frac{19}{27}$',
     hasImage: false,
   },
@@ -25784,8 +25783,8 @@ export const matrixA: Question[] = [
     id: '17ce408fc10',
     chapter: '矩陣A',
     question:
-      '考慮每個元只能是 $0$ 或 $1$ 的 $2\\times3$ 矩陣，且它的第一列與第二列不相同且各列的元素不能全為零，這樣的矩陣共有幾個？',
-    answer: '$42$',
+      '考慮每個元只能是 0 或 1 的 $2\\times3$ 矩陣，且它的第一列與第二列不相同且各列的元素不能全為零，這樣的矩陣共有幾個？',
+    answer: '42',
     hasImage: false,
   },
   {
@@ -25793,7 +25792,7 @@ export const matrixA: Question[] = [
     chapter: '矩陣A',
     question:
       '將增廣矩陣 $\\begin{bmatrix}1&2&1&3\\\\2&1&0&-7\\\\1&1&2&2\\end{bmatrix}$ 經列運算後可解得 $(x,y,z)$ 為？',
-    answer: '$(-5,3,2)$',
+    answer: '(-5, 3, 2)',
     hasImage: false,
   },
   {
@@ -25801,7 +25800,7 @@ export const matrixA: Question[] = [
     chapter: '矩陣A',
     question:
       '若聯立方程式的增廣舉陣經列運算簡化為 $\\begin{bmatrix}1&a&b&a-2b\\\\0&1&4a+b&a+5\\\\0&0&a+2&3b-9\\end{bmatrix}$，已知該聯立方程式的解不只一組，求數對 $(a,b)$。',
-    answer: '$(-2,3)$',
+    answer: '(-2, 3)',
     hasImage: false,
   },
   {
@@ -25809,7 +25808,7 @@ export const matrixA: Question[] = [
     chapter: '矩陣A',
     question:
       '設 $\\begin{bmatrix}c+a&8\\\\2a+b&c\\\\c&b\\end{bmatrix}=\\begin{bmatrix}4&8\\\\-c&c\\\\3&a-6\\end{bmatrix}$，求 $a+b+c$。',
-    answer: '$-1$',
+    answer: '-1',
     hasImage: false,
   },
   {
@@ -25841,15 +25840,15 @@ export const matrixA: Question[] = [
     chapter: '矩陣A',
     question:
       '設方陣 $A=\\begin{bmatrix}1&2\\\\3&4\\end{bmatrix}$、$B=\\begin{bmatrix}a&b\\\\c&d\\end{bmatrix}$ 滿足 $AB=\\begin{bmatrix}2&0\\\\0&2\\end{bmatrix}$，求 $a^2+b^2+c^2+d^2$。',
-    answer: '$30$',
+    answer: '30',
     hasImage: false,
   },
   {
     id: '17ce4154725',
     chapter: '矩陣A',
     question:
-      '二階方陣 $A=\\begin{bmatrix}a+1&a+3\\\\a-4&a-2\\end{bmatrix}$ 的反方陣之第 $(1,2)$ 元為 $1$，求 $a$。',
-    answer: '$-13$',
+      '二階方陣 $A=\\begin{bmatrix}a+1&a+3\\\\a-4&a-2\\end{bmatrix}$ 的反方陣之第 (1, 2) 元為 1，求 $a$。',
+    answer: '-13',
     hasImage: false,
   },
   {
@@ -25873,7 +25872,7 @@ export const matrixA: Question[] = [
     chapter: '矩陣A',
     question:
       '$\\triangle ABC$ 的頂點為 $A(1,2)$、$B(2,4)$、$C(3,-1)$，經方陣 $\\begin{bmatrix}1&2\\\\3&-1\\end{bmatrix}$ 變換後的圖形為 $\\Gamma$，試作出 $\\Gamma$ 的圖形，並求 $\\Gamma$ 的面積是 $\\triangle ABC$ 的幾倍？',
-    answer: '略；$7$',
+    answer: '略；7',
     hasImage: true,
   },
   {
@@ -25904,7 +25903,7 @@ export const matrixA: Question[] = [
     id: '17ce4249a61',
     chapter: '矩陣A',
     question:
-      '設 $A$、$B$ 是兩個 $n\\times n$ 的轉移矩陣，請問下列哪些敘述是正確的？\n(1) $A^2$ 是轉移矩陣 (2) $AB$ 是轉移矩陣\n(3) $\\frac12(A+B)$ 是轉移矩陣\n(4) $\\frac14(A^2+B^2)$ 是轉移矩陣',
+      '設 $A$、$B$ 是兩個 $n\\times n$ 的轉移矩陣，請問下列哪些敘述是正確的？\n(1) $A^2$ 是轉移矩陣 (2) $AB$ 是轉移矩陣\n(3) $\\dfrac12(A+B)$ 是轉移矩陣\n(4) $\\dfrac14(A^2+B^2)$ 是轉移矩陣',
     answer: '(1)(3)',
     hasImage: false,
   },
@@ -25912,16 +25911,16 @@ export const matrixA: Question[] = [
     id: '17ce8eb133f',
     chapter: '矩陣A',
     question:
-      '一礦物內含 $A$、$B$、$C$ 三種放射性物質，放射出同一種輻射。已知 $A$、$B$、$C$ 每公克分別會釋出 $1$ 單位、$2$ 單位、$1$ 單位的輻射強度，又知 $A$、$B$、$C$ 每過半年其質量分別變為原來質量的 $\\frac12$、$\\frac13$、$\\frac14$ 倍。於一年前測得此礦物的輻射強度為 $66$ 單位，而半年前測得此礦物的輻射強度為 $22$ 單位，且目前此礦物的輻射強度為 $8$ 單位，求目前此礦物中 $A$、$B$、$C$ 物質之質量。',
-    answer: '$4$、$1$、$2$',
+      '一礦物內含 $A$、$B$、$C$ 三種放射性物質，放射出同一種輻射。已知 $A$、$B$、$C$ 每公克分別會釋出 1 單位、2 單位、1 單位的輻射強度，又知 $A$、$B$、$C$ 每過半年其質量分別變為原來質量的 $\\dfrac12$、$\\dfrac13$、$\\dfrac14$ 倍。於一年前測得此礦物的輻射強度為 66 單位，而半年前測得此礦物的輻射強度為 22 單位，且目前此礦物的輻射強度為 8 單位，求目前此礦物中 $A$、$B$、$C$ 物質之質量。',
+    answer: '4、1、2',
     hasImage: false,
   },
   {
     id: '17ce8edc471',
     chapter: '矩陣A',
     question:
-      '某次選舉中進行甲、乙、丙三項公投案，每項公投案一張選票，投票人可選擇領或不領。投票結束後清點某投票所的選票，發現甲案有 $765$ 人領票、乙案有 $537$ 人領票、丙案有 $648$ 人領票，同時領甲、乙、丙三案公投票的有 $224$ 人，並且每個人都至少領了兩張公投票。根據以上資訊，可知同時領甲、乙兩案但沒有領丙案公投票者共有幾人？',
-    answer: '$215$',
+      '某次選舉中進行甲、乙、丙三項公投案，每項公投案一張選票，投票人可選擇領或不領。投票結束後清點某投票所的選票，發現甲案有 765 人領票、乙案有 537 人領票、丙案有 648 人領票，同時領甲、乙、丙三案公投票的有 224 人，並且每個人都至少領了兩張公投票。根據以上資訊，可知同時領甲、乙兩案但沒有領丙案公投票者共有幾人？',
+    answer: '215',
     hasImage: false,
   },
   {
@@ -25929,7 +25928,7 @@ export const matrixA: Question[] = [
     chapter: '矩陣A',
     question:
       '$\\begin{cases}x+2y+3z=0\\\\2x+y+3z=6\\\\x-y=6\\\\x-2y-z=8\\end{cases}$ 經增廣矩陣列運算後可化簡為 $\\begin{bmatrix}1&0&a&b\\\\0&1&c&d\\\\0&0&0&0\\\\0&0&0&0\\end{bmatrix}$，求序組 $(a,b,c,d)$',
-    answer: '$(6,2,2,6)$',
+    answer: '(6, 2, 2, 6)',
     hasImage: false,
   },
   {
@@ -25937,7 +25936,7 @@ export const matrixA: Question[] = [
     chapter: '矩陣A',
     question:
       '對矩陣 $\\begin{bmatrix}4&9&a\\\\3&7&b\\end{bmatrix}$，做列運算若干次後得到 $\\begin{bmatrix}1&0&1\\\\0&1&1\\end{bmatrix}$，求數對 $(a,b)$。',
-    answer: '$(13,10)$',
+    answer: '(13, 10)',
     hasImage: false,
   },
   {
@@ -25954,7 +25953,7 @@ export const matrixA: Question[] = [
     chapter: '矩陣A',
     question:
       '若 $a\\begin{bmatrix}-1&1\\\\1&1\\end{bmatrix}+b\\begin{bmatrix}2&-2\\\\2&2\\end{bmatrix}+c\\begin{bmatrix}3&3\\\\-3&3\\end{bmatrix}$$=\\begin{bmatrix}17&1\\\\3&d\\end{bmatrix}$，求 $a+b+c+d$。',
-    answer: '$31$',
+    answer: '31',
     hasImage: false,
   },
   {
@@ -25969,7 +25968,7 @@ export const matrixA: Question[] = [
     id: '17ce8f75d11',
     chapter: '矩陣A',
     question:
-      '矩陣 $\\begin{bmatrix}-1&0\\\\1&-1\\end{bmatrix}^5$ 與下列哪一個矩陣相等？\n(1) $\\begin{bmatrix}-1&0\\\\-5&-1\\end{bmatrix}$ (2) $\\begin{bmatrix}1&0\\\\-5&1\\end{bmatrix}$ (3) $\\begin{bmatrix}-1&5\\\\0&-1\\end{bmatrix}$ (4) $\\begin{bmatrix}1&0\\\\5&1\\end{bmatrix}$ (5) $\\begin{bmatrix}-1&0\\\\5&-1\\end{bmatrix}$',
+      '矩陣 $\\begin{bmatrix}-1&0\\\\1&-1\\end{bmatrix}^5$ 與下列哪一個矩陣相等？\n(1) $\\begin{bmatrix}-1&0\\\\-5&-1\\end{bmatrix}$ (2) $\\begin{bmatrix}1&0\\\\-5&1\\end{bmatrix}$ (3) $\\begin{bmatrix}-1&5\\\\0&-1\\end{bmatrix}$\n(4) $\\begin{bmatrix}1&0\\\\5&1\\end{bmatrix}$ (5) $\\begin{bmatrix}-1&0\\\\5&-1\\end{bmatrix}$',
     answer: '(5)',
     hasImage: false,
   },
@@ -25994,22 +25993,22 @@ export const matrixA: Question[] = [
     chapter: '矩陣A',
     question:
       "設平面上三點 $P(3,1)$、$Q(4,2)$、$R(8,-5)$，經二階方陣 $A$ 變換後的點為 $P'$、$Q'$、$R'$，已知 $P'(7,5)$、$Q'(-2,6)$，求 $A$ 及 $\\triangle P'Q'R'$ 面積。",
-    answer: '$\\begin{bmatrix}8&-17\\\\2&-1\\end{bmatrix}$；$143$',
+    answer: '$\\begin{bmatrix}8&-17\\\\2&-1\\end{bmatrix}$；143',
     hasImage: false,
   },
   {
     id: '17ce8fdee76',
     chapter: '矩陣A',
     question:
-      '考慮坐標平面上的直線 $L:3x-2y=1$，若 $a$ 為實數且二階方陣 $\\begin{bmatrix}1&0\\\\a&-8\\end{bmatrix}$ 所代表的線性變換可以將 $L$ 上的點變換到一條斜率為 $2$ 的直線，求 $a$。',
-    answer: '$14$',
+      '考慮坐標平面上的直線 $L:3x-2y=1$，若 $a$ 為實數且二階方陣 $\\begin{bmatrix}1&0\\\\a&-8\\end{bmatrix}$ 所代表的線性變換可以將 $L$ 上的點變換到一條斜率為 2 的直線，求 $a$。',
+    answer: '14',
     hasImage: false,
   },
   {
     id: '17ce905c7c2',
     chapter: '矩陣A',
     question:
-      '已知 $\\begin{bmatrix}a&b\\\\c&d\\end{bmatrix}$ 是一個轉移矩陣，並且其行列式值為 $\\frac58$，求 $a+d$。',
+      '已知 $\\begin{bmatrix}a&b\\\\c&d\\end{bmatrix}$ 是一個轉移矩陣，並且其行列式值為 $\\dfrac58$，求 $a+d$。',
     answer: '$\\frac{13}8$',
     hasImage: false,
   },
@@ -26018,7 +26017,7 @@ export const matrixA: Question[] = [
     chapter: '矩陣A',
     question:
       '某現象有 $A$、$B$ 兩種狀態，其機率的變化適合用轉移方陣 $\\begin{bmatrix}0.6&0.3\\\\0.4&0.7\\end{bmatrix}$ 來描述，即該矩陣作用在機率行矩陣 $\\begin{bmatrix}P(A)\\\\P(B)\\end{bmatrix}$，可得到下一階段的機率行矩陣。求「從狀態 $A$ 變成狀態 $B$，且再變回狀態 $A$」的機率。',
-    answer: '$0.12$',
+    answer: '0.12',
     hasImage: false,
   },
   {
