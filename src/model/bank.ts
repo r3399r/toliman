@@ -5665,6 +5665,95 @@ const polynomial: Question[] = [
 // 直線與圓
 const lineAndCircle: Question[] = [
   {
+    id: '183fe0833e4',
+    chapter: '直線與圓',
+    question: '設 $A(-2,4)$，$B(4,2)$，求 $\\overline{AB}$ 的中垂線方程式。',
+    answer: '$3x-y=0$',
+    hasImage: false,
+  },
+  {
+    id: '183fe0a0746',
+    chapter: '直線與圓',
+    question:
+      '已知直線 $L:2x-y=3$ 將坐標平面分成兩個半平面，試問下列哪些點與原點 (0, 0) 位在相同的半平面？\n(1) (2, 1)　(2) (-1, 2)　(3) (4, -2)\n(4) (92, 1)　(5) (11, 33)',
+    answer: '(2)(5)',
+    hasImage: false,
+  },
+  {
+    id: '183fe0bfa9a',
+    chapter: '直線與圓',
+    question:
+      '試求聯立不等式 $\\begin{cases}x+2y\\le8\\\\3x+y\\ge9\\\\y\\ge0\\end{cases}$ 所圍成區域的面積。',
+    answer: '$\\frac{15}2$',
+    hasImage: false,
+  },
+  {
+    id: '183fe0da532',
+    chapter: '直線與圓',
+    question: '試求圓 $3x^2+3y^2+9x-6y+1=0$ 的圓心坐標。',
+    answer: '$(-\\frac32,1)$',
+    hasImage: false,
+  },
+  {
+    id: '183fe1145af',
+    chapter: '直線與圓',
+    question: '試求圓心坐標 (3, 5)，半徑為 4 的圓方程式。',
+    answer: '$(x-3)^2+(y-5)^2=16$',
+    hasImage: false,
+  },
+  {
+    id: '183fe11fcab',
+    chapter: '直線與圓',
+    question: '試求圓心坐標 (-4, 2)，且過點 (-1, 6) 的圓方程式。',
+    answer: '$(x+4)^2+(y-2)^2=25$',
+    hasImage: false,
+  },
+  {
+    id: '183fe14e555',
+    chapter: '直線與圓',
+    question: '求平面上 $3x+4y=7$ 與 $4x+3y=-2$ 的鈍角平分線方程式。',
+    answer: '$x-y=-9$',
+    hasImage: false,
+  },
+  {
+    id: '183fe1665ee',
+    chapter: '直線與圓',
+    question:
+      '平面上 $A(-2,1)$、$B(-4,9)$、$C(0,5)$，求 $\\triangle ABC$ 中過 $A$ 點的高的直線方程式。',
+    answer: '$x-y=-3$',
+    hasImage: false,
+  },
+  {
+    id: '183fe181e64',
+    chapter: '直線與圓',
+    question:
+      '下列哪一個聯立不等式無圖形？\n(1) $\\begin{cases}x-y\\ge0\\\\x+y\\ge0\\\\y\\ge3\\end{cases}$　(2) $\\begin{cases}x-y\\le0\\\\x+y\\le0\\\\y\\le3\\end{cases}$\n(3) $\\begin{cases}x-y\\le0\\\\x+y\\ge0\\\\y\\le3\\end{cases}$　(4) $\\begin{cases}x-y\\ge0\\\\x+y\\le0\\\\y\\ge3\\end{cases}$',
+    answer: '(4)',
+    hasImage: false,
+  },
+  {
+    id: '183fe192320',
+    chapter: '直線與圓',
+    question:
+      '若聯立不等式 $\\begin{cases}y\\le ax+b\\\\y\\ge cx+d\\end{cases}$ 的圖形如右，求 $a,b,c,d$。',
+    answer: '2；-4；-1；-1',
+    hasImage: true,
+  },
+  {
+    id: '183fe1aac81',
+    chapter: '直線與圓',
+    question: '設 $a(x^2+2xy-x)+b(2x^2+xy-y)$$+4xy+y^2+x+1=0$ 的圖形是圓，求 $a,b$。',
+    answer: '-3；2',
+    hasImage: false,
+  },
+  {
+    id: '183fe1dec4e',
+    chapter: '直線與圓',
+    question: '平面上已知兩點 $A(5,-1)$、$B(-1,3)$，求以 $\\overline{AB}$ 為直徑的圓方程式。',
+    answer: '$(x-2)^2+(y-1)^2=13$',
+    hasImage: false,
+  },
+  {
     id: '183da733a68',
     chapter: '直線與圓',
     question: '求平面上過點 (5,7) 且斜率為 -3 的直線方程式。',
