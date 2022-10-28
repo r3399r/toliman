@@ -7,9 +7,9 @@ body {
   font-family: 'Times New Roman', 'Noto Sans TC', serif;
 }
 
-mjx-stretchy-h > mjx-ext > mjx-c::before {
-  transform: none !important;
+mjx-stretchy-h > mjx-ext {
+  font-weight: 600;
 }
-mjx-stretchy-h > mjx-ext > mjx-c {
-  transform: scalex(500);
+mjx-stretchy-v > mjx-ext {
+  font-weight: 600;
 }

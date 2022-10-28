@@ -5665,6 +5665,93 @@ const polynomial: Question[] = [
 // 直線與圓
 const lineAndCircle: Question[] = [
   {
+    id: '1841f7a5356',
+    chapter: '直線與圓',
+    question: '方程式 $2x^2+2y^2-4x+5y-1=0$，求圖形被 $x$ 軸所截之弦長。',
+    answer: '$\\sqrt6$',
+    hasImage: false,
+  },
+  {
+    id: '1841f7c0de9',
+    chapter: '直線與圓',
+    question: '設 $k$ 為實數，$C:x^2+y^2+4kx-2y+5=0$，若 $C$ 為一圓，求 $k$ 的範圍。',
+    answer: '$k<-1$ or $k>1$',
+    hasImage: false,
+  },
+  {
+    id: '1841f7d146b',
+    chapter: '直線與圓',
+    question: '求平面上過三點 (-1, 2)、(0, 0)、(3, -2) 的圓方程式。',
+    answer: '$x^2+y^2-9x-7y=0$',
+    hasImage: false,
+  },
+  {
+    id: '1841f7e0728',
+    chapter: '直線與圓',
+    question: '求圓 $x^2+y^2-2x-4y+1=0$ 對直線 $x+2y=10$ 的對稱圖形方程式。',
+    answer: '$(x-3)^2+(y-6)^2=4$',
+    hasImage: false,
+  },
+  {
+    id: '1841f81ede8',
+    chapter: '直線與圓',
+    question:
+      '平面上設 $A(-1,2)$、$B(5,-1)$，若 $\\overline{PA}=2\\overline{PB}$，求動點 $P$ 的軌跡方程式。',
+    answer: '$x^2+y^2-14x+4y+33=0$',
+    hasImage: false,
+  },
+  {
+    id: '1841f8337e0',
+    chapter: '直線與圓',
+    question: '求平面上過 (0, 0) 與 (-1, 1) 兩點，且圓心在直線 $2x-y=1$ 上的圓方程式。',
+    answer: '$(x-2)^2+(y-3)^2=13$',
+    hasImage: false,
+  },
+  {
+    id: '1841f849647',
+    chapter: '直線與圓',
+    question: '設點 $P(24,37)$，圓 $C:x^2+y^2-10y=0$，求 $C$ 上的點到 $P$ 的最近距離、最遠距離。',
+    answer: '35；45',
+    hasImage: false,
+  },
+  {
+    id: '1841f871215',
+    chapter: '直線與圓',
+    question: '求平面上過兩點 $A(1,4)$ 與 $B(0,3)$ 且圓心在 $x$ 軸上的圓方程式。',
+    answer: '$(x-4)^2+y^2=25$',
+    hasImage: false,
+  },
+  {
+    id: '1841f888adb',
+    chapter: '直線與圓',
+    question: '已知圓方程式 $x^2+ky^2+2x+4ky=0$，其中 $k$ 為實數，求此圓的半徑。',
+    answer: '$\\sqrt5$',
+    hasImage: false,
+  },
+  {
+    id: '1841f8ac736',
+    chapter: '直線與圓',
+    question: '關於圓 $C:x^2+y^2-6x+5=0$，試問 (0, 0)、(2, 3)、(3, 2) 落在圓內、圓外或圓上？',
+    answer: '圓外；圓外；圓上',
+    hasImage: false,
+  },
+  {
+    id: '1841f8ed964',
+    chapter: '直線與圓',
+    question:
+      '若方程組 $\\begin{cases}2x+(5-a)y=a+3\\\\(5-a)x+2y=9-a\\end{cases}$ 無解，求實數 $a$。',
+    answer: '7',
+    hasImage: false,
+  },
+  {
+    id: '1841f8fe765',
+    chapter: '直線與圓',
+    question:
+      '已知 $A(4,2)$，$B(-2,-1)$，$P(1,-1)$ 三點，求通過 $P$ 點且與直線 $AB$ 平行的直線 $L$ 方程式。',
+    answer: '$x-2y-3=0$',
+    hasImage: false,
+  },
+  {
     id: '183fe0833e4',
     chapter: '直線與圓',
     question: '設 $A(-2,4)$，$B(4,2)$，求 $\\overline{AB}$ 的中垂線方程式。',
