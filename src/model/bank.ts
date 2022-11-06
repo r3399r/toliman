@@ -5665,6 +5665,98 @@ const polynomial: Question[] = [
 // 直線與圓
 const lineAndCircle: Question[] = [
   {
+    id: '1844c33395f',
+    chapter: '直線與圓',
+    question: '兩相異直線 $L_1:x+(a-2)y+a=0$、$L_2:ax+3y+1=0$，若 $L_1$ 平行 $L_2$，求 $a$。',
+    answer: '3',
+    hasImage: false,
+  },
+  {
+    id: '1844c348d81',
+    chapter: '直線與圓',
+    question:
+      '已知 $A(3,-2)$，$B(-1,0)$，$C(2,k)$ 為 $\\triangle ABC$ 的三頂點，且 $\\angle A=90\\du$，求 $k$。',
+    answer: '-4',
+    hasImage: false,
+  },
+  {
+    id: '1844c3636e6',
+    chapter: '直線與圓',
+    question:
+      '$\\triangle ABC$ 中三頂點 $A(2,-1)$，$B(6,-3)$，$C(-1,-10)$，求：\n(1) 過 $A$ 點作 $\\overline{BC}$ 的高所在的直線方程式\n(2) 過 $A$ 點作 $\\overline{BC}$ 的高的垂足點坐標',
+    answer: '(1) $x+y-1=0$ (2) (5, -4)',
+    hasImage: false,
+  },
+  {
+    id: '1844c39eba7',
+    chapter: '直線與圓',
+    question:
+      '平面上有 $A(-1,2)$，$B(1,3)$，$C(4,0)$ 三點，若直線 $L:y+5=m(x-1)$ 與 $\\triangle ABC$ 的邊恰有兩個交點，求 $m$ 的範圍。',
+    answer: '$m<-\\frac72$ or $m>\\frac53$',
+    hasImage: false,
+  },
+  {
+    id: '1844c3b545a',
+    chapter: '直線與圓',
+    question:
+      '坐標平面上，給定一點 $P(6,8)$ 與一直線 $L:x-2y+5=0$，求 $P$ 點在 $L$ 上的投影點坐標。',
+    answer: '(7, 6)',
+    hasImage: false,
+  },
+  {
+    id: '1844c3d5779',
+    chapter: '直線與圓',
+    question:
+      '有一位農夫從住家 $A(-8,5)$ 處，牽著一隻牛到河邊 ($x$ 軸) $P$ 處喝水，然後再牽往田裡 $B(2,1)$ 處工作，則 $P$ 點 $x$ 坐標為何時，農夫所走的路徑 $\\overline{AP}+\\overline{BP}$ 最小。',
+    answer: '$\\frac13$',
+    hasImage: false,
+  },
+  {
+    id: '1844c3f4848',
+    chapter: '直線與圓',
+    question: '求與直線 $L:5x-12y+1=0$ 平行，且相距 1 的直線方程式。',
+    answer: '$5x-12y=12$ or $5x-12y=-14$',
+    hasImage: false,
+  },
+  {
+    id: '1844c40d0cc',
+    chapter: '直線與圓',
+    question:
+      '設點 $P(x,y)$ 滿足聯立不等式 $\\begin{cases}x-y\\ge-1\\\\6x+y\\le30\\\\x\\ge0\\\\y\\ge0\\end{cases}$，求點 (1, 6) 與 $P$ 點的最大距離。',
+    answer: '$2\\sqrt{13}$',
+    hasImage: false,
+  },
+  {
+    id: '1844c41e6e9',
+    chapter: '直線與圓',
+    question: '經過兩點 $A(1,4)$ 與 $B(0,3)$ 且圓心在 $x$ 軸上的圓方程式。',
+    answer: '$(x-4)^2+y^2=25$',
+    hasImage: false,
+  },
+  {
+    id: '1844c431caa',
+    chapter: '直線與圓',
+    question:
+      '已知圓 $S$ 與圓 $C:x^2+y^2-2x-4y+2=0$ 為同心圓，且圓 $S$ 與直線 $3x-4y=5$ 相切，求圓 $S$ 的方程式為。',
+    answer: '$(x-1)^2+(y-2)^2=4$',
+    hasImage: false,
+  },
+  {
+    id: '1844c443bf8',
+    chapter: '直線與圓',
+    question: '過點 (3, -4) 且與圓 $x^2+(y-2)^2=9$ 相切的直線方程式。',
+    answer: '$3x+4y+7=0$ or $x=3$',
+    hasImage: false,
+  },
+  {
+    id: '1844c4ae46d',
+    chapter: '直線與圓',
+    question:
+      '已知 $A(2,1)$，$B(4,2)$，若有一圓通過 $A$、$B$ 兩點，求滿足此條件的圓中，面積最小的圓方程式。',
+    answer: '$(x-3)^2+(y-\\frac32)^2=\\frac54$',
+    hasImage: false,
+  },
+  {
     id: '1841f7a5356',
     chapter: '直線與圓',
     question: '方程式 $2x^2+2y^2-4x+5y-1=0$，求圖形被 $x$ 軸所截之弦長。',
