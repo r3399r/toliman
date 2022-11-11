@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/toliman/static/css/main.8092a2c2.css",
-    "main.js": "/toliman/static/js/main.356e56e6.js",
+    "main.js": "/toliman/static/js/main.f60de28f.js",
     "static/js/787.24de69bc.chunk.js": "/toliman/static/js/787.24de69bc.chunk.js",
     "index.html": "/toliman/index.html",
     "main.8092a2c2.css.map": "/toliman/static/css/main.8092a2c2.css.map",
-    "main.356e56e6.js.map": "/toliman/static/js/main.356e56e6.js.map",
+    "main.f60de28f.js.map": "/toliman/static/js/main.f60de28f.js.map",
     "787.24de69bc.chunk.js.map": "/toliman/static/js/787.24de69bc.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.8092a2c2.css",
-    "static/js/main.356e56e6.js"
+    "static/js/main.f60de28f.js"
   ]
 }
