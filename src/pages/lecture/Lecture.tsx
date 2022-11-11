@@ -74,6 +74,22 @@ const Lecture = () => {
           2-4 圓與直線的關係
         </Button>
       </div>
+      第一冊 Ch3 多項式
+      <div className={style.button}>
+        <Button variant="contained" onClick={onClick('b1c3s1')}>
+          3-1 多項式的除法
+        </Button>
+      </div>
+      <div className={style.button}>
+        <Button variant="contained" onClick={onClick('b1c3s2')}>
+          3-2 多項式函數
+        </Button>
+      </div>
+      <div className={style.button}>
+        <Button variant="contained" onClick={onClick('b1c3s3')}>
+          3-3 多項式不等式
+        </Button>
+      </div>
       第三冊 Ch1 指數與對數函數
       <div className={style.button}>
         <Button variant="contained" onClick={onClick('exponentFunction')}>
