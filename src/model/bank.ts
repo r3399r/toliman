@@ -3801,6 +3801,49 @@ const expAndLog: Question[] = [
 // 多項式函數
 const polynomial: Question[] = [
   {
+    id: '18467015c50',
+    chapter: '多項式函數',
+    question:
+      '下列各函數哪些為 $x$ 的多項式？\n(1) $x^2+2^x$　(2) $\\sqrt{x^2}+1$　(3) $\\sqrt5x+\\sqrt3$　(4) $|x|$　(5) $\\dfrac{x+1}x$　(6) $\\pi$',
+    answer: '(3)(6)',
+    hasImage: false,
+  },
+  {
+    id: '18467032fd7',
+    chapter: '多項式函數',
+    question: '若多項式 $f(x)=ax^3+5x^2+bx+(2b+3c)$ 與 $g(x)=dx^2-7x+4$ 相等，求 $a,b,c,d$。',
+    answer: '0; -7; 6; 5',
+    hasImage: false,
+  },
+  {
+    id: '1846704ebc2',
+    chapter: '多項式函數',
+    question: '利用綜合除法求 $x^4-x^3+x^2+2x-5$ 除以 $x+2$ 的商及餘。',
+    answer: '$x^3-3x^2+7x-12$; 19',
+    hasImage: false,
+  },
+  {
+    id: '18467074216',
+    chapter: '多項式函數',
+    question: '設 $f(x)=a(2x^3-4x^2)+b(3x^2-6x)$$+3x^2-4x+b$ 的次數為一次，求 $f(x)$。',
+    answer: '$2x-1$',
+    hasImage: false,
+  },
+  {
+    id: '184670a88f0',
+    chapter: '多項式函數',
+    question: '設多項式 $f(x)=(2x^2-x+1)^4$，求：\n(1) 常數項 (2) 領導係數 (3) $f(x)$ 的次數',
+    answer: '(1) 1 (2) 16 (3) 8',
+    hasImage: false,
+  },
+  {
+    id: '184670b48d9',
+    chapter: '多項式函數',
+    question: '已知 $2x^3-x^2+ax+b$ 可被 $x^2-2x-1$ 整除，求數對 $(a,b)$。',
+    answer: '(-8,-3)',
+    hasImage: false,
+  },
+  {
     id: '183d8d8d724',
     chapter: '多項式函數',
     question:
@@ -5710,6 +5753,49 @@ const polynomial: Question[] = [
 
 // 直線與圓
 const lineAndCircle: Question[] = [
+  {
+    id: '1846710ac29',
+    chapter: '直線與圓',
+    question: '已知直線 $L$ 平行 $2x+y+5=0$ 且 $x$ 截距為 3，求直線 $L$ 的方程式。',
+    answer: '$2x+y=6$',
+    hasImage: false,
+  },
+  {
+    id: '18467130132',
+    chapter: '直線與圓',
+    question:
+      '$L_1:x-2y+3=0$，$L_2:2x+3y=0$，$L_3:ax-y=1$，若 $L_1,L_2,L_3$ 不能圍成三角形，則 $a$ 可能為何？\n(1) $\\dfrac12$　(2) -2　(3) $-\\dfrac23$　(4) $-\\dfrac{13}9$　(5) 3',
+    answer: '(1)(3)(4)',
+    hasImage: false,
+  },
+  {
+    id: '18467147e2a',
+    chapter: '直線與圓',
+    question: '試求兩平行線 $L_1:2x-3y=6$，$L_2:2x-3y=19$ 的距離。',
+    answer: '$\\sqrt{13}$',
+    hasImage: false,
+  },
+  {
+    id: '1846715959f',
+    chapter: '直線與圓',
+    question: '設 $P(x,y)$ 為直線 $L:4x-3y-1=0$ 上的動點，求 $\\sqrt{(x-3)^2+(y-2)^2}$ 的最小值。',
+    answer: '1',
+    hasImage: false,
+  },
+  {
+    id: '184672dcb60',
+    chapter: '直線與圓',
+    question: '已知圓 $C:(x-1)^2+(y-2)^2=5$ 與直線 $L:x-2y+k=0$ 交於一點，求實數 $k$。',
+    answer: '-2 or 8',
+    hasImage: false,
+  },
+  {
+    id: '184672f18f1',
+    chapter: '直線與圓',
+    question: '通過 $A(4,-3)$、$B(-10,3)$ 兩點，且圓心在直線 $2x-y=0$ 上，求此圓的圓心坐標。',
+    answer: '(-21,-42)',
+    hasImage: false,
+  },
   {
     id: '1844c33395f',
     chapter: '直線與圓',
