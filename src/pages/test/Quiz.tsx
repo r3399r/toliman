@@ -10,7 +10,7 @@ const Quiz = () => {
     ev.target.src = '/toliman/images/09.PNG';
   };
 
-  const displayQuestion = (id: string, i: number, height = '3cm') => {
+  const displayQuestion = (id: string, i: number | null, height = '2.5cm') => {
     const q: Question | undefined = getQuestion(id);
     if (q === undefined) return <div key={`error${i}`}>ERROR! id of {i} does not exists</div>;
 
@@ -25,7 +25,7 @@ const Quiz = () => {
             onError={addDefaultSrc}
           />
         )}
-        <Textarea2MathJax text={`${i}. ${q.question}`} />
+        <Textarea2MathJax text={i ? `${i}. ${q.question}` : q.question} />
         {q.imageOption !== undefined && (
           <div className={style.imageOption}>
             {q.imageOption.map((v: string, j: number) => (
@@ -52,12 +52,23 @@ const Quiz = () => {
   return (
     <MathJax>
       <div className={style.content}>
-        <h1>高一 第一次段考範圍 小考</h1>
-        {displayQuestion('18391d37c69', 1)}
-        {displayQuestion('18391d49044', 2)}
-        {displayQuestion('18391d6d3dc', 3)}
-        {displayQuestion('18391d93e74', 4)}
-        {displayQuestion('18391dabb4f', 5)}
+        <h1>學測模擬 111.11.19</h1>
+        <h3 style={{ marginBottom: 0 }}>一、單選題</h3>
+        {displayQuestion('1848b534321', 1)}
+        {displayQuestion('1848b57671f', 2)}
+        <h3 style={{ marginBottom: 0 }}>二、多選題</h3>
+        {displayQuestion('1848b5b4daf', 3)}
+        {displayQuestion('1848b5e7845', 4)}
+        <div style={{ pageBreakAfter: 'always' }} />
+        <h3 style={{ marginBottom: 0 }}>三、選填題</h3>
+        {displayQuestion('1848b618bdd', 5)}
+        {displayQuestion('1848b645f3d', 6)}
+        {displayQuestion('1848b7f615e', 7)}
+        <h3 style={{ marginBottom: 0 }}>四、混合題或非選擇題</h3>
+        {displayQuestion('1848b8102b6', null, '0')}
+        {displayQuestion('1848b822255', 8, '0.5cm')}
+        {displayQuestion('1848b83b746', 9, '0.5cm')}
+        {displayQuestion('1848b853029', 10, '0')}
       </div>
     </MathJax>
   );

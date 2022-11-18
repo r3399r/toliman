@@ -1097,6 +1097,38 @@ const beginner: Question[] = [
 // 數與式
 const numAndEquation: Question[] = [
   {
+    id: '1848b8c160a',
+    chapter: '數與式',
+    question:
+      '實數數線上 $A(\\sqrt{46-6\\sqrt5}),B(\\sqrt{14-6\\sqrt5})$，已知 $P$ 點在線段 $\\overline{AB}$ 上，且 $\\overline{AP}:\\overline{BP}=3:1$，求 $P$ 點坐標。',
+    answer: '2',
+    hasImage: false,
+  },
+  {
+    id: '1848b8e1506',
+    chapter: '數與式',
+    question:
+      '下列關於 2 的次方的運算何者正確？\n(1) $2^2+2^1=2^3$　(2) $2^{\\frac12}-2^{\\frac12}=2^0=0$\n(3) $2^{\\frac12}=2^{-1}$　(4) $(-\\sqrt2)^2=-(\\sqrt2)^2$\n(5) $2^{\\sqrt2}+2^{\\sqrt2}=2^{\\sqrt2+1}$',
+    answer: '5',
+    hasImage: false,
+  },
+  {
+    id: '1848b94a1d4',
+    chapter: '數與式',
+    question:
+      '某算命師號稱可以預測你的生日密碼，首先欲算命的人將出生年月日寫下來，這數字為 $a$，再把這數字順序倒過來寫為 $b$，首位數為 0 時自動忽略。例如 1998 年 1 月 20 日生，$a=19980120$，倒過來寫為 $02108991$，首位數的 0 自動忽略，可得 $b=2108991$。某算命師預測你的生日密碼 $|a-b|$ 為 $n$ 的倍數，此 $n$ 為何？\n(1) 11　(2) 5　(3) 9　(4) 33　(5) 6',
+    answer: '(3)',
+    hasImage: false,
+  },
+  {
+    id: '1848b9cf1fb',
+    chapter: '數與式',
+    question:
+      '已知有一個分子與分母的差為 4 的最簡分數，將其化為小數。此小數取四捨五入至小數點第 2 位的值為 0.4，求此最簡分數。',
+    answer: '$\\frac37$',
+    hasImage: false,
+  },
+  {
     id: '183d7727fb2',
     chapter: '數與式',
     question: '已知 $x$ 為正實數且滿足方程式 $2|x+2|+3|x-1|+4|x-3|=25$，則 $x=\\textcirc{11-1}$。',
@@ -3801,6 +3833,46 @@ const expAndLog: Question[] = [
 // 多項式函數
 const polynomial: Question[] = [
   {
+    id: '1848b98acaf',
+    chapter: '多項式函數',
+    question:
+      '一次多項式 $f(x)=ax+b$，若 $\\dfrac{f(2013)-f(1998)}{15}=4$，且 $y=f(x)$ 與 $y=x^2$ 的圖形交於 $A(-1,1)$，$B(m,n)$，求 $(m,n)$。',
+    answer: '(5,25)',
+    hasImage: false,
+  },
+  {
+    id: '1848b8102b6',
+    chapter: '多項式函數',
+    question:
+      "三次函數 $f(x)=x^3-9x^2+24x-18$ 的圖形如圖所示，已知此圖形為點對稱圖形，對稱中心點為 $P$ 點，函數上有一點 $A(1,-2)$，若 $A$ 點對 $P$ 點作對稱，對稱點為 $A'$，則：",
+    answer: '',
+    hasImage: true,
+  },
+  {
+    id: '1848b822255',
+    chapter: '多項式函數',
+    question:
+      "求 $A'$ 點的點坐標為何？(單選題，4 分)\n(1) (3, 0)　(2) (4, -2)　(3) (5, -2)　(4) (5, 2)　(5) (6, 18)",
+    answer: '4',
+    hasImage: false,
+  },
+  {
+    id: '1848b83b746',
+    chapter: '多項式函數',
+    question:
+      '函數圖形 $y=f(x)$ 在 $A$ 點附近圖形近似於直線 $L_1$，將直線 $L_1$ 向下平移 $k$ 單位後，使該直線通過 $P$ 點，則實數 $k=\\textcirc{9-1}\\textcirc{9-2}$。(選填題，5 分)',
+    answer: '16',
+    hasImage: false,
+  },
+  {
+    id: '1848b853029',
+    chapter: '多項式函數',
+    question:
+      '請利用函數圖形與第二題的結果，求解多項式不等式 $x^3-9x^2+24x-18\\ge9x-27$，其解為何？(非選擇題，6 分)',
+    answer: '$3-2\\sqrt3\\le x\\le3$ or $x\\ge3+2\\sqrt3$',
+    hasImage: false,
+  },
+  {
     id: '18467015c50',
     chapter: '多項式函數',
     question:
@@ -5753,6 +5825,14 @@ const polynomial: Question[] = [
 
 // 直線與圓
 const lineAndCircle: Question[] = [
+  {
+    id: '1848b618bdd',
+    chapter: '直線與圓',
+    question:
+      '海面上有一圓形人工島，其圓周在坐標平面的方程式為 $x^2+y^2-6x-8y+16=0$，今一艘觀光遊艇欲從原點沿 $y=kx$ 路徑航行，若此觀光遊艇要在人工島靠岸，則在不計船身大小的情況下，實數 $k$ 的最小值為 $\\dfrac{\\textcirc{5-1}}{\\textcirc{5-2}\\textcirc{5-3}}$。',
+    answer: '724',
+    hasImage: false,
+  },
   {
     id: '1846710ac29',
     chapter: '直線與圓',
@@ -7844,6 +7924,14 @@ const lineAndCircle: Question[] = [
 // 三角比
 const trigonometric: Question[] = [
   {
+    id: '1848b7f615e',
+    chapter: '三角比',
+    question:
+      '已知四邊形 $ABCD$ 為圓內接四邊形，$\\overline{AB}=4$，$\\overline{BC}=\\overline{CD}=2$，$\\overline{AD}=3$，則四邊形 $ABCD$ 面積為 $\\dfrac{\\textcirc{7-1}\\sqrt{\\textcirc{7-2}\\textcirc{7-3}}}{\\textcirc{7-4}}$。(化為最簡根式)',
+    answer: '7154',
+    hasImage: false,
+  },
+  {
     id: '183d8d2ca73',
     chapter: '三角比',
     question:
@@ -9731,6 +9819,14 @@ const trigonometric: Question[] = [
 // 數列級數
 const series: Question[] = [
   {
+    id: '1848b5b4daf',
+    chapter: '數列級數',
+    question:
+      '設 $a_1,r$ 均為正數，已知數列 $\\langle a_n\\rangle$ 是首項為 $a_1$，公比為 $r$ 的等比數列。設 $b_n=\\log a_n$。試選出正確的選項。\n(1) 數列 $\\langle b_n\\rangle$ 為公差大於 0 的等差數列\n(2) 數列 $\\langle b_n\\rangle$ 為公差小於 0 的等差數列\n(3) 若 $b_n=1+\\dfrac n2$，則 $a_1=10\\sqrt{10}$\n(4) 若 $b_n=1+\\dfrac n2$，則 $a_1=10$\n(5) 若 $b_n=1+\\dfrac n2$，則 $r=\\sqrt{10}$',
+    answer: '35',
+    hasImage: false,
+  },
+  {
     id: '183d8cbecc6',
     chapter: '數據分析',
     question:
@@ -10796,6 +10892,14 @@ const series: Question[] = [
 
 // 數據分析
 const statistics: Question[] = [
+  {
+    id: '1848b9e72e1',
+    chapter: '數據分析',
+    question:
+      '下列各組資料，何者的標準差最大？\nA: 1, 2, 3, 4, 5\nB: 2011, 2012, 2013, 2014, 2015\nC: 1, 3, 5, 7, 9\nD: -10, -20, -30, -40, -50\nE: -501, -502, -503, -504, -505',
+    answer: 'D',
+    hasImage: false,
+  },
   {
     id: '183d8c9fef2',
     chapter: '數據分析',
@@ -11866,6 +11970,14 @@ const statistics: Question[] = [
 
 // 排列組合與機率
 const combination: Question[] = [
+  {
+    id: '1848b57671f',
+    chapter: '排列組合與機率',
+    question:
+      '從 0, 1, 2, ... , 9 中選出三個不同數字組成四位數 (其中的一個數字用兩次)，如 5242。這樣的四位數共有幾個？\n(1) 1692　(2) 3672　(3) 3708　(4) 3888　(5) 4320',
+    answer: '4',
+    hasImage: false,
+  },
   {
     id: '183d8d5438a',
     chapter: '排列組合與機率',
@@ -16470,6 +16582,13 @@ const trigonometricFuncB: Question[] = [
 // 指數與對數函數
 const expAndLogFunction: Question[] = [
   {
+    id: '1848b534321',
+    chapter: '指數與對數函數',
+    question: '$\\log_2|x+1|-\\log_2|x-1|=1$ 的實數解有幾個？\n(1) 0　(2) 1　(3) 2　(4) 3　(5) 4',
+    answer: '3',
+    hasImage: false,
+  },
+  {
     id: '183d8d12f90',
     chapter: '指數與對數函數',
     question:
@@ -18002,6 +18121,14 @@ const expAndLogFunction: Question[] = [
 
 // 平面向量
 const planeVector: Question[] = [
+  {
+    id: '1848b645f3d',
+    chapter: '平面向量',
+    question:
+      '三角形 $ABC$ 中，已知三邊長 $\\overline{BC}=5$，$\\overline{CA}=6$，$\\overline{AB}=7$。若 $\\vector a,\\vector b$ 均為單位向量且 $\\vector a$ 與 $\\xvector{BC}$ 垂直，$\\vector b$ 與 $\\xvector{CA}$ 垂直，則 $\\vector a\\cdot\\vector b$ 之值為 $\\dfrac{\\textcirc{6-1}}{\\textcirc{6-2}\\textcirc{6-3}}$。',
+    answer: '±15',
+    hasImage: false,
+  },
   {
     id: '17f9b42ef3f',
     chapter: '平面向量',
@@ -21533,6 +21660,45 @@ const spaceConcept: Question[] = [
 
 // 空間向量
 const spaceVector: Question[] = [
+  {
+    id: '1848b6826f3',
+    chapter: '空間向量',
+    question:
+      '左圖是由三個全等的菱形所組成的正六邊形，某日阿志算數學時，算到頭眼昏花，不慎將左圖的正六邊形，看成如右圖的正立方體，阿志沒有其他計算上的錯誤，算出 $\\xvector{AB}\\cdot\\xvector{AC}=12$。若圖形沒有看錯，則該題的正確答案應該是 $\\xvector{AB}\\cdot\\xvector{AC}=\\textcirc{7-1}\\textcirc{7-2}$。',
+    answer: '18',
+    hasImage: true,
+  },
+  {
+    id: '1848b6bdcc9',
+    chapter: '空間向量',
+    question:
+      '小良想在房子頂樓的空間安裝太陽能板，經過量測，小良在空間坐標系中建構一長方體 $OABC-DEFG$，其中 $O(0,0,0)$，$A(3,0,0)$，$C(0,4,0)$，$D(0,0,5)$，若欲使太陽能板通過 $EGB$ 三點，如圖所示，則：',
+    answer: '',
+    hasImage: true,
+  },
+  {
+    id: '1848b6e3324',
+    chapter: '空間向量',
+    question:
+      '試計算 $\\xvector{EG}\\times\\xvector{EB}$。(單選題，4 分)\n(1) (-20, -15, -12)　(2) (7, 8, 2)　(3) (-1, -2, -3)　(4) (7, 7, 3)　(5) (-7, -3, -2)',
+    answer: '1',
+    hasImage: false,
+  },
+  {
+    id: '1848b719fbf',
+    chapter: '空間向量',
+    question:
+      '太陽能板所在的平面的方程式為 $\\dfrac{\\textcirc{9-1}}{\\textcirc{9-2}}x+\\dfrac{\\textcirc{9-3}}{\\textcirc{9-4}}y+z=\\textcirc{9-5}\\textcirc{9-6}$。(選填題，4 分)',
+    answer: '535410',
+    hasImage: false,
+  },
+  {
+    id: '1848b7416fe',
+    chapter: '空間向量',
+    question: '試說明平面 $EGB$ 是否與平面 $ODF$ 垂直？(非選擇題，7 分)',
+    answer: '略',
+    hasImage: false,
+  },
   {
     id: '17f79262520',
     chapter: '空間向量',
@@ -25075,6 +25241,14 @@ const conditionalProb: Question[] = [
 
 // 矩陣A
 export const matrixA: Question[] = [
+  {
+    id: '1848b5e7845',
+    chapter: '矩陣A',
+    question:
+      '$m,n$ 為實數，二階矩陣 $A=\\begin{bmatrix}2&m\\\\1&n\\end{bmatrix}$，$B=\\begin{bmatrix}3&4\\\\m&n\\end{bmatrix}$，$I=\\begin{bmatrix}1&0\\\\0&1\\end{bmatrix}$。定義函數 $f(A)$ 表示矩陣 $A$ 中的第 (1, 1) 元，所以 $f(A)=2$，$f(B)=3$，下列選項哪些正確？\n(1) $f(A+B)=5$　(2) $f(AB)=6$　(3) $f(AI)=2$\n(4) $f(AB)=f(BA)$　(5) 若 $AB=BA$，則表示 $m+n=3$',
+    answer: '13',
+    hasImage: false,
+  },
   {
     id: '1818ee916be',
     chapter: '矩陣A',
