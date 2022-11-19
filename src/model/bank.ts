@@ -1100,7 +1100,7 @@ const numAndEquation: Question[] = [
     id: '1848b8c160a',
     chapter: '數與式',
     question:
-      '實數數線上 $A(\\sqrt{46-6\\sqrt5}),B(\\sqrt{14-6\\sqrt5})$，已知 $P$ 點在線段 $\\overline{AB}$ 上，且 $\\overline{AP}:\\overline{BP}=3:1$，求 $P$ 點坐標。',
+      '實數數線上 $A(\\sqrt{46-6\\sqrt5})$，$B(\\sqrt{14-6\\sqrt5})$，已知 $P$ 點在線段 $\\overline{AB}$ 上，且 $\\overline{AP}:\\overline{BP}=3:1$，求 $P$ 點坐標。',
     answer: '2',
     hasImage: false,
   },
@@ -3833,6 +3833,50 @@ const expAndLog: Question[] = [
 // 多項式函數
 const polynomial: Question[] = [
   {
+    id: '1848e427be5',
+    chapter: '多項式函數',
+    question: '已知 $f(x)=x^3+2x^2-4x+1$，$g(x)=x+2$，求 $f(x)$ 除以 $g(x)$ 的商式及餘式。',
+    answer: '$x^2-4$; 9',
+    hasImage: false,
+  },
+  {
+    id: '1848e43bb2a',
+    chapter: '多項式函數',
+    question:
+      '設 $f(x)=x^3-4x^2+7x-1$$=a(x-2)^3+b(x-2)^2+c(x-2)+d$，試求：(1) $a+b+c+d$\n(2) $f(1.98)$ 的近似值\n(四捨五入至小數點後第二位)',
+    answer: '(1) 11 (2) 4.94',
+    hasImage: false,
+  },
+  {
+    id: '1848e4667bb',
+    chapter: '多項式函數',
+    question: '求多項式 $2x^{1001}-1$ 除以 $x+1$ 的餘式。',
+    answer: '-3',
+    hasImage: false,
+  },
+  {
+    id: '1848e487f02',
+    chapter: '多項式函數',
+    question: '設 $f(x)=2x^3+4x^2-3x-k$ 有因式 $x+1$，求實數 $k$。',
+    answer: '5',
+    hasImage: false,
+  },
+  {
+    id: '1848e475b2a',
+    chapter: '多項式函數',
+    question: '設 $f(x)=x^7-9x^6+11x^5-22x^4$$-18x^3+20x^2-99$，試求 $f(8)$。',
+    answer: '157',
+    hasImage: false,
+  },
+  {
+    id: '1848e499efd',
+    chapter: '多項式函數',
+    question:
+      '多項式 $f(x)$ 除以 $x-3$ 得餘式 12，除以 $x+2$ 得餘式 2，試求 $f(x)$ 除以 $(x-3)(x+2)$ 所得的餘式。',
+    answer: '$2x+6$',
+    hasImage: false,
+  },
+  {
     id: '1848b98acaf',
     chapter: '多項式函數',
     question:
@@ -5826,6 +5870,44 @@ const polynomial: Question[] = [
 // 直線與圓
 const lineAndCircle: Question[] = [
   {
+    id: '1848e530c84',
+    chapter: '直線與圓',
+    question:
+      '已知 $A(3,-1)$，$(-1,4)$，直線 $L:2x+3y-5=0$。若 $\\overline{AB}$ 交直線 $L$ 於 $P$ 點，試求 $\\overline{AP}:\\overline{BP}$。',
+    answer: '2:5',
+    hasImage: false,
+  },
+  {
+    id: '1848e50de0a',
+    chapter: '直線與圓',
+    question:
+      '一直線 $L_1$ 過 (1, 3)，(2, -1) 兩點，另一直線 $L_2$ 過 (3, -2) 且與 $L_1$ 垂直，求直線 $L_2$ 的方程式。',
+    answer: '$x-4y=11$',
+    hasImage: false,
+  },
+  {
+    id: '1848e544dd7',
+    chapter: '直線與圓',
+    question: '已知 (2, 1)，(4, -1)，(-2, -3) 與 $(k,-5)$ 四點在同一圓上，求實數 $k$。',
+    answer: '0 or 2',
+    hasImage: false,
+  },
+  {
+    id: '1848e55c165',
+    chapter: '直線與圓',
+    question:
+      '已知圓 $C:x^2+y^2-x-3y-2=0$，若直線 $L:y=mx$ 和圓 $C$ 相交於相異兩點 $A$、$B$，且弦長 $\\overline{AB}=4$，求斜率 $m$。',
+    answer: '-7 or 1',
+    hasImage: false,
+  },
+  {
+    id: '1848e56b7a9',
+    chapter: '直線與圓',
+    question: '已知圓 $C:x^2+y^2+x-7y+k=0$ 與直線 $L:x-2y=0$ 相切，求實數 $k$。',
+    answer: '$\\frac54$',
+    hasImage: false,
+  },
+  {
     id: '1848b618bdd',
     chapter: '直線與圓',
     question:
@@ -6279,7 +6361,7 @@ const lineAndCircle: Question[] = [
   {
     id: '1836b05ec81',
     chapter: '直線與圓',
-    question: '在坐標平面上，若 $A(1,-2)$，$B(5,a-1)$，$C(a+1,1)$ 三點共線，求 $a$。',
+    question: '坐標平面上，若 $A(1,-2)$，$B(5,a-1)$，$C(a+1,1)$ 三點共線，求 $a$。',
     answer: '-4 or 3',
     hasImage: false,
   },
@@ -18125,7 +18207,7 @@ const planeVector: Question[] = [
     id: '1848b645f3d',
     chapter: '平面向量',
     question:
-      '三角形 $ABC$ 中，已知三邊長 $\\overline{BC}=5$，$\\overline{CA}=6$，$\\overline{AB}=7$。若 $\\vector a,\\vector b$ 均為單位向量且 $\\vector a$ 與 $\\xvector{BC}$ 垂直，$\\vector b$ 與 $\\xvector{CA}$ 垂直，則 $\\vector a\\cdot\\vector b$ 之值為 $\\dfrac{\\textcirc{6-1}}{\\textcirc{6-2}\\textcirc{6-3}}$。',
+      '三角形 $ABC$ 中，已知三邊長 $\\overline{BC}=5$，$\\overline{CA}=6$，$\\overline{AB}=7$。若 $\\vector a,\\vector b$ 均為單位向量且 $\\vector a$ 與 $\\xvector{BC}$ 垂直，$\\vector b$ 與 $\\xvector{CA}$ 垂直，則 $\\vector a\\cdot\\vector b$ 之值為 $\\dfrac{\\textcirc{6-1}\\textcirc{6-2}}{\\textcirc{6-3}}$。',
     answer: '±15',
     hasImage: false,
   },
