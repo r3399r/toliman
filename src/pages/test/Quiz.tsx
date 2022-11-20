@@ -52,13 +52,13 @@ const Quiz = () => {
   return (
     <MathJax>
       <div className={style.content}>
-        <h1>學測模擬 111.11.19</h1>
+        <h1>學測模擬 111.11.26</h1>
         <h3 style={{ marginBottom: 0 }}>一、單選題</h3>
-        {displayQuestion('1848b534321', 1)}
-        {displayQuestion('1848b57671f', 2)}
+        {displayQuestion('184930c1e6c', 1)}
+        {displayQuestion('184930e6540', 2)}
         <h3 style={{ marginBottom: 0 }}>二、多選題</h3>
-        {displayQuestion('1848b5b4daf', 3)}
-        {displayQuestion('1848b5e7845', 4)}
+        {displayQuestion('1849312921a', 3)}
+        {displayQuestion('184932938f3', 4)}
         <div style={{ pageBreakAfter: 'always' }} />
         <h3 style={{ marginBottom: 0 }}>三、選填題</h3>
         {displayQuestion('1848b618bdd', 5)}

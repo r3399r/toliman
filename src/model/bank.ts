@@ -8006,6 +8006,14 @@ const lineAndCircle: Question[] = [
 // 三角比
 const trigonometric: Question[] = [
   {
+    id: '1849312921a',
+    chapter: '平面向量',
+    question:
+      '設 $\\theta_1$、$\\theta_2$、$\\theta_3$、$\\theta_4$ 分別為第一、二、三、四象限角，且都介於 0 與 $2\\pi$ 之間，已知 $|\\sin\\theta_1|=|\\sin\\theta_2|=a$，$|\\sin\\theta_3|=|\\sin\\theta_4|=b$。試選出正確的選項。\n(1) $\\cos\\theta_2=\\sqrt{1-a^2}$\n(2) $\\theta_1+\\theta_2=\\pi$\n(3) 若 $b=\\dfrac14$，則 $\\theta_3+\\dfrac\\pi2<\\theta_4$\n(4) 若 $a=b$，則 $\\theta_4-\\theta_2=\\pi$\n(5) 若 $a>b$，則 $\\theta_2-\\theta_1>\\theta_4-\\theta_3$',
+    answer: '234',
+    hasImage: false,
+  },
+  {
     id: '1848b7f615e',
     chapter: '三角比',
     question:
@@ -10974,6 +10982,14 @@ const series: Question[] = [
 
 // 數據分析
 const statistics: Question[] = [
+  {
+    id: '184932938f3',
+    chapter: '平面向量',
+    question:
+      "今有兩組資料 $x,y$ 如下表：\n$$\\begin{array}{|c|c|}\\hline x&6&8&10&12&14\\\\\\hline y&16&15&17&a&b\\\\\\hline\\end{array}$$\n已知 $y$ 對 $x$ 的最適合直線為 $y=0.4x+13$，若將兩組資料 $x,y$ 分別標準化即 $x_i'=\\dfrac{x_i-\\mu_x}{\\sigma_x}$，$y_i'=\\dfrac{y_i-\\mu_y}{\\sigma_y}$，且 $y'$ 對 $x'$ 的最適合直線為 $y'=0.8x'+k$。試選出正確的選項。\n(1) $k=0$　(2) 兩組資料 $x,y$ 的相關係數 $r<0.8$\n(3) $a+b=37$　(4) $\\sigma_y=\\sqrt2$　(5) $\\sigma_{y'}=\\dfrac{\\sqrt2}{0.8}$",
+    answer: '134',
+    hasImage: false,
+  },
   {
     id: '1848b9e72e1',
     chapter: '數據分析',
@@ -18204,6 +18220,14 @@ const expAndLogFunction: Question[] = [
 // 平面向量
 const planeVector: Question[] = [
   {
+    id: '184930e6540',
+    chapter: '平面向量',
+    question:
+      '在坐標平面上有三點 $O(0,0)$，$A(4,3)$，$B(24,7)$，在平面上取一個 $x$ 和 $y$ 坐標均為整數的 $P$ 點，使得 $\\angle POA=\\angle POB$，則 $P$ 點的坐標可能為何？\n(1) (2, 1)　(2) (1, 2)　(3) (2, 4)　(4) (9, 13)　(5) (13, 9)',
+    answer: '1',
+    hasImage: false,
+  },
+  {
     id: '1848b645f3d',
     chapter: '平面向量',
     question:
@@ -23216,6 +23240,14 @@ const spaceVector: Question[] = [
 
 // 空間中的平面與直線
 const spaceEquations: Question[] = [
+  {
+    id: '184930c1e6c',
+    chapter: '空間中的平面與直線',
+    question:
+      '在空間坐標系中，已知一直線 $L:\\dfrac{x-1}3=\\dfrac{y-2}{-2}=z-3$，則 $L$ 落在下列哪一個平面上？\n(1) $E_1:x+y+z=1$　(2) $E_2:x+y+z=2$　(3) $E_3:x+y+z=3$\n(4) $E_4:-x-y+z=4$　(5) $E_5:-x-y+z=5$',
+    answer: '4',
+    hasImage: false,
+  },
   {
     id: '1809a4534ba',
     chapter: '空間中的平面與直線',
