@@ -1097,6 +1097,45 @@ const beginner: Question[] = [
 // 數與式
 const numAndEquation: Question[] = [
   {
+    id: '184a78ec300',
+    chapter: '數與式',
+    question: '已知 $m$ 是 $\\sqrt2$ 的小數部分，求 $\\sqrt{m^2-\\dfrac1{m^2}+9}$ 之值。',
+    answer: '$-1+2\\sqrt2$',
+    hasImage: false,
+  },
+  {
+    id: '184a5082fc7',
+    chapter: '數與式',
+    question:
+      '台灣的房價普遍偏高，我們常用房價所得比與貸款負擔率來衡量某地區的房價是否合理。以下為房價所得比與貸款負擔率的定義：\n房價所得比 = 房屋總價 ÷ 家戶年可支配所得\n貸款負擔率 = 房屋價格貸款年攤還額 ÷ 家戶年可支配所得\na. 若房貸負擔率 < 30%，則表示可合理負擔\nb. 30% ≤ 房貸負擔率 < 40%，則表示房價負擔能力略低\nc. 40% ≤ 房貸負擔率 < 50%，則表示房價負擔能力偏低\nd. 房貸負擔率 ≥ 50%，則表示房價負擔能力過低\n住宅價格貸款年攤還額為以 20 年期本利平均攤還的方式，房屋貸款成數為房屋總價的 7 成，貸款年攤還額計算公式 = [貸款總額 × (1+ 年利率)$^{20}$] ÷ 20。',
+    answer: '',
+    hasImage: false,
+  },
+  {
+    id: '184a50a38af',
+    chapter: '數與式',
+    question:
+      '以新婚夫妻 (兩人) 為例 ，家戶年可支配所得為 75 萬元，若今天欲購買總價為 1000 萬的房屋，則房價所得比最接近下列哪一個選項？(單選題，3 分)\n(1) 11　(2) 11.6　(3) 12.5　(4) 13.3　(5) 14.5',
+    answer: '4',
+    hasImage: false,
+  },
+  {
+    id: '184a50bd43e',
+    chapter: '數與式',
+    question:
+      '若某銀行貸款年利率為 1.4%，請計算出此對新婚夫妻的房貸負擔率為幾 %？(四捨五入到小數點後第一位，$10^{0.00603}=1.014$，$10^{0.1206}=1.32$) (非選擇題，7 分)',
+    answer: '61.6',
+    hasImage: false,
+  },
+  {
+    id: '184a50dcd51',
+    chapter: '數與式',
+    question:
+      '若此對新婚夫妻希望控制房貸負擔率為可合理負擔與負擔能力略低的範圍內，則下列五間房屋的總價，哪些可列入考慮？(多選擇題，5 分)\n(1) 398 萬　(2) 420 萬　(3) 480 萬　(4) 606 萬　(5) 698 萬',
+    answer: '1234',
+    hasImage: false,
+  },
+  {
     id: '1848b8c160a',
     chapter: '數與式',
     question:
@@ -3833,6 +3872,38 @@ const expAndLog: Question[] = [
 // 多項式函數
 const polynomial: Question[] = [
   {
+    id: '184a7ff1d0e',
+    chapter: '多項式函數',
+    question:
+      '一年二班數學平時考成績並不理想，數學老師因考量同學上課認真，決定以二次函數 $f(x)=a(x-80)^2+c$ 幫同學調整平時分數。只要將原始分數 $x$ 代入函數即可得到調整後的分數。甲生原始分數為 60 分經調整後分數為 80 分，乙生原始分數為 80 分經調整後分數為 100 分，原始分數為 70 分的丙生經調整後分數應為？',
+    answer: '95',
+    hasImage: false,
+  },
+  {
+    id: '184a7f7b62e',
+    chapter: '多項式函數',
+    question:
+      '坐標平面上有相異三點 $A(2,1)$、$B(-1,-1)$、$C(k^2-5,k+3)$，其中 $k$ 為正實數，且 $k>2$。若已知二次函數 $f(x)=ax^2+bx+c$ 通過 $A,B$ 兩點，但必不通過 $C$ 點，求 $k$。',
+    answer: '4',
+    hasImage: false,
+  },
+  {
+    id: '184a7f2668d',
+    chapter: '多項式函數',
+    question:
+      '設三次多項式 $f(x)$ 滿足 $f(1)=f(-1)=f(2)=5$ 且 $f(0)=3$，試求 $(x^2+1)f(x)$ 除以 $x-3$ 的餘式。',
+    answer: '-30',
+    hasImage: false,
+  },
+  {
+    id: '184a513ef59',
+    chapter: '多項式函數',
+    question:
+      '已知 $p,q,r$ 為實數，設 $f(x)=px^2+qx+r$ 且滿足 $f(\\pi)=f(\\log\\pi)=f(2^\\pi)=2020$，則 $f(-2018)+f(-2019)+f(2020)+f(2019)+f(2018)$ 之值為何？\n(1) 0　(2) 2020　(3) 10100　(4) 100100　(5) 202',
+    answer: '3',
+    hasImage: false,
+  },
+  {
     id: '1848e427be5',
     chapter: '多項式函數',
     question: '已知 $f(x)=x^3+2x^2-4x+1$，$g(x)=x+2$，求 $f(x)$ 除以 $g(x)$ 的商式及餘式。',
@@ -5869,6 +5940,122 @@ const polynomial: Question[] = [
 
 // 直線與圓
 const lineAndCircle: Question[] = [
+  {
+    id: '184a7df7eab',
+    chapter: '直線與圓',
+    question:
+      '作圖：$\\begin{cases}x+2y+4\\ge0\\\\-3x+y+9\\ge0\\\\2x-3y+1>0\\end{cases}$。(實線、虛線請畫清楚)',
+    answer: '略',
+    hasImage: false,
+  },
+  {
+    id: '184a7dac1f0',
+    chapter: '直線與圓',
+    question:
+      '已知圓 $C:x^2+y^2-6x-6y-7=0$，點 $P(-4,4)$，求過 $P$ 點且與圓相切的直線方程式。(二解)',
+    answer: '$4x+3y+4=0$ or $3x+4y+28=0$',
+    hasImage: false,
+  },
+  {
+    id: '184a7d87892',
+    chapter: '直線與圓',
+    question: '若直線 $L:x-y+a+1=0$ 與圓 $C:x^2+y^2-2x+4y-13=0$ 有交點，求 $a$ 的範圍。',
+    answer: '$-10\\le a\\le2$',
+    hasImage: false,
+  },
+  {
+    id: '184a7d78af1',
+    chapter: '直線與圓',
+    question:
+      '已知 $(a,b)$ 為圓 $C:(x+5)^2+(y-3)^2=9$ 上一點，若 $\\sqrt{(a+2)^2+(b+1)^2}$ 的最大值為 $M$，最小值為 $m$，求 $M+m$。',
+    answer: '10',
+    hasImage: false,
+  },
+  {
+    id: '184a7d640de',
+    chapter: '直線與圓',
+    question: '已知 $k$ 為實數，方程式 $x^2+y^2+2kx-8y+k^2-k=0$ 的圖形為一圓，求 $k$ 的範圍。',
+    answer: '$k>-16$',
+    hasImage: false,
+  },
+  {
+    id: '184a7cfdeea',
+    chapter: '直線與圓',
+    question:
+      '設計師幫客戶設計一款寬 24 公分、高 32 公分的窗戶，內部是由兩組間隔為 3 公分的平行線交錯而成，每組各有一條通過中心點 (12, 16)，而且這兩條也會分別通過窗邊的點 (24, 32) 與 (24, 0)。圖為設計師將窗戶坐標化後的示意圖。問此款窗戶共有幾條裝飾線？',
+    answer: '26',
+    hasImage: true,
+  },
+  {
+    id: '184a7cb5d51',
+    chapter: '直線與圓',
+    question:
+      '已知三角形的三頂點為 $A(3,-2)$、$B(-1,0)$、$C(2,1)$，求三角形的垂心 (三角形三邊高的交點)。',
+    answer: '(2,1)',
+    hasImage: false,
+  },
+  {
+    id: '184a7ca1b29',
+    chapter: '直線與圓',
+    question: '兩直線 $L_1:ax+2y+a=0$，$L_2:x+(a+1)y-(a+3)=0$，若 $L_1$ 與 $L_2$ 平行，求 $a$。',
+    answer: '1',
+    hasImage: false,
+  },
+  {
+    id: '184a7c7d237',
+    chapter: '直線與圓',
+    question: '已知一直線 $L:mx-y-3m+2=0$ 必過 $P$ 點，求 $P$ 點坐標。',
+    answer: '(3,2)',
+    hasImage: false,
+  },
+  {
+    id: '184a7c6bc11',
+    chapter: '直線與圓',
+    question:
+      '已知圓 $C:(x-2)^2+(y+1)^2=5$ 的圓心為 $O$ 點，直線 $L:3x+4y=7$，設圓 $C$ 和直線 $L$ 交於 $A,B$ 兩點，過 $A,B$ 兩點分別做圓 $C$ 的切線，此兩切線交於 $D$ 點，$D$ 點的坐標為 (5, 3)，如圖。試問下列敘述哪些為真？\n(1) 圓 $C$ 的半徑為 5\n(2) $\\overline{AB}$ 的線段長為 4\n(3) 四邊形 $OABD$ 面積為 10\n(4) $\\triangle OAB$ 的外接圓方程式為 $x^2+y^2-5x-y+4=0$\n(5) 圓 $C$ 上到 $D$ 點的距離為正整數的點，共有 8 個',
+    answer: '23',
+    hasImage: true,
+  },
+  {
+    id: '184a7c2a431',
+    chapter: '直線與圓',
+    question:
+      '下列敘述何者正確？\n(1) 若 $ax^2+ay^2+dx+ey+f=0$ 之圖形為一圓，則圓心為 $(-\\dfrac d{2a},-\\dfrac e{2a})$，半徑為 $\\dfrac{\\sqrt{d^2+e^2-4af}}{2a}$\n(2) 若 $A,B$ 為二相異已知點，則坐標平面上滿足 $\\overline{PA}=k\\overline{PB}$ 之所有 $P$ 點所成的圖形為圓\n(3) 設 $A(3,2)$、$B(-1,3)$，則以 $\\overline{AB}$ 為直徑之圓恰有一個\n(4) 平面上過任意一點恰可對圓 $C$ 作一條切線\n(5) 若直線 $L$ 與圓 $C$ 恰有一交點，則 $L$ 到圓心之距離等於半徑',
+    answer: '35',
+    hasImage: false,
+  },
+  {
+    id: '184a7be2a92',
+    chapter: '直線與圓',
+    question:
+      '下列何者的圖形為一圓？\n(1) $x^2+y^2=0$\n(2) $x^2+y^2-2x-2y+3=0$\n(3) $x^2+y^2+4x-2y+5=0$\n(4) $x^2+y^2+4x+4y=0$\n(5) $2x^2+2y^2-24x-4y-35=0$',
+    answer: '45',
+    hasImage: false,
+  },
+  {
+    id: '184a7bc4e0b',
+    chapter: '直線與圓',
+    question:
+      '設三直線 $L_1:y=m_1x+b_1$，$L_2:y=m_2x+b_2$，$L_3:y=m_3x+b_3$，如圖。則下列選項，何者正確？\n(1) $m_3<m_1<m_2$　(2) $m_1<m_2<m_3$　(3) $b_2>b_3>b_1$\n(4) $b_3>b_2>b_1$　(5) $b_1>b_2>b_3$',
+    answer: '14',
+    hasImage: true,
+  },
+  {
+    id: '184a78b0ff1',
+    chapter: '直線與圓',
+    question:
+      '坐標平面上，紫柔沿著直線 $y=2x$ 上行走，走了一小段路後左轉，走了 5 單位再左轉，而後便在直線 $y=2x+k$ 上行走，求 $|k|$。',
+    answer: '$5\\sqrt5$',
+    hasImage: false,
+  },
+  {
+    id: '184a5020796',
+    chapter: '直線與圓',
+    question:
+      '在坐標平面上一圓方程式為 $(x-a)^2+(y-b)^2=25$，其中 $a$ 與 $b$ 為實數。若 $P$ 為圓外一點，試求圓上有 $\\textcirc{7-1}\\textcirc{7-2}$ 個點與 $P$ 點的距離正好是整數值。',
+    answer: '20',
+    hasImage: false,
+  },
   {
     id: '1848e530c84',
     chapter: '直線與圓',
@@ -8006,6 +8193,22 @@ const lineAndCircle: Question[] = [
 // 三角比
 const trigonometric: Question[] = [
   {
+    id: '184a7faed1d',
+    chapter: '三角比',
+    question:
+      '$\\triangle ABC$ 中，$a,b,c$ 分別為 $\\angle A,\\angle B,\\angle C$ 之對邊長。若 $\\triangle ABC$ 之面積為 $\\dfrac1{14}(b^2+c^2-a^2)$，求 $\\tan A$。',
+    answer: '$\\frac27$',
+    hasImage: false,
+  },
+  {
+    id: '184a4fa0ea3',
+    chapter: '三角比',
+    question:
+      '如圖，$P$ 為 $\\triangle ABC$ 內部一點，且 $\\angle ACB=\\angle BPC=90\\du$，若 $\\overline{BC}=5$，$\\overline{AC}=10$，$\\overline{BP}=4$，則 $\\overline{AP}$ 長為 $\\sqrt{\\textcirc{5-1}\\textcirc{5-2}}$。',
+    answer: '61',
+    hasImage: true,
+  },
+  {
     id: '1849312921a',
     chapter: '平面向量',
     question:
@@ -9909,6 +10112,14 @@ const trigonometric: Question[] = [
 // 數列級數
 const series: Question[] = [
   {
+    id: '184a7f977bb',
+    chapter: '數列級數',
+    question:
+      '圖為一隻狗狗的腳掌印，我們按照圖示那樣數數字，數到 100 即停止。試問此時左邊第 2 支腳趾 (前三個數字為 2, 6, 8) 的所有數字總和。',
+    answer: '1666',
+    hasImage: true,
+  },
+  {
     id: '1848b5b4daf',
     chapter: '數列級數',
     question:
@@ -10983,10 +11194,34 @@ const series: Question[] = [
 // 數據分析
 const statistics: Question[] = [
   {
+    id: '184a7f61eb4',
+    chapter: '數據分析',
+    question:
+      '已知某班在模擬考的數學成績 (X) 與英文成績 (Y) 的平均數分別為 $\\mu_X=50$，$\\mu_Y=65$，且其相關係數為 0.6。若 Y 對 X 的迴歸直線經過點 (40, 57)，試選出正確的選項。\n(1) Y 對 X 的迴歸直線斜率為 0.6\n(2) Y 的標準差大於 X 的標準差\n(3) 若該班的班長在此次的模擬考數學考 50 分，則英文必定是 65 分\n(4) 若另一筆資料 Z 滿足 $Z=-2X+30$，則 Z 與 Y 的相關係數仍為 0.6\n(5) 承 (4)，Y 對 Z 的迴歸直線斜率為 -0.4',
+    answer: '25',
+    hasImage: false,
+  },
+  {
+    id: '184a787b931',
+    chapter: '數據分析',
+    question:
+      '日本考試時使用的偏差值計分方法如下：將全部考生的原始成績 $x$ 乘上 $a$ ($a>0)$ 倍後再加上 $b$，得到新成績 $y=ax+b$。選定適當的 $a,b$，使得新成績 $y$ 的平均分數為 50 分、標準差為 10 分，如此的新成績 $y$ 就稱為考生的偏差值。若某試考試小帆數學考了 75 分，全部考生數學平均為 60 分，標準差為 12.5 分。求她數學的偏差值。',
+    answer: '62',
+    hasImage: false,
+  },
+  {
+    id: '184a78310fa',
+    chapter: '數據分析',
+    question:
+      '某個球隊球員的身高體重如表所示，請問下列敘述何者正確？\n$$\\begin{array}{|c|c|}\\hline身高&175&168&169&180&181&177\\\\\\hline體重&70&60&65&70&75&80\\\\\\hline\\end{array}$$\n(1) 身高的中位數為 169\n(2) 身高的標準差為 5\n(3) 身高與體重的相關係數為 $\\dfrac1{250}$\n(4) 體重的眾數為 70\n(5) 身高與體重是正相關',
+    answer: '245',
+    hasImage: false,
+  },
+  {
     id: '184932938f3',
     chapter: '平面向量',
     question:
-      "今有兩組資料 $x,y$ 如下表：\n$$\\begin{array}{|c|c|}\\hline x&6&8&10&12&14\\\\\\hline y&16&15&17&a&b\\\\\\hline\\end{array}$$\n已知 $y$ 對 $x$ 的最適合直線為 $y=0.4x+13$，若將兩組資料 $x,y$ 分別標準化即 $x_i'=\\dfrac{x_i-\\mu_x}{\\sigma_x}$，$y_i'=\\dfrac{y_i-\\mu_y}{\\sigma_y}$，且 $y'$ 對 $x'$ 的最適合直線為 $y'=0.8x'+k$。試選出正確的選項。\n(1) $k=0$　(2) 兩組資料 $x,y$ 的相關係數 $r<0.8$\n(3) $a+b=37$　(4) $\\sigma_y=\\sqrt2$　(5) $\\sigma_{y'}=\\dfrac{\\sqrt2}{0.8}$",
+      "今有兩組資料 $x,y$ 如下表：\n$$\\begin{array}{|c|c|}\\hline x&6&8&10&12&14\\\\\\hline y&16&15&17&a&b\\\\\\hline\\end{array}$$\n已知 $y$ 對 $x$ 的最適合直線為 $y=0.4x+13$，若將兩組資料 $x,y$ 分別標準化即 $x_i'=\\dfrac{x_i-\\mu_x}{\\sigma_x}$，$y_i'=\\dfrac{y_i-\\mu_y}{\\sigma_y}$，且 $y'$ 對 $x'$ 的最適合直線為 $y'=0.8x'+k$。試選出正確的選項。\n(1) $k=0$\n(2) 兩組資料 $x,y$ 的相關係數 $r<0.8$\n(3) $a+b=37$\n(4) $\\sigma_y=\\sqrt2$\n(5) $\\sigma_{y'}=\\dfrac{\\sqrt2}{0.8}$",
     answer: '134',
     hasImage: false,
   },
@@ -12068,6 +12303,22 @@ const statistics: Question[] = [
 
 // 排列組合與機率
 const combination: Question[] = [
+  {
+    id: '184a7fcbc3f',
+    chapter: '排列組合與機率',
+    question:
+      '投擲兩個公正骰子，若每次僅出現一個偶數可得 10 元，兩個皆為偶數可得 40 元，求投擲兩次的期望值為幾元？',
+    answer: '30',
+    hasImage: false,
+  },
+  {
+    id: '184a78541ec',
+    chapter: '數據分析',
+    question:
+      '小波玩遊戲「旅行鍋牛」。這隻蝸牛出發去阿里山旅行，蝸牛回來時有可能帶著 2~4 張不同的照片返回。已知這遊戲中，阿里山的照片共有日出、雲海、神木、晚霞、小火車、郵票、鐵路、瀑布、降雪、森林共 10 種。「鐵路」與「小火車」這 2 張必定不同時出現，試求蝸牛帶回來的照片共有幾種可能的組合。',
+    answer: '338',
+    hasImage: false,
+  },
   {
     id: '1848b57671f',
     chapter: '排列組合與機率',
@@ -15192,6 +15443,14 @@ const combination: Question[] = [
 // 三角函數A
 const trigonometricFuncA: Question[] = [
   {
+    id: '184a789991d',
+    chapter: '三角函數A',
+    question:
+      '如圖，四邊形 $ABCD$，$\\overline{AD}=1$，$\\overline{CD}=2$，$\\overline{AC}=\\sqrt7$，若 $\\cos\\angle BAD=-\\dfrac{\\sqrt7}{14}$，$\\sin\\angle CBA=\\dfrac{\\sqrt{21}}6$，求 $\\overline{BC}$。',
+    answer: '3',
+    hasImage: true,
+  },
+  {
     id: '183d72f576a',
     chapter: '三角函數A',
     question:
@@ -16679,6 +16938,14 @@ const trigonometricFuncB: Question[] = [
 
 // 指數與對數函數
 const expAndLogFunction: Question[] = [
+  {
+    id: '184a51b9814',
+    chapter: '指數與對數函數',
+    question:
+      '將 $\\left(\\sqrt{\\dfrac32}\\right)^{200}$ 寫成科學記號 $a\\times10^n$，其中 $1\\le a<10$，且 $n$ 為正整數。若 $a$ 的整數部分為 $m$，求 $3m-n$ 之值。',
+    answer: '-5',
+    hasImage: false,
+  },
   {
     id: '1848b534321',
     chapter: '指數與對數函數',
@@ -24081,6 +24348,14 @@ const spaceEquations: Question[] = [
 
 // 條件機率
 const conditionalProb: Question[] = [
+  {
+    id: '184a4ffc468',
+    chapter: '三角比',
+    question:
+      '2020 年年初爆發 COVID-19 疫情，統計至 2020 年 5 月底為止死亡人數已將近 40 萬人。為即時診斷出這種病，醫界研究出某種偵測病毒核酸存在的檢驗方法。根據這種方法可檢測判斷陰性或陽性反應，但也有可能誤判，其中患有 COVID-19 的病人，被檢查出來有 COVID-19 的機率是 100%，而一般感冒沒有得 COVID-19 的人，被檢查成有患 COVID-19 的機率是 2%，而正常健康的人被誤診患有 COVID-19 的機率是 0.1%。在某國家城市中，實際患有 COVID-19 的患者佔 2%，患有一般感冒非 COVID-19 的人佔 8%，健康的人佔 90%，現從該城市中任選一人加以檢驗，若此人被檢驗出感染 COVID-19，求此人確實感染 COVID-19 的機率為 $\\dfrac{\\textcirc{6-1}}{\\textcirc{6-2}}$。',
+    answer: '89',
+    hasImage: false,
+  },
   {
     id: '180be2f6ab4',
     chapter: '條件機率',
