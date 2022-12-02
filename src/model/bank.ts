@@ -3833,6 +3833,14 @@ const expAndLog: Question[] = [
 // 多項式函數
 const polynomial: Question[] = [
   {
+    id: '184d399e260',
+    chapter: '多項式函數',
+    question:
+      '三次實係數多項式函數 $f(x)=ax^3+bx^2+cx+d$，已知 $f(4)=-2$，$f(-3)=-1$，$f(2)=0$，$f(-2)=1$，試問下列選項哪些是正確的？\n(1) $y=f(x)$ 和 $x$ 軸有 3 個交點\n(2) $f(x)$ 除以 $x+2$ 的餘式為 4\n(3) $f(x)$ 除以 $x(x-1)$ 的餘式為 $4x+2$\n(4) $a=-\\dfrac72$\n(5) $f(2)=-20$',
+    answer: '124',
+    hasImage: false,
+  },
+  {
     id: '1848e427be5',
     chapter: '多項式函數',
     question: '已知 $f(x)=x^3+2x^2-4x+1$，$g(x)=x+2$，求 $f(x)$ 除以 $g(x)$ 的商式及餘式。',
@@ -5869,6 +5877,14 @@ const polynomial: Question[] = [
 
 // 直線與圓
 const lineAndCircle: Question[] = [
+  {
+    id: '184d371018e',
+    chapter: '直線與圓',
+    question:
+      '與圓 $C:(x-2)^2+(y+3)^2=4$ 相切，且與 $\\dfrac x{12}+\\dfrac y5=1$ 平行的直線為 $5x+by+c=0$，已知此直線不過原點，則 $b+c$ 之值為 $\\textcirc{5-1}\\textcirc{5-2}$。',
+    answer: '64',
+    hasImage: false,
+  },
   {
     id: '1848e530c84',
     chapter: '直線與圓',
@@ -8006,6 +8022,30 @@ const lineAndCircle: Question[] = [
 // 三角比
 const trigonometric: Question[] = [
   {
+    id: '184d388229b',
+    chapter: '三角比',
+    question:
+      '於台東鹿野高台舉辦的熱氣球嘉年華，在台灣頗具盛名。為了簡化計算，因此假設熱氣球僅垂直於地面上升與下降，並不進行水平移動。熱氣球是藉由熱空氣上升的原理而升空的，上升的速度為每秒 5 公尺，今小良於地面 $O$ 點觀測熱氣球，試計算下列各小題：',
+    answer: '',
+    hasImage: false,
+  },
+  {
+    id: '184d38c14c1',
+    chapter: '三角比',
+    question:
+      '熱氣球 1 號從地面 $A$ 點上升，若 $O$ 點為觀測點且 $\\overline{OA}=50$，經過 10 秒後到達 $A_1$，再經過 10 秒後到達 $A_2$，如圖，則 $\\angle A_1OA_2$ 最接近下列哪一個選項？\n($\\tan^{-1}2=63.4\\du$) (單選題，6 分)\n(1) $15.3\\du$　(2) $16.6\\du$　(3) $17.2\\du$　(4) $18.5\\du$　(5) $19.7\\du$',
+    answer: '4',
+    hasImage: true,
+  },
+  {
+    id: '184d39003c2',
+    chapter: '三角比',
+    question:
+      '熱氣球 1 號從地面 $A$ 點上升，經過 10 秒後到達 $A_1$，熱氣球 2 號從地面 $B$ 點上升，經過 6 秒後，到達 $B_1$，小良於地面 $O$ 點 ($O$ 不在 $\\overline{AB}$ 上) 測得 $\\overline{OA}=50$ 公尺，$\\overline{OB}=40$ 公尺，若兩熱氣球在空中的距離為 105 公尺，求 $\\cos\\angle A_1OB_1$。(非選擇題，9 分)',
+    answer: '$-\\frac{141\\sqrt2}{400}$',
+    hasImage: false,
+  },
+  {
     id: '1849312921a',
     chapter: '平面向量',
     question:
@@ -9908,6 +9948,14 @@ const trigonometric: Question[] = [
 
 // 數列級數
 const series: Question[] = [
+  {
+    id: '184d3746fde',
+    chapter: '數列級數',
+    question:
+      '數列 $\\langle a_n\\rangle$ 滿足 $\\begin{cases}a_1=10\\\\a_{n-1}+a_n=2n, n\\ge2\\end{cases}$，求此數列的第十一項 $a_{11}=\\textcirc{6-1}\\textcirc{6-2}$。',
+    answer: '20',
+    hasImage: false,
+  },
   {
     id: '1848b5b4daf',
     chapter: '數列級數',
@@ -12068,6 +12116,14 @@ const statistics: Question[] = [
 
 // 排列組合與機率
 const combination: Question[] = [
+  {
+    id: '184d36dd7c6',
+    chapter: '排列組合與機率',
+    question:
+      '草莓品質分為優級與良級，重量規格分為 L (超過 28 公克)、M (25~28 公克)、S (未達 25 公克)。已知富野農場於本屆草莓季出產的草莓，有 $\\dfrac35$ 是優級；有 $\\dfrac25$ 是良級。在優級的草莓中，重量超過 28 公克的佔 $\\dfrac23$，其餘的每個重量皆至少都有 25 公克；在良級的草莓中，重量超過 28 公克的佔 $\\dfrac16$；重量在 25~28 公克的佔 $\\dfrac12$；其餘的每個重量皆未達 25 公克。草莓要出貨時，會將優級品或重量規格是 L 的草莓，包裝成禮盒販售。根據以上敘述，試選出正確的選項。\n(1) 富野農場本屆草莓季出產的草莓，重量規格是 M 的佔 $\\dfrac25$\n(2) 富野農場本屆草莓季出產的草莓，重量規格是 L 的超過一半\n(3) 任取一個富野農場本屆草莓季出產的草莓，已知取到重量規格是 L 的，則取到優級草莓的機率是 $\\dfrac67$\n(4) 任取一個富野農場本屆草莓季出產的草莓，已知取到的是良級的，則可以包裝成禮盒販售的機率為 $\\dfrac1{15}$\n(5) 包裝成禮盒販售的草莓，是良級的佔 $\\dfrac1{15}$',
+    answer: '13',
+    hasImage: false,
+  },
   {
     id: '1848b57671f',
     chapter: '排列組合與機率',
@@ -15192,6 +15248,14 @@ const combination: Question[] = [
 // 三角函數A
 const trigonometricFuncA: Question[] = [
   {
+    id: '184d34a09c5',
+    chapter: '三角函數A',
+    question:
+      '如圖，等腰三角形 $ABC$ 中，$\\overline{AB}=\\overline{AC}$，$\\angle BAD=\\angle DAE=\\angle EAC=\\theta$，且 $\\overline{AE}=\\overline{AF}$。選出正確的選項。\n(1) $\\overline{CE}=\\overline{ED}$\n(2) $\\overline{BD}>\\overline{ED}$\n(3) $\\angle CFE=90\\du+\\dfrac\\theta2$\n(4) $\\dfrac{\\overline{DE}}{\\overline{BD}}=2\\cos\\theta-1$\n(5) $\\dfrac{\\overline{DE}}{\\overline{BD}}=2\\sin2\\theta-1$',
+    answer: '234',
+    hasImage: true,
+  },
+  {
     id: '183d72f576a',
     chapter: '三角函數A',
     question:
@@ -16679,6 +16743,14 @@ const trigonometricFuncB: Question[] = [
 
 // 指數與對數函數
 const expAndLogFunction: Question[] = [
+  {
+    id: '184d34136cd',
+    chapter: '指數與對數函數',
+    question:
+      '已知 $a>1$。若 $f(x)=\\log_a x$ 的函數圖形與直線 $x=2$，$x=5$ 分別交於 $A,B$ 二點。$g(x)=\\log_a \\sqrt x$ 的函數圖形與直線 $x=2$，$x=5$ 分別交於 $C,D$ 二點，如圖。設 $A,B$ 兩個點的斜率為 $m_1$，$C,D$ 兩個點的斜率為 $m_2$，則 $\\dfrac{m_2}{m_1}$ 之值為？\n(1) $\\dfrac12$　(2) $\\dfrac25$　(3) $\\dfrac13$　(4) $\\dfrac14$　(5) $\\dfrac15$',
+    answer: '1',
+    hasImage: true,
+  },
   {
     id: '1848b534321',
     chapter: '指數與對數函數',
@@ -20772,6 +20844,14 @@ const planeVector: Question[] = [
 // 空間概念
 const spaceConcept: Question[] = [
   {
+    id: '184d37987ec',
+    chapter: '空間概念',
+    question:
+      '空間中有一四面體 $ABCD$ 如圖。已知 $\\overline{AB}=\\overline{AC}=\\overline{BD}=\\overline{CD}=3$ 且 $\\overline{AD}=\\overline{BC}=2$，$\\triangle ABC$ 及 $\\triangle BCD$ 的兩面角為 $\\theta$，則 $\\cos\\theta=\\dfrac{\\textcirc{7-1}}{\\textcirc{7-2}}$。(化為最簡分數)',
+    answer: '34',
+    hasImage: true,
+  },
+  {
     id: '17f71d6b4b8',
     chapter: '空間概念',
     question:
@@ -24081,6 +24161,14 @@ const spaceEquations: Question[] = [
 
 // 條件機率
 const conditionalProb: Question[] = [
+  {
+    id: '184d344ce29',
+    chapter: '條件機率',
+    question:
+      '有一問答遊戲共有 5 道題目，參賽者必須由第 1 題開始依序回答，若連續答對 2 題則過關並停止遊戲，假設每一題答對的機率均為 $\\dfrac13$，且各題答對或答錯互不影響，請問在參賽者甲第二題答對的情況下，甲順利過關的機率為何？\n(1) $\\dfrac{49}{243}$　(2) $\\dfrac{49}{81}$　(3) $\\dfrac5{27}$　(4) $\\dfrac59$　(5) $\\dfrac13$',
+    answer: '2',
+    hasImage: false,
+  },
   {
     id: '180be2f6ab4',
     chapter: '條件機率',
