@@ -1097,6 +1097,14 @@ const beginner: Question[] = [
 // 數與式
 const numAndEquation: Question[] = [
   {
+    id: '184efc72feb',
+    chapter: '數與式',
+    question:
+      '已知 $a,m,n$ 為正實數。若函數 $f(x)=a^x+a^{-x}$ 且 $f(m)=5$，$f(n)=14$，則 $f(2m)\\times f(-\\dfrac n2)$ 之值為 $\\textcirc{5-1}\\textcirc{5-2}$。',
+    answer: '92',
+    hasImage: false,
+  },
+  {
     id: '184a78ec300',
     chapter: '數與式',
     question: '已知 $m$ 是 $\\sqrt2$ 的小數部分，求 $\\sqrt{m^2-\\dfrac1{m^2}+9}$ 之值。',
@@ -3872,6 +3880,29 @@ const expAndLog: Question[] = [
 // 多項式函數
 const polynomial: Question[] = [
   {
+    id: '184eff7d1f5',
+    chapter: '多項式函數',
+    question: '已知 $x=\\sqrt2+1$，求 $x^4-x^3-2x^2-3x+7$。',
+    answer: '8',
+    hasImage: false,
+  },
+  {
+    id: '184efea335c',
+    chapter: '排列組合與機率',
+    question:
+      '蟋蟀是會隨著周遭溫度改變體溫的變溫動物，當溫度升高時，蟋蟀翅膀的摩擦速度會變快，所以固定時間內的鳴叫次數也會增加。科學家發現，將蟋蟀 13.5 秒內鳴叫的次數，加上 41 所得的數字，就是目前的華氏溫度，即 $f(t)=13.5t+41$，其中 $t$ 為蟋蟀每秒鳴叫的次數，$f(t)$ 為目前的華氏溫度。例如：$f(2)=68$，即當每秒鳴叫 2 次時的華氏溫度為 68 度。若有另一個函數 $g(t)=at+b$，其中 $t$ 為蟋蟀每秒鳴叫的次數，$g(t)$ 為目前的攝氏溫度。已知攝氏溫度＝(華氏溫度-32)$\\times\\dfrac59$，求 $a+b$ 。',
+    answer: '12.5',
+    hasImage: false,
+  },
+  {
+    id: '184efe4ba51',
+    chapter: '排列組合與機率',
+    question:
+      '如圖，設三次多項式函數 $y=f(x)$ 的圖形上的兩點 $A(0,10)$，$B(\\dfrac43,0)$，若 $f(x)=0$ 的另兩個根皆為整數，且 $f(x)\\le0$ 的正整數解恰有 2 個，$f(x)\\ge0$ 的負整數解恰有 5 個，求 $f(x)$ 除以 $x-10$ 的餘式。',
+    answer: '455',
+    hasImage: true,
+  },
+  {
     id: '184d399e260',
     chapter: '多項式函數',
     question:
@@ -5948,6 +5979,14 @@ const polynomial: Question[] = [
 
 // 直線與圓
 const lineAndCircle: Question[] = [
+  {
+    id: '184efb55bc3',
+    chapter: '直線與圓',
+    question:
+      '坐標平面上有一圓 $C:(x-1)^2+(y+1)^2=2$ 及兩條直線 $L_1:x-y=0$，$L_2:2x+y=3$，試選出正確的選項。\n(1) $L_1$ 和 $L_2$ 相交於一點，交點坐標為 (1, -1)\n(2) $L_1$ 和 $C$ 相切\n(3) $L_1$ 和 $C$ 的交點坐標為 (0, 0)\n(4) $C$ 的圓心和 $L_2$ 的距離為 $\\dfrac{2\\sqrt5}5$\n(5) 若 $L_2$ 和 $C$ 相交於 $A,B$ 兩點，則 $\\overline{AB}=\\dfrac{\\sqrt{30}}5$',
+    answer: '234',
+    hasImage: false,
+  },
   {
     id: '184d371018e',
     chapter: '直線與圓',
@@ -10152,6 +10191,13 @@ const trigonometric: Question[] = [
 // 數列級數
 const series: Question[] = [
   {
+    id: '184efeba1fc',
+    chapter: '數列級數',
+    question: '若 $S_n=1+(1+2)+(1+2+2^2)+$$\\cdots+(1+2+\\cdots+2^n)$，求 $S_{10}$。',
+    answer: '4083',
+    hasImage: false,
+  },
+  {
     id: '184d3746fde',
     chapter: '數列級數',
     question:
@@ -11241,6 +11287,22 @@ const series: Question[] = [
 
 // 數據分析
 const statistics: Question[] = [
+  {
+    id: '184efc44a03',
+    chapter: '數據分析',
+    question:
+      '一個 40 位學生的班級，某次數學考試，每位學生的成績都未超過 80 分且皆為零或正整數。老師以下列方式調整成績：原始成績為 $x$ 分的學生，調整後的成績為 $7\\sqrt x+18$ 分 (四捨五入到整數)。試選出正確的選項。\n(1) 若阿光原始成績為 25 分，則調整後的成績為 52 分\n(2) 若小淳調整後的成績為 60 分，則原始成績可能為 36 分\n(3) 班上每位學生調整後的成績必定都比原始成績高\n(4) 已知小文的原始成績恰等於全班原始成績的中位數，則小文調整後的成績仍然等於全班調整後的成績的中位數\n(5) 調整後的成績有可能比原始成績高 32 分',
+    answer: '234',
+    hasImage: false,
+  },
+  {
+    id: '184efaa464c',
+    chapter: '數據分析',
+    question:
+      '小明從衛福部網站得到 105 年事故死亡人數的資料，如表。其中事故死亡人數占死亡人數百分比是計算 $\\dfrac{\\text{事故死亡人數}}{\\text{死亡人數}}\\times100\\%$ 的近似值而得。例如年齡為 10-14 歲這一組，事故死亡人數占死亡人數百分比為 $\\dfrac{37}{150}\\times100\\%\\approx24.6\\%$。表中每組年齡中事故死亡人數分別為 $a,b,c,d,e$，試問這五個數中最小的值為哪一個？\n$$\\begin{array}{|c|c|}\\hline年齡組別&死亡人數&事故死亡人數&事故死亡人數占死亡人數百分比\\\\\\hline10-14&150&37&24.6\\%\\\\\\hline15-19&497&a&58.9\\%\\\\\\hline20-24&734&b&42.2\\%\\\\\\hline25-29&851&c&29.6\\%\\\\\\hline30-34&1534&d&21.1\\%\\\\\\hline35-39&2697&e&13.7\\%\\\\\\hline\\end{array}$$\n(1) $a$　(2) $b$ 　(3) $c$　(4) $d$　(5) $e$',
+    answer: '3',
+    hasImage: false,
+  },
   {
     id: '184a7f61eb4',
     chapter: '數據分析',
@@ -12351,6 +12413,62 @@ const statistics: Question[] = [
 
 // 排列組合與機率
 const combination: Question[] = [
+  {
+    id: '184eff04d5e',
+    chapter: '排列組合與機率',
+    question:
+      '使用 3 種不同的顏色塗圖，每區塊只能塗一色，規定相鄰區塊必須異色，且 3 種顏色都必須使用。求所有塗色的方法數。',
+    answer: '12',
+    hasImage: true,
+  },
+  {
+    id: '184efe1ff9a',
+    chapter: '排列組合與機率',
+    question:
+      '從 1~7 這七個數中任意取出三個相異數，若每個數被取出的機率相同，則此三數和為質數的機率為？',
+    answer: '$\\frac27$',
+    hasImage: false,
+  },
+  {
+    id: '184efd49543',
+    chapter: '排列組合與機率',
+    question:
+      '日本料理中的握壽司料理相當受到台灣民眾的喜愛，在傳統的日本，握壽司有嚴謹的食用次序性，一般來說都是以「由白入紅，由淡至濃，熟食最後」這樣的規則食用，也就是先食用白肉魚，然後再食用紅肉魚，最後才食用濃郁海鮮，熟食則是食用完魚類與海鮮後才食用。依照食材的特性可以列成下列：\n白肉魚：鰈魚、鯛魚、比目魚、青甘、鰤魚、竹莢魚\n紅肉魚：黑鮪魚、鮭魚、鯖魚、鰹魚\n濃郁海鮮：蝦子、花枝、干貝、章魚、鮭魚卵、海膽\n熟食：海苔、煎蛋、豆皮',
+    answer: '',
+    hasImage: false,
+  },
+  {
+    id: '184efd6a593',
+    chapter: '排列組合與機率',
+    question:
+      '若想挑選 10 種食材，規定白肉魚至少 2 種，紅肉魚至少 3 種，濃郁海鮮 2 種，熟食 2 種，則挑選方法數為下列哪一個選項？(單選題，6 分)\n(1) 3400　(2) 4275　(3) 5000　(4) 6000　(5) 7000',
+    answer: '2',
+    hasImage: false,
+  },
+  {
+    id: '184efd8dcc3',
+    chapter: '排列組合與機率',
+    question:
+      '某天，謝師傅想從白肉魚、紅肉魚、濃郁海鮮中各挑選一樣食材製作成豪華壽司船，依照成本考量，若選擇鰤魚則不搭配黑鮪魚，選擇鮭魚必定搭配干貝，其他便無限制，則共有幾種食材的選擇方法？(非選擇題，9 分)',
+    answer: '108',
+    hasImage: false,
+  },
+  {
+    id: '184efd0f3dd',
+    chapter: '排列組合與機率',
+    question:
+      '雙贏彩是一種樂透型遊戲，您必須從 01~24 的號碼中任選 12 個進行投注。開獎時，開獎單位將隨機開出 12 個號碼，這一組號碼就是該期雙贏彩的中獎號碼，也稱為「獎號」。各獎項的中獎方式如下：\n頭獎：對中當期 12 個獎號或對中當期 0 個獎號\n貳獎：對中當期 11 個獎號或對中當期 1 個獎號\n參獎：對中當期 10 個獎號或對中當期 2 個獎號\n若投注一組號碼，令中貳獎的機率為 $r$，中參獎的機率為 $R$，則 $\\dfrac r R$ 之值為 $\\dfrac{\\textcirc{7-1}}{\\textcirc{7-2}\\textcirc{7-3}\\textcirc{7-4}}$。(化為最簡分數)',
+    answer: '4121',
+    hasImage: false,
+  },
+  {
+    id: '184efaf223a',
+    chapter: '排列組合與機率',
+    question:
+      '小明到自助餐店吃飯都固定選一個主食、一個主菜和一個配菜。其中主食有白飯、紫米飯、粥、炒飯四種選擇；主菜有雞腿、排骨、魚三種選擇；配菜有荷包蛋、高麗菜兩種選擇。小明跟自助餐阿姨說：「我討厭吃紫米飯配荷包蛋，而且吃雞腿就一定配白飯，現在開始我天天來吃一次。」求小明要吃幾天才可以把所有搭配都吃過一遍？\n(1) 16　(2) 18　(3) 20　(4) 24　(5) 25',
+    answer: '1',
+    hasImage: false,
+  },
   {
     id: '184d36dd7c6',
     chapter: '排列組合與機率',
@@ -15499,6 +15617,14 @@ const combination: Question[] = [
 // 三角函數A
 const trigonometricFuncA: Question[] = [
   {
+    id: '184efc9b0b6',
+    chapter: '三角函數A',
+    question:
+      '設 $\\angle A$ 為第四象限角且 $\\sin(180\\du-A)\\cos330\\du+\\cos A\\sin150\\du=\\sin2013\\du$，若 $\\angle A$ 的最小正同界角為 $m\\du$，則 $m=\\textcirc{6-1}\\textcirc{6-2}\\textcirc{6-3}$。',
+    answer: '297',
+    hasImage: false,
+  },
+  {
     id: '184d34a09c5',
     chapter: '三角函數A',
     question:
@@ -18558,6 +18684,14 @@ const expAndLogFunction: Question[] = [
 
 // 平面向量
 const planeVector: Question[] = [
+  {
+    id: '184efcc8aa6',
+    chapter: '平面向量',
+    question:
+      '已知 $\\vector a=(3,-1)$ 在 $\\vector b$ 上的正射影為 (2, 1)，若將 $2\\vector a$ 分解為 $\\vector u$ 和 $\\vector v$ 兩個向量的和，其中 $\\vector u$ 與 $\\vector b$ 平行且 $\\vector v$ 與 $\\vector b$ 垂直，則 $\\vector v=(\\textcirc{6-1},\\textcirc{6-2}\\textcirc{6-3})$。',
+    answer: '(2,-4)',
+    hasImage: false,
+  },
   {
     id: '184930e6540',
     chapter: '平面向量',
@@ -23587,6 +23721,14 @@ const spaceVector: Question[] = [
 
 // 空間中的平面與直線
 const spaceEquations: Question[] = [
+  {
+    id: '184efba6a95',
+    chapter: '空間中的平面與直線',
+    question:
+      '空間中有一平面 $E:x+2y+3z=5$，取平面 $E$ 的法向量 $\\vector n=(1,2,3)$。有一直線 $L:\\dfrac{x-1}1=\\dfrac{y+2}2=\\dfrac z1$，取直線 $L$ 的方向向量 $\\vector l=(1,2,1)$。試選出正確的選項。\n(1) $E$ 和 $L$ 交於一點且交點坐標為 (2, 0, 1)\n(2) $L$ 上有一點 $P(3,2,2)$，$P$ 到平面 $E$ 的距離為 $\\dfrac47$\n(3) $\\vector n\\cdot\\vector l=8$\n(4) $\\vector l$ 在 $\\vector n$ 上的正射影為 (4, 8 ,12)\n(5) $L$ 在 $E$ 上的投影直線為 $\\dfrac{x-2}3=\\dfrac y6=\\dfrac{z-1}{-5}$',
+    answer: '135',
+    hasImage: false,
+  },
   {
     id: '184930c1e6c',
     chapter: '空間中的平面與直線',

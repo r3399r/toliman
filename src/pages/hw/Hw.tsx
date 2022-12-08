@@ -8,20 +8,18 @@ import style from './Hw.module.scss';
 
 const Hw = () => {
   const ids: string[] = [
-    // '184a51b9814',
-    // '184a78310fa',
-    // '184a78541ec',
-    // '184a787b931',
-    // '184a789991d',
-    // '184a78b0ff1',
-    '184a7f2668d',
-    '184a7f61eb4',
-    '184a7f7b62e',
-    '184a7f977bb',
-    '184a7faed1d',
-    '184a7fcbc3f',
-    '184a7ff1d0e',
-    '',
+    '184efe1ff9a',
+    '184efe4ba51',
+    '184efea335c',
+    '184efeba1fc',
+    '184eff04d5e',
+    '184eff7d1f5',
+    // '184a7f2668d',
+    // '184a7f61eb4',
+    // '184a7f7b62e',
+    // '184a7f977bb',
+    // '184a7faed1d',
+    // '184a7fcbc3f',
   ];
 
   const addDefaultSrc = (ev: ChangeEvent<HTMLImageElement>) => {
@@ -32,7 +30,7 @@ const Hw = () => {
     <MathJax className={style.content}>
       <GridWith2Col>
         {getQuestions(ids).map((q: Question, i: number) => {
-          if (q === undefined) return <div key={`error${i}`} />;
+          if (q === undefined) return <div key={`error${i}`}>Error</div>;
 
           return (
             <div key={q.id}>
@@ -45,7 +43,7 @@ const Hw = () => {
                   onError={addDefaultSrc}
                 />
               )}
-              <Textarea2MathJax text={`${i + 7}. ${q.question}`} />
+              <Textarea2MathJax text={`${i + 1}. ${q.question}`} />
               <Textarea2MathJax text={`Ans: ${q.answer}`} className={style.ans} />
             </div>
           );
