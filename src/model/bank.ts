@@ -3880,6 +3880,95 @@ const expAndLog: Question[] = [
 // 多項式函數
 const polynomial: Question[] = [
   {
+    id: '184fb42781b',
+    chapter: '多項式函數',
+    question: '設 $f(x)=ax^5+bx^3+cx-3$，若 $f(-3)=7$，求 $f(3)$。',
+    answer: '-13',
+    hasImage: false,
+  },
+  {
+    id: '184fb442b7e',
+    chapter: '多項式函數',
+    question: '已知 $x^3+x^2+ax+2$ 除以 $x^2+2x+b$ 的商式為 $x-1$，餘式為 $x+5$，求 $a,b$。',
+    answer: '2; 3',
+    hasImage: false,
+  },
+  {
+    id: '184fb450156',
+    chapter: '多項式函數',
+    question: '若多項式 $x^3+4x^2+5x-3$ 除以 $f(x)$ 的商式為 $x+2$，餘式為 $2x-1$，求 $f(x)$。',
+    answer: '$x^2+2x-1$',
+    hasImage: false,
+  },
+  {
+    id: '184fb46b5a8',
+    chapter: '多項式函數',
+    question:
+      '已知多項式 $f(x)=(x^2-x+1)(x^2+3x-2)+$$x^2-2x+5$，若 $f(x)$ 除以 $x^2-x+1$ 的商式為 $q(x)$，餘式為 $h(x)$，求 $h(x)$。',
+    answer: '$-x+4$',
+    hasImage: false,
+  },
+  {
+    id: '184fb4bf4ae',
+    chapter: '多項式函數',
+    question:
+      '將多項式 $f(x)=2x^3-13x^2+30x-19$ 改寫成 $f(x)=a_3(x-2)^3+a_2(x-2)^2+$$a_1(x-2)+a_0$，試求 $a_3$、$a_2$、$a_1$、$a_0$、$f(2+\\sqrt3)$。',
+    answer: '2; -1; 2; 5; $2+8\\sqrt3$',
+    hasImage: false,
+  },
+  {
+    id: '184fb4d569e',
+    chapter: '多項式函數',
+    question: '試求 $11^5-4\\times11^4-72\\times11^3$$-56\\times11^2+5\\times11+8$。',
+    answer: '-58',
+    hasImage: false,
+  },
+  {
+    id: '184fb4f0175',
+    chapter: '多項式函數',
+    question:
+      '設多項式 $f(x)$ 除以 $x^2-1$ 的餘式為 $2x+5$，除以 $x^2-x-6$ 的餘式為 $3x+4$，求 $f(x)$ 除以 $x^2+x-2$ 的餘式。',
+    answer: '$3x+4$',
+    hasImage: false,
+  },
+  {
+    id: '184fb53c2e7',
+    chapter: '多項式函數',
+    question:
+      '某次數學測驗，班上同學最高 75 分，最低 25 分，於是老師想用一次函數 $f(x)=ax+b$ 來調整分數，使 75 分變成 100 分，25 分變成 60 分。今甲生原來考 55 分，試問調整後的成績。',
+    answer: '84',
+    hasImage: false,
+  },
+  {
+    id: '184fb5525e3',
+    chapter: '多項式函數',
+    question: '將 $y=-3x^2$ 的圖形向左平移 1 且向上平移 2，得到 $y=ax^2+bx+c$，試求 $a+b+c$。',
+    answer: '-10',
+    hasImage: false,
+  },
+  {
+    id: '184fb57de6a',
+    chapter: '多項式函數',
+    question: '已知二次函數 $f(x)=x^2-6x+2$，試求函數在 $0\\le x\\le8$ 的最大值、最小值。',
+    answer: '18; -7',
+    hasImage: false,
+  },
+  {
+    id: '184fb590dd4',
+    chapter: '多項式函數',
+    question: '已知 $1\\le x\\le5$，求 $f(x)=3x^2-12x+11$ 的最大值、最小值。',
+    answer: '26; -1',
+    hasImage: false,
+  },
+  {
+    id: '184fb5a035a',
+    chapter: '多項式函數',
+    question:
+      '設 $k$ 為實數，若二次函數 $f(x)=x^2+2x+k$ 在 $-2\\le x\\le2$ 時，其最大值與最小值之和為 2020，求 $k$。',
+    answer: '$\\frac{2013}2$',
+    hasImage: false,
+  },
+  {
     id: '184eff7d1f5',
     chapter: '多項式函數',
     question: '已知 $x=\\sqrt2+1$，求 $x^4-x^3-2x^2-3x+7$。',
