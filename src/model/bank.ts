@@ -1097,6 +1097,14 @@ const beginner: Question[] = [
 // 數與式
 const numAndEquation: Question[] = [
   {
+    id: '18514fc31db',
+    chapter: '數與式',
+    question:
+      '已知在數線上，$A$ 點的坐標為 $a$，$B$ 點的坐標為 $b$，且 $a\\ne b$。若有甲與乙兩質點分別由 $A$、$B$ 兩點相向移動，且甲質點移動的速度為乙質點移動速度的 2.5 倍。若甲與乙兩質點在 $P$ 點相遇，則 $P$ 點在數線上的坐標為下列哪一選項？\n(1) $\\dfrac{a+b}2$　(2) $\\dfrac{3a+2b}5$　(3) $\\dfrac{2a+3b}5$　(4) $\\dfrac{2a+5b}7$　(5) $\\dfrac{5a+2b}7$',
+    answer: '(4)',
+    hasImage: false,
+  },
+  {
     id: '184efc72feb',
     chapter: '數與式',
     question:
@@ -6069,6 +6077,22 @@ const polynomial: Question[] = [
 // 直線與圓
 const lineAndCircle: Question[] = [
   {
+    id: '18515257984',
+    chapter: '直線與圓',
+    question:
+      '已知格子點為 $x$ 坐標和 $y$ 坐標皆為整數的點，則 $\\begin{cases}x>0\\\\y>0\\\\x-2y\\ge-8\\\\4x+y\\le20\\end{cases}$ 區域裡的格子點有幾個？',
+    answer: '18',
+    hasImage: false,
+  },
+  {
+    id: '185150328a8',
+    chapter: '直線與圓',
+    question:
+      '設 $k$ 為實數，已知圓方程式 $x^2+y^2+4kx-6ky+12k^2-4k-8=0$。試選出正確的選項。\n(1) 圓心的軌跡方程式為 $3x-2y=0$\n(2) 當此圓的圓心為 (0, 0) 時，圓的面積為 $8\\pi$\n(3) 當 $k=-2$ 時，圓的面積有最小值\n(4) 圓的面積最小值為 $4\\pi$\n(5) 存在 $k$，使得圓與 $y$ 軸相切',
+    answer: '(2)(3)(5)',
+    hasImage: false,
+  },
+  {
     id: '184efb55bc3',
     chapter: '直線與圓',
     question:
@@ -8336,6 +8360,22 @@ const lineAndCircle: Question[] = [
 
 // 三角比
 const trigonometric: Question[] = [
+  {
+    id: '185152cf2f8',
+    chapter: '三角比',
+    question:
+      '在坐標平面上的原點上有一大樓，今小明在大樓附近散步，在第 $t$ 分鐘時的位置 $(x,y)$ 可表示成 $\\begin{cases}x=-1+2\\cos(60\\du t)\\\\y=2\\sin(60\\du t)\\end{cases}$。小明在第 3 分鐘時仰望大樓頂端，發現仰角為 $30\\du$，在第 5 分鐘時再度仰望大樓頂端，發現仰角為 $\\theta$，求 $\\tan\\theta$。',
+    answer: '1',
+    hasImage: false,
+  },
+  {
+    id: '1851526f05b',
+    chapter: '直線與圓',
+    question:
+      "設平面上 5 點 $A,B,C,B',C'$ 共圓，若 $\\angle ABC+\\angle AB'C'=90\\du$，$\\overline{AC}=1$ 且 $\\overline{AC'}=\\sqrt3$，則 $\\angle ABC=\\textcirc{5-1}\\textcirc{5-2}\\du$。",
+    answer: '$30\\du$',
+    hasImage: false,
+  },
   {
     id: '184d388229b',
     chapter: '三角比',
@@ -11377,6 +11417,37 @@ const series: Question[] = [
 // 數據分析
 const statistics: Question[] = [
   {
+    id: '18515156496',
+    chapter: '數據分析',
+    question:
+      '七人制的橄欖球賽中，在場上共有七名選手，某橄欖球聯賽一共有甲、乙、丙、丁、戊 5 支隊伍參加，以下統計表為各隊的明星球員人數與此聯賽中的總計勝場數：\n$$\\begin{array}{|c|c|}\\hline隊伍&甲&乙&丙&丁&戊\\\\\\hline明星球員人數(x)&1&2&3&4&5\\\\\\hline勝場數(y)&4&4&6&10&6\\\\\\hline\\end{array}$$',
+    answer: '',
+    hasImage: false,
+  },
+  {
+    id: '185151655ed',
+    chapter: '數據分析',
+    question: '試求五個隊伍的平均勝場數為 $\\textcirc{8-1}$ 場。(選填題，4 分)',
+    answer: '6',
+    hasImage: false,
+  },
+  {
+    id: '185151796f2',
+    chapter: '數據分析',
+    question:
+      '$x$ 和 $y$ 的相關係數最接近下列哪一個選項？(單選題，4 分)\n(1) 0.25　(2) 0.44　(3) 0.64　(4) 0.72　(5) 0.81',
+    answer: '(3)',
+    hasImage: false,
+  },
+  {
+    id: '1851519085a',
+    chapter: '數據分析',
+    question:
+      '利用 $y$ 對 $x$ 的迴歸直線來預測勝場數，即若某隊伍為全明星隊伍 ($x=7$)，則可預測其勝場數為何？(非選擇題，7 分)',
+    answer: '10',
+    hasImage: false,
+  },
+  {
     id: '184efc44a03',
     chapter: '數據分析',
     question:
@@ -12502,6 +12573,22 @@ const statistics: Question[] = [
 
 // 排列組合與機率
 const combination: Question[] = [
+  {
+    id: '1851521ec6c',
+    chapter: '排列組合與機率',
+    question:
+      '將 8 個不同物，依下列各情況分配：\n第一種：平分成四堆\n第二種：平分給甲、乙、丙、丁四人\n第三種：依 4 個、2 個、2 個分成三堆\n第四種：依甲分到 4 個，乙、丙各分 2 個\n第五種：分給甲、乙、丙三人，只知道其中一人得 4 個，另二人各得 2 個\n以上五種情況依序有 $a,b,c,d,e$ 種分法，請選出正確的選項。\n(1) $a=630$\n(2) $b=24a$\n(3) $c=210$\n(4) $d=2c$\n(5) $e=3c$',
+    answer: '(2)(3)(4)',
+    hasImage: false,
+  },
+  {
+    id: '18514ff2464',
+    chapter: '排列組合與機率',
+    question:
+      '有一個不透明的袋子，袋中有黃、紅、紫三種顏色的球各一顆，每顆球被取到的機率相同。若由袋中連續取球 3 次，每次一球，取後放回。令 $P(k)$ 表此三球共有 $k$ 種顏色之機率，則 $P(1),P(2),P(3)$ 之大小順序為下列哪一選項？\n(1) $P(2)>P(3)>P(1)$\n(2) $P(2)>P(1)>P(3)$\n(3) $P(3)>P(2)>P(1)$\n(4) $P(3)>P(1)>P(2)$\n(5) $P(1)>P(3)>P(2)$',
+    answer: '(1)',
+    hasImage: false,
+  },
   {
     id: '184eff04d5e',
     chapter: '排列組合與機率',
@@ -17218,6 +17305,14 @@ const trigonometricFuncB: Question[] = [
 // 指數與對數函數
 const expAndLogFunction: Question[] = [
   {
+    id: '18515012050',
+    chapter: '指數與對數函數',
+    question:
+      '設 $a,b,c$ 皆為正數，且 $c\\ne1$，已知 $\\log_ca=3$，$\\log_cb=5$。試選出正確的選項。\n(1) $\\log_c(a+b)=15$\n(2) $a\\times b=c^8$\n(3) $\\log_ab=\\dfrac53$\n(4) $\\log_a{\\dfrac ca}=-\\dfrac53$\n(5) $\\log_{abc}a^2=\\dfrac{46}5$',
+    answer: '(2)(3)(4)',
+    hasImage: false,
+  },
+  {
     id: '184d34136cd',
     chapter: '指數與對數函數',
     question:
@@ -18773,6 +18868,38 @@ const expAndLogFunction: Question[] = [
 
 // 平面向量
 const planeVector: Question[] = [
+  {
+    id: '1851531b52e',
+    chapter: '平面向量',
+    question:
+      '$\\triangle ABC$ 中，$\\overline{AB}=4$，$\\overline{BC}=7$，$\\overline{AC}=5$，試選出內積最小的選項。\n(1) $\\xvector{AB}\\cdot\\xvector{AC}$\n(2) $\\xvector{AB}\\cdot\\xvector{BA}$\n(3) $\\xvector{AB}\\cdot\\xvector{BC}$\n(4) $\\xvector{BC}\\cdot\\xvector{BC}$\n(5) $\\xvector{AC}\\cdot\\xvector{BC}$',
+    answer: '(3)',
+    hasImage: false,
+  },
+  {
+    id: '185152ffb87',
+    chapter: '平面向量',
+    question:
+      '如圖，$O,P,A,Q$ 四點共線，若 $\\xvector{OB}$ 在 $\\xvector{OA}$ 上的正射影為 $\\xvector{OP}$，$\\xvector{OC}$ 在 $\\xvector{OA}$ 上的正射影為 $\\xvector{OQ}$，且 $\\xvector{OQ}=3\\xvector{OP}$，已知內積 $\\xvector{OA}\\cdot\\xvector{OB}=15$，求內積 $\\xvector{OA}\\cdot\\xvector{OC}$ 之值。',
+    answer: '45',
+    hasImage: true,
+  },
+  {
+    id: '18515111010',
+    chapter: '平面向量',
+    question:
+      '在坐標平面上，設 $O$ 為原點，$A(1,2)$，$B(3,7)$。令點集合 $\\Omega=\\{P|\\xvector{OP}=x\\xvector{OA}+y\\xvector{OB},$$-1\\le x\\le3,0\\le y\\le2\\}$，求區域 $\\Omega$ 的面積。',
+    answer: '8',
+    hasImage: false,
+  },
+  {
+    id: '185150ce51e',
+    chapter: '平面向量',
+    question:
+      '在坐標平面中有一 $\\triangle ABC$，其中 $\\xvector{AD}=\\dfrac12\\xvector{AB}+\\xvector{AC}$，則 $\\dfrac{\\triangle ABD面積}{\\triangle ABC面積}=\\textcirc{6-1}$。',
+    answer: '1',
+    hasImage: false,
+  },
   {
     id: '184efcc8aa6',
     chapter: '平面向量',
@@ -23811,6 +23938,14 @@ const spaceVector: Question[] = [
 // 空間中的平面與直線
 const spaceEquations: Question[] = [
   {
+    id: '185150af7d3',
+    chapter: '空間中的平面與直線',
+    question:
+      '如圖，有一邊長為 6 的正立方體在空間坐標當中。$P$ 在 $\\overline{DE}$ 上且 $\\overline{PD}:\\overline{PE}=5:1$，$Q$ 在 $\\overline{GC}$ 上且 $\\overline{QG}:\\overline{QC}=5:1$，$R$ 在 $\\overline{FB}$ 上且 $\\overline{RF}:\\overline{RB}=2:1$。求 $\\xvector{PQ}$ 和 $\\xvector{PR}$ 所圍成的三角形面積為 $\\dfrac{\\sqrt{\\textcirc{5-1}\\textcirc{5-2}\\textcirc{5-3}\\textcirc{5-4}}}2$。',
+    answer: '1957',
+    hasImage: true,
+  },
+  {
     id: '184efba6a95',
     chapter: '空間中的平面與直線',
     question:
@@ -24659,6 +24794,14 @@ const spaceEquations: Question[] = [
 
 // 條件機率
 const conditionalProb: Question[] = [
+  {
+    id: '185150e8b8f',
+    chapter: '條件機率',
+    question:
+      '某一遊戲獎品，可以由一人獨得，也可以兩人同時獲得，兩人得獎與否互為獨立。已知甲、乙兩人獲得此獎的機率相同，並且他們兩人中有人獲獎的機率是 0.51，則甲、乙兩人同時得獎的機率是 $\\textcirc{7-1}.\\textcirc{7-2}\\textcirc{7-3}$。',
+    answer: '0.09',
+    hasImage: false,
+  },
   {
     id: '184d344ce29',
     chapter: '條件機率',

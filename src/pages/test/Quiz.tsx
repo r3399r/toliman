@@ -52,26 +52,25 @@ const Quiz = () => {
   return (
     <MathJax>
       <div className={style.content}>
-        <h1>學測模擬B 111.12.10</h1>
+        <h1>學測模擬B 111.12.17</h1>
         <h3 style={{ marginBottom: 0 }}>一、單選題</h3>
-        {displayQuestion('184efaa464c', 1)}
-        {displayQuestion('184efaf223a', 2)}
-        <div style={{ pageBreakAfter: 'always' }} />
+        {displayQuestion('18514fc31db', 1)}
+        {displayQuestion('18514ff2464', 2)}
         <h3 style={{ marginBottom: 0 }}>二、多選題</h3>
-        {displayQuestion('184efb55bc3', 3)}
-        {/* {displayQuestion('184efba6a95', 4)} */}
-        {displayQuestion('184efc44a03', 4)}
-        <h3 style={{ marginBottom: 0 }}>三、選填題</h3>
-        {displayQuestion('184efc72feb', 5)}
+        {displayQuestion('18515012050', 3)}
         <div style={{ pageBreakAfter: 'always' }} />
-        {/* {displayQuestion('184efc9b0b6', 6)} */}
-        {displayQuestion('184efcc8aa6', 6)}
-        {displayQuestion('184efd0f3dd', 7)}
+        {displayQuestion('185150328a8', 4)}
+        <h3 style={{ marginBottom: 0 }}>三、選填題</h3>
+        {/* {displayQuestion('185150af7d3', 5)} */}
+        {displayQuestion('1851526f05b', 5)}
+        {displayQuestion('185150ce51e', 6)}
+        {displayQuestion('185150e8b8f', 7)}
         <div style={{ pageBreakAfter: 'always' }} />
         <h3 style={{ marginBottom: 0 }}>四、混合題或非選擇題</h3>
-        {displayQuestion('184efd49543', null, '0.5cm')}
-        {displayQuestion('184efd6a593', 8, '2.5cm')}
-        {displayQuestion('184efd8dcc3', 9, '0.5cm')}
+        {displayQuestion('18515156496', null, '0.5cm')}
+        {displayQuestion('185151655ed', 8, '2.5cm')}
+        {displayQuestion('185151796f2', 9, '0.5cm')}
+        {displayQuestion('1851519085a', 10, '0.5cm')}
       </div>
     </MathJax>
   );
