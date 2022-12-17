@@ -3888,6 +3888,93 @@ const expAndLog: Question[] = [
 // 多項式函數
 const polynomial: Question[] = [
   {
+    id: '1851f132eb1',
+    chapter: '多項式函數',
+    question: '已知二次函數 $f(x)=ax^2+bx+c$ 頂點為 (1, -3) 且過點 (2, -1)，求 $a-b+c$。',
+    answer: '5',
+    hasImage: false,
+  },
+  {
+    id: '1851f14e0ef',
+    chapter: '多項式函數',
+    question: '已知函數 $y=ax^2+bx+c$，$a\\ne0$，通過 (-6, 3)、(0, 3) 兩點，求其對稱軸方程式。',
+    answer: '$x=-3$',
+    hasImage: false,
+  },
+  {
+    id: '1851f16e21a',
+    chapter: '多項式函數',
+    question:
+      '圖為二次函數 $y=ax^2+bx+c$ 的圖形。試判定下列數值的正負。\n(1) $a$　(2) $b$　(3) $c$　(4) $b^2-4ac$',
+    answer: '(1) - (2) - (3) + (4) +',
+    hasImage: true,
+  },
+  {
+    id: '1851f17af9a',
+    chapter: '多項式函數',
+    question:
+      '設 $f(x)=x^2-4x+k$，若不論 $x$ 為任何實數，對應的 $f(x)$ 值恆為正數，求實數 $k$ 的範圍。',
+    answer: '$k>4$',
+    hasImage: false,
+  },
+  {
+    id: '1851f190c53',
+    chapter: '多項式函數',
+    question: '已知二次函數 $f(x)=ax^2+bx+\\dfrac1a$ 在 $x=2$ 時有最大值 3，求數對 $(a,b)$。',
+    answer: '(-1, 4)',
+    hasImage: false,
+  },
+  {
+    id: '1851f1eba63',
+    chapter: '多項式函數',
+    question: '設函數 $f(x)=x^2+bx+5$ 的對稱軸為 $x=3$，求 $y=f(x)$ 的最小值。',
+    answer: '-4',
+    hasImage: false,
+  },
+  {
+    id: '1851f1fa335',
+    chapter: '多項式函數',
+    question: '若二次函數圖形通過 (-2, 11)、(-1, 1)、(2, -5) 三點，求此二次函數。',
+    answer: '$2x^2-4x-5$',
+    hasImage: false,
+  },
+  {
+    id: '1851f206659',
+    chapter: '多項式函數',
+    question: '若二次函數圖形以 (-1, 2) 為頂點，又過點 (0, 5)，求此二次函數。',
+    answer: '$3x^2+6x+5$',
+    hasImage: false,
+  },
+  {
+    id: '1851f21348f',
+    chapter: '多項式函數',
+    question: '圖為二次函數 $f(x)$ 的部分圖形，求 $f(4)$',
+    answer: '-10',
+    hasImage: true,
+  },
+  {
+    id: '1851f22ddc1',
+    chapter: '多項式函數',
+    question:
+      '二次函數 $f(x)=x^2+6x+2$ 經向右平移 $h$ 單位、向上平移 $k$ 單位，得一新函數 $g(x)=x^2-10x+22$，試求數對 $(h,k)$。',
+    answer: '(8, 4)',
+    hasImage: false,
+  },
+  {
+    id: '1851f24bb97',
+    chapter: '多項式函數',
+    question: '求 $f(x)=x^3+3x^2+5x+7$ 圖形的對稱中心。',
+    answer: '(-1, 4)',
+    hasImage: false,
+  },
+  {
+    id: '1851f25dfc2',
+    chapter: '多項式函數',
+    question: '若 $y=ax^3+px$ 的圖形如右，試問 $a$、$p$ 的正負。',
+    answer: '$a<0$；$p>0$',
+    hasImage: true,
+  },
+  {
     id: '184fb42781b',
     chapter: '多項式函數',
     question: '設 $f(x)=ax^5+bx^3+cx-3$，若 $f(-3)=7$，求 $f(3)$。',
