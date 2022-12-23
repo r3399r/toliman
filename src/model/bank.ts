@@ -1097,6 +1097,22 @@ const beginner: Question[] = [
 // 數與式
 const numAndEquation: Question[] = [
   {
+    id: '1853f34cd66',
+    chapter: '數與式',
+    question:
+      '設 $x$ 為自然數，$y$ 為整數，且 $0\\le y\\le9$，若分數 $\\dfrac x{777}$ 可表示為循環小數 $0.\\overline{7y7}$，求 $y$。',
+    answer: '4',
+    hasImage: false,
+  },
+  {
+    id: '1853f027ab6',
+    chapter: '數與式',
+    question:
+      '已知 $x$ 是不為 0 的整數，且 $7^{\\frac1x}\\times7^{\\frac2x}\\times7^{\\frac3x}\\times7^{\\frac4x}\\times7^{\\frac5x}\\times7^{\\frac6x}$ 亦為整數，則符合條件的 $x$ 值共有幾個？\n(1) 0　(2) 2　(3) 4　(4) 6　(5) 8',
+    answer: '(3)',
+    hasImage: false,
+  },
+  {
     id: '18514fc31db',
     chapter: '數與式',
     question:
@@ -3887,6 +3903,104 @@ const expAndLog: Question[] = [
 
 // 多項式函數
 const polynomial: Question[] = [
+  {
+    id: '1853f46ee20',
+    chapter: '多項式函數',
+    question:
+      '關於三次函數 $y=(x-1)^3+3(x-1)+2$ 圖形的敘述，下列選項哪些是正確的？\n(1) (0, 0) 為對稱中心\n(2) (1, 2) 為對稱中心\n(3) 圖形可經由 $y=x^3+3x$ 平移得到\n(4) 圖形可經由 $y=x^3+3x+2$ 平移得到\n(5) 圖形可經由 $y=x^3$ 平移得到',
+    answer: '(2)(3)(4)',
+    hasImage: false,
+  },
+  {
+    id: '1853f3985a6',
+    chapter: '多項式函數',
+    question:
+      '已知 $a$ 為實數，多項式 $f(x)$ 滿足 $\\dfrac{f(x)}{(x-3)^2}=\\dfrac3{(x-3)^2}+\\dfrac a{x-3}+2$，且在 $x=2$ 時，$f(x)$ 有最小值 1，試求 $f(x)$ 除以 $x-1$ 的餘式為何？',
+    answer: '3',
+    hasImage: false,
+  },
+  {
+    id: '1853f4cb5b5',
+    chapter: '多項式函數',
+    question:
+      '關於三次函數 $y=-x^3+3x^2-x+2$ 圖形的敘述，下列選項哪些是正確的？\n(1) $y=f(x)$ 圖形的最右方是上升的\n(2) 若 $g(x)=-(x+2)^3+3(x+2)^2-(x+2)+2$，則將 $y=f(x)$ 的圖形向右平移 2 單位可得 $y=g(x)$ 的圖形\n(3) 若 $y=f(x)$ 的圖形可由 $y=ax^3+px$ 的圖形經適當平移後得到，則 $a=-1$\n(4) 若 $y=f(x)$ 的圖形可由 $y=ax^3+px$ 的圖形經適當平移後得到，則 $p=3$\n(5) $y=f(x)$ 的圖形為點對稱圖形',
+    answer: '(3)(5)',
+    hasImage: false,
+  },
+  {
+    id: '1853f50f9a9',
+    chapter: '多項式函數',
+    question:
+      '設三次函數 $y=f(x)=a(x+1)^3+b(x+1)+c$。已知廣域看 $y=f(x)$ 的圖形會很接近 $y=-2x^3$ 的圖形，而局部看 $y=f(x)$ 在 $x=-1$ 附近的圖形卻近似於直線 $y=5x+3$，求序組 $(a,b,c)$。',
+    answer: '(-2,5,-2)',
+    hasImage: false,
+  },
+  {
+    id: '1853f51f711',
+    chapter: '多項式函數',
+    question:
+      '給定三次函數 $y=f(x)=2x^3+6x^2+3x+2$，設 $y=f(x)$ 在 $x=-1$ 附近的一次近似為 $y=ax+b$，求數對 $(a,b)$。',
+    answer: '(-3,0)',
+    hasImage: false,
+  },
+  {
+    id: '1853f54cabe',
+    chapter: '多項式函數',
+    question: '解一次不等式 $x-\\dfrac15\\le 1+\\dfrac x2$。',
+    answer: '$x\\le\\dfrac{12}5$',
+    hasImage: false,
+  },
+  {
+    id: '1853f55503a',
+    chapter: '多項式函數',
+    question: '求解 $x^2-x-6>0$。',
+    answer: '$x>3$ 或 $x<-2$',
+    hasImage: false,
+  },
+  {
+    id: '1853f55bb93',
+    chapter: '多項式函數',
+    question: '求解 $6-5x-x^2>0$。',
+    answer: '$-6<x<1$',
+    hasImage: false,
+  },
+  {
+    id: '1853f564d9d',
+    chapter: '多項式函數',
+    question: '求解 $(x-1)(x-4)<x-5$。',
+    answer: '無解',
+    hasImage: false,
+  },
+  {
+    id: '1853f579d85',
+    chapter: '多項式函數',
+    question:
+      '下列各一元二次不等式何者的解為無解？\n(1) $x^2+x-1>0$\n(2) $x^2-x-3\\le0$\n(3) $x^2+4x+4\\le0$\n(4) $x^2-x+1\\ge0$\n(5) $x^2+x+3\\le0$',
+    answer: '(5)',
+    hasImage: false,
+  },
+  {
+    id: '1853f58b825',
+    chapter: '多項式函數',
+    question: '圖為四次多項式 $y=f(x)$ 的部分圖形，求不等式 $f(x)\\ge0$ 的解。',
+    answer: '$x\\le0$ 或 $x\\ge1$',
+    hasImage: true,
+  },
+  {
+    id: '1853f5a3641',
+    chapter: '多項式函數',
+    question:
+      '下列哪些函數圖形對稱於原點？\n(1) $y=x^3+1$\n(2) $y=-0.01x^3$\n(3) $y=x(x+1)(x-1)$\n(4) $y=-\\sqrt3x^3+2x$\n(5) $y=(x-1)^3+2(x-1)+3$',
+    answer: '(2)(3)(4)',
+    hasImage: false,
+  },
+  {
+    id: '1853f5cbeea',
+    chapter: '多項式函數',
+    question: '將 $f(x)=2x^2+4x$ 向右平移 3 單位，再向下平移 5 單位，得 $g(x)$，求 $g(x)$。',
+    answer: '$2x^2-8x+1$',
+    hasImage: false,
+  },
   {
     id: '1851f132eb1',
     chapter: '多項式函數',
@@ -10407,6 +10521,14 @@ const trigonometric: Question[] = [
 // 數列級數
 const series: Question[] = [
   {
+    id: '1853f0a0904',
+    chapter: '數列級數',
+    question:
+      '小樺每日使用某遊戲點數的策略為：先儲值，讓前一天的剩餘點數變為兩倍，然後再使用 60 點。當遊戲點數變為零或負值時，則停止遊戲。若小樺原先已有遊戲點數 $a$ 點 ($a$ 為正整數)，試選出正確的選項。\n(1) 每一日，小樺剩餘的遊戲點數一定為整數\n(2) 每一日，小樺剩餘的遊戲點數會較前一日減少\n(3) 若二日後，小樺剩餘的遊戲點數恰為 0 點，則 $a$ 之值為 45\n(4) 若每一日小樺剩餘的遊戲點數為一等差數列，則此等差數列的公差為 0\n(5) 若每一日小樺剩餘的遊戲點數為一等比數列，則此等比數列的公比為 1',
+    answer: '(1)(3)(4)(5)',
+    hasImage: false,
+  },
+  {
     id: '184efeba1fc',
     chapter: '數列級數',
     question: '若 $S_n=1+(1+2)+(1+2+2^2)+$$\\cdots+(1+2+\\cdots+2^n)$，求 $S_{10}$。',
@@ -12660,6 +12782,54 @@ const statistics: Question[] = [
 
 // 排列組合與機率
 const combination: Question[] = [
+  {
+    id: '1853f3e1391',
+    chapter: '排列組合與機率',
+    question:
+      '關於 $(2x^2-\\dfrac1x)^5$ 的展開式中，試選出正確的選項。\n(1) $x^{10}$ 的係數為 32\n(2) $x^7$ 的係數為 80\n(3) $x^4$ 的係數為 80\n(4) $x$ 的係數為 40\n(5) 常數項為 0',
+    answer: '(1)(3)(5)',
+    hasImage: false,
+  },
+  {
+    id: '1853f3ba48b',
+    chapter: '排列組合與機率',
+    question:
+      '某一個高中的學生人數總共有 3000 人，其中喜歡打籃球的學生有 2300 人；喜歡打棒球的學生 900 人。如果我們隨機抽取一位學生，抽到喜歡打籃球也喜歡打棒球的學生，機率為 $P$，下列哪些選項是 $P$ 的可能值？(1) 0.05　(2) 0.06\n(3) 0.1　(4) 0.3　(5) 0.5',
+    answer: '(3)(4)',
+    hasImage: false,
+  },
+  {
+    id: '1853f36c0f1',
+    chapter: '排列組合與機率',
+    question:
+      '如圖，若使用紅、黃、藍、綠四色將臺灣地圖中的六個直轄市 (臺北市、新北市、桃園市、臺中市、臺南市、高雄市) 塗色。塗色原則為顏色可重複，但每個直轄市只塗一色，相鄰的兩直轄市不可同色，且臺北市不可以塗紅色，試問塗色方法共有幾種？',
+    answer: '1296',
+    hasImage: true,
+  },
+  {
+    id: '1853f1a6e9a',
+    chapter: '排列組合與機率',
+    question:
+      '因應政府三級警戒室內不得超過五人之政策，若某公司有 6 位員工，負責今天早上及下午的值班，公司設置甲、乙兩個辦公地點，早上需要有 4 位員工，其中 2 人值班甲地點，另 2 人值班乙地點；下午也需要有 4 位員工，其中 2 人值班甲地點，另 2 人值班乙地點。公司規定早上及下午來甲地點的值班員工不可以由同一人擔任，同時早上及下午來乙地點的值班員工也不可以由同一人擔任，則此公司對於員工在辦公地點的值班工作安排共 $\\textcirc{5-1}\\textcirc{5-2}\\textcirc{5-3}\\textcirc{5-4}$ 種方式。',
+    answer: '1710',
+    hasImage: false,
+  },
+  {
+    id: '1853f1c6f00',
+    chapter: '排列組合與機率',
+    question:
+      '一袋中有 9 個硬幣，其中 5 個 50 元，其餘 4 個同幣值，若從袋中一次取出 2 個期望值為 60 元，則其餘 4 個硬幣，每個幣值為 $\\textcirc{6-1}$ 元。',
+    answer: '5',
+    hasImage: false,
+  },
+  {
+    id: '1853f1e4ba3',
+    chapter: '排列組合與機率',
+    question:
+      '已知 $(ax^2+\\dfrac b x)^5$ 中 $x^7$ 的係數為 -810，$x$ 的係數為 -720，求 $(a,b)=(\\textcirc{7-1}\\textcirc{7-2},\\textcirc{7-3}\\textcirc{7-4})$。',
+    answer: '(+-3,-2)',
+    hasImage: false,
+  },
   {
     id: '1851521ec6c',
     chapter: '排列組合與機率',
@@ -15880,6 +16050,14 @@ const combination: Question[] = [
 // 三角函數A
 const trigonometricFuncA: Question[] = [
   {
+    id: '1853f005dc7',
+    chapter: '三角函數A',
+    question:
+      '設 $f(x)=\\cos2x+\\sqrt3\\sin2x$，且 $g(x)=f(x+\\dfrac{\\pi}6)-|x|$，試問 $y=g(x)$ 的圖形與 $x$ 軸的交點個數為何？\n(1) 1　(2) 2　(3) 3　(4) 4　(5) 5',
+    answer: '(2)',
+    hasImage: false,
+  },
+  {
     id: '184efc9b0b6',
     chapter: '三角函數A',
     question:
@@ -17391,6 +17569,22 @@ const trigonometricFuncB: Question[] = [
 
 // 指數與對數函數
 const expAndLogFunction: Question[] = [
+  {
+    id: '1853f3fd355',
+    chapter: '指數與對數函數',
+    question:
+      '將 $y=2^x$ 的圖形先對 $y$ 軸作對稱，再對 $x$ 軸作對稱後，所得到的圖形之方程式為下列何者？\n(1) $y=(\\dfrac12)^x$\n(2) $y=-(\\dfrac12)^x$\n(3) $x=-2^y$\n(4) $y=\\log_2x$\n(5) $y=\\log_{\\frac12}x$',
+    answer: '(2)',
+    hasImage: false,
+  },
+  {
+    id: '1853efe69a9',
+    chapter: '指數與對數函數',
+    question:
+      '小明在足球比賽中，每次起腳射門可以得分的機率為 $\\dfrac23$。求小明至少起腳射門多少次，才可以讓他至少得一分的機率為 0.99？\n(1) 5　(2) 6　(3) 7　(4) 8　(5) 9',
+    answer: '(1)',
+    hasImage: false,
+  },
   {
     id: '18515012050',
     chapter: '指數與對數函數',
@@ -18955,6 +19149,29 @@ const expAndLogFunction: Question[] = [
 
 // 平面向量
 const planeVector: Question[] = [
+  {
+    id: '1853f291063',
+    chapter: '平面向量',
+    question:
+      '蜜蜂的蜂巢是由多個正六邊形的蜂房所疊加而成，其整體的結構在力學上受力最平均且其構成材料最為節省。圖為部分蜂巢結構，若圖中每個六邊形均為鞭長為 1 的正六邊形，定義 $A,B,C,D,E$ 為其中一些正六邊形的頂點。',
+    answer: '',
+    hasImage: true,
+  },
+  {
+    id: '1853f2ad563',
+    chapter: '平面向量',
+    question:
+      '若 $\\xvector{AD}=\\alpha\\xvector{AB}+\\beta\\xvector{AC}$，則 $(\\alpha,\\beta)=(\\textcirc{8-1},\\textcirc{8-2})$。(選填題，6 分)',
+    answer: '(5,2)',
+    hasImage: false,
+  },
+  {
+    id: '1853f2bf5e2',
+    chapter: '平面向量',
+    question: '試計算 $\\xvector{AD}\\cdot\\xvector{AE}$  之值。(非選擇題，9 分)',
+    answer: '10',
+    hasImage: false,
+  },
   {
     id: '1851531b52e',
     chapter: '平面向量',
@@ -26180,6 +26397,14 @@ const conditionalProb: Question[] = [
 // 矩陣A
 export const matrixA: Question[] = [
   {
+    id: '1853f0d0aea',
+    chapter: '矩陣A',
+    question:
+      '若將點 $P(-3,4)$ 先沿 $x$ 方向推移 $y$ 坐標的 2 倍，可得點 $Q(m,n)$，再沿 $y$ 方向推移 $x$ 坐標的 3 倍，可得點 $R(s,t)$，則下列選項哪些正確？\n(1) $m>n$\n(2) $s>t$\n(3) $m=s$\n(4) $\\triangle PQR$ 的面積為 120\n(5) $\\triangle PQR$ 的周長為 40',
+    answer: '(1)(4)',
+    hasImage: false,
+  },
+  {
     id: '1848b5e7845',
     chapter: '矩陣A',
     question:
@@ -28392,6 +28617,14 @@ export const matrixA: Question[] = [
 
 // 矩陣B
 const matrixB: Question[] = [
+  {
+    id: '1853f12171b',
+    chapter: '矩陣B',
+    question:
+      '設 $A,B$ 均為二階方陣，已知 $2A+3B=\\begin{bmatrix}5&3\\\\2&0\\end{bmatrix}$，且 $A-2B=\\begin{bmatrix}-1&-2\\\\1&0\\end{bmatrix}$，試選出正確的選項。\n(1) $A=\\begin{bmatrix}1&1\\\\0&0\\end{bmatrix}$　(2) $B=\\begin{bmatrix}1&0\\\\1&0\\end{bmatrix}$\n(3) $A+B=\\begin{bmatrix}2&1\\\\1&0\\end{bmatrix}$　(4) $A-B=\\begin{bmatrix}0&-1\\\\1&0\\end{bmatrix}$\n(5) $AB=BA$',
+    answer: '(3)(4)',
+    hasImage: false,
+  },
   {
     id: '17a2224ba40',
     chapter: '矩陣B',
