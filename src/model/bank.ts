@@ -8562,6 +8562,13 @@ const lineAndCircle: Question[] = [
 // 三角比
 const trigonometric: Question[] = [
   {
+    id: '1855882edca',
+    chapter: '三角比',
+    question: '試求出 $30\\du$、$45\\du$、$60\\du$ 的正弦值、餘弦值、正切值。',
+    answer: '',
+    hasImage: false,
+  },
+  {
     id: '185152cf2f8',
     chapter: '三角比',
     question:
@@ -8683,7 +8690,7 @@ const trigonometric: Question[] = [
   {
     id: '17ea8e0314e',
     chapter: '三角比',
-    question: '若 $\\theta$ 是第一象限角，則 $\\frac\\theta2$ 可為第幾象限角？',
+    question: '若 $\\theta$ 是第一象限角，則 $\\dfrac\\theta2$ 可為第幾象限角？',
     answer: '一或三',
     hasImage: false,
   },
@@ -8697,7 +8704,7 @@ const trigonometric: Question[] = [
   {
     id: '17ea8e0bef4',
     chapter: '三角比',
-    question: '若 $\\theta$ 是第二象限角，則 $\\frac\\theta3$ 可為第幾象限角？',
+    question: '若 $\\theta$ 是第二象限角，則 $\\dfrac\\theta3$ 可為第幾象限角？',
     answer: '一或二或四',
     hasImage: false,
   },
@@ -8705,7 +8712,7 @@ const trigonometric: Question[] = [
     id: '17ea8e129aa',
     chapter: '三角比',
     question:
-      '以原點為極點，$x$ 軸正向為極軸，將下列各點的極坐標換為直角坐標：\n(1) $[6,150\\du]$ (2) $[4,-300\\du]$ (3) $[3,270\\du]$',
+      '將下列各點的極坐標換為直角坐標：\n(1) $[6,150\\du]$ (2) $[4,-300\\du]$ (3) $[3,270\\du]$',
     answer: '(1) $(-3\\sqrt3,3)$ (2) $(2,2\\sqrt3)$ (3) $(0,-3)$',
     hasImage: false,
   },
@@ -8734,7 +8741,7 @@ const trigonometric: Question[] = [
     id: '17ea8e31e23',
     chapter: '三角比',
     question:
-      '標準位置角 $\\theta$ 的終邊通過點 $P(4,-3)$，求 $\\sin\\theta$、$\\cos\\theta$、$\\tan\\theta$。',
+      '(1) 標準位置角 $\\theta$ 的終邊通過點 $P(4,-3)$，求 $\\sin\\theta$、$\\cos\\theta$、$\\tan\\theta$。\n(2) 標準位置角 $\\phi$ 的終邊通過點 $Q(-5,12)$，求 $\\sin\\phi$、$\\cos\\phi$、$\\tan\\phi$。',
     answer: '$-\\frac35$；$\\frac45$；$-\\frac34$',
     hasImage: false,
   },
@@ -8742,7 +8749,7 @@ const trigonometric: Question[] = [
     id: '17ea8e39f4b',
     chapter: '三角比',
     question:
-      '平面上點 $P(k,-4)$ 為有向角 $\\theta$ 終邊之一點，且 $\\cos\\theta=-\\frac45$，求 $k$、$\\tan\\theta$。',
+      '平面上點 $P(k,-4)$ 為有向角 $\\theta$ 終邊之一點，且 $\\cos\\theta=-\\dfrac45$，求 $k$、$\\tan\\theta$。',
     answer: '$-\\frac{16}3$；$\\frac34$',
     hasImage: false,
   },
@@ -8750,7 +8757,7 @@ const trigonometric: Question[] = [
     id: '17ea8e4fbb4',
     chapter: '三角比',
     question:
-      '一個有向角 $\\theta$ 以 $x$ 軸正向為始邊，終邊通過：\n(1) 點 $(4,-3)$，求 $\\sin\\theta$、$\\cos\\theta$、$\\tan\\theta$\n(2) 點 $(-5,-12)$，求 $\\sin\\theta$、$\\cos\\theta$、$\\tan\\theta$',
+      '標準位置角 $\\theta$ 的終邊通過：\n(1) 點 $(4,-3)$，求 $\\sin\\theta$、$\\cos\\theta$、$\\tan\\theta$\n(2) 點 $(-5,-12)$，求 $\\sin\\theta$、$\\cos\\theta$、$\\tan\\theta$',
     answer:
       '(1) $-\\frac35$；$\\frac45$；$-\\frac34$ (2) $-\\frac{12}{13}$；$-\\frac5{13}$；$\\frac{12}5$',
     hasImage: false,
@@ -8759,7 +8766,7 @@ const trigonometric: Question[] = [
     id: '17ea8e5514b',
     chapter: '三角比',
     question:
-      '若角 $\\theta$ 的終邊上有一點 $P(x,4)$，且 $\\cos\\theta=-\\frac35$，求 $\\tan\\theta$。',
+      '若角 $\\theta$ 的終邊上有一點 $P(x,4)$，且 $\\cos\\theta=-\\dfrac35$，求 $\\tan\\theta$。',
     answer: ' $-\\frac43$',
     hasImage: false,
   },
@@ -8767,9 +8774,8 @@ const trigonometric: Question[] = [
     id: '17ea8e64eae',
     chapter: '三角比',
     question:
-      '已知 $\\theta$ 為有向角，滿足 $\\cos\\theta=-\\frac23$，則：\n(1) 求 $\\sin\\theta$、$\\tan\\theta$\n(2) 若 $\\theta$ 是第三象限角，求 $\\sin\\theta$、$\\tan\\theta$',
-    answer:
-      ' (1) $\\pm\\frac{\\sqrt5}3$；$\\pm\\frac{\\sqrt5}2$ (2) $-\\frac{\\sqrt5}3$；$\\frac{\\sqrt5}2$',
+      '已知 $\\theta$ 為第三象限角且滿足 $\\cos\\theta=-\\dfrac23$，求 $\\sin\\theta$、$\\tan\\theta$。',
+    answer: '$-\\frac{\\sqrt5}3$；$\\frac{\\sqrt5}2$',
     hasImage: false,
   },
   {
@@ -8784,7 +8790,7 @@ const trigonometric: Question[] = [
     id: '17ea8e8fefa',
     chapter: '三角比',
     question:
-      '若點 $P(\\tan\\theta,\\cos\\theta)$ 在第二象限內，則：\n(1) $\\theta$ 是第幾象限角？\n(2) 點 $Q(\\frac{\\sin\\theta}{\\cos\\theta},\\frac1{\\sin\\theta})$ 在第幾象限？',
+      '若點 $P(\\tan\\theta,\\cos\\theta)$ 在第二象限內，則：\n(1) $\\theta$ 是第幾象限角？\n(2) 點 $Q(\\dfrac{\\sin\\theta}{\\cos\\theta},\\dfrac1{\\sin\\theta})$ 在第幾象限？',
     answer: '(1) 四 (2) 三',
     hasImage: false,
   },
@@ -8792,7 +8798,7 @@ const trigonometric: Question[] = [
     id: '17ea8e9b39f',
     chapter: '三角比',
     question:
-      '已知 $\\cos\\theta=-\\frac23$，且 $\\theta$ 為第二象限角，求 $\\sin\\theta$、$\\tan\\theta$。',
+      '已知 $\\cos\\theta=-\\dfrac23$，且 $\\theta$ 為第二象限角，求 $\\sin\\theta$、$\\tan\\theta$。',
     answer: '$\\frac{\\sqrt5}3$；$-\\frac{\\sqrt5}2$',
     hasImage: false,
   },
@@ -8800,7 +8806,7 @@ const trigonometric: Question[] = [
     id: '17ea8ea165a',
     chapter: '三角比',
     question:
-      '若有向角 $\\theta$ 滿足 $\\frac{2\\tan\\theta-1}{\\tan\\theta+2}=\\frac18$，求 $2\\sin\\theta+3\\cos\\theta$。',
+      '若有向角 $\\theta$ 滿足 $\\dfrac{2\\tan\\theta-1}{\\tan\\theta+2}=\\dfrac18$，求 $2\\sin\\theta+3\\cos\\theta$。',
     answer: '$\\pm\\sqrt{13}$',
     hasImage: false,
   },
@@ -8808,7 +8814,7 @@ const trigonometric: Question[] = [
     id: '17ea8eaaabf',
     chapter: '三角比',
     question:
-      '若點 $P(\\sin\\theta\\cos\\theta,\\frac{\\tan\\theta}{\\cos\\theta})$ 在第二象限內，則角 $\\theta$ 的終邊落在第幾象限？',
+      '若點 $P(\\sin\\theta\\cos\\theta,\\dfrac{\\tan\\theta}{\\cos\\theta})$ 在第二象限內，則角 $\\theta$ 的終邊落在第幾象限？',
     answer: '二',
     hasImage: false,
   },
@@ -8816,15 +8822,15 @@ const trigonometric: Question[] = [
     id: '17ea8eb060e',
     chapter: '三角比',
     question:
-      '化簡 $\\sin120\\du\\times\\cos180\\du\\times\\tan300\\du-\\sin^245\\du\\times\\tan315\\du$。',
-    answer: '$2$',
+      '化簡 $\\sin120\\du\\times\\cos180\\du\\times\\tan300\\du$$-\\sin^245\\du\\times\\tan315\\du$。',
+    answer: '2',
     hasImage: false,
   },
   {
     id: '17ea8eb7a51',
     chapter: '三角比',
     question:
-      '求 $\\sin60\\du\\cos150\\du-\\cos135\\du\\sin225\\du+\\frac{\\tan300\\du}{\\cos180\\du}$。',
+      '求 $\\sin60\\du\\cos150\\du-\\cos135\\du\\sin225\\du$$+\\dfrac{\\tan300\\du}{\\cos180\\du}$。',
     answer: '$-\\frac54+\\sqrt3$',
     hasImage: false,
   },
@@ -8832,14 +8838,14 @@ const trigonometric: Question[] = [
     id: '17ea8ebe0bd',
     chapter: '三角比',
     question:
-      '已知 $\\cos\\theta=-\\frac12$，則：\n(1) 若 $0\\du<\\theta<180\\du$，求 $\\theta$\n(2) 若 $0\\du<\\theta<360\\du$，求 $\\theta$',
+      '已知 $\\cos\\theta=-\\dfrac12$，則：\n(1) 若 $0\\du<\\theta<180\\du$，求 $\\theta$\n(2) 若 $0\\du<\\theta<360\\du$，求 $\\theta$',
     answer: '(1) $120\\du$ (2) $120\\du\\lor240\\du$',
     hasImage: false,
   },
   {
     id: '17ea8ec3cc7',
     chapter: '三角比',
-    question: '已知 $\\sin\\theta=-\\frac{\\sqrt3}2$，若 $0\\du<\\theta<360\\du$，求 $\\theta$。',
+    question: '已知 $\\sin\\theta=-\\dfrac{\\sqrt3}2$，若 $0\\du<\\theta<360\\du$，求 $\\theta$。',
     answer: '$240\\du\\lor300\\du$',
     hasImage: false,
   },
@@ -8863,15 +8869,15 @@ const trigonometric: Question[] = [
     id: '17ea8ee568c',
     chapter: '三角比',
     question:
-      '請問下列各選項的敘述，哪些正確？\n(1) 若 $\\theta$ 為任意角度，則 $(\\sin\\theta-1)(\\cos\\theta+1)\\le0$ 必成立\n(2) 若 $\\theta$ 為第一象限角，則 $\\sin\\theta>\\cos\\theta$ 必成立\n(3) 若 $\\theta$ 為第二象限角，則 $\\sin\\theta>\\cos\\theta$ 必成立\n(4) 若 $\\theta$ 為第三象限角，則 $\\cos\\theta>\\tan\\theta$ 必成立\n(5) 若 $0\\du<\\theta<\\phi<90\\du$，則 $(\\sin\\theta-\\sin\\phi)(\\cos\\theta-\\cos\\phi)(\\tan\\theta-\\tan\\phi)>0$ 必成立',
-    answer: '(1)(3)(5)',
+      '請問下列各選項的敘述，哪些正確？\n(1) 若 $\\theta$ 為任意角度，則 $(\\sin\\theta-1)(\\cos\\theta+1)\\le0$\n(2) 若 $\\theta$ 為第一象限角，則 $\\sin\\theta>\\cos\\theta$\n(3) 若 $\\theta$ 為第二象限角，則 $\\sin\\theta>\\cos\\theta$\n(4) 若 $\\theta$ 為第三象限角，則 $\\cos\\theta>\\tan\\theta$',
+    answer: '(1)(3)',
     hasImage: false,
   },
   {
     id: '17ea8ef12ab',
     chapter: '三角比',
     question:
-      '銳角 $\\theta$ 緩慢變動使餘弦值由 $\\frac5{13}$ 遞增為 $\\frac35$，則下列哪些選項的敘述正確？\n(1) 角 $\\theta$ 的大小呈現遞增現象\n(2) 正弦值隨 $\\theta$ 的變動而遞增\n(3) 正切值隨 $\\theta$ 的變動而遞減\n(4) 角 $\\theta$ 的變動過程中會經過 $45\\du$ 角\n(5) 角 $\\theta$ 的變動過程中，有某個角 $\\theta=\\theta_0$ 使 $\\tan\\theta_0=\\sqrt3$',
+      '銳角 $\\theta$ 緩慢變動使餘弦值由 $\\dfrac5{13}$ 遞增為 $\\dfrac35$，則下列哪些選項的敘述正確？\n(1) 角 $\\theta$ 的大小呈現遞增現象\n(2) 正弦值隨 $\\theta$ 的變動而遞增\n(3) 正切值隨 $\\theta$ 的變動而遞減\n(4) 角 $\\theta$ 的變動過程中會經過 $45\\du$ 角\n(5) 角 $\\theta$ 的變動過程中，有某個角 $\\theta=\\theta_0$ 使 $\\tan\\theta_0=\\sqrt3$',
     answer: '(3)(5)',
     hasImage: false,
   },
@@ -8879,7 +8885,7 @@ const trigonometric: Question[] = [
     id: '17ea8ef9b39',
     chapter: '三角比',
     question:
-      '兩圓互相外切，半徑分別為 $2$ 與 $8$，若連心線與外公切線的夾角為 $\\theta$，如圖，求 $\\sin\\theta$、$\\cos\\theta$、$\\tan\\theta$。',
+      '兩圓互相外切，半徑分別為 2 與 8，若連心線與外公切線的夾角為 $\\theta$，如圖，求 $\\sin\\theta$、$\\cos\\theta$、$\\tan\\theta$。',
     answer: '$\\frac35$；$\\frac45$；$\\frac34$',
     hasImage: true,
   },
@@ -8887,8 +8893,8 @@ const trigonometric: Question[] = [
     id: '17ea8f04310',
     chapter: '三角比',
     question:
-      '銳角 $\\triangle ABC$，$\\overline{AB}=50$，若 $\\sin B=\\frac35$，$\\cos C=\\frac8{17}$，求：\n(1) $\\overline{BC}$ (2) $\\triangle ABC$ 的面積',
-    answer: '(1) $56$ (2) $840$',
+      '銳角 $\\triangle ABC$，$\\overline{AB}=50$，若 $\\sin B=\\dfrac35$，$\\cos C=\\dfrac8{17}$，求：\n(1) $\\overline{BC}$ (2) $\\triangle ABC$ 的面積',
+    answer: '(1) 56 (2) 840',
     hasImage: false,
   },
   {
@@ -8902,8 +8908,8 @@ const trigonometric: Question[] = [
     id: '17ea8f11a98',
     chapter: '三角比',
     question:
-      '$\\triangle ABC$ 的 $\\angle B$ 與 $\\angle C$ 為銳角，$\\overline{AB}=10$，若 $\\sin B=\\frac45$，$\\cos C=\\frac{15}{17}$，求：\n(1) $\\overline{BC}$ (2) $\\triangle ABC$ 的面積',
-    answer: '(1) $21$ (2) $84$',
+      '$\\triangle ABC$ 的 $\\angle B$ 與 $\\angle C$ 為銳角，$\\overline{AB}=10$，若 $\\sin B=\\dfrac45$，$\\cos C=\\dfrac{15}{17}$，求：\n(1) $\\overline{BC}$ (2) $\\triangle ABC$ 的面積',
+    answer: '(1) 21 (2) 84',
     hasImage: false,
   },
   {

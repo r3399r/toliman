@@ -90,6 +90,17 @@ const Lecture = () => {
           3-3 多項式不等式
         </Button>
       </div>
+      第二冊 Ch1 三角比
+      <div className={style.button}>
+        <Button variant="contained" onClick={onClick('b2c1s1')}>
+          1-1 三角比的定義與極座標
+        </Button>
+      </div>
+      <div className={style.button}>
+        <Button variant="contained" onClick={onClick('b2c1s2')}>
+          1-2 三角比的性質
+        </Button>
+      </div>
       第三冊 Ch1 指數與對數函數
       <div className={style.button}>
         <Button variant="contained" onClick={onClick('exponentFunction')}>
