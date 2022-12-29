@@ -8,8 +8,10 @@ const B2C1S1 = () => (
   <MathJax>
     <Page pageNum={1}>
       <div className={style.head}>1 三角比的定義與極座標</div>
-      <Concept num={1} title="三角比 $\sin$、$\cos$、$\tan$ 的定義（鋭角）" height="10.5cm" />
-      <Example num={1} ids={['1855882edca']} />
+      <Concept num={1} title="三角比 $\sin$、$\cos$、$\tan$ 的定義（鋭角）" height="10.5cm">
+        <br />
+      </Concept>
+      <Example num={1} ids={['1855882edca']} showAnswer={false} />
     </Page>
     <Page pageNum={2}>
       <Example num={2} ids={['17ea8ef9b39', '17ea8f08a2a']} />
@@ -21,7 +23,7 @@ const B2C1S1 = () => (
         <div className={style.conceptHead}>有向角（廣義角）</div>
         <div>
           1.
-          給定「始邊」及「終邊」，從始邊開始旋轉，轉到終邊的度數即為角的大小，規定「逆時針」為　、「順時針」為
+          給定「始邊」及「終邊」，從始邊開始旋轉，轉到終邊的度數即為角的大小，規定轉動方向「逆時針」為　　、「順時針」為
           <br />
           2. 若始邊為 $x$ 軸的正向，則稱為「標準位置角」
         </div>
@@ -50,15 +52,22 @@ const B2C1S1 = () => (
     </Page>
     <Page pageNum={5}>
       <Concept num={3} title="極坐標">
-        {
-          '平面上 $O$ 為原點，稱為極點，$x$ 軸正向為始邊，稱為極軸，給任一點 $P$，令 $r=\\overline{OP}$，以 $\\overline{OP}$ 為終邊的有向角為 $\\theta$，則可用 $[r,\\theta]$ 表示 $P$ 點的位置'
-        }
+        <div style={{ display: 'flex' }}>
+          <div>
+            {
+              '平面上 $O$ 為原點，稱為極點，$x$ 軸正向為始邊，稱為極軸，給任一點 $P$，令 $r=\\overline{OP}$，以 $\\overline{OP}$ 為終邊的有向角為 $\\theta$，則可用 $[r,\\theta]$ 表示 $P$ 點的位置'
+            }
+          </div>
+          <img src="/toliman/images/極坐標.PNG" style={{ height: '2cm' }} />
+        </div>
       </Concept>
-      <Example num={7} ids={['17ea8e129aa', '17ea8e21395']} height="5.9cm" />
-      <Example num={8} ids={['17ea8e1812a', '17ea8e26b26']} height="5.7cm" />
+      <Example num={7} ids={['17ea8e129aa', '17ea8e21395']} height="5.6cm" />
+      <Example num={8} ids={['17ea8e1812a', '17ea8e26b26']} height="5.5cm" />
     </Page>
     <Page pageNum={6}>
-      <Concept num={4} title="三角比 $\sin$、$\cos$、$\tan$ 的定義（廣義角）" height="10.5cm" />
+      <Concept num={4} title="三角比 $\sin$、$\cos$、$\tan$ 的定義（廣義角）" height="10.5cm">
+        <br />
+      </Concept>
       <Example num={9} ids={['17ea8e31e23', '17ea8e4fbb4']} />
     </Page>
     <Page pageNum={7}>
@@ -66,16 +75,18 @@ const B2C1S1 = () => (
       <Example num={11} ids={['17ea8e64eae', '17ea8e9b39f']} />
     </Page>
     <Page pageNum={8}>
-      <Example num={10} ids={['17ea8e8fefa', '17ea8eaaabf']} />
-      <Concept num={4} title="特殊角的三角比" />
+      <Example num={12} ids={['17ea8e8fefa', '17ea8eaaabf']} />
+      <Concept num={5} title="特殊角的三角比">
+        <br />
+      </Concept>
     </Page>
     <Page pageNum={9}>
-      <Example num={11} ids={['17ea8eb060e', '17ea8eb7a51']} />
-      <Example num={12} ids={['17ea8ebe0bd', '17ea8ec3cc7']} />
+      <Example num={13} ids={['17ea8eb060e', '17ea8eb7a51']} />
+      <Example num={14} ids={['17ea8ebe0bd', '17ea8ec3cc7']} />
     </Page>
     <Page pageNum={10}>
-      <Example num={13} ids={['17ea8ecd941', '17ea8ed6ba2']} />
-      <Example num={14} ids={['17ea8ee568c', '17ea8ef12ab']} />
+      <Example num={15} ids={['17ea8ecd941', '17ea8ed6ba2']} />
+      <Example num={16} ids={['17ea8ee568c', '17ea8ef12ab']} />
     </Page>
   </MathJax>
 );

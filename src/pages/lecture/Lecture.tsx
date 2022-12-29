@@ -101,6 +101,16 @@ const Lecture = () => {
           1-2 三角比的性質
         </Button>
       </div>
+      <div className={style.button}>
+        <Button variant="contained" onClick={onClick('b2c1s3')}>
+          1-3 正弦定理與餘弦定理
+        </Button>
+      </div>
+      <div className={style.button}>
+        <Button variant="contained" onClick={onClick('b2c1s4')}>
+          1-4 反三角與三角測量
+        </Button>
+      </div>
       第三冊 Ch1 指數與對數函數
       <div className={style.button}>
         <Button variant="contained" onClick={onClick('exponentFunction')}>

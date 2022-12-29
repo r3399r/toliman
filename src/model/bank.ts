@@ -8564,7 +8564,7 @@ const trigonometric: Question[] = [
   {
     id: '1855882edca',
     chapter: '三角比',
-    question: '試求出 $30\\du$、$45\\du$、$60\\du$ 的正弦值、餘弦值、正切值。',
+    question: '試求 $30\\du$、$45\\du$、$60\\du$ 的正弦值、餘弦值、正切值。',
     answer: '',
     hasImage: false,
   },
@@ -8893,7 +8893,7 @@ const trigonometric: Question[] = [
     id: '17ea8f04310',
     chapter: '三角比',
     question:
-      '銳角 $\\triangle ABC$，$\\overline{AB}=50$，若 $\\sin B=\\dfrac35$，$\\cos C=\\dfrac8{17}$，求：\n(1) $\\overline{BC}$ (2) $\\triangle ABC$ 的面積',
+      '銳角 $\\triangle ABC$，$\\overline{AB}=50$，若 $\\sin B=\\dfrac35$，$\\cos C=\\dfrac8{17}$，求：(1) $\\overline{BC}$ (2) $\\triangle ABC$ 的面積',
     answer: '(1) 56 (2) 840',
     hasImage: false,
   },
@@ -8933,7 +8933,7 @@ const trigonometric: Question[] = [
     chapter: '三角比',
     question: '作圖求：(1) $\\sin15\\du$ (2) $\\sin75\\du$。',
     answer: '(1) $\\frac{\\sqrt6-\\sqrt2}4$ (2) $\\frac{\\sqrt6+\\sqrt2}4$',
-    hasImage: true,
+    hasImage: false,
   },
   {
     id: '17ea8f4a1df',
@@ -8953,7 +8953,7 @@ const trigonometric: Question[] = [
     id: '17ea8f55181',
     chapter: '三角比',
     question:
-      '若 $\\tan\\theta=\\frac23$，求 $\\frac{2\\sin\\theta-5\\cos\\theta}{3\\sin\\theta+\\cos\\theta}$。',
+      '若 $\\tan\\theta=\\dfrac23$，求 $\\dfrac{2\\sin\\theta-5\\cos\\theta}{3\\sin\\theta+\\cos\\theta}$。',
     answer: '$-\\frac{11}9$',
     hasImage: false,
   },
@@ -8968,7 +8968,7 @@ const trigonometric: Question[] = [
     id: '17ea8f5e597',
     chapter: '三角比',
     question:
-      '若 $\\tan\\theta=2$，求 $\\frac{2\\sin\\theta+4\\cos\\theta}{2\\sin\\theta-\\cos\\theta}$。',
+      '若 $\\tan\\theta=2$，求 $\\dfrac{2\\sin\\theta+4\\cos\\theta}{2\\sin\\theta-\\cos\\theta}$。',
     answer: '$\\frac83$',
     hasImage: false,
   },
@@ -8976,32 +8976,31 @@ const trigonometric: Question[] = [
     id: '17ea8f64f4f',
     chapter: '三角比',
     question:
-      '求 $\\sin^210\\du+\\sin^250\\du+\\sin^2200\\du+\\cos^210\\du+\\cos^250\\du+\\cos^2200\\du$。',
-    answer: '$3$',
+      '求 $\\sin^210\\du+\\sin^250\\du+\\sin^2200\\du+\\cos^210\\du$$+\\cos^250\\du+\\cos^2200\\du$',
+    answer: '3',
     hasImage: false,
   },
   {
     id: '17ea8f6bcf2',
     chapter: '三角比',
     question:
-      '銳角 $\\theta$，若 $\\sin\\theta+\\cos\\theta=\\frac54$，求：\n(1) $\\sin\\theta\\cos\\theta$ (2) $\\sin^3\\theta+\\cos^3\\theta$',
+      '銳角 $\\theta$，若 $\\sin\\theta+\\cos\\theta=\\dfrac54$，求：\n(1) $\\sin\\theta\\cos\\theta$　(2) $\\sin^3\\theta+\\cos^3\\theta$',
     answer: '(1) $\\frac9{32}$ (2) $\\frac{115}{128}$',
     hasImage: false,
   },
   {
     id: '17ea8f6faeb',
     chapter: '三角比',
-    question: '求 $\\sin^2110\\du-\\sin^2400\\du+\\cos^2110\\du-\\cos^2400\\du$。',
-    answer: '$0$',
+    question: '$\\sin^2110\\du-\\sin^2400\\du+\\cos^2110\\du-\\cos^2400\\du$',
+    answer: '0',
     hasImage: false,
   },
   {
     id: '17ea8f89829',
     chapter: '三角比',
     question:
-      '設 $\\theta$ 為有向角，若 $\\sin\\theta-\\cos\\theta=\\frac13$，求：\n(1) $\\sin\\theta\\cos\\theta$\n(2) $\\sin^3\\theta-\\cos^3\\theta$\n(3) $\\sin^4\\theta+\\cos^4\\theta$\n(4) $\\sin\\theta+\\cos\\theta$',
-    answer:
-      '(1) $\\frac49$ (2) $\\frac{13}{27}$ (3) $\\frac{49}{81}$ (4) $\\pm\\frac{\\sqrt{17}}3$',
+      '設 $\\theta$ 為有向角，若 $\\sin\\theta-\\cos\\theta=\\dfrac13$，求：\n(1) $\\sin\\theta\\cos\\theta$　(2) $\\sin^3\\theta-\\cos^3\\theta$',
+    answer: '(1) $\\frac49$ (2) $\\frac{13}{27}$',
     hasImage: false,
   },
   {
@@ -9030,7 +9029,7 @@ const trigonometric: Question[] = [
     id: '17ea8fa29fa',
     chapter: '三角比',
     question:
-      '設有向角 $\\theta$ 不是 $90\\du$ 的整數倍，化簡 $\\frac{\\sin(\\theta-90\\du)}{\\cos(\\theta-180\\du)}+\\frac{\\cos(\\theta+90\\du)}{\\sin(\\theta+270\\du)\\times\\tan(-\\theta)}$。',
+      '設有向角 $\\theta$ 不是 $90\\du$ 的整數倍，化簡 $\\dfrac{\\sin(\\theta-90\\du)}{\\cos(\\theta-180\\du)}+\\dfrac{\\cos(\\theta+90\\du)}{\\sin(\\theta+270\\du)\\times\\tan(-\\theta)}$',
     answer: '$0$',
     hasImage: false,
   },
@@ -9047,21 +9046,21 @@ const trigonometric: Question[] = [
     id: '17ea8fc3d48',
     chapter: '三角比',
     question:
-      '設有向角 $\\theta$ 不是 $90\\du$ 的整數倍，化簡 $\\frac{\\sin(-\\theta)}{\\sin(\\theta+180\\du)}+\\frac{\\cos(-\\theta)}{\\cos(\\theta-180\\du)}+\\frac{\\tan(-\\theta)}{\\tan(\\theta+180\\du)}$。',
+      '設有向角 $\\theta$ 不是 $90\\du$ 的整數倍，化簡 $\\dfrac{\\sin(-\\theta)}{\\sin(\\theta+180\\du)}+\\dfrac{\\cos(-\\theta)}{\\cos(\\theta-180\\du)}+\\dfrac{\\tan(-\\theta)}{\\tan(\\theta+180\\du)}$',
     answer: '$-1$',
     hasImage: false,
   },
   {
     id: '17ea8fc7abc',
     chapter: '三角比',
-    question: '若 $\\cos(-123\\du)=k$，求：(1) $\\sin597\\du$ (2) $\\tan213\\du$。',
+    question: '若 $\\cos(-123\\du)=k$，求：\n(1) $\\sin597\\du$　(2) $\\tan213\\du$。',
     answer: '(1) $-\\sqrt{1-k^2}$ (2) $\\frac{-k}{\\sqrt{1-k^2}}$',
     hasImage: false,
   },
   {
     id: '17ea8fce8e1',
     chapter: '三角比',
-    question: '若 $\\cos100\\du=k$，求：(1) $\\sin(-80\\du)$ (2) $\\tan(-260\\du)$。',
+    question: '若 $\\cos100\\du=k$，求：\n(1) $\\sin(-80\\du)$　(2) $\\tan(-260\\du)$。',
     answer: '(1) $-\\sqrt{1-k^2}$ (2) $\\frac{\\sqrt{1-k^2}}k$',
     hasImage: false,
   },
@@ -9078,7 +9077,7 @@ const trigonometric: Question[] = [
     chapter: '三角比',
     question:
       '$\\triangle ABC$ 的面積為 $50$，$D$ 在 $\\overline{AB}$ 上，$\\overline{AD}:\\overline{DB}=2:3$，$E$ 在 $\\overline{AC}$ 上，$\\overline{AE}:\\overline{EC}=1:4$，求 $\\triangle ADE$ 的面積。',
-    answer: '$4$',
+    answer: '4',
     hasImage: false,
   },
   {
@@ -9093,8 +9092,8 @@ const trigonometric: Question[] = [
     id: '17ea8ff12ab',
     chapter: '三角比',
     question:
-      '$\\triangle ABC$ 的面積為 $75$，$D$、$E$、$F$ 分別在 $\\overline{AB}$、$\\overline{BC}$、$\\overline{CA}$ 上，若 $\\overline{AD}:\\overline{DB}=3:2$，$\\overline{BE}:\\overline{EC}=4:1$、$\\overline{CF}:\\overline{FA}=1:2$，求 $\\triangle DEF$ 的面積。',
-    answer: '$16$',
+      '$\\triangle ABC$ 的面積為 75，$D$、$E$、$F$ 分別在 $\\overline{AB}$、$\\overline{BC}$、$\\overline{CA}$ 上，若 $\\overline{AD}:\\overline{DB}=3:2$，$\\overline{BE}:\\overline{EC}=4:1$、$\\overline{CF}:\\overline{FA}=1:2$，求 $\\triangle DEF$ 的面積。',
+    answer: '16',
     hasImage: false,
   },
   {
@@ -9117,7 +9116,7 @@ const trigonometric: Question[] = [
     id: '17ea901c4df',
     chapter: '三角比',
     question:
-      '$\\triangle ABC$ 中，$\\angle B=45\\du$，$\\angle C=30\\du$，$\\overline{AC}=8$，求：\n(1) $\\overline{AB}$ (2) $\\overline{BC}$ (3) 外接圓半徑',
+      '$\\triangle ABC$ 中，$\\angle B=45\\du$，$\\angle C=30\\du$，$\\overline{AC}=8$，求：(1) $\\overline{AB}$ (2) $\\overline{BC}$ (3) 外接圓半徑',
     answer: '(1) $4\\sqrt2$ (2) $4+4\\sqrt3$ (3) $4\\sqrt2$',
     hasImage: true,
   },
@@ -9165,9 +9164,9 @@ const trigonometric: Question[] = [
     id: '17ea90cdd49',
     chapter: '三角比',
     question:
-      '$\\triangle ABC$ 如圖，$\\overline{AB}=2$，$\\overline{AC}=3$，$\\angle A=60\\du$，求： (1) $\\overline{BC}$ (2) $\\cos B$',
+      '$\\triangle ABC$ 中，$\\overline{AB}=2$，$\\overline{AC}=3$，$\\angle A=60\\du$，求： (1) $\\overline{BC}$ (2) $\\cos B$',
     answer: '(1) $\\sqrt7$ (2) $\\frac{\\sqrt7}{14}$',
-    hasImage: true,
+    hasImage: false,
   },
   {
     id: '17ea90d1e03',
@@ -9183,7 +9182,7 @@ const trigonometric: Question[] = [
     question:
       '$\\triangle ABC$ 的 $\\overline{AB}=3$，$\\overline{AC}=5$，$\\angle A=60\\du$，求 $\\overline{BC}$。',
     answer: '$\\sqrt{19}$',
-    hasImage: true,
+    hasImage: false,
   },
   {
     id: '17ea90e0267',
@@ -9198,7 +9197,7 @@ const trigonometric: Question[] = [
     chapter: '三角比',
     question:
       '$\\triangle ABC$ 的三邊長為 $\\overline{AB}=12$，$\\overline{BC}=14$，$\\overline{CA}=16$，求 $\\angle A$ 的內角平分線段長。',
-    answer: '$12$',
+    answer: '12',
     hasImage: false,
   },
   {
@@ -9213,15 +9212,15 @@ const trigonometric: Question[] = [
     id: '17ea8927413',
     chapter: '三角比',
     question:
-      '如圖，圓內接四邊形 $ABCD$ 的四邊長為 $\\overline{AB}=5$，$\\overline{BC}=3$，$\\overline{CD}=3$，$\\overline{DA}=4$，求：\n(1) 對角線 $\\overline{AC}$\n(2) 此圓半徑\n(3) 四邊形 $ABCD$ 面積',
+      '圓內接四邊形 $ABCD$ 的四邊長為 $\\overline{AB}=5$，$\\overline{BC}=3$，$\\overline{CD}=3$，$\\overline{DA}=4$，求：\n(1) $\\overline{AC}$ (2) 此圓半徑 (3) 四邊形 $ABCD$ 面積',
     answer: '(1) $\\sqrt{29}$ (2) $\\frac{3\\sqrt{29}}{\\sqrt{35}}$ (3) $\\frac{9\\sqrt{35}}4$',
-    hasImage: true,
+    hasImage: false,
   },
   {
     id: '17ea8923f68',
     chapter: '三角比',
     question:
-      '圓內接四邊形 $ABCD$ 的四邊長為 $\\overline{AB}=3$，$\\overline{BC}=4$，$\\overline{CD}=4$，$\\overline{DA}=6$，求：\n(1) $\\overline{AC}$\n(2) 此圓半徑\n(3) 四邊形 $ABCD$ 面積',
+      '圓內接四邊形 $ABCD$ 的四邊長為 $\\overline{AB}=3$，$\\overline{BC}=4$，$\\overline{CD}=4$，$\\overline{DA}=6$，求：\n(1) $\\overline{AC}$ (2) 此圓半徑 (3) 四邊形 $ABCD$ 面積',
     answer: '(1) $\\sqrt{34}$ (2)$\\frac{4\\sqrt{34}}{\\sqrt{55}}$ (3)$\\frac{9\\sqrt{55}}4$',
     hasImage: false,
   },
@@ -9245,31 +9244,30 @@ const trigonometric: Question[] = [
     id: '17ea89512df',
     chapter: '三角比',
     question:
-      '$\\triangle ABC$ 中，若 $\\overline{AB}=9$，$\\overline{BC}=6$，$\\overline{CA}=7$，求：\n(1) $\\triangle ABC$ 的面積\n(2) 以 $\\overline{BC}$ 為底的高\n(3) 內切圓半徑\n(4) 外接圓半徑',
-    answer:
-      '(1) $2\\sqrt{110}$ (2) $\\frac{2\\sqrt{110}}3$ (3) $\\frac{2\\sqrt{110}}{11}$ (4) $\\frac{189}{4\\sqrt{110}}$',
+      '$\\triangle ABC$ 中，若 $\\overline{AB}=9$，$\\overline{BC}=6$，$\\overline{CA}=7$，求：(1) $\\triangle ABC$ 的面積\n(2) 以 $\\overline{BC}$ 為底的高 (3) 內切圓半徑',
+    answer: '(1) $2\\sqrt{110}$ (2) $\\frac{2\\sqrt{110}}3$ (3) $\\frac{2\\sqrt{110}}{11}$',
     hasImage: false,
   },
   {
     id: '17ea8957593',
     chapter: '三角比',
     question:
-      '$\\triangle ABC$ 中，過 $A$、$B$、$C$ 的三中線依次為 $5$、$6$、$7$，求 $\\triangle ABC$ 的面積。',
+      '$\\triangle ABC$ 中，過 $A$、$B$、$C$ 的三中線依次為 5、6、7，求 $\\triangle ABC$ 的面積。',
     answer: '$8\\sqrt6$',
-    hasImage: true,
+    hasImage: false,
   },
   {
     id: '17ea58dea11',
     chapter: '三角比',
     question:
-      '$\\triangle ABC$ 中，$\\overline{AB}=4，\\overline{BC}=5，\\overline{CA}=6$，求:\n(1)$\\triangle ABC$ 的面積\n(2)內切圓半徑\n(3)外接圓半徑\n',
-    answer: '(1))$\\frac{15\\sqrt{7}}{4}$\n(2)$\\frac{\\sqrt{7}}{2}$\n(3)$)$\\frac{8\\sqrt{7}}{7}$',
+      '$\\triangle ABC$ 中，$\\overline{AB}=4，\\overline{BC}=5，\\overline{CA}=6$，求：(1) $\\triangle ABC$ 的面積 (2) 內切圓半徑',
+    answer: '(1) $\\frac{15\\sqrt7}4$ (2) $\\frac{\\sqrt{7}}{2}$',
     hasImage: false,
   },
   {
     id: '17ea896b284',
     chapter: '三角比',
-    question: '$\\triangle ABC$ 三中線長各為 $7$、$8$、$9$，求 $\\triangle ABC$ 的面積。',
+    question: '$\\triangle ABC$ 三中線長各為 7、8、9，求 $\\triangle ABC$ 的面積。',
     answer: '$16\\sqrt5$',
     hasImage: false,
   },
@@ -9320,7 +9318,7 @@ const trigonometric: Question[] = [
     id: '17ea89b26a0',
     chapter: '三角比',
     question:
-      '一小島四周 $7$ 公里內設有水雷，有一船向正東方行駛，初見小船在北 $60\\du$ 東，行駛 $5$ 公里後見小島在東北方，若航向不變，此船是否有危險？',
+      '一小島四周 7 公里內設有水雷，有一船向正東方行駛，初見小船在北 $60\\du$ 東，行駛 5 公里後見小島在東北方，若航向不變，此船是否有危險？',
     answer: '是',
     hasImage: false,
   },
@@ -9328,15 +9326,15 @@ const trigonometric: Question[] = [
     id: '17ea89cc79c',
     chapter: '三角比',
     question:
-      '根據氣象預報，某颱風於某日下午 $2$ 時的中心位置在鵝鑾鼻燈塔正南方 $300$ 公里處，暴風半徑為 $250$ 公里，以每小時 $50$ 公里的速率朝「北 $30\\du$ 西」等速直線前進。設此颱風的速度方向及暴風半徑都不變，求鵝鑾鼻燈塔在此暴風圈內前後共計有幾小時？',
-    answer: '$8$',
+      '根據氣象預報，某颱風於某日下午 2 時的中心位置在鵝鑾鼻燈塔正南方 300 公里處，暴風半徑為 250 公里，以每小時 50 公里的速率朝「北 $30\\du$ 西」等速直線前進。設此颱風的速度方向及暴風半徑都不變，求鵝鑾鼻燈塔在此暴風圈內前後共計有幾小時？',
+    answer: '8',
     hasImage: false,
   },
   {
     id: '17ea89dba3a',
     chapter: '三角比',
     question:
-      '一小島四周 $3$ 浬內設有水雷，有一船向正東方行，初見小島在北 $69\\du$ 東，行\n駛 $5$ 浬後看見小島在北 $18\\du$ 東，若航向不變，此船是否有危險？(可用計算機)',
+      '一小島四周 3 浬內設有水雷，有一船向正東方行，初見小島在北 $69\\du$ 東，行駛 5 浬後看見小島在北 $18\\du$ 東，若航向不變，此船是否有危險？(可用計算機)',
     answer: '是',
     hasImage: false,
   },
@@ -9344,23 +9342,23 @@ const trigonometric: Question[] = [
     id: '17ea89e4fbf',
     chapter: '三角比',
     question:
-      '某颱風於午 $9$ 時的中心位置在燈塔正北方 $500$ 公里處，暴風半徑為 $300$ 公里，以每小時 $10\\sqrt{11}$ 公里的速率朝「南 $30\\du$ 西」等速直線前進。設此颱風的速度方向及暴風半徑都不變，求燈塔在此暴風圈内前後共計有小時？',
-    answer: '$10$',
+      '某颱風於午 9 時的中心位置在燈塔正北方 500 公里處，暴風半徑為 300 公里，以每小時 $10\\sqrt{11}$ 公里的速率朝「南 $30\\du$ 西」等速直線前進。設此颱風的速度方向及暴風半徑都不變，求燈塔在此暴風圈内前後共計有小時？',
+    answer: '10',
     hasImage: false,
   },
   {
     id: '17ea89f0591',
     chapter: '三角比',
     question:
-      '司令臺上有一旗座，旗座上豎一旗竿，已知旗竿長 $4$ 公尺，在地面某處測得司令臺、旗座、竿頂的仰角分別為 $45\\du$、$60\\du$、$75\\du$，求司令台的高度。',
-    answer: '$2$ 公尺',
+      '司令臺上有一旗座，旗座上豎一旗竿，已知旗竿長 4 公尺，在地面某處測得司令臺、旗座、竿頂的仰角分別為 $45\\du$、$60\\du$、$75\\du$，求司令台的高度。',
+    answer: '2 公尺',
     hasImage: false,
   },
   {
     id: '17ea8a01b7b',
     chapter: '三角比',
     question:
-      '房屋上有一塔，塔頂豎一天線鐵桿，已知天線鐵桿高 $30$ 公尺，在地面測得屋頂、塔項、桿頂的仰角分别為 $30\\du$、$45\\du$、$60\\du$，求房屋高度。',
+      '房屋上有一塔，塔頂豎一天線鐵桿，已知天線鐵桿高 30 公尺，在地面測得屋頂、塔項、桿頂的仰角分别為 $30\\du$、$45\\du$、$60\\du$，求房屋高度。',
     answer: '$15+5\\sqrt3$ 公尺',
     hasImage: false,
   },
@@ -9601,6 +9599,14 @@ const trigonometric: Question[] = [
     chapter: '三角比',
     question:
       '某人隔河測一山高，在 $A$ 點觀測山時，山的方位為東偏北 $60\\du$，山頂的仰角為 $45\\du$，某人自 $A$ 點向東行 600 公尺到達 $B$ 點，山的方位變成在西偏北 $60\\du$，求山高。',
+    answer: '600 公尺',
+    hasImage: false,
+  },
+  {
+    id: '17ad187f99f',
+    chapter: '三角比',
+    question:
+      '某人隔著河，想測河對岸山高，在 $A$ 點觀測山時，山在 $A$ 的東 $60\\du$ 北，山頂的仰角為 $60\\du$，若自 $A$ 點向東行 600 公尺到達一點 $B$，測得山在 $B$ 的西 $60\\du$ 北，求山高。',
     answer: '600 公尺',
     hasImage: false,
   },

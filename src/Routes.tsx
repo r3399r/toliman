@@ -19,6 +19,8 @@ import C3S2 from './pages/lecture/book1/C3S2';
 import C3S3 from './pages/lecture/book1/C3S3';
 import B2C1S1 from './pages/lecture/book2/B2C1S1';
 import B2C1S2 from './pages/lecture/book2/B2C1S2';
+import B2C1S3 from './pages/lecture/book2/B2C1S3';
+import B2C1S4 from './pages/lecture/book2/B2C1S4';
 import C1S1ExponentFunction from './pages/lecture/book3/C1S1ExponentFunction';
 import C1S2Logarithm from './pages/lecture/book3/C1S2Logarithm';
 import C1S3LogarithmFunctiontsx from './pages/lecture/book3/C1S3LogarithmFunction';
@@ -93,6 +95,8 @@ const AppRoutes = () => (
 
     <Route path="/toliman/lecture/b2c1s1" element={<B2C1S1 />} />
     <Route path="/toliman/lecture/b2c1s2" element={<B2C1S2 />} />
+    <Route path="/toliman/lecture/b2c1s3" element={<B2C1S3 />} />
+    <Route path="/toliman/lecture/b2c1s4" element={<B2C1S4 />} />
 
     <Route path="/toliman/lecture/exponentFunction" element={<C1S1ExponentFunction />} />
     <Route path="/toliman/lecture/logarithm" element={<C1S2Logarithm />} />
