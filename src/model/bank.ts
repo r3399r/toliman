@@ -1097,6 +1097,14 @@ const beginner: Question[] = [
 // 數與式
 const numAndEquation: Question[] = [
   {
+    id: '1855e24305c',
+    chapter: '數與式',
+    question:
+      '下列哪個函數的最小值與其他不同？\n(1) $f(x)=|x-1|+|x+3|$\n(2) $g(x)=(x+\\sqrt2)^2+(x-\\sqrt2)^2+x^2$\n(3) $p(x)=2^{x^2+2}$\n(4) $q(x)=2x+y$，其中 $x>0$，$y>0$，$xy=2$\n(5) $h(\\theta)=\\cos\\theta+\\dfrac4{\\cos\\theta}$，其中 $\\theta$ 為第一象限角',
+    answer: '5',
+    hasImage: false,
+  },
+  {
     id: '1853f34cd66',
     chapter: '數與式',
     question:
@@ -3904,6 +3912,95 @@ const expAndLog: Question[] = [
 // 多項式函數
 const polynomial: Question[] = [
   {
+    id: '1855ea457da',
+    chapter: '多項式函數',
+    question:
+      '設多項式 $f(x)$ 除以 $x+1$、$x+2$ 的餘式分別為 -1、2，且 $f(x)$ 除以 $x^2+3x+2$ 的餘式為 $px+q$，求數對 $(p,q)$。',
+    answer: '(-3, -4)',
+    hasImage: false,
+  },
+  {
+    id: '1855ea2e3a4',
+    chapter: '多項式函數',
+    question:
+      '已知三次函數 $y=f(x)$ 的對稱中心為 (1, 2) 且點 (2, 1) 與點 (3, -12) 在此三次函數圖形上，求 $f(0)$。',
+    answer: '3',
+    hasImage: false,
+  },
+  {
+    id: '1855ea1849e',
+    chapter: '多項式函數',
+    question: '已知多項式函數 $f(x)=(x^4-9x^2+4)(x+2)-5$，求 $f(x)$ 除以 $x+3$ 的餘式。',
+    answer: '-9',
+    hasImage: false,
+  },
+  {
+    id: '1855e9f1218',
+    chapter: '多項式函數',
+    question:
+      '已知 $f(x)=x^3+ax^2+bx+c$ 的圖形過三點 (1, 0), (0, 0), (-1, 0)，則將 $y=f(x)$ 的圖形向左平移 2 單位得 $y=g(x)$ 的圖形，求不等式 $g(x)>0$ 的解。',
+    answer: '$-3<x<-2$ or $x>-1$',
+    hasImage: false,
+  },
+  {
+    id: '1855e9b97ad',
+    chapter: '多項式函數',
+    question: '不等式 $(x+2)^{105}(x^2-2x-4)(x^2-2x+5)\\le0$ 的整數解有幾個？',
+    answer: '4',
+    hasImage: false,
+  },
+  {
+    id: '1855e9a82e8',
+    chapter: '多項式函數',
+    question: '求不等式 $x^2(x+5)(x+1)(x-4)$$<(2x-3)(x+5)(x+1)(x-4)$ 的解。',
+    answer: '$x<-5$ or $-1<x<4$',
+    hasImage: false,
+  },
+  {
+    id: '1855e99ba58',
+    chapter: '多項式函數',
+    question:
+      '已知三次函數 $y=f(x)$ 與 $x$ 軸交於點 $P(-1,0)$、$Q(2,0)$，且函數圖形也過 $(0, -6)$、(4, -50) 兩點，求不等式 $f(x)>0$ 的解。',
+    answer: '$x<-1$ or $\\frac32<x<2$',
+    hasImage: true,
+  },
+  {
+    id: '1855e9837a8',
+    chapter: '多項式函數',
+    question: '已知二次函數 $y=ax^2+8x-5$ 的圖形恆在直線 $y=2x+4$ 的下方，求 $a$ 的範圍。',
+    answer: '$a<-1$',
+    hasImage: false,
+  },
+  {
+    id: '1855e97653f',
+    chapter: '多項式函數',
+    question:
+      '設 $f(x)=mx^2+(2m-3)x+(m-1)$，其中 $m\\ne0$，若對任意實數 $f(x)>0$ 恆成立，求 $m$ 的範圍。',
+    answer: '$m>\\frac98$',
+    hasImage: false,
+  },
+  {
+    id: '1855e962b8c',
+    chapter: '多項式函數',
+    question: '滿足不等式 $(x-2)(3x+20)(x-6)(2x+3)<0$ 的整數解有幾個？',
+    answer: '8',
+    hasImage: false,
+  },
+  {
+    id: '1855e959f66',
+    chapter: '多項式函數',
+    question: '求不等式 $3(x+1)^2(x-1)>0$ 的解。',
+    answer: '$x>1$',
+    hasImage: false,
+  },
+  {
+    id: '1855e94dd45',
+    chapter: '多項式函數',
+    question: '設二次函數 $f(x)=ax^2+5x+a>0$ 恆成立，求 $a$ 的範圍。',
+    answer: '$a>\\frac52$',
+    hasImage: false,
+  },
+  {
     id: '1853f46ee20',
     chapter: '多項式函數',
     question:
@@ -6278,6 +6375,14 @@ const polynomial: Question[] = [
 // 直線與圓
 const lineAndCircle: Question[] = [
   {
+    id: '1855e707146',
+    chapter: '直線與圓',
+    question:
+      '坐標平面上有兩條平行直線距離為 36。它們的 $x$ 截距相差 60。則這兩條平行直線的 $y$ 截距相差？',
+    answer: '45',
+    hasImage: false,
+  },
+  {
     id: '18515257984',
     chapter: '直線與圓',
     question:
@@ -8562,6 +8667,29 @@ const lineAndCircle: Question[] = [
 // 三角比
 const trigonometric: Question[] = [
   {
+    id: '1855e7422e3',
+    chapter: '三角比',
+    question: '圖為 7 個全等的正六邊形組成的圖形，試求 $\\cos\\theta$。',
+    answer: '$\\frac{10}{\\sqrt{247}}$',
+    hasImage: true,
+  },
+  {
+    id: '1855e33adab',
+    chapter: '三角比',
+    question:
+      '坐標平面上，$O$ 為原點，已知點 $C$ 為 $\\overline{AB}$ 中點，且 $A[2,\\theta_1]$，$B[4,\\theta_2]$，$\\cos\\theta_1=\\dfrac35$，$0\\du<\\theta_1<\\theta_2<180\\du$。若 $\\angle AOB=90\\du$，則點 $C$ 的直角坐標為 $(\\textcirc{5-1}\\textcirc{5-2},\\textcirc{5-3})$。',
+    answer: '(-1,2)',
+    hasImage: false,
+  },
+  {
+    id: '1855e313f18',
+    chapter: '三角比',
+    question:
+      '如圖，$\\triangle ABC$ 中，$\\angle C=90\\du$，$\\overline{AC}=8$，$\\overline{BC}=6$，$\\overline{CD}\\perp\\overline{AB}$，點 $E$ 在 $\\overline{AB}$ 上，試選出正確的選項。\n(1) $\\cos\\angle ACD=\\dfrac45$\n(2) 若 $E$ 為 $\\overline{AB}$ 中點，則 $\\sin\\angle CEB:\\sin\\angle ECB=6:5$\n(3) 若 $E$ 為 $\\overline{AB}$ 中點，則 $\\sin\\angle CEB=\\dfrac{24}{25}$\n(4) 若 $\\overline{CE}$ 為 $\\angle ACB$ 的角平分線，則 $\\overline{CE}=\\dfrac{12\\sqrt2}7$\n(5) $\\triangle ACE$、$\\triangle BCE$ 外接圓半徑比為 4:3',
+    answer: '235',
+    hasImage: true,
+  },
+  {
     id: '1855882edca',
     chapter: '三角比',
     question: '試求 $30\\du$、$45\\du$、$60\\du$ 的正弦值、餘弦值、正切值。',
@@ -10533,6 +10661,14 @@ const trigonometric: Question[] = [
 // 數列級數
 const series: Question[] = [
   {
+    id: '1855e6ee478',
+    chapter: '數列級數',
+    question:
+      '設等比數列 $\\langle a_n\\rangle$ 共有 108 項，且每一項都是不為 0 的實數，若公比為 $r$，$S_n$ 表示此數列前 $n$ 項的和。試選出正確的選項。\n(1) 若 $a_{99}<a_{100}$，則 $r>1$\n(2) $a_{99}^2=a_{97}\\times a_{101}$\n(3) 若 $S_{108}>0$，則 $r>0$\n(4) 若 $S_{108}=0$，則 $r<0$\n(5) $S_{10},S_{20},S_{30}$ 成等比',
+    answer: '(2)(4)',
+    hasImage: false,
+  },
+  {
     id: '1853f0a0904',
     chapter: '數列級數',
     question:
@@ -11637,6 +11773,14 @@ const series: Question[] = [
 
 // 數據分析
 const statistics: Question[] = [
+  {
+    id: '1855e2ca335',
+    chapter: '數據分析',
+    question:
+      '班上 50 個學生參加科目 A、B 的能力測驗，各科分數計算均為 0 分至 100 分。已知科目 A 的平均成績為 60 分，標準差為 15 分；科目 B 的平均成績為 $k$ 分，標準差為 12 分。由最小平方法得到科目 B 對科目 A 的迴歸直線為 $y=\\dfrac34x+17$，試選出正確的選項。\n(1) 全班有 25 人科目 A 的分數低於 60 分\n(2) 由標準差可知科目 A 的全距一定大於科目 $B$ 的全距\n(3) $k>60$\n(4) 科目 A 與科目 B 的相關係數大於 0.8\n(5) 已知班上的小櫻同學在科目 A 得到 72 分，則利用迴歸直線可知其科目 B 成績一定為 71 分',
+    answer: '34',
+    hasImage: false,
+  },
   {
     id: '18515156496',
     chapter: '數據分析',
@@ -12794,6 +12938,30 @@ const statistics: Question[] = [
 
 // 排列組合與機率
 const combination: Question[] = [
+  {
+    id: '1855e75aebd',
+    chapter: '排列組合與機率',
+    question:
+      '有 10 個大小相同的球，其中 4 個為紅球，6 個為白球。將 10 個球全放入圖中的方格裡，每格放一球，若上列至少 2 個紅球且同一行不可皆為紅球，共有幾種放入的方法？',
+    answer: '55',
+    hasImage: true,
+  },
+  {
+    id: '1855e6b9db0',
+    chapter: '排列組合與機率',
+    question:
+      '在袋子中放入相同大小的 1 號球 2 顆，2 號球 3 顆，3 號球 4 顆，4 號球 5 顆，5 號球 6 顆。若隨機從袋中抽出 2 顆球，2 顆球號碼不同的機率為 $p$，請選出與數值 $p$ 最接近的選項。\n(1) 0.9 (2) 0.8 (3) 0.5 (4) 0.2 (5) 0.1',
+    answer: '(2)',
+    hasImage: false,
+  },
+  {
+    id: '1855e3607e9',
+    chapter: '排列組合與機率',
+    question:
+      '甲、乙、丙三個人玩遊戲，開始時，甲、乙兩人坐著，丙站著。每輪遊戲恰有一個人由站著變坐著或由坐著變站著。已知在第 4 輪的遊戲結束後，甲、乙、丙三人均站著。試問第 1 輪到第 4 輪的遊戲操作有 $\\textcirc{6-1}\\textcirc{6-2}$ 種不同情形。',
+    answer: '20',
+    hasImage: false,
+  },
   {
     id: '1853f3e1391',
     chapter: '排列組合與機率',
@@ -17582,6 +17750,45 @@ const trigonometricFuncB: Question[] = [
 // 指數與對數函數
 const expAndLogFunction: Question[] = [
   {
+    id: '1855e731770',
+    chapter: '直線與圓',
+    question: '已知方程式 $7^{x+7}=9^x$ 的解可以表示成 $x=\\log_b7^7$，試求 $b$。',
+    answer: '$\\frac97$',
+    hasImage: false,
+  },
+  {
+    id: '1855e379bb6',
+    chapter: '指數與對數函數',
+    question:
+      '已知 $a,b,c$ 為等比數列，設 $f(x)=\\log_\\pi x$，若 $f(a)=\\dfrac12$，$f(b)=\\dfrac13$，$f(c)=\\dfrac{\\textcirc{7-1}}{\\textcirc{7-2}}$。(化為最簡分數)',
+    answer: '16',
+    hasImage: false,
+  },
+  {
+    id: '1855e3949b1',
+    chapter: '指數與對數函數',
+    question:
+      '假設一件智慧型手機問世 $x$ 年後，擁有該產品的人口數所占的百分比為 $(1-0.2^{ax})\\times100\\%$。若智慧型手機問世 2 年後，有 10% 的人口擁有該產品。',
+    answer: '',
+    hasImage: false,
+  },
+  {
+    id: '1855e3a4d6a',
+    chapter: '指數與對數函數',
+    question:
+      '則智慧型手機問世 4 年後，擁有智慧型手機的人口數所占的百分比為多少？(單選題，6 分)\n(1) 15%　(2) 19%　(3) 23%　(4) 27%　(5) 31%',
+    answer: '2',
+    hasImage: false,
+  },
+  {
+    id: '1855e3b3b0c',
+    chapter: '指數與對數函數',
+    question:
+      '若智慧型手機問世 $n$ 年後，擁有智慧型手機的人口數所占的百分比超過 90%，則 $n$ 的最小正整數解是多少？(非選擇題，9 分)',
+    answer: '44',
+    hasImage: false,
+  },
+  {
     id: '1853f3fd355',
     chapter: '指數與對數函數',
     question:
@@ -19161,6 +19368,14 @@ const expAndLogFunction: Question[] = [
 
 // 平面向量
 const planeVector: Question[] = [
+  {
+    id: '1855e282957',
+    chapter: '平面向量',
+    question:
+      '如圖，圓 $O$ 為 $\\triangle ABC$ 之內切圓且與 $\\overline{BC},\\overline{CA},\\overline{AB}$ 分別相切於 $D,E,F$。已知 $\\overline{AB}=5$，$\\overline{BC}=6$，$\\overline{CA}=7$，設 $\\xvector{AD}=m\\xvector{AB}+n\\xvector{AC}$，求 $3m+6n$。\n(1) 7　(2) 6　(3) 5　(4) 4　(5) 3',
+    answer: '4',
+    hasImage: true,
+  },
   {
     id: '1853f291063',
     chapter: '平面向量',
