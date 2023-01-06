@@ -1097,6 +1097,30 @@ const beginner: Question[] = [
 // 數與式
 const numAndEquation: Question[] = [
   {
+    id: '18585487759',
+    chapter: '數與式',
+    question:
+      '試求嘴巴部分的面積約為多少平方公分，請選出最接近的數值。(單選題，6 分)\n(1) 4700　(2) 5000　(3) 5300　(4) 5600　(5) 5900',
+    answer: '3',
+    hasImage: false,
+  },
+  {
+    id: '1858547a7f5',
+    chapter: '數與式',
+    question:
+      '小新他們班決定在校慶攤位上擺設一遊戲攤位，仿照義大利著名景點－真理之口的模樣。參加者若能夠將硬幣投入口中即可獲得獎品。嘴巴部分如圖，為 2D 示意圖，$\\arc{CD}$ 是以 $O$ 點為圓心，半徑為 60 公分的圓弧。$O$ 點為底邊 $\\overline{AB}$ 的中點，$\\overline{AD}$ 與 $\\overline{BC}$ 均與底邊 $\\overline{AB}$ 垂直，且 $\\overline{AD},\\overline{BC}$ 皆為 30 公分。則：',
+    answer: '',
+    hasImage: true,
+  },
+  {
+    id: '185854a716d',
+    chapter: '數與式',
+    question:
+      '小新打算在嘴巴上貼一張彩色玻璃紙，如圖中的 $\\triangle OEF$，參加者若能將玻璃紙擲落則可額外得到獎金。其中 $E,F$ 為圓弧上兩點，且 $\\overline{EF}$ 與底邊 $\\overline{AB}$ 平行。試求在滿足上述的條件下，玻璃紙的最大面積為多少平方公分？(非選擇題，9 分)',
+    answer: '1800',
+    hasImage: true,
+  },
+  {
     id: '1855e24305c',
     chapter: '數與式',
     question:
@@ -3912,6 +3936,14 @@ const expAndLog: Question[] = [
 // 多項式函數
 const polynomial: Question[] = [
   {
+    id: '185853517f0',
+    chapter: '多項式函數',
+    question:
+      '設 $f(x)=x^4+ax^3+bx^2+cx+d$，其中 $a,b,c,d$ 為實數。若 $f(x)$ 分別除以 $x-4$、$x+2$、$x-7$、$x+8$ 時所得的餘數皆為 20202，則常數項 $d=\\textcirc{6-1}\\textcirc{6-2}\\textcirc{6-3}\\textcirc{6-4}$。',
+    answer: '2468',
+    hasImage: false,
+  },
+  {
     id: '1855ea457da',
     chapter: '多項式函數',
     question:
@@ -6374,6 +6406,14 @@ const polynomial: Question[] = [
 
 // 直線與圓
 const lineAndCircle: Question[] = [
+  {
+    id: '185852cfcac',
+    chapter: '直線與圓',
+    question:
+      '如圖，$A$ 點到 $\\overline{BH}$ 的最短距離 $\\overline{AB}$ 為 100，$F,G$ 為切點，$A,B,F$ 三點共線。圓的直徑 $\\overline{CE}$ 為 60 且 $D$ 為圓心，$A$ 點到圓的最短距離 $\\overline{AC}$ 為 30。試選出正確的選項。\n(1) $\\overline{AG}=60$\n(2) $\\angle GAF=60\\du$\n(3) $\\triangle ADF$ 的面積為 $900\\sqrt3$\n(4) $\\triangle ABH$ 的面積為 $5000\\sqrt3$\n(5) 灰色區域的面積為 $4100\\sqrt3-600\\pi$',
+    answer: '245',
+    hasImage: true,
+  },
   {
     id: '1855e707146',
     chapter: '直線與圓',
@@ -10661,6 +10701,14 @@ const trigonometric: Question[] = [
 // 數列級數
 const series: Question[] = [
   {
+    id: '1858530b9a0',
+    chapter: '數列級數',
+    question:
+      '設兩數列 $\\langle a_n\\rangle=\\langle2n+3\\rangle$，$\\langle b_n\\rangle=\\langle2^n+3\\rangle$，試選出正確的選項。\n(1) 數列 $\\langle a_n\\rangle$ 為等差數列\n(2) 數列 $\\langle b_n\\rangle$ 為等比數列\n(3) 設 $c_n=\\log a_n$，則數列 $\\langle c_n\\rangle$ 為等比數列\n(4) 設 $d_n=\\log b_n$，則數列 $\\langle d_n\\rangle$ 為等差數列\n(5) 將數列 $\\langle a_n\\rangle$ 寫成遞迴關係式，則為 $\\begin{cases}a_1=5\\\\a_n=a_{n-1}+2, n\\ge2\\end{cases}$',
+    answer: '15',
+    hasImage: false,
+  },
+  {
     id: '1855e6ee478',
     chapter: '數列級數',
     question:
@@ -12938,6 +12986,15 @@ const statistics: Question[] = [
 
 // 排列組合與機率
 const combination: Question[] = [
+  {
+    id: '185852808c5',
+    chapter: '排列組合與機率',
+    question:
+      '台北到嘉義的路程中有四個容易塞車的路段，如圖，龍潭路段、彰化路段、員林路段、霧峰路段遇到塞車的機率分別為 $\\dfrac45$、$\\dfrac14$、$\\dfrac12$、$\\dfrac58$，這些路段是否遇到塞車是互相獨立的。假設阿明出門時，並不了解這些路段塞車情況，因此經過交流道口時，選擇不同路段前進的機率均等，且只選擇其中一條路段前進，則阿明從台北開車回嘉義至少遇到一個路段塞車的機率為何？\n(1) $\\dfrac{17}{20}$　(2) $\\dfrac9{10}$　(3) $\\dfrac{37}{40}$　(4) $\\dfrac{15}{16}$　(5) $\\dfrac{77}{80}$',
+    answer: '3',
+    hasImage: true,
+    style: { width: '10cm' },
+  },
   {
     id: '1855e75aebd',
     chapter: '排列組合與機率',
@@ -17750,6 +17807,14 @@ const trigonometricFuncB: Question[] = [
 // 指數與對數函數
 const expAndLogFunction: Question[] = [
   {
+    id: '1858529fd82',
+    chapter: '指數與對數函數',
+    question:
+      '若正實數 $x,y$ 滿足 $\\log_2x=8.4$，$\\log_5y=3.4$，則 $\\log_{10}xy$ 的值最接近下列哪一個選項？\n(1) 4.1　(2) 4.9　(3) 5.9　(4) 11.8　(5) 14.3',
+    answer: '2',
+    hasImage: false,
+  },
+  {
     id: '1855e731770',
     chapter: '直線與圓',
     question: '已知方程式 $7^{x+7}=9^x$ 的解可以表示成 $x=\\log_b7^7$，試求 $b$。',
@@ -19368,6 +19433,14 @@ const expAndLogFunction: Question[] = [
 
 // 平面向量
 const planeVector: Question[] = [
+  {
+    id: '18585330381',
+    chapter: '平面向量',
+    question:
+      '如圖，$\\triangle ABC$ 是邊長為 1 的正三角形，點 $D,E$ 分別為 $\\overline{AB},\\overline{BC}$ 的中點，$F$ 點在 $DE$ 直線上，且 $\\overline{DE}=2\\overline{EF}$，試求 $\\xvector{AF}\\cdot\\xvector{BC}=\\dfrac{\\textcirc{5-1}}{\\textcirc{5-2}}$。(化為最簡分數)',
+    answer: '18',
+    hasImage: true,
+  },
   {
     id: '1855e282957',
     chapter: '平面向量',
@@ -26623,6 +26696,14 @@ const conditionalProb: Question[] = [
 
 // 矩陣A
 export const matrixA: Question[] = [
+  {
+    id: '18585372b83',
+    chapter: '矩陣A',
+    question:
+      '已知 $x,y$ 為實數，二階方陣 $A=\\begin{bmatrix}2&x\\\\3&y\\end{bmatrix}$。若 $A$ 的乘法反方陣 $A^{-1}$ 存在且 $A=A^{-1}$，則數對 $(x,y)=(\\textcirc{7-1}\\textcirc{7-2},\\textcirc{7-3}\\textcirc{7-4})$。',
+    answer: '(-1,-2)',
+    hasImage: false,
+  },
   {
     id: '1853f0d0aea',
     chapter: '矩陣A',

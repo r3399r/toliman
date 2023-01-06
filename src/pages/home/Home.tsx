@@ -41,7 +41,12 @@ const Home = () => {
           考卷
         </Button>
       </div>
-      <div>Version 4.0</div>
+      <div className={style.button}>
+        <Button variant="contained" onClick={onClick('course')}>
+          線上課程備課
+        </Button>
+      </div>
+      <div>Version 5.0</div>
     </div>
   );
 };

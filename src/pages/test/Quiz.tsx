@@ -1,4 +1,5 @@
 import { MathJax } from 'better-react-mathjax';
+import classNames from 'classnames';
 import { ChangeEvent } from 'react';
 import Textarea2MathJax from 'src/component/Textarea2MathJax';
 import { Question } from 'src/model/bank';
@@ -18,7 +19,8 @@ const Quiz = () => {
       <div key={q.id} style={{ paddingBottom: height }}>
         {q.hasImage === true && (
           <img
-            className={style.img}
+            className={classNames({ [style.img]: !q.style })}
+            style={q.style}
             src={`/toliman/images/${q.id}.PNG`}
             alt=""
             role="presentation"
@@ -52,23 +54,23 @@ const Quiz = () => {
   return (
     <MathJax>
       <div className={style.content}>
-        <h1>學測模擬 111.12.30</h1>
+        <h1>學測模擬 111.1.6</h1>
         <h3 style={{ marginBottom: 0 }}>一、單選題</h3>
-        {displayQuestion('1855e24305c', 1)}
-        {displayQuestion('1855e282957', 2)}
+        {displayQuestion('185852808c5', 1)}
+        {displayQuestion('1858529fd82', 2)}
         <h3 style={{ marginBottom: 0 }}>二、多選題</h3>
-        {displayQuestion('1855e2ca335', 3)}
+        {displayQuestion('185852cfcac', 3)}
         <div style={{ pageBreakAfter: 'always' }} />
-        {displayQuestion('1855e313f18', 4)}
+        {displayQuestion('1858530b9a0', 4)}
         <h3 style={{ marginBottom: 0 }}>三、選填題</h3>
-        {displayQuestion('1855e33adab', 5)}
-        {displayQuestion('1855e3607e9', 6)}
-        {displayQuestion('1855e379bb6', 7)}
+        {displayQuestion('18585330381', 5)}
+        {displayQuestion('185853517f0', 6)}
+        {displayQuestion('18585372b83', 7)}
         <div style={{ pageBreakAfter: 'always' }} />
         <h3 style={{ marginBottom: 0 }}>四、混合題或非選擇題</h3>
-        {displayQuestion('1855e3949b1', null, '0.5cm')}
-        {displayQuestion('1855e3a4d6a', 8, '2.5cm')}
-        {displayQuestion('1855e3b3b0c', 9, '0.5cm')}
+        {displayQuestion('1858547a7f5', null, '0.5cm')}
+        {displayQuestion('18585487759', 8, '2.5cm')}
+        {displayQuestion('185854a716d', 9, '0.5cm')}
       </div>
     </MathJax>
   );

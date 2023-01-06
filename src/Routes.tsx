@@ -1,5 +1,6 @@
 import { Navigate, Route, Routes } from 'react-router-dom';
 import Bank from './pages/bank/Bank';
+import Course from './pages/course/Course';
 import Edit from './pages/edit/Edit';
 import Home from './pages/home/Home';
 import Hw from './pages/hw/Hw';
@@ -75,6 +76,7 @@ const AppRoutes = () => (
     <Route path="/toliman/edit" element={<Edit />} />
     <Route path="/toliman/bank" element={<Bank />} />
     <Route path="/toliman/projection" element={<Projection />} />
+    <Route path="/toliman/course" element={<Course />} />
     <Route path="/toliman/lecture" element={<Lecture />} />
     <Route path="/toliman/lecture/trial" element={<Trial />} />
     <Route path="/toliman/lecture/b0c1" element={<Arithmatic />} />
