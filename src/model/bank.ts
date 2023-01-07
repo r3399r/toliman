@@ -3939,7 +3939,7 @@ const polynomial: Question[] = [
     id: '185853517f0',
     chapter: '多項式函數',
     question:
-      '設 $f(x)=x^4+ax^3+bx^2+cx+d$，其中 $a,b,c,d$ 為實數。若 $f(x)$ 分別除以 $x-4$、$x+2$、$x-7$、$x+8$ 時所得的餘數皆為 20202，則常數項 $d=\\textcirc{6-1}\\textcirc{6-2}\\textcirc{6-3}\\textcirc{6-4}$。',
+      '設 $f(x)=x^4+ax^3+bx^2+cx+d$，其中 $a,b,c,d$ 為實數。若 $f(x)$ 分別除以 $x-4$、$x+2$、$x-7$、$x+8$ 時所得的餘數皆為 2020，則常數項 $d=\\textcirc{6-1}\\textcirc{6-2}\\textcirc{6-3}\\textcirc{6-4}$。',
     answer: '2468',
     hasImage: false,
   },
