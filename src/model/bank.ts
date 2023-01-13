@@ -3936,6 +3936,64 @@ const expAndLog: Question[] = [
 // 多項式函數
 const polynomial: Question[] = [
   {
+    id: '1858b283fc8',
+    chapter: '多項式函數',
+    question: '已知二次函數 $f(x)=-2x^2+8x+(k-3)$ 之值恆為負數或 0，求實數 $k$ 的範圍。',
+    answer: '$k\\le5$',
+    hasImage: false,
+  },
+  {
+    id: '1858b299b71',
+    chapter: '多項式函數',
+    question: '不等式 $(x^2+x+2)(x-5)(2x-25)\\le0$ 有幾個整數解？',
+    answer: '8',
+    hasImage: false,
+  },
+  {
+    id: '1858b2a8c4b',
+    chapter: '多項式函數',
+    question:
+      '設 $f(x)=ax^2+4x+11$，其中 $a$ 為實數，若 $f(x)$ 除以 $x+1$ 的餘式為 4，求 $f(x)$ 除以 $x-3$ 的餘式。',
+    answer: '-4',
+    hasImage: false,
+  },
+  {
+    id: '1858b2b4847',
+    chapter: '多項式函數',
+    question: '二次函數 $y=9x^2+7x-1$ 圖形頂點位於第幾象限？',
+    answer: '三',
+    hasImage: false,
+  },
+  {
+    id: '1858b2c5a4f',
+    chapter: '多項式函數',
+    question: '設 $f(x)=7x^5-40x^4+28x^3-25x^2$$+57x-15$，求 $f(5)$。',
+    answer: '20',
+    hasImage: false,
+  },
+  {
+    id: '1858b2d7915',
+    chapter: '多項式函數',
+    question: '設 $a$ 為實數，若二次不等式 $(2a-3)x^2-2ax+(a+2)<0$ 沒有實數解，試求 $a$ 的範圍。',
+    answer: '$a\\ge2$',
+    hasImage: false,
+  },
+  {
+    id: '1858b2f022d',
+    chapter: '多項式函數',
+    question:
+      '設 $y=f(x)$ 為三次實係數多項式，若 $f(-2)=f(1)=f(3)=0$，且圖形過點 (2, 4)，求不等式 $f(x)>0$ 的解。',
+    answer: '$x<-2$ or $1<x<3$',
+    hasImage: false,
+  },
+  {
+    id: '1858b301a9f',
+    chapter: '多項式函數',
+    question: '當 $2\\le x\\le4$ 時，$y=-2x^2+4x+5$ 有最大值 $M$，求 $M$。',
+    answer: '5',
+    hasImage: false,
+  },
+  {
     id: '185853517f0',
     chapter: '多項式函數',
     question:
@@ -10685,24 +10743,30 @@ const trigonometric: Question[] = [
     id: '1799678c5da',
     chapter: '三角比',
     question:
-      '如圖，$\\triangle ABC$ 中，$\\overline{AD}\\perp\\overline{BC}$，已知 $\\overline{AB}=20$，$\\sin B=\\frac{3}{5}$，$\\sin C=\\frac{12}{13}$，則 $\\overline{BC}=$？',
-    answer: '$21$',
+      '如圖，$\\triangle ABC$ 中，$\\overline{AD}\\perp\\overline{BC}$，已知 $\\overline{AB}=20$，$\\sin B=\\dfrac35$，$\\sin C=\\dfrac{12}{13}$，求 $\\overline{BC}$。',
+    answer: '21',
     hasImage: true,
   },
   {
     id: '179967a4e21',
     chapter: '三角比',
     question:
-      '如圖，$\\overline{BC}\\perp\\overline{AC}$，$\\overline{AD}=\\overline{BD}$，若 $\\cos\\angle BDC=\\frac{2}{3}$，則 $\\tan A$ 的值為？',
-    answer: '$\\frac{\\sqrt{5}}{5}$',
+      '如圖，$\\overline{BC}\\perp\\overline{AC}$，$\\overline{AD}=\\overline{BD}$，若 $\\cos\\angle BDC=\\dfrac23$，求 $\\tan A$。',
+    answer: '$\\frac{\\sqrt5}5$',
     hasImage: true,
   },
   {
     id: '179967b9e90',
     chapter: '三角比',
-    question:
-      '(1) $\\tan^230\\du\\times\\cos60\\du=$？\n(2) $(1+\\sin30\\du+\\sin45\\du)(1-\\cos45\\du+\\cos60\\du)=$？',
-    answer: '(1) $\\frac{1}{6}$ (2) $\\frac{7}{4}$',
+    question: '求 $\\tan^230\\du\\times\\cos60\\du$',
+    answer: '$\\frac16$',
+    hasImage: false,
+  },
+  {
+    id: '179967b9e91',
+    chapter: '三角比',
+    question: '求 $(1+\\sin30\\du+\\sin45\\du)(1-\\cos45\\du+\\cos60\\du)$',
+    answer: '$\\frac74$',
     hasImage: false,
   },
   {
