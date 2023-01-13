@@ -54,23 +54,19 @@ const Quiz = () => {
   return (
     <MathJax>
       <div className={style.content}>
-        <h1>學測模擬 111.1.6</h1>
-        <h3 style={{ marginBottom: 0 }}>一、單選題</h3>
-        {displayQuestion('185852808c5', 1)}
-        {displayQuestion('1858529fd82', 2)}
-        <h3 style={{ marginBottom: 0 }}>二、多選題</h3>
-        {displayQuestion('185852cfcac', 3)}
+        <h1>高一第三次段考複習</h1>
+        <h3 style={{ marginBottom: 0 }}>一、多選題</h3>
+        {displayQuestion('185a919114f', 1, '4cm')}
+        {displayQuestion('185a91bf912', 2, '4cm')}
+        <h3 style={{ marginBottom: 0 }}>二、計算題</h3>
+        {displayQuestion('185a91d63c1', 1, '3cm')}
+        {displayQuestion('185a91f6426', 2)}
         <div style={{ pageBreakAfter: 'always' }} />
-        {displayQuestion('1858530b9a0', 4)}
-        <h3 style={{ marginBottom: 0 }}>三、選填題</h3>
-        {displayQuestion('18585330381', 5)}
-        {displayQuestion('185853517f0', 6)}
-        {displayQuestion('18585372b83', 7)}
-        <div style={{ pageBreakAfter: 'always' }} />
-        <h3 style={{ marginBottom: 0 }}>四、混合題或非選擇題</h3>
-        {displayQuestion('1858547a7f5', null, '0.5cm')}
-        {displayQuestion('18585487759', 8, '2.5cm')}
-        {displayQuestion('185854a716d', 9, '0.5cm')}
+        {displayQuestion('185a920a8ad', 3, '4cm')}
+        {displayQuestion('185a92237b0', 4, '4cm')}
+        {displayQuestion('185a92360dd', 5, '4cm')}
+        {displayQuestion('185a928fabc', 6, '4cm')}
+        {displayQuestion('185a92a929a', 7)}
       </div>
     </MathJax>
   );

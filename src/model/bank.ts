@@ -6402,6 +6402,75 @@ const polynomial: Question[] = [
     hasImage: true,
     style: { height: '3cm' },
   },
+  {
+    id: '185a919114f',
+    chapter: '多項式函數',
+    question:
+      '設 $f(x)=(x^3+2x^2+1)(x^2+x-1)+x^2+1$，下列敘述何者正確？\n(A) $f(x)$ 除以 $x-2$ 的餘式為 85\n(B) $f(x)$ 有 $x+1$ 的因式\n(C) $f(x)$ 除以 $x^2+x-1$ 的餘式為 $x-2$\n(D) $f(x)$ 除以 $x^3+2x^2+1$ 的餘式為 $x^2+1$',
+    answer: '(B)(D)',
+    hasImage: false,
+  },
+  {
+    id: '185a91bf912',
+    chapter: '多項式函數',
+    question:
+      '已知三次函數 $f(x)=-2x^3-6x^2-2x+k$ 圖形的對稱中心為 (-1, 7)，下列敘述何者正確？\n(A) $k=2$\n(B) 若點 $(r,s)$ 在 $y=f(x)$ 的圖形上，則點 $(r-2,s+14)$ 也在 $y=f(x)$ 的圖形上\n(C) 局部看 $y=f(x)$ 在 $x=-2$ 附近的圖形近似於直線 $y=-2x+1$\n(D) $f(-1.99)\\approx4.98$ (四捨五入至小數點下第二位)',
+    answer: '(C)(D)',
+    hasImage: false,
+  },
+  {
+    id: '185a91d63c1',
+    chapter: '多項式函數',
+    question: '求三次函數 $f(x)=-x^3+3x^2-2x-2$ 圖形的對稱中心。',
+    answer: '(1,-2)',
+    hasImage: false,
+  },
+  {
+    id: '185a91f6426',
+    chapter: '多項式函數',
+    question:
+      '已知 $f(x)$ 是首項係數為 1 的三次多項式，且不等式 $f(x)>0$ 的解為 $0<x<1$ 或 $x>2$，求不等式 $f(x)>2x$ 的解。',
+    answer: '$x>3$',
+    hasImage: false,
+  },
+  {
+    id: '185a920a8ad',
+    chapter: '多項式函數',
+    question: '若對任意實數 $x$，$f(x)=kx^2+kx+(k+1)$ 圖形恆在 $x$ 軸的上方，求 $k$ 的範圍。',
+    answer: '$k>0$',
+    hasImage: false,
+  },
+  {
+    id: '185a92237b0',
+    chapter: '多項式函數',
+    question:
+      '已知多項式 $f(x)$ 除以 $x-3$ 的餘式為 5，除以 $x+4$ 的餘式為 -9，求 $f(x)$ 除以 $x^2+x-12$ 的餘式。',
+    answer: '$2x-1$',
+    hasImage: false,
+  },
+  {
+    id: '185a92360dd',
+    chapter: '多項式函數',
+    question: '設 $f(x)=x^3-x^2+x-9=a(x-1)^3+b(x-1)^2+c(x-1)+d$，求 $a-b+c-d$。',
+    answer: '9',
+    hasImage: false,
+  },
+  {
+    id: '185a928fabc',
+    chapter: '多項式函數',
+    question:
+      '已知 $f(x)=x^3+ax^2+bx+c$ 的圖形對稱中心為 (1, 5)，$g(x)=ax^2+bx+c$ 的圖形對稱於直線 $x=-1$，求 $g(x)$ 的頂點坐標。',
+    answer: '(-1, 16)',
+    hasImage: false,
+  },
+  {
+    id: '185a92a929a',
+    chapter: '多項式函數',
+    question:
+      '拋物線 $f(x)=x^2-2x+3$ 沿直線 $y=2x+7$ 向右上方移動 $3\\sqrt5$ 單位，得到另一拋物線 $g(x)=(x-h)^2+k$，求數對 $(h,k)$。',
+    answer: '(4, 8)',
+    hasImage: false,
+  },
 ];
 
 // 直線與圓
