@@ -10232,7 +10232,7 @@ const trigonometric: Question[] = [
     id: '179e0697edf',
     chapter: '三角比',
     question: '極坐標平面上有兩點 $A[2,120\\du]$，$B[4,210\\du]$，求 $\\overline{AB}$。',
-    answer: '$2\\sqrt{5}$',
+    answer: '$2\\sqrt5$',
     hasImage: false,
   },
   {
@@ -10455,15 +10455,15 @@ const trigonometric: Question[] = [
     id: '179bc280c82',
     chapter: '三角比',
     question:
-      '設 $0\\du<\\theta<90\\du$，$\\tan\\theta=100$，則 $\\frac{100\\cos\\theta+\\sin\\theta}{200\\cos\\theta}$=？',
-    answer: '$1$',
+      '設 $0\\du<\\theta<90\\du$，$\\tan\\theta=100$，求 $\\dfrac{100\\cos\\theta+\\sin\\theta}{200\\cos\\theta}$。',
+    answer: '1',
     hasImage: false,
   },
   {
     id: '179bc29b548',
     chapter: '三角比',
-    question: '已知 $\\theta$ 角的終邊經過點 $(x,-6)$ 且 $\\cos\\theta=\\frac{4}{5}$，則 $x=$？',
-    answer: '$8$',
+    question: '已知 $\\theta$ 角的終邊經過點 $(x,-6)$ 且 $\\cos\\theta=\\dfrac45$，求 $x$。',
+    answer: '8',
     hasImage: false,
   },
   {
@@ -10514,7 +10514,7 @@ const trigonometric: Question[] = [
     id: '179bc30c6bf',
     chapter: '三角比',
     question: '求 $\\sin(-300\\du)\\tan1830\\du$\n$+\\tan210\\du\\cos510\\du+2\\sin270\\du$。',
-    answer: '$-2$',
+    answer: '-2',
     hasImage: false,
   },
   {
@@ -10780,8 +10780,8 @@ const trigonometric: Question[] = [
     id: '179967d65a9',
     chapter: '三角比',
     question:
-      '若 $\\theta$ 是一個銳角且 $\\tan\\theta=2$，則 $\\frac{2\\sin\\theta-\\cos\\theta}{2\\sin\\theta+\\cos\\theta}=$？',
-    answer: '$\\frac{3}{5}$',
+      '若 $\\theta$ 是一個銳角且 $\\tan\\theta=2$，則 $\\dfrac{2\\sin\\theta-\\cos\\theta}{2\\sin\\theta+\\cos\\theta}=$？',
+    answer: '$\\frac35$',
     hasImage: false,
   },
   {
@@ -10800,18 +10800,34 @@ const trigonometric: Question[] = [
     hasImage: false,
   },
   {
+    id: '1863c409e36',
+    chapter: '三角比',
+    question:
+      '阿杰從自己家的屋頂看遠方大樓樓頂的仰角為 $30\\du$，若阿杰家的高度為 9 公尺且阿杰家和大樓距離 12 公尺，求大樓的樓高。($\\sqrt3\\approx1.732$，四捨五入取至整數)',
+    answer: '16 公尺',
+    hasImage: false,
+  },
+  {
+    id: '1863c4203c3',
+    chapter: '三角比',
+    question:
+      '如圖，$\\triangle ABC$ 中，$\\overline{AD}\\perp\\overline{BC}$，已知 $\\overline{AB}=15$，$\\sin B=\\dfrac35$，$\\tan C=3$，求 $\\overline{BC}$',
+    answer: '15',
+    hasImage: true,
+  },
+  {
     id: '179968541c0',
     chapter: '三角比',
     question:
-      '如圖，等腰直角 $\\triangle ABC$ 中，$\\overline{BM}$ 為 $\\overline{AC}$ 之中線，若 $\\angle CBM=\\theta$，則 $\\tan\\theta=$？',
-    answer: '$\\frac{1}{3}$',
+      '如圖，等腰直角 $\\triangle ABC$ 中，$\\overline{BM}$ 為 $\\overline{AC}$ 之中線，若 $\\angle CBM=\\theta$，求 $\\tan\\theta$。',
+    answer: '$\\frac13$',
     hasImage: true,
   },
   {
     id: '1799685e5d3',
     chapter: '三角比',
-    question: '$\\sqrt{3}(\\cos30\\du+\\sin60\\du)+\\sqrt{2}\\cos45\\du=$？',
-    answer: '$4$',
+    question: '求 $\\sqrt3(\\cos330\\du+\\sin120\\du)+\\sqrt2\\cos45\\du$',
+    answer: '4',
     hasImage: false,
   },
   {
