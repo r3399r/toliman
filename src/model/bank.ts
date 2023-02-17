@@ -10263,8 +10263,8 @@ const trigonometric: Question[] = [
     id: '179e06f7815',
     chapter: '三角比',
     question:
-      '$\\triangle ABC$ 中，$\\overline{AB}=1$，$\\overline{AC}=2$，$\\sin A=\\frac{5}{13}$，求 $\\triangle ABC$ 的面積。',
-    answer: '$\\frac{5}{13}$',
+      '$\\triangle ABC$ 中，$\\overline{AB}=1$，$\\overline{AC}=2$，$\\sin A=\\dfrac5{13}$，求 $\\triangle ABC$ 的面積。',
+    answer: '$\\frac5{13}$',
     hasImage: false,
   },
   {
@@ -10272,7 +10272,7 @@ const trigonometric: Question[] = [
     chapter: '三角比',
     question:
       '$\\triangle ABC$ 中，$\\overline{AB}=2$，$\\overline{AC}=6$，且 $\\angle A=120\\du$。若 $D$ 為 $\\overline{BC}$ 上一點，且滿足 $3\\overline{BD}=\\overline{CD}$，求 $\\triangle ACD$ 的面積。',
-    answer: '$\\frac{9\\sqrt{3}}{4}$',
+    answer: '$\\frac{9\\sqrt3}4$',
     hasImage: false,
   },
   {
@@ -10288,7 +10288,7 @@ const trigonometric: Question[] = [
     chapter: '三角比',
     question:
       '四邊形 $ABCD$ 為圓內接四邊形，若 $\\angle ADB=60\\du$，$\\angle CBD=30\\du$，$\\overline{CD}=5$，求：\n(1) $\\overline{AB}$\n(2) 外接圓半徑',
-    answer: '(1) $5\\sqrt{3}$ (2) $5$',
+    answer: '(1) $5\\sqrt3$ (2) 5',
     hasImage: true,
   },
   {
@@ -10469,22 +10469,22 @@ const trigonometric: Question[] = [
   {
     id: '179bc2a940f',
     chapter: '三角比',
-    question: '如圖，已知 $\\sin\\theta=\\frac{3}{5}$，則 $\\cos\\angle CEA=$？',
-    answer: '$-\\frac{4}{5}$',
+    question: '如圖，已知 $\\sin\\theta=\\dfrac35$，求 $\\cos\\angle CEA$。',
+    answer: '$-\\frac45$',
     hasImage: true,
   },
   {
     id: '179bc2baac6',
     chapter: '三角比',
     question:
-      '設 $\\theta$ 為第二象限角，若 $\\sin\\theta=\\frac{4}{5}$，求 $\\sin(90\\du+\\theta)+\\sin(180\\du+\\theta)+\\sin(270\\du+\\theta)$。',
-    answer: '$-\\frac{4}{5}$',
+      '設 $\\theta$ 為第二象限角，若 $\\sin\\theta=\\dfrac45$，求 $\\sin(90\\du+\\theta)+\\sin(180\\du+\\theta)+\\sin(270\\du+\\theta)$',
+    answer: '$-\\frac45$',
     hasImage: false,
   },
   {
     id: '179bc2d5ae7',
     chapter: '三角比',
-    question: '若 $270\\du\\le\\theta\\le360\\du$ 且 $\\sin2020\\du=\\sin\\theta$，則 $\\theta=$？',
+    question: '若 $270\\du\\le\\theta\\le360\\du$ 且 $\\sin2020\\du=\\sin\\theta$，求 $\\theta$。',
     answer: '$320\\du$',
     hasImage: false,
   },
@@ -10734,9 +10734,8 @@ const trigonometric: Question[] = [
   {
     id: '1799677886e',
     chapter: '三角比',
-    question:
-      '$\\triangle ABC$ 中，若 $\\angle C=90\\du$，且 $\\sin A=\\frac{1}{3}$，則 $\\tan B=$？',
-    answer: '$2\\sqrt{2}$',
+    question: '$\\triangle ABC$ 中，若 $\\angle C=90\\du$，且 $\\sin A=\\dfrac13$，求 $\\tan B$。',
+    answer: '$2\\sqrt2$',
     hasImage: false,
   },
   {
@@ -10773,7 +10772,7 @@ const trigonometric: Question[] = [
     id: '179967c79a3',
     chapter: '三角比',
     question: '化簡 $(\\sin87\\du+\\cos87\\du)^2+(\\sin87\\du-\\cos87\\du)^2$',
-    answer: '$2$',
+    answer: '2',
     hasImage: false,
   },
   {
@@ -10788,15 +10787,23 @@ const trigonometric: Question[] = [
     id: '179967ee279',
     chapter: '三角比',
     question: '$\\sin^25\\du+\\sin^225\\du+\\sin^245\\du+\\sin^265\\du$ \n$+\\sin^285\\du=$？',
-    answer: '$\\frac{9}{2}$',
+    answer: '$\\frac92$',
     hasImage: false,
   },
   {
     id: '179968447b6',
     chapter: '三角比',
     question:
-      '已知 $0\\du<\\theta<90\\du$，若 $\\sin\\theta+\\cos\\theta=\\frac{6}{5}$，則：\n(1) $\\sin\\theta\\cos\\theta=$？\n(2) $\\sin\\theta-\\cos\\theta=$？(兩解)',
+      '已知 $0\\du<\\theta<90\\du$，若 $\\sin\\theta+\\cos\\theta=\\dfrac65$，求：\n(1) $\\sin\\theta\\cos\\theta$ (2) $\\sin\\theta-\\cos\\theta$ (兩解)',
     answer: '(1) $\\frac{11}{50}$ (2) $\\pm\\frac{\\sqrt{14}}{5}$',
+    hasImage: false,
+  },
+  {
+    id: '1865e3c41ed',
+    chapter: '三角比',
+    question:
+      '設有一建築物高 20 公尺，站在頂端看另一塔頂端的仰角為 $\\alpha$，看塔底端的俯角為 $\\beta$，若 $\\sin\\alpha=\\dfrac35$，$\\cos\\beta=\\dfrac{12}{13}$，求另一塔的高度。',
+    answer: '56 公尺',
     hasImage: false,
   },
   {
