@@ -9276,6 +9276,14 @@ const trigonometric: Question[] = [
     hasImage: false,
   },
   {
+    id: '186820bb0b5',
+    chapter: '三角比',
+    question:
+      '$\\triangle ABC$ 中，$\\overline{AB}=\\sqrt5$，$\\overline{AC}=\\sqrt7$，$\\overline{BC}=4$，求：\n(1) $\\sin^2A$　　(2) $\\triangle ABC$ 的面積',
+    answer: '(1) $\\frac{31}{35}$ (2) $\\frac{\\sqrt{31}}2$',
+    hasImage: false,
+  },
+  {
     id: '17ea8f6bcf2',
     chapter: '三角比',
     question:
@@ -9486,6 +9494,14 @@ const trigonometric: Question[] = [
       '三角形的三邊長為 $\\overline{AB}=6$，$\\overline{BC}=7$，$\\overline{CA}=8$，若最大內角為 $\\theta$，求 $\\cos\\theta$。',
     answer: '$\\frac14$',
     hasImage: false,
+  },
+  {
+    id: '186820ddb5d',
+    chapter: '三角比',
+    question:
+      '如圖，三角形 $ABC$ 之三邊長為 $\\overline{AB}=7$，$\\overline{BC}=8$，$\\overline{CA}=9$，若 $ABDE$、$ACFG$ 皆為正方形，求 $\\overline{EG}$。',
+    answer: '14',
+    hasImage: true,
   },
   {
     id: '17ea90e51a3',
@@ -10240,7 +10256,7 @@ const trigonometric: Question[] = [
     chapter: '三角比',
     question:
       '設直角三角形 $ABC$ 之三邊長為 $\\overline{AB}=5$，$\\overline{BC}=13$，$\\overline{CA}=12$，以斜邊 $\\overline{BC}$ 為一邊向外作出正方形 $BCDE$，如圖所示。令 $\\angle ACD=\\theta$，求 $\\sin\\theta+\\cos\\theta$。',
-    answer: '$\\frac{7}{13}$',
+    answer: '$\\frac7{13}$',
     hasImage: true,
   },
   {
@@ -10255,7 +10271,7 @@ const trigonometric: Question[] = [
     id: '179e06ddeda',
     chapter: '三角比',
     question:
-      '已知 $A$、$B$ 兩點的極坐標分別為 $A[1,60\\du]$，$B[\\sqrt{3},150\\du]$，$\\overline{AB}$ 中點為 $C$，求 $C$ 點的極坐標。',
+      '已知 $A$、$B$ 兩點的極坐標分別為 $A[1,60\\du]$，$B[\\sqrt3,150\\du]$，$\\overline{AB}$ 中點為 $C$，求 $C$ 點的極坐標。',
     answer: '$[1,120\\du]$',
     hasImage: false,
   },
@@ -11124,15 +11140,15 @@ const series: Question[] = [
     id: '17eec5f9f8c',
     chapter: '數列級數',
     question:
-      '設等差數列 $\\langle a_n\\rangle$ 的第 $3$ 項為 $27$，第 $7$ 項為 $-9$，求此等差數列的第 $15$ 項。',
-    answer: '$-81$',
+      '設等差數列 $\\langle a_n\\rangle$ 的第 3 項為 27，第 7 項為 -9，求此等差數列的第 15 項。',
+    answer: '-81',
     hasImage: false,
   },
   {
     id: '17eec60348e',
     chapter: '數列級數',
     question:
-      '設等比數列 $\\langle a_n\\rangle$，若 $a_2+a_4=10$，$a_3+a_5=\\frac{10}3$，求 $a_4+a_6$。',
+      '設等比數列 $\\langle a_n\\rangle$，若 $a_2+a_4=10$，$a_3+a_5=\\dfrac{10}3$，求 $a_4+a_6$。',
     answer: '$\\frac{10}9$',
     hasImage: false,
   },
@@ -11140,31 +11156,39 @@ const series: Question[] = [
     id: '17eec6134c0',
     chapter: '數列級數',
     question:
-      '在 $103$ 與 $1003$ 之間插入 $a_1$、$a_2$、...、$a_8$ 等八個數，使它們形成 $10$ 項的等差數列，求 $a_5$。',
-    answer: '$603$',
+      '在 103 與 1003 之間插入 $a_1$、$a_2$、...、$a_8$ 等八個數，使它們形成 10 項的等差數列，求 $a_5$。',
+    answer: '603',
     hasImage: false,
   },
   {
     id: '17eec62b9f9',
     chapter: '數列級數',
     question:
-      '設三正數成等差數列，其和為 $30$，若三數依序加上 $1$、$6$、$47$，則成為等比數列，求此三數中最小的數。',
-    answer: '$3$',
+      '設三正數成等差數列，其和為 30，若三數依序加上 1、6、47，則成為等比數列，求此三數中最小的數。',
+    answer: '3',
     hasImage: false,
   },
   {
     id: '17eec638fb0',
     chapter: '數列級數',
     question: '若一數列滿足 $a_1=3$ 且 $a_n=a_{n-1}+4$ ($n\\ge2$)，求 $a_{100}$。',
-    answer: '$399$',
+    answer: '399',
     hasImage: false,
   },
   {
     id: '17eec64b278',
     chapter: '數列級數',
     question:
-      '用黑白兩種顏色的正方形地磚依如下規律拼成若干圖形，請問拼第 $100$ 個圖形需要幾個白色地磚？',
-    answer: '$503$',
+      '用黑白兩種顏色的正方形地磚依如下規律拼成若干圖形，請問拼第 100 個圖形需要幾個白色地磚？',
+    answer: '503',
+    hasImage: true,
+  },
+  {
+    id: '18681c22292',
+    chapter: '數列級數',
+    question:
+      '用正三角形地磚依照規律拼圖形，設 $a_n$ 表第 $n$ 個圖中正三角形地磚總數，求 $a_{107}$。',
+    answer: '644',
     hasImage: true,
   },
   {
@@ -11359,6 +11383,14 @@ const series: Question[] = [
     question:
       '設對於所有的自然數 $n$，$\\begin{cases}a_1=1\\\\a_{n+1}=3a_n+2\\end{cases}$，請用數學歸納法證明：對於所有的自然數 $n$，$a_n=2\\cdot3^{n-1}-1$ 恆成立。',
     answer: '略',
+    hasImage: false,
+  },
+  {
+    id: '18681bfe8b9',
+    chapter: '數列級數',
+    question:
+      '設數列 $\\langle a_n\\rangle$ 的遞迴關係式為 $\\begin{cases}a_1=\\dfrac34\\\\a_n=\\dfrac1{2-a_{n-1}},n\\ge2\\end{cases}$，猜測 $a_n$ 為何？並以數學歸納法證明你的猜測是對的。',
+    answer: '$a_n=\\frac{n+2}{n+3}$',
     hasImage: false,
   },
   {
@@ -11700,6 +11732,36 @@ const series: Question[] = [
     question:
       '設實數數列 $\\langle a_n\\rangle$ 對所有的正整數 $n$ 滿足 $a_{n+1}=\\dfrac{n(n+1)}2-a_n$。下列哪些選項正確。(1) 若 $a_1=1$，則 $a_2=1$\n(2) 若 $a_1$ 是整數，則此數列的每項都是整數\n(3) 若 $a_1$ 是無理數，則此數列的每項都是無理數\n(4) $a_2\\le a_4\\le\\cdots\\le a_{2n}\\le\\cdots$ ($n$ 為正整數)\n(5) 若 $a_k$ 是奇數，則 $a_{k+2}$、$a_{k+4}$、$\\cdots$、$a_{k+2n}$、$\\cdots$ 都是奇數 ($n$ 為正整數)',
     answer: '(2)(3)(4)',
+    hasImage: false,
+  },
+  {
+    id: '18681c56895',
+    chapter: '數列級數',
+    question: '設 $a,b,c,d$ 四數依序成等比數列，若 $a+b=8$，$c+d=72$，求公比。',
+    answer: '$\\pm3$',
+    hasImage: false,
+  },
+  {
+    id: '18681c63f4f',
+    chapter: '數列級數',
+    question: '等差數列 $\\langle a_n\\rangle$ 中，已知 $a_2=7$，$a_8=31$，若 $a_n=139$，求 $n$。',
+    answer: '35',
+    hasImage: false,
+  },
+  {
+    id: '18681c8266c',
+    chapter: '數列級數',
+    question:
+      '將兩等差數列 $\\langle7n-2\\rangle$、$\\langle11n-4\\rangle$ 中相同的數，依序取出形成一個新數列 $\\langle a_n\\rangle$，求 $a_{11}$。',
+    answer: '810',
+    hasImage: false,
+  },
+  {
+    id: '18681c90a2f',
+    chapter: '數列級數',
+    question:
+      '設 $a,b,c$ 三數成等比數列且此三數和為 49，又知 $a+1,b+1,c-3$ 成等差數列且 $a>b$，求 $a$。',
+    answer: '25',
     hasImage: false,
   },
   {
@@ -15895,9 +15957,8 @@ const combination: Question[] = [
   {
     id: '17990aa1fd6',
     chapter: '排列組合與機率',
-    question:
-      '已知集合 $A=\\{2,4,a^2-a+3\\}$，$B=\\{3,a,a+2,a+5\\}$ 滿足 $A-B=\\{5\\}$，則實數 $a=$？',
-    answer: '$2$',
+    question: '已知集合 $A=\\{2,4,a^2-a+3\\}$，$B=\\{3,a,a+2,a+5\\}$ 滿足 $A-B=\\{5\\}$，求 $a$。',
+    answer: '2',
     hasImage: false,
   },
   {
@@ -15919,24 +15980,32 @@ const combination: Question[] = [
     id: '17990adbce5',
     chapter: '排列組合與機率',
     question:
-      '某餐飲部供應的菜色為肉類 $4$ 種，魚類 $3$ 種，蔬菜 $5$ 種，甜點 $2$ 種，有位客人要點肉類、魚類、蔬菜各一種，不點甜點，則這位客人有幾種點法？',
-    answer: '$60$',
+      '某餐飲部供應的菜色為肉類 4 種，魚類 3 種，蔬菜 5 種，甜點 2 種，有位客人要點肉類、魚類、蔬菜各一種，不點甜點，則這位客人有幾種點法？',
+    answer: '60',
     hasImage: false,
   },
   {
     id: '17990aea8de',
     chapter: '排列組合與機率',
     question:
-      '某餐廳的主菜有牛、豬、雞與羊 $4$ 種；湯有玉米湯、海鮮湯與蔬菜湯 $3$ 種；飲料有咖啡、紅茶與奶茶 $3$ 種。每位客人須點全餐(主菜、湯及飲料各任選一種)或超值餐(主菜、飲料各任選一種)。請問共有幾種餐點組合？',
-    answer: '$48$',
+      '某餐廳的主菜有牛、豬、雞與羊 4 種；湯有玉米湯、海鮮湯與蔬菜湯 3 種；飲料有咖啡、紅茶與奶茶 3 種。每位客人須點全餐(主菜、湯及飲料各任選一種)或超值餐(主菜、飲料各任選一種)。請問共有幾種餐點組合？',
+    answer: '48',
     hasImage: false,
   },
   {
     id: '17990b0fd75',
     chapter: '排列組合與機率',
     question:
-      '甲、乙兩地間有 $12$ 條路，其中 $3$ 條是由甲地到乙地的單行道，$4$ 條是由乙地到甲地的單行道，另 $5$ 條是雙向道，今由甲地到乙地再回到甲地，若往返不走同一條路，走法共有幾種？',
-    answer: '$67$',
+      '甲、乙兩地間有 12 條路，其中 3 條是由甲地到乙地的單行道，4 條是由乙地到甲地的單行道，另 5 條是雙向道，今由甲地到乙地再回到甲地，若往返不走同一條路，走法共有幾種？',
+    answer: '67',
+    hasImage: false,
+  },
+  {
+    id: '1868203b78b',
+    chapter: '排列組合與機率',
+    question:
+      '某班有 40 人，今調查擁有手機、平板及筆電的人數。其中 22 個人有手機；16 個人有平板；18 個人有筆電；同時有手機與平板的有 9 人；有平板與筆電的有 7 人；有手機與筆電的有 12 人；都沒有這三種產品的有 8 人，試問下列何者正確？\n(1) 至少有一樣的有 32 人\n(2) 三樣都有的有 5 人\n(3) 有手機與平板，但沒有筆電的有 4 人\n(4) 有筆電，但沒有手機與平板的有 3 人\n(5) 有手機或筆電，但沒有平板的有 16 人',
+    answer: '(1)(4)(5)',
     hasImage: false,
   },
   {

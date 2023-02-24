@@ -8,18 +8,29 @@ import style from './Hw.module.scss';
 
 const Hw = () => {
   const ids: string[] = [
-    '1799677886e',
-    '179967c79a3',
-    '179967ee279',
-    '179968447b6',
-    '1865e3c41ed',
-    '179bc2a940f',
-    '179bc2baac6',
-    '179bc2d5ae7',
-    '179e06f7815',
-    '179e070c819',
-    '179e071ffc3',
-    '179e073e656',
+    // '17eec5f9f8c',
+    // '17eec60348e',
+    // '17eec6134c0',
+    // '17eec62b9f9',
+    // '17eec638fb0',
+    // '17eec64b278',
+    // '18681c22292',
+    // '18681bfe8b9',
+    // 羽榛、佩賢、莘茵、秉峵
+    // '18681c56895',
+    // '18681c63f4f',
+    // '18681c8266c',
+    // '18681c90a2f',
+    // 米雅
+    '17990aa1fd6',
+    '17990aea8de',
+    '17990b0fd75',
+    '1868203b78b',
+    // 郁絜
+    '179e06ddeda',
+    '186820bb0b5',
+    '179e06b1112',
+    '186820ddb5d',
   ];
 
   const addDefaultSrc = (ev: ChangeEvent<HTMLImageElement>) => {
