@@ -111,6 +111,17 @@ const Lecture = () => {
           1-4 反三角與三角測量
         </Button>
       </div>
+      第二冊 Ch2 數列級數
+      <div className={style.button}>
+        <Button variant="contained" onClick={onClick('b2c2s1')}>
+          1-1 數列
+        </Button>
+      </div>
+      <div className={style.button}>
+        <Button variant="contained" onClick={onClick('b2c2s2')}>
+          1-2 級數
+        </Button>
+      </div>
       第三冊 Ch1 指數與對數函數
       <div className={style.button}>
         <Button variant="contained" onClick={onClick('exponentFunction')}>
