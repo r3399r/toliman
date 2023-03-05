@@ -9,6 +9,7 @@ export type Question = {
 };
 
 export const chapterList: string[] = [
+  '學測',
   '升高中銜接',
   '數與式',
   '指數對數',
@@ -33,6 +34,177 @@ export const chapterList: string[] = [
   '極限',
   '複數與複數平面',
   '二次曲線',
+];
+
+// 學測
+const gsat: Question[] = [
+  {
+    id: '186823bac74',
+    chapter: '學測',
+    question:
+      '某冰淇淋店最少需準備 $n$ 桶不同口味的冰淇淋，才能滿足廣告所稱「任選兩球不同口味冰淇淋的組合數超過 100 種」。試問來店顧客從 $n$ 桶中任選兩球 (可為同一口味) 共有幾種方法？\n(1) 101　　(2) 105　　(3) 115　　(4) 120　　(5) 225',
+    answer: '(4)',
+    hasImage: false,
+  },
+  {
+    id: '186824ac3ce',
+    chapter: '學測',
+    question:
+      '某品牌計算機在計算對數 $\\log_ab$ 時需按 $\\boxed\\log$、$\\boxed($、$\\boxed a$、$\\boxed,$、$\\boxed b$、$\\boxed)$。某生在計算 $\\log_ab$ 時 (其中 $a>1$ 且 $b>1$) 順序弄錯，誤按 $\\boxed\\log$、$\\boxed($、$\\boxed b$、$\\boxed,$、$\\boxed a$、$\\boxed)$，所得為正確值的 $\\dfrac94$ 倍。試選出 $a,b$ 間的關係式。\n(1) $a^2=b^3$　　(2) $a^3=b^2$　　(3) $a^4=b^9$　　(4) $2a=3b$　　(5) $3a=2b$',
+    answer: '(1)',
+    hasImage: false,
+  },
+  {
+    id: '18682554aed',
+    chapter: '學測',
+    question:
+      '在處理二維數據時，有種方法是將數據垂直投影到某一直線，並以該直線為數線，進而了解投影點所成一維數據的變異。下圖的一組二維數據，試問投影到哪一選項的直線，所得之一維投影數據的變異數會是最小？\n(1) $y=2x$\n(2) $y=-2x$\n(3) $y=-x$\n(4) $y=\\dfrac x2$\n(5) $y=-\\dfrac x2$',
+    answer: '(5)',
+    hasImage: true,
+  },
+  {
+    id: '1868261d117',
+    chapter: '學測',
+    question:
+      '設等差數列 $\\langle a_n\\rangle$ 之首項 $a_1$ 與公差 $d$ 皆為正數，且 $\\log a_1,\\log a_3,\\log a_6$ 依序也成等差數列。試選出數列 $\\log a_1,\\log a_3,\\log a_6$ 的公差。\n(1) $\\log d$　　(2) $\\log\\dfrac23$　　(3) $\\log\\dfrac32$　　(4) $\\log2d$　　(5) $\\log3d$',
+    answer: '(3)',
+    hasImage: false,
+  },
+  {
+    id: '1868264a1b9',
+    chapter: '學測',
+    question:
+      "已知某地區有 30% 的人口感染某傳染病。針對該傳染病的快篩試劑檢驗，有陽性或陰性兩結果。已知該試劑將染病者判為陽性的機率為 80%，將未染病者判為陰性的機率則為 60%。為降低該試劑將染病者誤判為陰性的情況，專家建議連續採檢三次。若單次採檢判為陰性者中，染病者的機率為 $P$；而連續採檢三次皆判為陰性者中，染病者的機率為 $P'$。試問 $\\dfrac P{P'}$ 最接近哪一選項？\n(1) 7　　(2) 8　　(3) 9　　(4) 10　　(5) 11",
+    answer: '(2)',
+    hasImage: false,
+  },
+  {
+    id: '1868266ca4a',
+    chapter: '學測',
+    question:
+      '設坐標平面上兩直線 $L_1,L_2$ 的斜率皆為正，且 $L_1,L_2$ 有一夾角的平分線斜率為 $\\dfrac{11}9$。另一直線 $L$ 通過點 $(2,\\dfrac13)$ 且與 $L_1,L_2$ 所圍的有界區域為正三角形，試問 $L$ 的方程式為下列哪一選項？\n(1) $11x-9y=19$ 　 　(2) $9x+11y=25$　　(3) $11x+9y=25$\n(4) $27x-33y=43$　　(5) $27x+33y=65$',
+    answer: '(5)',
+    hasImage: false,
+  },
+  {
+    id: '186826b502c',
+    chapter: '學測',
+    question:
+      '設整數 $n$ 滿足 $|5n-21|\\ge7|n|$。試選出正確的選項。\n(1) $|5n-7n|\\ge21$ 　 　(2) $-1\\le\\dfrac{7n}{5n-21}\\le1$　　(3) $7n\\le5n-21$\n(4) $(5n-21)^2\\ge49n^2$　(5) 滿足題設不等式的整數 $n$ 有無窮多個',
+    answer: '(2)(4)',
+    hasImage: false,
+  },
+  {
+    id: '186826fd317',
+    chapter: '學測',
+    question:
+      '坐標平面上，$\\triangle ABC$ 三頂點的坐標分別為 $A(0,2)$，$B(1,0)$，$C(4,1)$，試選出正確的選項。\n(1) $\\triangle ABC$ 的三邊中，$\\overline{AC}$ 最長\n(2) $\\sin A<\\sin C$\n(3) $\\triangle ABC$ 為銳角三角形\n(4) $\\sin B=\\dfrac{7\\sqrt2}{10}$\n(5) $\\triangle ABC$ 的外接圓半徑比 2 小',
+    answer: '(1)(4)',
+    hasImage: false,
+  },
+  {
+    id: '18682736964',
+    chapter: '學測',
+    question:
+      '已知 $P$ 為 $\\triangle ABC$ 內一點，且 $\\xvector{AP}=a\\xvector{AB}+b\\xvector{AC}$，其中 $a,b$ 為相異實數。設 $Q,R$ 在同一平面上，且 $\\xvector{AQ}=b\\xvector{AB}+a\\xvector{AC}$，$\\xvector{AR}=a\\xvector{AB}+(b-0.05)\\xvector{AC}$。試選出正確的選項。\n(1) $Q,R$ 也都在 $\\triangle ABC$ 內部\n(2) $|\\xvector{AP}|=|\\xvector{AQ}|$\n(3) $\\triangle ABP$ 面積 $=\\triangle ACQ$ 面積\n(4) $\\triangle BCP$ 面積 $=\\triangle BCQ$ 面積\n(5) $\\triangle ABP$ 面積 $>\\triangle ABR$ 面積',
+    answer: '(3)(4)',
+    hasImage: false,
+  },
+  {
+    id: '1868276c703',
+    chapter: '學測',
+    question:
+      '給定一實係數三次多項式函數 $f(x)=ax^3+bx^2+cx+3$。令 $g(x)=f(-x)-3$，已知 $y=g(x)$ 圖形的對稱中心為 (1, 0) 且 $g(-1)<0$。試選出正確的選項。\n(1) $g(x)=0$ 有三相異整數根\n(2) $a<0$\n(3) $y=f(x)$ 圖形的對稱中心為 (-1, -3)\n(4) $f(100)<0$\n(5) $y=f(x)$ 的圖形在點 $(-1,f(-1))$ 附近會近似於一條斜率為 $a$ 的直線',
+    answer: '(1)(2)',
+    hasImage: false,
+  },
+  {
+    id: '1868279a5a7',
+    chapter: '學測',
+    question:
+      '下圖為一個積木的示意圖，其中 $ABC$ 為一直角三角形，$\\angle ACB=90\\du$，$\\overline{AC}=5$、$\\overline{BC}=6$，且 $ADEB$ 與 $ADFC$ 皆為矩形。試選出正確的選項。\n(1) 將此積木沿平面 $ACE$ 切下，可切得兩個四面體\n(2) 平面 $ADEB$ 與 $ADFC$ 所夾銳角大於 $45\\du$\n(3) $\\angle CEB<\\angle AEB$\n(4) $\\tan\\angle AEC<\\sin\\angle CEB$\n(5) $\\angle CEB<\\angle AEC$',
+    answer: '(2)(3)(4)',
+    hasImage: true,
+  },
+  {
+    id: '186827e7f4f',
+    chapter: '學測',
+    question:
+      '設 $f(x),g(x)$ 皆為實係數多項式，其中 $g(x)$ 是首項係數為正的二次式。已知 $(g(x))^2$ 除以 $f(x)$ 的餘式為 $g(x)$，且 $y=f(x)$ 的圖形與 $x$ 軸無交點。試選出不可能是 $y=g(x)$ 圖形頂點的 $y$ 坐標之選項。\n(1) $\\dfrac{\\sqrt2}2$　　(2) 1　　(3) $\\sqrt2$　　(4) 2　　(5) $\\pi$',
+    answer: '(1)(2)',
+    hasImage: false,
+  },
+  {
+    id: '18682806494',
+    chapter: '學測',
+    question:
+      '有一款線上遊戲推出「十連抽」的抽卡機制，「十連抽」意思為系統自動做十次的抽卡動作。若每次「十連抽」需用 1500 枚代幣，抽中金卡的機率在前九次皆為 2%，在第十次為 10%。今某生有代幣 23000 枚，且不斷使用「十連抽」，抽到不能再抽為止。則某生抽到金卡張數的期望值為 ＿＿ 張',
+    answer: '4.2',
+    hasImage: false,
+  },
+  {
+    id: '186828488cf',
+    chapter: '學測',
+    question:
+      '已知 $a,b$ 為實數，且方程組 $\\begin{cases}ax+5y+12z=4\\\\x+ay+\\dfrac83z=7\\\\3x+8y+az=1\\end{cases}$ 恰有一組解，又此方程組經過一系列的高斯消去法運算後，原來的增廣矩陣化為 $\\begin{bmatrix}1&2&b&7\\\\0&b&5&-5\\\\0&0&b&0\\end{bmatrix}$。則 $a=$ ＿＿，$b=$ ＿＿。(化為最簡分數)',
+    answer: '2; $\\frac12$',
+    hasImage: false,
+  },
+  {
+    id: '1868286fb96',
+    chapter: '學測',
+    question:
+      '如圖，王家有塊三角形土地 $\\triangle ABC$，其中 $\\overline{BC}=16$ 公尺。政府擬徵收其中梯形 $DBCE$ 部分，開闢以直線 $DE,BC$ 為邊線的馬路，其路寬為 $h$ 公尺，這讓王家土地只剩原有面積的 $\\dfrac9{16}$。經協商，改以開闢平行直線 $BE,FC$ 為邊線的馬路，且路寬不變，其中 $\\angle EBC=30\\du$，則只需徵收 $\\triangle BCE$ 區域。依此協商，王家剩餘的土地 $\\triangle ABE$ 有 ＿＿＿＿ 平方公尺。',
+    answer: '192',
+    hasImage: true,
+  },
+  {
+    id: '18682de1ad3',
+    chapter: '學測',
+    question:
+      "坐標空間中，平面 $x-y+2z=3$ 上有兩相異直線 $L:\\dfrac x2-1=y+1=-2z$ 與 $L'$。已知 $L$ 也在另一平面 $E$ 上，且 $L'$ 在 $E$ 的投影與 $L$ 重合。\n則 $E$ 的方程式為 $x+$ ＿＿ $y+$ ＿＿ $z=$ ＿＿。",
+    answer: '-3; -2; 5',
+    hasImage: false,
+  },
+  {
+    id: '18682e06d63',
+    chapter: '學測',
+    question:
+      '坐標空間中一平行六面體，某一底面的其中三頂點為 (-1, 2, 1), (-4, 1, 3), (2 ,0 , -3)，另一面之一頂點在 $xy$ 平面上且與原點距離為 1。滿足前述條件之平行六面體中，最大體積為 ＿＿。',
+    answer: '21',
+    hasImage: false,
+  },
+  {
+    id: '18682e36751',
+    chapter: '學測',
+    question:
+      "坐標平面上有一環狀區域由圓 $x^2+y^2=3$ 的外部與圓 $x^2+y^2=4$ 的內部交集而成。某甲欲用一支長度為 1 的筆直掃描棒來掃描此環狀區域之 $x$ 軸上方的某區域 $R$。他設計掃描棒黑、白兩端分別在半圓 $C_1:x^2+y^2=3$ ($y\\ge0$)、$C_2:x^2+y^2=4$ ($y\\ge0$) 上移動。開始時掃描棒黑端在點 $A(\\sqrt3,0)$，白端在 $C_2$ 的點 $B$。接著黑、白兩端各沿著 $C_1$、$C_2$ 逆時針移動，直至白端碰到 $C_2$ 的點 $B'(-2,0)$ 便停止掃描。",
+    answer: '',
+    hasImage: true,
+  },
+  {
+    id: '18682e6285d',
+    chapter: '學測',
+    question:
+      ' 試問點 $B$ 的坐標為下列哪一選項？\n(1) (0, 2)　　(2) $(1,\\sqrt3)$　　(3) $(\\sqrt2,\\sqrt2)$　　(4) $(\\sqrt3,1)$　　(5) (2, 0)',
+    answer: '4',
+    hasImage: false,
+  },
+  {
+    id: '18682e71d80',
+    chapter: '學測',
+    question:
+      "令 $O$ 為原點，掃描棒停止時黑、白兩端所在位置分別為 $A',B'$。試在答題卷上作圖區中以斜線標示掃描棒掃過的區域 $R$；並於求解區內求 $\\cos\\angle OA'B'$ 及點 $A'$ 的極坐標。",
+    answer: '',
+    hasImage: false,
+  },
+  {
+    id: '18682e7bf02',
+    chapter: '學測',
+    question: '令 $\\Omega$ 表示掃描棒在第一象限所掃過的區域，試分別求 $\\Omega$ 與 $R$ 的面積。',
+    answer: '',
+    hasImage: false,
+  },
 ];
 
 // 升高中銜接
@@ -31775,6 +31947,7 @@ const conicSection: Question[] = [
 ];
 
 export const bank: Question[] = [
+  ...gsat,
   ...beginner,
   ...numAndEquation,
   ...expAndLog,
