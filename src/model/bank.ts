@@ -10356,9 +10356,8 @@ const trigonometric: Question[] = [
   {
     id: '17a0926ec6f',
     chapter: '三角比',
-    question:
-      '在銳角三角形中，有兩邊長分別為 $5$、$7$，若三角形面積為 $6\\sqrt{6}$，求第三邊的邊長。',
-    answer: '$6$',
+    question: '在銳角三角形中，有兩邊長分別為 5, 7，若三角形面積為 $6\\sqrt6$，求第三邊的邊長。',
+    answer: '6',
     hasImage: false,
   },
   {
@@ -10380,8 +10379,8 @@ const trigonometric: Question[] = [
   {
     id: '17a0941ddcf',
     chapter: '三角比',
-    question: '已知三角形的三邊長分別為 $2$、$\\sqrt{3}$、$\\sqrt{5}$，求此三角形的面積。',
-    answer: '$\\frac{\\sqrt{11}}{2}$',
+    question: '已知三角形的三邊長分別為 2、$\\sqrt3$、$\\sqrt5$，求此三角形的面積。',
+    answer: '$\\frac{\\sqrt{11}}2$',
     hasImage: false,
   },
   {
@@ -10491,8 +10490,8 @@ const trigonometric: Question[] = [
     id: '179e078a37b',
     chapter: '三角比',
     question:
-      '$\\triangle ABC$ 中，$a$、$b$、$c$ 分別為 $\\angle A$、$\\angle B$、$\\angle C$ 的對邊長。若 $\\begin{cases}2a+2b-3c=0\\\\a-2b+c=0\\end{cases}$，求 $\\sin A:\\sin B:\\sin C$。',
-    answer: '$4:5:6$',
+      '$\\triangle ABC$ 中，$a,b,c$ 分別為 $\\angle A,\\angle B,\\angle C$ 的對邊長。若 $\\begin{cases}2a+2b-3c=0\\\\a-2b+c=0\\end{cases}$，求 $\\sin A:\\sin B:\\sin C$。',
+    answer: '4:5:6',
     hasImage: false,
   },
   {
@@ -10500,7 +10499,7 @@ const trigonometric: Question[] = [
     chapter: '三角比',
     question:
       '$\\triangle ABC$ 中，$\\overline{AD}$ 平分 $\\angle BAC$ 並交 $\\overline{BC}$ 於 $D$。已知 $\\overline{BD}=5$、$\\overline{DC}=7$，且 $\\angle ABC=60\\du$，求 $\\sin\\angle ACD$。',
-    answer: '$\\frac{5\\sqrt{3}}{14}$',
+    answer: '$\\frac{5\\sqrt3}{14}$',
     hasImage: true,
   },
   {
@@ -13103,17 +13102,23 @@ const statistics: Question[] = [
   {
     id: '1790658dfdc',
     chapter: '數據分析',
-    question:
-      '有 $n$ 個數值，其算術平均數為 $5$，若再加上一數「$14$」，則算術平均數變為 $6$，則 $n=$？',
-    answer: '$8$',
+    question: '有 $n$ 個數值，其算術平均數為 5，若再加上一數「14」，則算術平均數變為 6，求 $n$。',
+    answer: '8',
     hasImage: false,
   },
   {
     id: '1790659e4b8',
     chapter: '數據分析',
+    question: '有十個數據 2, 2, 2, 4, 5, 6, 7, 7, 7, 8，則此十個數據的標準差為？',
+    answer: '$\\sqrt5$',
+    hasImage: false,
+  },
+  {
+    id: '186cac8c164',
+    chapter: '數據分析',
     question:
-      '有十個數據 $2$，$2$，$2$，$4$，$5$，$6$，$7$，$7$，$7$，$8$，則此十個數據的標準差為？',
-    answer: '$\\sqrt{5}$',
+      '某校數學科的學期成績計算方式如下：平時成績占 30%，兩次期中考試成績各占 20%，期末考試成績占 30%。已知小明的數學平時成績為 65 分，兩次期中考試分別為 35 及 37 分，請問他期末考至去要考幾分，學期成績才有 60 分以上？',
+    answer: '87',
     hasImage: false,
   },
   {
@@ -13128,8 +13133,8 @@ const statistics: Question[] = [
     id: '179065d6873',
     chapter: '數據分析',
     question:
-      '有 $n$ 個整數，加入一個數「$36$」後，其算術平均數多 $2$；但從此 $n$ 個整數中去掉其中一個數「$20$」後，其算術平均數少 $1$，則 $n=$？',
-    answer: '$13$',
+      '有 $n$ 個整數，加入一個數「36」後，其算術平均數多 2；但從此 $n$ 個整數中去掉其中一個數「20」後，其算術平均數少 1，求 $n$。',
+    answer: '13',
     hasImage: false,
   },
   {
@@ -13368,6 +13373,37 @@ const statistics: Question[] = [
 
 // 排列組合與機率
 const combination: Question[] = [
+  {
+    id: '186cabcb2ee',
+    chapter: '排列組合與機率',
+    question: '請寫出「$-1\\le x<4$」的否定敘述。',
+    answer: '略',
+    hasImage: false,
+  },
+  {
+    id: '186cabf3411',
+    chapter: '排列組合與機率',
+    question:
+      '設 $a$ 為一整數，兩集合 $A=\\{2,3,a^2-5a+10\\}$，$B=\\{2a-2,-5a+13,-a+6\\}$，$A\\cap B=\\{3,4\\}$，求 $a$。',
+    answer: '3',
+    hasImage: false,
+  },
+  {
+    id: '186caf33786',
+    chapter: '排列組合與機率',
+    question:
+      '一乒乓球隊有 6 位選手，其中甲、乙、丙為右手持拍的選手，丁、戊為左手持拍的選手，而己為左右手皆可持拍的選手。現在要派出兩名選手參加雙打，規定由一名可以右手持拍得選手與一名可以左手持拍的選手搭配。請問共有多少種可能搭配？',
+    answer: '11',
+    hasImage: false,
+  },
+  {
+    id: '186caf4773d',
+    chapter: '排列組合與機率',
+    question:
+      '用 1 元硬幣、5 元硬幣或 10 元硬幣支付 47 元貨款 (三種金額不一定全部使用)，共有幾種支付方式？',
+    answer: '30',
+    hasImage: false,
+  },
   {
     id: '185852808c5',
     chapter: '排列組合與機率',
@@ -14161,6 +14197,14 @@ const combination: Question[] = [
       "設 $A=\\{x|2\\leq x<5,x\\in\\mathbb R\\}$，$B=\\{x|4\\le x<7,x\\in\\mathbb R\\}$，求：\n(1) $A\\cap B$ (2) $A\\cup B$ (3) $A\\cap B'$ (4) $A'-B'$",
     answer:
       '(1) $\\{x|4\\le x<5,x\\in\\mathbb R\\}$ (2) $\\{x|2\\le x<7,x\\in\\mathbb R\\}$ (3) $\\{x|2\\le x<4,x\\in\\mathbb R\\}$ (4) $\\{x|5\\le x<7,x\\in\\mathbb R\\}$',
+    hasImage: false,
+  },
+  {
+    id: '186cad144fb',
+    chapter: '排列組合與機率',
+    question:
+      "設 $A=\\{x|-2<x\\le5\\}$，$B=\\{x|x\\le-1\\lor x>5\\}$，則下列個集合何者正確？\n(1) $A'=\\{x|x\\le-2\\lor x\\ge5\\}$\n(2) $A-B=\\{x|-1<x\\le3\\}$\n(3) $A\\cap B=\\{x|-2<x\\le-1\\lor3<x\\le5\\}$\n(4) $A\\cup B'=\\{x|-2<x\\le5\\}$\n(5) $A'\\cap B'=\\{x|-1<x\\le3\\}$",
+    answer: '(2)(3)(4)',
     hasImage: false,
   },
   {
@@ -16164,8 +16208,8 @@ const combination: Question[] = [
   {
     id: '17990ab0495',
     chapter: '排列組合與機率',
-    question: '小新、小白兩人各擲一顆骰子，點數差的絕對值大於 $3$ 的情形有幾種？',
-    answer: '$6$',
+    question: '小新、小白兩人各擲一顆骰子，點數差的絕對值大於 3 的情形有幾種？',
+    answer: '6',
     hasImage: false,
   },
   {
@@ -16212,16 +16256,16 @@ const combination: Question[] = [
     id: '17990b2b6ba',
     chapter: '排列組合與機率',
     question:
-      '對全班 $45$ 人作喝飲料習慣的調查，發現習慣半糖的有 $30$ 人，習慣去冰的有 $25$ 人。試問：該班喝飲料的習慣是半糖且去冰者最多有 $a$ 人，最少有 $b$ 人，則 $a+b=$？',
-    answer: '$35$',
+      '對全班 45 人作喝飲料習慣的調查，發現習慣半糖的有 30 人，習慣去冰的有 25 人。試問：該班喝飲料的習慣是半糖且去冰者最多有 $a$ 人，最少有 $b$ 人，求 $a+b$',
+    answer: '35',
     hasImage: false,
   },
   {
     id: '178f776e6fd',
     chapter: '排列組合與機率',
     question:
-      '學生 $7$ 人(甲、乙、丙、丁、戊、己、庚)參加接力賽跑，請回答下列問題各有多少種次序。\n(1)任意排棒有幾種？\n(2)甲、乙、丙必須是相鄰的三棒有幾種？\n(3)甲、乙、丙三人的棒次互不相連有幾種？',
-    answer: '(1) $5040$ (2) $720$ (3) $1440$',
+      '學生 7 人(甲、乙、丙、丁、戊、己、庚)參加接力賽跑，請回答下列問題各有多少種次序。\n(1)甲、乙、丙必須是相鄰的三棒有幾種？\n(2)甲、乙、丙三人的棒次互不相連有幾種？',
+    answer: '(1) 720 (2) 1440',
     hasImage: false,
   },
   {
@@ -16236,15 +16280,15 @@ const combination: Question[] = [
     id: '178f7791d87',
     chapter: '排列組合與機率',
     question:
-      '以 $1$、$2$、$4$、$6$、$9$ 等五個數不可重複排成一個五位數，將這些五位數由小排到大(如 $12469$、$12496$、...)後，則第 $50$ 個數為？',
-    answer: '$41296$',
+      '以 1, 2, 4, 6, 9 等五個數不可重複排成一個五位數，將這些五位數由小排到大(如 12469, 12496, ...)後，則第 50 個數為？',
+    answer: '41296',
     hasImage: false,
   },
   {
     id: '178f779646a',
     chapter: '排列組合與機率',
-    question: '用 $0$、$0$、$1$、$1$、$1$、$2$ 共 $6$ 個數字作成六位數，則共有幾種不同的數字？',
-    answer: '$40$',
+    question: '用 0, 0, 1, 1, 1, 2 共 6 個數字作成六位數，則共有幾種不同的數字？',
+    answer: '40',
     hasImage: false,
   },
   {
@@ -16257,8 +16301,8 @@ const combination: Question[] = [
   {
     id: '178f77a38e2',
     chapter: '排列組合與機率',
-    question: '將 $abscissa$ 八個字排成一列，任意排，則排法有多少種？',
-    answer: '$3360$',
+    question: '將 abscissa 八個字排成一列，任意排，則排法有多少種？',
+    answer: '3360',
     hasImage: false,
   },
   {
