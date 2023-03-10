@@ -122,6 +122,27 @@ const Lecture = () => {
           1-2 級數
         </Button>
       </div>
+      第二冊 Ch3 排列組合與古典機率
+      <div className={style.button}>
+        <Button variant="contained" onClick={onClick('b2c3s1')}>
+          3-1 邏輯、集合與計數原理
+        </Button>
+      </div>
+      <div className={style.button}>
+        <Button variant="contained" onClick={onClick('b2c3s2')}>
+          3-2 排列
+        </Button>
+      </div>
+      <div className={style.button}>
+        <Button variant="contained" onClick={onClick('b2c3s3')}>
+          3-3 組合與二項式定理
+        </Button>
+      </div>
+      <div className={style.button}>
+        <Button variant="contained" onClick={onClick('b2c3s4')}>
+          3-4 古典機率與期望值
+        </Button>
+      </div>
       第三冊 Ch1 指數與對數函數
       <div className={style.button}>
         <Button variant="contained" onClick={onClick('exponentFunction')}>
