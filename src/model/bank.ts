@@ -9006,6 +9006,13 @@ const lineAndCircle: Question[] = [
 // 三角比
 const trigonometric: Question[] = [
   {
+    id: '186f24d355a',
+    chapter: '三角比',
+    question: '已知兩點極坐標 $A[5,190\\du]$, $B[3,70\\du]$，求 $\\overline{AB}$。',
+    answer: '7',
+    hasImage: false,
+  },
+  {
     id: '1855e7422e3',
     chapter: '三角比',
     question: '圖為 7 個全等的正六邊形組成的圖形，試求 $\\cos\\theta$。',
@@ -10078,11 +10085,43 @@ const trigonometric: Question[] = [
     hasImage: false,
   },
   {
+    id: '186f250818e',
+    chapter: '三角比',
+    question:
+      '$\\triangle ABC$ 中，$\\overline{AH}\\perp\\overline{BC}$，若 $M$ 為 $\\overline{BC}$ 中點，且 $\\overline{MH}=2$，$\\cos B=\\dfrac45$，$\\tan C=\\dfrac12$，求 $\\overline{BC}$。',
+    answer: '20',
+    hasImage: true,
+  },
+  {
     id: '17ad187f99e',
     chapter: '三角比',
     question:
       '某人隔河測一山高，在 $A$ 點觀測山時，山的方位為東偏北 $60\\du$，山頂的仰角為 $45\\du$，某人自 $A$ 點向東行 600 公尺到達 $B$ 點，山的方位變成在西偏北 $60\\du$，求山高。',
     answer: '600 公尺',
+    hasImage: false,
+  },
+  {
+    id: '186f24ef2f2',
+    chapter: '三角比',
+    question:
+      '小明測一高樓的仰角為 $30\\du$，她向著高樓直線前進 200 公尺後 (未超過高樓)，再測得高樓的仰角為 $60\\du$，求此高樓的高度。',
+    answer: '$100\\sqrt3$ 公尺',
+    hasImage: false,
+  },
+  {
+    id: '186f251b180',
+    chapter: '三角比',
+    question:
+      '如圖所示，設 $ABCD$ 為圓內接四邊形，已知 $\\overline{AB}=4$，$\\overline{BC}=5$，$\\overline{CD}=4$，$\\overline{AD}=4$，求對角線 $\\overline{AC}$。',
+    answer: '6',
+    hasImage: true,
+  },
+  {
+    id: '186f2534e51',
+    chapter: '三角比',
+    question:
+      '海岸上由觀測站 $A$ 測得一船 $C$ 在北 $15\\du$ 西，同時在 $A$ 之正西方 3 公里處的另一觀測站 $B$ 測得 $C$ 船在北 $45\\du$ 東，求此時 $A$ 站到 $C$ 船的距離。',
+    answer: '$\\sqrt6$ 公里',
     hasImage: false,
   },
   {
@@ -11043,6 +11082,30 @@ const trigonometric: Question[] = [
 
 // 數列級數
 const series: Question[] = [
+  {
+    id: '186f25df1a1',
+    chapter: '數列級數',
+    question:
+      '用白色方塊與黑色方塊按照規律交錯拼排如圖，正方形圖案各邊的方塊數每次增加兩個，如圖。若以 $a_n$ 表示第 $n$ 圖中黑色方塊的個數，求 $a_6$。',
+    answer: '61',
+    hasImage: true,
+  },
+  {
+    id: '186f2601c38',
+    chapter: '數列級數',
+    question:
+      '已知等差數列 $\\langle a_n\\rangle$ 滿足 $a_9+a_{10}=\\dfrac13$，求 $2^{a_1}\\times2^{a_2}\\times2^{a_3}\\times\\cdots\\times2^{a_{18}}$。',
+    answer: '8',
+    hasImage: false,
+  },
+  {
+    id: '186f2616b22',
+    chapter: '數列級數',
+    question:
+      '如果要在牆壁上用彩帶和螢光貼紙貼成聖誕樹的樣子，如圖，第一層有 1 張貼紙，第二層有 2 張貼紙，依此類推。若將這些貼紙順著彩帶由上而下依序編號，求第 1001 張貼紙所在的層數。',
+    answer: '45',
+    hasImage: true,
+  },
   {
     id: '1858530b9a0',
     chapter: '數列級數',
@@ -12202,6 +12265,30 @@ const series: Question[] = [
 
 // 數據分析
 const statistics: Question[] = [
+  {
+    id: '186f263ead2',
+    chapter: '數據分析',
+    question:
+      '已知下列各組數據，\n$A: 1,2,3,4,5$\n$B: 3,3,3,3,3$\n$C: -6,-7,-8,-9,-10$\n$D:2,4,6,8,10$\n$E:\\dfrac{23}7,\\dfrac{24}7,\\dfrac{25}7,\\dfrac{26}7,\\dfrac{27}7$\n請比較其標準差的大小關係',
+    answer: 'D>A=C>E>B',
+    hasImage: false,
+  },
+  {
+    id: '186f265a745',
+    chapter: '數據分析',
+    question:
+      '已知有五組資料 $(x_i,y_i)$ 分別為 (8, 11), (9, 12), (10, 10), (11, 8), (12, $t$)。若 $y$ 對 $x$ 的迴歸直線為 $y=-\\dfrac45x+18$，求 $t$。',
+    answer: '9',
+    hasImage: false,
+  },
+  {
+    id: '186f266c08f',
+    chapter: '數據分析',
+    question:
+      '已知 9 個人的數學成績，其算術平均數為 56 分，標準差 4 分，且其中 7 個人的成績為 50, 52, 54, 55, 57, 60, 62，求另外兩人的成績。',
+    answer: '61, 53',
+    hasImage: false,
+  },
   {
     id: '1855e2ca335',
     chapter: '數據分析',
@@ -13373,6 +13460,53 @@ const statistics: Question[] = [
 
 // 排列組合與機率
 const combination: Question[] = [
+  {
+    id: '186f35e186f',
+    chapter: '排列組合與機率',
+    question:
+      '某棒球隊的 9 名先發球員中有 3 名左打者，6 名右打者。現在要將這 9 人排定一到九棒的打擊順序。試問：\n(1) 若左打者的棒次連排，右打者的棒次也連排，則共有幾種排法？\n(2) 若左打者的棒次不能相連，則共有幾種排法？',
+    answer: '(1) 8640 (2) 151200',
+    hasImage: false,
+  },
+  {
+    id: '186f35f070e',
+    chapter: '排列組合與機率',
+    question: '將 4 本不同的書全部分給甲、乙、丙三人，甲恰得一本，乙、丙至少得一本，則有幾種分法？',
+    answer: '24',
+    hasImage: false,
+  },
+  {
+    id: '186f3607088',
+    chapter: '排列組合與機率',
+    question:
+      '從菊花、杜鵑、蘭花、山茶花、水仙花、牡丹 6 盆花中選出 4 盆要擺在窗台上，排成一列，其中杜鵑和山茶花都必須選到，且這兩盆花要相鄰，求排法數。',
+    answer: '72',
+    hasImage: false,
+  },
+  {
+    id: '186f36215df',
+    chapter: '排列組合與機率',
+    question:
+      '帶中有 5 顆紅球和 4 顆白球，一摸彩遊戲是從袋中隨機同時取出 2 球，且每球被取出的機會相等。若取出兩紅球，可得獎金 40 元，取出兩白球，可得獎金 100 元，則當取出兩球不同色時，應付多少元，方能使摸彩遊戲為公平遊戲？',
+    answer: '50',
+    hasImage: false,
+  },
+  {
+    id: '186f3631290',
+    chapter: '排列組合與機率',
+    question:
+      '一袋中有 7 個大小相同的球，編號 1~7 號，從袋中一次取出 4 球，則取出的球編號和為偶數的機率為？',
+    answer: '$\\frac{19}{35}$',
+    hasImage: false,
+  },
+  {
+    id: '186f3648a63',
+    chapter: '排列組合與機率',
+    question:
+      '某一水果商批發了 10 箱水果，從中任選 2 箱做農藥檢驗。若驗出任一箱水果的農藥過量，則整批水果退貨，已知 10 箱中恰有 2 箱水果所含的農藥過量，則這批水果被退貨的機率為？',
+    answer: '$\\frac{17}{45}$',
+    hasImage: false,
+  },
   {
     id: '186cabcb2ee',
     chapter: '排列組合與機率',
@@ -25874,6 +26008,14 @@ const conditionalProb: Question[] = [
     question:
       '有一問答遊戲共有 5 道題目，參賽者必須由第 1 題開始依序回答，若連續答對 2 題則過關並停止遊戲，假設每一題答對的機率均為 $\\dfrac13$，且各題答對或答錯互不影響，請問在參賽者甲第二題答對的情況下，甲順利過關的機率為何？\n(1) $\\dfrac{49}{243}$　(2) $\\dfrac{49}{81}$　(3) $\\dfrac5{27}$　(4) $\\dfrac59$　(5) $\\dfrac13$',
     answer: '2',
+    hasImage: false,
+  },
+  {
+    id: '186f24bdf6d',
+    chapter: '三角比',
+    question:
+      '計算下列各式的值：\n(1) $\\sin30\\du+(\\sin90\\du\\times\\cos180\\du)+\\tan45\\du$\n(2) $\\sin^217\\du+\\sin^2107\\du+\\cos17\\du+\\cos163\\du$',
+    answer: '(1) $\\frac12$ (2) 1',
     hasImage: false,
   },
   {
