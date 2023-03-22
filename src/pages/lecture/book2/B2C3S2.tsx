@@ -33,17 +33,15 @@ const B2C3S2 = () => (
       <Example num={9} ids={['17e6c932288', '17e6c9388d6']} />
     </Page>
     <Page pageNum={16}>
-      <Concept num={10} title="有相同物的排列" height="8.1cm">
+      <Concept num={10} title="有相同物的排列" height="6cm">
         如果排列的物品長得一模一樣，會有何狀況？
       </Concept>
-      <Example num={11} ids={['17e6c93df90', '17e6c945a8c']} height="10cm" />
+      <Example num={11} ids={['17e6c93df90', '17e6c945a8c']} height="3cm" />
+      <Example num={12} ids={['17e6c941b71', '17e6c948d55']} height="4cm" />
     </Page>
     <Page pageNum={17}>
-      <Example num={12} ids={['17e6c941b71', '17e6c948d55']} />
       <Example num={13} ids={['17e6c954cea', '17e6c9582fc']} />
-    </Page>
-    <Page pageNum={18}>
-      <Example num={14} ids={['17e6c960b12', '17e6c965715']} height="20cm" />
+      <Example num={14} ids={['17e6c960b12', '17e6c965715']} />
     </Page>
   </MathJax>
 );
