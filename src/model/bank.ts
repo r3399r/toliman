@@ -14352,9 +14352,9 @@ const combination: Question[] = [
     id: '17e5c3c4ada',
     chapter: '排列組合與機率',
     question:
-      "設 $A=\\{x|2\\leq x<5,x\\in\\mathbb R\\}$，$B=\\{x|4\\le x<7,x\\in\\mathbb R\\}$，求：\n(1) $A\\cap B$ (2) $A\\cup B$ (3) $A\\cap B'$ (4) $A'-B'$",
+      "設 $A=\\{x|2\\leq x<5\\}$，$B=\\{x|4\\le x<7\\}$，求：\n(1) $A\\cap B$ (2) $A\\cup B$ (3) $A\\cap B'$ (4) $A'-B'$",
     answer:
-      '(1) $\\{x|4\\le x<5,x\\in\\mathbb R\\}$ (2) $\\{x|2\\le x<7,x\\in\\mathbb R\\}$ (3) $\\{x|2\\le x<4,x\\in\\mathbb R\\}$ (4) $\\{x|5\\le x<7,x\\in\\mathbb R\\}$',
+      '(1) $\\{x|4\\le x<5\\}$ (2) $\\{x|2\\le x<7\\}$ (3) $\\{x|2\\le x<4\\}$ (4) $\\{x|5\\le x<7\\}$',
     hasImage: false,
   },
   {
@@ -14369,9 +14369,8 @@ const combination: Question[] = [
     id: '17e6c837d27',
     chapter: '排列組合與機率',
     question:
-      '$A=\\{x|2\\le x\\le6,x\\in\\mathbb R\\}$，$B=\\{x|-1\\le x\\le5,x\\in\\mathbb R\\}$，求：$A\\cap B$、$A\\cup B$、$A-B$。\n',
-    answer:
-      '$\\{x|2\\le x\\le5,x\\in\\mathbb R\\}$；$\\{x|-1\\le x\\le6,x\\in\\mathbb R\\}$；$\\{x|5<x\\le6,x\\in\\mathbb R\\}$',
+      '$A=\\{x|2\\le x\\le6\\}$，$B=\\{x|-1\\le x\\le5\\}$，求：$A\\cap B$、$A\\cup B$、$A-B$。\n',
+    answer: '$\\{x|2\\le x\\le5\\}$；$\\{x|-1\\le x\\le6\\}$；$\\{x|5<x\\le6\\}$',
     hasImage: false,
   },
   {
@@ -14657,9 +14656,8 @@ const combination: Question[] = [
   {
     id: '17e6c93df90',
     chapter: '排列組合與機率',
-    question:
-      '有 $a$、$a$、$b$、$b$、$b$、$c$、$d$、$e$ 共 8 個字母，全排成一列：(1) 任意排，有幾種排法？\n(2) 兩個 $a$ 相鄰，有幾種排法？',
-    answer: '(1) 3360 (2) 840',
+    question: '有 $a,a,b,b,b,c,d,e$ 共 8 個字母，全排成一列，任意排，有幾種排法？',
+    answer: '3360',
     hasImage: false,
   },
   {
@@ -15159,7 +15157,7 @@ const combination: Question[] = [
     id: '17ea8bade88',
     chapter: '排列組合與機率',
     question:
-      '擲一不均勻銅板，出現正面的機率為 $\\frac25$，出現反面的機率為 $\\frac35$。若共擲四次，每次擲出正面可得獎金 10 元，擲出反面可得獎金 5 元，求擲此銅板四次所得獎金的期望值。',
+      '擲一不均勻銅板，出現正面的機率為 $\\dfrac25$，出現反面的機率為 $\\dfrac35$。若共擲四次，每次擲出正面可得獎金 10 元，擲出反面可得獎金 5 元，求擲此銅板四次所得獎金的期望值。',
     answer: '28 元',
     hasImage: false,
   },
