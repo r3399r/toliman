@@ -8,25 +8,24 @@ import style from './Hw.module.scss';
 
 const Hw = () => {
   const ids: string[] = [
-    // 排列組合 全
-    '178fa706cd1',
-    '178fa7b2ef0',
-    '178fa7e4b84',
-    '1875cc3a53e',
-    '178fa9cba82',
-    '178fabee5c1',
-    '178fac14a06',
-    '178fac4d07d',
-    // 排列組合 羽榛、莘茵、佩賢、秉峵、郁絜
-    // '1875cd9626f',
-    // '1875cda2cb0',
-    // '1875cdba853',
-    // '179b3a0ab68',
+    // 排列組合 全 品翔、莘茵、郁絜、羽榛、佩賢、秉峵
+    '178fac261fc',
+    '178fac331f4',
+    '178fac4d07e',
+    '18782a2c7d6',
+    '18782a8aae0',
+    '18782aa0041',
+    '18782ab9e41',
+    '18782ae64e5',
+    '18782af4d3d',
+    '1791b4911d8',
+    '1791b4a62cb',
+    '18782b49e9c',
     // 數列 米雅
-    '184a7f977bb',
-    '17901070ba5',
-    '17e435d9c5a',
-    '18681bfe8b9',
+    // '186f25df1a1',
+    // '186f2601c38',
+    // '186f2616b22',
+    // '1855e6ee478',
   ];
 
   const addDefaultSrc = (ev: ChangeEvent<HTMLImageElement>) => {

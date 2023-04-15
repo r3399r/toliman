@@ -11086,7 +11086,7 @@ const series: Question[] = [
     id: '186f25df1a1',
     chapter: '數列級數',
     question:
-      '用白色方塊與黑色方塊按照規律交錯拼排如圖，正方形圖案各邊的方塊數每次增加兩個，如圖。若以 $a_n$ 表示第 $n$ 圖中黑色方塊的個數，求 $a_6$。',
+      '用白色方塊與黑色方塊按照規律交錯拼排如圖，正方形圖案各邊的方塊數每次增加兩個，如圖。若以 $a_n$ 表示第 $n$ 圖中黑色方塊的個數，求 $a_6$',
     answer: '61',
     hasImage: true,
   },
@@ -11118,8 +11118,8 @@ const series: Question[] = [
     id: '1855e6ee478',
     chapter: '數列級數',
     question:
-      '設等比數列 $\\langle a_n\\rangle$ 共有 108 項，且每一項都是不為 0 的實數，若公比為 $r$，$S_n$ 表示此數列前 $n$ 項的和。試選出正確的選項。\n(1) 若 $a_{99}<a_{100}$，則 $r>1$\n(2) $a_{99}^2=a_{97}\\times a_{101}$\n(3) 若 $S_{108}>0$，則 $r>0$\n(4) 若 $S_{108}=0$，則 $r<0$\n(5) $S_{10},S_{20},S_{30}$ 成等比',
-    answer: '(2)(4)',
+      '設等比數列 $\\langle a_n\\rangle$ 共有 108 項，且每一項都是不為 0 的實數，若公比為 $r$，$S_n$ 表示此數列前 $n$ 項的和。試選出正確的選項。\n(A) 若 $a_{99}<a_{100}$，則 $r>1$\n(B) $a_{99}^2=a_{97}\\times a_{101}$\n(C) 若 $S_{108}>0$，則 $r>0$\n(D) 若 $S_{108}=0$，則 $r<0$\n(E) $S_{10},S_{20},S_{30}$ 成等比',
+    answer: '(B)(D)',
     hasImage: false,
   },
   {
@@ -13460,6 +13460,59 @@ const statistics: Question[] = [
 
 // 排列組合與機率
 const combination: Question[] = [
+  {
+    id: '18782a2c7d6',
+    chapter: '排列組合與機率',
+    question: '求 $101^{10}$ 的萬位數字。',
+    answer: '5',
+    hasImage: false,
+  },
+  {
+    id: '18782a8aae0',
+    chapter: '排列組合與機率',
+    question:
+      '桌面上有 13 張相同的卡牌，但各卡牌分別標示有不同的號碼 1, 2, ..., 13。從中任取一張卡牌，若 $M$ 表示取出的號碼是 4 的倍數的事件，$N$ 表示取出的號碼小於 6 的事件，選出正確的選項。(多選)\n(A) $M$ 與 $N$ 為互斥事件\n(B) 事件 $M\\cup N=\\{1,2,3,4,5\\}$\n(C) 事件 $N$ 的餘事件為 $\\{6,7,8,9,10,11,12,13\\}$\n(D) 事件 $M\\cap N=\\{4\\}$\n(E) 事件 $N$ 發生但 $M$ 不發生的事件為 $\\{1,2,3,4,5\\}$',
+    answer: '(C)(D)',
+    hasImage: false,
+  },
+  {
+    id: '18782aa0041',
+    chapter: '排列組合與機率',
+    question:
+      '投擲 1 枚均勻的硬幣 4 次，求下列各事件的機率：\n(1) 出現 1 次正面，3 次反面的機率\n(2) 出現的正面次數大於反面次數的機率\n(3) 在第 3 次出現第 2 次正面的機率',
+    answer: '(1) $\\frac14$ (2) $\\frac5{16}$ (3) $\\frac14$',
+    hasImage: false,
+  },
+  {
+    id: '18782ab9e41',
+    chapter: '排列組合與機率',
+    question:
+      '袋中有 6 顆大小相同的球，其中紅球 4 顆，白球 2 顆。取一球後不放回，再取一球，求兩球都是紅球的機率。',
+    answer: '$\\frac25$',
+    hasImage: false,
+  },
+  {
+    id: '18782ae64e5',
+    chapter: '排列組合與機率',
+    question: '寫有 1, 2, 3, 4, 5, 6, 7 各數字之七張卡片中任取兩張，求兩數字之和為偶數的機率。',
+    answer: '$\\frac37$',
+    hasImage: false,
+  },
+  {
+    id: '18782af4d3d',
+    chapter: '排列組合與機率',
+    question: '四人同時玩「剪刀、石頭、布」的遊戲，求只玩一次就分出勝負的機率。',
+    answer: '$\\frac{14}{27}$',
+    hasImage: false,
+  },
+  {
+    id: '18782b49e9c',
+    chapter: '排列組合與機率',
+    question:
+      '若投擲四枚公正的銅幣，$P(A)$ 為恰出現一次正面的機率，$P(B)$ 為出現偶數次正面的機率，$P(C)$ 為出現至少一次反面的機率，下列何者正確？(多選)\n(A) $P(A)=\\dfrac3{16}$　　(B) $P(B)=\\dfrac12$\n(C) $P(C)=\\dfrac{15}{16}$　　(D) $P(A\\cap B)=0$\n(E) $P(A\\cap C)=\\dfrac12$',
+    answer: '(B)(C)(D)',
+    hasImage: false,
+  },
   {
     id: '1873c103b7a',
     chapter: '排列組合與機率',
@@ -16622,15 +16675,15 @@ const combination: Question[] = [
   {
     id: '178fac261fc',
     chapter: '排列組合與機率',
-    question: '$\\left(2x^2-3y\\right)^5$ 展開式中 $x^4y^3$ 項的係數為？',
-    answer: '$-1080$',
+    question: '求 $(2x^2-3y)^5$ 展開式中 $x^4y^3$ 項的係數。',
+    answer: '-1080',
     hasImage: false,
   },
   {
     id: '178fac331f4',
     chapter: '排列組合與機率',
-    question: '$\\left(3x^2+\\frac{1}{x}\\right)^6$ 展開式中，常數項為？',
-    answer: '$135$',
+    question: '求 $(3x^2+\\dfrac1x)^6$ 展開式中的常數項。',
+    answer: '135',
     hasImage: false,
   },
   {
@@ -16641,11 +16694,10 @@ const combination: Question[] = [
     hasImage: false,
   },
   {
-    id: '178fac4d07c',
+    id: '178fac4d07e',
     chapter: '排列組合與機率',
-    question:
-      '計算各式的值：\n(1) $C^3_3+C^4_3+C^5_3+C^6_3+\\dots+C^{10}_3=$？\n(2) $C^9_1+C^9_2+C^9_3+C^9_4+\\dots+C^9_8=$？',
-    answer: '(1) $330$ (2) $510$',
+    question: '求 $C^9_1+C^9_2+C^9_3+C^9_4+\\dots+C^9_8$',
+    answer: '510',
     hasImage: false,
   },
   {
@@ -16678,49 +16730,19 @@ const combination: Question[] = [
     hasImage: false,
   },
   {
-    id: '1791b42e622',
-    chapter: '排列組合與機率',
-    question:
-      '投擲 $1$ 枚均勻的硬幣 $4$ 次，求下列各事件的機率：\n(1)出現 $1$ 次正面，$3$ 次反面的機率為？\n(2)出現的正面次數大於反面次數的機率為？\n(3)在第 $3$ 次出現第 $2$ 次正面的機率為？',
-    answer: '(1) $\\frac{1}{4}$ (2) $\\frac{5}{16}$ (3) $\\frac{1}{4}$',
-    hasImage: false,
-  },
-  {
-    id: '1791b44c122',
-    chapter: '排列組合與機率',
-    question:
-      '袋中有 $6$ 顆大小相同的球，其中紅球 $4$ 顆，白球 $2$ 顆。取一球後不放回，再取一球，則兩球都是紅球的機率為？',
-    answer: '$\\frac{2}{5}$',
-    hasImage: false,
-  },
-  {
-    id: '1791b45cd54',
-    chapter: '排列組合與機率',
-    question: '寫有 $1,2,3,4,5,6,7$ 各數字之七張卡片中任取兩張，則數字之和為偶數之機率為？',
-    answer: '$\\frac{3}{7}$',
-    hasImage: false,
-  },
-  {
-    id: '1791b469f25',
-    chapter: '排列組合與機率',
-    question: '四人同時玩「剪刀、石頭、布」的遊戲，求只玩一次就分出勝負的機率為？',
-    answer: '$\\frac{14}{27}$',
-    hasImage: false,
-  },
-  {
     id: '1791b4911d8',
     chapter: '排列組合與機率',
     question:
-      '設事件 $A$ 發生的機率為 $\\frac{2}{5}$，事件 $B$ 發生的機率為 $\\frac{3}{10}$，若以 $p$ 表 $A$ 或 $B$ 發生的機率，則 $p$ 值的範圍為何？',
-    answer: '$\\frac{2}{5}\\le p\\le\\frac{7}{10}$',
+      '設事件 $A$ 發生的機率為 $\\dfrac25$，事件 $B$ 發生的機率為 $\\dfrac3{10}$，若以 $p$ 表 $A$ 或 $B$ 發生的機率，求 $p$ 值的範圍。',
+    answer: '$\\frac25\\le p\\le\\frac7{10}$',
     hasImage: false,
   },
   {
     id: '1791b4a62cb',
     chapter: '排列組合與機率',
     question:
-      '設 $A$，$B$ 為兩事件，且 $P(A)=\\frac{1}{2}$，$P(B)=\\frac{7}{10}$，$P(A\\cap B)=\\frac{2}{5}$，則 $P(A\\cup B)=$？',
-    answer: '$\\frac{4}{5}$',
+      '設 $A$，$B$ 為兩事件，且 $P(A)=\\dfrac12$，$P(B)=\\dfrac7{10}$，$P(A\\cap B)=\\dfrac25$，求 $P(A\\cup B)$。',
+    answer: '$\\frac45$',
     hasImage: false,
   },
   {
