@@ -8,24 +8,25 @@ import style from './Hw.module.scss';
 
 const Hw = () => {
   const ids: string[] = [
-    // 排列組合 全 品翔、莘茵、郁絜、羽榛、佩賢、秉峵
-    '17a0842355e',
-    '17a084428de',
-    '1791b53bc19',
-    '1791b572ecb',
-    '1791b4d6f84',
-    '1791b4f3389',
-    '1791b50de9e',
-    '1791b528b1d',
-    '17a08460ece',
-    '187a5046ff8',
-    '17ac730181f',
-    '187a50751ec',
-    // 數列 米雅
-    // '17f10759723',
-    // '17f10763b85',
-    // '17eec6134c0',
-    // '17eec60348e',
+    // 數據8+排組4+排組6
+    // '1790658dfdc',
+    // '1790659e4b8',
+    // '186cac8c164',
+    // '187c689869c',
+    // '1790660b19a',
+    // '187c6931f1f',
+    // '187c68e30fc',
+    // '187c6970373',
+    // '187c69db40d',
+    // '187c6a22d02',
+    // '187c6a541d6',
+    // '187c6a82271',
+    '187c6ad211a',
+    '187c6ae5e37',
+    '187c6aff093',
+    '187c6b1851f',
+    '187c6b2b17d',
+    '187c6b494ec',
   ];
 
   const addDefaultSrc = (ev: ChangeEvent<HTMLImageElement>) => {
@@ -49,7 +50,7 @@ const Hw = () => {
                   onError={addDefaultSrc}
                 />
               )}
-              <Textarea2MathJax text={`${i + 1}. ${q.question}`} />
+              <Textarea2MathJax text={`${i + 13}. ${q.question}`} />
               <Textarea2MathJax text={`Ans: ${q.answer}`} className={style.ans} />
             </div>
           );

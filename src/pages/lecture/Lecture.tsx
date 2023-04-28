@@ -143,6 +143,17 @@ const Lecture = () => {
           3-4 古典機率與期望值
         </Button>
       </div>
+      第二冊 Ch4 數據分析
+      <div className={style.button}>
+        <Button variant="contained" onClick={onClick('b2c4s1')}>
+          4-1 一維數據分析
+        </Button>
+      </div>
+      <div className={style.button}>
+        <Button variant="contained" onClick={onClick('b2c4s2')}>
+          4-2 相關係數與迴歸直線
+        </Button>
+      </div>
       第三冊 Ch1 指數與對數函數
       <div className={style.button}>
         <Button variant="contained" onClick={onClick('exponentFunction')}>
