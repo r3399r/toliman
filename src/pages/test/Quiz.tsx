@@ -11,7 +11,7 @@ const Quiz = () => {
     ev.target.src = '/toliman/images/09.PNG';
   };
 
-  const displayQuestion = (id: string, i: number | null, height = '2.5cm') => {
+  const displayQuestion = (id: string, i: number | null, height = '0.5cm') => {
     const q: Question | undefined = getQuestion(id);
     if (q === undefined) return <div key={`error${i}`}>ERROR! id of {i} does not exists</div>;
 
@@ -54,19 +54,19 @@ const Quiz = () => {
   return (
     <MathJax>
       <div className={style.content}>
-        <h1>高一第三次段考複習</h1>
-        <h3 style={{ marginBottom: 0 }}>一、多選題</h3>
-        {displayQuestion('185a919114f', 1, '4cm')}
-        {displayQuestion('185a91bf912', 2, '4cm')}
-        <h3 style={{ marginBottom: 0 }}>二、計算題</h3>
-        {displayQuestion('185a91d63c1', 1, '3cm')}
-        {displayQuestion('185a91f6426', 2)}
-        <div style={{ pageBreakAfter: 'always' }} />
-        {displayQuestion('185a920a8ad', 3, '4cm')}
-        {displayQuestion('185a92237b0', 4, '4cm')}
-        {displayQuestion('185a92360dd', 5, '4cm')}
-        {displayQuestion('185a928fabc', 6, '4cm')}
-        {displayQuestion('185a92a929a', 7)}
+        <h1>高一下第二次段考範圍練習 排組機率</h1>
+        {/* <h3 style={{ marginBottom: 0 }}>一、多選題</h3> */}
+        {displayQuestion('17942ce3940', 1)}
+        {displayQuestion('17942d5a8b2', 2)}
+        {/* <h3 style={{ marginBottom: 0 }}>二、計算題</h3> */}
+        {displayQuestion('17942eb8abe', 3)}
+        {displayQuestion('17a202b0a26', 4)}
+        {displayQuestion('17a202e5b03', 5)}
+        {displayQuestion('17942d0321c', 6)}
+        {displayQuestion('17a2030c7d5', 7)}
+        {displayQuestion('17a2023d430', 8)}
+        {displayQuestion('17942c8c37e', 9)}
+        {displayQuestion('17a202cce60', 10)}
       </div>
     </MathJax>
   );

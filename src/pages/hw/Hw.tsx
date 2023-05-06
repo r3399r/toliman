@@ -8,25 +8,16 @@ import style from './Hw.module.scss';
 
 const Hw = () => {
   const ids: string[] = [
-    // 數據8+排組4+排組6
-    // '1790658dfdc',
-    // '1790659e4b8',
-    // '186cac8c164',
-    // '187c689869c',
-    // '1790660b19a',
-    // '187c6931f1f',
-    // '187c68e30fc',
-    // '187c6970373',
-    // '187c69db40d',
-    // '187c6a22d02',
-    // '187c6a541d6',
-    // '187c6a82271',
-    '187c6ad211a',
-    '187c6ae5e37',
-    '187c6aff093',
-    '187c6b1851f',
-    '187c6b2b17d',
-    '187c6b494ec',
+    '17942ce3940',
+    '17942d5a8b2',
+    '17942eb8abe',
+    '17a202b0a26',
+    '17a202e5b03',
+    '17942d0321c',
+    '17a2030c7d5',
+    '17a2023d430',
+    '17942c8c37e',
+    '17a202cce60',
   ];
 
   const addDefaultSrc = (ev: ChangeEvent<HTMLImageElement>) => {
@@ -50,7 +41,7 @@ const Hw = () => {
                   onError={addDefaultSrc}
                 />
               )}
-              <Textarea2MathJax text={`${i + 13}. ${q.question}`} />
+              <Textarea2MathJax text={`${i + 1}. ${q.question}`} />
               <Textarea2MathJax text={`Ans: ${q.answer}`} className={style.ans} />
             </div>
           );
