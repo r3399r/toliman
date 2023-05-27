@@ -8,24 +8,18 @@ import style from './Hw.module.scss';
 
 const Hw = () => {
   const ids: string[] = [
-    // '1791c6788cf',
-    // '18837949f06',
-    // '1791c668816',
-    // '18837a18811',
-    // '1791c6a521e',
-    // '1791c6df60a',
-    // '1791c6f30c9',
-    // '1791c71967e',
-    // '1791c7369d7',
-    // '1791c752f6a',
-    // '1791c770c85',
-    // '1791c79132c',
-    '179967d65a9',
-    '1863c409e36',
-    '1863c4203c3',
-    '179968541c0',
-    '1799685e5d3',
-    '179bc280c82',
+    '1799677886e',
+    '179967a4e21',
+    '1885b8c35f1',
+    '1885b906fa0',
+    '179968926c1',
+    '1865e3c41ed',
+    '179bc2a940f',
+    '179bc2baac6',
+    '179bc2d5ae7',
+    '179e0697edf',
+    '179bc2ecb34',
+    '179bc2f9816',
   ];
 
   const addDefaultSrc = (ev: ChangeEvent<HTMLImageElement>) => {
@@ -49,7 +43,7 @@ const Hw = () => {
                   onError={addDefaultSrc}
                 />
               )}
-              <Textarea2MathJax text={`${i + 13}. ${q.question}`} />
+              <Textarea2MathJax text={`${i + 1}. ${q.question}`} />
               <Textarea2MathJax text={`Ans: ${q.answer}`} className={style.ans} />
             </div>
           );

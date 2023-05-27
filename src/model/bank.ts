@@ -9006,6 +9006,22 @@ const lineAndCircle: Question[] = [
 // 三角比
 const trigonometric: Question[] = [
   {
+    id: '1885b8c35f1',
+    chapter: '三角比',
+    question:
+      '根據法令規定，無人機飛航高度須在 120 公尺以下。小明操縱一架無人機欲拍攝調查某聚落狀況，已知該無人機的遙控器最大操控距離為 1000 公尺，若小明欲得到最大範圍的拍攝視野 (即最大高度)，則小明與該聚落的距離不得大於幾公尺? (四捨五入至整數位，三角函數值可按計算機)',
+    answer: '993',
+    hasImage: false,
+  },
+  {
+    id: '1885b906fa0',
+    chapter: '三角比',
+    question:
+      '如圖，扇形 $OAB$ 的中心角 $\\angle AOB=90\\du$，$\\overline{OA}=\\overline{OB}=1$，$P$ 是 $\\arc{AB}$ 上的點，下列選項何者正確？(多選)\n(1) $\\overline{OM}=\\cos\\theta$\n(2) $\\overline{MP}=\\sin\\theta$\n(3) $\\overline{MN}=\\sin\\theta$\n(4) $\\overline{ON}=\\sin\\theta\\cos\\theta$\n(5) $\\overline{PN}=\\sin^2\\theta$',
+    answer: '(1)(2)(5)',
+    hasImage: true,
+  },
+  {
     id: '186f24d355a',
     chapter: '三角比',
     question: '已知兩點極坐標 $A[5,190\\du]$, $B[3,70\\du]$，求 $\\overline{AB}$。',
@@ -10732,8 +10748,8 @@ const trigonometric: Question[] = [
   {
     id: '179bc2f9816',
     chapter: '三角比',
-    question: '已知 $\\sin\\theta=-\\frac{1}{5}$，則 $\\cos(\\theta-1170\\du)=$？',
-    answer: '$-\\frac{1}{5}$',
+    question: '已知 $\\sin\\theta=-\\dfrac15$，求 $\\cos(\\theta-1170\\du)$。',
+    answer: '$-\\frac15$',
     hasImage: false,
   },
   {
@@ -11074,8 +11090,8 @@ const trigonometric: Question[] = [
     id: '179968926c1',
     chapter: '三角比',
     question:
-      '已知直角 $\\triangle ABC$ 中，$\\angle C=90\\du$，若 $3\\cos A+5\\cos B=5$，則 $\\sin A=$？',
-    answer: '$\\frac{8}{17}$',
+      '已知直角 $\\triangle ABC$ 中，$\\angle C=90\\du$，若 $3\\cos A+5\\cos B=5$，求 $\\sin A$。',
+    answer: '$\\frac8{17}$',
     hasImage: false,
   },
 ];
