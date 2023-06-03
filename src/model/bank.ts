@@ -10373,7 +10373,7 @@ const trigonometric: Question[] = [
     chapter: '三角比',
     question:
       '已知 $ABCD$ 為圓內接四邊形，且 $\\overline{AB}=3$，$\\overline{BC}=3$，$\\overline{CD}=5$，$\\overline{DA}=8$，求對角線 $\\overline{BD}$。',
-    answer: '$7$',
+    answer: '7',
     hasImage: false,
   },
   {
@@ -10537,8 +10537,8 @@ const trigonometric: Question[] = [
     id: '179e075c581',
     chapter: '三角比',
     question:
-      '如圖 $\\triangle ABP$ 中，若 $\\angle PAB=30\\du$，$\\angle PBA=45\\du$，今於 $\\overline{AB}$ 上任取一點 $Q$，若 $\\triangle APQ$ 與 $\\triangle BPQ$ 的外接圓半徑分別為 $R_1$ 和 $R_2$，求 $\\frac{R_1}{R_2}$。',
-    answer: '$\\sqrt{2}$',
+      '如圖 $\\triangle ABP$ 中，若 $\\angle PAB=30\\du$，$\\angle PBA=45\\du$，今於 $\\overline{AB}$ 上任取一點 $Q$，若 $\\triangle APQ$ 與 $\\triangle BPQ$ 的外接圓半徑分別為 $R_1$ 和 $R_2$，求 $\\dfrac{R_1}{R_2}$。',
+    answer: '$\\sqrt2$',
     hasImage: true,
   },
   {
@@ -10762,7 +10762,7 @@ const trigonometric: Question[] = [
   {
     id: '179bc322655',
     chapter: '三角比',
-    question: '已知 $\\tan350\\du=k$，則 $\\sin1970\\du=$？(以 $k$ 表示)',
+    question: '已知 $\\tan350\\du=k$，求 $\\sin1970\\du$。(以 $k$ 表示)',
     answer: '$\\frac{-k}{\\sqrt{1+k^2}}$',
     hasImage: false,
   },
@@ -10770,14 +10770,14 @@ const trigonometric: Question[] = [
     id: '179bc33b270',
     chapter: '三角比',
     question: '求 $\\sin^21\\du+\\sin^22\\du+\\sin^23\\du+\\cdots$\n$+\\sin^2180\\du$。',
-    answer: '$90$',
+    answer: '90',
     hasImage: false,
   },
   {
     id: '179bc364ccb',
     chapter: '三角比',
     question: '求 $\\sin300\\du\\tan150\\du+\\sin150\\du\\cos120\\du$。',
-    answer: '$\\frac{1}{4}$',
+    answer: '$\\frac14$',
     hasImage: false,
   },
   {
