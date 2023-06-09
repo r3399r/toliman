@@ -10389,7 +10389,7 @@ const trigonometric: Question[] = [
     chapter: '三角比',
     question:
       '如圖所示，$\\triangle ABC$ 為一直角三角形，四邊形 $BDEC$ 是以 $\\overline{BC}$ 為一邊向外作出的正方形。已知 $\\overline{AB}=5$，$\\overline{AC}=12$，$\\overline{BC}=13$，求 $\\triangle ABD$ 的面積。',
-    answer: '$\\frac{25}{2}$',
+    answer: '$\\frac{25}2$',
     hasImage: true,
   },
   {
@@ -10397,7 +10397,7 @@ const trigonometric: Question[] = [
     chapter: '三角比',
     question:
       '如圖，兩圓交於 $P$、$Q$ 兩點，$A$、$B$ 分別在兩圓上，且 $A$、$Q$、$B$ 三點共線，若 $\\overline{PA}=3$，$\\overline{PB}=2$，求大圓面積：小圓面積。',
-    answer: '$9:4$',
+    answer: '9:4',
     hasImage: true,
   },
   {
@@ -10405,7 +10405,7 @@ const trigonometric: Question[] = [
     chapter: '三角比',
     question:
       '在 $\\triangle ABC$ 中，若 $\\overline{AB}=6$，$\\overline{AC}=4$，$\\angle A=60\\du$，求 $\\triangle ABC$ 之外接圓半徑 $R$。',
-    answer: '$\\frac{2\\sqrt{21}}{3}$',
+    answer: '$\\frac{2\\sqrt{21}}3$',
     hasImage: false,
   },
   {
@@ -10443,7 +10443,7 @@ const trigonometric: Question[] = [
     chapter: '三角比',
     question:
       '$\\triangle ABC$ 中，$\\overline{AB}=c$，$\\overline{BC}=a$，$\\overline{CA}=b$，若 $\\overline{AB}$ 邊上的高 $h_c=3$，$\\overline{BC}$ 邊上的高 $h_a=4$，$\\overline{CA}$ 邊上的高 $h_b=6$，試求：\n(1) $\\sin A:\\sin B:\\sin C$\n(2) $\\triangle ABC$ 的面積',
-    answer: '(1) $3:2:4$ (2) $\\frac{16\\sqrt{15}}{5}',
+    answer: '(1) 3:2:4 (2) $\\frac{16\\sqrt{15}}5$',
     hasImage: false,
   },
   {
@@ -12355,6 +12355,13 @@ const statistics: Question[] = [
     hasImage: false,
   },
   {
+    id: '1889e5bd939',
+    chapter: '數據分析',
+    question: '設 $1,2,3,...,n$ 的標準差為 $\\sqrt{10}$，求 $n$。',
+    answer: '11',
+    hasImage: false,
+  },
+  {
     id: '186f266c08f',
     chapter: '數據分析',
     question:
@@ -13560,6 +13567,14 @@ const statistics: Question[] = [
 
 // 排列組合與機率
 const combination: Question[] = [
+  {
+    id: '1889e60466e',
+    chapter: '排列組合與機率',
+    question:
+      '袋中有 7 個白球，若干個紅球。今自袋中任取一個球，每一球被取的機會均等，取得一個紅球時，可以得 100 元獎金；取得一個白球時必須賠 50 元。如果此遊戲的期望值為 30 元，求袋中紅球的個數。',
+    answer: '8',
+    hasImage: false,
+  },
   {
     id: '187c69db40d',
     chapter: '排列組合與機率',
