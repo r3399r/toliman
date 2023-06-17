@@ -10191,7 +10191,7 @@ const trigonometric: Question[] = [
     id: '17ad19fe25d',
     chapter: '三角比',
     question:
-      '如圖，$\\angle BAC=\\theta$，$\\angle ABD=\\angle ACD=90\\du$，$\\overline{AB}=a$，$\\overline{BD}=b$，下列選項何者可以表示 $\\overline{CD}$？\n(1) $a\\sin\\theta+b\\cos\\theta$　　(2) $a\\sin\\theta-b\\cos\\theta$\n(3) $a\\cos\\theta-b\\sin\\theta$　　(4) $a\\cos\\theta+b\\sin\\theta$\n(5) $a\\sin\\theta+b\\tan\\theta$',
+      '如圖，$\\angle BAC=\\theta$，$\\angle ABD=\\angle ACD=90\\du$，$\\overline{AB}=a$，$\\overline{BD}=b$，下列選項何者可以表示 $\\overline{CD}$？\n(1) $a\\sin\\theta+b\\cos\\theta$\n(2) $a\\sin\\theta-b\\cos\\theta$\n(3) $a\\cos\\theta-b\\sin\\theta$　　(4) $a\\cos\\theta+b\\sin\\theta$\n(5) $a\\sin\\theta+b\\tan\\theta$',
     answer: '(2)',
     hasImage: true,
   },
@@ -10247,7 +10247,7 @@ const trigonometric: Question[] = [
     id: '17ad1b111d9',
     chapter: '三角比',
     question:
-      '如圖，圓 $O$ 內切於 $\\triangle ABC$ 中，切點分別為 $D,E,F$，且 $\\overline{AD}=3$，$\\overline{BD}=2$，內切圓半徑為 $\\frac{2\\sqrt6}3$，求 $\\overline{AC}$。',
+      '如圖，圓 $O$ 內切於 $\\triangle ABC$ 中，切點分別為 $D,E,F$，且 $\\overline{AD}=3$，$\\overline{BD}=2$，內切圓半徑為 $\\dfrac{2\\sqrt6}3$，求 $\\overline{AC}$。',
     answer: '7',
     hasImage: true,
   },
