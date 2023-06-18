@@ -12282,6 +12282,45 @@ const series: Question[] = [
 // 數據分析
 const statistics: Question[] = [
   {
+    id: '188ccd31686',
+    chapter: '數據分析',
+    question:
+      '$y$ 對 $x$ 的迴歸直線的斜率為 $\\dfrac12$，而 $u=2+3x$，$v=3-2y$，求 $v$ 對 $u$ 的迴歸直線的斜率。',
+    answer: '$-\\dfrac13$',
+    hasImage: false,
+  },
+  {
+    id: '188ccd4275b',
+    chapter: '數據分析',
+    question: '設 5 筆數據經標準化後的值分別為 -2, -1, 0, 1, $x$，求 $x$。',
+    answer: '2',
+    hasImage: false,
+  },
+  {
+    id: '188ccd5fef9',
+    chapter: '數據分析',
+    question:
+      '某公司規定新進人員服務滿一年後調薪 21%，滿第二年後再調薪 69%。試求這兩年的平均調薪率。',
+    answer: '43%',
+    hasImage: false,
+  },
+  {
+    id: '188ccd8e5ed',
+    chapter: '數據分析',
+    question:
+      '今有資料數對 $(x_1,y_1)$, $(x_2,y_2)$, ..., $(x_{20},y_{20})$，已知 $x_1$, $x_2$, ..., $x_{20}$ 的算術平均數為 10，標準差為 6；$y_1$, $y_2$, ..., $y_{20}$ 的算術平均數為 20，標準差為 3，求這些資料數對的迴歸直線方程式。',
+    answer: '$y=-2x+40$',
+    hasImage: false,
+  },
+  {
+    id: '188ccdad217',
+    chapter: '數據分析',
+    question:
+      '某次數學段考中，高一某班甲、乙、丙三人的成績分別為 85, 92, 75。經標準化後，甲、乙的成績分別為 0.58, 1.98，求：\n(1) 這班段考數學成績的標準差\n(2) 丙的標準化成績',
+    answer: '(1) 5 (2) -1.42',
+    hasImage: false,
+  },
+  {
     id: '18837949f06',
     chapter: '數據分析',
     question: '有 30 筆數據 $(x_i,y_i)$，若 $y_i=-5x_i+1$，求 $x$ 與 $y$ 的相關係數。',
@@ -13567,6 +13606,14 @@ const statistics: Question[] = [
 
 // 排列組合與機率
 const combination: Question[] = [
+  {
+    id: '188ccccab27',
+    chapter: '排列組合與機率',
+    question:
+      '擲兩顆公正骰子一次，選出正確的選項。\n(1) 點數和為 5 的機率為 $\\dfrac19$\n(2) 點數相同的機率為 $\\dfrac16$\n(3) 點數和大於 10 的機率為 $\\dfrac16$\n(4) 點數乘積為奇數之機率為 $\\dfrac1{12}$\n(5) 點數和為質數之機率為 $\\dfrac7{18}$',
+    answer: '(1)(2)',
+    hasImage: false,
+  },
   {
     id: '1889e60466e',
     chapter: '排列組合與機率',
@@ -15402,6 +15449,14 @@ const combination: Question[] = [
     hasImage: false,
   },
   {
+    id: '17ea8b9a760',
+    chapter: '排列組合與機率',
+    question:
+      '一題多重題共有 ABCDE 五個選項，至少有一個選項是正確的，若全對得 5 分，錯一個選項得 3 分，錯兩個選項得 1 分，錯三個選項以上得 0 分。答題者確定 A、B 是對的，其餘三個選項隨便亂猜，求該題得分的期望值。',
+    answer: '$\\frac{17}8$ 分',
+    hasImage: false,
+  },
+  {
     id: '17ea8b9e362',
     chapter: '排列組合與機率',
     question: '擲一公正硬幣，直到出現正面或 5 個反面為止，求投擲次數的期望值。',
@@ -16057,8 +16112,8 @@ const combination: Question[] = [
     id: '17a201bf43f',
     chapter: '排列組合與機率',
     question:
-      '(單選) 一袋中有 $6$ 個白球與 $n$ 個黑球，假設每球被選取的機會均等，今從袋中一次取出兩球，已知兩球均為白球的機率是 $\\frac{5}{12}$，求 $n$。\n(1) $3$ (2) $5$ (3) $7$ (4) $9$ (5) $11$',
-    answer: '(1)',
+      '一袋中有 6 個白球與 $n$ 個黑球，假設每球被選取的機會均等，今從袋中一次取出兩球，已知兩球均為白球的機率是 $\\dfrac5{12}$，求 $n$。',
+    answer: '3',
     hasImage: false,
   },
   {
@@ -17172,7 +17227,7 @@ const combination: Question[] = [
     id: '179495d8575',
     chapter: '排列組合與機率',
     question:
-      '電力公司預計在接下來的 $12$ 天中選擇 $4$ 天停電，但是要求停電的 $2$ 天不得相連，則滿足此情形的機率為？',
+      '電力公司預計在接下來的 12 天中選擇 4 天停電，但是要求停電的 2 天不得相連，求滿足此情形的機率。',
     answer: '$\\frac{14}{55}$',
     hasImage: false,
   },
