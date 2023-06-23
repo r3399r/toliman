@@ -54,23 +54,29 @@ const Quiz = () => {
   return (
     <MathJax>
       <div className={style.content}>
-        <h1>高一下第三次段考練習 機率統計</h1>
+        <h1>高一下第三次段考練習 三角比</h1>
         <h3 style={{ marginBottom: 0 }}>一、多選題</h3>
-        {displayQuestion('179492651ec', 1)}
-        {displayQuestion('1794923ad9e', 2)}
-        {displayQuestion('17942c55d7f', 3)}
+        {displayQuestion('188e043386c', 1)}
+        {displayQuestion('188e0492bad', 2)}
+        {displayQuestion('188e04c9a0a', 3)}
         <h3 style={{ marginBottom: 0 }}>二、計算題</h3>
-        {displayQuestion('1794305ee54', 1)}
-        {displayQuestion('1794939a76e', 2)}
-        {displayQuestion('179065e0be4', 3)}
+        {displayQuestion('188e03d95e7', 1)}
+        {displayQuestion('188e04e6488', 2)}
+        {displayQuestion('188e04fe102', 3)}
+        {displayQuestion('188e0511b45', 4)}
+        {displayQuestion('17a24eb0dfb', 5)}
         <div style={{ pageBreakAfter: 'always' }} />
-        {displayQuestion('1794307a23e', 4)}
-        {displayQuestion('188e06f7d37', 5)}
-        {displayQuestion('17a202cce60', 6)}
-        {displayQuestion('17a2030c7d5', 7)}
-        {displayQuestion('188e0722db1', 8)}
-        {displayQuestion('188e0782983', 9)}
-        {displayQuestion('188e07ab49b', 10)}
+        {displayQuestion('188e054d939', 6)}
+        {displayQuestion('188e056a74f', 7)}
+        {displayQuestion('188e059b39d', 8)}
+        <br />
+        <br />
+        <br />
+        <br />
+        {displayQuestion('188e05c735e', 9)}
+        <br />
+        <br />
+        {displayQuestion('188e05e7063', 10)}
       </div>
     </MathJax>
   );

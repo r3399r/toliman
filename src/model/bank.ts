@@ -9006,6 +9006,94 @@ const lineAndCircle: Question[] = [
 // 三角比
 const trigonometric: Question[] = [
   {
+    id: '188e043386c',
+    chapter: '三角比',
+    question:
+      '設 $\\triangle ABC$ 的最大內角為 $\\theta$，則 $\\cos\\theta$ 之值可為下列哪些選項？\n(1) $-\\dfrac12$　　(2) 0　　(3) $\\dfrac12$　　(4) $\\dfrac{\\sqrt2}2$　　(5) $\\dfrac13$',
+    answer: '(1)(2)(3)(5)',
+    hasImage: false,
+  },
+  {
+    id: '188e03d95e7',
+    chapter: '三角比',
+    question:
+      '如圖，$\\triangle ABC$ 與 $\\triangle ACD$ 皆為直角三角形。已知 $\\overline{AB}=10$，$\\cos\\theta=\\dfrac{\\sqrt3-1}2$，$\\sin\\phi=\\dfrac{\\sqrt3+1}2$，試求 $\\overline{CD}$。',
+    answer: '$\\dfrac52$',
+    hasImage: true,
+  },
+  {
+    id: '188e04c9a0a',
+    chapter: '三角比',
+    question:
+      '在 $\\triangle ABC$ 中，$\\overline{AB}=8$，$\\overline{AC}=7$，$\\overline{BC}=5$，則下列選項哪些是正確的？\n(1) $\\triangle ABC$ 為鈍角三角形\n(2) $\\triangle ABC$ 的面積為 $5\\sqrt3$\n(3) $\\sin A<\\sin B<\\sin C$\n(4) $\\cos A<\\cos B<\\cos C$\n(5) $\\triangle ABC$ 的外接圓半徑為 $\\dfrac{7\\sqrt3}3$',
+    answer: '(3)(5)',
+    hasImage: false,
+  },
+  {
+    id: '188e04e6488',
+    chapter: '三角比',
+    question:
+      '在 $\\triangle ABC$ 中，已知 $\\sin A=1$，$\\sin B+\\sin C=\\dfrac54$，求 $\\sin B\\sin C$。',
+    answer: '$\\frac9{32}$',
+    hasImage: false,
+  },
+  {
+    id: '188e04fe102',
+    chapter: '三角比',
+    question:
+      '$\\triangle ABC$ 中，$\\angle A$、$\\angle B$、$\\angle C$ 的對邊長分別為 $a,b,c$，若 $2a\\sin A=3b\\sin B=c\\sin C$，求 $a:b:c$。',
+    answer: '$\\sqrt3:\\sqrt2:\\sqrt6$',
+    hasImage: false,
+  },
+  {
+    id: '188e0511b45',
+    chapter: '三角比',
+    question:
+      '已知 $0\\du\\le\\theta\\le180\\du$，且 $\\tan2020\\du=-\\tan\\theta$，求 $\\theta$。',
+    answer: '$140\\du$',
+    hasImage: false,
+  },
+  {
+    id: '188e054d939',
+    chapter: '三角比',
+    question:
+      '將半徑為 1 之半圓周 $\\arc{AB}$ 等分成 106 等分，其等分點為 $P_0,P_1,P_2,\\cdots P_{106}$，$P_0=A$，$P_{106}=B$，求 $\\overline{AP_1}^2+\\overline{AP_2}^2+\\overline{AP_3}^2+\\cdots+\\overline{AP_{105}}^2$。',
+    answer: '210',
+    hasImage: false,
+  },
+  {
+    id: '188e056a74f',
+    chapter: '三角比',
+    question:
+      '若 $A[4,270\\du]$，$B[5,120\\du]$，$C[6,30\\du]$ 是極坐標上的三個點，求 $\\triangle ABC$ 的面積。',
+    answer: '$20+6\\sqrt3$',
+    hasImage: false,
+  },
+  {
+    id: '188e059b39d',
+    chapter: '三角比',
+    question:
+      '某遊樂園區內有一摩天輪，此摩天輪的直徑 68 公尺，最高點離地面高度為 90 公尺，依逆時針方向等速旋轉，旋轉一圈需花 15 分鐘。學生小美與 3 位好友從 A 處搭上摩天輪，10 分鐘後，向在地面的老師揮手，求此時小美離地面的高度。',
+    answer: '73',
+    hasImage: true,
+  },
+  {
+    id: '188e05c735e',
+    chapter: '三角比',
+    question:
+      '如圖，A, B, C 三個城市中，A, B 相距 28 公里，小明由 B 沿 $\\overline{BC}$ 道路向 C 行走，同時小華由 A 出發，以小明速度的 2 倍向 B 行走，試問小明走幾公里後，兩人的距離最近？最近的距離為？',
+    answer: '10; $2\\sqrt{21}$',
+    hasImage: true,
+  },
+  {
+    id: '188e05e7063',
+    chapter: '三角比',
+    question:
+      '小白觀察一火箭從正前方地面以仰角 $\\theta$ 發射，已知火箭為等速直線前進，經一分鐘後小白觀察火箭在正上方，再經一分鐘後觀察火箭在正後方仰角 $30\\du$ (小白身高不計)，求 $\\tan^2\\theta$。',
+    answer: '$\\frac1{12}$',
+    hasImage: false,
+  },
+  {
     id: '1885b8c35f1',
     chapter: '三角比',
     question:
@@ -10177,6 +10265,14 @@ const trigonometric: Question[] = [
     chapter: '三角比',
     question: '方程式 $4x^2-5x+m=0$ 的兩根是直角三角形的兩銳角的正弦值，求 $m$。',
     answer: '$\\frac98$',
+    hasImage: false,
+  },
+  {
+    id: '188e0492bad',
+    chapter: '三角比',
+    question:
+      '設 $\\theta_1,\\theta_2,\\theta_3,\\theta_4$ 分別為第一、第二、第三、第四象限角，且滿足 $|\\cos\\theta_1|=|\\cos\\theta_2|=|\\cos\\theta_3|=|\\cos\\theta_4|=\\dfrac13$，請問下列選項何者正確？\n(1) 若 $\\cos\\theta_1=\\cos\\theta_2$，則 $\\cos\\theta_1=\\cos\\theta_3$\n(2) 若 $\\cos\\theta_1=\\cos\\theta_2$，則 $\\cos\\theta_3=\\cos\\theta_4$\n(3) 若 $\\cos\\theta_1=\\cos\\theta_2$，且 $0\\du<\\theta_1<90\\du$，則 $270\\du<\\theta_2<360\\du$\n(4) $\\cos\\theta_1+\\cos\\theta_2+\\cos\\theta_3+\\cos\\theta_4=0$\n(5) 若 $\\cos\\theta_3=-\\dfrac13$，則 $\\sin\\theta_3=-\\dfrac{2\\sqrt2}3$',
+    answer: '(2)(4)',
     hasImage: false,
   },
   {
@@ -12282,6 +12378,14 @@ const series: Question[] = [
 // 數據分析
 const statistics: Question[] = [
   {
+    id: '188e06f7d37',
+    chapter: '數據分析',
+    question:
+      '兩組變量 $x$ 與 $y$，每組均有 10 個數值資料，得散布圖的樣本點 $(x_i,y_i)$，$i=1\\sim10$，已知 $x_1+x_2+\\cdots+x_{10}=13$，$y_1+y_2+\\cdots+y_{10}=17$，$x_1^2+x_2^2+\\cdots+x_{10}^2=46.9$，$y_1^2+y_2^2+\\cdots+y_{10}^2=58.9$，$x_1y_1+x_2y_2+\\cdots+x_{10}y_{10}=25.1$，求 $0.3-4x$ 與 $2y+0.5$ 的相關係數。',
+    answer: '-0.1',
+    hasImage: false,
+  },
+  {
     id: '188ccd31686',
     chapter: '數據分析',
     question:
@@ -13367,8 +13471,8 @@ const statistics: Question[] = [
     id: '179065e0be4',
     chapter: '數據分析',
     question:
-      '某一國家近四年的經濟年成長率分別為 $60\\%$、$80\\%$、$-10\\%$、$-20\\%$，則該國家近四年每一年的平均經濟成長率為多少 $\\%$？',
-    answer: '$20\\%$',
+      '某一國家近四年的經濟年成長率分別為 60%, 80%, -10%, -20%，則該國家近四年每一年的平均經濟成長率為多少 %？',
+    answer: '20%',
     hasImage: false,
   },
   {
@@ -13550,24 +13654,24 @@ const statistics: Question[] = [
     id: '1794305ee54',
     chapter: '數據分析',
     question:
-      '某次考試，有 $8$ 名同學的成績之平均為 $80$ 分，標準差為 $\\sqrt{7}$ 分。已知其成績分別為 $76$，$80$，$80$，$82$，$85$，$81$，$a$，$b$，則 $|a-b|=$？',
-    answer: '$2$',
+      '某次考試，有 8 名同學的成績之平均為 80 分，標準差為 $\\sqrt7$ 分。已知其成績分別為 76, 80, 80, 82, 85, 81, $a$, $b$，求 $|a-b|$。',
+    answer: '2',
     hasImage: false,
   },
   {
     id: '1794923ad9e',
     chapter: '數據分析',
     question:
-      '某生第一、二、三次的數學段考分數分別為 $50$、$x$、$72$ 分，則下列選項何者正確？\n(A)這三次段考的平均成長率為 $20\\%$\n(B)若第二次段考比第一次段考衰退 $20\\%$，則第三次段考比第二次段考成長 $80\\%$\n(C)若第二次段考成績有及格(即 $x\\ge60$)，則第二、三次段考的成長率皆為正\n(D)若第二次段考成績恰為三次段考之算術平均數，則二、三次段考的成長率相等\n(E)若第二次段考成績恰為三次成績之中位數，則第二、三次段考的成長率皆為正',
-    answer: '(A)(B)',
+      '某生第一、二、三次的數學段考分數分別為 50、$x$、72 分，則下列選項何者正確？\n(1) 這三次段考的平均成長率為 20%\n(2) 若第二次段考比第一次段考衰退 20%，則第三次段考比第二次段考成長 80%\n(3) 若第二次段考成績有及格(即 $x\\ge60$)，則第二、三次段考的成長率皆為正\n(4) 若第二次段考成績恰為三次段考之算術平均數，則二、三次段考的成長率相等\n(5) 若第二次段考成績恰為三次成績之中位數，則第二、三次段考的成長率皆為正',
+    answer: '(1)(2)',
     hasImage: false,
   },
   {
     id: '179492651ec',
     chapter: '數據分析',
     question:
-      '下表為某地區每個家庭孩子個數的調查表，已知每個家庭孩子個數的中位數是 $2$，則 $x$ 可能為？\n(A) $1$ (B) $2$ (C) $3$ (D) $4$ (E) $5$\n $\\begin{array} {|c|c|}\\hline 孩子數 & 0 & 1 & 2 & 3 & 4 \\\\ \\hline 次數 & x & 3 & 2 & 5 & 2 \\\\ \\hline  \\end{array}$',
-    answer: '(C)(D)(E)',
+      '下表為某地區每個家庭孩子個數的調查表，已知每個家庭孩子個數的中位數是 2，則 $x$ 可能為？\n(1) 1　　(2) 2　　(3) 3　　(4) 4　　(5) 5\n $\\begin{array} {|c|c|}\\hline 孩子數 & 0 & 1 & 2 & 3 & 4 \\\\ \\hline 次數 & x & 3 & 2 & 5 & 2 \\\\ \\hline  \\end{array}$',
+    answer: '(3)(4)(5)',
     hasImage: false,
   },
   {
@@ -13598,14 +13702,37 @@ const statistics: Question[] = [
     id: '1794307a23e',
     chapter: '數據分析',
     question:
-      '設有四筆數據依序為 $(1,2)$、$(a,3)$、$(b,1)$、$(5,c)$，若 $a+b=6$，且 $y$ 對 $x$ 的迴歸直線方程式為 $y=2x-2$，則實數 $c=$？',
-    answer: '$10$',
+      '設有四筆數據依序為 $(1,2)$、$(a,3)$、$(b,1)$、$(5,c)$，若 $a+b=6$，且 $y$ 對 $x$ 的迴歸直線方程式為 $y=2x-2$，求實數 $c$。',
+    answer: '10',
     hasImage: false,
   },
 ];
 
 // 排列組合與機率
 const combination: Question[] = [
+  {
+    id: '188e07ab49b',
+    chapter: '排列組合與機率',
+    question:
+      '設 10 支籤中有 $n$ 支有獎，其中 1 支獎金 100 元，1 支獎金 50 元，其他 $(n-2)$ 支獎金 20 元，若任取一支可得獎金的期望值為 21 元，求 $n$。',
+    answer: '5',
+    hasImage: false,
+  },
+  {
+    id: '188e0782983',
+    chapter: '排列組合與機率',
+    question:
+      '意外死亡機率比起意外受傷送醫的機率低很多，但是一旦發生，前者要承受的損失可是大大超過後者。前者可能讓一個家庭直接損失一位經濟支柱，後者卻可能只需要在醫院打個石膏就可以回家了。假設一位 25 歲的年輕人小君購買一份理賠金額為 150 萬元的保險，且保險費用一年為 7000 元。若 25 歲的年輕人死亡機率為 0.4%，求小君購買此份保險的期望值。',
+    answer: '-1000 元',
+    hasImage: false,
+  },
+  {
+    id: '188e0722db1',
+    chapter: '排列組合與機率',
+    question: '投一顆骰子三次，試求點數之和為 10 的機率。',
+    answer: '$\\frac18$',
+    hasImage: false,
+  },
   {
     id: '188ccccab27',
     chapter: '排列組合與機率',
@@ -16175,7 +16302,7 @@ const combination: Question[] = [
   {
     id: '17a202cce60',
     chapter: '排列組合與機率',
-    question: '四人猜拳(剪刀、石頭、布)一次，則淘汰人數的期望值為？',
+    question: '四人猜拳(剪刀、石頭、布)一次，求淘汰人數的期望值。',
     answer: '$\\frac{28}{27}$ 人',
     hasImage: false,
   },
@@ -17102,8 +17229,8 @@ const combination: Question[] = [
     id: '17942c55d7f',
     chapter: '排列組合與機率',
     question:
-      '袋子中有 $k$ 號卡片 $k$ 張($k=1$、$2$、$3$)，每張卡片被取到的機會均等，則下列何者正確？\n(A)取出一張卡片，則此張卡片上數字之期望值為 $\\frac{7}{3}$\n(B)一次取出兩張卡片，則兩張卡片上數字和之期望值為 $\\frac{14}{3}$\n(C)一次取出兩張卡片，則兩張卡片上數字積之期望值為 $\\frac{49}{9}$\n(D)一次取出一張卡片，取後放回，共取兩次，則兩次卡片上數字和之期望值為 $\\frac{14}{3}$\n(E)一次取出一張卡片，取後放回，共取兩次，則兩次卡片上數字積之期望值為 $\\frac{49}{9}$',
-    answer: '(A)(B)(D)(E)',
+      '袋子中有 $k$ 號卡片 $k$ 張 ($k=1,2,3$)，每張卡片被取到的機會均等，則下列何者正確？\n(1) 取出一張卡片，則此張卡片上數字之期望值為 $\\dfrac73$\n(2) 一次取出兩張卡片，則兩張卡片上數字和之期望值為 $\\dfrac{14}3$\n(3) 一次取出兩張卡片，則兩張卡片上數字積之期望值為 $\\dfrac{49}9$\n(4) 一次取出一張卡片，取後放回，共取兩次，則兩次卡片上數字和之期望值為 $\\dfrac{14}3$\n(5) 一次取出一張卡片，取後放回，共取兩次，則兩次卡片上數字積之期望值為 $\\dfrac{49}9$',
+    answer: '(1)(2)(4)(5)',
     hasImage: false,
   },
   {
