@@ -10271,7 +10271,7 @@ const trigonometric: Question[] = [
     id: '188e0492bad',
     chapter: '三角比',
     question:
-      '設 $\\theta_1,\\theta_2,\\theta_3,\\theta_4$ 分別為第一、第二、第三、第四象限角，且滿足 $|\\cos\\theta_1|=|\\cos\\theta_2|=|\\cos\\theta_3|=|\\cos\\theta_4|=\\dfrac13$，請問下列選項何者正確？\n(1) 若 $\\cos\\theta_1=\\cos\\theta_2$，則 $\\cos\\theta_1=\\cos\\theta_3$\n(2) 若 $\\cos\\theta_1=\\cos\\theta_2$，則 $\\cos\\theta_3=\\cos\\theta_4$\n(3) 若 $\\cos\\theta_1=\\cos\\theta_2$，且 $0\\du<\\theta_1<90\\du$，則 $270\\du<\\theta_2<360\\du$\n(4) $\\cos\\theta_1+\\cos\\theta_2+\\cos\\theta_3+\\cos\\theta_4=0$\n(5) 若 $\\cos\\theta_3=-\\dfrac13$，則 $\\sin\\theta_3=-\\dfrac{2\\sqrt2}3$',
+      '設 $\\theta_1,\\theta_2,\\theta_3,\\theta_4$ 分別為四個不同象限的象限角，且滿足 $|\\cos\\theta_1|=|\\cos\\theta_2|=|\\cos\\theta_3|=|\\cos\\theta_4|=\\dfrac13$，請問下列選項何者正確？\n(1) 若 $\\cos\\theta_1=\\cos\\theta_2$，則 $\\cos\\theta_1=\\cos\\theta_3$\n(2) 若 $\\cos\\theta_1=\\cos\\theta_2$，則 $\\cos\\theta_3=\\cos\\theta_4$\n(3) 若 $\\cos\\theta_1=\\cos\\theta_2$，且 $0\\du<\\theta_1<90\\du$，則 $270\\du<\\theta_2<360\\du$\n(4) $\\cos\\theta_1+\\cos\\theta_2+\\cos\\theta_3+\\cos\\theta_4=0$\n(5) 若 $\\cos\\theta_3=-\\dfrac13$，則 $\\sin\\theta_3=-\\dfrac{2\\sqrt2}3$',
     answer: '(2)(4)',
     hasImage: false,
   },

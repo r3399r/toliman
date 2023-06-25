@@ -77,7 +77,7 @@ import B4C13Probability from './pages/lecture/review/B4C13Probability';
 import B4C14Matrix from './pages/lecture/review/B4C14Matrix';
 import Trial from './pages/lecture/trial/Trial';
 import Projection from './pages/projection/Projection';
-import Quiz from './pages/test/Quiz';
+import Quiz from './pages/test/Quiz2';
 
 const AppRoutes = () => (
   <Routes>
