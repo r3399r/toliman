@@ -7864,7 +7864,7 @@ const lineAndCircle: Question[] = [
     id: '182887a4754',
     chapter: '直線與圓',
     question:
-      '平面上直線 $L$ 通過點 $P(-3,7)$，則：\n(1) 求斜率為 2 的直線方程式。\n(2) 求斜率為 $-\\frac45$ 的直線方程式。',
+      '平面上直線 $L$ 通過點 $P(-3,7)$，則：\n(1) 求斜率為 2 的直線方程式。\n(2) 求斜率為 $-\\dfrac45$ 的直線方程式。',
     answer: '(1) $2x-y=-13$ (2) $4x+5y=23$',
     hasImage: false,
   },
@@ -7885,7 +7885,7 @@ const lineAndCircle: Question[] = [
   {
     id: '182887f7529',
     chapter: '直線與圓',
-    question: '求過點 (3,7)，斜率為 $\\frac54$ 的直線方程式。',
+    question: '求過點 (3,7)，斜率為 $\\dfrac54$ 的直線方程式。',
     answer: '$5x-4y=-13$',
     hasImage: false,
   },
