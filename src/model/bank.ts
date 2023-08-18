@@ -18708,6 +18708,78 @@ const trigonometricFuncA: Question[] = [
 // 三角函數B
 const trigonometricFuncB: Question[] = [
   {
+    id: '18a04fdb6e2',
+    chapter: '三角函數B',
+    question: '設 $f(x)=\\sin x$，求 $f(0)$、$f(\\dfrac\\pi3)$、$f(-\\dfrac\\pi2)$',
+    answer: '0; $\\frac{\\sqrt3}2$; -1',
+    hasImage: false,
+  },
+  {
+    id: '18a04ffa129',
+    chapter: '三角函數B',
+    question: '設 $f(x)=\\sin x$，求 $f(\\dfrac\\pi6)$、$f(-\\dfrac\\pi3)$、$f(\\pi)$',
+    answer: '$\\frac12$; $-\\frac{\\sqrt3}2$; 0',
+    hasImage: false,
+  },
+  {
+    id: '18a05020347',
+    chapter: '三角函數B',
+    question: '設 $f(x)=\\sin x$，且 $0\\le x\\le2\\pi$，若 $f(x)=\\dfrac{\\sqrt2}2$，求 $x$。',
+    answer: '$\\frac\\pi4$ or $\\frac{3\\pi}4$',
+    hasImage: false,
+  },
+  {
+    id: '18a05031cd1',
+    chapter: '三角函數B',
+    question: '設 $f(x)=\\sin x$，且 $0\\le x\\le2\\pi$，若 $f(x)=-\\dfrac{\\sqrt3}2$，求 $x$。',
+    answer: '$\\frac{4\\pi}3$ or $\\frac{5\\pi}3$',
+    hasImage: false,
+  },
+  {
+    id: '18a050483eb',
+    chapter: '三角函數B',
+    question: '設 $f(x)=\\sin x$，且 $0\\le x\\le2\\pi$，若 $f(x)\\le-\\dfrac12$，求 $x$ 的範圍。',
+    answer: '$\\frac{7\\pi}6\\le x\\le\\frac{11\\pi}6$',
+    hasImage: false,
+  },
+  {
+    id: '18a05057ee0',
+    chapter: '三角函數B',
+    question: '設 $f(x)=\\sin x$，且 $0\\le x\\le2\\pi$，若 $f(x)>\\dfrac12$，求 $x$ 的範圍。',
+    answer: '$\\frac\\pi6<x<\\frac{5\\pi}6$',
+    hasImage: false,
+  },
+  {
+    id: '18a05070b29',
+    chapter: '三角函數B',
+    question:
+      '設 $\\dfrac\\pi3\\le x\\le\\dfrac{5\\pi}4$，求 $f(x)=\\sin x$ 的最大函數值為？最小函數值為？',
+    answer: '1; $-\\frac{\\sqrt2}2$',
+    hasImage: false,
+  },
+  {
+    id: '18a0507e990',
+    chapter: '三角函數B',
+    question:
+      '設 $\\dfrac{2\\pi}3\\le x\\le\\dfrac{7\\pi}4$，求 $f(x)=\\sin x$ 的最大函數值為？最小函數值為？',
+    answer: '$\\frac{\\sqrt3}2$; -1',
+    hasImage: false,
+  },
+  {
+    id: '17ba733d964',
+    chapter: '三角函數B',
+    question: '試求週期函數的週期、最大值、最小值：\n$y=2\\sin(5x+3)-1$',
+    answer: '$\\frac{2\\pi}{5}$; 1; -3',
+    hasImage: false,
+  },
+  {
+    id: '17ba7378421',
+    chapter: '三角函數B',
+    question: '試求週期函數的週期、最大值、最小值：\n$y=-4\\sin(-2x+1)-7$',
+    answer: '$\\pi$; -3; -11',
+    hasImage: false,
+  },
+  {
     id: '183d7601b38',
     chapter: '三角函數B',
     question:

@@ -34,6 +34,8 @@ import C1S1ExponentFunction from './pages/lecture/book3/C1S1ExponentFunction';
 import C1S2Logarithm from './pages/lecture/book3/C1S2Logarithm';
 import C1S3LogarithmFunctiontsx from './pages/lecture/book3/C1S3LogarithmFunction';
 import C2S1Radius from './pages/lecture/book3/C2S1Radius';
+import C2S1RadiusB from './pages/lecture/book3/C2S1RadiusB';
+import C2S2PeriodicFunction from './pages/lecture/book3/C2S2PeriodicFunction';
 import C2S2TrigonometricFormula from './pages/lecture/book3/C2S2TrigonometricFormula';
 import C2S3TrigonometricFunction from './pages/lecture/book3/C2S3TrigonometricFunction';
 import C3S1BasicOfVector from './pages/lecture/book3/C3S1BasicOfVector';
@@ -122,6 +124,8 @@ const AppRoutes = () => (
     <Route path="/toliman/lecture/radius" element={<C2S1Radius />} />
     <Route path="/toliman/lecture/trigonometricFormula" element={<C2S2TrigonometricFormula />} />
     <Route path="/toliman/lecture/trigonometricFunction" element={<C2S3TrigonometricFunction />} />
+    <Route path="/toliman/lecture/radiusB" element={<C2S1RadiusB />} />
+    <Route path="/toliman/lecture/periodicFunction" element={<C2S2PeriodicFunction />} />
     <Route path="/toliman/lecture/basicOfVector" element={<C3S1BasicOfVector />} />
     <Route path="/toliman/lecture/innerProductOfVector" element={<C3S2InnerProductOfVector />} />
     <Route

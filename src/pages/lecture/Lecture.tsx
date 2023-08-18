@@ -186,6 +186,16 @@ const Lecture = () => {
           3 三角函數的圖形與正餘弦疊合
         </Button>
       </div>
+      <div className={style.button}>
+        <Button variant="contained" onClick={onClick('radiusB')}>
+          1 弧度、扇形與三角比B
+        </Button>
+      </div>
+      <div className={style.button}>
+        <Button variant="contained" onClick={onClick('periodicFunction')}>
+          2 週期性數學模型
+        </Button>
+      </div>
       第三冊 Ch3 平面向量
       <div className={style.button}>
         <Button variant="contained" onClick={onClick('basicOfVector')}>
