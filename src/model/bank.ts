@@ -17363,6 +17363,92 @@ const combination: Question[] = [
 // 三角函數A
 const trigonometricFuncA: Question[] = [
   {
+    id: '18a30338604',
+    chapter: '三角函數A',
+    question: '已知 $\\triangle ABC$ 的 $\\tan A=\\dfrac12$，$\\tan B=-2$，求 $\\tan C$。',
+    answer: '$\\frac34$',
+    hasImage: false,
+  },
+  {
+    id: '18a3032c7a8',
+    chapter: '三角函數A',
+    question:
+      '如圖，圓內接四邊形 $PQRS$，其中 $\\overline{PR}$ 為直徑且 $\\overline{PR}=2$，若 $\\angle QPS=60\\du$，求 $\\overline{PQ}\\times\\overline{RS}+\\overline{PS}\\times\\overline{QR}$。',
+    answer: '$2\\sqrt3$',
+    hasImage: true,
+  },
+  {
+    id: '18a3031232f',
+    chapter: '三角函數A',
+    question:
+      '直角三角形 $ABC$ 的邊長為 $\\overline{AB}=13$，$\\overline{BC}=5$，$\\overline{CA}=12$，$D$ 在 $\\triangle ABC$ 的內部且 $\\overline{BD}=4$，$\\overline{CD}=3$，求 $\\sin\\angle ABD$。',
+    answer: '$\\frac{33}{65}$',
+    hasImage: false,
+  },
+  {
+    id: '18a302fdcea',
+    chapter: '三角函數A',
+    question:
+      '$\\triangle ABC$，已知 $\\cos B=\\dfrac45$，$\\cos C=\\dfrac{12}{13}$，求 $\\cos A$。',
+    answer: '$-\\frac{33}{65}$',
+    hasImage: false,
+  },
+  {
+    id: '18a302ea83f',
+    chapter: '三角函數A',
+    question: '$\\triangle ABC$ 內角滿足 $\\cos A\\cos B>\\sin A\\sin B$，則此三角形為何種三角形？',
+    answer: '鈍角三角形',
+    hasImage: false,
+  },
+  {
+    id: '18a0c3f73f6',
+    chapter: '三角函數A',
+    question:
+      '求下列各值：\n(1) $\\sin82\\du\\cos38\\du+\\cos82\\du\\sin38\\du$\n(2) $\\cos17\\du\\cos28\\du-\\sin17\\du\\sin28\\du$',
+    answer: '(1) $\\frac{\\sqrt3}2$ (2) $\\frac{\\sqrt2}2$',
+    hasImage: false,
+  },
+  {
+    id: '18a0c40a8bd',
+    chapter: '三角函數A',
+    question:
+      '求下列各值：\n(1) $\\sin200\\du\\cos280\\du-\\sin100\\du\\cos160\\du$\n(2) $\\cos14\\du\\cos224\\du+\\sin194\\du\\sin404\\du$',
+    answer: '(1) $\\frac{\\sqrt3}2$ (2) $-\\frac{\\sqrt3}2$',
+    hasImage: false,
+  },
+  {
+    id: '18a0c419834',
+    chapter: '三角函數A',
+    question:
+      '$\\triangle ABC$ 中，已知 $\\cos A=-\\dfrac35$，$\\cos B=\\dfrac{12}{13}$，求 $\\cos C$。',
+    answer: '$\\frac{56}{65}$',
+    hasImage: false,
+  },
+  {
+    id: '18a0c449b31',
+    chapter: '三角函數A',
+    question:
+      '設 $\\cos\\alpha+\\cos\\beta=\\dfrac32$，$\\sin\\alpha+\\sin\\beta=\\dfrac23$，求 $\\cos(\\alpha-\\beta)$。',
+    answer: '$\\frac{25}{72}$',
+    hasImage: false,
+  },
+  {
+    id: '18a0c45af75',
+    chapter: '三角函數A',
+    question:
+      '求下列各式的值：\n(1) $\\dfrac{\\tan80\\du-\\tan(-55\\du)}{1+\\tan80\\du\\tan(-55\\du)}$\n(2) $\\dfrac{\\tan80\\du+\\tan40\\du}{1-\\tan80\\du\\tan40\\du}$',
+    answer: '(1) -1 (2) $-\\sqrt3$',
+    hasImage: false,
+  },
+  {
+    id: '18a0c471b59',
+    chapter: '三角函數A',
+    question:
+      '求下列各式的值：\n(1) $\\tan13\\du+\\tan32\\du+\\tan13\\du\\tan32\\du$\n(2) $\\tan74\\du\\tan44\\du+\\sqrt3\\tan44\\du-\\sqrt3\\tan74\\du$',
+    answer: '(1) 1 (2) -1',
+    hasImage: false,
+  },
+  {
     id: '1853f005dc7',
     chapter: '三角函數A',
     question:
@@ -17645,22 +17731,21 @@ const trigonometricFuncA: Question[] = [
     id: '17c18c4acc9',
     chapter: '三角函數A',
     question:
-      '已知 $90\\du<\\theta<180\\du$，且 $\\cos\\theta=-\\frac{1}{3}$，求 $\\sin2\\theta$ 及 $\\sin\\frac{\\theta}{2}$。',
+      '已知 $90\\du<\\theta<180\\du$，且 $\\cos\\theta=-\\dfrac13$，求 $\\sin2\\theta$ 及 $\\sin\\dfrac{\\theta}2$。',
     answer: '$-\\frac{4\\sqrt{2}}{9}$；$\\frac{\\sqrt{6}}{3}$',
     hasImage: false,
   },
   {
     id: '17c18c64c77',
     chapter: '三角函數A',
-    question: '已知 $\\sin\\theta=\\frac{3}{5}$，求 $\\sin2\\theta$ 及 $\\cos2\\theta$。',
+    question: '已知 $\\sin\\theta=\\dfrac35$，求 $\\sin2\\theta$ 及 $\\cos2\\theta$。',
     answer: '$\\pm\\frac{24}{25}$；$\\frac{7}{25}$',
     hasImage: false,
   },
   {
     id: '17c18c76a1f',
     chapter: '三角函數A',
-    question:
-      '若 $\\sin\\theta+\\cos\\theta=\\frac{2}{3}$，求 $\\sin2\\theta$ 及 $\\cos4\\theta$。',
+    question: '若 $\\sin\\theta+\\cos\\theta=\\dfrac23$，求 $\\sin2\\theta$ 及 $\\cos4\\theta$。',
     answer: '$-\\frac{5}{9}$；$\\frac{31}{81}$',
     hasImage: false,
   },
@@ -17668,7 +17753,7 @@ const trigonometricFuncA: Question[] = [
     id: '17c18c86f2a',
     chapter: '三角函數A',
     question:
-      '若 $\\sin2\\theta=-\\frac{3}{4}$，且 $\\sin\\theta<0$，求 $\\sin\\theta-\\cos\\theta$。',
+      '若 $\\sin2\\theta=-\\dfrac34$，且 $\\sin\\theta<0$，求 $\\sin\\theta-\\cos\\theta$。',
     answer: '$-\\frac{\\sqrt{7}}{2}$',
     hasImage: false,
   },
@@ -17684,15 +17769,37 @@ const trigonometricFuncA: Question[] = [
     id: '17c18cb4eca',
     chapter: '三角函數A',
     question:
-      '設 $\\theta$ 為有向角，$\\sin\\theta=\\frac{3}{5}$，求 $\\sin3\\theta$ 及 $\\cos3\\theta$。',
+      '設 $\\theta$ 為有向角，$\\sin\\theta=\\dfrac35$，求 $\\sin3\\theta$ 及 $\\cos3\\theta$。',
     answer: '$\\frac{117}{125}$；$\\pm\\frac{44}{125}$',
     hasImage: false,
   },
   {
     id: '17c18cc6012',
     chapter: '三角函數A',
-    question: '若 $\\sin x-\\cos x=\\frac{1}{3}$，求 $\\sin3x+\\cos3x$。',
+    question: '若 $\\sin x-\\cos x=\\dfrac13$，求 $\\sin3x+\\cos3x$。',
     answer: '$-\\frac{25}{27}$',
+    hasImage: false,
+  },
+  {
+    id: '17c18cf26e5',
+    chapter: '三角函數A',
+    question: '試作函數圖：$y=\\sin|x|$',
+    answer: '略',
+    hasImage: false,
+  },
+  {
+    id: '17c18cf26e4',
+    chapter: '三角函數A',
+    question: '試作函數圖：$y=|\\sin x|$',
+    answer: '略',
+    hasImage: false,
+  },
+  {
+    id: '17c18cf26e6',
+    chapter: '三角函數A',
+    question:
+      '求下列各函數之週期：\n(1) $y=\\sin2x-1$\n(2) $y=2\\sin(5x+\\sqrt{2})-1$\n(3) $y=\\sin(-\\pi x+\\dfrac{\\pi}4)$',
+    answer: '(1) $\\pi$ (2)) $\\frac{2\\pi}{5}$ (3) $2$',
     hasImage: false,
   },
   {
@@ -18707,6 +18814,160 @@ const trigonometricFuncA: Question[] = [
 
 // 三角函數B
 const trigonometricFuncB: Question[] = [
+  {
+    id: '18a304c9343',
+    chapter: '三角函數B',
+    question:
+      '設 $f(x)=\\sin x$，請問下列哪一個選項的函數值最大？\n(1) $f(1)$　(2) $f(2)$　(3) $f(3)$　(4) $f(4)$　(5) $f(5)$',
+    answer: '(2)',
+    hasImage: false,
+  },
+  {
+    id: '18a304a2f72',
+    chapter: '三角函數B',
+    question:
+      '若 $\\dfrac\\pi4<\\theta<\\dfrac{3\\pi}4$，則下列何者正確？\n(1) $-\\dfrac{\\sqrt2}2<\\sin\\theta<\\dfrac{\\sqrt2}2$\n(2) $-\\dfrac{\\sqrt2}2<\\cos\\theta<\\dfrac{\\sqrt2}2$\n(3) $-1<\\tan\\theta<1$',
+    answer: '(2)',
+    hasImage: false,
+  },
+  {
+    id: '18a30468f2e',
+    chapter: '三角函數B',
+    question: '求 (1) $\\sin\\dfrac\\pi2$ (2) $\\cos\\dfrac{7\\pi}6$ (3) $\\tan\\dfrac{4\\pi}3$',
+    answer: '1; $-\\frac{\\sqrt3}2$; $\\sqrt3$',
+    hasImage: false,
+  },
+  {
+    id: '18a3044de8d',
+    chapter: '三角函數B',
+    question: '正方形 $ABCD$ 邊長為 4，以 $A,B,D$ 三點為圓心對內作圓弧如圖，求陰影部分面積。',
+    answer: '$\\frac{20\\pi}3-8\\sqrt3$',
+    hasImage: true,
+  },
+  {
+    id: '18a3043b73c',
+    chapter: '三角函數B',
+    question: '在周長固定為 12 的所有扇形中，面積最大為？此時的半徑為？中心角為多少弳度？',
+    answer: '9; 3; 2',
+    hasImage: false,
+  },
+  {
+    id: '18a3042a632',
+    chapter: '三角函數B',
+    question:
+      '一個紙片圍成的直圓錐，底圓半徑為 3 公分，高為 $6\\sqrt2$ 公分，側面剪開攤平後為一扇型，求此扇形的面積。',
+    answer: '$27\\pi$ 平方公分',
+    hasImage: false,
+  },
+  {
+    id: '18a3040eed2',
+    chapter: '三角函數B',
+    question: '$\\theta=80$ 為第幾象限角？最小正同界角為？最大負同界角為？',
+    answer: '三; $80-24\\pi$; $80-26\\pi$',
+    hasImage: false,
+  },
+  {
+    id: '18a304011ca',
+    chapter: '三角函數B',
+    question: '$\\dfrac{32}7\\pi$ 的最小正同界角為？最大負同界角為？',
+    answer: '$\\frac{4\\pi}7$; $-\\frac{10\\pi}7$',
+    hasImage: false,
+  },
+  {
+    id: '18a303e9b08',
+    chapter: '三角函數B',
+    question: '時間 2 點 35 分，時針與分針所夾的較小角度為多少弳度？',
+    answer: '$\\frac{53\\pi}{72}$',
+    hasImage: false,
+  },
+  {
+    id: '18a0c34baf6',
+    chapter: '三角函數B',
+    question:
+      '設 $\\theta$ 與 -55 弳為同界角，且 $0\\le\\theta2\\le\\pi$，求 $\\theta$。(以弳度表示)',
+    answer: '$-55+18\\pi$',
+    hasImage: false,
+  },
+  {
+    id: '18a0c369caf',
+    chapter: '三角函數B',
+    question: '若三角形三內角度數的比為 5:6:7，求此三角形的最大內角。(以弳度表示)',
+    answer: '$\\frac{7\\pi}{180}$',
+    hasImage: false,
+  },
+  {
+    id: '18a0c379937',
+    chapter: '三角函數B',
+    question: '時鐘的長針為 10 公分，從上午 9:40 到同一天的早上 10:15，長針掃過的面積為？',
+    answer: '$\\frac{175\\pi}3$ 平方公分',
+    hasImage: false,
+  },
+  {
+    id: '18a0c38e624',
+    chapter: '三角函數B',
+    question: '設一扇形的周長為 20，當此扇形面積為最大時，其圓心角為？半徑為？面積為？',
+    answer: '2; 5; 25',
+    hasImage: false,
+  },
+  {
+    id: '18a0c39f42f',
+    chapter: '三角函數B',
+    question:
+      '如圖，點 A 與點 B 為兩圓之圓心，若圓 A 之半徑為 1 公分，$\\angle CAD=120\\du$，$\\angle CBD=60\\du$，求陰影區域面積。',
+    answer: '$\\frac{5\\pi}6-\\sqrt3$',
+    hasImage: true,
+  },
+  {
+    id: '18a0c3bbd72',
+    chapter: '三角函數B',
+    question: '如圖，設半徑為 1 的三個圓互相外切，則此三個圓間所圍陰影區域的面積為？周長為？',
+    answer: '$\\sqrt3-\\frac{\\pi}2$; $\\pi$',
+    hasImage: true,
+  },
+  {
+    id: '18a0c49e1cf',
+    chapter: '三角函數B',
+    question: '設一扇形之半徑為 2，面積為 5，求此扇形圓心角。(以弳度表示)',
+    answer: '$\\frac52$',
+    hasImage: false,
+  },
+  {
+    id: '18a0c4ad817',
+    chapter: '三角函數B',
+    question: '有一個圓，半徑是 10，圓心角為 $\\dfrac{\\pi}6$，求此圓心所對的弧長。',
+    answer: '$\\frac{5\\pi}3$',
+    hasImage: false,
+  },
+  {
+    id: '18a0c4b6a48',
+    chapter: '三角函數B',
+    question: '已知扇形的面積為 1，弧長為 2，求其圓心角的弧度。',
+    answer: '2',
+    hasImage: false,
+  },
+  {
+    id: '18a0c4d2076',
+    chapter: '三角函數B',
+    question: '將角度換算成弳度\n(1) $22.5\\du$ (2) $-105\\du$',
+    answer: '(1) $\\frac\\pi8$ (2) $-\\frac{7\\pi}{12}$',
+    hasImage: false,
+  },
+  {
+    id: '18a0c4e9e73',
+    chapter: '三角函數B',
+    question:
+      '如圖，圓之半徑為 8，弦 $AB$ 之圓心角為 $70.5\\du$，試求此弦所對應的弓形 (陰影區域) 面積。(可按計算機，四捨五入到小數點第一位)',
+    answer: '9.2',
+    hasImage: true,
+  },
+  {
+    id: '18a0c4f8703',
+    chapter: '三角函數B',
+    question:
+      '如圖，已知扇形的圓心角為 $45\\du$，半徑為 $\\sqrt{10}$，且四邊形 $ABCD$ 為內接正方形，求陰影區域面積。',
+    answer: '$\\frac{5\\pi}4-2$',
+    hasImage: true,
+  },
   {
     id: '18a04fdb6e2',
     chapter: '三角函數B',
