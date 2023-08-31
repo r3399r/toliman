@@ -9,6 +9,7 @@ export type Question = {
 };
 
 export const chapterList: string[] = [
+  '線上課程',
   '學測',
   '升高中銜接',
   '數與式',
@@ -34,6 +35,197 @@ export const chapterList: string[] = [
   '極限',
   '複數與複數平面',
   '二次曲線',
+];
+
+// online course
+const onlineCourse: Question[] = [
+  {
+    id: '18a498e4dcd',
+    chapter: '線上課程',
+    question: '試求 $(2a-3b+5c)(-p+6q+4r+s)$ 展開後共幾項？其中 $bq$ 項的係數為？$cr$ 項的係數為？',
+    answer: '',
+    hasImage: false,
+  },
+  {
+    id: '18a498fa061',
+    chapter: '線上課程',
+    question:
+      '試求 $(a+3b+4c)(2p-5q)(-3x+y-z)$ 展開後共幾項？其中 $aqz$ 項的係數為？$bpz$ 項的係數為？$cpq$ 項的係數為？',
+    answer: '',
+    hasImage: false,
+  },
+  {
+    id: '18a49a85d87',
+    chapter: '線上課程',
+    question: '乘開 $(2x-5y+z)^2$',
+    answer: '',
+    hasImage: false,
+  },
+  {
+    id: '182406b30eb',
+    chapter: '線上課程',
+    question: '乘開 $(2a+3b)^3$',
+    answer: '略',
+    hasImage: false,
+  },
+  {
+    id: '18a49a926b5',
+    chapter: '線上課程',
+    question: '乘開 $(2x-y)(4x^2+2xy+y^2)$',
+    answer: '',
+    hasImage: false,
+  },
+  {
+    id: '182406dc4f1',
+    chapter: '線上課程',
+    question: '因式分解 $x^6+8$',
+    answer: '略',
+    hasImage: false,
+  },
+  {
+    id: '18a49aa1f23',
+    chapter: '線上課程',
+    question: '化簡 $\\sqrt{258\\dfrac1{256}}$。',
+    answer: '',
+    hasImage: false,
+  },
+  {
+    id: '18a49aac5d3',
+    chapter: '線上課程',
+    question: '$a=\\sqrt5+2\\pi$，$b=\\pi-\\sqrt5$，$c=4+3\\pi$，求 $a^2+b^2+c^2+2ab-2bc-2ca$。',
+    answer: '',
+    hasImage: false,
+  },
+  {
+    id: '1824070506d',
+    chapter: '線上課程',
+    question: '若 $a+b=5$，$ab=2$，求：\n(1) $a^2+b^2$　　(2) $a^3+b^3$　　(3) $a^4+b^4$',
+    answer: '',
+    hasImage: false,
+  },
+  {
+    id: '1824072402b',
+    chapter: '線上課程',
+    question: '若 $a+b=5$，$ab=3$，且 $a>b$，求 $a-b$、$a$。',
+    answer: '',
+    hasImage: false,
+  },
+  {
+    id: '18a49b2f87f',
+    chapter: '線上課程',
+    question: '若 $x^2-4x+1=0$，試求：(1) $x^2+\\dfrac1{x^2}$ (2) $x^3+\\dfrac1{x^3}$',
+    answer: '',
+    hasImage: false,
+  },
+  {
+    id: '18a49b87f9a',
+    chapter: '線上課程',
+    question: '化簡 $(1+\\dfrac34)(1+\\dfrac35)(1+\\dfrac36)(1+\\dfrac37)\\cdots(1+\\dfrac3{50})$',
+    answer: '',
+    hasImage: false,
+  },
+  {
+    id: '18a49ba334c',
+    chapter: '線上課程',
+    question:
+      '化簡 $\\dfrac{2\\dfrac58\\div(\\dfrac34+\\dfrac29)}{\\dfrac54\\times\\dfrac83+\\dfrac{25}{16}\\times\\dfrac{72}{10}}$。',
+    answer: '',
+    hasImage: false,
+  },
+  {
+    id: '18a49bc9315',
+    chapter: '線上課程',
+    question: '求解 $\\dfrac3{x+2}+\\dfrac x{x-1}=1$。',
+    answer: '',
+    hasImage: false,
+  },
+  {
+    id: '18a49bd77bd',
+    chapter: '線上課程',
+    question:
+      '求解 $\\dfrac{\\dfrac{x-2}{x+1}-\\dfrac5{x-1}}{\\dfrac x{x+1}+\\dfrac{2x+3}{x-1}}=-1$。',
+    answer: '',
+    hasImage: false,
+  },
+  {
+    id: '18240764c41',
+    chapter: '線上課程',
+    question:
+      '下列哪些選項的數值可以化成有限小數？\n(1) $\\dfrac{13}4$ (2) $\\dfrac{79}{625}$ (3) $\\dfrac{77}{66}$ (4) $\\dfrac{343}{56}$ (5) $\\dfrac{\\sqrt3}8$',
+    answer: '(1)(2)(4)',
+    hasImage: false,
+  },
+  {
+    id: '18a4a57990c',
+    chapter: '線上課程',
+    question:
+      '請問 $\\dfrac{3^{97}}{2^{100}}$ 化成小數後是否為有限小數？若是，這個有限小數的最後一個數字多少？其位置在小數點後第幾位？',
+    answer: '',
+    hasImage: false,
+  },
+  {
+    id: '182407927fb',
+    chapter: '線上課程',
+    question:
+      '將有理數 $\\dfrac{18}{55}$ 表成小數會有無限多位，若小數點後第 $n$ 位的數字記為 $a_n$，其中 $n$ 為正整數。求 $a_1+a_2+a_3+\\cdots+a_{100}$。',
+    answer: '446',
+    hasImage: false,
+  },
+  {
+    id: '182407d3766',
+    chapter: '線上課程',
+    question:
+      '將循環小數化成最簡分數：\n(1) $0.\\overline{27}$ (2) $3.1\\overline{45}$ (3) $0.23\\overline{971}$',
+    answer: '',
+    hasImage: false,
+  },
+  {
+    id: '182407fdd7c',
+    chapter: '線上課程',
+    question: '化簡 $0.\\overline{73}+1.\\overline{36}\\times2.3\\overline8$',
+    answer: '$\\frac{791}{198}$',
+    hasImage: false,
+  },
+  {
+    id: '18a4a5c3afb',
+    chapter: '線上課程',
+    question:
+      '請將下列分數化成循環小數：\n(1) $\\dfrac{2371}{9999}$ (2) $\\dfrac{2371}{9990}$ (3) $\\dfrac{2371}{9900}$ (4) $\\dfrac{2371}{9000}$',
+    answer: '',
+    hasImage: false,
+  },
+  {
+    id: '18240835833',
+    chapter: '線上課程',
+    question:
+      '數線上，已知 $A(-1)$、$B(5)$，點 $P$ 滿足 $\\overline{PA}:\\overline{PB}=4:3$，試問：\n(1) 若 $P$ 在線段 $\\overline{AB}$ 上，求 $P$ 坐標\n(2) 若 $P$ 在線段 $\\overline{AB}$ 外，求 $P$ 坐標',
+    answer: '(1) $\\frac{17}7$ (2) 23',
+    hasImage: false,
+  },
+  {
+    id: '1824086d367',
+    chapter: '線上課程',
+    question:
+      '數線上有 $A(a)$、$B(b)$ 兩點，其中 $a<b$，且在 $A$、$B$ 之間有 $P(1)$、$Q(8)$ 兩點，已知 $\\overline{PA}:\\overline{PB}=2:3$，$\\overline{QA}:\\overline{QB}=5:4$，求 $a$、$b$',
+    answer: '-17; 28',
+    hasImage: false,
+  },
+  {
+    id: '1825344bd5c',
+    chapter: '線上課程',
+    question:
+      '已知 $x<y$，且 $a=\\dfrac{x+2y}3$，$b=\\dfrac{2x+y}3$，$c=\\dfrac{3x+2y}5$，$d=\\dfrac{7x-3y}4$，請比較 $a,b,c,d$ 的大小。',
+    answer: '$d<b<c<a$',
+    hasImage: false,
+  },
+  {
+    id: '18a4a605f23',
+    chapter: '線上課程',
+    question:
+      '已知 $a,b$ 為實數且 $a<b$，則下列選項哪些為真？\n(1) $a<\\dfrac{a+b}2<b$\n(2) $a<\\dfrac{a+b}3<b$\n(3) $\\dfrac{3a+2b}5<\\dfrac{a+4b}5$\n(4) $\\dfrac{a+3b}4<\\dfrac{2a+3b}5$\n(5) $\\dfrac{3a+4b}6<\\dfrac{4a+5b}7$',
+    answer: '',
+    hasImage: false,
+  },
 ];
 
 // 學測
@@ -2094,14 +2286,6 @@ const numAndEquation: Question[] = [
     hasImage: false,
   },
   {
-    id: '1825344bd5c',
-    chapter: '數與式',
-    question:
-      '已知 $x<y$，且 $a=\\dfrac{x+2y}3$，$b=\\dfrac{2x+y}3$，$c=\\dfrac{3x+2y}5$，$d=\\dfrac{7x-3y}4$，請比較 $a,b,c,d$ 的大小。',
-    answer: '$d<b<c<a$',
-    hasImage: false,
-  },
-  {
     id: '1825348f6f0',
     chapter: '數與式',
     question:
@@ -2490,23 +2674,9 @@ const numAndEquation: Question[] = [
     hasImage: false,
   },
   {
-    id: '182406b30eb',
-    chapter: '數與式',
-    question: '乘開 $(2a+3b)^3$。',
-    answer: '略',
-    hasImage: false,
-  },
-  {
     id: '182406cb62d',
     chapter: '數與式',
     question: '乘開：(1) $(3a-b)^3$　　(2) $(x^2-\\dfrac2x)^3$',
-    answer: '略',
-    hasImage: false,
-  },
-  {
-    id: '182406dc4f1',
-    chapter: '數與式',
-    question: '因式分解 $x^6+8$',
     answer: '略',
     hasImage: false,
   },
@@ -2518,24 +2688,10 @@ const numAndEquation: Question[] = [
     hasImage: false,
   },
   {
-    id: '1824070506d',
-    chapter: '數與式',
-    question: '若 $a+b=5$，$ab=2$，求：\n(1) $a^2+b^2$　　(2) $a^3+b^3$',
-    answer: '(1) 21 (2) 95',
-    hasImage: false,
-  },
-  {
     id: '182407138ec',
     chapter: '數與式',
     question: '若 $a-b=7$，$ab=3$，求：\n(1) $a^2+b^2$　　(2) $a^3-b^3$',
     answer: '(1) 55 (2) 406',
-    hasImage: false,
-  },
-  {
-    id: '1824072402b',
-    chapter: '數與式',
-    question: '若 $a+b=5$，$ab=3$，且 $a>b$，求 $a-b$。',
-    answer: '$\\sqrt{13}$',
     hasImage: false,
   },
   {
@@ -2560,27 +2716,11 @@ const numAndEquation: Question[] = [
     hasImage: false,
   },
   {
-    id: '18240764c41',
-    chapter: '數與式',
-    question:
-      '下列哪些選項的數值可以化成有限小數？\n(1) $\\dfrac{13}4$ (2) $\\dfrac{79}{625}$ (3) $\\dfrac{77}{66}$ (4) $\\dfrac{343}{56}$ (5) $\\dfrac{\\sqrt3}8$',
-    answer: '(1)(2)(4)',
-    hasImage: false,
-  },
-  {
     id: '18240777cb0',
     chapter: '數與式',
     question:
       '下列哪些選項可以化為有限小數？\n(1) $\\dfrac7{32}$ (2) $\\dfrac{114}{625}$ (3) $\\dfrac{21}{12}$ (4) $\\dfrac{15}{72}$ (5) $\\dfrac{3^{2012}}{2^{99}\\cdot5^{43}}$',
     answer: '(1)(2)(3)(5)',
-    hasImage: false,
-  },
-  {
-    id: '182407927fb',
-    chapter: '數與式',
-    question:
-      '將有理數 $\\dfrac{18}{55}$ 表成小數會有無限多位，若小數點後第 $n$ 位的數字記為 $a_n$，其中 $n$ 為正整數。求 $a_1+a_2+a_3+\\cdots+a_{100}$。',
-    answer: '446',
     hasImage: false,
   },
   {
@@ -2591,24 +2731,10 @@ const numAndEquation: Question[] = [
     hasImage: false,
   },
   {
-    id: '182407d3766',
-    chapter: '數與式',
-    question: '化成最簡分數：(1) $0.\\overline{27}$　(2) $3.1\\overline{45}$',
-    answer: '(1) $\\frac{3}{11}$ (2) $\\frac{173}{55}$',
-    hasImage: false,
-  },
-  {
     id: '182407eba69',
     chapter: '數與式',
     question: '化成最簡分數：(1) $2.\\overline{14}$　(2) $0.2\\overline8$　(3) $4.3\\overline{21}$',
     answer: '(1) $\\frac{212}{99}$ (2) $\\frac{13}{35}$ (3) $\\frac{713}{165}$',
-    hasImage: false,
-  },
-  {
-    id: '182407fdd7c',
-    chapter: '數與式',
-    question: '化簡 $0.\\overline{73}+1.\\overline{36}\\times2.3\\overline8$',
-    answer: '$\\frac{791}{198}$',
     hasImage: false,
   },
   {
@@ -2620,27 +2746,11 @@ const numAndEquation: Question[] = [
     hasImage: false,
   },
   {
-    id: '18240835833',
-    chapter: '數與式',
-    question:
-      '數線上，已知 $A(-1)$、$B(5)$，點 $P$ 滿足 $\\overline{PA}:\\overline{PB}=4:3$，試問：\n(1) 若 $P$ 在線段 $\\overline{AB}$ 上，求 $P$ 坐標\n(2) 若 $P$ 在線段 $\\overline{AB}$ 外，求 $P$ 坐標',
-    answer: '(1) $\\frac{17}7$ (2) 23',
-    hasImage: false,
-  },
-  {
     id: '182408482b0',
     chapter: '數與式',
     question:
       '數線上，已知 $P(4)$、$Q(-7)$，點 $R$ 滿足 $\\overline{PR}:\\overline{PQ}=2:3$，試問：\n(1) 若 $R$ 在 $\\overline{PQ}$ 上，求 $R$ 坐標\n(2) 若 $R$ 在 $\\overline{PQ}$ 外，求 $R$ 坐標',
     answer: '(1) $-\\frac25$ (2) 26',
-    hasImage: false,
-  },
-  {
-    id: '1824086d367',
-    chapter: '數與式',
-    question:
-      '數線上有 $A(a)$、$B(b)$ 兩點，其中 $a<b$，且在 $A$、$B$ 之間有 $P(1)$、$Q(8)$ 兩點，已知 $\\overline{PA}:\\overline{PB}=2:3$，$\\overline{QA}:\\overline{QB}=5:4$，求 $a$、$b$',
-    answer: '-17；28',
     hasImage: false,
   },
   {
@@ -32974,6 +33084,7 @@ const conicSection: Question[] = [
 ];
 
 export const bank: Question[] = [
+  ...onlineCourse,
   ...gsat,
   ...beginner,
   ...numAndEquation,

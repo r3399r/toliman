@@ -8,18 +8,31 @@ import style from './Hw.module.scss';
 
 const Hw = () => {
   const ids: string[] = [
-    '18a303e9b08',
-    '18a304011ca',
-    '18a3040eed2',
-    '18a3042a632',
-    '18a3043b73c',
-    '18a3044de8d',
-    '18a30468f2e',
-    '18a304a2f72',
-    '18a304c9343',
-    '17c18cf26e6',
-    '17c18cf26e4',
-    '17c18cf26e5',
+    '18a498e4dcd',
+    '18a498fa061',
+    '18a49a85d87',
+    '182406b30eb',
+    '18a49a926b5',
+    '182406dc4f1',
+    '18a49aa1f23',
+    '18a49aac5d3',
+    '1824070506d',
+    '1824072402b',
+    '18a49b2f87f',
+    '18a49b87f9a',
+    '18a49ba334c',
+    '18a49bc9315',
+    '18a49bd77bd',
+    '18240764c41',
+    '18a4a57990c',
+    '182407927fb',
+    '182407d3766',
+    '182407fdd7c',
+    '18a4a5c3afb',
+    '18240835833',
+    '1824086d367',
+    '1825344bd5c',
+    '18a4a605f23',
   ];
 
   const addDefaultSrc = (ev: ChangeEvent<HTMLImageElement>) => {
@@ -43,8 +56,9 @@ const Hw = () => {
                   onError={addDefaultSrc}
                 />
               )}
-              <Textarea2MathJax text={`${i + 1}. ${q.question}`} />
-              <Textarea2MathJax text={`Ans: ${q.answer}`} className={style.ans} />
+              {/* <Textarea2MathJax text={`${i + 1}. ${q.question}`} /> */}
+              <Textarea2MathJax text={`${q.question}`} />
+              {/* <Textarea2MathJax text={`Ans: ${q.answer}`} className={style.ans} /> */}
             </div>
           );
         })}
