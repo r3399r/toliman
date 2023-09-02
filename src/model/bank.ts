@@ -17473,6 +17473,97 @@ const combination: Question[] = [
 // 三角函數A
 const trigonometricFuncA: Question[] = [
   {
+    id: '18a543d651c',
+    chapter: '三角函數A',
+    question:
+      '若 $\\dfrac{\\sin\\theta+3\\cos\\theta}{\\sin\\theta-2\\cos\\theta}=6$，求 $\\tan2\\theta$。',
+    answer: '$-\\frac34$',
+    hasImage: false,
+  },
+  {
+    id: '18a543f912a',
+    chapter: '三角函數A',
+    question:
+      '若 $\\dfrac{3\\pi}2<\\theta<2\\pi$，$\\sin\\theta=-\\dfrac45$，求 $\\cos\\dfrac\\theta2$',
+    answer: '$-\\frac{2\\sqrt5}5$',
+    hasImage: false,
+  },
+  {
+    id: '18a5440e129',
+    chapter: '三角函數A',
+    question: '設 $0\\le x\\le2\\pi$，試求不等式 $\\sin x>\\dfrac{\\sqrt3}2$ 的解。',
+    answer: '$\\frac\\pi3<x<\\frac{2\\pi}3$',
+    hasImage: false,
+  },
+  {
+    id: '18a54419c00',
+    chapter: '三角函數A',
+    question: '試問方程式 $\\sin x=\\dfrac x5$ 有幾個實根？',
+    answer: '3',
+    hasImage: false,
+  },
+  {
+    id: '18a544232d7',
+    chapter: '三角函數A',
+    question: '試求方程式 $\\cos x=x^2$ 的實根個數有幾個？',
+    answer: '2',
+    hasImage: false,
+  },
+  {
+    id: '18a54454a2f',
+    chapter: '三角函數A',
+    question:
+      '試求下列函數之週期\n(1) $y=\\sin2x$\n(2) $y=\\sin(x+\\dfrac\\pi4)$\n(3) $y=1+\\sin\\dfrac x2$\n(4) $y=2\\sin x$',
+    answer: '$\\pi$; $2\\pi$; $4\\pi$; $2\\pi$',
+    hasImage: false,
+  },
+  {
+    id: '18a54460530',
+    chapter: '三角函數A',
+    question: '試作函數圖並求週期 $y=\\sin x-|\\sin x|$',
+    answer: '圖略; $2\\pi$',
+    hasImage: false,
+  },
+  {
+    id: '18a5446dc10',
+    chapter: '三角函數A',
+    question: '試判斷方程式 $x=-\\tan x$，在 $-\\pi<x<3\\pi$ 內有幾個解？',
+    answer: '5',
+    hasImage: false,
+  },
+  {
+    id: '18a54484c36',
+    chapter: '三角函數A',
+    question:
+      '在 $0\\le x\\le4\\pi$ 範圍內，方程式 $\\cos x=\\dfrac{\\sqrt3}2$ 的根由大而小分別為 $x_1,x_2,x_3,x_4$，求 $x_1-x_3$。',
+    answer: '$2\\pi$',
+    hasImage: false,
+  },
+  {
+    id: '18a5449b31b',
+    chapter: '三角函數A',
+    question:
+      '將 $y=\\sin x-\\cos x$ 表示成 $y=r\\cos(x+\\theta)$ 的形式，其中 $r>0$，$0\\le\\theta<2\\pi$，求 $\\theta$。',
+    answer: '$\\frac{5\\pi}4$',
+    hasImage: false,
+  },
+  {
+    id: '18a545487aa',
+    chapter: '三角函數A',
+    question:
+      '已知函數 $y=\\sqrt3\\sin x+\\sqrt2\\cos x$，$x$ 為任意實數，若此函數的最大與最小值分別為 $m,n$，求 $mn$。',
+    answer: '-5',
+    hasImage: false,
+  },
+  {
+    id: '18a5456312f',
+    chapter: '三角函數A',
+    question:
+      '在 $\\triangle ABC$ 中，$a,b,c$ 分別是 $\\angle A,\\angle B,\\angle C$ 的對邊，若 $\\sin A=\\dfrac5{13}$，$\\cos B=-\\dfrac35$，求 $a:b:c$。',
+    answer: '25:52:33',
+    hasImage: false,
+  },
+  {
     id: '18a30338604',
     chapter: '三角函數A',
     question: '已知 $\\triangle ABC$ 的 $\\tan A=\\dfrac12$，$\\tan B=-2$，求 $\\tan C$。',
@@ -18924,6 +19015,82 @@ const trigonometricFuncA: Question[] = [
 
 // 三角函數B
 const trigonometricFuncB: Question[] = [
+  {
+    id: '18a545ac0e2',
+    chapter: '三角函數B',
+    question: '下列何者最大？$\\sin1,\\cos1,\\tan1,\\sin2,\\cos2$',
+    answer: '$\\tan1$',
+    hasImage: false,
+  },
+  {
+    id: '18a545bd926',
+    chapter: '三角函數B',
+    question: '問 100 弳為哪個象限的角？',
+    answer: '第四象限角',
+    hasImage: false,
+  },
+  {
+    id: '18a545cb7ad',
+    chapter: '三角函數B',
+    question:
+      '試問有多少個實數滿足 $\\dfrac\\pi2\\le x\\le\\dfrac{3\\pi}2$ 且 $\\cos x\\du\\le\\cos x$？',
+    answer: '0',
+    hasImage: false,
+  },
+  {
+    id: '18a545d9be8',
+    chapter: '三角函數B',
+    question: '若一扇形半徑為 4，圓心角為 2，求此扇形面積。',
+    answer: '16',
+    hasImage: false,
+  },
+  {
+    id: '18a545e4972',
+    chapter: '三角函數B',
+    question: '已知扇形的面積為 5，弧長為 2，求圓心角的弧度為？',
+    answer: '$\\frac25$',
+    hasImage: false,
+  },
+  {
+    id: '18a545fa12d',
+    chapter: '三角函數B',
+    question:
+      '如圖，一直圓錐底圓之半徑為 3，高為 4，若將此直圓錐沿一斜高剪開成一扇形，求圓心角的弧度。',
+    answer: '$\\frac{6\\pi}5$',
+    hasImage: true,
+  },
+  {
+    id: '18a5461123b',
+    chapter: '三角函數B',
+    question:
+      '有一時鐘，時針長為 8 公分，則在同一天中從上此 8 點整到上午 9 點整，時針尖端共移動了幾公分？',
+    answer: '$\\frac{4\\pi}3$',
+    hasImage: false,
+  },
+  {
+    id: '18a54624f84',
+    chapter: '三角函數B',
+    question:
+      '如圖，小圓半徑為 1，大圓半徑為 3 的兩圓外切於點 $P$，$\\overline{CD}$ 為公切線段，$A,B$ 為圓心，求陰影區域的面積。',
+    answer: '$4\\sqrt3-\\frac{11\\pi}6$',
+    hasImage: true,
+  },
+  {
+    id: '18a5465130d',
+    chapter: '三角函數B',
+    question:
+      '已知 $a=\\sin1$，$b=\\sin2$，$c=\\sin3$，$d=\\sin4$，試問下列選項何者為真？\n(1) $a>0.5$ (2) $b>0$ (3) $c<0$ (4) $d<-0.5$ (5) $b>a>c>d$',
+    answer: '(1)(2)(4)(5)',
+    hasImage: false,
+  },
+  {
+    id: '18a54666b0e',
+    chapter: '三角函數B',
+    question:
+      '若一扇形周長等於所在圓的周長，求扇形的圓心角的弧度。(可用計算機，四捨五入至小數點後第二位)',
+    answer: '4.28',
+    hasImage: false,
+  },
   {
     id: '18a304c9343',
     chapter: '三角函數B',
