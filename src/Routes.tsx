@@ -39,9 +39,11 @@ import C2S2PeriodicFunction from './pages/lecture/book3/C2S2PeriodicFunction';
 import C2S2TrigonometricFormula from './pages/lecture/book3/C2S2TrigonometricFormula';
 import C2S3TrigonometricFunction from './pages/lecture/book3/C2S3TrigonometricFunction';
 import C3S1BasicOfVector from './pages/lecture/book3/C3S1BasicOfVector';
+import C3S1BasicOfVectorB from './pages/lecture/book3/C3S1BasicOfVectorB';
 import C3S2InnerProductOfVector from './pages/lecture/book3/C3S2InnerProductOfVector';
+import C3S2InnerProductOfVectorB from './pages/lecture/book3/C3S2InnerProductOfVectorB';
+import C3S3GraphDesignB from './pages/lecture/book3/C3S3GraphDesignB';
 import C3S3VectorInLineAndDeterminant from './pages/lecture/book3/C3S3VectorInLineAndDeterminant';
-import C3S4GraphDesign from './pages/lecture/book3/C3S4GraphDesign';
 import C1S1BasicOfSpace from './pages/lecture/book4/C1S1BasicOfSpace';
 import C1S2SpaceCoordinate from './pages/lecture/book4/C1S2SpaceCoordinate';
 import C1S3SphereAndConics from './pages/lecture/book4/C1S3SphereAndConics';
@@ -127,12 +129,14 @@ const AppRoutes = () => (
     <Route path="/toliman/lecture/radiusB" element={<C2S1RadiusB />} />
     <Route path="/toliman/lecture/periodicFunction" element={<C2S2PeriodicFunction />} />
     <Route path="/toliman/lecture/basicOfVector" element={<C3S1BasicOfVector />} />
+    <Route path="/toliman/lecture/basicOfVectorB" element={<C3S1BasicOfVectorB />} />
     <Route path="/toliman/lecture/innerProductOfVector" element={<C3S2InnerProductOfVector />} />
+    <Route path="/toliman/lecture/innerProductOfVectorB" element={<C3S2InnerProductOfVectorB />} />
     <Route
       path="/toliman/lecture/vectorInLineAndDeterminant"
       element={<C3S3VectorInLineAndDeterminant />}
     />
-    <Route path="/toliman/lecture/graphDesign" element={<C3S4GraphDesign />} />
+    <Route path="/toliman/lecture/graphDesign" element={<C3S3GraphDesignB />} />
 
     <Route path="/toliman/lecture/basicOfSpace" element={<C1S1BasicOfSpace />} />
     <Route path="/toliman/lecture/spaceCoordinate" element={<C1S2SpaceCoordinate />} />

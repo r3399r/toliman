@@ -212,9 +212,20 @@ const Lecture = () => {
           3 直線的向量性質與二階行列式
         </Button>
       </div>
+      第三冊B Ch3 平面向量
+      <div className={style.button}>
+        <Button variant="contained" onClick={onClick('basicOfVectorB')}>
+          1 向量的加減法與係數積
+        </Button>
+      </div>
+      <div className={style.button}>
+        <Button variant="contained" onClick={onClick('innerProductOfVectorB')}>
+          2 平面向量的內積
+        </Button>
+      </div>
       <div className={style.button}>
         <Button variant="contained" onClick={onClick('graphDesign')}>
-          4 平面圖形的比例與設計
+          3 平面圖形的比例與設計
         </Button>
       </div>
       第四冊 Ch1 空間概念

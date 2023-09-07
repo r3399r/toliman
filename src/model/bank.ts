@@ -22006,7 +22006,7 @@ const planeVector: Question[] = [
     id: '17cca01464c',
     chapter: '平面向量',
     question:
-      '正五邊形 $ABCDE$ 的五條對角線連成五角星， $P$ 為 $\\overline{AC}$ 與 $\\overline{BE}$ 的交點，試說明 $P$ 為 $\\overline{AC}$ 的黃金分割點。($\\sin18\\du=\\frac{\\sqrt5-1}4$，$\\sin54\\du=\\frac{\\sqrt5+1}4$)',
+      '正五邊形 $ABCDE$ 的五條對角線連成五角星， $P$ 為 $\\overline{AC}$ 與 $\\overline{BE}$ 的交點，試說明 $P$ 為 $\\overline{AC}$ 的黃金分割點。($\\sin18\\du=\\dfrac{\\sqrt5-1}4$，$\\sin54\\du=\\dfrac{\\sqrt5+1}4$)',
     answer: '略',
     hasImage: true,
   },
@@ -22062,7 +22062,7 @@ const planeVector: Question[] = [
     id: '17cca39c15c',
     chapter: '平面向量',
     question:
-      '線段 $\\overline{AB}=6$，$P$、$Q$ 為 $\\overline{AB}$ 的三等分點，分別以 $P$、$Q$ 為圓心，半徑為 $4$ 作圓弧交於 $K$ 點，稱所得圖形為「三分之一拱」，令 $\\cos\\theta=\\frac14$，試以 $\\theta$ 表示：\n(1) 弧長 $\\arc{AK}+\\arc{BK}$ (2) 拱形 $ABK$ 的面積',
+      '線段 $\\overline{AB}=6$，$P$、$Q$ 為 $\\overline{AB}$ 的三等分點，分別以 $P$、$Q$ 為圓心，半徑為 $4$ 作圓弧交於 $K$ 點，稱所得圖形為「三分之一拱」，令 $\\cos\\theta=\\dfrac14$，試以 $\\theta$ 表示：\n(1) 弧長 $\\arc{AK}+\\arc{BK}$ (2) 拱形 $ABK$ 的面積',
     answer: '(1) $8\\theta$ (2) $16\\theta-\\sqrt{15}$',
     hasImage: true,
   },
@@ -22353,7 +22353,7 @@ const planeVector: Question[] = [
     id: '17c922bf1a6',
     chapter: '平面向量',
     question:
-      '$\\vector a=(3,-5)$，$\\vector b =(2,7)$，$\\vector c =(k,2k+1)$，則：\n(1) 求 $\\vector a\\cdot\\vector b$ (2) 若 $\\vector b\\cdot\\vector c=-25$，求 $k$',
+      '$\\vector a=(3,-5)$，$\\vector b =(2,7)$，$\\vector c =(k,2k+1)$，則：(1) 求 $\\vector a\\cdot\\vector b$ (2) 若 $\\vector b\\cdot\\vector c=-25$，求 $k$',
     answer: '(1) $-29$ (2) $-2$',
     hasImage: false,
   },
@@ -22409,7 +22409,7 @@ const planeVector: Question[] = [
     id: '17c9237763c',
     chapter: '平面向量',
     question:
-      '已知 $|\\vector a|=3$，$|\\vector b|=5$，$\\vector a$ 與 $\\vector b$ 的夾角為 $\\frac{2\\pi}{3}$，求 $(2\\vector a+\\vector b)\\cdot(4\\vector a-3\\vector b)$。',
+      '已知 $|\\vector a|=3$，$|\\vector b|=5$，$\\vector a$ 與 $\\vector b$ 的夾角為 $\\dfrac{2\\pi}{3}$，求 $(2\\vector a+\\vector b)\\cdot(4\\vector a-3\\vector b)$。',
     answer: '$12$',
     hasImage: false,
   },
@@ -22433,7 +22433,7 @@ const planeVector: Question[] = [
     id: '17c923c9fee',
     chapter: '平面向量',
     question:
-      '等腰梯形 $ABCD$ 的上底長度為 $\\overline{AD}=5$，腰長為 $4$，兩個底角的大小為 $\\angle B=\\angle C=\\frac{\\pi}{3}$，求 $\\xvector{AC}\\cdot\\xvector{BD}$。',
+      '等腰梯形 $ABCD$ 的上底長度為 $\\overline{AD}=5$，腰長為 $4$，兩個底角的大小為 $\\angle B=\\angle C=\\dfrac{\\pi}{3}$，求 $\\xvector{AC}\\cdot\\xvector{BD}$。',
     answer: '$37$',
     hasImage: true,
   },
@@ -22537,7 +22537,7 @@ const planeVector: Question[] = [
     id: '17c6f904640',
     chapter: '平面向量',
     question:
-      '$|\\vector a|=1$，$|\\vector b|=3$，$|\\vector a-\\vector b|=\\sqrt{7}$，求：(1) $\\vector a$ 與 $\\vector b$ 的夾角\n(2) $|t\\vector a+\\vector b|$ 的最小值及此時的 $t$。',
+      '$|\\vector a|=1$，$|\\vector b|=3$，$|\\vector a-\\vector b|=\\sqrt{7}$，求：\n(1) $\\vector a$ 與 $\\vector b$ 的夾角\n(2) $|t\\vector a+\\vector b|$ 的最小值及此時的 $t$',
     answer: '(1) $60\\du$ (2) $\\frac{3\\sqrt{3}}{2}$；$-\\frac{3}{2}$',
     hasImage: false,
   },
@@ -22553,7 +22553,7 @@ const planeVector: Question[] = [
     id: '17c6f99c610',
     chapter: '平面向量',
     question:
-      '$|\\vector a|=1$，$|\\vector b|=3$，$\\vector a$ 與 $\\vector b$ 的夾角為 $\\theta$，且 $\\cos\\theta=\\frac13$，求 $|2\\vector a+3\\vector b|$。',
+      '$|\\vector a|=1$，$|\\vector b|=3$，$\\vector a$ 與 $\\vector b$ 的夾角為 $\\theta$，且 $\\cos\\theta=\\dfrac13$，求 $|2\\vector a+3\\vector b|$。',
     answer: '$\\sqrt{97}$',
     hasImage: false,
   },
@@ -22784,7 +22784,7 @@ const planeVector: Question[] = [
     id: '17c5ffde515',
     chapter: '平面向量',
     question:
-      '$O$ 為 $\\overleftrightarrow{AB}$ 外一點， $P$ 點在 $\\overline{AB}$ 上，已知 $\\overline{PA}=\\frac{8}{3}$，$\\overline{PB}=\\frac{12}{7}$，若 $\\xvector{OP}=x\\xvector{OA}+y\\xvector{OB}$，求數對 $(x,y)$。',
+      '$O$ 為 $\\overleftrightarrow{AB}$ 外一點， $P$ 點在 $\\overline{AB}$ 上，已知 $\\overline{PA}=\\dfrac{8}{3}$，$\\overline{PB}=\\dfrac{12}{7}$，若 $\\xvector{OP}=x\\xvector{OA}+y\\xvector{OB}$，求數對 $(x,y)$。',
     answer: '$(\\frac{9}{23},\\frac{14}{23})$',
     hasImage: false,
   },
@@ -22808,7 +22808,7 @@ const planeVector: Question[] = [
     id: '17c60109edf',
     chapter: '平面向量',
     question:
-      '已知 $O$ 在 $\\overleftrightarrow{AB}$ 外，$P$ 在 $\\overline{AB}$  上，$\\overline{PA}=\\frac{7}{6}$，$\\overline{PB}=1.4$ ，若 $\\xvector{OP}=x\\xvector{OA}+y\\xvector{OB}$，求數對 $(x,y)$。',
+      '已知 $O$ 在 $\\overleftrightarrow{AB}$ 外，$P$ 在 $\\overline{AB}$  上，$\\overline{PA}=\\dfrac{7}{6}$，$\\overline{PB}=1.4$ ，若 $\\xvector{OP}=x\\xvector{OA}+y\\xvector{OB}$，求數對 $(x,y)$。',
     answer: '$(\\frac{6}{11},\\frac{5}{11})$',
     hasImage: false,
   },
@@ -22857,7 +22857,7 @@ const planeVector: Question[] = [
     id: '17c5bdc51bf',
     chapter: '平面向量',
     question:
-      '若 $A$、$B$、$C$ 三點共線，$P$ 為線外一點，且 $4\\xvector{PA}+5\\xvector{PB}+x\\xvector{PC}=2\\xvector{CA}$，求 $x$ 及 $\\frac{\\overline{AB}}{\\overline{BC}}$。',
+      '若 $A$、$B$、$C$ 三點共線，$P$ 為線外一點，且 $4\\xvector{PA}+5\\xvector{PB}+x\\xvector{PC}=2\\xvector{CA}$，求 $x$ 及 $\\dfrac{\\overline{AB}}{\\overline{BC}}$',
     answer: '$-9$；$\\frac{7}{2}$',
     hasImage: false,
   },
@@ -22865,7 +22865,7 @@ const planeVector: Question[] = [
     id: '17c5be5dc06',
     chapter: '平面向量',
     question:
-      '如圖所示，兩射線 $OA$ 與 $OB$ 交於 $O$ 點，試問下列選項中哪些向量的終點 $P$，會落在陰影區域內？\n(1) $\\xvector{OP}=\\xvector{OA}+2\\xvector{OB}$\n(2) $\\xvector{OP}=\\frac{3}{4}\\xvector{OA}+\\frac{1}{3}\\xvector{OB}$\n(3) $\\xvector{OP}=\\frac{3}{4}\\xvector{OA}-\\frac{1}{3}\\xvector{OB}$\n(4) $\\xvector{OP}=\\frac{3}{4}\\xvector{OA}+\\frac{1}{5}\\xvector{OB}$\n(5) $\\xvector{OP}=\\frac{3}{4}\\xvector{OA}-\\frac{1}{5}\\xvector{OB}$',
+      '如圖所示，兩射線 $OA$ 與 $OB$ 交於 $O$ 點，試問下列選項中哪些向量的終點 $P$，會落在陰影區域內？\n(1) $\\xvector{OP}=\\xvector{OA}+2\\xvector{OB}$\n(2) $\\xvector{OP}=\\dfrac{3}{4}\\xvector{OA}+\\dfrac{1}{3}\\xvector{OB}$\n(3) $\\xvector{OP}=\\dfrac{3}{4}\\xvector{OA}-\\dfrac{1}{3}\\xvector{OB}$\n(4) $\\xvector{OP}=\\dfrac{3}{4}\\xvector{OA}+\\dfrac{1}{5}\\xvector{OB}$\n(5) $\\xvector{OP}=\\dfrac{3}{4}\\xvector{OA}-\\dfrac{1}{5}\\xvector{OB}$',
     answer: '(1)(2)',
     hasImage: true,
   },
@@ -22889,7 +22889,7 @@ const planeVector: Question[] = [
     id: '17c5ee185ce',
     chapter: '平面向量',
     question:
-      '平面上有點 $P$ 與 $\\triangle ABC$，滿足 $\\xvector{AP}=\\alpha\\xvector{AB}+\\beta\\xvector{AC}$，則 $(\\alpha,\\beta)$ 為下列何者時，$P$ 會在 $\\triangle ABC$ 的內部？(不含邊界)\n(1) $(\\frac{2}{3},\\frac{3}{4})$ (2) $(-\\frac{2}{5},\\frac{6}{7})$ (3) $(-\\frac{6}{7},\\frac{13}{9})$\n(4) $(\\frac{1}{2},\\frac{1}{3})$ (5) $(\\frac{2}{5},\\frac{3}{5})$',
+      '平面上有點 $P$ 與 $\\triangle ABC$，滿足 $\\xvector{AP}=\\alpha\\xvector{AB}+\\beta\\xvector{AC}$，則 $(\\alpha,\\beta)$ 為下列何者時，$P$ 會在 $\\triangle ABC$ 的內部？(不含邊界)\n(1) $(\\dfrac{2}{3},\\dfrac{3}{4})$　(2) $(-\\dfrac{2}{5},\\dfrac{6}{7})$　(3) $(-\\dfrac{6}{7},\\dfrac{13}{9})$\n(4) $(\\dfrac{1}{2},\\dfrac{1}{3})$　(5) $(\\dfrac{2}{5},\\dfrac{3}{5})$',
     answer: '(4)',
     hasImage: false,
   },
