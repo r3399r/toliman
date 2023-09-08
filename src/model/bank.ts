@@ -226,6 +226,269 @@ const onlineCourse: Question[] = [
     answer: '',
     hasImage: false,
   },
+  {
+    id: '18a72fc2077',
+    chapter: '線上課程',
+    question: '若正數 $6x+7$ 開根號之值為 $2x-1$，求 $x$。',
+    answer: '',
+    hasImage: false,
+  },
+  {
+    id: '18a72fb7d27',
+    chapter: '線上課程',
+    question: '(1) $\\sqrt{256}$ 的平方根\n(2) 化簡 $\\sqrt{0.0324}$',
+    answer: '',
+    hasImage: false,
+  },
+  {
+    id: '18a72fd5ef0',
+    chapter: '線上課程',
+    question:
+      '若自然數 $n$ 滿足 $n<2\\sqrt{7+3\\sqrt{17}}<n+1$，求 $n=$？並判斷 $2\\sqrt{7+3\\sqrt{17}}$ 最接近的整數是？',
+    answer: '',
+    hasImage: false,
+  },
+  {
+    id: '18a72fe1df7',
+    chapter: '線上課程',
+    question: '單項根式化簡：\n(1) $\\sqrt{2^5\\times3^4\\times7^3}$\n(2) $\\sqrt{1080}$',
+    answer: '',
+    hasImage: false,
+  },
+  {
+    id: '18a72fe83d3',
+    chapter: '線上課程',
+    question: '化簡 $4\\sqrt{18}+2\\sqrt{27}+3\\sqrt{48}-\\sqrt{50}$',
+    answer: '',
+    hasImage: false,
+  },
+  {
+    id: '18a72fef1c1',
+    chapter: '線上課程',
+    question: '化簡 $\\sqrt5\\times\\sqrt{30}\\div\\sqrt{24}$',
+    answer: '',
+    hasImage: false,
+  },
+  {
+    id: '18a72ff53ff',
+    chapter: '線上課程',
+    question: '化簡 $(2\\sqrt2-3\\sqrt6)(5\\sqrt2+\\sqrt6)$',
+    answer: '',
+    hasImage: false,
+  },
+  {
+    id: '18a730067f0',
+    chapter: '線上課程',
+    question:
+      '請將單項根式的分母有理化：\n(1) $\\dfrac{15\\sqrt2}{2\\sqrt3}$　　(2) $\\sqrt{\\dfrac{63}{20}}$',
+    answer: '',
+    hasImage: false,
+  },
+  {
+    id: '18a730954d4',
+    chapter: '線上課程',
+    question:
+      '化簡 $\\dfrac{100}{\\sqrt3+\\sqrt2}$。並利用 $\\sqrt3\\approx1.732$，$\\sqrt2\\approx1.414$，估計 $\\dfrac{100}{\\sqrt3+\\sqrt2}$ 在哪兩個連續整數之間？最靠近的整數是？',
+    answer: '',
+    hasImage: false,
+  },
+  {
+    id: '18a7309dd9e',
+    chapter: '線上課程',
+    question: '化簡 $\\dfrac{26\\sqrt2+19\\sqrt5}{2\\sqrt2+\\sqrt5}$',
+    answer: '',
+    hasImage: false,
+  },
+  {
+    id: '18a730a9278',
+    chapter: '線上課程',
+    question:
+      '化簡 $\\dfrac1{\\sqrt1+\\sqrt2}+\\dfrac1{\\sqrt2+\\sqrt3}+\\dfrac1{\\sqrt3+\\sqrt4}+$$\\cdots+\\dfrac1{\\sqrt{99}+\\sqrt{100}}$',
+    answer: '',
+    hasImage: false,
+  },
+  {
+    id: '18a730c0109',
+    chapter: '線上課程',
+    question: '化簡 $(\\sqrt5+\\sqrt3)^{10}(\\sqrt5-\\sqrt3)^{10}$',
+    answer: '',
+    hasImage: false,
+  },
+  {
+    id: '18a730d2afb',
+    chapter: '線上課程',
+    question:
+      '化簡：\n(1) $(5+\\sqrt2-\\sqrt3)^2$\n(2) $(\\sqrt3+2\\sqrt2)^3$\n(3) $a=5+3\\sqrt2$，$b=5-3\\sqrt2$，求 $a^3+b^3$',
+    answer: '',
+    hasImage: false,
+  },
+  {
+    id: '18a730df47c',
+    chapter: '線上課程',
+    question: '解方程式 $\\dfrac{5x-2\\sqrt2}{2\\sqrt3}=\\dfrac{2x+\\sqrt3}{\\sqrt2}$',
+    answer: '',
+    hasImage: false,
+  },
+  {
+    id: '18a730ec8ed',
+    chapter: '線上課程',
+    question:
+      '有一邊長為 8 的正方形，今在每一角各剪掉一個小三角形，使其成為正八邊形，則此正八邊形的邊長為？',
+    answer: '',
+    hasImage: false,
+  },
+  {
+    id: '18a738fbb0d',
+    chapter: '線上課程',
+    question:
+      '(1) 化簡 $\\sqrt{11+3+2\\sqrt{11\\times3}}$\n(2) 化簡 $\\sqrt{12-2\\sqrt{35}}$\n(3) 請問 $\\sqrt{10+2\\sqrt7}$ 是否能化簡？',
+    answer: '',
+    hasImage: false,
+  },
+  {
+    id: '18a7390517a',
+    chapter: '線上課程',
+    question: '化簡 $\\sqrt{8+4\\sqrt3}+\\sqrt{26-\\sqrt{192}}$',
+    answer: '',
+    hasImage: false,
+  },
+  {
+    id: '18253dc12a0',
+    chapter: '線上課程',
+    question: '若 $\\sqrt{41+12\\sqrt5}$ 的整數部分為 $a$，小數部分為 $b$，求 $a+\\dfrac1b$。',
+    answer: '$10+\\sqrt5$',
+    hasImage: false,
+  },
+  {
+    id: '18a7392c9ce',
+    chapter: '線上課程',
+    question: '正數 $a$ 的小數部分為 $b$，且 $b\\ne0$，若 $a+b^2=11$，求 $b$、$a$。',
+    answer: '',
+    hasImage: false,
+  },
+  {
+    id: '18a7396e7f2',
+    chapter: '線上課程',
+    question: '請用尺規畫出長度 $\\dfrac83$ 的線段',
+    answer: '',
+    hasImage: false,
+  },
+  {
+    id: '18a73972bf5',
+    chapter: '線上課程',
+    question: '請用尺規畫出長度 $\\sqrt7$ 的線段',
+    answer: '',
+    hasImage: false,
+  },
+  {
+    id: '18a739eca30',
+    chapter: '線上課程',
+    question:
+      '下列敘述何者正確？\n(1) 循環小數 $2.\\overline{34}$ 無法用尺規在數線上精準作圖\n(2) $1.9<1.\\bar9<2$\n(3) $1.\\bar1,3.\\bar3,10$ 三個數成等比數列\n(4) 無限小數 $0.1010010001\\underbrace{0000}_41\\underbrace{00000}_51\\cdots1\\underbrace{0\\cdots0}_n1\\cdots$ 具規則性，所以是有理數\n(5) 若整數 $n$ 使 $\\sqrt{2n}$ 為有理數，則 $n$ 必為偶數且 $\\sqrt{\\dfrac n2}$ 也是有理數',
+    answer: '',
+    hasImage: false,
+  },
+  {
+    id: '18254860518',
+    chapter: '線上課程',
+    question:
+      '請選出正確的選項。\n(1) 若 $a,b$ 為無理數，則 $a+b$ 必為無理數\n(2) 若 $a$ 為有理數，$b$ 為無理數，則 $a+b$ 必為無理數\n(3) 若 $a$ 為有理數，$b$ 為無理數，則 $ab$ 必為無理數\n(4) $a,b$ 為無理數，$c,d$ 為有理數，若 $a+c=b+d$，則 $a=b$ 且 $c=d$\n(5) $a,b,c,d$ 為有理數，若 $a+b\\sqrt2=c+d\\sqrt2$，則 $a=c$ 且 $b=d$',
+    answer: '(2)(5)',
+    hasImage: false,
+  },
+  {
+    id: '18a74044e09',
+    chapter: '線上課程',
+    question:
+      '下列敘述何者正確？\n(1) 設 $a,b$ 為有理數，若 $a+2\\sqrt3=5+b\\sqrt3$，則 $a=5$ 且 $b=2$\n(2) 設 $a,b$ 為實數，若 $a+2\\sqrt3=5+b\\sqrt3$，則 $a=5$ 且 $b=2$\n(3) 找不到有理數 $a,b$ 使得 $a\\sqrt2=b\\sqrt3$\n(4) 存在有理數 $a,b$ 使得 $\\dfrac{\\sqrt2}a=\\dfrac{\\sqrt3}b$',
+    answer: '',
+    hasImage: false,
+  },
+  {
+    id: '18a7408c9b8',
+    chapter: '線上課程',
+    question:
+      '設 $x,y$ 為有理數，若 $2\\sqrt7+x\\sqrt{16+6\\sqrt7}=10+y\\sqrt{8-\\sqrt{28}}$，求數對 $(x,y)$',
+    answer: '',
+    hasImage: false,
+  },
+  {
+    id: '18a740e215f',
+    chapter: '線上課程',
+    question: '若 $a<b<x<0$，試比較 $\\dfrac ba$，$\\dfrac{b+x}{a+x}$，$\\dfrac{b-x}{a-x}$ 的大小',
+    answer: '',
+    hasImage: false,
+  },
+  {
+    id: '18a740ebaf4',
+    chapter: '線上課程',
+    question:
+      '設 $a=\\dfrac{\\sqrt2}{\\sqrt3}$，$b=\\dfrac{\\sqrt2+\\sqrt5}{\\sqrt3+\\sqrt5}$，$c=\\dfrac{\\sqrt2+\\sqrt{11}}{\\sqrt3+\\sqrt{11}}$，試比較 $a,b,c$ 的大小',
+    answer: '',
+    hasImage: false,
+  },
+  {
+    id: '182553cc452',
+    chapter: '線上課程',
+    question: '設 $a=\\sqrt3-\\sqrt{11}$，$b=2-\\sqrt{10}$，$c=\\sqrt5-3$，試比較 $a,b,c$ 的大小。',
+    answer: '$a<b<c$',
+    hasImage: false,
+  },
+  {
+    id: '18a74114551',
+    chapter: '線上課程',
+    question:
+      '若 $a,b,k$ 為非零實數且 $a>b$，請問下列選項哪些為真？\n(1) $3a>2b$\n(2) $ka>kb$\n(3) $\\dfrac1a<\\dfrac1b$\n(4) $a-b>0$\n(5) $\\dfrac{3a+2b}5>\\dfrac{4a+3b}7$\n(6) $\\dfrac{a+b}3>\\dfrac{3a+2b}7$',
+    answer: '',
+    hasImage: false,
+  },
+  {
+    id: '1825540969f',
+    chapter: '線上課程',
+    question: '設 $a>0,b>0$，且 $3a+4b=10$，求 $(a,b)$ 為何時，$ab$ 有最大值？其值為？',
+    answer: '',
+    hasImage: false,
+  },
+  {
+    id: '18a7414963a',
+    chapter: '線上課程',
+    question:
+      '若 $a>0,b>0$，且 $ab=25$，則 $\\dfrac4a+\\dfrac9b$ 的最小值為？此時數對 $(a,b)$ 為？',
+    answer: '',
+    hasImage: false,
+  },
+  {
+    id: '1825544e283',
+    chapter: '線上課程',
+    question:
+      '半圓的直徑為 6，內接矩形 $ABCD$，其中 $\\overline{AB}$ 落在直徑上，如圖，試求矩形 $ABCD$ 的最大面積。',
+    answer: '9',
+    hasImage: true,
+    style: { width: '4cm' },
+  },
+  {
+    id: '18a7415a963',
+    chapter: '線上課程',
+    question: '已知 $x>3$，求函數 $f(x)=x+\\dfrac4{x-3}$ 在 $x$ 為何時有最小的函數值？此最小值為？',
+    answer: '',
+    hasImage: false,
+  },
+  {
+    id: '1825551e13b',
+    chapter: '線上課程',
+    question:
+      '已知 $x,y$ 為實數，滿足 $-2\\le x\\le3$，$1\\le y\\le2$，在這些範圍限制之下，請問：\n(1) $2x+3y$ 的最大值與最小值\n(2) $x-y$ 的最大值與最小值',
+    answer: '(1) 12；-1 (2) 2；-4',
+    hasImage: false,
+  },
+  {
+    id: '18a741798cc',
+    chapter: '線上課程',
+    question:
+      '已知 $x,y$ 為實數，若 $|x+1|\\le2$，且 $|2y-5|\\le3$，請問：\n(1) $xy$ 的最大值與最小值\n(2) $\\dfrac xy$ 的最大值與最小值\n(3) $x^2+y^3$ 的最大值與最小值',
+    answer: '',
+    hasImage: false,
+  },
 ];
 
 // 學測
@@ -2325,14 +2588,6 @@ const numAndEquation: Question[] = [
     hasImage: false,
   },
   {
-    id: '18254860518',
-    chapter: '數與式',
-    question:
-      '請選出正確的選項。\n(1) 若 $a,b\\notin\\mathbb Q$，則 $a+b$ 必為無理數\n(2) 若 $a\\in\\mathbb Q$，$b\\notin\\mathbb Q$，則 $a+b$ 必為無理數\n(3) 若 $a\\in\\mathbb Q$，$b\\notin\\mathbb Q$，則 $ab$ 必為無理數\n(4) $a,b\\notin\\mathbb Q$，$c,d\\in\\mathbb Q$，若 $a+c=b+d$，則 $a=b$ 且 $c=d$\n(5) $a,b,c,d\\in\\mathbb Q$，若 $a+b\\sqrt2=c+d\\sqrt2$，則 $a=c$ 且 $b=d$',
-    answer: '(2)(5)',
-    hasImage: false,
-  },
-  {
     id: '182553ac6ad',
     chapter: '數與式',
     question:
@@ -2355,22 +2610,6 @@ const numAndEquation: Question[] = [
     hasImage: false,
   },
   {
-    id: '1825540969f',
-    chapter: '數與式',
-    question: '設 $a>0$，$b>0$，且 $3a+4b=10$，求 $ab$ 的最大值及此時的 $(a,b)$。',
-    answer: '$\\frac{25}{12}$；$(\\frac53,\\frac54)$',
-    hasImage: false,
-  },
-  {
-    id: '1825544e283',
-    chapter: '數與式',
-    question:
-      '半圓的直徑為 6，內接矩形 $ABCD$，其中 $\\overline{AB}$ 落在直徑上，如圖，試求矩形 $ABCD$ 的最大面積。',
-    answer: '9',
-    hasImage: true,
-    style: { width: '4cm' },
-  },
-  {
     id: '1825547733e',
     chapter: '數與式',
     question: '若 $a,b$ 為正數，且 $a+2b=8$，求 $ab$ 的最大值及此時的 $(a,b)$。',
@@ -2384,14 +2623,6 @@ const numAndEquation: Question[] = [
       '用 24 公尺的鐵絲圍出一個六邊形，如圖(虛線部分不需圍起)，此區域若按照虛線可分為面積相等的五塊矩形，試求圍出的六邊形之最大面積。',
     answer: '30 平方公尺',
     hasImage: true,
-  },
-  {
-    id: '1825551e13b',
-    chapter: '數與式',
-    question:
-      '已知 $x,y$ 為實數，滿足 $-2\\le x\\le3$，$1\\le y\\le2$，在這些範圍限制之下，請問：\n(1) $2x+3y$ 的最大值與最小值\n(2) $x-y$ 的最大值與最小值\n(3) $xy$ 的最大值與最小值',
-    answer: '(1) 12；-1 (2) 2；-4 (2) 6；-4',
-    hasImage: false,
   },
   {
     id: '182555363da',
