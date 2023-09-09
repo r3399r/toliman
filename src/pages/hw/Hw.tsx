@@ -8,41 +8,30 @@ import style from './Hw.module.scss';
 
 const Hw = () => {
   const ids: string[] = [
-    '18a72fc2077',
-    '18a72fb7d27',
-    '18a72fd5ef0',
-    '18a72fe1df7',
-    '18a72fe83d3',
-    '18a72fef1c1',
-    '18a72ff53ff',
-    '18a730067f0',
-    '18a730954d4',
-    '18a7309dd9e',
-    '18a730a9278',
-    '18a730c0109',
-    '18a730d2afb',
-    '18a730df47c',
-    '18a730ec8ed',
-    '18a738fbb0d',
-    '18a7390517a',
-    '18253dc12a0',
-    '18a7392c9ce',
-    '18a7396e7f2',
-    '18a73972bf5',
-    '18a739eca30',
-    '18254860518',
-    '18a74044e09',
-    '18a7408c9b8',
-    '18a740e215f',
-    '18a740ebaf4',
-    '182553cc452',
-    '18a74114551',
-    '1825540969f',
-    '18a7414963a',
-    '1825544e283',
-    '18a7415a963',
-    '1825551e13b',
-    '18a741798cc',
+    // '17c18d3ad1b',
+    // '17c18d4b33d',
+    // '17c18d5e564',
+    // '17c18d686ef',
+    // '18a7857c36f',
+    // '18a78607f67',
+    // '18a78631f65',
+    // '18a7864ba74',
+    // '18a7865b02b',
+    // '18a78666b8c',
+    // '18a7868c1ac',
+    // '18a786beb26',
+    '18a786f0e6d',
+    '18a786e6f6e',
+    '18a786fc8da',
+    '18a78718c0b',
+    '18a78728b3d',
+    '18a78742abe',
+    '18a78756601',
+    '18a78765b18',
+    '18a7878a8c6',
+    '17ccd01afe1',
+    '17cf6349562',
+    '18a787be89d',
   ];
 
   const addDefaultSrc = (ev: ChangeEvent<HTMLImageElement>) => {
@@ -66,9 +55,9 @@ const Hw = () => {
                   onError={addDefaultSrc}
                 />
               )}
-              {/* <Textarea2MathJax text={`${i + 1}. ${q.question}`} /> */}
-              <Textarea2MathJax text={`${q.question}`} />
-              {/* <Textarea2MathJax text={`Ans: ${q.answer}`} className={style.ans} /> */}
+              <Textarea2MathJax text={`${i + 1}. ${q.question}`} />
+              {/* <Textarea2MathJax text={`${q.question}`} /> */}
+              <Textarea2MathJax text={`Ans: ${q.answer}`} className={style.ans} />
             </div>
           );
         })}

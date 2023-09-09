@@ -18245,7 +18245,7 @@ const trigonometricFuncA: Question[] = [
   {
     id: '17c18d3ad1b',
     chapter: '三角函數A',
-    question: '求函數 $y=\\sin\\frac{2x}{15}+\\cos\\frac{x}{5}$ 的週期。',
+    question: '求函數 $y=\\sin\\dfrac{2x}{15}+\\cos\\dfrac{x}{5}$ 的週期。',
     answer: '$30\\pi$',
     hasImage: false,
   },
@@ -19239,6 +19239,65 @@ const trigonometricFuncA: Question[] = [
     id: '17b64b76a9c',
     chapter: '三角函數A',
     question: '若 $\\tan A=5$，$\\tan B=-3$，求 $\\tan(A+B)$',
+    answer: '$\\frac18$',
+    hasImage: false,
+  },
+  {
+    id: '18a7857c36f',
+    chapter: '三角函數A',
+    question: '$x$ 為實數，求 $y=4\\sin x-\\cos x+7$ 之最大值與最小值。',
+    answer: '$7+\\sqrt{17}$; $7-\\sqrt{17}$',
+    hasImage: false,
+  },
+  {
+    id: '18a78607f67',
+    chapter: '三角函數A',
+    question: '求 $y=2\\sqrt3\\sin(x+\\dfrac\\pi6)-\\sin x$ 之最大值與最小值。',
+    answer: '$\\sqrt7$; $-\\sqrt7$',
+    hasImage: false,
+  },
+  {
+    id: '18a78631f65',
+    chapter: '三角函數A',
+    question:
+      '$f(x)=7\\sin x-24\\cos x$，求：\n(1) 在 $x=\\alpha$ 時有最大值為？此時 $\\sin\\alpha$ 與 $\\cos\\alpha$ 為？\n(2) 在 $x=\\beta$ 時有最小值為？此時 $\\sin\\beta$ 與 $\\cos\\beta$ 為？',
+    answer: '(1) 25; $\\frac7{25}$; $-\\frac{24}{25}$ (2) -25; $-\\frac7{25}$; $\\frac{24}{25}$',
+    hasImage: false,
+  },
+  {
+    id: '18a7864ba74',
+    chapter: '三角函數A',
+    question:
+      '將 $f(x)=2\\sqrt3\\sin(x-\\dfrac\\pi6)-4\\sin x$ 化成 $A\\sin(x+\\alpha)$ 或 $B\\cos(x+\\beta)$，其中 $A,B>0$，$0\\le\\alpha,\\beta<2\\pi$，求數對 $(A,B,\\alpha,\\beta)$。',
+    answer: '$(2,2,\\frac{4\\pi}3,\\frac{5\\pi}6)$',
+    hasImage: false,
+  },
+  {
+    id: '18a7865b02b',
+    chapter: '三角函數A',
+    question: '求 $y=\\sin^2x+6\\sin x\\cos x+5\\cos^2x$ 之最大值與最小值。',
+    answer: '$3+\\sqrt{13}$; $3-\\sqrt{13}$',
+    hasImage: false,
+  },
+  {
+    id: '18a78666b8c',
+    chapter: '三角函數A',
+    question: '化簡 $\\sqrt3\\csc20\\du-\\sec20\\du$',
+    answer: '4',
+    hasImage: false,
+  },
+  {
+    id: '18a7868c1ac',
+    chapter: '三角函數A',
+    question:
+      '以 $\\overline{AB}=6$ 為直徑的圓，其上一點 $P$，當 $\\overline{PA}$ 與 $\\overline{PB}$ 為何時，可使 $3\\overline{PA}+4\\overline{PB}$ 有最大值？此最大值為？',
+    answer: '$\\frac{18}5$; $\\frac{24}5$; 30',
+    hasImage: false,
+  },
+  {
+    id: '18a786beb26',
+    chapter: '三角函數A',
+    question: '求 $\\cos20\\du\\cos40\\du\\cos80\\du$',
     answer: '$\\frac18$',
     hasImage: false,
   },
@@ -21350,6 +21409,75 @@ const expAndLogFunction: Question[] = [
 // 平面向量
 const planeVector: Question[] = [
   {
+    id: '18a786f0e6d',
+    chapter: '平面向量',
+    question: '正方形的四個邊，共可決定幾個不同的非零向量？',
+    answer: '4',
+    hasImage: false,
+  },
+  {
+    id: '18a786e6f6e',
+    chapter: '平面向量',
+    question: '正方形的四個頂點，共可決定幾個不同的非零向量？',
+    answer: '8',
+    hasImage: false,
+  },
+  {
+    id: '18a786fc8da',
+    chapter: '平面向量',
+    question:
+      '四個點 $A,B,C,D$ 在同一條直線上，且 $B,C$ 為 $\\overline{AD}$ 的三等分點，則這四個點共可決定幾個不同的非零向量？',
+    answer: '6',
+    hasImage: false,
+  },
+  {
+    id: '18a78718c0b',
+    chapter: '平面向量',
+    question:
+      '坐標平面上三點 $A(4,5)$、$B(7,2)$ 與 $C$，已知 $\\overline{AC}=(-6,8)$，求 $\\xvector{AB}$、$|\\xvector{AB}|$、$\\xvector{BA}$、$C$ 點坐標。',
+    answer: '(3,-3); $3\\sqrt2$; (-3,3); (-2,13)',
+    hasImage: false,
+  },
+  {
+    id: '18a78728b3d',
+    chapter: '平面向量',
+    question: '平面上有菱形 $ABCD$，若 $A(1,7)$、$B(2,k)$、$C(11,3)$，求 $k$、$D$ 點坐標。',
+    answer: '-5; (10,15)',
+    hasImage: false,
+  },
+  {
+    id: '18a78742abe',
+    chapter: '平面向量',
+    question:
+      '平行四邊形 $ABCD$，用頂點連成的向量表示：\n(1) $\\xvector{AB}+\\xvector{AD}$\n(2) $\\xvector{AB}-\\xvector{AD}$\n(3) $\\xvector{AB}+\\xvector{CD}$',
+    answer: '(1) $\\xvector{AC}$ (2) $\\xvector{DB}$ (3) $\\vector0$',
+    hasImage: false,
+  },
+  {
+    id: '18a78756601',
+    chapter: '平面向量',
+    question:
+      '平面上點 $A(-4,7)$，原點為 $O$，若 $\\xvector{AB}+\\xvector{BC}+\\xvector{CD}=\\xvector{OA}$，求 $D$ 點坐標。',
+    answer: '(-8,14)',
+    hasImage: false,
+  },
+  {
+    id: '18a78765b18',
+    chapter: '平面向量',
+    question:
+      '平面向量 $\\vector a=(4,-1)$，$\\vector b=(-2,9)$，試求：\n(1) $\\vector a+\\vector b$\n(2) $\\vector a-\\vector b$',
+    answer: '(1) (2,8) (2) (6,-10)',
+    hasImage: false,
+  },
+  {
+    id: '18a7878a8c6',
+    chapter: '平面向量',
+    question:
+      '平面上 $A(3,-2)$、$B(1,5)$、$C(-4,-6)$ 三點，試求：\n(1) $\\xvector{AB}+\\xvector{CB}$\n(2) 兩點 $P,Q$，求 $\\xvector{AP}+\\xvector{PQ}+\\xvector{QB}+\\xvector{BC}$\n(3) 若 $O$ 為原點，$\\xvector{OP}=\\xvector{AB}-\\xvector{AC}$，求 $P$ 坐標',
+    answer: '(1) (3,18) (2) (-7,-4) (3) (5,11)',
+    hasImage: false,
+  },
+  {
     id: '18585330381',
     chapter: '平面向量',
     question:
@@ -22136,6 +22264,13 @@ const planeVector: Question[] = [
     question:
       '設 $\\xvector{OA}=(6,x)$，$\\xvector{OB}=(4,3)$，$\\xvector{OC}=(x,9)$，若 $A$、$B$、$C$ 三點共線，求實數 $x$。',
     answer: '$0$ 或 $7$',
+    hasImage: false,
+  },
+  {
+    id: '18a787be89d',
+    chapter: '平面向量',
+    question: '設 $A(2,-3)$，$B(-1,2)$，求向量長度 $|\\xvector{AB}|$。',
+    answer: '$\\sqrt{34}$',
     hasImage: false,
   },
   {
