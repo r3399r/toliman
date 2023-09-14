@@ -20697,15 +20697,14 @@ const expAndLogFunction: Question[] = [
     id: '17add025b6b',
     chapter: '指數與對數函數',
     question:
-      '設指數函數 $f(x)=\\left(\\frac{16}{81}\\right)^x$，求：\n(1) $f(-1)$ (2) $f\\left(\\frac{1}{4}\\right)$ (3) $f\\left(f\\left(-\\frac{1}{4}\\right)\\right)$',
+      '設指數函數 $f(x)=(\\dfrac{16}{81})^x$，求：\n(1) $f(-1)$　　(2) $f(\\dfrac14)$　　(3) $f(f(-\\dfrac14))$',
     answer: '(1) $\\frac{81}{16}$ (2) $\\frac{2}{3}$ (3) $\\frac{64}{729}$',
     hasImage: false,
   },
   {
     id: '17add067cad',
     chapter: '指數與對數函數',
-    question:
-      '設 $f(x)=4^x$，$g(x)=9^x$，求：\n(1) $g\\left(f\\left(\\frac{1}{2}\\right)\\right)$ (2) $f\\left(g\\left(\\frac{1}{2}\\right)\\right)$ ',
+    question: '設 $f(x)=4^x$，$g(x)=9^x$，求：\n(1) $g(f(\\dfrac12))$　　(2) $f(g(\\dfrac12))$ ',
     answer: '(1) $81$ (2) $64$',
     hasImage: false,
   },
@@ -20789,14 +20788,14 @@ const expAndLogFunction: Question[] = [
     id: '17adeb7859b',
     chapter: '指數與對數函數',
     question: '方程式 $2^x=x+6$ 共有幾個相異實根？這些相異實根各介於哪些連續整數之間？',
-    answer: '$2$；$-6\\sim-5$、$3\\sim4$',
+    answer: '2; -6~5、3~4',
     hasImage: false,
   },
   {
     id: '17adeb9bb40',
     chapter: '指數與對數函數',
     question: '試問方程式 $2^x+x=0$ 有幾個實根？介於哪兩個連續整數之間？',
-    answer: '$1$；$-1\\sim0$',
+    answer: '1; -1~0',
     hasImage: false,
   },
   {
@@ -20844,7 +20843,7 @@ const expAndLogFunction: Question[] = [
   {
     id: '17ae0cf60fe',
     chapter: '指數與對數函數',
-    question: '若 $\\frac{4^x}{32}<8\\sqrt{2}<\\frac{1}{128^{-x}}$，求 $x$ 的範圍。',
+    question: '若 $\\dfrac{4^x}{32}<8\\sqrt{2}<\\dfrac{1}{128^{-x}}$，求 $x$ 的範圍。',
     answer: '$\\frac{1}{2}<x<\\frac{17}{4}$',
     hasImage: false,
   },
@@ -20852,7 +20851,7 @@ const expAndLogFunction: Question[] = [
     id: '17ae0d2130e',
     chapter: '指數與對數函數',
     question:
-      '(1) 若 $\\frac{1}{16}<\\left(\\frac{1}{2}\\right)^{2x+3}<8$，求 $x$ 的範圍。\n(2) 若 $0.01^{2x-1}>0.001^x$，求 $x$ 的範圍。',
+      '(1) 若 $\\dfrac{1}{16}<(\\dfrac{1}{2})^{2x+3}<8$，求 $x$ 的範圍。\n(2) 若 $0.01^{2x-1}>0.001^x$，求 $x$ 的範圍。',
     answer: '(1) $\\frac{1}{2}>x>-3$ (2) $x<2$',
     hasImage: false,
   },
@@ -20874,7 +20873,7 @@ const expAndLogFunction: Question[] = [
     id: '17ae0d78968',
     chapter: '指數與對數函數',
     question:
-      '設某病毒入侵宿主後，病毒的數量每經過 $1$ 日會增加 $a$ 倍，已知 $3$ 日後病毒數為 $200000$，$4\\frac{1}{2}$ 日後病毒數為 $1600000$，求：\n(1) $a$ (2) $\\frac{3}{2}$ 日後的病毒數',
+      '設某病毒入侵宿主後，病毒的數量每經過 1 日會增加 $a$ 倍，已知 3 日後病毒數為 200000，$4\\dfrac{1}{2}$ 日後病毒數為 1600000，求：\n(1) $a$ (2) $\\dfrac{3}{2}$ 日後的病毒數',
     answer: '(1) $3$ (2) $25000$',
     hasImage: false,
   },
@@ -20882,7 +20881,7 @@ const expAndLogFunction: Question[] = [
     id: '17ae0dc978e',
     chapter: '指數與對數函數',
     question:
-      '某實驗的細菌原有數目為 $N$ 個，經過 $x$ 天後細菌數成長為 $N\\cdot a^x$ 個。已知 $2$ 天後細菌數為 $5\\cdot10^5$ 個，$5$ 天後細菌數為 $4\\cdot10^6$ 個，下列敘述哪些正確？\n(1) $N$ 的值為 $12500$\n(2) $a$ 的值為 $2$\n(3) $8$ 天後的細菌數為 $3.2\\cdot10^7$\n(4) $8$ 天後的細菌數為 $4$ 天後細菌數的 $8$ 倍\n(5) 細菌數由原來的 $N$ 變成 $1.28\\cdot10^8$ 需要 $12$ 天',
+      '某實驗的細菌原有數目為 $N$ 個，經過 $x$ 天後細菌數成長為 $N\\cdot a^x$ 個。已知 2 天後細菌數為 $5\\cdot10^5$ 個，5 天後細菌數為 $4\\cdot10^6$ 個，下列敘述哪些正確？\n(1) $N$ 的值為 12500\n(2) $a$ 的值為 2\n(3) 8 天後的細菌數為 $3.2\\cdot10^7$\n(4) $8$ 天後的細菌數為 4 天後細菌數的 8 倍\n(5) 細菌數由 $N$ 變成 $1.28\\cdot10^8$ 需 12 天',
     answer: '(2)(3)',
     hasImage: false,
   },
@@ -20897,7 +20896,7 @@ const expAndLogFunction: Question[] = [
     id: '17ae5f45610',
     chapter: '指數與對數函數',
     question:
-      '(1) $10^{\\log2+\\log3}=$\n　\n(2) $10^{3\\log2}$=\n　\n(3) $1000^{\\log5}=$\n　\n(4) $\\left(\\frac{1}{1000}\\right)^{\\log7}=$',
+      '(1) $10^{\\log2+\\log3}=$\n　\n(2) $10^{3\\log2}$=\n　\n(3) $1000^{\\log5}=$\n　\n(4) $(\\dfrac1{1000})^{\\log7}=$',
     answer: '(1) $6$ (2) $8$ (3) $125$ (4) $\\frac{1}{343}$',
     hasImage: false,
   },
@@ -20928,7 +20927,7 @@ const expAndLogFunction: Question[] = [
     id: '17ae60099ab',
     chapter: '指數與對數函數',
     question:
-      '若 $\\log a=-4.38$，$\\log b=3.74$，$\\log c=5.12$，求：(1) $\\log1000a^5$ (2) $\\frac{b}{ac}$',
+      '若 $\\log a=-4.38$，$\\log b=3.74$，$\\log c=5.12$，求：(1) $\\log1000a^5$ (2) $\\dfrac{b}{ac}$',
     answer: '(1) $-18.9$ (2) $1000$',
     hasImage: false,
   },
@@ -20952,7 +20951,7 @@ const expAndLogFunction: Question[] = [
     id: '17ae61ed92d',
     chapter: '指數與對數函數',
     question:
-      '設 $x,y>0$ 滿足 $\\log_9x=-\\frac{1}{2}$，$\\log_8y=\\frac{2}{3}$，試化簡 $\\log_\\sqrt{7}(27x+10y)$。',
+      '設 $x,y>0$ 滿足 $\\log_9x=-\\dfrac{1}{2}$，$\\log_8y=\\dfrac{2}{3}$，試化簡 $\\log_\\sqrt{7}(27x+10y)$。',
     answer: '$4$',
     hasImage: false,
   },
@@ -20996,14 +20995,14 @@ const expAndLogFunction: Question[] = [
     id: '17ae6a3c867',
     chapter: '指數與對數函數',
     question:
-      '求 $\\log_\\sqrt{10}\\frac{7}{36}+\\log_\\sqrt{10}32-\\log_\\sqrt{10}\\frac{14}{25}$+\\log_\\sqrt{10}9。',
+      '求 $\\log_\\sqrt{10}\\dfrac{7}{36}+\\log_\\sqrt{10}32-\\log_\\sqrt{10}\\dfrac{14}{25}+\\log_\\sqrt{10}9$',
     answer: '$4$',
     hasImage: false,
   },
   {
     id: '17ae6a53e50',
     chapter: '指數與對數函數',
-    question: '求 $\\log\\frac{50}{9}-\\log\\frac{3}{70}+\\log\\frac{27}{35}。',
+    question: '求 $\\log\\dfrac{50}{9}-\\log\\dfrac{3}{70}+\\log\\dfrac{27}{35}$',
     answer: '$2$',
     hasImage: false,
   },
@@ -21011,14 +21010,14 @@ const expAndLogFunction: Question[] = [
     id: '17ae6a666b5',
     chapter: '指數與對數函數',
     question:
-      '若 $\\log_4\\sqrt{3}+\\log_881+\\log_\\frac{1}{16}27$+\\log_\\sqrt{2}\\sqrt[5]{9}=k\\log_23$，求 $k$。',
+      '若 $\\log_4\\sqrt{3}+\\log_881+\\log_\\frac{1}{16}27+\\log_\\sqrt{2}\\sqrt[5]{9}$$=k\\log_23$，求 $k$。',
     answer: '$\\frac{49}{30}$',
     hasImage: false,
   },
   {
     id: '17ae6a775db',
     chapter: '指數與對數函數',
-    question: '若 $\\log_{25}27+\\log_\\sqrt{5}9+\\log_{125}81$=k\\log_53$，求 $k$。',
+    question: '若 $\\log_{25}27+\\log_\\sqrt{5}9+\\log_{125}81$$=k\\log_53$，求 $k$。',
     answer: '$\\frac{41}{6}$',
     hasImage: false,
   },
@@ -21026,14 +21025,14 @@ const expAndLogFunction: Question[] = [
     id: '17ae6a8e308',
     chapter: '指數與對數函數',
     question:
-      '$3\\log_2\\frac{3}{7}+2\\log_2\\frac{14}{5}-\\log_\\sqrt{2}\\frac{3}{5}+\\log_4\\frac{196}{9}$。',
+      '$3\\log_2\\dfrac{3}{7}+2\\log_2\\dfrac{14}{5}-\\log_\\sqrt{2}\\dfrac{3}{5}+\\log_4\\dfrac{196}{9}$。',
     answer: '$3$',
     hasImage: false,
   },
   {
     id: '17ae6aa7a42',
     chapter: '指數與對數函數',
-    question: '求 $2\\log_3\\frac{6}{5}+4\\log_3\\frac{15}{2}-\\log_3\\frac{25}{4}$。',
+    question: '求 $2\\log_3\\dfrac{6}{5}+4\\log_3\\dfrac{15}{2}-\\log_3\\dfrac{25}{4}$。',
     answer: '$6$',
     hasImage: false,
   },
@@ -21048,7 +21047,7 @@ const expAndLogFunction: Question[] = [
     id: '17ae6adeca9',
     chapter: '指數與對數函數',
     question:
-      '求 $(\\log_52+\\log_{125}8)\\cdot(\\log_43+\\log_\\sqrt{2}27)\\cdot$(\\log_30.2+\\log_95)$。',
+      '求 $(\\log_52+\\log_{125}8)\\cdot(\\log_43+\\log_\\sqrt{2}27)\\cdot$$(\\log_30.2+\\log_95)$。',
     answer: '$-\\frac{13}{2}$',
     hasImage: false,
   },
@@ -21289,7 +21288,7 @@ const expAndLogFunction: Question[] = [
   {
     id: '17aeb3ec4f6',
     chapter: '指數與對數函數',
-    question: '設 $x>0$，求 $f(x)=\\log x\\cdot\\log\\frac{10000}{x}$ 的最大值，及此時的 $x$。',
+    question: '設 $x>0$，求 $f(x)=\\log x\\cdot\\log\\dfrac{10000}{x}$ 的最大值，及此時的 $x$。',
     answer: '$4$；$100$',
     hasImage: false,
   },
@@ -21304,7 +21303,7 @@ const expAndLogFunction: Question[] = [
     id: '17aeb44ce8e',
     chapter: '指數與對數函數',
     question:
-      '聲音的分貝 $dB$ 是以發聲體的強度 $I$ 來計算，強度 $I$ 換算成分貝 $dB$ 的公式為 $dB(I)=10\\cdot\\log\\frac{I}{10^{-12}}$。已知一隻狂吠的狗可測得音量為 $70$ 分貝，若有四十隻狗同時狂吠，則音量可達幾分貝？($\\log2\\approx0.3$)',
+      '聲音的分貝 $dB$ 是以發聲體的強度 $I$ 來計算，強度 $I$ 換算成分貝 $dB$ 的公式為 $dB(I)=10\\cdot\\log\\dfrac{I}{10^{-12}}$。已知一隻狂吠的狗可測得音量為 $70$ 分貝，若有四十隻狗同時狂吠，則音量可達幾分貝？($\\log2\\approx0.3$)',
     answer: '$86$',
     hasImage: false,
   },
