@@ -19782,6 +19782,96 @@ const trigonometricFuncB: Question[] = [
 // 指數與對數函數
 const expAndLogFunction: Question[] = [
   {
+    id: '18a9c7c8e85',
+    chapter: '指數與對數函數',
+    question: '方程式 $x^2=(\\dfrac12)^x$ 有幾個實數解？',
+    answer: '3',
+    hasImage: false,
+  },
+  {
+    id: '18a9c7bee91',
+    chapter: '指數與對數函數',
+    question: '方程式 $2-x=2^x$ 的實根有幾個？',
+    answer: '1',
+    hasImage: false,
+  },
+  {
+    id: '18a9c7b5aa1',
+    chapter: '指數與對數函數',
+    question:
+      '下列哪些圖形對稱於 $x$ 軸？\n(1) $y=2^x,y=2^{-x}$\n(2) $y=2^x,y=-2^x$\n(3) $2x-y+1=0,2x+y+1=0$\n(4) $y=x^2+x-1,y=x^2-x-1$',
+    answer: '(2)(3)',
+    hasImage: false,
+  },
+  {
+    id: '18a9c79c8d7',
+    chapter: '指數與對數函數',
+    question: '作圖：$y=|2^x-1|$',
+    answer: '略',
+    hasImage: false,
+  },
+  {
+    id: '18a9c796cde',
+    chapter: '指數與對數函數',
+    question: '作圖：$y=-(\\dfrac12)^{|x|}$',
+    answer: '略',
+    hasImage: false,
+  },
+  {
+    id: '18a9c786fb7',
+    chapter: '指數與對數函數',
+    question: '作圖：$y=-2^{-x}$',
+    answer: '略',
+    hasImage: false,
+  },
+  {
+    id: '18a9c7796ff',
+    chapter: '指數與對數函數',
+    question:
+      '函數 $f(x)=(4^x+4^{-x})+(2^x+2^{-x})+5$，$x$ 為實數，當 $x$ 為何時，$f(x)$ 有最小值？其值為？',
+    answer: '0; 9',
+    hasImage: false,
+  },
+  {
+    id: '18a9c759c83',
+    chapter: '指數與對數函數',
+    question: '若 $f(x)=-3\\cdot4^x+2^{x+2}$，且 $-1\\le x\\le0$，求 $f(x)$ 的最大值及最小值。',
+    answer: '$\\frac43$, 1',
+    hasImage: false,
+  },
+  {
+    id: '18a9c72ea4d',
+    chapter: '指數與對數函數',
+    question:
+      '設 $a,b,n$ 為實數，$x>0$，函數 $f(x)=ax^n+b$，已知 $f(2)=17$，$f(4)=77$，$f(8)=377$，試問 $n$ 介於哪兩個連續整數之間。',
+    answer: '2~3',
+    hasImage: false,
+  },
+  {
+    id: '18a9c7132ae',
+    chapter: '指數與對數函數',
+    question:
+      '設 $f(x)=2^x-2^{-x}$，試求 $f(0)$、$f(3)$、$f(-3)$、$f(\\dfrac12)$、$f(-\\dfrac32)$。',
+    answer: '0, $\\frac{63}8$, $-\\frac{63}8$, $\\frac{\\sqrt2}2$, $-\\frac{7\\sqrt2}4$',
+    hasImage: false,
+  },
+  {
+    id: '18a9c6e95d8',
+    chapter: '指數與對數函數',
+    question:
+      '設 $f(x)=a^x$，$a>0$ 且 $a\\neq1$，若 $f(-\\dfrac23)=5$，求：\n(1) $f(\\dfrac43)$\n(2) 函數值 $f(99)$ 是 $f(101)$ 的幾倍？',
+    answer: '(1) $\\frac1{25}$ (2) 125',
+    hasImage: false,
+  },
+  {
+    id: '18a9c7428d4',
+    chapter: '指數與對數函數',
+    question:
+      '設 $f(x)=\\dfrac{2^x+2^{-x}}{2^x-2^{-x}}$，$x\\ne0$，若 $f(a)=2$，$f(b)=3$，求 $f(a+b)$。',
+    answer: '$\\frac75$',
+    hasImage: false,
+  },
+  {
     id: '1858529fd82',
     chapter: '指數與對數函數',
     question:
@@ -21407,6 +21497,103 @@ const expAndLogFunction: Question[] = [
 
 // 平面向量
 const planeVector: Question[] = [
+  {
+    id: '18a9d6268b4',
+    chapter: '平面向量',
+    question:
+      '已知 $\\begin{cases}2\\vector x+3\\vector y=\\vector u\\\\\\vector x-5\\vector y=\\vector v\\end{cases}$，請用 $\\vector u$、$\\vector v$ 表示 $\\vector x$、$\\vector y$。',
+    answer:
+      '$\\vector x=\\frac5{13}\\vector u+\\frac3{13}\\vector v$; $\\vector y=\\frac1{13}\\vector u-\\frac2{13}\\vector v$',
+    hasImage: false,
+  },
+  {
+    id: '18a9d5856bb',
+    chapter: '平面向量',
+    question:
+      '已知 $3(5,-20)+2\\vector x=5(0,-3)$$-5[2\\vector x+(9,7)]$，利用移項求 $\\vector x$。',
+    answer: '$(-5,\\frac56)$',
+    hasImage: false,
+  },
+  {
+    id: '18a9d57786f',
+    chapter: '平面向量',
+    question:
+      '設 $\\vector a=(2,-1)$，$\\vector b=(-5,3)$，若 $\\vector u$ 與 $\\vector v$ 滿足 $\\vector u-2\\vector v=3\\vector a$，$-\\vector u+3\\vector v=2\\vector b$，求 $\\vector u$、$\\vector v$。',
+    answer: '(-2, 3); (-4, 3)',
+    hasImage: false,
+  },
+  {
+    id: '18a9d557508',
+    chapter: '平面向量',
+    question:
+      '若 $5(-2\\vector x+3\\vector a)-4\\vector b$$=-\\vector x-2(6\\vector a-\\vector b+3\\vector x)$，請用 $\\vector a$、$\\vector b$ 表示 $\\vector x$。',
+    answer: '$9\\vector a+13\\vector b$',
+    hasImage: false,
+  },
+  {
+    id: '18a9d53de65',
+    chapter: '平面向量',
+    question:
+      '化簡 $2\\vector a+3(-\\vector a+\\vector b)-2(4\\vector a-5\\vector b)$$=x\\vector a+y\\vector b$，求 $x,y$。',
+    answer: '-9; 13',
+    hasImage: false,
+  },
+  {
+    id: '18a9d52d8eb',
+    chapter: '平面向量',
+    question:
+      '坐標平面上有 $\\xvector{AB}=(7,-1)$，$\\xvector{AD}=(3,2)$，$\\xvector{CD}=(5,-3)$，求 $\\xvector{DB}$、$\\xvector{BC}$。',
+    answer: '(4, -3); (-9, 6)',
+    hasImage: false,
+  },
+  {
+    id: '18a9d51a85c',
+    chapter: '平面向量',
+    question:
+      '設 $\\xvector{AB}=(2,1)$，$\\xvector{AC}=x(2,-1)$ 且 $x>0$，若 $\\triangle ABC$ 的周長為 $4\\sqrt5$，求 $x$。',
+    answer: '$\\frac53$',
+    hasImage: false,
+  },
+  {
+    id: '18a9d506a89',
+    chapter: '平面向量',
+    question:
+      '已知 $\\vector a=(2,1)$，$\\vector b=(3,-1)$，求 $|\\vector a+t\\vector b|$ 在 $t$ 為何時有最小值？其值為？',
+    answer: '$-\\frac12$; $\\frac{\\sqrt{10}}2$',
+    hasImage: false,
+  },
+  {
+    id: '18a9d4f520e',
+    chapter: '平面向量',
+    question:
+      '已知 $\\vector a=(1,2)$，$\\vector b=(x,-2)$，若 $\\vector a+2\\vector b$ 與 $2\\vector a-\\vector b$ 平行，求 $x$。',
+    answer: '-1',
+    hasImage: false,
+  },
+  {
+    id: '18a9d4d69c8',
+    chapter: '平面向量',
+    question:
+      '設 $\\vector a=(2,1)$，$\\vector b=(1,-2)$，$\\vector c=(1,3)$，若 $\\vector c\\parallel(\\vector a+t\\vector b)$，求 $t$。',
+    answer: '-1',
+    hasImage: false,
+  },
+  {
+    id: '18a9d4b8133',
+    chapter: '平面向量',
+    question:
+      '已知 $\\vector a=(5,-12)$，求：\n(1) 與 $\\vector a$ 同向的單位向量\n(2) 與 $\\vector a$ 平行且長為 26 的向量',
+    answer: '(1) $(\\frac5{13},-\\frac{12}{13})$ (2) $\\pm(10,24)$',
+    hasImage: false,
+  },
+  {
+    id: '18a9d490b64',
+    chapter: '平面向量',
+    question:
+      '平面上點 $A(4,-5)$、$B(-9,-7)$、$C(3,-1)$，\n(1) 求 $2\\xvector{AB}-5\\xvector{AC}$\n(2) 若 $2\\xvector{BC}=3\\xvector{AD}$，求 $D$ 點坐標',
+    answer: '(1) (-21,-24) (2) (12, -1)',
+    hasImage: false,
+  },
   {
     id: '18a786f0e6d',
     chapter: '平面向量',
