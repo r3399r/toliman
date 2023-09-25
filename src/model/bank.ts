@@ -22441,7 +22441,7 @@ const planeVector: Question[] = [
     chapter: '平面向量',
     question:
       '已知 $\\vector a=(2,6)$，$\\vector b=(-1,2)$，求 $|t\\vector a+\\vector b|$ 的最小值及此時的 $t$。',
-    answer: '$-\\frac14$；$\\frac{\\sqrt{10}}2$',
+    answer: '$\\frac{\\sqrt{10}}2$; $-\\frac14$',
     hasImage: false,
   },
   {
@@ -22463,8 +22463,8 @@ const planeVector: Question[] = [
     id: '17cf6362743',
     chapter: '平面向量',
     question:
-      '$x,y\\in\\mathbb R$，$A$、$B$、$C$ 為不共線的三點，已知 $(2x-y-7)\\xvector{AB}+(x+y+1)\\xvector{AC}=\\vector0$，求數對 $(x,y)$。',
-    answer: '$(2,-3)$',
+      '設 $x,y$ 為實數，$A$、$B$、$C$ 為不共線的三點，已知 $(2x-y-7)\\xvector{AB}+(x+y+1)\\xvector{AC}=\\vector0$，求數對 $(x,y)$。',
+    answer: '(2,-3)',
     hasImage: false,
   },
   {
@@ -22504,7 +22504,7 @@ const planeVector: Question[] = [
     chapter: '平面向量',
     question:
       '設 $\\vector a=(1,1)$，$\\vector b=(2,3)$，$\\vector c=(5,6)$，若實數 $x$、$y$ 滿足 $\\vector c=x\\vector a+y\\vector b$，求數對 $(x,y)$。',
-    answer: '$(3,1)$',
+    answer: '(3,1)',
     hasImage: false,
   },
   {
@@ -22527,7 +22527,7 @@ const planeVector: Question[] = [
     chapter: '平面向量',
     question:
       '設 $\\xvector{AB}=(2,-3)$，$\\xvector{BC}=(-1,5)$。若 $A(1,2)$ 且 $\\xvector{AP}=3\\xvector{AB}-2\\xvector{CB}$，求 $P$。',
-    answer: '$(5,3)$',
+    answer: '(5,3)',
     hasImage: false,
   },
   {
