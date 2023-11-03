@@ -160,42 +160,16 @@ const C3S2InnerProductOfVector = () => (
     <Page pageNum={31}>
       <Example num={18} ids={['17c70160fae', '17c701670d0']} />
       <Concept num={5} title="外心與垂心">
-        <div className={style.conceptHead}>外心</div>
-        <img
-          style={{ float: 'right', width: '4cm' }}
-          alt=""
-          role="presentation"
-          src="/toliman/images/外心.PNG"
-        />
-        <div>
-          {
-            '外心為三角形的三條　　　　交點，常用 $O$ 作為代號，利用內積的圖形意義，地板長乘影子長，可得到如下關係：'
-          }
-        </div>
-        <div>
-          {
-            '$\\begin{cases}\\xvector{AO}\\cdot\\xvector{AB}=\\dfrac12|\\xvector{AB}|^2\\\\\\xvector{AO}\\cdot\\xvector{AC}=\\dfrac12|\\xvector{AC}|^2\\end{cases}$'
-          }
-        </div>
+        <div className={style.conceptHead}>外心 O</div>
         <br />
         <br />
-        <div className={style.conceptHead}>垂心</div>
-        <img
-          style={{ float: 'right', width: '4cm' }}
-          alt=""
-          role="presentation"
-          src="/toliman/images/垂心.PNG"
-        />
-        <div>
-          {
-            '垂心為三角形的三條　　　　交點，常用 $H$ 作為代號，利用內積的圖形意義，地板長乘影子長，可得到如下關係：'
-          }
-        </div>
-        <div>
-          {
-            '$\\xvector{AH}\\cdot\\xvector{AB}=\\xvector{AH}\\cdot\\xvector{AC}=\\xvector{AB}\\cdot\\xvector{AC}$'
-          }
-        </div>
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <div className={style.conceptHead}>垂心 H</div>
       </Concept>
     </Page>
     <Page pageNum={32}>
