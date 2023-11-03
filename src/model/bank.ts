@@ -23243,7 +23243,7 @@ const planeVector: Question[] = [
     id: '17c70160fae',
     chapter: '平面向量',
     question:
-      '設 $x,y>0$，且 $2x+3y=14$，求 $\\frac{8}{x}+\\frac{3}{y}$ 的最小值及此時數對 $(x,y)$。',
+      '設 $x,y>0$，且 $2x+3y=14$，求 $\\dfrac{8}{x}+\\dfrac{3}{y}$ 的最小值及此時數對 $(x,y)$。',
     answer: '$\\frac{7}{2}$；$(4,2)$',
     hasImage: false,
   },
@@ -23251,7 +23251,7 @@ const planeVector: Question[] = [
     id: '17c701670d0',
     chapter: '平面向量',
     question:
-      '設 $x,y>0$，且 $x+2y=8$，求 $\\frac{9}{x}+\\frac{2}{y}$ 的最小值及此時數對 $(x,y)$。',
+      '設 $x,y>0$，且 $x+2y=8$，求 $\\dfrac{9}{x}+\\dfrac{2}{y}$ 的最小值及此時數對 $(x,y)$。',
     answer: '$\\frac{25}{8}$；$(\\frac{24}{5},\\frac{8}{5})$',
     hasImage: false,
   },

@@ -182,7 +182,6 @@ const C3S1BasicOfVectorB = () => (
         <br />
         <br />
         <br />
-        <br />
         <div className={style.conceptHead}>共線定理</div>
         <div>
           {
