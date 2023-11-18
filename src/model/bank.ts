@@ -19451,7 +19451,7 @@ const trigonometricFuncB: Question[] = [
     id: '18a0c34baf6',
     chapter: '三角函數B',
     question:
-      '設 $\\theta$ 與 -55 弳為同界角，且 $0\\le\\theta2\\le\\pi$，求 $\\theta$。(以弳度表示)',
+      '設 $\\theta$ 與 -55 弳為同界角，且 $0\\le\\theta\\le2\\pi$，求 $\\theta$。(以弳度表示)',
     answer: '$-55+18\\pi$',
     hasImage: false,
   },
@@ -19611,7 +19611,7 @@ const trigonometricFuncB: Question[] = [
     id: '183d7601b38',
     chapter: '三角函數B',
     question:
-      "有一函數 $f(x)=\\sin x$，若將函數 $f(x)$ 先向右平移 $\\dfrac12$ 單位，再水平伸縮 2 倍，得到 $f'(x)$，則 $f(x)$ 所表示的函數為何？\n(1) $f'(x)=\\sin\\dfrac12(x-\\dfrac12)$　(2) $f'(x)=2\\sin(x+\\dfrac12)$　(3) $f'(x)=\\dfrac12\\sin(x+\\dfrac12)$\n(4) $f'(x)=\\sin(\\dfrac x2-\\dfrac12)$　(5) $f'(x)=\\sin(\\dfrac x2-\\dfrac14)$",
+      "有一函數 $f(x)=\\sin x$，若將函數 $f(x)$ 先向右平移 $\\dfrac12$ 單位，再水平伸縮 2 倍，得到 $f'(x)$，則 $f(x)$ 所表示的函數為何？\n(1) $f'(x)=\\sin\\dfrac12(x-\\dfrac12)$\n(2) $f'(x)=2\\sin(x+\\dfrac12)$\n(3) $f'(x)=\\dfrac12\\sin(x+\\dfrac12)$\n(4) $f'(x)=\\sin(\\dfrac x2-\\dfrac12)$\n(5) $f'(x)=\\sin(\\dfrac x2-\\dfrac14)$",
     answer: '4',
     hasImage: false,
   },
@@ -19642,7 +19642,7 @@ const trigonometricFuncB: Question[] = [
     id: '17c58f1f7d6',
     chapter: '三角函數B',
     question:
-      '已知 $\\frac{\\pi}{6}\\le x\\le\\pi$，函數 $f(x)=\\sin(x+\\frac{\\pi}{2})$ 的最大值為 $M$，最小值為 $m$，求數對 $(M,m)$。',
+      '已知 $\\dfrac{\\pi}{6}\\le x\\le\\pi$，函數 $f(x)=\\sin(x+\\dfrac{\\pi}{2})$ 的最大值為 $M$，最小值為 $m$，求數對 $(M,m)$。',
     answer: '$(\\frac{\\sqrt{3}}{2},-1)$',
     hasImage: false,
   },
@@ -19657,7 +19657,7 @@ const trigonometricFuncB: Question[] = [
     id: '17c58f40c80',
     chapter: '三角函數B',
     question:
-      '若 $0<\\phi<\\pi$，且函數 $f(x)=2\\sin(\\frac{\\pi}{3}x+\\phi)$ 的圖形通過 $(0,\\sqrt{3})$，求 $\\phi$。',
+      '若 $0<\\phi<\\pi$，且函數 $f(x)=2\\sin(\\dfrac{\\pi}{3}x+\\phi)$ 的圖形通過 $(0,\\sqrt{3})$，求 $\\phi$。',
     answer: '$\\frac{\\pi}{3}$',
     hasImage: false,
   },
@@ -19665,7 +19665,7 @@ const trigonometricFuncB: Question[] = [
     id: '17c58f561f1',
     chapter: '三角函數B',
     question:
-      '將函數 $y=\\sin2x$ 的圖形上所有的點向右平移 $\\frac{\\pi}{3}$，得到新的函數圖形方程式為 $y=\\sin(2x-k)$，$0\\le k\\le\\pi$，求 $k$。',
+      '將函數 $y=\\sin2x$ 的圖形上所有的點向右平移 $\\dfrac{\\pi}{3}$，得到新的函數圖形方程式為 $y=\\sin(2x-k)$，$0\\le k\\le\\pi$，求 $k$。',
     answer: '$\\frac{2\\pi}{3}$',
     hasImage: false,
   },
@@ -19741,7 +19741,7 @@ const trigonometricFuncB: Question[] = [
   {
     id: '17c2143e831',
     chapter: '三角函數B',
-    question: '試求 $\\sin\\frac{\\pi}{2}+\\cos\\frac{\\pi}{3}-\\tan\\frac{5\\pi}{4}$ 之值。',
+    question: '試求 $\\sin\\dfrac{\\pi}{2}+\\cos\\dfrac{\\pi}{3}-\\tan\\dfrac{5\\pi}{4}$ 之值。',
     answer: '$1$',
     hasImage: false,
   },
@@ -20183,7 +20183,8 @@ const expAndLogFunction: Question[] = [
   {
     id: '17d3969462e',
     chapter: '指數與對數函數',
-    question: '$\\pi$ 為圓周率，求指數不等式 $(\\frac3{\\pi})^{2x-1}<(\\frac{\\pi}3)^{2x^2+x+1}$。',
+    question:
+      '$\\pi$ 為圓周率，求指數不等式 $(\\dfrac3{\\pi})^{2x-1}<(\\dfrac{\\pi}3)^{2x^2+x+1}$。',
     answer: '$x<-\\frac32\\lor x>0$',
     hasImage: false,
   },
@@ -20540,7 +20541,7 @@ const expAndLogFunction: Question[] = [
     id: '17bdf3f2411',
     chapter: '指數與對數函數',
     question:
-      '圖為函數 $y=a+\\log_b x$ 之部分圖形，其中 $a,b$ 皆為常數，則下列何者為真？\n(1) $a<0,b>1$ (2) $a>0,b>1$\n(3) $a=0,b>1$ (4) $a>0,0<b<1$\n(5) $a<0,0<b<1$',
+      '圖為函數 $y=a+\\log_b x$ 之部分圖形，其中 a, b 皆為常數，則下列何者為真？\n(1) $a<0,b>1$\n(2) $a>0,b>1$\n(3) $a=0,b>1$\n(4) $a>0,0<b<1$\n(5) $a<0,0<b<1$',
     answer: '(5)',
     hasImage: true,
   },
@@ -23683,7 +23684,7 @@ const planeVector: Question[] = [
     id: '17c4585c46f',
     chapter: '三角函數B',
     question:
-      '已知函數 $y=a\\sin x+b$，其中 $a>0$，若函數的最大值為 $\\frac{3}{2}$，最小值為 $-\\frac{1}{2}$，求數對 $(a,b)$。',
+      '已知函數 $y=a\\sin x+b$，其中 $a>0$，若函數的最大值為 $\\dfrac{3}{2}$，最小值為 $-\\dfrac{1}{2}$，求數對 $(a,b)$。',
     answer: '$(1,\\frac{1}{2})$',
     hasImage: false,
   },
