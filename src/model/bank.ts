@@ -4357,7 +4357,7 @@ const expAndLog: Question[] = [
     id: '17ca91820bd',
     chapter: '指數對數',
     question: '方程式 $-x+2=\\log_\\frac12x$ 有多少個實根？',
-    answer: '$3$ 個',
+    answer: '2',
     hasImage: false,
   },
   {
@@ -5282,7 +5282,7 @@ const polynomial: Question[] = [
     id: '182c519bad9',
     chapter: '多項式函數',
     question:
-      '若 $f(x)=2x^{3}-4x^{2}-5x+1$$=a(x-2)(x-1)(x+3)$$+b(x-2)(x-1)+c(x-2)+d$，求 $a，b，c，d$。',
+      '若 $f(x)=2x^3-4x^2-5x+1$$=a(x-2)(x-1)(x+3)$$+b(x-2)(x-1)+c(x-2)+d$，求 $a，b，c，d$。',
     answer: '$2$；$-4$；$-3$；$-9$',
     hasImage: false,
   },
