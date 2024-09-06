@@ -31732,7 +31732,7 @@ const advancedA: Question[] = [
     chapter: '選修數甲',
     question:
       '若 $\\displaystyle\\int_2^5 f(x)\\text dx=3$，$\\displaystyle\\int_0^5 f(x)\\text dx=7$，求 $\\displaystyle\\int_2^0 6f(x)\\text dx$。',
-    answer: '$-7$',
+    answer: '$-24$',
     hasImage: false,
   },
   {
@@ -31884,14 +31884,14 @@ const advancedA: Question[] = [
     id: '17ca06e8cdb',
     chapter: '選修數甲',
     question: '求兩曲線 $y=x^2$ 與 $y=x^3+2x^2-2x$ 所圍的區域面積。',
-    answer: '$\\frac98$',
+    answer: '$\\frac{37}{12}$',
     hasImage: true,
   },
   {
     id: '17ca06ec135',
     chapter: '選修數甲',
     question: '試求 $y=x^2-1$ 與 $y=-x^2+x$ 所圍成的區域面積。',
-    answer: '$\\frac{37}{12}$',
+    answer: '$\\frac98$',
     hasImage: false,
   },
   {
@@ -32160,7 +32160,7 @@ const advancedA: Question[] = [
     chapter: '選修數甲',
     question:
       '已知 $a\\in\\mathbb{R}$，若 $f(x)=ax^3+3x^2+(a+2)x+6$ 恆為遞減函數，試求 $a$ 的範圍。',
-    answer: '$a\\le3$',
+    answer: '$a\\le-3$',
     hasImage: false,
   },
   {
@@ -32607,8 +32607,8 @@ const limit: Question[] = [
     id: '17baf7ce619',
     chapter: '極限',
     question:
-      '設 $f(x)=\\dfrac{x^2+x-2}{x-1}$，求：\n(1) $f(1)\\quad$ (2) $\\displaystyle\\lim_{x\\to1}f(x)\\quad$ (3) $\\displaystyle\\lim_{x\\to2}f(x)$\n(4) 作 $f(x)$ 的圖形',
-    answer: '(1) 不存在 (2) 3 (3) 4',
+      '設 $f(x)=\\dfrac{x^2+x-2}{x-1}$，求：\n(1) 作 $f(x)$ 的圖形\n(2) $f(1)\\quad$ (3) $\\displaystyle\\lim_{x\\to1}f(x)\\quad$ (4) $\\displaystyle\\lim_{x\\to2}f(x)$',
+    answer: '(2) 不存在 (3) 3 (4) 4',
     hasImage: false,
   },
   {
